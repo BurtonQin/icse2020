@@ -1,0 +1,11 @@
+[package]
+name = "external_calls"
+version = "0.1.0"
+authors = ["Ana Nora Evans <ananevans@gmail.com>"]
+
+[lib]
+name = "external_calls"
+path = "src/lib.rs"
+plugin = true
+
+[dependencies]
