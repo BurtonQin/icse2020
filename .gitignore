@@ -1,3 +1,4 @@
 /target
+/examples/elf2tbf/target/
 **/*.rs.bk
 Cargo.lock
