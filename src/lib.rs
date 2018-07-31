@@ -73,7 +73,7 @@ impl<'a, 'tcx> LateLintPass<'a, 'tcx> for ExternalCalls {
                                 None 
                             }
                         }
-                    },                    
+                     },                    
                     _ => {
                         println!("Not ExprPath {:?}", callee.node);
                         None
@@ -88,20 +88,14 @@ impl<'a, 'tcx> LateLintPass<'a, 'tcx> for ExternalCalls {
                         match arg_expr.node {
                             Expr_::ExprPath(ref qpath) => {
                                 let def = cx.tables.qpath_def(qpath, arg_expr.hir_id);
-                                println!("Expr: {:?}",  expr);
-                                println!("Ps: {:?}",  ps);
-                                println!("Args: {:?}",  args);
-                                println!("Arg qpath {:?}", qpath);
-                                println!("DefI: {:?}",  def);
-                                println!("Local root id {:?}", cx.tables.local_id_root);
-                                match cx.tables.local_id_root {
-                                    Some (did) => {println!("Local root id def path {:?}", cx.tcx.def_path(did));}
-                                    None => {println!("Local root None");}
-                                }
+                                //println!("Expr: {:?}",  expr);
                                 match def {
                                     hir::def::Def::Local(node_id) => {
+                                        //println!("Local(node_id): {:?}", cx.tables.expr_ty_adjusted(&arg_expr));
                                         //Some ((cx.tcx.def_path(def_id), Some(def.kind_name().to_string())))
-                                        Some ((cx.tcx.def_path(def_id), Some(cx.tcx.node_path_str(node_id)))) }
+                                        //TODO
+                                        //Some ((cx.tcx.def_path(def_id), Some(cx.tcx.node_path_str(node_id)))) }
+                                        Some ((cx.tcx.def_path(def_id), Some(cx.tables.expr_ty_adjusted(&arg_expr).to_string()))) }
                                     _ => {println!("arg_expr not not Local {:?}", def.kind_name().to_string()); None} 
                                 }
                             }
@@ -148,7 +142,7 @@ impl<'a, 'tcx> LateLintPass<'a, 'tcx> for ExternalCalls {
                         // TODO print full path
                         match elt.1 {
                             None => { println!("{:?}", elt.0); }
-                            Some (ref arg_expr) => { println!("{:?} {:?}", elt.0, arg_expr); }
+                            Some (ref arg_expr) => { println!("1: {:?}", elt.0);  println!("2: {:?}", arg_expr); }
                                                               //cx.tables.expr_ty(&arg_expr)); }
                         }                        
                         //println!("{:?}", cx.tcx.def_symbol_name(*def_id));
