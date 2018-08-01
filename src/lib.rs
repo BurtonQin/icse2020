@@ -7,28 +7,29 @@
 
 #[macro_use]
 extern crate rustc;
-
 extern crate rustc_plugin;
 extern crate syntax;
 
 use rustc_plugin::Registry;
 
 use rustc::hir;
-use rustc::hir::{Expr, Expr_, Crate, Ty};
+use rustc::hir::{Expr, Expr_, Crate, Ty, print};
 use rustc::hir::def::Def;
 use rustc::hir::def_id::{LOCAL_CRATE, CrateNum, DefId};
 use rustc::hir::map::definitions::DefPath;
+
+use rustc::ty::TypeAndMut;
 
 use rustc::lint::{LateLintPass, LateLintPassObject, LateContext};
 use rustc::lint::{LintPass, LintArray};
 
 use syntax::ptr::P;
-
+use std::fmt;
 
 struct ExternalCalls
 {
     external_crates: Vec<CrateNum>,
-    external_calls: Vec<(DefPath,Option<String>)>,
+    external_calls: Vec<(CrateNum,String)>,
 }
 
 impl ExternalCalls {
@@ -40,10 +41,11 @@ impl ExternalCalls {
         }
     }
 
-    fn add_def_id(&mut self, def_path: DefPath, ty: Option<String>) -> () {
-        let found = self.external_calls.iter().any(|elt| elt.0 == def_path && elt.1 == ty);
+    fn add_call(&mut self, krate: CrateNum, func:String) -> () {
+        self.add_crate(krate);
+        let found = self.external_calls.iter().any(|elt| elt.1 == func);
         if !found {
-            self.external_calls.push((def_path,ty));
+            self.external_calls.push((krate,func));
         }
     }
 
@@ -57,77 +59,82 @@ impl LintPass for ExternalCalls{
 }
 
 impl<'a, 'tcx> LateLintPass<'a, 'tcx> for ExternalCalls {
+    
     fn check_expr(&mut self, cx: &LateContext, expr: &Expr) {
-        let _t = cx.tables.expr_ty(&expr);
-        let maybe_def_id : Option<(DefPath,Option<String>)> = match expr.node {
+        match expr.node {
             Expr_::ExprCall(ref callee, _) => {
                 match callee.node {
                     Expr_::ExprPath(ref qpath) => {
-                        let def = cx.tables.qpath_def(qpath, callee.hir_id);                        
-                        match def {
-                            Def::Fn(def_id) => { Some ((cx.tcx.def_path(def_id),None)) }
-                            Def::Method(def_id) => { Some ((cx.tcx.def_path(def_id),None)) }
-                            Def::VariantCtor(..) => { None }
+                        let ref calee_def = cx.tables.qpath_def(qpath, callee.hir_id);
+                        match calee_def {
+                            Def::Fn(def_id) |
+                            Def::Method(def_id) => {
+                                if !def_id.is_local() {                                    
+                                    match qpath {
+                                        hir::QPath::Resolved(oty,call_path) => {
+                                            match oty {
+                                                None => {
+                                                    self.add_call(def_id.krate,
+                                                                  call_path.to_string());
+                                                }
+                                                Some (ty) => {
+                                                    println!("Expr {:?}", expr);
+                                                    //TODO
+                                                }
+                                            }
+                                        }
+                                        hir::QPath::TypeRelative(ref pty,path) => {
+                                            let tys = print::to_string(
+                                                print::NO_ANN,
+                                                |s| s.print_type(pty));
+                                            let mut res = String::new();
+                                            res.push_str(&tys);
+                                            res.push_str("::");
+                                            res.push_str(&path.name.to_string());
+                                            self.add_call(def_id.krate, res);
+                                        }
+                                    }
+                                } 
+                            }
+                            Def::VariantCtor(..) => { }
                             _ => {
-                                println!("Not Def::Fn {:?}", def);
-                                None 
+                                println!("Not Def::Fn in {:?}", expr); 
                             }
                         }
-                     },                    
+                    },              
                     _ => {
-                        println!("Not ExprPath {:?}", callee.node);
-                        None
-                    }
-                }
-            },
-            Expr_::ExprMethodCall(ref ps,_,ref args) => {
-                let def = cx.tables.type_dependent_defs().get(expr.hir_id).cloned();
-                let arg_expr = &args[0];
-                match def {
-                    Some(hir::def::Def::Method(def_id)) => {
-                        match arg_expr.node {
-                            Expr_::ExprPath(ref qpath) => {
-                                let def = cx.tables.qpath_def(qpath, arg_expr.hir_id);
-                                //println!("Expr: {:?}",  expr);
-                                match def {
-                                    hir::def::Def::Local(node_id) => {
-                                        //println!("Local(node_id): {:?}", cx.tables.expr_ty_adjusted(&arg_expr));
-                                        //Some ((cx.tcx.def_path(def_id), Some(def.kind_name().to_string())))
-                                        //TODO
-                                        //Some ((cx.tcx.def_path(def_id), Some(cx.tcx.node_path_str(node_id)))) }
-                                        Some ((cx.tcx.def_path(def_id), Some(cx.tables.expr_ty_adjusted(&arg_expr).to_string()))) }
-                                    _ => {println!("arg_expr not not Local {:?}", def.kind_name().to_string()); None} 
-                                }
-                            }
-                            _ => {println!("arg_expr not ExprPath {:?}", arg_expr); None}                              
-                        }
-                    }
-                    _ =>  {
-                        println!("Not in cx.tables.type_dependent_defs().get(expr.hir_id).cloned();");
-                        None
-                    }            
-                }
-            },
-            _ => None
-        };
-
-        match expr.node {
-            Expr_::ExprCall(..) |
-            Expr_::ExprMethodCall(..) => {
-                match maybe_def_id {  
-                    Some ((path,ty)) => {
-                        if path.krate != LOCAL_CRATE {                     
-                            self.add_crate(path.krate);
-                            self.add_def_id(path,ty);
-                        }
-                    }                
-                    None => {
-                        // println!("DefId Not Found: {:?}",  maybe_def_id);
+                        println!("Not ExprPath {:?}", expr);
                     }
                 }
             }
-            _ => {}
-        } 
+            Expr_::ExprMethodCall(ref ps,_,ref args) => {
+                let local_table = cx.tables.type_dependent_defs();
+                let def = local_table.get(expr.hir_id);
+                
+                let arg_expr = &args[0];
+                match def {
+                    Some(hir::def::Def::Method(def_id)) => {
+                        if !def_id.is_local() {
+                            let mut call = String::new();
+                            let ty = cx.tables.expr_ty_adjusted(&arg_expr);
+                            match ty.sty {
+                                rustc::ty::TypeVariants::TyRef(_,ref ty,_) => {
+                                    call.push_str(&ty.to_string());
+                                }
+                                _ => {
+                                    call.push_str(&ty.to_string());
+                                }
+                            }
+                            call.push_str("::");
+                            call.push_str(&ps.name.to_string());
+                            self.add_call(def_id.krate, call);
+                        }
+                    }
+                    _ => {println!("Def not hir::def::Def::Method {:?}", arg_expr);}
+                }
+            }
+            _ =>  {}
+        }
     }
 
     fn check_crate_post(&mut self, cx: &LateContext<'a, 'tcx>, _: &'tcx Crate) {
@@ -137,15 +144,9 @@ impl<'a, 'tcx> LateLintPass<'a, 'tcx> for ExternalCalls {
                 println!("External crate name {:?}",
                          cx.tcx.crate_name(*krate));
                 self.external_calls.iter().
-                    filter(|ref elt| elt.0.krate == *krate).
-                    for_each (|ref elt| {
-                        // TODO print full path
-                        match elt.1 {
-                            None => { println!("{:?}", elt.0); }
-                            Some (ref arg_expr) => { println!("1: {:?}", elt.0);  println!("2: {:?}", arg_expr); }
-                                                              //cx.tables.expr_ty(&arg_expr)); }
-                        }                        
-                        //println!("{:?}", cx.tcx.def_symbol_name(*def_id));
+                    filter(|elt| elt.0 == *krate).
+                    for_each (|elt| {
+                        println!("{:?}", elt.1);
                     }) ;
             });
     }
@@ -154,5 +155,7 @@ impl<'a, 'tcx> LateLintPass<'a, 'tcx> for ExternalCalls {
 
 #[plugin_registrar]
 pub fn plugin_registrar(reg: &mut Registry) {
-    reg.register_late_lint_pass(box ExternalCalls{ external_calls: Vec::new(), external_crates: Vec::new() } as LateLintPassObject);
+    reg.register_late_lint_pass(box ExternalCalls{ external_calls: Vec::new(),
+                                                   external_crates: Vec::new()
+    } as LateLintPassObject);
 }
