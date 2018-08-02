@@ -7,4 +7,4 @@ authors = ["Tock Project Developers <tock-dev@googlegroups.com>"]
 [dependencies]
 getopts = "0.2"
 elf = { git = "https://github.com/cole14/rust-elf" }
-external_calls = { path = "/home/nora/work/external_calls" }
+external_calls = { path = "/home/nora/work/external_calls/external_calls" }

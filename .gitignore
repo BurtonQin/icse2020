@@ -1,4 +1,4 @@
-/target
+/external_calls/target
 /examples/elf2tbf/target/
 **/*.rs.bk
-Cargo.lock
+**/Cargo.lock

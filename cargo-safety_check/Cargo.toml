@@ -1,0 +1,6 @@
+[package]
+name = "cargo-safety_check"
+version = "0.1.0"
+authors = ["Ana Nora Evans <ananevans@gmail.com>"]
+
+[dependencies]
