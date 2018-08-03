@@ -1,4 +1,5 @@
-/external_calls/target
-/examples/elf2tbf/target/
+**/target
 **/*.rs.bk
 **/Cargo.lock
+.idea/
+HiddenUnsafe/
