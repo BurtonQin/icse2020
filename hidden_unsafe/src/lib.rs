@@ -17,7 +17,7 @@ use rustc_plugin::Registry;
 use rustc::lint::{LateContext,LintPass,LintArray,LateLintPass, LateLintPassObject};
 
 use rustc::hir;
-use rustc::hir::{FnDecl,Body,Crate,BodyId};
+use rustc::hir::{FnDecl,Body,Crate,BodyId,Mod,Item,ItemId,Expr,Stmt};
 use rustc::hir::intravisit;
 use rustc::hir::intravisit::FnKind;
 
@@ -37,19 +37,43 @@ struct FnInfo<'a, 'tcx: 'a>
 }
 
 impl <'a, 'tcx: 'a> FnInfo<'a, 'tcx> {
-    fn new(decl: &'tcx FnDecl, map: &'a hir::map::Map<'tcx>) -> Self {
-        Self{ decl: decl, has_unsafe: false, local_calls: Vec::new(), map: map }
+    fn new(decl: &'tcx FnDecl, m: &'a hir::map::Map<'tcx>) -> Self {
+        Self{ decl: decl, has_unsafe: false, local_calls: Vec::new(), map: m }
     }
 }
 
 impl<'a, 'tcx> hir::intravisit::Visitor<'tcx> for FnInfo<'a, 'tcx> {
 
-    fn visit_block<'v>(&mut self, b: &'v hir::Block) {
-        //TODO
+    fn visit_expr(&mut self, ex: &'tcx Expr) {
+        match ex.node {
+            ::hir::Expr_::ExprMethodCall(ref segment, _ , ref arguments) => {
+                // check if it's unsafe impl of unsafe trait
+            }
+            _ => {}
+        }
+        hir::intravisit::walk_expr(self, ex)
+    }
+
+    fn visit_block(&mut self, b: &'tcx hir::Block) {
+        match b.rules {
+            hir::BlockCheckMode::DefaultBlock => {}
+            hir::BlockCheckMode::UnsafeBlock(unsafe_source) => {
+                println!("hir::BlockCheckMode::UnsafeBlock {:?}", unsafe_source);
+                self.has_unsafe = true;
+            }
+            hir::BlockCheckMode::PushUnsafeBlock(unsafe_source) => {
+                println!("hir::BlockCheckMode::PushUnsafeBlock {:?}", unsafe_source);
+            }
+            hir::BlockCheckMode::PopUnsafeBlock(unsafe_source) => {
+                println!("hir::BlockCheckMode::PopUnsafeBlock {:?}", unsafe_source);
+            }
+        }
+        hir::intravisit::walk_block(self, b)
     }
 
     fn nested_visit_map<'this>(&'this mut self) -> intravisit::NestedVisitorMap<'this, 'tcx> {
-        intravisit::NestedVisitorMap::OnlyBodies(self.map) //TODO maybe All
+        //intravisit::NestedVisitorMap::All(self.map) //TODO maybe All or None (?)
+        intravisit::NestedVisitorMap::None
     }
 }
 
@@ -70,9 +94,10 @@ impl<'a, 'tcx> hir::intravisit::Visitor<'tcx> for CrateInfo<'a, 'tcx> {
     fn visit_fn( &mut self, kind: hir::intravisit::FnKind<'tcx>,
                  fn_decl: &'tcx hir::FnDecl, body_id: hir::BodyId,
                  _: syntax_pos::Span, node_id: syntax::ast::NodeId) {
+        println!("visit_fn {:?}", fn_decl);
         match kind {
-            hir::intravisit::FnKind::ItemFn(name, _, unsafety, _, _, _, _) => {
-                match unsafety {
+            hir::intravisit::FnKind::ItemFn(name, _generics, fn_header, _visibility, _attributes) => {
+                match fn_header.unsafety {
                     hir::Unsafety::Unsafe => {
                         // Nothing to do for now
                         // Later detect reasons for unsafety in the body
@@ -86,16 +111,17 @@ impl<'a, 'tcx> hir::intravisit::Visitor<'tcx> for CrateInfo<'a, 'tcx> {
                     }
                 }
             }
-            hir::intravisit::FnKind::Method(_, sig, _, _) => {
+            hir::intravisit::FnKind::Method(_ident, sig, _visibility, _attributes) => {
                 //TODO
             },
-            hir::intravisit::FnKind::Closure(_) => {}
+            hir::intravisit::FnKind::Closure(_attributes) => {}
         }
     }
 
+    //TODO overwrite methods for other items to do nothing
 
     fn nested_visit_map<'this>(&'this mut self) -> intravisit::NestedVisitorMap<'this, 'tcx> {
-        intravisit::NestedVisitorMap::OnlyBodies(self.map) // TODO maybe None?
+        intravisit::NestedVisitorMap::All(self.map) // TODO maybe None?
     }
 }
 
