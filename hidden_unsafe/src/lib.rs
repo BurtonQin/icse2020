@@ -46,8 +46,44 @@ impl<'a, 'tcx> hir::intravisit::Visitor<'tcx> for FnInfo<'a, 'tcx> {
 
     fn visit_expr(&mut self, ex: &'tcx Expr) {
         match ex.node {
-            ::hir::Expr_::ExprMethodCall(ref segment, _ , ref arguments) => {
+            ::hir::ExprKind::MethodCall(ref segment, _span , ref arguments) => {
+                println!("MethodCall expr {:?}", ex);
+                println!("MethodCall segment {:?}", segment);
+                println!("MethodCall arguments {:?}", arguments);
                 // check if it's unsafe impl of unsafe trait
+                // Want a DefKey
+
+                let obj_ex = &arguments[0];
+
+                println!("Obj def path {:?}", obj_ex.node);
+                match obj_ex.node {
+                    ::hir::ExprKind::Path(ref qpath) => {
+                        match qpath {
+                            ::hir::QPath::Resolved(_, path) => {
+                                print!("path def {:?}", path.def);
+                                match path.def {
+                                    hir::def::Def::Local(node_id) => {
+                                        println!("get {:?}", self.map.get(node_id));
+                                        match (self.map.get(node_id)) {
+                                            hir::map::Node::NodeBinding(pat) => {
+                                                println!("pat  kind {:?}", pat.node);
+                                            }
+                                            _ => {}
+                                        }
+                                    }
+                                    _ => {}
+                                }
+                            }
+                            _ => {}
+                        }
+                    }
+                    _ => {}
+                }
+
+//                match  {
+//                    Some (def) => {println!("Def {:?}",def)}
+//                    None => {println!("None")}
+//                }
             }
             _ => {}
         }
@@ -58,7 +94,6 @@ impl<'a, 'tcx> hir::intravisit::Visitor<'tcx> for FnInfo<'a, 'tcx> {
         match b.rules {
             hir::BlockCheckMode::DefaultBlock => {}
             hir::BlockCheckMode::UnsafeBlock(unsafe_source) => {
-                println!("hir::BlockCheckMode::UnsafeBlock {:?}", unsafe_source);
                 self.has_unsafe = true;
             }
             hir::BlockCheckMode::PushUnsafeBlock(unsafe_source) => {
