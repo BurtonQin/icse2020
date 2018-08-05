@@ -17,7 +17,7 @@ use rustc_plugin::Registry;
 use rustc::lint::{LateContext,LintPass,LintArray,LateLintPass, LateLintPassObject};
 
 use rustc::hir;
-use rustc::hir::{FnDecl,Body,Crate,BodyId,Mod,Item,ItemId,Expr,Stmt};
+use rustc::hir::{FnDecl,Body,Crate,BodyId,Mod,Item,ItemId,Expr,Stmt,HirId};
 use rustc::hir::intravisit;
 use rustc::hir::intravisit::FnKind;
 
@@ -28,68 +28,137 @@ use syntax_pos::Span;
 use syntax::ast;
 use syntax::ast::NodeId;
 
-struct FnInfo<'a, 'tcx: 'a>
+struct FnInfo
 {
-    decl: &'tcx FnDecl,
+    decl_id: NodeId,
     has_unsafe: bool,
-    local_calls: Vec<String>,
-    map: &'a hir::map::Map<'tcx>,
+    local_calls: Vec<HirId>,
 }
 
-impl <'a, 'tcx: 'a> FnInfo<'a, 'tcx> {
-    fn new(decl: &'tcx FnDecl, m: &'a hir::map::Map<'tcx>) -> Self {
-        Self{ decl: decl, has_unsafe: false, local_calls: Vec::new(), map: m }
+impl FnInfo {
+    fn new(hir_id: NodeId) -> Self {
+        Self { decl_id:hir_id, has_unsafe: false, local_calls: Vec::new() }
     }
 }
 
-impl<'a, 'tcx> hir::intravisit::Visitor<'tcx> for FnInfo<'a, 'tcx> {
+struct HiddenUnsafe {
+    data: Vec<FnInfo>,
+}
 
-    fn visit_expr(&mut self, ex: &'tcx Expr) {
-        match ex.node {
-            ::hir::ExprKind::MethodCall(ref segment, _span , ref arguments) => {
-                println!("MethodCall expr {:?}", ex);
-                println!("MethodCall segment {:?}", segment);
-                println!("MethodCall arguments {:?}", arguments);
-                // check if it's unsafe impl of unsafe trait
-                // Want a DefKey
+impl HiddenUnsafe {
 
-                let obj_ex = &arguments[0];
+    pub fn new() -> Self {
+        Self{data: Vec::new()}
+    }
+}
 
-                println!("Obj def path {:?}", obj_ex.node);
-                match obj_ex.node {
-                    ::hir::ExprKind::Path(ref qpath) => {
-                        match qpath {
-                            ::hir::QPath::Resolved(_, path) => {
-                                print!("path def {:?}", path.def);
-                                match path.def {
-                                    hir::def::Def::Local(node_id) => {
-                                        println!("get {:?}", self.map.get(node_id));
-                                        match (self.map.get(node_id)) {
-                                            hir::map::Node::NodeBinding(pat) => {
-                                                println!("pat  kind {:?}", pat.node);
-                                            }
-                                            _ => {}
-                                        }
-                                    }
-                                    _ => {}
-                                }
-                            }
-                            _ => {}
+declare_lint!(pub HIDDEN_UNSAFE, Allow, "Functions using hidden unsafe");
+
+impl <'a, 'tcx>LintPass for HiddenUnsafe{
+    fn get_lints(&self) -> LintArray {
+        lint_array!(HIDDEN_UNSAFE)
+    }
+}
+
+impl<'a, 'tcx> LateLintPass<'a, 'tcx> for HiddenUnsafe {
+
+    fn check_crate_post(&mut self, cx: &LateContext<'a, 'tcx>, _: &'tcx Crate) {
+        for i in self.data.iter() {
+            let fn_node = cx.tcx.hir.get(i.decl_id);
+            match fn_node {
+                ::hir::map::Node::NodeItem(item) => {
+                    if let hir::ItemKind::Fn(ref fn_decl, ref fn_header, _, _) = item.node {
+                        if let hir::Unsafety::Normal = fn_header.unsafety {
+                            let loc = cx.tcx.sess.codemap().lookup_char_pos(item.span.lo());
+                            let filename = &loc.file.name;
+                            //TODO use formatter
+                            println!("file: {:?} line {:?} | {:?} | {:?}", filename, loc.line,
+                                     cx.tcx.node_path_str(item.id), i.has_unsafe);
                         }
                     }
-                    _ => {}
                 }
-
-//                match  {
-//                    Some (def) => {println!("Def {:?}",def)}
-//                    None => {println!("None")}
-//                }
+                ::hir::map::Node::NodeImplItem(impl_item) => {
+                    if let hir::ImplItemKind::Method(ref method_sig,_) = impl_item.node {
+                        if let hir::Unsafety::Normal = method_sig.header.unsafety {
+                            //println!("{:?} {:?}", cx.tcx.node_path_str(impl_item.id), i.has_unsafe);
+                            let loc = cx.tcx.sess.codemap().lookup_char_pos(impl_item.span.lo());
+                            let filename = &loc.file.name;
+                            //TODO use formatter
+                            println!("file: {:?} line {:?} | {:?} | {:?}", filename, loc.line,
+                                     cx.tcx.node_path_str(impl_item.id), i.has_unsafe);
+                        }
+                    }
+                }
+                _ => {println!("node NOT handled {:?}", fn_node);}
             }
-            _ => {}
+
         }
-        hir::intravisit::walk_expr(self, ex)
     }
 
+    fn check_body(&mut self, cx: &LateContext<'a, 'tcx>, body: &'tcx hir::Body) {
+        //need to find fn/method declaration of this body
+        let owner_def_id = cx.tcx.hir.body_owner_def_id( body.id() );
+        if let Some (owner_node_id) = cx.tcx.hir.as_local_node_id(owner_def_id) {
+            let owner_node = cx.tcx.hir.get(owner_node_id);
+            match owner_node {
+                hir::map::Node::NodeItem(item) => {
+                    match item.node {
+                        hir::ItemKind::Fn(ref fn_decl, ref fn_header, _, _) => {
+                            let mut fn_info = FnInfo::new(owner_node_id);
+                            let mut visitor = UnsafeBlocks{ map: &cx.tcx.hir, has_unsafe: false};
+                            hir::intravisit::walk_body(&mut visitor, body);
+                            fn_info.has_unsafe = visitor.has_unsafe;
+                            self.data.push(fn_info);
+                        }
+                        _ => { println!("Body owner node type NOT handled: {:?}", item); }
+                    }
+                }
+                hir::map::Node::NodeImplItem(impl_item) => {
+                    match impl_item.node {
+                        ::hir::ImplItemKind::Method(..) => {
+                            let mut fn_info = FnInfo::new(owner_node_id);
+                            let mut visitor = UnsafeBlocks{ map: &cx.tcx.hir, has_unsafe: false};
+                            hir::intravisit::walk_body(&mut visitor, body);
+                            self.data.push(fn_info);
+                        }
+                        _ => {println!("Impl Item Kind NOT handled {:?}", impl_item.node);}
+                    }
+                }
+                hir::map::Node::NodeExpr(ref expr) => {
+                    if let hir::ExprKind::Closure(..) = expr.node {
+                    } else {
+                        println!("Body owner node NOT handled: {:?}", owner_node);
+                    }
+                }
+                _ => {
+                    println!("Body owner node NOT handled: {:?}", owner_node);
+                }
+            }
+        }
+    }
+
+    fn check_expr(&mut self, cx: &LateContext, expr: &Expr) {
+        match expr.node {
+            ::hir::ExprKind::Call(ref fn_expr, ref _args) => {
+                if let ::hir::ExprKind::Path(ref qpath) = fn_expr.node {
+
+                }
+            }
+            ::hir::ExprKind::MethodCall(ref path_segment, _, ref arguments) => {
+                //mark unsafe if call of a
+            }
+            _ => {}
+
+        }
+    }
+}
+
+struct UnsafeBlocks<'tcx> {
+    map: &'tcx hir::map::Map<'tcx>,
+    has_unsafe: bool,
+}
+
+impl<'a, 'tcx> hir::intravisit::Visitor<'tcx> for UnsafeBlocks<'tcx> {
     fn visit_block(&mut self, b: &'tcx hir::Block) {
         match b.rules {
             hir::BlockCheckMode::DefaultBlock => {}
@@ -107,86 +176,8 @@ impl<'a, 'tcx> hir::intravisit::Visitor<'tcx> for FnInfo<'a, 'tcx> {
     }
 
     fn nested_visit_map<'this>(&'this mut self) -> intravisit::NestedVisitorMap<'this, 'tcx> {
-        //intravisit::NestedVisitorMap::All(self.map) //TODO maybe All or None (?)
-        intravisit::NestedVisitorMap::None
+        intravisit::NestedVisitorMap::All(self.map)
     }
-}
-
-struct CrateInfo <'a, 'tcx: 'a> {
-    data: Vec<FnInfo<'a, 'tcx>>,
-    ffi: Vec<rustc::hir::ForeignItem>, //TODO understand when FFI items are visited (intravisit.rs)
-    map: &'a hir::map::Map<'tcx>,
-}
-
-impl <'a, 'tcx: 'a> CrateInfo<'a, 'tcx> {
-    fn new(map: &'a hir::map::Map<'tcx>) -> Self {
-        Self{ data: Vec::new(), map: map, ffi: Vec::new() }
-    }
-}
-
-impl<'a, 'tcx> hir::intravisit::Visitor<'tcx> for CrateInfo<'a, 'tcx> {
-
-    fn visit_fn( &mut self, kind: hir::intravisit::FnKind<'tcx>,
-                 fn_decl: &'tcx hir::FnDecl, body_id: hir::BodyId,
-                 _: syntax_pos::Span, node_id: syntax::ast::NodeId) {
-        println!("visit_fn {:?}", fn_decl);
-        match kind {
-            hir::intravisit::FnKind::ItemFn(name, _generics, fn_header, _visibility, _attributes) => {
-                match fn_header.unsafety {
-                    hir::Unsafety::Unsafe => {
-                        // Nothing to do for now
-                        // Later detect reasons for unsafety in the body
-                    }
-                    hir::Unsafety::Normal => {
-                        let mut visitor = FnInfo::new(fn_decl, self.map);
-                        hir::intravisit::walk_body(&mut visitor, self.map.body(body_id));
-                        if visitor.has_unsafe {
-                            self.data.push(visitor);
-                        }
-                    }
-                }
-            }
-            hir::intravisit::FnKind::Method(_ident, sig, _visibility, _attributes) => {
-                //TODO
-            },
-            hir::intravisit::FnKind::Closure(_attributes) => {}
-        }
-    }
-
-    //TODO overwrite methods for other items to do nothing
-
-    fn nested_visit_map<'this>(&'this mut self) -> intravisit::NestedVisitorMap<'this, 'tcx> {
-        intravisit::NestedVisitorMap::All(self.map) // TODO maybe None?
-    }
-}
-
-struct HiddenUnsafe {}
-
-impl HiddenUnsafe {
-    pub fn new() -> Self {
-        Self{}
-    }
-}
-
-declare_lint!(pub HIDDEN_UNSAFE, Allow, "Functions using hidden unsafe");
-
-impl <'a, 'tcx>LintPass for HiddenUnsafe{
-    fn get_lints(&self) -> LintArray {
-        lint_array!(HIDDEN_UNSAFE)
-    }
-}
-
-impl<'a, 'tcx> LateLintPass<'a, 'tcx> for HiddenUnsafe {
-
-    fn check_crate(&mut self, cx: &LateContext<'a, 'tcx>, krate: &'tcx Crate) {
-        let mut visitor = CrateInfo::new(&cx.tcx.hir);
-        hir::intravisit::walk_crate(&mut visitor, krate);
-    }
-
-    fn check_crate_post(&mut self, _: &LateContext<'a, 'tcx>, _: &'tcx Crate) {
-        //TODO print results
-    }
-
 }
 
 #[plugin_registrar]
