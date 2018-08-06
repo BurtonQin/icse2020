@@ -63,7 +63,7 @@ impl FnInfo {
 
     fn print_local_calls<'a,'tcx>(&self, cx: &LateContext<'a, 'tcx>) {
         for node_id in self.local_calls.iter() {
-            println!("Called fn: {:?}", cx.tcx.node_path_str(*node_id));
+            println!("{:?}", cx.tcx.node_path_str(*node_id));
         }
     }
 
@@ -90,12 +90,21 @@ impl FnInfo {
     }
 
     fn push_external_call(&mut self, krate: hir::def_id::CrateNum, func:String) -> () {
-        //self.add_crate(krate);
         let found = self.external_calls.iter().any(
             |elt| elt.1 == func && elt.0 == krate
         );
         if !found {
             self.external_calls.push((krate,func));
+        }
+    }
+
+    fn push_local_call(&mut self, node_id: NodeId) -> () {
+        //self.add_crate(krate);
+        let found = self.local_calls.iter().any(
+            |elt| *elt == node_id
+        );
+        if !found {
+            self.local_calls.push(node_id);
         }
     }
 }
@@ -207,14 +216,18 @@ impl<'a, 'tcx> LateLintPass<'a, 'tcx> for HiddenUnsafe {
             match owner_node {
                 hir::map::Node::NodeItem(item) => {
                     if let hir::ItemKind::Fn(ref fn_decl, ref fn_header, _, _) = item.node {
-                        self.push_local_call(cx, owner_node_id, body);
+                        if let hir::Unsafety::Normal = fn_header.unsafety {
+                            self.push_local_call(cx, owner_node_id, body);
+                        }
                     } else {
                         println!("Body owner node type NOT handled: {:?}", item);
                     }
                 }
-                hir::map::Node::NodeImplItem(impl_item) => {
-                    if let ::hir::ImplItemKind::Method(..) = impl_item.node {
-                        self.push_local_call(cx, owner_node_id, body);
+                hir::map::Node::NodeImplItem(ref impl_item) => {
+                    if let ::hir::ImplItemKind::Method(ref method_sig,..) = impl_item.node {
+                        if let hir::Unsafety::Normal = method_sig.header.unsafety {
+                            self.push_local_call(cx, owner_node_id, body);
+                        }
                     } else {
                         println!("Impl Item Kind NOT handled {:?}", impl_item.node);
                     }
@@ -274,7 +287,7 @@ struct Calls<'a, 'tcx: 'a> {
 impl <'a, 'tcx> Calls<'a, 'tcx>{
     fn process_local_call(&mut self, def_id: &hir::def_id::DefId) -> () {
         let node_id = self.cx.tcx.hir.def_index_to_node_id(def_id.index);
-        self.fn_info.local_calls.push(node_id);
+        self.fn_info.push_local_call(node_id);
     }
 }
 
