@@ -24,12 +24,16 @@ use rustc::hir::print;
 
 use rustc::hir::map::{Node,NodeItem,Map};
 
+use rustc::ty;
+
 use syntax_pos::Span;
 
 use syntax::ast;
 use syntax::ast::NodeId;
 
-struct FnInfo
+mod calls;
+
+pub struct FnInfo
 {
     decl_id: NodeId,
     has_unsafe: bool,
@@ -53,9 +57,11 @@ impl FnInfo {
         let filename = &loc.file.name;
         //TODO use formatter
         println!("===================================================");
-        println!("file: {:?} line {:?} | {:?} | {:?}",
-                 filename, loc.line,
-                 cx.tcx.node_path_str(item_id), self.has_unsafe);
+        println!("file: {:?} line {:?} | {:?} | {:?} | {:?}",
+                    filename, loc.line,
+                    cx.tcx.node_path_str(item_id), self.has_unsafe,
+                    item_id
+                );
         println!("Local calls:");
         self.print_local_calls(cx);
         self.print_external_calls(cx);
@@ -63,7 +69,7 @@ impl FnInfo {
 
     fn print_local_calls<'a,'tcx>(&self, cx: &LateContext<'a, 'tcx>) {
         for node_id in self.local_calls.iter() {
-            println!("{:?}", cx.tcx.node_path_str(*node_id));
+            println!("{:?} | {:?} ", cx.tcx.node_path_str(*node_id), node_id);
         }
     }
 
@@ -99,7 +105,6 @@ impl FnInfo {
     }
 
     fn push_local_call(&mut self, node_id: NodeId) -> () {
-        //self.add_crate(krate);
         let found = self.local_calls.iter().any(
             |elt| *elt == node_id
         );
@@ -120,16 +125,12 @@ impl HiddenUnsafe {
         Self{data: Vec::new()}
     }
 
-    pub fn push_local_call<'a,'tcx>(&mut self, cx: &'a LateContext<'a, 'tcx>,
-                                    node_id: NodeId, body: &'tcx hir::Body) {
+    pub fn push_fn_info<'a,'tcx>(&mut self, cx: &'a LateContext<'a, 'tcx>,
+                                 node_id: NodeId, body: &'tcx hir::Body) {
         let mut fn_info = FnInfo::new(node_id);
         let mut visitor = UnsafeBlocks{ map: &cx.tcx.hir, has_unsafe: false};
         hir::intravisit::walk_body(&mut visitor, body);
         fn_info.has_unsafe = visitor.has_unsafe;
-        {
-            let mut fn_visitor = Calls { cx, fn_info: &mut fn_info };
-            hir::intravisit::walk_body(&mut fn_visitor, body);
-        }
         self.data.push(fn_info);
     }
 
@@ -204,6 +205,10 @@ impl <'a, 'tcx>LintPass for HiddenUnsafe{
 impl<'a, 'tcx> LateLintPass<'a, 'tcx> for HiddenUnsafe {
 
     fn check_crate_post(&mut self, cx: &LateContext<'a, 'tcx>, _: &'tcx Crate) {
+        for fn_info in &mut self.data {
+            let mut calls_visitor = calls::Calls::new(cx, fn_info);
+            calls_visitor.run();
+        }
         self.propagate_unsafe();
         self.print_results(cx);
     }
@@ -217,7 +222,7 @@ impl<'a, 'tcx> LateLintPass<'a, 'tcx> for HiddenUnsafe {
                 hir::map::Node::NodeItem(item) => {
                     if let hir::ItemKind::Fn(ref fn_decl, ref fn_header, _, _) = item.node {
                         if let hir::Unsafety::Normal = fn_header.unsafety {
-                            self.push_local_call(cx, owner_node_id, body);
+                            self.push_fn_info(cx, owner_node_id, body);
                         }
                     } else {
                         println!("Body owner node type NOT handled: {:?}", item);
@@ -226,7 +231,7 @@ impl<'a, 'tcx> LateLintPass<'a, 'tcx> for HiddenUnsafe {
                 hir::map::Node::NodeImplItem(ref impl_item) => {
                     if let ::hir::ImplItemKind::Method(ref method_sig,..) = impl_item.node {
                         if let hir::Unsafety::Normal = method_sig.header.unsafety {
-                            self.push_local_call(cx, owner_node_id, body);
+                            self.push_fn_info(cx, owner_node_id, body);
                         }
                     } else {
                         println!("Impl Item Kind NOT handled {:?}", impl_item.node);
@@ -234,13 +239,15 @@ impl<'a, 'tcx> LateLintPass<'a, 'tcx> for HiddenUnsafe {
                 }
                 hir::map::Node::NodeExpr(ref expr) => {
                     if let hir::ExprKind::Closure(..) = expr.node {
+                        // nothing to do - this is not a stand alone function
+                        // any unsafe in this body will be processed by the enclosing function or method
                     } else {
                         println!("Body owner node NOT handled: {:?}", owner_node);
                     }
                 }
                 hir::map::Node::NodeAnonConst(ref anon_const) => {
-                    // TODO
-                    println!("AnonConst {:?} in body {:?}", anon_const, body);
+                    // nothing to do - this is not a stand alone function
+                    // any unsafe in this body will be processed by the enclosing function or method
                 }
                 _ => {
                     println!("Body owner node NOT handled: {:?}", owner_node);
@@ -276,121 +283,6 @@ impl<'a, 'tcx> hir::intravisit::Visitor<'tcx> for UnsafeBlocks<'tcx> {
         intravisit::NestedVisitorMap::All(self.map)
     }
 }
-
-
-struct Calls<'a, 'tcx: 'a> {
-    cx: &'a LateContext<'a,'tcx>,
-    fn_info: &'a mut FnInfo,
-}
-
-
-impl <'a, 'tcx> Calls<'a, 'tcx>{
-    fn process_local_call(&mut self, def_id: &hir::def_id::DefId) -> () {
-        let node_id = self.cx.tcx.hir.def_index_to_node_id(def_id.index);
-        self.fn_info.push_local_call(node_id);
-    }
-}
-
-impl<'a, 'tcx> hir::intravisit::Visitor<'tcx> for Calls<'a, 'tcx> {
-
-    fn visit_expr(&mut self, expr: &'tcx Expr) {
-        //println!("expr {:?}", expr, );
-        match expr.node {
-            ::hir::ExprKind::Call(ref fn_expr, ref _args) => {
-                if let ::hir::ExprKind::Path(ref qpath) = fn_expr.node {
-                    let fn_def = self.cx.tables.qpath_def(qpath, fn_expr.hir_id);
-                    match fn_def {
-                        hir::def::Def::Fn(def_id) |
-                        hir::def::Def::Method(def_id) => {
-                            if def_id.is_local() {
-                                self.process_local_call(&def_id);
-                            } else {
-                                match qpath {
-                                    hir::QPath::Resolved(oty,call_path) => {
-                                        match oty {
-                                            None => {
-                                                self.fn_info.push_external_call(def_id.krate,
-                                                                                call_path.to_string());
-                                            }
-                                            Some (ty) => {
-                                                println!("Expr {:?}", expr);
-                                                //TODO
-                                            }
-                                        }
-                                    }
-                                    hir::QPath::TypeRelative(ref pty,path) => {
-                                        let tys = print::to_string(
-                                            print::NO_ANN,
-                                            |s| s.print_type(pty));
-                                        let mut res = String::new();
-                                        res.push_str(&tys);
-                                        res.push_str("::");
-                                        res.push_str(&path.ident.to_string());
-                                        self.fn_info.push_external_call(def_id.krate, res);
-                                    }
-                                }
-                            }
-                        }
-                        hir::def::Def::VariantCtor(..) => {}
-                        hir::def::Def::Local(..) => {} // closure
-                        _ => {
-                            println!("Def NOT handled {:?} in expr {:?}", fn_def, expr);
-                        }
-                    }
-                } else {
-                    println!("ExprKind NOT handled {:?} in expr {:?}", fn_expr.node, expr);
-                }
-            }
-            ::hir::ExprKind::MethodCall(ref path_segment, _, ref arguments) => {
-                let local_table = self.cx.tables.type_dependent_defs();
-                if let Some (def) = local_table.get(expr.hir_id) {
-                    if let hir::def::Def::Method(def_id) = def {
-                        if def_id.is_local() {
-                            self.process_local_call(&def_id);
-                        } else {
-                            let local_table = self.cx.tables.type_dependent_defs();
-                            let def = local_table.get(expr.hir_id);
-
-                            let arg_expr = &arguments[0];
-                            match def {
-                                Some(hir::def::Def::Method(def_id)) => {
-                                    if !def_id.is_local() {
-                                        let mut call = String::new();
-                                        let ty = self.cx.tables.expr_ty_adjusted(&arg_expr);
-                                        match ty.sty {
-                                            rustc::ty::TypeVariants::TyRef(_,ref ty,_) => {
-                                                call.push_str(&ty.to_string());
-                                            }
-                                            _ => {
-                                                call.push_str(&ty.to_string());
-                                            }
-                                        }
-                                        call.push_str("::");
-                                        call.push_str(&path_segment.ident.to_string());
-                                        self.fn_info.push_external_call(def_id.krate, call);
-                                    }
-                                }
-                                _ => {println!("Def not hir::def::Def::Method {:?}", arg_expr);}
-                            }
-                        }
-                    } else {
-                        println!("Def NOT handled {:?} in expr {:?}", def, expr);
-                    }
-                } else {
-                    //TODO  output.write(&zero_buf[::std::ops::RangeTo{end: amount_to_write,}]) in elf2tbf
-                    println!("Def NOT found for {:?}", expr);
-                }
-            }
-            _ => {}
-        }
-        hir::intravisit::walk_expr(self, expr);
-    }
-
-    fn nested_visit_map<'this>(&'this mut self) -> intravisit::NestedVisitorMap<'this, 'tcx> {
-        intravisit::NestedVisitorMap::All(&self.cx.tcx.hir)
-    }
-}
-
 
 #[plugin_registrar]
 pub fn plugin_registrar(reg: &mut Registry) {
