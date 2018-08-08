@@ -5,6 +5,8 @@
 #![feature(box_syntax)]
 #![feature(macro_at_most_once_rep)]
 #![feature(macro_vis_matcher)]
+#![feature(extern_prelude)]
+#![feature(use_extern_macros)]
 
 #[macro_use]
 extern crate rustc;
@@ -19,12 +21,6 @@ use rustc::lint::{LateContext,LintPass,LintArray,LateLintPass, LateLintPassObjec
 use rustc::hir;
 use rustc::hir::Crate;
 use rustc::hir::intravisit;
-
-use rustc::ty;
-
-use syntax_pos::Span;
-
-use syntax::ast;
 use syntax::ast::NodeId;
 
 mod calls;
@@ -135,7 +131,7 @@ impl HiddenUnsafe {
             let fn_node = cx.tcx.hir.get(fn_info.decl_id);
             match fn_node {
                 ::hir::map::Node::NodeItem(item) => {
-                    if let hir::ItemKind::Fn(ref fn_decl, ref fn_header, _, _) = item.node {
+                    if let hir::ItemKind::Fn(ref _fn_decl, ref fn_header, _, _) = item.node {
                         if let hir::Unsafety::Normal = fn_header.unsafety {
                             fn_info.print_fn_info(cx, item.span, item.id);
                         }
@@ -169,19 +165,15 @@ impl HiddenUnsafe {
             changes = false;
             for fn_info in &mut self.data {
                 if !fn_info.has_unsafe {
-                    let mut local_change = false; // to pass borrow checker
-                    for call_id in (&fn_info.local_calls).into_iter().filter(
+                    if (&fn_info.local_calls).into_iter().any(
                         |call_id|
                             with_unsafe.iter().any(
-                                |x| x == *call_id
+                                |x| *x == *call_id
                             )
-                    ) {
-                        fn_info.has_unsafe = true;
-                        local_change = true;
-                        changes = true;
-                    }
-                    if local_change {
+                        ) {
                         with_unsafe.push(fn_info.decl_id);
+                        fn_info.has_unsafe = true;
+                        changes = true;
                     }
                 }
             }
@@ -216,7 +208,7 @@ impl<'a, 'tcx> LateLintPass<'a, 'tcx> for HiddenUnsafe {
             let owner_node = cx.tcx.hir.get(owner_node_id);
             match owner_node {
                 hir::map::Node::NodeItem(item) => {
-                    if let hir::ItemKind::Fn(ref fn_decl, ref fn_header, _, _) = item.node {
+                    if let hir::ItemKind::Fn(ref _fn_decl, ref fn_header, _, _) = item.node {
                         if let hir::Unsafety::Normal = fn_header.unsafety {
                             self.push_fn_info(cx, owner_node_id, body);
                         }
@@ -241,7 +233,7 @@ impl<'a, 'tcx> LateLintPass<'a, 'tcx> for HiddenUnsafe {
                         println!("Body owner node NOT handled: {:?}", owner_node);
                     }
                 }
-                hir::map::Node::NodeAnonConst(ref anon_const) => {
+                hir::map::Node::NodeAnonConst(ref _anon_const) => {
                     // nothing to do - this is not a stand alone function
                     // any unsafe in this body will be processed by the enclosing function or method
                 }
@@ -262,7 +254,7 @@ impl<'a, 'tcx> hir::intravisit::Visitor<'tcx> for UnsafeBlocks<'tcx> {
     fn visit_block(&mut self, b: &'tcx hir::Block) {
         match b.rules {
             hir::BlockCheckMode::DefaultBlock => {}
-            hir::BlockCheckMode::UnsafeBlock(unsafe_source) => {
+            hir::BlockCheckMode::UnsafeBlock(_unsafe_source) => {
                 self.has_unsafe = true;
             }
             hir::BlockCheckMode::PushUnsafeBlock(unsafe_source) => {

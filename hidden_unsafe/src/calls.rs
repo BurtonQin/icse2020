@@ -1,11 +1,11 @@
 extern crate serialize;
+extern crate core;
 
 use rustc::lint::LateContext;
 
 use rustc::hir;
 use rustc::ty;
 
-use rustc::mir;
 use rustc::mir::visit::Visitor;
 use rustc::mir::{BasicBlock,Terminator,Location,TerminatorKind,Operand};
 
@@ -37,23 +37,20 @@ impl<'a, 'tcx> Calls<'a, 'tcx> {
 }
 
 impl<'a,'tcx> Visitor<'tcx> for Calls<'a,'tcx> {
-    fn visit_terminator(&mut self, block: BasicBlock,
+    fn visit_terminator(&mut self, _block: BasicBlock,
                         terminator: &Terminator<'tcx>,
-                        location: Location) {
-        if let TerminatorKind::Call{ref func, ref args, ref destination, ref cleanup} = terminator.kind {
+                        _location: Location) {
+        if let TerminatorKind::Call{ref func, args: _, destination: _, cleanup: _} = terminator.kind {
             if let Operand::Constant(constant) = func {
-//                println!("func {:?}", constant.literal.ty);
                 match constant.literal.ty.sty {
                     ty::TypeVariants::TyFnDef(callee_def_id,_) => {
                         if callee_def_id.is_local() {
-                                if let Some (callee_node_id) = self.cx.tcx.hir.as_local_node_id(callee_def_id) {
-                                    self.fn_info.push_local_call(callee_node_id);
-                                }
-                        } else {
-                            match ::serialize::json::encode(constant.literal.ty) {
-                                Ok(str) => { println!("Ty {:?}", str) }
-                                Err(err) => { println!("Ty encoding error {:?}", err) }
+                            if let Some (callee_node_id) = self.cx.tcx.hir.as_local_node_id(callee_def_id) {
+                                self.fn_info.push_local_call(callee_node_id);
                             }
+                        } else {
+                            let mut output = std::format!("{}", constant.literal.ty.sty);
+                            self.fn_info.push_external_call(callee_def_id.krate, output);
                         }
                     }
                     _ => {}
@@ -63,3 +60,5 @@ impl<'a,'tcx> Visitor<'tcx> for Calls<'a,'tcx> {
         }
     }
 }
+
+
