@@ -21,9 +21,13 @@ use rustc::lint::{LateContext,LintPass,LintArray,LateLintPass, LateLintPassObjec
 use rustc::hir;
 use rustc::hir::Crate;
 use rustc::hir::intravisit;
+
+use rustc::mir::visit::Visitor;
+
 use syntax::ast::NodeId;
 
 mod calls;
+mod unsafe_traits;
 
 pub struct FnInfo
 {
@@ -31,6 +35,7 @@ pub struct FnInfo
     has_unsafe: bool,
     local_calls: Vec<NodeId>,
     external_calls: Vec<(hir::def_id::CrateNum,String)>,
+    unsafe_trait_use: bool,
 }
 
 impl FnInfo {
@@ -39,7 +44,8 @@ impl FnInfo {
             decl_id:hir_id,
             has_unsafe: false,
             local_calls: Vec::new(),
-            external_calls: Vec::new()
+            external_calls: Vec::new(),
+            unsafe_trait_use: false
         }
     }
 
@@ -104,6 +110,7 @@ impl FnInfo {
             self.local_calls.push(node_id);
         }
     }
+
 }
 
 
@@ -194,8 +201,20 @@ impl<'a, 'tcx> LateLintPass<'a, 'tcx> for HiddenUnsafe {
 
     fn check_crate_post(&mut self, cx: &LateContext<'a, 'tcx>, _: &'tcx Crate) {
         for fn_info in &mut self.data {
-            let mut calls_visitor = calls::Calls::new(cx, fn_info);
-            calls_visitor.run();
+            let body_owner_kind = cx.tcx.hir.body_owner_kind(fn_info.decl_id);
+            if let hir::BodyOwnerKind::Fn = body_owner_kind {
+                let owner_def_id = cx.tcx.hir.local_def_id(fn_info.decl_id);
+                let mut mir = cx.tcx.mir_validated(owner_def_id);
+                {
+                    let mut calls_visitor = calls::Calls::new(cx, fn_info);
+                    calls_visitor.visit_mir(&mut mir.borrow());
+                }
+                {
+                    let mut unsafe_trait_visitor =
+                        unsafe_traits::SafeMethodsInUnsafeTraits::new( cx, fn_info);
+                    unsafe_trait_visitor.visit_mir(&mut mir.borrow());
+                }
+            }
         }
         self.propagate_unsafe();
         self.print_results(cx);

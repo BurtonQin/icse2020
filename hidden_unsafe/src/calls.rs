@@ -1,5 +1,3 @@
-extern crate serialize;
-extern crate core;
 
 use rustc::lint::LateContext;
 
@@ -25,15 +23,6 @@ impl<'a, 'tcx> Calls<'a, 'tcx> {
         Calls { cx, fn_info}
     }
 
-    pub fn run(&mut self) {
-        let body_owner_kind = self.cx.tcx.hir.body_owner_kind(self.fn_info.decl_id);
-        if let hir::BodyOwnerKind::Fn = body_owner_kind {
-            let owner_def_id = self.cx.tcx.hir.local_def_id( self.fn_info.decl_id );
-            let mut mir = self.cx.tcx.mir_validated(owner_def_id);
-            //self.visit_mir(&mut mir.steal());
-            self.visit_mir(&mut mir.borrow());
-        }
-    }
 }
 
 impl<'a,'tcx> Visitor<'tcx> for Calls<'a,'tcx> {
