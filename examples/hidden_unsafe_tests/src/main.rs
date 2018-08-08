@@ -22,6 +22,16 @@ trait Trait {
 
 struct SafeImpl {}
 
+// impl SafeImpl {
+//     fn nested_methods() {
+//         fn inner() {
+//             let s1 = UnsafeImpl{};
+//             unsafe{s1.unsafe_method_unsafe_trait();}    
+//         }
+//         inner();
+//     }
+// }
+
 //the impl must be unsafe if the trait is
 unsafe impl UnsafeTrait for SafeImpl {
     fn safe_method_unsafe_trait(&self) -> () {
@@ -44,6 +54,13 @@ impl Trait for SafeImpl {
 }
 
 struct UnsafeImpl {}
+
+impl UnsafeImpl {
+    fn no_self_safe() {
+        let s1 = UnsafeImpl{};
+        two_calls(&s1);
+    }
+}
 
 unsafe impl UnsafeTrait for UnsafeImpl {
     fn safe_method_unsafe_trait(&self) -> () {
@@ -103,6 +120,7 @@ fn two_calls(s1: &UnsafeImpl) {
     call_unsafe(s1);
 }
 
+
 fn main() {
     println!("Hello, world!");
     safe_fn();
@@ -121,4 +139,6 @@ fn main() {
     call_unsafe(&s1);
     call_unsafe_and_safe(&s1);
     two_calls(&s1);
+    UnsafeImpl::no_self_safe();
+    //SafeImpl::nested_methods();
 }

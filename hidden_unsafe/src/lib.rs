@@ -17,12 +17,8 @@ use rustc_plugin::Registry;
 use rustc::lint::{LateContext,LintPass,LintArray,LateLintPass, LateLintPassObject};
 
 use rustc::hir;
-use rustc::hir::{FnDecl,Body,Crate,BodyId,Mod,Item,ItemId,Expr,Stmt,HirId};
+use rustc::hir::Crate;
 use rustc::hir::intravisit;
-use rustc::hir::intravisit::FnKind;
-use rustc::hir::print;
-
-use rustc::hir::map::{Node,NodeItem,Map};
 
 use rustc::ty;
 

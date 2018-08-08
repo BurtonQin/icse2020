@@ -1,3 +1,5 @@
+extern crate serialize;
+
 use rustc::lint::LateContext;
 
 use rustc::hir;
@@ -40,17 +42,18 @@ impl<'a,'tcx> Visitor<'tcx> for Calls<'a,'tcx> {
                         location: Location) {
         if let TerminatorKind::Call{ref func, ref args, ref destination, ref cleanup} = terminator.kind {
             if let Operand::Constant(constant) = func {
-                println!("func {:?}", constant.literal.ty);
+//                println!("func {:?}", constant.literal.ty);
                 match constant.literal.ty.sty {
                     ty::TypeVariants::TyFnDef(callee_def_id,_) => {
-                        if let Some (callee_node_id) = self.cx.tcx.hir.as_local_node_id(callee_def_id) {
-                            if (callee_def_id.is_local()) {
-                                self.fn_info.push_local_call(callee_node_id);
-                            } else {
-                                //TODO
-                            }
+                        if callee_def_id.is_local() {
+                                if let Some (callee_node_id) = self.cx.tcx.hir.as_local_node_id(callee_def_id) {
+                                    self.fn_info.push_local_call(callee_node_id);
+                                }
                         } else {
-                            println!("NodeId not found for def_id {:?}", callee_def_id);
+                            match ::serialize::json::encode(constant.literal.ty) {
+                                Ok(str) => { println!("Ty {:?}", str) }
+                                Err(err) => { println!("Ty encoding error {:?}", err) }
+                            }
                         }
                     }
                     _ => {}
