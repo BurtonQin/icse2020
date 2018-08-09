@@ -8,12 +8,17 @@
 #![feature(extern_prelude)]
 #![feature(use_extern_macros)]
 
-#[macro_use] extern crate log;
-
 #[macro_use] extern crate rustc;
 extern crate rustc_plugin;
 extern crate syntax_pos;
 extern crate syntax;
+
+mod fn_info;
+mod calls;
+mod unsafe_traits;
+mod unsafe_blocks;
+mod print;
+mod analysis;
 
 use rustc_plugin::Registry;
 
@@ -21,189 +26,61 @@ use rustc::lint::{LateContext,LintPass,LintArray,LateLintPass, LateLintPassObjec
 
 use rustc::hir;
 use rustc::hir::Crate;
-use rustc::hir::intravisit;
-
-use rustc::mir::visit::Visitor;
-
 use syntax::ast::NodeId;
 
-mod calls;
-mod unsafe_traits;
-
-pub struct FnInfo
-{
-    decl_id: NodeId,
-    has_unsafe: bool,
-    local_calls: Vec<NodeId>,
-    external_calls: Vec<(hir::def_id::CrateNum,String)>,
-    unsafe_trait_use: bool,
-}
-
-impl FnInfo {
-    fn new(hir_id: NodeId) -> Self {
-        Self {
-            decl_id:hir_id,
-            has_unsafe: false,
-            local_calls: Vec::new(),
-            external_calls: Vec::new(),
-            unsafe_trait_use: false
-        }
-    }
-
-    fn print_fn_info<'a,'tcx>(&self, cx: &LateContext<'a, 'tcx>,
-                              span:syntax_pos::Span, item_id: NodeId) {
-        let loc = cx.tcx.sess.codemap().lookup_char_pos(span.lo());
-        let filename = &loc.file.name;
-        //TODO use formatter
-        println!("===================================================");
-        println!("{:?} | {:?} | {:?} | {:?} | file: {:?} line {:?}",
-                    cx.tcx.node_path_str(item_id), self.has_unsafe,
-                    self.unsafe_trait_use,
-                    item_id, filename, loc.line,
-                );
-
-        self.print_local_calls(cx);
-        self.print_external_calls(cx);
-    }
-
-    fn print_local_calls<'a,'tcx>(&self, cx: &LateContext<'a, 'tcx>) {
-        println!("Local calls:");
-        for node_id in self.local_calls.iter() {
-            println!("{:?} | {:?} ", cx.tcx.node_path_str(*node_id), node_id);
-        }
-    }
-
-    fn print_external_calls<'a,'tcx>(&self, cx: &LateContext<'a, 'tcx>) {
-        let mut external_crates = Vec::new();
-        self.external_calls.iter().for_each(
-            |elt|
-                if !external_crates.iter().any(
-                    |crate_num| *crate_num == elt.0) {
-                    external_crates.push(elt.0)
-                }
-        );
-
-        external_crates.iter().for_each(
-            |krate| {
-                println!("External crate name {:?}",
-                         cx.tcx.crate_name(*krate));
-                self.external_calls.iter().
-                    filter(|elt| elt.0 == *krate).
-                    for_each (|elt| {
-                        println!("{:?}", elt.1);
-                    }) ;
-            });
-    }
-
-    fn push_external_call(&mut self, krate: hir::def_id::CrateNum, func:String) -> () {
-        let found = self.external_calls.iter().any(
-            |elt| elt.1 == func && elt.0 == krate
-        );
-        if !found {
-            self.external_calls.push((krate,func));
-        }
-    }
-
-    fn push_local_call(&mut self, node_id: NodeId) -> () {
-        let found = self.local_calls.iter().any(
-            |elt| *elt == node_id
-        );
-        if !found {
-            self.local_calls.push(node_id);
-        }
-    }
-
-}
-
+use fn_info::FnInfo;
+use print::{Print,EmptyPrinter};
+use unsafe_blocks::UnsafeInBody;
+use unsafe_traits::UnsafeTraitSafeMethod;
 
 struct HiddenUnsafe {
-     data: Vec<FnInfo>,
+    normal_functions: Vec<FnInfo>,
+    unsafe_functions: Vec<FnInfo>,
 }
 
 impl HiddenUnsafe {
 
     pub fn new() -> Self {
-        Self{data: Vec::new()}
-    }
-
-    pub fn push_fn_info<'a,'tcx>(&mut self, cx: &'a LateContext<'a, 'tcx>,
-                                 node_id: NodeId, body: &'tcx hir::Body) {
-        let mut fn_info = FnInfo::new(node_id);
-        let mut visitor = UnsafeBlocks{ map: &cx.tcx.hir, has_unsafe: false};
-        hir::intravisit::walk_body(&mut visitor, body);
-        fn_info.has_unsafe = visitor.has_unsafe;
-        self.data.push(fn_info);
-    }
-
-    pub fn print_results<'a,'tcx>(&mut self, cx: &LateContext<'a, 'tcx>) {
-        for fn_info in self.data.iter() {
-            let fn_node = cx.tcx.hir.get(fn_info.decl_id);
-            match fn_node {
-                ::hir::map::Node::NodeItem(item) => {
-                    if let hir::ItemKind::Fn(ref _fn_decl, ref fn_header, _, _) = item.node {
-                        if let hir::Unsafety::Normal = fn_header.unsafety {
-                            fn_info.print_fn_info(cx, item.span, item.id);
-                        }
-                    }
-                }
-                ::hir::map::Node::NodeImplItem(impl_item) => {
-                    if let hir::ImplItemKind::Method(ref method_sig,_) = impl_item.node {
-                        if let hir::Unsafety::Normal = method_sig.header.unsafety {
-                            fn_info.print_fn_info(cx, impl_item.span, impl_item.id);
-                        }
-                    }
-                }
-                _ => {println!("node NOT handled {:?}", fn_node);}
-            }
-
+        Self{
+            normal_functions: Vec::new(),
+            unsafe_functions: Vec::new()
         }
     }
 
-
-    pub fn propagate_unsafe(&mut self) {
-        self.propagate_predicate(
-            |fn_info:&FnInfo| fn_info.has_unsafe,
-            |fn_info:&mut FnInfo| fn_info.has_unsafe = true
-        );
+    pub fn push_normal_fn_info<'a,'tcx>(&mut self,
+                                        node_id: NodeId) {
+        let fn_info = FnInfo::new(node_id);
+        self.normal_functions.push(fn_info);
     }
 
-    pub fn propagate_trait_unsafe(&mut self) {
-        self.propagate_predicate(
-            |fn_info:&FnInfo| fn_info.unsafe_trait_use,
-            |fn_info:&mut FnInfo| fn_info.unsafe_trait_use = true
-        );
+    pub fn push_unsafe_fn_info<'a,'tcx>(&mut self,
+                                        node_id: NodeId) {
+        let fn_info = FnInfo::new(node_id);
+        self.unsafe_functions.push(fn_info);
     }
 
-    // TODO change this to an efficient algorithm
-    pub fn propagate_predicate(&mut self,
-                               predicate: fn (&FnInfo) -> bool,
-                               set : fn (&mut FnInfo) -> () )
-    {
-        let mut changes= true;
-        let mut with_unsafe = Vec::new();
-        { // to pass borrow checker
-            for fn_info in &self.data {
-                if predicate(fn_info) {
-                    with_unsafe.push(fn_info.decl_id);
-                }
-            }
+
+    pub fn print_results<'a,'tcx, T:Print>(cx: &'a LateContext<'a, 'tcx>,
+                                  result: &'a Vec<(&'a FnInfo,T)>, name: &'static str) {
+        println!("+++++++++++++++++++++++++++++++++++++++++++++++++++");
+        println!("{:?}", name);
+        println!("+++++++++++++++++++++++++++++++++++++++++++++++++++");
+        for &(fn_info,ref res) in result.iter() {
+            fn_info.print(cx, res);
         }
-        while changes {
-            changes = false;
-            for fn_info in &mut self.data {
-                if !predicate(fn_info) {
-                    if (&fn_info.local_calls).into_iter().any(
-                        |call_id|
-                            with_unsafe.iter().any(
-                                |x| *x == *call_id
-                            )
-                        ) {
-                        with_unsafe.push(fn_info.decl_id);
-                        set(fn_info);
-                        changes = true;
-                    }
-                }
-            }
+    }
+
+    pub fn print_graph<'a, 'tcx>(&self, cx: &'a LateContext<'a, 'tcx>) {
+        let empty_printer = EmptyPrinter{};
+        for ref fn_info in self.normal_functions.iter() {
+            println!("+++++++++++++++++++++++++++++++++++++++++++++++++++");
+            fn_info.print(cx, &empty_printer );
+            fn_info.print_local_calls(cx);
+            fn_info.print_external_calls(cx);
+        }
+        for ref fn_info in self.unsafe_functions.iter() {
+            println!("+++++++++++++++++++++++++++++++++++++++++++++++++++");
+            fn_info.print(cx, &empty_printer);
         }
     }
 
@@ -220,27 +97,22 @@ impl <'a, 'tcx>LintPass for HiddenUnsafe{
 impl<'a, 'tcx> LateLintPass<'a, 'tcx> for HiddenUnsafe {
 
     fn check_crate_post(&mut self, cx: &LateContext<'a, 'tcx>, _: &'tcx Crate) {
-        for fn_info in &mut self.data {
-            let body_owner_kind = cx.tcx.hir.body_owner_kind(fn_info.decl_id);
-            if let hir::BodyOwnerKind::Fn = body_owner_kind {
-                let owner_def_id = cx.tcx.hir.local_def_id(fn_info.decl_id);
-                let mut mir = cx.tcx.mir_validated(owner_def_id);
-                {
-                    let mut calls_visitor = calls::Calls::new(cx, fn_info);
-                    calls_visitor.visit_mir(&mut mir.borrow());
-                }
-                {
-                    let mut unsafe_trait_visitor =
-                        unsafe_traits::SafeMethodsInUnsafeTraits::new( cx, fn_info);
-                    unsafe_trait_visitor.visit_mir(&mut mir.borrow());
-                }
-            }
-        }
-        self.propagate_unsafe();
-        self.propagate_trait_unsafe();
-        self.print_results(cx);
+        calls::build_call_graph(&mut self.normal_functions, cx);
+        self.print_graph(cx);
+        // the information collected in check_body is available at this point
+        // collect unsafe blocks information for each function
+        // and propagates it
+
+        let res1: Vec<(&FnInfo,UnsafeInBody)> = analysis::run_all(cx, &self.normal_functions, true);
+        HiddenUnsafe::print_results(cx, &res1, "Unsafe code present in call tree");
+
+        let res2: Vec<(&FnInfo,UnsafeTraitSafeMethod)> = analysis::run_all(cx, &self.normal_functions, true);
+        HiddenUnsafe::print_results(cx,&res2, "Safe method of unsafe trait present in call tree");
+
     }
 
+    // if this body belongs to a normal (safe) function,
+    // then it is added to the list of functions to be processed
     fn check_body(&mut self, cx: &LateContext<'a, 'tcx>, body: &'tcx hir::Body) {
         //need to find fn/method declaration of this body
         let owner_def_id = cx.tcx.hir.body_owner_def_id( body.id() );
@@ -250,7 +122,9 @@ impl<'a, 'tcx> LateLintPass<'a, 'tcx> for HiddenUnsafe {
                 hir::map::Node::NodeItem(item) => {
                     if let hir::ItemKind::Fn(ref _fn_decl, ref fn_header, _, _) = item.node {
                         if let hir::Unsafety::Normal = fn_header.unsafety {
-                            self.push_fn_info(cx, owner_node_id, body);
+                            self.push_normal_fn_info(owner_node_id);
+                        } else {
+                            self.push_unsafe_fn_info(owner_node_id);
                         }
                     } else {
                         println!("Body owner node type NOT handled: {:?}", item);
@@ -259,7 +133,9 @@ impl<'a, 'tcx> LateLintPass<'a, 'tcx> for HiddenUnsafe {
                 hir::map::Node::NodeImplItem(ref impl_item) => {
                     if let ::hir::ImplItemKind::Method(ref method_sig,..) = impl_item.node {
                         if let hir::Unsafety::Normal = method_sig.header.unsafety {
-                            self.push_fn_info(cx, owner_node_id, body);
+                            self.push_normal_fn_info(owner_node_id);
+                        } else {
+                            self.push_unsafe_fn_info(owner_node_id);
                         }
                     } else {
                         println!("Impl Item Kind NOT handled {:?}", impl_item.node);
@@ -282,33 +158,6 @@ impl<'a, 'tcx> LateLintPass<'a, 'tcx> for HiddenUnsafe {
                 }
             }
         }
-    }
-}
-
-struct UnsafeBlocks<'tcx> {
-    map: &'tcx hir::map::Map<'tcx>,
-    has_unsafe: bool,
-}
-
-impl<'a, 'tcx> hir::intravisit::Visitor<'tcx> for UnsafeBlocks<'tcx> {
-    fn visit_block(&mut self, b: &'tcx hir::Block) {
-        match b.rules {
-            hir::BlockCheckMode::DefaultBlock => {}
-            hir::BlockCheckMode::UnsafeBlock(_unsafe_source) => {
-                self.has_unsafe = true;
-            }
-            hir::BlockCheckMode::PushUnsafeBlock(unsafe_source) => {
-                println!("hir::BlockCheckMode::PushUnsafeBlock {:?}", unsafe_source);
-            }
-            hir::BlockCheckMode::PopUnsafeBlock(unsafe_source) => {
-                println!("hir::BlockCheckMode::PopUnsafeBlock {:?}", unsafe_source);
-            }
-        }
-        hir::intravisit::walk_block(self, b);
-    }
-
-    fn nested_visit_map<'this>(&'this mut self) -> intravisit::NestedVisitorMap<'this, 'tcx> {
-        intravisit::NestedVisitorMap::All(self.map)
     }
 }
 

@@ -1,37 +1,52 @@
 
 use rustc::lint::LateContext;
-
 use rustc::hir;
-use rustc::ty;
-
+use rustc::ty::TypeVariants;
 use rustc::mir::visit::Visitor;
 use rustc::mir::{BasicBlock,Terminator,Location,TerminatorKind,Operand};
 
-use FnInfo;
+use fn_info::FnInfo;
+
+pub fn build_call_graph<'a, 'tcx>(data: &mut Vec<FnInfo>, cx: &LateContext<'a, 'tcx>) {
+    let tcx = &cx.tcx;
+    let hir = &tcx.hir;
+    for mut fn_info in data.iter_mut() {
+        let body_owner_kind = hir.body_owner_kind(fn_info.decl_id());
+        if let hir::BodyOwnerKind::Fn = body_owner_kind {
+            let owner_def_id = hir.local_def_id(fn_info.decl_id());
+            let mut mir = tcx.mir_validated(owner_def_id);
+            {
+                let mut calls_visitor = CallsVisitor::new(cx, &mut fn_info);
+                calls_visitor.visit_mir(&mut mir.borrow());
+            }
+        }
+    }
+}
 
 
-pub struct Calls<'a, 'tcx: 'a> {
+struct CallsVisitor<'a, 'tcx: 'a> {
     cx: &'a LateContext<'a, 'tcx>,
     fn_info: &'a mut FnInfo,
 }
 
 
-impl<'a, 'tcx> Calls<'a, 'tcx> {
+impl<'a, 'tcx> CallsVisitor<'a, 'tcx> {
 
-    pub fn new(cx: &'a LateContext<'a, 'tcx>,
+    fn new(cx: &'a LateContext<'a, 'tcx>,
                fn_info: &'a mut FnInfo) -> Self {
-        Calls { cx, fn_info}
+        CallsVisitor { cx, fn_info}
     }
 
 }
 
-impl<'a,'tcx> Visitor<'tcx> for Calls<'a,'tcx> {
+impl<'a,'tcx> Visitor<'tcx> for CallsVisitor<'a,'tcx> {
+
     fn visit_terminator(&mut self, _block: BasicBlock,
                         terminator: &Terminator<'tcx>,
                         _location: Location) {
         if let TerminatorKind::Call{ref func, args: _, destination: _, cleanup: _} = terminator.kind {
             if let Operand::Constant(constant) = func {
-                if let ty::TypeVariants::TyFnDef(callee_def_id,_) = constant.literal.ty.sty {
+                if let TypeVariants::TyFnDef(callee_def_id,_) = constant.literal.ty.sty {
                     if callee_def_id.is_local() {
                         if let Some (callee_node_id) = self.cx.tcx.hir.as_local_node_id(callee_def_id) {
                             self.fn_info.push_local_call(callee_node_id);
@@ -49,6 +64,7 @@ impl<'a,'tcx> Visitor<'tcx> for Calls<'a,'tcx> {
             }
         }
     }
+
 }
 
 
