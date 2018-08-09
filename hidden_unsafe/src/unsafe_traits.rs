@@ -26,24 +26,28 @@ impl<'a,'tcx> Visitor<'tcx> for SafeMethodsInUnsafeTraits<'a,'tcx> {
                         _location: Location) {
         if let TerminatorKind::Call{ref func, args: _, destination: _, cleanup: _} = terminator.kind {
             if let Operand::Constant(constant) = func {
-                match constant.literal.ty.sty {
-                    ty::TypeVariants::TyFnDef(callee_def_id,_) => {
-                        let calee_sig = self.cx.tcx.fn_sig(callee_def_id);
-                        if let hir::Unsafety::Normal = calee_sig.unsafety() {
-                            // need to find the trait if it's a method impl
-                            println!("Call {:?}", constant.literal.ty.sty);
-                            println!("is_impl_trait_defn {:?}", ty::is_impl_trait_defn(self.cx.tcx, callee_def_id));
+                if let ty::TypeVariants::TyFnDef(callee_def_id,_) = constant.literal.ty.sty {
+                    let calee_sig = self.cx.tcx.fn_sig(callee_def_id);
+                    if let hir::Unsafety::Normal = calee_sig.unsafety() {
+                        // need to find the trait if it's a method impl
+                        if callee_def_id.is_local() {
+                            let callee_node_id = self.cx.tcx.hir.def_index_to_node_id(callee_def_id.index);
+                            match self.cx.tcx.hir.get(callee_node_id) {
+                                hir::map::Node::NodeTraitItem(ref trait_item) => {
+                                    let trait_node_id = self.cx.tcx.hir.get_parent_node(callee_node_id);
+                                    if let hir::map::Node::NodeItem (item) = self.cx.tcx.hir.get(trait_node_id) {
+                                        if let hir::ItemKind::Trait(_,unsafety,..) = item.node {
+                                            if let hir::Unsafety::Unsafe = unsafety {
+                                                self.fn_info.unsafe_trait_use = true;
+                                            }
+                                        }
+                                    }
+                                }
+                                _ => {}
+                            }
                         }
-
-//                        if callee_def_id.is_local() {
-//                            if let Some (callee_node_id) = self.cx.tcx.hir.as_local_node_id(callee_def_id) {
-//                                println!("calee {:?}", self.cx.tcx.hir.get( self.cx.tcx.hir.def_index_to_node_id(callee_def_id.index) ));
-//                            }
-//                        }
                     }
-                    _ => {}
                 }
-
             }
         }
     }

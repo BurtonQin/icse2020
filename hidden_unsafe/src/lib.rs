@@ -8,8 +8,9 @@
 #![feature(extern_prelude)]
 #![feature(use_extern_macros)]
 
-#[macro_use]
-extern crate rustc;
+#[macro_use] extern crate log;
+
+#[macro_use] extern crate rustc;
 extern crate rustc_plugin;
 extern crate syntax_pos;
 extern crate syntax;
@@ -55,17 +56,18 @@ impl FnInfo {
         let filename = &loc.file.name;
         //TODO use formatter
         println!("===================================================");
-        println!("file: {:?} line {:?} | {:?} | {:?} | {:?}",
-                    filename, loc.line,
+        println!("{:?} | {:?} | {:?} | {:?} | file: {:?} line {:?}",
                     cx.tcx.node_path_str(item_id), self.has_unsafe,
-                    item_id
+                    self.unsafe_trait_use,
+                    item_id, filename, loc.line,
                 );
-        println!("Local calls:");
+
         self.print_local_calls(cx);
         self.print_external_calls(cx);
     }
 
     fn print_local_calls<'a,'tcx>(&self, cx: &LateContext<'a, 'tcx>) {
+        println!("Local calls:");
         for node_id in self.local_calls.iter() {
             println!("{:?} | {:?} ", cx.tcx.node_path_str(*node_id), node_id);
         }
@@ -157,13 +159,31 @@ impl HiddenUnsafe {
         }
     }
 
-    // TODO change this to an efficient algorithm
+
     pub fn propagate_unsafe(&mut self) {
+        self.propagate_predicate(
+            |fn_info:&FnInfo| fn_info.has_unsafe,
+            |fn_info:&mut FnInfo| fn_info.has_unsafe = true
+        );
+    }
+
+    pub fn propagate_trait_unsafe(&mut self) {
+        self.propagate_predicate(
+            |fn_info:&FnInfo| fn_info.unsafe_trait_use,
+            |fn_info:&mut FnInfo| fn_info.unsafe_trait_use = true
+        );
+    }
+
+    // TODO change this to an efficient algorithm
+    pub fn propagate_predicate(&mut self,
+                               predicate: fn (&FnInfo) -> bool,
+                               set : fn (&mut FnInfo) -> () )
+    {
         let mut changes= true;
         let mut with_unsafe = Vec::new();
         { // to pass borrow checker
             for fn_info in &self.data {
-                if fn_info.has_unsafe {
+                if predicate(fn_info) {
                     with_unsafe.push(fn_info.decl_id);
                 }
             }
@@ -171,7 +191,7 @@ impl HiddenUnsafe {
         while changes {
             changes = false;
             for fn_info in &mut self.data {
-                if !fn_info.has_unsafe {
+                if !predicate(fn_info) {
                     if (&fn_info.local_calls).into_iter().any(
                         |call_id|
                             with_unsafe.iter().any(
@@ -179,7 +199,7 @@ impl HiddenUnsafe {
                             )
                         ) {
                         with_unsafe.push(fn_info.decl_id);
-                        fn_info.has_unsafe = true;
+                        set(fn_info);
                         changes = true;
                     }
                 }
@@ -217,6 +237,7 @@ impl<'a, 'tcx> LateLintPass<'a, 'tcx> for HiddenUnsafe {
             }
         }
         self.propagate_unsafe();
+        self.propagate_trait_unsafe();
         self.print_results(cx);
     }
 
