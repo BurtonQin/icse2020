@@ -1,9 +1,11 @@
-pub trait Print{
-    fn print(&self) -> ();
+use rustc::lint::LateContext;
+
+pub trait Print {
+    fn print<'a, 'tcx>(&self, cx: &LateContext<'a, 'tcx>) -> ();
 }
 
-pub struct EmptyPrinter{}
+pub struct EmptyPrinter {}
 
 impl Print for EmptyPrinter {
-    fn print(&self) -> (){}
+    fn print<'a, 'tcx>(&self, cx: &LateContext<'a, 'tcx>) -> () {}
 }

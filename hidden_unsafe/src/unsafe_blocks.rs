@@ -1,32 +1,32 @@
-
-use rustc::lint::LateContext;
-use rustc::hir;
-use rustc::hir::intravisit;
-
+use analysis::Analysis;
 use fn_info::FnInfo;
 use print::Print;
-use analysis::Analysis;
+use rustc::hir;
+use rustc::hir::intravisit;
+use rustc::lint::LateContext;
 
 pub struct UnsafeInBody {
     has_unsafe: bool,
 }
 
-impl Print for UnsafeInBody{
-    fn print(&self) -> () {
+impl Print for UnsafeInBody {
+    fn print<'a,'tcx>(&self, cx: &LateContext<'a, 'tcx>) -> () {
         print!("{:?}", self.has_unsafe);
     }
 }
 
-impl Analysis for UnsafeInBody {
+impl UnsafeInBody{
+    fn new() -> Self { UnsafeInBody { has_unsafe: false } }
+}
 
-    fn new() -> Self { UnsafeInBody{ has_unsafe: false } }
+impl Analysis for UnsafeInBody {
 
     fn is_set(&self) -> bool { self.has_unsafe }
 
-    fn set(&mut self){ self.has_unsafe= true }
+    fn set(&mut self) { self.has_unsafe = true }
 
-    fn run_analysis<'a,'tcx>(cx: &LateContext<'a, 'tcx>, fn_info: &'a FnInfo)
-                             -> Self {
+    fn run_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, fn_info: &'a FnInfo)
+                              -> Self {
         let tcx = &cx.tcx;
         let hir = &tcx.hir;
         let body_id = hir.body_owned_by(fn_info.decl_id());

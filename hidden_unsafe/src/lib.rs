@@ -8,10 +8,22 @@
 #![feature(extern_prelude)]
 #![feature(use_extern_macros)]
 
-#[macro_use] extern crate rustc;
+#[macro_use]
+extern crate rustc;
 extern crate rustc_plugin;
-extern crate syntax_pos;
+extern crate rustc_target;
 extern crate syntax;
+extern crate syntax_pos;
+
+use fn_info::FnInfo;
+use print::{EmptyPrinter, Print};
+use rustc::hir;
+use rustc::hir::Crate;
+use rustc::lint::{LateContext, LateLintPass, LateLintPassObject, LintArray, LintPass};
+use rustc_plugin::Registry;
+use syntax::ast::NodeId;
+use unsafe_blocks::UnsafeInBody;
+use unsafe_traits::UnsafeTraitSafeMethod;
 
 mod fn_info;
 mod calls;
@@ -19,19 +31,10 @@ mod unsafe_traits;
 mod unsafe_blocks;
 mod print;
 mod analysis;
-
-use rustc_plugin::Registry;
-
-use rustc::lint::{LateContext,LintPass,LintArray,LateLintPass, LateLintPassObject};
-
-use rustc::hir;
-use rustc::hir::Crate;
-use syntax::ast::NodeId;
-
-use fn_info::FnInfo;
-use print::{Print,EmptyPrinter};
-use unsafe_blocks::UnsafeInBody;
-use unsafe_traits::UnsafeTraitSafeMethod;
+mod unsafety;
+mod fn_unsafety;
+mod util;
+use fn_unsafety::UnsafeFnUsafetyAnalysis;
 
 struct HiddenUnsafe {
     normal_functions: Vec<FnInfo>,
@@ -39,42 +42,41 @@ struct HiddenUnsafe {
 }
 
 impl HiddenUnsafe {
-
     pub fn new() -> Self {
-        Self{
+        Self {
             normal_functions: Vec::new(),
-            unsafe_functions: Vec::new()
+            unsafe_functions: Vec::new(),
         }
     }
 
-    pub fn push_normal_fn_info<'a,'tcx>(&mut self,
-                                        node_id: NodeId) {
+    pub fn push_normal_fn_info<'a, 'tcx>(&mut self,
+                                         node_id: NodeId) {
         let fn_info = FnInfo::new(node_id);
         self.normal_functions.push(fn_info);
     }
 
-    pub fn push_unsafe_fn_info<'a,'tcx>(&mut self,
-                                        node_id: NodeId) {
+    pub fn push_unsafe_fn_info<'a, 'tcx>(&mut self,
+                                         node_id: NodeId) {
         let fn_info = FnInfo::new(node_id);
         self.unsafe_functions.push(fn_info);
     }
 
 
-    pub fn print_results<'a,'tcx, T:Print>(cx: &'a LateContext<'a, 'tcx>,
-                                  result: &'a Vec<(&'a FnInfo,T)>, name: &'static str) {
+    pub fn print_results<'a, 'tcx, T: Print>(cx: &'a LateContext<'a, 'tcx>,
+                                             result: &'a Vec<(&'a FnInfo, T)>, name: &'static str) {
         println!("+++++++++++++++++++++++++++++++++++++++++++++++++++");
         println!("{:?}", name);
         println!("+++++++++++++++++++++++++++++++++++++++++++++++++++");
-        for &(fn_info,ref res) in result.iter() {
+        for &(fn_info, ref res) in result.iter() {
             fn_info.print(cx, res);
         }
     }
 
     pub fn print_graph<'a, 'tcx>(&self, cx: &'a LateContext<'a, 'tcx>) {
-        let empty_printer = EmptyPrinter{};
+        let empty_printer = EmptyPrinter {};
         for ref fn_info in self.normal_functions.iter() {
             println!("+++++++++++++++++++++++++++++++++++++++++++++++++++");
-            fn_info.print(cx, &empty_printer );
+            fn_info.print(cx, &empty_printer);
             fn_info.print_local_calls(cx);
             fn_info.print_external_calls(cx);
         }
@@ -83,40 +85,41 @@ impl HiddenUnsafe {
             fn_info.print(cx, &empty_printer);
         }
     }
-
 }
 
 declare_lint!(pub HIDDEN_UNSAFE, Allow, "Functions using hidden unsafe");
 
-impl <'a, 'tcx>LintPass for HiddenUnsafe{
+impl<'a, 'tcx> LintPass for HiddenUnsafe {
     fn get_lints(&self) -> LintArray {
         lint_array!(HIDDEN_UNSAFE)
     }
 }
 
 impl<'a, 'tcx> LateLintPass<'a, 'tcx> for HiddenUnsafe {
-
     fn check_crate_post(&mut self, cx: &LateContext<'a, 'tcx>, _: &'tcx Crate) {
         calls::build_call_graph(&mut self.normal_functions, cx);
-        self.print_graph(cx);
+        //self.print_graph(cx);
         // the information collected in check_body is available at this point
         // collect unsafe blocks information for each function
         // and propagates it
 
-        let res1: Vec<(&FnInfo,UnsafeInBody)> = analysis::run_all(cx, &self.normal_functions, true);
-        HiddenUnsafe::print_results(cx, &res1, "Unsafe code present in call tree");
+        // TODO uncomment
+//        let res1: Vec<(&FnInfo, UnsafeInBody)> = analysis::run_all(cx, &self.normal_functions, true);
+//        HiddenUnsafe::print_results(cx, &res1, "Unsafe code present in call tree");
+//
+//        let res2: Vec<(&FnInfo, UnsafeTraitSafeMethod)> = analysis::run_all(cx, &self.normal_functions, true);
+//        HiddenUnsafe::print_results(cx, &res2, "Safe method of unsafe trait present in call tree");
 
-        let res2: Vec<(&FnInfo,UnsafeTraitSafeMethod)> = analysis::run_all(cx, &self.normal_functions, true);
-        HiddenUnsafe::print_results(cx,&res2, "Safe method of unsafe trait present in call tree");
-
+        let info: Vec<(&FnInfo, UnsafeFnUsafetyAnalysis)> = analysis::run_all(cx, &self.unsafe_functions, false);
+        HiddenUnsafe::print_results(cx, &info, "Unsafety Sources in Unsafe Function");
     }
 
     // if this body belongs to a normal (safe) function,
     // then it is added to the list of functions to be processed
     fn check_body(&mut self, cx: &LateContext<'a, 'tcx>, body: &'tcx hir::Body) {
         //need to find fn/method declaration of this body
-        let owner_def_id = cx.tcx.hir.body_owner_def_id( body.id() );
-        if let Some (owner_node_id) = cx.tcx.hir.as_local_node_id(owner_def_id) {
+        let owner_def_id = cx.tcx.hir.body_owner_def_id(body.id());
+        if let Some(owner_node_id) = cx.tcx.hir.as_local_node_id(owner_def_id) {
             let owner_node = cx.tcx.hir.get(owner_node_id);
             match owner_node {
                 hir::map::Node::NodeItem(item) => {
@@ -131,7 +134,7 @@ impl<'a, 'tcx> LateLintPass<'a, 'tcx> for HiddenUnsafe {
                     }
                 }
                 hir::map::Node::NodeImplItem(ref impl_item) => {
-                    if let ::hir::ImplItemKind::Method(ref method_sig,..) = impl_item.node {
+                    if let ::hir::ImplItemKind::Method(ref method_sig, ..) = impl_item.node {
                         if let hir::Unsafety::Normal = method_sig.header.unsafety {
                             self.push_normal_fn_info(owner_node_id);
                         } else {
