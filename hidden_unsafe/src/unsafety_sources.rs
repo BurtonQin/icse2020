@@ -1,10 +1,13 @@
+use rustc_data_structures::indexed_vec::IndexVec;
+use std::collections::HashMap;
 use rustc::hir;
 use rustc::lint::LateContext;
 use rustc::mir::visit::{PlaceContext, Visitor};
 use rustc::mir::{
     AggregateKind, BasicBlock, Location, Mir, Place, Projection, ProjectionElem, Rvalue,
     SourceInfo, Statement, StatementKind, Static, Terminator, TerminatorKind,
-    OUTERMOST_SOURCE_SCOPE,
+    OUTERMOST_SOURCE_SCOPE, SourceScope, SourceScopeLocalData, ClearCrossCrate,
+    Safety
 };
 use rustc::ty;
 use rustc_mir;
@@ -15,6 +18,7 @@ use fn_info::FnInfo;
 use print::Print;
 use unsafety::{Source, SourceKind};
 use util;
+use std::cell::Cell;
 
 
 //////////////////////////////////////////////////////////////////////
@@ -129,7 +133,7 @@ impl UnsafeFnUsafetyAnalysis {
 }
 
 impl UnsafetySourceCollector for UnsafeFnUsafetyAnalysis {
-    fn add_source(&mut self, source: Source) {
+    fn add_source(&mut self, source: Source, _: NodeId) {
         self.sources.push(source);
     }
 }
@@ -149,17 +153,11 @@ impl Analysis for UnsafeFnUsafetyAnalysis {
         {
             //needed for the borrow checker
             let mir = &mut tcx.mir_validated(fn_def_id).borrow();
-            let mut body_visitor = UnsafetySourcesVisitor {
-                cx,
-                mir,
-                data: &mut analysis,
-                param_env: tcx.param_env(fn_def_id),
-                source_info: SourceInfo {
-                    span: mir.span,
-                    scope: OUTERMOST_SOURCE_SCOPE,
-                },
-            };
-            body_visitor.visit_mir(mir);
+            if let Some(mut body_visitor) = UnsafetySourcesVisitor::new(
+                cx, mir,&mut analysis, fn_def_id
+            ) {
+                body_visitor.visit_mir(mir);
+            }
         }
         analysis
     }
@@ -210,16 +208,19 @@ impl Print for Argument {
 // Unsafe Blocks Analysis
 //////////////////////////////////////////////////////////////////////
 
+
+
 pub struct UnsafeBlockUnsafetyAnalysis {
     enclosing_fn_node_id: NodeId,
-    sources: Vec<Source>,
+    //sources: Vec<Source>,
+    sources: Vec<(NodeId, Vec<Source>)>,
 }
-
 
 impl UnsafeBlockUnsafetyAnalysis {
     fn new(decl_id: NodeId) -> Self {
         UnsafeBlockUnsafetyAnalysis {
             enclosing_fn_node_id: decl_id,
+            //sources: Vec::new(),
             sources: Vec::new(),
         }
     }
@@ -231,8 +232,12 @@ impl Print for UnsafeBlockUnsafetyAnalysis {
     fn print<'a, 'tcx>(&self, cx: &LateContext<'a, 'tcx>) -> () {
         if !self.sources.is_empty() {
             println!("\nUnsafety in unsafe blocks: ");
-            for source in &self.sources {
-                source.print(cx);
+            for (node_id, block_sources) in self.sources.iter() {
+                // todo print span
+                println!("Block node_id: {:?}", node_id);
+                for source in block_sources {
+                    source.print(cx);
+                }
             }
         }
     }
@@ -240,8 +245,21 @@ impl Print for UnsafeBlockUnsafetyAnalysis {
 }
 
 impl UnsafetySourceCollector for UnsafeBlockUnsafetyAnalysis {
-    fn add_source(&mut self, source: Source) {
-        self.sources.push(source);
+
+    fn add_source(&mut self, source: Source, block_id: NodeId) {
+        let found =  self.sources.iter().any( |(node_id,_)| *node_id == block_id );
+        if found {
+            for (ref mut node_id, ref mut block_sources) in self.sources.iter_mut() {
+                if *node_id == block_id {
+                    block_sources.push(source);
+                    break; // TODO change to while
+                }
+            }
+        } else {
+            let mut block_sources = Vec::new();
+            block_sources.push(source);
+            self.sources.push((block_id,block_sources));
+        }
     }
 }
 
@@ -259,17 +277,10 @@ impl Analysis for UnsafeBlockUnsafetyAnalysis {
         // closures are handled by their parent fn.
         if !cx.tcx.is_closure(fn_def_id) {
             let mir = &mut tcx.mir_validated(fn_def_id).borrow();
-            let mut body_visitor = UnsafetySourcesVisitor {
-                cx,
-                mir,
-                data: &mut analysis,
-                param_env: tcx.param_env(fn_def_id),
-                source_info: SourceInfo {
-                    span: mir.span,
-                    scope: OUTERMOST_SOURCE_SCOPE,
-                },
-            };
-            body_visitor.visit_mir(mir);
+            if let Some (mut body_visitor) = UnsafetySourcesVisitor::new(
+                    cx, mir,&mut analysis, fn_def_id) {
+                body_visitor.visit_mir(mir);
+            }
         }
         analysis
     }
@@ -280,15 +291,56 @@ impl Analysis for UnsafeBlockUnsafetyAnalysis {
 //////////////////////////////////////////////////////////////////////
 
 trait UnsafetySourceCollector {
-    fn add_source( &mut self, Source );
+    fn add_source( &mut self, Source, NodeId);
 }
 
 struct UnsafetySourcesVisitor<'a, 'tcx: 'a> {
     cx: &'a LateContext<'a, 'tcx>,
+    fn_node_id: NodeId,
     mir: &'a Mir<'tcx>,
     data: &'a mut UnsafetySourceCollector,
     param_env: ty::ParamEnv<'tcx>,
     source_info: SourceInfo,
+    source_scope_local_data: &'a IndexVec<SourceScope, SourceScopeLocalData>,
+}
+
+impl <'a, 'tcx> UnsafetySourcesVisitor<'a, 'tcx> {
+    fn new(cx: &'a LateContext<'a, 'tcx>,
+           mir: &'a Mir<'tcx>, data: &'a mut UnsafetySourceCollector,
+           fn_def_id: hir::def_id::DefId ) -> Option<Self> {
+        match mir.source_scope_local_data {
+            ClearCrossCrate::Set(ref local_data) => Some (
+                UnsafetySourcesVisitor {
+                    cx,
+                    fn_node_id : cx.tcx.hir.def_index_to_node_id( fn_def_id.index ),
+                    mir, data,
+                    param_env: cx.tcx.param_env(fn_def_id),
+                    source_info: SourceInfo {
+                        span: mir.span,
+                        scope: OUTERMOST_SOURCE_SCOPE,
+                    },
+                    source_scope_local_data: local_data,
+                }
+            ),
+            ClearCrossCrate::Clear => {
+                println!("unsafety_violations: {:?} - remote, skipping", fn_def_id);
+                None
+            }
+        }
+    }
+
+    fn get_unsafety_node_id(&self) -> NodeId{
+        match self.source_scope_local_data[self.source_info.scope].safety {
+            Safety::Safe => {
+                println!("This is a SAFE block");
+                self.fn_node_id
+            }
+            Safety::BuiltinUnsafe | Safety::FnUnsafe => self.fn_node_id,
+            Safety::ExplicitUnsafe(node_id) => {
+                node_id
+            }
+        }
+    }
 }
 
 impl<'a, 'tcx> Visitor<'tcx> for UnsafetySourcesVisitor<'a, 'tcx> {
@@ -322,7 +374,8 @@ impl<'a, 'tcx> Visitor<'tcx> for UnsafetySourcesVisitor<'a, 'tcx> {
                 if let hir::Unsafety::Unsafe = sig.unsafety() {
                     let loc = terminator.source_info;
                     if let Some(unsafe_fn_call) = Source::new_unsafe_fn_call(self.cx, func, loc) {
-                        self.data.add_source(unsafe_fn_call);
+                        let unsafety_node_id = self.get_unsafety_node_id();
+                        self.data.add_source(unsafe_fn_call, unsafety_node_id);
                     }
                 }
             }
@@ -351,10 +404,11 @@ impl<'a, 'tcx> Visitor<'tcx> for UnsafetySourcesVisitor<'a, 'tcx> {
             }
 
             StatementKind::InlineAsm { .. } => {
+                let unsafety_node_id = self.get_unsafety_node_id();
                 self.data.add_source(Source {
                     kind: SourceKind::Asm,
                     loc: statement.source_info,
-                });
+                }, unsafety_node_id);
             }
         }
         self.super_statement(block, statement, location);
@@ -370,10 +424,12 @@ impl<'a, 'tcx> Visitor<'tcx> for UnsafetySourcesVisitor<'a, 'tcx> {
                     let mir = &mut self.cx.tcx.mir_built(def_id).borrow();
                     let mut body_visitor = UnsafetySourcesVisitor {
                         cx: self.cx,
+                        fn_node_id: self.fn_node_id,
                         mir,
                         data: self.data,
                         param_env: self.cx.tcx.param_env(def_id),
                         source_info: self.source_info,
+                        source_scope_local_data: self.source_scope_local_data
                     };
                     body_visitor.visit_mir(mir);
                 }
@@ -390,10 +446,11 @@ impl<'a, 'tcx> Visitor<'tcx> for UnsafetySourcesVisitor<'a, 'tcx> {
     ) {
         if let PlaceContext::Borrow { .. } = context {
             if rustc_mir::util::is_disaligned(self.cx.tcx, self.mir, self.param_env, place) {
+                let unsafety_node_id = self.get_unsafety_node_id();
                 self.data.add_source(Source {
                     kind: SourceKind::BorrowPacked,
                     loc: self.source_info,
-                });
+                }, unsafety_node_id);
             }
         }
 
@@ -412,10 +469,11 @@ impl<'a, 'tcx> Visitor<'tcx> for UnsafetySourcesVisitor<'a, 'tcx> {
                 match base_ty.sty {
                     ty::TyRawPtr(..) => {
                         let mut output = std::format!("{}", base_ty.sty);
+                        let unsafety_node_id = self.get_unsafety_node_id();
                         self.data.add_source(Source {
                             kind: SourceKind::DerefRawPointer(output),
                             loc: self.source_info,
-                        });
+                        }, unsafety_node_id);
                     }
                     ty::TyAdt(adt, _) => {
                         if adt.is_union() {
@@ -436,18 +494,20 @@ impl<'a, 'tcx> Visitor<'tcx> for UnsafetySourcesVisitor<'a, 'tcx> {
                                     self.param_env,
                                     self.source_info.span,
                                 ) {
+                                    let unsafety_node_id = self.get_unsafety_node_id();
                                     self.data.add_source(Source {
                                         kind: SourceKind::AssignmentToNonCopyUnionField(adt.did),
                                         loc: self.source_info,
-                                    });
+                                    }, unsafety_node_id);
                                 } else {
                                     // write to non-move union, safe
                                 }
                             } else {
+                                let unsafety_node_id = self.get_unsafety_node_id();
                                 self.data.add_source(Source {
                                     kind: SourceKind::AccessToUnionField(adt.did),
                                     loc: self.source_info,
-                                });
+                                }, unsafety_node_id);
                             }
                         }
                     }
@@ -458,21 +518,23 @@ impl<'a, 'tcx> Visitor<'tcx> for UnsafetySourcesVisitor<'a, 'tcx> {
             &Place::Local(..) => {
                 // locals are safe
             }
-            &Place::Promoted(ref p) => {
+            &Place::Promoted(ref _p) => {
                 //TODO find out what this is
                 //println!("Place::Promoted {:?}", p);
             }
             &Place::Static(box Static { def_id, ty: _ }) => {
                 if self.cx.tcx.is_static(def_id) == Some(hir::Mutability::MutMutable) {
+                    let unsafety_node_id = self.get_unsafety_node_id();
                     self.data.add_source(Source {
                         kind: SourceKind::MutableStatic(def_id),
                         loc: self.source_info,
-                    });
+                    }, unsafety_node_id);
                 } else if self.cx.tcx.is_foreign_item(def_id) {
+                    let unsafety_node_id = self.get_unsafety_node_id();
                     self.data.add_source(Source {
                         kind: SourceKind::UseExternStatic(def_id),
                         loc: self.source_info,
-                    });
+                    }, unsafety_node_id);
                 }
             }
         };
