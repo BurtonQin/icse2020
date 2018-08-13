@@ -10,7 +10,7 @@ pub struct UnsafeInBody {
 }
 
 impl Print for UnsafeInBody {
-    fn print<'a,'tcx>(&self, cx: &LateContext<'a, 'tcx>) -> () {
+    fn print<'a,'tcx>(&self, _cx: &LateContext<'a, 'tcx>) -> () {
         print!("{:?}", self.has_unsafe);
     }
 }

@@ -7,5 +7,5 @@ pub trait Print {
 pub struct EmptyPrinter {}
 
 impl Print for EmptyPrinter {
-    fn print<'a, 'tcx>(&self, cx: &LateContext<'a, 'tcx>) -> () {}
+    fn print<'a, 'tcx>(&self, _cx: &LateContext<'a, 'tcx>) -> () {}
 }

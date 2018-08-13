@@ -7,6 +7,7 @@
 #![feature(macro_vis_matcher)]
 #![feature(extern_prelude)]
 #![feature(use_extern_macros)]
+#![feature(box_patterns)]
 
 #[macro_use]
 extern crate rustc;
@@ -14,6 +15,7 @@ extern crate rustc_plugin;
 extern crate rustc_target;
 extern crate syntax;
 extern crate syntax_pos;
+extern crate rustc_mir;
 
 use fn_info::FnInfo;
 use print::{EmptyPrinter, Print};
@@ -22,8 +24,6 @@ use rustc::hir::Crate;
 use rustc::lint::{LateContext, LateLintPass, LateLintPassObject, LintArray, LintPass};
 use rustc_plugin::Registry;
 use syntax::ast::NodeId;
-use unsafe_blocks::UnsafeInBody;
-use unsafe_traits::UnsafeTraitSafeMethod;
 
 mod fn_info;
 mod calls;
@@ -74,12 +74,16 @@ impl HiddenUnsafe {
 
     pub fn print_graph<'a, 'tcx>(&self, cx: &'a LateContext<'a, 'tcx>) {
         let empty_printer = EmptyPrinter {};
+        println!("+++++++++++++++++++++++++++++++++++++++++++++++++++");
+        println!("Safe functions!");
         for ref fn_info in self.normal_functions.iter() {
             println!("+++++++++++++++++++++++++++++++++++++++++++++++++++");
             fn_info.print(cx, &empty_printer);
             fn_info.print_local_calls(cx);
             fn_info.print_external_calls(cx);
         }
+        println!("+++++++++++++++++++++++++++++++++++++++++++++++++++");
+        println!("Unsafe functions!");
         for ref fn_info in self.unsafe_functions.iter() {
             println!("+++++++++++++++++++++++++++++++++++++++++++++++++++");
             fn_info.print(cx, &empty_printer);

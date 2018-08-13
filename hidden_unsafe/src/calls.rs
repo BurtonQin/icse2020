@@ -47,8 +47,7 @@ impl<'a, 'tcx> Visitor<'tcx> for CallsVisitor<'a, 'tcx> {
                             self.fn_info.push_local_call(callee_node_id);
                         }
                     } else {
-                        let mut output = std::format
-                        !("{}", constant.literal.ty.sty);
+                        let mut output = std::format!("{}", constant.literal.ty.sty);
                         self.fn_info.push_external_call(callee_def_id.krate, output);
                     }
                 } else {

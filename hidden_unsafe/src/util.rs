@@ -6,9 +6,27 @@ use rustc::hir;
 use rustc::ty::TypeVariants;
 use rustc_target::spec::abi::Abi;
 
+use print::Print;
+
 pub enum FnCallInfo {
     Local(NodeId,Abi),
     External(hir::def_id::CrateNum, String,Abi),
+}
+
+impl Print for FnCallInfo {
+    fn print<'a, 'tcx>(&self, cx: &LateContext<'a, 'tcx>) -> () {
+        match self {
+            FnCallInfo::Local(node_id,abi) => {
+                print!("{:?} |abi: {:?}",  cx.tcx.node_path_str(*node_id), abi);
+            }
+            FnCallInfo::External(krate, path_str, abi) => {
+                print!("Crate: {:?} | Calee: {:?} | abi: {:?}",
+                       cx.tcx.crate_name(*krate), path_str, abi
+                );
+            }
+        }
+
+    }
 }
 
 pub fn find_callee<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, func: &Operand<'tcx>) -> Option<FnCallInfo> {

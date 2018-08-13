@@ -1,23 +1,26 @@
-use rustc_target::spec::abi::Abi;
-use rustc::lint::LateContext;
-use syntax::ast::NodeId;
-use rustc::mir::{SourceInfo,Operand};
 
-use util::{FnCallInfo,find_callee};
+use rustc::lint::LateContext;
+use rustc::mir::{SourceInfo,Operand};
+use rustc::hir;
+
+use util::FnCallInfo;
 use print::Print;
 
 pub struct Source {
-    loc: SourceInfo,
-    kind: SourceKind,
+    pub loc: SourceInfo,
+    pub kind: SourceKind,
 }
 
 pub enum SourceKind {
     UnsafeFnCall(FnCallInfo),
-    DerefRawPointer,
+    DerefRawPointer(String), // TODO find a better solution
     Asm,
-    MutateStatic,
-    ForeignItem, //TODO check what is this
+    MutableStatic (hir::def_id::DefId),
+    //ForeignItem, //TODO check what is this
     BorrowPacked,
+    AssignmentToNonCopyUnionField (hir::def_id::DefId),
+    AccessToUnionField (hir::def_id::DefId),
+    UseExternStatic (hir::def_id::DefId),
 }
 
 
@@ -32,5 +35,22 @@ impl Source {
 }
 
 impl Print for Source {
-    fn print<'a, 'tcx>(&self, cx: &LateContext<'a, 'tcx>) -> () {}
+    fn print<'a, 'tcx>(&self, cx: &LateContext<'a, 'tcx>) -> () {
+        match self.kind {
+            SourceKind::UnsafeFnCall(ref callee_info) => {
+                print!("UnsafeFnCall");
+                callee_info.print(cx);
+            },
+            SourceKind::DerefRawPointer(ref ty) => {print!("DerefRawPointer | Type {:?}",ty);},
+            SourceKind::Asm => {print!("Asm");},
+            SourceKind::MutableStatic (ref def_id) => {print!("MutateStatic {:?}", def_id);},
+            //SourceKind::ForeignItem => {print!("ForeignItem");},
+            SourceKind::BorrowPacked => {print!("BorrowPacked");},
+            SourceKind::AssignmentToNonCopyUnionField (ref adt_def) => {print!("AssignmentToNonCopyUnionField {:?}", adt_def);},
+            SourceKind::AccessToUnionField (ref adt_def) => {print!("AccessToUnionField {:?}", adt_def);},
+            SourceKind::UseExternStatic (ref adt_def) => {print!("UseExternStatic {:?}", adt_def);},
+        }
+        //TODO fix location printing
+        print!(" | Loc: {:?}", self.loc);
+    }
 }

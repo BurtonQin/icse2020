@@ -1,10 +1,13 @@
-
+use rustc_mir;
 use rustc::hir;
 use syntax::ast::NodeId;
 use rustc::lint::LateContext;
-use rustc::mir::{BasicBlock, Location, Operand, Terminator, TerminatorKind, Mir};
-use rustc::mir::visit::Visitor;
-use rustc::ty::TypeVariants;
+use rustc::mir::{BasicBlock, Location, Terminator, Static,
+                 TerminatorKind, Mir, StatementKind, SourceInfo, Projection,
+                 Statement, Rvalue, AggregateKind, Place, ProjectionElem,
+                 OUTERMOST_SOURCE_SCOPE};
+use rustc::mir::visit::{Visitor,PlaceContext};
+use rustc::ty;
 
 use unsafety::{Source,SourceKind};
 use fn_info::FnInfo;
@@ -109,7 +112,7 @@ impl UnsafeFnUsafetyAnalysis{
         let mut iter = array.iter();
         let mut done = false;
         let mut res = None;
-        while (!done ) {
+        while !done {
             if let Some (elt) = iter.next() {
                 let arg_res = UnsafeFnUsafetyAnalysis::process_type(elt);
                 if let Some (_) = arg_res {
@@ -140,8 +143,16 @@ impl Analysis for UnsafeFnUsafetyAnalysis {
         let fn_def_id = tcx.hir.local_def_id(fn_info.decl_id());
         analysis.process_fn_decl(cx);
         { //needed for the borrow checker
-            let mir = &mut tcx.mir_validated(fn_def_id).borrow();
-            let mut body_visitor = FnVisitor { cx, mir, data: &mut analysis };
+            let mir = &mut tcx.mir_built(fn_def_id).borrow();
+            let mut body_visitor = FnVisitor {
+                cx, mir,
+                data: &mut analysis,
+                param_env: tcx.param_env(fn_def_id),
+                source_info: SourceInfo {
+                    span: mir.span,
+                    scope: OUTERMOST_SOURCE_SCOPE,
+                },
+            };
             body_visitor.visit_mir(mir);
         }
         analysis
@@ -152,6 +163,8 @@ struct FnVisitor<'a, 'tcx: 'a> {
     cx: &'a LateContext<'a, 'tcx>,
     mir: &'a Mir<'tcx>,
     data: &'a mut UnsafeFnUsafetyAnalysis,
+    param_env: ty::ParamEnv<'tcx>,
+    source_info: SourceInfo,
 }
 
 impl <'a, 'tcx> Visitor<'tcx> for FnVisitor<'a, 'tcx> {
@@ -161,7 +174,7 @@ impl <'a, 'tcx> Visitor<'tcx> for FnVisitor<'a, 'tcx> {
                         terminator: &Terminator<'tcx>,
                         location: Location)
     {
-//        self.source_info = terminator.source_info;
+        self.source_info = terminator.source_info;
         match terminator.kind {
             TerminatorKind::Goto { .. } |
             TerminatorKind::SwitchInt { .. } |
@@ -193,6 +206,154 @@ impl <'a, 'tcx> Visitor<'tcx> for FnVisitor<'a, 'tcx> {
         self.super_terminator(block, terminator, location);
     }
 
+
+    fn visit_statement(&mut self,
+                       block: BasicBlock,
+                       statement: &Statement<'tcx>,
+                       location: Location)
+    {
+        self.source_info = statement.source_info;
+        match statement.kind {
+            StatementKind::Assign(..) |
+            StatementKind::ReadForMatch(..) |
+            StatementKind::SetDiscriminant { .. } |
+            StatementKind::StorageLive(..) |
+            StatementKind::StorageDead(..) |
+            StatementKind::EndRegion(..) |
+            StatementKind::Validate(..) |
+            StatementKind::UserAssertTy(..) |
+            StatementKind::Nop => {
+                // safe (at least as emitted during MIR construction)
+            }
+
+            StatementKind::InlineAsm { .. } => {
+                self.data.sources.push( Source{
+                    kind: SourceKind::Asm,
+                    loc: statement.source_info
+                });
+            },
+        }
+        self.super_statement(block, statement, location);
+    }
+
+    fn visit_rvalue(&mut self,
+                    rvalue: &Rvalue<'tcx>,
+                    location: Location)
+    {
+        if let &Rvalue::Aggregate(box ref aggregate, _) = rvalue {
+            match aggregate {
+                &AggregateKind::Array(..) |
+                &AggregateKind::Tuple |
+                &AggregateKind::Adt(..) => {}
+                &AggregateKind::Closure(def_id, _) |
+                &AggregateKind::Generator(def_id, _, _) => {
+                    // TODO add tests for this
+                    //TODO check why Rust unsafe analysis is on mir_built
+                    let mir = &mut self.cx.tcx.mir_built(def_id).borrow();
+                    let mut body_visitor = FnVisitor {
+                        cx: self.cx, mir,
+                        data: &mut self.data,
+                        param_env: self.cx.tcx.param_env(def_id),
+                        source_info: self.source_info,
+                    };
+                    body_visitor.visit_mir(mir);
+                }
+            }
+        }
+        self.super_rvalue(rvalue, location);
+    }
+
+
+    fn visit_place(&mut self,
+                   place: &Place<'tcx>,
+                   context: PlaceContext<'tcx>,
+                   location: Location) {
+        if let PlaceContext::Borrow { .. } = context {
+            if rustc_mir::util::is_disaligned(self.cx.tcx, self.mir, self.param_env, place) {
+                self.data.sources.push(Source{
+                    kind: SourceKind::BorrowPacked,
+                    loc: self.source_info });
+            }
+        }
+
+        match place {
+            &Place::Projection(box Projection {
+                ref base, ref elem
+            }) => {
+                let old_source_info = self.source_info;
+                if let &Place::Local(local) = base {
+                    if self.mir.local_decls[local].internal {
+                        // Internal locals are used in the `move_val_init` desugaring.
+                        // We want to check unsafety against the source info of the
+                        // desugaring, rather than the source info of the RHS.
+                        self.source_info = self.mir.local_decls[local].source_info;
+                    }
+                }
+                let base_ty = base.ty(self.mir, self.cx.tcx).to_ty(self.cx.tcx);
+                match base_ty.sty {
+                    ty::TyRawPtr(..) => {
+                        let mut output = std::format!("{}", base_ty.sty);
+                        self.data.sources.push(Source{
+                            kind: SourceKind::DerefRawPointer(output),
+                            loc: self.source_info,
+                        });
+                    }
+                    ty::TyAdt(adt, _) => {
+                        if adt.is_union() {
+                            if context == PlaceContext::Store ||
+                                context == PlaceContext::AsmOutput ||
+                                context == PlaceContext::Drop {
+                                    let elem_ty = match elem {
+                                        &ProjectionElem::Field(_, ty) => ty,
+                                        _ => span_bug!(
+                                        self.source_info.span,
+                                        "non-field projection {:?} from union?",
+                                        place)
+                                    };
+                                    if elem_ty.moves_by_default(self.cx.tcx, self.param_env,
+                                                                self.source_info.span) {
+                                        self.data.sources.push(Source{
+                                            kind: SourceKind::AssignmentToNonCopyUnionField(adt.did),
+                                            loc: self.source_info,
+                                        });
+                                    } else {
+                                        // write to non-move union, safe
+                                    }
+                            } else  {
+                                self.data.sources.push(Source{
+                                       kind: SourceKind::AccessToUnionField(adt.did),
+                                       loc: self.source_info,
+                                });
+                            }
+                        }
+                    }
+                    _ => {}
+                }
+                self.source_info = old_source_info;
+            }
+            &Place::Local(..) => {
+                // locals are safe
+            }
+            &Place::Promoted(_) => {
+                bug!("unsafety checking should happen before promotion")
+            }
+            &Place::Static(box Static { def_id, ty: _ }) => {
+                if self.cx.tcx.is_static(def_id) == Some(hir::Mutability::MutMutable) {
+                    self.data.sources.push(Source{
+                        kind: SourceKind::MutableStatic(def_id),
+                        loc: self.source_info,
+                    });
+                } else if self.cx.tcx.is_foreign_item(def_id) {
+                    self.data.sources.push(Source{
+                        kind: SourceKind::UseExternStatic(def_id),
+                        loc: self.source_info,
+                    });
+                }
+            }
+        };
+        self.super_place(place, context, location);
+    }
+
 }
 
 impl Print for UnsafeFnUsafetyAnalysis {
@@ -213,8 +374,8 @@ impl Print for UnsafeFnUsafetyAnalysis {
 impl Print for ArgumentKind {
     fn print<'a,'tcx>(&self, _cx: &LateContext<'a, 'tcx>) -> () {
         match self {
-            RawPointer => { print!("RawPointer"); }
-            UnsafeFunction => { print!("UnsafeFunction"); }
+            ArgumentKind::RawPointer => { print!("RawPointer"); }
+            ArgumentKind::UnsafeFunction => { print!("UnsafeFunction"); }
         }
     }
 }
