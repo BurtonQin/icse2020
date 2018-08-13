@@ -12,10 +12,10 @@ pub fn build_call_graph<'a, 'tcx>(data: &mut Vec<FnInfo>, cx: &LateContext<'a, '
         let body_owner_kind = hir.body_owner_kind(fn_info.decl_id());
         if let hir::BodyOwnerKind::Fn = body_owner_kind {
             let owner_def_id = hir.local_def_id(fn_info.decl_id());
-            let mut mir = tcx.mir_validated(owner_def_id);
+            let mut mir = &tcx.mir_validated(owner_def_id).borrow();
             {
                 let mut calls_visitor = CallsVisitor::new(cx, &mut fn_info);
-                calls_visitor.visit_mir(&mut mir.borrow());
+                calls_visitor.visit_mir(mir);
             }
         }
     }

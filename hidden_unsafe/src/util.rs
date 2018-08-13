@@ -58,3 +58,60 @@ pub fn find_callee<'a, 'tcx>(
         None
     }
 }
+
+
+pub fn is_unsafe_fn<'a, 'tcx>(node_id: NodeId, cx: &LateContext<'a, 'tcx>) -> bool {
+    let node = cx.tcx.hir.get(node_id);
+    match node {
+        hir::map::Node::NodeItem(item) => {
+            if let hir::ItemKind::Fn(ref _fn_decl, ref fn_header, _, _) = item.node {
+                if let hir::Unsafety::Normal = fn_header.unsafety {
+                    false
+                } else {
+                    true
+                }
+            } else {
+                println!("Body owner node type NOT handled: {:?}", item);
+                false
+            }
+        }
+        _ => { false }
+    }
+}
+
+pub fn is_unsafe_method<'a, 'tcx>(node_id: NodeId, cx: &LateContext<'a, 'tcx>) -> bool {
+    let node = cx.tcx.hir.get(node_id);
+    match node {
+        hir::map::Node::NodeImplItem(ref impl_item) => {
+            if let ::hir::ImplItemKind::Method(ref method_sig, ..) = impl_item.node {
+                if let hir::Unsafety::Normal = method_sig.header.unsafety {
+                    false
+                } else {
+                    true
+                }
+            } else {
+                println!("Impl Item Kind NOT handled {:?}", impl_item.node);
+                false
+            }
+        }
+        _ => { false }
+    }
+}
+
+pub fn is_fn_or_method<'a, 'tcx>(node_id: NodeId, cx: &LateContext<'a, 'tcx>) -> bool {
+    let node = cx.tcx.hir.get(node_id);
+    match node {
+        hir::map::Node::NodeItem(item) => {true}
+        hir::map::Node::NodeImplItem(ref impl_item) => {true}
+        hir::map::Node::NodeExpr(ref expr) => {false} //closure
+        hir::map::Node::NodeAnonConst(ref _anon_const) => {
+            // nothing to do - this is not a stand alone function
+            // any unsafe in this body will be processed by the enclosing function or method
+            false
+        }
+        _ => {
+            println!("Body owner node NOT handled: {:?}", node);
+            false
+        }
+    }
+}

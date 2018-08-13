@@ -28,13 +28,16 @@ use syntax::ast::NodeId;
 mod analysis;
 mod calls;
 mod fn_info;
-mod fn_unsafety;
+mod unsafety_sources;
 mod print;
 mod unsafe_blocks;
 mod unsafe_traits;
 mod unsafety;
 mod util;
-use fn_unsafety::UnsafeFnUsafetyAnalysis;
+
+
+use unsafety_sources::UnsafeFnUsafetyAnalysis;
+use unsafety_sources::UnsafeBlockUnsafetyAnalysis;
 
 struct HiddenUnsafe {
     normal_functions: Vec<FnInfo>,
@@ -114,9 +117,13 @@ impl<'a, 'tcx> LateLintPass<'a, 'tcx> for HiddenUnsafe {
         //        let res2: Vec<(&FnInfo, UnsafeTraitSafeMethod)> = analysis::run_all(cx, &self.normal_functions, true);
         //        HiddenUnsafe::print_results(cx, &res2, "Safe method of unsafe trait present in call tree");
 
-        let info: Vec<(&FnInfo, UnsafeFnUsafetyAnalysis)> =
+        let unsafe_fn_info: Vec<(&FnInfo, UnsafeFnUsafetyAnalysis)> =
             analysis::run_all(cx, &self.unsafe_functions, false);
-        HiddenUnsafe::print_results(cx, &info, "Unsafety Sources in Unsafe Function");
+        HiddenUnsafe::print_results(cx, &unsafe_fn_info, "Unsafety Sources in Unsafe Function");
+
+        let safe_fn_info: Vec<(&FnInfo, UnsafeBlockUnsafetyAnalysis)> =
+            analysis::run_all(cx, &self.normal_functions, false);
+        HiddenUnsafe::print_results(cx, &safe_fn_info, "Unsafety Sources in Safe Function");
     }
 
     // if this body belongs to a normal (safe) function,
@@ -125,44 +132,15 @@ impl<'a, 'tcx> LateLintPass<'a, 'tcx> for HiddenUnsafe {
         //need to find fn/method declaration of this body
         let owner_def_id = cx.tcx.hir.body_owner_def_id(body.id());
         if let Some(owner_node_id) = cx.tcx.hir.as_local_node_id(owner_def_id) {
-            let owner_node = cx.tcx.hir.get(owner_node_id);
-            match owner_node {
-                hir::map::Node::NodeItem(item) => {
-                    if let hir::ItemKind::Fn(ref _fn_decl, ref fn_header, _, _) = item.node {
-                        if let hir::Unsafety::Normal = fn_header.unsafety {
-                            self.push_normal_fn_info(owner_node_id);
-                        } else {
-                            self.push_unsafe_fn_info(owner_node_id);
-                        }
+            if util::is_fn_or_method(owner_node_id,cx) {
+                if util::is_unsafe_fn(owner_node_id, cx) {
+                    self.push_unsafe_fn_info(owner_node_id);
+                } else {
+                    if util::is_unsafe_method(owner_node_id,cx) {
+                        self.push_unsafe_fn_info(owner_node_id);
                     } else {
-                        println!("Body owner node type NOT handled: {:?}", item);
+                        self.push_normal_fn_info(owner_node_id);
                     }
-                }
-                hir::map::Node::NodeImplItem(ref impl_item) => {
-                    if let ::hir::ImplItemKind::Method(ref method_sig, ..) = impl_item.node {
-                        if let hir::Unsafety::Normal = method_sig.header.unsafety {
-                            self.push_normal_fn_info(owner_node_id);
-                        } else {
-                            self.push_unsafe_fn_info(owner_node_id);
-                        }
-                    } else {
-                        println!("Impl Item Kind NOT handled {:?}", impl_item.node);
-                    }
-                }
-                hir::map::Node::NodeExpr(ref expr) => {
-                    if let hir::ExprKind::Closure(..) = expr.node {
-                        // nothing to do - this is not a stand alone function
-                        // any unsafe in this body will be processed by the enclosing function or method
-                    } else {
-                        println!("Body owner node NOT handled: {:?}", owner_node);
-                    }
-                }
-                hir::map::Node::NodeAnonConst(ref _anon_const) => {
-                    // nothing to do - this is not a stand alone function
-                    // any unsafe in this body will be processed by the enclosing function or method
-                }
-                _ => {
-                    println!("Body owner node NOT handled: {:?}", owner_node);
                 }
             }
         }

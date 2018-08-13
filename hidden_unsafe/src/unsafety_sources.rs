@@ -14,10 +14,17 @@ use analysis::Analysis;
 use fn_info::FnInfo;
 use print::Print;
 use unsafety::{Source, SourceKind};
+use util;
+
+
+//////////////////////////////////////////////////////////////////////
+// Unsafe Functions Analysis
+//////////////////////////////////////////////////////////////////////
 
 // information about reasons for unsafety of functions declared unsafe
 pub struct UnsafeFnUsafetyAnalysis {
     decl_id: NodeId,
+    from_trait: bool,
     arguments: Vec<Argument>,
     sources: Vec<Source>,
 }
@@ -36,12 +43,14 @@ impl UnsafeFnUsafetyAnalysis {
     fn new(decl_id: NodeId) -> Self {
         UnsafeFnUsafetyAnalysis {
             decl_id,
+            from_trait: false,
             arguments: Vec::new(),
             sources: Vec::new(),
         }
     }
 
     fn process_fn_decl<'a, 'tcx>(&mut self, cx: &LateContext<'a, 'tcx>) -> () {
+        self.from_trait = util::is_unsafe_method(self.decl_id,cx);
         if let Some(fn_decl) = cx.tcx.hir.fn_decl(self.decl_id) {
             for input in fn_decl.inputs {
                 if let Some(reason) = UnsafeFnUsafetyAnalysis::process_type(&input) {
@@ -119,6 +128,12 @@ impl UnsafeFnUsafetyAnalysis {
     }
 }
 
+impl UnsafetySourceCollector for UnsafeFnUsafetyAnalysis {
+    fn add_source(&mut self, source: Source) {
+        self.sources.push(source);
+    }
+}
+
 impl Analysis for UnsafeFnUsafetyAnalysis {
     fn is_set(&self) -> bool {
         false
@@ -133,8 +148,8 @@ impl Analysis for UnsafeFnUsafetyAnalysis {
         analysis.process_fn_decl(cx);
         {
             //needed for the borrow checker
-            let mir = &mut tcx.mir_built(fn_def_id).borrow();
-            let mut body_visitor = FnVisitor {
+            let mir = &mut tcx.mir_validated(fn_def_id).borrow();
+            let mut body_visitor = UnsafetySourcesVisitor {
                 cx,
                 mir,
                 data: &mut analysis,
@@ -150,15 +165,133 @@ impl Analysis for UnsafeFnUsafetyAnalysis {
     }
 }
 
-struct FnVisitor<'a, 'tcx: 'a> {
+impl Print for UnsafeFnUsafetyAnalysis {
+    fn print<'a, 'tcx>(&self, cx: &LateContext<'a, 'tcx>) -> () {
+        if self.from_trait {
+            println!("\nUnsafe from signature in trait");
+        }
+        if !self.arguments.is_empty() {
+            println!("Unsafety in arguments: ");
+            for arg in &self.arguments {
+                arg.print(cx);
+            }
+        }
+        if !self.sources.is_empty() {
+            println!("Unsafety in body: ");
+            for source in &self.sources {
+                source.print(cx);
+            }
+        }
+    }
+}
+
+impl Print for ArgumentKind {
+    fn print<'a, 'tcx>(&self, _cx: &LateContext<'a, 'tcx>) -> () {
+        match self {
+            ArgumentKind::RawPointer => {
+                print!("RawPointer");
+            }
+            ArgumentKind::UnsafeFunction => {
+                print!("UnsafeFunction");
+            }
+        }
+    }
+}
+
+impl Print for Argument {
+    fn print<'a, 'tcx>(&self, cx: &LateContext<'a, 'tcx>) -> () {
+        print!("Kind ");
+        self.kind.print(cx);
+        println!(" Type {:?}", cx.tcx.node_path_str(self.ty_node_id));
+    }
+}
+
+//////////////////////////////////////////////////////////////////////
+// Unsafe Blocks Analysis
+//////////////////////////////////////////////////////////////////////
+
+pub struct UnsafeBlockUnsafetyAnalysis {
+    enclosing_fn_node_id: NodeId,
+    sources: Vec<Source>,
+}
+
+
+impl UnsafeBlockUnsafetyAnalysis {
+    fn new(decl_id: NodeId) -> Self {
+        UnsafeBlockUnsafetyAnalysis {
+            enclosing_fn_node_id: decl_id,
+            sources: Vec::new(),
+        }
+    }
+
+}
+
+impl Print for UnsafeBlockUnsafetyAnalysis {
+
+    fn print<'a, 'tcx>(&self, cx: &LateContext<'a, 'tcx>) -> () {
+        if !self.sources.is_empty() {
+            println!("\nUnsafety in unsafe blocks: ");
+            for source in &self.sources {
+                source.print(cx);
+            }
+        }
+    }
+
+}
+
+impl UnsafetySourceCollector for UnsafeBlockUnsafetyAnalysis {
+    fn add_source(&mut self, source: Source) {
+        self.sources.push(source);
+    }
+}
+
+impl Analysis for UnsafeBlockUnsafetyAnalysis {
+    fn is_set(&self) -> bool {
+        false
+    }
+
+    fn set(&mut self) {}
+
+    fn run_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, fn_info: &'a FnInfo) -> Self {
+        let tcx = cx.tcx;
+        let mut analysis: Self = Self::new(fn_info.decl_id());
+        let fn_def_id = tcx.hir.local_def_id(fn_info.decl_id());
+        // closures are handled by their parent fn.
+        if !cx.tcx.is_closure(fn_def_id) {
+            let mir = &mut tcx.mir_validated(fn_def_id).borrow();
+            let mut body_visitor = UnsafetySourcesVisitor {
+                cx,
+                mir,
+                data: &mut analysis,
+                param_env: tcx.param_env(fn_def_id),
+                source_info: SourceInfo {
+                    span: mir.span,
+                    scope: OUTERMOST_SOURCE_SCOPE,
+                },
+            };
+            body_visitor.visit_mir(mir);
+        }
+        analysis
+    }
+}
+
+//////////////////////////////////////////////////////////////////////
+// Common Parts
+//////////////////////////////////////////////////////////////////////
+
+trait UnsafetySourceCollector {
+    fn add_source( &mut self, Source );
+}
+
+struct UnsafetySourcesVisitor<'a, 'tcx: 'a> {
     cx: &'a LateContext<'a, 'tcx>,
     mir: &'a Mir<'tcx>,
-    data: &'a mut UnsafeFnUsafetyAnalysis,
+    data: &'a mut UnsafetySourceCollector,
     param_env: ty::ParamEnv<'tcx>,
     source_info: SourceInfo,
 }
 
-impl<'a, 'tcx> Visitor<'tcx> for FnVisitor<'a, 'tcx> {
+impl<'a, 'tcx> Visitor<'tcx> for UnsafetySourcesVisitor<'a, 'tcx> {
     fn visit_terminator(
         &mut self,
         block: BasicBlock,
@@ -189,7 +322,7 @@ impl<'a, 'tcx> Visitor<'tcx> for FnVisitor<'a, 'tcx> {
                 if let hir::Unsafety::Unsafe = sig.unsafety() {
                     let loc = terminator.source_info;
                     if let Some(unsafe_fn_call) = Source::new_unsafe_fn_call(self.cx, func, loc) {
-                        self.data.sources.push(unsafe_fn_call);
+                        self.data.add_source(unsafe_fn_call);
                     }
                 }
             }
@@ -218,7 +351,7 @@ impl<'a, 'tcx> Visitor<'tcx> for FnVisitor<'a, 'tcx> {
             }
 
             StatementKind::InlineAsm { .. } => {
-                self.data.sources.push(Source {
+                self.data.add_source(Source {
                     kind: SourceKind::Asm,
                     loc: statement.source_info,
                 });
@@ -235,10 +368,10 @@ impl<'a, 'tcx> Visitor<'tcx> for FnVisitor<'a, 'tcx> {
                     // TODO add tests for this
                     //TODO check why Rust unsafe analysis is on mir_built
                     let mir = &mut self.cx.tcx.mir_built(def_id).borrow();
-                    let mut body_visitor = FnVisitor {
+                    let mut body_visitor = UnsafetySourcesVisitor {
                         cx: self.cx,
                         mir,
-                        data: &mut self.data,
+                        data: self.data,
                         param_env: self.cx.tcx.param_env(def_id),
                         source_info: self.source_info,
                     };
@@ -257,7 +390,7 @@ impl<'a, 'tcx> Visitor<'tcx> for FnVisitor<'a, 'tcx> {
     ) {
         if let PlaceContext::Borrow { .. } = context {
             if rustc_mir::util::is_disaligned(self.cx.tcx, self.mir, self.param_env, place) {
-                self.data.sources.push(Source {
+                self.data.add_source(Source {
                     kind: SourceKind::BorrowPacked,
                     loc: self.source_info,
                 });
@@ -279,7 +412,7 @@ impl<'a, 'tcx> Visitor<'tcx> for FnVisitor<'a, 'tcx> {
                 match base_ty.sty {
                     ty::TyRawPtr(..) => {
                         let mut output = std::format!("{}", base_ty.sty);
-                        self.data.sources.push(Source {
+                        self.data.add_source(Source {
                             kind: SourceKind::DerefRawPointer(output),
                             loc: self.source_info,
                         });
@@ -303,7 +436,7 @@ impl<'a, 'tcx> Visitor<'tcx> for FnVisitor<'a, 'tcx> {
                                     self.param_env,
                                     self.source_info.span,
                                 ) {
-                                    self.data.sources.push(Source {
+                                    self.data.add_source(Source {
                                         kind: SourceKind::AssignmentToNonCopyUnionField(adt.did),
                                         loc: self.source_info,
                                     });
@@ -311,7 +444,7 @@ impl<'a, 'tcx> Visitor<'tcx> for FnVisitor<'a, 'tcx> {
                                     // write to non-move union, safe
                                 }
                             } else {
-                                self.data.sources.push(Source {
+                                self.data.add_source(Source {
                                     kind: SourceKind::AccessToUnionField(adt.did),
                                     loc: self.source_info,
                                 });
@@ -325,15 +458,18 @@ impl<'a, 'tcx> Visitor<'tcx> for FnVisitor<'a, 'tcx> {
             &Place::Local(..) => {
                 // locals are safe
             }
-            &Place::Promoted(_) => bug!("unsafety checking should happen before promotion"),
+            &Place::Promoted(ref p) => {
+                //TODO find out what this is
+                //println!("Place::Promoted {:?}", p);
+            }
             &Place::Static(box Static { def_id, ty: _ }) => {
                 if self.cx.tcx.is_static(def_id) == Some(hir::Mutability::MutMutable) {
-                    self.data.sources.push(Source {
+                    self.data.add_source(Source {
                         kind: SourceKind::MutableStatic(def_id),
                         loc: self.source_info,
                     });
                 } else if self.cx.tcx.is_foreign_item(def_id) {
-                    self.data.sources.push(Source {
+                    self.data.add_source(Source {
                         kind: SourceKind::UseExternStatic(def_id),
                         loc: self.source_info,
                     });
@@ -344,36 +480,3 @@ impl<'a, 'tcx> Visitor<'tcx> for FnVisitor<'a, 'tcx> {
     }
 }
 
-impl Print for UnsafeFnUsafetyAnalysis {
-    fn print<'a, 'tcx>(&self, cx: &LateContext<'a, 'tcx>) -> () {
-        println!("\nUnsafety in arguments: ");
-        for arg in &self.arguments {
-            arg.print(cx);
-        }
-        println!("Unsafety in body: ");
-        for source in &self.sources {
-            source.print(cx);
-        }
-    }
-}
-
-impl Print for ArgumentKind {
-    fn print<'a, 'tcx>(&self, _cx: &LateContext<'a, 'tcx>) -> () {
-        match self {
-            ArgumentKind::RawPointer => {
-                print!("RawPointer");
-            }
-            ArgumentKind::UnsafeFunction => {
-                print!("UnsafeFunction");
-            }
-        }
-    }
-}
-
-impl Print for Argument {
-    fn print<'a, 'tcx>(&self, cx: &LateContext<'a, 'tcx>) -> () {
-        print!("Kind ");
-        self.kind.print(cx);
-        println!(" Type {:?}", cx.tcx.node_path_str(self.ty_node_id));
-    }
-}
