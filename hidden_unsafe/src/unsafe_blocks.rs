@@ -10,31 +10,40 @@ pub struct UnsafeInBody {
 }
 
 impl Print for UnsafeInBody {
-    fn print<'a,'tcx>(&self, _cx: &LateContext<'a, 'tcx>) -> () {
+    fn print<'a, 'tcx>(&self, _cx: &LateContext<'a, 'tcx>) -> () {
         print!("{:?}", self.has_unsafe);
     }
 }
 
-impl UnsafeInBody{
-    fn new() -> Self { UnsafeInBody { has_unsafe: false } }
+impl UnsafeInBody {
+    fn new() -> Self {
+        UnsafeInBody { has_unsafe: false }
+    }
 }
 
 impl Analysis for UnsafeInBody {
+    fn is_set(&self) -> bool {
+        self.has_unsafe
+    }
 
-    fn is_set(&self) -> bool { self.has_unsafe }
+    fn set(&mut self) {
+        self.has_unsafe = true
+    }
 
-    fn set(&mut self) { self.has_unsafe = true }
-
-    fn run_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, fn_info: &'a FnInfo)
-                              -> Self {
+    fn run_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, fn_info: &'a FnInfo) -> Self {
         let tcx = &cx.tcx;
         let hir = &tcx.hir;
         let body_id = hir.body_owned_by(fn_info.decl_id());
         let body = hir.body(body_id);
-        let mut visitor = UnsafeBlocksVisitorData { hir: &hir, has_unsafe: false };
+        let mut visitor = UnsafeBlocksVisitorData {
+            hir: &hir,
+            has_unsafe: false,
+        };
         hir::intravisit::walk_body(&mut visitor, body);
         let mut analysis = Self::new();
-        if visitor.has_unsafe { analysis.set(); }
+        if visitor.has_unsafe {
+            analysis.set();
+        }
         analysis
     }
 }
@@ -65,4 +74,3 @@ impl<'a, 'tcx> hir::intravisit::Visitor<'tcx> for UnsafeBlocksVisitorData<'tcx> 
         intravisit::NestedVisitorMap::All(self.hir)
     }
 }
-

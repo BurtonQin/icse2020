@@ -11,11 +11,11 @@
 
 #[macro_use]
 extern crate rustc;
+extern crate rustc_mir;
 extern crate rustc_plugin;
 extern crate rustc_target;
 extern crate syntax;
 extern crate syntax_pos;
-extern crate rustc_mir;
 
 use fn_info::FnInfo;
 use print::{EmptyPrinter, Print};
@@ -25,14 +25,14 @@ use rustc::lint::{LateContext, LateLintPass, LateLintPassObject, LintArray, Lint
 use rustc_plugin::Registry;
 use syntax::ast::NodeId;
 
-mod fn_info;
-mod calls;
-mod unsafe_traits;
-mod unsafe_blocks;
-mod print;
 mod analysis;
-mod unsafety;
+mod calls;
+mod fn_info;
 mod fn_unsafety;
+mod print;
+mod unsafe_blocks;
+mod unsafe_traits;
+mod unsafety;
 mod util;
 use fn_unsafety::UnsafeFnUsafetyAnalysis;
 
@@ -49,21 +49,21 @@ impl HiddenUnsafe {
         }
     }
 
-    pub fn push_normal_fn_info<'a, 'tcx>(&mut self,
-                                         node_id: NodeId) {
+    pub fn push_normal_fn_info<'a, 'tcx>(&mut self, node_id: NodeId) {
         let fn_info = FnInfo::new(node_id);
         self.normal_functions.push(fn_info);
     }
 
-    pub fn push_unsafe_fn_info<'a, 'tcx>(&mut self,
-                                         node_id: NodeId) {
+    pub fn push_unsafe_fn_info<'a, 'tcx>(&mut self, node_id: NodeId) {
         let fn_info = FnInfo::new(node_id);
         self.unsafe_functions.push(fn_info);
     }
 
-
-    pub fn print_results<'a, 'tcx, T: Print>(cx: &'a LateContext<'a, 'tcx>,
-                                             result: &'a Vec<(&'a FnInfo, T)>, name: &'static str) {
+    pub fn print_results<'a, 'tcx, T: Print>(
+        cx: &'a LateContext<'a, 'tcx>,
+        result: &'a Vec<(&'a FnInfo, T)>,
+        name: &'static str,
+    ) {
         println!("+++++++++++++++++++++++++++++++++++++++++++++++++++");
         println!("{:?}", name);
         println!("+++++++++++++++++++++++++++++++++++++++++++++++++++");
@@ -108,13 +108,14 @@ impl<'a, 'tcx> LateLintPass<'a, 'tcx> for HiddenUnsafe {
         // and propagates it
 
         // TODO uncomment
-//        let res1: Vec<(&FnInfo, UnsafeInBody)> = analysis::run_all(cx, &self.normal_functions, true);
-//        HiddenUnsafe::print_results(cx, &res1, "Unsafe code present in call tree");
-//
-//        let res2: Vec<(&FnInfo, UnsafeTraitSafeMethod)> = analysis::run_all(cx, &self.normal_functions, true);
-//        HiddenUnsafe::print_results(cx, &res2, "Safe method of unsafe trait present in call tree");
+        //        let res1: Vec<(&FnInfo, UnsafeInBody)> = analysis::run_all(cx, &self.normal_functions, true);
+        //        HiddenUnsafe::print_results(cx, &res1, "Unsafe code present in call tree");
+        //
+        //        let res2: Vec<(&FnInfo, UnsafeTraitSafeMethod)> = analysis::run_all(cx, &self.normal_functions, true);
+        //        HiddenUnsafe::print_results(cx, &res2, "Safe method of unsafe trait present in call tree");
 
-        let info: Vec<(&FnInfo, UnsafeFnUsafetyAnalysis)> = analysis::run_all(cx, &self.unsafe_functions, false);
+        let info: Vec<(&FnInfo, UnsafeFnUsafetyAnalysis)> =
+            analysis::run_all(cx, &self.unsafe_functions, false);
         HiddenUnsafe::print_results(cx, &info, "Unsafety Sources in Unsafe Function");
     }
 
@@ -172,4 +173,3 @@ impl<'a, 'tcx> LateLintPass<'a, 'tcx> for HiddenUnsafe {
 pub fn plugin_registrar(reg: &mut Registry) {
     reg.register_late_lint_pass(box HiddenUnsafe::new() as LateLintPassObject);
 }
-

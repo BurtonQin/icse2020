@@ -1,8 +1,8 @@
 use fn_info::FnInfo;
 use rustc::hir;
 use rustc::lint::LateContext;
-use rustc::mir::{BasicBlock, Location, Operand, Terminator, TerminatorKind};
 use rustc::mir::visit::Visitor;
+use rustc::mir::{BasicBlock, Location, Operand, Terminator, TerminatorKind};
 use rustc::ty::TypeVariants;
 
 pub fn build_call_graph<'a, 'tcx>(data: &mut Vec<FnInfo>, cx: &LateContext<'a, 'tcx>) {
@@ -21,29 +21,37 @@ pub fn build_call_graph<'a, 'tcx>(data: &mut Vec<FnInfo>, cx: &LateContext<'a, '
     }
 }
 
-
 struct CallsVisitor<'a, 'tcx: 'a> {
     cx: &'a LateContext<'a, 'tcx>,
     fn_info: &'a mut FnInfo,
 }
 
-
 impl<'a, 'tcx> CallsVisitor<'a, 'tcx> {
-    fn new(cx: &'a LateContext<'a, 'tcx>,
-           fn_info: &'a mut FnInfo) -> Self {
+    fn new(cx: &'a LateContext<'a, 'tcx>, fn_info: &'a mut FnInfo) -> Self {
         CallsVisitor { cx, fn_info }
     }
 }
 
 impl<'a, 'tcx> Visitor<'tcx> for CallsVisitor<'a, 'tcx> {
-    fn visit_terminator(&mut self, _block: BasicBlock,
-                        terminator: &Terminator<'tcx>,
-                        _location: Location) {
-        if let TerminatorKind::Call { ref func, args: _, destination: _, cleanup: _ } = terminator.kind {
+    fn visit_terminator(
+        &mut self,
+        _block: BasicBlock,
+        terminator: &Terminator<'tcx>,
+        _location: Location,
+    ) {
+        if let TerminatorKind::Call {
+            ref func,
+            args: _,
+            destination: _,
+            cleanup: _,
+        } = terminator.kind
+        {
             if let Operand::Constant(constant) = func {
                 if let TypeVariants::TyFnDef(callee_def_id, _) = constant.literal.ty.sty {
                     if callee_def_id.is_local() {
-                        if let Some(callee_node_id) = self.cx.tcx.hir.as_local_node_id(callee_def_id) {
+                        if let Some(callee_node_id) =
+                            self.cx.tcx.hir.as_local_node_id(callee_def_id)
+                        {
                             self.fn_info.push_local_call(callee_node_id);
                         }
                     } else {
@@ -59,5 +67,3 @@ impl<'a, 'tcx> Visitor<'tcx> for CallsVisitor<'a, 'tcx> {
         }
     }
 }
-
-
