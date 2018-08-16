@@ -2,6 +2,7 @@ use print::Print;
 use rustc::hir;
 use rustc::lint::LateContext;
 use syntax::ast::NodeId;
+use util;
 
 pub struct FnInfo {
     decl_id: NodeId,
@@ -46,14 +47,11 @@ impl FnInfo {
     pub fn print<'a, 'tcx>(&self, cx: &LateContext<'a, 'tcx>, printer: &Print) {
         let tcx = cx.tcx;
         let span = tcx.hir.span(self.decl_id);
-        let loc = tcx.sess.codemap().lookup_char_pos(span.lo());
-        let filename = &loc.file.name;
         print!(
-            "{:?} | file: {:?} line {:?} | ",
-            tcx.node_path_str(self.decl_id),
-            filename,
-            loc.line
+            "{:?} | ",
+            tcx.node_path_str(self.decl_id)
         );
+        util::print_file_and_line(cx,span);
         printer.print(cx);
         println!("");
     }

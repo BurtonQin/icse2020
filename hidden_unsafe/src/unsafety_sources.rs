@@ -1,5 +1,4 @@
 use rustc_data_structures::indexed_vec::IndexVec;
-use std::collections::HashMap;
 use rustc::hir;
 use rustc::lint::LateContext;
 use rustc::mir::visit::{PlaceContext, Visitor};
@@ -18,7 +17,6 @@ use fn_info::FnInfo;
 use print::Print;
 use unsafety::{Source, SourceKind};
 use util;
-use std::cell::Cell;
 
 
 //////////////////////////////////////////////////////////////////////
@@ -105,7 +103,7 @@ impl UnsafeFnUsafetyAnalysis {
                 hir::QPath::TypeRelative(pty, _) => UnsafeFnUsafetyAnalysis::process_type(pty),
             },
 
-            hir::TyKind::TraitObject(ref poly_ref, _) => None, //TODO
+            hir::TyKind::TraitObject(ref _poly_ref, _) => None, //TODO
 
             hir::TyKind::Never | hir::TyKind::Typeof(_) | hir::TyKind::Infer | hir::TyKind::Err => {
                 None
@@ -211,16 +209,12 @@ impl Print for Argument {
 
 
 pub struct UnsafeBlockUnsafetyAnalysis {
-    enclosing_fn_node_id: NodeId,
-    //sources: Vec<Source>,
     sources: Vec<(NodeId, Vec<Source>)>,
 }
 
 impl UnsafeBlockUnsafetyAnalysis {
-    fn new(decl_id: NodeId) -> Self {
+    fn new() -> Self {
         UnsafeBlockUnsafetyAnalysis {
-            enclosing_fn_node_id: decl_id,
-            //sources: Vec::new(),
             sources: Vec::new(),
         }
     }
@@ -233,8 +227,12 @@ impl Print for UnsafeBlockUnsafetyAnalysis {
         if !self.sources.is_empty() {
             println!("\nUnsafety in unsafe blocks: ");
             for (node_id, block_sources) in self.sources.iter() {
-                // todo print span
-                println!("Block node_id: {:?}", node_id);
+                // todo print span with \n as new line
+                let item = cx.tcx.hir.get(*node_id);
+                if let hir::map::Node::NodeBlock(ref block) = item {
+                    let span = block.span;
+                    println!("Block node_id: {:?}, Block: {:?}", node_id, cx.tcx.sess.codemap().span_to_snippet(span).unwrap());
+                }
                 for source in block_sources {
                     source.print(cx);
                 }
@@ -272,7 +270,7 @@ impl Analysis for UnsafeBlockUnsafetyAnalysis {
 
     fn run_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, fn_info: &'a FnInfo) -> Self {
         let tcx = cx.tcx;
-        let mut analysis: Self = Self::new(fn_info.decl_id());
+        let mut analysis: Self = Self::new();
         let fn_def_id = tcx.hir.local_def_id(fn_info.decl_id());
         // closures are handled by their parent fn.
         if !cx.tcx.is_closure(fn_def_id) {
@@ -421,7 +419,7 @@ impl<'a, 'tcx> Visitor<'tcx> for UnsafetySourcesVisitor<'a, 'tcx> {
                 &AggregateKind::Closure(def_id, _) | &AggregateKind::Generator(def_id, _, _) => {
                     // TODO add tests for this
                     //TODO check why Rust unsafe analysis is on mir_built
-                    let mir = &mut self.cx.tcx.mir_built(def_id).borrow();
+                    let mir = &mut self.cx.tcx.mir_validated(def_id).borrow();
                     let mut body_visitor = UnsafetySourcesVisitor {
                         cx: self.cx,
                         fn_node_id: self.fn_node_id,

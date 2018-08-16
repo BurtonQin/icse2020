@@ -39,6 +39,8 @@ mod util;
 
 use unsafety_sources::UnsafeFnUsafetyAnalysis;
 use unsafety_sources::UnsafeBlockUnsafetyAnalysis;
+use unsafe_blocks::UnsafeInBody;
+use unsafe_traits::UnsafeTraitSafeMethod;
 
 struct HiddenUnsafe {
     normal_functions: Vec<FnInfo>,
@@ -106,17 +108,16 @@ impl<'a, 'tcx> LintPass for HiddenUnsafe {
 impl<'a, 'tcx> LateLintPass<'a, 'tcx> for HiddenUnsafe {
     fn check_crate_post(&mut self, cx: &LateContext<'a, 'tcx>, _: &'tcx Crate) {
         calls::build_call_graph(&mut self.normal_functions, cx);
-        //self.print_graph(cx);
+        self.print_graph(cx);
         // the information collected in check_body is available at this point
         // collect unsafe blocks information for each function
         // and propagates it
 
-        // TODO uncomment
-        //        let res1: Vec<(&FnInfo, UnsafeInBody)> = analysis::run_all(cx, &self.normal_functions, true);
-        //        HiddenUnsafe::print_results(cx, &res1, "Unsafe code present in call tree");
-        //
-        //        let res2: Vec<(&FnInfo, UnsafeTraitSafeMethod)> = analysis::run_all(cx, &self.normal_functions, true);
-        //        HiddenUnsafe::print_results(cx, &res2, "Safe method of unsafe trait present in call tree");
+        let res1: Vec<(&FnInfo, UnsafeInBody)> = analysis::run_all(cx, &self.normal_functions, true);
+        HiddenUnsafe::print_results(cx, &res1, "Unsafe code present in call tree");
+
+        let res2: Vec<(&FnInfo, UnsafeTraitSafeMethod)> = analysis::run_all(cx, &self.normal_functions, true);
+        HiddenUnsafe::print_results(cx, &res2, "Safe method of unsafe trait present in call tree");
 
         let unsafe_fn_info: Vec<(&FnInfo, UnsafeFnUsafetyAnalysis)> =
             analysis::run_all(cx, &self.unsafe_functions, false);

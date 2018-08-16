@@ -4,6 +4,7 @@ use rustc::mir::{Operand, SourceInfo};
 
 use print::Print;
 use util::FnCallInfo;
+use util;
 
 pub struct Source {
     pub loc: SourceInfo,
@@ -41,7 +42,7 @@ impl Print for Source {
     fn print<'a, 'tcx>(&self, cx: &LateContext<'a, 'tcx>) -> () {
         match self.kind {
             SourceKind::UnsafeFnCall(ref callee_info) => {
-                print!("UnsafeFnCall");
+                print!("UnsafeFnCall |  ");
                 callee_info.print(cx);
             }
             SourceKind::DerefRawPointer(ref ty) => {
@@ -67,7 +68,7 @@ impl Print for Source {
                 print!("UseExternStatic {:?}", adt_def);
             }
         }
-        //TODO fix location printing
-        print!(" | Loc: {:?}", self.loc);
+        print!(" | ");
+        util::print_file_and_line(cx, self.loc.span);
     }
 }

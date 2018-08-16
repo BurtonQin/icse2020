@@ -6,6 +6,8 @@ use rustc::mir::Operand;
 use rustc::ty::TypeVariants;
 use rustc_target::spec::abi::Abi;
 
+use syntax::codemap::Span;
+
 use print::Print;
 
 pub enum FnCallInfo {
@@ -101,9 +103,9 @@ pub fn is_unsafe_method<'a, 'tcx>(node_id: NodeId, cx: &LateContext<'a, 'tcx>) -
 pub fn is_fn_or_method<'a, 'tcx>(node_id: NodeId, cx: &LateContext<'a, 'tcx>) -> bool {
     let node = cx.tcx.hir.get(node_id);
     match node {
-        hir::map::Node::NodeItem(item) => {true}
-        hir::map::Node::NodeImplItem(ref impl_item) => {true}
-        hir::map::Node::NodeExpr(ref expr) => {false} //closure
+        hir::map::Node::NodeItem(_item) => {true}
+        hir::map::Node::NodeImplItem(ref _impl_item) => {true}
+        hir::map::Node::NodeExpr(ref _expr) => {false} //closure
         hir::map::Node::NodeAnonConst(ref _anon_const) => {
             // nothing to do - this is not a stand alone function
             // any unsafe in this body will be processed by the enclosing function or method
@@ -114,4 +116,14 @@ pub fn is_fn_or_method<'a, 'tcx>(node_id: NodeId, cx: &LateContext<'a, 'tcx>) ->
             false
         }
     }
+}
+
+pub fn print_file_and_line<'a, 'tcx>( cx: &LateContext<'a, 'tcx>, span: Span ) {
+    let loc = cx.tcx.sess.codemap().lookup_char_pos(span.lo());
+    let filename = &loc.file.name;
+    print!(
+        "file: {:?} line {:?} | ",
+        filename,
+        loc.line
+    );
 }
