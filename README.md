@@ -5,7 +5,9 @@ hidden_insafe contains the rustc linters
 cargo-safety_check contains the cargo plugin
 
 To compile the compiler plugins: 
+
 cd hidden_unsafe
+
 cargo build
 
 To see the run on a copy of TockOS elf2tbf tool:
