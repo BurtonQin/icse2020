@@ -6,7 +6,6 @@
 #![feature(macro_at_most_once_rep)]
 #![feature(macro_vis_matcher)]
 #![feature(extern_prelude)]
-#![feature(use_extern_macros)]
 #![feature(box_patterns)]
 
 #[macro_use]
@@ -128,8 +127,6 @@ impl<'a, 'tcx> LateLintPass<'a, 'tcx> for HiddenUnsafe {
         HiddenUnsafe::print_results(cx, &safe_fn_info, "Unsafety Sources in Safe Function");
     }
 
-    // if this body belongs to a normal (safe) function,
-    // then it is added to the list of functions to be processed
     fn check_body(&mut self, cx: &LateContext<'a, 'tcx>, body: &'tcx hir::Body) {
         //need to find fn/method declaration of this body
         let owner_def_id = cx.tcx.hir.body_owner_def_id(body.id());

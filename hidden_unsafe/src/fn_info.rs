@@ -27,13 +27,22 @@ impl FnInfo {
         }
     }
 
-    pub fn push_external_call(&mut self, krate: hir::def_id::CrateNum, func: String) -> () {
+    //pub fn push_external_call(&mut self, krate: hir::def_id::CrateNum, func: String) -> () {
+    pub fn push_external_call<'a, 'tcx>(&mut self, cx: &LateContext<'a, 'tcx>,
+                                        def_id: hir::def_id::DefId) -> () {
+        let krate = def_id.krate;
+
+        let mut crate_name: String = cx.tcx.crate_name(krate).to_string();
+        crate_name.push_str("::");
+
+        let func = cx.tcx.item_path_str(def_id).to_string().replace(crate_name.as_str(),"");
+
         let found = self
             .external_calls
             .iter()
             .any(|elt| elt.1 == func && elt.0 == krate);
         if !found {
-            self.external_calls.push((krate, func));
+            self.external_calls.push((krate, func.to_string()));
         }
     }
 
@@ -57,9 +66,11 @@ impl FnInfo {
     }
 
     pub fn print_local_calls<'a, 'tcx>(&self, cx: &LateContext<'a, 'tcx>) {
-        println!("Local calls:");
-        for node_id in self.local_calls.iter() {
-            println!("{:?} | {:?} ", cx.tcx.node_path_str(*node_id), node_id);
+        if !self.local_calls.is_empty() {
+            println!("Local calls:");
+            for node_id in self.local_calls.iter() {
+                println!("{:?} | {:?} ", cx.tcx.node_path_str(*node_id), node_id);
+            }
         }
     }
 
@@ -83,3 +94,4 @@ impl FnInfo {
         });
     }
 }
+

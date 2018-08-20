@@ -12,7 +12,7 @@ pub fn build_call_graph<'a, 'tcx>(data: &mut Vec<FnInfo>, cx: &LateContext<'a, '
         let body_owner_kind = hir.body_owner_kind(fn_info.decl_id());
         if let hir::BodyOwnerKind::Fn = body_owner_kind {
             let owner_def_id = hir.local_def_id(fn_info.decl_id());
-            let mut mir = &tcx.mir_validated(owner_def_id).borrow();
+            let mut mir = &tcx.optimized_mir(owner_def_id);
             {
                 let mut calls_visitor = CallsVisitor::new(cx, &mut fn_info);
                 calls_visitor.visit_mir(mir);
@@ -55,8 +55,9 @@ impl<'a, 'tcx> Visitor<'tcx> for CallsVisitor<'a, 'tcx> {
                             self.fn_info.push_local_call(callee_node_id);
                         }
                     } else {
-                        let mut output = std::format!("{}", constant.literal.ty.sty);
-                        self.fn_info.push_external_call(callee_def_id.krate, output);
+//                        let mut output = std::format!("{}", constant.literal.ty.sty);
+//                        self.fn_info.push_external_call(callee_def_id.krate, output);
+                        self.fn_info.push_external_call( self.cx, callee_def_id);
                     }
                 } else {
                     println!("TypeVariants NOT handled {:?}", constant.literal.ty.sty);

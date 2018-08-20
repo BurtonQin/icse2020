@@ -150,7 +150,7 @@ impl Analysis for UnsafeFnUsafetyAnalysis {
         analysis.process_fn_decl(cx);
         {
             //needed for the borrow checker
-            let mir = &mut tcx.mir_validated(fn_def_id).borrow();
+            let mir = &mut tcx.optimized_mir(fn_def_id);
             if let Some(mut body_visitor) = UnsafetySourcesVisitor::new(
                 cx, mir,&mut analysis, fn_def_id
             ) {
@@ -198,7 +198,7 @@ impl Print for Argument {
     fn print<'a, 'tcx>(&self, cx: &LateContext<'a, 'tcx>) -> () {
         print!("Kind ");
         self.kind.print(cx);
-        println!(" Type {:?}", cx.tcx.node_path_str(self.ty_node_id));
+        println!(" Type {:?}", cx.tcx.hir.get(self.ty_node_id));
     }
 }
 
@@ -274,7 +274,7 @@ impl Analysis for UnsafeBlockUnsafetyAnalysis {
         let fn_def_id = tcx.hir.local_def_id(fn_info.decl_id());
         // closures are handled by their parent fn.
         if !cx.tcx.is_closure(fn_def_id) {
-            let mir = &mut tcx.mir_validated(fn_def_id).borrow();
+            let mir = &mut tcx.optimized_mir(fn_def_id);
             if let Some (mut body_visitor) = UnsafetySourcesVisitor::new(
                     cx, mir,&mut analysis, fn_def_id) {
                 body_visitor.visit_mir(mir);
@@ -419,7 +419,7 @@ impl<'a, 'tcx> Visitor<'tcx> for UnsafetySourcesVisitor<'a, 'tcx> {
                 &AggregateKind::Closure(def_id, _) | &AggregateKind::Generator(def_id, _, _) => {
                     // TODO add tests for this
                     //TODO check why Rust unsafe analysis is on mir_built
-                    let mir = &mut self.cx.tcx.mir_validated(def_id).borrow();
+                    let mir = &mut self.cx.tcx.optimized_mir(def_id);
                     let mut body_visitor = UnsafetySourcesVisitor {
                         cx: self.cx,
                         fn_node_id: self.fn_node_id,

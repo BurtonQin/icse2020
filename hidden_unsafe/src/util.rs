@@ -73,7 +73,7 @@ pub fn is_unsafe_fn<'a, 'tcx>(node_id: NodeId, cx: &LateContext<'a, 'tcx>) -> bo
                     true
                 }
             } else {
-                println!("Body owner node type NOT handled: {:?}", item);
+                //println!("Body owner node type NOT handled: {:?}", item);
                 false
             }
         }
@@ -92,7 +92,7 @@ pub fn is_unsafe_method<'a, 'tcx>(node_id: NodeId, cx: &LateContext<'a, 'tcx>) -
                     true
                 }
             } else {
-                println!("Impl Item Kind NOT handled {:?}", impl_item.node);
+                //println!("Impl Item Kind NOT handled {:?}", impl_item.node);
                 false
             }
         }
@@ -112,7 +112,7 @@ pub fn is_fn_or_method<'a, 'tcx>(node_id: NodeId, cx: &LateContext<'a, 'tcx>) ->
             false
         }
         _ => {
-            println!("Body owner node NOT handled: {:?}", node);
+            //println!("Body owner node NOT handled: {:?}", node);
             false
         }
     }

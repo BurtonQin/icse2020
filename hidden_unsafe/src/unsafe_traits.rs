@@ -35,9 +35,9 @@ impl Analysis for UnsafeTraitSafeMethod {
     fn run_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, fn_info: &'a FnInfo) -> Self {
         let tcx = cx.tcx;
         let owner_def_id = tcx.hir.local_def_id(fn_info.decl_id());
-        let mir = tcx.mir_validated(owner_def_id);
+        let mut mir = tcx.optimized_mir(owner_def_id);
         let mut unsafe_trait_visitor = SafeMethodsInUnsafeTraits::new(cx);
-        unsafe_trait_visitor.visit_mir(&mut mir.borrow());
+        unsafe_trait_visitor.visit_mir(&mut mir);
         let mut analysis: Self = UnsafeTraitSafeMethod::new();
         if unsafe_trait_visitor.has_unsafe {
             analysis.set();
