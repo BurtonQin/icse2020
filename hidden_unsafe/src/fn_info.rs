@@ -59,15 +59,17 @@ impl FnInfo {
     }
 
     pub fn print<'a, 'tcx>(&self, cx: &LateContext<'a, 'tcx>, printer: &Print, file: &mut File) {
-        let tcx = cx.tcx;
-        let span = tcx.hir.span(self.decl_id);
-        file.write_fmt( format_args!(
-               "{:?} | ",
-            tcx.node_path_str(self.decl_id))
-        ).unwrap();
-        util::print_file_and_line(cx,span,file);
-        printer.print(cx, file);
-        writeln!(file, "");
+        if !printer.empty() {
+            let tcx = cx.tcx;
+            let span = tcx.hir.span(self.decl_id);
+            file.write_fmt(format_args!(
+                "{:?} | ",
+                tcx.node_path_str(self.decl_id))
+            ).unwrap();
+            util::print_file_and_line(cx, span, file);
+            printer.print(cx, file);
+            writeln!(file, "");
+        }
     }
 
     pub fn print_local_calls<'a, 'tcx>(&self, cx: &LateContext<'a, 'tcx>, file: &mut File) {

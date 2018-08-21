@@ -164,22 +164,25 @@ impl Analysis for UnsafeFnUsafetyAnalysis {
 }
 
 impl Print for UnsafeFnUsafetyAnalysis {
+
     fn print<'a, 'tcx>(&self, cx: &LateContext<'a, 'tcx>, file: &mut File) -> () {
         if self.from_trait {
-            writeln!(file, "\nUnsafe from signature in trait");
+            write!(file, "\nUnsafe from signature in trait");
         }
         if !self.arguments.is_empty() {
-            writeln!(file, "Unsafety in arguments: ");
             for arg in &self.arguments {
+                writeln!(file,"");
                 arg.print(cx, file);
             }
         }
         if !self.sources.is_empty() {
-            writeln!(file, "Unsafety in body: ");
+            //writeln!(file, "\nUnsafety in body: ");
             for source in &self.sources {
+                writeln!(file,"");
                 source.print(cx, file);
             }
         }
+        writeln!(file, "");
     }
 }
 
@@ -198,9 +201,9 @@ impl Print for ArgumentKind {
 
 impl Print for Argument {
     fn print<'a, 'tcx>(&self, cx: &LateContext<'a, 'tcx>, file: &mut File) -> () {
-        writeln!(file,"Kind ");
+        write!(file,"Unsafety in arguments kind: ");
         self.kind.print(cx, file);
-        writeln!(file, " Type {:?}\n", cx.tcx.hir.get(self.ty_node_id));
+        write!(file, " Type: {:?}", cx.tcx.hir.get(self.ty_node_id));
     }
 }
 
@@ -225,20 +228,26 @@ impl UnsafeBlockUnsafetyAnalysis {
 
 impl Print for UnsafeBlockUnsafetyAnalysis {
 
+    fn empty(&self) -> bool {
+        self.sources.is_empty()
+    }
+
     fn print<'a, 'tcx>(&self, cx: &LateContext<'a, 'tcx>, file: &mut File) -> () {
         if !self.sources.is_empty() {
-            writeln!(file, "\nUnsafety in unsafe blocks: ");
+            //writeln!(file, "\nUnsafety in unsafe blocks: ");
             for (node_id, block_sources) in self.sources.iter() {
                 // todo print span with \n as new line
                 let item = cx.tcx.hir.get(*node_id);
                 if let hir::map::Node::NodeBlock(ref block) = item {
                     let span = block.span;
-                    writeln!(file, "Block node_id: {:?}, Block: {:?}",
+                    write!(file, "\nBlock node_id: {:?}, Block: {:?}",
                              node_id, cx.tcx.sess.codemap().span_to_snippet(span).unwrap());
                 }
                 for source in block_sources {
+                    writeln!(file,"");
                     source.print(cx, file);
                 }
+                writeln!(file,"");
             }
         }
     }

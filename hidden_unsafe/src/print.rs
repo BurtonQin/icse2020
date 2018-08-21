@@ -4,6 +4,8 @@ use std::fs::File;
 pub static ROOT_DIR: &'static str = "/tmp/unsafe_analysis/";
 
 pub trait Print {
+    fn empty(&self) -> bool { false }
+
     fn print<'a, 'tcx>(&self, cx: &LateContext<'a, 'tcx>, file: &mut File) -> ();
 }
 
