@@ -3,6 +3,8 @@ use rustc::hir;
 use rustc::lint::LateContext;
 use syntax::ast::NodeId;
 use util;
+use std::fs::File;
+use std::io::Write;
 
 pub struct FnInfo {
     decl_id: NodeId,
@@ -19,6 +21,10 @@ impl FnInfo {
         &self.local_calls
     }
 
+    pub fn external_calls(&self) -> &Vec<(hir::def_id::CrateNum, String)> {
+        &self.external_calls
+    }
+
     pub fn new(hir_id: NodeId) -> Self {
         Self {
             decl_id: hir_id,
@@ -27,7 +33,6 @@ impl FnInfo {
         }
     }
 
-    //pub fn push_external_call(&mut self, krate: hir::def_id::CrateNum, func: String) -> () {
     pub fn push_external_call<'a, 'tcx>(&mut self, cx: &LateContext<'a, 'tcx>,
                                         def_id: hir::def_id::DefId) -> () {
         let krate = def_id.krate;
@@ -53,28 +58,28 @@ impl FnInfo {
         }
     }
 
-    pub fn print<'a, 'tcx>(&self, cx: &LateContext<'a, 'tcx>, printer: &Print) {
+    pub fn print<'a, 'tcx>(&self, cx: &LateContext<'a, 'tcx>, printer: &Print, file: &mut File) {
         let tcx = cx.tcx;
         let span = tcx.hir.span(self.decl_id);
-        print!(
-            "{:?} | ",
-            tcx.node_path_str(self.decl_id)
-        );
-        util::print_file_and_line(cx,span);
-        printer.print(cx);
-        println!("");
+        file.write_fmt( format_args!(
+               "{:?} | ",
+            tcx.node_path_str(self.decl_id))
+        ).unwrap();
+        util::print_file_and_line(cx,span,file);
+        printer.print(cx, file);
+        writeln!(file, "");
     }
 
-    pub fn print_local_calls<'a, 'tcx>(&self, cx: &LateContext<'a, 'tcx>) {
+    pub fn print_local_calls<'a, 'tcx>(&self, cx: &LateContext<'a, 'tcx>, file: &mut File) {
         if !self.local_calls.is_empty() {
-            println!("Local calls:");
+            writeln!(file, "Local calls:");
             for node_id in self.local_calls.iter() {
-                println!("{:?} | {:?} ", cx.tcx.node_path_str(*node_id), node_id);
+                writeln!(file, "{:?} | {:?} ", cx.tcx.node_path_str(*node_id), node_id);
             }
         }
     }
 
-    pub fn print_external_calls<'a, 'tcx>(&self, cx: &LateContext<'a, 'tcx>) {
+    pub fn print_external_calls<'a, 'tcx>(&self, cx: &LateContext<'a, 'tcx>, file: &mut File) {
         let tcx = cx.tcx;
         let mut external_crates = Vec::new();
         self.external_calls.iter().for_each(|elt| {
@@ -84,12 +89,12 @@ impl FnInfo {
         });
 
         external_crates.iter().for_each(|krate| {
-            println!("External crate {:?}", tcx.crate_name(*krate));
+            writeln!(file, "External crate {:?}", tcx.crate_name(*krate));
             self.external_calls
                 .iter()
                 .filter(|elt| elt.0 == *krate)
                 .for_each(|elt| {
-                    println!("{:?}", elt.1);
+                    writeln!(file, "{:?}", elt.1);
                 });
         });
     }

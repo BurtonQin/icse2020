@@ -6,14 +6,16 @@ use rustc::lint::LateContext;
 use rustc::mir::visit::Visitor;
 use rustc::mir::{BasicBlock, Location, Operand, Terminator, TerminatorKind};
 use rustc::ty::TypeVariants;
+use std::fs::File;
+use std::io::Write;
 
 pub struct UnsafeTraitSafeMethod {
     has_unsafe: bool,
 }
 
 impl Print for UnsafeTraitSafeMethod {
-    fn print<'a, 'tcx>(&self, _cx: &LateContext<'a, 'tcx>) -> () {
-        print!("{:?}", self.has_unsafe);
+    fn print<'a, 'tcx>(&self, _cx: &LateContext<'a, 'tcx>, file: &mut File) -> () {
+        write!(file, "{:?}", self.has_unsafe);
     }
 }
 

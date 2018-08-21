@@ -17,6 +17,8 @@ use fn_info::FnInfo;
 use print::Print;
 use unsafety::{Source, SourceKind};
 use util;
+use std::fs::File;
+use std::io::Write;
 
 
 //////////////////////////////////////////////////////////////////////
@@ -162,43 +164,43 @@ impl Analysis for UnsafeFnUsafetyAnalysis {
 }
 
 impl Print for UnsafeFnUsafetyAnalysis {
-    fn print<'a, 'tcx>(&self, cx: &LateContext<'a, 'tcx>) -> () {
+    fn print<'a, 'tcx>(&self, cx: &LateContext<'a, 'tcx>, file: &mut File) -> () {
         if self.from_trait {
-            println!("\nUnsafe from signature in trait");
+            writeln!(file, "\nUnsafe from signature in trait");
         }
         if !self.arguments.is_empty() {
-            println!("Unsafety in arguments: ");
+            writeln!(file, "Unsafety in arguments: ");
             for arg in &self.arguments {
-                arg.print(cx);
+                arg.print(cx, file);
             }
         }
         if !self.sources.is_empty() {
-            println!("Unsafety in body: ");
+            writeln!(file, "Unsafety in body: ");
             for source in &self.sources {
-                source.print(cx);
+                source.print(cx, file);
             }
         }
     }
 }
 
 impl Print for ArgumentKind {
-    fn print<'a, 'tcx>(&self, _cx: &LateContext<'a, 'tcx>) -> () {
+    fn print<'a, 'tcx>(&self, _cx: &LateContext<'a, 'tcx>, file: &mut File) -> () {
         match self {
             ArgumentKind::RawPointer => {
-                print!("RawPointer");
+                write!(file, "RawPointer");
             }
             ArgumentKind::UnsafeFunction => {
-                print!("UnsafeFunction");
+                write!(file, "UnsafeFunction");
             }
         }
     }
 }
 
 impl Print for Argument {
-    fn print<'a, 'tcx>(&self, cx: &LateContext<'a, 'tcx>) -> () {
-        print!("Kind ");
-        self.kind.print(cx);
-        println!(" Type {:?}", cx.tcx.hir.get(self.ty_node_id));
+    fn print<'a, 'tcx>(&self, cx: &LateContext<'a, 'tcx>, file: &mut File) -> () {
+        writeln!(file,"Kind ");
+        self.kind.print(cx, file);
+        writeln!(file, " Type {:?}\n", cx.tcx.hir.get(self.ty_node_id));
     }
 }
 
@@ -223,18 +225,19 @@ impl UnsafeBlockUnsafetyAnalysis {
 
 impl Print for UnsafeBlockUnsafetyAnalysis {
 
-    fn print<'a, 'tcx>(&self, cx: &LateContext<'a, 'tcx>) -> () {
+    fn print<'a, 'tcx>(&self, cx: &LateContext<'a, 'tcx>, file: &mut File) -> () {
         if !self.sources.is_empty() {
-            println!("\nUnsafety in unsafe blocks: ");
+            writeln!(file, "\nUnsafety in unsafe blocks: ");
             for (node_id, block_sources) in self.sources.iter() {
                 // todo print span with \n as new line
                 let item = cx.tcx.hir.get(*node_id);
                 if let hir::map::Node::NodeBlock(ref block) = item {
                     let span = block.span;
-                    println!("Block node_id: {:?}, Block: {:?}", node_id, cx.tcx.sess.codemap().span_to_snippet(span).unwrap());
+                    writeln!(file, "Block node_id: {:?}, Block: {:?}",
+                             node_id, cx.tcx.sess.codemap().span_to_snippet(span).unwrap());
                 }
                 for source in block_sources {
-                    source.print(cx);
+                    source.print(cx, file);
                 }
             }
         }
