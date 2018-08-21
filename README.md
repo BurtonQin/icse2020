@@ -30,3 +30,5 @@ Add in the Cargo.toml:
 [dependencies]
 
 hidden_unsafe = { path = "/home/nora/work/external_calls/hidden_unsafe" }
+
+Compile with: cargo +nightly build
