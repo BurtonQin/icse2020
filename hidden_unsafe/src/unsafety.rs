@@ -5,6 +5,8 @@ use rustc::mir::{Operand, SourceInfo};
 use print::Print;
 use util::FnCallInfo;
 use util;
+use std::fs::File;
+use std::io::Write;
 
 pub struct Source {
     pub loc: SourceInfo,
@@ -39,36 +41,36 @@ impl Source {
 }
 
 impl Print for Source {
-    fn print<'a, 'tcx>(&self, cx: &LateContext<'a, 'tcx>) -> () {
+    fn print<'a, 'tcx>(&self, cx: &LateContext<'a, 'tcx>, file: &mut File) -> () {
         match self.kind {
             SourceKind::UnsafeFnCall(ref callee_info) => {
-                print!("UnsafeFnCall |  ");
-                callee_info.print(cx);
+                write!(file, "UnsafeFnCall |  ");
+                callee_info.print(cx, file);
             }
             SourceKind::DerefRawPointer(ref ty) => {
-                print!("DerefRawPointer | Type {:?}", ty);
+                write!(file, "DerefRawPointer | Type {:?}", ty);
             }
             SourceKind::Asm => {
-                print!("Asm");
+                write!(file, "Asm");
             }
             SourceKind::MutableStatic(ref def_id) => {
-                print!("MutateStatic {:?}", def_id);
+                write!(file, "MutateStatic {:?}", def_id);
             }
             //SourceKind::ForeignItem => {print!("ForeignItem");},
             SourceKind::BorrowPacked => {
-                print!("BorrowPacked");
+                write!(file, "BorrowPacked");
             }
             SourceKind::AssignmentToNonCopyUnionField(ref adt_def) => {
-                print!("AssignmentToNonCopyUnionField {:?}", adt_def);
+                write!(file, "AssignmentToNonCopyUnionField {:?}", adt_def);
             }
             SourceKind::AccessToUnionField(ref adt_def) => {
                 print!("AccessToUnionField {:?}", adt_def);
             }
             SourceKind::UseExternStatic(ref adt_def) => {
-                print!("UseExternStatic {:?}", adt_def);
+                write!(file, "UseExternStatic {:?}", adt_def);
             }
         }
-        print!(" | ");
-        util::print_file_and_line(cx, self.loc.span);
+        write!(file, " | ");
+        util::print_file_and_line(cx, self.loc.span, file);
     }
 }

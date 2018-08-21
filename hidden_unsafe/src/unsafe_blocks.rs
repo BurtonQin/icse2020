@@ -4,14 +4,16 @@ use print::Print;
 use rustc::hir;
 use rustc::hir::intravisit;
 use rustc::lint::LateContext;
+use std::fs::File;
+use std::io::Write;
 
 pub struct UnsafeInBody {
     has_unsafe: bool,
 }
 
 impl Print for UnsafeInBody {
-    fn print<'a, 'tcx>(&self, _cx: &LateContext<'a, 'tcx>) -> () {
-        print!("{:?}", self.has_unsafe);
+    fn print<'a, 'tcx>(&self, _cx: &LateContext<'a, 'tcx>, file: &mut File) -> () {
+        write!(file, "{:?}", self.has_unsafe);
     }
 }
 
