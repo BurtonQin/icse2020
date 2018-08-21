@@ -63,7 +63,7 @@ impl<'a, 'tcx> Visitor<'tcx> for CallsVisitor<'a, 'tcx> {
                     println!("TypeVariants NOT handled {:?}", constant.literal.ty.sty);
                 }
             } else {
-                println!("Operand Type NOT handled {:?}", func);
+                println!("calls.rs::Operand Type NOT handled {:?}", func);
             }
         }
     }

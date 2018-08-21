@@ -64,7 +64,7 @@ impl Print for Source {
                 write!(file, "AssignmentToNonCopyUnionField {:?}", adt_def);
             }
             SourceKind::AccessToUnionField(ref adt_def) => {
-                print!("AccessToUnionField {:?}", adt_def);
+                write!(file, "AccessToUnionField {:?}", adt_def);
             }
             SourceKind::UseExternStatic(ref adt_def) => {
                 write!(file, "UseExternStatic {:?}", adt_def);

@@ -94,7 +94,6 @@ impl HiddenUnsafe {
         }
         let mut unsafe_file = util::open_file("01_unsafe_functions");
         for ref fn_info in self.unsafe_functions.iter() {
-            writeln!(unsafe_file, "+++++++++++++++++++++++++++++++++++++++++++++++++++");
             fn_info.print(cx, &empty_printer, &mut unsafe_file);
         }
     }

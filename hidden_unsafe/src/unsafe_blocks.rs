@@ -12,6 +12,7 @@ pub struct UnsafeInBody {
 }
 
 impl Print for UnsafeInBody {
+
     fn print<'a, 'tcx>(&self, _cx: &LateContext<'a, 'tcx>, file: &mut File) -> () {
         write!(file, "{:?}", self.has_unsafe);
     }

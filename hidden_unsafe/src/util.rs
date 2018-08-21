@@ -64,7 +64,7 @@ pub fn find_callee<'a, 'tcx>(
             None
         }
     } else {
-        println!("Operand Type NOT handled {:?}", func);
+        println!("find_callee::Operand Type NOT handled {:?}", func);
         None
     }
 }
