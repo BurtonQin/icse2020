@@ -143,7 +143,7 @@ impl HiddenUnsafe {
     }
 }
 
-declare_lint!(pub HIDDEN_UNSAFE, Allow, "Functions using hidden unsafe");
+declare_lint!(pub HIDDEN_UNSAFE, Allow, "Unsafe analysis");
 
 impl<'a, 'tcx> LintPass for HiddenUnsafe {
     fn get_lints(&self) -> LintArray {

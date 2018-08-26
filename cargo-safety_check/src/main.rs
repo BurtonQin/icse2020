@@ -1,7 +1,9 @@
+extern crate cargo;
 
-
-const OUT_DIR = "/home/nora/external_calls/tmp/";
+//TODO change this to command line parameter
+static CRATE: &'static str = "libc";
 
 fn main() {
-    println!("Hello, world!");
+
 }
+
