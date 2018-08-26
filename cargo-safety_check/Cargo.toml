@@ -1,6 +1,7 @@
 [package]
-name = "cargo-safety_check"
+name = "unsafe-analysis"
 version = "0.1.0"
 authors = ["Ana Nora Evans <ananevans@gmail.com>"]
 
 [dependencies]
+cargo= "0.29.0"
