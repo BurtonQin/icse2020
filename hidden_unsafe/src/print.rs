@@ -1,7 +1,7 @@
 use rustc::lint::LateContext;
 use std::fs::File;
 
-pub static ROOT_DIR: &'static str = "/tmp/unsafe_analysis/";
+pub static ROOT_DIR: &'static str = "/tmp/unsafe_analysis/analysis_results/";
 
 pub trait Print {
     fn empty(&self) -> bool { false }
