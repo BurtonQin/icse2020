@@ -136,25 +136,44 @@ pub fn print_file_and_line<'a, 'tcx>( cx: &LateContext<'a, 'tcx>, span: Span, fi
     );
 }
 
-pub fn crate_name() -> String {
+pub fn crate_name_and_version() -> (String,String) {
     let manifest_path = Path::new("./Cargo.toml");
     let features = cargo_metadata::CargoOpt::AllFeatures;
     let metadata =
         cargo_metadata::metadata_run(Some(manifest_path), false, Some(features)).unwrap();
-    metadata.packages[0].name.clone()
+
+    println!("Crate {:?} Version {:?}", metadata.packages[0].name.clone(),metadata.packages[0].version.clone());
+
+    (metadata.packages[0].name.clone(),metadata.packages[0].version.clone())
+}
+
+pub fn get_root_path_components() -> [String;3] {
+    let (local_crate,version) = crate_name_and_version();
+    [print::ROOT_DIR.to_string(), local_crate.to_string()
+        , version.to_string()]
+}
+
+pub fn get_analysis_path_components( analysis_name: &'static str ) -> [String;4] {
+    let mut result: [String;4] = ["".to_string();4];
+    for x in &get_root_path_components() {
+        result[i] = x;
+    }
+    result[3] = analysis_name.to_string();
+    result
+}
+
+pub fn get_path( analysis_name: &'static str ) -> PathBuf {
+    // create directory if necessary
+    let dir_path: PathBuf = get_root_path_components().iter().collect();
+    DirBuilder::new().recursive(true).create(dir_path).unwrap();
+
+    let file_path: PathBuf = get_analysis_path_components(analysis_name).iter().collect();
+    file_path
 }
 
 pub fn open_file(analysis_name: &'static str) -> File {
 
-    let local_crate = crate_name();
-
-    // create directory if necessary
-    let dir_path: PathBuf = [print::ROOT_DIR.to_string(), local_crate.to_string()].iter().collect();
-    DirBuilder::new().recursive(true).create(dir_path).unwrap();
-
-    let file_path: PathBuf = [print::ROOT_DIR.to_string()
-                        , local_crate.to_string()
-                        , analysis_name.to_string()].iter().collect();
+    let file_path = get_path(analysis_name);
 
     if file_path.as_path().exists() {
         // back-up old file if it exists
@@ -162,9 +181,7 @@ pub fn open_file(analysis_name: &'static str) -> File {
         let dt = chrono::offset::utc::UTC::now();
         let newdate = dt.format("_%Y_%m_%d_%H_%M_%S");
         new_name.push_str(newdate.to_string().as_str());
-        let new_path : PathBuf = [print::ROOT_DIR.to_string()
-            , local_crate.to_string()
-            , new_name].iter().collect();
+        let new_path : PathBuf = get_path(new_name.as_str());
         std::fs::rename(file_path.as_path(), new_path).unwrap();
     }
 

@@ -7,6 +7,7 @@
 #![feature(macro_vis_matcher)]
 #![feature(extern_prelude)]
 #![feature(box_patterns)]
+#![feature(use_extern_macros)]
 
 #[macro_use]
 extern crate rustc;
@@ -100,10 +101,8 @@ impl HiddenUnsafe {
 
     pub fn print_external_calls<'a, 'tcx>(&self, cx: &'a LateContext<'a, 'tcx>) {
         // delete the old data
-        let local_crate = util::crate_name();
-        let dir_path: PathBuf = [print::ROOT_DIR.to_string()
-                , local_crate.to_string()
-                , "external_calls".to_string()].iter().collect();
+        let (local_crate,version) = util::crate_name_and_version();
+        let dir_path: PathBuf = util::get_path("external_calls");
         DirBuilder::new().recursive(true).create(&dir_path).unwrap();
         std::fs::remove_dir_all(&dir_path).unwrap();
         DirBuilder::new().recursive(true).create(&dir_path).unwrap();
@@ -112,6 +111,8 @@ impl HiddenUnsafe {
         // collect crates and external calls
         let mut external_crates = Vec::new();
         let mut external_calls = Vec::new();
+
+        // TODO add version information
 
         for ref fn_info in self.normal_functions.iter() {
             fn_info.external_calls().iter().for_each(|elt| {
@@ -124,9 +125,10 @@ impl HiddenUnsafe {
             });
         }
 
+        // TODO fix this
         external_crates.iter().for_each(|krate| {
             let file_path: PathBuf = [print::ROOT_DIR.to_string()
-                , local_crate.to_string()
+                , local_crate.to_string(), version.to_string()
                 , "external_calls".to_string()
                 , cx.tcx.crate_name(*krate).to_string() ].iter().collect();
             let mut file = OpenOptions::new()

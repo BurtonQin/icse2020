@@ -4,5 +4,5 @@ version = "0.1.0"
 authors = ["Ana Nora Evans <ananevans@gmail.com>"]
 
 [dependencies]
-hidden_unsafe = { path = "/home/nora/work/external_calls/hidden_unsafe" }
+hidden_unsafe = { path = "/home/ans5k/work/external_calls/hidden_unsafe" }
 
