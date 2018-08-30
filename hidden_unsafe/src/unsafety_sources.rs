@@ -238,10 +238,10 @@ impl Print for UnsafeBlockUnsafetyAnalysis {
             for (node_id, block_sources) in self.sources.iter() {
                 // todo print span with \n as new line
                 let item = cx.tcx.hir.get(*node_id);
-                if let hir::map::Node::NodeBlock(ref block) = item {
+                if let hir::Node::Block(ref block) = item {
                     let span = block.span;
                     write!(file, "\nBlock node_id: {:?}, Block: {:?}",
-                             node_id, cx.tcx.sess.codemap().span_to_snippet(span).unwrap());
+                             node_id, cx.tcx.sess.source_map().span_to_snippet(span).unwrap());
                 }
                 for source in block_sources {
                     writeln!(file,"");
@@ -477,7 +477,7 @@ impl<'a, 'tcx> Visitor<'tcx> for UnsafetySourcesVisitor<'a, 'tcx> {
                 }
                 let base_ty = base.ty(self.mir, self.cx.tcx).to_ty(self.cx.tcx);
                 match base_ty.sty {
-                    ty::TyRawPtr(..) => {
+                    ty::TyKind::RawPtr(..) => {
                         let mut output = std::format!("{}", base_ty.sty);
                         let unsafety_node_id = self.get_unsafety_node_id();
                         self.data.add_source(Source {
@@ -485,7 +485,7 @@ impl<'a, 'tcx> Visitor<'tcx> for UnsafetySourcesVisitor<'a, 'tcx> {
                             loc: self.source_info,
                         }, unsafety_node_id);
                     }
-                    ty::TyAdt(adt, _) => {
+                    ty::TyKind::Adt(adt, _) => {
                         if adt.is_union() {
                             if context == PlaceContext::Store
                                 || context == PlaceContext::AsmOutput

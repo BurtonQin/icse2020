@@ -3,7 +3,7 @@ use rustc::hir;
 use rustc::lint::LateContext;
 use rustc::mir::visit::Visitor;
 use rustc::mir::{BasicBlock, Location, Operand, Terminator, TerminatorKind};
-use rustc::ty::TypeVariants;
+use rustc::ty::TyKind;
 
 pub fn build_call_graph<'a, 'tcx>(data: &mut Vec<FnInfo>, cx: &LateContext<'a, 'tcx>) {
     let tcx = &cx.tcx;
@@ -47,7 +47,7 @@ impl<'a, 'tcx> Visitor<'tcx> for CallsVisitor<'a, 'tcx> {
         } = terminator.kind
         {
             if let Operand::Constant(constant) = func {
-                if let TypeVariants::TyFnDef(callee_def_id, _) = constant.literal.ty.sty {
+                if let TyKind::FnDef(callee_def_id, _) = constant.literal.ty.sty {
                     if callee_def_id.is_local() {
                         if let Some(callee_node_id) =
                             self.cx.tcx.hir.as_local_node_id(callee_def_id)
