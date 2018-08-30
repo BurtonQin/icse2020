@@ -5,7 +5,7 @@ use rustc::hir;
 use rustc::lint::LateContext;
 use rustc::mir::visit::Visitor;
 use rustc::mir::{BasicBlock, Location, Operand, Terminator, TerminatorKind};
-use rustc::ty::TypeVariants;
+use rustc::ty::TyKind;
 use std::fs::File;
 use std::io::Write;
 
@@ -77,7 +77,7 @@ impl<'a, 'tcx> Visitor<'tcx> for SafeMethodsInUnsafeTraits<'a, 'tcx> {
         } = terminator.kind
         {
             if let Operand::Constant(constant) = func {
-                if let TypeVariants::TyFnDef(callee_def_id, _) = constant.literal.ty.sty {
+                if let TyKind::FnDef(callee_def_id, _) = constant.literal.ty.sty {
                     let calee_sig = self.cx.tcx.fn_sig(callee_def_id);
                     if let hir::Unsafety::Normal = calee_sig.unsafety() {
                         // need to find the trait if it's a method impl
@@ -85,10 +85,10 @@ impl<'a, 'tcx> Visitor<'tcx> for SafeMethodsInUnsafeTraits<'a, 'tcx> {
                             let callee_node_id =
                                 self.cx.tcx.hir.def_index_to_node_id(callee_def_id.index);
                             match self.cx.tcx.hir.get(callee_node_id) {
-                                hir::map::Node::NodeTraitItem(ref _trait_item) => {
+                                hir::Node::TraitItem(ref _trait_item) => {
                                     let trait_node_id =
                                         self.cx.tcx.hir.get_parent_node(callee_node_id);
-                                    if let hir::map::Node::NodeItem(item) =
+                                    if let hir::Node::Item(item) =
                                         self.cx.tcx.hir.get(trait_node_id)
                                     {
                                         if let hir::ItemKind::Trait(_, unsafety, ..) = item.node {

@@ -3,10 +3,9 @@ use syntax::ast::NodeId;
 use rustc::hir;
 use rustc::lint::LateContext;
 use rustc::mir::Operand;
-use rustc::ty::TypeVariants;
+use rustc::ty::TyKind;
 use rustc_target::spec::abi::Abi;
-
-use syntax::codemap::Span;
+use syntax_pos::Span;
 
 use print::Print;
 use std::fs::File;
@@ -46,7 +45,7 @@ pub fn find_callee<'a, 'tcx>(
     func: &Operand<'tcx>,
 ) -> Option<FnCallInfo> {
     if let Operand::Constant(constant) = func {
-        if let TypeVariants::TyFnDef(callee_def_id, _) = constant.literal.ty.sty {
+        if let TyKind::FnDef(callee_def_id, _) = constant.literal.ty.sty {
             let abi = cx.tcx.fn_sig(callee_def_id).abi();
             if callee_def_id.is_local() {
                 if let Some(callee_node_id) = cx.tcx.hir.as_local_node_id(callee_def_id) {
@@ -73,7 +72,7 @@ pub fn find_callee<'a, 'tcx>(
 pub fn is_unsafe_fn<'a, 'tcx>(node_id: NodeId, cx: &LateContext<'a, 'tcx>) -> bool {
     let node = cx.tcx.hir.get(node_id);
     match node {
-        hir::map::Node::NodeItem(item) => {
+        hir::Node::Item(item) => {
             if let hir::ItemKind::Fn(ref _fn_decl, ref fn_header, _, _) = item.node {
                 if let hir::Unsafety::Normal = fn_header.unsafety {
                     false
@@ -92,7 +91,7 @@ pub fn is_unsafe_fn<'a, 'tcx>(node_id: NodeId, cx: &LateContext<'a, 'tcx>) -> bo
 pub fn is_unsafe_method<'a, 'tcx>(node_id: NodeId, cx: &LateContext<'a, 'tcx>) -> bool {
     let node = cx.tcx.hir.get(node_id);
     match node {
-        hir::map::Node::NodeImplItem(ref impl_item) => {
+        hir::Node::ImplItem(ref impl_item) => {
             if let ::hir::ImplItemKind::Method(ref method_sig, ..) = impl_item.node {
                 if let hir::Unsafety::Normal = method_sig.header.unsafety {
                     false
@@ -111,10 +110,10 @@ pub fn is_unsafe_method<'a, 'tcx>(node_id: NodeId, cx: &LateContext<'a, 'tcx>) -
 pub fn is_fn_or_method<'a, 'tcx>(node_id: NodeId, cx: &LateContext<'a, 'tcx>) -> bool {
     let node = cx.tcx.hir.get(node_id);
     match node {
-        hir::map::Node::NodeItem(_item) => {true}
-        hir::map::Node::NodeImplItem(ref _impl_item) => {true}
-        hir::map::Node::NodeExpr(ref _expr) => {false} //closure
-        hir::map::Node::NodeAnonConst(ref _anon_const) => {
+        hir::Node::Item(_item) => {true}
+        hir::Node::ImplItem(ref _impl_item) => {true}
+        hir::Node::Expr(ref _expr) => {false} //closure
+        hir::Node::AnonConst(ref _anon_const) => {
             // nothing to do - this is not a stand alone function
             // any unsafe in this body will be processed by the enclosing function or method
             false
@@ -127,7 +126,7 @@ pub fn is_fn_or_method<'a, 'tcx>(node_id: NodeId, cx: &LateContext<'a, 'tcx>) ->
 }
 
 pub fn print_file_and_line<'a, 'tcx>( cx: &LateContext<'a, 'tcx>, span: Span, file: &mut File ) {
-    let loc = cx.tcx.sess.codemap().lookup_char_pos(span.lo());
+    let loc = cx.tcx.sess.source_map().lookup_char_pos(span.lo());
     let filename = &loc.file.name;
     write!(file,
            "file: {:?} line {:?} | ",
@@ -153,16 +152,12 @@ pub fn get_root_path_components() -> [String;3] {
         , version.to_string()]
 }
 
-pub fn get_analysis_path_components( analysis_name: &'static str ) -> [String;4] {
-    let mut result: [String;4] = ["".to_string();4];
-    for x in &get_root_path_components() {
-        result[i] = x;
-    }
-    result[3] = analysis_name.to_string();
-    result
+pub fn get_analysis_path_components( analysis_name: &str ) -> [String;4] {
+    let path_comp = get_root_path_components();
+    [path_comp[0].clone(),path_comp[1].clone(),path_comp[2].clone(),analysis_name.to_string()]
 }
 
-pub fn get_path( analysis_name: &'static str ) -> PathBuf {
+pub fn get_path( analysis_name: &str ) -> PathBuf {
     // create directory if necessary
     let dir_path: PathBuf = get_root_path_components().iter().collect();
     DirBuilder::new().recursive(true).create(dir_path).unwrap();

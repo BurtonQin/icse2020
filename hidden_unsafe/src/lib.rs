@@ -4,10 +4,8 @@
 #![feature(rustc_private)]
 #![feature(box_syntax)]
 #![feature(macro_at_most_once_rep)]
-#![feature(macro_vis_matcher)]
 #![feature(extern_prelude)]
 #![feature(box_patterns)]
-#![feature(use_extern_macros)]
 
 #[macro_use]
 extern crate rustc;
