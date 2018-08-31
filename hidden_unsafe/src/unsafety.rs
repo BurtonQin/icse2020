@@ -17,12 +17,12 @@ pub enum SourceKind {
     UnsafeFnCall(FnCallInfo),
     DerefRawPointer(String), // TODO find a better solution
     Asm,
-    MutableStatic(hir::def_id::DefId),
+    Static(hir::def_id::DefId),
     //ForeignItem, //TODO check what is this
     BorrowPacked,
     AssignmentToNonCopyUnionField(hir::def_id::DefId),
     AccessToUnionField(hir::def_id::DefId),
-    UseExternStatic(hir::def_id::DefId),
+    ExternStatic(hir::def_id::DefId),
 }
 
 impl Source {
@@ -53,8 +53,8 @@ impl Print for Source {
             SourceKind::Asm => {
                 write!(file, "Asm");
             }
-            SourceKind::MutableStatic(ref def_id) => {
-                write!(file, "MutateStatic {:?}", def_id);
+            SourceKind::Static(ref def_id) => {
+                write!(file, "Static {:?}", def_id);
             }
             //SourceKind::ForeignItem => {print!("ForeignItem");},
             SourceKind::BorrowPacked => {
@@ -66,8 +66,8 @@ impl Print for Source {
             SourceKind::AccessToUnionField(ref adt_def) => {
                 write!(file, "AccessToUnionField {:?}", adt_def);
             }
-            SourceKind::UseExternStatic(ref adt_def) => {
-                write!(file, "UseExternStatic {:?}", adt_def);
+            SourceKind::ExternStatic(ref adt_def) => {
+                write!(file, "ExternStatic {:?}", adt_def);
             }
         }
         write!(file, " | ");
