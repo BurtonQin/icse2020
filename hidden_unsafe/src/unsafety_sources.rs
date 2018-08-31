@@ -536,13 +536,13 @@ impl<'a, 'tcx> Visitor<'tcx> for UnsafetySourcesVisitor<'a, 'tcx> {
                 if self.cx.tcx.is_static(def_id) == Some(hir::Mutability::MutMutable) {
                     let unsafety_node_id = self.get_unsafety_node_id();
                     self.data.add_source(Source {
-                        kind: SourceKind::MutableStatic(def_id),
+                        kind: SourceKind::Static(def_id),
                         loc: self.source_info,
                     }, unsafety_node_id);
                 } else if self.cx.tcx.is_foreign_item(def_id) {
                     let unsafety_node_id = self.get_unsafety_node_id();
                     self.data.add_source(Source {
-                        kind: SourceKind::UseExternStatic(def_id),
+                        kind: SourceKind::ExternStatic(def_id),
                         loc: self.source_info,
                     }, unsafety_node_id);
                 }
