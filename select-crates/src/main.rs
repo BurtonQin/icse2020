@@ -12,6 +12,7 @@ use cargo_registry::krate::EncodableCrate;
 use cargo_registry::keyword::EncodableKeyword;
 use cargo_registry::version::EncodableVersion;
 use std::cmp::Ordering;
+use std::env;
 
 #[derive(Deserialize,Debug)]
 struct R {
@@ -22,13 +23,16 @@ struct R {
     categories: Vec<EncodableCategory>,
 }
 
-
-//TODO change this to command line parameter
-static INPUT_FILE: &'static str = "/home/nora/work/external_calls/select-crates/crates-io-fixed";
-static TOP_DOWNLOADED: usize = 10;
-
 fn main() {
-    let input_file = File::open(INPUT_FILE).expect("File not found");
+    let args: Vec<String> = env::args().collect();
+    if args.len() < 3 {
+        println!("Use: {:?} top input_filename", args[0]);
+        panic!("Invalid command line parameters");
+    }
+    let top_downloaded: usize = args[1].parse::<usize>().unwrap();
+    let filename = &args[2];
+
+    let input_file = File::open(filename).expect("File not found");
     let mut reader = BufReader::new(input_file);
     let mut top = Vec::new();
     let order = |c1: &R, c2: &R| {
@@ -49,7 +53,7 @@ fn main() {
         } else {
             //process line
             let crate_info: R = serde_json::from_str(&line).unwrap();
-            if top.len() < TOP_DOWNLOADED {
+            if top.len() < top_downloaded {
                 top.push(crate_info);
                 top.sort_unstable_by(order);
             } else {
