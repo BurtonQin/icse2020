@@ -5,6 +5,7 @@ PROJECT_HOME="/home/nora/work/external_calls"
 
 CRATES_DIR=/tmp/unsafe_analysis/crates.io-downloads/
 
+cd $CRATES_DIR
 for d in $(ls $CRATES_DIR)
 do
 	echo "Compiling $d"
