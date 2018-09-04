@@ -21,17 +21,19 @@ Next, it downloads using cargo-clone each crate in top-N-crates.io in the direct
 cd hidden_unsafe; cargo build
 
 <h1>Run the plugin on one crate</h1>
+rustup override set nightly-2018-08-29<br>
 export PROJECT_HOME="/home/nora/work/external_calls" #change this to your path<br>
 export RUSTFLAGS="--extern hidden_unsafe=$PROJECT_HOME/hidden_unsafe/target/debug/libhidden_unsafe.so -Z extra-plugins=hidden_unsafe  --emit mir"<br>
-cargo +nightly build
+cargo build
 
 <h1>Run examples from repository</h1>
+rustup override set nightly-2018-08-29<br>
 export PROJECT_HOME="/home/nora/work/external_calls" #change this to your path<br>
 export RUSTFLAGS="--extern hidden_unsafe=$PROJECT_HOME/hidden_unsafe/target/debug/libhidden_unsafe.so -Z extra-plugins=hidden_unsafe  --emit mir"<br>
 
-cd $PROJECT_HOME/examples/elf2tbf; cargo +nightly build
+cd $PROJECT_HOME/examples/elf2tbf; cargo build
 
-cd $PROJECT_HOME/examples/hidden_unsafe_tests; cargo +nightly build
+cd $PROJECT_HOME/examples/hidden_unsafe_tests; cargo build
 
 <h1>Issues:</h1>
 1. calls.rs::Operand Type NOT handled move _51
