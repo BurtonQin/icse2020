@@ -1,49 +1,39 @@
 # external_calls
 
-hidden_insafe contains the rustc linters
+<h1>Download top N crates from crates.io</h1>
 
-cargo-safety_check contains the cargo plugin (not yet implemented)
+Execute: cd select-crates
 
-<b>To compile the compiler plugins: </b>
+Clean up to run a fresh counter download:<br>
+rm crates.io-fixed
+
+Download top N crates (N is the parameter passed): <br>
+./crate_info_query.sh N
+
+If the file crates.io-fixed exists then it uses it, otherwise it is created. This file contains the information downloaded from crates.io for each crate from crates.io-index repository.
+
+The script parses the file and retains the top N crate names and the downloads in top-N-crates.io.
+
+Next, it downloads using cargo-clone each crate in top-N-crates.io in the directory: /tmp/unsafe_analysis/crates.io-downloads.
+
+<h1>To compile the compiler plugins: </h1>
 
 cd hidden_unsafe; cargo build
 
-<b>To see the run on a copy of TockOS elf2tbf tool: </b>
+<h1>Run the plugin on one crate</h1>
+export PROJECT_HOME="/home/nora/work/external_calls" #change this to your path<br>
+export RUSTFLAGS="--extern hidden_unsafe=$PROJECT_HOME/hidden_unsafe/target/debug/libhidden_unsafe.so -Z extra-plugins=hidden_unsafe  --emit mir"<br>
+cargo +nightly build
 
-cd examples/elf2tbf; cargo build
+<h1>Run examples from repository</h1>
+export PROJECT_HOME="/home/nora/work/external_calls" #change this to your path<br>
+export RUSTFLAGS="--extern hidden_unsafe=$PROJECT_HOME/hidden_unsafe/target/debug/libhidden_unsafe.so -Z extra-plugins=hidden_unsafe  --emit mir"<br>
 
-<b>To add the analysis to a new project:</b>
+cd $PROJECT_HOME/examples/elf2tbf; cargo +nightly build
 
-1. Add in the source file:
+cd $PROJECT_HOME/examples/hidden_unsafe_tests; cargo +nightly build
 
-#![feature(plugin)]
-
-#![plugin(hidden_unsafe)]
-
-
-2. Add in the Cargo.toml:
-
-[dependencies]
-
-hidden_unsafe = { path = "/home/nora/work/external_calls/hidden_unsafe" }
-
-3. Compile with: cargo +nightly build
-
-<b> TockOS Analysis: </b>
-1. tock_cells
-
-cd cd libraries/tock-cells/; cargo +nightly build
-
-2. kernel 
-Edits: removed unique feature
-
-cd kernel; export TOCK_KERNEL_VERSION=$(git describe --always || echo notgit); cargo +nightly build
-
-3. core
-
-cd $RUST_SRC/src/libcore; cargo +nightly build
-
-Issues:
+<h1>Issues:</h1>
 1. calls.rs::Operand Type NOT handled move _51
 
 calls.rs::Operand Type NOT handled move _24
