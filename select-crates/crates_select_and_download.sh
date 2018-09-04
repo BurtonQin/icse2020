@@ -2,6 +2,13 @@
 
 ## Collect information for each crate 
 
+if [ -z "$1" ]
+then 
+	TOP=10
+else 
+	TOP=$1
+fi
+
 OUTPUT_DIR=/tmp/unsafe_analysis/crates.io-downloads
 
 CRT_DIR=`pwd`
@@ -40,18 +47,16 @@ then
 fi
 
 FILE=`pwd`/crates.io-fixed
-cargo run -- 10 $FILE > top-N-crates.io
-
-cat top-N-crates.io | sed 's/\"//g' > top-N-crates.io
+cargo run -- "$TOP" $FILE | sed 's/\"//g' > top-N-crates.io
 
 rm -rf $OUTPUT_DIR
 mkdir -p $OUTPUT_DIR
 
 while read line
 do
-	crate=$(echo $line | cut -f 1)
+	crate=$(echo $line | cut -d' ' -f 1)
 	echo "cloning crate $crate"
-	#cargo clone $crate
+	cargo clone $crate --prefix $OUTPUT_DIR
 done <top-N-crates.io
 
 cd $CRT_DIR
