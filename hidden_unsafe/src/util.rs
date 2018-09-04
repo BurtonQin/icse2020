@@ -11,6 +11,7 @@ use print::Print;
 use std::fs::File;
 use std::path::PathBuf;
 use std::io::Write;
+use std::fmt::Write as FmtWrite;
 use print;
 use std::fs::DirBuilder;
 use chrono;
@@ -133,6 +134,18 @@ pub fn print_file_and_line<'a, 'tcx>( cx: &LateContext<'a, 'tcx>, span: Span, fi
             filename,
             loc.line
     );
+}
+
+pub fn get_file_and_line<'a, 'tcx>( cx: &LateContext<'a, 'tcx>, span: Span) -> String {
+    let loc = cx.tcx.sess.source_map().lookup_char_pos(span.lo());
+    let filename = &loc.file.name;
+    let mut output = String::new();
+    write!(output,
+           "file: {:?} line {:?} | ",
+           filename,
+           loc.line
+    );
+    output
 }
 
 pub fn crate_name_and_version() -> (String,String) {
