@@ -1,0 +1,10 @@
+libc 9945248
+bitflags 8899526
+rand 7090636
+log 6835876
+lazy_static 6744459
+serde 6645785
+winapi 5866787
+regex-syntax 5172753
+regex 5148477
+num-traits 5071582
