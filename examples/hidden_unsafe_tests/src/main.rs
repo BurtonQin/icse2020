@@ -1,6 +1,4 @@
-#![feature(plugin)]
 #![feature(asm)]
-#![plugin(hidden_unsafe)]
 
 pub unsafe fn with_asm() {
     asm!("nop");
@@ -32,15 +30,15 @@ trait Trait {
 
 struct SafeImpl {}
 
-// impl SafeImpl {
-//     fn nested_methods() {
-//         fn inner() {
-//             let s1 = UnsafeImpl{};
-//             unsafe{s1.unsafe_method_unsafe_trait();}
-//         }
-//         inner();
-//     }
-// }
+
+fn nested_methods() {
+    fn inner() {
+        let s1 = UnsafeImpl{};
+        unsafe{s1.unsafe_method_unsafe_trait();}
+    }
+    inner();
+}
+
 
 //the impl must be unsafe if the trait is
 unsafe impl UnsafeTrait for SafeImpl {
@@ -203,5 +201,5 @@ fn main() {
         call_unsafe_1();
         call_unsafe_2();
     }
-    //SafeImpl::nested_methods();
+    nested_methods();
 }
