@@ -7,20 +7,27 @@ use rustc::lint::LateContext;
 use std::fs::File;
 use std::io::Write;
 
-pub struct UnsafeInBody {
+#[derive(Serialize, Deserialize, Debug)]
+pub struct UnsafeInBody  {
+    fn_info: String,
     has_unsafe: bool,
 }
 
 impl Print for UnsafeInBody {
 
     fn print<'a, 'tcx>(&self, _cx: &LateContext<'a, 'tcx>, file: &mut File) -> () {
-        write!(file, "{:?}", self.has_unsafe);
+        let serialized = serde_json::to_string(self).unwrap();
+        writeln!(file, "{:?}", serialized);
     }
 }
 
 impl UnsafeInBody {
-    fn new() -> Self {
-        UnsafeInBody { has_unsafe: false }
+    fn new(fn_info: String) -> Self {
+        UnsafeInBody { has_unsafe: false, fn_info }
+    }
+
+    pub fn get_output_filename() -> &'static str {
+        "10_unsafe_in_call_tree"
     }
 }
 
@@ -43,7 +50,7 @@ impl Analysis for UnsafeInBody {
             has_unsafe: false,
         };
         hir::intravisit::walk_body(&mut visitor, body);
-        let mut analysis = Self::new();
+        let mut analysis = Self::new(tcx.node_path_str(fn_info.decl_id()));
         if visitor.has_unsafe {
             analysis.set();
         }
@@ -77,3 +84,4 @@ impl<'a, 'tcx> hir::intravisit::Visitor<'tcx> for UnsafeBlocksVisitorData<'tcx> 
         intravisit::NestedVisitorMap::All(self.hir)
     }
 }
+

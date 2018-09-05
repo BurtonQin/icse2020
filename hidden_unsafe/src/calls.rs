@@ -42,36 +42,37 @@ impl<'a, 'tcx> Visitor<'tcx> for CallsVisitor<'a, 'tcx> {
     ) {
         if let TerminatorKind::Call {
             ref func,
-            ref args,
+            args: _,
             destination:_,
             cleanup: _,
         } = terminator.kind
         {
             if let Operand::Constant(constant) = func {
+//                println!("func {:?} kind {:?}", func, constant.literal.ty.sty);
                 //if let TyKind::FnDef(callee_def_id, substs) = constant.literal.ty.sty {
                 if let TyKind::FnDef(callee_def_id, substs) = constant.literal.ty.sty {
-
                     let param_env = self.cx.tcx.param_env( self.cx.tcx.hir.local_def_id(self.fn_info.decl_id()));
                     if let Some(instance) = ty::Instance::resolve(self.cx.tcx,
                                                                   param_env,
                                                                   callee_def_id,
                                                                   substs) {
                         match instance.def {
-                            ty::InstanceDef::Item(def_id) => {
+                            ty::InstanceDef::Item(def_id)
+                            | ty::InstanceDef::Intrinsic(def_id)
+                            | ty::InstanceDef::Virtual(def_id,_) => {
                                 if let Some (decl_node_id) = self.cx.tcx.hir.as_local_node_id(def_id) {
-                                    if callee_def_id.is_local() {
-                                        self.fn_info.push_local_call(decl_node_id);
-                                    } else {
-//                        let mut output = std::format!("{}", constant.literal.ty.sty);
-//                        self.fn_info.push_external_call(callee_def_id.krate, output);
-                                        self.fn_info.push_external_call( self.cx, callee_def_id);
-                                    }
+                                    //println!("func {:?} pushed local", func);
+                                    self.fn_info.push_local_call(decl_node_id);
+                                } else {
+                                    //println!("func {:?} pushed external", func);
+                                    self.fn_info.push_external_call( self.cx, callee_def_id);
                                 }
                             }
                             _ => {println!("ty::InstanceDef:: NOT handled {:?}", instance.def)}
                         }
                     } else {
-                        println!("tty::Instance::resolve NOT handled");
+//                        println!("func {:?} pushed external", func);
+                        self.fn_info.push_external_call(self.cx, callee_def_id);
                     }
 
                 } else {
