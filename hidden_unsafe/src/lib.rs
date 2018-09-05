@@ -17,6 +17,13 @@ extern crate syntax;
 extern crate syntax_pos;
 extern crate chrono;
 extern crate cargo_metadata;
+extern crate cargo;
+#[macro_use]
+extern crate serde_derive;
+
+extern crate serde;
+extern crate serde_json;
+
 
 use fn_info::FnInfo;
 use print::{EmptyPrinter, Print};
@@ -35,6 +42,7 @@ mod unsafe_blocks;
 mod unsafe_traits;
 mod unsafety;
 mod util;
+mod deps;
 
 
 use unsafety_sources::UnsafeFnUsafetyAnalysis;
@@ -46,6 +54,7 @@ use std::io::Write;
 use std::path::PathBuf;
 use std::fs::DirBuilder;
 use std::fs::OpenOptions;
+
 
 struct HiddenUnsafe {
     normal_functions: Vec<FnInfo>,
@@ -77,7 +86,8 @@ impl HiddenUnsafe {
     ) {
         let mut file = util::open_file(name);
         for &(fn_info, ref res) in result.iter() {
-            fn_info.print(cx, res, &mut file);
+            //fn_info.print(cx, res, &mut file);
+            res.print(cx, &mut file);
         }
     }
 
@@ -153,14 +163,20 @@ impl<'a, 'tcx> LintPass for HiddenUnsafe {
 
 impl<'a, 'tcx> LateLintPass<'a, 'tcx> for HiddenUnsafe {
     fn check_crate_post(&mut self, cx: &LateContext<'a, 'tcx>, _: &'tcx Crate) {
+
+        let external_crates = deps::load_dependencies();
+
         calls::build_call_graph(&mut self.normal_functions, cx);
         self.print_graph(cx);
         // the information collected in check_body is available at this point
         // collect unsafe blocks information for each function
         // and propagates it
 
+
+
         let res1: Vec<(&FnInfo, UnsafeInBody)> = analysis::run_all(cx, &self.normal_functions, true);
-        HiddenUnsafe::print_results(cx, &res1, "10_unsafe_in_call_tree");
+
+        HiddenUnsafe::print_results(cx, &res1, UnsafeInBody::get_output_filename());
 
         let res2: Vec<(&FnInfo, UnsafeTraitSafeMethod)> = analysis::run_all(cx, &self.normal_functions, true);
         HiddenUnsafe::print_results(cx, &res2, "20_unsafe_trait_safe_method_in_call_tree");

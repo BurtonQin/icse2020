@@ -37,6 +37,8 @@ impl FnInfo {
                                         def_id: hir::def_id::DefId) -> () {
         let krate = def_id.krate;
 
+//        println!("node_path_str {:?}", cx.tcx.item_path_str(def_id));
+
         let mut crate_name: String = cx.tcx.crate_name(krate).to_string();
         crate_name.push_str("::");
 
@@ -47,7 +49,8 @@ impl FnInfo {
             .iter()
             .any(|elt| elt.1 == func && elt.0 == krate);
         if !found {
-            self.external_calls.push((krate, func.to_string()));
+            //self.external_calls.push((krate, func.to_string()));
+            self.external_calls.push((krate,cx.tcx.item_path_str(def_id).to_string()) );
         }
     }
 
@@ -86,6 +89,7 @@ impl FnInfo {
     }
 
     pub fn print_external_calls<'a, 'tcx>(&self, cx: &LateContext<'a, 'tcx>, file: &mut File) {
+
         let tcx = cx.tcx;
         let mut external_crates = Vec::new();
         self.external_calls.iter().for_each(|elt| {
@@ -93,12 +97,13 @@ impl FnInfo {
                 external_crates.push(elt.0)
             }
         });
-
         external_crates.iter().for_each(|krate| {
             writeln!(file, "External crate {:?}", tcx.crate_name(*krate));
             self.external_calls
                 .iter()
-                .filter(|elt| elt.0 == *krate)
+                .filter(|elt|
+                    elt.0 == *krate
+                )
                 .for_each(|elt| {
                     writeln!(file, "{:?}", elt.1);
                 });
