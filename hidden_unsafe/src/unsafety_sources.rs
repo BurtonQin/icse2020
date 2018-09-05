@@ -342,9 +342,6 @@ impl <'a, 'tcx> UnsafetySourcesVisitor<'a, 'tcx> {
     fn get_unsafety_node_id(&self, cx: &'a LateContext<'a, 'tcx>) -> NodeId{
         match self.source_scope_local_data[self.source_info.scope].safety {
             Safety::Safe => {
-                print!("This is a SAFE node {:?}: {:?}", cx.tcx.hir.get(self.fn_node_id),
-                       util::get_file_and_line(cx, self.source_info.span)
-                );
                 self.fn_node_id
             }
             Safety::BuiltinUnsafe | Safety::FnUnsafe => self.fn_node_id,
@@ -386,6 +383,8 @@ impl<'a, 'tcx> Visitor<'tcx> for UnsafetySourcesVisitor<'a, 'tcx> {
                 if let hir::Unsafety::Unsafe = sig.unsafety() {
                     let loc = terminator.source_info;
                     if let Some(unsafe_fn_call) = Source::new_unsafe_fn_call(self.cx, func, loc) {
+//                        println!("Unsafe function call!! {:?} {:?}", func,
+//                                 util::get_file_and_line(self.cx,loc.span));
                         let unsafety_node_id = self.get_unsafety_node_id(self.cx);
                         self.data.add_source(unsafe_fn_call, unsafety_node_id);
                     }
@@ -416,6 +415,7 @@ impl<'a, 'tcx> Visitor<'tcx> for UnsafetySourcesVisitor<'a, 'tcx> {
             }
 
             StatementKind::InlineAsm { .. } => {
+//                println!("Asm");
                 let unsafety_node_id = self.get_unsafety_node_id(self.cx);
                 self.data.add_source(Source {
                     kind: SourceKind::Asm,
@@ -458,6 +458,7 @@ impl<'a, 'tcx> Visitor<'tcx> for UnsafetySourcesVisitor<'a, 'tcx> {
     ) {
         if let PlaceContext::Borrow { .. } = context {
             if rustc_mir::util::is_disaligned(self.cx.tcx, self.mir, self.param_env, place) {
+//                println!("Unalligned Borrow");
                 let unsafety_node_id = self.get_unsafety_node_id(self.cx);
                 self.data.add_source(Source {
                     kind: SourceKind::BorrowPacked,
@@ -480,6 +481,7 @@ impl<'a, 'tcx> Visitor<'tcx> for UnsafetySourcesVisitor<'a, 'tcx> {
                 let base_ty = base.ty(self.mir, self.cx.tcx).to_ty(self.cx.tcx);
                 match base_ty.sty {
                     ty::TyKind::RawPtr(..) => {
+//                        println!("DerefRawPointer");
                         let mut output = std::format!("{}", base_ty.sty);
                         let unsafety_node_id = self.get_unsafety_node_id(self.cx);
                         self.data.add_source(Source {
@@ -506,6 +508,7 @@ impl<'a, 'tcx> Visitor<'tcx> for UnsafetySourcesVisitor<'a, 'tcx> {
                                     self.param_env,
                                     self.source_info.span,
                                 ) {
+//                                    println!("AssignmentToNonCopyUnionField");
                                     let unsafety_node_id = self.get_unsafety_node_id(self.cx);
                                     self.data.add_source(Source {
                                         kind: SourceKind::AssignmentToNonCopyUnionField(adt.did),
@@ -515,6 +518,7 @@ impl<'a, 'tcx> Visitor<'tcx> for UnsafetySourcesVisitor<'a, 'tcx> {
                                     // write to non-move union, safe
                                 }
                             } else {
+//                                println!("AccessToUnionField");
                                 let unsafety_node_id = self.get_unsafety_node_id(self.cx);
                                 self.data.add_source(Source {
                                     kind: SourceKind::AccessToUnionField(adt.did),
@@ -536,12 +540,14 @@ impl<'a, 'tcx> Visitor<'tcx> for UnsafetySourcesVisitor<'a, 'tcx> {
             }
             &Place::Static(box Static { def_id, ty: _ }) => {
                 if self.cx.tcx.is_static(def_id) == Some(hir::Mutability::MutMutable) {
+                    println!("Static");
                     let unsafety_node_id = self.get_unsafety_node_id(self.cx);
                     self.data.add_source(Source {
                         kind: SourceKind::Static(def_id),
                         loc: self.source_info,
                     }, unsafety_node_id);
                 } else if self.cx.tcx.is_foreign_item(def_id) {
+                    println!("ExternStatic");
                     let unsafety_node_id = self.get_unsafety_node_id(self.cx);
                     self.data.add_source(Source {
                         kind: SourceKind::ExternStatic(def_id),
