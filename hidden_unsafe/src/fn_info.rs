@@ -63,8 +63,10 @@ impl FnInfo {
             let tcx = cx.tcx;
             let span = tcx.hir.span(self.decl_id);
             file.write_fmt(format_args!(
-                "{:?} | ",
-                tcx.node_path_str(self.decl_id))
+                    "{:?} | Node id: {:?} | ",
+                    tcx.node_path_str(self.decl_id),
+                    self.decl_id
+                )
             ).unwrap();
             util::print_file_and_line(cx, span, file);
             printer.print(cx, file);
@@ -76,6 +78,8 @@ impl FnInfo {
         if !self.local_calls.is_empty() {
             writeln!(file, "Local calls:");
             for node_id in self.local_calls.iter() {
+                // TODO try to get the actual implementation here:
+                // UnsafeImpl::call instead of UnsafeTrait::call
                 writeln!(file, "{:?} | {:?} ", cx.tcx.node_path_str(*node_id), node_id);
             }
         }

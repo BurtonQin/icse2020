@@ -27,7 +27,7 @@ impl Print for FnCallInfo {
     fn print<'a, 'tcx>(&self, cx: &LateContext<'a, 'tcx>, file: &mut File) -> () {
         match self {
             FnCallInfo::Local(node_id, abi) => {
-                write!(file, "{:?} |abi: {:?}", cx.tcx.node_path_str(*node_id), abi);
+                write!(file, "{:?} | abi: {:?}", cx.tcx.node_path_str(*node_id), abi);
             }
             FnCallInfo::External(krate, path_str, abi) => {
                 write!(file,
@@ -154,7 +154,7 @@ pub fn crate_name_and_version() -> (String,String) {
     let metadata =
         cargo_metadata::metadata_run(Some(manifest_path), false, Some(features)).unwrap();
 
-    println!("Crate {:?} Version {:?}", metadata.packages[0].name.clone(),metadata.packages[0].version.clone());
+    //println!("Crate {:?} Version {:?}", metadata.packages[0].name.clone(),metadata.packages[0].version.clone());
 
     (metadata.packages[0].name.clone(),metadata.packages[0].version.clone())
 }
