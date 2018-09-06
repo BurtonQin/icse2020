@@ -1,31 +1,34 @@
 use analysis::Analysis;
 use fn_info::FnInfo;
+use util;
+
 use rustc::hir;
 use rustc::hir::intravisit;
+use rustc::mir::visit::Visitor;
+use rustc::mir::{BasicBlock, Location, Operand, Terminator, TerminatorKind};
+use rustc::ty::TyKind;
 use rustc::lint::LateContext;
 use std::fs::File;
 use std::io::Write;
 
+use results::implicit::UnsafeInBody;
+use results::implicit::UnsafeTraitSafeMethodInBody;
 
-
-impl Print for UnsafeInBody {
-
-    fn print<'a, 'tcx>(&self, _cx: &LateContext<'a, 'tcx>, file: &mut File) -> () {
-        let serialized = serde_json::to_string(self as &UnsafeInBody).unwrap();
-        writeln!(file, "{}", serialized);
-    }
-
-}
+///////////////////////////////// Blocks /////////////////////////////////////////////////
 
 impl UnsafeInBody {
-    pub fn new(fn_info: String) -> Self {
-        UnsafeInBody { has_unsafe: false, fn_info }
+    pub fn new(fn_name: String) -> Self {
+        UnsafeInBody { fn_name: fn_name, has_unsafe: false }
     }
 
-    pub fn get_output_filename() -> &'static str {
-        "10_unsafe_in_call_tree"
+    pub fn save_analysis( analysis_results: Vec<(&FnInfo, UnsafeInBody)> ) {
+        let cnv = util::local_crate_name_and_version();
+        let file = results::implicit::get_implicit_unsafe_file(cnv.0, cnv.1).open_file();
+        for (_,ub) in analysis_results.iter() {
+            let serialized = serde_json::to_string(ub).unwrap();
+            writeln!(file, "{}", serialized);
+        }
     }
-
 }
 
 impl Analysis for UnsafeInBody {
@@ -135,5 +138,106 @@ pub fn propagate_external<'a, 'tcx>(cx: &LateContext<'a, 'tcx>
                     }
             }
         }
+    }
+}
+
+
+////////////////////////////// Traits ///////////////////////////////////////////////////////
+
+impl UnsafeTraitSafeMethodInBody {
+    fn new(fn_name: String) -> Self {
+        UnsafeTraitSafeMethodInBody { fn_name, has_unsafe: false }
+    }
+
+    pub fn save_analysis( analysis_results: Vec<(&FnInfo, SafeMethodsInUnsafeTraits)> ) {
+        let cnv = util::local_crate_name_and_version();
+        let file = results::implicit::get_implicit_unsafe_file(cnv.0, cnv.1).open_file();
+        for (_,t) in analysis_results.iter() {
+            let serialized = serde_json::to_string(t as &SafeMethodsInUnsafeTraits).unwrap();
+            writeln!(file, "{}", serialized);
+        }
+    }
+}
+
+impl Analysis for UnsafeTraitSafeMethodInBody {
+    fn is_set(&self) -> bool {
+        self.has_unsafe
+    }
+
+    fn set(&mut self) {
+        self.has_unsafe = true
+    }
+
+    fn run_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, fn_info: &'a FnInfo) -> Self {
+        let tcx = cx.tcx;
+        let owner_def_id = tcx.hir.local_def_id(fn_info.decl_id());
+        let mut mir = tcx.optimized_mir(owner_def_id);
+        let mut unsafe_trait_visitor = SafeMethodsInUnsafeTraits::new(cx);
+        unsafe_trait_visitor.visit_mir(&mut mir);
+        let mut analysis: Self = SafeMethodsInUnsafeTraits::new(tcx.node_path_str(fn_info.decl_id()));
+        if unsafe_trait_visitor.has_unsafe {
+            analysis.set();
+        }
+        analysis
+    }
+}
+
+struct SafeMethodsInUnsafeTraits<'a, 'tcx: 'a> {
+    cx: &'a LateContext<'a, 'tcx>,
+    has_unsafe: bool,
+}
+
+impl<'a, 'tcx> SafeMethodsInUnsafeTraits<'a, 'tcx> {
+    fn new(cx: &'a LateContext<'a, 'tcx>) -> Self {
+        SafeMethodsInUnsafeTraits {
+            cx,
+            has_unsafe: false,
+        }
+    }
+}
+
+impl<'a, 'tcx> Visitor<'tcx> for SafeMethodsInUnsafeTraits<'a, 'tcx> {
+    fn visit_terminator(
+        &mut self,
+        _block: BasicBlock,
+        terminator: &Terminator<'tcx>,
+        _location: Location,
+    ) {
+        if let TerminatorKind::Call {
+            ref func,
+            args: _,
+            destination: _,
+            cleanup: _,
+        } = terminator.kind
+            {
+                if let Operand::Constant(constant) = func {
+                    if let TyKind::FnDef(callee_def_id, _) = constant.literal.ty.sty {
+                        let calee_sig = self.cx.tcx.fn_sig(callee_def_id);
+                        if let hir::Unsafety::Normal = calee_sig.unsafety() {
+                            // need to find the trait if it's a method impl
+                            if callee_def_id.is_local() {
+                                let callee_node_id =
+                                    self.cx.tcx.hir.def_index_to_node_id(callee_def_id.index);
+                                match self.cx.tcx.hir.get(callee_node_id) {
+                                    hir::Node::TraitItem(ref _trait_item) => {
+                                        let trait_node_id =
+                                            self.cx.tcx.hir.get_parent_node(callee_node_id);
+                                        if let hir::Node::Item(item) =
+                                        self.cx.tcx.hir.get(trait_node_id)
+                                            {
+                                                if let hir::ItemKind::Trait(_, unsafety, ..) = item.node {
+                                                    if let hir::Unsafety::Unsafe = unsafety {
+                                                        self.has_unsafe = true;
+                                                    }
+                                                }
+                                            }
+                                    }
+                                    _ => {}
+                                }
+                            }
+                        }
+                    }
+                }
+            }
     }
 }

@@ -84,14 +84,10 @@ fn load_analysis<'a, 'tcx>( cx: &'a LateContext<'a, 'tcx>
         }
 
         if external_calls.len() > 0 {
-            let path_comp = [results::ROOT_DIR.to_string()
-                , crate_info.name.clone()
-                , crate_info.version.clone()
-                , UnsafeInBody::get_output_filename().to_string()
-            ];
-            let file_path: PathBuf = path_comp.iter().collect();
-            let file = OpenOptions::new()
-                .read(true).open(file_path).unwrap();
+
+            let file = results::implicit::get_implicit_unsafe_file(crate_info.name.clone()
+                                                                   , crate_info.version.clone());
+
             let mut reader = BufReader::new(file);
             //read line by line
             loop {

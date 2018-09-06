@@ -20,23 +20,23 @@ pub enum FnCallInfo {
     External(hir::def_id::CrateNum, String, Abi),
 }
 
-impl Print for FnCallInfo {
-    fn print<'a, 'tcx>(&self, cx: &LateContext<'a, 'tcx>, file: &mut File) -> () {
-        match self {
-            FnCallInfo::Local(node_id, abi) => {
-                write!(file, "{} | abi: {}", cx.tcx.node_path_str(*node_id), abi);
-            }
-            FnCallInfo::External(krate, path_str, abi) => {
-                write!(file,
-                       "Crate: {:?} | Calee: {:?} | abi: {:?}",
-                    cx.tcx.crate_name(*krate),
-                    path_str,
-                    abi
-                );
-            }
-        }
-    }
-}
+//impl Print for FnCallInfo {
+//    fn print<'a, 'tcx>(&self, cx: &LateContext<'a, 'tcx>, file: &mut File) -> () {
+//        match self {
+//            FnCallInfo::Local(node_id, abi) => {
+//                write!(file, "{} | abi: {}", cx.tcx.node_path_str(*node_id), abi);
+//            }
+//            FnCallInfo::External(krate, path_str, abi) => {
+//                write!(file,
+//                       "Crate: {:?} | Calee: {:?} | abi: {:?}",
+//                    cx.tcx.crate_name(*krate),
+//                    path_str,
+//                    abi
+//                );
+//            }
+//        }
+//    }
+//}
 
 pub fn find_callee<'a, 'tcx>(
     cx: &LateContext<'a, 'tcx>,
@@ -145,13 +145,5 @@ pub fn local_crate_name_and_version() -> (String, String) {
 
     (metadata.packages[0].name.clone(),metadata.packages[0].version.clone())
 }
-
-
-
-pub fn get_analysis_path_components( analysis_name: &str ) -> [String;4] {
-    let path_comp = get_root_path_components();
-    [path_comp[0].clone(),path_comp[1].clone(),path_comp[2].clone(),analysis_name.to_string()]
-}
-
 
 

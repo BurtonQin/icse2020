@@ -46,18 +46,18 @@ mod deps;
 use unsafety_sources::UnsafeFnUsafetyAnalysis;
 use unsafety_sources::UnsafeBlockUnsafetyAnalysis;
 use results::implicit::UnsafeInBody;
-use unsafe_traits::UnsafeTraitSafeMethod;
+use results::implicit::UnsafeTraitSafeMethodInBody;
 
 use std::io::Write;
 use implicit_analysis::propagate_external;
 
 
-struct HiddenUnsafe {
+struct ImplicitUnsafe {
     normal_functions: Vec<FnInfo>,
     unsafe_functions: Vec<FnInfo>,
 }
 
-impl HiddenUnsafe {
+impl ImplicitUnsafe {
     pub fn new() -> Self {
         Self {
             normal_functions: Vec::new(),
@@ -75,121 +75,68 @@ impl HiddenUnsafe {
         self.unsafe_functions.push(fn_info);
     }
 
-    pub fn print_results<'a, 'tcx, T: Print>(
-        cx: &'a LateContext<'a, 'tcx>,
-        result: &'a Vec<(&'a FnInfo, T)>,
-        name: &'static str,
-    ) {
-        let mut file = util::open_file(name);
-        for &(_fn_info, ref res) in result.iter() {
-            //fn_info.print(cx, res, &mut file);
-            res.print(cx, &mut file);
-        }
-    }
-
-    pub fn print_graph<'a, 'tcx>(&self, cx: &'a LateContext<'a, 'tcx>) {
+    pub fn save_results<'a, 'tcx>(&self, cx: &'a LateContext<'a, 'tcx>) {
         let cnv = util::local_crate_name_and_version();
+        // safe functions
         let mut safe_file = results::functions::get_safe_functions_file(cnv.0, cnv.1).open_file();
-
         for ref fn_info in self.normal_functions.iter() {
-            writeln!(safe_file, "+++++++++++++++++++++++++++++++++++++++++++++++++++");
-            fn_info.print(cx, &empty_printer, &mut safe_file);
-            fn_info.print_local_calls(cx, &mut safe_file);
-            writeln!(safe_file, "--------------------------------------------------");
-            fn_info.print_external_calls(cx, &mut safe_file);
+            let long_form = fn_info.build_long_fn_info(cx);
+            writeln!(safe_file, "{}", serde_json::to_string(long_form).unwrap());
         }
-        let mut unsafe_file = util::open_file("01_unsafe_functions");
+        // unsafe functions
+        let mut unsafe_file = results::functions::get_unsafe_functions_file(cnv.0, cnv.1).open_file();
         for ref fn_info in self.unsafe_functions.iter() {
-            fn_info.print(cx, &empty_printer, &mut unsafe_file);
+            let long_form = fn_info.build_long_fn_info(cx);
+            writeln!(safe_file, "{}", serde_json::to_string(long_form).unwrap());
         }
+        // summary
+        let mut summary_file = results::functions::get_unsafe_functions_file(cnv.0, cnv.1).open_file();
+        writeln!(summary_file, "{}",
+                 serde_json::to_string( results::functions::Summary{
+                     unsafe_no : self.unsafe_functions.len(),
+                     total: self.unsafe_functions.len() + self.safe_functions.len(),
+                 })
+        );
     }
-
-//    pub fn print_external_calls<'a, 'tcx>(&self, cx: &'a LateContext<'a, 'tcx>) {
-//        // delete the old data
-//        let (local_crate,version) = util::crate_name_and_version();
-//        let dir_path: PathBuf = util::get_path("external_calls");
-//        DirBuilder::new().recursive(true).create(&dir_path).unwrap();
-//        std::fs::remove_dir_all(&dir_path).unwrap();
-//        DirBuilder::new().recursive(true).create(&dir_path).unwrap();
-//        // create a file for each crate
-//
-//        // collect crates and external calls
-//        let mut external_crates = Vec::new();
-//        let mut external_calls = Vec::new();
-//
-//        // TODO add version information
-//
-//        for ref fn_info in self.normal_functions.iter() {
-//            fn_info.external_calls().iter().for_each(|elt| {
-//                if !external_crates.iter().any(|crate_num| *crate_num == elt.0) {
-//                    external_crates.push(elt.0);
-//                }
-//                if !external_calls.iter().any(|x: &(hir::def_id::CrateNum, String)| x.0 == elt.0 && x.1 == elt.1) {
-//                    external_calls.push(elt.clone());
-//                }
-//            });
-//        }
-//
-//        // TODO fix this
-//        external_crates.iter().for_each(|krate| {
-//            let file_path: PathBuf = [print::ROOT_DIR.to_string()
-//                , local_crate.to_string(), version.to_string()
-//                , "external_calls".to_string()
-//                , cx.tcx.crate_name(*krate).to_string() ].iter().collect();
-//            let mut file = OpenOptions::new()
-//                .read(true)
-//                .write(true)
-//                .create(true).open(file_path).unwrap();
-//            external_calls
-//                .iter()
-//                .filter(|elt| elt.0 == *krate)
-//                .for_each(|elt| {
-//                    writeln!(file, "{:?}", elt.1);
-//                });
-//        });
-//    }
 }
 
 declare_lint!(pub HIDDEN_UNSAFE, Allow, "Unsafe analysis");
 
-impl<'a, 'tcx> LintPass for HiddenUnsafe {
+impl<'a, 'tcx> LintPass for ImplicitUnsafe {
     fn get_lints(&self) -> LintArray {
         lint_array!(HIDDEN_UNSAFE)
     }
 }
 
-impl<'a, 'tcx> LateLintPass<'a, 'tcx> for HiddenUnsafe {
+impl<'a, 'tcx> LateLintPass<'a, 'tcx> for ImplicitUnsafe {
     fn check_crate_post(&mut self, cx: &LateContext<'a, 'tcx>, _: &'tcx Crate) {
 
         let external_crates = deps::load_dependencies();
 
+        // list of all normal and unsafe functions are available here
         calls::build_call_graph(&mut self.normal_functions, cx);
-        self.print_graph(cx);
-        // the information collected in check_body is available at this point
-        // collect unsafe blocks information for each function
-        // and propagates it
+        // the call graph info is available here
+        self.save_results(cx); // saves normal and unsafe functions info, and summary for RQ2
 
-        let hidden_external = deps::load_all_analyses(cx
+        // implicit unsafe analysis
+        let implicit_external = deps::load_all_analyses(cx
                                                       , &external_crates
                                                       , &mut self.normal_functions);
-
-        println!("hidden_external {:?}", hidden_external);
-
         let mut res1: Vec<(&FnInfo, UnsafeInBody)> = analysis::run_all(cx, &self.normal_functions, true);
         propagate_external( cx, &mut res1, &hidden_external);
+        UnsafeInBody::save_analysis(res1);
 
-        HiddenUnsafe::print_results(cx, &res1, UnsafeInBody::get_output_filename());
-
-        let res2: Vec<(&FnInfo, UnsafeTraitSafeMethod)> = analysis::run_all(cx, &self.normal_functions, true);
-        HiddenUnsafe::print_results(cx, &res2, "20_unsafe_trait_safe_method_in_call_tree");
+        // unsafe traits analysis
+        let res2: Vec<(&FnInfo, UnsafeTraitSafeMethodInBody)> = analysis::run_all(cx, &self.normal_functions, true);
+        UnsafeTraitSafeMethodInBody::save_analysis(res2);
 
         let unsafe_fn_info: Vec<(&FnInfo, UnsafeFnUsafetyAnalysis)> =
             analysis::run_all(cx, &self.unsafe_functions, false);
-        HiddenUnsafe::print_results(cx, &unsafe_fn_info, "30_unsafe_fn");
+        ImplicitUnsafe::print_results(cx, &unsafe_fn_info, "30_unsafe_fn");
 
         let safe_fn_info: Vec<(&FnInfo, UnsafeBlockUnsafetyAnalysis)> =
             analysis::run_all(cx, &self.normal_functions, false);
-        HiddenUnsafe::print_results(cx, &safe_fn_info, "40_unsafe_blocks");
+        ImplicitUnsafe::print_results(cx, &safe_fn_info, "40_unsafe_blocks");
 
 //        self.print_external_calls(cx);
     }
@@ -215,5 +162,5 @@ impl<'a, 'tcx> LateLintPass<'a, 'tcx> for HiddenUnsafe {
 
 #[plugin_registrar]
 pub fn plugin_registrar(reg: &mut Registry) {
-    reg.register_late_lint_pass(box HiddenUnsafe::new() as LateLintPassObject);
+    reg.register_late_lint_pass(box ImplicitUnsafe::new() as LateLintPassObject);
 }
