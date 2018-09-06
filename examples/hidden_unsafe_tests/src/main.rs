@@ -21,6 +21,8 @@ unsafe fn unsafe_fn() -> () {
 unsafe trait UnsafeTrait {
     fn safe_method_unsafe_trait(&self) -> ();
     unsafe fn unsafe_method_unsafe_trait(&self) -> ();
+    fn m1() -> () {}
+    unsafe fn m2() -> () {}
 }
 
 trait Trait {

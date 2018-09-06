@@ -51,9 +51,7 @@ use unsafe_blocks::UnsafeInBody;
 use unsafe_traits::UnsafeTraitSafeMethod;
 
 use std::io::Write;
-use std::path::PathBuf;
-use std::fs::DirBuilder;
-use std::fs::OpenOptions;
+use unsafe_blocks::propagate_external;
 
 
 struct HiddenUnsafe {
@@ -85,7 +83,7 @@ impl HiddenUnsafe {
         name: &'static str,
     ) {
         let mut file = util::open_file(name);
-        for &(fn_info, ref res) in result.iter() {
+        for &(_fn_info, ref res) in result.iter() {
             //fn_info.print(cx, res, &mut file);
             res.print(cx, &mut file);
         }
@@ -107,50 +105,50 @@ impl HiddenUnsafe {
         }
     }
 
-    pub fn print_external_calls<'a, 'tcx>(&self, cx: &'a LateContext<'a, 'tcx>) {
-        // delete the old data
-        let (local_crate,version) = util::crate_name_and_version();
-        let dir_path: PathBuf = util::get_path("external_calls");
-        DirBuilder::new().recursive(true).create(&dir_path).unwrap();
-        std::fs::remove_dir_all(&dir_path).unwrap();
-        DirBuilder::new().recursive(true).create(&dir_path).unwrap();
-        // create a file for each crate
-
-        // collect crates and external calls
-        let mut external_crates = Vec::new();
-        let mut external_calls = Vec::new();
-
-        // TODO add version information
-
-        for ref fn_info in self.normal_functions.iter() {
-            fn_info.external_calls().iter().for_each(|elt| {
-                if !external_crates.iter().any(|crate_num| *crate_num == elt.0) {
-                    external_crates.push(elt.0);
-                }
-                if !external_calls.iter().any(|x: &(hir::def_id::CrateNum, String)| x.0 == elt.0 && x.1 == elt.1) {
-                    external_calls.push(elt.clone());
-                }
-            });
-        }
-
-        // TODO fix this
-        external_crates.iter().for_each(|krate| {
-            let file_path: PathBuf = [print::ROOT_DIR.to_string()
-                , local_crate.to_string(), version.to_string()
-                , "external_calls".to_string()
-                , cx.tcx.crate_name(*krate).to_string() ].iter().collect();
-            let mut file = OpenOptions::new()
-                .read(true)
-                .write(true)
-                .create(true).open(file_path).unwrap();
-            external_calls
-                .iter()
-                .filter(|elt| elt.0 == *krate)
-                .for_each(|elt| {
-                    writeln!(file, "{:?}", elt.1);
-                });
-        });
-    }
+//    pub fn print_external_calls<'a, 'tcx>(&self, cx: &'a LateContext<'a, 'tcx>) {
+//        // delete the old data
+//        let (local_crate,version) = util::crate_name_and_version();
+//        let dir_path: PathBuf = util::get_path("external_calls");
+//        DirBuilder::new().recursive(true).create(&dir_path).unwrap();
+//        std::fs::remove_dir_all(&dir_path).unwrap();
+//        DirBuilder::new().recursive(true).create(&dir_path).unwrap();
+//        // create a file for each crate
+//
+//        // collect crates and external calls
+//        let mut external_crates = Vec::new();
+//        let mut external_calls = Vec::new();
+//
+//        // TODO add version information
+//
+//        for ref fn_info in self.normal_functions.iter() {
+//            fn_info.external_calls().iter().for_each(|elt| {
+//                if !external_crates.iter().any(|crate_num| *crate_num == elt.0) {
+//                    external_crates.push(elt.0);
+//                }
+//                if !external_calls.iter().any(|x: &(hir::def_id::CrateNum, String)| x.0 == elt.0 && x.1 == elt.1) {
+//                    external_calls.push(elt.clone());
+//                }
+//            });
+//        }
+//
+//        // TODO fix this
+//        external_crates.iter().for_each(|krate| {
+//            let file_path: PathBuf = [print::ROOT_DIR.to_string()
+//                , local_crate.to_string(), version.to_string()
+//                , "external_calls".to_string()
+//                , cx.tcx.crate_name(*krate).to_string() ].iter().collect();
+//            let mut file = OpenOptions::new()
+//                .read(true)
+//                .write(true)
+//                .create(true).open(file_path).unwrap();
+//            external_calls
+//                .iter()
+//                .filter(|elt| elt.0 == *krate)
+//                .for_each(|elt| {
+//                    writeln!(file, "{:?}", elt.1);
+//                });
+//        });
+//    }
 }
 
 declare_lint!(pub HIDDEN_UNSAFE, Allow, "Unsafe analysis");
@@ -172,9 +170,14 @@ impl<'a, 'tcx> LateLintPass<'a, 'tcx> for HiddenUnsafe {
         // collect unsafe blocks information for each function
         // and propagates it
 
+        let hidden_external = deps::load_all_analyses(cx
+                                                      , &external_crates
+                                                      , &mut self.normal_functions);
 
+        println!("hidden_external {:?}", hidden_external);
 
-        let res1: Vec<(&FnInfo, UnsafeInBody)> = analysis::run_all(cx, &self.normal_functions, true);
+        let mut res1: Vec<(&FnInfo, UnsafeInBody)> = analysis::run_all(cx, &self.normal_functions, true);
+        propagate_external( cx, &mut res1, &hidden_external);
 
         HiddenUnsafe::print_results(cx, &res1, UnsafeInBody::get_output_filename());
 
@@ -189,7 +192,7 @@ impl<'a, 'tcx> LateLintPass<'a, 'tcx> for HiddenUnsafe {
             analysis::run_all(cx, &self.normal_functions, false);
         HiddenUnsafe::print_results(cx, &safe_fn_info, "40_unsafe_blocks");
 
-        self.print_external_calls(cx);
+//        self.print_external_calls(cx);
     }
 
     fn check_body(&mut self, cx: &LateContext<'a, 'tcx>, body: &'tcx hir::Body) {

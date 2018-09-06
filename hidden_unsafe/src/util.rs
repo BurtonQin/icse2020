@@ -26,7 +26,7 @@ impl Print for FnCallInfo {
     fn print<'a, 'tcx>(&self, cx: &LateContext<'a, 'tcx>, file: &mut File) -> () {
         match self {
             FnCallInfo::Local(node_id, abi) => {
-                write!(file, "{:?} | abi: {:?}", cx.tcx.node_path_str(*node_id), abi);
+                write!(file, "{} | abi: {}", cx.tcx.node_path_str(*node_id), abi);
             }
             FnCallInfo::External(krate, path_str, abi) => {
                 write!(file,
