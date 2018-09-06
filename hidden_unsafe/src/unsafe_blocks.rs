@@ -9,26 +9,28 @@ use std::io::Write;
 
 #[derive(Serialize, Deserialize, Debug)]
 pub struct UnsafeInBody  {
-    fn_info: String,
-    has_unsafe: bool,
+    pub fn_info: String,
+    pub has_unsafe: bool,
 }
 
 impl Print for UnsafeInBody {
 
     fn print<'a, 'tcx>(&self, _cx: &LateContext<'a, 'tcx>, file: &mut File) -> () {
-        let serialized = serde_json::to_string(self).unwrap();
-        writeln!(file, "{:?}", serialized);
+        let serialized = serde_json::to_string(self as &UnsafeInBody).unwrap();
+        writeln!(file, "{}", serialized);
     }
+
 }
 
 impl UnsafeInBody {
-    fn new(fn_info: String) -> Self {
+    pub fn new(fn_info: String) -> Self {
         UnsafeInBody { has_unsafe: false, fn_info }
     }
 
     pub fn get_output_filename() -> &'static str {
         "10_unsafe_in_call_tree"
     }
+
 }
 
 impl Analysis for UnsafeInBody {
@@ -85,3 +87,56 @@ impl<'a, 'tcx> hir::intravisit::Visitor<'tcx> for UnsafeBlocksVisitorData<'tcx> 
     }
 }
 
+pub fn propagate_external<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, graph: &mut Vec<(&FnInfo, UnsafeInBody)>
+                          , external_unsafety: &Vec<UnsafeInBody>) {
+    let mut changes = true;
+    let mut with_unsafe = Vec::new();
+    {
+        // to pass borrow checker
+        for (ref fn_info, ref mut t) in graph.iter_mut() {
+            if t.has_unsafe {
+                with_unsafe.push(fn_info.decl_id());
+            }
+        }
+    }
+    {
+        for (ref fn_info, ref mut t) in graph.iter_mut() {
+            for (ext_crate, ext_call) in fn_info.external_calls() {
+                if let Some (ext_unsafety_in_body) = external_unsafety.iter().find(
+                    |&x| {
+                        *ext_call == x.fn_info
+                    }
+                ) {
+                    if ext_unsafety_in_body.has_unsafe {
+                        t.set();
+                        with_unsafe.push(fn_info.decl_id());
+                    }
+                } else {
+                    //TODO do not warn for std, core, alloc
+                    let crate_name = cx.tcx.crate_name(*ext_crate);
+                    if crate_name.as_str() != "alloc"
+                        && crate_name.as_str() != "std"
+                        && crate_name.as_str() != "core" {
+                        println!("Error external call NOT found {:?}", ext_call);
+                    }
+                }
+            }
+        }
+    }
+    while changes {
+        changes = false;
+        for &mut (ref fn_info, ref mut t) in graph.iter_mut() {
+            if !t.is_set() {
+                if (&fn_info.local_calls())
+                    .into_iter()
+                    //TODO continue here
+                    .any(|call_id| with_unsafe.iter().any(|x| *x == *call_id))
+                    {
+                        with_unsafe.push(fn_info.decl_id());
+                        t.set();
+                        changes = true;
+                    }
+            }
+        }
+    }
+}

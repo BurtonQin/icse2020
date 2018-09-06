@@ -203,7 +203,7 @@ impl Print for Argument {
     fn print<'a, 'tcx>(&self, cx: &LateContext<'a, 'tcx>, file: &mut File) -> () {
         write!(file,"Unsafety in arguments kind: ");
         self.kind.print(cx, file);
-        write!(file, " Type: {:?}", cx.tcx.hir.get(self.ty_node_id));
+        write!(file, " Type: {:#?}", cx.tcx.hir.get(self.ty_node_id));
     }
 }
 
@@ -240,7 +240,7 @@ impl Print for UnsafeBlockUnsafetyAnalysis {
                 let item = cx.tcx.hir.get(*node_id);
                 if let hir::Node::Block(ref block) = item {
                     let span = block.span;
-                    write!(file, "\nBlock node_id: {:?}, Block: {:?}",
+                    write!(file, "\nBlock node_id: {}, Block: {}",
                              node_id, cx.tcx.sess.source_map().span_to_snippet(span).unwrap());
                 }
                 for source in block_sources {

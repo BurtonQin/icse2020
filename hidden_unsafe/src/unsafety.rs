@@ -48,26 +48,26 @@ impl Print for Source {
                 callee_info.print(cx, file);
             }
             SourceKind::DerefRawPointer(ref ty) => {
-                write!(file, "DerefRawPointer | Type {:?}", ty);
+                write!(file, "DerefRawPointer | Type {}", ty);
             }
             SourceKind::Asm => {
                 write!(file, "Asm");
             }
             SourceKind::Static(ref def_id) => {
-                write!(file, "Static {:?}", def_id);
+                write!(file, "Static {:#?}", def_id);
             }
             //SourceKind::ForeignItem => {print!("ForeignItem");},
             SourceKind::BorrowPacked => {
                 write!(file, "BorrowPacked");
             }
             SourceKind::AssignmentToNonCopyUnionField(ref adt_def) => {
-                write!(file, "AssignmentToNonCopyUnionField {:?}", adt_def);
+                write!(file, "AssignmentToNonCopyUnionField {:#?}", adt_def);
             }
             SourceKind::AccessToUnionField(ref adt_def) => {
-                write!(file, "AccessToUnionField {:?}", adt_def);
+                write!(file, "AccessToUnionField {:#?}", adt_def);
             }
             SourceKind::ExternStatic(ref adt_def) => {
-                write!(file, "ExternStatic {:?}", adt_def);
+                write!(file, "ExternStatic {:#?}", adt_def);
             }
         }
         write!(file, " | ");

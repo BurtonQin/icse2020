@@ -15,7 +15,7 @@ pub struct UnsafeTraitSafeMethod {
 
 impl Print for UnsafeTraitSafeMethod {
     fn print<'a, 'tcx>(&self, _cx: &LateContext<'a, 'tcx>, file: &mut File) -> () {
-        write!(file, "{:?}", self.has_unsafe);
+        write!(file, "{}", self.has_unsafe);
     }
 }
 
