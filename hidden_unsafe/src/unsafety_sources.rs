@@ -14,7 +14,6 @@ use syntax::ast::NodeId;
 
 use analysis::Analysis;
 use fn_info::FnInfo;
-use print::Print;
 use unsafety::{Source, SourceKind};
 use util;
 use std::fs::File;

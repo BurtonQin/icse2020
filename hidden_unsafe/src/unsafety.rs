@@ -2,7 +2,6 @@ use rustc::hir;
 use rustc::lint::LateContext;
 use rustc::mir::{Operand, SourceInfo};
 
-use print::Print;
 use util::FnCallInfo;
 use util;
 use std::fs::File;

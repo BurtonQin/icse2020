@@ -6,8 +6,7 @@ use rustc::hir;
 use rustc::lint::LateContext;
 use std::path::PathBuf;
 use std::fs::OpenOptions;
-use unsafe_blocks::UnsafeInBody;
-use print;
+use results::implicit::UnsafeInBody;
 use fn_info::FnInfo;
 use std::io::BufReader;
 use std::io::BufRead;
@@ -85,7 +84,7 @@ fn load_analysis<'a, 'tcx>( cx: &'a LateContext<'a, 'tcx>
         }
 
         if external_calls.len() > 0 {
-            let path_comp = [print::ROOT_DIR.to_string()
+            let path_comp = [results::ROOT_DIR.to_string()
                 , crate_info.name.clone()
                 , crate_info.version.clone()
                 , UnsafeInBody::get_output_filename().to_string()

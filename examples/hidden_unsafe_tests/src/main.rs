@@ -1,5 +1,9 @@
 #![feature(asm)]
 
+extern crate byteorder;
+
+mod external_calls;
+
 pub unsafe fn with_asm() {
     asm!("nop");
 }
@@ -21,8 +25,12 @@ unsafe fn unsafe_fn() -> () {
 unsafe trait UnsafeTrait {
     fn safe_method_unsafe_trait(&self) -> ();
     unsafe fn unsafe_method_unsafe_trait(&self) -> ();
-    fn m1() -> () {}
-    unsafe fn m2() -> () {}
+    fn m1() -> () {
+        println!("m1");
+    }
+    unsafe fn m2() -> () {
+        println!("m2");
+    }
 }
 
 trait Trait {
@@ -204,4 +212,9 @@ fn main() {
         call_unsafe_2();
     }
     nested_methods();
+
+    UnsafeImpl::m1();
+    unsafe{ UnsafeImpl::m2(); }
+
+    external_calls::use_trait();
 }

@@ -18,15 +18,14 @@ extern crate syntax_pos;
 extern crate chrono;
 extern crate cargo_metadata;
 extern crate cargo;
+extern crate results;
 #[macro_use]
 extern crate serde_derive;
-
 extern crate serde;
 extern crate serde_json;
 
 
 use fn_info::FnInfo;
-use print::{EmptyPrinter, Print};
 use rustc::hir;
 use rustc::hir::Crate;
 use rustc::lint::{LateContext, LateLintPass, LateLintPassObject, LintArray, LintPass};
@@ -37,8 +36,7 @@ mod analysis;
 mod calls;
 mod fn_info;
 mod unsafety_sources;
-mod print;
-mod unsafe_blocks;
+mod implicit_analysis;
 mod unsafe_traits;
 mod unsafety;
 mod util;
@@ -47,11 +45,11 @@ mod deps;
 
 use unsafety_sources::UnsafeFnUsafetyAnalysis;
 use unsafety_sources::UnsafeBlockUnsafetyAnalysis;
-use unsafe_blocks::UnsafeInBody;
+use results::implicit::UnsafeInBody;
 use unsafe_traits::UnsafeTraitSafeMethod;
 
 use std::io::Write;
-use unsafe_blocks::propagate_external;
+use implicit_analysis::propagate_external;
 
 
 struct HiddenUnsafe {
@@ -90,8 +88,9 @@ impl HiddenUnsafe {
     }
 
     pub fn print_graph<'a, 'tcx>(&self, cx: &'a LateContext<'a, 'tcx>) {
-        let empty_printer = EmptyPrinter {};
-        let mut safe_file = util::open_file("00_safe_functions");
+        let cnv = util::local_crate_name_and_version();
+        let mut safe_file = results::functions::get_safe_functions_file(cnv.0, cnv.1).open_file();
+
         for ref fn_info in self.normal_functions.iter() {
             writeln!(safe_file, "+++++++++++++++++++++++++++++++++++++++++++++++++++");
             fn_info.print(cx, &empty_printer, &mut safe_file);

@@ -1,17 +1,12 @@
 use analysis::Analysis;
 use fn_info::FnInfo;
-use print::Print;
 use rustc::hir;
 use rustc::hir::intravisit;
 use rustc::lint::LateContext;
 use std::fs::File;
 use std::io::Write;
 
-#[derive(Serialize, Deserialize, Debug)]
-pub struct UnsafeInBody  {
-    pub fn_info: String,
-    pub has_unsafe: bool,
-}
+
 
 impl Print for UnsafeInBody {
 
