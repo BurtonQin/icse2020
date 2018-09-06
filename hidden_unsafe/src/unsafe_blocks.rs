@@ -87,8 +87,10 @@ impl<'a, 'tcx> hir::intravisit::Visitor<'tcx> for UnsafeBlocksVisitorData<'tcx> 
     }
 }
 
-pub fn propagate_external<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, graph: &mut Vec<(&FnInfo, UnsafeInBody)>
-                          , external_unsafety: &Vec<UnsafeInBody>) {
+pub fn propagate_external<'a, 'tcx>(cx: &LateContext<'a, 'tcx>
+                                    , graph: &mut Vec<(&FnInfo, UnsafeInBody)>
+                                    , external_unsafety: &Vec<(hir::def_id::CrateNum, Vec<UnsafeInBody>)>)
+{
     let mut changes = true;
     let mut with_unsafe = Vec::new();
     {
@@ -101,23 +103,23 @@ pub fn propagate_external<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, graph: &mut Vec<
     }
     {
         for (ref fn_info, ref mut t) in graph.iter_mut() {
-            for (ext_crate, ext_call) in fn_info.external_calls() {
-                if let Some (ext_unsafety_in_body) = external_unsafety.iter().find(
-                    |&x| {
-                        *ext_call == x.fn_info
-                    }
-                ) {
-                    if ext_unsafety_in_body.has_unsafe {
-                        t.set();
-                        with_unsafe.push(fn_info.decl_id());
-                    }
-                } else {
-                    //TODO do not warn for std, core, alloc
-                    let crate_name = cx.tcx.crate_name(*ext_crate);
-                    if crate_name.as_str() != "alloc"
-                        && crate_name.as_str() != "std"
-                        && crate_name.as_str() != "core" {
-                        println!("Error external call NOT found {:?}", ext_call);
+            for (ext_crate_num, ext_call) in fn_info.external_calls() {
+                if let Some ((_,ub_vec)) = external_unsafety.iter().find(
+                    |&x| *ext_crate_num == x.0 ) {
+                    if let Some(ext_unsafety_in_body) = ub_vec.iter().find(
+                        |&x| x.fn_info == *ext_call) {
+                        if ext_unsafety_in_body.has_unsafe {
+                            t.set();
+                            with_unsafe.push(fn_info.decl_id());
+                        }
+                    } else {
+                        //TODO do not warn for std, core, alloc
+                        let crate_name = cx.tcx.crate_name(*ext_crate_num);
+                        if crate_name.as_str() != "alloc"
+                            && crate_name.as_str() != "std"
+                            && crate_name.as_str() != "core" {
+                            println!("Error external call NOT found {:?}", ext_call);
+                        }
                     }
                 }
             }

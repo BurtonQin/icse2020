@@ -37,12 +37,14 @@ impl FnInfo {
                                         def_id: hir::def_id::DefId) -> () {
         let krate = def_id.krate;
 
-//        println!("node_path_str {:?}", cx.tcx.item_path_str(def_id));
+        println!("node_path_str {:?}", cx.tcx.item_path_str(def_id));
 
         let mut crate_name: String = cx.tcx.crate_name(krate).to_string();
         crate_name.push_str("::");
 
         let func = cx.tcx.item_path_str(def_id).to_string().replace(crate_name.as_str(),"");
+
+        println!("func {:?}", func);
 
         let found = self
             .external_calls
@@ -50,7 +52,7 @@ impl FnInfo {
             .any(|elt| elt.1 == func && elt.0 == krate);
         if !found {
             //self.external_calls.push((krate, func.to_string()));
-            self.external_calls.push((krate,cx.tcx.item_path_str(def_id).to_string()) );
+            self.external_calls.push((krate,func) );
         }
     }
 

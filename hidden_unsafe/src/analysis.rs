@@ -1,6 +1,12 @@
 use fn_info::FnInfo;
 use rustc::lint::LateContext;
 
+static EXCLUDED_CRATES: [&'static str;3] = ["alloc", "std", "core"];
+
+pub fn is_excluded_crate(crate_name: &String) -> bool {
+    EXCLUDED_CRATES.iter().any(|x| *x == crate_name)
+}
+
 pub trait Analysis {
     //    fn new() -> Self;
 

@@ -65,7 +65,7 @@ impl<'a, 'tcx> Visitor<'tcx> for CallsVisitor<'a, 'tcx> {
                                     self.fn_info.push_local_call(decl_node_id);
                                 } else {
                                     //println!("func {:?} pushed external", func);
-                                    self.fn_info.push_external_call( self.cx, callee_def_id);
+                                    self.fn_info.push_external_call( self.cx, def_id);
                                 }
                             }
                             _ => {println!("ty::InstanceDef:: NOT handled {:?}", instance.def)}
