@@ -7,11 +7,9 @@ use rustc::ty::TyKind;
 use rustc_target::spec::abi::Abi;
 use syntax_pos::Span;
 
-use print::Print;
 use std::fs::File;
 use std::path::PathBuf;
 use std::io::Write;
-use print;
 use std::fs::DirBuilder;
 use chrono;
 use std::fs::OpenOptions;
@@ -125,17 +123,19 @@ pub fn is_fn_or_method<'a, 'tcx>(node_id: NodeId, cx: &LateContext<'a, 'tcx>) ->
     }
 }
 
-pub fn print_file_and_line<'a, 'tcx>( cx: &LateContext<'a, 'tcx>, span: Span, file: &mut File ) {
+pub fn get_file_and_line<'a, 'tcx>( cx: &LateContext<'a, 'tcx>, span: Span ) -> String {
+    let mut result = String::new();
     let loc = cx.tcx.sess.source_map().lookup_char_pos(span.lo());
     let filename = &loc.file.name;
-    write!(file,
+    write!(result,
            "file: {:?} line {:?} | ",
             filename,
             loc.line
     );
+    result
 }
 
-pub fn crate_name_and_version() -> (String,String) {
+pub fn local_crate_name_and_version() -> (String, String) {
     let manifest_path = Path::new("./Cargo.toml");
     let features = cargo_metadata::CargoOpt::AllFeatures;
     let metadata =
@@ -146,43 +146,12 @@ pub fn crate_name_and_version() -> (String,String) {
     (metadata.packages[0].name.clone(),metadata.packages[0].version.clone())
 }
 
-pub fn get_root_path_components() -> [String;3] {
-    let (local_crate,version) = crate_name_and_version();
-    [print::ROOT_DIR.to_string(), local_crate.to_string()
-        , version.to_string()]
-}
+
 
 pub fn get_analysis_path_components( analysis_name: &str ) -> [String;4] {
     let path_comp = get_root_path_components();
     [path_comp[0].clone(),path_comp[1].clone(),path_comp[2].clone(),analysis_name.to_string()]
 }
 
-pub fn get_path( analysis_name: &str ) -> PathBuf {
-    // create directory if necessary
-    let dir_path: PathBuf = get_root_path_components().iter().collect();
-    DirBuilder::new().recursive(true).create(dir_path).unwrap();
 
-    let file_path: PathBuf = get_analysis_path_components(analysis_name).iter().collect();
-    file_path
-}
 
-pub fn open_file(analysis_name: &'static str) -> File {
-
-    let file_path = get_path(analysis_name);
-
-    if file_path.as_path().exists() {
-        // back-up old file if it exists
-        let mut new_name = analysis_name.to_string();
-        let dt = chrono::offset::utc::UTC::now();
-        let newdate = dt.format("_%Y_%m_%d_%H_%M_%S");
-        new_name.push_str(newdate.to_string().as_str());
-        let new_path : PathBuf = get_path(new_name.as_str());
-        std::fs::rename(file_path.as_path(), new_path).unwrap();
-    }
-
-    // create new file
-    OpenOptions::new()
-        .read(true)
-        .write(true)
-        .create(true).open(file_path).unwrap()
-}

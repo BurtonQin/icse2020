@@ -1,6 +1,5 @@
 use analysis::Analysis;
 use fn_info::FnInfo;
-use print::Print;
 use rustc::hir;
 use rustc::lint::LateContext;
 use rustc::mir::visit::Visitor;

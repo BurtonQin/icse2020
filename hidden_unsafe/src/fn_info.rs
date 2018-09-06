@@ -1,4 +1,3 @@
-use print::Print;
 use rustc::hir;
 use rustc::lint::LateContext;
 use syntax::ast::NodeId;
@@ -37,14 +36,14 @@ impl FnInfo {
                                         def_id: hir::def_id::DefId) -> () {
         let krate = def_id.krate;
 
-        println!("node_path_str {:?}", cx.tcx.item_path_str(def_id));
+//        println!("node_path_str {:?}", cx.tcx.item_path_str(def_id));
 
         let mut crate_name: String = cx.tcx.crate_name(krate).to_string();
         crate_name.push_str("::");
 
         let func = cx.tcx.item_path_str(def_id).to_string().replace(crate_name.as_str(),"");
 
-        println!("func {:?}", func);
+//        println!("func {:?}", func);
 
         let found = self
             .external_calls
@@ -63,20 +62,26 @@ impl FnInfo {
         }
     }
 
-    pub fn print<'a, 'tcx>(&self, cx: &LateContext<'a, 'tcx>, printer: &Print, file: &mut File) {
-        if !printer.empty() {
-            let tcx = cx.tcx;
-            let span = tcx.hir.span(self.decl_id);
-            file.write_fmt(format_args!(
-                    "{} | Node id: {} | ",
-                    tcx.node_path_str(self.decl_id),
-                    self.decl_id
-                )
-            ).unwrap();
-            util::print_file_and_line(cx, span, file);
-            printer.print(cx, file);
-            writeln!(file, "");
-        }
+    pub fn build_long_fn_info(&self, cx: &LateContext<'a, 'tcx>) -> results::functions::LongFnInfo {
+        let name = cx.tcx.node_path_str(self.decl_id);
+        let node_id = self.decl_id.to_string();
+
+    }
+
+    pub fn get_long_info<'a, 'tcx>(&self, cx: &LateContext<'a, 'tcx>, printer: &Print, file: &mut File)
+            -> results::functions::LongFnInfo {
+        let tcx = cx.tcx;
+        let span = tcx.hir.span(self.decl_id);
+        file.write_fmt(format_args!(
+                "{} | Node id: {} | ",
+                tcx.node_path_str(self.decl_id),
+                self.decl_id
+            )
+        ).unwrap();
+        let location = util::get_file_and_line(cx, span);
+
+        let local_calls = Vec::new();
+        //TODO continue here
     }
 
     pub fn print_local_calls<'a, 'tcx>(&self, cx: &LateContext<'a, 'tcx>, file: &mut File) {
