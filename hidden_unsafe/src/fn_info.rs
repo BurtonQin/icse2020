@@ -65,39 +65,15 @@ impl FnInfo {
     pub fn build_long_fn_info(&self, cx: &LateContext<'a, 'tcx>) -> results::functions::LongFnInfo {
         let name = cx.tcx.node_path_str(self.decl_id);
         let node_id = self.decl_id.to_string();
-
-    }
-
-    pub fn get_long_info<'a, 'tcx>(&self, cx: &LateContext<'a, 'tcx>, printer: &Print, file: &mut File)
-            -> results::functions::LongFnInfo {
-        let tcx = cx.tcx;
-        let span = tcx.hir.span(self.decl_id);
-        file.write_fmt(format_args!(
-                "{} | Node id: {} | ",
-                tcx.node_path_str(self.decl_id),
-                self.decl_id
-            )
-        ).unwrap();
+        let span = cx.tcx.hir.span(self.decl_id);
         let location = util::get_file_and_line(cx, span);
 
-        let local_calls = Vec::new();
-        //TODO continue here
-    }
-
-    pub fn print_local_calls<'a, 'tcx>(&self, cx: &LateContext<'a, 'tcx>, file: &mut File) {
-        if !self.local_calls.is_empty() {
-            writeln!(file, "Local calls:");
-            for node_id in self.local_calls.iter() {
-                // TODO try to get the actual implementation here:
-                // UnsafeImpl::call instead of UnsafeTrait::call
-                writeln!(file, "{} | {} ", cx.tcx.node_path_str(*node_id), node_id);
-            }
+        let mut local_calls = Vec::new();
+        for node_id in self.local_calls.iter() {
+            local_calls.push((cx.tcx.node_path_str(*node_id), node_id.to_string()));
         }
-    }
 
-    pub fn print_external_calls<'a, 'tcx>(&self, cx: &LateContext<'a, 'tcx>, file: &mut File) {
-
-        let tcx = cx.tcx;
+        let mut external_calls = Vec::new();
         let mut external_crates = Vec::new();
         self.external_calls.iter().for_each(|elt| {
             if !external_crates.iter().any(|crate_num| *crate_num == elt.0) {
@@ -105,16 +81,35 @@ impl FnInfo {
             }
         });
         external_crates.iter().for_each(|krate| {
-            writeln!(file, "External crate {}", tcx.crate_name(*krate));
+            let crate_name = cx.tcx.crate_name(*krate);
+            let mut crate_calls = Vec::new();
             self.external_calls
                 .iter()
                 .filter(|elt|
                     elt.0 == *krate
                 )
                 .for_each(|elt| {
-                    writeln!(file, "{}", elt.1);
+                    crate_calls.push(elt.1 );
                 });
+            external_calls.push((crate_name,crate_calls));
         });
+        results::functions::LongFnInfo{
+            name, node_id, location, local_calls, external_calls
+        }
     }
+
+
+    pub fn build_short_fn_info(&self, cx: &LateContext<'a, 'tcx>) -> results::functions::ShortFnInfo {
+        let name = cx.tcx.node_path_str(self.decl_id);
+        let node_id = self.decl_id.to_string();
+        let span = cx.tcx.hir.span(self.decl_id);
+        let location = util::get_file_and_line(cx, span);
+        results::functions::ShortFnInfo {
+            name,
+            node_id,
+            location
+        }
+    }
+
 }
 

@@ -39,37 +39,37 @@ impl Source {
     }
 }
 
-impl Print for Source {
-    fn print<'a, 'tcx>(&self, cx: &LateContext<'a, 'tcx>, file: &mut File) -> () {
-        match self.kind {
-            SourceKind::UnsafeFnCall(ref callee_info) => {
-                write!(file, "UnsafeFnCall |  ");
-                callee_info.print(cx, file);
-            }
-            SourceKind::DerefRawPointer(ref ty) => {
-                write!(file, "DerefRawPointer | Type {}", ty);
-            }
-            SourceKind::Asm => {
-                write!(file, "Asm");
-            }
-            SourceKind::Static(ref def_id) => {
-                write!(file, "Static {:#?}", def_id);
-            }
-            //SourceKind::ForeignItem => {print!("ForeignItem");},
-            SourceKind::BorrowPacked => {
-                write!(file, "BorrowPacked");
-            }
-            SourceKind::AssignmentToNonCopyUnionField(ref adt_def) => {
-                write!(file, "AssignmentToNonCopyUnionField {:#?}", adt_def);
-            }
-            SourceKind::AccessToUnionField(ref adt_def) => {
-                write!(file, "AccessToUnionField {:#?}", adt_def);
-            }
-            SourceKind::ExternStatic(ref adt_def) => {
-                write!(file, "ExternStatic {:#?}", adt_def);
-            }
-        }
-        write!(file, " | ");
-        util::print_file_and_line(cx, self.loc.span, file);
-    }
-}
+//impl Print for Source {
+//    fn print<'a, 'tcx>(&self, cx: &LateContext<'a, 'tcx>, file: &mut File) -> () {
+//        match self.kind {
+//            SourceKind::UnsafeFnCall(ref callee_info) => {
+//                write!(file, "UnsafeFnCall |  ");
+//                callee_info.print(cx, file);
+//            }
+//            SourceKind::DerefRawPointer(ref ty) => {
+//                write!(file, "DerefRawPointer | Type {}", ty);
+//            }
+//            SourceKind::Asm => {
+//                write!(file, "Asm");
+//            }
+//            SourceKind::Static(ref def_id) => {
+//                write!(file, "Static {:#?}", def_id);
+//            }
+//            //SourceKind::ForeignItem => {print!("ForeignItem");},
+//            SourceKind::BorrowPacked => {
+//                write!(file, "BorrowPacked");
+//            }
+//            SourceKind::AssignmentToNonCopyUnionField(ref adt_def) => {
+//                write!(file, "AssignmentToNonCopyUnionField {:#?}", adt_def);
+//            }
+//            SourceKind::AccessToUnionField(ref adt_def) => {
+//                write!(file, "AccessToUnionField {:#?}", adt_def);
+//            }
+//            SourceKind::ExternStatic(ref adt_def) => {
+//                write!(file, "ExternStatic {:#?}", adt_def);
+//            }
+//        }
+//        write!(file, " | ");
+//        util::print_file_and_line(cx, self.loc.span, file);
+//    }
+//}
