@@ -19,7 +19,7 @@ extern crate chrono;
 extern crate cargo_metadata;
 extern crate cargo;
 extern crate results;
-#[macro_use]
+
 extern crate serde_derive;
 extern crate serde;
 extern crate serde_json;
@@ -37,20 +37,17 @@ mod calls;
 mod fn_info;
 mod unsafety_sources;
 mod implicit_analysis;
-mod unsafe_traits;
-mod unsafety;
 mod util;
 mod deps;
 
 
 use results::functions::UnsafeFnUsafetySources;
-use unsafety_sources::BlockUnsafetyAnalysisSources;
+use results::blocks::BlockUnsafetyAnalysisSources;
 use results::implicit::UnsafeInBody;
 use results::implicit::UnsafeTraitSafeMethodInBody;
-
-use std::io::Write;
 use implicit_analysis::propagate_external;
 
+use std::io::Write;
 
 struct ImplicitUnsafe {
     normal_functions: Vec<FnInfo>,
@@ -78,24 +75,27 @@ impl ImplicitUnsafe {
     pub fn save_results<'a, 'tcx>(&self, cx: &'a LateContext<'a, 'tcx>) {
         let cnv = util::local_crate_name_and_version();
         // safe functions
-        let mut safe_file = results::functions::get_safe_functions_file(cnv.0, cnv.1).open_file();
+        let mut safe_file = results::functions::get_safe_functions_file(cnv.0.clone()
+                                                                        , cnv.1.clone()).open_file(true);
         for ref fn_info in self.normal_functions.iter() {
             let long_form = fn_info.build_long_fn_info(cx);
             writeln!(safe_file, "{}", serde_json::to_string(&long_form).unwrap());
         }
         // unsafe functions
-        let mut unsafe_file = results::functions::get_unsafe_functions_file(cnv.0, cnv.1).open_file();
+        let mut unsafe_file = results::functions::get_unsafe_functions_file(cnv.0.clone()
+                                                                            , cnv.1.clone()).open_file(true);
         for ref fn_info in self.unsafe_functions.iter() {
             let long_form = fn_info.build_long_fn_info(cx);
-            writeln!(safe_file, "{}", serde_json::to_string(&long_form).unwrap());
+            writeln!(unsafe_file, "{}", serde_json::to_string(&long_form).unwrap());
         }
         // summary
-        let mut summary_file = results::functions::get_unsafe_functions_file(cnv.0, cnv.1).open_file();
+        let mut summary_file = results::functions::get_unsafe_functions_file(cnv.0.clone()
+                                                                             , cnv.1.clone()).open_file(true);
         writeln!(summary_file, "{}",
-                 serde_json::to_string( &results::functions::Summary{
-                     unsafe_no : self.unsafe_functions.len(),
-                     total: self.unsafe_functions.len() + self.normal_functions.len(),
-                 }).unwrap()
+                 serde_json::to_string( &results::functions::Summary::new(
+                      self.unsafe_functions.len(),
+                      self.unsafe_functions.len() + self.normal_functions.len(),
+                 )).unwrap()
         );
     }
 }
@@ -124,27 +124,28 @@ impl<'a, 'tcx> LateLintPass<'a, 'tcx> for ImplicitUnsafe {
         let implicit_external = deps::load_all_analyses(cx
                                                       , &external_crates
                                                       , &mut self.normal_functions);
+// TODO fix save_results
         let mut res1: Vec<(&FnInfo, UnsafeInBody)> = analysis::run_all(cx, &self.normal_functions, true);
         propagate_external( cx, &mut res1, &implicit_external);
-        analysis::Analysis::save_analysis(res1,
-                                          results::implicit::get_implicit_unsafe_file(cnv.0, cnv.1).open_file());
+        analysis::save_analysis::<UnsafeInBody>(res1 as Vec<(&FnInfo, UnsafeInBody)>,
+                                          &mut results::implicit::get_implicit_unsafe_file(cnv.0.clone(), cnv.1.clone()).open_file(true));
 
         // unsafe traits analysis
         let res2: Vec<(&FnInfo, UnsafeTraitSafeMethodInBody)> = analysis::run_all(cx, &self.normal_functions, true);
-        analysis::Analysis::save_analysis(res2,
-                                          results::implicit::get_implicit_trait_unsafe_file(cnv.0, cnv.1).open_file()
+        analysis::save_analysis(res2,
+                                          &mut results::implicit::get_implicit_trait_unsafe_file(cnv.0.clone(), cnv.1.clone()).open_file(true)
         );
 
         let unsafe_fn_info: Vec<(&FnInfo, UnsafeFnUsafetySources)> =
             analysis::run_all(cx, &self.unsafe_functions, false);
-        analysis::Analysis::save_analysis(unsafe_fn_info,
-            results::functions::get_fn_unsafety_sources_file(cnv.0, cnv.1).open_file()
+        analysis::save_analysis(unsafe_fn_info,
+            &mut results::functions::get_fn_unsafety_sources_file(cnv.0.clone(), cnv.1.clone()).open_file(true)
         );
 
         let safe_fn_info: Vec<(&FnInfo, BlockUnsafetyAnalysisSources)> =
             analysis::run_all(cx, &self.normal_functions, false);
-        analysis::Analysis::save_analysis(safe_fn_info,
-                results::blocks::get_blocks_unsafety_sources_file(cnv.0, cnv.1).open_file()
+        analysis::save_analysis(safe_fn_info,
+                &mut results::blocks::get_blocks_unsafety_sources_file(cnv.0.clone(), cnv.1.clone()).open_file(true)
         );
 
 //        self.print_external_calls(cx);

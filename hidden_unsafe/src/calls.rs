@@ -64,7 +64,7 @@ impl<'a, 'tcx> Visitor<'tcx> for CallsVisitor<'a, 'tcx> {
                                     //println!("func {:?} pushed local", func);
                                     self.fn_info.push_local_call(decl_node_id);
                                 } else {
-                                    //println!("func {:?} pushed external", func);
+//                                    println!("func {:?} pushed external", func);
                                     self.fn_info.push_external_call( self.cx, def_id);
                                 }
                             }

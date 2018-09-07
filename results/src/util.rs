@@ -19,10 +19,10 @@ impl FileOps {
         FileOps { crate_name, crate_version, analysis_name }
     }
 
-    pub fn open_file(&self) -> File {
+    pub fn open_file(&self, save_old: bool) -> File {
         let file_path = self.get_path(self.analysis_name.to_string());
 
-        if file_path.as_path().exists() {
+        if file_path.as_path().exists() && save_old {
             // back-up old file if it exists
             let mut new_name = self.analysis_name.to_string();
             let dt = chrono::offset::utc::UTC::now();

@@ -1,5 +1,7 @@
 use util;
 
+use serde;
+
 static IMPLICIT_FILENAME: &'static str = "10_unsafe_in_call_tree";
 static IMPLICIT_TRAIT_FILENAME: &'static str = "11_unsafe_trait_safe_method_in_call_tree";
 
