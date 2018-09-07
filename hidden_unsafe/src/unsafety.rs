@@ -1,41 +1,21 @@
 use rustc::hir;
 use rustc::lint::LateContext;
 use rustc::mir::{Operand, SourceInfo};
+use results::unsafety_sources::FnCallInfo;
+use results::unsafety_sources::SourceKind;
+use results::unsafety_sources::Source;
 
-use util::FnCallInfo;
-use util;
-use std::fs::File;
-use std::io::Write;
 
-pub struct Source {
-    pub loc: SourceInfo,
-    pub kind: SourceKind,
-}
-
-pub enum SourceKind {
-    UnsafeFnCall(FnCallInfo),
-    DerefRawPointer(String), // TODO find a better solution
-    Asm,
-    Static(hir::def_id::DefId),
-    //ForeignItem, //TODO check what is this
-    BorrowPacked,
-    AssignmentToNonCopyUnionField(hir::def_id::DefId),
-    AccessToUnionField(hir::def_id::DefId),
-    ExternStatic(hir::def_id::DefId),
-}
-
-impl Source {
-    pub fn new_unsafe_fn_call<'a, 'tcx>(
-        cx: &LateContext<'a, 'tcx>,
-        func: &Operand<'tcx>,
-        loc: SourceInfo,
-    ) -> Option<Self> {
-        if let Some(call_info) = ::util::find_callee(cx, func) {
-            let kind = SourceKind::UnsafeFnCall(call_info);
-            Some(Self { loc, kind })
-        } else {
-            None
-        }
+pub fn new_unsafe_fn_call<'a, 'tcx>(
+    cx: &LateContext<'a, 'tcx>,
+    func: &Operand<'tcx>,
+    loc: SourceInfo,
+) -> Option<Source> {
+    if let Some(call_info) = ::util::find_callee(cx, func) {
+        let kind = SourceKind::UnsafeFnCall(call_info);
+        Some(Source { loc, kind })
+    } else {
+        None
     }
 }
 

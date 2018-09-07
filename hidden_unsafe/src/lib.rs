@@ -43,8 +43,8 @@ mod util;
 mod deps;
 
 
-use unsafety_sources::UnsafeFnUsafetyAnalysis;
-use unsafety_sources::UnsafeBlockUnsafetyAnalysis;
+use results::functions::UnsafeFnUsafetySources;
+use unsafety_sources::BlockUnsafetyAnalysisSources;
 use results::implicit::UnsafeInBody;
 use results::implicit::UnsafeTraitSafeMethodInBody;
 
@@ -81,21 +81,21 @@ impl ImplicitUnsafe {
         let mut safe_file = results::functions::get_safe_functions_file(cnv.0, cnv.1).open_file();
         for ref fn_info in self.normal_functions.iter() {
             let long_form = fn_info.build_long_fn_info(cx);
-            writeln!(safe_file, "{}", serde_json::to_string(long_form).unwrap());
+            writeln!(safe_file, "{}", serde_json::to_string(&long_form).unwrap());
         }
         // unsafe functions
         let mut unsafe_file = results::functions::get_unsafe_functions_file(cnv.0, cnv.1).open_file();
         for ref fn_info in self.unsafe_functions.iter() {
             let long_form = fn_info.build_long_fn_info(cx);
-            writeln!(safe_file, "{}", serde_json::to_string(long_form).unwrap());
+            writeln!(safe_file, "{}", serde_json::to_string(&long_form).unwrap());
         }
         // summary
         let mut summary_file = results::functions::get_unsafe_functions_file(cnv.0, cnv.1).open_file();
         writeln!(summary_file, "{}",
-                 serde_json::to_string( results::functions::Summary{
+                 serde_json::to_string( &results::functions::Summary{
                      unsafe_no : self.unsafe_functions.len(),
-                     total: self.unsafe_functions.len() + self.safe_functions.len(),
-                 })
+                     total: self.unsafe_functions.len() + self.normal_functions.len(),
+                 }).unwrap()
         );
     }
 }
@@ -118,25 +118,34 @@ impl<'a, 'tcx> LateLintPass<'a, 'tcx> for ImplicitUnsafe {
         // the call graph info is available here
         self.save_results(cx); // saves normal and unsafe functions info, and summary for RQ2
 
+        let cnv = util::local_crate_name_and_version();
+
         // implicit unsafe analysis
         let implicit_external = deps::load_all_analyses(cx
                                                       , &external_crates
                                                       , &mut self.normal_functions);
         let mut res1: Vec<(&FnInfo, UnsafeInBody)> = analysis::run_all(cx, &self.normal_functions, true);
-        propagate_external( cx, &mut res1, &hidden_external);
-        UnsafeInBody::save_analysis(res1);
+        propagate_external( cx, &mut res1, &implicit_external);
+        analysis::Analysis::save_analysis(res1,
+                                          results::implicit::get_implicit_unsafe_file(cnv.0, cnv.1).open_file());
 
         // unsafe traits analysis
         let res2: Vec<(&FnInfo, UnsafeTraitSafeMethodInBody)> = analysis::run_all(cx, &self.normal_functions, true);
-        UnsafeTraitSafeMethodInBody::save_analysis(res2);
+        analysis::Analysis::save_analysis(res2,
+                                          results::implicit::get_implicit_trait_unsafe_file(cnv.0, cnv.1).open_file()
+        );
 
-        let unsafe_fn_info: Vec<(&FnInfo, UnsafeFnUsafetyAnalysis)> =
+        let unsafe_fn_info: Vec<(&FnInfo, UnsafeFnUsafetySources)> =
             analysis::run_all(cx, &self.unsafe_functions, false);
-        ImplicitUnsafe::print_results(cx, &unsafe_fn_info, "30_unsafe_fn");
+        analysis::Analysis::save_analysis(unsafe_fn_info,
+            results::functions::get_fn_unsafety_sources_file(cnv.0, cnv.1).open_file()
+        );
 
-        let safe_fn_info: Vec<(&FnInfo, UnsafeBlockUnsafetyAnalysis)> =
+        let safe_fn_info: Vec<(&FnInfo, BlockUnsafetyAnalysisSources)> =
             analysis::run_all(cx, &self.normal_functions, false);
-        ImplicitUnsafe::print_results(cx, &safe_fn_info, "40_unsafe_blocks");
+        analysis::Analysis::save_analysis(safe_fn_info,
+                results::blocks::get_blocks_unsafety_sources_file(cnv.0, cnv.1).open_file()
+        );
 
 //        self.print_external_calls(cx);
     }

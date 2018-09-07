@@ -11,25 +11,19 @@ use rustc::lint::LateContext;
 use std::fs::File;
 use std::io::Write;
 
+use results::implicit;
 use results::implicit::UnsafeInBody;
 use results::implicit::UnsafeTraitSafeMethodInBody;
 
 ///////////////////////////////// Blocks /////////////////////////////////////////////////
-
-impl UnsafeInBody {
-    pub fn new(fn_name: String) -> Self {
-        UnsafeInBody { fn_name: fn_name, has_unsafe: false }
-    }
-
-    pub fn save_analysis( analysis_results: Vec<(&FnInfo, UnsafeInBody)> ) {
-        let cnv = util::local_crate_name_and_version();
-        let file = results::implicit::get_implicit_unsafe_file(cnv.0, cnv.1).open_file();
-        for (_,ub) in analysis_results.iter() {
-            let serialized = serde_json::to_string(ub).unwrap();
-            writeln!(file, "{}", serialized);
-        }
-    }
-}
+//pub fn save_implicit_analysis(analysis_results: Vec<(&FnInfo, UnsafeInBody)>) {
+//    let cnv = util::local_crate_name_and_version();
+//    let file = implicit::get_implicit_unsafe_file(cnv.0, cnv.1).open_file();
+//    for (_, ub) in analysis_results.iter() {
+//        let serialized = serde_json::to_string(ub).unwrap();
+//        writeln!(file, "{}", serialized);
+//    }
+//}
 
 impl Analysis for UnsafeInBody {
     fn is_set(&self) -> bool {
@@ -144,20 +138,20 @@ pub fn propagate_external<'a, 'tcx>(cx: &LateContext<'a, 'tcx>
 
 ////////////////////////////// Traits ///////////////////////////////////////////////////////
 
-impl UnsafeTraitSafeMethodInBody {
-    fn new(fn_name: String) -> Self {
-        UnsafeTraitSafeMethodInBody { fn_name, has_unsafe: false }
-    }
-
-    pub fn save_analysis( analysis_results: Vec<(&FnInfo, SafeMethodsInUnsafeTraits)> ) {
-        let cnv = util::local_crate_name_and_version();
-        let file = results::implicit::get_implicit_unsafe_file(cnv.0, cnv.1).open_file();
-        for (_,t) in analysis_results.iter() {
-            let serialized = serde_json::to_string(t as &SafeMethodsInUnsafeTraits).unwrap();
-            writeln!(file, "{}", serialized);
-        }
-    }
-}
+//impl UnsafeTraitSafeMethodInBody {
+//    fn new(fn_name: String) -> Self {
+//        UnsafeTraitSafeMethodInBody { fn_name, has_unsafe: false }
+//    }
+//
+//    pub fn save_analysis( analysis_results: Vec<(&FnInfo, SafeMethodsInUnsafeTraits)> ) {
+//        let cnv = util::local_crate_name_and_version();
+//        let file = results::implicit::get_implicit_unsafe_file(cnv.0, cnv.1).open_file();
+//        for (_,t) in analysis_results.iter() {
+//            let serialized = serde_json::to_string(t as &SafeMethodsInUnsafeTraits).unwrap();
+//            writeln!(file, "{}", serialized);
+//        }
+//    }
+//}
 
 impl Analysis for UnsafeTraitSafeMethodInBody {
     fn is_set(&self) -> bool {

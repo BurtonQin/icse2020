@@ -14,130 +14,103 @@ use syntax::ast::NodeId;
 
 use analysis::Analysis;
 use fn_info::FnInfo;
-use unsafety::{Source, SourceKind};
+use results::unsafety_sources::{Source, SourceKind};
 use util;
 use std::fs::File;
 use std::io::Write;
+use results::functions::UnsafeFnUsafetySources;
+use results::functions::Argument;
+use results::functions::ArgumentKind;
+use results::blocks::BlockUnsafetyAnalysisSources;
 
 
 //////////////////////////////////////////////////////////////////////
 // Unsafe Functions Analysis
 //////////////////////////////////////////////////////////////////////
 
-// information about reasons for unsafety of functions declared unsafe
-pub struct UnsafeFnUsafetyAnalysis {
-    decl_id: NodeId,
-    from_trait: bool,
-    arguments: Vec<Argument>,
-    sources: Vec<Source>,
-}
 
-pub struct Argument {
-    ty_node_id: NodeId,
-    kind: ArgumentKind,
-}
-
-pub enum ArgumentKind {
-    RawPointer,
-    UnsafeFunction,
-}
-
-impl UnsafeFnUsafetyAnalysis {
-    fn new(decl_id: NodeId) -> Self {
-        UnsafeFnUsafetyAnalysis {
-            decl_id,
-            from_trait: false,
-            arguments: Vec::new(),
-            sources: Vec::new(),
-        }
-    }
-
-    fn process_fn_decl<'a, 'tcx>(&mut self, cx: &LateContext<'a, 'tcx>) -> () {
-        self.from_trait = util::is_unsafe_method(self.decl_id,cx);
-        if let Some(fn_decl) = cx.tcx.hir.fn_decl(self.decl_id) {
-            for input in fn_decl.inputs {
-                if let Some(reason) = UnsafeFnUsafetyAnalysis::process_type(&input) {
-                    //TODO record some information about the argument
-                    self.arguments.push(reason);
-                }
-            }
-        } else {
-            println!("Decl NOT found {:?}", self.decl_id);
-        }
-    }
-
-    // returns true is a raw ptr is somewhere in the type
-    fn process_type(ty: &hir::Ty) -> Option<Argument> {
-        match ty.node {
-            hir::TyKind::Slice(ref sty) | hir::TyKind::Array(ref sty, _) => {
-                UnsafeFnUsafetyAnalysis::process_type(&sty)
-            }
-
-            hir::TyKind::Ptr(_) => Some(Argument {
-                ty_node_id: ty.id,
-                kind: ArgumentKind::RawPointer,
-            }),
-
-            hir::TyKind::Rptr(_, _) => None, //I think this is a Rust reference
-
-            hir::TyKind::BareFn(ref bare_fn) => {
-                if let hir::Unsafety::Unsafe = bare_fn.unsafety {
-                    Some(Argument {
-                        ty_node_id: ty.id,
-                        kind: ArgumentKind::UnsafeFunction,
-                    })
-                } else {
-                    UnsafeFnUsafetyAnalysis::process_ty_array(&bare_fn.decl.inputs)
-                }
-            }
-
-            hir::TyKind::Tup(ref vty) => UnsafeFnUsafetyAnalysis::process_ty_array(&vty),
-
-            hir::TyKind::Path(ref qpath) => match qpath {
-                hir::QPath::Resolved(oty, _) => {
-                    if let Some(sty) = oty {
-                        UnsafeFnUsafetyAnalysis::process_type(sty)
-                    } else {
-                        None
-                    }
-                }
-                hir::QPath::TypeRelative(pty, _) => UnsafeFnUsafetyAnalysis::process_type(pty),
-            },
-
-            hir::TyKind::TraitObject(ref _poly_ref, _) => None, //TODO
-
-            hir::TyKind::Never | hir::TyKind::Typeof(_) | hir::TyKind::Infer | hir::TyKind::Err => {
-                None
+fn process_fn_decl<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, decl_id: NodeId) -> UnsafeFnUsafetySources {
+    let from_trait = util::is_unsafe_method(decl_id,cx);
+    let res =
+        UnsafeFnUsafetySources::new( cx.tcx.node_path_str(decl_id), from_trait);
+    if let Some(fn_decl) = cx.tcx.hir.fn_decl(decl_id) {
+        for input in fn_decl.inputs {
+            if let Some(reason) = UnsafeFnUsafetySources::process_type(&input) {
+                //TODO record some information about the argument
+                res.add_argument(reason);
             }
         }
+    } else {
+        println!("Decl NOT found {:?}", decl_id);
     }
+    res
+}
 
-    fn process_ty_array(array: &hir::HirVec<hir::Ty>) -> Option<Argument> {
-        let mut iter = array.iter();
-        let mut done = false;
-        let mut res = None;
-        while !done {
-            if let Some(elt) = iter.next() {
-                let arg_res = UnsafeFnUsafetyAnalysis::process_type(elt);
-                if let Some(_) = arg_res {
-                    res = arg_res;
-                    done = true;
-                }
+// returns true is a raw ptr is somewhere in the type
+fn process_type(ty: &hir::Ty) -> Option<Argument> {
+    match ty.node {
+        hir::TyKind::Slice(ref sty) | hir::TyKind::Array(ref sty, _) => {
+            UnsafeFnUsafetySources::process_type(&sty)
+        }
+
+        hir::TyKind::Ptr(_) => Some(Argument {
+            ty_node_id: ty.id,
+            kind: ArgumentKind::RawPointer,
+        }),
+
+        hir::TyKind::Rptr(_, _) => None, //I think this is a Rust reference
+
+        hir::TyKind::BareFn(ref bare_fn) => {
+            if let hir::Unsafety::Unsafe = bare_fn.unsafety {
+                Some(Argument {
+                    ty_node_id: ty.id,
+                    kind: ArgumentKind::UnsafeFunction,
+                })
             } else {
+                UnsafeFnUsafetySources::process_ty_array(&bare_fn.decl.inputs)
+            }
+        }
+
+        hir::TyKind::Tup(ref vty) => UnsafeFnUsafetySources::process_ty_array(&vty),
+
+        hir::TyKind::Path(ref qpath) => match qpath {
+            hir::QPath::Resolved(oty, _) => {
+                if let Some(sty) = oty {
+                    UnsafeFnUsafetySources::process_type(sty)
+                } else {
+                    None
+                }
+            }
+            hir::QPath::TypeRelative(pty, _) => UnsafeFnUsafetySources::process_type(pty),
+        },
+
+        hir::TyKind::TraitObject(ref _poly_ref, _) => None, //TODO
+
+        hir::TyKind::Never | hir::TyKind::Typeof(_) | hir::TyKind::Infer | hir::TyKind::Err => {
+            None
+        }
+    }
+}
+
+fn process_ty_array(array: &hir::HirVec<hir::Ty>) -> Option<Argument> {
+    let mut iter = array.iter();
+    let mut done = false;
+    let mut res = None;
+    while !done {
+        if let Some(elt) = iter.next() {
+            let arg_res = UnsafeFnUsafetySources::process_type(elt);
+            if let Some(_) = arg_res {
+                res = arg_res;
                 done = true;
             }
+        } else {
+            done = true;
         }
-        res
     }
+    res
 }
 
-impl UnsafetySourceCollector for UnsafeFnUsafetyAnalysis {
-    fn add_source(&mut self, source: Source, _: NodeId) {
-        self.sources.push(source);
-    }
-}
-
-impl Analysis for UnsafeFnUsafetyAnalysis {
+impl Analysis for UnsafeFnUsafetySources {
     fn is_set(&self) -> bool {
         false
     }
@@ -145,10 +118,9 @@ impl Analysis for UnsafeFnUsafetyAnalysis {
     fn set(&mut self) {}
 
     fn run_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, fn_info: &'a FnInfo) -> Self {
-        let tcx = cx.tcx;
-        let mut analysis: Self = Self::new(fn_info.decl_id());
         let fn_def_id = tcx.hir.local_def_id(fn_info.decl_id());
-        analysis.process_fn_decl(cx);
+        let res = process_fn_decl(cx,fn_info.decl_id());
+        res.process_fn_decl(cx);
         {
             //needed for the borrow checker
             let mir = &mut tcx.optimized_mir(fn_def_id);
@@ -158,7 +130,7 @@ impl Analysis for UnsafeFnUsafetyAnalysis {
                 body_visitor.visit_mir(mir);
             }
         }
-        analysis
+        res
     }
 }
 
@@ -210,21 +182,6 @@ impl Analysis for UnsafeFnUsafetyAnalysis {
 // Unsafe Blocks Analysis
 //////////////////////////////////////////////////////////////////////
 
-
-
-pub struct UnsafeBlockUnsafetyAnalysis {
-    sources: Vec<(NodeId, Vec<Source>)>,
-}
-
-impl UnsafeBlockUnsafetyAnalysis {
-    fn new() -> Self {
-        UnsafeBlockUnsafetyAnalysis {
-            sources: Vec::new(),
-        }
-    }
-
-}
-
 //impl Print for UnsafeBlockUnsafetyAnalysis {
 //
 //    fn empty(&self) -> bool {
@@ -253,47 +210,31 @@ impl UnsafeBlockUnsafetyAnalysis {
 //
 //}
 
-impl UnsafetySourceCollector for UnsafeBlockUnsafetyAnalysis {
-
-    fn add_source(&mut self, source: Source, block_id: NodeId) {
-        let found =  self.sources.iter().any( |(node_id,_)| *node_id == block_id );
-        if found {
-            for (ref mut node_id, ref mut block_sources) in self.sources.iter_mut() {
-                if *node_id == block_id {
-                    block_sources.push(source);
-                    break; // TODO change to while
-                }
-            }
-        } else {
-            let mut block_sources = Vec::new();
-            block_sources.push(source);
-            self.sources.push((block_id,block_sources));
-        }
-    }
-}
-
-impl Analysis for UnsafeBlockUnsafetyAnalysis {
-    fn is_set(&self) -> bool {
-        false
-    }
-
-    fn set(&mut self) {}
-
-    fn run_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, fn_info: &'a FnInfo) -> Self {
-        let tcx = cx.tcx;
-        let mut analysis: Self = Self::new();
-        let fn_def_id = tcx.hir.local_def_id(fn_info.decl_id());
-        // closures are handled by their parent fn.
-        if !cx.tcx.is_closure(fn_def_id) {
-            let mir = &mut tcx.optimized_mir(fn_def_id);
-            if let Some (mut body_visitor) = UnsafetySourcesVisitor::new(
-                    cx, mir,&mut analysis, fn_def_id) {
-                body_visitor.visit_mir(mir);
-            }
-        }
-        analysis
-    }
-}
+//impl Analysis for BlockUnsafetyAnalysisSources {
+//    fn is_set(&self) -> bool {
+//        false
+//    }
+//
+//    fn set(&mut self) {}
+//
+//    fn run_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, fn_info: &'a FnInfo) -> Self {
+//        let tcx = cx.tcx;
+//        let mut analysis: Self = Self::new();
+//        let fn_def_id = tcx.hir.local_def_id(fn_info.decl_id());
+//        // closures are handled by their parent fn.
+//        if !cx.tcx.is_closure(fn_def_id) {
+//            let mir = &mut tcx.optimized_mir(fn_def_id);
+//            for (bb,bbd) in mir.basic_blocks() {
+//                // is the bb marked unsafe
+//                if let Some(mut body_visitor) = UnsafetySourcesVisitor::new(
+//                    cx, mir, &mut analysis, fn_def_id) {
+//                    body_visitor.visit_mir(mir);
+//                }
+//            }
+//        }
+//        analysis
+//    }
+//}
 
 //////////////////////////////////////////////////////////////////////
 // Common Parts

@@ -6,19 +6,9 @@ use rustc::mir::Operand;
 use rustc::ty::TyKind;
 use rustc_target::spec::abi::Abi;
 use syntax_pos::Span;
-
-use std::fs::File;
-use std::path::PathBuf;
-use std::io::Write;
-use std::fs::DirBuilder;
-use chrono;
-use std::fs::OpenOptions;
 use std::path::Path;
+use results::unsafety_sources::FnCallInfo;
 
-pub enum FnCallInfo {
-    Local(NodeId, Abi),
-    External(hir::def_id::CrateNum, String, Abi),
-}
 
 //impl Print for FnCallInfo {
 //    fn print<'a, 'tcx>(&self, cx: &LateContext<'a, 'tcx>, file: &mut File) -> () {
@@ -144,6 +134,12 @@ pub fn local_crate_name_and_version() -> (String, String) {
     //println!("Crate {:?} Version {:?}", metadata.packages[0].name.clone(),metadata.packages[0].version.clone());
 
     (metadata.packages[0].name.clone(),metadata.packages[0].version.clone())
+}
+
+pub fn is_excluded_crate(crate_name:String) -> bool {
+    crate_name.as_str() != "alloc"
+        && crate_name.as_str() != "std"
+        && crate_name.as_str() != "core"
 }
 
 
