@@ -19,7 +19,7 @@ impl FileOps {
         FileOps { crate_name, crate_version, analysis_name }
     }
 
-    pub fn ope_file(&self) -> File {
+    pub fn open_file(&self) -> File {
         let file_path = self.get_path(self.analysis_name.to_string());
 
         if file_path.as_path().exists() {

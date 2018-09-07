@@ -1,4 +1,8 @@
+use std::fs::File;
+
 use fn_info::FnInfo;
+use util;
+
 use rustc::lint::LateContext;
 
 pub trait Analysis {
@@ -10,6 +14,14 @@ pub trait Analysis {
     fn set(&mut self) -> () {}
 
     fn run_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, fn_info: &'a FnInfo) -> Self;
+
+    fn save_analysis<T: serde::ser::Serialize>( analysis_results: Vec<(&FnInfo, T)>, file: File ) {
+        let cnv = util::local_crate_name_and_version();
+        for (_,t) in analysis_results.iter() {
+            let serialized = serde_json::to_string(t as &T).unwrap();
+            writeln!(file, "{}", serialized);
+        }
+    }
 }
 
 pub fn run_all<'a, 'tcx, T: Analysis>(

@@ -62,7 +62,7 @@ impl FnInfo {
         }
     }
 
-    pub fn build_long_fn_info(&self, cx: &LateContext<'a, 'tcx>) -> results::functions::LongFnInfo {
+    pub fn build_long_fn_info<'a, 'tcx>(&self, cx: &LateContext<'a, 'tcx>) -> results::functions::LongFnInfo {
         let name = cx.tcx.node_path_str(self.decl_id);
         let node_id = self.decl_id.to_string();
         let span = cx.tcx.hir.span(self.decl_id);
@@ -99,7 +99,7 @@ impl FnInfo {
     }
 
 
-    pub fn build_short_fn_info(&self, cx: &LateContext<'a, 'tcx>) -> results::functions::ShortFnInfo {
+    pub fn build_short_fn_info<'a, 'tcx>(&self, cx: &LateContext<'a, 'tcx>) -> results::functions::ShortFnInfo {
         let name = cx.tcx.node_path_str(self.decl_id);
         let node_id = self.decl_id.to_string();
         let span = cx.tcx.hir.span(self.decl_id);

@@ -5,12 +5,11 @@ use std::env;
 use rustc::hir;
 use rustc::lint::LateContext;
 use std::path::PathBuf;
-use std::fs::OpenOptions;
 use results::implicit::UnsafeInBody;
 use fn_info::FnInfo;
 use std::io::BufReader;
 use std::io::BufRead;
-use analysis;
+use util;
 
 #[derive(Clone)]
 pub struct CrateInfo {
@@ -118,7 +117,7 @@ fn load_analysis<'a, 'tcx>( cx: &'a LateContext<'a, 'tcx>
         //TODO: check result: if there are external_calls not in result then error
         Ok (Some ((*crate_num, result)) )
     } else {
-        if !analysis::is_excluded_crate(&crate_info.name) {
+        if !util::is_excluded_crate(&crate_info.name) {
             println!("Error: crate id NOT found for {:?}", crate_info.name);
             //Err("Error: crate id NOT found")
             Ok (None) // TODO problems with cloudabi, winapi, local crate
