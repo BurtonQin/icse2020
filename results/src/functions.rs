@@ -16,6 +16,19 @@ pub struct LongFnInfo {
     external_calls: Vec<(String,Vec<String>)>,
 }
 
+impl LongFnInfo {
+    pub fn new(name: String,
+               node_id: String,
+               location: String,
+               // pairs (name,node_id)
+               local_calls: Vec<(String,String)>,
+               external_calls: Vec<(String,Vec<String>)> ) -> Self {
+        LongFnInfo{
+            name, node_id, location, local_calls, external_calls
+        }
+    }
+}
+
 #[derive(Serialize, Deserialize, Debug)]
 pub struct ShortFnInfo {
     name: String,
@@ -23,10 +36,29 @@ pub struct ShortFnInfo {
     location: String,
 }
 
+impl ShortFnInfo {
+    pub fn new(name: String,
+               node_id: String,
+               location: String) -> Self {
+        ShortFnInfo {
+            name,
+            node_id,
+            location
+        }
+    }
+}
+
 #[derive(Serialize, Deserialize, Debug)]
 pub struct Summary{
     unsafe_no: usize,
     total: usize,
+}
+
+impl Summary {
+    pub fn new(unsafe_no: usize,
+               total: usize) -> Self {
+        Summary{ unsafe_no, total }
+    }
 }
 
 #[derive(Serialize, Deserialize, Debug)]
@@ -39,8 +71,15 @@ pub struct UnsafeFnUsafetySources {
 
 #[derive(Serialize, Deserialize, Debug)]
 pub struct Argument {
-    ty_node_id: String,
+    type_info: String,
     kind: ArgumentKind,
+}
+
+impl Argument {
+    pub fn new(type_info: String,
+               kind: ArgumentKind) -> Self {
+        Self{ type_info, kind }
+    }
 }
 
 #[derive(Serialize, Deserialize, Debug)]
@@ -50,10 +89,10 @@ pub enum ArgumentKind {
 }
 
 impl UnsafeFnUsafetySources {
-    pub fn new(name: String) -> Self {
+    pub fn new(name: String, from_trait: bool) -> Self {
         UnsafeFnUsafetySources {
             name,
-            from_trait: false,
+            from_trait,
             arguments: Vec::new(),
             sources: Vec::new(),
         }
@@ -63,7 +102,7 @@ impl UnsafeFnUsafetySources {
         self.arguments.push(arg);
     }
 
-    fn add_source(&mut self, source: Source) {
+    pub fn add_source(&mut self, source: Source) {
         self.sources.push(source);
     }
 }

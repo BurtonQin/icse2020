@@ -2,60 +2,21 @@ use syntax::ast::NodeId;
 
 use rustc::hir;
 use rustc::lint::LateContext;
-use rustc::mir::Operand;
-use rustc::ty::TyKind;
-use rustc_target::spec::abi::Abi;
+use rustc::hir::def_id::DefId;
 use syntax_pos::Span;
 use std::path::Path;
-use results::unsafety_sources::FnCallInfo;
+use std::fmt::Write;
 
-
-//impl Print for FnCallInfo {
-//    fn print<'a, 'tcx>(&self, cx: &LateContext<'a, 'tcx>, file: &mut File) -> () {
-//        match self {
-//            FnCallInfo::Local(node_id, abi) => {
-//                write!(file, "{} | abi: {}", cx.tcx.node_path_str(*node_id), abi);
-//            }
-//            FnCallInfo::External(krate, path_str, abi) => {
-//                write!(file,
-//                       "Crate: {:?} | Calee: {:?} | abi: {:?}",
-//                    cx.tcx.crate_name(*krate),
-//                    path_str,
-//                    abi
-//                );
-//            }
-//        }
-//    }
-//}
-
-pub fn find_callee<'a, 'tcx>(
-    cx: &LateContext<'a, 'tcx>,
-    func: &Operand<'tcx>,
-) -> Option<FnCallInfo> {
-    if let Operand::Constant(constant) = func {
-        if let TyKind::FnDef(callee_def_id, _) = constant.literal.ty.sty {
-            let abi = cx.tcx.fn_sig(callee_def_id).abi();
-            if callee_def_id.is_local() {
-                if let Some(callee_node_id) = cx.tcx.hir.as_local_node_id(callee_def_id) {
-                    Some(FnCallInfo::Local(callee_node_id, abi))
-                } else {
-                    println!("local node id NOT found {:?}", callee_def_id);
-                    None
-                }
-            } else {
-                let mut output = std::format!("{}", constant.literal.ty.sty);
-                Some(FnCallInfo::External(callee_def_id.krate, output, abi))
-            }
-        } else {
-            println!("TypeVariants NOT handled {:?}", constant.literal.ty.sty);
-            None
-        }
-    } else {
-        println!("find_callee::Operand Type NOT handled {:?}", func);
-        None
-    }
+pub fn get_node_name<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, node_id: NodeId) -> String {
+    cx.tcx.node_path_str(node_id)
 }
 
+pub fn get_def_id_string <'a, 'tcx>(_cx: &LateContext<'a, 'tcx>, def_id: DefId) -> String {
+    let mut res = String::new();
+    // TODO might add details
+    write!(res, "{:#?}", def_id);
+    res
+}
 
 pub fn is_unsafe_fn<'a, 'tcx>(node_id: NodeId, cx: &LateContext<'a, 'tcx>) -> bool {
     let node = cx.tcx.hir.get(node_id);
@@ -136,10 +97,10 @@ pub fn local_crate_name_and_version() -> (String, String) {
     (metadata.packages[0].name.clone(),metadata.packages[0].version.clone())
 }
 
-pub fn is_excluded_crate(crate_name:String) -> bool {
-    crate_name.as_str() != "alloc"
-        && crate_name.as_str() != "std"
-        && crate_name.as_str() != "core"
+pub fn is_excluded_crate(crate_name: &String) -> bool {
+    crate_name.as_str() == "alloc"
+        || crate_name.as_str() == "std"
+        || crate_name.as_str() == "core"
 }
 
 

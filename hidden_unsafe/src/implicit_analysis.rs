@@ -8,10 +8,7 @@ use rustc::mir::visit::Visitor;
 use rustc::mir::{BasicBlock, Location, Operand, Terminator, TerminatorKind};
 use rustc::ty::TyKind;
 use rustc::lint::LateContext;
-use std::fs::File;
-use std::io::Write;
 
-use results::implicit;
 use results::implicit::UnsafeInBody;
 use results::implicit::UnsafeTraitSafeMethodInBody;
 
@@ -85,38 +82,42 @@ pub fn propagate_external<'a, 'tcx>(cx: &LateContext<'a, 'tcx>
 {
     let mut changes = true;
     let mut with_unsafe = Vec::new();
-    {
-        // to pass borrow checker
-        for (ref fn_info, ref mut t) in graph.iter_mut() {
-            if t.has_unsafe {
-                with_unsafe.push(fn_info.decl_id());
-            }
+
+    // collect local functions that have been marked as havinb unsafe
+    for (ref fn_info, ref mut t) in graph.iter_mut() {
+        if t.has_unsafe {
+            with_unsafe.push(fn_info.decl_id());
         }
     }
-    {
-        for (ref fn_info, ref mut t) in graph.iter_mut() {
-            for (ext_crate_num, ext_call) in fn_info.external_calls() {
-                if let Some ((_,ub_vec)) = external_unsafety.iter().find(
-                    |&x| *ext_crate_num == x.0 ) {
-                    if let Some(ext_unsafety_in_body) = ub_vec.iter().find(
-                        |&x| x.fn_info == *ext_call) {
-                        if ext_unsafety_in_body.has_unsafe {
-                            t.set();
-                            with_unsafe.push(fn_info.decl_id());
-                        }
-                    } else {
-                        //TODO do not warn for std, core, alloc
-                        let crate_name = cx.tcx.crate_name(*ext_crate_num);
-                        if crate_name.as_str() != "alloc"
-                            && crate_name.as_str() != "std"
-                            && crate_name.as_str() != "core" {
-                            println!("Error external call NOT found {:?}", ext_call);
-                        }
+
+    // for each normal function
+    for (ref fn_info, ref mut t) in graph.iter_mut() {
+        // for each external call from the local function
+        for (ext_crate_num, ext_call) in fn_info.external_calls() {
+
+//            println!("ext_call {:?} {:?}", ext_call, external_unsafety);
+
+            if let Some ((_,ub_vec)) = external_unsafety.iter().find(
+                |&x| *ext_crate_num == x.0 ) {
+                if let Some(ext_unsafety_in_body) = ub_vec.iter().find(
+                    |&x| x.fn_name == *ext_call) {
+                    if ext_unsafety_in_body.has_unsafe {
+                        t.set();
+                        with_unsafe.push(fn_info.decl_id());
+                    }
+                } else {
+                    //TODO do not warn for std, core, alloc
+                    let crate_name = cx.tcx.crate_name(*ext_crate_num);
+                    if crate_name.as_str() != "alloc"
+                        && crate_name.as_str() != "std"
+                        && crate_name.as_str() != "core" {
+                        println!("Error external call NOT found {:?}", ext_call);
                     }
                 }
             }
         }
     }
+
     while changes {
         changes = false;
         for &mut (ref fn_info, ref mut t) in graph.iter_mut() {
@@ -168,11 +169,10 @@ impl Analysis for UnsafeTraitSafeMethodInBody {
         let mut mir = tcx.optimized_mir(owner_def_id);
         let mut unsafe_trait_visitor = SafeMethodsInUnsafeTraits::new(cx);
         unsafe_trait_visitor.visit_mir(&mut mir);
-        let mut analysis: Self = SafeMethodsInUnsafeTraits::new(tcx.node_path_str(fn_info.decl_id()));
-        if unsafe_trait_visitor.has_unsafe {
-            analysis.set();
+        Self {
+            fn_name: util::get_node_name( cx,fn_info.decl_id() ),
+            has_unsafe: unsafe_trait_visitor.has_unsafe
         }
-        analysis
     }
 }
 

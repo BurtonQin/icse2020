@@ -2,8 +2,6 @@ use rustc::hir;
 use rustc::lint::LateContext;
 use syntax::ast::NodeId;
 use util;
-use std::fs::File;
-use std::io::Write;
 
 pub struct FnInfo {
     decl_id: NodeId,
@@ -43,7 +41,7 @@ impl FnInfo {
 
         let func = cx.tcx.item_path_str(def_id).to_string().replace(crate_name.as_str(),"");
 
-//        println!("func {:?}", func);
+//        println!("external func {:?}", func);
 
         let found = self
             .external_calls
@@ -89,27 +87,26 @@ impl FnInfo {
                     elt.0 == *krate
                 )
                 .for_each(|elt| {
-                    crate_calls.push(elt.1 );
+                    crate_calls.push(elt.1.clone() );
                 });
-            external_calls.push((crate_name,crate_calls));
+            external_calls.push((crate_name.to_string(),crate_calls));
         });
-        results::functions::LongFnInfo{
-            name, node_id, location, local_calls, external_calls
-        }
+        results::functions::LongFnInfo::new(
+            name, node_id, location, local_calls, external_calls)
     }
 
 
-    pub fn build_short_fn_info<'a, 'tcx>(&self, cx: &LateContext<'a, 'tcx>) -> results::functions::ShortFnInfo {
-        let name = cx.tcx.node_path_str(self.decl_id);
-        let node_id = self.decl_id.to_string();
-        let span = cx.tcx.hir.span(self.decl_id);
-        let location = util::get_file_and_line(cx, span);
-        results::functions::ShortFnInfo {
-            name,
-            node_id,
-            location
-        }
-    }
+//    pub fn build_short_fn_info<'a, 'tcx>(&self, cx: &LateContext<'a, 'tcx>) -> results::functions::ShortFnInfo {
+//        let name = cx.tcx.node_path_str(self.decl_id);
+//        let node_id = self.decl_id.to_string();
+//        let span = cx.tcx.hir.span(self.decl_id);
+//        let location = util::get_file_and_line(cx, span);
+//        results::functions::ShortFnInfo:: new (
+//            name,
+//            node_id,
+//            location
+//        )
+//    }
 
 }
 

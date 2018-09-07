@@ -51,7 +51,10 @@ pub fn load_all_analyses<'a, 'tcx>( cx: &'a LateContext<'a, 'tcx>
     for crate_info in external_crates.iter() {
         let mut analysis = load_analysis(cx, crate_info, data);
         if let Some (crate_res) =  analysis.unwrap() {
+            println!("Loaded analysis for crate {:?}: {:?}", crate_info.name, crate_res);
             result.push(crate_res);
+        } else {
+            println!("Loaded analysis for crate {:?}: EMPTY", crate_info.name);
         }
     }
     result
@@ -60,12 +63,14 @@ pub fn load_all_analyses<'a, 'tcx>( cx: &'a LateContext<'a, 'tcx>
 fn load_analysis<'a, 'tcx>( cx: &'a LateContext<'a, 'tcx>
                             , crate_info: &CrateInfo, data: &mut Vec<FnInfo> )
     -> Result<Option<(hir::def_id::CrateNum, Vec<UnsafeInBody>)>, &'static str> {
+
+    println!("Loading analysis for crate {:?}", crate_info.name);
+
     let mut external_calls = Vec::new();
     let mut result = Vec::new();
     //find crate_num by name
     if let Some (crate_num) = cx.tcx.crates().iter().find(
         |&x| {
-            println!("crate_info.name {:?} ==? {:?}", crate_info.name, cx.tcx.crate_name(*x).to_string());
             crate_info.name == cx.tcx.crate_name(*x).to_string()
         }
     ) {
@@ -82,29 +87,37 @@ fn load_analysis<'a, 'tcx>( cx: &'a LateContext<'a, 'tcx>
             }
         }
 
+        println!("External calls to this crate: {:?}", external_calls);
+
         if external_calls.len() > 0 {
-
-            let file = results::implicit::get_implicit_unsafe_file(crate_info.name.clone()
-                                                                   , crate_info.version.clone());
-
+            let file_ops = results::implicit::get_implicit_unsafe_file(crate_info.name.clone()
+                                                                       , crate_info.version.clone());
+            let file = file_ops.open_file(false);
+            println!("Processsing file {:?}", file_ops.get_root_path_components() );
             let mut reader = BufReader::new(file);
             //read line by line
             loop {
                 let mut line = String::new();
                 let len = reader.read_line(&mut line).expect("Error reading file");
+
+//                println!("Processing line {:?}", line);
+
                 if len == 0 {
                     //EOF reached
                     break
                 } else {
                     //process line
                     let trimmed_line = line.trim_right();
-                    let crate_info: UnsafeInBody = serde_json::from_str(&trimmed_line).unwrap();
+                    let ub: UnsafeInBody = serde_json::from_str(&trimmed_line).unwrap();
                     let mut _found = false;
+
+//                    println!("crate {:}, call {:?}", crate_info.name, ub.fn_name);
+
                     for &call in external_calls.iter() {
-                        if call.as_str().ends_with(crate_info.fn_info.as_str()) {
+                        if call.as_str().ends_with(ub.fn_name.as_str()) {
                             result.push(UnsafeInBody {
-                                fn_info: call.to_string(),
-                                has_unsafe: crate_info.has_unsafe
+                                fn_name: call.to_string(),
+                                has_unsafe: ub.has_unsafe
                             });
                             _found = true;
                             break
@@ -117,11 +130,12 @@ fn load_analysis<'a, 'tcx>( cx: &'a LateContext<'a, 'tcx>
         //TODO: check result: if there are external_calls not in result then error
         Ok (Some ((*crate_num, result)) )
     } else {
+
         if !util::is_excluded_crate(&crate_info.name) {
-            println!("Error: crate id NOT found for {:?}", crate_info.name);
-            //Err("Error: crate id NOT found")
-            Ok (None) // TODO problems with cloudabi, winapi, local crate
+            //println!("Error: crate id NOT found for {:?}", crate_info.name);
+            Ok (None)
         } else {
+            println!("Crate is excluded {:?}", crate_info.name);
             Ok (None)
         }
     }
