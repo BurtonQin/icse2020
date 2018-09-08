@@ -62,10 +62,10 @@ impl<'a, 'tcx> hir::intravisit::Visitor<'tcx> for UnsafeBlocksVisitorData<'tcx> 
                 self.has_unsafe = true;
             }
             hir::BlockCheckMode::PushUnsafeBlock(unsafe_source) => {
-                println!("hir::BlockCheckMode::PushUnsafeBlock {:?}", unsafe_source);
+                error!("hir::BlockCheckMode::PushUnsafeBlock {:?}", unsafe_source);
             }
             hir::BlockCheckMode::PopUnsafeBlock(unsafe_source) => {
-                println!("hir::BlockCheckMode::PopUnsafeBlock {:?}", unsafe_source);
+                error!("hir::BlockCheckMode::PopUnsafeBlock {:?}", unsafe_source);
             }
         }
         hir::intravisit::walk_block(self, b);
@@ -105,7 +105,7 @@ pub fn propagate_external<'a, 'tcx>(
                 } else {
                     let crate_name = cx.tcx.crate_name(*ext_crate_num).to_string();
                     if !util::is_excluded_crate(&crate_name) {
-                        println!("Error external call NOT found {:?}", ext_call);
+                        error!("Error external call NOT found {:?}", ext_call);
                     }
                 }
             }

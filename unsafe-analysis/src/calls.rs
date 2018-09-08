@@ -71,17 +71,17 @@ impl<'a, 'tcx> Visitor<'tcx> for CallsVisitor<'a, 'tcx> {
                                     self.fn_info.push_external_call(self.cx, def_id);
                                 }
                             }
-                            _ => println!("ty::InstanceDef:: NOT handled {:?}", instance.def),
+                            _ => error!("ty::InstanceDef:: NOT handled {:?}", instance.def),
                         }
                     } else {
                         //                        println!("func {:?} pushed external", func);
                         self.fn_info.push_external_call(self.cx, callee_def_id);
                     }
                 } else {
-                    println!("TypeVariants NOT handled {:?}", constant.literal.ty.sty);
+                    error!("TypeVariants NOT handled {:?}", constant.literal.ty.sty);
                 }
             } else {
-                println!("calls.rs::Operand Type NOT handled {:?}", func);
+                error!("calls.rs::Operand Type NOT handled {:?}", func);
             }
         }
     }

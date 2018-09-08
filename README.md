@@ -24,10 +24,10 @@ Next, it downloads each crate in top-N-crates.io in the directory:
 
 <h1>Compilation</h1>
 
-cd unsafe-analysis/; cargo build <br>
+cd unsafe-analysis/; ./compile.sh build <br>
 
 <h1>Run Analysis</h1>
-export PROJECT_HOME="/home/nora/work/external_calls" #change this to your path<br>
+export PROJECT_HOME="$HOME/work/unsafe_study" #change this to your path<br>
 cd $PROJECT_HOME/select-crates<br>
 ./crates_select_and_download.sh 500<br>
 ./compile.sh<br>
@@ -39,18 +39,18 @@ cd $PROJECT_HOME/github-downloads<br>
 <h1>Run the plugin on one crate</h1>
 
 rustup override set nightly-2018-08-29<br>
-export PROJECT_HOME="/home/nora/work/external_calls" #change this to your path<br>
+export PROJECT_HOME="$HOME/work/unsafe_study" #change this to your path<br>
 export RUSTFLAGS="--extern unsafe_analysis=$PROJECT_HOME/unsafe-analysis/target/debug/libunsafe-analysis.so -Z extra-plugins=unsafe-analysis --emit mir"<br>
 cargo build
 
 <h1>Run examples from repository</h1>
 
 rustup override set nightly-2018-08-29<br>
-export PROJECT_HOME="/home/nora/work/external_calls" #change this to your path<br>
-export RUSTFLAGS="--extern unsafe_analysis=$PROJECT_HOME/unsafe_analysis/target/debug/libunsafe_analysis.so -Z extra-plugins=unsafe_analysis --emit mir"<br>
+export PROJECT_HOME="$HOME/work/unsafe_study" #change this to your path<br>
+export RUSTFLAGS="--extern unsafe_analysis=$PROJECT_HOME/unsafe-analysis/target/debug/libunsafe_analysis.so -Z extra-plugins=unsafe_analysis --emit mir"<br>
 
 cd $PROJECT_HOME/examples/elf2tbf; cargo build
 
-cd $PROJECT_HOME/examples/tests; cargo build
+cd $PROJECT_HOME/examples/tests; ./compile.sh
 
 <h1>Issues:</h1> 
