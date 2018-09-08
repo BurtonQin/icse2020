@@ -53,6 +53,4 @@ cd $PROJECT_HOME/examples/elf2tbf; cargo build
 
 cd $PROJECT_HOME/examples/tests; cargo build
 
-<h1>Run the Analysis</h1>
-
 <h1>Issues:</h1> 
