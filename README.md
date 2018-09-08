@@ -1,54 +1,58 @@
 # external_calls
 
-<h1>Tools to be installed</h1>
-cargo install clone
+<h1>Tools Needed</h1>
+1. cargo install clone
 
 <h1>Download top N crates from crates.io</h1>
 
 Execute: cd select-crates
 
-Clean up to run a fresh counter download:<br>
-rm crates.io-fixed
+Clean up to run a fresh counter download:<br> rm crates.io-fixed
 
 Download top N crates (N is the parameter passed): <br>
 ./crates_select_and_download.sh N
 
-If the file crates.io-fixed exists then it uses it, otherwise it is created. This file contains the information downloaded from crates.io for each crate from crates.io-index repository.
+If the file crates.io-fixed exists then it uses it, otherwise it is
+created. This file contains the information downloaded from crates.io
+for each crate from crates.io-index repository.
 
-The script parses the file and retains the top N crate names and the downloads in top-N-crates.io.
+The script parses the file and retains the top N crate names and the
+downloads in top-N-crates.io.
 
-Next, it downloads each crate in top-N-crates.io in the directory: /tmp/unsafe_analysis/crates.io-downloads.It uses cargo clone.
+Next, it downloads each crate in top-N-crates.io in the directory:
+/tmp/unsafe_analysis/crates.io-downloads.It uses cargo clone.
 
-<h1>To compile the compiler plugins: </h1>
+<h1>Compilation</h1>
 
-cd unsafe-analysis/; cargo build
+cd unsafe-analysis/; cargo build <br>
+
+<h1>Run Analysis</h1>
+export PROJECT_HOME="/home/nora/work/external_calls" #change this to your path<br>
+cd $PROJECT_HOME/select-crates<br>
+./crates_select_and_download.sh 500<br>
+./compile.sh<br>
+
+cd $PROJECT_HOME/github-downloads<br>
+./download.sh<br>
+./compile.sh<br>
 
 <h1>Run the plugin on one crate</h1>
+
 rustup override set nightly-2018-08-29<br>
 export PROJECT_HOME="/home/nora/work/external_calls" #change this to your path<br>
-export RUSTFLAGS="--extern hidden_unsafe=$PROJECT_HOME/unsafe-analysis/target/debug/libunsafe-analysis.so -Z extra-plugins=unsafe-analysis  --emit mir"<br>
+export RUSTFLAGS="--extern unsafe_analysis=$PROJECT_HOME/unsafe-analysis/target/debug/libunsafe-analysis.so -Z extra-plugins=unsafe-analysis --emit mir"<br>
 cargo build
 
 <h1>Run examples from repository</h1>
+
 rustup override set nightly-2018-08-29<br>
 export PROJECT_HOME="/home/nora/work/external_calls" #change this to your path<br>
-export RUSTFLAGS="--extern hidden_unsafe=$PROJECT_HOME/hidden_unsafe/target/debug/libhidden_unsafe.so -Z extra-plugins=hidden_unsafe  --emit mir"<br>
+export RUSTFLAGS="--extern unsafe_analysis=$PROJECT_HOME/unsafe_analysis/target/debug/libunsafe_analysis.so -Z extra-plugins=unsafe_analysis --emit mir"<br>
 
 cd $PROJECT_HOME/examples/elf2tbf; cargo build
 
-cd $PROJECT_HOME/examples/hidden_unsafe_tests; cargo build
+cd $PROJECT_HOME/examples/tests; cargo build
 
-<h1>Issues:</h1>
-1. calls.rs::Operand Type NOT handled move _51
+<h1>Run the Analysis</h1>
 
-calls.rs::Operand Type NOT handled move _24
-
-calls.rs::Operand Type NOT handled move _3
-
-calls.rs::Operand Type NOT handled move _2
-
-find_callee::Operand Type NOT handled move _3
-
-find_callee::Operand Type NOT handled move _2
-
-2. The package name is bootstrap, instead of core
+<h1>Issues:</h1> 

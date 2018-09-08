@@ -9,13 +9,17 @@ pub struct BlockSummary {
 }
 
 impl BlockSummary {
-    pub fn new(in_unsafe_bb: usize,
-               total_bb: usize,
-               hir_unsafe_blocks: usize,
-               hir_total: usize) -> Self {
+    pub fn new(
+        in_unsafe_bb: usize,
+        total_bb: usize,
+        hir_unsafe_blocks: usize,
+        hir_total: usize,
+    ) -> Self {
         BlockSummary {
-            in_unsafe_bb, total_bb
-            , hir_unsafe_blocks, hir_total
+            in_unsafe_bb,
+            total_bb,
+            hir_unsafe_blocks,
+            hir_total,
         }
     }
 }
@@ -33,7 +37,7 @@ impl BlockUnsafetyAnalysisSources {
     }
 
     pub fn add_source(&mut self, block_id: String, source: Source) {
-        let found =  self.sources.iter().any( |(node_id,_)| *node_id == block_id );
+        let found = self.sources.iter().any(|(node_id, _)| *node_id == block_id);
         if found {
             for (ref mut node_id, ref mut block_sources) in self.sources.iter_mut() {
                 if *node_id == block_id {
@@ -44,8 +48,7 @@ impl BlockUnsafetyAnalysisSources {
         } else {
             let mut block_sources = Vec::new();
             block_sources.push(source);
-            self.sources.push((block_id,block_sources));
+            self.sources.push((block_id, block_sources));
         }
     }
-
 }

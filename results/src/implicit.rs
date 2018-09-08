@@ -1,12 +1,15 @@
 #[derive(Serialize, Deserialize, Debug)]
-pub struct UnsafeInBody  {
+pub struct UnsafeInBody {
     pub fn_name: String,
     pub has_unsafe: bool,
 }
 
 impl UnsafeInBody {
     pub fn new(fn_name: String) -> Self {
-        UnsafeInBody { fn_name: fn_name, has_unsafe: false }
+        UnsafeInBody {
+            fn_name: fn_name,
+            has_unsafe: false,
+        }
     }
 }
 
@@ -18,8 +21,9 @@ pub struct UnsafeTraitSafeMethodInBody {
 
 impl UnsafeTraitSafeMethodInBody {
     fn new(fn_name: String) -> Self {
-        UnsafeTraitSafeMethodInBody { fn_name, has_unsafe: false }
+        UnsafeTraitSafeMethodInBody {
+            fn_name,
+            has_unsafe: false,
+        }
     }
 }
-
-

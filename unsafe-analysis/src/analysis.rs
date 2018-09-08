@@ -7,7 +7,6 @@ use rustc::lint::LateContext;
 use std::io::Write;
 
 pub trait Analysis {
-
     fn is_set(&self) -> bool {
         false
     }
@@ -17,28 +16,34 @@ pub trait Analysis {
     fn run_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, fn_info: &'a FnInfo) -> Self;
 }
 
-pub fn save_analysis<T>( analysis_results: &Vec<(&FnInfo, T)>, file: &mut File )
-    where T: serde::ser::Serialize
+pub fn save_analysis<T>(analysis_results: &Vec<(&FnInfo, T)>, file: &mut File)
+where
+    T: serde::ser::Serialize,
 {
-    for (_,t) in analysis_results.iter() {
+    for (_, t) in analysis_results.iter() {
         let serialized = serde_json::to_string(t as &T).unwrap();
         writeln!(file, "{}", serialized);
     }
 }
 
-pub fn save_summary_analysis<T>( analysis_results: T, file: &mut File )
-    where T: serde::ser::Serialize
+pub fn save_summary_analysis<T>(analysis_results: T, file: &mut File)
+where
+    T: serde::ser::Serialize,
 {
     let serialized = serde_json::to_string(&analysis_results).unwrap();
     writeln!(file, "{}", serialized);
 }
 
-pub fn save_analysis_with_fn_info<'a, 'tcx, T>(cx: &LateContext<'a, 'tcx>, analysis_results: &Vec<(&FnInfo, T)>, file: &mut File )
-    where T: serde::ser::Serialize
+pub fn save_analysis_with_fn_info<'a, 'tcx, T>(
+    cx: &LateContext<'a, 'tcx>,
+    analysis_results: &Vec<(&FnInfo, T)>,
+    file: &mut File,
+) where
+    T: serde::ser::Serialize,
 {
-    for (fn_info,t) in analysis_results.iter() {
+    for (fn_info, t) in analysis_results.iter() {
         let fn_short_info = fn_info.build_short_fn_info(cx);
-        let serialized = serde_json::to_string( &(fn_short_info, t as &T) ).unwrap();
+        let serialized = serde_json::to_string(&(fn_short_info, t as &T)).unwrap();
         writeln!(file, "{}", serialized);
     }
 }

@@ -23,7 +23,7 @@ pub enum Abi {
 
 #[derive(Serialize, Deserialize, Debug)]
 pub enum FnCallInfo {
-    Local(String,Abi), // fn_name, abi
+    Local(String, Abi),            // fn_name, abi
     External(String, String, Abi), // crate_name, fn_name, abi
 }
 

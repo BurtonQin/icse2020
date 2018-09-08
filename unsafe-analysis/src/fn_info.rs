@@ -30,18 +30,25 @@ impl FnInfo {
         }
     }
 
-    pub fn push_external_call<'a, 'tcx>(&mut self, cx: &LateContext<'a, 'tcx>,
-                                        def_id: hir::def_id::DefId) -> () {
+    pub fn push_external_call<'a, 'tcx>(
+        &mut self,
+        cx: &LateContext<'a, 'tcx>,
+        def_id: hir::def_id::DefId,
+    ) -> () {
         let krate = def_id.krate;
 
-//        println!("node_path_str {:?}", cx.tcx.item_path_str(def_id));
+        //        println!("node_path_str {:?}", cx.tcx.item_path_str(def_id));
 
         let mut crate_name: String = cx.tcx.crate_name(krate).to_string();
         crate_name.push_str("::");
 
-        let func = cx.tcx.item_path_str(def_id).to_string().replace(crate_name.as_str(),"");
+        let func = cx
+            .tcx
+            .item_path_str(def_id)
+            .to_string()
+            .replace(crate_name.as_str(), "");
 
-//        println!("external func {:?}", func);
+        //        println!("external func {:?}", func);
 
         let found = self
             .external_calls
@@ -49,7 +56,7 @@ impl FnInfo {
             .any(|elt| elt.1 == func && elt.0 == krate);
         if !found {
             //self.external_calls.push((krate, func.to_string()));
-            self.external_calls.push((krate,func) );
+            self.external_calls.push((krate, func));
         }
     }
 
@@ -60,7 +67,10 @@ impl FnInfo {
         }
     }
 
-    pub fn build_long_fn_info<'a, 'tcx>(&self, cx: &LateContext<'a, 'tcx>) -> results::functions::LongFnInfo {
+    pub fn build_long_fn_info<'a, 'tcx>(
+        &self,
+        cx: &LateContext<'a, 'tcx>,
+    ) -> results::functions::LongFnInfo {
         let name = cx.tcx.node_path_str(self.decl_id);
         let node_id = self.decl_id.to_string();
         let span = cx.tcx.hir.span(self.decl_id);
@@ -83,30 +93,23 @@ impl FnInfo {
             let mut crate_calls = Vec::new();
             self.external_calls
                 .iter()
-                .filter(|elt|
-                    elt.0 == *krate
-                )
+                .filter(|elt| elt.0 == *krate)
                 .for_each(|elt| {
-                    crate_calls.push(elt.1.clone() );
+                    crate_calls.push(elt.1.clone());
                 });
-            external_calls.push((crate_name.to_string(),crate_calls));
+            external_calls.push((crate_name.to_string(), crate_calls));
         });
-        results::functions::LongFnInfo::new(
-            name, node_id, location, local_calls, external_calls)
+        results::functions::LongFnInfo::new(name, node_id, location, local_calls, external_calls)
     }
 
-
-    pub fn build_short_fn_info<'a, 'tcx>(&self, cx: &LateContext<'a, 'tcx>) -> results::functions::ShortFnInfo {
+    pub fn build_short_fn_info<'a, 'tcx>(
+        &self,
+        cx: &LateContext<'a, 'tcx>,
+    ) -> results::functions::ShortFnInfo {
         let name = cx.tcx.node_path_str(self.decl_id);
         let node_id = self.decl_id.to_string();
         let span = cx.tcx.hir.span(self.decl_id);
         let location = util::get_file_and_line(cx, span);
-        results::functions::ShortFnInfo:: new (
-            name,
-            node_id,
-            location
-        )
+        results::functions::ShortFnInfo::new(name, node_id, location)
     }
-
 }
-

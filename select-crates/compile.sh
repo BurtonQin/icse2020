@@ -11,7 +11,7 @@ mkdir $COMPILER_OUTPUT_DIR
 
 rustup override set nightly-2018-08-29
 
-export RUSTFLAGS="--extern hidden_unsafe=$PROJECT_HOME/hidden_unsafe/target/debug/libhidden_unsafe.so -Z extra-plugins=hidden_unsafe --emit mir"
+export RUSTFLAGS="--extern unsafe_analysis=$PROJECT_HOME/unsafe_analysis/target/debug/libunsafe_analysis.so -Z extra-plugins=unsafe_analysis --emit mir"
 export RUST_BACKTRACE=1
 
 cd $CRATES_DIR

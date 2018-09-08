@@ -3,8 +3,8 @@ use rustc::hir;
 use rustc::lint::LateContext;
 use rustc::mir::visit::Visitor;
 use rustc::mir::{BasicBlock, Location, Operand, Terminator, TerminatorKind};
-use rustc::ty::TyKind;
 use rustc::ty;
+use rustc::ty::TyKind;
 
 pub fn build_call_graph<'a, 'tcx>(data: &mut Vec<FnInfo>, cx: &LateContext<'a, 'tcx>) {
     let tcx = &cx.tcx;
@@ -43,38 +43,40 @@ impl<'a, 'tcx> Visitor<'tcx> for CallsVisitor<'a, 'tcx> {
         if let TerminatorKind::Call {
             ref func,
             args: _,
-            destination:_,
+            destination: _,
             cleanup: _,
         } = terminator.kind
         {
             if let Operand::Constant(constant) = func {
-//                println!("func {:?} kind {:?}", func, constant.literal.ty.sty);
+                //                println!("func {:?} kind {:?}", func, constant.literal.ty.sty);
                 //if let TyKind::FnDef(callee_def_id, substs) = constant.literal.ty.sty {
                 if let TyKind::FnDef(callee_def_id, substs) = constant.literal.ty.sty {
-                    let param_env = self.cx.tcx.param_env( self.cx.tcx.hir.local_def_id(self.fn_info.decl_id()));
-                    if let Some(instance) = ty::Instance::resolve(self.cx.tcx,
-                                                                  param_env,
-                                                                  callee_def_id,
-                                                                  substs) {
+                    let param_env = self
+                        .cx
+                        .tcx
+                        .param_env(self.cx.tcx.hir.local_def_id(self.fn_info.decl_id()));
+                    if let Some(instance) =
+                        ty::Instance::resolve(self.cx.tcx, param_env, callee_def_id, substs)
+                    {
                         match instance.def {
                             ty::InstanceDef::Item(def_id)
                             | ty::InstanceDef::Intrinsic(def_id)
-                            | ty::InstanceDef::Virtual(def_id,_) => {
-                                if let Some (decl_node_id) = self.cx.tcx.hir.as_local_node_id(def_id) {
+                            | ty::InstanceDef::Virtual(def_id, _) => {
+                                if let Some(decl_node_id) = self.cx.tcx.hir.as_local_node_id(def_id)
+                                {
                                     //println!("func {:?} pushed local", func);
                                     self.fn_info.push_local_call(decl_node_id);
                                 } else {
-//                                    println!("func {:?} pushed external", func);
-                                    self.fn_info.push_external_call( self.cx, def_id);
+                                    //                                    println!("func {:?} pushed external", func);
+                                    self.fn_info.push_external_call(self.cx, def_id);
                                 }
                             }
-                            _ => {println!("ty::InstanceDef:: NOT handled {:?}", instance.def)}
+                            _ => println!("ty::InstanceDef:: NOT handled {:?}", instance.def),
                         }
                     } else {
-//                        println!("func {:?} pushed external", func);
+                        //                        println!("func {:?} pushed external", func);
                         self.fn_info.push_external_call(self.cx, callee_def_id);
                     }
-
                 } else {
                     println!("TypeVariants NOT handled {:?}", constant.literal.ty.sty);
                 }

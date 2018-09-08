@@ -4,10 +4,10 @@ use util;
 
 use rustc::hir;
 use rustc::hir::intravisit;
+use rustc::lint::LateContext;
 use rustc::mir::visit::Visitor;
 use rustc::mir::{BasicBlock, Location, Operand, Terminator, TerminatorKind};
 use rustc::ty::TyKind;
-use rustc::lint::LateContext;
 
 use results::implicit::UnsafeInBody;
 use results::implicit::UnsafeTraitSafeMethodInBody;
@@ -76,10 +76,11 @@ impl<'a, 'tcx> hir::intravisit::Visitor<'tcx> for UnsafeBlocksVisitorData<'tcx> 
     }
 }
 
-pub fn propagate_external<'a, 'tcx>(cx: &LateContext<'a, 'tcx>
-                                    , graph: &mut Vec<(&FnInfo, UnsafeInBody)>
-                                    , external_unsafety: &Vec<(hir::def_id::CrateNum, Vec<UnsafeInBody>)>)
-{
+pub fn propagate_external<'a, 'tcx>(
+    cx: &LateContext<'a, 'tcx>,
+    graph: &mut Vec<(&FnInfo, UnsafeInBody)>,
+    external_unsafety: &Vec<(hir::def_id::CrateNum, Vec<UnsafeInBody>)>,
+) {
     let mut changes = true;
     let mut with_unsafe = Vec::new();
 
@@ -94,10 +95,9 @@ pub fn propagate_external<'a, 'tcx>(cx: &LateContext<'a, 'tcx>
     for (ref fn_info, ref mut t) in graph.iter_mut() {
         // for each external call from the local function
         for (ext_crate_num, ext_call) in fn_info.external_calls() {
-            if let Some ((_,ub_vec)) = external_unsafety.iter().find(
-                |&x| *ext_crate_num == x.0 ) {
-                if let Some(ext_unsafety_in_body) = ub_vec.iter().find(
-                    |&x| x.fn_name == *ext_call) {
+            if let Some((_, ub_vec)) = external_unsafety.iter().find(|&x| *ext_crate_num == x.0) {
+                if let Some(ext_unsafety_in_body) = ub_vec.iter().find(|&x| x.fn_name == *ext_call)
+                {
                     if ext_unsafety_in_body.has_unsafe {
                         t.set();
                         with_unsafe.push(fn_info.decl_id());
@@ -120,16 +120,15 @@ pub fn propagate_external<'a, 'tcx>(cx: &LateContext<'a, 'tcx>
                     .into_iter()
                     //TODO continue here
                     .any(|call_id| with_unsafe.iter().any(|x| *x == *call_id))
-                    {
-                        with_unsafe.push(fn_info.decl_id());
-                        t.set();
-                        changes = true;
-                    }
+                {
+                    with_unsafe.push(fn_info.decl_id());
+                    t.set();
+                    changes = true;
+                }
             }
         }
     }
 }
-
 
 ////////////////////////////// Traits ///////////////////////////////////////////////////////
 
@@ -149,8 +148,8 @@ impl Analysis for UnsafeTraitSafeMethodInBody {
         let mut unsafe_trait_visitor = SafeMethodsInUnsafeTraits::new(cx);
         unsafe_trait_visitor.visit_mir(&mut mir);
         Self {
-            fn_name: util::get_node_name( cx,fn_info.decl_id() ),
-            has_unsafe: unsafe_trait_visitor.has_unsafe
+            fn_name: util::get_node_name(cx, fn_info.decl_id()),
+            has_unsafe: unsafe_trait_visitor.has_unsafe,
         }
     }
 }
@@ -182,35 +181,35 @@ impl<'a, 'tcx> Visitor<'tcx> for SafeMethodsInUnsafeTraits<'a, 'tcx> {
             destination: _,
             cleanup: _,
         } = terminator.kind
-            {
-                if let Operand::Constant(constant) = func {
-                    if let TyKind::FnDef(callee_def_id, _) = constant.literal.ty.sty {
-                        let calee_sig = self.cx.tcx.fn_sig(callee_def_id);
-                        if let hir::Unsafety::Normal = calee_sig.unsafety() {
-                            // need to find the trait if it's a method impl
-                            if callee_def_id.is_local() {
-                                let callee_node_id =
-                                    self.cx.tcx.hir.def_index_to_node_id(callee_def_id.index);
-                                match self.cx.tcx.hir.get(callee_node_id) {
-                                    hir::Node::TraitItem(ref _trait_item) => {
-                                        let trait_node_id =
-                                            self.cx.tcx.hir.get_parent_node(callee_node_id);
-                                        if let hir::Node::Item(item) =
+        {
+            if let Operand::Constant(constant) = func {
+                if let TyKind::FnDef(callee_def_id, _) = constant.literal.ty.sty {
+                    let calee_sig = self.cx.tcx.fn_sig(callee_def_id);
+                    if let hir::Unsafety::Normal = calee_sig.unsafety() {
+                        // need to find the trait if it's a method impl
+                        if callee_def_id.is_local() {
+                            let callee_node_id =
+                                self.cx.tcx.hir.def_index_to_node_id(callee_def_id.index);
+                            match self.cx.tcx.hir.get(callee_node_id) {
+                                hir::Node::TraitItem(ref _trait_item) => {
+                                    let trait_node_id =
+                                        self.cx.tcx.hir.get_parent_node(callee_node_id);
+                                    if let hir::Node::Item(item) =
                                         self.cx.tcx.hir.get(trait_node_id)
-                                            {
-                                                if let hir::ItemKind::Trait(_, unsafety, ..) = item.node {
-                                                    if let hir::Unsafety::Unsafe = unsafety {
-                                                        self.has_unsafe = true;
-                                                    }
-                                                }
+                                    {
+                                        if let hir::ItemKind::Trait(_, unsafety, ..) = item.node {
+                                            if let hir::Unsafety::Unsafe = unsafety {
+                                                self.has_unsafe = true;
                                             }
+                                        }
                                     }
-                                    _ => {}
                                 }
+                                _ => {}
                             }
                         }
                     }
                 }
             }
+        }
     }
 }

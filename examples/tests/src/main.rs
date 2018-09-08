@@ -40,26 +40,24 @@ trait Trait {
 
 struct SafeImpl {}
 
-
-fn nested_methods(test:bool) {
-    let s1 = UnsafeImpl{};
-    unsafe{
-            if test {
-                s1.unsafe_method_unsafe_trait();
-            } else {
-                UnsafeImpl::m2();
-            }
+fn nested_methods(test: bool) {
+    let s1 = UnsafeImpl {};
+    unsafe {
+        if test {
+            s1.unsafe_method_unsafe_trait();
+        } else {
+            UnsafeImpl::m2();
         }
+    }
 
     fn inner() {
-        let s1 = UnsafeImpl{};
+        let s1 = UnsafeImpl {};
         unsafe {
             s1.unsafe_method_unsafe_trait();
         }
     }
     inner();
 }
-
 
 //the impl must be unsafe if the trait is
 unsafe impl UnsafeTrait for SafeImpl {
@@ -225,7 +223,9 @@ fn main() {
     nested_methods(true);
 
     UnsafeImpl::m1();
-    unsafe{ UnsafeImpl::m2(); }
+    unsafe {
+        UnsafeImpl::m2();
+    }
 
     external_calls::use_trait();
 }
