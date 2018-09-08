@@ -87,7 +87,7 @@ impl<'a, 'tcx> Visitor<'tcx> for BasicBlocksVisitor<'a, 'tcx> {
                 }
             }
             rustc::mir::ClearCrossCrate::Clear => {
-                println!("unsafety_violations: - remote, skipping");
+                error!("unsafety_violations: - remote, skipping");
             }
         }
     }
@@ -120,10 +120,10 @@ impl<'a, 'tcx> rustc::hir::intravisit::Visitor<'tcx> for BlockVisitor<'tcx> {
                 self.unsafe_blocks = self.unsafe_blocks + 1;
             }
             rustc::hir::BlockCheckMode::PushUnsafeBlock(unsafe_source) => {
-                println!("hir::BlockCheckMode::PushUnsafeBlock {:?}", unsafe_source);
+                error!("hir::BlockCheckMode::PushUnsafeBlock {:?}", unsafe_source);
             }
             rustc::hir::BlockCheckMode::PopUnsafeBlock(unsafe_source) => {
-                println!("hir::BlockCheckMode::PopUnsafeBlock {:?}", unsafe_source);
+                error!("hir::BlockCheckMode::PopUnsafeBlock {:?}", unsafe_source);
             }
         }
         rustc::hir::intravisit::walk_block(self, b);

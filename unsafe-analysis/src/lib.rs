@@ -7,8 +7,10 @@
 #![feature(extern_prelude)]
 #![feature(box_patterns)]
 
-#[macro_use]
-extern crate rustc;
+#[macro_use] extern crate log;
+extern crate env_logger;
+
+#[macro_use] extern crate rustc;
 extern crate cargo;
 extern crate cargo_metadata;
 extern crate chrono;
@@ -142,6 +144,9 @@ impl<'a, 'tcx> LintPass for ImplicitUnsafe {
 }
 
 impl<'a, 'tcx> LateLintPass<'a, 'tcx> for ImplicitUnsafe {
+
+
+
     fn check_crate_post(&mut self, cx: &LateContext<'a, 'tcx>, _: &'tcx Crate) {
         let external_crates = deps::load_dependencies();
         // list of all normal and unsafe functions are available here
@@ -193,7 +198,6 @@ impl<'a, 'tcx> LateLintPass<'a, 'tcx> for ImplicitUnsafe {
         let bb_summary: results::blocks::BlockSummary =
             block_summary::collect(analysis::run_all(cx, &self.normal_functions, false));
         analysis::save_summary_analysis(bb_summary, &mut file_ops.get_blocks_summary_file());
-        //        self.print_external_calls(cx);
     }
 
     fn check_body(&mut self, cx: &LateContext<'a, 'tcx>, body: &'tcx hir::Body) {
@@ -231,7 +235,6 @@ pub fn is_unsafe_fn<'a, 'tcx>(node_id: NodeId, cx: &LateContext<'a, 'tcx>) -> bo
                     true
                 }
             } else {
-                //println!("Body owner node type NOT handled: {:?}", item);
                 false
             }
         }
@@ -251,7 +254,6 @@ pub fn is_fn_or_method<'a, 'tcx>(node_id: NodeId, cx: &LateContext<'a, 'tcx>) ->
             false
         }
         _ => {
-            //println!("Body owner node NOT handled: {:?}", node);
             false
         }
     }

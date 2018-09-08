@@ -52,7 +52,7 @@ fn process_fn_decl<'a, 'tcx>(
             }
         }
     } else {
-        println!("Decl NOT found {:?}", decl_id);
+        error!("Decl NOT found {:?}", decl_id);
     }
     res
 }
@@ -247,7 +247,7 @@ impl<'a, 'tcx> UnsafetySourcesVisitor<'a, 'tcx> {
                 source_scope_local_data: local_data,
             }),
             ClearCrossCrate::Clear => {
-                println!("unsafety_violations: {:?} - remote, skipping", fn_def_id);
+                error!("unsafety_violations: {:?} - remote, skipping", fn_def_id);
                 None
             }
         }
@@ -276,7 +276,7 @@ pub fn find_callee<'a, 'tcx>(
                         convert_abi(abi),
                     ))
                 } else {
-                    println!("local node id NOT found {:?}", callee_def_id);
+                    error!("local node id NOT found {:?}", callee_def_id);
                     None
                 }
             } else {
@@ -288,11 +288,11 @@ pub fn find_callee<'a, 'tcx>(
                 ))
             }
         } else {
-            println!("TypeVariants NOT handled {:?}", constant.literal.ty.sty);
+            error!("TypeVariants NOT handled {:?}", constant.literal.ty.sty);
             None
         }
     } else {
-        println!("find_callee::Operand Type NOT handled {:?}", func);
+        error!("find_callee::Operand Type NOT handled {:?}", func);
         None
     }
 }
@@ -333,7 +333,7 @@ impl<'a, 'tcx> Visitor<'tcx> for UnsafetySourcesVisitor<'a, 'tcx> {
                         self.data
                             .add_unsafety_source(self.cx, kind, loc, unsafety_node_id);
                     } else {
-                        println!("find_callee NOT found {:?}", func);
+                        error!("find_callee NOT found {:?}", func);
                     }
                 }
             }
@@ -362,7 +362,6 @@ impl<'a, 'tcx> Visitor<'tcx> for UnsafetySourcesVisitor<'a, 'tcx> {
             }
 
             StatementKind::InlineAsm { .. } => {
-                //                println!("Asm");
                 let unsafety_node_id = self.get_unsafety_node_id();
                 self.data.add_unsafety_source(
                     self.cx,
@@ -407,7 +406,6 @@ impl<'a, 'tcx> Visitor<'tcx> for UnsafetySourcesVisitor<'a, 'tcx> {
     ) {
         if let PlaceContext::Borrow { .. } = context {
             if rustc_mir::util::is_disaligned(self.cx.tcx, self.mir, self.param_env, place) {
-                //                println!("Unalligned Borrow");
                 let unsafety_node_id = self.get_unsafety_node_id();
                 self.data.add_unsafety_source(
                     self.cx,
@@ -432,7 +430,6 @@ impl<'a, 'tcx> Visitor<'tcx> for UnsafetySourcesVisitor<'a, 'tcx> {
                 let base_ty = base.ty(self.mir, self.cx.tcx).to_ty(self.cx.tcx);
                 match base_ty.sty {
                     ty::TyKind::RawPtr(..) => {
-                        //                        println!("DerefRawPointer");
                         let mut output = std::format!("{}", base_ty.sty);
                         let unsafety_node_id = self.get_unsafety_node_id();
                         self.data.add_unsafety_source(
@@ -461,7 +458,6 @@ impl<'a, 'tcx> Visitor<'tcx> for UnsafetySourcesVisitor<'a, 'tcx> {
                                     self.param_env,
                                     self.source_info.span,
                                 ) {
-                                    //                                    println!("AssignmentToNonCopyUnionField");
                                     let unsafety_node_id = self.get_unsafety_node_id();
                                     let kind = SourceKind::AssignmentToNonCopyUnionField(
                                         util::get_def_id_string(self.cx, adt.did),
@@ -476,7 +472,6 @@ impl<'a, 'tcx> Visitor<'tcx> for UnsafetySourcesVisitor<'a, 'tcx> {
                                     // write to non-move union, safe
                                 }
                             } else {
-                                //                                println!("AccessToUnionField");
                                 let unsafety_node_id = self.get_unsafety_node_id();
                                 self.data.add_unsafety_source(
                                     self.cx,
@@ -498,11 +493,9 @@ impl<'a, 'tcx> Visitor<'tcx> for UnsafetySourcesVisitor<'a, 'tcx> {
             }
             &Place::Promoted(ref _p) => {
                 //TODO find out what this is
-                //println!("Place::Promoted {:?}", p);
             }
             &Place::Static(box Static { def_id, ty: _ }) => {
                 if self.cx.tcx.is_static(def_id) == Some(hir::Mutability::MutMutable) {
-                    println!("Static");
                     let unsafety_node_id = self.get_unsafety_node_id();
                     self.data.add_unsafety_source(
                         self.cx,
@@ -511,7 +504,6 @@ impl<'a, 'tcx> Visitor<'tcx> for UnsafetySourcesVisitor<'a, 'tcx> {
                         unsafety_node_id,
                     );
                 } else if self.cx.tcx.is_foreign_item(def_id) {
-                    println!("ExternStatic");
                     let unsafety_node_id = self.get_unsafety_node_id();
                     self.data.add_unsafety_source(
                         self.cx,

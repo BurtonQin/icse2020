@@ -24,7 +24,6 @@ impl CrateInfo {
 }
 
 pub fn load_dependencies() -> Vec<CrateInfo> {
-    //    println!("CARGO_MANIFEST_DIR {:?}", env::var("CARGO_MANIFEST_DIR"));
     let mut manifest_path = PathBuf::from(env::var("CARGO_MANIFEST_DIR").unwrap());
     manifest_path.push("Cargo.toml");
 
@@ -54,10 +53,8 @@ pub fn load_all_analyses<'a, 'tcx>(
     for crate_info in external_crates.iter() {
         let mut analysis = load_analysis(cx, crate_info, data);
         if let Some(crate_res) = analysis.unwrap() {
-            //            println!("Loaded analysis for crate {:?}: {:?}", crate_info.name, crate_res);
             result.push(crate_res);
         } else {
-            //            println!("Loaded analysis for crate {:?}: EMPTY", crate_info.name);
         }
     }
     result
@@ -68,8 +65,6 @@ fn load_analysis<'a, 'tcx>(
     crate_info: &CrateInfo,
     data: &mut Vec<FnInfo>,
 ) -> Result<Option<(hir::def_id::CrateNum, Vec<UnsafeInBody>)>, &'static str> {
-    //    println!("Loading analysis for crate {:?}", crate_info.name);
-
     let mut external_calls = Vec::new();
     let mut result = Vec::new();
     //find crate_num by name
@@ -89,12 +84,12 @@ fn load_analysis<'a, 'tcx>(
             }
         }
 
-        println!("External calls to this crate: {:?}", external_calls);
+        info!("External calls to this crate: {:?}", external_calls);
 
         if external_calls.len() > 0 {
             let file_ops = results::FileOps::new(&crate_info.name, &crate_info.version);
             let file = file_ops.get_implicit_unsafe_file(false);
-            println!("Processsing file {:?}", file_ops.get_root_path_components());
+            debug!("Processsing file {:?}", file_ops.get_root_path_components());
             let mut reader = BufReader::new(file);
             //read line by line
             loop {
@@ -126,10 +121,10 @@ fn load_analysis<'a, 'tcx>(
         Ok(Some((*crate_num, result)))
     } else {
         if !util::is_excluded_crate(&crate_info.name) {
-            //println!("Error: crate id NOT found for {:?}", crate_info.name);
+            info!("Error: crate id NOT found for {:?}", crate_info.name);
             Ok(None)
         } else {
-            println!("Crate is excluded {:?}", crate_info.name);
+            info!("Crate is excluded {:?}", crate_info.name);
             Ok(None)
         }
     }
