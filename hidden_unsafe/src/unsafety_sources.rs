@@ -148,81 +148,9 @@ impl Analysis for UnsafeFnUsafetySources {
     }
 }
 
-//impl Print for UnsafeFnUsafetyAnalysis {
-//
-//    fn print<'a, 'tcx>(&self, cx: &LateContext<'a, 'tcx>, file: &mut File) -> () {
-//        if self.from_trait {
-//            write!(file, "\nUnsafe from signature in trait");
-//        }
-//        if !self.arguments.is_empty() {
-//            for arg in &self.arguments {
-//                writeln!(file,"");
-//                arg.print(cx, file);
-//            }
-//        }
-//        if !self.sources.is_empty() {
-//            //writeln!(file, "\nUnsafety in body: ");
-//            for source in &self.sources {
-//                writeln!(file,"");
-//                source.print(cx, file);
-//            }
-//        }
-//        writeln!(file, "");
-//    }
-//}
-//
-//impl Print for ArgumentKind {
-//    fn print<'a, 'tcx>(&self, _cx: &LateContext<'a, 'tcx>, file: &mut File) -> () {
-//        match self {
-//            ArgumentKind::RawPointer => {
-//                write!(file, "RawPointer");
-//            }
-//            ArgumentKind::UnsafeFunction => {
-//                write!(file, "UnsafeFunction");
-//            }
-//        }
-//    }
-//}
-//
-//impl Print for Argument {
-//    fn print<'a, 'tcx>(&self, cx: &LateContext<'a, 'tcx>, file: &mut File) -> () {
-//        write!(file,"Unsafety in arguments kind: ");
-//        self.kind.print(cx, file);
-//        write!(file, " Type: {:#?}", cx.tcx.hir.get(self.ty_node_id));
-//    }
-//}
-
 //////////////////////////////////////////////////////////////////////
 // Unsafe Blocks Analysis
 //////////////////////////////////////////////////////////////////////
-
-//impl Print for UnsafeBlockUnsafetyAnalysis {
-//
-//    fn empty(&self) -> bool {
-//        self.sources.is_empty()
-//    }
-//
-//    fn print<'a, 'tcx>(&self, cx: &LateContext<'a, 'tcx>, file: &mut File) -> () {
-//        if !self.sources.is_empty() {
-//            //writeln!(file, "\nUnsafety in unsafe blocks: ");
-//            for (node_id, block_sources) in self.sources.iter() {
-//                // todo print span with \n as new line
-//                let item = cx.tcx.hir.get(*node_id);
-//                if let hir::Node::Block(ref block) = item {
-//                    let span = block.span;
-//                    write!(file, "\nBlock node_id: {}, Block: {}",
-//                             node_id, cx.tcx.sess.source_map().span_to_snippet(span).unwrap());
-//                }
-//                for source in block_sources {
-//                    writeln!(file,"");
-//                    source.print(cx, file);
-//                }
-//                writeln!(file,"");
-//            }
-//        }
-//    }
-//
-//}
 
 impl UnsafetySourceCollector for BlockUnsafetyAnalysisSources {
     fn add_unsafety_source<'a, 'tcx>(&mut self

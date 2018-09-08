@@ -1,7 +1,24 @@
-use util;
 use unsafety_sources::Source;
 
-static BLOCK_UNSAFETY_SOURCES_FILE_NAME: &'static str = "40_unsafe_blocks";
+#[derive(Serialize, Deserialize, Debug)]
+pub struct BlockSummary {
+    pub in_unsafe_bb: usize,
+    pub total_bb: usize,
+    pub hir_unsafe_blocks: usize,
+    pub hir_total: usize,
+}
+
+impl BlockSummary {
+    pub fn new(in_unsafe_bb: usize,
+               total_bb: usize,
+               hir_unsafe_blocks: usize,
+               hir_total: usize) -> Self {
+        BlockSummary {
+            in_unsafe_bb, total_bb
+            , hir_unsafe_blocks, hir_total
+        }
+    }
+}
 
 #[derive(Serialize, Deserialize, Debug)]
 pub struct BlockUnsafetyAnalysisSources {
@@ -31,9 +48,4 @@ impl BlockUnsafetyAnalysisSources {
         }
     }
 
-}
-
-pub fn get_blocks_unsafety_sources_file(crate_name: String,
-                                    crate_version: String) -> util::FileOps {
-    util::FileOps::new( crate_name, crate_version, BLOCK_UNSAFETY_SOURCES_FILE_NAME)
 }
