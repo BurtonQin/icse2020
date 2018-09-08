@@ -1,5 +1,8 @@
 # external_calls
 
+<h1>Tools to be installed</h1>
+cargo install clone
+
 <h1>Download top N crates from crates.io</h1>
 
 Execute: cd select-crates
@@ -8,22 +11,22 @@ Clean up to run a fresh counter download:<br>
 rm crates.io-fixed
 
 Download top N crates (N is the parameter passed): <br>
-./crate_info_query.sh N
+./crates_select_and_download.sh N
 
 If the file crates.io-fixed exists then it uses it, otherwise it is created. This file contains the information downloaded from crates.io for each crate from crates.io-index repository.
 
 The script parses the file and retains the top N crate names and the downloads in top-N-crates.io.
 
-Next, it downloads using cargo-clone each crate in top-N-crates.io in the directory: /tmp/unsafe_analysis/crates.io-downloads.
+Next, it downloads each crate in top-N-crates.io in the directory: /tmp/unsafe_analysis/crates.io-downloads.It uses cargo clone.
 
 <h1>To compile the compiler plugins: </h1>
 
-cd hidden_unsafe; cargo build
+cd unsafe-analysis/; cargo build
 
 <h1>Run the plugin on one crate</h1>
 rustup override set nightly-2018-08-29<br>
 export PROJECT_HOME="/home/nora/work/external_calls" #change this to your path<br>
-export RUSTFLAGS="--extern hidden_unsafe=$PROJECT_HOME/hidden_unsafe/target/debug/libhidden_unsafe.so -Z extra-plugins=hidden_unsafe  --emit mir"<br>
+export RUSTFLAGS="--extern hidden_unsafe=$PROJECT_HOME/unsafe-analysis/target/debug/libunsafe-analysis.so -Z extra-plugins=unsafe-analysis  --emit mir"<br>
 cargo build
 
 <h1>Run examples from repository</h1>
