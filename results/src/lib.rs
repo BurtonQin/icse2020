@@ -2,20 +2,20 @@
 
 #[macro_use]
 extern crate serde_derive;
+extern crate chrono;
 extern crate serde;
 extern crate serde_json;
-extern crate chrono;
 
-pub mod implicit;
-pub mod functions;
-pub mod unsafety_sources;
 pub mod blocks;
+pub mod functions;
+pub mod implicit;
 pub mod traits;
+pub mod unsafety_sources;
 
-use std::path::PathBuf;
-use std::fs::OpenOptions;
-use std::fs::File;
 use std::fs::DirBuilder;
+use std::fs::File;
+use std::fs::OpenOptions;
+use std::path::PathBuf;
 
 static ROOT_DIR: &'static str = "/tmp/unsafe_analysis/analysis_results/";
 static IMPLICIT_FILENAME: &'static str = "10_unsafe_in_call_tree";
@@ -27,7 +27,7 @@ static FN_UNSAFETY_SOURCES_FILE_NAME: &'static str = "30_unsafe_fn";
 static EXTERNAL_CALLS_SUMMARY: &'static str = "03_external_calls_summary";
 static BLOCK_UNSAFETY_SOURCES_FILE_NAME: &'static str = "40_unsafe_blocks";
 static BLOCK_SUMMARY_BB: &'static str = "41_blocks_summary";
-static NO_REASON_FOR_UNSAFE : &'static str = "31_no_reason";
+static NO_REASON_FOR_UNSAFE: &'static str = "31_no_reason";
 static UNSAFE_TRAITS: &'static str = "50_unsafe_traits";
 
 pub struct FileOps<'a> {
@@ -35,12 +35,13 @@ pub struct FileOps<'a> {
     crate_version: &'a String,
 }
 
-impl <'a> FileOps<'a> {
-    pub fn new(crate_name: &'a String,
-               crate_version: &'a String) -> Self {
-        FileOps { crate_name, crate_version }
+impl<'a> FileOps<'a> {
+    pub fn new(crate_name: &'a String, crate_version: &'a String) -> Self {
+        FileOps {
+            crate_name,
+            crate_version,
+        }
     }
-
 
     pub fn open_file(&self, analysis_name: &'static str, save_old: bool) -> File {
         let file_path = self.get_path(analysis_name.to_string());
@@ -51,7 +52,7 @@ impl <'a> FileOps<'a> {
             let dt = chrono::offset::utc::UTC::now();
             let newdate = dt.format("_%Y_%m_%d_%H_%M_%S");
             new_name.push_str(newdate.to_string().as_str());
-            let new_path: PathBuf = self.get_path(new_name );
+            let new_path: PathBuf = self.get_path(new_name);
             std::fs::rename(file_path.as_path(), new_path).unwrap();
         }
 
@@ -59,20 +60,26 @@ impl <'a> FileOps<'a> {
         OpenOptions::new()
             .read(true)
             .write(true)
-            .create(true).open(file_path).unwrap()
+            .create(true)
+            .open(file_path)
+            .unwrap()
     }
 
     pub fn get_root_path_components(&self) -> [String; 3] {
-        [ROOT_DIR.to_string()
-            , self.crate_name.clone()
-            , self.crate_version.clone()]
+        [
+            ROOT_DIR.to_string(),
+            self.crate_name.clone(),
+            self.crate_version.clone(),
+        ]
     }
 
     pub fn get_analysis_path_components(&self, filename: String) -> [String; 4] {
-        [ROOT_DIR.to_string()
-            , self.crate_name.clone()
-            , self.crate_version.clone()
-            , filename]
+        [
+            ROOT_DIR.to_string(),
+            self.crate_name.clone(),
+            self.crate_version.clone(),
+            filename,
+        ]
     }
 
     fn get_path(&self, filename: String) -> PathBuf {
@@ -128,4 +135,3 @@ impl <'a> FileOps<'a> {
         self.open_file(UNSAFE_TRAITS, true)
     }
 }
-

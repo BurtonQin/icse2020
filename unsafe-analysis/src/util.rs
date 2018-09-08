@@ -1,32 +1,28 @@
 use syntax::ast::NodeId;
 
 use rustc::hir;
-use rustc::lint::LateContext;
 use rustc::hir::def_id::DefId;
-use syntax_pos::Span;
-use std::path::Path;
+use rustc::lint::LateContext;
 use std::fmt::Write;
+use std::path::Path;
+use syntax_pos::Span;
 
 pub fn get_node_name<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, node_id: NodeId) -> String {
     cx.tcx.node_path_str(node_id)
 }
 
-pub fn get_def_id_string <'a, 'tcx>(_cx: &LateContext<'a, 'tcx>, def_id: DefId) -> String {
+pub fn get_def_id_string<'a, 'tcx>(_cx: &LateContext<'a, 'tcx>, def_id: DefId) -> String {
     let mut res = String::new();
     // TODO might add details
     write!(res, "{:#?}", def_id);
     res
 }
 
-pub fn get_file_and_line<'a, 'tcx>( cx: &LateContext<'a, 'tcx>, span: Span ) -> String {
+pub fn get_file_and_line<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, span: Span) -> String {
     let mut result = String::new();
     let loc = cx.tcx.sess.source_map().lookup_char_pos(span.lo());
     let filename = &loc.file.name;
-    write!(result,
-           "file: {:?} line {:?}",
-            filename,
-            loc.line
-    );
+    write!(result, "file: {:?} line {:?}", filename, loc.line);
     result
 }
 
@@ -38,13 +34,14 @@ pub fn local_crate_name_and_version() -> (String, String) {
 
     //println!("Crate {:?} Version {:?}", metadata.packages[0].name.clone(),metadata.packages[0].version.clone());
 
-    (metadata.packages[0].name.clone(),metadata.packages[0].version.clone())
+    (
+        metadata.packages[0].name.clone(),
+        metadata.packages[0].version.clone(),
+    )
 }
 
 pub fn is_excluded_crate(crate_name: &String) -> bool {
-    crate_name.as_str() == "alloc"
-        || crate_name.as_str() == "std"
-        || crate_name.as_str() == "core"
+    crate_name.as_str() == "alloc" || crate_name.as_str() == "std" || crate_name.as_str() == "core"
 }
 
 pub fn is_unsafe_method<'a, 'tcx>(node_id: NodeId, cx: &LateContext<'a, 'tcx>) -> bool {
@@ -62,8 +59,6 @@ pub fn is_unsafe_method<'a, 'tcx>(node_id: NodeId, cx: &LateContext<'a, 'tcx>) -
                 false
             }
         }
-        _ => { false }
+        _ => false,
     }
 }
-
-

@@ -20,7 +20,7 @@ function compile_2 {
 }
 
 
-export RUSTFLAGS="--extern hidden_unsafe=$PLUGIN_HOME/hidden_unsafe/target/debug/libhidden_unsafe.so -Z extra-plugins=hidden_unsafe --emit mir"
+export RUSTFLAGS="--extern unsafe_analysis=$PLUGIN_HOME/unsafe_analysis/target/debug/libunsafe_analysis.so -Z extra-plugins=unsafe_analysis --emit mir"
 
 compile_2 xi-editor rust
 

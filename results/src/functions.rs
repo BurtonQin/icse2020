@@ -6,19 +6,25 @@ pub struct LongFnInfo {
     node_id: String,
     location: String,
     // pairs (name,node_id)
-    local_calls: Vec<(String,String)>,
-    external_calls: Vec<(String,Vec<String>)>,
+    local_calls: Vec<(String, String)>,
+    external_calls: Vec<(String, Vec<String>)>,
 }
 
 impl LongFnInfo {
-    pub fn new(name: String,
-               node_id: String,
-               location: String,
-               // pairs (name,node_id)
-               local_calls: Vec<(String,String)>,
-               external_calls: Vec<(String,Vec<String>)> ) -> Self {
-        LongFnInfo{
-            name, node_id, location, local_calls, external_calls
+    pub fn new(
+        name: String,
+        node_id: String,
+        location: String,
+        // pairs (name,node_id)
+        local_calls: Vec<(String, String)>,
+        external_calls: Vec<(String, Vec<String>)>,
+    ) -> Self {
+        LongFnInfo {
+            name,
+            node_id,
+            location,
+            local_calls,
+            external_calls,
         }
     }
 }
@@ -31,27 +37,24 @@ pub struct ShortFnInfo {
 }
 
 impl ShortFnInfo {
-    pub fn new(name: String,
-               node_id: String,
-               location: String) -> Self {
+    pub fn new(name: String, node_id: String, location: String) -> Self {
         ShortFnInfo {
             name,
             node_id,
-            location
+            location,
         }
     }
 }
 
 #[derive(Serialize, Deserialize, Debug)]
-pub struct Summary{
+pub struct Summary {
     unsafe_no: usize,
     total: usize,
 }
 
 impl Summary {
-    pub fn new(unsafe_no: usize,
-               total: usize) -> Self {
-        Summary{ unsafe_no, total }
+    pub fn new(unsafe_no: usize, total: usize) -> Self {
+        Summary { unsafe_no, total }
     }
 }
 
@@ -64,10 +67,18 @@ pub struct UnsafeFnUsafetySources {
 }
 
 impl UnsafeFnUsafetySources {
-    pub fn name(&self) -> &String {&self.name}
-    pub fn from_trait(&self) -> bool {self.from_trait}
-    pub fn arguments(&self) -> &Vec<Argument> {&self.arguments}
-    pub fn sources(&self) -> &Vec<Source> {&self.sources}
+    pub fn name(&self) -> &String {
+        &self.name
+    }
+    pub fn from_trait(&self) -> bool {
+        self.from_trait
+    }
+    pub fn arguments(&self) -> &Vec<Argument> {
+        &self.arguments
+    }
+    pub fn sources(&self) -> &Vec<Source> {
+        &self.sources
+    }
 }
 
 #[derive(Serialize, Deserialize, Debug)]
@@ -77,9 +88,8 @@ pub struct Argument {
 }
 
 impl Argument {
-    pub fn new(type_info: String,
-               kind: ArgumentKind) -> Self {
-        Self{ type_info, kind }
+    pub fn new(type_info: String, kind: ArgumentKind) -> Self {
+        Self { type_info, kind }
     }
 }
 
@@ -110,15 +120,15 @@ impl UnsafeFnUsafetySources {
 
 #[derive(Serialize, Deserialize, Debug)]
 pub struct ExternalCallsSummary {
-    calls: Vec<(String,usize)>,
+    calls: Vec<(String, usize)>,
 }
 
 impl ExternalCallsSummary {
     pub fn new() -> Self {
-        ExternalCallsSummary{ calls: Vec::new() }
+        ExternalCallsSummary { calls: Vec::new() }
     }
 
     pub fn push(&mut self, fn_name: String, count: usize) {
-        self.calls.push((fn_name,count));
+        self.calls.push((fn_name, count));
     }
 }

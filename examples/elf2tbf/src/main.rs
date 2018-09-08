@@ -1,6 +1,3 @@
-//#![feature(plugin)]
-//#![plugin(hidden_unsafe)]
-
 extern crate elf;
 extern crate getopts;
 

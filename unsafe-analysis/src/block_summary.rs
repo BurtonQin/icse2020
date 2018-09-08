@@ -3,11 +3,10 @@ use rustc::lint::LateContext;
 use rustc::mir::visit::Visitor;
 
 use analysis::Analysis;
-use results::blocks::BlockSummary;
 use fn_info::FnInfo;
+use results::blocks::BlockSummary;
 
 impl Analysis for BlockSummary {
-
     fn run_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, fn_info: &'a FnInfo) -> Self {
         let fn_def_id = cx.tcx.hir.local_def_id(fn_info.decl_id());
         //needed for the borrow checker
@@ -18,8 +17,12 @@ impl Analysis for BlockSummary {
         let body = cx.tcx.hir.body(body_id);
         let mut hir_visitor = BlockVisitor::new(&cx.tcx.hir);
         rustc::hir::intravisit::walk_body(&mut hir_visitor, body);
-        BlockSummary::new( body_visitor.in_unsafe_bb, body_visitor.total_bb
-                           , hir_visitor.unsafe_blocks, hir_visitor.total_blocks )
+        BlockSummary::new(
+            body_visitor.in_unsafe_bb,
+            body_visitor.total_bb,
+            hir_visitor.unsafe_blocks,
+            hir_visitor.total_blocks,
+        )
     }
 }
 
@@ -34,11 +37,15 @@ pub fn collect(res: Vec<(&FnInfo, BlockSummary)>) -> BlockSummary {
         hir_unsafe_blocks = hir_unsafe_blocks + summary.hir_unsafe_blocks;
         hir_total = hir_total + summary.hir_total;
     }
-    BlockSummary{ in_unsafe_bb, total_bb, hir_unsafe_blocks, hir_total }
+    BlockSummary {
+        in_unsafe_bb,
+        total_bb,
+        hir_unsafe_blocks,
+        hir_total,
+    }
 }
 
 ////////////////////// Hir Analysis
-
 
 //////////////////// Mir Analysis
 struct BasicBlocksVisitor<'a, 'tcx: 'a> {
@@ -48,8 +55,12 @@ struct BasicBlocksVisitor<'a, 'tcx: 'a> {
 }
 
 impl<'a, 'tcx> BasicBlocksVisitor<'a, 'tcx> {
-    fn new(mir: &'a rustc::mir::Mir<'tcx> ) -> Self {
-        BasicBlocksVisitor { mir, in_unsafe_bb: 0 as usize, total_bb: 0 as usize}
+    fn new(mir: &'a rustc::mir::Mir<'tcx>) -> Self {
+        BasicBlocksVisitor {
+            mir,
+            in_unsafe_bb: 0 as usize,
+            total_bb: 0 as usize,
+        }
     }
 }
 
@@ -67,10 +78,9 @@ impl<'a, 'tcx> Visitor<'tcx> for BasicBlocksVisitor<'a, 'tcx> {
                 if let Some(local_data) = local_data_set.get(terminator.source_info.scope) {
                     match local_data.safety {
                         // TODO think more about Safety::BuiltinUnsafe
-                        rustc::mir::Safety::Safe |
-                        rustc::mir::Safety::FnUnsafe => {}
-                        rustc::mir::Safety::BuiltinUnsafe |
-                        rustc::mir::Safety::ExplicitUnsafe(_) => {
+                        rustc::mir::Safety::Safe | rustc::mir::Safety::FnUnsafe => {}
+                        rustc::mir::Safety::BuiltinUnsafe
+                        | rustc::mir::Safety::ExplicitUnsafe(_) => {
                             self.in_unsafe_bb = self.in_unsafe_bb + 1;
                         }
                     }
@@ -91,12 +101,12 @@ struct BlockVisitor<'tcx> {
     hir: &'tcx rustc::hir::map::Map<'tcx>,
 }
 
-impl <'tcx> BlockVisitor<'tcx> {
+impl<'tcx> BlockVisitor<'tcx> {
     pub fn new(hir: &'tcx rustc::hir::map::Map<'tcx>) -> Self {
-        BlockVisitor{
+        BlockVisitor {
             unsafe_blocks: 0 as usize,
             total_blocks: 0 as usize,
-            hir
+            hir,
         }
     }
 }
@@ -119,7 +129,9 @@ impl<'a, 'tcx> rustc::hir::intravisit::Visitor<'tcx> for BlockVisitor<'tcx> {
         rustc::hir::intravisit::walk_block(self, b);
     }
 
-    fn nested_visit_map<'this>(&'this mut self) -> rustc::hir::intravisit::NestedVisitorMap<'this, 'tcx> {
+    fn nested_visit_map<'this>(
+        &'this mut self,
+    ) -> rustc::hir::intravisit::NestedVisitorMap<'this, 'tcx> {
         rustc::hir::intravisit::NestedVisitorMap::All(self.hir)
     }
 }
