@@ -94,9 +94,6 @@ pub fn propagate_external<'a, 'tcx>(cx: &LateContext<'a, 'tcx>
     for (ref fn_info, ref mut t) in graph.iter_mut() {
         // for each external call from the local function
         for (ext_crate_num, ext_call) in fn_info.external_calls() {
-
-//            println!("ext_call {:?} {:?}", ext_call, external_unsafety);
-
             if let Some ((_,ub_vec)) = external_unsafety.iter().find(
                 |&x| *ext_crate_num == x.0 ) {
                 if let Some(ext_unsafety_in_body) = ub_vec.iter().find(
@@ -106,11 +103,8 @@ pub fn propagate_external<'a, 'tcx>(cx: &LateContext<'a, 'tcx>
                         with_unsafe.push(fn_info.decl_id());
                     }
                 } else {
-                    //TODO do not warn for std, core, alloc
-                    let crate_name = cx.tcx.crate_name(*ext_crate_num);
-                    if crate_name.as_str() != "alloc"
-                        && crate_name.as_str() != "std"
-                        && crate_name.as_str() != "core" {
+                    let crate_name = cx.tcx.crate_name(*ext_crate_num).to_string();
+                    if !util::is_excluded_crate(&crate_name) {
                         println!("Error external call NOT found {:?}", ext_call);
                     }
                 }
@@ -138,21 +132,6 @@ pub fn propagate_external<'a, 'tcx>(cx: &LateContext<'a, 'tcx>
 
 
 ////////////////////////////// Traits ///////////////////////////////////////////////////////
-
-//impl UnsafeTraitSafeMethodInBody {
-//    fn new(fn_name: String) -> Self {
-//        UnsafeTraitSafeMethodInBody { fn_name, has_unsafe: false }
-//    }
-//
-//    pub fn save_analysis( analysis_results: Vec<(&FnInfo, SafeMethodsInUnsafeTraits)> ) {
-//        let cnv = util::local_crate_name_and_version();
-//        let file = results::implicit::get_implicit_unsafe_file(cnv.0, cnv.1).open_file();
-//        for (_,t) in analysis_results.iter() {
-//            let serialized = serde_json::to_string(t as &SafeMethodsInUnsafeTraits).unwrap();
-//            writeln!(file, "{}", serialized);
-//        }
-//    }
-//}
 
 impl Analysis for UnsafeTraitSafeMethodInBody {
     fn is_set(&self) -> bool {

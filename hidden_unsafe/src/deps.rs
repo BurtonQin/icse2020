@@ -90,18 +90,14 @@ fn load_analysis<'a, 'tcx>( cx: &'a LateContext<'a, 'tcx>
         println!("External calls to this crate: {:?}", external_calls);
 
         if external_calls.len() > 0 {
-            let file_ops = results::implicit::get_implicit_unsafe_file(crate_info.name.clone()
-                                                                       , crate_info.version.clone());
-            let file = file_ops.open_file(false);
+            let file_ops = results::FileOps::new(&crate_info.name, &crate_info.version);
+            let file = file_ops.get_implicit_unsafe_file(false);
             println!("Processsing file {:?}", file_ops.get_root_path_components() );
             let mut reader = BufReader::new(file);
             //read line by line
             loop {
                 let mut line = String::new();
                 let len = reader.read_line(&mut line).expect("Error reading file");
-
-//                println!("Processing line {:?}", line);
-
                 if len == 0 {
                     //EOF reached
                     break
@@ -110,9 +106,6 @@ fn load_analysis<'a, 'tcx>( cx: &'a LateContext<'a, 'tcx>
                     let trimmed_line = line.trim_right();
                     let ub: UnsafeInBody = serde_json::from_str(&trimmed_line).unwrap();
                     let mut _found = false;
-
-//                    println!("crate {:}, call {:?}", crate_info.name, ub.fn_name);
-
                     for &call in external_calls.iter() {
                         if call.as_str().ends_with(ub.fn_name.as_str()) {
                             result.push(UnsafeInBody {

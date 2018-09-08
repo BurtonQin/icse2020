@@ -1,10 +1,4 @@
-use util;
 use unsafety_sources::Source;
-
-static SAFE_FUNCTIONS_FILENAME: &'static str = "00_safe_functions";
-static UNSAFE_FUNCTIONS_FILENAME: &'static str = "01_unsafe_functions";
-static SUMMARY_FUNCTIONS_FILE_NAME: &'static str = "02_summary_functions";
-static FN_UNSAFETY_SOURCES_FILE_NAME: &'static str = "30_unsafe_fn";
 
 #[derive(Serialize, Deserialize, Debug)]
 pub struct LongFnInfo {
@@ -107,22 +101,17 @@ impl UnsafeFnUsafetySources {
     }
 }
 
-pub fn get_safe_functions_file(crate_name: String,
-                                crate_version: String) -> util::FileOps {
-    util::FileOps::new( crate_name, crate_version, SAFE_FUNCTIONS_FILENAME)
+#[derive(Serialize, Deserialize, Debug)]
+pub struct ExternalCallsSummary {
+    calls: Vec<(String,usize)>,
 }
 
-pub fn get_unsafe_functions_file(crate_name: String,
-                               crate_version: String) -> util::FileOps {
-    util::FileOps::new( crate_name, crate_version, UNSAFE_FUNCTIONS_FILENAME)
-}
+impl ExternalCallsSummary {
+    pub fn new() -> Self {
+        ExternalCallsSummary{ calls: Vec::new() }
+    }
 
-pub fn get_summary_functions_file(crate_name: String,
-                                 crate_version: String) -> util::FileOps {
-    util::FileOps::new( crate_name, crate_version, SUMMARY_FUNCTIONS_FILE_NAME)
-}
-
-pub fn get_fn_unsafety_sources_file(crate_name: String,
-                                  crate_version: String) -> util::FileOps {
-    util::FileOps::new( crate_name, crate_version, FN_UNSAFETY_SOURCES_FILE_NAME)
+    pub fn push(&mut self, fn_name: String, count: usize) {
+        self.calls.push((fn_name,count));
+    }
 }
