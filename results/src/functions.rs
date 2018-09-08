@@ -63,6 +63,13 @@ pub struct UnsafeFnUsafetySources {
     sources: Vec<Source>,
 }
 
+impl UnsafeFnUsafetySources {
+    pub fn name(&self) -> &String {&self.name}
+    pub fn from_trait(&self) -> bool {self.from_trait}
+    pub fn arguments(&self) -> &Vec<Argument> {&self.arguments}
+    pub fn sources(&self) -> &Vec<Source> {&self.sources}
+}
+
 #[derive(Serialize, Deserialize, Debug)]
 pub struct Argument {
     type_info: String,

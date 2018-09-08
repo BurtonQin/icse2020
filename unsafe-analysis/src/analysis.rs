@@ -17,7 +17,7 @@ pub trait Analysis {
     fn run_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, fn_info: &'a FnInfo) -> Self;
 }
 
-pub fn save_analysis<T>( analysis_results: Vec<(&FnInfo, T)>, file: &mut File )
+pub fn save_analysis<T>( analysis_results: &Vec<(&FnInfo, T)>, file: &mut File )
     where T: serde::ser::Serialize
 {
     for (_,t) in analysis_results.iter() {
@@ -33,7 +33,7 @@ pub fn save_summary_analysis<T>( analysis_results: T, file: &mut File )
     writeln!(file, "{}", serialized);
 }
 
-pub fn save_analysis_with_fn_info<'a, 'tcx, T>(cx: &LateContext<'a, 'tcx>, analysis_results: Vec<(&FnInfo, T)>, file: &mut File )
+pub fn save_analysis_with_fn_info<'a, 'tcx, T>(cx: &LateContext<'a, 'tcx>, analysis_results: &Vec<(&FnInfo, T)>, file: &mut File )
     where T: serde::ser::Serialize
 {
     for (fn_info,t) in analysis_results.iter() {

@@ -4,7 +4,7 @@
 
 if [ -z "$1" ]
 then 
-	TOP=10
+	TOP=500
 else 
 	TOP=$1
 fi

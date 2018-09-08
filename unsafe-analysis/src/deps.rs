@@ -51,10 +51,10 @@ pub fn load_all_analyses<'a, 'tcx>( cx: &'a LateContext<'a, 'tcx>
     for crate_info in external_crates.iter() {
         let mut analysis = load_analysis(cx, crate_info, data);
         if let Some (crate_res) =  analysis.unwrap() {
-            println!("Loaded analysis for crate {:?}: {:?}", crate_info.name, crate_res);
+//            println!("Loaded analysis for crate {:?}: {:?}", crate_info.name, crate_res);
             result.push(crate_res);
         } else {
-            println!("Loaded analysis for crate {:?}: EMPTY", crate_info.name);
+//            println!("Loaded analysis for crate {:?}: EMPTY", crate_info.name);
         }
     }
     result
@@ -64,7 +64,7 @@ fn load_analysis<'a, 'tcx>( cx: &'a LateContext<'a, 'tcx>
                             , crate_info: &CrateInfo, data: &mut Vec<FnInfo> )
     -> Result<Option<(hir::def_id::CrateNum, Vec<UnsafeInBody>)>, &'static str> {
 
-    println!("Loading analysis for crate {:?}", crate_info.name);
+//    println!("Loading analysis for crate {:?}", crate_info.name);
 
     let mut external_calls = Vec::new();
     let mut result = Vec::new();

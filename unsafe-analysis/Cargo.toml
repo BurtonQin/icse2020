@@ -1,10 +1,10 @@
 [package]
-name = "hidden_unsafe"
+name = "unsafe_analysis"
 version = "0.1.0"
 authors = ["Ana Nora Evans <ananevans@gmail.com>"]
 
 [lib]
-name = "hidden_unsafe"
+name = "unsafe_analysis"
 path = "src/lib.rs"
 plugin = true
 

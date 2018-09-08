@@ -1,4 +1,4 @@
-#![crate_name = "hidden_unsafe"]
+#![crate_name = "unsafe_analysis"]
 #![crate_type = "dylib"]
 #![feature(plugin_registrar)]
 #![feature(rustc_private)]
@@ -40,6 +40,7 @@ mod implicit_analysis;
 mod util;
 mod deps;
 mod block_summary;
+mod traits;
 
 
 use results::functions::UnsafeFnUsafetySources;
@@ -99,6 +100,11 @@ impl ImplicitUnsafe {
         let mut external_calls_summary_file = file_ops.get_external_calls_summary_file();
         let summary = self.collect_external_calls();
         analysis::save_summary_analysis( summary, &mut external_calls_summary_file);
+        // unsafe traits
+        let mut traits_file = file_ops.get_unsafe_traits_file();
+        let unsafe_traits = traits::run_analysis(cx);
+        analysis::save_summary_analysis(unsafe_traits,&mut traits_file);
+
     }
 
     fn collect_external_calls(&self) -> results::functions::ExternalCallsSummary {
@@ -152,24 +158,29 @@ impl<'a, 'tcx> LateLintPass<'a, 'tcx> for ImplicitUnsafe {
                                                       , &mut self.normal_functions);
         let mut res1: Vec<(&FnInfo, UnsafeInBody)> = analysis::run_all(cx, &self.normal_functions, true);
         propagate_external( cx, &mut res1, &implicit_external);
-        analysis::save_analysis::<UnsafeInBody>(res1 as Vec<(&FnInfo, UnsafeInBody)>,
+        analysis::save_analysis::<UnsafeInBody>(&res1,
                                           &mut file_ops.get_implicit_unsafe_file(true));
 
         // implicit unsafe from traits analysis
         let res2: Vec<(&FnInfo, UnsafeTraitSafeMethodInBody)> = analysis::run_all(cx, &self.normal_functions, true);
-        analysis::save_analysis(res2, &mut file_ops.get_implicit_trait_unsafe_file());
+        analysis::save_analysis(&res2, &mut file_ops.get_implicit_trait_unsafe_file());
 
         // unsafety sources in unsafe functions
         let unsafe_fn_info: Vec<(&FnInfo, UnsafeFnUsafetySources)> =
             analysis::run_all(cx, &self.unsafe_functions, false);
-        analysis::save_analysis(unsafe_fn_info,
+        analysis::save_analysis(&unsafe_fn_info,
             &mut file_ops.get_fn_unsafety_sources_file()
+        );
+        // no reason unsafe functions
+        let no_reason = unsafety_sources::collect_no_reason(cx, &unsafe_fn_info);
+        analysis::save_analysis(&no_reason,
+                                &mut file_ops.get_no_reason_for_unsafety_file()
         );
 
         // unsafety sources in unsafe blocks
         let safe_fn_info: Vec<(&FnInfo, BlockUnsafetyAnalysisSources)> =
             analysis::run_all(cx, &self.normal_functions, false);
-        analysis::save_analysis_with_fn_info( cx,safe_fn_info,
+        analysis::save_analysis_with_fn_info( cx,&safe_fn_info,
                 &mut file_ops.get_blocks_unsafety_sources_file()
         );
 

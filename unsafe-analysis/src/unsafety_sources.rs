@@ -27,7 +27,18 @@ use results::unsafety_sources::FnCallInfo;
 //////////////////////////////////////////////////////////////////////
 // Unsafe Functions Analysis
 //////////////////////////////////////////////////////////////////////
-
+pub fn collect_no_reason<'a, 'tcx, 'b, 'c>(cx: &LateContext<'a, 'tcx>, data: &'c Vec<(&'b FnInfo, UnsafeFnUsafetySources)>)
+    -> Vec<(&'b FnInfo,results::functions::ShortFnInfo)> {
+    let mut res = Vec::new();
+    for (fn_info,sources) in data.iter() {
+        if sources.arguments().is_empty()
+            && sources.sources().is_empty()
+            && !sources.from_trait() {
+            res.push((*fn_info, fn_info.build_short_fn_info(cx)));
+        }
+    }
+    res
+}
 
 fn process_fn_decl<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, decl_id: NodeId) -> UnsafeFnUsafetySources {
     let from_trait = util::is_unsafe_method(decl_id,cx);
