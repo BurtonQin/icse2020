@@ -10,6 +10,7 @@ pub mod implicit;
 pub mod functions;
 pub mod unsafety_sources;
 pub mod blocks;
+pub mod traits;
 
 use std::path::PathBuf;
 use std::fs::OpenOptions;
@@ -26,6 +27,8 @@ static FN_UNSAFETY_SOURCES_FILE_NAME: &'static str = "30_unsafe_fn";
 static EXTERNAL_CALLS_SUMMARY: &'static str = "03_external_calls_summary";
 static BLOCK_UNSAFETY_SOURCES_FILE_NAME: &'static str = "40_unsafe_blocks";
 static BLOCK_SUMMARY_BB: &'static str = "41_blocks_summary";
+static NO_REASON_FOR_UNSAFE : &'static str = "31_no_reason";
+static UNSAFE_TRAITS: &'static str = "50_unsafe_traits";
 
 pub struct FileOps<'a> {
     crate_name: &'a String,
@@ -115,6 +118,14 @@ impl <'a> FileOps<'a> {
 
     pub fn get_blocks_summary_file(&self) -> File {
         self.open_file(BLOCK_SUMMARY_BB, true)
+    }
+
+    pub fn get_no_reason_for_unsafety_file(&self) -> File {
+        self.open_file(NO_REASON_FOR_UNSAFE, true)
+    }
+
+    pub fn get_unsafe_traits_file(&self) -> File {
+        self.open_file(UNSAFE_TRAITS, true)
     }
 }
 
