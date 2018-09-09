@@ -37,8 +37,6 @@ impl FnInfo {
     ) -> () {
         let krate = def_id.krate;
 
-        //        println!("node_path_str {:?}", cx.tcx.item_path_str(def_id));
-
         let mut crate_name: String = cx.tcx.crate_name(krate).to_string();
         crate_name.push_str("::");
 
@@ -47,15 +45,11 @@ impl FnInfo {
             .item_path_str(def_id)
             .to_string()
             .replace(crate_name.as_str(), "");
-
-        //        println!("external func {:?}", func);
-
         let found = self
             .external_calls
             .iter()
             .any(|elt| elt.1 == func && elt.0 == krate);
         if !found {
-            //self.external_calls.push((krate, func.to_string()));
             self.external_calls.push((krate, func));
         }
     }

@@ -17,7 +17,7 @@ use std::fs::File;
 use std::fs::OpenOptions;
 use std::path::PathBuf;
 
-static ROOT_DIR: &'static str = "/tmp/unsafe_analysis/analysis_results/";
+pub static ROOT_DIR: &'static str = "/tmp/unsafe_analysis/analysis_results/";
 static IMPLICIT_FILENAME: &'static str = "10_unsafe_in_call_tree";
 static IMPLICIT_TRAIT_FILENAME: &'static str = "11_unsafe_trait_safe_method_in_call_tree";
 static SAFE_FUNCTIONS_FILENAME: &'static str = "00_safe_functions";
@@ -95,43 +95,43 @@ impl<'a> FileOps<'a> {
         self.open_file(IMPLICIT_FILENAME, save_old)
     }
 
-    pub fn get_implicit_trait_unsafe_file(&self) -> File {
-        self.open_file(IMPLICIT_TRAIT_FILENAME, true)
+    pub fn get_implicit_trait_unsafe_file(&self, save: bool) -> File {
+        self.open_file(IMPLICIT_TRAIT_FILENAME, save)
     }
 
-    pub fn get_safe_functions_file(&self) -> File {
-        self.open_file(SAFE_FUNCTIONS_FILENAME, true)
+    pub fn get_safe_functions_file(&self, save: bool) -> File {
+        self.open_file(SAFE_FUNCTIONS_FILENAME, save)
     }
 
-    pub fn get_unsafe_functions_file(&self) -> File {
-        self.open_file(UNSAFE_FUNCTIONS_FILENAME, true)
+    pub fn get_unsafe_functions_file(&self, save: bool) -> File {
+        self.open_file(UNSAFE_FUNCTIONS_FILENAME, save)
     }
 
-    pub fn get_summary_functions_file(&self) -> File {
-        self.open_file(SUMMARY_FUNCTIONS_FILE_NAME, true)
+    pub fn get_summary_functions_file(&self, save: bool) -> File {
+        self.open_file(SUMMARY_FUNCTIONS_FILE_NAME, save)
     }
 
-    pub fn get_fn_unsafety_sources_file(&self) -> File {
-        self.open_file(FN_UNSAFETY_SOURCES_FILE_NAME, true)
+    pub fn get_fn_unsafety_sources_file(&self, save: bool) -> File {
+        self.open_file(FN_UNSAFETY_SOURCES_FILE_NAME, save)
     }
 
-    pub fn get_external_calls_summary_file(&self) -> File {
-        self.open_file(EXTERNAL_CALLS_SUMMARY, true)
+    pub fn get_external_calls_summary_file(&self, save: bool) -> File {
+        self.open_file(EXTERNAL_CALLS_SUMMARY, save)
     }
 
-    pub fn get_blocks_unsafety_sources_file(&self) -> File {
-        self.open_file(BLOCK_UNSAFETY_SOURCES_FILE_NAME, true)
+    pub fn get_blocks_unsafety_sources_file(&self, save: bool) -> File {
+        self.open_file(BLOCK_UNSAFETY_SOURCES_FILE_NAME, save)
     }
 
-    pub fn get_blocks_summary_file(&self) -> File {
-        self.open_file(BLOCK_SUMMARY_BB, true)
+    pub fn get_blocks_summary_file(&self, save: bool) -> File {
+        self.open_file(BLOCK_SUMMARY_BB, save)
     }
 
-    pub fn get_no_reason_for_unsafety_file(&self) -> File {
-        self.open_file(NO_REASON_FOR_UNSAFE, true)
+    pub fn get_no_reason_for_unsafety_file(&self, save: bool) -> File {
+        self.open_file(NO_REASON_FOR_UNSAFE, save)
     }
 
-    pub fn get_unsafe_traits_file(&self) -> File {
-        self.open_file(UNSAFE_TRAITS, true)
+    pub fn get_unsafe_traits_file(&self, save: bool) -> File {
+        self.open_file(UNSAFE_TRAITS, save)
     }
 }

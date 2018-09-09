@@ -79,13 +79,13 @@ impl ImplicitUnsafe {
         let cnv = util::local_crate_name_and_version();
         // safe functions
         let file_ops = results::FileOps::new(&cnv.0, &cnv.1);
-        let mut safe_file = file_ops.get_safe_functions_file();
+        let mut safe_file = file_ops.get_safe_functions_file(true);
         for ref fn_info in self.normal_functions.iter() {
             let long_form = fn_info.build_long_fn_info(cx);
             writeln!(safe_file, "{}", serde_json::to_string(&long_form).unwrap());
         }
         // unsafe functions
-        let mut unsafe_file = file_ops.get_unsafe_functions_file();
+        let mut unsafe_file = file_ops.get_unsafe_functions_file(true);
         for ref fn_info in self.unsafe_functions.iter() {
             let long_form = fn_info.build_long_fn_info(cx);
             writeln!(
@@ -95,7 +95,7 @@ impl ImplicitUnsafe {
             );
         }
         // summary
-        let mut summary_file = file_ops.get_summary_functions_file();
+        let mut summary_file = file_ops.get_summary_functions_file(true);
         analysis::save_summary_analysis(
             results::functions::Summary::new(
                 self.unsafe_functions.len(),
@@ -104,11 +104,11 @@ impl ImplicitUnsafe {
             &mut summary_file,
         );
         // external calls summary
-        let mut external_calls_summary_file = file_ops.get_external_calls_summary_file();
+        let mut external_calls_summary_file = file_ops.get_external_calls_summary_file(true);
         let summary = self.collect_external_calls();
         analysis::save_summary_analysis(summary, &mut external_calls_summary_file);
         // unsafe traits
-        let mut traits_file = file_ops.get_unsafe_traits_file();
+        let mut traits_file = file_ops.get_unsafe_traits_file(true);
         let unsafe_traits = traits::run_analysis(cx);
         analysis::save_summary_analysis(unsafe_traits, &mut traits_file);
     }
@@ -172,18 +172,18 @@ impl<'a, 'tcx> LateLintPass<'a, 'tcx> for ImplicitUnsafe {
         // implicit unsafe from traits analysis
         let res2: Vec<(&FnInfo, UnsafeTraitSafeMethodInBody)> =
             analysis::run_all(cx, &self.normal_functions, true);
-        analysis::save_analysis(&res2, &mut file_ops.get_implicit_trait_unsafe_file());
+        analysis::save_analysis(&res2, &mut file_ops.get_implicit_trait_unsafe_file(true));
 
         // unsafety sources in unsafe functions
         let unsafe_fn_info: Vec<(&FnInfo, UnsafeFnUsafetySources)> =
             analysis::run_all(cx, &self.unsafe_functions, false);
         analysis::save_analysis(
             &unsafe_fn_info,
-            &mut file_ops.get_fn_unsafety_sources_file(),
+            &mut file_ops.get_fn_unsafety_sources_file(true),
         );
         // no reason unsafe functions
         let no_reason = unsafety_sources::collect_no_reason(cx, &unsafe_fn_info);
-        analysis::save_analysis(&no_reason, &mut file_ops.get_no_reason_for_unsafety_file());
+        analysis::save_analysis(&no_reason, &mut file_ops.get_no_reason_for_unsafety_file(true));
 
         // unsafety sources in unsafe blocks
         let safe_fn_info: Vec<(&FnInfo, BlockUnsafetyAnalysisSources)> =
@@ -191,13 +191,13 @@ impl<'a, 'tcx> LateLintPass<'a, 'tcx> for ImplicitUnsafe {
         analysis::save_analysis_with_fn_info(
             cx,
             &safe_fn_info,
-            &mut file_ops.get_blocks_unsafety_sources_file(),
+            &mut file_ops.get_blocks_unsafety_sources_file(true),
         );
 
         // blocks summary
         let bb_summary: results::blocks::BlockSummary =
             block_summary::collect(analysis::run_all(cx, &self.normal_functions, false));
-        analysis::save_summary_analysis(bb_summary, &mut file_ops.get_blocks_summary_file());
+        analysis::save_summary_analysis(bb_summary, &mut file_ops.get_blocks_summary_file(true));
     }
 
     fn check_body(&mut self, cx: &LateContext<'a, 'tcx>, body: &'tcx hir::Body) {
