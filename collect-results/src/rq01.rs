@@ -1,5 +1,3 @@
-use std::ffi::OsString;
-
 use results;
 use results::blocks;
 use std::io::BufReader;
@@ -7,7 +5,7 @@ use std::io::BufRead;
 use std::io::BufWriter;
 use std::io::Write;
 
-pub fn process_rq1(crates: &Vec<(String,String)>) {
+pub fn process_rq(crates: &Vec<(String,String)>) {
 
     let output_file = ::get_output_file( "rq01" );
     let mut writer = BufWriter::new(output_file);
@@ -26,16 +24,20 @@ pub fn process_rq1(crates: &Vec<(String,String)>) {
                 break;
             } else {
                 //process line
-                debug!("Processing {:?}: {:?}", crate_name, line);
                 let trimmed_line = line.trim_right();
                 let block_summary: blocks::BlockSummary = serde_json::from_str(&trimmed_line).unwrap();
-                writeln!(writer,"{},{},{},{},{}"
-                         , crate_name
-                         , block_summary.in_unsafe_bb/block_summary.total_bb
-                         , block_summary.in_unsafe_bb
-                         , block_summary.hir_unsafe_blocks/block_summary.hir_total
-                         , block_summary.hir_unsafe_blocks
-                );
+                if block_summary.total_bb != 0
+                    && block_summary.hir_total != 0 {
+                    writeln!(writer, "{}\t{:.2}\t{}\t{:.2}\t{}"
+                             , crate_name
+                             , block_summary.in_unsafe_bb as f32 / block_summary.total_bb as f32
+                             , block_summary.in_unsafe_bb
+                             , block_summary.hir_unsafe_blocks as f32 / block_summary.hir_total as f32
+                             , block_summary.hir_unsafe_blocks
+                    );
+                } else {
+                    error!("Processing {:?}: {:?}", crate_name, line);
+                }
             }
         }
     }
