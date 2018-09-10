@@ -2,6 +2,8 @@
 
 ## Collect information for each crate 
 
+export RUST_LOG=error
+
 if [ -z "$1" ]
 then 
 	TOP=500

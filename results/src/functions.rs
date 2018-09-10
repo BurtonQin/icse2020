@@ -56,6 +56,8 @@ impl Summary {
     pub fn new(unsafe_no: usize, total: usize) -> Self {
         Summary { unsafe_no, total }
     }
+    pub fn unsafe_no(&self) -> usize {self.unsafe_no}
+    pub fn total(&self) -> usize {self.total}
 }
 
 #[derive(Serialize, Deserialize, Debug)]

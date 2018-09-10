@@ -5,22 +5,17 @@
 extern crate log;
 extern crate env_logger;
 
-#[macro_use]
-extern crate serde_derive;
 extern crate chrono;
 extern crate serde;
 extern crate serde_json;
 
 extern crate results;
 
-mod rq1;
+mod rq01;
+mod rq02;
+mod rq03;
 
-use log::Level;
-use std::fs::{File, DirEntry};
-use std::path::Path;
-use std::error::Error;
-use std::ffi::OsStr;
-use std::ffi::OsString;
+use std::fs::File ;
 use std::fs::OpenOptions;
 use std::path::PathBuf;
 use std::fs::DirBuilder;
@@ -35,8 +30,9 @@ fn main() {
     env_logger::init();
     // consider only the most recent version of each crate
     let crates = get_crates_recent_versions();
-    rq1::process_rq1(&crates);
-
+//    rq01::process_rq(&crates);
+//    rq02::process_rq(&crates);
+    rq03::process_rq(&crates);
 }
 
 pub fn get_output_file( name: &'static str ) -> File {
