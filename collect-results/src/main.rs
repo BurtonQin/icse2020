@@ -16,6 +16,7 @@ mod rq02;
 mod rq03;
 mod rq04;
 mod rq05;
+mod rq06;
 mod rq09;
 
 use std::fs::File ;
@@ -33,14 +34,13 @@ fn main() {
     env_logger::init();
     // consider only the most recent version of each crate
     let crates = get_crates_recent_versions();
-    rq01::process_rq(&crates);
-    rq02::process_rq(&crates);
-    rq03::process_rq(&crates);
-    rq04::process_rq(&crates);
-    rq05::process_rq(&crates);
-
-    //TODO rq 6
-//    rq09::process_rq(&crates);
+//    rq01::process_rq(&crates);
+//    rq02::process_rq(&crates);
+//    rq03::process_rq(&crates);
+//    rq04::process_rq(&crates);
+//    rq05::process_rq(&crates);
+//    rq06::process_rq(&crates);
+    rq09::process_rq(&crates);
 }
 
 pub fn get_output_file( name: &'static str ) -> File {
