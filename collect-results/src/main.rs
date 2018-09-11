@@ -16,6 +16,7 @@ mod rq02;
 mod rq03;
 mod rq04;
 mod rq05;
+mod rq09;
 
 use std::fs::File ;
 use std::fs::OpenOptions;
@@ -36,7 +37,10 @@ fn main() {
 //    rq02::process_rq(&crates);
 //    rq03::process_rq(&crates);
 //    rq04::process_rq(&crates);
-    rq05::process_rq(&crates);
+//    rq05::process_rq(&crates);
+
+    //TODO rq 6
+    rq09::process_rq(&crates);
 }
 
 pub fn get_output_file( name: &'static str ) -> File {
