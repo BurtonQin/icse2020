@@ -94,7 +94,7 @@ pub fn propagate_external<'a, 'tcx>(
     // for each normal function
     for (ref fn_info, ref mut t) in graph.iter_mut() {
         // for each external call from the local function
-        for (ext_crate_num, ext_call) in fn_info.external_calls() {
+        for (ext_crate_num, ext_call, _) in fn_info.external_calls() {
             if let Some((_, ub_vec)) = external_unsafety.iter().find(|&x| *ext_crate_num == x.0) {
                 if let Some(ext_unsafety_in_body) = ub_vec.iter().find(|&x| x.fn_name == *ext_call)
                 {

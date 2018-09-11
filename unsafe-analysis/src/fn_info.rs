@@ -3,10 +3,17 @@ use rustc::lint::LateContext;
 use syntax::ast::NodeId;
 use util;
 
+#[derive(Debug)]
 pub struct FnInfo {
     decl_id: NodeId,
     local_calls: Vec<NodeId>,
-    external_calls: Vec<(hir::def_id::CrateNum, String)>,
+    external_calls: Vec<(hir::def_id::CrateNum, String, Safety)>,
+}
+
+#[derive(Debug)]
+pub enum Safety {
+    Unsafe,
+    Normal,
 }
 
 impl FnInfo {
@@ -18,7 +25,7 @@ impl FnInfo {
         &self.local_calls
     }
 
-    pub fn external_calls(&self) -> &Vec<(hir::def_id::CrateNum, String)> {
+    pub fn external_calls(&self) -> &Vec<(hir::def_id::CrateNum, String, Safety)> {
         &self.external_calls
     }
 
@@ -34,6 +41,7 @@ impl FnInfo {
         &mut self,
         cx: &LateContext<'a, 'tcx>,
         def_id: hir::def_id::DefId,
+        safety: Safety
     ) -> () {
         let krate = def_id.krate;
 
@@ -49,8 +57,9 @@ impl FnInfo {
             .external_calls
             .iter()
             .any(|elt| elt.1 == func && elt.0 == krate);
+
         if !found {
-            self.external_calls.push((krate, func));
+            self.external_calls.push((krate, func,safety));
         }
     }
 

@@ -78,8 +78,8 @@ fn load_analysis<'a, 'tcx>(
         for ref fn_info in data.iter() {
             let iter = (*fn_info.external_calls())
                 .iter()
-                .filter(|x: &&(hir::def_id::CrateNum, String)| x.0 == *crate_num);
-            for (_crate_num, fn_name) in iter {
+                .filter(|x: &&(hir::def_id::CrateNum, String, _)| x.0 == *crate_num);
+            for (_crate_num, fn_name, _) in iter {
                 external_calls.push(fn_name);
             }
         }

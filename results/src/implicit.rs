@@ -18,12 +18,12 @@ pub struct UnsafeTraitSafeMethodInBody {
     pub fn_name: String,
     pub has_unsafe: bool,
 }
-
-impl UnsafeTraitSafeMethodInBody {
-    fn new(fn_name: String) -> Self {
-        UnsafeTraitSafeMethodInBody {
-            fn_name,
-            has_unsafe: false,
-        }
-    }
-}
+//
+//impl UnsafeTraitSafeMethodInBody {
+//    fn new(fn_name: String) -> Self {
+//        UnsafeTraitSafeMethodInBody {
+//            fn_name,
+//            has_unsafe: false,
+//        }
+//    }
+//}
