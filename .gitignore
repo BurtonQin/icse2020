@@ -6,4 +6,6 @@ HiddenUnsafe/
 **/*.ipr
 **/*.iws
 **/*.iml
-
+**/*.pdf
+**/*.txt
+**/nohup.out

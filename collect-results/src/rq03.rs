@@ -10,7 +10,6 @@ pub fn process_rq(crates: &Vec<(String,String)>) {
     let mut writer = BufWriter::new(output_file);
 
     for (crate_name, version) in crates {
-        debug!("Crates {:?}", crate_name);
         let file_ops = results::FileOps::new(crate_name, &version);
         let file = file_ops.get_unsafe_traits_file(false);
         let mut reader = BufReader::new(file);
