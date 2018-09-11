@@ -17,17 +17,17 @@ TOTAL=`awk 'BEGIN {FS = "\t"} ; {sum+=$2} END {print sum}' $FILE`
 
 echo "\\begin{table}[h]"
 echo "\\centering"
-echo "\\begin{tabular}{| c | c |}"
+echo "\\begin{tabular}{| l | c |}"
 echo "\\hline"
 echo  "Function & Count \\\\ "
 echo "\\hline"
 
 while IFS= read -r f; do
 	read -ra arr <<<"$f"	
-    	echo "${arr[0]} & ${arr[1]} \\\\"
+    	echo "\\irust{${arr[0]}} & ${arr[1]} \\\\"
+	echo "\\hline"
 done < <(sort -k2 -n -r "$FILE" | head -"$TOP")
 
-echo "\\hline"
 echo "\\end{tabular}"
 echo "\\caption{Most Frequent Calls (Total $TOTAL)}"
 echo "\\label{table:top-unsafe-calls}"
