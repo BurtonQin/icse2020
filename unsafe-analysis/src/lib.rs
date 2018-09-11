@@ -44,7 +44,7 @@ mod unsafety_sources;
 mod util;
 
 use implicit_analysis::propagate_external;
-use results::blocks::BlockUnsafetyAnalysisSources;
+use results::blocks::BlockUnsafetySourcesAnalysis;
 use results::functions::UnsafeFnUsafetySources;
 use results::implicit::UnsafeInBody;
 use results::implicit::UnsafeTraitSafeMethodInBody;
@@ -105,7 +105,7 @@ impl ImplicitUnsafe {
         );
         // external calls summary
         let mut external_calls_summary_file = file_ops.get_external_calls_summary_file(true);
-        let summary = self.collect_external_calls();
+        let summary = self.collect_external_unsafe_calls(cx);
         analysis::save_summary_analysis(summary, &mut external_calls_summary_file);
         // unsafe traits
         let mut traits_file = file_ops.get_unsafe_traits_file(true);
@@ -113,19 +113,26 @@ impl ImplicitUnsafe {
         analysis::save_summary_analysis(unsafe_traits, &mut traits_file);
     }
 
-    fn collect_external_calls(&self) -> results::functions::ExternalCallsSummary {
+    fn collect_external_unsafe_calls<'a, 'tcx>(&self, cx: &LateContext<'a, 'tcx>) -> results::functions::ExternalCallsSummary {
+
         let mut res = results::functions::ExternalCallsSummary::new();
         let mut map = HashMap::new();
         for fn_info in self.normal_functions.iter() {
-            for (_crate_num, ext_call) in fn_info.external_calls().iter() {
-                let count = map.entry(ext_call).or_insert(0 as usize);
-                *count = *count + 1;
+            for (crate_num, ext_call, safety) in fn_info.external_calls().iter() {
+                if let fn_info::Safety::Unsafe = safety {
+                    //prepend crate name to avoid name collisions
+                    let key = get_full_path(cx, crate_num, ext_call);
+                    let count = map.entry(key).or_insert(0 as usize);
+                    *count = *count + 1;
+                }
             }
         }
         for fn_info in self.unsafe_functions.iter() {
-            for (_crate_num, ext_call) in fn_info.external_calls().iter() {
-                let count = map.entry(ext_call).or_insert(0 as usize);
-                *count = *count + 1;
+            for (crate_num, ext_call, safety) in fn_info.external_calls().iter() {
+                if let fn_info::Safety::Unsafe = safety {
+                    let count = map.entry(get_full_path(cx, crate_num, ext_call)).or_insert(0 as usize);
+                    *count = *count + 1;
+                }
             }
         }
         for (call, count) in map.iter() {
@@ -133,6 +140,14 @@ impl ImplicitUnsafe {
         }
         res
     }
+}
+
+fn get_full_path<'a, 'tcx>( cx: &LateContext<'a, 'tcx>, crate_num: &hir::def_id::CrateNum, fn_call: &String ) -> String {
+    let mut key = String::new();
+    key.push_str(&cx.tcx.crate_name(*crate_num).to_string());
+    key.push_str("::");
+    key.push_str(fn_call);
+    key.clone()
 }
 
 declare_lint!(pub HIDDEN_UNSAFE, Allow, "Unsafe analysis");
@@ -186,8 +201,12 @@ impl<'a, 'tcx> LateLintPass<'a, 'tcx> for ImplicitUnsafe {
         analysis::save_analysis(&no_reason, &mut file_ops.get_no_reason_for_unsafety_file(true));
 
         // unsafety sources in unsafe blocks
-        let safe_fn_info: Vec<(&FnInfo, BlockUnsafetyAnalysisSources)> =
+        let safe_fn_info: Vec<(&FnInfo, BlockUnsafetySourcesAnalysis)> =
             analysis::run_all(cx, &self.normal_functions, false);
+
+        debug!("Result: {:?}", safe_fn_info);
+
+        // TODO fix this: the function name is saved twice
         analysis::save_analysis_with_fn_info(
             cx,
             &safe_fn_info,

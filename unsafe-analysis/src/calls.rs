@@ -5,6 +5,7 @@ use rustc::mir::visit::Visitor;
 use rustc::mir::{BasicBlock, Location, Operand, Terminator, TerminatorKind};
 use rustc::ty;
 use rustc::ty::TyKind;
+use fn_info;
 
 pub fn build_call_graph<'a, 'tcx>(data: &mut Vec<FnInfo>, cx: &LateContext<'a, 'tcx>) {
     let tcx = &cx.tcx;
@@ -50,6 +51,7 @@ impl<'a, 'tcx> Visitor<'tcx> for CallsVisitor<'a, 'tcx> {
             if let Operand::Constant(constant) = func {
                 //                println!("func {:?} kind {:?}", func, constant.literal.ty.sty);
                 //if let TyKind::FnDef(callee_def_id, substs) = constant.literal.ty.sty {
+                // TODO here maybe fix the bug
                 if let TyKind::FnDef(callee_def_id, substs) = constant.literal.ty.sty {
                     let param_env = self
                         .cx
@@ -68,14 +70,24 @@ impl<'a, 'tcx> Visitor<'tcx> for CallsVisitor<'a, 'tcx> {
                                     self.fn_info.push_local_call(decl_node_id);
                                 } else {
                                     //                                    println!("func {:?} pushed external", func);
-                                    self.fn_info.push_external_call(self.cx, def_id);
+                                    let safety =
+                                        match self.cx.tcx.fn_sig(callee_def_id).unsafety() {
+                                            hir::Unsafety::Unsafe => {fn_info::Safety::Unsafe}
+                                            hir::Unsafety::Normal => {fn_info::Safety::Normal}
+                                        };
+                                    self.fn_info.push_external_call(self.cx, def_id,safety);
                                 }
                             }
                             _ => error!("ty::InstanceDef:: NOT handled {:?}", instance.def),
                         }
                     } else {
                         //                        println!("func {:?} pushed external", func);
-                        self.fn_info.push_external_call(self.cx, callee_def_id);
+                        let safety =
+                            match self.cx.tcx.fn_sig(callee_def_id).unsafety() {
+                                hir::Unsafety::Unsafe => {fn_info::Safety::Unsafe}
+                                hir::Unsafety::Normal => {fn_info::Safety::Normal}
+                            };
+                        self.fn_info.push_external_call(self.cx, callee_def_id,safety);
                     }
                 } else {
                     error!("TypeVariants NOT handled {:?}", constant.literal.ty.sty);

@@ -25,16 +25,18 @@ impl BlockSummary {
 }
 
 #[derive(Serialize, Deserialize, Debug)]
-pub struct BlockUnsafetyAnalysisSources {
+pub struct BlockUnsafetySourcesAnalysis {
     sources: Vec<(String, Vec<Source>)>,
 }
 
-impl BlockUnsafetyAnalysisSources {
+impl BlockUnsafetySourcesAnalysis {
     pub fn new() -> Self {
-        BlockUnsafetyAnalysisSources {
+        BlockUnsafetySourcesAnalysis {
             sources: Vec::new(),
         }
     }
+
+    pub fn sources(&self) -> &Vec<(String, Vec<Source>)> { &&self.sources }
 
     pub fn add_source(&mut self, block_id: String, source: Source) {
         let found = self.sources.iter().any(|(node_id, _)| *node_id == block_id);

@@ -1,3 +1,5 @@
+use std::fmt::Write;
+
 use rustc::hir;
 use rustc::lint::LateContext;
 use rustc::mir::visit::{PlaceContext, Visitor};
@@ -14,7 +16,7 @@ use syntax::ast::NodeId;
 
 use analysis::Analysis;
 use fn_info::FnInfo;
-use results::blocks::BlockUnsafetyAnalysisSources;
+use results::blocks::BlockUnsafetySourcesAnalysis;
 use results::functions::Argument;
 use results::functions::ArgumentKind;
 use results::functions::UnsafeFnUsafetySources;
@@ -62,12 +64,16 @@ fn process_type<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, ty: &hir::Ty) -> Option<Ar
     match ty.node {
         hir::TyKind::Slice(ref sty) | hir::TyKind::Array(ref sty, _) => process_type(cx, &sty),
 
-        hir::TyKind::Ptr(_) => Some(Argument::new(
-            util::get_node_name(cx, ty.id),
-            ArgumentKind::RawPointer,
-        )),
+        hir::TyKind::Ptr(_) => {
+            let mut buff = String::new();
+            write!(buff,"{:?}", ty);
+            Some(Argument::new(
+                buff,
+                ArgumentKind::RawPointer,
+            ))
+        },
 
-        hir::TyKind::Rptr(_, _) => None, //I think this is a Rust reference
+        hir::TyKind::Rptr(_, _) => None, //TODO check:I think this is a Rust reference
 
         hir::TyKind::BareFn(ref bare_fn) => {
             if let hir::Unsafety::Unsafe = bare_fn.unsafety {
@@ -163,7 +169,7 @@ impl Analysis for UnsafeFnUsafetySources {
 // Unsafe Blocks Analysis
 //////////////////////////////////////////////////////////////////////
 
-impl UnsafetySourceCollector for BlockUnsafetyAnalysisSources {
+impl UnsafetySourceCollector for BlockUnsafetySourcesAnalysis {
     fn add_unsafety_source<'a, 'tcx>(
         &mut self,
         cx: &LateContext<'a, 'tcx>,
@@ -179,7 +185,7 @@ impl UnsafetySourceCollector for BlockUnsafetyAnalysisSources {
     }
 }
 
-impl Analysis for BlockUnsafetyAnalysisSources {
+impl Analysis for BlockUnsafetySourcesAnalysis {
     fn is_set(&self) -> bool {
         false
     }

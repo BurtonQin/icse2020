@@ -44,6 +44,7 @@ impl ShortFnInfo {
             location,
         }
     }
+    pub fn name(&self) -> &String {&self.name}
 }
 
 #[derive(Serialize, Deserialize, Debug)]
@@ -133,4 +134,6 @@ impl ExternalCallsSummary {
     pub fn push(&mut self, fn_name: String, count: usize) {
         self.calls.push((fn_name, count));
     }
+
+    pub fn calls(&self) -> &Vec<(String, usize)> {&self.calls}
 }
