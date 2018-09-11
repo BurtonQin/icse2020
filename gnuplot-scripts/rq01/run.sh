@@ -7,16 +7,18 @@ fi
 source $SCRIPTS_HOME/common.sh
 
 # format:
-# crate_name unsafe_bb total_bb unsafe total
+# crate_name unsafe_bb_percent unsafe_bb unsafe_percent unsafe
 FILE=/tmp/unsafe_analysis/research_questions/rq01
+
+DATA=/tmp/unsafe_analysis/
 rm -f data/*.txt
 mkdir -p data
 
-count $FILE 2 "$SCRIPTS_HOME/data/rq01-1.txt"
-count $FILE 3 "$SCRIPTS_HOME/data/rq01-2.txt"
-count $FILE 4 "$SCRIPTS_HOME/data/rq01-3.txt"
-count $FILE 5 "$SCRIPTS_HOME/data/rq01-4.txt"
+TOTAL_CRATES=`cat $FILE | wc -l`
+awk -F '\t' '{print $3}' $FILE | sort | uniq -c | sort -nr
 
-gnuplot "$SCRIPTS_HOME/rq01/count.p"
+# count $FILE 3 "$DATA/rq01-2.txt"
+# count $FILE 5 "$DATA/rq01-4.txt"
 
-gnuplot "$SCRIPTS_HOME/rq01/freq.p"
+# gnuplot "$SCRIPTS_HOME/rq01/count.p" 
+
