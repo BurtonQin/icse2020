@@ -5,7 +5,9 @@ use rustc::mir::visit::Visitor;
 use rustc::mir::{BasicBlock, Location, Operand, Terminator, TerminatorKind};
 use rustc::ty;
 use rustc::ty::TyKind;
+use rustc::ty::subst::Subst;
 use fn_info;
+use util;
 
 pub fn build_call_graph<'a, 'tcx>(data: &mut Vec<FnInfo>, cx: &LateContext<'a, 'tcx>) {
     let tcx = &cx.tcx;
@@ -57,6 +59,7 @@ impl<'a, 'tcx> Visitor<'tcx> for CallsVisitor<'a, 'tcx> {
                         .cx
                         .tcx
                         .param_env(self.cx.tcx.hir.local_def_id(self.fn_info.decl_id()));
+
                     if let Some(instance) =
                         ty::Instance::resolve(self.cx.tcx, param_env, callee_def_id, substs)
                     {
@@ -75,6 +78,8 @@ impl<'a, 'tcx> Visitor<'tcx> for CallsVisitor<'a, 'tcx> {
                                             hir::Unsafety::Unsafe => {fn_info::Safety::Unsafe}
                                             hir::Unsafety::Normal => {fn_info::Safety::Normal}
                                         };
+                                    debug!("tcx.type_of(self.did).subst(tcx, subst)={:?}"
+                                           , self.cx.tcx.type_of(callee_def_id).subst(self.cx.tcx, substs));
                                     self.fn_info.push_external_call(self.cx, def_id,safety);
                                 }
                             }
@@ -87,13 +92,16 @@ impl<'a, 'tcx> Visitor<'tcx> for CallsVisitor<'a, 'tcx> {
                                 hir::Unsafety::Unsafe => {fn_info::Safety::Unsafe}
                                 hir::Unsafety::Normal => {fn_info::Safety::Normal}
                             };
+                        debug!("tcx.type_of(self.did).subst(tcx, subst)={:?}"
+                               , self.cx.tcx.type_of(callee_def_id).subst(self.cx.tcx, substs));
                         self.fn_info.push_external_call(self.cx, callee_def_id,safety);
                     }
                 } else {
                     error!("TypeVariants NOT handled {:?}", constant.literal.ty.sty);
                 }
             } else {
-                error!("calls.rs::Operand Type NOT handled {:?}", func);
+                error!("calls.rs::Operand Type NOT handled {:?} at {:?}"
+                       , func, util::get_file_and_line(self.cx,terminator.source_info.span));
             }
         }
     }
