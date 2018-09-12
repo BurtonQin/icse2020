@@ -1,0 +1,34 @@
+https://github.com/skade/escapade.git
+https://github.com/astro/rad1o-rust.git
+https://github.com/nrc/libhoare.git
+https://github.com/rust-lang-nursery/futures-rs.git
+https://github.com/pelmers/geogrid.git
+https://github.com/yjh0502/rust-s2.git
+https://github.com/dkarwowski/f4.git
+https://github.com/spacejam/sled.git
+https://github.com/spcan/easy-complex.git
+https://github.com/kennytm/pattern-3.git
+https://github.com/BurntSushi/ripgrep.git
+https://github.com/nathansizemore/rustic-io.git
+
+
+cloning crate glium_macros
+    Updating registry `https://github.com/rust-lang/crates.io-index`
+ Downloading glium_macros v0.0.1
+error: failed to read `/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/glium_macros-0.0.1/Cargo.toml`
+
+cloning crate svd_macros
+    Updating registry `https://github.com/rust-lang/crates.io-index`
+ Downloading svd_macros v1.0.0
+error: failed to parse manifest at `/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/svd_macros-1.0.0/Cargo.toml`
+
+
+
+
+
+
+
+
+
+
+
