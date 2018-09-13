@@ -26,14 +26,129 @@ extern crate serde;
 extern crate serde_derive;
 extern crate serde_json;
 
+use fn_info::FnInfo;
 use rustc::hir;
 use rustc::hir::Crate;
 use rustc::lint::{LateContext, LateLintPass, LateLintPassObject, LintArray, LintPass};
 use rustc_plugin::Registry;
 use syntax::ast::NodeId;
+
+mod analysis;
+mod block_summary;
+mod calls;
+mod deps;
+mod fn_info;
+mod implicit_analysis;
+mod traits;
+mod unsafety_sources;
+mod util;
+
+use implicit_analysis::propagate_external;
+use results::blocks::BlockUnsafetySourcesAnalysis;
+use results::functions::UnsafeFnUsafetySources;
+use results::implicit::UnsafeInBody;
+use results::implicit::UnsafeTraitSafeMethodInBody;
+
 use std::collections::HashMap;
 use std::io::Write;
 
+struct ImplicitUnsafe {
+    normal_functions: Vec<FnInfo>,
+    unsafe_functions: Vec<FnInfo>,
+}
+
+impl ImplicitUnsafe {
+    pub fn new() -> Self {
+        Self {
+            normal_functions: Vec::new(),
+            unsafe_functions: Vec::new(),
+        }
+    }
+
+    pub fn push_normal_fn_info<'a, 'tcx>(&mut self, node_id: NodeId) {
+        let fn_info = FnInfo::new(node_id);
+        self.normal_functions.push(fn_info);
+    }
+
+    pub fn push_unsafe_fn_info<'a, 'tcx>(&mut self, node_id: NodeId) {
+        let fn_info = FnInfo::new(node_id);
+        self.unsafe_functions.push(fn_info);
+    }
+
+    pub fn save_results<'a, 'tcx>(&self, cx: &'a LateContext<'a, 'tcx>) {
+        let cnv = util::local_crate_name_and_version();
+        // safe functions
+        let file_ops = results::FileOps::new(&cnv.0, &cnv.1);
+        let mut safe_file = file_ops.get_safe_functions_file(true);
+        for ref fn_info in self.normal_functions.iter() {
+            let long_form = fn_info.build_long_fn_info(cx);
+            writeln!(safe_file, "{}", serde_json::to_string(&long_form).unwrap());
+        }
+        // unsafe functions
+        let mut unsafe_file = file_ops.get_unsafe_functions_file(true);
+        for ref fn_info in self.unsafe_functions.iter() {
+            let long_form = fn_info.build_long_fn_info(cx);
+            writeln!(
+                unsafe_file,
+                "{}",
+                serde_json::to_string(&long_form).unwrap()
+            );
+        }
+        // summary
+        let mut summary_file = file_ops.get_summary_functions_file(true);
+        analysis::save_summary_analysis(
+            results::functions::Summary::new(
+                self.unsafe_functions.len(),
+                self.unsafe_functions.len() + self.normal_functions.len(),
+            ),
+            &mut summary_file,
+        );
+        // external calls summary
+        let mut external_calls_summary_file = file_ops.get_external_calls_summary_file(true);
+        let summary = self.collect_external_unsafe_calls(cx);
+        analysis::save_summary_analysis(summary, &mut external_calls_summary_file);
+        // unsafe traits
+        let mut traits_file = file_ops.get_unsafe_traits_file(true);
+        let unsafe_traits = traits::run_analysis(cx);
+        analysis::save_summary_analysis(unsafe_traits, &mut traits_file);
+    }
+
+    fn collect_external_unsafe_calls<'a, 'tcx>(&self, cx: &LateContext<'a, 'tcx>) -> results::functions::ExternalCallsSummary {
+
+        let mut res = results::functions::ExternalCallsSummary::new();
+        let mut map = HashMap::new();
+        for fn_info in self.normal_functions.iter() {
+            for (crate_num, ext_call, safety) in fn_info.external_calls().iter() {
+                if let fn_info::Safety::Unsafe = safety {
+                    //prepend crate name to avoid name collisions
+                    let key = get_full_path(cx, crate_num, ext_call);
+                    let count = map.entry(key).or_insert(0 as usize);
+                    *count = *count + 1;
+                }
+            }
+        }
+        for fn_info in self.unsafe_functions.iter() {
+            for (crate_num, ext_call, safety) in fn_info.external_calls().iter() {
+                if let fn_info::Safety::Unsafe = safety {
+                    let count = map.entry(get_full_path(cx, crate_num, ext_call)).or_insert(0 as usize);
+                    *count = *count + 1;
+                }
+            }
+        }
+        for (call, count) in map.iter() {
+            res.push(call.to_string(), *count);
+        }
+        res
+    }
+}
+
+fn get_full_path<'a, 'tcx>( cx: &LateContext<'a, 'tcx>, crate_num: &hir::def_id::CrateNum, fn_call: &String ) -> String {
+    let mut key = String::new();
+    key.push_str(&cx.tcx.crate_name(*crate_num).to_string());
+    key.push_str("::");
+    key.push_str(fn_call);
+    key.clone()
+}
 
 declare_lint!(pub HIDDEN_UNSAFE, Allow, "Unsafe analysis");
 
