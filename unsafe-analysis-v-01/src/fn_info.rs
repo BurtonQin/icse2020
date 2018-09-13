@@ -43,6 +43,7 @@ impl FnInfo {
         def_id: hir::def_id::DefId,
         safety: Safety
     ) -> () {
+
         let krate = def_id.krate;
 
         let mut crate_name: String = cx.tcx.crate_name(krate).to_string();
