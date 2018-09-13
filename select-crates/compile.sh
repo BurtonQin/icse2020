@@ -11,8 +11,7 @@ mkdir $COMPILER_OUTPUT_DIR
 
 NIGHTLY=nightly-2018-09-08
 
-export RUST_BACKTRACE=1
-export RUST_LOG=error
+#export RUST_BACKTRACE=1
 
 cd ../unsafe-analysis
 cargo +$NIGHTLY build
@@ -22,10 +21,9 @@ export RUSTFLAGS="--extern unsafe_analysis=$PROJECT_HOME/unsafe-analysis/target/
 cd $CRATES_DIR
 for d in $(ls $CRATES_DIR)
 do
-	echo "Compiling $d Output $COMPILER_OUTPUT_DIR/${d} Error $COMPILER_OUTPUT_DIR/${d}_error"
+	echo "Compiling $d Output $COMPILER_OUTPUT_DIR/${d} "
 	cd $d
-	cargo +$NIGHTLY clean
-	cargo +$NIGHTLY build #> "$COMPILER_OUTPUT_DIR/${d}" 2>"$COMPILER_OUTPUT_DIR/${d}_error"
+	cargo +$NIGHTLY build &> "$COMPILER_OUTPUT_DIR/${d}"
 	cd ..
 done
 
