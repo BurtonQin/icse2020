@@ -45,8 +45,6 @@ impl<'a, 'tcx> LintPass for ImplicitUnsafe {
 
 impl<'a, 'tcx> LateLintPass<'a, 'tcx> for ImplicitUnsafe {
 
-
-
     fn check_crate_post(&mut self, cx: &LateContext<'a, 'tcx>, _: &'tcx Crate) {
         let external_crates = deps::load_dependencies();
         // list of all normal and unsafe functions are available here
@@ -157,7 +155,17 @@ pub fn is_fn_or_method<'a, 'tcx>(node_id: NodeId, cx: &LateContext<'a, 'tcx>) ->
             // any unsafe in this body will be processed by the enclosing function or method
             false
         }
+        hir::Node::TraitItem(ref trait_item) => {
+            match trait_item.node {
+                hir::TraitItemKind::Const(..)
+                | hir::TraitItemKind::Type(..) => { info!("Not handled {:?}", node); false }
+                hir::TraitItemKind::Method(ref _sig, ref _trait_method) => {
+                    true
+                }
+            }
+        }
         _ => {
+            error!("Not handled {:?} ", node);
             false
         }
     }
