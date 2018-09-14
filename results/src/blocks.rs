@@ -2,24 +2,13 @@ use unsafety_sources::Source;
 
 #[derive(Serialize, Deserialize, Debug)]
 pub struct BlockSummary {
-    pub in_unsafe_bb: usize,
-    pub total_bb: usize,
-    pub hir_unsafe_blocks: usize,
-    pub hir_total: usize,
+    pub unsafe_blocks: usize,
 }
 
 impl BlockSummary {
-    pub fn new(
-        in_unsafe_bb: usize,
-        total_bb: usize,
-        hir_unsafe_blocks: usize,
-        hir_total: usize,
-    ) -> Self {
+    pub fn new( unsafe_blocks: usize) -> Self {
         BlockSummary {
-            in_unsafe_bb,
-            total_bb,
-            hir_unsafe_blocks,
-            hir_total,
+            unsafe_blocks
         }
     }
 }
