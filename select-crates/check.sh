@@ -20,9 +20,10 @@ do
 	if [ $RESULT -eq 0 ]; then
 		echo "$d: Passed"
 	else
-  		echo "$d">>fails.txt
+  		echo "$d">>$CRATES_DIR/fails.txt
 		echo "$d: Failed"
 	fi
+	cargo clean
 	cd ..
 done
 

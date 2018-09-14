@@ -19,13 +19,30 @@ cargo +$NIGHTLY build
 export RUSTFLAGS="--extern unsafe_analysis=$PROJECT_HOME/unsafe-analysis/target/debug/libunsafe_analysis.so -Z extra-plugins=unsafe_analysis --emit mir"
 
 cd $CRATES_DIR
-for d in $(ls $CRATES_DIR)
+for for x in {a..z}
 do
-	echo "Compiling $d Output $COMPILER_OUTPUT_DIR/${d} "
-	cd $d
-	cargo +$NIGHTLY build &> "$COMPILER_OUTPUT_DIR/${d}"
+	if [ -f $x.tgz ]
+	then
+		tar -pzxf $x.tgz
+	fi
+	for d in $(ls $CRATES_DIR/$x*)
+	do
+		echo "Compiling $d"
+		cd $d
+		cargo +$NIGHTLY build
+		RESULT=$?
+	        if [ $RESULT -eq 0 ]; then
+        	        echo "$d: Passed"
+	        else
+        	        echo "$d">>$CRATES_DIR/analysis_fails.txt
+                	echo "$d: Failed"
+        	fi
+        	cargo +NIGHTLY clean
 	cd ..
+	tar -pzcvf $x.tgz $CRATES_DIR/$x*
+	rm -rf $CRATES_DIR/$x*
 done
+
 
 cd $CRT_DIR
 
