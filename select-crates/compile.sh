@@ -21,10 +21,10 @@ export RUSTFLAGS="--extern unsafe_analysis=$PROJECT_HOME/unsafe-analysis/target/
 cd $CRATES_DIR
 for for x in {a..z}
 do
-	if [ -f $x.tgz ]
-	then
-		tar -pzxf $x.tgz
-	fi
+#	if [ -f $x.tgz ]
+#	then
+#		tar -pzxf $x.tgz
+#	fi
 	for d in $(ls $CRATES_DIR/$x*)
 	do
 		echo "Compiling $d"
@@ -39,8 +39,8 @@ do
         	fi
         	cargo +NIGHTLY clean
 	cd ..
-	tar -pzcvf $x.tgz $CRATES_DIR/$x*
-	rm -rf $CRATES_DIR/$x*
+#	tar -pzcvf $x.tgz $CRATES_DIR/$x*
+#	rm -rf $CRATES_DIR/$x*
 done
 
 
