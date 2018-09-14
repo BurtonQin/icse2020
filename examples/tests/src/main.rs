@@ -15,21 +15,25 @@ pub fn with_asm_unsafe_block() {
 }
 
 fn safe_fn() -> () {
-    println!("safe_fn");
+    let mut i = 1;
+    i += 1;
 }
 
 unsafe fn unsafe_fn() -> () {
-    println!("unsafe_fn");
+    let mut i = 1;
+    i += 1;
 }
 
 unsafe trait UnsafeTrait {
     fn safe_method_unsafe_trait(&self) -> ();
     unsafe fn unsafe_method_unsafe_trait(&self) -> ();
     fn m1() -> () {
-        println!("m1");
+        let mut i = 1;
+        i += 1;
     }
     unsafe fn m2() -> () {
-        println!("m2");
+        let mut i = 1;
+        i += 1;
     }
 }
 
@@ -62,21 +66,25 @@ fn nested_methods(test: bool) {
 //the impl must be unsafe if the trait is
 unsafe impl UnsafeTrait for SafeImpl {
     fn safe_method_unsafe_trait(&self) -> () {
-        println!("safe_method_unsafe_trait::safe impl");
+        let mut i = 1;
+        i += 1;
     }
 
     unsafe fn unsafe_method_unsafe_trait(&self) -> () {
-        println!("unsafe_method_unsafe_trait::safe impl");
+        let mut i = 1;
+        i += 1;
     }
 }
 
 impl Trait for SafeImpl {
     unsafe fn unsafe_method_safe_trait(&self) -> () {
-        println!("unsafe_method_safe_trait::safe impl");
+        let mut i = 1;
+        i += 1;
     }
 
     fn safe_method_safe_trait(&self) -> () {
-        println!("safe_method_safe_trait::safe impl");
+        let mut i = 1;
+        i += 1;
     }
 }
 
@@ -91,21 +99,25 @@ impl UnsafeImpl {
 
 unsafe impl UnsafeTrait for UnsafeImpl {
     fn safe_method_unsafe_trait(&self) -> () {
-        println!("safe_method_unsafe_trait::unsafe impl");
+        let mut i = 1;
+        i += 1;
     }
 
     unsafe fn unsafe_method_unsafe_trait(&self) -> () {
-        println!("unsafe_method_unsafe_trait::unsafe impl");
+        let mut i = 1;
+        i += 1;
     }
 }
 
 impl Trait for UnsafeImpl {
     unsafe fn unsafe_method_safe_trait(&self) -> () {
-        println!("unsafe_method_safe_trait::unsafe impl");
+        let mut i = 1;
+        i += 1;
     }
 
     fn safe_method_safe_trait(&self) -> () {
-        println!("safe_method_safe_trait::unsafe impl");
+        let mut i = 1;
+        i += 1;
     }
 }
 
@@ -184,7 +196,6 @@ unsafe fn call_unsafe_2() {
 }
 
 fn main() {
-    println!("Hello, world!");
     safe_fn();
     unsafe {
         unsafe_fn();
