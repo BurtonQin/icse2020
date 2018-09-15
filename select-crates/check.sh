@@ -1,17 +1,14 @@
 #/bin/bash
 
+source ../exports.sh
+
 CRT_DIR=`pwd`
-PROJECT_HOME="$HOME/work/unsafe_study/"
-
-CRATES_DIR=${HOME}/unsafe_analysis/crates.io-downloads
-
-NIGHTLY=nightly-2018-09-08
 
 export RUST_BACKTRACE=1
 export RUST_LOG=error
 
 cd $CRATES_DIR
-for x in {b..z}
+for x in {f..z}
 do
 	for d in $(ls -d ${x}*)
 	do
@@ -22,7 +19,7 @@ do
 		if [ $RESULT -eq 0 ]; then
 			echo "$d: Passed"
 		else
-  			echo "$d">>$CRATES_DIR/fails.txt
+  			echo "$d">>$PROJECT_OUT/fails.txt
 			echo "$d: Failed"
 		fi
 		cargo clean

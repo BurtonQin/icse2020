@@ -35,13 +35,12 @@ pub struct Source {
 
 #[derive(Serialize, Deserialize, Debug)]
 pub enum SourceKind {
-    UnsafeFnCall(FnCallInfo),
-    DerefRawPointer(String), // TODO find a better solution
+    UnsafeFnCall(Abi),
+    DerefRawPointer,
     Asm,
-    Static(String),
-    //ForeignItem, //TODO check what is this
+    Static,
     BorrowPacked,
-    AssignmentToNonCopyUnionField(String),
-    AccessToUnionField(String),
-    ExternStatic(String),
+    AssignmentToNonCopyUnionField,
+    AccessToUnionField,
+    ExternStatic,
 }

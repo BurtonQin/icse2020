@@ -1,8 +1,6 @@
-PROJECT_HOME="$HOME/work/unsafe_study"
-rustup override set nightly-2018-09-08
+source ../exports.sh
 
-export RUST_BACKTRACE=1
-export RUST_LOG="unsafe_analysis=debug"
+unset RUSTFLAGS
 
 cargo $1 
 
