@@ -1,8 +1,11 @@
-PROJECT_HOME="$HOME/work/unsafe_study"
+source ../../exports.sh
+source ../../rust_flags.sh
 
-export RUSTFLAGS="--extern unsafe_analysis=$PROJECT_HOME/unsafe-analysis/target/debug/libunsafe_analysis.so -Z extra-plugins=unsafe_analysis --emit mir"
-export RUST_BACKTRACE=1
-export RUST_LOG="unsafe_analysis="
+echo $RUSTFLAGS
 
-cargo +nightly-2018-09-08  $1
+mkdir -p $UNSAFE_ANALYSIS_DIR
+
+RUST_LOG=debug
+
+cargo +$NIGHTLY  $1
 

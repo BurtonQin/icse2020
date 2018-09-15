@@ -1,10 +1,20 @@
 
 use rustc;
+use syntax::ast::NodeId;
 use rustc::lint::LateContext;
+use rustc::mir::SourceInfo;
+use rustc::mir::visit::Visitor;
+
+use unsafety_sources::{UnsafetySourcesVisitor,UnsafetySourceCollector};
 
 use results::blocks::BlockSummary;
+use results::blocks::BlockUnsafetySourcesAnalysis;
+use results::unsafety_sources::SourceKind;
+use results::unsafety_sources::Source;
 
-pub fn run_analysis<'a, 'tcx>(cx: &'a LateContext<'a, 'tcx>) -> BlockSummary  {
+//////////////////// Summary
+
+pub fn run_summary_analysis<'a, 'tcx>(cx: &'a LateContext<'a, 'tcx>) -> BlockSummary  {
     let mut visitor = BlockVisitor::new(&cx.tcx.hir);
     rustc::hir::intravisit::walk_crate(&mut visitor, cx.tcx.hir.krate());
     BlockSummary::new(visitor.unsafe_blocks)
@@ -55,60 +65,41 @@ impl<'a, 'tcx> rustc::hir::intravisit::Visitor<'tcx> for BlockVisitor<'tcx> {
     }
 }
 
-//struct BasicBlocksVisitor<'a, 'tcx: 'a> {
-//    mir: &'a rustc::mir::Mir<'tcx>,
-//    in_unsafe_bb: usize,
-//    total_bb: usize,
-//}
-//
-//pub fn run_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, node_ids: &Vec<NodeId>) -> BlockSummary {
-//    let mut result = BlockSummary::new(0,0);
-//    for node_id in node_ids {
-//        let fn_def_id = cx.tcx.hir.local_def_id(*node_id);
-//        let mir = &mut cx.tcx.optimized_mir(fn_def_id);
-//        let mut body_visitor = BasicBlocksVisitor::new(mir);
-//        body_visitor.visit_mir(mir);
-//        result.add(body_visitor.in_unsafe_bb,
-//                   body_visitor.total_bb);
-//    }
-//    result
-//}
-//
-//impl<'a, 'tcx> BasicBlocksVisitor<'a, 'tcx> {
-//    fn new(mir: &'a rustc::mir::Mir<'tcx>) -> Self {
-//        BasicBlocksVisitor {
-//            mir,
-//            in_unsafe_bb: 0 as usize,
-//            total_bb: 0 as usize,
-//        }
-//    }
-//}
-//
-//impl<'a, 'tcx> Visitor<'tcx> for BasicBlocksVisitor<'a, 'tcx> {
-//    fn visit_terminator(
-//        &mut self,
-//        _block: rustc::mir::BasicBlock,
-//        terminator: &rustc::mir::Terminator<'tcx>,
-//        _location: rustc::mir::Location,
-//    ) {
-//        self.total_bb = self.total_bb + 1;
-//        //terminator.source_info
-//        match self.mir.source_scope_local_data {
-//            rustc::mir::ClearCrossCrate::Set(ref local_data_set) => {
-//                if let Some(local_data) = local_data_set.get(terminator.source_info.scope) {
-//                    match local_data.safety {
-//                        // TODO think more about Safety::BuiltinUnsafe
-//                        rustc::mir::Safety::Safe | rustc::mir::Safety::FnUnsafe => {}
-//                        rustc::mir::Safety::BuiltinUnsafe
-//                        | rustc::mir::Safety::ExplicitUnsafe(_) => {
-//                            self.in_unsafe_bb = self.in_unsafe_bb + 1;
-//                        }
-//                    }
-//                }
-//            }
-//            rustc::mir::ClearCrossCrate::Clear => {
-//                error!("unsafety_violations: - remote, skipping");
-//            }
-//        }
-//    }
-//}
+//////////////////// unsafety sources
+
+impl UnsafetySourceCollector for BlockUnsafetySourcesAnalysis {
+    fn add_unsafety_source<'a, 'tcx>(
+        &mut self,
+        cx: &LateContext<'a, 'tcx>,
+        kind: SourceKind,
+        source_info: SourceInfo,
+        block_id: NodeId,
+    ) {
+        let source = Source {
+            kind,
+            loc: ::get_file_and_line(cx, source_info.span),
+        };
+        self.add_source(block_id.to_string(), source)
+    }
+}
+
+pub fn run_unsafety_sources_analysis<'a, 'tcx>(cx: &'a LateContext<'a, 'tcx>, fns: &Vec<NodeId>) -> Vec<BlockUnsafetySourcesAnalysis> {
+    let mut res =Vec::new();
+    for &node_id in fns {
+        let mut sources= BlockUnsafetySourcesAnalysis::new();
+        let fn_def_id = cx.tcx.hir.local_def_id(node_id);
+        // closures are handled by their parent fn.
+        if !cx.tcx.is_closure(fn_def_id) {
+            let mir = &mut cx.tcx.optimized_mir(fn_def_id);
+            if let Some(mut body_visitor) =
+            UnsafetySourcesVisitor::new(cx, mir, &mut sources, fn_def_id)
+                {
+                    body_visitor.visit_mir(mir);
+                }
+        }
+        if !sources.sources().is_empty() {
+            res.push(sources);
+        }
+    }
+    res
+}

@@ -10,3 +10,7 @@ pub fn use_trait() {
     let mut rdr = Cursor::new(vec![2, 5, 3, 0]);
     rdr.read_u16::<BigEndian>().unwrap();
 }
+
+pub unsafe fn unsafe_no_reason() {
+    let mut i = 0; i +=1;
+}

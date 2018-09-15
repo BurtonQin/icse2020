@@ -1,5 +1,7 @@
 #/bin/bash
 
+source ../exports.sh
+
 ## Collect information for each crate 
 
 export RUST_LOG=error
@@ -10,8 +12,6 @@ then
 else 
 	TOP=$1
 fi
-
-OUTPUT_DIR=${HOME}/unsafe_analysis/crates.io-downloads
 
 CRT_DIR=`pwd`
 
@@ -51,14 +51,14 @@ fi
 FILE=`pwd`/crates.io-fixed
 cargo run -- "$TOP" $FILE | sed 's/\"//g' > top-N-crates.io
 
-rm -rf $OUTPUT_DIR
-mkdir -p $OUTPUT_DIR
+rm -rf $CRATES_DIR
+mkdir -p $CRATES_DIR
 
 while read line
 do
 	crate=$(echo $line | cut -d' ' -f 1)
 	echo "cloning crate $crate"
-	cargo clone $crate --prefix $OUTPUT_DIR
+	cargo clone $crate --prefix $CRATES_DIR
 done <top-N-crates.io
 
 cd $CRT_DIR

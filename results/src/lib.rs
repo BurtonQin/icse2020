@@ -17,7 +17,6 @@ use std::fs::File;
 use std::fs::OpenOptions;
 use std::path::PathBuf;
 
-pub static ROOT_DIR: &'static str = "/home/ans5k/unsafe_analysis/analysis_results/";
 static IMPLICIT_FILENAME: &'static str = "10_unsafe_in_call_tree";
 static IMPLICIT_TRAIT_FILENAME: &'static str = "11_unsafe_trait_safe_method_in_call_tree";
 static SAFE_FUNCTIONS_FILENAME: &'static str = "00_safe_functions";
@@ -30,16 +29,18 @@ static BLOCK_SUMMARY_BB: &'static str = "41_blocks_summary";
 static NO_REASON_FOR_UNSAFE: &'static str = "31_no_reason";
 static UNSAFE_TRAITS: &'static str = "50_unsafe_traits";
 
-pub struct FileOps<'a> {
+pub struct FileOps<'a,'b> {
     crate_name: &'a String,
     crate_version: &'a String,
+    root_dir: &'b String
 }
 
-impl<'a> FileOps<'a> {
-    pub fn new(crate_name: &'a String, crate_version: &'a String) -> Self {
+impl<'a, 'b> FileOps<'a, 'b> {
+    pub fn new(crate_name: &'a String, crate_version: &'a String, root_dir: &'b String) -> Self {
         FileOps {
             crate_name,
             crate_version,
+            root_dir,
         }
     }
 
@@ -67,7 +68,7 @@ impl<'a> FileOps<'a> {
 
     pub fn get_root_path_components(&self) -> [String; 3] {
         [
-            ROOT_DIR.to_string(),
+            self.root_dir.to_string(),
             self.crate_name.clone(),
             self.crate_version.clone(),
         ]
@@ -75,7 +76,7 @@ impl<'a> FileOps<'a> {
 
     pub fn get_analysis_path_components(&self, filename: String) -> [String; 4] {
         [
-            ROOT_DIR.to_string(),
+            self.root_dir.to_string(),
             self.crate_name.clone(),
             self.crate_version.clone(),
             filename,

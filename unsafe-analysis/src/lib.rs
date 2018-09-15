@@ -31,12 +31,16 @@ use rustc::hir::Crate;
 use rustc::lint::{LateContext, LateLintPass, LateLintPassObject, LintArray, LintPass};
 use rustc_plugin::Registry;
 use syntax::ast::NodeId;
+use syntax_pos::Span;
 use std::io::Write;
 use std::fs::File;
 use std::path::Path;
+use std::fmt::Write as FmtWrite;
 
 mod blocks;
 mod traits;
+mod unsafety_sources;
+mod functions;
 
 declare_lint!(pub HIDDEN_UNSAFE, Allow, "Unsafe analysis");
 
@@ -71,12 +75,18 @@ impl<'a, 'tcx> LintPass for Functions {
 impl<'a, 'tcx> LateLintPass<'a, 'tcx> for Functions {
 
     fn check_crate_post(&mut self, cx: &LateContext<'a, 'tcx>, _: &'tcx Crate) {
+
+        let root_dir = match std::env::var("UNSAFE_ANALYSIS_DIR") {
+            Ok (val) => {val.to_string()}
+            Err (_) => {"/home/ans5k/unsafe_analysis/analysis_data".to_string()}
+        };
+
         let cnv = local_crate_name_and_version();
         // safe functions
-        let file_ops = results::FileOps::new(&cnv.0, &cnv.1);
+        let file_ops = results::FileOps::new(&cnv.0, &cnv.1, &root_dir);
 
         // blocks summary
-        let bb_summary: results::blocks::BlockSummary = blocks::run_analysis(cx);
+        let bb_summary: results::blocks::BlockSummary = blocks::run_summary_analysis(cx);
         save_summary_analysis(bb_summary, &mut file_ops.get_blocks_summary_file(true));
         // unsafe functions summary
         let mut fn_summary_file = file_ops.get_summary_functions_file(true);
@@ -91,6 +101,14 @@ impl<'a, 'tcx> LateLintPass<'a, 'tcx> for Functions {
         let mut traits_file = file_ops.get_unsafe_traits_file(true);
         let unsafe_traits = traits::run_analysis(cx);
         save_summary_analysis(unsafe_traits, &mut traits_file);
+        //unsafety sources in blocks
+        let mut bus_file = file_ops.get_blocks_unsafety_sources_file(true);
+        let bus_res = blocks::run_unsafety_sources_analysis(cx,&self.normal_functions);
+        save_analysis(bus_res, &mut bus_file);
+        //unsafety in sources
+        let (fn_unsafety,no_reason) = functions::run_sources_analysis(cx,&self.unsafe_functions);
+        save_analysis(fn_unsafety,&mut file_ops.get_fn_unsafety_sources_file(true));
+        save_analysis(no_reason,&mut file_ops.get_no_reason_for_unsafety_file(true));
     }
 
     fn check_body(&mut self, cx: &LateContext<'a, 'tcx>, body: &'tcx hir::Body) {
@@ -144,20 +162,38 @@ pub fn save_summary_analysis<T>(analysis_results: T, file: &mut File)
     writeln!(file, "{}", serialized);
 }
 
+pub fn save_analysis<T>(analysis_results: Vec<T>, file: &mut File)
+    where
+        T: serde::ser::Serialize,
+{
+    for res in analysis_results {
+        save_summary_analysis(res,file);
+    }
+}
+
 pub fn local_crate_name_and_version() -> (String, String) {
     let manifest_path = Path::new("./Cargo.toml");
     let features = cargo_metadata::CargoOpt::AllFeatures;
-    let metadata =
-        cargo_metadata::metadata_run(Some(manifest_path), false, Some(features)).unwrap();
-
-    //println!("Crate {:?} Version {:?}", metadata.packages[0].name.clone(),metadata.packages[0].version.clone());
-
-    (
-        metadata.packages[0].name.clone(),
-        metadata.packages[0].version.clone(),
-    )
+    match cargo_metadata::metadata_run(Some(manifest_path)
+                                       , false, Some(features)) {
+        Ok (metadata) => {
+            (metadata.packages[0].name.clone(), metadata.packages[0].version.clone())
+        }
+        Err (e) => {
+            error!("{:?}", e);
+            panic!("");
+        }
+    }
 }
 
 fn get_node_name<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, node_id: NodeId) -> String {
     cx.tcx.node_path_str(node_id)
+}
+
+pub fn get_file_and_line<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, span: Span) -> String {
+    let mut result = String::new();
+    let loc = cx.tcx.sess.source_map().lookup_char_pos(span.lo());
+    let filename = &loc.file.name;
+    write!(result, "file: {:?} line {:?}", filename, loc.line);
+    result
 }
