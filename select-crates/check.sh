@@ -11,9 +11,9 @@ export RUST_BACKTRACE=1
 export RUST_LOG=error
 
 cd $CRATES_DIR
-#for x in {t..z}
-#do
-	for d in $(ls -d a*)
+for x in {b..z}
+do
+	for d in $(ls -d ${x}*)
 	do
 		echo "Compiling $d"
 		cd $d
@@ -28,7 +28,7 @@ cd $CRATES_DIR
 		cargo clean
 		cd ..
 	done
-#done
+done
 
 cd $CRT_DIR
 
