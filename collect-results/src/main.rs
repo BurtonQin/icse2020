@@ -24,7 +24,7 @@ use std::fs::OpenOptions;
 use std::path::PathBuf;
 use std::fs::DirBuilder;
 
-static OUTPUT_DIR: &'static str = "/tmp/unsafe_analysis/research_questions";
+static OUTPUT_DIR: &'static str = "/home/ans5k/unsafe_analysis/research_questions";
 
 fn main() {
     // create ouput dir if it does not exists

@@ -3,7 +3,7 @@
 CRT_DIR=`pwd`
 PROJECT_HOME="$HOME/work/unsafe_study/"
 
-CRATES_DIR=/tmp/unsafe_analysis/crates.io-downloads
+CRATES_DIR=${HOME}/unsafe_analysis/crates.io-downloads
 
 NIGHTLY=nightly-2018-09-08
 
@@ -11,9 +11,9 @@ export RUST_BACKTRACE=1
 export RUST_LOG=error
 
 cd $CRATES_DIR
-for x in {t..z}
-do
-	for d in $(ls -d b${x}*)
+#for x in {t..z}
+#do
+	for d in $(ls -d a*)
 	do
 		echo "Compiling $d"
 		cd $d
@@ -28,7 +28,7 @@ do
 		cargo clean
 		cd ..
 	done
-done
+#done
 
 cd $CRT_DIR
 

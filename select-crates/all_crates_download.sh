@@ -4,7 +4,7 @@
 
 export RUST_LOG=error
 
-OUTPUT_DIR=/tmp/unsafe_analysis/crates.io-downloads
+OUTPUT_DIR=${HOME}/unsafe_analysis/crates.io-downloads
 
 CRT_DIR=`pwd`
 
@@ -23,7 +23,7 @@ echo "crates.io-index updated, home $CRATES_IO_INDEX_HOME"
 
 cd $CRT_DIR
 
-OUTPUT_DIR=/tmp/unsafe_analysis/crates.io-downloads
+OUTPUT_DIR=${HOME}/unsafe_analysis/crates.io-downloads
 mkdir -p $OUTPUT_DIR
 
 for crate in $(find $CRATES_IO_INDEX_HOME -type f -printf '%f\n')

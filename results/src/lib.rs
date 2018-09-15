@@ -17,7 +17,7 @@ use std::fs::File;
 use std::fs::OpenOptions;
 use std::path::PathBuf;
 
-pub static ROOT_DIR: &'static str = "/tmp/unsafe_analysis/analysis_results/";
+pub static ROOT_DIR: &'static str = "/home/ans5k/unsafe_analysis/analysis_results/";
 static IMPLICIT_FILENAME: &'static str = "10_unsafe_in_call_tree";
 static IMPLICIT_TRAIT_FILENAME: &'static str = "11_unsafe_trait_safe_method_in_call_tree";
 static SAFE_FUNCTIONS_FILENAME: &'static str = "00_safe_functions";

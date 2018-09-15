@@ -20,7 +20,7 @@ The script parses the file and retains the top N crate names and the
 downloads in top-N-crates.io.
 
 Next, it downloads each crate in top-N-crates.io in the directory:
-/tmp/unsafe_analysis/crates.io-downloads.It uses cargo clone.
+${HOME}/unsafe_analysis/crates.io-downloads.It uses cargo clone.
 
 <h1>Compilation</h1>
 
@@ -56,18 +56,18 @@ cd $PROJECT_HOME/examples/tests; ./compile.sh
 <h1>Issues:</h1> 
 
 <ol>
-  <item> Compiling advapi32-sys Output /tmp/unsafe_analysis/compiler_output/advapi32-sys Error /tmp/unsafe_analysis/compiler_output/advapi32-sys_error
+  <item> Compiling advapi32-sys Output ${HOME}/unsafe_analysis/compiler_output/advapi32-sys Error ${HOME}/unsafe_analysis/compiler_output/advapi32-sys_error
 error: failed to load source for a dependency on `winapi`
 
 Caused by:
-  Unable to update file:///tmp/unsafe_analysis
+  Unable to update file://${HOME}/unsafe_analysis
 
 Caused by:
-  failed to read `/tmp/unsafe_analysis/Cargo.toml`
+  failed to read `${HOME}/unsafe_analysis/Cargo.toml`
 
 Caused by:
   No such file or directory (os error 2)
-Compiling aho-corasick Output /tmp/unsafe_analysis/compiler_output/aho-corasick Error /tmp/unsafe_analysis/compiler_output/aho-corasick_error
+Compiling aho-corasick Output ${HOME}/unsafe_analysis/compiler_output/aho-corasick Error ${HOME}/unsafe_analysis/compiler_output/aho-corasick_error
 
 <item>    Compiling log v0.4.5
 ERROR 2018-09-10T01:42:02Z: unsafe_analysis::implicit_analysis: Error external call NOT found "<sip::SipHasher13 as std::hash::Hasher>::finish"

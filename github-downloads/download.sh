@@ -11,7 +11,7 @@ function update {
 
 CRT_DIR=`pwd`
 
-HOME_DIR=/tmp/unsafe_analysis/github-downloads
+HOME_DIR=${HOME}/unsafe_analysis/github-downloads
 
 mkdir -p $HOME_DIR
 
