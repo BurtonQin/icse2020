@@ -1,6 +1,6 @@
 CRT_DIR=`pwd`
 
-HOME_DIR=/tmp/unsafe_analysis/github-downloads
+HOME_DIR=${HOME}/unsafe_analysis/github-downloads
 PLUGIN_HOME=$HOME/work/external_calls
 
 cd $HOME_DIR

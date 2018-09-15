@@ -11,7 +11,7 @@ else
 	TOP=$1
 fi
 
-OUTPUT_DIR=/tmp/unsafe_analysis/crates.io-downloads
+OUTPUT_DIR=${HOME}/unsafe_analysis/crates.io-downloads
 
 CRT_DIR=`pwd`
 

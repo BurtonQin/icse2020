@@ -3,8 +3,8 @@
 CRT_DIR=`pwd`
 PROJECT_HOME="$HOME/work/unsafe_study/"
 
-CRATES_DIR=/tmp/unsafe_analysis/crates.io-downloads/
-COMPILER_OUTPUT_DIR=/tmp/unsafe_analysis/compiler_output
+CRATES_DIR=${HOME}/unsafe_analysis/crates.io-downloads/
+COMPILER_OUTPUT_DIR=${HOME}/unsafe_analysis/compiler_output
 
 rm -rf $COMPILER_OUTPUT_DIR
 mkdir $COMPILER_OUTPUT_DIR
