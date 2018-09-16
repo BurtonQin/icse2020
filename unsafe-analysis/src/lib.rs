@@ -36,6 +36,7 @@ use std::io::Write;
 use std::fs::File;
 use std::path::Path;
 use std::fmt::Write as FmtWrite;
+use std::env;
 
 mod blocks;
 mod traits;
@@ -172,18 +173,25 @@ pub fn save_analysis<T>(analysis_results: Vec<T>, file: &mut File)
 }
 
 pub fn local_crate_name_and_version() -> (String, String) {
-    let manifest_path = Path::new("./Cargo.toml");
-    let features = cargo_metadata::CargoOpt::AllFeatures;
-    match cargo_metadata::metadata_run(Some(manifest_path)
-                                       , false, Some(features)) {
-        Ok (metadata) => {
-            (metadata.packages[0].name.clone(), metadata.packages[0].version.clone())
-        }
-        Err (e) => {
-            error!("{:?}", e);
-            panic!("");
-        }
-    }
+    let pkg = env::var("CARGO_PKG_NAME").unwrap();
+    let version = env::var("CARGO_PKG_VERSION").unwrap();
+
+//    error!("Local Package {:?} {:?}", pkg, version);
+
+    (pkg,version)
+
+//    let manifest_path = Path::new("./Cargo.toml");
+//    let features = cargo_metadata::CargoOpt::AllFeatures;
+//    match cargo_metadata::metadata_run(Some(manifest_path)
+//                                       , false, Some(features)) {
+//        Ok (metadata) => {
+//            (metadata.packages[0].name.clone(), metadata.packages[0].version.clone())
+//        }
+//        Err (e) => {
+//            error!("{:?}", e);
+//            panic!("");
+//        }
+//    }
 }
 
 fn get_node_name<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, node_id: NodeId) -> String {
