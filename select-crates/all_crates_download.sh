@@ -26,7 +26,7 @@ cd $CRT_DIR
 
 mkdir -p $CRATES_DIR
 
-for crate in $(find $CRATES_IO_INDEX_HOME -type d -printf '%f\n')
+for crate in $(find $CRATES_IO_INDEX_HOME -type f -printf '%f\n')
 do
 	echo "cloning crate $crate"
 	cargo clone $crate --prefix $OUTPUT_DIR
