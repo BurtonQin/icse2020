@@ -1,9 +1,8 @@
 CRT_DIR=`pwd`
 
-HOME_DIR=${HOME}/unsafe_analysis/github-downloads
-PLUGIN_HOME=$HOME/work/external_calls
+source ../exports.sh
 
-cd $HOME_DIR
+cd $GITHUB_APPS
 
 function compile_1 {
 	echo "Processing $1"
@@ -20,18 +19,18 @@ function compile_2 {
 }
 
 
-export RUSTFLAGS="--extern unsafe_analysis=$PLUGIN_HOME/unsafe_analysis/target/debug/libunsafe_analysis.so -Z extra-plugins=unsafe_analysis --emit mir"
+source ../rust_flags.sh
 
-compile_2 xi-editor rust
+#compile_2 xi-editor rust
 
 #TODO add servo when the nighlty version is 2018-08-29
 
-compile_1 alacritty
-compile_1 ripgrep
-compile_1 xray
-compile_1 fd
-compile_1 leaf
-compile_1 Rocket
+#compile_1 alacritty
+#compile_1 ripgrep
+#compile_1 xray
+#compile_1 fd
+#compile_1 leaf
+#compile_1 Rocket
 
 cd $CRT_DIR
 

@@ -7,6 +7,7 @@ export CRATES_DIR=${PROJECT_OUT}/crates.io-downloads
 export UNSAFE_ANALYSIS_DIR=${PROJECT_OUT}/analysis_data
 export EXCLUDED_CRATES=${PROJECT_OUT}/excluded-crates
 export GEIGER_CRATES=${PROJECT_OUT}/geiger-crates
+export GITHUB_APPS=${PROJECT_OUT}/github-downloads
 
 export NIGHTLY=nightly-2018-09-08
 
