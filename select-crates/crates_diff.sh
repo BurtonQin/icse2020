@@ -18,22 +18,32 @@ do
 		rm -rf $GEIGER_CRATES/$crate
 		cargo clone $crate --prefix $GEIGER_CRATES
 
-		cd $GEIGER_CRATES/$crate
-		find . -type f -exec sed -i '/license = \"MIT\"/d' {} \;
-		find . -type f -exec sed -i '/\[experimental\]/d' {} \;
+		if [ -d $GEIGER_CRATES/$crate ]
+		then 
 
-		cargo geiger --no-indent --quiet true | grep $crate >> $PROJECT_OUT/geiger_results.txt
+			cd $GEIGER_CRATES/$crate
+			find . -type f -exec sed -i '/license = \"MIT\"/d' {} \;
+			find . -type f -exec sed -i '/\[experimental\]/d' {} \;
 
-		RES=$?
-		if [ -z $RES ]
-		then
-			echo "$crate analysed by geiger"
-		else
-			cd ../
-			cp -r $crate $EXCLUDED_CRATES
-			rm -rf $crate
-			echo "$crate is excluded"
-			echo $crate >> $PROJECT_OUT/excluded_crates.txt
+			cargo geiger --no-indent --quiet true | grep $crate >> $PROJECT_OUT/geiger_results.txt
+	
+			RES=$?
+			if [ -z $RES ]
+			then
+				echo "$crate analysed by geiger"
+			else
+				cd $PROJECT_OUT
+				cp -r $GEIGER_CRATES/$crate $EXCLUDED_CRATES
+				rm -rf $GEIGER_CRATES/$crate
+				echo "$crate is excluded"
+				echo $crate >> $PROJECT_OUT/excluded_crates.txt
+				cd $EXCLUDED_CRATES/$crate/src
+				FUNCTIONS=`grep -r -w "\<unsafe[[:space:]]fn\>" *.rs | wc -l`
+				TRAITS=`grep -r -w "\<unsafe[[:space:]]trait\>" *.rs | wc -l`
+				IMPLS=`grep -r -w "\<unsafe[[:space:]]impl\>" *.rs | wc -l`
+				ALL=`grep -r -w "\<unsafe\>" *.rs | wc -l`
+				echo "$FUNCTIONS $TRAITS $IMPLS $ALL $crate" >> $PROJECT_OUT/grep_results.txt
+			fi
 		fi
 	else
 		echo "$crate is included"
