@@ -29,7 +29,7 @@ mkdir -p $CRATES_DIR
 for crate in $(find $CRATES_IO_INDEX_HOME -type f -printf '%f\n')
 do
 	echo "cloning crate $crate"
-	cargo clone $crate --prefix $OUTPUT_DIR
+	cargo clone $crate --prefix $CRATES_DIR
 done 
 
 cd $CRT_DIR
