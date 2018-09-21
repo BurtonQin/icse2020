@@ -1,4 +1,8 @@
+source ~/.bash_profile
+
 export PROJECT_HOME=$HOME/work/unsafe_study
+
+export OSHA_HOME=$HOME/software/cargo-osha
 
 export PROJECT_OUT=${HOME}/unsafe_analysis
 export CRATES_IO_INDEX_HOME=${HOME}/work/crates.io-index
