@@ -7,19 +7,23 @@ cd $GITHUB_APPS
 function compile_1 {
 	echo "Processing $1"
 	cd $1
-	cargo +nightly build
+	cargo +NIGHTLY clean
+	cargo +NIGHTLY build
 	cd ../
 }
 
 function compile_2 {
 	echo "Processing $1/$2"
         cd $1/$2
-        cargo +nightly build
+	cargo +NIGHTLY clean
+        cargo +NIGHTLY build
         cd ../../
 }
 
 
 source ../rust_flags.sh
+
+compile_1 servo
 
 #compile_2 xi-editor rust
 

@@ -2,5 +2,5 @@ source ../exports.sh
 
 unset RUSTFLAGS
 
-cargo $1 
+cargo +$NIGHTLY $1 
 

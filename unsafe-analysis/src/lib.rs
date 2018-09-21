@@ -23,7 +23,7 @@ extern crate syntax;
 extern crate syntax_pos;
 
 extern crate serde;
-extern crate serde_derive;
+//extern crate serde_derive;
 extern crate serde_json;
 
 use rustc::hir;
