@@ -8,7 +8,7 @@ export RUST_BACKTRACE=1
 export RUST_LOG=error
 
 cd $CRATES_DIR
-for x in {f..z}
+for x in {a..z}
 do
 	for d in $(ls -d ${x}*)
 	do
