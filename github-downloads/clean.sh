@@ -1,14 +1,11 @@
-CRT_DIR=`pwd`
-
 source ../exports.sh
 
-cd $GITHUB_APPS
+pushd $GITHUB_APPS
 
 function compile_1 {
 	echo "Processing $1"
 	cd $1
 	cargo +$NIGHTLY clean
-	cargo +$NIGHTLY build
 	cd $GITHUB_APPS
 }
 
@@ -16,7 +13,6 @@ function compile_2 {
 	echo "Processing $1/$2"
         cd $1/$2
 	cargo +$NIGHTLY clean
-        cargo +$NIGHTLY build
         cd $GITHUB_APPS
 }
 
@@ -27,26 +23,25 @@ compile_1 servo
 
 # TODO
 cd redox
-make -i all
+make -i clean
 cd..
 
 cd tock/boards/hail
-make all
+make clean 
 cd ../ek-tm4c1294xl
-make all
+make clean
 cd ../imix
-make all
+make clean
 cd ../launchxl
-make all
+make clean
 cd ../nordic
-make all
+make clean
 
 cd $GITHUB_APPS
 compile_1 mdbook
 compile_1 trust-dns
 cd linkerd2-proxy
 rm -rf target
-make build
 compile_1 rsign
 compile_1 flowgger
 compile_1 alacritty
@@ -99,7 +94,7 @@ compile_1 aliases
 compile_2 xi-editor rust
 compile_1 xray
 cd remacs
-make
+make clean
 cd ../
 
 #text processing
@@ -165,11 +160,11 @@ compile_1 utest
 
 #rustc
 cd rust
-./x.py build --stage 0
+./x.py clean
 cd $GITHUB_APPS
 
 #compile_1 leaf
 #compile_1 Rocket
 
-cd $CRT_DIR
+popd
 

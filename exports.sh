@@ -9,5 +9,5 @@ export EXCLUDED_CRATES=${PROJECT_OUT}/excluded-crates
 export GEIGER_CRATES=${PROJECT_OUT}/geiger-crates
 export GITHUB_APPS=${PROJECT_OUT}/github-downloads
 
-export NIGHTLY=nightly-2018-09-08
+export NIGHTLY=nightly-2018-09-11
 
