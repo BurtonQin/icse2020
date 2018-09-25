@@ -1,4 +1,5 @@
 #![feature(asm)]
+#![feature(unboxed_closures)]
 
 extern crate byteorder;
 
