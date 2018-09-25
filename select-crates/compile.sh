@@ -11,6 +11,9 @@ cargo +${NIGHTLY} build
 
 source ../rust_flags.sh
 
+rm $PROJECT_OUT/analysis_pass.txt
+rm $PROJECT_OUT/analysis_fails.txt
+
 cd $CRATES_DIR
 
 for x in {a..z}
@@ -23,7 +26,7 @@ do
 		cargo +$NIGHTLY build
 		RESULT=$?
 	        if [ $RESULT -eq 0 ]; then
-        	        echo "$d: Passed">>$PROJECT_OUT/alaysis_pass.txt
+        	        echo "$d: Passed">>$PROJECT_OUT/analysis_pass.txt
 	        else
         	        echo "$d">>$PROJECT_OUT/analysis_fails.txt
                 	echo "$d: Failed"
