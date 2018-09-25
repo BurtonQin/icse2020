@@ -1,8 +1,8 @@
-PROJECT_HOME="$HOME/work/unsafe_study"
-#rustup override set nightly-2018-08-29
+
+source ../exports.sh 
 
 export RUST_BACKTRACE=1
 export RUST_LOG=collect_results=DEBUG
 
-cargo +nightly-2018-08-29 $1 
+cargo +$NIGHTLY $1 
 

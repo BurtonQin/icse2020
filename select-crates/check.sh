@@ -23,7 +23,7 @@ do
 			echo "$d: Failed"
 		fi
 		cargo clean
-		cd ..
+		cd $CRATES_DIR
 	done
 done
 
