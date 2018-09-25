@@ -77,9 +77,9 @@ impl<'a, 'tcx> LateLintPass<'a, 'tcx> for Functions {
 
     fn check_crate_post(&mut self, cx: &LateContext<'a, 'tcx>, _: &'tcx Crate) {
 
-        let root_dir = match std::env::var("UNSAFE_ANALYSIS_DIR") {
+        let root_dir = match std::env::var("FULL_ANALYSIS_DIR") {
             Ok (val) => {val.to_string()}
-            Err (_) => {"/home/ans5k/unsafe_analysis/analysis_data".to_string()}
+            Err (_) => {"/home/ans5k/unsafe_analysis/analysis-data/full-analysis".to_string()}
         };
 
         let cnv = local_crate_name_and_version();
@@ -106,7 +106,7 @@ impl<'a, 'tcx> LateLintPass<'a, 'tcx> for Functions {
         let mut bus_file = file_ops.get_blocks_unsafety_sources_file(true);
         let bus_res = blocks::run_unsafety_sources_analysis(cx,&self.normal_functions);
         save_analysis(bus_res, &mut bus_file);
-        //unsafety in sources
+        //unsafety in functions
         let (fn_unsafety,no_reason) = functions::run_sources_analysis(cx,&self.unsafe_functions);
         save_analysis(fn_unsafety,&mut file_ops.get_fn_unsafety_sources_file(true));
         save_analysis(no_reason,&mut file_ops.get_no_reason_for_unsafety_file(true));
