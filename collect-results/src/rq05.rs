@@ -10,7 +10,8 @@ pub fn process_rq(crates: &Vec<(String,String)>) {
     let mut map = BTreeMap::new();
 
     for (crate_name, version) in crates {
-        let file_ops = results::FileOps::new( crate_name, &version );
+        let dir_name = ::get_full_analysis_dir();
+        let file_ops = results::FileOps::new( crate_name, &version, &dir_name );
         let file = file_ops.get_external_calls_summary_file(false);
 
         let mut reader = BufReader::new(file);

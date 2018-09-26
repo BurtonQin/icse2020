@@ -4,7 +4,7 @@ source ../exports.sh
 
 mkdir -p $PAPER_RESULTS_DIR
 
-./geiger.R
+./syntactic_only.R
 
 #./rq01/run.sh
 #./rq02/run.sh

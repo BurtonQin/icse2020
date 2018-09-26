@@ -1,48 +1,39 @@
 \begin{spacing}{0.7}
 \vbox{\noindent\textbf{res\$blocks}\setlength{\unitlength}{0.001in}\hfill\begin{picture}(1.5,.1)(1500,0)\linethickness{0.6pt}
 \put(0,0){\line(0,1){100}}
-\put(2,0){\line(0,1){6}}
-\put(5,0){\line(0,1){6}}
-\put(7,0){\line(0,1){2}}
-\put(9,0){\line(0,1){2}}
-\put(11,0){\line(0,1){1}}
-\put(14,0){\line(0,1){2}}
-\put(16,0){\line(0,1){1}}
-\put(18,0){\line(0,1){1}}
-\put(21,0){\line(0,1){1}}
-\put(23,0){\line(0,1){1}}
-\put(25,0){\line(0,1){1}}
-\put(28,0){\line(0,1){1}}
-\put(32,0){\line(0,1){1}}
-\put(37,0){\line(0,1){1}}
-\put(39,0){\line(0,1){1}}
-\put(41,0){\line(0,1){1}}
-\put(44,0){\line(0,1){1}}
-\put(46,0){\line(0,1){1}}
-\put(50,0){\line(0,1){1}}
-\put(55,0){\line(0,1){1}}
-\put(60,0){\line(0,1){1}}
-\put(64,0){\line(0,1){1}}
-\put(69,0){\line(0,1){1}}
-\put(73,0){\line(0,1){1}}
-\put(80,0){\line(0,1){1}}
-\put(92,0){\line(0,1){1}}
-\put(96,0){\line(0,1){1}}
-\put(119,0){\line(0,1){1}}
-\put(124,0){\line(0,1){1}}
-\put(133,0){\line(0,1){1}}
-\put(186,0){\line(0,1){1}}
-\put(243,0){\line(0,1){1}}
-\put(1456,0){\line(0,1){1}}
+\put(18,0){\line(0,1){7}}
+\put(36,0){\line(0,1){2}}
+\put(54,0){\line(0,1){1}}
+\put(72,0){\line(0,1){1}}
+\put(90,0){\line(0,1){1}}
+\put(108,0){\line(0,1){1}}
+\put(126,0){\line(0,1){1}}
+\put(144,0){\line(0,1){1}}
+\put(162,0){\line(0,1){1}}
+\put(180,0){\line(0,1){1}}
+\put(234,0){\line(0,1){1}}
+\put(252,0){\line(0,1){1}}
+\put(270,0){\line(0,1){1}}
+\put(306,0){\line(0,1){1}}
+\put(324,0){\line(0,1){1}}
+\put(360,0){\line(0,1){1}}
+\put(504,0){\line(0,1){1}}
+\put(1421,0){\line(0,1){1}}
 \end{picture}
 
 {\smaller
 \begin{tabular}{ rrrrrrrrrrrrr }
 n&missing&distinct&Info&Mean&Gmd&.05&.10&.25&.50&.75&.90&.95 \\
-1453&0&51&0.571&3.63&6.776& 0& 0& 0& 0& 0& 6&14 \end{tabular}
+2112&0&122&0.734&13.89&25.68& 0.0& 0.0& 0.0& 0.0& 4.0&23.0&49.9 \end{tabular}
 \begin{verbatim}
-
-lowest :    0    1    2    3    4, highest:  108  117  162  212 1270
+                                                                                              
+Value          0    50   100   150   200   250   300   350   400   450   500   650   700   750
+Frequency   1918   129    32     8     8     2     1     1     1     3     1     1     1     1
+Proportion 0.908 0.061 0.015 0.004 0.004 0.001 0.000 0.000 0.000 0.001 0.000 0.000 0.000 0.000
+                                        
+Value        850   900  1000  1400  3950
+Frequency      1     1     1     1     1
+Proportion 0.000 0.000 0.000 0.000 0.000
 \end{verbatim}
 }
 }

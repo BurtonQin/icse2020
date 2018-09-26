@@ -15,7 +15,12 @@ for d in $(ls -d $SYNTACTIC_ONLY_CRATES/*)
 do
 	echo "Checking $d"
 	cd $OSHA_HOME
-	OUT=`cargo run -- $(find $d/src -name *.rs)`
+	if [ -f "$d/src/lib.rs" ]
+	then 
+		OUT=`cargo run -- $d/src/lib.rs`
+	else 
+		OUT=`cargo run -- $d/src/main.rs`
+	fi
 	if [ -z "$OUT" ] 
 	then
 		echo $d >> $UNSAFE_ANALYSIS_DIR/syntactic_only_fails.txt
