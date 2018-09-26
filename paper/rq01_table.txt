@@ -1,0 +1,40 @@
+\begin{spacing}{0.7}
+\vbox{\noindent\textbf{res\$blocks}\setlength{\unitlength}{0.001in}\hfill\begin{picture}(1.5,.1)(1500,0)\linethickness{0.6pt}
+\put(0,0){\line(0,1){100}}
+\put(12,0){\line(0,1){4}}
+\put(23,0){\line(0,1){1}}
+\put(35,0){\line(0,1){1}}
+\put(47,0){\line(0,1){1}}
+\put(59,0){\line(0,1){1}}
+\put(70,0){\line(0,1){1}}
+\put(82,0){\line(0,1){1}}
+\put(94,0){\line(0,1){1}}
+\put(106,0){\line(0,1){1}}
+\put(129,0){\line(0,1){1}}
+\put(141,0){\line(0,1){1}}
+\put(153,0){\line(0,1){1}}
+\put(176,0){\line(0,1){1}}
+\put(188,0){\line(0,1){1}}
+\put(258,0){\line(0,1){1}}
+\put(329,0){\line(0,1){1}}
+\put(493,0){\line(0,1){1}}
+\put(1421,0){\line(0,1){1}}
+\end{picture}
+
+{\smaller
+\begin{tabular}{ rrrrrrrrrrrrr }
+n&missing&distinct&Info&Mean&Gmd&.05&.10&.25&.50&.75&.90&.95 \\
+2092&0&121&0.71&16.44&31.33& 0.0& 0.0& 0.0& 0.0& 2.0&14.9&41.0 \end{tabular}
+\begin{verbatim}
+                                                                                              
+Value          0    50   100   150   200   250   300   350   400   450   550   600   650   750
+Frequency   1940    87    21     8     4     4     1     5     6     2     2     3     2     1
+Proportion 0.927 0.042 0.010 0.004 0.002 0.002 0.000 0.002 0.003 0.001 0.001 0.001 0.001 0.000
+                                        
+Value        800  1100  1400  2100  6050
+Frequency      2     1     1     1     1
+Proportion 0.001 0.000 0.000 0.000 0.000
+\end{verbatim}
+}
+}
+\end{spacing}

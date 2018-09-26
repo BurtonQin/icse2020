@@ -10,7 +10,8 @@ pub fn process_rq(crates: &Vec<(String,String)>) {
     let mut writer = BufWriter::new(output_file);
 
     for (crate_name, version) in crates {
-        let file_ops = results::FileOps::new( crate_name, &version );
+        let dir_name = ::get_full_analysis_dir();
+        let file_ops = results::FileOps::new( crate_name, &version, &dir_name );
         let file = file_ops.get_summary_functions_file(false);
         let mut reader = BufReader::new(file);
         //read line by line
@@ -27,10 +28,9 @@ pub fn process_rq(crates: &Vec<(String,String)>) {
                 if fn_summary.total() == 0 {
                     error!("Processing {:?}: {:?}", crate_name, line);
                 } else {
-                    writeln!(writer, "{}\t{:.2}\t{}"
-                             , crate_name
-                             , fn_summary.unsafe_no() as f32 / fn_summary.total() as f32
-                             , fn_summary.total());
+                    writeln!(writer, "{}\t{}"
+                             , fn_summary.unsafe_no()
+                             , crate_name);
                 }
             }
         }

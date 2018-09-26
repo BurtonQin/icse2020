@@ -11,7 +11,8 @@ pub fn process_rq(crates: &Vec<(String,String)>) {
     let mut writer = BufWriter::new(output_file);
 
     for (crate_name, version) in crates {
-        let file_ops = results::FileOps::new( crate_name, &version );
+        let dir_name = ::get_full_analysis_dir();
+        let file_ops = results::FileOps::new( crate_name, &version, &dir_name );
         let file = file_ops.get_blocks_summary_file(false);
         let mut reader = BufReader::new(file);
         //read line by line
@@ -25,18 +26,8 @@ pub fn process_rq(crates: &Vec<(String,String)>) {
                 //process line
                 let trimmed_line = line.trim_right();
                 let block_summary: blocks::BlockSummary = serde_json::from_str(&trimmed_line).unwrap();
-                if block_summary.total_bb != 0
-                    && block_summary.hir_total != 0 {
-                    writeln!(writer, "{}\t{:.2}\t{}\t{:.2}\t{}"
-                             , crate_name
-                             , block_summary.in_unsafe_bb as f32 / block_summary.total_bb as f32
-                             , block_summary.in_unsafe_bb
-                             , block_summary.hir_unsafe_blocks as f32 / block_summary.hir_total as f32
-                             , block_summary.hir_unsafe_blocks
-                    );
-                } else {
-                    error!("Processing {:?}: {:?}", crate_name, line);
-                }
+                writeln!(writer, "{}\t{}", block_summary.unsafe_blocks, crate_name);
+
             }
         }
     }

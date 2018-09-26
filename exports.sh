@@ -13,6 +13,8 @@ export GITHUB_APPS=${PROJECT_OUT}/github-downloads
 export UNSAFE_ANALYSIS_DIR=${PROJECT_OUT}/analysis-data
 export FULL_ANALYSIS_DIR=${UNSAFE_ANALYSIS_DIR}/full-analysis
 
+export RQ_DIR=${UNSAFE_ANALYSIS_DIR}/research-questions
+
 export PAPER_RESULTS_DIR=$PROJECT_HOME/paper/
 
 export NIGHTLY=nightly-2018-09-11

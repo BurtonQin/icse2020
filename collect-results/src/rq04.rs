@@ -76,7 +76,8 @@ pub fn process_rq(crates: &Vec<(String,String)>) {
     let mut summary = SourceSummary::new();
 
     for (crate_name, version) in crates {
-        let file_ops = results::FileOps::new( crate_name, &version );
+        let dir_name = ::get_full_analysis_dir();
+        let file_ops = results::FileOps::new( crate_name, &version, &dir_name );
         let file = file_ops.get_blocks_unsafety_sources_file(false);
         let mut reader = BufReader::new(file);
         //read line by line
@@ -96,13 +97,13 @@ pub fn process_rq(crates: &Vec<(String,String)>) {
                     for src in sources {
                         match src.kind {
                             SourceKind::UnsafeFnCall(_) => {fn_summary.unsafe_fn_calls+=1;},
-                            SourceKind::DerefRawPointer(_) => {fn_summary.raw_ptr+=1;},
+                            SourceKind::DerefRawPointer => {fn_summary.raw_ptr+=1;},
                             SourceKind::Asm => {fn_summary.asm+=1;},
-                            SourceKind::Static(_) => {fn_summary.static_access+=1;},
+                            SourceKind::Static => {fn_summary.static_access+=1;},
                             SourceKind::BorrowPacked => {fn_summary.borrow_packed+=1;},
-                            SourceKind::AssignmentToNonCopyUnionField(_) => {fn_summary.assignment_union+=1;},
-                            SourceKind::AccessToUnionField(_) => {fn_summary.union+=1;},
-                            SourceKind::ExternStatic(_) => {fn_summary.extern_static+=1;},
+                            SourceKind::AssignmentToNonCopyUnionField => {fn_summary.assignment_union+=1;},
+                            SourceKind::AccessToUnionField => {fn_summary.union+=1;},
+                            SourceKind::ExternStatic => {fn_summary.extern_static+=1;},
                         }
                     }
                     writeln!(writer, "{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}"

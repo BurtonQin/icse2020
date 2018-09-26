@@ -24,27 +24,33 @@ use std::fs::OpenOptions;
 use std::path::PathBuf;
 use std::fs::DirBuilder;
 
-static OUTPUT_DIR: &'static str = "/home/ans5k/unsafe_analysis/research_questions";
-
 fn main() {
     // create ouput dir if it does not exists
-    let dir_path: PathBuf = [OUTPUT_DIR].iter().collect();
+    let root_dir = match std::env::var("RQ_DIR") {
+        Ok (val) => {val.to_string()}
+        Err (_) => {"/home/ans5k/unsafe_analysis/analysis-data/research-questions".to_string()}
+    };
+    let dir_path: PathBuf = [root_dir].iter().collect();
     DirBuilder::new().recursive(true).create(dir_path).unwrap();
     // logger
     env_logger::init();
     // consider only the most recent version of each crate
     let crates = get_crates_recent_versions();
 //    rq01::process_rq(&crates);
-//    rq02::process_rq(&crates);
+    rq02::process_rq(&crates);
 //    rq03::process_rq(&crates);
 //    rq04::process_rq(&crates);
 //    rq05::process_rq(&crates);
 //    rq06::process_rq(&crates);
-    rq09::process_rq(&crates);
+//    rq09::process_rq(&crates);
 }
 
 pub fn get_output_file( name: &'static str ) -> File {
-    let path : PathBuf = [OUTPUT_DIR,name].iter().collect();
+    let root_dir = match std::env::var("RQ_DIR") {
+        Ok (val) => {val.to_string()}
+        Err (_) => {"/home/ans5k/unsafe_analysis/analysis-data/research-questions".to_string()}
+    };
+    let path : PathBuf = [root_dir,name.to_string()].iter().collect();
     debug!("{:?}", path);
     OpenOptions::new()
         .write(true)
@@ -54,9 +60,16 @@ pub fn get_output_file( name: &'static str ) -> File {
         .unwrap()
 }
 
+fn get_full_analysis_dir() -> String {
+    match std::env::var("FULL_ANALYSIS_DIR") {
+        Ok (val) => {val.to_string()}
+        Err (_) => {"/home/ans5k/unsafe_analysis/analysis-data/full-analysis".to_string()}
+    }
+}
+
 fn get_crates_recent_versions() -> Vec<(String,String)> {
     let mut res = Vec::new();
-    let root_dir = std::fs::read_dir(results::ROOT_DIR).unwrap();
+    let root_dir = std::fs::read_dir(get_full_analysis_dir()).unwrap();
     for dir_result in root_dir {
         let d = dir_result.unwrap();
         let path_buf = d.path();
