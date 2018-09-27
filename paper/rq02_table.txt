@@ -1,47 +1,35 @@
 \begin{spacing}{0.7}
-\vbox{\noindent\textbf{res\$blocks}\setlength{\unitlength}{0.001in}\hfill\begin{picture}(1.5,.1)(1500,0)\linethickness{0.6pt}
+\vbox{\noindent\textbf{res\$functions}\setlength{\unitlength}{0.001in}\hfill\begin{picture}(1.5,.1)(1500,0)\linethickness{0.6pt}
 \put(0,0){\line(0,1){100}}
 \put(3,0){\line(0,1){4}}
 \put(6,0){\line(0,1){1}}
-\put(9,0){\line(0,1){1}}
+\put(8,0){\line(0,1){1}}
 \put(11,0){\line(0,1){1}}
 \put(14,0){\line(0,1){1}}
-\put(17,0){\line(0,1){1}}
-\put(20,0){\line(0,1){1}}
-\put(23,0){\line(0,1){1}}
-\put(26,0){\line(0,1){1}}
-\put(28,0){\line(0,1){1}}
+\put(19,0){\line(0,1){1}}
+\put(22,0){\line(0,1){1}}
+\put(25,0){\line(0,1){1}}
 \put(31,0){\line(0,1){1}}
-\put(34,0){\line(0,1){1}}
-\put(43,0){\line(0,1){1}}
-\put(45,0){\line(0,1){1}}
-\put(68,0){\line(0,1){1}}
-\put(74,0){\line(0,1){1}}
-\put(88,0){\line(0,1){1}}
-\put(99,0){\line(0,1){1}}
-\put(113,0){\line(0,1){1}}
-\put(122,0){\line(0,1){1}}
-\put(133,0){\line(0,1){1}}
-\put(176,0){\line(0,1){1}}
-\put(179,0){\line(0,1){1}}
-\put(198,0){\line(0,1){1}}
-\put(204,0){\line(0,1){1}}
-\put(332,0){\line(0,1){1}}
-\put(354,0){\line(0,1){1}}
-\put(468,0){\line(0,1){1}}
-\put(505,0){\line(0,1){1}}
-\put(624,0){\line(0,1){1}}
-\put(939,0){\line(0,1){1}}
-\put(1455,0){\line(0,1){1}}
+\put(33,0){\line(0,1){1}}
+\put(39,0){\line(0,1){1}}
+\put(42,0){\line(0,1){1}}
+\put(95,0){\line(0,1){1}}
+\put(111,0){\line(0,1){1}}
+\put(195,0){\line(0,1){1}}
+\put(201,0){\line(0,1){1}}
+\put(301,0){\line(0,1){1}}
+\put(459,0){\line(0,1){1}}
+\put(613,0){\line(0,1){1}}
+\put(1429,0){\line(0,1){1}}
 \end{picture}
 
 {\smaller
 \begin{tabular}{ rrrrrrrrrrrrr }
 n&missing&distinct&Info&Mean&Gmd&.05&.10&.25&.50&.75&.90&.95 \\
-2153&0&75&0.524&12.46&24.5& 0& 0& 0& 0& 0& 4&11 \end{tabular}
+1303&0&55&0.5&11.46&22.56&0.0&0.0&0.0&0.0&0.0&4.0&9.9 \end{tabular}
 \begin{verbatim}
 
-lowest :    0    1    2    3    4, highest: 1646 1783 2205 3308 5127
+lowest :    0    1    2    3    4, highest:  717 1080 1646 2205 5127
 \end{verbatim}
 }
 }

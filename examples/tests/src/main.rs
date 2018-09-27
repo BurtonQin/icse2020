@@ -9,9 +9,16 @@ pub unsafe fn with_asm() {
     asm!("nop");
 }
 
-pub fn with_asm_unsafe_block() {
+pub fn with_asm_unsafe_block(b:bool) {
     unsafe {
         asm!("nop");
+    }
+    unsafe {
+        if b {
+            asm!("nop");
+        } else {
+            asm!("nop");
+        }
     }
 }
 
@@ -151,7 +158,7 @@ fn call_unsafe(s1: &UnsafeImpl) {
     unsafe {
         s1.unsafe_method_safe_trait();
     }
-    with_asm_unsafe_block();
+    with_asm_unsafe_block(true);
     let mut v = Vec::new();
     v.push(1);
 }

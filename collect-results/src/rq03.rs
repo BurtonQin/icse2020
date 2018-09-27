@@ -15,18 +15,23 @@ pub fn process_rq(crates: &Vec<(String,String)>) {
         let file = file_ops.get_unsafe_traits_file(false);
         let mut reader = BufReader::new(file);
         //read line by line
-        let mut line = String::new();
-        let len = reader.read_line(&mut line).expect("Error reading file");
-        if len == 0 {
-            //EOF reached
-            error!("Expected one line");
-        } else {
-            //process line
-            let trimmed_line = line.trim_right();
-            let summary: Vec<results::traits::UnsafeTrait> = serde_json::from_str(&trimmed_line).unwrap();
-            writeln!(writer, "{}\t{}"
-                     , crate_name
-                     , summary.len());
+        let mut counter = 0;
+        loop {
+            let mut line = String::new();
+            let len = reader.read_line(&mut line).expect("Error reading file");
+            if len == 0 {
+                //EOF reached
+                break
+            } else {
+                //process line
+                let trimmed_line = line.trim_right();
+                if line.len() > 0 {
+                    counter += 1;
+                }
+            }
         }
+        writeln!(writer, "{}\t{}"
+                        , counter
+                        , crate_name);
     }
 }
