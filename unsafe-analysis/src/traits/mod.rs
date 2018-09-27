@@ -26,9 +26,9 @@ impl<'a, 'tcx> TraitVisitor<'a, 'tcx> {
 
 impl<'a, 'tcx> rustc::hir::intravisit::Visitor<'tcx> for TraitVisitor<'a, 'tcx> {
     fn visit_item(&mut self, item: &'tcx rustc::hir::Item) {
-        if let rustc::hir::ItemKind::Trait(_, rustc::hir::Unsafety::Unsafe, ..) = item.node {
+        if let rustc::hir::ItemKind::Impl(rustc::hir::Unsafety::Unsafe, ..) = item.node {
             self.unsafe_traits
-                .push(UnsafeTrait::new(get_node_name(self.cx, item.id)))
+                    .push(UnsafeTrait::new(get_node_name(self.cx, item.id)))
         }
         rustc::hir::intravisit::walk_item(self, item); //TODO maybe not needed- are nested traits a thing?
     }

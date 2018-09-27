@@ -4,7 +4,6 @@ use std::io::BufRead;
 use std::io::BufWriter;
 use std::io::Write;
 use results::unsafety_sources::SourceKind;
-use results::functions::ShortFnInfo;
 
 struct SourceSummary {
     pub unsafe_fn_calls: usize,
@@ -29,52 +28,14 @@ impl SourceSummary {
             , extern_static: 0}
     }
 
-    pub fn total(&self) -> usize {
-        self.unsafe_fn_calls +
-            self.raw_ptr +
-            self.asm +
-            self.static_access +
-            self.borrow_packed +
-            self.assignment_union +
-            self.union +
-            self.extern_static
-    }
-
-    pub fn save(&self) {
-        let output_file = ::get_output_file("rq04-summary");
-        let mut writer = BufWriter::new(output_file);
-        writeln!(writer, "{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}"
-                 , self.total()
-                 , self.unsafe_fn_calls
-                 , self.raw_ptr
-                 , self.asm
-                 , self.static_access
-                 , self.borrow_packed
-                 , self.assignment_union
-                 , self.union
-                 , self.extern_static
-        );
-    }
-
-    pub fn add(&mut self, other: &SourceSummary) {
-        self.unsafe_fn_calls += other.unsafe_fn_calls;
-        self.raw_ptr += other.raw_ptr;
-        self.asm += other.asm;
-        self.static_access += other.static_access;
-        self.borrow_packed += other.borrow_packed;
-        self.assignment_union += other.assignment_union;
-        self.union += other.union;
-        self.extern_static += other.extern_static;
-    }
 }
 
 
 pub fn process_rq(crates: &Vec<(String,String)>) {
-    let output_file = ::get_output_file("rq04-fn");
+    let output_file = ::get_output_file("rq04");
     let mut writer = BufWriter::new(output_file);
-
-    let mut summary = SourceSummary::new();
-
+    let calls_file = ::get_output_file("rq04-calls");
+    let mut calls_writer = BufWriter::new(calls_file);
     for (crate_name, version) in crates {
         let dir_name = ::get_full_analysis_dir();
         let file_ops = results::FileOps::new( crate_name, &version, &dir_name );
@@ -90,40 +51,39 @@ pub fn process_rq(crates: &Vec<(String,String)>) {
             } else {
                 //process line
                 let trimmed_line = line.trim_right();
-                let all: (ShortFnInfo,results::blocks::BlockUnsafetySourcesAnalysis) = serde_json::from_str(&trimmed_line).unwrap();
-                let fn_name = all.0.name();
-                let mut fn_summary = SourceSummary::new();
-                for (_, sources) in all.1.sources() {
+                let all: results::blocks::BlockUnsafetySourcesAnalysis = serde_json::from_str(&trimmed_line).unwrap();
+                for (block, sources) in all.sources() {
+                    let mut block_sources = SourceSummary::new();
                     for src in sources {
                         match src.kind {
-                            SourceKind::UnsafeFnCall(_) => {fn_summary.unsafe_fn_calls+=1;},
-                            SourceKind::DerefRawPointer => {fn_summary.raw_ptr+=1;},
-                            SourceKind::Asm => {fn_summary.asm+=1;},
-                            SourceKind::Static => {fn_summary.static_access+=1;},
-                            SourceKind::BorrowPacked => {fn_summary.borrow_packed+=1;},
-                            SourceKind::AssignmentToNonCopyUnionField => {fn_summary.assignment_union+=1;},
-                            SourceKind::AccessToUnionField => {fn_summary.union+=1;},
-                            SourceKind::ExternStatic => {fn_summary.extern_static+=1;},
+                            SourceKind::UnsafeFnCall(ref abi) => {
+                                block_sources.unsafe_fn_calls+=1;
+                                writeln!(calls_writer, "{:?}\t{}", abi, block);
+                            },
+                            SourceKind::DerefRawPointer => {block_sources.raw_ptr+=1;},
+                            SourceKind::Asm => {block_sources.asm+=1;},
+                            SourceKind::Static => {block_sources.static_access+=1;},
+                            SourceKind::BorrowPacked => {block_sources.borrow_packed+=1;},
+                            SourceKind::AssignmentToNonCopyUnionField => {block_sources.assignment_union+=1;},
+                            SourceKind::AccessToUnionField => {block_sources.union+=1;},
+                            SourceKind::ExternStatic => {block_sources.extern_static+=1;},
                         }
                     }
                     writeln!(writer, "{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}"
+                             , block_sources.unsafe_fn_calls
+                             , block_sources.raw_ptr
+                             , block_sources.asm
+                             , block_sources.static_access
+                             , block_sources.borrow_packed
+                             , block_sources.assignment_union
+                             , block_sources.union
+                             , block_sources.extern_static
                              , crate_name
-                             , fn_name
-                             , fn_summary.unsafe_fn_calls
-                             , fn_summary.raw_ptr
-                             , fn_summary.asm
-                             , fn_summary.static_access
-                             , fn_summary.borrow_packed
-                             , fn_summary.assignment_union
-                             , fn_summary.union
-                             , fn_summary.extern_static
+                             , block
                     );
-                    summary.add(&fn_summary);
                 }
 
             }
         }
     }
-    // save summary
-    summary.save();
 }

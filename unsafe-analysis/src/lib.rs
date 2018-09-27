@@ -101,7 +101,7 @@ impl<'a, 'tcx> LateLintPass<'a, 'tcx> for Functions {
         // unsafe traits
         let mut traits_file = file_ops.get_unsafe_traits_file(true);
         let unsafe_traits = traits::run_analysis(cx);
-        save_summary_analysis(unsafe_traits, &mut traits_file);
+        save_analysis(unsafe_traits, &mut traits_file);
         //unsafety sources in blocks
         let mut bus_file = file_ops.get_blocks_unsafety_sources_file(true);
         let bus_res = blocks::run_unsafety_sources_analysis(cx,&self.normal_functions);
@@ -119,11 +119,13 @@ impl<'a, 'tcx> LateLintPass<'a, 'tcx> for Functions {
             let node = cx.tcx.hir.get(owner_node_id);
             match node {
                 hir::Node::Item(item) => {
+                    // functions
                     if let hir::ItemKind::Fn(ref _fn_decl, ref fn_header, _, _) = item.node {
                         self.add(owner_node_id, fn_header.unsafety);
                     }
                 },
                 hir::Node::ImplItem(ref impl_item) => {
+                    // method implementations
                     if let hir::ImplItemKind::Method(ref sig, _) = impl_item.node {
                         self.add(owner_node_id, sig.header.unsafety);
                     }
@@ -134,6 +136,7 @@ impl<'a, 'tcx> LateLintPass<'a, 'tcx> for Functions {
                     // any unsafe in this body will be processed by the enclosing function or method
                 }
                 hir::Node::TraitItem(ref trait_item) => {
+                    // associated methods (functions in impl blocks, not of traits)
                     match trait_item.node {
                         hir::TraitItemKind::Const(..)
                         | hir::TraitItemKind::Type(..) => { }

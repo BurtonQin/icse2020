@@ -36,10 +36,10 @@ fn main() {
     env_logger::init();
     // consider only the most recent version of each crate
     let crates = get_crates_recent_versions();
-//    rq01::process_rq(&crates);
+    rq01::process_rq(&crates);
     rq02::process_rq(&crates);
-//    rq03::process_rq(&crates);
-//    rq04::process_rq(&crates);
+    rq03::process_rq(&crates);
+    rq04::process_rq(&crates);
 //    rq05::process_rq(&crates);
 //    rq06::process_rq(&crates);
 //    rq09::process_rq(&crates);
@@ -63,7 +63,7 @@ pub fn get_output_file( name: &'static str ) -> File {
 fn get_full_analysis_dir() -> String {
     match std::env::var("FULL_ANALYSIS_DIR") {
         Ok (val) => {val.to_string()}
-        Err (_) => {"/home/ans5k/unsafe_analysis/analysis-data/full-analysis".to_string()}
+        Err (_) => {"~/unsafe_analysis/analysis-data/full-analysis".to_string()}
     }
 }
 
