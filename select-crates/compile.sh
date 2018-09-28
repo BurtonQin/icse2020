@@ -11,12 +11,12 @@ cargo +${NIGHTLY} build
 
 source ../rust_flags.sh
 
-rm $PROJECT_OUT/analysis_pass.txt
-rm $PROJECT_OUT/analysis_fails.txt
+#rm $PROJECT_OUT/analysis_pass.txt
+#rm $PROJECT_OUT/analysis_fails.txt
 
 cd $CRATES_DIR
 
-for x in {a..z}
+for x in {m..z}
 do
 	for d in $(ls -d $CRATES_DIR/$x*)
 	do
