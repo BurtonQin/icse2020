@@ -2,6 +2,7 @@
 library(ggplot2)
 library(Hmisc)
 library(plyr)
+library('scales')
 
 res <- read.table( file="~/unsafe_analysis/analysis-data/research-questions/rq04"
                    , header=FALSE
@@ -13,6 +14,7 @@ res <- read.table( file="~/unsafe_analysis/analysis-data/research-questions/rq04
                                  ))
 
 all_filename <- "~/work/unsafe_study/paper/rq04_all.eps"
+source_base_filename <- "~/work/unsafe_study/paper/rq04_source_"
 calls_filename <- "~/work/unsafe_study/paper/rq04_calls.eps"
 
 labels <- c("Unsafe Function Call", "Derefence Raw Pointer",
@@ -29,24 +31,56 @@ values <- values/n
 all_frame <- data.frame(names = labels, data = values)
 all_frame$names <- factor(all_frame$names, levels = all_frame$names[order(all_frame$data)])
 
-#ggplot(all_frame, aes(x="", y=data, fill=names, ordered=TRUE))+
-ggplot(all_frame, aes(x=names, y=data, fill=names, ordered=TRUE))+
+ggplot(all_frame, aes(x="", y=data, fill=names, ordered=TRUE))+
+#ggplot(all_frame, aes(x=names, y=data, fill=names, ordered=TRUE))+
   geom_bar(width = 1, stat = "identity") +
   theme (
     legend.title = element_blank()
   ) +
-  scale_y_continuous(labels=percent, breaks = all_frame$data[1:3]) +
+  scale_y_continuous(labels=percent, breaks = cumsum(all_frame$data[1:3])) +
   labs(title="Unsafety Sources in Unsafe Blocks") +
   labs(x="Unsafety Sources in Unsafe Blocks", y="Number of accesses") 
   
 ggsave(all_filename, plot = last_plot(), device = "eps")
 
-# unsafe function calls classification
+fn <- paste0(source_base_filename,"n",".txt")
+write(nrow(all_frame),fn,append=FALSE)
+for (i in 1:length(values)) {
+  fn <- paste0(source_base_filename,i,".txt")
+  write(percent(values[i]),fn,append=FALSE)
+}
 
+# unsafe function calls classification
 res <- read.table( file="~/unsafe_analysis/analysis-data/research-questions/rq04-calls"
                    , header=FALSE
                    , sep='\t'
                    , comment.char = "#"
                    , col.names=c("type", "block_id"))
+cols <- unique(res$type)
+values <- array(dim=length(cols))
+for (i in 1:length(cols)) {
+  dfi <- res[ which(res$type == cols[i]),]
+  values[i] <- nrow(dfi)
+}
+n <- sum(values)
+values <- values/n
+all_frame <- data.frame(names = cols, data = values)
+all_frame$names <- factor(all_frame$names, levels = all_frame$names[order(all_frame$data)])
+ggplot(all_frame, aes(x="", y=data, fill=names, ordered=TRUE))+
+  #ggplot(all_frame, aes(x=names, y=data, fill=names, ordered=TRUE))+
+  geom_bar(width = 1, stat = "identity") +
+  theme (
+    legend.title = element_blank()
+  ) +
+  scale_y_continuous(labels=percent, breaks = cumsum(all_frame$data[1:3])) +
+  labs(title="Unsafety Sources in Unsafe Blocks") +
+  labs(x="Unsafety Sources in Unsafe Blocks", y="Number of accesses") 
 
+ggsave(calls_filename, plot = last_plot(), device = "eps")
 
+fn <- paste0(source_base_filename,"_calls_n",".txt")
+write(nrow(all_frame),fn,append=FALSE)
+for (i in 1:length(values)) {
+  fn <- paste0(source_base_filename,cols[i],".txt")
+  write(percent(values[i]),fn,append=FALSE)
+}
