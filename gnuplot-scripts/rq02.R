@@ -10,9 +10,16 @@ res <- read.table( file="~/unsafe_analysis/analysis-data/research-questions/rq02
 
 table_filename <- "~/work/unsafe_study/paper/rq02_table.txt"
 cdf_filename <- "~/work/unsafe_study/paper/rq02_cdf.eps"
-nonzero_filename <- "~/work/unsafe_study/paper/rq02_some.txt" 
+base_filename <- "~/work/unsafe_study/paper/rq02_"
 
-latex(describe(res$functions),file=table_filename)
+#table
+summary <- quantile(res$functions, c(.90,.95))
+fn <- paste0(base_filename,"n",".txt")
+write(nrow(res),file=fn)
+p90 <- paste0(base_filename,"90",".txt")
+write(summary[1],file=p90)
+p95 <- paste0(base_filename,"95",".txt")
+write(summary[2],file=p95)
 
 top5_x <- res$functions[order(res$functions,decreasing = TRUE )[1:5]]
 min_y <- length( res$functions[res$functions==0] ) / length(res$functions)

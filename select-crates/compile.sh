@@ -28,8 +28,16 @@ do
 	        if [ $RESULT -eq 0 ]; then
         	        echo "$d: Passed">>$PROJECT_OUT/analysis_pass.txt
 	        else
-        	        echo "$d">>$PROJECT_OUT/analysis_fails.txt
-                	echo "$d: Failed"
+			export DO_NOT_USE_INSTANCE=true
+			RUST_BACKTRACE=1 cargo +$NIGHTLY build
+	                RESULT=$?
+        	        if [ $RESULT -eq 0 ]; then
+                	        echo "$d: Passed">>$PROJECT_OUT/analysis_pass.txt
+                	else
+        	        	echo "$d">>$PROJECT_OUT/analysis_fails.txt
+                		echo "$d: Failed"
+			fi
+			unset DO_NOT_USE_INSTANCE
         	fi
         	cargo +$NIGHTLY clean
 		cd ..

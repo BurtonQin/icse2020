@@ -51,24 +51,14 @@ impl<'a, 'b> FileOps<'a, 'b> {
         }
     }
 
-    pub fn open_file(&self, analysis_name: &'static str, save_old: bool) -> File {
+    pub fn open_file(&self, analysis_name: &'static str, overwrite: bool) -> File {
         let file_path = self.get_path(analysis_name.to_string());
-
-        if file_path.as_path().exists() && save_old {
-            // back-up old file if it exists
-            let mut new_name = analysis_name.to_string();
-            let dt = chrono::offset::utc::UTC::now();
-            let newdate = dt.format("_%Y_%m_%d_%H_%M_%S");
-            new_name.push_str(newdate.to_string().as_str());
-            let new_path: PathBuf = self.get_path(new_name);
-            std::fs::rename(file_path.as_path(), new_path).unwrap();
-        }
-
         // create new file
         OpenOptions::new()
             .read(true)
             .write(true)
             .create(true)
+            .truncate(overwrite) // if true overwrites the old file
             .open(file_path)
             .unwrap()
     }

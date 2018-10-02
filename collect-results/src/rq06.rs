@@ -13,7 +13,6 @@ pub fn process_rq(crates: &Vec<(String,String)>) {
         let file_ops = results::FileOps::new( crate_name, &version, &dir_name );
         let file = file_ops.get_unsafe_calls_file(false);
         let mut reader = BufReader::new(file);
-        let mut counter = 0;
         //read line by line
         loop {
             let mut line = String::new();

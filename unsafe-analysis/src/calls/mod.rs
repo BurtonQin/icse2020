@@ -1,6 +1,6 @@
 use rustc::hir;
 use rustc::lint::LateContext;
-use rustc::mir::{BasicBlock, Location, Mir, Operand, Terminator, TerminatorKind};
+use rustc::mir::{BasicBlock, Location, Mir, Terminator, TerminatorKind};
 use rustc::mir::visit::Visitor;
 use rustc::ty;
 use rustc::ty::TyKind;
@@ -85,27 +85,33 @@ impl<'a, 'tcx> Visitor<'tcx> for UnsafeCallsVisitor<'a, 'tcx> {
                                 self.data.push((Abi::AmdGpuKernel, self.cx.tcx.item_name(callee_def_id).to_string()));
                             }
                             rustc_target::spec::abi::Abi::Rust => {
-                                //                            if callee_def_id.is_local() {
-                                //                                if let hir::Unsafety::Unsafe = self.cx.tcx.fn_sig(callee_def_id).unsafety() {
-                                //                                    let param_env = self.cx.tcx.param_env(callee_def_id);
-                                //                                    if let Some(instance) = ty::Instance::resolve(self.cx.tcx, param_env, callee_def_id, substs) {
-                                //                                        match instance.def {
-                                //                                            ty::InstanceDef::Item(def_id)
-                                //                                            | ty::InstanceDef::Intrinsic(def_id)
-                                //                                            | ty::InstanceDef::Virtual(def_id, _)
-                                //                                            | ty::InstanceDef::DropGlue(def_id, _) => {
-                                //                                                self.data.push((Abi::Rust, self.cx.tcx.absolute_item_path_str(def_id).to_string()));
-                                //                                            }
-                                //                                            _ => error!("ty::InstanceDef:: NOT handled {:?}", instance.def),
-                                //                                        }
-                                //                                    } else {
-                                //                                        // Generics
-                                //                                        self.data.push((Abi::Rust, self.cx.tcx.absolute_item_path_str(callee_def_id)));
-                                //                                    }
-                                //                                }
-                                //                            } else {
-                                self.data.push((Abi::Rust, self.cx.tcx.absolute_item_path_str(callee_def_id)));
-                                //                            }
+
+                                let call_instance = match std::env::var("DO_NOT_USE_INSTANCE") {
+                                    Err(_) => {"".to_string()}
+                                    Ok(val) => {val}
+                                };
+
+                                if call_instance == "" {
+                                    if let hir::Unsafety::Unsafe = self.cx.tcx.fn_sig(callee_def_id).unsafety() {
+                                        let param_env = self.cx.tcx.param_env(callee_def_id);
+                                        if let Some(instance) = ty::Instance::resolve(self.cx.tcx, param_env, callee_def_id, substs) {
+                                            match instance.def {
+                                                ty::InstanceDef::Item(def_id)
+                                                | ty::InstanceDef::Intrinsic(def_id)
+                                                | ty::InstanceDef::Virtual(def_id, _)
+                                                | ty::InstanceDef::DropGlue(def_id, _) => {
+                                                    self.data.push((Abi::Rust, self.cx.tcx.absolute_item_path_str(def_id).to_string()));
+                                                }
+                                                _ => error!("ty::InstanceDef:: NOT handled {:?}", instance.def),
+                                            }
+                                        } else {
+                                            // Generics
+                                            self.data.push((Abi::Rust, self.cx.tcx.absolute_item_path_str(callee_def_id)));
+                                        }
+                                    }
+                                } else {
+                                    self.data.push((Abi::Rust, self.cx.tcx.absolute_item_path_str(callee_def_id)));
+                                }
                             }
                             rustc_target::spec::abi::Abi::C => {
                                 self.data.push((Abi::C, self.cx.tcx.item_name(callee_def_id).to_string()));
