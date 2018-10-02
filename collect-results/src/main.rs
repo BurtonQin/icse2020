@@ -1,5 +1,6 @@
 #![feature(rustc_private)]
 #![feature(extern_prelude)]
+#![feature(str_escape)]
 
 #[macro_use]
 extern crate log;
@@ -17,7 +18,6 @@ mod rq03;
 mod rq04;
 mod rq05;
 mod rq06;
-mod rq09;
 
 use std::fs::File ;
 use std::fs::OpenOptions;
@@ -41,7 +41,7 @@ fn main() {
     rq03::process_rq(&crates);
     rq04::process_rq(&crates);
     rq05::process_rq(&crates);
-//    rq06::process_rq(&crates);
+    rq06::process_rq(&crates);
 //    rq09::process_rq(&crates);
 }
 

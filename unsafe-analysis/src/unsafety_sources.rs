@@ -118,18 +118,6 @@ impl<'a, 'tcx> Visitor<'tcx> for UnsafetySourcesVisitor<'a, 'tcx> {
     ) {
         self.source_info = statement.source_info;
         match statement.kind {
-            StatementKind::Assign(..)
-            | StatementKind::ReadForMatch(..)
-            | StatementKind::SetDiscriminant { .. }
-            | StatementKind::StorageLive(..)
-            | StatementKind::StorageDead(..)
-            | StatementKind::EndRegion(..)
-            | StatementKind::Validate(..)
-            | StatementKind::UserAssertTy(..)
-            | StatementKind::Nop => {
-                // safe (at least as emitted during MIR construction)
-            }
-
             StatementKind::InlineAsm { .. } => {
                 let unsafety_node_id = self.get_unsafety_node_id();
                 self.data.add_unsafety_source(
@@ -138,6 +126,9 @@ impl<'a, 'tcx> Visitor<'tcx> for UnsafetySourcesVisitor<'a, 'tcx> {
                     statement.source_info,
                     unsafety_node_id,
                 );
+            }
+            _ => {
+                // safe (at least as emitted during MIR construction)
             }
         }
         self.super_statement(block, statement, location);
