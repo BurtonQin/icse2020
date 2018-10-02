@@ -8,12 +8,18 @@ res <- read.table( file="~/unsafe_analysis/analysis-data/research-questions/rq01
                    , comment.char = "#"
                    , col.names=c("blocks", "name"))
 
-table_filename <- "~/work/unsafe_study/paper/rq01_table.txt"
 cdf_filename <- "~/work/unsafe_study/paper/rq01_cdf.eps"
 nonzero_filename <- "~/work/unsafe_study/paper/rq01_some.txt" 
+base_filename <- "~/work/unsafe_study/paper/rq01_"
 
 #table
-latex(describe(res$blocks),file=table_filename)
+summary <- quantile(res$blocks, c(.90,.95))
+fn <- paste0(base_filename,"n",".txt")
+write(nrow(res),file=fn)
+p90 <- paste0(base_filename,"90",".txt")
+write(summary[1],file=p90)
+p95 <- paste0(base_filename,"95",".txt")
+write(summary[2],file=p95)
 
 #graph
 top5_x <- res$blocks[order(res$blocks,decreasing = TRUE )[1:5]]
