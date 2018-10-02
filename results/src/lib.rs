@@ -17,16 +17,23 @@ use std::fs::File;
 use std::fs::OpenOptions;
 use std::path::PathBuf;
 
+
+//static SAFE_FUNCTIONS_FILENAME: &'static str = "00_safe_functions";
+//static UNSAFE_FUNCTIONS_FILENAME: &'static str = "01_unsafe_functions";
+
+static SUMMARY_FUNCTIONS_FILE_NAME: &'static str = "02_summary_functions";
+
+static UNSAFE_CALLS: &'static str = "03_unsafe_calls";
+
 static IMPLICIT_FILENAME: &'static str = "10_unsafe_in_call_tree";
 static IMPLICIT_TRAIT_FILENAME: &'static str = "11_unsafe_trait_safe_method_in_call_tree";
-static SAFE_FUNCTIONS_FILENAME: &'static str = "00_safe_functions";
-static UNSAFE_FUNCTIONS_FILENAME: &'static str = "01_unsafe_functions";
-static SUMMARY_FUNCTIONS_FILE_NAME: &'static str = "02_summary_functions";
+
 static FN_UNSAFETY_SOURCES_FILE_NAME: &'static str = "30_unsafe_fn";
-static EXTERNAL_CALLS_SUMMARY: &'static str = "03_external_calls_summary";
+static NO_REASON_FOR_UNSAFE: &'static str = "31_no_reason";
+
 static BLOCK_UNSAFETY_SOURCES_FILE_NAME: &'static str = "40_unsafe_blocks";
 static BLOCK_SUMMARY_BB: &'static str = "41_blocks_summary";
-static NO_REASON_FOR_UNSAFE: &'static str = "31_no_reason";
+
 static UNSAFE_TRAITS: &'static str = "50_unsafe_traits";
 
 pub struct FileOps<'a,'b> {
@@ -100,13 +107,13 @@ impl<'a, 'b> FileOps<'a, 'b> {
         self.open_file(IMPLICIT_TRAIT_FILENAME, save)
     }
 
-    pub fn get_safe_functions_file(&self, save: bool) -> File {
-        self.open_file(SAFE_FUNCTIONS_FILENAME, save)
-    }
-
-    pub fn get_unsafe_functions_file(&self, save: bool) -> File {
-        self.open_file(UNSAFE_FUNCTIONS_FILENAME, save)
-    }
+//    pub fn get_safe_functions_file(&self, save: bool) -> File {
+//        self.open_file(SAFE_FUNCTIONS_FILENAME, save)
+//    }
+//
+//    pub fn get_unsafe_functions_file(&self, save: bool) -> File {
+//        self.open_file(UNSAFE_FUNCTIONS_FILENAME, save)
+//    }
 
     pub fn get_summary_functions_file(&self, save: bool) -> File {
         self.open_file(SUMMARY_FUNCTIONS_FILE_NAME, save)
@@ -116,8 +123,8 @@ impl<'a, 'b> FileOps<'a, 'b> {
         self.open_file(FN_UNSAFETY_SOURCES_FILE_NAME, save)
     }
 
-    pub fn get_external_calls_summary_file(&self, save: bool) -> File {
-        self.open_file(EXTERNAL_CALLS_SUMMARY, save)
+    pub fn get_unsafe_calls_file(&self, save: bool) -> File {
+        self.open_file(UNSAFE_CALLS, save)
     }
 
     pub fn get_blocks_unsafety_sources_file(&self, save: bool) -> File {

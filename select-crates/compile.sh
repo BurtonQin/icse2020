@@ -16,14 +16,14 @@ source ../rust_flags.sh
 
 cd $CRATES_DIR
 
-for x in {m..z}
+for x in {a..z}
 do
 	for d in $(ls -d $CRATES_DIR/$x*)
 	do
 		echo "Compiling $d"
 		cd $d
 		cargo +$NIGHTLY clean
-		cargo +$NIGHTLY build
+		RUST_BACKTRACE=1 cargo +$NIGHTLY build
 		RESULT=$?
 	        if [ $RESULT -eq 0 ]; then
         	        echo "$d: Passed">>$PROJECT_OUT/analysis_pass.txt

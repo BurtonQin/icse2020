@@ -34,7 +34,6 @@ use syntax::ast::NodeId;
 use syntax_pos::Span;
 use std::io::Write;
 use std::fs::File;
-use std::path::Path;
 use std::fmt::Write as FmtWrite;
 use std::env;
 
@@ -42,6 +41,7 @@ mod blocks;
 mod traits;
 mod unsafety_sources;
 mod functions;
+mod calls;
 
 declare_lint!(pub HIDDEN_UNSAFE, Allow, "Unsafe analysis");
 
@@ -110,6 +110,9 @@ impl<'a, 'tcx> LateLintPass<'a, 'tcx> for Functions {
         let (fn_unsafety,no_reason) = functions::run_sources_analysis(cx,&self.unsafe_functions);
         save_analysis(fn_unsafety,&mut file_ops.get_fn_unsafety_sources_file(true));
         save_analysis(no_reason,&mut file_ops.get_no_reason_for_unsafety_file(true));
+        //unsafe function calls
+        let unsafe_calls = calls::run_analysis(cx);
+        save_analysis(unsafe_calls, &mut file_ops.get_unsafe_calls_file(true));
     }
 
     fn check_body(&mut self, cx: &LateContext<'a, 'tcx>, body: &'tcx hir::Body) {

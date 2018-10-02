@@ -86,7 +86,7 @@ pub fn process_rq(crates: &Vec<(String,String)>) {
                 }
                 fn_summary.from_trait = res.from_trait();
                 fn_summary.argument = res.arguments().len() > 0;
-                writeln!(writer, "{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}"
+                writeln!(writer, "{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}"
                          , fn_summary.unsafe_fn_calls
                          , fn_summary.raw_ptr
                          , fn_summary.asm
@@ -95,10 +95,10 @@ pub fn process_rq(crates: &Vec<(String,String)>) {
                          , fn_summary.assignment_union
                          , fn_summary.union
                          , fn_summary.extern_static
-                         , fn_summary.argument
-                         , fn_summary.from_trait
+                         , (if fn_summary.argument {1} else {0})
+                         , (if fn_summary.from_trait {1} else {0})
                          , crate_name
-                         , res.name()
+                         //, res.name()
                 );
             }
         }

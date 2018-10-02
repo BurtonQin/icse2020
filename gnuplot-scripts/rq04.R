@@ -37,9 +37,9 @@ ggplot(all_frame, aes(x="", y=data, fill=names, ordered=TRUE))+
   theme (
     legend.title = element_blank()
   ) +
-  scale_y_continuous(labels=percent, breaks = cumsum(all_frame$data[1:3])) +
-  labs(title="Unsafety Sources in Unsafe Blocks") +
-  labs(x="Unsafety Sources in Unsafe Blocks", y="Number of accesses") 
+  scale_y_continuous(labels=percent, breaks = cumsum((sort(values,decreasing=TRUE))[1:3])) +
+  labs(title="Unsafe Blocks") +
+  labs(x="Unsafety Sources", y="Percentage") 
   
 ggsave(all_filename, plot = last_plot(), device = "eps")
 
@@ -72,9 +72,9 @@ ggplot(all_frame, aes(x="", y=data, fill=names, ordered=TRUE))+
   theme (
     legend.title = element_blank()
   ) +
-  scale_y_continuous(labels=percent, breaks = cumsum(all_frame$data[1:3])) +
-  labs(title="Unsafety Sources in Unsafe Blocks") +
-  labs(x="Unsafety Sources in Unsafe Blocks", y="Number of accesses") 
+  scale_y_continuous(labels=percent, breaks = cumsum((sort(values,decreasing=TRUE))[1:3])) +
+  labs(title="Unsafe Function Calls in Unsafe Blocks") +
+  labs(x="Unsafe Function Call Abi", y="Percentage") 
 
 ggsave(calls_filename, plot = last_plot(), device = "eps")
 

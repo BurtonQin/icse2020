@@ -4,7 +4,6 @@ use std::io::BufRead;
 use std::io::BufWriter;
 use std::io::Write;
 
-
 pub fn process_rq(crates: &Vec<(String,String)>) {
     let output_file = ::get_output_file("rq06");
     let mut writer = BufWriter::new(output_file);
@@ -12,7 +11,7 @@ pub fn process_rq(crates: &Vec<(String,String)>) {
     for (crate_name, version) in crates {
         let dir_name = ::get_full_analysis_dir();
         let file_ops = results::FileOps::new( crate_name, &version, &dir_name );
-        let file = file_ops.get_no_reason_for_unsafety_file(false);
+        let file = file_ops.get_unsafe_calls_file(false);
         let mut reader = BufReader::new(file);
         let mut counter = 0;
         //read line by line
@@ -24,11 +23,13 @@ pub fn process_rq(crates: &Vec<(String,String)>) {
                 break;
             } else {
                 //process line
-                counter += 1;
+                let trimmed_line = line.trim_right();
+                let res: (results::unsafety_sources::Abi,String) = serde_json::from_str(&trimmed_line).unwrap();
+                writeln!(writer, "{:?}\t{}"
+                            , res.0
+                            , res.1
+                );
             }
         }
-        writeln!(writer, "{}\t{}"
-                 , crate_name
-                 , counter);
     }
 }
