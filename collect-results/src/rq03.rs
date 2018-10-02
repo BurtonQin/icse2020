@@ -24,7 +24,6 @@ pub fn process_rq(crates: &Vec<(String,String)>) {
                 break
             } else {
                 //process line
-                let trimmed_line = line.trim_right();
                 if line.len() > 0 {
                     counter += 1;
                 }

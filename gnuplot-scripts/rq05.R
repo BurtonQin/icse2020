@@ -61,6 +61,6 @@ ggsave(all_filename, plot = last_plot(), device = "eps")
 fn <- paste0(source_base_filename,"n",".txt")
 write(nrow(all_frame),fn,append=FALSE)
 for (i in 1:length(values)) {
-  fn <- paste0(source_base_filename,i,".txt")
+  fn <- paste0(source_base_filename,labels[i],".txt")
   write(percent(values[i]),fn,append=FALSE)
 }

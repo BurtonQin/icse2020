@@ -4,7 +4,6 @@ use std::io::BufRead;
 use std::io::BufWriter;
 use std::io::Write;
 use results::unsafety_sources::SourceKind;
-use results::functions::ShortFnInfo;
 
 struct SourceSummary {
     pub unsafe_fn_calls: usize,
@@ -34,27 +33,12 @@ impl SourceSummary {
         }
     }
 
-    pub fn has_reason(&self) -> bool {
-        self.unsafe_fn_calls > 0 ||
-            self.raw_ptr > 0 ||
-            self.asm > 0 ||
-            self.static_access > 0 ||
-            self.borrow_packed > 0 ||
-            self.assignment_union > 0 ||
-            self.union > 0 ||
-            self.extern_static > 0 ||
-            self.argument ||
-            self.from_trait
-    }
 }
 
 
 pub fn process_rq(crates: &Vec<(String,String)>) {
     let output_file = ::get_output_file("rq05");
     let mut writer = BufWriter::new(output_file);
-
-    let mut summary = SourceSummary::new();
-
     for (crate_name, version) in crates {
         let dir_name = ::get_full_analysis_dir();
         let file_ops = results::FileOps::new( crate_name, &version, &dir_name );
