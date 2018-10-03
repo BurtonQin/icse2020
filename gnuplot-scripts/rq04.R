@@ -2,7 +2,7 @@
 library(ggplot2)
 library(Hmisc)
 library(plyr)
-library('scales')
+library(scales)
 
 res <- read.table( file="~/unsafe_analysis/analysis-data/research-questions/rq04"
                    , header=FALSE
@@ -29,15 +29,16 @@ n <- sum(values)
 values <- values/n
 
 all_frame <- data.frame(names = labels, data = values)
-all_frame$names <- factor(all_frame$names, levels = all_frame$names[order(all_frame$data)])
 
-ggplot(all_frame, aes(x="", y=data, fill=names, ordered=TRUE))+
-#ggplot(all_frame, aes(x=names, y=data, fill=names, ordered=TRUE))+
-  geom_bar(width = 1, stat = "identity") +
+ggplot(all_frame, aes(x=names, y=data))+
+  geom_bar(stat='identity') +
+  geom_text(aes(x = names, 
+                y = data + 0.02, label = sprintf("%1.4f%%", 100*data))) +
   theme (
-    legend.title = element_blank()
+    legend.title = element_blank(),
+    axis.text.x=element_text(angle=45, hjust=1),
+    axis.text.y = element_blank()
   ) +
-  scale_y_continuous(labels=percent, breaks = cumsum((sort(values,decreasing=TRUE))[1:3])) +
   labs(title="Unsafe Blocks") +
   labs(x="Unsafety Sources", y="Percentage") 
   
@@ -66,13 +67,18 @@ n <- sum(values)
 values <- values/n
 all_frame <- data.frame(names = cols, data = values)
 all_frame$names <- factor(all_frame$names, levels = all_frame$names[order(all_frame$data)])
-ggplot(all_frame, aes(x="", y=data, fill=names, ordered=TRUE))+
-  #ggplot(all_frame, aes(x=names, y=data, fill=names, ordered=TRUE))+
-  geom_bar(width = 1, stat = "identity") +
+
+ggplot(all_frame, aes(x=names, y=data))+
+  geom_bar(stat = "identity") +
+  geom_text(aes(x = names, 
+                y = data + 0.02, label = sprintf("%1.4f%%", 100*data)
+                )
+            ) +
   theme (
-    legend.title = element_blank()
+    legend.title = element_blank(),
+    axis.text.x=element_text(angle=45, hjust=1),
+    axis.text.y = element_blank()
   ) +
-  scale_y_continuous(labels=percent, breaks = cumsum((sort(values,decreasing=TRUE))[1:3])) +
   labs(title="Unsafe Function Calls in Unsafe Blocks") +
   labs(x="Unsafe Function Call Abi", y="Percentage") 
 
