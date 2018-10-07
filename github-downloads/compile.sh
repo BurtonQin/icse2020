@@ -1,10 +1,20 @@
 CRT_DIR=`pwd`
 
 source ../exports.sh
+source ../rust_flags.sh
+
+export DO_NOT_USE_INSTANCE=true
 
 cd $GITHUB_APPS
 
+function set_out_dir {
+	export FULL_ANALYSIS_DIR=$UNSAFE_ANALYSIS_DIR/applications/$1
+        rm -rf $FULL_ANALYSIS_DIR
+        mkdir -p $FULL_ANALYSIS_DIR
+}
+
 function compile_1 {
+	set_out_dir "$1"
 	echo "Processing $1"
 	cd $1
 	cargo +$NIGHTLY clean
@@ -13,6 +23,7 @@ function compile_1 {
 }
 
 function compile_2 {
+	set_out_dir "$1"
 	echo "Processing $1/$2"
         cd $1/$2
 	cargo +$NIGHTLY clean
@@ -20,16 +31,22 @@ function compile_2 {
         cd $GITHUB_APPS
 }
 
-
-source ../rust_flags.sh
+function compile {
+	pushd $1
+	cargo +$NIGHTLY clean
+        cargo +$NIGHTLY build
+	popd
+}
 
 compile_1 servo
 
 # TODO
-cd redox
-make -i all
-cd..
+#set_out_dir "redox"
+#cd redox
+#make -i all
+#cd ..
 
+set_out_dir "tock"
 cd tock/boards/hail
 make all
 cd ../ek-tm4c1294xl
@@ -38,15 +55,21 @@ cd ../imix
 make all
 cd ../launchxl
 make all
+# TODO fix this
 cd ../nordic
 make all
 
 cd $GITHUB_APPS
 compile_1 mdbook
 compile_1 trust-dns
+
+set_out_dir "linkerd2-proxy"
 cd linkerd2-proxy
 rm -rf target
 make build
+
+cd $GITHUB_APPS
+
 compile_1 rsign
 compile_1 flowgger
 compile_1 alacritty
@@ -98,13 +121,14 @@ compile_1 aliases
 #text editors
 compile_2 xi-editor rust
 compile_1 xray
+
+set_out_dir "remacs"
 cd remacs
 make
-cd ../
+cd $GITHUB_APPS
 
 #text processing
 compile_1 ripgrep
-compile_1 LanguageClient-neovim
 
 compile_1 xsv
 
@@ -164,8 +188,16 @@ compile_1 tarpaulin
 compile_1 utest
 
 #rustc
+set_out_dir "rust"
 cd rust
-./x.py build --stage 0
+#./x.py build --stage 0
+
+compile src/liballoc
+compile src/libcore/
+compile src/libstd/
+compile src/libtest/
+
+
 cd $GITHUB_APPS
 
 #compile_1 leaf
