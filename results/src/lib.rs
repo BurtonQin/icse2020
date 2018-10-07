@@ -25,7 +25,8 @@ static SUMMARY_FUNCTIONS_FILE_NAME: &'static str = "02_summary_functions";
 
 static UNSAFE_CALLS: &'static str = "03_unsafe_calls";
 
-static IMPLICIT_FILENAME: &'static str = "10_unsafe_in_call_tree";
+static IMPLICIT_COARSE_OPTIMISTIC_FILENAME: &'static str = "10_coarse_opt_unsafe_in_call_tree";
+static IMPLICIT_COARSE_PESSIMISTIC_FILENAME: &'static str = "10_coarse_pes_unsafe_in_call_tree";
 static IMPLICIT_TRAIT_FILENAME: &'static str = "11_unsafe_trait_safe_method_in_call_tree";
 
 static FN_UNSAFETY_SOURCES_FILE_NAME: &'static str = "30_unsafe_fn";
@@ -89,8 +90,12 @@ impl<'a, 'b> FileOps<'a, 'b> {
         file_path
     }
 
-    pub fn get_implicit_unsafe_file(&self, save_old: bool) -> File {
-        self.open_file(IMPLICIT_FILENAME, save_old)
+    pub fn get_implicit_unsafe_coarse_opt_file(&self, save_old: bool) -> File {
+        self.open_file(IMPLICIT_COARSE_OPTIMISTIC_FILENAME, save_old)
+    }
+
+    pub fn get_implicit_unsafe_coarse_pes_file(&self, save_old: bool) -> File {
+        self.open_file(IMPLICIT_COARSE_PESSIMISTIC_FILENAME, save_old)
     }
 
     pub fn get_implicit_trait_unsafe_file(&self, save: bool) -> File {
