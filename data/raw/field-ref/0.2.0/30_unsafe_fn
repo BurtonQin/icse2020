@@ -1,0 +1,3 @@
+{"name":"<FieldRef<T, U>>::from_offset","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<FieldRef<T, U>>::from_pointers","from_trait":true,"arguments":[{"type_info":"type(*const T)","kind":"RawPointer"},{"type_info":"type(*const U)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 147","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<FieldRef<T, U>>::from_references","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 169","kind":{"UnsafeFnCall":"Rust"}}]}

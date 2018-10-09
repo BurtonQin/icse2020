@@ -1,0 +1,6 @@
+{"name":"<ArrayBuilder<T, N>>::new","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/generic-array-0.12.0/src/lib.rs\") line 184","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<ArrayBuilder<T, N>>::iter_position","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<ArrayBuilder<T, N>>::into_inner","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/generic-array-0.12.0/src/lib.rs\") line 204","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<ArrayConsumer<T, N>>::new","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<ArrayConsumer<T, N>>::iter_position","from_trait":true,"arguments":[],"sources":[]}
+{"name":"transmute","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/generic-array-0.12.0/src/lib.rs\") line 593","kind":{"UnsafeFnCall":"Rust"}}]}

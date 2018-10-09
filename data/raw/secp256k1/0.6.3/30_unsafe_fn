@@ -1,0 +1,4 @@
+{"name":"ffi::PublicKey::blank","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/secp256k1-0.6.3/src/ffi.rs\") line 67","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"ffi::Signature::blank","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/secp256k1-0.6.3/src/ffi.rs\") line 92","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"ffi::RecoverableSignature::blank","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/secp256k1-0.6.3/src/ffi.rs\") line 99","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"ffi::SharedSecret::blank","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/secp256k1-0.6.3/src/ffi.rs\") line 112","kind":{"UnsafeFnCall":"Rust"}}]}

@@ -1,0 +1,23 @@
+{"name":"<array::Static2<T>>::from_raw_unchecked","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<array::Static3<T>>::from_raw_unchecked","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<array::Static4<T>>::from_raw_unchecked","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<array::Static5<T>>::from_raw_unchecked","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<array::Static6<T>>::from_raw_unchecked","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<array::Static7<T>>::from_raw_unchecked","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<array::Static8<T>>::from_raw_unchecked","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<array::Static9<T>>::from_raw_unchecked","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<array::Static10<T>>::from_raw_unchecked","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<array::Static11<T>>::from_raw_unchecked","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<array::Static12<T>>::from_raw_unchecked","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<array::Static13<T>>::from_raw_unchecked","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<array::Static14<T>>::from_raw_unchecked","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<array::Static15<T>>::from_raw_unchecked","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<array::Static16<T>>::from_raw_unchecked","from_trait":true,"arguments":[],"sources":[]}
+{"name":"split::Split::get_idx","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/multistr-0.5.4/src/split.rs\") line 12","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<[T] as strlike::StrLike>::from_data_unchecked","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<str as strlike::StrLike>::from_data_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/multistr-0.5.4/src/strlike.rs\") line 106","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<std::ffi::CStr as strlike::StrLike>::from_data_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/multistr-0.5.4/src/strlike.rs\") line 123","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<[T] as strlike::StrLikeMut>::to_data_mut","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<[T] as strlike::StrLikeMut>::from_data_mut_unchecked","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<str as strlike::StrLikeMut>::to_data_mut","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/multistr-0.5.4/src/strlike.rs\") line 144","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"<str as strlike::StrLikeMut>::from_data_mut_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/multistr-0.5.4/src/strlike.rs\") line 151","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}

@@ -1,0 +1,8 @@
+{"name":"<util::mpmc_bounded_queue::Node<T> as std::marker::Send>"}
+{"name":"<util::mpmc_bounded_queue::Node<T> as std::marker::Sync>"}
+{"name":"<util::mpmc_bounded_queue::State<T> as std::marker::Send>"}
+{"name":"<util::mpmc_bounded_queue::State<T> as std::marker::Sync>"}
+{"name":"<event_loop::EventLoop<H> as std::marker::Sync>"}
+{"name":"<event_loop::Sender<M> as std::marker::Sync>"}
+{"name":"<notify::Notify<M> as std::marker::Sync>"}
+{"name":"<notify::Notify<M> as std::marker::Send>"}

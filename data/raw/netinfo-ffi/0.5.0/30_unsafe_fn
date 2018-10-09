@@ -1,0 +1,33 @@
+{"name":"ptr_len_to_vec","from_trait":false,"arguments":[{"type_info":"type(*mut T)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 64","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/lib.rs\") line 64","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"temp_box","from_trait":false,"arguments":[{"type_info":"type(*mut c_void)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 69","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"temp_vec","from_trait":false,"arguments":[{"type_info":"type(*mut T)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 77","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"temp_vec_of_box_cloned","from_trait":false,"arguments":[{"type_info":"type(*mut *mut R)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 88","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"netinfo_list_net_interface","from_trait":false,"arguments":[{"type_info":"type(*mut *mut ni_net_interface)","kind":"RawPointer"},{"type_info":"type(*mut u32)","kind":"RawPointer"}],"sources":[]}
+{"name":"netinfo_int_get_name","from_trait":false,"arguments":[{"type_info":"type(*mut *mut u8)","kind":"RawPointer"},{"type_info":"type(*mut u32)","kind":"RawPointer"}],"sources":[]}
+{"name":"netinfo_free_string","from_trait":false,"arguments":[{"type_info":"type(*mut u8)","kind":"RawPointer"}],"sources":[]}
+{"name":"netinfo_int_get_index","from_trait":false,"arguments":[{"type_info":"type(*mut u32)","kind":"RawPointer"}],"sources":[]}
+{"name":"netinfo_int_get_mac","from_trait":false,"arguments":[{"type_info":"type(*mut ni_boolean)","kind":"RawPointer"},{"type_info":"type(*mut ni_mac_addr)","kind":"RawPointer"}],"sources":[]}
+{"name":"write_vec_to_ptr_len32","from_trait":false,"arguments":[{"type_info":"type(*mut *mut T)","kind":"RawPointer"},{"type_info":"type(*mut u32)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 334","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/lib.rs\") line 335","kind":"DerefRawPointer"}]}
+{"name":"netinfo_int_get_ips","from_trait":false,"arguments":[{"type_info":"type(*mut *mut ni_ipv4_addr)","kind":"RawPointer"},{"type_info":"type(*mut u32)","kind":"RawPointer"},{"type_info":"type(*mut *mut ni_ipv6_addr)","kind":"RawPointer"},{"type_info":"type(*mut u32)","kind":"RawPointer"}],"sources":[]}
+{"name":"netinfo_free_ip_arrays","from_trait":false,"arguments":[{"type_info":"type(*mut ni_ipv4_addr)","kind":"RawPointer"},{"type_info":"type(*mut ni_ipv6_addr)","kind":"RawPointer"}],"sources":[]}
+{"name":"netinfo_int_get_flags","from_trait":false,"arguments":[{"type_info":"type(*mut u32)","kind":"RawPointer"}],"sources":[]}
+{"name":"netinfo_free_net_interface_array","from_trait":false,"arguments":[{"type_info":"type(*mut ni_net_interface)","kind":"RawPointer"}],"sources":[]}
+{"name":"netinfo_init","from_trait":false,"arguments":[{"type_info":"type(*mut ni_net_interface)","kind":"RawPointer"},{"type_info":"type(*mut ni_netinfo)","kind":"RawPointer"}],"sources":[]}
+{"name":"netinfo_get_net_statistics","from_trait":false,"arguments":[{"type_info":"type(*mut ni_net_statistics)","kind":"RawPointer"}],"sources":[]}
+{"name":"netinfo_clear","from_trait":false,"arguments":[],"sources":[]}
+{"name":"netinfo_start","from_trait":false,"arguments":[],"sources":[]}
+{"name":"netinfo_stop","from_trait":false,"arguments":[],"sources":[]}
+{"name":"netinfo_set_min_refresh_interval","from_trait":false,"arguments":[],"sources":[]}
+{"name":"netinfo_pop_thread_errors","from_trait":false,"arguments":[{"type_info":"type(*mut *mut ni_error_code)","kind":"RawPointer"},{"type_info":"type(*mut u32)","kind":"RawPointer"}],"sources":[]}
+{"name":"netinfo_free_thread_error_array","from_trait":false,"arguments":[{"type_info":"type(*mut ni_error_code)","kind":"RawPointer"}],"sources":[]}
+{"name":"netinfo_free","from_trait":false,"arguments":[],"sources":[]}
+{"name":"netinfo_stat_get_total_bytes","from_trait":false,"arguments":[{"type_info":"type(*mut u64)","kind":"RawPointer"}],"sources":[]}
+{"name":"netinfo_stat_get_bytes_per_pid","from_trait":false,"arguments":[{"type_info":"type(*mut u64)","kind":"RawPointer"}],"sources":[]}
+{"name":"netinfo_stat_get_unassigned_bytes","from_trait":false,"arguments":[{"type_info":"type(*mut u64)","kind":"RawPointer"}],"sources":[]}
+{"name":"netinfo_stat_get_bytes_by_transport_type","from_trait":false,"arguments":[{"type_info":"type(*mut u64)","kind":"RawPointer"}],"sources":[]}
+{"name":"netinfo_stat_get_bytes_by_inout_type","from_trait":false,"arguments":[{"type_info":"type(*mut u64)","kind":"RawPointer"}],"sources":[]}
+{"name":"netinfo_stat_get_all_pids","from_trait":false,"arguments":[{"type_info":"type(*mut *mut ni_pid)","kind":"RawPointer"},{"type_info":"type(*mut u32)","kind":"RawPointer"}],"sources":[]}
+{"name":"netinfo_free_pid_array","from_trait":false,"arguments":[{"type_info":"type(*mut ni_pid)","kind":"RawPointer"}],"sources":[]}
+{"name":"netinfo_stat_get_bytes_per_attr","from_trait":false,"arguments":[{"type_info":"type(*mut ni_pid)","kind":"RawPointer"},{"type_info":"type(*mut ni_inout)","kind":"RawPointer"},{"type_info":"type(*mut ni_transport_type)","kind":"RawPointer"},{"type_info":"type(*mut u64)","kind":"RawPointer"}],"sources":[]}
+{"name":"netinfo_free_stat","from_trait":false,"arguments":[],"sources":[]}
+{"name":"netinfo_get_error_description","from_trait":false,"arguments":[],"sources":[]}

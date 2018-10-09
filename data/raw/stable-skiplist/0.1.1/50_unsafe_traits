@@ -1,0 +1,6 @@
+{"name":"<ordered_skiplist::OrderedSkipList<T> as std::marker::Send>"}
+{"name":"<ordered_skiplist::OrderedSkipList<T> as std::marker::Sync>"}
+{"name":"<skipmap::SkipMap<K, V> as std::marker::Send>"}
+{"name":"<skipmap::SkipMap<K, V> as std::marker::Sync>"}
+{"name":"<skiplist::SkipList<T> as std::marker::Send>"}
+{"name":"<skiplist::SkipList<T> as std::marker::Sync>"}

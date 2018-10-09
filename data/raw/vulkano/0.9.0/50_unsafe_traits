@@ -1,0 +1,1264 @@
+{"name":"<buffer::cpu_access::CpuAccessibleBuffer<T, A> as buffer::traits::BufferAccess>"}
+{"name":"<buffer::cpu_access::CpuAccessibleBuffer<T, A> as buffer::traits::TypedBufferAccess>"}
+{"name":"<buffer::cpu_access::CpuAccessibleBuffer<T, A> as device::DeviceOwned>"}
+{"name":"<buffer::cpu_pool::CpuBufferPool<T, A> as device::DeviceOwned>"}
+{"name":"<buffer::cpu_pool::CpuBufferPoolChunk<T, A> as buffer::traits::BufferAccess>"}
+{"name":"<buffer::cpu_pool::CpuBufferPoolChunk<T, A> as buffer::traits::TypedBufferAccess>"}
+{"name":"<buffer::cpu_pool::CpuBufferPoolChunk<T, A> as device::DeviceOwned>"}
+{"name":"<buffer::cpu_pool::CpuBufferPoolSubbuffer<T, A> as buffer::traits::BufferAccess>"}
+{"name":"<buffer::cpu_pool::CpuBufferPoolSubbuffer<T, A> as buffer::traits::TypedBufferAccess>"}
+{"name":"<buffer::cpu_pool::CpuBufferPoolSubbuffer<T, A> as device::DeviceOwned>"}
+{"name":"<buffer::device_local::DeviceLocalBuffer<T, A> as device::DeviceOwned>"}
+{"name":"<buffer::device_local::DeviceLocalBuffer<T, A> as buffer::traits::BufferAccess>"}
+{"name":"<buffer::device_local::DeviceLocalBuffer<T, A> as buffer::traits::TypedBufferAccess>"}
+{"name":"<buffer::immutable::ImmutableBuffer<T, A> as buffer::traits::BufferAccess>"}
+{"name":"<buffer::immutable::ImmutableBuffer<T, A> as buffer::traits::TypedBufferAccess>"}
+{"name":"<buffer::immutable::ImmutableBuffer<T, A> as device::DeviceOwned>"}
+{"name":"<buffer::immutable::ImmutableBufferInitialization<T, A> as buffer::traits::BufferAccess>"}
+{"name":"<buffer::immutable::ImmutableBufferInitialization<T, A> as buffer::traits::TypedBufferAccess>"}
+{"name":"<buffer::immutable::ImmutableBufferInitialization<T, A> as device::DeviceOwned>"}
+{"name":"<buffer::sys::UnsafeBuffer as VulkanObject>"}
+{"name":"<buffer::sys::UnsafeBuffer as device::DeviceOwned>"}
+{"name":"<buffer::view::BufferView<F, B> as VulkanObject>"}
+{"name":"<buffer::view::BufferView<F, B> as device::DeviceOwned>"}
+{"name":"<buffer::view::BufferView<F, B> as buffer::view::BufferViewRef>"}
+{"name":"<T as buffer::view::BufferViewRef>"}
+{"name":"<buffer::slice::BufferSlice<T, B> as buffer::traits::BufferAccess>"}
+{"name":"<buffer::slice::BufferSlice<T, B> as buffer::traits::TypedBufferAccess>"}
+{"name":"<buffer::slice::BufferSlice<T, B> as device::DeviceOwned>"}
+{"name":"<T as buffer::traits::BufferAccess>"}
+{"name":"<T as buffer::traits::TypedBufferAccess>"}
+{"name":"<command_buffer::pool::standard::StandardCommandPool as std::marker::Send>"}
+{"name":"<command_buffer::pool::standard::StandardCommandPool as std::marker::Sync>"}
+{"name":"command_buffer::pool::standard::<impl command_buffer::pool::CommandPool for std::sync::Arc<command_buffer::pool::standard::StandardCommandPool>>"}
+{"name":"<command_buffer::pool::standard::StandardCommandPool as device::DeviceOwned>"}
+{"name":"<command_buffer::pool::standard::StandardCommandPoolBuilder as command_buffer::pool::CommandPoolBuilderAlloc>"}
+{"name":"<command_buffer::pool::standard::StandardCommandPoolBuilder as device::DeviceOwned>"}
+{"name":"<command_buffer::pool::standard::StandardCommandPoolAlloc as std::marker::Send>"}
+{"name":"<command_buffer::pool::standard::StandardCommandPoolAlloc as std::marker::Sync>"}
+{"name":"<command_buffer::pool::standard::StandardCommandPoolAlloc as command_buffer::pool::CommandPoolAlloc>"}
+{"name":"<command_buffer::pool::standard::StandardCommandPoolAlloc as device::DeviceOwned>"}
+{"name":"<command_buffer::pool::sys::UnsafeCommandPool as std::marker::Send>"}
+{"name":"<command_buffer::pool::sys::UnsafeCommandPool as device::DeviceOwned>"}
+{"name":"<command_buffer::pool::sys::UnsafeCommandPool as VulkanObject>"}
+{"name":"<command_buffer::pool::sys::UnsafeCommandPoolAlloc as VulkanObject>"}
+{"name":"<command_buffer::synced::base::SyncCommandBufferBuilder<P> as device::DeviceOwned>"}
+{"name":"<command_buffer::synced::base::CbKey<'a> as std::marker::Send>"}
+{"name":"<command_buffer::synced::base::CbKey<'a> as std::marker::Sync>"}
+{"name":"<command_buffer::synced::base::SyncCommandBuffer<P> as device::DeviceOwned>"}
+{"name":"<command_buffer::sys::UnsafeCommandBufferBuilder<P> as device::DeviceOwned>"}
+{"name":"<command_buffer::sys::UnsafeCommandBufferBuilder<P> as VulkanObject>"}
+{"name":"<command_buffer::sys::UnsafeCommandBuffer<P> as device::DeviceOwned>"}
+{"name":"<command_buffer::sys::UnsafeCommandBuffer<P> as VulkanObject>"}
+{"name":"<command_buffer::auto::AutoCommandBufferBuilder<P> as device::DeviceOwned>"}
+{"name":"<command_buffer::auto::AutoCommandBuffer<P> as command_buffer::traits::CommandBuffer>"}
+{"name":"<command_buffer::auto::AutoCommandBuffer<P> as device::DeviceOwned>"}
+{"name":"<T as command_buffer::traits::CommandBuffer>"}
+{"name":"<command_buffer::traits::CommandBufferExecFuture<F, Cb> as sync::future::GpuFuture>"}
+{"name":"<command_buffer::traits::CommandBufferExecFuture<F, Cb> as device::DeviceOwned>"}
+{"name":"<() as descriptor::descriptor_set::collection::DescriptorSetsCollection>"}
+{"name":"<T as descriptor::descriptor_set::collection::DescriptorSetsCollection>"}
+{"name":"<(Z, Y, X, W, V, U, T, S, R, Q, P, O, N, M, L, K, J, I, H, G, F, E, D, C, B, A) as descriptor::descriptor_set::collection::DescriptorSetsCollection>"}
+{"name":"<(Y, X, W, V, U, T, S, R, Q, P, O, N, M, L, K, J, I, H, G, F, E, D, C, B, A) as descriptor::descriptor_set::collection::DescriptorSetsCollection>"}
+{"name":"<(X, W, V, U, T, S, R, Q, P, O, N, M, L, K, J, I, H, G, F, E, D, C, B, A) as descriptor::descriptor_set::collection::DescriptorSetsCollection>"}
+{"name":"<(W, V, U, T, S, R, Q, P, O, N, M, L, K, J, I, H, G, F, E, D, C, B, A) as descriptor::descriptor_set::collection::DescriptorSetsCollection>"}
+{"name":"<(V, U, T, S, R, Q, P, O, N, M, L, K, J, I, H, G, F, E, D, C, B, A) as descriptor::descriptor_set::collection::DescriptorSetsCollection>"}
+{"name":"<(U, T, S, R, Q, P, O, N, M, L, K, J, I, H, G, F, E, D, C, B, A) as descriptor::descriptor_set::collection::DescriptorSetsCollection>"}
+{"name":"<(T, S, R, Q, P, O, N, M, L, K, J, I, H, G, F, E, D, C, B, A) as descriptor::descriptor_set::collection::DescriptorSetsCollection>"}
+{"name":"<(S, R, Q, P, O, N, M, L, K, J, I, H, G, F, E, D, C, B, A) as descriptor::descriptor_set::collection::DescriptorSetsCollection>"}
+{"name":"<(R, Q, P, O, N, M, L, K, J, I, H, G, F, E, D, C, B, A) as descriptor::descriptor_set::collection::DescriptorSetsCollection>"}
+{"name":"<(Q, P, O, N, M, L, K, J, I, H, G, F, E, D, C, B, A) as descriptor::descriptor_set::collection::DescriptorSetsCollection>"}
+{"name":"<(P, O, N, M, L, K, J, I, H, G, F, E, D, C, B, A) as descriptor::descriptor_set::collection::DescriptorSetsCollection>"}
+{"name":"<(O, N, M, L, K, J, I, H, G, F, E, D, C, B, A) as descriptor::descriptor_set::collection::DescriptorSetsCollection>"}
+{"name":"<(N, M, L, K, J, I, H, G, F, E, D, C, B, A) as descriptor::descriptor_set::collection::DescriptorSetsCollection>"}
+{"name":"<(M, L, K, J, I, H, G, F, E, D, C, B, A) as descriptor::descriptor_set::collection::DescriptorSetsCollection>"}
+{"name":"<(L, K, J, I, H, G, F, E, D, C, B, A) as descriptor::descriptor_set::collection::DescriptorSetsCollection>"}
+{"name":"<(K, J, I, H, G, F, E, D, C, B, A) as descriptor::descriptor_set::collection::DescriptorSetsCollection>"}
+{"name":"<(J, I, H, G, F, E, D, C, B, A) as descriptor::descriptor_set::collection::DescriptorSetsCollection>"}
+{"name":"<(I, H, G, F, E, D, C, B, A) as descriptor::descriptor_set::collection::DescriptorSetsCollection>"}
+{"name":"<(H, G, F, E, D, C, B, A) as descriptor::descriptor_set::collection::DescriptorSetsCollection>"}
+{"name":"<(G, F, E, D, C, B, A) as descriptor::descriptor_set::collection::DescriptorSetsCollection>"}
+{"name":"<(F, E, D, C, B, A) as descriptor::descriptor_set::collection::DescriptorSetsCollection>"}
+{"name":"<(E, D, C, B, A) as descriptor::descriptor_set::collection::DescriptorSetsCollection>"}
+{"name":"<(D, C, B, A) as descriptor::descriptor_set::collection::DescriptorSetsCollection>"}
+{"name":"<(C, B, A) as descriptor::descriptor_set::collection::DescriptorSetsCollection>"}
+{"name":"<(B, A) as descriptor::descriptor_set::collection::DescriptorSetsCollection>"}
+{"name":"<descriptor::descriptor_set::fixed_size_pool::FixedSizeDescriptorSet<L, R> as descriptor::descriptor_set::DescriptorSet>"}
+{"name":"<descriptor::descriptor_set::fixed_size_pool::FixedSizeDescriptorSet<L, R> as descriptor::descriptor_set::DescriptorSetDesc>"}
+{"name":"<descriptor::descriptor_set::fixed_size_pool::FixedSizeDescriptorSet<L, R> as device::DeviceOwned>"}
+{"name":"<descriptor::descriptor_set::fixed_size_pool::LocalPool as descriptor::descriptor_set::sys::DescriptorPool>"}
+{"name":"<descriptor::descriptor_set::fixed_size_pool::LocalPool as device::DeviceOwned>"}
+{"name":"<descriptor::descriptor_set::persistent::PersistentDescriptorSet<L, R, P> as descriptor::descriptor_set::DescriptorSet>"}
+{"name":"<descriptor::descriptor_set::persistent::PersistentDescriptorSet<L, R, P> as descriptor::descriptor_set::DescriptorSetDesc>"}
+{"name":"<descriptor::descriptor_set::persistent::PersistentDescriptorSet<L, R, P> as device::DeviceOwned>"}
+{"name":"<() as descriptor::descriptor_set::persistent::PersistentDescriptorSetResources>"}
+{"name":"<(R, descriptor::descriptor_set::persistent::PersistentDescriptorSetBuf<B>) as descriptor::descriptor_set::persistent::PersistentDescriptorSetResources>"}
+{"name":"<(R, descriptor::descriptor_set::persistent::PersistentDescriptorSetBufView<V>) as descriptor::descriptor_set::persistent::PersistentDescriptorSetResources>"}
+{"name":"<(R, descriptor::descriptor_set::persistent::PersistentDescriptorSetImg<I>) as descriptor::descriptor_set::persistent::PersistentDescriptorSetResources>"}
+{"name":"<(R, descriptor::descriptor_set::persistent::PersistentDescriptorSetSampler) as descriptor::descriptor_set::persistent::PersistentDescriptorSetResources>"}
+{"name":"descriptor::descriptor_set::std_pool::<impl descriptor::descriptor_set::sys::DescriptorPool for std::sync::Arc<descriptor::descriptor_set::std_pool::StdDescriptorPool>>"}
+{"name":"<descriptor::descriptor_set::std_pool::StdDescriptorPool as device::DeviceOwned>"}
+{"name":"<descriptor::descriptor_set::sys::UnsafeDescriptorPool as device::DeviceOwned>"}
+{"name":"<descriptor::descriptor_set::sys::UnsafeDescriptorSet as VulkanObject>"}
+{"name":"<descriptor::descriptor_set::unsafe_layout::UnsafeDescriptorSetLayout as device::DeviceOwned>"}
+{"name":"<descriptor::descriptor_set::unsafe_layout::UnsafeDescriptorSetLayout as VulkanObject>"}
+{"name":"<T as descriptor::descriptor_set::DescriptorSet>"}
+{"name":"<T as descriptor::descriptor_set::DescriptorSetDesc>"}
+{"name":"<descriptor::pipeline_layout::empty::EmptyPipelineDesc as descriptor::pipeline_layout::traits::PipelineLayoutDesc>"}
+{"name":"<descriptor::pipeline_layout::runtime_desc::RuntimePipelineDesc as descriptor::pipeline_layout::traits::PipelineLayoutDesc>"}
+{"name":"<descriptor::pipeline_layout::sys::PipelineLayout<D> as descriptor::pipeline_layout::traits::PipelineLayoutAbstract>"}
+{"name":"<descriptor::pipeline_layout::sys::PipelineLayout<D> as descriptor::pipeline_layout::traits::PipelineLayoutDesc>"}
+{"name":"<descriptor::pipeline_layout::sys::PipelineLayout<D> as device::DeviceOwned>"}
+{"name":"<descriptor::pipeline_layout::sys::PipelineLayoutSys<'a> as VulkanObject>"}
+{"name":"<T as descriptor::pipeline_layout::traits::PipelineLayoutAbstract>"}
+{"name":"<T as descriptor::pipeline_layout::traits::PipelineLayoutDesc>"}
+{"name":"<T as descriptor::pipeline_layout::traits::PipelineLayoutSuperset<U>>"}
+{"name":"<T as descriptor::pipeline_layout::traits::PipelineLayoutSetsCompatible<U>>"}
+{"name":"<T as descriptor::pipeline_layout::traits::PipelineLayoutPushConstantsCompatible<U>>"}
+{"name":"<descriptor::pipeline_layout::union::PipelineLayoutDescUnion<A, B> as descriptor::pipeline_layout::traits::PipelineLayoutDesc>"}
+{"name":"<descriptor::pipeline_layout::tweaks::PipelineLayoutDescTweaks<T> as descriptor::pipeline_layout::traits::PipelineLayoutDesc>"}
+{"name":"<device::Device as std::marker::Send>"}
+{"name":"<device::Device as std::marker::Sync>"}
+{"name":"<device::Device as VulkanObject>"}
+{"name":"<T as device::DeviceOwned>"}
+{"name":"<device::QueuesIter as device::DeviceOwned>"}
+{"name":"<device::Queue as device::DeviceOwned>"}
+{"name":"<device::Queue as SynchronizedVulkanObject>"}
+{"name":"<i8 as format::Data>"}
+{"name":"<u8 as format::Data>"}
+{"name":"<format::R4G4UnormPack8 as format::FormatDesc>"}
+{"name":"<format::R4G4UnormPack8 as format::PossibleFloatFormatDesc>"}
+{"name":"<format::R4G4UnormPack8 as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::R4G4UnormPack8 as format::StrongStorage>"}
+{"name":"<format::R4G4UnormPack8 as format::AcceptsPixels<u8>>"}
+{"name":"<format::R4G4B4A4UnormPack16 as format::FormatDesc>"}
+{"name":"<format::R4G4B4A4UnormPack16 as format::PossibleFloatFormatDesc>"}
+{"name":"<format::R4G4B4A4UnormPack16 as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::R4G4B4A4UnormPack16 as format::StrongStorage>"}
+{"name":"<format::R4G4B4A4UnormPack16 as format::AcceptsPixels<u16>>"}
+{"name":"<format::B4G4R4A4UnormPack16 as format::FormatDesc>"}
+{"name":"<format::B4G4R4A4UnormPack16 as format::PossibleFloatFormatDesc>"}
+{"name":"<format::B4G4R4A4UnormPack16 as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::B4G4R4A4UnormPack16 as format::StrongStorage>"}
+{"name":"<format::B4G4R4A4UnormPack16 as format::AcceptsPixels<u16>>"}
+{"name":"<format::R5G6B5UnormPack16 as format::FormatDesc>"}
+{"name":"<format::R5G6B5UnormPack16 as format::PossibleFloatFormatDesc>"}
+{"name":"<format::R5G6B5UnormPack16 as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::R5G6B5UnormPack16 as format::StrongStorage>"}
+{"name":"<format::R5G6B5UnormPack16 as format::AcceptsPixels<u16>>"}
+{"name":"<format::B5G6R5UnormPack16 as format::FormatDesc>"}
+{"name":"<format::B5G6R5UnormPack16 as format::PossibleFloatFormatDesc>"}
+{"name":"<format::B5G6R5UnormPack16 as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::B5G6R5UnormPack16 as format::StrongStorage>"}
+{"name":"<format::B5G6R5UnormPack16 as format::AcceptsPixels<u16>>"}
+{"name":"<format::R5G5B5A1UnormPack16 as format::FormatDesc>"}
+{"name":"<format::R5G5B5A1UnormPack16 as format::PossibleFloatFormatDesc>"}
+{"name":"<format::R5G5B5A1UnormPack16 as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::R5G5B5A1UnormPack16 as format::StrongStorage>"}
+{"name":"<format::R5G5B5A1UnormPack16 as format::AcceptsPixels<u16>>"}
+{"name":"<format::B5G5R5A1UnormPack16 as format::FormatDesc>"}
+{"name":"<format::B5G5R5A1UnormPack16 as format::PossibleFloatFormatDesc>"}
+{"name":"<format::B5G5R5A1UnormPack16 as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::B5G5R5A1UnormPack16 as format::StrongStorage>"}
+{"name":"<format::B5G5R5A1UnormPack16 as format::AcceptsPixels<u16>>"}
+{"name":"<format::A1R5G5B5UnormPack16 as format::FormatDesc>"}
+{"name":"<format::A1R5G5B5UnormPack16 as format::PossibleFloatFormatDesc>"}
+{"name":"<format::A1R5G5B5UnormPack16 as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::A1R5G5B5UnormPack16 as format::StrongStorage>"}
+{"name":"<format::A1R5G5B5UnormPack16 as format::AcceptsPixels<u16>>"}
+{"name":"<format::R8Unorm as format::FormatDesc>"}
+{"name":"<format::R8Unorm as format::PossibleFloatFormatDesc>"}
+{"name":"<format::R8Unorm as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::R8Unorm as format::StrongStorage>"}
+{"name":"<format::R8Unorm as format::AcceptsPixels<u8>>"}
+{"name":"<format::R8Snorm as format::FormatDesc>"}
+{"name":"<format::R8Snorm as format::PossibleFloatFormatDesc>"}
+{"name":"<format::R8Snorm as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::R8Snorm as format::StrongStorage>"}
+{"name":"<format::R8Snorm as format::AcceptsPixels<i8>>"}
+{"name":"<format::R8Uscaled as format::FormatDesc>"}
+{"name":"<format::R8Uscaled as format::PossibleFloatFormatDesc>"}
+{"name":"<format::R8Uscaled as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::R8Uscaled as format::StrongStorage>"}
+{"name":"<format::R8Uscaled as format::AcceptsPixels<u8>>"}
+{"name":"<format::R8Sscaled as format::FormatDesc>"}
+{"name":"<format::R8Sscaled as format::PossibleFloatFormatDesc>"}
+{"name":"<format::R8Sscaled as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::R8Sscaled as format::StrongStorage>"}
+{"name":"<format::R8Sscaled as format::AcceptsPixels<i8>>"}
+{"name":"<format::R8Uint as format::FormatDesc>"}
+{"name":"<format::R8Uint as format::PossibleUintFormatDesc>"}
+{"name":"<format::R8Uint as format::StrongStorage>"}
+{"name":"<format::R8Uint as format::AcceptsPixels<u8>>"}
+{"name":"<format::R8Sint as format::FormatDesc>"}
+{"name":"<format::R8Sint as format::PossibleSintFormatDesc>"}
+{"name":"<format::R8Sint as format::StrongStorage>"}
+{"name":"<format::R8Sint as format::AcceptsPixels<i8>>"}
+{"name":"<format::R8Srgb as format::FormatDesc>"}
+{"name":"<format::R8Srgb as format::PossibleFloatFormatDesc>"}
+{"name":"<format::R8Srgb as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::R8Srgb as format::StrongStorage>"}
+{"name":"<format::R8Srgb as format::AcceptsPixels<u8>>"}
+{"name":"<format::R8G8Unorm as format::FormatDesc>"}
+{"name":"<format::R8G8Unorm as format::PossibleFloatFormatDesc>"}
+{"name":"<format::R8G8Unorm as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::R8G8Unorm as format::StrongStorage>"}
+{"name":"<format::R8G8Unorm as format::AcceptsPixels<[u8; _]>>"}
+{"name":"<format::R8G8Unorm as format::AcceptsPixels<u8>>"}
+{"name":"<format::R8G8Snorm as format::FormatDesc>"}
+{"name":"<format::R8G8Snorm as format::PossibleFloatFormatDesc>"}
+{"name":"<format::R8G8Snorm as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::R8G8Snorm as format::StrongStorage>"}
+{"name":"<format::R8G8Snorm as format::AcceptsPixels<[i8; _]>>"}
+{"name":"<format::R8G8Snorm as format::AcceptsPixels<i8>>"}
+{"name":"<format::R8G8Uscaled as format::FormatDesc>"}
+{"name":"<format::R8G8Uscaled as format::PossibleFloatFormatDesc>"}
+{"name":"<format::R8G8Uscaled as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::R8G8Uscaled as format::StrongStorage>"}
+{"name":"<format::R8G8Uscaled as format::AcceptsPixels<[u8; _]>>"}
+{"name":"<format::R8G8Uscaled as format::AcceptsPixels<u8>>"}
+{"name":"<format::R8G8Sscaled as format::FormatDesc>"}
+{"name":"<format::R8G8Sscaled as format::PossibleFloatFormatDesc>"}
+{"name":"<format::R8G8Sscaled as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::R8G8Sscaled as format::StrongStorage>"}
+{"name":"<format::R8G8Sscaled as format::AcceptsPixels<[i8; _]>>"}
+{"name":"<format::R8G8Sscaled as format::AcceptsPixels<i8>>"}
+{"name":"<format::R8G8Uint as format::FormatDesc>"}
+{"name":"<format::R8G8Uint as format::PossibleUintFormatDesc>"}
+{"name":"<format::R8G8Uint as format::StrongStorage>"}
+{"name":"<format::R8G8Uint as format::AcceptsPixels<[u8; _]>>"}
+{"name":"<format::R8G8Uint as format::AcceptsPixels<u8>>"}
+{"name":"<format::R8G8Sint as format::FormatDesc>"}
+{"name":"<format::R8G8Sint as format::PossibleSintFormatDesc>"}
+{"name":"<format::R8G8Sint as format::StrongStorage>"}
+{"name":"<format::R8G8Sint as format::AcceptsPixels<[i8; _]>>"}
+{"name":"<format::R8G8Sint as format::AcceptsPixels<i8>>"}
+{"name":"<format::R8G8Srgb as format::FormatDesc>"}
+{"name":"<format::R8G8Srgb as format::PossibleFloatFormatDesc>"}
+{"name":"<format::R8G8Srgb as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::R8G8Srgb as format::StrongStorage>"}
+{"name":"<format::R8G8Srgb as format::AcceptsPixels<[u8; _]>>"}
+{"name":"<format::R8G8Srgb as format::AcceptsPixels<u8>>"}
+{"name":"<format::R8G8B8Unorm as format::FormatDesc>"}
+{"name":"<format::R8G8B8Unorm as format::PossibleFloatFormatDesc>"}
+{"name":"<format::R8G8B8Unorm as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::R8G8B8Unorm as format::StrongStorage>"}
+{"name":"<format::R8G8B8Unorm as format::AcceptsPixels<[u8; _]>>"}
+{"name":"<format::R8G8B8Unorm as format::AcceptsPixels<u8>>"}
+{"name":"<format::R8G8B8Snorm as format::FormatDesc>"}
+{"name":"<format::R8G8B8Snorm as format::PossibleFloatFormatDesc>"}
+{"name":"<format::R8G8B8Snorm as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::R8G8B8Snorm as format::StrongStorage>"}
+{"name":"<format::R8G8B8Snorm as format::AcceptsPixels<[i8; _]>>"}
+{"name":"<format::R8G8B8Snorm as format::AcceptsPixels<i8>>"}
+{"name":"<format::R8G8B8Uscaled as format::FormatDesc>"}
+{"name":"<format::R8G8B8Uscaled as format::PossibleFloatFormatDesc>"}
+{"name":"<format::R8G8B8Uscaled as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::R8G8B8Uscaled as format::StrongStorage>"}
+{"name":"<format::R8G8B8Uscaled as format::AcceptsPixels<[u8; _]>>"}
+{"name":"<format::R8G8B8Uscaled as format::AcceptsPixels<u8>>"}
+{"name":"<format::R8G8B8Sscaled as format::FormatDesc>"}
+{"name":"<format::R8G8B8Sscaled as format::PossibleFloatFormatDesc>"}
+{"name":"<format::R8G8B8Sscaled as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::R8G8B8Sscaled as format::StrongStorage>"}
+{"name":"<format::R8G8B8Sscaled as format::AcceptsPixels<[i8; _]>>"}
+{"name":"<format::R8G8B8Sscaled as format::AcceptsPixels<i8>>"}
+{"name":"<format::R8G8B8Uint as format::FormatDesc>"}
+{"name":"<format::R8G8B8Uint as format::PossibleUintFormatDesc>"}
+{"name":"<format::R8G8B8Uint as format::StrongStorage>"}
+{"name":"<format::R8G8B8Uint as format::AcceptsPixels<[u8; _]>>"}
+{"name":"<format::R8G8B8Uint as format::AcceptsPixels<u8>>"}
+{"name":"<format::R8G8B8Sint as format::FormatDesc>"}
+{"name":"<format::R8G8B8Sint as format::PossibleSintFormatDesc>"}
+{"name":"<format::R8G8B8Sint as format::StrongStorage>"}
+{"name":"<format::R8G8B8Sint as format::AcceptsPixels<[i8; _]>>"}
+{"name":"<format::R8G8B8Sint as format::AcceptsPixels<i8>>"}
+{"name":"<format::R8G8B8Srgb as format::FormatDesc>"}
+{"name":"<format::R8G8B8Srgb as format::PossibleFloatFormatDesc>"}
+{"name":"<format::R8G8B8Srgb as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::R8G8B8Srgb as format::StrongStorage>"}
+{"name":"<format::R8G8B8Srgb as format::AcceptsPixels<[u8; _]>>"}
+{"name":"<format::R8G8B8Srgb as format::AcceptsPixels<u8>>"}
+{"name":"<format::B8G8R8Unorm as format::FormatDesc>"}
+{"name":"<format::B8G8R8Unorm as format::PossibleFloatFormatDesc>"}
+{"name":"<format::B8G8R8Unorm as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::B8G8R8Unorm as format::StrongStorage>"}
+{"name":"<format::B8G8R8Unorm as format::AcceptsPixels<[u8; _]>>"}
+{"name":"<format::B8G8R8Unorm as format::AcceptsPixels<u8>>"}
+{"name":"<format::B8G8R8Snorm as format::FormatDesc>"}
+{"name":"<format::B8G8R8Snorm as format::PossibleFloatFormatDesc>"}
+{"name":"<format::B8G8R8Snorm as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::B8G8R8Snorm as format::StrongStorage>"}
+{"name":"<format::B8G8R8Snorm as format::AcceptsPixels<[i8; _]>>"}
+{"name":"<format::B8G8R8Snorm as format::AcceptsPixels<i8>>"}
+{"name":"<format::B8G8R8Uscaled as format::FormatDesc>"}
+{"name":"<format::B8G8R8Uscaled as format::PossibleFloatFormatDesc>"}
+{"name":"<format::B8G8R8Uscaled as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::B8G8R8Uscaled as format::StrongStorage>"}
+{"name":"<format::B8G8R8Uscaled as format::AcceptsPixels<[u8; _]>>"}
+{"name":"<format::B8G8R8Uscaled as format::AcceptsPixels<u8>>"}
+{"name":"<format::B8G8R8Sscaled as format::FormatDesc>"}
+{"name":"<format::B8G8R8Sscaled as format::PossibleFloatFormatDesc>"}
+{"name":"<format::B8G8R8Sscaled as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::B8G8R8Sscaled as format::StrongStorage>"}
+{"name":"<format::B8G8R8Sscaled as format::AcceptsPixels<[i8; _]>>"}
+{"name":"<format::B8G8R8Sscaled as format::AcceptsPixels<i8>>"}
+{"name":"<format::B8G8R8Uint as format::FormatDesc>"}
+{"name":"<format::B8G8R8Uint as format::PossibleUintFormatDesc>"}
+{"name":"<format::B8G8R8Uint as format::StrongStorage>"}
+{"name":"<format::B8G8R8Uint as format::AcceptsPixels<[u8; _]>>"}
+{"name":"<format::B8G8R8Uint as format::AcceptsPixels<u8>>"}
+{"name":"<format::B8G8R8Sint as format::FormatDesc>"}
+{"name":"<format::B8G8R8Sint as format::PossibleSintFormatDesc>"}
+{"name":"<format::B8G8R8Sint as format::StrongStorage>"}
+{"name":"<format::B8G8R8Sint as format::AcceptsPixels<[i8; _]>>"}
+{"name":"<format::B8G8R8Sint as format::AcceptsPixels<i8>>"}
+{"name":"<format::B8G8R8Srgb as format::FormatDesc>"}
+{"name":"<format::B8G8R8Srgb as format::PossibleFloatFormatDesc>"}
+{"name":"<format::B8G8R8Srgb as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::B8G8R8Srgb as format::StrongStorage>"}
+{"name":"<format::B8G8R8Srgb as format::AcceptsPixels<[u8; _]>>"}
+{"name":"<format::B8G8R8Srgb as format::AcceptsPixels<u8>>"}
+{"name":"<format::R8G8B8A8Unorm as format::FormatDesc>"}
+{"name":"<format::R8G8B8A8Unorm as format::PossibleFloatFormatDesc>"}
+{"name":"<format::R8G8B8A8Unorm as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::R8G8B8A8Unorm as format::StrongStorage>"}
+{"name":"<format::R8G8B8A8Unorm as format::AcceptsPixels<[u8; _]>>"}
+{"name":"<format::R8G8B8A8Unorm as format::AcceptsPixels<u8>>"}
+{"name":"<format::R8G8B8A8Snorm as format::FormatDesc>"}
+{"name":"<format::R8G8B8A8Snorm as format::PossibleFloatFormatDesc>"}
+{"name":"<format::R8G8B8A8Snorm as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::R8G8B8A8Snorm as format::StrongStorage>"}
+{"name":"<format::R8G8B8A8Snorm as format::AcceptsPixels<[i8; _]>>"}
+{"name":"<format::R8G8B8A8Snorm as format::AcceptsPixels<i8>>"}
+{"name":"<format::R8G8B8A8Uscaled as format::FormatDesc>"}
+{"name":"<format::R8G8B8A8Uscaled as format::PossibleFloatFormatDesc>"}
+{"name":"<format::R8G8B8A8Uscaled as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::R8G8B8A8Uscaled as format::StrongStorage>"}
+{"name":"<format::R8G8B8A8Uscaled as format::AcceptsPixels<[u8; _]>>"}
+{"name":"<format::R8G8B8A8Uscaled as format::AcceptsPixels<u8>>"}
+{"name":"<format::R8G8B8A8Sscaled as format::FormatDesc>"}
+{"name":"<format::R8G8B8A8Sscaled as format::PossibleFloatFormatDesc>"}
+{"name":"<format::R8G8B8A8Sscaled as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::R8G8B8A8Sscaled as format::StrongStorage>"}
+{"name":"<format::R8G8B8A8Sscaled as format::AcceptsPixels<[i8; _]>>"}
+{"name":"<format::R8G8B8A8Sscaled as format::AcceptsPixels<i8>>"}
+{"name":"<format::R8G8B8A8Uint as format::FormatDesc>"}
+{"name":"<format::R8G8B8A8Uint as format::PossibleUintFormatDesc>"}
+{"name":"<format::R8G8B8A8Uint as format::StrongStorage>"}
+{"name":"<format::R8G8B8A8Uint as format::AcceptsPixels<[u8; _]>>"}
+{"name":"<format::R8G8B8A8Uint as format::AcceptsPixels<u8>>"}
+{"name":"<format::R8G8B8A8Sint as format::FormatDesc>"}
+{"name":"<format::R8G8B8A8Sint as format::PossibleSintFormatDesc>"}
+{"name":"<format::R8G8B8A8Sint as format::StrongStorage>"}
+{"name":"<format::R8G8B8A8Sint as format::AcceptsPixels<[i8; _]>>"}
+{"name":"<format::R8G8B8A8Sint as format::AcceptsPixels<i8>>"}
+{"name":"<format::R8G8B8A8Srgb as format::FormatDesc>"}
+{"name":"<format::R8G8B8A8Srgb as format::PossibleFloatFormatDesc>"}
+{"name":"<format::R8G8B8A8Srgb as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::R8G8B8A8Srgb as format::StrongStorage>"}
+{"name":"<format::R8G8B8A8Srgb as format::AcceptsPixels<[u8; _]>>"}
+{"name":"<format::R8G8B8A8Srgb as format::AcceptsPixels<u8>>"}
+{"name":"<format::B8G8R8A8Unorm as format::FormatDesc>"}
+{"name":"<format::B8G8R8A8Unorm as format::PossibleFloatFormatDesc>"}
+{"name":"<format::B8G8R8A8Unorm as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::B8G8R8A8Unorm as format::StrongStorage>"}
+{"name":"<format::B8G8R8A8Unorm as format::AcceptsPixels<[u8; _]>>"}
+{"name":"<format::B8G8R8A8Unorm as format::AcceptsPixels<u8>>"}
+{"name":"<format::B8G8R8A8Snorm as format::FormatDesc>"}
+{"name":"<format::B8G8R8A8Snorm as format::PossibleFloatFormatDesc>"}
+{"name":"<format::B8G8R8A8Snorm as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::B8G8R8A8Snorm as format::StrongStorage>"}
+{"name":"<format::B8G8R8A8Snorm as format::AcceptsPixels<[i8; _]>>"}
+{"name":"<format::B8G8R8A8Snorm as format::AcceptsPixels<i8>>"}
+{"name":"<format::B8G8R8A8Uscaled as format::FormatDesc>"}
+{"name":"<format::B8G8R8A8Uscaled as format::PossibleFloatFormatDesc>"}
+{"name":"<format::B8G8R8A8Uscaled as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::B8G8R8A8Uscaled as format::StrongStorage>"}
+{"name":"<format::B8G8R8A8Uscaled as format::AcceptsPixels<[u8; _]>>"}
+{"name":"<format::B8G8R8A8Uscaled as format::AcceptsPixels<u8>>"}
+{"name":"<format::B8G8R8A8Sscaled as format::FormatDesc>"}
+{"name":"<format::B8G8R8A8Sscaled as format::PossibleFloatFormatDesc>"}
+{"name":"<format::B8G8R8A8Sscaled as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::B8G8R8A8Sscaled as format::StrongStorage>"}
+{"name":"<format::B8G8R8A8Sscaled as format::AcceptsPixels<[i8; _]>>"}
+{"name":"<format::B8G8R8A8Sscaled as format::AcceptsPixels<i8>>"}
+{"name":"<format::B8G8R8A8Uint as format::FormatDesc>"}
+{"name":"<format::B8G8R8A8Uint as format::PossibleUintFormatDesc>"}
+{"name":"<format::B8G8R8A8Uint as format::StrongStorage>"}
+{"name":"<format::B8G8R8A8Uint as format::AcceptsPixels<[u8; _]>>"}
+{"name":"<format::B8G8R8A8Uint as format::AcceptsPixels<u8>>"}
+{"name":"<format::B8G8R8A8Sint as format::FormatDesc>"}
+{"name":"<format::B8G8R8A8Sint as format::PossibleSintFormatDesc>"}
+{"name":"<format::B8G8R8A8Sint as format::StrongStorage>"}
+{"name":"<format::B8G8R8A8Sint as format::AcceptsPixels<[i8; _]>>"}
+{"name":"<format::B8G8R8A8Sint as format::AcceptsPixels<i8>>"}
+{"name":"<format::B8G8R8A8Srgb as format::FormatDesc>"}
+{"name":"<format::B8G8R8A8Srgb as format::PossibleFloatFormatDesc>"}
+{"name":"<format::B8G8R8A8Srgb as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::B8G8R8A8Srgb as format::StrongStorage>"}
+{"name":"<format::B8G8R8A8Srgb as format::AcceptsPixels<[u8; _]>>"}
+{"name":"<format::B8G8R8A8Srgb as format::AcceptsPixels<u8>>"}
+{"name":"<format::A8B8G8R8UnormPack32 as format::FormatDesc>"}
+{"name":"<format::A8B8G8R8UnormPack32 as format::PossibleFloatFormatDesc>"}
+{"name":"<format::A8B8G8R8UnormPack32 as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::A8B8G8R8UnormPack32 as format::StrongStorage>"}
+{"name":"<format::A8B8G8R8UnormPack32 as format::AcceptsPixels<[u8; _]>>"}
+{"name":"<format::A8B8G8R8UnormPack32 as format::AcceptsPixels<u8>>"}
+{"name":"<format::A8B8G8R8SnormPack32 as format::FormatDesc>"}
+{"name":"<format::A8B8G8R8SnormPack32 as format::PossibleFloatFormatDesc>"}
+{"name":"<format::A8B8G8R8SnormPack32 as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::A8B8G8R8SnormPack32 as format::StrongStorage>"}
+{"name":"<format::A8B8G8R8SnormPack32 as format::AcceptsPixels<[i8; _]>>"}
+{"name":"<format::A8B8G8R8SnormPack32 as format::AcceptsPixels<i8>>"}
+{"name":"<format::A8B8G8R8UscaledPack32 as format::FormatDesc>"}
+{"name":"<format::A8B8G8R8UscaledPack32 as format::PossibleFloatFormatDesc>"}
+{"name":"<format::A8B8G8R8UscaledPack32 as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::A8B8G8R8UscaledPack32 as format::StrongStorage>"}
+{"name":"<format::A8B8G8R8UscaledPack32 as format::AcceptsPixels<[u8; _]>>"}
+{"name":"<format::A8B8G8R8UscaledPack32 as format::AcceptsPixels<u8>>"}
+{"name":"<format::A8B8G8R8SscaledPack32 as format::FormatDesc>"}
+{"name":"<format::A8B8G8R8SscaledPack32 as format::PossibleFloatFormatDesc>"}
+{"name":"<format::A8B8G8R8SscaledPack32 as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::A8B8G8R8SscaledPack32 as format::StrongStorage>"}
+{"name":"<format::A8B8G8R8SscaledPack32 as format::AcceptsPixels<[i8; _]>>"}
+{"name":"<format::A8B8G8R8SscaledPack32 as format::AcceptsPixels<i8>>"}
+{"name":"<format::A8B8G8R8UintPack32 as format::FormatDesc>"}
+{"name":"<format::A8B8G8R8UintPack32 as format::PossibleUintFormatDesc>"}
+{"name":"<format::A8B8G8R8UintPack32 as format::StrongStorage>"}
+{"name":"<format::A8B8G8R8UintPack32 as format::AcceptsPixels<[u8; _]>>"}
+{"name":"<format::A8B8G8R8UintPack32 as format::AcceptsPixels<u8>>"}
+{"name":"<format::A8B8G8R8SintPack32 as format::FormatDesc>"}
+{"name":"<format::A8B8G8R8SintPack32 as format::PossibleSintFormatDesc>"}
+{"name":"<format::A8B8G8R8SintPack32 as format::StrongStorage>"}
+{"name":"<format::A8B8G8R8SintPack32 as format::AcceptsPixels<[i8; _]>>"}
+{"name":"<format::A8B8G8R8SintPack32 as format::AcceptsPixels<i8>>"}
+{"name":"<format::A8B8G8R8SrgbPack32 as format::FormatDesc>"}
+{"name":"<format::A8B8G8R8SrgbPack32 as format::PossibleFloatFormatDesc>"}
+{"name":"<format::A8B8G8R8SrgbPack32 as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::A8B8G8R8SrgbPack32 as format::StrongStorage>"}
+{"name":"<format::A8B8G8R8SrgbPack32 as format::AcceptsPixels<[u8; _]>>"}
+{"name":"<format::A8B8G8R8SrgbPack32 as format::AcceptsPixels<u8>>"}
+{"name":"<format::A2R10G10B10UnormPack32 as format::FormatDesc>"}
+{"name":"<format::A2R10G10B10UnormPack32 as format::PossibleFloatFormatDesc>"}
+{"name":"<format::A2R10G10B10UnormPack32 as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::A2R10G10B10UnormPack32 as format::StrongStorage>"}
+{"name":"<format::A2R10G10B10UnormPack32 as format::AcceptsPixels<u32>>"}
+{"name":"<format::A2R10G10B10SnormPack32 as format::FormatDesc>"}
+{"name":"<format::A2R10G10B10SnormPack32 as format::PossibleFloatFormatDesc>"}
+{"name":"<format::A2R10G10B10SnormPack32 as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::A2R10G10B10SnormPack32 as format::StrongStorage>"}
+{"name":"<format::A2R10G10B10SnormPack32 as format::AcceptsPixels<u32>>"}
+{"name":"<format::A2R10G10B10UscaledPack32 as format::FormatDesc>"}
+{"name":"<format::A2R10G10B10UscaledPack32 as format::PossibleFloatFormatDesc>"}
+{"name":"<format::A2R10G10B10UscaledPack32 as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::A2R10G10B10UscaledPack32 as format::StrongStorage>"}
+{"name":"<format::A2R10G10B10UscaledPack32 as format::AcceptsPixels<u32>>"}
+{"name":"<format::A2R10G10B10SscaledPack32 as format::FormatDesc>"}
+{"name":"<format::A2R10G10B10SscaledPack32 as format::PossibleFloatFormatDesc>"}
+{"name":"<format::A2R10G10B10SscaledPack32 as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::A2R10G10B10SscaledPack32 as format::StrongStorage>"}
+{"name":"<format::A2R10G10B10SscaledPack32 as format::AcceptsPixels<u32>>"}
+{"name":"<format::A2R10G10B10UintPack32 as format::FormatDesc>"}
+{"name":"<format::A2R10G10B10UintPack32 as format::PossibleUintFormatDesc>"}
+{"name":"<format::A2R10G10B10UintPack32 as format::StrongStorage>"}
+{"name":"<format::A2R10G10B10UintPack32 as format::AcceptsPixels<u32>>"}
+{"name":"<format::A2R10G10B10SintPack32 as format::FormatDesc>"}
+{"name":"<format::A2R10G10B10SintPack32 as format::PossibleSintFormatDesc>"}
+{"name":"<format::A2R10G10B10SintPack32 as format::StrongStorage>"}
+{"name":"<format::A2R10G10B10SintPack32 as format::AcceptsPixels<u32>>"}
+{"name":"<format::A2B10G10R10UnormPack32 as format::FormatDesc>"}
+{"name":"<format::A2B10G10R10UnormPack32 as format::PossibleFloatFormatDesc>"}
+{"name":"<format::A2B10G10R10UnormPack32 as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::A2B10G10R10UnormPack32 as format::StrongStorage>"}
+{"name":"<format::A2B10G10R10UnormPack32 as format::AcceptsPixels<u32>>"}
+{"name":"<format::A2B10G10R10SnormPack32 as format::FormatDesc>"}
+{"name":"<format::A2B10G10R10SnormPack32 as format::PossibleFloatFormatDesc>"}
+{"name":"<format::A2B10G10R10SnormPack32 as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::A2B10G10R10SnormPack32 as format::StrongStorage>"}
+{"name":"<format::A2B10G10R10SnormPack32 as format::AcceptsPixels<u32>>"}
+{"name":"<format::A2B10G10R10UscaledPack32 as format::FormatDesc>"}
+{"name":"<format::A2B10G10R10UscaledPack32 as format::PossibleFloatFormatDesc>"}
+{"name":"<format::A2B10G10R10UscaledPack32 as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::A2B10G10R10UscaledPack32 as format::StrongStorage>"}
+{"name":"<format::A2B10G10R10UscaledPack32 as format::AcceptsPixels<u32>>"}
+{"name":"<format::A2B10G10R10SscaledPack32 as format::FormatDesc>"}
+{"name":"<format::A2B10G10R10SscaledPack32 as format::PossibleFloatFormatDesc>"}
+{"name":"<format::A2B10G10R10SscaledPack32 as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::A2B10G10R10SscaledPack32 as format::StrongStorage>"}
+{"name":"<format::A2B10G10R10SscaledPack32 as format::AcceptsPixels<u32>>"}
+{"name":"<format::A2B10G10R10UintPack32 as format::FormatDesc>"}
+{"name":"<format::A2B10G10R10UintPack32 as format::PossibleUintFormatDesc>"}
+{"name":"<format::A2B10G10R10UintPack32 as format::StrongStorage>"}
+{"name":"<format::A2B10G10R10UintPack32 as format::AcceptsPixels<u32>>"}
+{"name":"<format::A2B10G10R10SintPack32 as format::FormatDesc>"}
+{"name":"<format::A2B10G10R10SintPack32 as format::PossibleSintFormatDesc>"}
+{"name":"<format::A2B10G10R10SintPack32 as format::StrongStorage>"}
+{"name":"<format::A2B10G10R10SintPack32 as format::AcceptsPixels<u32>>"}
+{"name":"<format::R16Unorm as format::FormatDesc>"}
+{"name":"<format::R16Unorm as format::PossibleFloatFormatDesc>"}
+{"name":"<format::R16Unorm as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::R16Unorm as format::StrongStorage>"}
+{"name":"<format::R16Unorm as format::AcceptsPixels<u16>>"}
+{"name":"<format::R16Snorm as format::FormatDesc>"}
+{"name":"<format::R16Snorm as format::PossibleFloatFormatDesc>"}
+{"name":"<format::R16Snorm as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::R16Snorm as format::StrongStorage>"}
+{"name":"<format::R16Snorm as format::AcceptsPixels<i16>>"}
+{"name":"<format::R16Uscaled as format::FormatDesc>"}
+{"name":"<format::R16Uscaled as format::PossibleFloatFormatDesc>"}
+{"name":"<format::R16Uscaled as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::R16Uscaled as format::StrongStorage>"}
+{"name":"<format::R16Uscaled as format::AcceptsPixels<u16>>"}
+{"name":"<format::R16Sscaled as format::FormatDesc>"}
+{"name":"<format::R16Sscaled as format::PossibleFloatFormatDesc>"}
+{"name":"<format::R16Sscaled as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::R16Sscaled as format::StrongStorage>"}
+{"name":"<format::R16Sscaled as format::AcceptsPixels<i16>>"}
+{"name":"<format::R16Uint as format::FormatDesc>"}
+{"name":"<format::R16Uint as format::PossibleUintFormatDesc>"}
+{"name":"<format::R16Uint as format::StrongStorage>"}
+{"name":"<format::R16Uint as format::AcceptsPixels<u16>>"}
+{"name":"<format::R16Sint as format::FormatDesc>"}
+{"name":"<format::R16Sint as format::PossibleSintFormatDesc>"}
+{"name":"<format::R16Sint as format::StrongStorage>"}
+{"name":"<format::R16Sint as format::AcceptsPixels<i16>>"}
+{"name":"<format::R16Sfloat as format::FormatDesc>"}
+{"name":"<format::R16Sfloat as format::PossibleFloatFormatDesc>"}
+{"name":"<format::R16Sfloat as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::R16Sfloat as format::StrongStorage>"}
+{"name":"<format::R16Sfloat as format::AcceptsPixels<half::f16>>"}
+{"name":"<format::R16G16Unorm as format::FormatDesc>"}
+{"name":"<format::R16G16Unorm as format::PossibleFloatFormatDesc>"}
+{"name":"<format::R16G16Unorm as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::R16G16Unorm as format::StrongStorage>"}
+{"name":"<format::R16G16Unorm as format::AcceptsPixels<[u16; _]>>"}
+{"name":"<format::R16G16Unorm as format::AcceptsPixels<u16>>"}
+{"name":"<format::R16G16Snorm as format::FormatDesc>"}
+{"name":"<format::R16G16Snorm as format::PossibleFloatFormatDesc>"}
+{"name":"<format::R16G16Snorm as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::R16G16Snorm as format::StrongStorage>"}
+{"name":"<format::R16G16Snorm as format::AcceptsPixels<[i16; _]>>"}
+{"name":"<format::R16G16Snorm as format::AcceptsPixels<i16>>"}
+{"name":"<format::R16G16Uscaled as format::FormatDesc>"}
+{"name":"<format::R16G16Uscaled as format::PossibleFloatFormatDesc>"}
+{"name":"<format::R16G16Uscaled as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::R16G16Uscaled as format::StrongStorage>"}
+{"name":"<format::R16G16Uscaled as format::AcceptsPixels<[u16; _]>>"}
+{"name":"<format::R16G16Uscaled as format::AcceptsPixels<u16>>"}
+{"name":"<format::R16G16Sscaled as format::FormatDesc>"}
+{"name":"<format::R16G16Sscaled as format::PossibleFloatFormatDesc>"}
+{"name":"<format::R16G16Sscaled as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::R16G16Sscaled as format::StrongStorage>"}
+{"name":"<format::R16G16Sscaled as format::AcceptsPixels<[i16; _]>>"}
+{"name":"<format::R16G16Sscaled as format::AcceptsPixels<i16>>"}
+{"name":"<format::R16G16Uint as format::FormatDesc>"}
+{"name":"<format::R16G16Uint as format::PossibleUintFormatDesc>"}
+{"name":"<format::R16G16Uint as format::StrongStorage>"}
+{"name":"<format::R16G16Uint as format::AcceptsPixels<[u16; _]>>"}
+{"name":"<format::R16G16Uint as format::AcceptsPixels<u16>>"}
+{"name":"<format::R16G16Sint as format::FormatDesc>"}
+{"name":"<format::R16G16Sint as format::PossibleSintFormatDesc>"}
+{"name":"<format::R16G16Sint as format::StrongStorage>"}
+{"name":"<format::R16G16Sint as format::AcceptsPixels<[i16; _]>>"}
+{"name":"<format::R16G16Sint as format::AcceptsPixels<i16>>"}
+{"name":"<format::R16G16Sfloat as format::FormatDesc>"}
+{"name":"<format::R16G16Sfloat as format::PossibleFloatFormatDesc>"}
+{"name":"<format::R16G16Sfloat as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::R16G16Sfloat as format::StrongStorage>"}
+{"name":"<format::R16G16Sfloat as format::AcceptsPixels<[half::f16; _]>>"}
+{"name":"<format::R16G16Sfloat as format::AcceptsPixels<half::f16>>"}
+{"name":"<format::R16G16B16Unorm as format::FormatDesc>"}
+{"name":"<format::R16G16B16Unorm as format::PossibleFloatFormatDesc>"}
+{"name":"<format::R16G16B16Unorm as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::R16G16B16Unorm as format::StrongStorage>"}
+{"name":"<format::R16G16B16Unorm as format::AcceptsPixels<[u16; _]>>"}
+{"name":"<format::R16G16B16Unorm as format::AcceptsPixels<u16>>"}
+{"name":"<format::R16G16B16Snorm as format::FormatDesc>"}
+{"name":"<format::R16G16B16Snorm as format::PossibleFloatFormatDesc>"}
+{"name":"<format::R16G16B16Snorm as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::R16G16B16Snorm as format::StrongStorage>"}
+{"name":"<format::R16G16B16Snorm as format::AcceptsPixels<[i16; _]>>"}
+{"name":"<format::R16G16B16Snorm as format::AcceptsPixels<i16>>"}
+{"name":"<format::R16G16B16Uscaled as format::FormatDesc>"}
+{"name":"<format::R16G16B16Uscaled as format::PossibleFloatFormatDesc>"}
+{"name":"<format::R16G16B16Uscaled as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::R16G16B16Uscaled as format::StrongStorage>"}
+{"name":"<format::R16G16B16Uscaled as format::AcceptsPixels<[u16; _]>>"}
+{"name":"<format::R16G16B16Uscaled as format::AcceptsPixels<u16>>"}
+{"name":"<format::R16G16B16Sscaled as format::FormatDesc>"}
+{"name":"<format::R16G16B16Sscaled as format::PossibleFloatFormatDesc>"}
+{"name":"<format::R16G16B16Sscaled as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::R16G16B16Sscaled as format::StrongStorage>"}
+{"name":"<format::R16G16B16Sscaled as format::AcceptsPixels<[i16; _]>>"}
+{"name":"<format::R16G16B16Sscaled as format::AcceptsPixels<i16>>"}
+{"name":"<format::R16G16B16Uint as format::FormatDesc>"}
+{"name":"<format::R16G16B16Uint as format::PossibleUintFormatDesc>"}
+{"name":"<format::R16G16B16Uint as format::StrongStorage>"}
+{"name":"<format::R16G16B16Uint as format::AcceptsPixels<[u16; _]>>"}
+{"name":"<format::R16G16B16Uint as format::AcceptsPixels<u16>>"}
+{"name":"<format::R16G16B16Sint as format::FormatDesc>"}
+{"name":"<format::R16G16B16Sint as format::PossibleSintFormatDesc>"}
+{"name":"<format::R16G16B16Sint as format::StrongStorage>"}
+{"name":"<format::R16G16B16Sint as format::AcceptsPixels<[i16; _]>>"}
+{"name":"<format::R16G16B16Sint as format::AcceptsPixels<i16>>"}
+{"name":"<format::R16G16B16Sfloat as format::FormatDesc>"}
+{"name":"<format::R16G16B16Sfloat as format::PossibleFloatFormatDesc>"}
+{"name":"<format::R16G16B16Sfloat as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::R16G16B16Sfloat as format::StrongStorage>"}
+{"name":"<format::R16G16B16Sfloat as format::AcceptsPixels<[half::f16; _]>>"}
+{"name":"<format::R16G16B16Sfloat as format::AcceptsPixels<half::f16>>"}
+{"name":"<format::R16G16B16A16Unorm as format::FormatDesc>"}
+{"name":"<format::R16G16B16A16Unorm as format::PossibleFloatFormatDesc>"}
+{"name":"<format::R16G16B16A16Unorm as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::R16G16B16A16Unorm as format::StrongStorage>"}
+{"name":"<format::R16G16B16A16Unorm as format::AcceptsPixels<[u16; _]>>"}
+{"name":"<format::R16G16B16A16Unorm as format::AcceptsPixels<u16>>"}
+{"name":"<format::R16G16B16A16Snorm as format::FormatDesc>"}
+{"name":"<format::R16G16B16A16Snorm as format::PossibleFloatFormatDesc>"}
+{"name":"<format::R16G16B16A16Snorm as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::R16G16B16A16Snorm as format::StrongStorage>"}
+{"name":"<format::R16G16B16A16Snorm as format::AcceptsPixels<[i16; _]>>"}
+{"name":"<format::R16G16B16A16Snorm as format::AcceptsPixels<i16>>"}
+{"name":"<format::R16G16B16A16Uscaled as format::FormatDesc>"}
+{"name":"<format::R16G16B16A16Uscaled as format::PossibleFloatFormatDesc>"}
+{"name":"<format::R16G16B16A16Uscaled as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::R16G16B16A16Uscaled as format::StrongStorage>"}
+{"name":"<format::R16G16B16A16Uscaled as format::AcceptsPixels<[u16; _]>>"}
+{"name":"<format::R16G16B16A16Uscaled as format::AcceptsPixels<u16>>"}
+{"name":"<format::R16G16B16A16Sscaled as format::FormatDesc>"}
+{"name":"<format::R16G16B16A16Sscaled as format::PossibleFloatFormatDesc>"}
+{"name":"<format::R16G16B16A16Sscaled as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::R16G16B16A16Sscaled as format::StrongStorage>"}
+{"name":"<format::R16G16B16A16Sscaled as format::AcceptsPixels<[i16; _]>>"}
+{"name":"<format::R16G16B16A16Sscaled as format::AcceptsPixels<i16>>"}
+{"name":"<format::R16G16B16A16Uint as format::FormatDesc>"}
+{"name":"<format::R16G16B16A16Uint as format::PossibleUintFormatDesc>"}
+{"name":"<format::R16G16B16A16Uint as format::StrongStorage>"}
+{"name":"<format::R16G16B16A16Uint as format::AcceptsPixels<[u16; _]>>"}
+{"name":"<format::R16G16B16A16Uint as format::AcceptsPixels<u16>>"}
+{"name":"<format::R16G16B16A16Sint as format::FormatDesc>"}
+{"name":"<format::R16G16B16A16Sint as format::PossibleSintFormatDesc>"}
+{"name":"<format::R16G16B16A16Sint as format::StrongStorage>"}
+{"name":"<format::R16G16B16A16Sint as format::AcceptsPixels<[i16; _]>>"}
+{"name":"<format::R16G16B16A16Sint as format::AcceptsPixels<i16>>"}
+{"name":"<format::R16G16B16A16Sfloat as format::FormatDesc>"}
+{"name":"<format::R16G16B16A16Sfloat as format::PossibleFloatFormatDesc>"}
+{"name":"<format::R16G16B16A16Sfloat as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::R16G16B16A16Sfloat as format::StrongStorage>"}
+{"name":"<format::R16G16B16A16Sfloat as format::AcceptsPixels<[half::f16; _]>>"}
+{"name":"<format::R16G16B16A16Sfloat as format::AcceptsPixels<half::f16>>"}
+{"name":"<format::R32Uint as format::FormatDesc>"}
+{"name":"<format::R32Uint as format::PossibleUintFormatDesc>"}
+{"name":"<format::R32Uint as format::StrongStorage>"}
+{"name":"<format::R32Uint as format::AcceptsPixels<u32>>"}
+{"name":"<format::R32Sint as format::FormatDesc>"}
+{"name":"<format::R32Sint as format::PossibleSintFormatDesc>"}
+{"name":"<format::R32Sint as format::StrongStorage>"}
+{"name":"<format::R32Sint as format::AcceptsPixels<i32>>"}
+{"name":"<format::R32Sfloat as format::FormatDesc>"}
+{"name":"<format::R32Sfloat as format::PossibleFloatFormatDesc>"}
+{"name":"<format::R32Sfloat as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::R32Sfloat as format::StrongStorage>"}
+{"name":"<format::R32Sfloat as format::AcceptsPixels<f32>>"}
+{"name":"<format::R32G32Uint as format::FormatDesc>"}
+{"name":"<format::R32G32Uint as format::PossibleUintFormatDesc>"}
+{"name":"<format::R32G32Uint as format::StrongStorage>"}
+{"name":"<format::R32G32Uint as format::AcceptsPixels<[u32; _]>>"}
+{"name":"<format::R32G32Uint as format::AcceptsPixels<u32>>"}
+{"name":"<format::R32G32Sint as format::FormatDesc>"}
+{"name":"<format::R32G32Sint as format::PossibleSintFormatDesc>"}
+{"name":"<format::R32G32Sint as format::StrongStorage>"}
+{"name":"<format::R32G32Sint as format::AcceptsPixels<[i32; _]>>"}
+{"name":"<format::R32G32Sint as format::AcceptsPixels<i32>>"}
+{"name":"<format::R32G32Sfloat as format::FormatDesc>"}
+{"name":"<format::R32G32Sfloat as format::PossibleFloatFormatDesc>"}
+{"name":"<format::R32G32Sfloat as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::R32G32Sfloat as format::StrongStorage>"}
+{"name":"<format::R32G32Sfloat as format::AcceptsPixels<[f32; _]>>"}
+{"name":"<format::R32G32Sfloat as format::AcceptsPixels<f32>>"}
+{"name":"<format::R32G32B32Uint as format::FormatDesc>"}
+{"name":"<format::R32G32B32Uint as format::PossibleUintFormatDesc>"}
+{"name":"<format::R32G32B32Uint as format::StrongStorage>"}
+{"name":"<format::R32G32B32Uint as format::AcceptsPixels<[u32; _]>>"}
+{"name":"<format::R32G32B32Uint as format::AcceptsPixels<u32>>"}
+{"name":"<format::R32G32B32Sint as format::FormatDesc>"}
+{"name":"<format::R32G32B32Sint as format::PossibleSintFormatDesc>"}
+{"name":"<format::R32G32B32Sint as format::StrongStorage>"}
+{"name":"<format::R32G32B32Sint as format::AcceptsPixels<[i32; _]>>"}
+{"name":"<format::R32G32B32Sint as format::AcceptsPixels<i32>>"}
+{"name":"<format::R32G32B32Sfloat as format::FormatDesc>"}
+{"name":"<format::R32G32B32Sfloat as format::PossibleFloatFormatDesc>"}
+{"name":"<format::R32G32B32Sfloat as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::R32G32B32Sfloat as format::StrongStorage>"}
+{"name":"<format::R32G32B32Sfloat as format::AcceptsPixels<[f32; _]>>"}
+{"name":"<format::R32G32B32Sfloat as format::AcceptsPixels<f32>>"}
+{"name":"<format::R32G32B32A32Uint as format::FormatDesc>"}
+{"name":"<format::R32G32B32A32Uint as format::PossibleUintFormatDesc>"}
+{"name":"<format::R32G32B32A32Uint as format::StrongStorage>"}
+{"name":"<format::R32G32B32A32Uint as format::AcceptsPixels<[u32; _]>>"}
+{"name":"<format::R32G32B32A32Uint as format::AcceptsPixels<u32>>"}
+{"name":"<format::R32G32B32A32Sint as format::FormatDesc>"}
+{"name":"<format::R32G32B32A32Sint as format::PossibleSintFormatDesc>"}
+{"name":"<format::R32G32B32A32Sint as format::StrongStorage>"}
+{"name":"<format::R32G32B32A32Sint as format::AcceptsPixels<[i32; _]>>"}
+{"name":"<format::R32G32B32A32Sint as format::AcceptsPixels<i32>>"}
+{"name":"<format::R32G32B32A32Sfloat as format::FormatDesc>"}
+{"name":"<format::R32G32B32A32Sfloat as format::PossibleFloatFormatDesc>"}
+{"name":"<format::R32G32B32A32Sfloat as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::R32G32B32A32Sfloat as format::StrongStorage>"}
+{"name":"<format::R32G32B32A32Sfloat as format::AcceptsPixels<[f32; _]>>"}
+{"name":"<format::R32G32B32A32Sfloat as format::AcceptsPixels<f32>>"}
+{"name":"<format::R64Uint as format::FormatDesc>"}
+{"name":"<format::R64Uint as format::PossibleUintFormatDesc>"}
+{"name":"<format::R64Uint as format::StrongStorage>"}
+{"name":"<format::R64Uint as format::AcceptsPixels<u64>>"}
+{"name":"<format::R64Sint as format::FormatDesc>"}
+{"name":"<format::R64Sint as format::PossibleSintFormatDesc>"}
+{"name":"<format::R64Sint as format::StrongStorage>"}
+{"name":"<format::R64Sint as format::AcceptsPixels<i64>>"}
+{"name":"<format::R64Sfloat as format::FormatDesc>"}
+{"name":"<format::R64Sfloat as format::PossibleFloatFormatDesc>"}
+{"name":"<format::R64Sfloat as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::R64Sfloat as format::StrongStorage>"}
+{"name":"<format::R64Sfloat as format::AcceptsPixels<f64>>"}
+{"name":"<format::R64G64Uint as format::FormatDesc>"}
+{"name":"<format::R64G64Uint as format::PossibleUintFormatDesc>"}
+{"name":"<format::R64G64Uint as format::StrongStorage>"}
+{"name":"<format::R64G64Uint as format::AcceptsPixels<[u64; _]>>"}
+{"name":"<format::R64G64Uint as format::AcceptsPixels<u64>>"}
+{"name":"<format::R64G64Sint as format::FormatDesc>"}
+{"name":"<format::R64G64Sint as format::PossibleSintFormatDesc>"}
+{"name":"<format::R64G64Sint as format::StrongStorage>"}
+{"name":"<format::R64G64Sint as format::AcceptsPixels<[i64; _]>>"}
+{"name":"<format::R64G64Sint as format::AcceptsPixels<i64>>"}
+{"name":"<format::R64G64Sfloat as format::FormatDesc>"}
+{"name":"<format::R64G64Sfloat as format::PossibleFloatFormatDesc>"}
+{"name":"<format::R64G64Sfloat as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::R64G64Sfloat as format::StrongStorage>"}
+{"name":"<format::R64G64Sfloat as format::AcceptsPixels<[f64; _]>>"}
+{"name":"<format::R64G64Sfloat as format::AcceptsPixels<f64>>"}
+{"name":"<format::R64G64B64Uint as format::FormatDesc>"}
+{"name":"<format::R64G64B64Uint as format::PossibleUintFormatDesc>"}
+{"name":"<format::R64G64B64Uint as format::StrongStorage>"}
+{"name":"<format::R64G64B64Uint as format::AcceptsPixels<[u64; _]>>"}
+{"name":"<format::R64G64B64Uint as format::AcceptsPixels<u64>>"}
+{"name":"<format::R64G64B64Sint as format::FormatDesc>"}
+{"name":"<format::R64G64B64Sint as format::PossibleSintFormatDesc>"}
+{"name":"<format::R64G64B64Sint as format::StrongStorage>"}
+{"name":"<format::R64G64B64Sint as format::AcceptsPixels<[i64; _]>>"}
+{"name":"<format::R64G64B64Sint as format::AcceptsPixels<i64>>"}
+{"name":"<format::R64G64B64Sfloat as format::FormatDesc>"}
+{"name":"<format::R64G64B64Sfloat as format::PossibleFloatFormatDesc>"}
+{"name":"<format::R64G64B64Sfloat as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::R64G64B64Sfloat as format::StrongStorage>"}
+{"name":"<format::R64G64B64Sfloat as format::AcceptsPixels<[f64; _]>>"}
+{"name":"<format::R64G64B64Sfloat as format::AcceptsPixels<f64>>"}
+{"name":"<format::R64G64B64A64Uint as format::FormatDesc>"}
+{"name":"<format::R64G64B64A64Uint as format::PossibleUintFormatDesc>"}
+{"name":"<format::R64G64B64A64Uint as format::StrongStorage>"}
+{"name":"<format::R64G64B64A64Uint as format::AcceptsPixels<[u64; _]>>"}
+{"name":"<format::R64G64B64A64Uint as format::AcceptsPixels<u64>>"}
+{"name":"<format::R64G64B64A64Sint as format::FormatDesc>"}
+{"name":"<format::R64G64B64A64Sint as format::PossibleSintFormatDesc>"}
+{"name":"<format::R64G64B64A64Sint as format::StrongStorage>"}
+{"name":"<format::R64G64B64A64Sint as format::AcceptsPixels<[i64; _]>>"}
+{"name":"<format::R64G64B64A64Sint as format::AcceptsPixels<i64>>"}
+{"name":"<format::R64G64B64A64Sfloat as format::FormatDesc>"}
+{"name":"<format::R64G64B64A64Sfloat as format::PossibleFloatFormatDesc>"}
+{"name":"<format::R64G64B64A64Sfloat as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::R64G64B64A64Sfloat as format::StrongStorage>"}
+{"name":"<format::R64G64B64A64Sfloat as format::AcceptsPixels<[f64; _]>>"}
+{"name":"<format::R64G64B64A64Sfloat as format::AcceptsPixels<f64>>"}
+{"name":"<format::B10G11R11UfloatPack32 as format::FormatDesc>"}
+{"name":"<format::B10G11R11UfloatPack32 as format::PossibleFloatFormatDesc>"}
+{"name":"<format::B10G11R11UfloatPack32 as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::B10G11R11UfloatPack32 as format::StrongStorage>"}
+{"name":"<format::B10G11R11UfloatPack32 as format::AcceptsPixels<u32>>"}
+{"name":"<format::E5B9G9R9UfloatPack32 as format::FormatDesc>"}
+{"name":"<format::E5B9G9R9UfloatPack32 as format::PossibleFloatFormatDesc>"}
+{"name":"<format::E5B9G9R9UfloatPack32 as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::E5B9G9R9UfloatPack32 as format::StrongStorage>"}
+{"name":"<format::E5B9G9R9UfloatPack32 as format::AcceptsPixels<u32>>"}
+{"name":"<format::D16Unorm as format::FormatDesc>"}
+{"name":"<format::D16Unorm as format::PossibleDepthFormatDesc>"}
+{"name":"<format::X8_D24UnormPack32 as format::FormatDesc>"}
+{"name":"<format::X8_D24UnormPack32 as format::PossibleDepthFormatDesc>"}
+{"name":"<format::D32Sfloat as format::FormatDesc>"}
+{"name":"<format::D32Sfloat as format::PossibleDepthFormatDesc>"}
+{"name":"<format::S8Uint as format::FormatDesc>"}
+{"name":"<format::S8Uint as format::PossibleStencilFormatDesc>"}
+{"name":"<format::D16Unorm_S8Uint as format::FormatDesc>"}
+{"name":"<format::D16Unorm_S8Uint as format::PossibleDepthStencilFormatDesc>"}
+{"name":"<format::D24Unorm_S8Uint as format::FormatDesc>"}
+{"name":"<format::D24Unorm_S8Uint as format::PossibleDepthStencilFormatDesc>"}
+{"name":"<format::D32Sfloat_S8Uint as format::FormatDesc>"}
+{"name":"<format::D32Sfloat_S8Uint as format::PossibleDepthStencilFormatDesc>"}
+{"name":"<format::BC1_RGBUnormBlock as format::FormatDesc>"}
+{"name":"<format::BC1_RGBUnormBlock as format::PossibleCompressedFormatDesc>"}
+{"name":"<format::BC1_RGBUnormBlock as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::BC1_RGBSrgbBlock as format::FormatDesc>"}
+{"name":"<format::BC1_RGBSrgbBlock as format::PossibleCompressedFormatDesc>"}
+{"name":"<format::BC1_RGBSrgbBlock as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::BC1_RGBAUnormBlock as format::FormatDesc>"}
+{"name":"<format::BC1_RGBAUnormBlock as format::PossibleCompressedFormatDesc>"}
+{"name":"<format::BC1_RGBAUnormBlock as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::BC1_RGBASrgbBlock as format::FormatDesc>"}
+{"name":"<format::BC1_RGBASrgbBlock as format::PossibleCompressedFormatDesc>"}
+{"name":"<format::BC1_RGBASrgbBlock as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::BC2UnormBlock as format::FormatDesc>"}
+{"name":"<format::BC2UnormBlock as format::PossibleCompressedFormatDesc>"}
+{"name":"<format::BC2UnormBlock as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::BC2SrgbBlock as format::FormatDesc>"}
+{"name":"<format::BC2SrgbBlock as format::PossibleCompressedFormatDesc>"}
+{"name":"<format::BC2SrgbBlock as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::BC3UnormBlock as format::FormatDesc>"}
+{"name":"<format::BC3UnormBlock as format::PossibleCompressedFormatDesc>"}
+{"name":"<format::BC3UnormBlock as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::BC3SrgbBlock as format::FormatDesc>"}
+{"name":"<format::BC3SrgbBlock as format::PossibleCompressedFormatDesc>"}
+{"name":"<format::BC3SrgbBlock as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::BC4UnormBlock as format::FormatDesc>"}
+{"name":"<format::BC4UnormBlock as format::PossibleCompressedFormatDesc>"}
+{"name":"<format::BC4UnormBlock as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::BC4SnormBlock as format::FormatDesc>"}
+{"name":"<format::BC4SnormBlock as format::PossibleCompressedFormatDesc>"}
+{"name":"<format::BC4SnormBlock as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::BC5UnormBlock as format::FormatDesc>"}
+{"name":"<format::BC5UnormBlock as format::PossibleCompressedFormatDesc>"}
+{"name":"<format::BC5UnormBlock as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::BC5SnormBlock as format::FormatDesc>"}
+{"name":"<format::BC5SnormBlock as format::PossibleCompressedFormatDesc>"}
+{"name":"<format::BC5SnormBlock as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::BC6HUfloatBlock as format::FormatDesc>"}
+{"name":"<format::BC6HUfloatBlock as format::PossibleCompressedFormatDesc>"}
+{"name":"<format::BC6HUfloatBlock as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::BC6HSfloatBlock as format::FormatDesc>"}
+{"name":"<format::BC6HSfloatBlock as format::PossibleCompressedFormatDesc>"}
+{"name":"<format::BC6HSfloatBlock as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::BC7UnormBlock as format::FormatDesc>"}
+{"name":"<format::BC7UnormBlock as format::PossibleCompressedFormatDesc>"}
+{"name":"<format::BC7UnormBlock as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::BC7SrgbBlock as format::FormatDesc>"}
+{"name":"<format::BC7SrgbBlock as format::PossibleCompressedFormatDesc>"}
+{"name":"<format::BC7SrgbBlock as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::ETC2_R8G8B8UnormBlock as format::FormatDesc>"}
+{"name":"<format::ETC2_R8G8B8UnormBlock as format::PossibleCompressedFormatDesc>"}
+{"name":"<format::ETC2_R8G8B8UnormBlock as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::ETC2_R8G8B8SrgbBlock as format::FormatDesc>"}
+{"name":"<format::ETC2_R8G8B8SrgbBlock as format::PossibleCompressedFormatDesc>"}
+{"name":"<format::ETC2_R8G8B8SrgbBlock as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::ETC2_R8G8B8A1UnormBlock as format::FormatDesc>"}
+{"name":"<format::ETC2_R8G8B8A1UnormBlock as format::PossibleCompressedFormatDesc>"}
+{"name":"<format::ETC2_R8G8B8A1UnormBlock as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::ETC2_R8G8B8A1SrgbBlock as format::FormatDesc>"}
+{"name":"<format::ETC2_R8G8B8A1SrgbBlock as format::PossibleCompressedFormatDesc>"}
+{"name":"<format::ETC2_R8G8B8A1SrgbBlock as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::ETC2_R8G8B8A8UnormBlock as format::FormatDesc>"}
+{"name":"<format::ETC2_R8G8B8A8UnormBlock as format::PossibleCompressedFormatDesc>"}
+{"name":"<format::ETC2_R8G8B8A8UnormBlock as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::ETC2_R8G8B8A8SrgbBlock as format::FormatDesc>"}
+{"name":"<format::ETC2_R8G8B8A8SrgbBlock as format::PossibleCompressedFormatDesc>"}
+{"name":"<format::ETC2_R8G8B8A8SrgbBlock as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::EAC_R11UnormBlock as format::FormatDesc>"}
+{"name":"<format::EAC_R11UnormBlock as format::PossibleCompressedFormatDesc>"}
+{"name":"<format::EAC_R11UnormBlock as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::EAC_R11SnormBlock as format::FormatDesc>"}
+{"name":"<format::EAC_R11SnormBlock as format::PossibleCompressedFormatDesc>"}
+{"name":"<format::EAC_R11SnormBlock as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::EAC_R11G11UnormBlock as format::FormatDesc>"}
+{"name":"<format::EAC_R11G11UnormBlock as format::PossibleCompressedFormatDesc>"}
+{"name":"<format::EAC_R11G11UnormBlock as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::EAC_R11G11SnormBlock as format::FormatDesc>"}
+{"name":"<format::EAC_R11G11SnormBlock as format::PossibleCompressedFormatDesc>"}
+{"name":"<format::EAC_R11G11SnormBlock as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::ASTC_4x4UnormBlock as format::FormatDesc>"}
+{"name":"<format::ASTC_4x4UnormBlock as format::PossibleCompressedFormatDesc>"}
+{"name":"<format::ASTC_4x4UnormBlock as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::ASTC_4x4SrgbBlock as format::FormatDesc>"}
+{"name":"<format::ASTC_4x4SrgbBlock as format::PossibleCompressedFormatDesc>"}
+{"name":"<format::ASTC_4x4SrgbBlock as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::ASTC_5x4UnormBlock as format::FormatDesc>"}
+{"name":"<format::ASTC_5x4UnormBlock as format::PossibleCompressedFormatDesc>"}
+{"name":"<format::ASTC_5x4UnormBlock as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::ASTC_5x4SrgbBlock as format::FormatDesc>"}
+{"name":"<format::ASTC_5x4SrgbBlock as format::PossibleCompressedFormatDesc>"}
+{"name":"<format::ASTC_5x4SrgbBlock as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::ASTC_5x5UnormBlock as format::FormatDesc>"}
+{"name":"<format::ASTC_5x5UnormBlock as format::PossibleCompressedFormatDesc>"}
+{"name":"<format::ASTC_5x5UnormBlock as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::ASTC_5x5SrgbBlock as format::FormatDesc>"}
+{"name":"<format::ASTC_5x5SrgbBlock as format::PossibleCompressedFormatDesc>"}
+{"name":"<format::ASTC_5x5SrgbBlock as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::ASTC_6x5UnormBlock as format::FormatDesc>"}
+{"name":"<format::ASTC_6x5UnormBlock as format::PossibleCompressedFormatDesc>"}
+{"name":"<format::ASTC_6x5UnormBlock as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::ASTC_6x5SrgbBlock as format::FormatDesc>"}
+{"name":"<format::ASTC_6x5SrgbBlock as format::PossibleCompressedFormatDesc>"}
+{"name":"<format::ASTC_6x5SrgbBlock as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::ASTC_6x6UnormBlock as format::FormatDesc>"}
+{"name":"<format::ASTC_6x6UnormBlock as format::PossibleCompressedFormatDesc>"}
+{"name":"<format::ASTC_6x6UnormBlock as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::ASTC_6x6SrgbBlock as format::FormatDesc>"}
+{"name":"<format::ASTC_6x6SrgbBlock as format::PossibleCompressedFormatDesc>"}
+{"name":"<format::ASTC_6x6SrgbBlock as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::ASTC_8x5UnormBlock as format::FormatDesc>"}
+{"name":"<format::ASTC_8x5UnormBlock as format::PossibleCompressedFormatDesc>"}
+{"name":"<format::ASTC_8x5UnormBlock as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::ASTC_8x5SrgbBlock as format::FormatDesc>"}
+{"name":"<format::ASTC_8x5SrgbBlock as format::PossibleCompressedFormatDesc>"}
+{"name":"<format::ASTC_8x5SrgbBlock as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::ASTC_8x6UnormBlock as format::FormatDesc>"}
+{"name":"<format::ASTC_8x6UnormBlock as format::PossibleCompressedFormatDesc>"}
+{"name":"<format::ASTC_8x6UnormBlock as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::ASTC_8x6SrgbBlock as format::FormatDesc>"}
+{"name":"<format::ASTC_8x6SrgbBlock as format::PossibleCompressedFormatDesc>"}
+{"name":"<format::ASTC_8x6SrgbBlock as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::ASTC_8x8UnormBlock as format::FormatDesc>"}
+{"name":"<format::ASTC_8x8UnormBlock as format::PossibleCompressedFormatDesc>"}
+{"name":"<format::ASTC_8x8UnormBlock as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::ASTC_8x8SrgbBlock as format::FormatDesc>"}
+{"name":"<format::ASTC_8x8SrgbBlock as format::PossibleCompressedFormatDesc>"}
+{"name":"<format::ASTC_8x8SrgbBlock as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::ASTC_10x5UnormBlock as format::FormatDesc>"}
+{"name":"<format::ASTC_10x5UnormBlock as format::PossibleCompressedFormatDesc>"}
+{"name":"<format::ASTC_10x5UnormBlock as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::ASTC_10x5SrgbBlock as format::FormatDesc>"}
+{"name":"<format::ASTC_10x5SrgbBlock as format::PossibleCompressedFormatDesc>"}
+{"name":"<format::ASTC_10x5SrgbBlock as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::ASTC_10x6UnormBlock as format::FormatDesc>"}
+{"name":"<format::ASTC_10x6UnormBlock as format::PossibleCompressedFormatDesc>"}
+{"name":"<format::ASTC_10x6UnormBlock as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::ASTC_10x6SrgbBlock as format::FormatDesc>"}
+{"name":"<format::ASTC_10x6SrgbBlock as format::PossibleCompressedFormatDesc>"}
+{"name":"<format::ASTC_10x6SrgbBlock as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::ASTC_10x8UnormBlock as format::FormatDesc>"}
+{"name":"<format::ASTC_10x8UnormBlock as format::PossibleCompressedFormatDesc>"}
+{"name":"<format::ASTC_10x8UnormBlock as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::ASTC_10x8SrgbBlock as format::FormatDesc>"}
+{"name":"<format::ASTC_10x8SrgbBlock as format::PossibleCompressedFormatDesc>"}
+{"name":"<format::ASTC_10x8SrgbBlock as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::ASTC_10x10UnormBlock as format::FormatDesc>"}
+{"name":"<format::ASTC_10x10UnormBlock as format::PossibleCompressedFormatDesc>"}
+{"name":"<format::ASTC_10x10UnormBlock as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::ASTC_10x10SrgbBlock as format::FormatDesc>"}
+{"name":"<format::ASTC_10x10SrgbBlock as format::PossibleCompressedFormatDesc>"}
+{"name":"<format::ASTC_10x10SrgbBlock as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::ASTC_12x10UnormBlock as format::FormatDesc>"}
+{"name":"<format::ASTC_12x10UnormBlock as format::PossibleCompressedFormatDesc>"}
+{"name":"<format::ASTC_12x10UnormBlock as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::ASTC_12x10SrgbBlock as format::FormatDesc>"}
+{"name":"<format::ASTC_12x10SrgbBlock as format::PossibleCompressedFormatDesc>"}
+{"name":"<format::ASTC_12x10SrgbBlock as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::ASTC_12x12UnormBlock as format::FormatDesc>"}
+{"name":"<format::ASTC_12x12UnormBlock as format::PossibleCompressedFormatDesc>"}
+{"name":"<format::ASTC_12x12UnormBlock as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::ASTC_12x12SrgbBlock as format::FormatDesc>"}
+{"name":"<format::ASTC_12x12SrgbBlock as format::PossibleCompressedFormatDesc>"}
+{"name":"<format::ASTC_12x12SrgbBlock as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::Format as format::FormatDesc>"}
+{"name":"<format::Format as format::PossibleFloatFormatDesc>"}
+{"name":"<format::Format as format::PossibleUintFormatDesc>"}
+{"name":"<format::Format as format::PossibleSintFormatDesc>"}
+{"name":"<format::Format as format::PossibleDepthFormatDesc>"}
+{"name":"<format::Format as format::PossibleStencilFormatDesc>"}
+{"name":"<format::Format as format::PossibleDepthStencilFormatDesc>"}
+{"name":"<format::Format as format::PossibleCompressedFormatDesc>"}
+{"name":"<format::Format as format::PossibleFloatOrCompressedFormatDesc>"}
+{"name":"<format::Format as format::AcceptsPixels<u8>>"}
+{"name":"<format::Format as format::AcceptsPixels<i8>>"}
+{"name":"<format::Format as format::AcceptsPixels<u16>>"}
+{"name":"<format::Format as format::AcceptsPixels<i16>>"}
+{"name":"<format::Format as format::AcceptsPixels<u32>>"}
+{"name":"<format::Format as format::AcceptsPixels<i32>>"}
+{"name":"<format::Format as format::AcceptsPixels<u64>>"}
+{"name":"<format::Format as format::AcceptsPixels<i64>>"}
+{"name":"<format::Format as format::AcceptsPixels<half::f16>>"}
+{"name":"<format::Format as format::AcceptsPixels<f32>>"}
+{"name":"<format::Format as format::AcceptsPixels<f64>>"}
+{"name":"<format::Format as format::AcceptsPixels<[u8; _]>>"}
+{"name":"<format::Format as format::AcceptsPixels<[i8; _]>>"}
+{"name":"<format::Format as format::AcceptsPixels<[u16; _]>>"}
+{"name":"<format::Format as format::AcceptsPixels<[i16; _]>>"}
+{"name":"<format::Format as format::AcceptsPixels<[u32; _]>>"}
+{"name":"<format::Format as format::AcceptsPixels<[i32; _]>>"}
+{"name":"<format::Format as format::AcceptsPixels<[u64; _]>>"}
+{"name":"<format::Format as format::AcceptsPixels<[i64; _]>>"}
+{"name":"<format::Format as format::AcceptsPixels<[half::f16; _]>>"}
+{"name":"<format::Format as format::AcceptsPixels<[f32; _]>>"}
+{"name":"<format::Format as format::AcceptsPixels<[f64; _]>>"}
+{"name":"<format::Format as format::AcceptsPixels<[u8; _]>>"}
+{"name":"<format::Format as format::AcceptsPixels<[i8; _]>>"}
+{"name":"<format::Format as format::AcceptsPixels<[u16; _]>>"}
+{"name":"<format::Format as format::AcceptsPixels<[i16; _]>>"}
+{"name":"<format::Format as format::AcceptsPixels<[u32; _]>>"}
+{"name":"<format::Format as format::AcceptsPixels<[i32; _]>>"}
+{"name":"<format::Format as format::AcceptsPixels<[u64; _]>>"}
+{"name":"<format::Format as format::AcceptsPixels<[i64; _]>>"}
+{"name":"<format::Format as format::AcceptsPixels<[half::f16; _]>>"}
+{"name":"<format::Format as format::AcceptsPixels<[f32; _]>>"}
+{"name":"<format::Format as format::AcceptsPixels<[f64; _]>>"}
+{"name":"<format::Format as format::AcceptsPixels<[u8; _]>>"}
+{"name":"<format::Format as format::AcceptsPixels<[i8; _]>>"}
+{"name":"<format::Format as format::AcceptsPixels<[u16; _]>>"}
+{"name":"<format::Format as format::AcceptsPixels<[i16; _]>>"}
+{"name":"<format::Format as format::AcceptsPixels<[u32; _]>>"}
+{"name":"<format::Format as format::AcceptsPixels<[i32; _]>>"}
+{"name":"<format::Format as format::AcceptsPixels<[u64; _]>>"}
+{"name":"<format::Format as format::AcceptsPixels<[i64; _]>>"}
+{"name":"<format::Format as format::AcceptsPixels<[half::f16; _]>>"}
+{"name":"<format::Format as format::AcceptsPixels<[f32; _]>>"}
+{"name":"<format::Format as format::AcceptsPixels<[f64; _]>>"}
+{"name":"<format::Format as format::AcceptsPixels<[u8; _]>>"}
+{"name":"<format::Format as format::AcceptsPixels<[i8; _]>>"}
+{"name":"<format::Format as format::AcceptsPixels<[u16; _]>>"}
+{"name":"<format::Format as format::AcceptsPixels<[i16; _]>>"}
+{"name":"<format::Format as format::AcceptsPixels<[u32; _]>>"}
+{"name":"<format::Format as format::AcceptsPixels<[i32; _]>>"}
+{"name":"<format::Format as format::AcceptsPixels<[u64; _]>>"}
+{"name":"<format::Format as format::AcceptsPixels<[i64; _]>>"}
+{"name":"<format::Format as format::AcceptsPixels<[half::f16; _]>>"}
+{"name":"<format::Format as format::AcceptsPixels<[f32; _]>>"}
+{"name":"<format::Format as format::AcceptsPixels<[f64; _]>>"}
+{"name":"<format::Format as format::AcceptsPixels<(u8,)>>"}
+{"name":"<format::Format as format::AcceptsPixels<(i8,)>>"}
+{"name":"<format::Format as format::AcceptsPixels<(u16,)>>"}
+{"name":"<format::Format as format::AcceptsPixels<(i16,)>>"}
+{"name":"<format::Format as format::AcceptsPixels<(u32,)>>"}
+{"name":"<format::Format as format::AcceptsPixels<(i32,)>>"}
+{"name":"<format::Format as format::AcceptsPixels<(u64,)>>"}
+{"name":"<format::Format as format::AcceptsPixels<(i64,)>>"}
+{"name":"<format::Format as format::AcceptsPixels<(half::f16,)>>"}
+{"name":"<format::Format as format::AcceptsPixels<(f32,)>>"}
+{"name":"<format::Format as format::AcceptsPixels<(f64,)>>"}
+{"name":"<format::Format as format::AcceptsPixels<(u8, u8)>>"}
+{"name":"<format::Format as format::AcceptsPixels<(i8, i8)>>"}
+{"name":"<format::Format as format::AcceptsPixels<(u16, u16)>>"}
+{"name":"<format::Format as format::AcceptsPixels<(i16, i16)>>"}
+{"name":"<format::Format as format::AcceptsPixels<(u32, u32)>>"}
+{"name":"<format::Format as format::AcceptsPixels<(i32, i32)>>"}
+{"name":"<format::Format as format::AcceptsPixels<(u64, u64)>>"}
+{"name":"<format::Format as format::AcceptsPixels<(i64, i64)>>"}
+{"name":"<format::Format as format::AcceptsPixels<(half::f16, half::f16)>>"}
+{"name":"<format::Format as format::AcceptsPixels<(f32, f32)>>"}
+{"name":"<format::Format as format::AcceptsPixels<(f64, f64)>>"}
+{"name":"<format::Format as format::AcceptsPixels<(u8, u8, u8)>>"}
+{"name":"<format::Format as format::AcceptsPixels<(i8, i8, i8)>>"}
+{"name":"<format::Format as format::AcceptsPixels<(u16, u16, u16)>>"}
+{"name":"<format::Format as format::AcceptsPixels<(i16, i16, i16)>>"}
+{"name":"<format::Format as format::AcceptsPixels<(u32, u32, u32)>>"}
+{"name":"<format::Format as format::AcceptsPixels<(i32, i32, i32)>>"}
+{"name":"<format::Format as format::AcceptsPixels<(u64, u64, u64)>>"}
+{"name":"<format::Format as format::AcceptsPixels<(i64, i64, i64)>>"}
+{"name":"<format::Format as format::AcceptsPixels<(half::f16, half::f16, half::f16)>>"}
+{"name":"<format::Format as format::AcceptsPixels<(f32, f32, f32)>>"}
+{"name":"<format::Format as format::AcceptsPixels<(f64, f64, f64)>>"}
+{"name":"<format::Format as format::AcceptsPixels<(u8, u8, u8, u8)>>"}
+{"name":"<format::Format as format::AcceptsPixels<(i8, i8, i8, i8)>>"}
+{"name":"<format::Format as format::AcceptsPixels<(u16, u16, u16, u16)>>"}
+{"name":"<format::Format as format::AcceptsPixels<(i16, i16, i16, i16)>>"}
+{"name":"<format::Format as format::AcceptsPixels<(u32, u32, u32, u32)>>"}
+{"name":"<format::Format as format::AcceptsPixels<(i32, i32, i32, i32)>>"}
+{"name":"<format::Format as format::AcceptsPixels<(u64, u64, u64, u64)>>"}
+{"name":"<format::Format as format::AcceptsPixels<(i64, i64, i64, i64)>>"}
+{"name":"<format::Format as format::AcceptsPixels<(half::f16, half::f16, half::f16, half::f16)>>"}
+{"name":"<format::Format as format::AcceptsPixels<(f32, f32, f32, f32)>>"}
+{"name":"<format::Format as format::AcceptsPixels<(f64, f64, f64, f64)>>"}
+{"name":"<(A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z) as format::ClearValuesTuple>"}
+{"name":"<(B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z) as format::ClearValuesTuple>"}
+{"name":"<(C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z) as format::ClearValuesTuple>"}
+{"name":"<(D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z) as format::ClearValuesTuple>"}
+{"name":"<(E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z) as format::ClearValuesTuple>"}
+{"name":"<(F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z) as format::ClearValuesTuple>"}
+{"name":"<(G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z) as format::ClearValuesTuple>"}
+{"name":"<(H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z) as format::ClearValuesTuple>"}
+{"name":"<(I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z) as format::ClearValuesTuple>"}
+{"name":"<(J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z) as format::ClearValuesTuple>"}
+{"name":"<(K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z) as format::ClearValuesTuple>"}
+{"name":"<(L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z) as format::ClearValuesTuple>"}
+{"name":"<(M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z) as format::ClearValuesTuple>"}
+{"name":"<(N, O, P, Q, R, S, T, U, V, W, X, Y, Z) as format::ClearValuesTuple>"}
+{"name":"<(O, P, Q, R, S, T, U, V, W, X, Y, Z) as format::ClearValuesTuple>"}
+{"name":"<(P, Q, R, S, T, U, V, W, X, Y, Z) as format::ClearValuesTuple>"}
+{"name":"<(Q, R, S, T, U, V, W, X, Y, Z) as format::ClearValuesTuple>"}
+{"name":"<(R, S, T, U, V, W, X, Y, Z) as format::ClearValuesTuple>"}
+{"name":"<(S, T, U, V, W, X, Y, Z) as format::ClearValuesTuple>"}
+{"name":"<(T, U, V, W, X, Y, Z) as format::ClearValuesTuple>"}
+{"name":"<(U, V, W, X, Y, Z) as format::ClearValuesTuple>"}
+{"name":"<(V, W, X, Y, Z) as format::ClearValuesTuple>"}
+{"name":"<(W, X, Y, Z) as format::ClearValuesTuple>"}
+{"name":"<(X, Y, Z) as format::ClearValuesTuple>"}
+{"name":"<(Y, Z) as format::ClearValuesTuple>"}
+{"name":"<(Z,) as format::ClearValuesTuple>"}
+{"name":"<T as framebuffer::attachments_list::AttachmentsList>"}
+{"name":"<() as framebuffer::attachments_list::AttachmentsList>"}
+{"name":"<std::vec::Vec<std::sync::Arc<(dyn image::traits::ImageViewAccess + std::marker::Send + std::marker::Sync + 'static)>> as framebuffer::attachments_list::AttachmentsList>"}
+{"name":"<(A, B) as framebuffer::attachments_list::AttachmentsList>"}
+{"name":"<T as framebuffer::desc::RenderPassDesc>"}
+{"name":"<framebuffer::empty::EmptySinglePassRenderPassDesc as framebuffer::desc::RenderPassDesc>"}
+{"name":"<framebuffer::empty::EmptySinglePassRenderPassDesc as framebuffer::traits::RenderPassDescClearValues<std::vec::Vec<format::ClearValue>>>"}
+{"name":"<framebuffer::empty::EmptySinglePassRenderPassDesc as framebuffer::traits::RenderPassDescClearValues<()>>"}
+{"name":"<framebuffer::framebuffer::Framebuffer<Rp, A> as framebuffer::traits::FramebufferAbstract>"}
+{"name":"<framebuffer::framebuffer::Framebuffer<Rp, A> as framebuffer::desc::RenderPassDesc>"}
+{"name":"<framebuffer::framebuffer::Framebuffer<Rp, A> as framebuffer::traits::RenderPassDescClearValues<C>>"}
+{"name":"<framebuffer::framebuffer::Framebuffer<Rp, A> as framebuffer::traits::RenderPassAbstract>"}
+{"name":"<framebuffer::framebuffer::Framebuffer<Rp, A> as device::DeviceOwned>"}
+{"name":"<framebuffer::framebuffer::FramebufferSys<'a> as VulkanObject>"}
+{"name":"<framebuffer::sys::RenderPass<D> as framebuffer::desc::RenderPassDesc>"}
+{"name":"<framebuffer::sys::RenderPass<D> as framebuffer::traits::RenderPassDescClearValues<C>>"}
+{"name":"<framebuffer::sys::RenderPass<D> as framebuffer::traits::RenderPassAbstract>"}
+{"name":"<framebuffer::sys::RenderPass<D> as device::DeviceOwned>"}
+{"name":"<framebuffer::sys::RenderPassSys<'a> as VulkanObject>"}
+{"name":"<T as framebuffer::traits::FramebufferAbstract>"}
+{"name":"<T as framebuffer::traits::RenderPassAbstract>"}
+{"name":"<T as framebuffer::traits::RenderPassDescClearValues<C>>"}
+{"name":"<A as framebuffer::traits::RenderPassSubpassInterface<B>>"}
+{"name":"<A as framebuffer::traits::RenderPassCompatible<B>>"}
+{"name":"<image::attachment::AttachmentImage<F, A> as image::traits::ImageAccess>"}
+{"name":"image::attachment::<impl image::traits::ImageClearValue<<F as format::FormatDesc>::ClearValue> for std::sync::Arc<image::attachment::AttachmentImage<F, A>>>"}
+{"name":"image::attachment::<impl image::traits::ImageContent<P> for std::sync::Arc<image::attachment::AttachmentImage<F, A>>>"}
+{"name":"<image::attachment::AttachmentImage<F, A> as image::traits::ImageViewAccess>"}
+{"name":"<image::immutable::ImmutableImage<F, A> as image::traits::ImageAccess>"}
+{"name":"<image::immutable::ImmutableImage<F, A> as image::traits::ImageContent<P>>"}
+{"name":"<image::immutable::ImmutableImage<F, A> as image::traits::ImageViewAccess>"}
+{"name":"<image::immutable::ImmutableImageInitialization<F, A> as image::traits::ImageAccess>"}
+{"name":"<image::storage::StorageImage<F, A> as image::traits::ImageAccess>"}
+{"name":"<image::storage::StorageImage<F, A> as image::traits::ImageClearValue<<F as format::FormatDesc>::ClearValue>>"}
+{"name":"<image::storage::StorageImage<F, A> as image::traits::ImageContent<P>>"}
+{"name":"<image::storage::StorageImage<F, A> as image::traits::ImageViewAccess>"}
+{"name":"<image::swapchain::SwapchainImage<W> as image::traits::ImageAccess>"}
+{"name":"<image::swapchain::SwapchainImage<W> as image::traits::ImageClearValue<<format::Format as format::FormatDesc>::ClearValue>>"}
+{"name":"<image::swapchain::SwapchainImage<W> as image::traits::ImageContent<P>>"}
+{"name":"<image::swapchain::SwapchainImage<W> as image::traits::ImageViewAccess>"}
+{"name":"<image::sys::UnsafeImage as VulkanObject>"}
+{"name":"<image::sys::UnsafeImageView as VulkanObject>"}
+{"name":"<T as image::traits::ImageAccess>"}
+{"name":"<image::traits::ImageAccessFromUndefinedLayout<I> as image::traits::ImageAccess>"}
+{"name":"<T as image::traits::ImageViewAccess>"}
+{"name":"<T as instance::loader::Loader>"}
+{"name":"<instance::loader::DynamicLibraryLoader as instance::loader::Loader>"}
+{"name":"<instance::instance::Instance as VulkanObject>"}
+{"name":"<instance::instance::PhysicalDevice<'a> as VulkanObject>"}
+{"name":"<memory::device_memory::DeviceMemory as device::DeviceOwned>"}
+{"name":"<memory::device_memory::DeviceMemory as VulkanObject>"}
+{"name":"<memory::device_memory::MappedDeviceMemory as device::DeviceOwned>"}
+{"name":"<memory::device_memory::MappedDeviceMemory as std::marker::Send>"}
+{"name":"<memory::device_memory::MappedDeviceMemory as std::marker::Sync>"}
+{"name":"<memory::device_memory::CpuAccess<'a, T> as std::marker::Send>"}
+{"name":"<memory::device_memory::CpuAccess<'a, T> as std::marker::Sync>"}
+{"name":"memory::pool::pool::<impl memory::pool::MemoryPool for std::sync::Arc<memory::pool::pool::StdMemoryPool>>"}
+{"name":"<memory::pool::pool::StdMemoryPool as device::DeviceOwned>"}
+{"name":"<memory::pool::pool::StdMemoryPoolAlloc as memory::pool::MemoryPoolAlloc>"}
+{"name":"<memory::pool::PotentialDedicatedAllocation<A> as memory::pool::MemoryPoolAlloc>"}
+{"name":"<T as memory::Content>"}
+{"name":"<[T] as memory::Content>"}
+{"name":"<pipeline::compute_pipeline::ComputePipeline<Pl> as pipeline::compute_pipeline::ComputePipelineAbstract>"}
+{"name":"<T as pipeline::compute_pipeline::ComputePipelineAbstract>"}
+{"name":"<pipeline::compute_pipeline::ComputePipelineSys<'a> as VulkanObject>"}
+{"name":"<pipeline::compute_pipeline::ComputePipeline<Pl> as descriptor::pipeline_layout::traits::PipelineLayoutAbstract>"}
+{"name":"<pipeline::compute_pipeline::ComputePipeline<Pl> as descriptor::pipeline_layout::traits::PipelineLayoutDesc>"}
+{"name":"<pipeline::compute_pipeline::ComputePipeline<Pl> as device::DeviceOwned>"}
+{"name":"<pipeline::compute_pipeline::ComputePipeline<Pl> as VulkanObject>"}
+{"name":"<pipeline::graphics_pipeline::GraphicsPipeline<Mv, L, Rp> as descriptor::pipeline_layout::traits::PipelineLayoutAbstract>"}
+{"name":"<pipeline::graphics_pipeline::GraphicsPipeline<Mv, L, Rp> as descriptor::pipeline_layout::traits::PipelineLayoutDesc>"}
+{"name":"<pipeline::graphics_pipeline::GraphicsPipeline<Mv, L, Rp> as device::DeviceOwned>"}
+{"name":"<pipeline::graphics_pipeline::GraphicsPipeline<Mv, L, Rp> as framebuffer::traits::RenderPassAbstract>"}
+{"name":"<pipeline::graphics_pipeline::GraphicsPipeline<Mv, L, Rp> as framebuffer::desc::RenderPassDesc>"}
+{"name":"<pipeline::graphics_pipeline::GraphicsPipeline<Mv, L, Rp> as framebuffer::traits::RenderPassDescClearValues<C>>"}
+{"name":"<pipeline::graphics_pipeline::GraphicsPipeline<Mv, L, Rp> as VulkanObject>"}
+{"name":"<pipeline::graphics_pipeline::GraphicsPipeline<Mv, L, Rp> as pipeline::graphics_pipeline::GraphicsPipelineAbstract>"}
+{"name":"<T as pipeline::graphics_pipeline::GraphicsPipelineAbstract>"}
+{"name":"<pipeline::graphics_pipeline::GraphicsPipelineSys<'a> as VulkanObject>"}
+{"name":"<pipeline::graphics_pipeline::GraphicsPipeline<Mv, L, Rp> as pipeline::vertex::definition::VertexDefinition<I>>"}
+{"name":"<pipeline::graphics_pipeline::GraphicsPipeline<Mv, L, Rp> as pipeline::vertex::definition::VertexSource<S>>"}
+{"name":"<pipeline::cache::PipelineCache as VulkanObject>"}
+{"name":"<u16 as pipeline::input_assembly::Index>"}
+{"name":"<u32 as pipeline::input_assembly::Index>"}
+{"name":"<pipeline::shader::ShaderModule as VulkanObject>"}
+{"name":"<pipeline::shader::GraphicsEntryPoint<'a, S, I, O, L> as pipeline::shader::EntryPointAbstract>"}
+{"name":"<pipeline::shader::GraphicsEntryPoint<'a, S, I, O, L> as pipeline::shader::GraphicsEntryPointAbstract>"}
+{"name":"<pipeline::shader::ComputeEntryPoint<'a, S, L> as pipeline::shader::EntryPointAbstract>"}
+{"name":"<pipeline::shader::EmptyEntryPointDummy as pipeline::shader::EntryPointAbstract>"}
+{"name":"<pipeline::shader::EmptyEntryPointDummy as pipeline::shader::GraphicsEntryPointAbstract>"}
+{"name":"<pipeline::shader::EmptyShaderInterfaceDef as pipeline::shader::ShaderInterfaceDef>"}
+{"name":"<T as pipeline::shader::ShaderInterfaceDefMatch<I>>"}
+{"name":"<() as pipeline::shader::SpecializationConstants>"}
+{"name":"<T as pipeline::vertex::definition::VertexDefinition<I>>"}
+{"name":"<T as pipeline::vertex::definition::VertexSource<L>>"}
+{"name":"<i8 as pipeline::vertex::impl_vertex::VertexMember>"}
+{"name":"<u8 as pipeline::vertex::impl_vertex::VertexMember>"}
+{"name":"<i16 as pipeline::vertex::impl_vertex::VertexMember>"}
+{"name":"<u16 as pipeline::vertex::impl_vertex::VertexMember>"}
+{"name":"<i32 as pipeline::vertex::impl_vertex::VertexMember>"}
+{"name":"<u32 as pipeline::vertex::impl_vertex::VertexMember>"}
+{"name":"<f32 as pipeline::vertex::impl_vertex::VertexMember>"}
+{"name":"<f64 as pipeline::vertex::impl_vertex::VertexMember>"}
+{"name":"<(T,) as pipeline::vertex::impl_vertex::VertexMember>"}
+{"name":"<(T, T) as pipeline::vertex::impl_vertex::VertexMember>"}
+{"name":"<(T, T, T) as pipeline::vertex::impl_vertex::VertexMember>"}
+{"name":"<(T, T, T, T) as pipeline::vertex::impl_vertex::VertexMember>"}
+{"name":"<[T; _] as pipeline::vertex::impl_vertex::VertexMember>"}
+{"name":"<[T; _] as pipeline::vertex::impl_vertex::VertexMember>"}
+{"name":"<[T; _] as pipeline::vertex::impl_vertex::VertexMember>"}
+{"name":"<[T; _] as pipeline::vertex::impl_vertex::VertexMember>"}
+{"name":"<[T; _] as pipeline::vertex::impl_vertex::VertexMember>"}
+{"name":"<[T; _] as pipeline::vertex::impl_vertex::VertexMember>"}
+{"name":"<[T; _] as pipeline::vertex::impl_vertex::VertexMember>"}
+{"name":"<[T; _] as pipeline::vertex::impl_vertex::VertexMember>"}
+{"name":"<[T; _] as pipeline::vertex::impl_vertex::VertexMember>"}
+{"name":"<[T; _] as pipeline::vertex::impl_vertex::VertexMember>"}
+{"name":"<[T; _] as pipeline::vertex::impl_vertex::VertexMember>"}
+{"name":"<[T; _] as pipeline::vertex::impl_vertex::VertexMember>"}
+{"name":"<[T; _] as pipeline::vertex::impl_vertex::VertexMember>"}
+{"name":"<[T; _] as pipeline::vertex::impl_vertex::VertexMember>"}
+{"name":"<[T; _] as pipeline::vertex::impl_vertex::VertexMember>"}
+{"name":"<[T; _] as pipeline::vertex::impl_vertex::VertexMember>"}
+{"name":"<[T; _] as pipeline::vertex::impl_vertex::VertexMember>"}
+{"name":"<[T; _] as pipeline::vertex::impl_vertex::VertexMember>"}
+{"name":"<pipeline::vertex::one_one::OneVertexOneInstanceDefinition<T, U> as pipeline::vertex::definition::VertexDefinition<I>>"}
+{"name":"<pipeline::vertex::one_one::OneVertexOneInstanceDefinition<T, U> as pipeline::vertex::definition::VertexSource<std::vec::Vec<std::sync::Arc<(dyn buffer::traits::BufferAccess + std::marker::Send + std::marker::Sync + 'static)>>>>"}
+{"name":"<pipeline::vertex::one_one::OneVertexOneInstanceDefinition<T, U> as pipeline::vertex::definition::VertexSource<(Bt, Bu)>>"}
+{"name":"<pipeline::vertex::single::SingleBufferDefinition<T> as pipeline::vertex::definition::VertexDefinition<I>>"}
+{"name":"<pipeline::vertex::single::SingleBufferDefinition<V> as pipeline::vertex::definition::VertexSource<std::vec::Vec<std::sync::Arc<(dyn buffer::traits::BufferAccess + std::marker::Send + std::marker::Sync + 'static)>>>>"}
+{"name":"<pipeline::vertex::single::SingleBufferDefinition<V> as pipeline::vertex::definition::VertexSource<B>>"}
+{"name":"<pipeline::vertex::two::TwoBuffersDefinition<T, U> as pipeline::vertex::definition::VertexDefinition<I>>"}
+{"name":"<pipeline::vertex::two::TwoBuffersDefinition<T, U> as pipeline::vertex::definition::VertexSource<std::vec::Vec<std::sync::Arc<(dyn buffer::traits::BufferAccess + std::marker::Send + std::marker::Sync + 'static)>>>>"}
+{"name":"<pipeline::vertex::two::TwoBuffersDefinition<T, U> as pipeline::vertex::definition::VertexSource<(Bt, Bu)>>"}
+{"name":"<() as pipeline::vertex::vertex::Vertex>"}
+{"name":"<pipeline::vertex::bufferless::BufferlessDefinition as pipeline::vertex::definition::VertexSource<pipeline::vertex::bufferless::BufferlessVertices>>"}
+{"name":"<pipeline::vertex::bufferless::BufferlessDefinition as pipeline::vertex::definition::VertexSource<std::vec::Vec<T>>>"}
+{"name":"<pipeline::vertex::bufferless::BufferlessDefinition as pipeline::vertex::definition::VertexDefinition<I>>"}
+{"name":"<query::UnsafeQueryPool as VulkanObject>"}
+{"name":"<query::UnsafeQueryPool as device::DeviceOwned>"}
+{"name":"<query::OcclusionQueriesPool as device::DeviceOwned>"}
+{"name":"<sampler::Sampler as device::DeviceOwned>"}
+{"name":"<sampler::Sampler as VulkanObject>"}
+{"name":"<swapchain::display::Display as VulkanObject>"}
+{"name":"<swapchain::display::DisplayMode as VulkanObject>"}
+{"name":"<swapchain::surface::Surface<W> as swapchain::SurfaceSwapchainLock>"}
+{"name":"<swapchain::surface::Surface<W> as VulkanObject>"}
+{"name":"<swapchain::swapchain::Swapchain<W> as VulkanObject>"}
+{"name":"<swapchain::swapchain::Swapchain<W> as device::DeviceOwned>"}
+{"name":"<swapchain::swapchain::SwapchainAcquireFuture<W> as sync::future::GpuFuture>"}
+{"name":"<swapchain::swapchain::SwapchainAcquireFuture<W> as device::DeviceOwned>"}
+{"name":"<swapchain::swapchain::PresentFuture<P, W> as sync::future::GpuFuture>"}
+{"name":"<swapchain::swapchain::PresentFuture<P, W> as device::DeviceOwned>"}
+{"name":"<sync::event::Event as device::DeviceOwned>"}
+{"name":"<sync::event::Event as VulkanObject>"}
+{"name":"<sync::fence::Fence as device::DeviceOwned>"}
+{"name":"<sync::fence::Fence<D> as VulkanObject>"}
+{"name":"<sync::future::now::NowFuture as sync::future::GpuFuture>"}
+{"name":"<sync::future::now::NowFuture as device::DeviceOwned>"}
+{"name":"<sync::future::fence_signal::FenceSignalFuture<F> as sync::future::GpuFuture>"}
+{"name":"<sync::future::fence_signal::FenceSignalFuture<F> as device::DeviceOwned>"}
+{"name":"sync::future::fence_signal::<impl sync::future::GpuFuture for std::sync::Arc<sync::future::fence_signal::FenceSignalFuture<F>>>"}
+{"name":"<sync::future::join::JoinFuture<A, B> as device::DeviceOwned>"}
+{"name":"<sync::future::join::JoinFuture<A, B> as sync::future::GpuFuture>"}
+{"name":"<sync::future::semaphore_signal::SemaphoreSignalFuture<F> as sync::future::GpuFuture>"}
+{"name":"<sync::future::semaphore_signal::SemaphoreSignalFuture<F> as device::DeviceOwned>"}
+{"name":"<std::boxed::Box<F> as sync::future::GpuFuture>"}
+{"name":"<sync::semaphore::Semaphore as device::DeviceOwned>"}
+{"name":"<sync::semaphore::Semaphore<D> as VulkanObject>"}
+{"name":"<&'a T as SafeDeref>"}
+{"name":"<std::sync::Arc<T> as SafeDeref>"}
+{"name":"<std::boxed::Box<T> as SafeDeref>"}

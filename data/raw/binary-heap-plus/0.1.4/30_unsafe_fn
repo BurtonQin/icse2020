@@ -1,0 +1,3 @@
+{"name":"<binary_heap::Hole<'a, T>>::new","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/binary_heap.rs\") line 1098","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<binary_heap::Hole<'a, T>>::get","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/binary_heap.rs\") line 1124","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<binary_heap::Hole<'a, T>>::move_to","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/binary_heap.rs\") line 1134","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/binary_heap.rs\") line 1135","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/binary_heap.rs\") line 1136","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}

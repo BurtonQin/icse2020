@@ -1,0 +1,8 @@
+{"name":"<sys::socket::sockopt::GetStruct<T> as sys::socket::sockopt::Get<T>>"}
+{"name":"<sys::socket::sockopt::SetStruct<'a, T> as sys::socket::sockopt::Set<'a, T>>"}
+{"name":"<sys::socket::sockopt::GetBool as sys::socket::sockopt::Get<bool>>"}
+{"name":"<sys::socket::sockopt::SetBool as sys::socket::sockopt::Set<'a, bool>>"}
+{"name":"<sys::socket::sockopt::GetU8 as sys::socket::sockopt::Get<u8>>"}
+{"name":"<sys::socket::sockopt::SetU8 as sys::socket::sockopt::Set<'a, u8>>"}
+{"name":"<sys::socket::sockopt::GetUsize as sys::socket::sockopt::Get<usize>>"}
+{"name":"<sys::socket::sockopt::SetUsize as sys::socket::sockopt::Set<'a, usize>>"}

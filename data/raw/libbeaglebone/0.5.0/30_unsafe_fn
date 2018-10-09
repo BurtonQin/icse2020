@@ -1,0 +1,14 @@
+{"name":"i2c::ioctl_set_i2c_slave_addr","from_trait":false,"arguments":[{"type_info":"type(*mut u8)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 6","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"i2c::ioctl_i2c_smbus","from_trait":false,"arguments":[{"type_info":"type(*mut u8)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 6","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"i2c::I2C::i2c_call","from_trait":true,"arguments":[{"type_info":"type(*mut i2c_data)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/i2c.rs\") line 184","kind":{"UnsafeFnCall":"RustIntrinsic"}},{"loc":"file: Real(\"src/i2c.rs\") line 185","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"spi::get_mode_u8","from_trait":false,"arguments":[{"type_info":"type(*mut u8)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 20","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"spi::get_mode_u32","from_trait":false,"arguments":[{"type_info":"type(*mut u32)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 20","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"spi::set_mode_u8","from_trait":false,"arguments":[{"type_info":"type(*const u8)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 28","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"spi::set_mode_u32","from_trait":false,"arguments":[{"type_info":"type(*const u32)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 28","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"spi::get_lsb_first","from_trait":false,"arguments":[{"type_info":"type(*mut u8)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 20","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"spi::set_lsb_first","from_trait":false,"arguments":[{"type_info":"type(*const u8)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 28","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"spi::get_bits_per_word","from_trait":false,"arguments":[{"type_info":"type(*mut u8)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 20","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"spi::set_bits_per_word","from_trait":false,"arguments":[{"type_info":"type(*const u8)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 28","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"spi::get_max_speed_hz","from_trait":false,"arguments":[{"type_info":"type(*mut u32)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 20","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"spi::set_max_speed_hz","from_trait":false,"arguments":[{"type_info":"type(*const u32)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 28","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"spi::spidev_transfer","from_trait":false,"arguments":[{"type_info":"type(*const spi_ioc_transfer)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 28","kind":{"UnsafeFnCall":"C"}}]}

@@ -1,0 +1,13 @@
+{"sources":[["1538",[{"loc":"file: Real(\"src/cache.rs\") line 436","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["1607",[{"loc":"file: Real(\"src/cache.rs\") line 457","kind":"DerefRawPointer"}]]]}
+{"sources":[["1650",[{"loc":"file: Real(\"src/cache.rs\") line 470","kind":"DerefRawPointer"}]],["1676",[{"loc":"file: Real(\"src/cache.rs\") line 476","kind":"DerefRawPointer"}]]]}
+{"sources":[["8921",[{"loc":"file: Real(\"src/error.rs\") line 16","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["8932",[{"loc":"file: Real(\"src/error.rs\") line 16","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["9198",[{"loc":"file: Real(\"src/error.rs\") line 40","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["9209",[{"loc":"file: Real(\"src/error.rs\") line 40","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["9278",[{"loc":"file: Real(\"src/error.rs\") line 40","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["9289",[{"loc":"file: Real(\"src/error.rs\") line 40","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["11167",[{"loc":"file: Real(\"src/types.rs\") line 121","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["11178",[{"loc":"file: Real(\"src/types.rs\") line 121","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["11088",[{"loc":"file: Real(\"src/types.rs\") line 121","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["11099",[{"loc":"file: Real(\"src/types.rs\") line 121","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["11024",[{"loc":"file: Real(\"src/types.rs\") line 121","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["11035",[{"loc":"file: Real(\"src/types.rs\") line 121","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["10995",[{"loc":"file: Real(\"src/types.rs\") line 121","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["4991",[{"loc":"file: Real(\"src/types.rs\") line 137","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["5171",[{"loc":"file: Real(\"src/types.rs\") line 225","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["6105",[{"loc":"file: Real(\"src/writer.rs\") line 113","kind":{"UnsafeFnCall":"Rust"}}]]]}

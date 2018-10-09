@@ -1,0 +1,4 @@
+{"name":"<imagescanner::ImageScanner as std::marker::Send>"}
+{"name":"<imagescanner::ImageScanner as std::marker::Sync>"}
+{"name":"<processor::Processor as std::marker::Send>"}
+{"name":"<processor::Processor as std::marker::Sync>"}

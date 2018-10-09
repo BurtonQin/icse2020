@@ -1,0 +1,12 @@
+{"name":"<bounded::mpmc::Consumer<T> as std::marker::Send>"}
+{"name":"<bounded::mpmc::Producer<T> as std::marker::Send>"}
+{"name":"<bounded::mpmc::Queue<T> as std::marker::Sync>"}
+{"name":"<bounded::spsc::Consumer<T> as std::marker::Send>"}
+{"name":"<bounded::spsc::Producer<T> as std::marker::Send>"}
+{"name":"<bounded::spsc::Queue<T> as std::marker::Sync>"}
+{"name":"<unbounded::mpmc::Consumer<T> as std::marker::Send>"}
+{"name":"<unbounded::mpmc::Producer<T> as std::marker::Send>"}
+{"name":"<unbounded::mpmc::Queue<T> as std::marker::Sync>"}
+{"name":"<unbounded::spsc::Consumer<T> as std::marker::Send>"}
+{"name":"<unbounded::spsc::Producer<T> as std::marker::Send>"}
+{"name":"<unbounded::spsc::Queue<T> as std::marker::Sync>"}

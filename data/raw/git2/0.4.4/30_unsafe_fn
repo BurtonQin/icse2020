@@ -1,0 +1,73 @@
+{"name":"panic::LAST_ERROR::__getit","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__thread_local_inner\") line 16","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"util::Binding::from_raw_opt","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/git2-0.4.4/src/util.rs\") line 36","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"build::CheckoutBuilder::configure","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<cert::Cert<'a> as util::Binding>::from_raw","from_trait":true,"arguments":[{"type_info":"type(*mut raw::git_cert)","kind":"RawPointer"}],"sources":[]}
+{"name":"<string_array::StringArray as util::Binding>::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<oid_array::OidArray as util::Binding>::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"transport::register","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/git2-0.4.4/src/call.rs\") line 14","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"transport::set_err","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/git2-0.4.4/src/transport.rs\") line 316","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"blame::BlameHunk::from_raw_const","from_trait":true,"arguments":[{"type_info":"type(*const raw::git_blame_hunk)","kind":"RawPointer"}],"sources":[]}
+{"name":"<blame::Blame<'repo> as util::Binding>::from_raw","from_trait":true,"arguments":[{"type_info":"type(*mut raw::git_blame)","kind":"RawPointer"}],"sources":[]}
+{"name":"<blame::BlameHunk<'blame> as util::Binding>::from_raw","from_trait":true,"arguments":[{"type_info":"type(*mut raw::git_blame_hunk)","kind":"RawPointer"}],"sources":[]}
+{"name":"<blame::BlameOptions as util::Binding>::from_raw","from_trait":true,"arguments":[{"type_info":"type(*mut raw::git_blame_options)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/git2-0.4.4/src/blame.rs\") line 239","kind":"DerefRawPointer"}]}
+{"name":"<blob::Blob<'repo> as util::Binding>::from_raw","from_trait":true,"arguments":[{"type_info":"type(*mut raw::git_blob)","kind":"RawPointer"}],"sources":[]}
+{"name":"branch::Branches::from_raw","from_trait":true,"arguments":[{"type_info":"type(*mut raw::git_branch_iterator)","kind":"RawPointer"}],"sources":[]}
+{"name":"<buf::Buf as util::Binding>::from_raw","from_trait":true,"arguments":[{"type_info":"type(*mut raw::git_buf)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/git2-0.4.4/src/buf.rs\") line 58","kind":"DerefRawPointer"}]}
+{"name":"<commit::Commit<'repo> as util::Binding>::from_raw","from_trait":true,"arguments":[{"type_info":"type(*mut raw::git_commit)","kind":"RawPointer"}],"sources":[]}
+{"name":"<config::Config as util::Binding>::from_raw","from_trait":true,"arguments":[{"type_info":"type(*mut raw::git_config)","kind":"RawPointer"}],"sources":[]}
+{"name":"<config::ConfigEntry<'cfg> as util::Binding>::from_raw","from_trait":true,"arguments":[{"type_info":"type(*mut raw::git_config_entry)","kind":"RawPointer"}],"sources":[]}
+{"name":"<config::ConfigEntries<'cfg> as util::Binding>::from_raw","from_trait":true,"arguments":[{"type_info":"type(*mut raw::git_config_iterator)","kind":"RawPointer"}],"sources":[]}
+{"name":"cred::Cred::unwrap","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<cred::Cred as util::Binding>::from_raw","from_trait":true,"arguments":[{"type_info":"type(*mut raw::git_cred)","kind":"RawPointer"}],"sources":[]}
+{"name":"<describe::Describe<'repo> as util::Binding>::from_raw","from_trait":true,"arguments":[{"type_info":"type(*mut raw::git_describe_result)","kind":"RawPointer"}],"sources":[]}
+{"name":"<describe::DescribeOptions as util::Binding>::from_raw","from_trait":true,"arguments":[{"type_info":"type(*mut raw::git_describe_options)","kind":"RawPointer"}],"sources":[]}
+{"name":"<diff::Diff<'repo> as util::Binding>::from_raw","from_trait":true,"arguments":[{"type_info":"type(*mut raw::git_diff)","kind":"RawPointer"}],"sources":[]}
+{"name":"<diff::DiffDelta<'a> as util::Binding>::from_raw","from_trait":true,"arguments":[{"type_info":"type(*mut raw::git_diff_delta)","kind":"RawPointer"}],"sources":[]}
+{"name":"<diff::DiffFile<'a> as util::Binding>::from_raw","from_trait":true,"arguments":[{"type_info":"type(*const raw::git_diff_file)","kind":"RawPointer"}],"sources":[]}
+{"name":"diff::DiffOptions::raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<diff::DiffLine<'a> as util::Binding>::from_raw","from_trait":true,"arguments":[{"type_info":"type(*const raw::git_diff_line)","kind":"RawPointer"}],"sources":[]}
+{"name":"<diff::DiffHunk<'a> as util::Binding>::from_raw","from_trait":true,"arguments":[{"type_info":"type(*const raw::git_diff_hunk)","kind":"RawPointer"}],"sources":[]}
+{"name":"<diff::DiffStats as util::Binding>::from_raw","from_trait":true,"arguments":[{"type_info":"type(*mut raw::git_diff_stats)","kind":"RawPointer"}],"sources":[]}
+{"name":"<diff::DiffBinary<'a> as util::Binding>::from_raw","from_trait":true,"arguments":[{"type_info":"type(*const raw::git_diff_binary)","kind":"RawPointer"}],"sources":[]}
+{"name":"<diff::DiffBinaryFile<'a> as util::Binding>::from_raw","from_trait":true,"arguments":[{"type_info":"type(*const raw::git_diff_binary_file)","kind":"RawPointer"}],"sources":[]}
+{"name":"<diff::DiffBinaryKind as util::Binding>::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"merge::MergeOptions::raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<merge::AnnotatedCommit<'repo> as util::Binding>::from_raw","from_trait":true,"arguments":[{"type_info":"type(*mut raw::git_annotated_commit)","kind":"RawPointer"}],"sources":[]}
+{"name":"error::Error::from_raw","from_trait":true,"arguments":[{"type_info":"type(*const raw::git_error)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/git2-0.4.4/src/error.rs\") line 33","kind":"DerefRawPointer"},{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/git2-0.4.4/src/error.rs\") line 33","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/git2-0.4.4/src/error.rs\") line 35","kind":"DerefRawPointer"}]}
+{"name":"<index::Index as util::Binding>::from_raw","from_trait":true,"arguments":[{"type_info":"type(*mut raw::git_index)","kind":"RawPointer"}],"sources":[]}
+{"name":"<index::IndexEntry as util::Binding>::from_raw","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/git2-0.4.4/src/index.rs\") line 469","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/git2-0.4.4/src/index.rs\") line 472","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/git2-0.4.4/src/index.rs\") line 481","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/git2-0.4.4/src/index.rs\") line 485","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/git2-0.4.4/src/index.rs\") line 486","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<note::Note<'repo> as util::Binding>::from_raw","from_trait":true,"arguments":[{"type_info":"type(*mut raw::git_note)","kind":"RawPointer"}],"sources":[]}
+{"name":"<note::Notes<'repo> as util::Binding>::from_raw","from_trait":true,"arguments":[{"type_info":"type(*mut raw::git_note_iterator)","kind":"RawPointer"}],"sources":[]}
+{"name":"<object::Object<'repo> as util::Binding>::from_raw","from_trait":true,"arguments":[{"type_info":"type(*mut raw::git_object)","kind":"RawPointer"}],"sources":[]}
+{"name":"<oid::Oid as util::Binding>::from_raw","from_trait":true,"arguments":[{"type_info":"type(*const raw::git_oid)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/git2-0.4.4/src/oid.rs\") line 60","kind":"DerefRawPointer"}]}
+{"name":"<packbuilder::PackBuilder<'repo> as util::Binding>::from_raw","from_trait":true,"arguments":[{"type_info":"type(*mut raw::git_packbuilder)","kind":"RawPointer"}],"sources":[]}
+{"name":"<packbuilder::PackBuilderStage as util::Binding>::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<pathspec::Pathspec as util::Binding>::from_raw","from_trait":true,"arguments":[{"type_info":"type(*mut raw::git_pathspec)","kind":"RawPointer"}],"sources":[]}
+{"name":"<pathspec::PathspecMatchList<'ps> as util::Binding>::from_raw","from_trait":true,"arguments":[{"type_info":"type(*mut raw::git_pathspec_match_list)","kind":"RawPointer"}],"sources":[]}
+{"name":"<reference::Reference<'repo> as util::Binding>::from_raw","from_trait":true,"arguments":[{"type_info":"type(*mut raw::git_reference)","kind":"RawPointer"}],"sources":[]}
+{"name":"<reference::References<'repo> as util::Binding>::from_raw","from_trait":true,"arguments":[{"type_info":"type(*mut raw::git_reference_iterator)","kind":"RawPointer"}],"sources":[]}
+{"name":"<reflog::Reflog as util::Binding>::from_raw","from_trait":true,"arguments":[{"type_info":"type(*mut raw::git_reflog)","kind":"RawPointer"}],"sources":[]}
+{"name":"<reflog::ReflogEntry<'reflog> as util::Binding>::from_raw","from_trait":true,"arguments":[{"type_info":"type(*const raw::git_reflog_entry)","kind":"RawPointer"}],"sources":[]}
+{"name":"<refspec::Refspec<'remote> as util::Binding>::from_raw","from_trait":true,"arguments":[{"type_info":"type(*const raw::git_refspec)","kind":"RawPointer"}],"sources":[]}
+{"name":"<remote::Remote<'repo> as util::Binding>::from_raw","from_trait":true,"arguments":[{"type_info":"type(*mut raw::git_remote)","kind":"RawPointer"}],"sources":[]}
+{"name":"<remote::FetchOptions<'cb> as util::Binding>::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<remote::PushOptions<'cb> as util::Binding>::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<remote_callbacks::RemoteCallbacks<'a> as util::Binding>::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<remote_callbacks::Progress<'a> as util::Binding>::from_raw","from_trait":true,"arguments":[{"type_info":"type(*const raw::git_transfer_progress)","kind":"RawPointer"}],"sources":[]}
+{"name":"<repo::Repository as util::Binding>::from_raw","from_trait":true,"arguments":[{"type_info":"type(*mut raw::git_repository)","kind":"RawPointer"}],"sources":[]}
+{"name":"repo::RepositoryInitOptions::raw","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/git2-0.4.4/src/repo.rs\") line 1842","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/git2-0.4.4/src/repo.rs\") line 1843","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"<revwalk::Revwalk<'repo> as util::Binding>::from_raw","from_trait":true,"arguments":[{"type_info":"type(*mut raw::git_revwalk)","kind":"RawPointer"}],"sources":[]}
+{"name":"<signature::Signature<'a> as util::Binding>::from_raw","from_trait":true,"arguments":[{"type_info":"type(*mut raw::git_signature)","kind":"RawPointer"}],"sources":[]}
+{"name":"signature::from_raw_const","from_trait":false,"arguments":[{"type_info":"type(*const raw::git_signature)","kind":"RawPointer"}],"sources":[]}
+{"name":"status::StatusOptions::raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<status::Statuses<'repo> as util::Binding>::from_raw","from_trait":true,"arguments":[{"type_info":"type(*mut raw::git_status_list)","kind":"RawPointer"}],"sources":[]}
+{"name":"<status::StatusEntry<'statuses> as util::Binding>::from_raw","from_trait":true,"arguments":[{"type_info":"type(*const raw::git_status_entry)","kind":"RawPointer"}],"sources":[]}
+{"name":"<submodule::Submodule<'repo> as util::Binding>::from_raw","from_trait":true,"arguments":[{"type_info":"type(*mut raw::git_submodule)","kind":"RawPointer"}],"sources":[]}
+{"name":"<tag::Tag<'repo> as util::Binding>::from_raw","from_trait":true,"arguments":[{"type_info":"type(*mut raw::git_tag)","kind":"RawPointer"}],"sources":[]}
+{"name":"<time::Time as util::Binding>::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<time::IndexTime as util::Binding>::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<tree::Tree<'repo> as util::Binding>::from_raw","from_trait":true,"arguments":[{"type_info":"type(*mut raw::git_tree)","kind":"RawPointer"}],"sources":[]}
+{"name":"tree::entry_from_raw_const","from_trait":false,"arguments":[{"type_info":"type(*const raw::git_tree_entry)","kind":"RawPointer"}],"sources":[]}
+{"name":"<tree::TreeEntry<'a> as util::Binding>::from_raw","from_trait":true,"arguments":[{"type_info":"type(*mut raw::git_tree_entry)","kind":"RawPointer"}],"sources":[]}
+{"name":"<treebuilder::TreeBuilder<'repo> as util::Binding>::from_raw","from_trait":true,"arguments":[{"type_info":"type(*mut raw::git_treebuilder)","kind":"RawPointer"}],"sources":[]}
+{"name":"opt_bytes","from_trait":false,"arguments":[{"type_info":"type(*const libc::c_char)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/git2-0.4.4/src/lib.rs\") line 541","kind":{"UnsafeFnCall":"Rust"}}]}

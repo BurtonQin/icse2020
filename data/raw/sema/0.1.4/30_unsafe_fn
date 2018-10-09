@@ -1,0 +1,1 @@
+{"name":"<std::sync::atomic::AtomicUsize as sys::os::AsPointer<usize>>::as_ptr","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/sys.rs\") line 109","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}

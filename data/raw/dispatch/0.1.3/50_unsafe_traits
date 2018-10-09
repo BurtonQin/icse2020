@@ -1,0 +1,5 @@
+{"name":"<Queue as std::marker::Sync>"}
+{"name":"<Queue as std::marker::Send>"}
+{"name":"<Group as std::marker::Sync>"}
+{"name":"<Group as std::marker::Send>"}
+{"name":"<Once as std::marker::Sync>"}

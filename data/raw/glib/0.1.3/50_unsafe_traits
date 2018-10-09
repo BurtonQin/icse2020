@@ -1,0 +1,7 @@
+{"name":"<bytes::Bytes as std::marker::Send>"}
+{"name":"<bytes::Bytes as std::marker::Sync>"}
+{"name":"<variant::Variant as std::marker::Send>"}
+{"name":"<variant::Variant as std::marker::Sync>"}
+{"name":"<variant_type::VariantType as std::marker::Send>"}
+{"name":"<variant_type::VariantType as std::marker::Sync>"}
+{"name":"<variant_type::VariantTy as std::marker::Sync>"}

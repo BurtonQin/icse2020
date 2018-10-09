@@ -1,0 +1,4 @@
+{"name":"file_type","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 91","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"file_type_from_name","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 95","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"Bitmap::scanline_unsafe","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 223","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"Bitmap::scanline_unsafe_mut","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 227","kind":{"UnsafeFnCall":"C"}}]}

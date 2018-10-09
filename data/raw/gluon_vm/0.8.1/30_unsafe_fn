@@ -1,0 +1,44 @@
+{"name":"api::ValueRef::rooted_new","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/api/mod.rs\") line 95","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/api/mod.rs\") line 96","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/api/mod.rs\") line 98","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/api/mod.rs\") line 99","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/api/mod.rs\") line 100","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/api/mod.rs\") line 101","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"api::primitive_f","from_trait":false,"arguments":[],"sources":[]}
+{"name":"<api::Generic<T>>::get_value","from_trait":true,"arguments":[],"sources":[]}
+{"name":"api::Pushable::marshal_unrooted","from_trait":false,"arguments":[],"sources":[]}
+{"name":"api::Getable::from_value_unsafe","from_trait":false,"arguments":[],"sources":[]}
+{"name":"<&'vm T as api::Getable<'vm>>::from_value_unsafe","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/api/mod.rs\") line 579","kind":"DerefRawPointer"}]}
+{"name":"<&'vm str as api::Getable<'vm>>::from_value_unsafe","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/api/mod.rs\") line 590","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<api::WithVM<'vm, T> as api::Getable<'vm>>::from_value_unsafe","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/api/mod.rs\") line 636","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<&'s [T] as api::Getable<'vm>>::from_value_unsafe","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/api/mod.rs\") line 883","kind":"DerefRawPointer"}]}
+{"name":"<api::OpaqueValue<T, V>>::get_value","from_trait":true,"arguments":[],"sources":[]}
+{"name":"api::CPrimitive::new","from_trait":true,"arguments":[],"sources":[]}
+{"name":"gc::allocate","from_trait":false,"arguments":[],"sources":[]}
+{"name":"gc::deallocate","from_trait":false,"arguments":[{"type_info":"type(*mut u8)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/gc.rs\") line 45","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<gc::WriteOnly<'s, T>>::new","from_trait":true,"arguments":[{"type_info":"type(*mut T)","kind":"RawPointer"}],"sources":[]}
+{"name":"<T as gc::FromPtr<D>>::make_ptr","from_trait":true,"arguments":[{"type_info":"type(*mut ())","kind":"RawPointer"}],"sources":[]}
+{"name":"<[T] as gc::FromPtr<&'s &'t [T]>>::make_ptr","from_trait":true,"arguments":[{"type_info":"type(*mut ())","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/gc.rs\") line 188","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<gc::GcPtr<T>>::as_mut","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/gc.rs\") line 399","kind":"DerefRawPointer"}]}
+{"name":"<gc::GcPtr<T>>::from_raw","from_trait":true,"arguments":[{"type_info":"type(*const T)","kind":"RawPointer"}],"sources":[]}
+{"name":"gc::Gc::alloc_and_collect","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/gc.rs\") line 657","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"gc::Gc::alloc_ignore_limit_::drop","from_trait":false,"arguments":[{"type_info":"type(*mut ())","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/gc.rs\") line 731","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"gc::Gc::check_collect","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/gc.rs\") line 756","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"gc::Gc::collect","from_trait":true,"arguments":[],"sources":[]}
+{"name":"gc::Gc::sweep","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<(dyn macros::Macro + 'static)>::downcast_ref_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Macros(\"mopafy\") line 20","kind":{"UnsafeFnCall":"RustIntrinsic"}},{"loc":"file: Macros(\"mopafy\") line 21","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"<(dyn macros::Macro + 'static)>::downcast_mut_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Macros(\"mopafy\") line 34","kind":{"UnsafeFnCall":"RustIntrinsic"}},{"loc":"file: Macros(\"mopafy\") line 35","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"<(dyn macros::Macro + 'static)>::downcast_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Macros(\"mopafy\") line 52","kind":{"UnsafeFnCall":"RustIntrinsic"}},{"loc":"file: Macros(\"mopafy\") line 53","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"thread::Roots::mark_child_roots","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/thread.rs\") line 287","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"thread::RootedThread::from_raw","from_trait":true,"arguments":[{"type_info":"type(*const Thread)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/thread.rs\") line 478","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"thread::Context::return_future","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<array::Array<T>>::set_len","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<array::Array<T>>::initialize","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<(dyn value::Userdata + 'static)>::downcast_ref_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Macros(\"mopafy\") line 20","kind":{"UnsafeFnCall":"RustIntrinsic"}},{"loc":"file: Macros(\"mopafy\") line 21","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"<(dyn value::Userdata + 'static)>::downcast_mut_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Macros(\"mopafy\") line 34","kind":{"UnsafeFnCall":"RustIntrinsic"}},{"loc":"file: Macros(\"mopafy\") line 35","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"<(dyn value::Userdata + 'static)>::downcast_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Macros(\"mopafy\") line 52","kind":{"UnsafeFnCall":"RustIntrinsic"}},{"loc":"file: Macros(\"mopafy\") line 53","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"value::gc_str::GcStr::from_utf8_unchecked","from_trait":true,"arguments":[],"sources":[]}
+{"name":"value::ValueArray::set_repr","from_trait":true,"arguments":[],"sources":[]}
+{"name":"value::ValueArray::initialize","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/value.rs\") line 1098","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/value.rs\") line 1095","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/value.rs\") line 1095","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/value.rs\") line 1095","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/value.rs\") line 1095","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/value.rs\") line 1095","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/value.rs\") line 1095","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/value.rs\") line 1095","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/value.rs\") line 1095","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/value.rs\") line 1095","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/value.rs\") line 1095","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/value.rs\") line 1095","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/value.rs\") line 1095","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/value.rs\") line 1095","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/value.rs\") line 1095","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/value.rs\") line 1098","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"value::ValueArray::unsafe_get","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/value.rs\") line 1120","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"value::ValueArray::unsafe_array","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/value.rs\") line 1124","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"value::ValueArray::unsafe_array_mut","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/value.rs\") line 1128","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"value::Cloner::deep_clone_array::deep_clone_elems","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/value.rs\") line 1321","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/value.rs\") line 1321","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"forget_lifetime","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 83","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"Variants::new","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 93","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"Variants::with_root","from_trait":true,"arguments":[],"sources":[]}

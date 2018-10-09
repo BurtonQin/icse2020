@@ -1,0 +1,14 @@
+{"name":"sgdata::SgData::iter_slices","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/sgdata.rs\") line 54","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"sgdata::SgData::clone_into","from_trait":true,"arguments":[{"type_info":"type(*mut iovec)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/sgdata.rs\") line 76","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"sgdata::SgData::drain_into","from_trait":true,"arguments":[{"type_info":"type(*const iovec)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/sgdata.rs\") line 86","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"sgdata::SgData::clone_masked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/sgdata.rs\") line 99","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"sglist::SgList::index_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/sglist.rs\") line 36","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/sglist.rs\") line 36","kind":"DerefRawPointer"}]}
+{"name":"sglist::SgList::iter","from_trait":true,"arguments":[],"sources":[]}
+{"name":"sglist::SgList::iter_slices","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/sglist.rs\") line 46","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"sglist::SgList::iter_slices_mut","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/sglist.rs\") line 51","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"sglist::SgList::iter_range","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/sglist.rs\") line 59","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"sglist::SgList::iter_slices_range","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/sglist.rs\") line 69","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"sglist::SgList::iter_slices_range_mut","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/sglist.rs\") line 76","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"sglist::SgList::iter_masked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/sglist.rs\") line 85","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"sglist::iovec_as_slice","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/sglist.rs\") line 116","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"sglist::iovec_as_slice_mut","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/sglist.rs\") line 123","kind":{"UnsafeFnCall":"Rust"}}]}

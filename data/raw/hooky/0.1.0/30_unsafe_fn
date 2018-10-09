@@ -1,0 +1,4 @@
+{"name":"common::HOOK_LOCK::__getit","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__thread_local_inner\") line 16","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"dl::initialize_dlsym","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/dl.rs\") line 11","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"dl::initialize_dlvsym","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/dl.rs\") line 15","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"dl::initialize_libc_dlsym","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/dl.rs\") line 19","kind":{"UnsafeFnCall":"C"}}]}

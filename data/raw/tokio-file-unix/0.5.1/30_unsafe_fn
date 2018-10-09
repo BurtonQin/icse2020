@@ -1,0 +1,1 @@
+{"name":"dupe_file_from_fd","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 25","kind":{"UnsafeFnCall":"C"}},{"loc":"file: Real(\"src/lib.rs\") line 29","kind":{"UnsafeFnCall":"Rust"}}]}

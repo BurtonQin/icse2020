@@ -1,0 +1,16 @@
+{"name":"x86::inb","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/unsafe_analysis/crates.io-downloads/cpuio/src/x86.rs\") line 8","kind":"Asm"}]}
+{"name":"x86::outb","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/unsafe_analysis/crates.io-downloads/cpuio/src/x86.rs\") line 14","kind":"Asm"}]}
+{"name":"x86::inw","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/unsafe_analysis/crates.io-downloads/cpuio/src/x86.rs\") line 20","kind":"Asm"}]}
+{"name":"x86::outw","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/unsafe_analysis/crates.io-downloads/cpuio/src/x86.rs\") line 26","kind":"Asm"}]}
+{"name":"x86::inl","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/unsafe_analysis/crates.io-downloads/cpuio/src/x86.rs\") line 32","kind":"Asm"}]}
+{"name":"x86::outl","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/unsafe_analysis/crates.io-downloads/cpuio/src/x86.rs\") line 38","kind":"Asm"}]}
+{"name":"<u8 as InOut>::port_in","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/unsafe_analysis/crates.io-downloads/cpuio/src/lib.rs\") line 29","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<u8 as InOut>::port_out","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/unsafe_analysis/crates.io-downloads/cpuio/src/lib.rs\") line 30","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<u16 as InOut>::port_in","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/unsafe_analysis/crates.io-downloads/cpuio/src/lib.rs\") line 34","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<u16 as InOut>::port_out","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/unsafe_analysis/crates.io-downloads/cpuio/src/lib.rs\") line 35","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<u32 as InOut>::port_in","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/unsafe_analysis/crates.io-downloads/cpuio/src/lib.rs\") line 39","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<u32 as InOut>::port_out","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/unsafe_analysis/crates.io-downloads/cpuio/src/lib.rs\") line 40","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<Port<T>>::new","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<UnsafePort<T>>::new","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<UnsafePort<T>>::read","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/unsafe_analysis/crates.io-downloads/cpuio/src/lib.rs\") line 97","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<UnsafePort<T>>::write","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/unsafe_analysis/crates.io-downloads/cpuio/src/lib.rs\") line 102","kind":{"UnsafeFnCall":"Rust"}}]}

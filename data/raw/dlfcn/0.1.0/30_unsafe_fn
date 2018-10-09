@@ -1,0 +1,3 @@
+{"name":"dynlib::Library::handle","from_trait":true,"arguments":[],"sources":[]}
+{"name":"dynlib::Library::table","from_trait":true,"arguments":[],"sources":[]}
+{"name":"dynlib::Library::new","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/dynlib.rs\") line 88","kind":{"UnsafeFnCall":"C"}}]}

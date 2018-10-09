@@ -1,0 +1,48 @@
+{"name":"webcore::value::Reference::from_raw_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/stdweb-0.2.2/src/webcore/macros.rs\") line 48","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"webcore::value::FromReferenceUnchecked::from_value_unchecked","from_trait":false,"arguments":[],"sources":[]}
+{"name":"<webcore::value::Reference as webcore::value::FromReferenceUnchecked>::from_reference_unchecked","from_trait":true,"arguments":[],"sources":[]}
+{"name":"webcore::value::Value::into_reference_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/stdweb-0.2.2/src/webcore/value.rs\") line 253","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"webcore::ffi::emscripten::dealloc","from_trait":false,"arguments":[{"type_info":"type(*mut u8)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/stdweb-0.2.2/src/webcore/ffi/emscripten.rs\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"<webcore::object::Object as webcore::value::FromReferenceUnchecked>::from_reference_unchecked","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<webcore::array::Array as webcore::value::FromReferenceUnchecked>::from_reference_unchecked","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<webapi::document::Document as webcore::value::FromReferenceUnchecked>::from_reference_unchecked","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<webapi::window::Window as webcore::value::FromReferenceUnchecked>::from_reference_unchecked","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<webapi::event::Event as webcore::value::FromReferenceUnchecked>::from_reference_unchecked","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<webapi::event::ChangeEvent as webcore::value::FromReferenceUnchecked>::from_reference_unchecked","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<webapi::event::InputEvent as webcore::value::FromReferenceUnchecked>::from_reference_unchecked","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<webapi::event::UiEvent as webcore::value::FromReferenceUnchecked>::from_reference_unchecked","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<webapi::event::LoadEvent as webcore::value::FromReferenceUnchecked>::from_reference_unchecked","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<webapi::event::MouseEvent as webcore::value::FromReferenceUnchecked>::from_reference_unchecked","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<webapi::event::ClickEvent as webcore::value::FromReferenceUnchecked>::from_reference_unchecked","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<webapi::event::DoubleClickEvent as webcore::value::FromReferenceUnchecked>::from_reference_unchecked","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<webapi::event::KeyboardEvent as webcore::value::FromReferenceUnchecked>::from_reference_unchecked","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<webapi::event::KeypressEvent as webcore::value::FromReferenceUnchecked>::from_reference_unchecked","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<webapi::event::FocusRelatedEvent as webcore::value::FromReferenceUnchecked>::from_reference_unchecked","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<webapi::event::FocusEvent as webcore::value::FromReferenceUnchecked>::from_reference_unchecked","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<webapi::event::BlurEvent as webcore::value::FromReferenceUnchecked>::from_reference_unchecked","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<webapi::event::HashChangeEvent as webcore::value::FromReferenceUnchecked>::from_reference_unchecked","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<webapi::event::ProgressRelatedEvent as webcore::value::FromReferenceUnchecked>::from_reference_unchecked","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<webapi::event::ProgressEvent as webcore::value::FromReferenceUnchecked>::from_reference_unchecked","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<webapi::event::LoadStartEvent as webcore::value::FromReferenceUnchecked>::from_reference_unchecked","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<webapi::event::LoadEndEvent as webcore::value::FromReferenceUnchecked>::from_reference_unchecked","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<webapi::event::AbortEvent as webcore::value::FromReferenceUnchecked>::from_reference_unchecked","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<webapi::event::ErrorEvent as webcore::value::FromReferenceUnchecked>::from_reference_unchecked","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<webapi::event_target::EventTarget as webcore::value::FromReferenceUnchecked>::from_reference_unchecked","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<webapi::node::Node as webcore::value::FromReferenceUnchecked>::from_reference_unchecked","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<webapi::element::Element as webcore::value::FromReferenceUnchecked>::from_reference_unchecked","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<webapi::html_element::HtmlElement as webcore::value::FromReferenceUnchecked>::from_reference_unchecked","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<webapi::html_elements::image::ImageElement as webcore::value::FromReferenceUnchecked>::from_reference_unchecked","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<webapi::html_elements::input::InputElement as webcore::value::FromReferenceUnchecked>::from_reference_unchecked","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<webapi::token_list::TokenList as webcore::value::FromReferenceUnchecked>::from_reference_unchecked","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<webapi::text_node::TextNode as webcore::value::FromReferenceUnchecked>::from_reference_unchecked","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<webapi::node_list::NodeList as webcore::value::FromReferenceUnchecked>::from_reference_unchecked","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<webapi::string_map::StringMap as webcore::value::FromReferenceUnchecked>::from_reference_unchecked","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<webapi::location::Location as webcore::value::FromReferenceUnchecked>::from_reference_unchecked","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<webapi::storage::Storage as webcore::value::FromReferenceUnchecked>::from_reference_unchecked","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<webapi::blob::Blob as webcore::value::FromReferenceUnchecked>::from_reference_unchecked","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<webapi::file::File as webcore::value::FromReferenceUnchecked>::from_reference_unchecked","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<webapi::file_list::FileList as webcore::value::FromReferenceUnchecked>::from_reference_unchecked","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<webapi::file_reader::FileReader as webcore::value::FromReferenceUnchecked>::from_reference_unchecked","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<webapi::array_buffer::ArrayBuffer as webcore::value::FromReferenceUnchecked>::from_reference_unchecked","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<u8 as webapi::typed_array::ArrayKind>::into_typed_array_no_copy","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/stdweb-0.2.2/src/webcore/macros.rs\") line 48","kind":{"UnsafeFnCall":"C"}},{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/stdweb-0.2.2/src/webapi/typed_array.rs\") line 41","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<webapi::typed_array::TypedArray<T> as webcore::value::FromReferenceUnchecked>::from_reference_unchecked","from_trait":true,"arguments":[],"sources":[]}

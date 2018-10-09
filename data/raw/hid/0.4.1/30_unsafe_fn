@@ -1,0 +1,8 @@
+{"name":"devices::Devices::new","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/hid-0.4.1/src/devices.rs\") line 17","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"device::Device::new","from_trait":true,"arguments":[{"type_info":"type(*const hid_device_info)","kind":"RawPointer"}],"sources":[]}
+{"name":"device::to_string","from_trait":false,"arguments":[{"type_info":"type(*const wchar_t)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/hid-0.4.1/src/device.rs\") line 115","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"handle::Handle::new","from_trait":true,"arguments":[{"type_info":"type(*mut hid_device)","kind":"RawPointer"}],"sources":[]}
+{"name":"handle::Handle::as_ptr","from_trait":true,"arguments":[],"sources":[]}
+{"name":"handle::Handle::as_mut_ptr","from_trait":true,"arguments":[],"sources":[]}
+{"name":"handle::Data::new","from_trait":true,"arguments":[],"sources":[]}
+{"name":"handle::Feature::new","from_trait":true,"arguments":[],"sources":[]}

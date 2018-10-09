@@ -1,0 +1,3 @@
+{"name":"<ms_queue::MsQueue<T> as std::marker::Sync>"}
+{"name":"<ms_queue::MsQueue<T> as std::marker::Send>"}
+{"name":"<seg_queue::Segment<T> as std::marker::Sync>"}

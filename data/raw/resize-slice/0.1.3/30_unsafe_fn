@@ -1,0 +1,2 @@
+{"name":"<std::vec::Vec<T> as VecExt<T>>::uninitialized_resize","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 136","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<std::vec::Vec<T> as VecExt<T>>::zeroed_resize","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 141","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/lib.rs\") line 143","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}

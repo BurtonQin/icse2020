@@ -1,0 +1,8 @@
+{"name":"ethernet::EthernetPacket::new_unchecked","from_trait":true,"arguments":[],"sources":[]}
+{"name":"ethernet::MutEthernetPacket::new_unchecked","from_trait":true,"arguments":[],"sources":[]}
+{"name":"arp::ArpPacket::new_unchecked","from_trait":true,"arguments":[],"sources":[]}
+{"name":"arp::MutArpPacket::new_unchecked","from_trait":true,"arguments":[],"sources":[]}
+{"name":"ipv4::Ipv4Packet::new_unchecked","from_trait":true,"arguments":[],"sources":[]}
+{"name":"ipv4::MutIpv4Packet::new_unchecked","from_trait":true,"arguments":[],"sources":[]}
+{"name":"ipv6::Ipv6Packet::new_unchecked","from_trait":true,"arguments":[],"sources":[]}
+{"name":"ipv6::MutIpv6Packet::new_unchecked","from_trait":true,"arguments":[],"sources":[]}

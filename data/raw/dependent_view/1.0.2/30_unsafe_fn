@@ -1,0 +1,2 @@
+{"name":"<rc::DependentRc<T>>::into_view_internal","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/rc.rs\") line 94","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"<arc::DependentArc<T>>::into_view_internal_sync","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/arc.rs\") line 173","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}

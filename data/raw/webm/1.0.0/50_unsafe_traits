@@ -1,0 +1,4 @@
+{"name":"<mux::Writer<T> as std::marker::Send>"}
+{"name":"<mux::VideoTrack as std::marker::Send>"}
+{"name":"<mux::AudioTrack as std::marker::Send>"}
+{"name":"<mux::Segment<W> as std::marker::Send>"}

@@ -1,0 +1,30 @@
+{"sources":[["60",[{"loc":"file: Real(\"src/sys/dlsym.rs\") line 30","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/sys/dlsym.rs\") line 35","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["218",[{"loc":"file: Real(\"src/sys/epoll.rs\") line 52","kind":{"UnsafeFnCall":"C"}},{"loc":"file: Real(\"src/sys/epoll.rs\") line 49","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["314",[{"loc":"file: Real(\"src/sys/epoll.rs\") line 80","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/sys/epoll.rs\") line 82","kind":{"UnsafeFnCall":"C"}},{"loc":"file: Real(\"src/sys/epoll.rs\") line 90","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["409",[{"loc":"file: Real(\"src/sys/epoll.rs\") line 111","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["458",[{"loc":"file: Real(\"src/sys/epoll.rs\") line 124","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["491",[{"loc":"file: Real(\"src/sys/epoll.rs\") line 140","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["591",[{"loc":"file: Real(\"src/sys/epoll.rs\") line 185","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["1223",[{"loc":"file: Real(\"src/sys/io.rs\") line 14","kind":{"UnsafeFnCall":"C"}},{"loc":"file: Real(\"src/sys/io.rs\") line 15","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["1254",[{"loc":"file: Real(\"src/sys/io.rs\") line 21","kind":{"UnsafeFnCall":"C"}},{"loc":"file: Real(\"src/sys/io.rs\") line 22","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["1790",[{"loc":"file: Real(\"src/sys/tcp.rs\") line 84","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["1851",[{"loc":"file: Real(\"src/sys/tcp.rs\") line 99","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["2980",[{"loc":"file: Real(\"src/sys/iovec.rs\") line 10","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["3000",[{"loc":"file: Real(\"src/sys/iovec.rs\") line 14","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["3016",[{"loc":"file: Real(\"src/sys/iovec.rs\") line 19","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["3033",[{"loc":"file: Real(\"src/sys/iovec.rs\") line 25","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["3058",[{"loc":"file: Real(\"src/sys/iovec.rs\") line 32","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["3096",[{"loc":"file: Real(\"src/sys/iovec.rs\") line 40","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["3131",[{"loc":"file: Real(\"src/sys/iovec.rs\") line 51","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["3190",[{"loc":"file: Real(\"src/sys/mod.rs\") line 48","kind":{"UnsafeFnCall":"C"}},{"loc":"file: Real(\"src/sys/mod.rs\") line 51","kind":{"UnsafeFnCall":"C"}},{"loc":"file: Real(\"src/sys/mod.rs\") line 52","kind":{"UnsafeFnCall":"C"}},{"loc":"file: Real(\"src/sys/mod.rs\") line 53","kind":{"UnsafeFnCall":"C"}}]],["3231",[{"loc":"file: Real(\"src/sys/mod.rs\") line 59","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/sys/mod.rs\") line 59","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["4998",[{"loc":"file: Real(\"src/iovec.rs\") line 40","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["5030",[{"loc":"file: Real(\"src/iovec.rs\") line 48","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["7014",[{"loc":"file: Real(\"src/registration.rs\") line 363","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["7343",[{"loc":"file: Real(\"src/registration.rs\") line 575","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["7410",[{"loc":"file: Macros(\"assert_eq\") line 3","kind":"DerefRawPointer"}]],["7450",[{"loc":"file: Real(\"src/registration.rs\") line 646","kind":{"UnsafeFnCall":"Rust"}}]],["7470",[{"loc":"file: Real(\"src/registration.rs\") line 665","kind":"DerefRawPointer"}]],["7480",[{"loc":"file: Real(\"src/registration.rs\") line 666","kind":"DerefRawPointer"}]],["7490",[{"loc":"file: Real(\"src/registration.rs\") line 667","kind":"DerefRawPointer"}]]]}
+{"sources":[["7577",[{"loc":"file: Real(\"src/registration.rs\") line 730","kind":"DerefRawPointer"}]]]}
+{"sources":[["7707",[{"loc":"file: Real(\"src/registration.rs\") line 812","kind":{"UnsafeFnCall":"Rust"}}]],["7722",[{"loc":"file: Real(\"src/registration.rs\") line 817","kind":"DerefRawPointer"}]],["7828",[{"loc":"file: Real(\"src/registration.rs\") line 889","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["7863",[{"loc":"file: Real(\"src/registration.rs\") line 904","kind":"DerefRawPointer"}]],["12410",[{"loc":"file: Real(\"src/registration.rs\") line 933","kind":"DerefRawPointer"}]],["7914",[{"loc":"file: Real(\"src/registration.rs\") line 938","kind":"DerefRawPointer"}]]]}
+{"sources":[["7946",[{"loc":"file: Real(\"src/registration.rs\") line 950","kind":{"UnsafeFnCall":"Rust"}}]],["7965",[{"loc":"file: Real(\"src/registration.rs\") line 961","kind":"DerefRawPointer"}]]]}
+{"sources":[["8046",[{"loc":"file: Real(\"src/registration.rs\") line 1026","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/registration.rs\") line 1028","kind":"DerefRawPointer"}]]]}
+{"sources":[["8420",[{"loc":"file: Real(\"src/registration.rs\") line 1146","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["8468",[{"loc":"file: Real(\"src/registration.rs\") line 1163","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/registration.rs\") line 1167","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/registration.rs\") line 1176","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}

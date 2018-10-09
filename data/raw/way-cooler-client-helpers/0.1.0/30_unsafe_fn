@@ -1,0 +1,1 @@
+{"name":"<wayland::resolution::Resolution as wayland_client::Handler<wayland_client::client::wl_output::WlOutput>>::message","from_trait":true,"arguments":[{"type_info":"type(*const ::sys::wl_argument)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"client_declare_handler\") line 22","kind":{"UnsafeFnCall":"Rust"}}]}

@@ -1,0 +1,7 @@
+{"sources":[["672",[{"loc":"file: Real(\"src/vpx.rs\") line 18","kind":{"UnsafeFnCall":"C"}}]],["680",[{"loc":"file: Real(\"src/vpx.rs\") line 24","kind":{"UnsafeFnCall":"C"}}]],["731",[{"loc":"file: Real(\"src/vpx.rs\") line 37","kind":{"UnsafeFnCall":"C"}},{"loc":"file: Real(\"src/vpx.rs\") line 38","kind":{"UnsafeFnCall":"C"}},{"loc":"file: Real(\"src/vpx.rs\") line 39","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["792",[{"loc":"file: Real(\"src/vpx.rs\") line 54","kind":{"UnsafeFnCall":"C"}}]],["812",[{"loc":"file: Real(\"src/vpx.rs\") line 65","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["838",[{"loc":"file: Real(\"src/vpx.rs\") line 83","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["867",[{"loc":"file: Real(\"src/vpx.rs\") line 103","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["906",[{"loc":"file: Real(\"src/vpx.rs\") line 140","kind":{"UnsafeFnCall":"C"}},{"loc":"file: Real(\"src/vpx.rs\") line 144","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/vpx.rs\") line 145","kind":"AccessToUnionField"},{"loc":"file: Real(\"src/vpx.rs\") line 145","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/vpx.rs\") line 147","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["1002",[{"loc":"file: Real(\"src/vpx.rs\") line 176","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["1097",[{"loc":"file: Macros(\"vec\") line 3","kind":{"UnsafeFnCall":"Rust"}}]]]}

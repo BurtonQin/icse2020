@@ -1,0 +1,19 @@
+{"name":"types::from_ptr","from_trait":false,"arguments":[{"type_info":"type(*mut gccjit_sys::gcc_jit_type)","kind":"RawPointer"}],"sources":[]}
+{"name":"types::get_ptr","from_trait":false,"arguments":[],"sources":[]}
+{"name":"context::get_ptr","from_trait":false,"arguments":[],"sources":[]}
+{"name":"object::from_ptr","from_trait":false,"arguments":[{"type_info":"type(*mut gccjit_sys::gcc_jit_object)","kind":"RawPointer"}],"sources":[]}
+{"name":"object::get_ptr","from_trait":false,"arguments":[],"sources":[]}
+{"name":"location::from_ptr","from_trait":false,"arguments":[{"type_info":"type(*mut gccjit_sys::gcc_jit_location)","kind":"RawPointer"}],"sources":[]}
+{"name":"location::get_ptr","from_trait":false,"arguments":[],"sources":[]}
+{"name":"field::from_ptr","from_trait":false,"arguments":[{"type_info":"type(*mut gccjit_sys::gcc_jit_field)","kind":"RawPointer"}],"sources":[]}
+{"name":"field::get_ptr","from_trait":false,"arguments":[],"sources":[]}
+{"name":"structs::from_ptr","from_trait":false,"arguments":[{"type_info":"type(*mut gccjit_sys::gcc_jit_struct)","kind":"RawPointer"}],"sources":[]}
+{"name":"lvalue::from_ptr","from_trait":false,"arguments":[{"type_info":"type(*mut gccjit_sys::gcc_jit_lvalue)","kind":"RawPointer"}],"sources":[]}
+{"name":"lvalue::get_ptr","from_trait":false,"arguments":[],"sources":[]}
+{"name":"rvalue::from_ptr","from_trait":false,"arguments":[{"type_info":"type(*mut gccjit_sys::gcc_jit_rvalue)","kind":"RawPointer"}],"sources":[]}
+{"name":"rvalue::get_ptr","from_trait":false,"arguments":[],"sources":[]}
+{"name":"parameter::from_ptr","from_trait":false,"arguments":[{"type_info":"type(*mut gccjit_sys::gcc_jit_param)","kind":"RawPointer"}],"sources":[]}
+{"name":"parameter::get_ptr","from_trait":false,"arguments":[],"sources":[]}
+{"name":"function::from_ptr","from_trait":false,"arguments":[{"type_info":"type(*mut gccjit_sys::gcc_jit_function)","kind":"RawPointer"}],"sources":[]}
+{"name":"function::get_ptr","from_trait":false,"arguments":[],"sources":[]}
+{"name":"block::from_ptr","from_trait":false,"arguments":[{"type_info":"type(*mut gccjit_sys::gcc_jit_block)","kind":"RawPointer"}],"sources":[]}

@@ -1,0 +1,11 @@
+{"name":"ioctls::i2c_retries","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 375","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"ioctls::i2c_timeout","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 379","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"ioctls::i2c_slave","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 383","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"ioctls::i2c_slave_force","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 387","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"ioctls::i2c_tenbit","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 391","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"ioctls::i2c_funcs","from_trait":false,"arguments":[{"type_info":"type(*mut c_ulong)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 395","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"ioctls::i2c_rdwr","from_trait":false,"arguments":[{"type_info":"type(*mut super::i2c_rdwr_ioctl_data)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 399","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"ioctls::i2c_pec","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 403","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"ioctls::i2c_smbus","from_trait":false,"arguments":[{"type_info":"type(*mut super::i2c_smbus_ioctl_data)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 407","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"i2c_rdwr","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 472","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"i2c_smbus","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 478","kind":{"UnsafeFnCall":"Rust"}}]}

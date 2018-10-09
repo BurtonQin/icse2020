@@ -1,0 +1,3 @@
+{"name":"square::File::from_index_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/shakmaty-0.11.0/src/square.rs\") line 69","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"square::Rank::from_index_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/shakmaty-0.11.0/src/square.rs\") line 167","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"square::Square::from_index_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/shakmaty-0.11.0/src/square.rs\") line 285","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}

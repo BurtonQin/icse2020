@@ -1,0 +1,5 @@
+{"name":"Bulletproof::new","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 86","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"Bulletproof::load_usize","from_trait":true,"arguments":[{"type_info":"type(*const usize)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 104","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/lib.rs\") line 105","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"Bulletproof::load","from_trait":true,"arguments":[{"type_info":"type(*const T)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 123","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/lib.rs\") line 125","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"Bulletproof::store_usize","from_trait":true,"arguments":[{"type_info":"type(*mut usize)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 147","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"Bulletproof::store","from_trait":true,"arguments":[{"type_info":"type(*mut T)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 165","kind":{"UnsafeFnCall":"C"}}]}

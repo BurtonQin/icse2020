@@ -1,0 +1,2 @@
+{"name":"parse::parse_many","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/parse.rs\") line 51","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<types::ZeroCopy<D>>::new","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/types/mod.rs\") line 42","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}

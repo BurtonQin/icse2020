@@ -1,0 +1,12 @@
+{"name":"world::ResourceCell::get_mut","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/world.rs\") line 35","kind":"DerefRawPointer"}]}
+{"name":"world::ResourceCell::get_as","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/world.rs\") line 40","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/world.rs\") line 41","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"world::ResourceCell::get_as_mut","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/world.rs\") line 46","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/world.rs\") line 47","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"world::World::get_resource","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/world.rs\") line 131","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"world::World::get_resource_mut","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/world.rs\") line 141","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"world::World::clean_deleted_entities","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/world.rs\") line 151","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<(dyn resource::Resource + 'static)>::downcast_ref_unsafe","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/resource.rs\") line 31","kind":"DerefRawPointer"}]}
+{"name":"<(dyn resource::Resource + 'static)>::downcast_mut_unsafe","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/resource.rs\") line 38","kind":"DerefRawPointer"}]}
+{"name":"<resource::MapStorage<T> as resource::ComponentResourceApi>::get_unchecked","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<resource::MapStorage<T> as resource::ComponentResourceApi>::get_unchecked_mut","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<resource::VecStorage<T> as resource::ComponentResourceApi>::get_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/resource.rs\") line 382","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<resource::VecStorage<T> as resource::ComponentResourceApi>::get_unchecked_mut","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/resource.rs\") line 395","kind":{"UnsafeFnCall":"Rust"}}]}

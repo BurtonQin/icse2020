@@ -1,0 +1,13 @@
+{"name":"<mozjs_sys::jsgc::Heap<*mut mozjs_sys::root::JSFunction> as rust::Trace>"}
+{"name":"<mozjs_sys::jsgc::Heap<*mut mozjs_sys::root::JSObject> as rust::Trace>"}
+{"name":"<mozjs_sys::jsgc::Heap<*mut mozjs_sys::root::JSScript> as rust::Trace>"}
+{"name":"<mozjs_sys::jsgc::Heap<*mut mozjs_sys::root::JSString> as rust::Trace>"}
+{"name":"<mozjs_sys::jsgc::Heap<mozjs_sys::root::JS::Value> as rust::Trace>"}
+{"name":"<mozjs_sys::jsgc::Heap<mozjs_sys::root::jsid> as rust::Trace>"}
+{"name":"<*mut mozjs_sys::root::JSObject as rust::CustomTrace>"}
+{"name":"<mozjs_sys::root::JS::Value as rust::CustomTrace>"}
+{"name":"<std::option::Option<T> as rust::CustomTrace>"}
+{"name":"<std::vec::Vec<T> as rust::CustomTrace>"}
+{"name":"<rust::CustomAutoRooter<T> as rust::CustomAutoTraceable>"}
+{"name":"<glue::ProxyTraps as std::marker::Sync>"}
+{"name":"<typedarray::TypedArray<T, *mut mozjs_sys::root::JSObject> as rust::CustomTrace>"}

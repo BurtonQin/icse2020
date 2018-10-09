@@ -1,0 +1,2 @@
+{"name":"<Arena<T>>::get_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 401","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/lib.rs\") line 402","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<Arena<T>>::get_unchecked_mut","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 426","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/lib.rs\") line 427","kind":{"UnsafeFnCall":"Rust"}}]}

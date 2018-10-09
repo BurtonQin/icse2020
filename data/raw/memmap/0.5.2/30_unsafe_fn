@@ -1,0 +1,8 @@
+{"name":"Mmap::as_slice","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/memmap-0.5.2/src/lib.rs\") line 245","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"Mmap::as_mut_slice","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/memmap-0.5.2/src/lib.rs\") line 254","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"MmapView::as_slice","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/memmap-0.5.2/src/lib.rs\") line 391","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"MmapView::as_mut_slice","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/memmap-0.5.2/src/lib.rs\") line 400","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"MmapView::clone","from_trait":true,"arguments":[],"sources":[]}
+{"name":"MmapViewSync::as_slice","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/memmap-0.5.2/src/lib.rs\") line 527","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"MmapViewSync::as_mut_slice","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/memmap-0.5.2/src/lib.rs\") line 536","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"MmapViewSync::clone","from_trait":true,"arguments":[],"sources":[]}

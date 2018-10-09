@@ -1,0 +1,30 @@
+{"name":"<u8 as instructions::port::PortReadWrite>::read_from_port","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/instructions/port.rs\") line 27","kind":"Asm"}]}
+{"name":"<u8 as instructions::port::PortReadWrite>::write_to_port","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/instructions/port.rs\") line 33","kind":"Asm"}]}
+{"name":"<u16 as instructions::port::PortReadWrite>::read_from_port","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/instructions/port.rs\") line 41","kind":"Asm"}]}
+{"name":"<u16 as instructions::port::PortReadWrite>::write_to_port","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/instructions/port.rs\") line 47","kind":"Asm"}]}
+{"name":"<u32 as instructions::port::PortReadWrite>::read_from_port","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/instructions/port.rs\") line 55","kind":"Asm"}]}
+{"name":"<u32 as instructions::port::PortReadWrite>::write_to_port","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/instructions/port.rs\") line 61","kind":"Asm"}]}
+{"name":"<instructions::port::Port<T>>::read","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/instructions/port.rs\") line 86","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<instructions::port::Port<T>>::write","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/instructions/port.rs\") line 95","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"instructions::segmentation::set_cs","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/instructions/segmentation.rs\") line 31","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"instructions::segmentation::set_cs::inner","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/instructions/segmentation.rs\") line 24","kind":"Asm"}]}
+{"name":"instructions::segmentation::load_ss","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/instructions/segmentation.rs\") line 36","kind":"Asm"}]}
+{"name":"instructions::segmentation::load_ds","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/instructions/segmentation.rs\") line 41","kind":"Asm"}]}
+{"name":"instructions::segmentation::load_es","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/instructions/segmentation.rs\") line 46","kind":"Asm"}]}
+{"name":"instructions::segmentation::load_fs","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/instructions/segmentation.rs\") line 51","kind":"Asm"}]}
+{"name":"instructions::segmentation::load_gs","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/instructions/segmentation.rs\") line 56","kind":"Asm"}]}
+{"name":"instructions::tables::lgdt","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/instructions/tables.rs\") line 17","kind":"Asm"}]}
+{"name":"instructions::tables::lidt","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/instructions/tables.rs\") line 22","kind":"Asm"}]}
+{"name":"instructions::tables::load_tss","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/instructions/tables.rs\") line 27","kind":"Asm"}]}
+{"name":"registers::control::Cr0::write","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/registers/control.rs\") line 35","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"registers::control::Cr0::write_raw","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/registers/control.rs\") line 43","kind":"Asm"}]}
+{"name":"registers::control::Cr0::update","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/registers/control.rs\") line 56","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"registers::control::Cr3::write","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/registers/control.rs\") line 117","kind":"Asm"}]}
+{"name":"registers::model_specific::Msr::read","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/registers/model_specific.rs\") line 15","kind":"Asm"}]}
+{"name":"registers::model_specific::Msr::write","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/registers/model_specific.rs\") line 23","kind":"Asm"}]}
+{"name":"registers::model_specific::Efer::write","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/registers/model_specific.rs\") line 53","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"registers::model_specific::Efer::write_raw","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/registers/model_specific.rs\") line 61","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"registers::model_specific::Efer::update","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/registers/model_specific.rs\") line 74","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"structures::idt::EntryOptions::set_stack_index","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structures::paging::recursive::RecursivePageTable::new_unchecked","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structures::paging::recursive::RecursivePageTable::create_next_table","from_trait":true,"arguments":[],"sources":[]}

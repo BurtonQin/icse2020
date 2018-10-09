@@ -1,0 +1,2 @@
+{"name":"try_new_box","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 301","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/lib.rs\") line 303","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/lib.rs\") line 306","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"new_box","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 314","kind":{"UnsafeFnCall":"Rust"}}]}

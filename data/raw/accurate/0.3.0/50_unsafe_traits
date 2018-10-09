@@ -1,0 +1,8 @@
+{"name":"<dot::naive::NaiveDot<F> as std::marker::Send>"}
+{"name":"<dot::dotk::Dot2<F> as std::marker::Send>"}
+{"name":"<dot::dotk::DotK<F, R> as std::marker::Send>"}
+{"name":"<dot::onlineexactdot::OnlineExactDot<F> as std::marker::Send>"}
+{"name":"<sum::naive::NaiveSum<F> as std::marker::Send>"}
+{"name":"<sum::sumk::Sum2<F> as std::marker::Send>"}
+{"name":"<sum::sumk::SumK<F, C> as std::marker::Send>"}
+{"name":"<sum::onlineexactsum::OnlineExactSum<F> as std::marker::Send>"}

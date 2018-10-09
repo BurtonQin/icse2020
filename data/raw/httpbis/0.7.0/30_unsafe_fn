@@ -1,0 +1,2 @@
+{"name":"common::atomic_box_option::into_raw","from_trait":false,"arguments":[],"sources":[]}
+{"name":"common::atomic_box_option::from_raw","from_trait":false,"arguments":[{"type_info":"type(*mut T)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/common/atomic_box_option.rs\") line 33","kind":{"UnsafeFnCall":"Rust"}}]}

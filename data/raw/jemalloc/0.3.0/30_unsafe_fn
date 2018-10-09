@@ -1,0 +1,5 @@
+{"name":"<Jemalloc as loca::Alloc>::alloc","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 58","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"<Jemalloc as loca::Alloc>::alloc_zeroed","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 64","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"<Jemalloc as loca::Alloc>::realloc","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 70","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"<Jemalloc as loca::Alloc>::dealloc","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 76","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"<Jemalloc as loca::Alloc>::resize_in_place","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 82","kind":{"UnsafeFnCall":"C"}}]}

@@ -1,0 +1,2 @@
+{"sources":[["264",[{"loc":"file: Real(\"src/lib.rs\") line 82","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["282",[{"loc":"file: Real(\"src/lib.rs\") line 87","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["153",[{"loc":"file: Real(\"src/lib.rs\") line 94","kind":"BorrowPacked"},{"loc":"file: Real(\"src/lib.rs\") line 115","kind":"BorrowPacked"}]]]}
+{"sources":[["384",[{"loc":"file: Macros(\"assert_eq\") line 3","kind":"BorrowPacked"},{"loc":"file: Macros(\"assert_eq\") line 3","kind":"BorrowPacked"}]]]}

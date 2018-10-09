@@ -1,0 +1,11 @@
+{"name":"<ds::lru::Lru as std::marker::Sync>"}
+{"name":"<io::iobuf::IoBuf as std::marker::Sync>"}
+{"name":"<io::log::Log as std::marker::Send>"}
+{"name":"<io::log::Log as std::marker::Sync>"}
+{"name":"<io::page_cache::PageGet<'a, P> as std::marker::Send>"}
+{"name":"<io::page_cache::PageGet<'a, P> as std::marker::Sync>"}
+{"name":"<io::page_cache::PageCache<PM, P, R> as std::marker::Send>"}
+{"name":"<config::ConfigBuilder as std::marker::Send>"}
+{"name":"<config::Config as std::marker::Send>"}
+{"name":"<config::Config as std::marker::Sync>"}
+{"name":"<RayonPagePtr<'g, P> as std::marker::Send>"}

@@ -1,0 +1,15 @@
+{"name":"<std::boxed::Box<T> as StableDeref>"}
+{"name":"<std::vec::Vec<T> as StableDeref>"}
+{"name":"<std::string::String as StableDeref>"}
+{"name":"<std::rc::Rc<T> as StableDeref>"}
+{"name":"<std::rc::Rc<T> as CloneStableDeref>"}
+{"name":"<std::sync::Arc<T> as StableDeref>"}
+{"name":"<std::sync::Arc<T> as CloneStableDeref>"}
+{"name":"<std::cell::Ref<'a, T> as StableDeref>"}
+{"name":"<std::cell::RefMut<'a, T> as StableDeref>"}
+{"name":"<std::sync::MutexGuard<'a, T> as StableDeref>"}
+{"name":"<std::sync::RwLockReadGuard<'a, T> as StableDeref>"}
+{"name":"<std::sync::RwLockWriteGuard<'a, T> as StableDeref>"}
+{"name":"<&'a T as StableDeref>"}
+{"name":"<&'a T as CloneStableDeref>"}
+{"name":"<&'a mut T as StableDeref>"}

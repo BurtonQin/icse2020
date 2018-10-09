@@ -1,0 +1,2 @@
+{"name":"<NullVec<T>>::index","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 111","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/lib.rs\") line 111","kind":"DerefRawPointer"}]}
+{"name":"<NullVec<T>>::index_mut","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 115","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/lib.rs\") line 115","kind":"DerefRawPointer"}]}

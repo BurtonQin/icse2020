@@ -1,0 +1,20 @@
+{"name":"<fmt::Bytes as fmt::Format>"}
+{"name":"<fmt::Bytes as fmt::SliceFormat>"}
+{"name":"<[u8] as fmt::Slice>"}
+{"name":"<fmt::ASCII as fmt::Format>"}
+{"name":"<fmt::ASCII as fmt::SubsetOf<fmt::UTF8>>"}
+{"name":"<fmt::ASCII as fmt::SubsetOf<fmt::Latin1>>"}
+{"name":"<fmt::ASCII as fmt::CharFormat<'a>>"}
+{"name":"<fmt::UTF8 as fmt::Format>"}
+{"name":"<fmt::UTF8 as fmt::SubsetOf<fmt::WTF8>>"}
+{"name":"<fmt::UTF8 as fmt::SliceFormat>"}
+{"name":"<str as fmt::Slice>"}
+{"name":"<fmt::UTF8 as fmt::CharFormat<'a>>"}
+{"name":"<fmt::WTF8 as fmt::Format>"}
+{"name":"<fmt::Latin1 as fmt::Format>"}
+{"name":"<fmt::Latin1 as fmt::CharFormat<'a>>"}
+{"name":"<tendril::NonAtomic as tendril::Atomicity>"}
+{"name":"<tendril::Atomic as tendril::Atomicity>"}
+{"name":"<tendril::Tendril<F, A> as std::marker::Send>"}
+{"name":"<tendril::Tendril<F, A> as std::marker::Sync>"}
+{"name":"<tendril::SendTendril<F> as std::marker::Send>"}

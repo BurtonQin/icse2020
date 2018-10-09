@@ -1,0 +1,6 @@
+{"name":"<(dyn prolog::machine::machine_state::CallPolicy + 'static)>::downcast_ref_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Macros(\"downcast_methods_core\") line 7","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<(dyn prolog::machine::machine_state::CallPolicy + 'static)>::downcast_mut_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Macros(\"downcast_methods_core\") line 14","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<(dyn prolog::machine::machine_state::CallPolicy + 'static)>::downcast_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Macros(\"downcast_methods_std\") line 6","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<(dyn prolog::machine::machine_state::CutPolicy + 'static)>::downcast_ref_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Macros(\"downcast_methods_core\") line 7","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<(dyn prolog::machine::machine_state::CutPolicy + 'static)>::downcast_mut_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Macros(\"downcast_methods_core\") line 14","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<(dyn prolog::machine::machine_state::CutPolicy + 'static)>::downcast_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Macros(\"downcast_methods_std\") line 6","kind":{"UnsafeFnCall":"Rust"}}]}

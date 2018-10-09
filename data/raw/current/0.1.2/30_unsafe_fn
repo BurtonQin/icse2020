@@ -1,0 +1,4 @@
+{"name":"KEY_CURRENT::__getit","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__thread_local_inner\") line 16","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<Current<T>>::new","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<Current<T>>::current","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/current-0.1.2/src/lib.rs\") line 84","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"<Current<T>>::current_unwrap","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/current-0.1.2/src/lib.rs\") line 101","kind":{"UnsafeFnCall":"Rust"}}]}

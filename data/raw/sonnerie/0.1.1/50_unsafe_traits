@@ -1,0 +1,4 @@
+{"name":"<wal::WalPartAdapter as std::marker::Send>"}
+{"name":"<wal::WalPartAdapter as std::marker::Sync>"}
+{"name":"<wal::WalPartAdapter as intrusive_collections::Adapter>"}
+{"name":"<wal::WalPart as std::marker::Sync>"}

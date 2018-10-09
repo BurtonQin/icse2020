@@ -1,0 +1,4 @@
+{"sources":[["18",[{"loc":"file: Real(\"src/uint32.rs\") line 5","kind":"DerefRawPointer"}]]]}
+{"sources":[["66",[{"loc":"file: Real(\"src/uint32.rs\") line 14","kind":"DerefRawPointer"}]]]}
+{"sources":[["398",[{"loc":"file: Real(\"src/reader.rs\") line 110","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/reader.rs\") line 110","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["482",[{"loc":"file: Real(\"src/reader.rs\") line 132","kind":{"UnsafeFnCall":"Rust"}}]]]}

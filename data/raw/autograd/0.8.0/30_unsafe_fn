@@ -1,0 +1,2 @@
+{"name":"tensor::PersistentArray::get_as_variable_mut","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/tensor.rs\") line 82","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"runtime::OpComputeContext::grab_assignable_inputs","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/runtime.rs\") line 78","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}

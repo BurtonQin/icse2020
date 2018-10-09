@@ -1,0 +1,10 @@
+{"name":"interrupt::enable","from_trait":false,"arguments":[],"sources":[]}
+{"name":"itm::write_words","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/cortex-m-0.4.3/src/itm.rs\") line 14","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/cortex-m-0.4.3/src/itm.rs\") line 15","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"peripheral::nvic::<impl peripheral::NVIC>::set_priority","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/cortex-m-0.4.3/src/peripheral/nvic.rs\") line 172","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"peripheral::Peripherals::steal","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/cortex-m-0.4.3/src/peripheral/mod.rs\") line 165","kind":"Static"},{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/cortex-m-0.4.3/src/peripheral/mod.rs\") line 167","kind":"Static"}]}
+{"name":"peripheral::CBP::new","from_trait":true,"arguments":[],"sources":[]}
+{"name":"register::basepri::write","from_trait":false,"arguments":[],"sources":[]}
+{"name":"register::lr::write","from_trait":false,"arguments":[],"sources":[]}
+{"name":"register::msp::write","from_trait":false,"arguments":[],"sources":[]}
+{"name":"register::pc::write","from_trait":false,"arguments":[],"sources":[]}
+{"name":"register::psp::write","from_trait":false,"arguments":[],"sources":[]}

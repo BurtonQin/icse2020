@@ -1,0 +1,7 @@
+{"sources":[["105",[{"loc":"file: Real(\"src/mutex.rs\") line 33","kind":"DerefRawPointer"}]]]}
+{"sources":[["130",[{"loc":"file: Real(\"src/mutex.rs\") line 39","kind":"DerefRawPointer"}]]]}
+{"sources":[["467",[{"loc":"file: Real(\"src/mutex.rs\") line 241","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["862",[{"loc":"file: Real(\"src/rwlock.rs\") line 27","kind":"DerefRawPointer"}]]]}
+{"sources":[["915",[{"loc":"file: Real(\"src/rwlock.rs\") line 47","kind":"DerefRawPointer"}]]]}
+{"sources":[["940",[{"loc":"file: Real(\"src/rwlock.rs\") line 53","kind":"DerefRawPointer"}]]]}
+{"sources":[["1514",[{"loc":"file: Real(\"src/rwlock.rs\") line 346","kind":{"UnsafeFnCall":"Rust"}}]]]}

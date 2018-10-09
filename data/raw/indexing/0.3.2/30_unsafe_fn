@@ -1,0 +1,26 @@
+{"name":"<&'a C as container_traits::GetUnchecked>::xget_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/container_traits.rs\") line 64","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<&'a mut C as container_traits::GetUnchecked>::xget_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/container_traits.rs\") line 72","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<&'a mut C as container_traits::GetUncheckedMut>::xget_unchecked_mut","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/container_traits.rs\") line 80","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<[T] as container_traits::GetUnchecked>::xget_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/container_traits.rs\") line 125","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<[T] as container_traits::GetUncheckedMut>::xget_unchecked_mut","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/container_traits.rs\") line 131","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"container_traits::vec_impls::<impl container_traits::GetUnchecked for std::vec::Vec<T>>::xget_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/container_traits.rs\") line 165","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"container_traits::vec_impls::<impl container_traits::GetUncheckedMut for std::vec::Vec<T>>::xget_unchecked_mut","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/container_traits.rs\") line 171","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"container_traits::vec_impls::<impl container_traits::Pushable for std::vec::Vec<T>>::insert_unchecked","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<&'a mut C as container_traits::Pushable>::insert_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/container_traits.rs\") line 212","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<pointer::PIndex<'id, T, P>>::new","from_trait":true,"arguments":[{"type_info":"type(*const T)","kind":"RawPointer"}],"sources":[]}
+{"name":"<pointer::PIndex<'id, T>>::inbounds","from_trait":true,"arguments":[{"type_info":"type(*const T)","kind":"RawPointer"}],"sources":[]}
+{"name":"<pointer::PRange<'id, T, P>>::new","from_trait":true,"arguments":[{"type_info":"type(*const T)","kind":"RawPointer"},{"type_info":"type(*const T)","kind":"RawPointer"}],"sources":[]}
+{"name":"<&'a container::Container<'id, Array> as pointer::ContainerRef<'id>>::dereference","from_trait":true,"arguments":[{"type_info":"type(*const <Self>::Item)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/pointer.rs\") line 469","kind":"DerefRawPointer"}]}
+{"name":"<&'a mut container::Container<'id, Array> as pointer::ContainerRef<'id>>::dereference","from_trait":true,"arguments":[{"type_info":"type(*const <Self>::Item)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/pointer.rs\") line 480","kind":"DerefRawPointer"}]}
+{"name":"<pointer::PSlice<'id, T, P>>::new","from_trait":true,"arguments":[{"type_info":"type(*const T)","kind":"RawPointer"}],"sources":[]}
+{"name":"pointer_ext::PointerExt::inc","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/pointer_ext.rs\") line 17","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"pointer_ext::PointerExt::post_inc","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/pointer_ext.rs\") line 24","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"pointer_ext::PointerExt::dec","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/pointer_ext.rs\") line 31","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"pointer_ext::PointerExt::pre_dec","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/pointer_ext.rs\") line 37","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"pointer_ext::PointerExt::stride_offset","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/pointer_ext.rs\") line 44","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<*const T as pointer_ext::PointerExt>::offset","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/pointer_ext.rs\") line 51","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<*mut T as pointer_ext::PointerExt>::offset","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/pointer_ext.rs\") line 58","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<Index<'id, P>>::new","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<Range<'id>>::from","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<Range<'id, proof::NonEmpty>>::from_ne","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<Range<'id, P>>::from_any","from_trait":true,"arguments":[],"sources":[]}

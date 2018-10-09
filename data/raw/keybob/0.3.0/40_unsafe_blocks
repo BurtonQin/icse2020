@@ -1,0 +1,9 @@
+{"sources":[["52",[{"loc":"file: Real(\"src/random.rs\") line 13","kind":"AccessToUnionField"}]],["73",[{"loc":"file: Real(\"src/random.rs\") line 18","kind":"AccessToUnionField"}]]]}
+{"sources":[["111",[{"loc":"file: Real(\"src/random.rs\") line 29","kind":"AccessToUnionField"}]],["138",[{"loc":"file: Real(\"src/random.rs\") line 34","kind":"AccessToUnionField"}]]]}
+{"sources":[["235",[{"loc":"file: Real(\"src/serial.rs\") line 18","kind":"AccessToUnionField"},{"loc":"file: Real(\"src/serial.rs\") line 19","kind":"AccessToUnionField"}]]]}
+{"sources":[["393",[{"loc":"file: Real(\"src/serial.rs\") line 72","kind":"AccessToUnionField"},{"loc":"file: Real(\"src/serial.rs\") line 73","kind":"AccessToUnionField"}]]]}
+{"sources":[["547",[{"loc":"file: Real(\"src/serial.rs\") line 120","kind":"AccessToUnionField"},{"loc":"file: Real(\"src/serial.rs\") line 121","kind":"AccessToUnionField"}]]]}
+{"sources":[["925",[{"loc":"file: Real(\"src/lib.rs\") line 57","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["936",[{"loc":"file: Real(\"src/lib.rs\") line 57","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["667",[{"loc":"file: Real(\"src/lib.rs\") line 106","kind":"AccessToUnionField"},{"loc":"file: Real(\"src/lib.rs\") line 107","kind":"AccessToUnionField"}]]]}
+{"sources":[["692",[{"loc":"file: Real(\"src/lib.rs\") line 116","kind":"AccessToUnionField"},{"loc":"file: Real(\"src/lib.rs\") line 117","kind":"AccessToUnionField"}]]]}
+{"sources":[["1379",[{"loc":"file: Real(\"src/lib.rs\") line 162","kind":"AccessToUnionField"},{"loc":"file: Real(\"src/lib.rs\") line 163","kind":"AccessToUnionField"}]]]}

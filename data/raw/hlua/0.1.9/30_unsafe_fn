@@ -1,0 +1,1 @@
+{"name":"Lua::from_existing_state","from_trait":true,"arguments":[{"type_info":"type(*mut T)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/hlua-0.1.9/src/lib.rs\") line 224","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}

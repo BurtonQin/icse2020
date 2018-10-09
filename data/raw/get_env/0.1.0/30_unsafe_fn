@@ -1,0 +1,3 @@
+{"name":"<ARGV as lazy_static::Deref>::deref::__stability","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__lazy_static_internal\") line 13","kind":"Static"}]}
+{"name":"<ENVP as lazy_static::Deref>::deref::__stability","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__lazy_static_internal\") line 13","kind":"Static"}]}
+{"name":"envp_from_global::environ","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 270","kind":"Static"}]}

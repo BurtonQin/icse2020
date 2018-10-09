@@ -1,0 +1,3 @@
+{"name":"<ffi::XkbCommon as std::marker::Sync>"}
+{"name":"<mapped_keyboard::KbState as std::marker::Send>"}
+{"name":"<mapped_keyboard::MappedKeyboard<H> as wayland_client::Handler<wayland_client::client::wl_keyboard::WlKeyboard>>"}

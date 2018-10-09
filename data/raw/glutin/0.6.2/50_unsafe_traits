@@ -1,0 +1,16 @@
+{"name":"<api::egl::ffi::egl::Egl as std::marker::Send>"}
+{"name":"<api::egl::Context as std::marker::Send>"}
+{"name":"<api::egl::Context as std::marker::Sync>"}
+{"name":"<api::glx::Context as std::marker::Send>"}
+{"name":"<api::glx::Context as std::marker::Sync>"}
+{"name":"<api::osmesa::OsMesaContext as std::marker::Send>"}
+{"name":"<api::osmesa::OsMesaContext as std::marker::Sync>"}
+{"name":"<api::x11::ffi::glx::Glx as std::marker::Send>"}
+{"name":"<api::x11::ffi::glx_extra::Glx as std::marker::Send>"}
+{"name":"<api::x11::window::WindowProxyData as std::marker::Send>"}
+{"name":"<api::x11::window::XWindow as std::marker::Send>"}
+{"name":"<api::x11::window::XWindow as std::marker::Sync>"}
+{"name":"<api::x11::window::Window as std::marker::Send>"}
+{"name":"<api::x11::window::Window as std::marker::Sync>"}
+{"name":"<api::x11::xdisplay::XConnection as std::marker::Send>"}
+{"name":"<api::x11::xdisplay::XConnection as std::marker::Sync>"}

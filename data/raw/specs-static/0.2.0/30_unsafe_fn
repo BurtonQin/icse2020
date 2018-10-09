@@ -1,0 +1,2 @@
+{"name":"<&'a Storage<C, D, I> as specs::Join>::get","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 145","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<&'a mut Storage<C, D, I> as specs::Join>::get","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 166","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/lib.rs\") line 166","kind":{"UnsafeFnCall":"Rust"}}]}

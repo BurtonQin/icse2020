@@ -1,0 +1,15 @@
+{"sources":[["3142",[{"loc":"file: Real(\"src/event.rs\") line 1","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["3153",[{"loc":"file: Real(\"src/event.rs\") line 1","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["76",[{"loc":"file: Real(\"src/line_reader.rs\") line 14","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["550",[{"loc":"file: Real(\"src/frame_reader.rs\") line 103","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["574",[{"loc":"file: Real(\"src/frame_reader.rs\") line 107","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["928",[{"loc":"file: Real(\"src/frame_writer.rs\") line 115","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["1253",[{"loc":"file: Real(\"src/timer.rs\") line 48","kind":{"UnsafeFnCall":"RustIntrinsic"}},{"loc":"file: Real(\"src/timer.rs\") line 49","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["1292",[{"loc":"file: Real(\"src/timer.rs\") line 60","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["1358",[{"loc":"file: Real(\"src/user_event.rs\") line 35","kind":{"UnsafeFnCall":"RustIntrinsic"}},{"loc":"file: Real(\"src/user_event.rs\") line 36","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["1399",[{"loc":"file: Real(\"src/user_event.rs\") line 46","kind":{"UnsafeFnCall":"RustIntrinsic"}},{"loc":"file: Real(\"src/user_event.rs\") line 47","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["1438",[{"loc":"file: Real(\"src/user_event.rs\") line 59","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["2079",[{"loc":"file: Real(\"src/epoll.rs\") line 99","kind":{"UnsafeFnCall":"Rust"}}]],["2102",[{"loc":"file: Real(\"src/epoll.rs\") line 105","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["2354",[{"loc":"file: Real(\"src/epoll.rs\") line 251","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["2578",[{"loc":"file: Real(\"src/epoll.rs\") line 309","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["2902",[{"loc":"file: Real(\"src/timerfd.rs\") line 39","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["2940",[{"loc":"file: Real(\"src/timerfd.rs\") line 54","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["3005",[{"loc":"file: Real(\"src/timerfd.rs\") line 84","kind":{"UnsafeFnCall":"C"}}]]]}

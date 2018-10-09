@@ -1,0 +1,2 @@
+{"name":"stream::Buffer::slice","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/portaudio-0.7.0/src/stream.rs\") line 915","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"stream::Buffer::slice_mut","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/portaudio-0.7.0/src/stream.rs\") line 924","kind":{"UnsafeFnCall":"Rust"}}]}

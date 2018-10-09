@@ -1,0 +1,2 @@
+{"name":"aligned_free","from_trait":false,"arguments":[{"type_info":"type(*mut ())","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/aligned_alloc-0.1.3/src/lib.rs\") line 28","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"imp::aligned_free","from_trait":false,"arguments":[{"type_info":"type(*mut ())","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/aligned_alloc-0.1.3/src/lib.rs\") line 63","kind":{"UnsafeFnCall":"C"}}]}

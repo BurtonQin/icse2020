@@ -1,0 +1,17 @@
+{"name":"<object::WeakRef<T> as std::marker::Send>"}
+{"name":"<object::WeakRef<T> as std::marker::Sync>"}
+{"name":"<auto::main_context::MainContext as std::marker::Send>"}
+{"name":"<auto::main_context::MainContext as std::marker::Sync>"}
+{"name":"<auto::main_loop::MainLoop as std::marker::Send>"}
+{"name":"<auto::main_loop::MainLoop as std::marker::Sync>"}
+{"name":"<auto::source::Source as std::marker::Send>"}
+{"name":"<auto::source::Source as std::marker::Sync>"}
+{"name":"<bytes::Bytes as std::marker::Send>"}
+{"name":"<bytes::Bytes as std::marker::Sync>"}
+{"name":"<error::Error as std::marker::Send>"}
+{"name":"<error::Error as std::marker::Sync>"}
+{"name":"<variant::Variant as std::marker::Send>"}
+{"name":"<variant::Variant as std::marker::Sync>"}
+{"name":"<variant_type::VariantType as std::marker::Send>"}
+{"name":"<variant_type::VariantType as std::marker::Sync>"}
+{"name":"<variant_type::VariantTy as std::marker::Sync>"}

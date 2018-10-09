@@ -1,0 +1,14 @@
+{"name":"<table::SafeEntries<'a, K, V, I> as std::iter::TrustedLen>"}
+{"name":"<table::SafeEntriesMut<'a, K, V, I> as std::iter::TrustedLen>"}
+{"name":"<table::TableIndex as utils::ArbitraryBytes>"}
+{"name":"<table::DenseEntryTable<K, V, T> as table::EntryIterable<K, V>>"}
+{"name":"<table::UncheckedDenseEntryIter<K, V> as std::iter::TrustedLen>"}
+{"name":"<table::DirectEntryTable<K, V> as table::EntryIterable<K, V>>"}
+{"name":"<u8 as utils::ArbitraryBytes>"}
+{"name":"<u32 as utils::ArbitraryBytes>"}
+{"name":"<u64 as utils::ArbitraryBytes>"}
+{"name":"<Iter<'a, K, V, I> as std::iter::TrustedLen>"}
+{"name":"<Keys<'a, K, V, I> as std::iter::TrustedLen>"}
+{"name":"<Values<'a, K, V, I> as std::iter::TrustedLen>"}
+{"name":"<ValuesMut<'a, K, V, I> as std::iter::TrustedLen>"}
+{"name":"<IterMut<'a, K, V, I> as std::iter::TrustedLen>"}

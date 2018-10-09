@@ -1,0 +1,11 @@
+{"name":"<u8 as pod::PodTransmutable>"}
+{"name":"<i8 as pod::PodTransmutable>"}
+{"name":"<u16 as pod::PodTransmutable>"}
+{"name":"<i16 as pod::PodTransmutable>"}
+{"name":"<u32 as pod::PodTransmutable>"}
+{"name":"<i32 as pod::PodTransmutable>"}
+{"name":"<u64 as pod::PodTransmutable>"}
+{"name":"<i64 as pod::PodTransmutable>"}
+{"name":"<char as pod::PodTransmutable>"}
+{"name":"<f32 as pod::PodTransmutable>"}
+{"name":"<f64 as pod::PodTransmutable>"}

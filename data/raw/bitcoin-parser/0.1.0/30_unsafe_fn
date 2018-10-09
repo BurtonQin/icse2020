@@ -1,0 +1,2 @@
+{"name":"header::BlockHeader::prev_hash::as_array","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"array_ref\") line 5","kind":"DerefRawPointer"}]}
+{"name":"header::BlockHeader::merkle_root::as_array","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"array_ref\") line 5","kind":"DerefRawPointer"}]}

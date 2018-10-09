@@ -1,0 +1,1 @@
+{"name":"platform::linux::namespace::prepare_user_and_pid_namespaces","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"platform/linux/namespace.rs\") line 193","kind":{"UnsafeFnCall":"C"}}]}

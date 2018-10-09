@@ -1,0 +1,4 @@
+{"name":"mocking::MOCK_STORE::__getit","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__thread_local_inner\") line 16","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<F as mocking::Mockable<T, O>>::mock_raw","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/mocking.rs\") line 91","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<F as mocking::Mockable<T, O>>::get_mock_id","from_trait":true,"arguments":[],"sources":[]}
+{"name":"mocking_utils::as_mut","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/mocking_utils.rs\") line 27","kind":"DerefRawPointer"}]}

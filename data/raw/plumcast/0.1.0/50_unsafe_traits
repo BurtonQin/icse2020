@@ -1,0 +1,5 @@
+{"name":"<rpc::plumtree::GossipCast<M> as std::marker::Sync>"}
+{"name":"<rpc::plumtree::IhaveCast<M> as std::marker::Sync>"}
+{"name":"<rpc::plumtree::GraftCast<M> as std::marker::Sync>"}
+{"name":"<rpc::plumtree::GraftOptimizeCast<M> as std::marker::Sync>"}
+{"name":"<rpc::plumtree::PruneCast<M> as std::marker::Sync>"}

@@ -1,0 +1,22 @@
+{"name":"active_plugins::lo_get_active_plugins","from_trait":false,"arguments":[{"type_info":"type(*mut *mut *mut c_char)","kind":"RawPointer"},{"type_info":"type(*mut size_t)","kind":"RawPointer"}],"sources":[]}
+{"name":"active_plugins::lo_set_active_plugins","from_trait":false,"arguments":[{"type_info":"type(*const *const c_char)","kind":"RawPointer"}],"sources":[]}
+{"name":"active_plugins::lo_set_plugin_active","from_trait":false,"arguments":[{"type_info":"type(*const c_char)","kind":"RawPointer"}],"sources":[]}
+{"name":"active_plugins::lo_get_plugin_active","from_trait":false,"arguments":[{"type_info":"type(*const c_char)","kind":"RawPointer"},{"type_info":"type(*mut bool)","kind":"RawPointer"}],"sources":[]}
+{"name":"handle::lo_create_handle","from_trait":false,"arguments":[{"type_info":"type(*mut lo_game_handle)","kind":"RawPointer"},{"type_info":"type(*const c_char)","kind":"RawPointer"},{"type_info":"type(*const c_char)","kind":"RawPointer"}],"sources":[]}
+{"name":"handle::lo_destroy_handle","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/handle.rs\") line 173","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"handle::lo_load_current_state","from_trait":false,"arguments":[],"sources":[]}
+{"name":"handle::lo_fix_plugin_lists","from_trait":false,"arguments":[],"sources":[]}
+{"name":"handle::lo_get_implicitly_active_plugins","from_trait":false,"arguments":[{"type_info":"type(*mut *mut *mut c_char)","kind":"RawPointer"},{"type_info":"type(*mut size_t)","kind":"RawPointer"}],"sources":[]}
+{"name":"helpers::to_str","from_trait":false,"arguments":[{"type_info":"type(*const c_char)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/helpers.rs\") line 79","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"helpers::to_str_vec","from_trait":false,"arguments":[{"type_info":"type(*const *const c_char)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/helpers.rs\") line 110","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"load_order::lo_get_load_order_method","from_trait":false,"arguments":[{"type_info":"type(*mut c_uint)","kind":"RawPointer"}],"sources":[]}
+{"name":"load_order::lo_get_load_order","from_trait":false,"arguments":[{"type_info":"type(*mut *mut *mut c_char)","kind":"RawPointer"},{"type_info":"type(*mut size_t)","kind":"RawPointer"}],"sources":[]}
+{"name":"load_order::lo_set_load_order","from_trait":false,"arguments":[{"type_info":"type(*const *const c_char)","kind":"RawPointer"}],"sources":[]}
+{"name":"load_order::lo_get_plugin_position","from_trait":false,"arguments":[{"type_info":"type(*const c_char)","kind":"RawPointer"},{"type_info":"type(*mut size_t)","kind":"RawPointer"}],"sources":[]}
+{"name":"load_order::lo_set_plugin_position","from_trait":false,"arguments":[{"type_info":"type(*const c_char)","kind":"RawPointer"}],"sources":[]}
+{"name":"load_order::lo_get_indexed_plugin","from_trait":false,"arguments":[{"type_info":"type(*mut *mut c_char)","kind":"RawPointer"}],"sources":[]}
+{"name":"ERROR_MESSAGE::__getit","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__thread_local_inner\") line 16","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"lo_get_version","from_trait":false,"arguments":[{"type_info":"type(*mut c_uint)","kind":"RawPointer"},{"type_info":"type(*mut c_uint)","kind":"RawPointer"},{"type_info":"type(*mut c_uint)","kind":"RawPointer"}],"sources":[]}
+{"name":"lo_get_error_message","from_trait":false,"arguments":[{"type_info":"type(*mut *const c_char)","kind":"RawPointer"}],"sources":[]}
+{"name":"lo_free_string","from_trait":false,"arguments":[{"type_info":"type(*mut c_char)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 212","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"lo_free_string_array","from_trait":false,"arguments":[{"type_info":"type(*mut *mut c_char)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 226","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/lib.rs\") line 228","kind":{"UnsafeFnCall":"C"}}]}

@@ -1,0 +1,9 @@
+{"name":"<std::vec::Vec<T> as vector::Vector<T>>::as_ptr","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<std::vec::Vec<T> as vector::Vector<T>>::as_mut_ptr","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<[T] as vector::Vector<T>>::as_ptr","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<[T] as vector::Vector<T>>::as_mut_ptr","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<math::mat::Mat<T>>::set_rows","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<math::mat::Mat<T>>::set_cols","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<math::mat::Mat<T>>::push","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<math::mat::Mat<T> as matrix::Matrix<T>>::as_ptr","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<math::mat::Mat<T> as matrix::Matrix<T>>::as_mut_ptr","from_trait":true,"arguments":[],"sources":[]}

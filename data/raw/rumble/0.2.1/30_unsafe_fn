@@ -1,0 +1,2 @@
+{"name":"bluez::manager::HciIoctls::hci_dev_up","from_trait":true,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 71","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"bluez::manager::HciIoctls::hci_dev_down","from_trait":true,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 71","kind":{"UnsafeFnCall":"C"}}]}

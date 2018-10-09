@@ -1,0 +1,10 @@
+{"name":"<base::Event<T> as std::marker::Send>"}
+{"name":"<base::Event<T> as std::marker::Sync>"}
+{"name":"<base::Error<T> as std::marker::Send>"}
+{"name":"<base::Error<T> as std::marker::Sync>"}
+{"name":"<base::Cookie<'a, T> as std::marker::Send>"}
+{"name":"<base::Cookie<'a, T> as std::marker::Sync>"}
+{"name":"<base::Reply<T> as std::marker::Send>"}
+{"name":"<base::Reply<T> as std::marker::Sync>"}
+{"name":"<base::Connection as std::marker::Send>"}
+{"name":"<base::Connection as std::marker::Sync>"}

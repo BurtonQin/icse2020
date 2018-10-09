@@ -1,0 +1,4 @@
+{"name":"<objects::object::PyObject as std::marker::Send>"}
+{"name":"<objects::object::PyObject as std::marker::Sync>"}
+{"name":"<pythonrun::GILProtected<T> as std::marker::Send>"}
+{"name":"<pythonrun::GILProtected<T> as std::marker::Sync>"}

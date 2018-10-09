@@ -1,0 +1,1 @@
+{"name":"logic::utils::parse_multi_cstring","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/logic/utils.rs\") line 94","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/logic/utils.rs\") line 94","kind":"DerefRawPointer"}]}

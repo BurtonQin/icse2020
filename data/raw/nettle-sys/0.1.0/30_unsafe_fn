@@ -1,0 +1,2 @@
+{"name":"<__BindgenUnionField<T>>::as_ref","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/unsafe_analysis/crates.io-downloads/nettle-sys/target/debug/build/nettle-sys-591c1b4d85c9e4ec/out/bindings.rs\") line 9","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"<__BindgenUnionField<T>>::as_mut","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/unsafe_analysis/crates.io-downloads/nettle-sys/target/debug/build/nettle-sys-591c1b4d85c9e4ec/out/bindings.rs\") line 11","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}

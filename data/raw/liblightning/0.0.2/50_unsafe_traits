@@ -1,0 +1,4 @@
+{"name":"<co::MaybeYieldVal as std::marker::Send>"}
+{"name":"<co::SendableCoState as std::marker::Send>"}
+{"name":"<stack::Stack as std::marker::Send>"}
+{"name":"<scheduler::SyncSchedStateImpl as std::marker::Send>"}

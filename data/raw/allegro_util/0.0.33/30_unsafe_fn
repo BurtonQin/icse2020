@@ -1,0 +1,1 @@
+{"name":"from_c_str","from_trait":false,"arguments":[{"type_info":"type(*const c_char)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 20","kind":{"UnsafeFnCall":"Rust"}}]}

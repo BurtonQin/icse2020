@@ -1,0 +1,10 @@
+{"name":"<servo_arc::Arc<T> as std::marker::Send>"}
+{"name":"<servo_arc::Arc<T> as std::marker::Sync>"}
+{"name":"<servo_arc::ArcInner<T> as std::marker::Send>"}
+{"name":"<servo_arc::ArcInner<T> as std::marker::Sync>"}
+{"name":"<servo_arc::Arc<T> as stable_deref_trait::StableDeref>"}
+{"name":"<servo_arc::Arc<T> as stable_deref_trait::CloneStableDeref>"}
+{"name":"<servo_arc::ThinArc<H, T> as std::marker::Send>"}
+{"name":"<servo_arc::ThinArc<H, T> as std::marker::Sync>"}
+{"name":"<servo_arc::RawOffsetArc<T> as std::marker::Send>"}
+{"name":"<servo_arc::RawOffsetArc<T> as std::marker::Sync>"}

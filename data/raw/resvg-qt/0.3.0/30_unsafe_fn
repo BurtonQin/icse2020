@@ -1,0 +1,2 @@
+{"name":"Image::from_ptr","from_trait":true,"arguments":[{"type_info":"type(*mut ffi::qtc_qimage)","kind":"RawPointer"}],"sources":[]}
+{"name":"Painter::from_raw","from_trait":true,"arguments":[{"type_info":"type(*mut ffi::qtc_qpainter)","kind":"RawPointer"}],"sources":[]}

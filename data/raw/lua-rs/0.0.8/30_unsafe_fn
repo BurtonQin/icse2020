@@ -1,0 +1,2 @@
+{"name":"msghandler","from_trait":false,"arguments":[{"type_info":"type(*mut ffi::lua::lua_State)","kind":"RawPointer"}],"sources":[]}
+{"name":"pmain","from_trait":false,"arguments":[{"type_info":"type(*mut ffi::lua::lua_State)","kind":"RawPointer"}],"sources":[]}

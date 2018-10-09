@@ -1,0 +1,5 @@
+{"name":"<schema::ProposeData as exonum::encoding::Field<'a>>::read","from_trait":true,"arguments":[],"sources":[{"loc":"file: Macros(\"encoding_struct\") line 11","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<schema::NO_VOTE_BYTES as lazy_static::Deref>::deref::__stability","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__lazy_static_internal\") line 13","kind":"Static"}]}
+{"name":"<transactions::Propose as exonum::encoding::SegmentField<'a>>::from_buffer","from_trait":true,"arguments":[],"sources":[{"loc":"file: Macros(\"__ex_message\") line 49","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<transactions::Vote as exonum::encoding::SegmentField<'a>>::from_buffer","from_trait":true,"arguments":[],"sources":[{"loc":"file: Macros(\"__ex_message\") line 49","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<transactions::VoteAgainst as exonum::encoding::SegmentField<'a>>::from_buffer","from_trait":true,"arguments":[],"sources":[{"loc":"file: Macros(\"__ex_message\") line 49","kind":{"UnsafeFnCall":"Rust"}}]}

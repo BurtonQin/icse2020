@@ -1,0 +1,2 @@
+{"name":"types::userdata::LuaUserdata::get_value","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/types/userdata.rs\") line 30","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"types::userdata::LuaUserdata::get_value_named","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/types/userdata.rs\") line 37","kind":{"UnsafeFnCall":"Rust"}}]}

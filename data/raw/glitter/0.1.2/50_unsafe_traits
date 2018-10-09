@@ -1,0 +1,36 @@
+{"name":"<context::texture_units::TextureUnitBindingOf<T2, TC> as context::texture_units::ATextureUnitBinding>"}
+{"name":"<&'a mut context::texture_units::TextureUnitBindingOf<T2, TC> as context::texture_units::ATextureUnitBinding>"}
+{"name":"<context::texture_units::TextureSampler as uniform_data::UniformDatum>"}
+{"name":"<context::ContextOf<B, F, P, R, T> as context::BaseContext>"}
+{"name":"<&'a mut context::ContextOf<B, F, P, R, T> as context::BaseContext>"}
+{"name":"<i8 as vertex_data::VertexPrimitive>"}
+{"name":"<u8 as vertex_data::VertexPrimitive>"}
+{"name":"<i16 as vertex_data::VertexPrimitive>"}
+{"name":"<u16 as vertex_data::VertexPrimitive>"}
+{"name":"<f32 as vertex_data::VertexPrimitive>"}
+{"name":"<T as vertex_data::VertexDatum>"}
+{"name":"<[T; _] as vertex_data::VertexDatum>"}
+{"name":"<[T; _] as vertex_data::VertexDatum>"}
+{"name":"<[T; _] as vertex_data::VertexDatum>"}
+{"name":"<[T; _] as vertex_data::VertexDatum>"}
+{"name":"<u8 as index_data::IndexDatum>"}
+{"name":"<u16 as index_data::IndexDatum>"}
+{"name":"<f32 as uniform_data::UniformPrimitive>"}
+{"name":"<i32 as uniform_data::UniformPrimitive>"}
+{"name":"<T as uniform_data::UniformDatum>"}
+{"name":"<[T; _] as uniform_data::UniformDatum>"}
+{"name":"<[T; _] as uniform_data::UniformDatum>"}
+{"name":"<[T; _] as uniform_data::UniformDatum>"}
+{"name":"<[T; _] as uniform_data::UniformDatum>"}
+{"name":"<[[f32; _]; _] as uniform_data::UniformDatum>"}
+{"name":"<[[f32; _]; _] as uniform_data::UniformDatum>"}
+{"name":"<[[f32; _]; _] as uniform_data::UniformDatum>"}
+{"name":"cgmath_features::cgmath_uniform_data::<impl uniform_data::UniformDatum for cgmath::Vector2<T>>"}
+{"name":"cgmath_features::cgmath_uniform_data::<impl uniform_data::UniformDatum for cgmath::Vector3<T>>"}
+{"name":"cgmath_features::cgmath_uniform_data::<impl uniform_data::UniformDatum for cgmath::Vector4<T>>"}
+{"name":"cgmath_features::cgmath_uniform_data::<impl uniform_data::UniformDatum for cgmath::Matrix2<f32>>"}
+{"name":"cgmath_features::cgmath_uniform_data::<impl uniform_data::UniformDatum for cgmath::Matrix3<f32>>"}
+{"name":"cgmath_features::cgmath_uniform_data::<impl uniform_data::UniformDatum for cgmath::Matrix4<f32>>"}
+{"name":"cgmath_features::cgmath_vertex_data::<impl vertex_data::VertexDatum for cgmath::Vector2<T>>"}
+{"name":"cgmath_features::cgmath_vertex_data::<impl vertex_data::VertexDatum for cgmath::Vector3<T>>"}
+{"name":"cgmath_features::cgmath_vertex_data::<impl vertex_data::VertexDatum for cgmath::Vector4<T>>"}

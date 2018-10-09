@@ -1,0 +1,35 @@
+{"name":"<runtime::Sel as std::marker::Sync>"}
+{"name":"<runtime::Sel as std::marker::Send>"}
+{"name":"<i8 as encode::Encode>"}
+{"name":"<i16 as encode::Encode>"}
+{"name":"<i32 as encode::Encode>"}
+{"name":"<i64 as encode::Encode>"}
+{"name":"<u8 as encode::Encode>"}
+{"name":"<u16 as encode::Encode>"}
+{"name":"<u32 as encode::Encode>"}
+{"name":"<u64 as encode::Encode>"}
+{"name":"<f32 as encode::Encode>"}
+{"name":"<f64 as encode::Encode>"}
+{"name":"<bool as encode::Encode>"}
+{"name":"<() as encode::Encode>"}
+{"name":"<*mut i8 as encode::Encode>"}
+{"name":"<*const i8 as encode::Encode>"}
+{"name":"<*mut std::os::raw::c_void as encode::Encode>"}
+{"name":"<*const std::os::raw::c_void as encode::Encode>"}
+{"name":"<runtime::Sel as encode::Encode>"}
+{"name":"<isize as encode::Encode>"}
+{"name":"<usize as encode::Encode>"}
+{"name":"<&'a runtime::Object as encode::Encode>"}
+{"name":"<&'a mut runtime::Object as encode::Encode>"}
+{"name":"<std::option::Option<&'a runtime::Object> as encode::Encode>"}
+{"name":"<std::option::Option<&'a mut runtime::Object> as encode::Encode>"}
+{"name":"<*const runtime::Object as encode::Encode>"}
+{"name":"<*mut runtime::Object as encode::Encode>"}
+{"name":"<&'a runtime::Class as encode::Encode>"}
+{"name":"<&'a mut runtime::Class as encode::Encode>"}
+{"name":"<std::option::Option<&'a runtime::Class> as encode::Encode>"}
+{"name":"<std::option::Option<&'a mut runtime::Class> as encode::Encode>"}
+{"name":"<*const runtime::Class as encode::Encode>"}
+{"name":"<*mut runtime::Class as encode::Encode>"}
+{"name":"<runtime::Object as message::Message>"}
+{"name":"<runtime::Class as message::Message>"}

@@ -1,0 +1,16 @@
+{"sources":[["1725",[{"loc":"file: Real(\"src/gpio.rs\") line 32","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["1736",[{"loc":"file: Real(\"src/gpio.rs\") line 32","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["1848",[{"loc":"file: Real(\"src/gpio.rs\") line 41","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["1859",[{"loc":"file: Real(\"src/gpio.rs\") line 41","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["2347",[{"loc":"file: Real(\"src/enums.rs\") line 4","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["2358",[{"loc":"file: Real(\"src/enums.rs\") line 4","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["3133",[{"loc":"file: Real(\"src/pwm.rs\") line 26","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["3144",[{"loc":"file: Real(\"src/pwm.rs\") line 26","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["1031",[{"loc":"file: Real(\"src/i2c.rs\") line 102","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["1062",[{"loc":"file: Real(\"src/i2c.rs\") line 130","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["1089",[{"loc":"file: Real(\"src/i2c.rs\") line 157","kind":{"UnsafeFnCall":"Rust"}}]],["1094",[{"loc":"file: Real(\"src/i2c.rs\") line 160","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["1354",[{"loc":"file: Real(\"src/spi.rs\") line 137","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["1391",[{"loc":"file: Real(\"src/spi.rs\") line 146","kind":{"UnsafeFnCall":"Rust"}}]],["1415",[{"loc":"file: Real(\"src/spi.rs\") line 152","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["1448",[{"loc":"file: Real(\"src/spi.rs\") line 162","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["1488",[{"loc":"file: Real(\"src/spi.rs\") line 171","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["1519",[{"loc":"file: Real(\"src/spi.rs\") line 180","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["1549",[{"loc":"file: Real(\"src/spi.rs\") line 188","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["1580",[{"loc":"file: Real(\"src/spi.rs\") line 197","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["1610",[{"loc":"file: Real(\"src/spi.rs\") line 205","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["1641",[{"loc":"file: Real(\"src/spi.rs\") line 214","kind":{"UnsafeFnCall":"Rust"}}]]]}

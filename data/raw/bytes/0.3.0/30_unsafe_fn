@@ -1,0 +1,14 @@
+{"name":"buf::byte::ByteBuf::from_mem_ref","from_trait":true,"arguments":[],"sources":[]}
+{"name":"buf::byte::ROByteBuf::from_mem_ref","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/bytes-0.3.0/src/buf/byte.rs\") line 211","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<buf::byte::MutByteBuf as buf::MutBuf>::advance","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<buf::byte::MutByteBuf as buf::MutBuf>::mut_bytes","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<buf::ring::RingBuf as buf::MutBuf>::advance","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<buf::ring::RingBuf as buf::MutBuf>::mut_bytes","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<buf::slice::MutSliceBuf<'a> as buf::MutBuf>::advance","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<buf::slice::MutSliceBuf<'a> as buf::MutBuf>::mut_bytes","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<buf::take::Take<T> as buf::MutBuf>::mut_bytes","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/bytes-0.3.0/src/buf/take.rs\") line 71","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<buf::take::Take<T> as buf::MutBuf>::advance","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/bytes-0.3.0/src/buf/take.rs\") line 77","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<std::vec::Vec<u8> as buf::MutBuf>::advance","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/bytes-0.3.0/src/buf/mod.rs\") line 352","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<std::vec::Vec<u8> as buf::MutBuf>::mut_bytes","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/bytes-0.3.0/src/buf/mod.rs\") line 366","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"str::bytes::Bytes::to_trait_object","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/bytes-0.3.0/src/str/bytes.rs\") line 113","kind":{"UnsafeFnCall":"RustIntrinsic"}},{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/bytes-0.3.0/src/str/bytes.rs\") line 119","kind":{"UnsafeFnCall":"RustIntrinsic"}},{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/bytes-0.3.0/src/str/bytes.rs\") line 114","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"str::seq::SeqByteStr::from_mem_ref","from_trait":true,"arguments":[],"sources":[]}

@@ -1,0 +1,12 @@
+{"name":"<rsa::signing::P as rsa::bigint::Prime>"}
+{"name":"<rsa::signing::P as rsa::bigint::SmallerModulus<rsa::N>>"}
+{"name":"<rsa::signing::P as rsa::bigint::NotMuchSmallerModulus<rsa::N>>"}
+{"name":"<rsa::signing::QQ as rsa::bigint::SmallerModulus<rsa::N>>"}
+{"name":"<rsa::signing::QQ as rsa::bigint::NotMuchSmallerModulus<rsa::N>>"}
+{"name":"<rsa::signing::QQ as rsa::bigint::SlightlySmallerModulus<rsa::N>>"}
+{"name":"<rsa::signing::Q as rsa::bigint::Prime>"}
+{"name":"<rsa::signing::Q as rsa::bigint::SmallerModulus<rsa::N>>"}
+{"name":"<rsa::signing::Q as rsa::bigint::SmallerModulus<rsa::signing::P>>"}
+{"name":"<rsa::signing::Q as rsa::bigint::SlightlySmallerModulus<rsa::signing::P>>"}
+{"name":"<rsa::signing::Q as rsa::bigint::SmallerModulus<rsa::signing::QQ>>"}
+{"name":"<rsa::signing::Q as rsa::bigint::NotMuchSmallerModulus<rsa::signing::QQ>>"}

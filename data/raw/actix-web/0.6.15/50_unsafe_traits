@@ -1,0 +1,11 @@
+{"name":"<httpresponse::InnerHttpResponse as std::marker::Sync>"}
+{"name":"<httpresponse::InnerHttpResponse as std::marker::Send>"}
+{"name":"<middleware::identity::IdentityBox as std::marker::Send>"}
+{"name":"<middleware::identity::IdentityBox as std::marker::Sync>"}
+{"name":"<middleware::session::SessionImplCell as std::marker::Send>"}
+{"name":"<middleware::session::SessionImplCell as std::marker::Sync>"}
+{"name":"<server::settings::ServerSettings as std::marker::Sync>"}
+{"name":"<server::settings::ServerSettings as std::marker::Send>"}
+{"name":"<server::settings::InnerCpuPool as std::marker::Sync>"}
+{"name":"<server::srv::HttpServer<H> as std::marker::Sync>"}
+{"name":"<server::srv::HttpServer<H> as std::marker::Send>"}

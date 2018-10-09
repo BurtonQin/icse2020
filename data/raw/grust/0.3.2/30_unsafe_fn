@@ -1,0 +1,38 @@
+{"name":"boxed::box_copy","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/boxed.rs\") line 42","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"boxed::into_boxed_copy_func","from_trait":false,"arguments":[{"type_info":"type(unsafe extern \"C\" fn(: gpointer) -> gpointer)","kind":"UnsafeFunction"}],"sources":[{"loc":"file: Real(\"src/boxed.rs\") line 52","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"boxed::into_boxed_free_func","from_trait":false,"arguments":[{"type_info":"type(unsafe extern \"C\" fn(: gpointer))","kind":"UnsafeFunction"}],"sources":[{"loc":"file: Real(\"src/boxed.rs\") line 58","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"<std::boxed::Box<T> as boxed::BoxedType>::from_ptr","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/boxed.rs\") line 85","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<std::boxed::Box<T> as boxed::BoxedType>::into_ptr","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<error::Error as boxed::BoxedType>::from_ptr","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<error::Error as boxed::BoxedType>::into_ptr","from_trait":true,"arguments":[],"sources":[]}
+{"name":"error::Error::from_raw","from_trait":true,"arguments":[{"type_info":"type(*mut ffi::GError)","kind":"RawPointer"}],"sources":[]}
+{"name":"gstr::OwnedGStr::from_ptr","from_trait":true,"arguments":[{"type_info":"type(*mut gchar)","kind":"RawPointer"}],"sources":[]}
+{"name":"gstr::Utf8::from_ptr","from_trait":true,"arguments":[{"type_info":"type(*const gchar)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/gstr.rs\") line 93","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/gstr.rs\") line 93","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"gtype::GType::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"mainloop::into_source_func","from_trait":false,"arguments":[{"type_info":"type(unsafe extern \"C\" fn(: gpointer) -> gboolean)","kind":"UnsafeFunction"}],"sources":[{"loc":"file: Real(\"src/mainloop.rs\") line 56","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"mainloop::source_func","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/mainloop.rs\") line 62","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"mainloop::source_once_func","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/mainloop.rs\") line 74","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<mainloop::MainContext as refcount::Refcount>::inc_ref","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/mainloop.rs\") line 153","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/mainloop.rs\") line 153","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"<mainloop::MainContext as refcount::Refcount>::dec_ref","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/mainloop.rs\") line 157","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/mainloop.rs\") line 157","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"mainloop::<impl boxed::BoxedType for refcount::Ref<mainloop::MainContext>>::from_ptr","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/macros.rs\") line 123","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"mainloop::<impl boxed::BoxedType for refcount::Ref<mainloop::MainContext>>::into_ptr","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/macros.rs\") line 128","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<mainloop::Source<C> as refcount::Refcount>::inc_ref","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/mainloop.rs\") line 188","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/mainloop.rs\") line 188","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"<mainloop::Source<C> as refcount::Refcount>::dec_ref","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/mainloop.rs\") line 191","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/mainloop.rs\") line 191","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"<mainloop::AttachedSource<C> as refcount::Refcount>::inc_ref","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/mainloop.rs\") line 188","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/mainloop.rs\") line 188","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"<mainloop::AttachedSource<C> as refcount::Refcount>::dec_ref","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/mainloop.rs\") line 191","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/mainloop.rs\") line 191","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"<mainloop::MainLoop as refcount::Refcount>::inc_ref","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/mainloop.rs\") line 335","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/mainloop.rs\") line 335","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"<mainloop::MainLoop as refcount::Refcount>::dec_ref","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/mainloop.rs\") line 339","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/mainloop.rs\") line 339","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"mainloop::<impl boxed::BoxedType for refcount::Ref<mainloop::MainLoop>>::from_ptr","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/macros.rs\") line 123","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"mainloop::<impl boxed::BoxedType for refcount::Ref<mainloop::MainLoop>>::into_ptr","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/macros.rs\") line 128","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"object::<impl refcount::Refcount for T>::inc_ref","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/object.rs\") line 35","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/object.rs\") line 35","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"object::<impl refcount::Refcount for T>::dec_ref","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/object.rs\") line 39","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/object.rs\") line 39","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"quark::Quark::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"quark::Quark::from_static_internal","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/quark.rs\") line 58","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"<refcount::Ref<T>>::from_raw","from_trait":true,"arguments":[{"type_info":"type(*mut <T as Wrapper>::Raw)","kind":"RawPointer"}],"sources":[]}
+{"name":"refcount::ref_into_raw","from_trait":false,"arguments":[],"sources":[]}
+{"name":"util::box_free","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/util.rs\") line 47","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"util::into_destroy_notify","from_trait":false,"arguments":[{"type_info":"type(unsafe extern \"C\" fn(: gpointer))","kind":"UnsafeFunction"}],"sources":[{"loc":"file: Real(\"src/util.rs\") line 54","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"util::box_from_pointer","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/util.rs\") line 58","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"value::Value::as_mut_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"wrap::Wrapper::as_mut_ptr","from_trait":false,"arguments":[],"sources":[]}
+{"name":"wrap::from_raw","from_trait":false,"arguments":[{"type_info":"type(*const <T as Wrapper>::Raw)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/wrap.rs\") line 38","kind":"DerefRawPointer"}]}

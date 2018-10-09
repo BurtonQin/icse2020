@@ -1,0 +1,15 @@
+{"name":"<examples::SimpleRef as __rental_prelude::Rental2<'head, 'iref>>"}
+{"name":"<examples::SimpleMut as __rental_prelude::Rental2<'head, 'iref>>"}
+{"name":"<examples::SimpleRefDebug as __rental_prelude::Rental2<'head, 'iref>>"}
+{"name":"<examples::SimpleRefClone as __rental_prelude::Rental2<'head, 'iref>>"}
+{"name":"<examples::SimpleRefDeref as __rental_prelude::Rental2<'head, 'iref>>"}
+{"name":"<examples::SimpleMutDeref as __rental_prelude::Rental2<'head, 'iref>>"}
+{"name":"<examples::SimpleRefCovariant as __rental_prelude::Rental2<'head, 'iref>>"}
+{"name":"<examples::SimpleRefMap<T> as __rental_prelude::Rental2<'head, 'iref>>"}
+{"name":"<common::RentRef<H, T> as __rental_prelude::Rental2<'head, 'suffix>>"}
+{"name":"<common::RentMut<H, T> as __rental_prelude::Rental2<'head, 'suffix>>"}
+{"name":"<common::RentRefCell<H, T> as __rental_prelude::Rental2<'head, 'suffix>>"}
+{"name":"<common::RentRefCellMut<H, T> as __rental_prelude::Rental2<'head, 'suffix>>"}
+{"name":"<common::RentMutex<H, T> as __rental_prelude::Rental2<'head, 'suffix>>"}
+{"name":"<common::RentRwLock<H, T> as __rental_prelude::Rental2<'head, 'suffix>>"}
+{"name":"<common::RentRwLockMut<H, T> as __rental_prelude::Rental2<'head, 'suffix>>"}

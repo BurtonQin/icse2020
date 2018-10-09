@@ -1,0 +1,4 @@
+{"name":"<batch::batch_executor::SharedSlice<T> as std::marker::Send>"}
+{"name":"<batch::batch_executor::SharedSlice<T> as std::marker::Sync>"}
+{"name":"<client::Client as std::marker::Send>"}
+{"name":"<client::Client as std::marker::Sync>"}

@@ -1,0 +1,4 @@
+{"name":"<raw::Decompress as std::marker::Send>"}
+{"name":"<raw::Decompress as std::marker::Sync>"}
+{"name":"<raw::Compress as std::marker::Send>"}
+{"name":"<raw::Compress as std::marker::Sync>"}

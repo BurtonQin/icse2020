@@ -1,0 +1,2 @@
+{"name":"mappings_mut","from_trait":false,"arguments":[{"type_info":"type(*mut Mappings<Observer>)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 251","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"invoke_mapping_callback","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 310","kind":{"UnsafeFnCall":"C"}}]}

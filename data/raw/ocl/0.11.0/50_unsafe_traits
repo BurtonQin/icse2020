@@ -1,0 +1,8 @@
+{"name":"<standard::platform::Platform as core::ClPlatformIdPtr>"}
+{"name":"<&'a standard::platform::Platform as core::ClPlatformIdPtr>"}
+{"name":"<standard::device::Device as core::ClDeviceIdPtr>"}
+{"name":"<&'a standard::device::Device as core::ClDeviceIdPtr>"}
+{"name":"<standard::event::Event as core::ClEventPtrNew>"}
+{"name":"<standard::event::Event as core::ClWaitList>"}
+{"name":"<standard::event::EventList as core::ClEventPtrNew>"}
+{"name":"<standard::event::EventList as core::ClWaitList>"}

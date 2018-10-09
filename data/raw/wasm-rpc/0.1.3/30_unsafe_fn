@@ -1,0 +1,2 @@
+{"name":"memory::deallocate","from_trait":false,"arguments":[{"type_info":"type(*mut u8)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/wasm-rpc-0.1.3/src/memory.rs\") line 5","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"memory::allocate","from_trait":false,"arguments":[],"sources":[]}

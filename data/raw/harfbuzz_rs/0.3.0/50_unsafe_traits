@@ -1,0 +1,9 @@
+{"name":"<blob::Blob<'a> as common::HarfbuzzObject>"}
+{"name":"<buffer::GenericBuffer as common::HarfbuzzObject>"}
+{"name":"<common::Shared<T> as std::marker::Send>"}
+{"name":"<common::Shared<T> as std::marker::Sync>"}
+{"name":"<face::Face<'a> as common::HarfbuzzObject>"}
+{"name":"<font::Font<'a> as common::HarfbuzzObject>"}
+{"name":"<font_funcs::FontFuncsImpl<T> as common::HarfbuzzObject>"}
+{"name":"<font_funcs::FontFuncsImpl<T> as std::marker::Send>"}
+{"name":"<font_funcs::FontFuncsImpl<T> as std::marker::Sync>"}

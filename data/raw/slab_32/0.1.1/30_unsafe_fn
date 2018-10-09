@@ -1,0 +1,2 @@
+{"name":"<Slab<T>>::get_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 530","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<Slab<T>>::get_unchecked_mut","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 556","kind":{"UnsafeFnCall":"Rust"}}]}

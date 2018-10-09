@@ -1,0 +1,4 @@
+{"name":"<LDAP as std::marker::Sync>"}
+{"name":"<LDAP as std::marker::Send>"}
+{"name":"<RustLDAP as std::marker::Sync>"}
+{"name":"<RustLDAP as std::marker::Send>"}

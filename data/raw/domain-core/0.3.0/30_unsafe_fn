@@ -1,0 +1,9 @@
+{"name":"bits::charstr::CharStr::from_bytes_unchecked","from_trait":true,"arguments":[],"sources":[]}
+{"name":"bits::charstr::CharStrMut::from_bytes_unchecked","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<bits::compose::Compressor as bytes::BufMut>::advance_mut","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/bits/compose.rs\") line 564","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<bits::compose::Compressor as bytes::BufMut>::bytes_mut","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/bits/compose.rs\") line 571","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"bits::message::Message::from_bytes_unchecked","from_trait":true,"arguments":[],"sources":[]}
+{"name":"bits::name::builder::DnameBuilder::from_bytes","from_trait":true,"arguments":[],"sources":[]}
+{"name":"bits::name::dname::Dname::from_bytes_unchecked","from_trait":true,"arguments":[],"sources":[]}
+{"name":"bits::name::label::Label::from_slice_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/bits/name/label.rs\") line 45","kind":"DerefRawPointer"}]}
+{"name":"bits::name::relative::RelativeDname::from_bytes_unchecked","from_trait":true,"arguments":[],"sources":[]}

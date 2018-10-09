@@ -1,0 +1,6 @@
+{"name":"colorspace::Encoding::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"data::Data::from_raw_parts","from_trait":true,"arguments":[{"type_info":"type(*mut x264_nal_t)","kind":"RawPointer"}],"sources":[]}
+{"name":"encoder::Encoder::from_raw","from_trait":true,"arguments":[{"type_info":"type(*mut x264_t)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/encoder.rs\") line 21","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/encoder.rs\") line 22","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"encoder::Encoder::encode_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/encoder.rs\") line 52","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/encoder.rs\") line 53","kind":{"UnsafeFnCall":"C"}},{"loc":"file: Real(\"src/encoder.rs\") line 58","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/encoder.rs\") line 59","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/encoder.rs\") line 61","kind":{"UnsafeFnCall":"C"}},{"loc":"file: Real(\"src/encoder.rs\") line 72","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/encoder.rs\") line 73","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"image::Image::new_unchecked","from_trait":true,"arguments":[],"sources":[]}
+{"name":"picture::Picture::from_raw","from_trait":true,"arguments":[],"sources":[]}

@@ -1,0 +1,8 @@
+{"sources":[["493",[{"loc":"file: Real(\"src/errors.rs\") line 1","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["504",[{"loc":"file: Real(\"src/errors.rs\") line 1","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["561",[{"loc":"file: Real(\"src/errors.rs\") line 1","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["572",[{"loc":"file: Real(\"src/errors.rs\") line 1","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["78",[{"loc":"file: Real(\"src/unix.rs\") line 45","kind":{"UnsafeFnCall":"C"}}]],["89",[{"loc":"file: Real(\"src/unix.rs\") line 50","kind":{"UnsafeFnCall":"C"}}]],["96",[{"loc":"file: Real(\"src/unix.rs\") line 54","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["127",[{"loc":"file: Real(\"src/unix.rs\") line 68","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["167",[{"loc":"file: Real(\"src/unix.rs\") line 80","kind":"DerefRawPointer"}]]]}
+{"sources":[["258",[{"loc":"file: Real(\"src/unix.rs\") line 132","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["291",[{"loc":"file: Real(\"src/unix.rs\") line 168","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["307",[{"loc":"file: Real(\"src/unix.rs\") line 197","kind":{"UnsafeFnCall":"C"}}]]]}

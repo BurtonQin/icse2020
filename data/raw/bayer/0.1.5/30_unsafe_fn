@@ -1,0 +1,1 @@
+{"name":"ffi::transmute_raster_mut","from_trait":false,"arguments":[{"type_info":"type(*mut CRasterMut)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/ffi.rs\") line 28","kind":{"UnsafeFnCall":"RustIntrinsic"}},{"loc":"file: Real(\"src/ffi.rs\") line 29","kind":"DerefRawPointer"}]}

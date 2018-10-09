@@ -1,0 +1,3 @@
+{"name":"<ffi::util::VolatileCell<T>>::get","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/ffi/util.rs\") line 11","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<ffi::util::VolatileCell<T>>::set","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/ffi/util.rs\") line 14","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"event_handler::CONTEXT::__getit","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__thread_local_inner\") line 16","kind":{"UnsafeFnCall":"Rust"}}]}

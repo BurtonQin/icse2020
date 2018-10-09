@@ -1,0 +1,8 @@
+{"name":"<platform::platform::wayland::event_loop::EventsLoopSink as std::marker::Send>"}
+{"name":"<platform::platform::x11::window::XWindow as std::marker::Send>"}
+{"name":"<platform::platform::x11::window::XWindow as std::marker::Sync>"}
+{"name":"<platform::platform::x11::window::Window2 as std::marker::Send>"}
+{"name":"<platform::platform::x11::window::Window2 as std::marker::Sync>"}
+{"name":"<platform::platform::x11::xdisplay::XConnection as std::marker::Send>"}
+{"name":"<platform::platform::x11::xdisplay::XConnection as std::marker::Sync>"}
+{"name":"<platform::platform::x11::WindowData as std::marker::Send>"}

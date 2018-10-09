@@ -1,0 +1,3 @@
+{"name":"zmq_free_fn","from_trait":false,"arguments":[{"type_info":"type(*mut c_void)","kind":"RawPointer"},{"type_info":"type(*mut c_void)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 267","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/lib.rs\") line 268","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"Message::get_data_ptr","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 380","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"Message::get_const_data_ptr","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 389","kind":{"UnsafeFnCall":"RustIntrinsic"}},{"loc":"file: Real(\"src/lib.rs\") line 389","kind":{"UnsafeFnCall":"C"}}]}

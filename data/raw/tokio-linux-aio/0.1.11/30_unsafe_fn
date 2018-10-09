@@ -1,0 +1,4 @@
+{"name":"aio::io_setup","from_trait":false,"arguments":[{"type_info":"type(*mut aio_context_t)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/aio.rs\") line 41","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"aio::io_destroy","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/aio.rs\") line 49","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"aio::io_submit","from_trait":false,"arguments":[{"type_info":"type(*mut *mut iocb)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/aio.rs\") line 57","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"aio::io_getevents","from_trait":false,"arguments":[{"type_info":"type(*mut io_event)","kind":"RawPointer"},{"type_info":"type(*mut timespec)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/aio.rs\") line 71","kind":{"UnsafeFnCall":"C"}}]}

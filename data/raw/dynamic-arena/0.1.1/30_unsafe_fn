@@ -1,0 +1,3 @@
+{"name":"bytes::ByteArena::alloc_uninitialized","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/bytes.rs\") line 67","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<DynamicArena<'a, S>>::alloc_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 161","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/lib.rs\") line 162","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/lib.rs\") line 163","kind":"DerefRawPointer"}]}
+{"name":"<DynamicArena<'a, S>>::dynamic_drop","from_trait":true,"arguments":[{"type_info":"type(*mut T)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 181","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}

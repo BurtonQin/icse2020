@@ -1,0 +1,4 @@
+{"sources":[["3784",[{"loc":"file: Macros(\"__lazy_static_internal\") line 14","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["895",[{"loc":"file: Real(\"src/header.rs\") line 21","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["1296",[{"loc":"file: Real(\"src/pool.rs\") line 94","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/pool.rs\") line 94","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["2424",[{"loc":"file: Real(\"src/response.rs\") line 532","kind":"DerefRawPointer"}]]]}

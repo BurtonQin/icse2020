@@ -1,0 +1,5 @@
+{"sources":[["1465",[{"loc":"file: Real(\"src/gui/hex/hex_grid.rs\") line 268","kind":"DerefRawPointer"}]]]}
+{"sources":[["1492",[{"loc":"file: Real(\"src/gui/hex/hex_grid.rs\") line 278","kind":"DerefRawPointer"}]]]}
+{"sources":[["1514",[{"loc":"file: Real(\"src/gui/hex/hex_grid.rs\") line 283","kind":"DerefRawPointer"}]]]}
+{"sources":[["2026",[{"loc":"file: Real(\"src/gui/hex/info_line.rs\") line 36","kind":{"UnsafeFnCall":"C"}}]],["2062",[{"loc":"file: Real(\"src/gui/hex/info_line.rs\") line 42","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["3394",[{"loc":"file: Real(\"src/gui/hex/search.rs\") line 361","kind":{"UnsafeFnCall":"Rust"}}]]]}

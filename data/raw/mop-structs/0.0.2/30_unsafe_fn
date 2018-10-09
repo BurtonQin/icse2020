@@ -1,0 +1,3 @@
+{"name":"<cuboid::csr_cuboid::csr_cuboid_alloc::CsrCuboidAlloc<T>>::new_unchecked","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<cuboid::csr_cuboid::csr_cuboid_layer_constructor::CsrCuboidLayerConstructor<'a, T>>::set_value_unchecked","from_trait":true,"arguments":[],"sources":[]}
+{"name":"vec::cs_vec::CsVec::get_unchecked","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/vec/cs_vec/mod.rs\") line 23","kind":{"UnsafeFnCall":"Rust"}}]}

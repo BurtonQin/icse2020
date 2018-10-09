@@ -1,0 +1,1 @@
+{"name":"llvm::Value::llvm_slice::size_of_value_is_size_of_value_ref","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/llvm.rs\") line 73","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}

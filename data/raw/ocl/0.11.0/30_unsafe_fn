@@ -1,0 +1,8 @@
+{"name":"<standard::buffer::BufferCmd<'b, T>>::read_async","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<standard::image::ImageBuilder<S>>::image_desc","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<standard::image::ImageCmd<'b, E>>::pitch","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<standard::image::ImageCmd<'b, E>>::read_async","from_trait":true,"arguments":[],"sources":[]}
+{"name":"standard::event::Event::from_core","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<standard::event::Event as core::ClWaitList>::as_ptr_ptr","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/ocl-0.11.0/src/standard/event.rs\") line 154","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"standard::event::EventList::set_callback","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/ocl-0.11.0/src/standard/event.rs\") line 248","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<standard::event::EventList as core::ClWaitList>::as_ptr_ptr","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/ocl-0.11.0/src/standard/event.rs\") line 314","kind":{"UnsafeFnCall":"Rust"}}]}

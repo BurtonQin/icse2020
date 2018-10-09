@@ -1,0 +1,2 @@
+{"name":"heap_size_of","from_trait":false,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/heapsize-0.3.9/src/lib.rs\") line 36","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"heap_size_of_impl","from_trait":false,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/heapsize-0.3.9/src/lib.rs\") line 50","kind":{"UnsafeFnCall":"C"}}]}

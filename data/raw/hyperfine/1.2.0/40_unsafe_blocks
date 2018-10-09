@@ -1,0 +1,4 @@
+{"sources":[["3821",[{"loc":"file: Real(\"src/hyperfine/format.rs\") line 3","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["3832",[{"loc":"file: Real(\"src/hyperfine/format.rs\") line 3","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["4563",[{"loc":"file: Real(\"src/hyperfine/timer/unix_timer.rs\") line 45","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/hyperfine/timer/unix_timer.rs\") line 46","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["4895",[{"loc":"file: Real(\"src/hyperfine/types.rs\") line 54","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["4906",[{"loc":"file: Real(\"src/hyperfine/types.rs\") line 54","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["5025",[{"loc":"file: Real(\"src/hyperfine/types.rs\") line 64","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["5036",[{"loc":"file: Real(\"src/hyperfine/types.rs\") line 64","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}

@@ -1,0 +1,10 @@
+{"name":"client::Client::set_process_handler::process_callback","from_trait":false,"arguments":[{"type_info":"type(*mut libc::c_void)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/client.rs\") line 279","kind":"DerefRawPointer"}]}
+{"name":"client::Client::set_metadata_handler::srate_callback","from_trait":false,"arguments":[{"type_info":"type(*mut libc::c_void)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/client.rs\") line 318","kind":"DerefRawPointer"}]}
+{"name":"client::Client::set_metadata_handler::connect_callback","from_trait":false,"arguments":[{"type_info":"type(*mut libc::c_void)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/client.rs\") line 334","kind":"DerefRawPointer"}]}
+{"name":"port::UnknownPortHandle::force_as_input","from_trait":true,"arguments":[],"sources":[]}
+{"name":"port::UnknownPortHandle::force_as_output","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<port::UnknownPortHandle as port::Port>::get_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<port::InputPortHandle<SampleType> as port::Port>::get_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<port::OutputPortHandle<SampleType> as port::Port>::get_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"midi::MidiEventBuf::new","from_trait":true,"arguments":[{"type_info":"type(*mut libc::c_void)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/midi.rs\") line 22","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"midi::MidiEventRef::new","from_trait":true,"arguments":[],"sources":[]}

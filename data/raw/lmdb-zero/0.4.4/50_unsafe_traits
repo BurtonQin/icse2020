@@ -1,0 +1,96 @@
+{"name":"<env::EnvHandle as std::marker::Sync>"}
+{"name":"<env::EnvHandle as std::marker::Send>"}
+{"name":"<T as traits::LmdbRawIfUnaligned>"}
+{"name":"<T as traits::LmdbOrdKeyIfUnaligned>"}
+{"name":"<u8 as traits::LmdbRaw>"}
+{"name":"<u8 as traits::LmdbOrdKey>"}
+{"name":"<i8 as traits::LmdbRaw>"}
+{"name":"<i8 as traits::LmdbOrdKey>"}
+{"name":"<u16 as traits::LmdbRawIfUnaligned>"}
+{"name":"<u16 as traits::LmdbOrdKeyIfUnaligned>"}
+{"name":"<i16 as traits::LmdbRawIfUnaligned>"}
+{"name":"<i16 as traits::LmdbOrdKeyIfUnaligned>"}
+{"name":"<u32 as traits::LmdbRawIfUnaligned>"}
+{"name":"<u32 as traits::LmdbOrdKeyIfUnaligned>"}
+{"name":"<i32 as traits::LmdbRawIfUnaligned>"}
+{"name":"<i32 as traits::LmdbOrdKeyIfUnaligned>"}
+{"name":"<u64 as traits::LmdbRawIfUnaligned>"}
+{"name":"<u64 as traits::LmdbOrdKeyIfUnaligned>"}
+{"name":"<i64 as traits::LmdbRawIfUnaligned>"}
+{"name":"<i64 as traits::LmdbOrdKeyIfUnaligned>"}
+{"name":"<f32 as traits::LmdbRawIfUnaligned>"}
+{"name":"<f64 as traits::LmdbRawIfUnaligned>"}
+{"name":"<[V; _] as traits::LmdbRaw>"}
+{"name":"<[V; _] as traits::LmdbOrdKey>"}
+{"name":"<[V; _] as traits::LmdbRaw>"}
+{"name":"<[V; _] as traits::LmdbOrdKey>"}
+{"name":"<[V; _] as traits::LmdbRaw>"}
+{"name":"<[V; _] as traits::LmdbOrdKey>"}
+{"name":"<[V; _] as traits::LmdbRaw>"}
+{"name":"<[V; _] as traits::LmdbOrdKey>"}
+{"name":"<[V; _] as traits::LmdbRaw>"}
+{"name":"<[V; _] as traits::LmdbOrdKey>"}
+{"name":"<[V; _] as traits::LmdbRaw>"}
+{"name":"<[V; _] as traits::LmdbOrdKey>"}
+{"name":"<[V; _] as traits::LmdbRaw>"}
+{"name":"<[V; _] as traits::LmdbOrdKey>"}
+{"name":"<[V; _] as traits::LmdbRaw>"}
+{"name":"<[V; _] as traits::LmdbOrdKey>"}
+{"name":"<[V; _] as traits::LmdbRaw>"}
+{"name":"<[V; _] as traits::LmdbOrdKey>"}
+{"name":"<[V; _] as traits::LmdbRaw>"}
+{"name":"<[V; _] as traits::LmdbOrdKey>"}
+{"name":"<[V; _] as traits::LmdbRaw>"}
+{"name":"<[V; _] as traits::LmdbOrdKey>"}
+{"name":"<[V; _] as traits::LmdbRaw>"}
+{"name":"<[V; _] as traits::LmdbOrdKey>"}
+{"name":"<[V; _] as traits::LmdbRaw>"}
+{"name":"<[V; _] as traits::LmdbOrdKey>"}
+{"name":"<[V; _] as traits::LmdbRaw>"}
+{"name":"<[V; _] as traits::LmdbOrdKey>"}
+{"name":"<[V; _] as traits::LmdbRaw>"}
+{"name":"<[V; _] as traits::LmdbOrdKey>"}
+{"name":"<[V; _] as traits::LmdbRaw>"}
+{"name":"<[V; _] as traits::LmdbOrdKey>"}
+{"name":"<[V; _] as traits::LmdbRaw>"}
+{"name":"<[V; _] as traits::LmdbOrdKey>"}
+{"name":"<[V; _] as traits::LmdbRaw>"}
+{"name":"<[V; _] as traits::LmdbOrdKey>"}
+{"name":"<[V; _] as traits::LmdbRaw>"}
+{"name":"<[V; _] as traits::LmdbOrdKey>"}
+{"name":"<[V; _] as traits::LmdbRaw>"}
+{"name":"<[V; _] as traits::LmdbOrdKey>"}
+{"name":"<[V; _] as traits::LmdbRaw>"}
+{"name":"<[V; _] as traits::LmdbOrdKey>"}
+{"name":"<[V; _] as traits::LmdbRaw>"}
+{"name":"<[V; _] as traits::LmdbOrdKey>"}
+{"name":"<[V; _] as traits::LmdbRaw>"}
+{"name":"<[V; _] as traits::LmdbOrdKey>"}
+{"name":"<[V; _] as traits::LmdbRaw>"}
+{"name":"<[V; _] as traits::LmdbOrdKey>"}
+{"name":"<[V; _] as traits::LmdbRaw>"}
+{"name":"<[V; _] as traits::LmdbOrdKey>"}
+{"name":"<[V; _] as traits::LmdbRaw>"}
+{"name":"<[V; _] as traits::LmdbOrdKey>"}
+{"name":"<[V; _] as traits::LmdbRaw>"}
+{"name":"<[V; _] as traits::LmdbOrdKey>"}
+{"name":"<[V; _] as traits::LmdbRaw>"}
+{"name":"<[V; _] as traits::LmdbOrdKey>"}
+{"name":"<[V; _] as traits::LmdbRaw>"}
+{"name":"<[V; _] as traits::LmdbOrdKey>"}
+{"name":"<[V; _] as traits::LmdbRaw>"}
+{"name":"<[V; _] as traits::LmdbOrdKey>"}
+{"name":"<[V; _] as traits::LmdbRaw>"}
+{"name":"<[V; _] as traits::LmdbOrdKey>"}
+{"name":"<[V; _] as traits::LmdbRaw>"}
+{"name":"<[V; _] as traits::LmdbOrdKey>"}
+{"name":"<[V; _] as traits::LmdbRaw>"}
+{"name":"<[V; _] as traits::LmdbOrdKey>"}
+{"name":"<std::num::Wrapping<V> as traits::LmdbRawIfUnaligned>"}
+{"name":"<std::num::Wrapping<V> as traits::LmdbOrdKeyIfUnaligned>"}
+{"name":"<() as traits::LmdbRaw>"}
+{"name":"<[V] as traits::LmdbOrdKey>"}
+{"name":"<std::ffi::CStr as traits::LmdbOrdKey>"}
+{"name":"<str as traits::LmdbOrdKey>"}
+{"name":"<unaligned::Unaligned<T> as traits::LmdbRaw>"}
+{"name":"<unaligned::Unaligned<T> as traits::LmdbOrdKey>"}

@@ -1,0 +1,2 @@
+{"name":"linux::unregister","from_trait":false,"arguments":[{"type_info":"type(*mut Display)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/linux/mod.rs\") line 57","kind":{"UnsafeFnCall":"C"}},{"loc":"file: Real(\"src/linux/mod.rs\") line 58","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"linux::handle_error","from_trait":false,"arguments":[{"type_info":"type(*mut Display)","kind":"RawPointer"},{"type_info":"type(*mut XErrorEvent)","kind":"RawPointer"}],"sources":[]}

@@ -1,0 +1,1 @@
+{"name":"mpfr::impl_basic::<impl mpfr::def::Mpfr>::uninitialized","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/mpfr/impl_basic.rs\") line 16","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/mpfr/impl_basic.rs\") line 17","kind":{"UnsafeFnCall":"C"}}]}

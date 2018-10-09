@@ -1,0 +1,6 @@
+{"name":"interrupt::enable","node_id":"142","location":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/cortex-m-0.4.3/src/interrupt.rs\") line 24"}
+{"name":"register::basepri::write","node_id":"3553","location":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/cortex-m-0.4.3/src/register/basepri.rs\") line 26"}
+{"name":"register::lr::write","node_id":"3789","location":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/cortex-m-0.4.3/src/register/lr.rs\") line 21"}
+{"name":"register::msp::write","node_id":"3806","location":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/cortex-m-0.4.3/src/register/msp.rs\") line 21"}
+{"name":"register::pc::write","node_id":"3823","location":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/cortex-m-0.4.3/src/register/pc.rs\") line 21"}
+{"name":"register::psp::write","node_id":"3875","location":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/cortex-m-0.4.3/src/register/psp.rs\") line 21"}

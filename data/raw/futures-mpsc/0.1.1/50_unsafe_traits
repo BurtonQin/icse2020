@@ -1,0 +1,4 @@
+{"name":"<queue::Queue<T> as std::marker::Send>"}
+{"name":"<queue::Queue<T> as std::marker::Sync>"}
+{"name":"<Inner<T> as std::marker::Send>"}
+{"name":"<Inner<T> as std::marker::Sync>"}

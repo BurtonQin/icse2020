@@ -1,0 +1,22 @@
+{"name":"readable::Readable::speedy_slice_as_bytes_mut","from_trait":false,"arguments":[],"sources":[]}
+{"name":"readable_impl::<impl readable::Readable<'a, C> for i8>::speedy_slice_as_bytes_mut","from_trait":true,"arguments":[],"sources":[]}
+{"name":"readable_impl::<impl readable::Readable<'a, C> for i16>::speedy_slice_as_bytes_mut","from_trait":true,"arguments":[],"sources":[]}
+{"name":"readable_impl::<impl readable::Readable<'a, C> for i32>::speedy_slice_as_bytes_mut","from_trait":true,"arguments":[],"sources":[]}
+{"name":"readable_impl::<impl readable::Readable<'a, C> for i64>::speedy_slice_as_bytes_mut","from_trait":true,"arguments":[],"sources":[]}
+{"name":"readable_impl::<impl readable::Readable<'a, C> for u8>::speedy_slice_as_bytes_mut","from_trait":true,"arguments":[],"sources":[]}
+{"name":"readable_impl::<impl readable::Readable<'a, C> for u16>::speedy_slice_as_bytes_mut","from_trait":true,"arguments":[],"sources":[]}
+{"name":"readable_impl::<impl readable::Readable<'a, C> for u32>::speedy_slice_as_bytes_mut","from_trait":true,"arguments":[],"sources":[]}
+{"name":"readable_impl::<impl readable::Readable<'a, C> for u64>::speedy_slice_as_bytes_mut","from_trait":true,"arguments":[],"sources":[]}
+{"name":"readable_impl::<impl readable::Readable<'a, C> for f32>::speedy_slice_as_bytes_mut","from_trait":true,"arguments":[],"sources":[]}
+{"name":"readable_impl::<impl readable::Readable<'a, C> for f64>::speedy_slice_as_bytes_mut","from_trait":true,"arguments":[],"sources":[]}
+{"name":"writable::Writable::speedy_slice_as_bytes","from_trait":false,"arguments":[],"sources":[]}
+{"name":"writable_impl::<impl writable::Writable<C> for i8>::speedy_slice_as_bytes","from_trait":true,"arguments":[],"sources":[]}
+{"name":"writable_impl::<impl writable::Writable<C> for i16>::speedy_slice_as_bytes","from_trait":true,"arguments":[],"sources":[]}
+{"name":"writable_impl::<impl writable::Writable<C> for i32>::speedy_slice_as_bytes","from_trait":true,"arguments":[],"sources":[]}
+{"name":"writable_impl::<impl writable::Writable<C> for i64>::speedy_slice_as_bytes","from_trait":true,"arguments":[],"sources":[]}
+{"name":"writable_impl::<impl writable::Writable<C> for u8>::speedy_slice_as_bytes","from_trait":true,"arguments":[],"sources":[]}
+{"name":"writable_impl::<impl writable::Writable<C> for u16>::speedy_slice_as_bytes","from_trait":true,"arguments":[],"sources":[]}
+{"name":"writable_impl::<impl writable::Writable<C> for u32>::speedy_slice_as_bytes","from_trait":true,"arguments":[],"sources":[]}
+{"name":"writable_impl::<impl writable::Writable<C> for u64>::speedy_slice_as_bytes","from_trait":true,"arguments":[],"sources":[]}
+{"name":"writable_impl::<impl writable::Writable<C> for f32>::speedy_slice_as_bytes","from_trait":true,"arguments":[],"sources":[]}
+{"name":"writable_impl::<impl writable::Writable<C> for f64>::speedy_slice_as_bytes","from_trait":true,"arguments":[],"sources":[]}

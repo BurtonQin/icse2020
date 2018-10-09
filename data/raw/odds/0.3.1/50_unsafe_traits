@@ -1,0 +1,47 @@
+{"name":"<[T; _] as slice::blocked::Block>"}
+{"name":"<[T; _] as slice::blocked::Block>"}
+{"name":"<[T; _] as slice::blocked::Block>"}
+{"name":"<[T; _] as slice::blocked::Block>"}
+{"name":"<[T; _] as slice::blocked::Block>"}
+{"name":"<[T; _] as slice::blocked::Block>"}
+{"name":"<[T; _] as slice::blocked::Block>"}
+{"name":"<[T; _] as slice::blocked::Block>"}
+{"name":"<[T; _] as slice::blocked::Block>"}
+{"name":"<[T; _] as slice::blocked::Block>"}
+{"name":"<[T; _] as slice::blocked::Block>"}
+{"name":"<[T; _] as slice::blocked::Block>"}
+{"name":"<[T; _] as slice::blocked::Block>"}
+{"name":"<[T; _] as slice::blocked::Block>"}
+{"name":"<[T; _] as slice::blocked::Block>"}
+{"name":"<[T; _] as slice::blocked::Block>"}
+{"name":"<u8 as slice::Pod>"}
+{"name":"<u16 as slice::Pod>"}
+{"name":"<u32 as slice::Pod>"}
+{"name":"<u64 as slice::Pod>"}
+{"name":"<usize as slice::Pod>"}
+{"name":"<i8 as slice::Pod>"}
+{"name":"<i16 as slice::Pod>"}
+{"name":"<i32 as slice::Pod>"}
+{"name":"<i64 as slice::Pod>"}
+{"name":"<isize as slice::Pod>"}
+{"name":"<[T; _] as slice::Pod>"}
+{"name":"<[T; _] as slice::Pod>"}
+{"name":"<[T; _] as slice::Pod>"}
+{"name":"<[T; _] as slice::Pod>"}
+{"name":"<[T; _] as slice::Pod>"}
+{"name":"<[T; _] as slice::Pod>"}
+{"name":"<[T; _] as slice::Pod>"}
+{"name":"<[T; _] as slice::Pod>"}
+{"name":"<[T; _] as slice::Pod>"}
+{"name":"<[T; _] as slice::Pod>"}
+{"name":"<[T; _] as slice::Pod>"}
+{"name":"<[T; _] as slice::Pod>"}
+{"name":"<[T; _] as slice::Pod>"}
+{"name":"<[T; _] as slice::Pod>"}
+{"name":"<[T; _] as slice::Pod>"}
+{"name":"<[T; _] as slice::Pod>"}
+{"name":"<[T; _] as slice::Pod>"}
+{"name":"<stride::Stride<'a, A> as core::marker::Send>"}
+{"name":"<stride::Stride<'a, A> as core::marker::Sync>"}
+{"name":"<stride::StrideMut<'a, A> as core::marker::Send>"}
+{"name":"<stride::StrideMut<'a, A> as core::marker::Sync>"}

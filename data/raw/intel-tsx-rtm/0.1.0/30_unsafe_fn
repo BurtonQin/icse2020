@@ -1,0 +1,4 @@
+{"name":"intrinsics::_xbegin","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/intrinsics/mod.rs\") line 62","kind":"Asm"}]}
+{"name":"intrinsics::_xend","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/intrinsics/mod.rs\") line 83","kind":"Asm"}]}
+{"name":"intrinsics::_xabort","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/intrinsics/mod.rs\") line 105","kind":"Asm"}]}
+{"name":"intrinsics::_xtest","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/intrinsics/mod.rs\") line 126","kind":"Asm"}]}

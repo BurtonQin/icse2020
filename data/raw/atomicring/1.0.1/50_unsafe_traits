@@ -1,0 +1,4 @@
+{"name":"<atomic_ring::AtomicRingBuffer<T> as std::marker::Send>"}
+{"name":"<atomic_ring::AtomicRingBuffer<T> as std::marker::Sync>"}
+{"name":"<atomic_queue::AtomicRingQueue<T> as std::marker::Send>"}
+{"name":"<atomic_queue::AtomicRingQueue<T> as std::marker::Sync>"}

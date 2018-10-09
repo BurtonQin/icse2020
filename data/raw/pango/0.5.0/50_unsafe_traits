@@ -1,0 +1,12 @@
+{"name":"<auto::context::Context as glib::IsA<glib::Object>>"}
+{"name":"<auto::engine_lang::EngineLang as glib::IsA<glib::Object>>"}
+{"name":"<auto::engine_shape::EngineShape as glib::IsA<glib::Object>>"}
+{"name":"<auto::font::Font as glib::IsA<glib::Object>>"}
+{"name":"<auto::font_face::FontFace as glib::IsA<glib::Object>>"}
+{"name":"<auto::font_family::FontFamily as glib::IsA<glib::Object>>"}
+{"name":"<auto::font_map::FontMap as glib::IsA<glib::Object>>"}
+{"name":"<auto::fontset::Fontset as glib::IsA<glib::Object>>"}
+{"name":"<auto::fontset_simple::FontsetSimple as glib::IsA<auto::fontset::Fontset>>"}
+{"name":"<auto::fontset_simple::FontsetSimple as glib::IsA<glib::Object>>"}
+{"name":"<auto::layout::Layout as glib::IsA<glib::Object>>"}
+{"name":"<auto::renderer::Renderer as glib::IsA<glib::Object>>"}

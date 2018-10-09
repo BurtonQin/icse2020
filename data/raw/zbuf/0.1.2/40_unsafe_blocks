@@ -1,0 +1,16 @@
+{"sources":[["174",[{"loc":"file: Real(\"heap_data.rs\") line 22","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["196",[{"loc":"file: Real(\"heap_data.rs\") line 31","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["293",[{"loc":"file: Real(\"heap_data.rs\") line 62","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"heap_data.rs\") line 63","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["325",[{"loc":"file: Real(\"heap_data.rs\") line 77","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["380",[{"loc":"file: Real(\"heap_data.rs\") line 101","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["584",[{"loc":"file: Real(\"heap_data.rs\") line 193","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["605",[{"loc":"file: Real(\"heap_data.rs\") line 201","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["878",[{"loc":"file: Real(\"bytesbuf.rs\") line 185","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"bytesbuf.rs\") line 186","kind":{"UnsafeFnCall":"Rust"}}]],["932",[{"loc":"file: Real(\"bytesbuf.rs\") line 200","kind":"DerefRawPointer"}]]]}
+{"sources":[["1160",[{"loc":"file: Real(\"bytesbuf.rs\") line 356","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["1232",[{"loc":"file: Real(\"bytesbuf.rs\") line 394","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["1307",[{"loc":"file: Real(\"bytesbuf.rs\") line 480","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["1391",[{"loc":"file: Real(\"bytesbuf.rs\") line 554","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["1544",[{"loc":"file: Real(\"bytesbuf.rs\") line 618","kind":"DerefRawPointer"}]],["1578",[{"loc":"file: Real(\"bytesbuf.rs\") line 630","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"bytesbuf.rs\") line 631","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["2619",[{"loc":"file: Real(\"strbuf.rs\") line 546","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["2639",[{"loc":"file: Real(\"strbuf.rs\") line 558","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["3780",[{"loc":"file: Real(\"utf8_decoder.rs\") line 302","kind":{"UnsafeFnCall":"Rust"}}]]]}

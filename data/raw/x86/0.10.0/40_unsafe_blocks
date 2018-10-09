@@ -1,0 +1,12 @@
+{"sources":[["1922",[{"loc":"file: Real(\"src/bits64/registers.rs\") line 6","kind":"Asm"}]]]}
+{"sources":[["1932",[{"loc":"file: Real(\"src/bits64/registers.rs\") line 16","kind":"Asm"}]]]}
+{"sources":[["1943",[{"loc":"file: Real(\"src/bits64/registers.rs\") line 26","kind":"Asm"}]]]}
+{"sources":[["2745",[{"loc":"file: Real(\"src/dtables.rs\") line 43","kind":"BorrowPacked"},{"loc":"file: Real(\"src/dtables.rs\") line 43","kind":"BorrowPacked"}]]]}
+{"sources":[["31577",[{"loc":"file: Real(\"src/segmentation.rs\") line 82","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["31588",[{"loc":"file: Real(\"src/segmentation.rs\") line 82","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["31802",[{"loc":"file: Real(\"src/segmentation.rs\") line 105","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["31813",[{"loc":"file: Real(\"src/segmentation.rs\") line 105","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["32087",[{"loc":"file: Real(\"src/segmentation.rs\") line 128","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["32098",[{"loc":"file: Real(\"src/segmentation.rs\") line 128","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["32324",[{"loc":"file: Real(\"src/segmentation.rs\") line 151","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["32335",[{"loc":"file: Real(\"src/segmentation.rs\") line 151","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["32549",[{"loc":"file: Real(\"src/segmentation.rs\") line 172","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["32560",[{"loc":"file: Real(\"src/segmentation.rs\") line 172","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["32631",[{"loc":"file: Real(\"src/segmentation.rs\") line 172","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["32656",[{"loc":"file: Real(\"src/segmentation.rs\") line 172","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["32667",[{"loc":"file: Real(\"src/segmentation.rs\") line 172","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["32738",[{"loc":"file: Real(\"src/segmentation.rs\") line 172","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["7338",[{"loc":"file: Real(\"src/segmentation.rs\") line 563","kind":"Asm"}]]]}
+{"sources":[["33308",[{"loc":"file: Real(\"src/lib.rs\") line 68","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["33319",[{"loc":"file: Real(\"src/lib.rs\") line 68","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}

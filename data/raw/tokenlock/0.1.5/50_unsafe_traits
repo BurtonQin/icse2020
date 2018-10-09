@@ -1,0 +1,4 @@
+{"name":"<Token as std::marker::Send>"}
+{"name":"<Token as std::marker::Sync>"}
+{"name":"<TokenLock<T> as std::marker::Send>"}
+{"name":"<TokenLock<T> as std::marker::Sync>"}

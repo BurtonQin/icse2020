@@ -1,0 +1,2 @@
+{"name":"asymmetric::Handle::from_raw","from_trait":true,"arguments":[{"type_info":"type(*mut Coroutine)","kind":"RawPointer"}],"sources":[]}
+{"name":"try","from_trait":false,"arguments":[],"sources":[]}

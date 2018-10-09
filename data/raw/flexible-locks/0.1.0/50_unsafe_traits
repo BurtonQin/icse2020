@@ -1,0 +1,5 @@
+{"name":"<os::RawOsMutex<T> as core::marker::Send>"}
+{"name":"<os::RawOsMutex<T> as core::marker::Sync>"}
+{"name":"<Mutex<T> as core::marker::Send>"}
+{"name":"<Mutex<T> as core::marker::Sync>"}
+{"name":"<MutexGuard<'a, T> as core::marker::Sync>"}

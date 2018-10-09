@@ -1,0 +1,11 @@
+{"name":"<client::async_client::AsyncClient<N, P> as std::marker::Send>"}
+{"name":"<client::client::Client as std::marker::Send>"}
+{"name":"<ringbuffer::RingBufferReader as std::marker::Send>"}
+{"name":"<ringbuffer::RingBufferWriter as std::marker::Send>"}
+{"name":"<port::audio::AudioOut as port::port::PortSpec>"}
+{"name":"<port::audio::AudioIn as port::port::PortSpec>"}
+{"name":"<port::midi::MidiIn as port::port::PortSpec>"}
+{"name":"<port::midi::MidiOut as port::port::PortSpec>"}
+{"name":"<port::port::Port<PS> as std::marker::Send>"}
+{"name":"<port::port::Port<PS> as std::marker::Sync>"}
+{"name":"<port::port::Unowned as port::port::PortSpec>"}

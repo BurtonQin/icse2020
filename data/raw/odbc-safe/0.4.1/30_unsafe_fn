@@ -1,0 +1,4 @@
+{"name":"handles::hdbc::HDbc::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"handles::hstmt::HStmt::bind_input_parameter","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/odbc-safe-0.4.1/src/handles/hstmt.rs\") line 125","kind":{"UnsafeFnCall":"System"}}]}
+{"name":"handles::hstmt::HStmt::bind_col","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/odbc-safe-0.4.1/src/handles/hstmt.rs\") line 177","kind":{"UnsafeFnCall":"System"}}]}
+{"name":"<data_source::DataSource<'env, Any>>::from_raw","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/odbc-safe-0.4.1/src/data_source/mod.rs\") line 56","kind":{"UnsafeFnCall":"Rust"}}]}

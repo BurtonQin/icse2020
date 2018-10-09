@@ -1,0 +1,3 @@
+{"name":"<TypedArena<T> as std::ops::Drop>"}
+{"name":"<TypedArena<T> as std::marker::Send>"}
+{"name":"<DroplessArena as std::marker::Send>"}

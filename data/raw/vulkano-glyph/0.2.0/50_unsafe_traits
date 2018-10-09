@@ -1,0 +1,9 @@
+{"name":"<draw::Vertex as vulkano::pipeline::vertex::Vertex>"}
+{"name":"<draw::vs::MainInput as vulkano::pipeline::shader::ShaderInterfaceDef>"}
+{"name":"<draw::vs::MainOutput as vulkano::pipeline::shader::ShaderInterfaceDef>"}
+{"name":"<draw::vs::Layout as vulkano::descriptor::pipeline_layout::PipelineLayoutDesc>"}
+{"name":"<draw::vs::SpecializationConstants as vulkano::pipeline::shader::SpecializationConstants>"}
+{"name":"<draw::fs::MainInput as vulkano::pipeline::shader::ShaderInterfaceDef>"}
+{"name":"<draw::fs::MainOutput as vulkano::pipeline::shader::ShaderInterfaceDef>"}
+{"name":"<draw::fs::Layout as vulkano::descriptor::pipeline_layout::PipelineLayoutDesc>"}
+{"name":"<draw::fs::SpecializationConstants as vulkano::pipeline::shader::SpecializationConstants>"}

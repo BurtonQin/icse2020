@@ -1,0 +1,11 @@
+{"sources":[["2100",[{"loc":"file: Real(\"src/event_buffer.rs\") line 97","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["2171",[{"loc":"file: Real(\"src/event_buffer.rs\") line 113","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["2808",[{"loc":"file: Real(\"src/sys/unix/epoll.rs\") line 180","kind":{"UnsafeFnCall":"Rust"}}]],["2824",[{"loc":"file: Real(\"src/sys/unix/epoll.rs\") line 189","kind":{"UnsafeFnCall":"Rust"}}]],["2772",[{"loc":"file: Real(\"src/sys/unix/epoll.rs\") line 194","kind":"BorrowPacked"},{"loc":"file: Real(\"src/sys/unix/epoll.rs\") line 197","kind":"BorrowPacked"}]]]}
+{"sources":[["2916",[{"loc":"file: Real(\"src/sys/unix/epoll.rs\") line 215","kind":{"UnsafeFnCall":"Rust"}}]],["2930",[{"loc":"file: Real(\"src/sys/unix/epoll.rs\") line 224","kind":{"UnsafeFnCall":"Rust"}}]],["2875",[{"loc":"file: Real(\"src/sys/unix/epoll.rs\") line 231","kind":"BorrowPacked"},{"loc":"file: Real(\"src/sys/unix/epoll.rs\") line 234","kind":"BorrowPacked"}]]]}
+{"sources":[["3616",[{"loc":"file: Real(\"src/sys/from_raw_arc.rs\") line 45","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["3649",[{"loc":"file: Real(\"src/sys/from_raw_arc.rs\") line 59","kind":"DerefRawPointer"}]]]}
+{"sources":[["3667",[{"loc":"file: Real(\"src/sys/from_raw_arc.rs\") line 65","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/sys/from_raw_arc.rs\") line 69","kind":"DerefRawPointer"}]]]}
+{"sources":[["3733",[{"loc":"file: Real(\"src/sys/from_raw_arc.rs\") line 91","kind":"DerefRawPointer"}]]]}
+{"sources":[["3755",[{"loc":"file: Real(\"src/sys/from_raw_arc.rs\") line 97","kind":"DerefRawPointer"}]]]}
+{"sources":[["3775",[{"loc":"file: Real(\"src/sys/from_raw_arc.rs\") line 105","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/sys/from_raw_arc.rs\") line 110","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["3845",[{"loc":"file: Real(\"src/sys/mod.rs\") line 50","kind":{"UnsafeFnCall":"Rust"}}]]]}

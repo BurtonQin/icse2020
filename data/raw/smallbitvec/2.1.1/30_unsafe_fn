@@ -1,0 +1,3 @@
+{"name":"SmallBitVec::get_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 279","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"SmallBitVec::set_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 306","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/lib.rs\") line 308","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"SmallBitVec::set_len","from_trait":true,"arguments":[],"sources":[]}

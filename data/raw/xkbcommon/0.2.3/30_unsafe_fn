@@ -1,0 +1,4 @@
+{"name":"xkb::Context::from_raw_ptr","from_trait":true,"arguments":[{"type_info":"type(*mut xkb_context)","kind":"RawPointer"}],"sources":[]}
+{"name":"xkb::Keymap::from_raw_ptr","from_trait":true,"arguments":[{"type_info":"type(*mut xkb_keymap)","kind":"RawPointer"}],"sources":[]}
+{"name":"xkb::Keymap::key_for_each::callback","from_trait":false,"arguments":[{"type_info":"type(*mut ffi::xkb_keymap)","kind":"RawPointer"},{"type_info":"type(*mut raw::c_void)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/xkbcommon-0.2.3/src/xkb/mod.rs\") line 809","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/xkbcommon-0.2.3/src/xkb/mod.rs\") line 809","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"xkb::State::from_raw_ptr","from_trait":true,"arguments":[{"type_info":"type(*mut xkb_state)","kind":"RawPointer"}],"sources":[]}

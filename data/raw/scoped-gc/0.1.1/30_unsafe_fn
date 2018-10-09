@@ -1,0 +1,99 @@
+{"name":"<gc::Gc<'gc, T> as trace::Trace>::mark","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<gc::Gc<'gc, T> as trace::Trace>::root","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<gc::Gc<'gc, T> as trace::Trace>::unroot","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<gc_ref_cell::GcRefCell<T> as trace::Trace>::mark","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/gc_ref_cell.rs\") line 39","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<gc_ref_cell::GcRefCell<T> as trace::Trace>::root","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/gc_ref_cell.rs\") line 48","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<gc_ref_cell::GcRefCell<T> as trace::Trace>::unroot","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/gc_ref_cell.rs\") line 57","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<() as trace::Trace>::mark","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<() as trace::Trace>::root","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<() as trace::Trace>::unroot","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<bool as trace::Trace>::mark","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<bool as trace::Trace>::root","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<bool as trace::Trace>::unroot","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<u8 as trace::Trace>::mark","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<u8 as trace::Trace>::root","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<u8 as trace::Trace>::unroot","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<u16 as trace::Trace>::mark","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<u16 as trace::Trace>::root","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<u16 as trace::Trace>::unroot","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<u32 as trace::Trace>::mark","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<u32 as trace::Trace>::root","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<u32 as trace::Trace>::unroot","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<u64 as trace::Trace>::mark","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<u64 as trace::Trace>::root","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<u64 as trace::Trace>::unroot","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<usize as trace::Trace>::mark","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<usize as trace::Trace>::root","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<usize as trace::Trace>::unroot","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<i8 as trace::Trace>::mark","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<i8 as trace::Trace>::root","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<i8 as trace::Trace>::unroot","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<i16 as trace::Trace>::mark","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<i16 as trace::Trace>::root","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<i16 as trace::Trace>::unroot","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<i32 as trace::Trace>::mark","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<i32 as trace::Trace>::root","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<i32 as trace::Trace>::unroot","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<i64 as trace::Trace>::mark","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<i64 as trace::Trace>::root","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<i64 as trace::Trace>::unroot","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<isize as trace::Trace>::mark","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<isize as trace::Trace>::root","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<isize as trace::Trace>::unroot","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<f32 as trace::Trace>::mark","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<f32 as trace::Trace>::root","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<f32 as trace::Trace>::unroot","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<f64 as trace::Trace>::mark","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<f64 as trace::Trace>::root","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<f64 as trace::Trace>::unroot","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<char as trace::Trace>::mark","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<char as trace::Trace>::root","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<char as trace::Trace>::unroot","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<std::string::String as trace::Trace>::mark","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<std::string::String as trace::Trace>::root","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<std::string::String as trace::Trace>::unroot","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<std::path::Path as trace::Trace>::mark","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<std::path::Path as trace::Trace>::root","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<std::path::Path as trace::Trace>::unroot","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<std::path::PathBuf as trace::Trace>::mark","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<std::path::PathBuf as trace::Trace>::root","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<std::path::PathBuf as trace::Trace>::unroot","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<std::sync::atomic::AtomicBool as trace::Trace>::mark","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<std::sync::atomic::AtomicBool as trace::Trace>::root","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<std::sync::atomic::AtomicBool as trace::Trace>::unroot","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<std::sync::atomic::AtomicIsize as trace::Trace>::mark","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<std::sync::atomic::AtomicIsize as trace::Trace>::root","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<std::sync::atomic::AtomicIsize as trace::Trace>::unroot","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<std::sync::atomic::AtomicUsize as trace::Trace>::mark","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<std::sync::atomic::AtomicUsize as trace::Trace>::root","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<std::sync::atomic::AtomicUsize as trace::Trace>::unroot","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<std::boxed::Box<T> as trace::Trace>::mark","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/trace.rs\") line 108","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<std::boxed::Box<T> as trace::Trace>::mark::trace","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/trace.rs\") line 85","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<std::boxed::Box<T> as trace::Trace>::root","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/trace.rs\") line 108","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<std::boxed::Box<T> as trace::Trace>::root::trace","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/trace.rs\") line 92","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<std::boxed::Box<T> as trace::Trace>::unroot","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/trace.rs\") line 108","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<std::boxed::Box<T> as trace::Trace>::unroot::trace","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/trace.rs\") line 99","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<std::option::Option<T> as trace::Trace>::mark","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/trace.rs\") line 114","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<std::option::Option<T> as trace::Trace>::mark::trace","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/trace.rs\") line 85","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<std::option::Option<T> as trace::Trace>::root","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/trace.rs\") line 114","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<std::option::Option<T> as trace::Trace>::root::trace","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/trace.rs\") line 92","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<std::option::Option<T> as trace::Trace>::unroot","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/trace.rs\") line 114","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<std::option::Option<T> as trace::Trace>::unroot::trace","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/trace.rs\") line 99","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<std::result::Result<T, E> as trace::Trace>::mark","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/trace.rs\") line 121","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/trace.rs\") line 122","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<std::result::Result<T, E> as trace::Trace>::mark::trace","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/trace.rs\") line 85","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<std::result::Result<T, E> as trace::Trace>::root","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/trace.rs\") line 121","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/trace.rs\") line 122","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<std::result::Result<T, E> as trace::Trace>::root::trace","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/trace.rs\") line 92","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<std::result::Result<T, E> as trace::Trace>::unroot","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/trace.rs\") line 121","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/trace.rs\") line 122","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<std::result::Result<T, E> as trace::Trace>::unroot::trace","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/trace.rs\") line 99","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<std::vec::Vec<T> as trace::Trace>::mark","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/trace.rs\") line 130","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<std::vec::Vec<T> as trace::Trace>::mark::trace","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/trace.rs\") line 85","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<std::vec::Vec<T> as trace::Trace>::root","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/trace.rs\") line 130","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<std::vec::Vec<T> as trace::Trace>::root::trace","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/trace.rs\") line 92","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<std::vec::Vec<T> as trace::Trace>::unroot","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/trace.rs\") line 130","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<std::vec::Vec<T> as trace::Trace>::unroot::trace","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/trace.rs\") line 99","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<std::collections::HashMap<K, V> as trace::Trace>::mark","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/trace.rs\") line 138","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/trace.rs\") line 139","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<std::collections::HashMap<K, V> as trace::Trace>::mark::trace","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/trace.rs\") line 85","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<std::collections::HashMap<K, V> as trace::Trace>::root","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/trace.rs\") line 138","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/trace.rs\") line 139","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<std::collections::HashMap<K, V> as trace::Trace>::root::trace","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/trace.rs\") line 92","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<std::collections::HashMap<K, V> as trace::Trace>::unroot","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/trace.rs\") line 138","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/trace.rs\") line 139","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<std::collections::HashMap<K, V> as trace::Trace>::unroot::trace","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/trace.rs\") line 99","kind":{"UnsafeFnCall":"Rust"}}]}

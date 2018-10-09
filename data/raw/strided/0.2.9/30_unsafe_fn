@@ -1,0 +1,1 @@
+{"name":"base::step","from_trait":false,"arguments":[{"type_info":"type(*const T)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/base.rs\") line 83","kind":{"UnsafeFnCall":"Rust"}}]}

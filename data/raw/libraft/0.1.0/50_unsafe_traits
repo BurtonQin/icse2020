@@ -1,0 +1,7 @@
+{"name":"<raftpb::Entry as std::marker::Sync>"}
+{"name":"<raftpb::SnapshotMetadata as std::marker::Sync>"}
+{"name":"<raftpb::Snapshot as std::marker::Sync>"}
+{"name":"<raftpb::ConfState as std::marker::Sync>"}
+{"name":"<raftpb::HardState as std::marker::Sync>"}
+{"name":"<raftpb::Message as std::marker::Sync>"}
+{"name":"<raftpb::ConfChange as std::marker::Sync>"}

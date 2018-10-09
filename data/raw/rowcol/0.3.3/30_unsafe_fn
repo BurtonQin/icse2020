@@ -1,0 +1,4 @@
+{"name":"<vector::Vector<T, N>>::get_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/vector.rs\") line 100","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<vector::Vector<T, N>>::get_unchecked_mut","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/vector.rs\") line 106","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<matrix::Matrix<T, Row, Col>>::get_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/matrix/mod.rs\") line 184","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/matrix/mod.rs\") line 184","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<matrix::Matrix<T, Row, Col>>::get_unchecked_mut","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/matrix/mod.rs\") line 192","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/matrix/mod.rs\") line 192","kind":{"UnsafeFnCall":"Rust"}}]}

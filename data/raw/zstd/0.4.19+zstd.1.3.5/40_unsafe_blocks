@@ -1,0 +1,9 @@
+{"sources":[["2045",[{"loc":"file: Real(\"src/stream/encoder.rs\") line 10","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["2056",[{"loc":"file: Real(\"src/stream/encoder.rs\") line 10","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["420",[{"loc":"file: Real(\"src/stream/encoder.rs\") line 230","kind":{"UnsafeFnCall":"Rust"}}]],["448",[{"loc":"file: Real(\"src/stream/encoder.rs\") line 243","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["567",[{"loc":"file: Real(\"src/stream/encoder.rs\") line 292","kind":{"UnsafeFnCall":"Rust"}}]],["601",[{"loc":"file: Real(\"src/stream/encoder.rs\") line 312","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["652",[{"loc":"file: Real(\"src/stream/encoder.rs\") line 331","kind":{"UnsafeFnCall":"Rust"}}]],["677",[{"loc":"file: Real(\"src/stream/encoder.rs\") line 346","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["2150",[{"loc":"file: Real(\"src/stream/decoder.rs\") line 10","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["2161",[{"loc":"file: Real(\"src/stream/decoder.rs\") line 10","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["906",[{"loc":"file: Real(\"src/stream/decoder.rs\") line 130","kind":{"UnsafeFnCall":"Rust"}}]],["917",[{"loc":"file: Real(\"src/stream/decoder.rs\") line 136","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["1517",[{"loc":"file: Real(\"src/block/compressor.rs\") line 68","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/block/compressor.rs\") line 70","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["1646",[{"loc":"file: Real(\"src/block/decompressor.rs\") line 60","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/block/decompressor.rs\") line 62","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["1834",[{"loc":"file: Real(\"src/dict.rs\") line 43","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/dict.rs\") line 49","kind":{"UnsafeFnCall":"Rust"}}]]]}

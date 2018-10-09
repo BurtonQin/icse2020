@@ -1,0 +1,10 @@
+{"name":"<*const libc::c_void as traits::Device>"}
+{"name":"<*mut libc::c_void as traits::Device>"}
+{"name":"<*const libc::c_void as traits::Context>"}
+{"name":"<*mut libc::c_void as traits::Context>"}
+{"name":"<(dyn traits::Context + 'static) as traits::Device>"}
+{"name":"<listener::listener::Listener<'a> as std::marker::Send>"}
+{"name":"<listener::listener::Listener<'a> as traits::Device>"}
+{"name":"<listener::listener::Listener<'a> as traits::Context>"}
+{"name":"<capture::capture::Capture<T> as std::marker::Send>"}
+{"name":"<capture::capture::Capture<T> as traits::Device>"}

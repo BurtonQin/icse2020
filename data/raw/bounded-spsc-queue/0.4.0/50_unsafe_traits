@@ -1,0 +1,3 @@
+{"name":"<Buffer<T> as std::marker::Sync>"}
+{"name":"<Consumer<T> as std::marker::Send>"}
+{"name":"<Producer<T> as std::marker::Send>"}

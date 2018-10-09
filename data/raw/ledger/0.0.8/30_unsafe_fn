@@ -1,0 +1,3 @@
+{"name":"<HIDAPIWRAPPER as lazy_static::Deref>::deref::__stability","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__lazy_static_internal\") line 13","kind":"Static"}]}
+{"name":"get_usage_page::hid_read_descr_size","from_trait":false,"arguments":[{"type_info":"type(*mut libc::c_int)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl_read\") line 8","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"get_usage_page::hid_read_descr","from_trait":false,"arguments":[{"type_info":"type(*mut HidrawReportDescriptor)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl_read\") line 8","kind":{"UnsafeFnCall":"C"}}]}

@@ -1,0 +1,3 @@
+{"name":"u16_ext::blit_rgb16_fully_unrolled_no_intrinsics","node_id":"130","location":"file: Real(\"src/u16_ext.rs\") line 67"}
+{"name":"u16_ext::blit_rgb16_sse2_explicit","node_id":"177","location":"file: Real(\"src/u16_ext.rs\") line 77"}
+{"name":"u16_ext::blit_rgb16_avx2_explicit","node_id":"224","location":"file: Real(\"src/u16_ext.rs\") line 88"}

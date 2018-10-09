@@ -1,0 +1,26 @@
+{"sources":[["11611",[{"loc":"file: Macros(\"__lazy_static_internal\") line 14","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["11724",[{"loc":"file: Real(\"src/core/connection.rs\") line 23","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["11735",[{"loc":"file: Real(\"src/core/connection.rs\") line 23","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["11994",[{"loc":"file: Macros(\"__lazy_static_internal\") line 14","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["12140",[{"loc":"file: Real(\"src/core/cookie.rs\") line 5","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["12151",[{"loc":"file: Real(\"src/core/cookie.rs\") line 5","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["12097",[{"loc":"file: Real(\"src/core/cookie.rs\") line 5","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["13420",[{"loc":"file: Macros(\"__lazy_static_internal\") line 14","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["13619",[{"loc":"file: Real(\"src/core/router.rs\") line 22","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["13630",[{"loc":"file: Real(\"src/core/router.rs\") line 22","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["13687",[{"loc":"file: Real(\"src/core/router.rs\") line 22","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["13698",[{"loc":"file: Real(\"src/core/router.rs\") line 22","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["13572",[{"loc":"file: Real(\"src/core/router.rs\") line 22","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["13554",[{"loc":"file: Real(\"src/core/router.rs\") line 22","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["13932",[{"loc":"file: Real(\"src/core/router.rs\") line 33","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["13943",[{"loc":"file: Real(\"src/core/router.rs\") line 33","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["14002",[{"loc":"file: Real(\"src/core/router.rs\") line 33","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["14027",[{"loc":"file: Real(\"src/core/router.rs\") line 33","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["14038",[{"loc":"file: Real(\"src/core/router.rs\") line 33","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["14097",[{"loc":"file: Real(\"src/core/router.rs\") line 33","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["13823",[{"loc":"file: Real(\"src/core/router.rs\") line 33","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["13844",[{"loc":"file: Real(\"src/core/router.rs\") line 33","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["13865",[{"loc":"file: Real(\"src/core/router.rs\") line 33","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["8042",[{"loc":"file: Real(\"src/support/scheduler.rs\") line 21","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/support/scheduler.rs\") line 21","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["8425",[{"loc":"file: Real(\"src/support/scheduler.rs\") line 179","kind":"Static"},{"loc":"file: Real(\"src/support/scheduler.rs\") line 179","kind":"Static"},{"loc":"file: Real(\"src/support/scheduler.rs\") line 179","kind":"Static"}]]]}
+{"sources":[["8456",[{"loc":"file: Real(\"src/support/scheduler.rs\") line 200","kind":"Static"}]]]}
+{"sources":[["14594",[{"loc":"file: Macros(\"__lazy_static_internal\") line 14","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["14672",[{"loc":"file: Macros(\"__lazy_static_internal\") line 14","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["14743",[{"loc":"file: Macros(\"__lazy_static_internal\") line 14","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["15230",[{"loc":"file: Macros(\"__lazy_static_internal\") line 14","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["15305",[{"loc":"file: Macros(\"__lazy_static_internal\") line 14","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["10106",[{"loc":"file: Real(\"src/support/logger.rs\") line 82","kind":"Static"},{"loc":"file: Real(\"src/support/logger.rs\") line 86","kind":"Static"},{"loc":"file: Real(\"src/support/logger.rs\") line 86","kind":"Static"},{"loc":"file: Real(\"src/support/logger.rs\") line 86","kind":"Static"}]]]}
+{"sources":[["10131",[{"loc":"file: Real(\"src/support/logger.rs\") line 95","kind":"Static"}]]]}
+{"sources":[["10498",[{"loc":"file: Real(\"src/support/debug.rs\") line 49","kind":"Static"}]]]}
+{"sources":[["10510",[{"loc":"file: Real(\"src/support/debug.rs\") line 54","kind":"Static"}]]]}
+{"sources":[["10521",[{"loc":"file: Real(\"src/support/debug.rs\") line 59","kind":"Static"}]]]}
+{"sources":[["10746",[{"loc":"file: Real(\"src/lib.rs\") line 121","kind":"Static"},{"loc":"file: Real(\"src/lib.rs\") line 121","kind":"Static"},{"loc":"file: Real(\"src/lib.rs\") line 122","kind":"Static"},{"loc":"file: Real(\"src/lib.rs\") line 122","kind":"Static"}]]]}

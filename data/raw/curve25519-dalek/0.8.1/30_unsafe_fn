@@ -1,0 +1,4 @@
+{"name":"<<scalar::Scalar as serde::Deserialize<'de>>::deserialize::ScalarVisitor as serde::de::Visitor<'de>>::visit_bytes::as_array","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"array_ref\") line 5","kind":"DerefRawPointer"}]}
+{"name":"scalar::UnpackedScalar::reduce_limbs::as_array","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"array_ref\") line 5","kind":"DerefRawPointer"}]}
+{"name":"<<curve::ExtendedPoint as serde::Deserialize<'de>>::deserialize::ExtendedPointVisitor as serde::de::Visitor<'de>>::visit_bytes::as_array","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"array_ref\") line 5","kind":"DerefRawPointer"}]}
+{"name":"<<decaf::DecafPoint as serde::Deserialize<'de>>::deserialize::DecafPointVisitor as serde::de::Visitor<'de>>::visit_bytes::as_array","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"array_ref\") line 5","kind":"DerefRawPointer"}]}

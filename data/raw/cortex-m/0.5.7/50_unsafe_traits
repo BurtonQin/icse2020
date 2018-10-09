@@ -1,0 +1,12 @@
+{"name":"<peripheral::CBP as core::marker::Send>"}
+{"name":"<peripheral::CPUID as core::marker::Send>"}
+{"name":"<peripheral::DCB as core::marker::Send>"}
+{"name":"<peripheral::DWT as core::marker::Send>"}
+{"name":"<peripheral::FPB as core::marker::Send>"}
+{"name":"<peripheral::FPU as core::marker::Send>"}
+{"name":"<peripheral::ITM as core::marker::Send>"}
+{"name":"<peripheral::MPU as core::marker::Send>"}
+{"name":"<peripheral::NVIC as core::marker::Send>"}
+{"name":"<peripheral::SCB as core::marker::Send>"}
+{"name":"<peripheral::SYST as core::marker::Send>"}
+{"name":"<peripheral::TPIU as core::marker::Send>"}

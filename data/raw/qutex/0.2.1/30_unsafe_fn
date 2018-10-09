@@ -1,0 +1,11 @@
+{"name":"<qutex::Qutex<T>>::push_request","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<qutex::Qutex<T>>::process_queue","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<qutex::Qutex<T>>::direct_unlock","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/qutex.rs\") line 269","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"qrw_lock::extract_lock","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/qrw_lock.rs\") line 60","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"qrw_lock::Guard::forget","from_trait":false,"arguments":[],"sources":[]}
+{"name":"<qrw_lock::QrwLock<T>>::enqueue_lock_request","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<qrw_lock::QrwLock<T>>::process_queues","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<qrw_lock::QrwLock<T>>::upgrade_read_lock","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<qrw_lock::QrwLock<T>>::downgrade_write_lock","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/qrw_lock.rs\") line 811","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<qrw_lock::QrwLock<T>>::release_read_lock","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/qrw_lock.rs\") line 838","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<qrw_lock::QrwLock<T>>::release_write_lock","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/qrw_lock.rs\") line 867","kind":{"UnsafeFnCall":"Rust"}}]}

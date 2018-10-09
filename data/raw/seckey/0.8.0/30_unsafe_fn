@@ -1,0 +1,3 @@
+{"name":"<tempkey::TempKey<'a, T>>::unsafe_from","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/seckey-0.8.0/src/tempkey.rs\") line 32","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<seckey::SecKey<T>>::from_ptr","from_trait":true,"arguments":[{"type_info":"type(*const T)","kind":"RawPointer"}],"sources":[]}
+{"name":"<seckey::SecKey<T>>::lock","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/seckey-0.8.0/src/seckey.rs\") line 108","kind":{"UnsafeFnCall":"Rust"}}]}

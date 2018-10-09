@@ -1,0 +1,5 @@
+{"name":"<FFTW_MUTEX as lazy_static::Deref>::deref::__stability","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__lazy_static_internal\") line 13","kind":"Static"}]}
+{"name":"<f64 as array::AlignedAllocable>::alloc","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/array.rs\") line 94","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"<f32 as array::AlignedAllocable>::alloc","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/array.rs\") line 100","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"<num_complex::Complex<f64> as array::AlignedAllocable>::alloc","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/array.rs\") line 106","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"<num_complex::Complex<f32> as array::AlignedAllocable>::alloc","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/array.rs\") line 112","kind":{"UnsafeFnCall":"C"}}]}

@@ -1,0 +1,4 @@
+{"sources":[["701",[{"loc":"file: Real(\"src/ipc.rs\") line 28","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["712",[{"loc":"file: Real(\"src/ipc.rs\") line 28","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["805",[{"loc":"file: Real(\"src/ipc.rs\") line 28","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["816",[{"loc":"file: Real(\"src/ipc.rs\") line 28","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["405",[{"loc":"file: Real(\"src/raw.rs\") line 32","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/raw.rs\") line 33","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["489",[{"loc":"file: Real(\"src/raw.rs\") line 58","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/raw.rs\") line 59","kind":{"UnsafeFnCall":"Rust"}}]]]}

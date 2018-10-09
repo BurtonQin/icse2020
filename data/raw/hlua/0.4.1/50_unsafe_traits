@@ -1,0 +1,19 @@
+{"name":"<&'a functions_write::InsideCallback as AsLua<'lua>>"}
+{"name":"<&'a mut functions_write::InsideCallback as AsLua<'lua>>"}
+{"name":"<&'a mut functions_write::InsideCallback as AsMutLua<'lua>>"}
+{"name":"<lua_functions::LuaFunction<L> as AsLua<'lua>>"}
+{"name":"<lua_functions::LuaFunction<L> as AsMutLua<'lua>>"}
+{"name":"<lua_tables::LuaTable<L> as AsLua<'lua>>"}
+{"name":"<lua_tables::LuaTable<L> as AsMutLua<'lua>>"}
+{"name":"<lua_tables::LuaTableIterator<'t, L, K, V> as AsLua<'lua>>"}
+{"name":"<lua_tables::LuaTableIterator<'t, L, K, V> as AsMutLua<'lua>>"}
+{"name":"<userdata::UserdataOnStack<T, L> as AsLua<'lua>>"}
+{"name":"<userdata::UserdataOnStack<T, L> as AsMutLua<'lua>>"}
+{"name":"<LuaContext as std::marker::Send>"}
+{"name":"<Lua<'lua> as AsLua<'lua>>"}
+{"name":"<Lua<'lua> as AsMutLua<'lua>>"}
+{"name":"<PushGuard<L> as AsLua<'lua>>"}
+{"name":"<PushGuard<L> as AsMutLua<'lua>>"}
+{"name":"<&'a L as AsLua<'lua>>"}
+{"name":"<&'a mut L as AsLua<'lua>>"}
+{"name":"<&'a mut L as AsMutLua<'lua>>"}

@@ -1,0 +1,72 @@
+{"sources":[["294",[{"loc":"file: Real(\"src/modbus_client.rs\") line 78","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["339",[{"loc":"file: Real(\"src/modbus_client.rs\") line 114","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["384",[{"loc":"file: Real(\"src/modbus_client.rs\") line 149","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["429",[{"loc":"file: Real(\"src/modbus_client.rs\") line 186","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["471",[{"loc":"file: Real(\"src/modbus_client.rs\") line 228","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["508",[{"loc":"file: Real(\"src/modbus_client.rs\") line 262","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["546",[{"loc":"file: Real(\"src/modbus_client.rs\") line 298","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["589",[{"loc":"file: Real(\"src/modbus_client.rs\") line 335","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["634",[{"loc":"file: Real(\"src/modbus_client.rs\") line 372","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["690",[{"loc":"file: Real(\"src/modbus_client.rs\") line 418","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["741",[{"loc":"file: Real(\"src/modbus_client.rs\") line 462","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["780",[{"loc":"file: Real(\"src/modbus_client.rs\") line 507","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["816",[{"loc":"file: Real(\"src/modbus_client.rs\") line 552","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["869",[{"loc":"file: Real(\"src/modbus_mapping.rs\") line 46","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["927",[{"loc":"file: Real(\"src/modbus_mapping.rs\") line 109","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["974",[{"loc":"file: Real(\"src/modbus_mapping.rs\") line 142","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["990",[{"loc":"file: Real(\"src/modbus_mapping.rs\") line 167","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/modbus_mapping.rs\") line 167","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/modbus_mapping.rs\") line 167","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["1014",[{"loc":"file: Real(\"src/modbus_mapping.rs\") line 192","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/modbus_mapping.rs\") line 192","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/modbus_mapping.rs\") line 192","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["1038",[{"loc":"file: Real(\"src/modbus_mapping.rs\") line 217","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/modbus_mapping.rs\") line 218","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/modbus_mapping.rs\") line 217","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["1062",[{"loc":"file: Real(\"src/modbus_mapping.rs\") line 243","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/modbus_mapping.rs\") line 244","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/modbus_mapping.rs\") line 243","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["1086",[{"loc":"file: Real(\"src/modbus_mapping.rs\") line 269","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/modbus_mapping.rs\") line 270","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/modbus_mapping.rs\") line 269","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["1110",[{"loc":"file: Real(\"src/modbus_mapping.rs\") line 295","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/modbus_mapping.rs\") line 296","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/modbus_mapping.rs\") line 295","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["1134",[{"loc":"file: Real(\"src/modbus_mapping.rs\") line 321","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/modbus_mapping.rs\") line 322","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/modbus_mapping.rs\") line 321","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["1158",[{"loc":"file: Real(\"src/modbus_mapping.rs\") line 347","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/modbus_mapping.rs\") line 348","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/modbus_mapping.rs\") line 347","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["3222",[{"loc":"file: Real(\"src/modbus_rtu.rs\") line 9","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["3233",[{"loc":"file: Real(\"src/modbus_rtu.rs\") line 9","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["3344",[{"loc":"file: Real(\"src/modbus_rtu.rs\") line 16","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["3355",[{"loc":"file: Real(\"src/modbus_rtu.rs\") line 16","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["1332",[{"loc":"file: Real(\"src/modbus_rtu.rs\") line 106","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["1378",[{"loc":"file: Real(\"src/modbus_rtu.rs\") line 152","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["1420",[{"loc":"file: Real(\"src/modbus_rtu.rs\") line 195","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["1457",[{"loc":"file: Real(\"src/modbus_rtu.rs\") line 233","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["1486",[{"loc":"file: Real(\"src/modbus_rtu.rs\") line 261","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["1534",[{"loc":"file: Real(\"src/modbus_rtu.rs\") line 310","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["1561",[{"loc":"file: Real(\"src/modbus_rtu.rs\") line 339","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["1649",[{"loc":"file: Real(\"src/modbus_server.rs\") line 44","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["1690",[{"loc":"file: Real(\"src/modbus_server.rs\") line 75","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["1783",[{"loc":"file: Real(\"src/modbus_tcp_pi.rs\") line 54","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["1829",[{"loc":"file: Real(\"src/modbus_tcp_pi.rs\") line 84","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["1857",[{"loc":"file: Real(\"src/modbus_tcp_pi.rs\") line 127","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["1941",[{"loc":"file: Real(\"src/modbus_tcp.rs\") line 46","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["1980",[{"loc":"file: Real(\"src/modbus_tcp.rs\") line 77","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["2008",[{"loc":"file: Real(\"src/modbus_tcp.rs\") line 106","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["3709",[{"loc":"file: Real(\"src/modbus.rs\") line 9","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["3720",[{"loc":"file: Real(\"src/modbus.rs\") line 9","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["3666",[{"loc":"file: Real(\"src/modbus.rs\") line 9","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["3997",[{"loc":"file: Real(\"src/modbus.rs\") line 43","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["4008",[{"loc":"file: Real(\"src/modbus.rs\") line 43","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["2186",[{"loc":"file: Real(\"src/modbus.rs\") line 253","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["2212",[{"loc":"file: Real(\"src/modbus.rs\") line 280","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["2241",[{"loc":"file: Real(\"src/modbus.rs\") line 326","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["2270",[{"loc":"file: Real(\"src/modbus.rs\") line 348","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["2299",[{"loc":"file: Real(\"src/modbus.rs\") line 388","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["2333",[{"loc":"file: Real(\"src/modbus.rs\") line 418","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["2368",[{"loc":"file: Real(\"src/modbus.rs\") line 460","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["2403",[{"loc":"file: Real(\"src/modbus.rs\") line 490","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["2438",[{"loc":"file: Real(\"src/modbus.rs\") line 531","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["2494",[{"loc":"file: Real(\"src/modbus.rs\") line 587","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["2524",[{"loc":"file: Real(\"src/modbus.rs\") line 617","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["2551",[{"loc":"file: Real(\"src/modbus.rs\") line 645","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["2573",[{"loc":"file: Real(\"src/modbus.rs\") line 670","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["2597",[{"loc":"file: Real(\"src/modbus.rs\") line 714","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["2625",[{"loc":"file: Real(\"src/modbus.rs\") line 735","kind":{"UnsafeFnCall":"C"}},{"loc":"file: Real(\"src/modbus.rs\") line 735","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["2644",[{"loc":"file: Real(\"src/modbus.rs\") line 758","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["2657",[{"loc":"file: Real(\"src/modbus.rs\") line 777","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["2677",[{"loc":"file: Real(\"src/modbus.rs\") line 811","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["2706",[{"loc":"file: Real(\"src/modbus.rs\") line 846","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["2735",[{"loc":"file: Real(\"src/modbus.rs\") line 877","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["2756",[{"loc":"file: Real(\"src/modbus.rs\") line 901","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["2773",[{"loc":"file: Real(\"src/modbus.rs\") line 925","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["2789",[{"loc":"file: Real(\"src/modbus.rs\") line 951","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["2806",[{"loc":"file: Real(\"src/modbus.rs\") line 976","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["2822",[{"loc":"file: Real(\"src/modbus.rs\") line 1002","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["2839",[{"loc":"file: Real(\"src/modbus.rs\") line 1027","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["2855",[{"loc":"file: Real(\"src/modbus.rs\") line 1053","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["2872",[{"loc":"file: Real(\"src/modbus.rs\") line 1078","kind":{"UnsafeFnCall":"C"}}]]]}

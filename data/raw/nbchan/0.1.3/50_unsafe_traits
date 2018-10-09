@@ -1,0 +1,11 @@
+{"name":"<mpsc::Sender<T> as std::marker::Send>"}
+{"name":"<mpsc::Sender<T> as std::marker::Sync>"}
+{"name":"<mpsc::SyncSender<T> as std::marker::Send>"}
+{"name":"<mpsc::SyncSender<T> as std::marker::Sync>"}
+{"name":"<mpsc::Receiver<T> as std::marker::Send>"}
+{"name":"<oneshot::Sender<T> as std::marker::Send>"}
+{"name":"<oneshot::Receiver<T> as std::marker::Send>"}
+{"name":"<oneshot::SharedBox<T> as std::marker::Send>"}
+{"name":"<queue::QueueTail<T> as std::marker::Send>"}
+{"name":"<queue::QueueTail<T> as std::marker::Sync>"}
+{"name":"<queue::QueueHead<T> as std::marker::Send>"}

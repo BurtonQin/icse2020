@@ -1,0 +1,31 @@
+{"name":"<bool as traits::IntoHeap<'h>>"}
+{"name":"<char as traits::IntoHeap<'h>>"}
+{"name":"<i8 as traits::IntoHeap<'h>>"}
+{"name":"<u8 as traits::IntoHeap<'h>>"}
+{"name":"<i16 as traits::IntoHeap<'h>>"}
+{"name":"<u16 as traits::IntoHeap<'h>>"}
+{"name":"<i32 as traits::IntoHeap<'h>>"}
+{"name":"<u32 as traits::IntoHeap<'h>>"}
+{"name":"<i64 as traits::IntoHeap<'h>>"}
+{"name":"<u64 as traits::IntoHeap<'h>>"}
+{"name":"<isize as traits::IntoHeap<'h>>"}
+{"name":"<usize as traits::IntoHeap<'h>>"}
+{"name":"<f32 as traits::IntoHeap<'h>>"}
+{"name":"<f64 as traits::IntoHeap<'h>>"}
+{"name":"<std::string::String as traits::IntoHeap<'h>>"}
+{"name":"<&'static T as traits::IntoHeap<'h>>"}
+{"name":"<std::marker::PhantomData<T> as traits::IntoHeap<'h>>"}
+{"name":"<gcleaf::GCLeaf<T> as traits::IntoHeap<'h>>"}
+{"name":"<std::boxed::Box<T> as traits::IntoHeap<'h>>"}
+{"name":"<std::rc::Rc<T> as traits::IntoHeap<'h>>"}
+{"name":"<std::option::Option<T> as traits::IntoHeap<'h>>"}
+{"name":"<() as traits::IntoHeap<'h>>"}
+{"name":"<(T,) as traits::IntoHeap<'h>>"}
+{"name":"<(T, U) as traits::IntoHeap<'h>>"}
+{"name":"<(T, U, V) as traits::IntoHeap<'h>>"}
+{"name":"<(T, U, V, W) as traits::IntoHeap<'h>>"}
+{"name":"<(T, U, V, W, X) as traits::IntoHeap<'h>>"}
+{"name":"<(T, U, V, W, X, Y) as traits::IntoHeap<'h>>"}
+{"name":"<(T, U, V, W, X, Y, Z) as traits::IntoHeap<'h>>"}
+{"name":"collections::<impl traits::IntoHeap<'h> for std::vec::Vec<T>>"}
+{"name":"<collections::VecRef<'h, T> as traits::IntoHeap<'h>>"}

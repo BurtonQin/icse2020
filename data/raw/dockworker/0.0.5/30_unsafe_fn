@@ -1,0 +1,1 @@
+{"name":"<unix::HttpUnixStream as std::os::ext::io::FromRawFd>::from_raw_fd","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/unix.rs\") line 68","kind":{"UnsafeFnCall":"Rust"}}]}

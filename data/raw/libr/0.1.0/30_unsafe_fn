@@ -1,0 +1,7 @@
+{"name":"ext::rs::Calloc","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/ext/rs.rs\") line 6","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"ext::rs::Realloc","from_trait":false,"arguments":[{"type_info":"type(*mut c_void)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/ext/rs.rs\") line 11","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"ext::rs::Free","from_trait":false,"arguments":[{"type_info":"type(*mut c_void)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/ext/rs.rs\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"math::log1p","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/math.rs\") line 56","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"interface::jump_to_toplevel","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/interface.rs\") line 49","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"interface::mainloop","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/interface.rs\") line 52","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"interface::onintr","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/interface.rs\") line 55","kind":{"UnsafeFnCall":"C"}}]}

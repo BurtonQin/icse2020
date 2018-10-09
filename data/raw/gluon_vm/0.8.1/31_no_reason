@@ -1,0 +1,4 @@
+{"name":"api::primitive_f","node_id":"792","location":"file: Real(\"src/api/mod.rs\") line 266"}
+{"name":"api::Pushable::marshal_unrooted","node_id":"1385","location":"file: Real(\"src/api/mod.rs\") line 495"}
+{"name":"api::Getable::from_value_unsafe","node_id":"1456","location":"file: Real(\"src/api/mod.rs\") line 519"}
+{"name":"gc::allocate","node_id":"19139","location":"file: Real(\"src/gc.rs\") line 20"}

@@ -1,0 +1,6 @@
+{"name":"sys::ReentrantMutex::uninitialized","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/unix.rs\") line 19","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"sys::ReentrantMutex::init","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/unix.rs\") line 23","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/unix.rs\") line 24","kind":{"UnsafeFnCall":"C"}},{"loc":"file: Real(\"src/unix.rs\") line 26","kind":{"UnsafeFnCall":"C"}},{"loc":"file: Real(\"src/unix.rs\") line 29","kind":{"UnsafeFnCall":"C"}},{"loc":"file: Real(\"src/unix.rs\") line 31","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"sys::ReentrantMutex::lock","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/unix.rs\") line 36","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"sys::ReentrantMutex::try_lock","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/unix.rs\") line 42","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"sys::ReentrantMutex::unlock","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/unix.rs\") line 46","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"sys::ReentrantMutex::destroy","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/unix.rs\") line 51","kind":{"UnsafeFnCall":"C"}}]}

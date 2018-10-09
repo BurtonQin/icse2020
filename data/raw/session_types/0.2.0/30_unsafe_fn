@@ -1,0 +1,2 @@
+{"name":"write_chan","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 86","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"read_chan","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 93","kind":{"UnsafeFnCall":"RustIntrinsic"}},{"loc":"file: Real(\"src/lib.rs\") line 95","kind":{"UnsafeFnCall":"Rust"}}]}

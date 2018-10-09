@@ -1,0 +1,3 @@
+{"name":"<TimeoutReader<R> as tokio_io::AsyncRead>::prepare_uninitialized_buffer","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 152","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<TimeoutWriter<W> as tokio_io::AsyncRead>::prepare_uninitialized_buffer","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 300","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<TimeoutStream<S> as tokio_io::AsyncRead>::prepare_uninitialized_buffer","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 379","kind":{"UnsafeFnCall":"Rust"}}]}

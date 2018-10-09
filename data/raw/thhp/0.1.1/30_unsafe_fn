@@ -1,0 +1,2 @@
+{"name":"scanner::Scanner::skip_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/scanner.rs\") line 34","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"scanner::Scanner::read_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/scanner.rs\") line 64","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/scanner.rs\") line 65","kind":{"UnsafeFnCall":"Rust"}}]}

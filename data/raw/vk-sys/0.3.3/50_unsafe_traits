@@ -1,0 +1,8 @@
+{"name":"<Static as std::marker::Send>"}
+{"name":"<Static as std::marker::Sync>"}
+{"name":"<EntryPoints as std::marker::Send>"}
+{"name":"<EntryPoints as std::marker::Sync>"}
+{"name":"<InstancePointers as std::marker::Send>"}
+{"name":"<InstancePointers as std::marker::Sync>"}
+{"name":"<DevicePointers as std::marker::Send>"}
+{"name":"<DevicePointers as std::marker::Sync>"}

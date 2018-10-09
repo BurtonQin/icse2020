@@ -1,0 +1,3 @@
+{"name":"<alignedvec::AlignedVec<A>>::set_len_items","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/alignedvec.rs\") line 35","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<State<A>>::alloc_from_new_slab","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 314","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<State<A>>::alloc","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 319","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/lib.rs\") line 327","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/lib.rs\") line 332","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/lib.rs\") line 335","kind":{"UnsafeFnCall":"Rust"}}]}

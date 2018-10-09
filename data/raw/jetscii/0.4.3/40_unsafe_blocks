@@ -1,0 +1,5 @@
+{"sources":[["385",[{"loc":"file: Real(\"src/simd.rs\") line 188","kind":{"UnsafeFnCall":"Rust"}}]],["413",[{"loc":"file: Real(\"src/simd.rs\") line 193","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["467",[{"loc":"file: Real(\"src/simd.rs\") line 217","kind":"AccessToUnionField"}]]]}
+{"sources":[["581",[{"loc":"file: Real(\"src/simd.rs\") line 254","kind":"AccessToUnionField"}]]]}
+{"sources":[["1149",[{"loc":"file: Real(\"src/lib.rs\") line 243","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["1186",[{"loc":"file: Real(\"src/lib.rs\") line 325","kind":{"UnsafeFnCall":"Rust"}}]]]}

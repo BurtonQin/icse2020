@@ -1,0 +1,8 @@
+{"sources":[["302",[{"loc":"file: Real(\"src/poison.rs\") line 27","kind":"DerefRawPointer"}]]]}
+{"sources":[["338",[{"loc":"file: Real(\"src/poison.rs\") line 37","kind":"DerefRawPointer"}]]]}
+{"sources":[["355",[{"loc":"file: Real(\"src/poison.rs\") line 43","kind":"DerefRawPointer"}]]]}
+{"sources":[["748",[{"loc":"file: Real(\"src/remutex.rs\") line 42","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/remutex.rs\") line 46","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["774",[{"loc":"file: Real(\"src/remutex.rs\") line 64","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["793",[{"loc":"file: Real(\"src/remutex.rs\") line 81","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["820",[{"loc":"file: Real(\"src/remutex.rs\") line 91","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["934",[{"loc":"file: Real(\"src/remutex.rs\") line 133","kind":{"UnsafeFnCall":"Rust"}}]]]}

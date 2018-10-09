@@ -1,0 +1,4 @@
+{"name":"DisplayBuild::build_glium_unchecked","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 193","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<&'a mut sdl2::video::WindowBuilder as DisplayBuild>::build_glium_unchecked_debug","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 226","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<SDL2WindowBackend as glium::backend::Backend>::get_proc_address","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<SDL2WindowBackend as glium::backend::Backend>::make_current","from_trait":true,"arguments":[],"sources":[]}

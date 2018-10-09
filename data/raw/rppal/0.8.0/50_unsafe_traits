@@ -1,0 +1,3 @@
+{"name":"<gpio::mem::GpioMem as std::marker::Send>"}
+{"name":"<i2c::I2c as std::marker::Send>"}
+{"name":"<spi::Spi as std::marker::Send>"}

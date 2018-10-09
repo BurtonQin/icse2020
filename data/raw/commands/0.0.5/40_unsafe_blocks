@@ -1,0 +1,4 @@
+{"sources":[["299",[{"loc":"file: Macros(\"vec\") line 3","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Macros(\"vec\") line 3","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["3519",[{"loc":"file: Real(\"src/parser/constants.rs\") line 9","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["3530",[{"loc":"file: Real(\"src/parser/constants.rs\") line 9","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["4488",[{"loc":"file: Real(\"src/tokenizer.rs\") line 162","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["4499",[{"loc":"file: Real(\"src/tokenizer.rs\") line 162","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["4830",[{"loc":"file: Real(\"src/tokenizer.rs\") line 197","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["4841",[{"loc":"file: Real(\"src/tokenizer.rs\") line 197","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
