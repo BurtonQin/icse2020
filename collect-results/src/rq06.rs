@@ -23,10 +23,11 @@ pub fn process_rq(crates: &Vec<(String,String)>) {
             } else {
                 //process line
                 let trimmed_line = line.trim_right();
-                let res: (results::unsafety_sources::Abi,String) = serde_json::from_str(&trimmed_line).unwrap();
-                writeln!(writer, "{:?}\t{}"
-                            , res.0
-                            , res.1
+                let res: results::calls::ExternalCall = serde_json::from_str(&trimmed_line).unwrap();
+                writeln!(writer, "{:?}\t{}\t{}"
+                            , res.abi
+                            , res.def_path
+                            , res.name
                 );
             }
         }
