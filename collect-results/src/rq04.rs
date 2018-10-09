@@ -51,38 +51,41 @@ pub fn process_rq(crates: &Vec<(String,String)>) {
             } else {
                 //process line
                 let trimmed_line = line.trim_right();
-                let all: results::blocks::BlockUnsafetySourcesAnalysis = serde_json::from_str(&trimmed_line).unwrap();
-                for (block, sources) in all.sources() {
-                    let mut block_sources = SourceSummary::new();
-                    for src in sources {
-                        match src.kind {
-                            SourceKind::UnsafeFnCall(ref abi) => {
-                                block_sources.unsafe_fn_calls+=1;
-                                writeln!(calls_writer, "{:?}\t{}", abi, block);
-                            },
-                            SourceKind::DerefRawPointer => {block_sources.raw_ptr+=1;},
-                            SourceKind::Asm => {block_sources.asm+=1;},
-                            SourceKind::Static => {block_sources.static_access+=1;},
-                            SourceKind::BorrowPacked => {block_sources.borrow_packed+=1;},
-                            SourceKind::AssignmentToNonCopyUnionField => {block_sources.assignment_union+=1;},
-                            SourceKind::AccessToUnionField => {block_sources.union+=1;},
-                            SourceKind::ExternStatic => {block_sources.extern_static+=1;},
+                let all_res: serde_json::Result<results::blocks::BlockUnsafetySourcesAnalysis> = serde_json::from_str(&trimmed_line);
+                if let Ok (all) = all_res {
+                    for (block, sources) in all.sources() {
+                        let mut block_sources = SourceSummary::new();
+                        for src in sources {
+                            match src.kind {
+                                SourceKind::UnsafeFnCall(ref abi) => {
+                                    block_sources.unsafe_fn_calls += 1;
+                                    writeln!(calls_writer, "{:?}\t{}", abi, block);
+                                },
+                                SourceKind::DerefRawPointer => { block_sources.raw_ptr += 1; },
+                                SourceKind::Asm => { block_sources.asm += 1; },
+                                SourceKind::Static => { block_sources.static_access += 1; },
+                                SourceKind::BorrowPacked => { block_sources.borrow_packed += 1; },
+                                SourceKind::AssignmentToNonCopyUnionField => { block_sources.assignment_union += 1; },
+                                SourceKind::AccessToUnionField => { block_sources.union += 1; },
+                                SourceKind::ExternStatic => { block_sources.extern_static += 1; },
+                            }
                         }
+                        writeln!(writer, "{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}"
+                                 , block_sources.unsafe_fn_calls
+                                 , block_sources.raw_ptr
+                                 , block_sources.asm
+                                 , block_sources.static_access
+                                 , block_sources.borrow_packed
+                                 , block_sources.assignment_union
+                                 , block_sources.union
+                                 , block_sources.extern_static
+                                 , crate_name
+                                 , block
+                        );
                     }
-                    writeln!(writer, "{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}"
-                             , block_sources.unsafe_fn_calls
-                             , block_sources.raw_ptr
-                             , block_sources.asm
-                             , block_sources.static_access
-                             , block_sources.borrow_packed
-                             , block_sources.assignment_union
-                             , block_sources.union
-                             , block_sources.extern_static
-                             , crate_name
-                             , block
-                    );
+                } else {
+                    error!("Could not process {:?} line: {:?}", crate_name, trimmed_line);
                 }
-
             }
         }
     }

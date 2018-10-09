@@ -2,6 +2,7 @@
 #![feature(unboxed_closures)]
 
 extern crate byteorder;
+extern crate rand;
 
 mod external_calls;
 
@@ -247,4 +248,5 @@ fn main() {
     }
 
     external_calls::use_trait();
+    external_calls::test_rand();
 }

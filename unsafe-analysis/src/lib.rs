@@ -28,6 +28,7 @@ extern crate serde_json;
 
 use rustc::hir;
 use rustc::hir::Crate;
+use rustc::hir::def_id::DefId;
 use rustc::lint::{LateContext, LateLintPass, LateLintPassObject, LintArray, LintPass};
 use rustc_plugin::Registry;
 use syntax::ast::NodeId;
@@ -108,11 +109,11 @@ impl<'a, 'tcx> LateLintPass<'a, 'tcx> for Functions {
 //        let (fn_unsafety,no_reason) = functions::run_sources_analysis(cx,&self.unsafe_functions);
 //        save_analysis(fn_unsafety,&mut file_ops.get_fn_unsafety_sources_file(true));
 //        save_analysis(no_reason,&mut file_ops.get_no_reason_for_unsafety_file(true));
-//        //unsafe function calls
-//        let unsafe_calls = calls::run_analysis(cx);
-//        save_analysis(unsafe_calls, &mut file_ops.get_unsafe_calls_file(true));
+        //unsafe function calls
+        let unsafe_calls = calls::run_analysis(cx);
+        save_analysis(unsafe_calls, &mut file_ops.get_unsafe_calls_file(true));
 
-        error!("Saving analyis in {:?}", file_ops.get_implicit_unsafe_coarse_opt_file(false));
+        info!("Saving analyis in {:?}", file_ops.get_implicit_unsafe_coarse_opt_file(false));
 
         let opt_impl_unsafe = implicit_unsafe::coarse::run_sources_analysis(cx,&self.normal_functions, true);
         save_analysis(opt_impl_unsafe, &mut file_ops.get_implicit_unsafe_coarse_opt_file(true));
@@ -222,4 +223,40 @@ pub fn get_root_dir() -> String {
         Ok (val) => {val.to_string()}
         Err (_) => {"/home/ans5k/unsafe_analysis/analysis-data/full-analysis".to_string()}
     }
+}
+
+fn convert_abi(abi: rustc_target::spec::abi::Abi) -> results::Abi {
+    match abi {
+        rustc_target::spec::abi::Abi::Cdecl => results::Abi::Cdecl,
+        rustc_target::spec::abi::Abi::Stdcall => results::Abi::Stdcall,
+        rustc_target::spec::abi::Abi::Fastcall => results::Abi::Fastcall,
+        rustc_target::spec::abi::Abi::Vectorcall => results::Abi::Vectorcall,
+        rustc_target::spec::abi::Abi::Thiscall => results::Abi::Thiscall,
+        rustc_target::spec::abi::Abi::SysV64 => results::Abi::SysV64,
+        rustc_target::spec::abi::Abi::PtxKernel => results::Abi::PtxKernel,
+        rustc_target::spec::abi::Abi::Msp430Interrupt => {
+            results::Abi::Msp430Interrupt
+        }
+        rustc_target::spec::abi::Abi::X86Interrupt => results::Abi::X86Interrupt,
+        rustc_target::spec::abi::Abi::AmdGpuKernel => results::Abi::AmdGpuKernel,
+        rustc_target::spec::abi::Abi::Rust => results::Abi::Rust,
+        rustc_target::spec::abi::Abi::C => results::Abi::C,
+        rustc_target::spec::abi::Abi::System => results::Abi::System,
+        rustc_target::spec::abi::Abi::RustIntrinsic => {
+            results::Abi::RustIntrinsic
+        }
+        rustc_target::spec::abi::Abi::RustCall => results::Abi::RustCall,
+        rustc_target::spec::abi::Abi::PlatformIntrinsic => {
+            results::Abi::PlatformIntrinsic
+        }
+        rustc_target::spec::abi::Abi::Unadjusted => results::Abi::Unadjusted,
+        rustc_target::spec::abi::Abi::Aapcs => results::Abi::Aapcs,
+        rustc_target::spec::abi::Abi::Win64 => results::Abi::Win64,
+    }
+}
+
+fn get_fn_path<'a, 'tcx>(cx: &'a LateContext<'a, 'tcx>, def_id:DefId) -> String {
+    let mut out = String::new();
+    write!(&mut out,"{:?}", cx.tcx.def_path(def_id).data);
+    out
 }

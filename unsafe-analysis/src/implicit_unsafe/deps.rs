@@ -132,11 +132,9 @@ fn load_analysis<'a, 'tcx>(
         } else {
             //process line
             let trimmed_line = line.trim_right();
+            info!("Processsing line {:?}", trimmed_line);
             let ub: UnsafeInBody = serde_json::from_str(&trimmed_line).unwrap();
-            let mut full_name = String::new();
-            full_name.push_str(crate_info.name.as_str());
-            full_name.push_str("::");
-            full_name.push_str(ub.fn_name.as_str());
+            let full_name = ub.fn_name;
             if let Some(def_id) = calls.get(&full_name) {
                 info!("Call {:?} found", &full_name);
                 result.insert(*def_id,UnsafeInBody::new(full_name,ub.has_unsafe));

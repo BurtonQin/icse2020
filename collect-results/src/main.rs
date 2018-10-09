@@ -36,10 +36,10 @@ fn main() {
     env_logger::init();
     // consider only the most recent version of each crate
     let crates = get_crates_recent_versions();
-    rq01::process_rq(&crates);
-    rq02::process_rq(&crates);
-    rq03::process_rq(&crates);
-    rq04::process_rq(&crates);
+//    rq01::process_rq(&crates);
+//    rq02::process_rq(&crates);
+//    rq03::process_rq(&crates);
+//    rq04::process_rq(&crates);
     rq05::process_rq(&crates);
     rq06::process_rq(&crates);
 //    rq09::process_rq(&crates);

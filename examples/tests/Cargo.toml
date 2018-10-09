@@ -5,3 +5,4 @@ authors = ["Ana Nora Evans <ananevans@gmail.com>"]
 
 [dependencies]
 byteorder="1.2.6"
+rand = "0.5"

@@ -11,15 +11,12 @@ pub mod functions;
 pub mod implicit;
 pub mod traits;
 pub mod unsafety_sources;
+pub mod calls;
 
 use std::fs::DirBuilder;
 use std::fs::File;
 use std::fs::OpenOptions;
 use std::path::PathBuf;
-
-
-//static SAFE_FUNCTIONS_FILENAME: &'static str = "00_safe_functions";
-//static UNSAFE_FUNCTIONS_FILENAME: &'static str = "01_unsafe_functions";
 
 static SUMMARY_FUNCTIONS_FILE_NAME: &'static str = "02_summary_functions";
 
@@ -36,6 +33,29 @@ static BLOCK_UNSAFETY_SOURCES_FILE_NAME: &'static str = "40_unsafe_blocks";
 static BLOCK_SUMMARY_BB: &'static str = "41_blocks_summary";
 
 static UNSAFE_TRAITS: &'static str = "50_unsafe_traits";
+
+#[derive(Serialize, Deserialize, Debug)]
+pub enum Abi {
+    Cdecl,
+    Stdcall,
+    Fastcall,
+    Vectorcall,
+    Thiscall,
+    Aapcs,
+    Win64,
+    SysV64,
+    PtxKernel,
+    Msp430Interrupt,
+    X86Interrupt,
+    AmdGpuKernel,
+    Rust,
+    C,
+    System,
+    RustIntrinsic,
+    RustCall,
+    PlatformIntrinsic,
+    Unadjusted,
+}
 
 pub struct FileOps<'a,'b> {
     crate_name: &'a String,
@@ -101,14 +121,6 @@ impl<'a, 'b> FileOps<'a, 'b> {
     pub fn get_implicit_trait_unsafe_file(&self, save: bool) -> File {
         self.open_file(IMPLICIT_TRAIT_FILENAME, save)
     }
-
-//    pub fn get_safe_functions_file(&self, save: bool) -> File {
-//        self.open_file(SAFE_FUNCTIONS_FILENAME, save)
-//    }
-//
-//    pub fn get_unsafe_functions_file(&self, save: bool) -> File {
-//        self.open_file(UNSAFE_FUNCTIONS_FILENAME, save)
-//    }
 
     pub fn get_summary_functions_file(&self, save: bool) -> File {
         self.open_file(SUMMARY_FUNCTIONS_FILE_NAME, save)

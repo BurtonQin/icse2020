@@ -13,6 +13,7 @@ use rustc_target;
 use syntax::ast::NodeId;
 
 use results::unsafety_sources::SourceKind;
+use convert_abi;
 
 pub trait UnsafetySourceCollector {
     fn add_unsafety_source<'a, 'tcx>(
@@ -273,32 +274,3 @@ impl<'a, 'tcx> Visitor<'tcx> for UnsafetySourcesVisitor<'a, 'tcx> {
     }
 }
 
-fn convert_abi(abi: rustc_target::spec::abi::Abi) -> results::unsafety_sources::Abi {
-    match abi {
-        rustc_target::spec::abi::Abi::Cdecl => results::unsafety_sources::Abi::Cdecl,
-        rustc_target::spec::abi::Abi::Stdcall => results::unsafety_sources::Abi::Stdcall,
-        rustc_target::spec::abi::Abi::Fastcall => results::unsafety_sources::Abi::Fastcall,
-        rustc_target::spec::abi::Abi::Vectorcall => results::unsafety_sources::Abi::Vectorcall,
-        rustc_target::spec::abi::Abi::Thiscall => results::unsafety_sources::Abi::Thiscall,
-        rustc_target::spec::abi::Abi::SysV64 => results::unsafety_sources::Abi::SysV64,
-        rustc_target::spec::abi::Abi::PtxKernel => results::unsafety_sources::Abi::PtxKernel,
-        rustc_target::spec::abi::Abi::Msp430Interrupt => {
-            results::unsafety_sources::Abi::Msp430Interrupt
-        }
-        rustc_target::spec::abi::Abi::X86Interrupt => results::unsafety_sources::Abi::X86Interrupt,
-        rustc_target::spec::abi::Abi::AmdGpuKernel => results::unsafety_sources::Abi::AmdGpuKernel,
-        rustc_target::spec::abi::Abi::Rust => results::unsafety_sources::Abi::Rust,
-        rustc_target::spec::abi::Abi::C => results::unsafety_sources::Abi::C,
-        rustc_target::spec::abi::Abi::System => results::unsafety_sources::Abi::System,
-        rustc_target::spec::abi::Abi::RustIntrinsic => {
-            results::unsafety_sources::Abi::RustIntrinsic
-        }
-        rustc_target::spec::abi::Abi::RustCall => results::unsafety_sources::Abi::RustCall,
-        rustc_target::spec::abi::Abi::PlatformIntrinsic => {
-            results::unsafety_sources::Abi::PlatformIntrinsic
-        }
-        rustc_target::spec::abi::Abi::Unadjusted => results::unsafety_sources::Abi::Unadjusted,
-        rustc_target::spec::abi::Abi::Aapcs => results::unsafety_sources::Abi::Aapcs,
-        rustc_target::spec::abi::Abi::Win64 => results::unsafety_sources::Abi::Win64,
-    }
-}
