@@ -1,0 +1,11 @@
+{"name":"<domain::DOMAIN_RE as lazy_static::Deref>::deref::__stability","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__lazy_static_internal\") line 13","kind":"Static"}]}
+{"name":"<email::EMAIL_RE as lazy_static::Deref>::deref::__stability","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__lazy_static_internal\") line 13","kind":"Static"}]}
+{"name":"<ipv4::IPV4_RE as lazy_static::Deref>::deref::__stability","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__lazy_static_internal\") line 13","kind":"Static"}]}
+{"name":"<ipv6::IPV6_RE as lazy_static::Deref>::deref::__stability","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__lazy_static_internal\") line 13","kind":"Static"}]}
+{"name":"<ipv6::IPV6_PORT_RE as lazy_static::Deref>::deref::__stability","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__lazy_static_internal\") line 13","kind":"Static"}]}
+{"name":"<http_url::HTTP_URL_RE as lazy_static::Deref>::deref::__stability","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__lazy_static_internal\") line 13","kind":"Static"}]}
+{"name":"<base64::BASE64_RE as lazy_static::Deref>::deref::__stability","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__lazy_static_internal\") line 13","kind":"Static"}]}
+{"name":"<base64_url::BASE64_URL_RE as lazy_static::Deref>::deref::__stability","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__lazy_static_internal\") line 13","kind":"Static"}]}
+{"name":"<base32::BASE32_RE as lazy_static::Deref>::deref::__stability","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__lazy_static_internal\") line 13","kind":"Static"}]}
+{"name":"<short_crypt_url_component::SHORT_CRYPT_URL_COMPONENT as lazy_static::Deref>::deref::__stability","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__lazy_static_internal\") line 13","kind":"Static"}]}
+{"name":"<short_crypt_qr_code_alphanumeric::SHORT_CRYPT_QR_CODE_ALPHANUMERIC_RE as lazy_static::Deref>::deref::__stability","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__lazy_static_internal\") line 13","kind":"Static"}]}

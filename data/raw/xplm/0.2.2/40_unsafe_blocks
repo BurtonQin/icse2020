@@ -1,0 +1,88 @@
+{"sources":[["6996",[{"loc":"file: Real(\"src/paths.rs\") line 41","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["273",[{"loc":"file: Real(\"src/plugin/management.rs\") line 16","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["303",[{"loc":"file: Real(\"src/plugin/management.rs\") line 29","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["315",[{"loc":"file: Real(\"src/plugin/management.rs\") line 40","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["354",[{"loc":"file: Real(\"src/plugin/management.rs\") line 58","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["545",[{"loc":"file: Real(\"src/plugin/management.rs\") line 127","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["565",[{"loc":"file: Real(\"src/plugin/management.rs\") line 134","kind":{"UnsafeFnCall":"C"}}]],["572",[{"loc":"file: Real(\"src/plugin/management.rs\") line 138","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["609",[{"loc":"file: Real(\"src/plugin/management.rs\") line 150","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["729",[{"loc":"file: Real(\"src/flight_loop.rs\") line 75","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["880",[{"loc":"file: Real(\"src/flight_loop.rs\") line 136","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["911",[{"loc":"file: Real(\"src/flight_loop.rs\") line 144","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["1218",[{"loc":"file: Real(\"src/command.rs\") line 23","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["1246",[{"loc":"file: Real(\"src/command.rs\") line 36","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["1260",[{"loc":"file: Real(\"src/command.rs\") line 45","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["1275",[{"loc":"file: Real(\"src/command.rs\") line 53","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["1358",[{"loc":"file: Real(\"src/command.rs\") line 119","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["1399",[{"loc":"file: Real(\"src/command.rs\") line 135","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["1449",[{"loc":"file: Real(\"src/command.rs\") line 155","kind":{"UnsafeFnCall":"C"}}]],["1462",[{"loc":"file: Real(\"src/command.rs\") line 158","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["1650",[{"loc":"file: Real(\"src/data/borrowed/mod.rs\") line 33","kind":{"UnsafeFnCall":"C"}}]],["1663",[{"loc":"file: Real(\"src/data/borrowed/mod.rs\") line 35","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["1705",[{"loc":"file: Real(\"src/data/borrowed/mod.rs\") line 54","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["8036",[{"loc":"file: Real(\"src/data/borrowed/mod.rs\") line 81","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["8061",[{"loc":"file: Real(\"src/data/borrowed/mod.rs\") line 86","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["8086",[{"loc":"file: Real(\"src/data/borrowed/mod.rs\") line 81","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["8111",[{"loc":"file: Real(\"src/data/borrowed/mod.rs\") line 86","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["8136",[{"loc":"file: Real(\"src/data/borrowed/mod.rs\") line 81","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["8161",[{"loc":"file: Real(\"src/data/borrowed/mod.rs\") line 86","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["8186",[{"loc":"file: Real(\"src/data/borrowed/mod.rs\") line 81","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["8211",[{"loc":"file: Real(\"src/data/borrowed/mod.rs\") line 86","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["8236",[{"loc":"file: Real(\"src/data/borrowed/mod.rs\") line 81","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["8261",[{"loc":"file: Real(\"src/data/borrowed/mod.rs\") line 86","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["8286",[{"loc":"file: Real(\"src/data/borrowed/mod.rs\") line 81","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["8311",[{"loc":"file: Real(\"src/data/borrowed/mod.rs\") line 86","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["8336",[{"loc":"file: Real(\"src/data/borrowed/mod.rs\") line 81","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["8361",[{"loc":"file: Real(\"src/data/borrowed/mod.rs\") line 86","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["8386",[{"loc":"file: Real(\"src/data/borrowed/mod.rs\") line 81","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["8411",[{"loc":"file: Real(\"src/data/borrowed/mod.rs\") line 86","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["8451",[{"loc":"file: Real(\"src/data/borrowed/mod.rs\") line 107","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["8477",[{"loc":"file: Real(\"src/data/borrowed/mod.rs\") line 113","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["8517",[{"loc":"file: Real(\"src/data/borrowed/mod.rs\") line 124","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["8561",[{"loc":"file: Real(\"src/data/borrowed/mod.rs\") line 107","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["8587",[{"loc":"file: Real(\"src/data/borrowed/mod.rs\") line 113","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["8627",[{"loc":"file: Real(\"src/data/borrowed/mod.rs\") line 124","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["8671",[{"loc":"file: Real(\"src/data/borrowed/mod.rs\") line 107","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["8697",[{"loc":"file: Real(\"src/data/borrowed/mod.rs\") line 113","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["8737",[{"loc":"file: Real(\"src/data/borrowed/mod.rs\") line 124","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["8781",[{"loc":"file: Real(\"src/data/borrowed/mod.rs\") line 107","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["8807",[{"loc":"file: Real(\"src/data/borrowed/mod.rs\") line 113","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["8847",[{"loc":"file: Real(\"src/data/borrowed/mod.rs\") line 124","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["8891",[{"loc":"file: Real(\"src/data/borrowed/mod.rs\") line 107","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["8917",[{"loc":"file: Real(\"src/data/borrowed/mod.rs\") line 113","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["8957",[{"loc":"file: Real(\"src/data/borrowed/mod.rs\") line 124","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["1747",[{"loc":"file: Real(\"src/data/borrowed/mod.rs\") line 237","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["1782",[{"loc":"file: Real(\"src/data/borrowed/mod.rs\") line 245","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["1921",[{"loc":"file: Real(\"src/data/owned/mod.rs\") line 38","kind":{"UnsafeFnCall":"C"}}]],["1953",[{"loc":"file: Real(\"src/data/owned/mod.rs\") line 47","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["2290",[{"loc":"file: Real(\"src/data/owned/mod.rs\") line 166","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["3007",[{"loc":"file: Real(\"src/error.rs\") line 14","kind":"Static"},{"loc":"file: Real(\"src/error.rs\") line 14","kind":"Static"},{"loc":"file: Real(\"src/error.rs\") line 15","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["3102",[{"loc":"file: Real(\"src/feature.rs\") line 23","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["3130",[{"loc":"file: Real(\"src/feature.rs\") line 32","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["3175",[{"loc":"file: Real(\"src/feature.rs\") line 46","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["3215",[{"loc":"file: Real(\"src/feature.rs\") line 64","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["3618",[{"loc":"file: Real(\"src/menu/mod.rs\") line 147","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["3634",[{"loc":"file: Real(\"src/menu/mod.rs\") line 152","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["3683",[{"loc":"file: Real(\"src/menu/mod.rs\") line 184","kind":{"UnsafeFnCall":"C"}}]],["3695",[{"loc":"file: Real(\"src/menu/mod.rs\") line 188","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["3799",[{"loc":"file: Real(\"src/menu/mod.rs\") line 227","kind":{"UnsafeFnCall":"C"}}]],["3804",[{"loc":"file: Real(\"src/menu/mod.rs\") line 231","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["3854",[{"loc":"file: Real(\"src/menu/mod.rs\") line 259","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["3882",[{"loc":"file: Real(\"src/menu/mod.rs\") line 265","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["3998",[{"loc":"file: Real(\"src/menu/mod.rs\") line 311","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["4041",[{"loc":"file: Real(\"src/menu/mod.rs\") line 327","kind":{"UnsafeFnCall":"C"}},{"loc":"file: Real(\"src/menu/mod.rs\") line 329","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["4113",[{"loc":"file: Real(\"src/menu/mod.rs\") line 342","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["4308",[{"loc":"file: Real(\"src/menu/mod.rs\") line 419","kind":{"UnsafeFnCall":"C"}},{"loc":"file: Real(\"src/menu/mod.rs\") line 428","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["4388",[{"loc":"file: Real(\"src/menu/mod.rs\") line 443","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["4453",[{"loc":"file: Real(\"src/menu/mod.rs\") line 464","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["4496",[{"loc":"file: Real(\"src/menu/mod.rs\") line 479","kind":{"UnsafeFnCall":"C"}},{"loc":"file: Real(\"src/menu/mod.rs\") line 482","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["4573",[{"loc":"file: Real(\"src/menu/mod.rs\") line 495","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["4861",[{"loc":"file: Real(\"src/draw.rs\") line 35","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["4916",[{"loc":"file: Real(\"src/draw.rs\") line 55","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["4999",[{"loc":"file: Real(\"src/draw.rs\") line 160","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["5038",[{"loc":"file: Real(\"src/draw.rs\") line 175","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["5071",[{"loc":"file: Real(\"src/draw.rs\") line 192","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["5334",[{"loc":"file: Real(\"src/window/mod.rs\") line 124","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["5355",[{"loc":"file: Real(\"src/window/mod.rs\") line 137","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["5405",[{"loc":"file: Real(\"src/window/mod.rs\") line 145","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["5428",[{"loc":"file: Real(\"src/window/mod.rs\") line 155","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["5445",[{"loc":"file: Real(\"src/window/mod.rs\") line 160","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["5465",[{"loc":"file: Real(\"src/window/mod.rs\") line 168","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["12533",[{"loc":"file: Real(\"src/window/mod.rs\") line 260","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["12544",[{"loc":"file: Real(\"src/window/mod.rs\") line 260","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["6882",[{"loc":"file: Real(\"src/lib.rs\") line 64","kind":{"UnsafeFnCall":"C"}}]],["6890",[{"loc":"file: Real(\"src/lib.rs\") line 66","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["6921",[{"loc":"file: Real(\"src/lib.rs\") line 77","kind":{"UnsafeFnCall":"C"}}]]]}

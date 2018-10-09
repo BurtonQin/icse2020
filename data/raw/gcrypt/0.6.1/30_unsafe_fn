@@ -1,0 +1,16 @@
+{"name":"buffer::Buffer::from_raw","from_trait":true,"arguments":[{"type_info":"type(*mut u8)","kind":"RawPointer"}],"sources":[]}
+{"name":"cipher::Algorithm::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"cipher::Mode::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"cipher::Cipher::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"digest::Algorithm::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"digest::MessageDigest::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"kdf::Algorithm::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"mac::Algorithm::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"mac::Mac::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"mpi::ec::Context::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"mpi::integer::Integer::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"mpi::point::Point::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"pkey::Algorithm::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"rand::Level::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"sexp::SExpression::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<CONTROL_LOCK as lazy_static::Deref>::deref::__stability","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__lazy_static_internal\") line 13","kind":"Static"}]}

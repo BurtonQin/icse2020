@@ -1,0 +1,49 @@
+{"sources":[["3368",[{"loc":"file: Real(\"src/distance.rs\") line 65","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["3437",[{"loc":"file: Real(\"src/distance.rs\") line 103","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["4617",[{"loc":"file: Real(\"src/norm.rs\") line 17","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["4647",[{"loc":"file: Real(\"src/norm.rs\") line 31","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["5469",[{"loc":"file: Real(\"src/vectors.rs\") line 386","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["6445",[{"loc":"file: Real(\"src/ops.rs\") line 475","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["6566",[{"loc":"file: Real(\"src/ops.rs\") line 510","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["6754",[{"loc":"file: Real(\"src/ops_inplace.rs\") line 51","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["6895",[{"loc":"file: Real(\"src/ops_inplace.rs\") line 121","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["7024",[{"loc":"file: Real(\"src/ops_inplace.rs\") line 179","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["7087",[{"loc":"file: Real(\"src/ops_inplace.rs\") line 217","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["7128",[{"loc":"file: Real(\"src/ops_inplace.rs\") line 246","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["7279",[{"loc":"file: Real(\"src/ops_inplace.rs\") line 313","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["7357",[{"loc":"file: Real(\"src/ops_inplace.rs\") line 352","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["7443",[{"loc":"file: Real(\"src/ops_inplace.rs\") line 400","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["8322",[{"loc":"file: Real(\"src/opencv/mod.rs\") line 71","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["8362",[{"loc":"file: Real(\"src/opencv/mod.rs\") line 98","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["8401",[{"loc":"file: Real(\"src/opencv/mod.rs\") line 120","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["8429",[{"loc":"file: Real(\"src/opencv/mod.rs\") line 132","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["8451",[{"loc":"file: Real(\"src/opencv/mod.rs\") line 141","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["8466",[{"loc":"file: Real(\"src/opencv/mod.rs\") line 148","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["8579",[{"loc":"file: Real(\"src/opencv/mod.rs\") line 212","kind":"DerefRawPointer"}]]]}
+{"sources":[["8595",[{"loc":"file: Real(\"src/opencv/mod.rs\") line 215","kind":"DerefRawPointer"}]]]}
+{"sources":[["8611",[{"loc":"file: Real(\"src/opencv/mod.rs\") line 218","kind":"DerefRawPointer"}]]]}
+{"sources":[["8627",[{"loc":"file: Real(\"src/opencv/mod.rs\") line 224","kind":"DerefRawPointer"}]]]}
+{"sources":[["8643",[{"loc":"file: Real(\"src/opencv/mod.rs\") line 227","kind":"DerefRawPointer"}]]]}
+{"sources":[["8670",[{"loc":"file: Real(\"src/opencv/mod.rs\") line 239","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["8807",[{"loc":"file: Real(\"src/opencv/mod.rs\") line 281","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["8866",[{"loc":"file: Real(\"src/opencv/mod.rs\") line 304","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["8900",[{"loc":"file: Real(\"src/opencv/mod.rs\") line 313","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/opencv/mod.rs\") line 320","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/opencv/mod.rs\") line 320","kind":"DerefRawPointer"}]]]}
+{"sources":[["8986",[{"loc":"file: Real(\"src/opencv/mod.rs\") line 338","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/opencv/mod.rs\") line 341","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/opencv/mod.rs\") line 342","kind":"DerefRawPointer"}]]]}
+{"sources":[["9039",[{"loc":"file: Real(\"src/opencv/mod.rs\") line 350","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["9079",[{"loc":"file: Real(\"src/opencv/mod.rs\") line 367","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["9114",[{"loc":"file: Real(\"src/opencv/mod.rs\") line 382","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["9148",[{"loc":"file: Real(\"src/opencv/mod.rs\") line 391","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/opencv/mod.rs\") line 399","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/opencv/mod.rs\") line 399","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/opencv/mod.rs\") line 400","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/opencv/mod.rs\") line 400","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/opencv/mod.rs\") line 401","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/opencv/mod.rs\") line 401","kind":"DerefRawPointer"}]]]}
+{"sources":[["9229",[{"loc":"file: Real(\"src/opencv/mod.rs\") line 409","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/opencv/mod.rs\") line 412","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/opencv/mod.rs\") line 413","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/opencv/mod.rs\") line 414","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/opencv/mod.rs\") line 415","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/opencv/mod.rs\") line 416","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/opencv/mod.rs\") line 417","kind":"DerefRawPointer"}]]]}
+{"sources":[["9450",[{"loc":"file: Real(\"src/opencv/mod.rs\") line 483","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["9502",[{"loc":"file: Real(\"src/opencv/mod.rs\") line 497","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/opencv/mod.rs\") line 497","kind":"DerefRawPointer"}]]]}
+{"sources":[["9593",[{"loc":"file: Real(\"src/opencv/mod.rs\") line 518","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["9696",[{"loc":"file: Real(\"src/opencv/mod.rs\") line 560","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["9783",[{"loc":"file: Real(\"src/opencv/mod.rs\") line 584","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["9827",[{"loc":"file: Real(\"src/opencv/mod.rs\") line 597","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/opencv/mod.rs\") line 597","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/opencv/mod.rs\") line 599","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/opencv/mod.rs\") line 600","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/opencv/mod.rs\") line 602","kind":{"UnsafeFnCall":"C"}},{"loc":"file: Real(\"src/opencv/mod.rs\") line 603","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["9922",[{"loc":"file: Real(\"src/opencv/mod.rs\") line 631","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/opencv/mod.rs\") line 634","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/opencv/mod.rs\") line 635","kind":"DerefRawPointer"}]]]}
+{"sources":[["10031",[{"loc":"file: Real(\"src/opencv/mod.rs\") line 662","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/opencv/mod.rs\") line 662","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/opencv/mod.rs\") line 663","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/opencv/mod.rs\") line 663","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/opencv/mod.rs\") line 665","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/opencv/mod.rs\") line 665","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/opencv/mod.rs\") line 666","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/opencv/mod.rs\") line 666","kind":"DerefRawPointer"}]]]}
+{"sources":[["10401",[{"loc":"file: Real(\"src/opencv/mod.rs\") line 785","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["10457",[{"loc":"file: Real(\"src/opencv/mod.rs\") line 812","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["10490",[{"loc":"file: Real(\"src/opencv/mod.rs\") line 829","kind":{"UnsafeFnCall":"C"}},{"loc":"file: Real(\"src/opencv/mod.rs\") line 835","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["10558",[{"loc":"file: Real(\"src/opencv/mod.rs\") line 860","kind":{"UnsafeFnCall":"C"}},{"loc":"file: Real(\"src/opencv/mod.rs\") line 866","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["13393",[{"loc":"file: Macros(\"vec\") line 3","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Macros(\"vec\") line 3","kind":{"UnsafeFnCall":"Rust"}}]]]}

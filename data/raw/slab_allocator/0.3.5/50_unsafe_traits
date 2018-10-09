@@ -1,0 +1,3 @@
+{"name":"<Heap as core::alloc::Alloc>"}
+{"name":"<&'a LockedHeap as core::alloc::Alloc>"}
+{"name":"<LockedHeap as core::alloc::GlobalAlloc>"}

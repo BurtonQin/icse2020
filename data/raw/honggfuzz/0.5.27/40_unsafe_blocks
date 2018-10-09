@@ -1,0 +1,2 @@
+{"sources":[["780",[{"loc":"file: Real(\"src/bin/cargo-hfuzz.rs\") line 14","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["791",[{"loc":"file: Real(\"src/bin/cargo-hfuzz.rs\") line 14","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["206",[{"loc":"file: Macros(\"vec\") line 3","kind":{"UnsafeFnCall":"Rust"}}]]]}

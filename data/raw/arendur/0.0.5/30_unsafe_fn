@@ -1,0 +1,10 @@
+{"name":"<filming::film::BoundedSink2D<S>>::get_pixel_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/filming/film.rs\") line 253","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<filming::film::BoundedSink2D<S>>::get_pixel_mut_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/filming/film.rs\") line 269","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<sample::filters::BoxFilter as sample::Filter>::evaluate_unsafe","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<sample::filters::TriangleFilter as sample::Filter>::evaluate_unsafe","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<sample::filters::GaussianFilter as sample::Filter>::evaluate_unsafe","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<sample::filters::MitchellFilter as sample::Filter>::evaluate_unsafe","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<sample::filters::LanczosSincFilter as sample::Filter>::evaluate_unsafe","from_trait":true,"arguments":[],"sources":[]}
+{"name":"sample::filters::PrecomputedFilter::index_at_p","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<sample::filters::PrecomputedFilter as sample::Filter>::evaluate_unsafe","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/sample/filters.rs\") line 308","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/sample/filters.rs\") line 308","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<texturing::textures::image::WEIGHT_LUT as lazy_static::Deref>::deref::__stability","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__lazy_static_internal\") line 13","kind":"Static"}]}

@@ -1,0 +1,8 @@
+{"sources":[["83",[{"loc":"file: Real(\"src/gc.rs\") line 36","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["250",[{"loc":"file: Real(\"src/gc_box.rs\") line 31","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["360",[{"loc":"file: Real(\"src/gc_ref_cell.rs\") line 28","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["564",[{"loc":"file: Real(\"src/gc_ref_cell.rs\") line 98","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["632",[{"loc":"file: Real(\"src/gc_scope.rs\") line 26","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["723",[{"loc":"file: Real(\"src/gc_scope.rs\") line 64","kind":{"UnsafeFnCall":"Rust"}}]],["735",[{"loc":"file: Real(\"src/gc_scope.rs\") line 66","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["762",[{"loc":"file: Real(\"src/gc_scope.rs\") line 74","kind":{"UnsafeFnCall":"Rust"}}]],["789",[{"loc":"file: Real(\"src/gc_scope.rs\") line 88","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/gc_scope.rs\") line 89","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/gc_scope.rs\") line 92","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/gc_scope.rs\") line 90","kind":"DerefRawPointer"}]],["840",[{"loc":"file: Real(\"src/gc_scope.rs\") line 99","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["883",[{"loc":"file: Real(\"src/gc_scope.rs\") line 110","kind":{"UnsafeFnCall":"Rust"}}]]]}

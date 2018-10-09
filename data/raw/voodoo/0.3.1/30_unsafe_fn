@@ -1,0 +1,829 @@
+{"name":"loader::Loader::create_instance","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/loader.rs\") line 196","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"instance::__debug_callback","from_trait":false,"arguments":[{"type_info":"type(*const c_char)","kind":"RawPointer"},{"type_info":"type(*const c_char)","kind":"RawPointer"},{"type_info":"type(*mut c_void)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/instance.rs\") line 43","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"instance::Instance::create_device","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/instance.rs\") line 278","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"instance::Instance::destroy_device","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/instance.rs\") line 292","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"instance::Instance::destroy_surface_khr","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/instance.rs\") line 392","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"instance::Instance::get_physical_device_surface_support_khr","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/instance.rs\") line 407","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"instance::Instance::get_physical_device_surface_capabilities_khr","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/instance.rs\") line 422","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/instance.rs\") line 423","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/instance.rs\") line 426","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"instance::Instance::get_physical_device_surface_formats_khr","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/instance.rs\") line 441","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/instance.rs\") line 445","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/instance.rs\") line 447","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"instance::Instance::get_physical_device_surface_present_modes_khr","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/instance.rs\") line 469","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/instance.rs\") line 473","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/instance.rs\") line 476","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"instance::Instance::get_physical_device_display_properties_khr","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/instance.rs\") line 500","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/instance.rs\") line 504","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/instance.rs\") line 506","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"instance::Instance::get_physical_device_display_plane_properties_khr","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/instance.rs\") line 527","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/instance.rs\") line 531","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/instance.rs\") line 533","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"instance::Instance::get_display_plane_supported_displays_khr","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/instance.rs\") line 554","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/instance.rs\") line 558","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/instance.rs\") line 560","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"instance::Instance::get_display_mode_properties_khr","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/instance.rs\") line 581","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/instance.rs\") line 585","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/instance.rs\") line 587","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"instance::Instance::create_display_mode_khr","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/instance.rs\") line 609","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"instance::Instance::get_display_plane_capabilities_khr","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/instance.rs\") line 625","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/instance.rs\") line 626","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/instance.rs\") line 629","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"instance::Instance::create_display_plane_surface_khr","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/instance.rs\") line 644","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"instance::Instance::create_xlib_surface_khr","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/instance.rs\") line 661","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"instance::Instance::get_physical_device_xlib_presentation_support_khr","from_trait":true,"arguments":[{"type_info":"type(*mut Display)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/instance.rs\") line 676","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"instance::Instance::create_xcb_surface_khr","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/instance.rs\") line 693","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"instance::Instance::get_physical_device_xcb_presentation_support_khr","from_trait":true,"arguments":[{"type_info":"type(*mut xcb_connection_t)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/instance.rs\") line 709","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"instance::Instance::create_wayland_surface_khr","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/instance.rs\") line 727","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"instance::Instance::get_physical_device_wayland_presentation_support_khr","from_trait":true,"arguments":[{"type_info":"type(*mut wl_display)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/instance.rs\") line 741","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"instance::Instance::create_mir_surface_khr","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/instance.rs\") line 758","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"instance::Instance::get_physical_device_mir_presentation_support_khr","from_trait":true,"arguments":[{"type_info":"type(*mut MirConnection)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/instance.rs\") line 772","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"instance::Instance::create_android_surface_khr","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/instance.rs\") line 789","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"instance::Instance::create_win32_surface_khr","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/instance.rs\") line 805","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"instance::Instance::get_physical_device_win32_presentation_support_khr","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/instance.rs\") line 819","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"instance::Instance::get_physical_device_features_2_khr","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/instance.rs\") line 833","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/instance.rs\") line 834","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/instance.rs\") line 836","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"instance::Instance::get_physical_device_properties_2_khr","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/instance.rs\") line 848","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/instance.rs\") line 849","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/instance.rs\") line 851","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"instance::Instance::get_physical_device_format_properties_2_khr","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/instance.rs\") line 864","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/instance.rs\") line 865","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"instance::Instance::get_physical_device_image_format_properties_2_khr","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/instance.rs\") line 882","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/instance.rs\") line 883","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/instance.rs\") line 887","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"instance::Instance::get_physical_device_queue_family_properties_2_khr","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/instance.rs\") line 902","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/instance.rs\") line 905","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/instance.rs\") line 906","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"instance::Instance::get_physical_device_memory_properties_2_khr","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/instance.rs\") line 924","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/instance.rs\") line 925","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/instance.rs\") line 927","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"instance::Instance::get_physical_device_sparse_image_format_properties_2_khr","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/instance.rs\") line 945","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/instance.rs\") line 949","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/instance.rs\") line 950","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"instance::Instance::get_physical_device_external_buffer_properties_khr","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/instance.rs\") line 968","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/instance.rs\") line 969","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/instance.rs\") line 972","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"instance::Instance::get_physical_device_external_semaphore_properties_khr","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/instance.rs\") line 987","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/instance.rs\") line 988","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/instance.rs\") line 991","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"instance::Instance::get_physical_device_external_fence_properties_khr","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/instance.rs\") line 1006","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/instance.rs\") line 1007","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/instance.rs\") line 1010","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"instance::Instance::get_physical_device_surface_capabilities_2_khr","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/instance.rs\") line 1023","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/instance.rs\") line 1024","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/instance.rs\") line 1027","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"instance::Instance::get_physical_device_surface_formats_2_khr","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/instance.rs\") line 1042","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/instance.rs\") line 1046","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/instance.rs\") line 1049","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"instance::Instance::create_debug_report_callback_ext","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/instance.rs\") line 1074","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"instance::Instance::destroy_debug_report_callback_ext","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/instance.rs\") line 1090","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"instance::Instance::debug_report_message_ext","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/instance.rs\") line 1105","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"instance::Instance::get_physical_device_external_image_format_properties_nv","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/instance.rs\") line 1125","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/instance.rs\") line 1126","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/instance.rs\") line 1131","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"instance::Instance::create_vi_surface_nn","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/instance.rs\") line 1176","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"instance::Instance::release_display_ext","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/instance.rs\") line 1214","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"instance::Instance::acquire_xlib_display_ext","from_trait":true,"arguments":[{"type_info":"type(*mut Display)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/instance.rs\") line 1228","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"instance::Instance::get_rand_r_output_display_ext","from_trait":true,"arguments":[{"type_info":"type(*mut Display)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/instance.rs\") line 1243","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"instance::Instance::get_physical_device_surface_capabilities_2_ext","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/instance.rs\") line 1258","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/instance.rs\") line 1259","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"instance::Instance::create_ios_surface_mvk","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/instance.rs\") line 1276","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"instance::Instance::create_mac_os_surface_mvk","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/instance.rs\") line 1292","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"surface::SurfaceKhr::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"surface::SurfaceKhrBuilder::xlib","from_trait":true,"arguments":[{"type_info":"type(*mut vks::Display)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/surface.rs\") line 118","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/surface.rs\") line 119","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"surface::SurfaceKhrBuilder::xcb","from_trait":true,"arguments":[{"type_info":"type(*mut vks::xcb_connection_t)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/surface.rs\") line 128","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/surface.rs\") line 129","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"surface::SurfaceKhrBuilder::wayland","from_trait":true,"arguments":[{"type_info":"type(*mut vks::wl_display)","kind":"RawPointer"},{"type_info":"type(*mut vks::wl_surface)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/surface.rs\") line 138","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/surface.rs\") line 139","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"surface::SurfaceKhrBuilder::mir","from_trait":true,"arguments":[{"type_info":"type(*mut vks::MirConnection)","kind":"RawPointer"},{"type_info":"type(*mut vks::MirSurface)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/surface.rs\") line 148","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/surface.rs\") line 149","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"queue::Queue::from_parts","from_trait":true,"arguments":[],"sources":[]}
+{"name":"command_buffer::CommandBuffer::draw_indirect","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/command_buffer.rs\") line 282","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"command_buffer::CommandBuffer::draw_indexed_indirect","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/command_buffer.rs\") line 293","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"command_buffer::CommandBuffer::dispatch_indirect","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/command_buffer.rs\") line 313","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"command_buffer::CommandBuffer::copy_buffer","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/command_buffer.rs\") line 323","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"command_buffer::CommandBuffer::copy_image","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/command_buffer.rs\") line 334","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"command_buffer::CommandBuffer::blit_image","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/command_buffer.rs\") line 346","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"command_buffer::CommandBuffer::copy_buffer_to_image","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/command_buffer.rs\") line 357","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"command_buffer::CommandBuffer::copy_image_to_buffer","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/command_buffer.rs\") line 368","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"command_buffer::CommandBuffer::update_buffer","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/command_buffer.rs\") line 378","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"command_buffer::CommandBuffer::fill_buffer","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/command_buffer.rs\") line 389","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"command_buffer::CommandBuffer::clear_color_image","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/command_buffer.rs\") line 400","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"command_buffer::CommandBuffer::clear_depth_stencil_image","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/command_buffer.rs\") line 411","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"command_buffer::CommandBuffer::resolve_image","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/command_buffer.rs\") line 431","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"command_buffer::CommandBuffer::copy_query_pool_results","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/command_buffer.rs\") line 531","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"buffer::Buffer::bind_memory","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/buffer.rs\") line 84","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"image::Image::from_handle","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/image.rs\") line 68","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"image::Image::bind_memory","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/image.rs\") line 102","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device_memory::DeviceMemory::map_to_ptr","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device_memory.rs\") line 112","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device_memory::DeviceMemory::unmap_ptr","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device_memory.rs\") line 121","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device_memory::DeviceMemory::map","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device_memory.rs\") line 162","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"structs::Offset2d::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::Offset3d::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::Extent2d::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::Extent3d::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::Viewport::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::Rect2d::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::ClearRect::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::ComponentMapping::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::PhysicalDeviceProperties::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::PhysicalDeviceProperties::set_device_name","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::PhysicalDevicePropertiesBuilder::device_name","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::ExtensionProperties::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::ExtensionProperties::set_extension_name","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::ExtensionPropertiesBuilder::extension_name","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::LayerProperties::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::LayerProperties::set_layer_name","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::LayerProperties::set_description","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::LayerPropertiesBuilder::layer_name","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::LayerPropertiesBuilder::description","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::ApplicationInfo::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::ApplicationInfo::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::ApplicationInfoBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::AllocationCallbacks::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::AllocationCallbacks::set_user_data","from_trait":true,"arguments":[{"type_info":"type(*mut c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::AllocationCallbacks::set_pfn_allocation","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::AllocationCallbacks::set_pfn_reallocation","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::AllocationCallbacks::set_pfn_free","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::AllocationCallbacks::set_pfn_internal_allocation","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::AllocationCallbacks::set_pfn_internal_free","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::AllocationCallbacksBuilder::user_data","from_trait":true,"arguments":[{"type_info":"type(*mut c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::AllocationCallbacksBuilder::pfn_allocation","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::AllocationCallbacksBuilder::pfn_reallocation","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::AllocationCallbacksBuilder::pfn_free","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::AllocationCallbacksBuilder::pfn_internal_allocation","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::AllocationCallbacksBuilder::pfn_internal_free","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::DeviceQueueCreateInfo::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::DeviceQueueCreateInfo::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::DeviceQueueCreateInfoBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::DeviceCreateInfo::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::DeviceCreateInfo::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::DeviceCreateInfoBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::InstanceCreateInfo::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::InstanceCreateInfo::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::InstanceCreateInfoBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::QueueFamilyProperties::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::PhysicalDeviceMemoryProperties::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::MemoryAllocateInfo::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::MemoryAllocateInfo::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::MemoryAllocateInfoBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::MemoryRequirements::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::SparseImageFormatProperties::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::SparseImageMemoryRequirements::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::MemoryType::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::MemoryHeap::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::MappedMemoryRange::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::MappedMemoryRange::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::MappedMemoryRangeBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::FormatProperties::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::ImageFormatProperties::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::DescriptorBufferInfo::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::DescriptorImageInfo::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::WriteDescriptorSet::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::WriteDescriptorSet::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::WriteDescriptorSetBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::CopyDescriptorSet::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::CopyDescriptorSet::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::CopyDescriptorSetBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::BufferCreateInfo::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::BufferCreateInfo::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::BufferCreateInfoBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::BufferViewCreateInfo::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::BufferViewCreateInfo::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::BufferViewCreateInfoBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::ImageSubresource::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::ImageSubresourceLayers::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::ImageSubresourceRange::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::MemoryBarrier::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::MemoryBarrier::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::MemoryBarrierBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::BufferMemoryBarrier::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::BufferMemoryBarrier::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::BufferMemoryBarrierBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::ImageMemoryBarrier::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::ImageMemoryBarrier::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::ImageMemoryBarrierBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::ImageCreateInfo::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::ImageCreateInfo::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::ImageCreateInfoBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::SubresourceLayout::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::ImageViewCreateInfo::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::ImageViewCreateInfo::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::ImageViewCreateInfoBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::BufferCopy::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::SparseMemoryBind::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::SparseImageMemoryBind::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::SparseBufferMemoryBindInfo::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::SparseImageOpaqueMemoryBindInfo::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::SparseImageMemoryBindInfo::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::BindSparseInfo::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::BindSparseInfo::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::BindSparseInfoBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::ImageCopy::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::ImageBlit::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::BufferImageCopy::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::ImageResolve::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::ShaderModuleCreateInfo::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::ShaderModuleCreateInfo::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::ShaderModuleCreateInfoBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::DescriptorSetLayoutBinding::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::DescriptorSetLayoutCreateInfo::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::DescriptorSetLayoutCreateInfo::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::DescriptorSetLayoutCreateInfoBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::DescriptorPoolSize::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::DescriptorPoolCreateInfo::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::DescriptorPoolCreateInfo::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::DescriptorPoolCreateInfoBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::DescriptorSetAllocateInfo::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::DescriptorSetAllocateInfo::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::DescriptorSetAllocateInfoBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::SpecializationMapEntry::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::SpecializationInfo::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::SpecializationInfo::set_data","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::SpecializationInfoBuilder::data","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::PipelineShaderStageCreateInfo::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::PipelineShaderStageCreateInfo::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::PipelineShaderStageCreateInfoBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::ComputePipelineCreateInfo::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::ComputePipelineCreateInfo::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::ComputePipelineCreateInfoBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::VertexInputBindingDescription::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::VertexInputAttributeDescription::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::PipelineVertexInputStateCreateInfo::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::PipelineVertexInputStateCreateInfo::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::PipelineVertexInputStateCreateInfoBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::PipelineInputAssemblyStateCreateInfo::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::PipelineInputAssemblyStateCreateInfo::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::PipelineInputAssemblyStateCreateInfoBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::PipelineTessellationStateCreateInfo::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::PipelineTessellationStateCreateInfo::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::PipelineTessellationStateCreateInfoBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::PipelineViewportStateCreateInfo::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::PipelineViewportStateCreateInfo::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::PipelineViewportStateCreateInfoBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::PipelineRasterizationStateCreateInfo::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::PipelineRasterizationStateCreateInfo::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::PipelineRasterizationStateCreateInfoBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::PipelineMultisampleStateCreateInfo::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::PipelineMultisampleStateCreateInfo::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::PipelineMultisampleStateCreateInfoBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::PipelineColorBlendAttachmentState::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::PipelineColorBlendStateCreateInfo::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::PipelineColorBlendStateCreateInfo::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::PipelineColorBlendStateCreateInfoBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::PipelineDynamicStateCreateInfo::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::PipelineDynamicStateCreateInfo::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::PipelineDynamicStateCreateInfoBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::StencilOpState::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::PipelineDepthStencilStateCreateInfo::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::PipelineDepthStencilStateCreateInfo::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::PipelineDepthStencilStateCreateInfoBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::GraphicsPipelineCreateInfo::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::GraphicsPipelineCreateInfo::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::GraphicsPipelineCreateInfoBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::PipelineCacheCreateInfo::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::PipelineCacheCreateInfo::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::PipelineCacheCreateInfo::set_initial_data","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::PipelineCacheCreateInfoBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::PipelineCacheCreateInfoBuilder::initial_data","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::PushConstantRange::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::PipelineLayoutCreateInfo::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::PipelineLayoutCreateInfo::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::PipelineLayoutCreateInfoBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::SamplerCreateInfo::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::SamplerCreateInfo::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::SamplerCreateInfoBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::CommandPoolCreateInfo::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::CommandPoolCreateInfo::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::CommandPoolCreateInfoBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::CommandBufferAllocateInfo::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::CommandBufferAllocateInfo::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::CommandBufferAllocateInfoBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::CommandBufferInheritanceInfo::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::CommandBufferInheritanceInfo::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::CommandBufferInheritanceInfoBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::CommandBufferBeginInfo::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::CommandBufferBeginInfo::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::CommandBufferBeginInfoBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::RenderPassBeginInfo::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::RenderPassBeginInfo::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::RenderPassBeginInfoBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::ClearDepthStencilValue::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::ClearAttachment::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::AttachmentDescription::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::AttachmentReference::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::SubpassDescription::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::SubpassDependency::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::RenderPassCreateInfo::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::RenderPassCreateInfo::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::RenderPassCreateInfoBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::EventCreateInfo::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::EventCreateInfo::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::EventCreateInfoBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::FenceCreateInfo::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::FenceCreateInfo::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::FenceCreateInfoBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::PhysicalDeviceFeatures::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::PhysicalDeviceSparseProperties::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::PhysicalDeviceLimits::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::SemaphoreCreateInfo::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::SemaphoreCreateInfo::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::SemaphoreCreateInfoBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::QueryPoolCreateInfo::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::QueryPoolCreateInfo::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::QueryPoolCreateInfoBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::FramebufferCreateInfo::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::FramebufferCreateInfo::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::FramebufferCreateInfoBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::DrawIndirectCommand::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::DrawIndexedIndirectCommand::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::DispatchIndirectCommand::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::SubmitInfo::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::SubmitInfo::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::SubmitInfoBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::DisplayPropertiesKhr::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::DisplayPlanePropertiesKhr::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::DisplayModeParametersKhr::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::DisplayModePropertiesKhr::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::DisplayModeCreateInfoKhr::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::DisplayModeCreateInfoKhr::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::DisplayModeCreateInfoKhrBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::DisplayPlaneCapabilitiesKhr::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::DisplaySurfaceCreateInfoKhr::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::DisplaySurfaceCreateInfoKhr::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::DisplaySurfaceCreateInfoKhrBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::DisplayPresentInfoKhr::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::DisplayPresentInfoKhr::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::DisplayPresentInfoKhrBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::SurfaceCapabilitiesKhr::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::AndroidSurfaceCreateInfoKhr::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::AndroidSurfaceCreateInfoKhr::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::AndroidSurfaceCreateInfoKhr::set_window","from_trait":true,"arguments":[{"type_info":"type(*mut ANativeWindow)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::AndroidSurfaceCreateInfoKhrBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::AndroidSurfaceCreateInfoKhrBuilder::window","from_trait":true,"arguments":[{"type_info":"type(*mut ANativeWindow)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::MirSurfaceCreateInfoKhr::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::MirSurfaceCreateInfoKhr::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::MirSurfaceCreateInfoKhr::set_connection","from_trait":true,"arguments":[{"type_info":"type(*mut MirConnection)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::MirSurfaceCreateInfoKhr::set_mir_surface","from_trait":true,"arguments":[{"type_info":"type(*mut MirSurface)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::MirSurfaceCreateInfoKhrBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::MirSurfaceCreateInfoKhrBuilder::connection","from_trait":true,"arguments":[{"type_info":"type(*mut MirConnection)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::MirSurfaceCreateInfoKhrBuilder::mir_surface","from_trait":true,"arguments":[{"type_info":"type(*mut MirSurface)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::ViSurfaceCreateInfoNn::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::ViSurfaceCreateInfoNn::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::ViSurfaceCreateInfoNn::set_window","from_trait":true,"arguments":[{"type_info":"type(*mut c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::ViSurfaceCreateInfoNnBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::ViSurfaceCreateInfoNnBuilder::window","from_trait":true,"arguments":[{"type_info":"type(*mut c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::WaylandSurfaceCreateInfoKhr::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::WaylandSurfaceCreateInfoKhr::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::WaylandSurfaceCreateInfoKhr::set_display","from_trait":true,"arguments":[{"type_info":"type(*mut wl_display)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::WaylandSurfaceCreateInfoKhr::set_surface","from_trait":true,"arguments":[{"type_info":"type(*mut wl_surface)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::WaylandSurfaceCreateInfoKhrBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::WaylandSurfaceCreateInfoKhrBuilder::display","from_trait":true,"arguments":[{"type_info":"type(*mut wl_display)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::WaylandSurfaceCreateInfoKhrBuilder::surface","from_trait":true,"arguments":[{"type_info":"type(*mut wl_surface)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::Win32SurfaceCreateInfoKhr::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::Win32SurfaceCreateInfoKhr::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::Win32SurfaceCreateInfoKhrBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::XlibSurfaceCreateInfoKhr::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::XlibSurfaceCreateInfoKhr::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::XlibSurfaceCreateInfoKhr::set_dpy","from_trait":true,"arguments":[{"type_info":"type(*mut Display)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::XlibSurfaceCreateInfoKhr::set_window","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::XlibSurfaceCreateInfoKhrBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::XlibSurfaceCreateInfoKhrBuilder::dpy","from_trait":true,"arguments":[{"type_info":"type(*mut Display)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::XlibSurfaceCreateInfoKhrBuilder::window","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::XcbSurfaceCreateInfoKhr::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::XcbSurfaceCreateInfoKhr::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::XcbSurfaceCreateInfoKhr::set_connection","from_trait":true,"arguments":[{"type_info":"type(*mut xcb_connection_t)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::XcbSurfaceCreateInfoKhr::set_window","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::XcbSurfaceCreateInfoKhrBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::XcbSurfaceCreateInfoKhrBuilder::connection","from_trait":true,"arguments":[{"type_info":"type(*mut xcb_connection_t)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::XcbSurfaceCreateInfoKhrBuilder::window","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::SurfaceFormatKhr::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::SwapchainCreateInfoKhr::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::SwapchainCreateInfoKhr::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::SwapchainCreateInfoKhrBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::PresentInfoKhr::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::PresentInfoKhr::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::PresentInfoKhrBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::DebugReportCallbackCreateInfoExt::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::DebugReportCallbackCreateInfoExt::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::DebugReportCallbackCreateInfoExt::set_pfn_callback","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::DebugReportCallbackCreateInfoExt::set_user_data","from_trait":true,"arguments":[{"type_info":"type(*mut c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::DebugReportCallbackCreateInfoExtBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::DebugReportCallbackCreateInfoExtBuilder::pfn_callback","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::DebugReportCallbackCreateInfoExtBuilder::user_data","from_trait":true,"arguments":[{"type_info":"type(*mut c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::ValidationFlagsExt::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::ValidationFlagsExt::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::ValidationFlagsExtBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::PipelineRasterizationStateRasterizationOrderAmd::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::PipelineRasterizationStateRasterizationOrderAmd::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::PipelineRasterizationStateRasterizationOrderAmdBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::DebugMarkerObjectNameInfoExt::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::DebugMarkerObjectNameInfoExt::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::DebugMarkerObjectNameInfoExtBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::DebugMarkerObjectTagInfoExt::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::DebugMarkerObjectTagInfoExt::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::DebugMarkerObjectTagInfoExt::set_tag","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::DebugMarkerObjectTagInfoExtBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::DebugMarkerObjectTagInfoExtBuilder::tag","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::DebugMarkerMarkerInfoExt::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::DebugMarkerMarkerInfoExt::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::DebugMarkerMarkerInfoExtBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::DedicatedAllocationImageCreateInfoNv::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::DedicatedAllocationImageCreateInfoNv::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::DedicatedAllocationImageCreateInfoNvBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::DedicatedAllocationBufferCreateInfoNv::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::DedicatedAllocationBufferCreateInfoNv::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::DedicatedAllocationBufferCreateInfoNvBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::DedicatedAllocationMemoryAllocateInfoNv::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::DedicatedAllocationMemoryAllocateInfoNv::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::DedicatedAllocationMemoryAllocateInfoNvBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::ExternalImageFormatPropertiesNv::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::ExternalMemoryImageCreateInfoNv::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::ExternalMemoryImageCreateInfoNv::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::ExternalMemoryImageCreateInfoNvBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::ExportMemoryAllocateInfoNv::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::ExportMemoryAllocateInfoNv::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::ExportMemoryAllocateInfoNvBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::ImportMemoryWin32HandleInfoNv::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::ImportMemoryWin32HandleInfoNv::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::ImportMemoryWin32HandleInfoNvBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::ExportMemoryWin32HandleInfoNv::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::ExportMemoryWin32HandleInfoNv::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::ExportMemoryWin32HandleInfoNvBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::Win32KeyedMutexAcquireReleaseInfoNv::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::Win32KeyedMutexAcquireReleaseInfoNv::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::Win32KeyedMutexAcquireReleaseInfoNvBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::PhysicalDeviceFeatures2Khr::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::PhysicalDeviceFeatures2Khr::set_next","from_trait":true,"arguments":[{"type_info":"type(*mut c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::PhysicalDeviceFeatures2KhrBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*mut c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::PhysicalDeviceProperties2Khr::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::PhysicalDeviceProperties2Khr::set_next","from_trait":true,"arguments":[{"type_info":"type(*mut c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::PhysicalDeviceProperties2KhrBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*mut c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::FormatProperties2Khr::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::FormatProperties2Khr::set_next","from_trait":true,"arguments":[{"type_info":"type(*mut c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::FormatProperties2KhrBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*mut c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::ImageFormatProperties2Khr::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::ImageFormatProperties2Khr::set_next","from_trait":true,"arguments":[{"type_info":"type(*mut c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::ImageFormatProperties2KhrBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*mut c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::PhysicalDeviceImageFormatInfo2Khr::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::PhysicalDeviceImageFormatInfo2Khr::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::PhysicalDeviceImageFormatInfo2KhrBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::QueueFamilyProperties2Khr::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::QueueFamilyProperties2Khr::set_next","from_trait":true,"arguments":[{"type_info":"type(*mut c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::QueueFamilyProperties2KhrBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*mut c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::PhysicalDeviceMemoryProperties2Khr::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::PhysicalDeviceMemoryProperties2Khr::set_next","from_trait":true,"arguments":[{"type_info":"type(*mut c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::PhysicalDeviceMemoryProperties2KhrBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*mut c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::SparseImageFormatProperties2Khr::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::SparseImageFormatProperties2Khr::set_next","from_trait":true,"arguments":[{"type_info":"type(*mut c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::SparseImageFormatProperties2KhrBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*mut c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::PhysicalDeviceSparseImageFormatInfo2Khr::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::PhysicalDeviceSparseImageFormatInfo2Khr::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::PhysicalDeviceSparseImageFormatInfo2KhrBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::PhysicalDevicePushDescriptorPropertiesKhr::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::PhysicalDevicePushDescriptorPropertiesKhr::set_next","from_trait":true,"arguments":[{"type_info":"type(*mut c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::PhysicalDevicePushDescriptorPropertiesKhrBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*mut c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::PresentRegionsKhr::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::PresentRegionsKhr::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::PresentRegionsKhrBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::PresentRegionKhr::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::RectLayerKhr::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::PhysicalDeviceVariablePointerFeaturesKhr::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::PhysicalDeviceVariablePointerFeaturesKhr::set_next","from_trait":true,"arguments":[{"type_info":"type(*mut c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::PhysicalDeviceVariablePointerFeaturesKhrBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*mut c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::ExternalMemoryPropertiesKhr::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::PhysicalDeviceExternalImageFormatInfoKhr::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::PhysicalDeviceExternalImageFormatInfoKhr::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::PhysicalDeviceExternalImageFormatInfoKhrBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::ExternalImageFormatPropertiesKhr::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::ExternalImageFormatPropertiesKhr::set_next","from_trait":true,"arguments":[{"type_info":"type(*mut c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::ExternalImageFormatPropertiesKhrBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*mut c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::PhysicalDeviceExternalBufferInfoKhr::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::PhysicalDeviceExternalBufferInfoKhr::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::PhysicalDeviceExternalBufferInfoKhrBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::ExternalBufferPropertiesKhr::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::ExternalBufferPropertiesKhr::set_next","from_trait":true,"arguments":[{"type_info":"type(*mut c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::ExternalBufferPropertiesKhrBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*mut c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::PhysicalDeviceIDPropertiesKhr::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::PhysicalDeviceIDPropertiesKhr::set_next","from_trait":true,"arguments":[{"type_info":"type(*mut c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::PhysicalDeviceIDPropertiesKhrBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*mut c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::ExternalMemoryImageCreateInfoKhr::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::ExternalMemoryImageCreateInfoKhr::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::ExternalMemoryImageCreateInfoKhrBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::ExternalMemoryBufferCreateInfoKhr::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::ExternalMemoryBufferCreateInfoKhr::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::ExternalMemoryBufferCreateInfoKhrBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::ExportMemoryAllocateInfoKhr::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::ExportMemoryAllocateInfoKhr::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::ExportMemoryAllocateInfoKhrBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::ImportMemoryWin32HandleInfoKhr::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::ImportMemoryWin32HandleInfoKhr::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::ImportMemoryWin32HandleInfoKhrBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::ExportMemoryWin32HandleInfoKhr::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::ExportMemoryWin32HandleInfoKhr::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::ExportMemoryWin32HandleInfoKhrBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::MemoryWin32HandlePropertiesKhr::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::MemoryWin32HandlePropertiesKhr::set_next","from_trait":true,"arguments":[{"type_info":"type(*mut c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::MemoryWin32HandlePropertiesKhrBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*mut c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::MemoryGetWin32HandleInfoKhr::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::MemoryGetWin32HandleInfoKhr::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::MemoryGetWin32HandleInfoKhrBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::ImportMemoryFdInfoKhr::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::ImportMemoryFdInfoKhr::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::ImportMemoryFdInfoKhrBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::MemoryFdPropertiesKhr::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::MemoryFdPropertiesKhr::set_next","from_trait":true,"arguments":[{"type_info":"type(*mut c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::MemoryFdPropertiesKhrBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*mut c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::MemoryGetFdInfoKhr::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::MemoryGetFdInfoKhr::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::MemoryGetFdInfoKhrBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::Win32KeyedMutexAcquireReleaseInfoKhr::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::Win32KeyedMutexAcquireReleaseInfoKhr::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::Win32KeyedMutexAcquireReleaseInfoKhrBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::PhysicalDeviceExternalSemaphoreInfoKhr::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::PhysicalDeviceExternalSemaphoreInfoKhr::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::PhysicalDeviceExternalSemaphoreInfoKhrBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::ExternalSemaphorePropertiesKhr::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::ExternalSemaphorePropertiesKhr::set_next","from_trait":true,"arguments":[{"type_info":"type(*mut c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::ExternalSemaphorePropertiesKhrBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*mut c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::ExportSemaphoreCreateInfoKhr::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::ExportSemaphoreCreateInfoKhr::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::ExportSemaphoreCreateInfoKhrBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::ImportSemaphoreWin32HandleInfoKhr::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::ImportSemaphoreWin32HandleInfoKhr::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::ImportSemaphoreWin32HandleInfoKhrBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::ExportSemaphoreWin32HandleInfoKhr::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::ExportSemaphoreWin32HandleInfoKhr::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::ExportSemaphoreWin32HandleInfoKhrBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::D3d12FenceSubmitInfoKHR::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::D3d12FenceSubmitInfoKHR::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::D3d12FenceSubmitInfoKHRBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::SemaphoreGetWin32HandleInfoKhr::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::SemaphoreGetWin32HandleInfoKhr::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::SemaphoreGetWin32HandleInfoKhrBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::ImportSemaphoreFdInfoKhr::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::ImportSemaphoreFdInfoKhr::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::ImportSemaphoreFdInfoKhrBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::SemaphoreGetFdInfoKhr::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::SemaphoreGetFdInfoKhr::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::SemaphoreGetFdInfoKhrBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::PhysicalDeviceExternalFenceInfoKhr::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::PhysicalDeviceExternalFenceInfoKhr::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::PhysicalDeviceExternalFenceInfoKhrBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::ExternalFencePropertiesKhr::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::ExternalFencePropertiesKhr::set_next","from_trait":true,"arguments":[{"type_info":"type(*mut c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::ExternalFencePropertiesKhrBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*mut c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::ExportFenceCreateInfoKhr::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::ExportFenceCreateInfoKhr::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::ExportFenceCreateInfoKhrBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::ImportFenceWin32HandleInfoKhr::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::ImportFenceWin32HandleInfoKhr::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::ImportFenceWin32HandleInfoKhrBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::ExportFenceWin32HandleInfoKhr::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::ExportFenceWin32HandleInfoKhr::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::ExportFenceWin32HandleInfoKhrBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::FenceGetWin32HandleInfoKhr::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::FenceGetWin32HandleInfoKhr::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::FenceGetWin32HandleInfoKhrBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::ImportFenceFdInfoKhr::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::ImportFenceFdInfoKhr::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::ImportFenceFdInfoKhrBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::FenceGetFdInfoKhr::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::FenceGetFdInfoKhr::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::FenceGetFdInfoKhrBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::SurfaceCapabilities2Ext::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::SurfaceCapabilities2Ext::set_next","from_trait":true,"arguments":[{"type_info":"type(*mut c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::SurfaceCapabilities2ExtBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*mut c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::DisplayPowerInfoExt::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::DisplayPowerInfoExt::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::DisplayPowerInfoExtBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::DeviceEventInfoExt::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::DeviceEventInfoExt::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::DeviceEventInfoExtBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::DisplayEventInfoExt::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::DisplayEventInfoExt::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::DisplayEventInfoExtBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::SwapchainCounterCreateInfoExt::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::SwapchainCounterCreateInfoExt::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::SwapchainCounterCreateInfoExtBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::DescriptorUpdateTemplateEntryKhr::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::DescriptorUpdateTemplateCreateInfoKhr::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::DescriptorUpdateTemplateCreateInfoKhr::set_next","from_trait":true,"arguments":[{"type_info":"type(*mut c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::DescriptorUpdateTemplateCreateInfoKhrBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*mut c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::XYColorExt::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::HdrMetadataExt::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::HdrMetadataExt::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::HdrMetadataExtBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::RefreshCycleDurationGoogle::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::PastPresentationTimingGoogle::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::PresentTimesInfoGoogle::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::PresentTimesInfoGoogle::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::PresentTimesInfoGoogleBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::PresentTimeGoogle::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::IosSurfaceCreateInfoMvk::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::IosSurfaceCreateInfoMvk::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::IosSurfaceCreateInfoMvk::set_view","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::IosSurfaceCreateInfoMvkBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::IosSurfaceCreateInfoMvkBuilder::view","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::MacOsSurfaceCreateInfoMvk::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::MacOsSurfaceCreateInfoMvk::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::MacOsSurfaceCreateInfoMvk::set_view","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::MacOsSurfaceCreateInfoMvkBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::MacOsSurfaceCreateInfoMvkBuilder::view","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::ViewportWScalingNv::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::PipelineViewportWScalingStateCreateInfoNv::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::PipelineViewportWScalingStateCreateInfoNv::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::PipelineViewportWScalingStateCreateInfoNvBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::ViewportSwizzleNv::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::PipelineViewportSwizzleStateCreateInfoNv::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::PipelineViewportSwizzleStateCreateInfoNv::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::PipelineViewportSwizzleStateCreateInfoNvBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::PhysicalDeviceDiscardRectanglePropertiesExt::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::PhysicalDeviceDiscardRectanglePropertiesExt::set_next","from_trait":true,"arguments":[{"type_info":"type(*mut c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::PhysicalDeviceDiscardRectanglePropertiesExtBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*mut c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::PipelineDiscardRectangleStateCreateInfoExt::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::PipelineDiscardRectangleStateCreateInfoExt::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::PipelineDiscardRectangleStateCreateInfoExtBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::PhysicalDeviceSurfaceInfo2Khr::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::PhysicalDeviceSurfaceInfo2Khr::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::PhysicalDeviceSurfaceInfo2KhrBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::SurfaceCapabilities2Khr::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::SurfaceCapabilities2Khr::set_next","from_trait":true,"arguments":[{"type_info":"type(*mut c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::SurfaceCapabilities2KhrBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*mut c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::SurfaceFormat2Khr::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::SurfaceFormat2Khr::set_next","from_trait":true,"arguments":[{"type_info":"type(*mut c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::SurfaceFormat2KhrBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*mut c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::SharedPresentSurfaceCapabilitiesKhr::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::SharedPresentSurfaceCapabilitiesKhr::set_next","from_trait":true,"arguments":[{"type_info":"type(*mut c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::SharedPresentSurfaceCapabilitiesKhrBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*mut c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::PhysicalDevice16BitStorageFeaturesKhr::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::PhysicalDevice16BitStorageFeaturesKhr::set_next","from_trait":true,"arguments":[{"type_info":"type(*mut c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::PhysicalDevice16BitStorageFeaturesKhrBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*mut c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::BufferMemoryRequirementsInfo2Khr::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::BufferMemoryRequirementsInfo2Khr::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::BufferMemoryRequirementsInfo2KhrBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::ImageMemoryRequirementsInfo2Khr::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::ImageMemoryRequirementsInfo2Khr::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::ImageMemoryRequirementsInfo2KhrBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::ImageSparseMemoryRequirementsInfo2Khr::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::ImageSparseMemoryRequirementsInfo2Khr::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::ImageSparseMemoryRequirementsInfo2KhrBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::MemoryRequirements2Khr::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::MemoryRequirements2Khr::set_next","from_trait":true,"arguments":[{"type_info":"type(*mut c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::MemoryRequirements2KhrBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*mut c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::SparseImageMemoryRequirements2Khr::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::SparseImageMemoryRequirements2Khr::set_next","from_trait":true,"arguments":[{"type_info":"type(*mut c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::SparseImageMemoryRequirements2KhrBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*mut c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::MemoryDedicatedRequirementsKhr::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::MemoryDedicatedRequirementsKhr::set_next","from_trait":true,"arguments":[{"type_info":"type(*mut c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::MemoryDedicatedRequirementsKhrBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*mut c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::MemoryDedicatedAllocateInfoKhr::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::MemoryDedicatedAllocateInfoKhr::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::MemoryDedicatedAllocateInfoKhrBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::TextureLODGatherFormatPropertiesAmd::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::TextureLODGatherFormatPropertiesAmd::set_next","from_trait":true,"arguments":[{"type_info":"type(*mut c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::TextureLODGatherFormatPropertiesAmdBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*mut c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::PipelineCoverageToColorStateCreateInfoNv::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::PipelineCoverageToColorStateCreateInfoNv::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::PipelineCoverageToColorStateCreateInfoNvBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::PhysicalDeviceSamplerFilterMinmaxPropertiesExt::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::PhysicalDeviceSamplerFilterMinmaxPropertiesExt::set_next","from_trait":true,"arguments":[{"type_info":"type(*mut c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::PhysicalDeviceSamplerFilterMinmaxPropertiesExtBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*mut c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::SamplerReductionModeCreateInfoExt::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::SamplerReductionModeCreateInfoExt::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::SamplerReductionModeCreateInfoExtBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::PhysicalDeviceBlendOperationAdvancedFeaturesExt::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::PhysicalDeviceBlendOperationAdvancedFeaturesExt::set_next","from_trait":true,"arguments":[{"type_info":"type(*mut c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::PhysicalDeviceBlendOperationAdvancedFeaturesExtBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*mut c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::PhysicalDeviceBlendOperationAdvancedPropertiesExt::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::PhysicalDeviceBlendOperationAdvancedPropertiesExt::set_next","from_trait":true,"arguments":[{"type_info":"type(*mut c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::PhysicalDeviceBlendOperationAdvancedPropertiesExtBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*mut c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::PipelineColorBlendAdvancedStateCreateInfoExt::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::PipelineColorBlendAdvancedStateCreateInfoExt::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::PipelineColorBlendAdvancedStateCreateInfoExtBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::PipelineCoverageModulationStateCreateInfoNv::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"structs::PipelineCoverageModulationStateCreateInfoNv::set_next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"structs::PipelineCoverageModulationStateCreateInfoNvBuilder::next","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"device::Device::queue_submit","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 224","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::allocate_memory","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 264","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::free_memory","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 278","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::map_memory","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 291","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::unmap_memory","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 302","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::flush_mapped_memory_ranges","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 313","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::invalidate_mapped_memory_ranges","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 326","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::get_device_memory_commitment","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 341","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::bind_buffer_memory","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 354","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::bind_image_memory","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 367","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::get_buffer_memory_requirements","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 380","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 381","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 383","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::get_image_memory_requirements","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 395","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 396","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 398","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::get_image_sparse_memory_requirements","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 413","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 416","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 417","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::queue_bind_sparse","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 432","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::create_fence","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 448","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::destroy_fence","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 462","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::reset_fences","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 473","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::get_fence_status","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 485","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::wait_for_fences","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 497","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::create_semaphore","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 514","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::destroy_semaphore","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 528","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::create_event","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 542","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::destroy_event","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 556","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::get_event_status","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 567","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::set_event","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 579","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::reset_event","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 591","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::create_query_pool","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 607","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::destroy_query_pool","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 621","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::get_query_pool_results","from_trait":true,"arguments":[{"type_info":"type(*mut c_void)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 636","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::create_buffer","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 653","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::destroy_buffer","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 667","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::create_buffer_view","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 682","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::destroy_buffer_view","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 696","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::create_image","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 710","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::destroy_image","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 724","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::get_image_subresource_layout","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 737","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 738","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::create_image_view","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 755","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::destroy_image_view","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 769","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::create_shader_module","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 784","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::destroy_shader_module","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 798","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::create_pipeline_cache","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 813","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::destroy_pipeline_cache","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 827","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::get_pipeline_cache_data","from_trait":true,"arguments":[{"type_info":"type(*mut usize)","kind":"RawPointer"},{"type_info":"type(*mut c_void)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 840","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::merge_pipeline_caches","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 854","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::create_graphics_pipelines","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 876","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 877","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::create_compute_pipelines","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 901","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 902","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::destroy_pipeline","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 919","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::create_pipeline_layout","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 934","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::destroy_pipeline_layout","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 948","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::create_sampler","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 963","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::destroy_sampler","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 977","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::create_descriptor_set_layout","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 992","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::destroy_descriptor_set_layout","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 1007","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::create_descriptor_pool","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 1022","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::destroy_descriptor_pool","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 1036","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::reset_descriptor_pool","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 1049","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::allocate_descriptor_sets","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 1066","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 1067","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::free_descriptor_sets","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 1083","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::create_framebuffer","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 1119","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::destroy_framebuffer","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 1133","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::create_render_pass","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 1148","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::destroy_render_pass","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 1162","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::get_render_area_granularity","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 1175","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 1176","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::create_command_pool","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 1192","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::destroy_command_pool","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 1206","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::reset_command_pool","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 1219","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::allocate_command_buffers","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 1235","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 1236","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::free_command_buffers","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 1250","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::begin_command_buffer","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 1263","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::end_command_buffer","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 1273","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::cmd_reset_command_buffer","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 1285","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::cmd_bind_pipeline","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 1297","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::cmd_set_viewport","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 1309","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::cmd_set_scissor","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 1321","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::cmd_set_line_width","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 1332","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::cmd_set_depth_bias","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 1345","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::cmd_set_blend_constants","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 1357","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::cmd_set_depth_bounds","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 1369","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::cmd_set_stencil_compare_mask","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 1381","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::cmd_set_stencil_write_mask","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 1393","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::cmd_set_stencil_reference","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 1405","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::cmd_bind_descriptor_sets","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 1422","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::cmd_bind_index_buffer","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 1436","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::cmd_bind_vertex_buffers","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 1449","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::cmd_draw","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 1462","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::cmd_draw_indexed","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 1475","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::cmd_draw_indirect","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 1487","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::cmd_draw_indexed_indirect","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 1499","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::cmd_dispatch","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 1511","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::cmd_dispatch_indirect","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 1523","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::cmd_copy_buffer","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 1536","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::cmd_copy_image","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 1555","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::cmd_blit_image","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 1571","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::cmd_copy_buffer_to_image","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 1587","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::cmd_copy_image_to_buffer","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 1607","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::cmd_update_buffer","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 1621","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::cmd_fill_buffer","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 1633","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::cmd_clear_color_image","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 1646","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::cmd_clear_depth_stencil_image","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 1662","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::cmd_clear_attachments","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 1676","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::cmd_resolve_image","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 1691","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::cmd_set_event","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 1705","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::cmd_reset_event","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 1717","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::cmd_wait_events","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 1738","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::cmd_pipeline_barrier","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 1765","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::cmd_begin_query","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 1783","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::cmd_end_query","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 1795","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::cmd_reset_query_pool","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 1807","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::cmd_write_timestamp","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 1820","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::cmd_copy_query_pool_results","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 1835","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::cmd_push_constants","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 1850","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::cmd_begin_render_pass","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 1863","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::cmd_next_subpass","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 1875","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::cmd_end_render_pass","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 1884","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::cmd_execute_commands","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 1895","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::create_swapchain_khr","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 1910","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::destroy_swapchain_khr","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 1924","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::get_swapchain_images_khr","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 1938","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 1942","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 1944","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::acquire_next_image_khr","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 1962","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::queue_present_khr","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 1977","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::create_shared_swapchains_khr","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 1995","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 1996","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::trim_command_pool_khr","from_trait":true,"arguments":[],"sources":[]}
+{"name":"device::Device::get_memory_win32_handle_khr","from_trait":true,"arguments":[],"sources":[]}
+{"name":"device::Device::get_memory_win32_handle_properties_khr","from_trait":true,"arguments":[],"sources":[]}
+{"name":"device::Device::get_memory_fd_khr","from_trait":true,"arguments":[],"sources":[]}
+{"name":"device::Device::get_memory_fd_properties_khr","from_trait":true,"arguments":[],"sources":[]}
+{"name":"device::Device::import_semaphore_win32_handle_khr","from_trait":true,"arguments":[],"sources":[]}
+{"name":"device::Device::get_semaphore_win32_handle_khr","from_trait":true,"arguments":[],"sources":[]}
+{"name":"device::Device::import_semaphore_fd_khr","from_trait":true,"arguments":[],"sources":[]}
+{"name":"device::Device::get_semaphore_fd_khr","from_trait":true,"arguments":[],"sources":[]}
+{"name":"device::Device::cmd_push_descriptor_set_khr","from_trait":true,"arguments":[],"sources":[]}
+{"name":"device::Device::get_swapchain_status_khr","from_trait":true,"arguments":[],"sources":[]}
+{"name":"device::Device::import_fence_win32_handle_khr","from_trait":true,"arguments":[],"sources":[]}
+{"name":"device::Device::get_fence_win32_handle_khr","from_trait":true,"arguments":[],"sources":[]}
+{"name":"device::Device::import_fence_fd_khr","from_trait":true,"arguments":[],"sources":[]}
+{"name":"device::Device::get_fence_fd_khr","from_trait":true,"arguments":[],"sources":[]}
+{"name":"device::Device::get_image_memory_requirements_2_khr","from_trait":true,"arguments":[],"sources":[]}
+{"name":"device::Device::get_image_sparse_memory_requirements_2_khr","from_trait":true,"arguments":[],"sources":[]}
+{"name":"device::Device::bind_buffer_memory_2_khr","from_trait":true,"arguments":[],"sources":[]}
+{"name":"device::Device::bind_image_memory_2_khr","from_trait":true,"arguments":[],"sources":[]}
+{"name":"device::Device::debug_marker_set_object_tag_ext","from_trait":true,"arguments":[],"sources":[]}
+{"name":"device::Device::debug_marker_set_object_name_ext","from_trait":true,"arguments":[],"sources":[]}
+{"name":"device::Device::cmd_debug_marker_begin_ext","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 2399","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::cmd_debug_marker_end_ext","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 2409","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::cmd_debug_marker_insert_ext","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/voodoo-0.3.1/src/device.rs\") line 2420","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"device::Device::cmd_draw_indirect_count_amd","from_trait":true,"arguments":[],"sources":[]}
+{"name":"device::Device::cmd_draw_indexed_indirect_count_amd","from_trait":true,"arguments":[],"sources":[]}
+{"name":"device::Device::get_memory_win32_handle_nv","from_trait":true,"arguments":[],"sources":[]}
+{"name":"device::Device::get_device_group_peer_memory_features_khx","from_trait":true,"arguments":[],"sources":[]}
+{"name":"device::Device::cmd_set_device_mask_khx","from_trait":true,"arguments":[],"sources":[]}
+{"name":"device::Device::cmd_dispatch_base_khx","from_trait":true,"arguments":[],"sources":[]}
+{"name":"device::Device::get_device_group_present_capabilities_khx","from_trait":true,"arguments":[],"sources":[]}
+{"name":"device::Device::get_device_group_surface_present_modes_khx","from_trait":true,"arguments":[],"sources":[]}
+{"name":"device::Device::acquire_next_image2_khx","from_trait":true,"arguments":[],"sources":[]}
+{"name":"device::Device::cmd_process_commands_nvx","from_trait":true,"arguments":[],"sources":[]}
+{"name":"device::Device::cmd_reserve_space_for_commands_nvx","from_trait":true,"arguments":[],"sources":[]}
+{"name":"device::Device::register_objects_nvx","from_trait":true,"arguments":[],"sources":[]}
+{"name":"device::Device::unregister_objects_nvx","from_trait":true,"arguments":[],"sources":[]}
+{"name":"device::Device::cmd_set_viewport_w_scaling_nv","from_trait":true,"arguments":[],"sources":[]}
+{"name":"device::Device::display_power_control_ext","from_trait":true,"arguments":[],"sources":[]}
+{"name":"device::Device::register_device_event_ext","from_trait":true,"arguments":[],"sources":[]}
+{"name":"device::Device::register_display_event_ext","from_trait":true,"arguments":[],"sources":[]}
+{"name":"device::Device::get_swapchain_counter_ext","from_trait":true,"arguments":[],"sources":[]}
+{"name":"device::Device::get_refresh_cycle_duration_google","from_trait":true,"arguments":[],"sources":[]}
+{"name":"device::Device::get_past_presentation_timing_google","from_trait":true,"arguments":[],"sources":[]}
+{"name":"device::Device::cmd_set_discard_rectangle_ext","from_trait":true,"arguments":[],"sources":[]}
+{"name":"device::Device::set_hdr_metadata_ext","from_trait":true,"arguments":[],"sources":[]}

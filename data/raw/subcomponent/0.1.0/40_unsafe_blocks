@@ -1,0 +1,6 @@
+{"sources":[["258",[{"loc":"file: Real(\"src/utils.rs\") line 44","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["7707",[{"loc":"file: Real(\"src/compiler/lexer.rs\") line 55","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["7718",[{"loc":"file: Real(\"src/compiler/lexer.rs\") line 55","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["8487",[{"loc":"file: Real(\"src/compiler/parser.rs\") line 36","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["8498",[{"loc":"file: Real(\"src/compiler/parser.rs\") line 36","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["2858",[{"loc":"file: Macros(\"vec\") line 3","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["2965",[{"loc":"file: Macros(\"vec\") line 3","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["4056",[{"loc":"file: Macros(\"vec\") line 3","kind":{"UnsafeFnCall":"Rust"}}]]]}

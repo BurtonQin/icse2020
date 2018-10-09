@@ -1,0 +1,6 @@
+{"name":"<stack::Drain<T> as std::marker::Send>"}
+{"name":"<stack::Drain<T> as std::marker::Sync>"}
+{"name":"<error::Error as std::marker::Send>"}
+{"name":"<error::Error as std::marker::Sync>"}
+{"name":"<MainContext as std::marker::Send>"}
+{"name":"<MainContext as std::marker::Sync>"}

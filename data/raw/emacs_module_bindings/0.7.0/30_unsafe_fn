@@ -1,0 +1,2 @@
+{"name":"hlapi::destruct","from_trait":false,"arguments":[{"type_info":"type(*mut raw::c_void)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/hlapi.rs\") line 21","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<<hlapi::ConvErr as std::convert::From<std::ffi::FromBytesWithNulError>>::from::RE_FROM_BYTES_WITH_NUL_ERROR as lazy_static::Deref>::deref::__stability","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__lazy_static_internal\") line 13","kind":"Static"}]}

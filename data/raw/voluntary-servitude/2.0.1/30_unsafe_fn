@@ -1,0 +1,12 @@
+{"name":"ffi::vsread_new","from_trait":false,"arguments":[],"sources":[]}
+{"name":"ffi::vsread_iter","from_trait":false,"arguments":[{"type_info":"type(*const VSRead<*const c_void>)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/ffi.rs\") line 300","kind":"DerefRawPointer"}]}
+{"name":"ffi::vsread_len","from_trait":false,"arguments":[{"type_info":"type(*const VSRead<*const c_void>)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/ffi.rs\") line 351","kind":"DerefRawPointer"}]}
+{"name":"ffi::vsread_append","from_trait":false,"arguments":[{"type_info":"type(*const VSRead<*const c_void>)","kind":"RawPointer"},{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/ffi.rs\") line 424","kind":"DerefRawPointer"}]}
+{"name":"ffi::vsread_clear","from_trait":false,"arguments":[{"type_info":"type(*const VSRead<*const c_void>)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/ffi.rs\") line 477","kind":"DerefRawPointer"}]}
+{"name":"ffi::vsread_destroy","from_trait":false,"arguments":[{"type_info":"type(*mut VSRead<*const c_void>)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/ffi.rs\") line 528","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"ffi::vsread_iter_next","from_trait":false,"arguments":[{"type_info":"type(*mut VSReadIter<*const c_void>)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/ffi.rs\") line 597","kind":"DerefRawPointer"}]}
+{"name":"ffi::vsread_iter_len","from_trait":false,"arguments":[{"type_info":"type(*const VSReadIter<*const c_void>)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/ffi.rs\") line 687","kind":"DerefRawPointer"}]}
+{"name":"ffi::vsread_iter_index","from_trait":false,"arguments":[{"type_info":"type(*const VSReadIter<*const c_void>)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/ffi.rs\") line 766","kind":"DerefRawPointer"}]}
+{"name":"ffi::vsread_iter_destroy","from_trait":false,"arguments":[{"type_info":"type(*mut VSReadIter<*const c_void>)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/ffi.rs\") line 828","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<node::Node<T>>::next","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/node.rs\") line 28","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<types::VoluntaryServitude<T>>::cell","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/types.rs\") line 39","kind":"DerefRawPointer"}]}

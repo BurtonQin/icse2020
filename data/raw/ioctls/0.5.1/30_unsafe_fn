@@ -1,0 +1,589 @@
+{"name":"platform::Union_Unnamed16::constant","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/platform/linux.rs\") line 72","kind":{"UnsafeFnCall":"RustIntrinsic"}},{"loc":"file: Real(\"src/platform/linux.rs\") line 73","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/platform/linux.rs\") line 73","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"platform::Union_Unnamed16::ramp","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/platform/linux.rs\") line 76","kind":{"UnsafeFnCall":"RustIntrinsic"}},{"loc":"file: Real(\"src/platform/linux.rs\") line 77","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/platform/linux.rs\") line 77","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"platform::Union_Unnamed16::periodic","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/platform/linux.rs\") line 80","kind":{"UnsafeFnCall":"RustIntrinsic"}},{"loc":"file: Real(\"src/platform/linux.rs\") line 81","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/platform/linux.rs\") line 81","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"platform::Union_Unnamed16::condition","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/platform/linux.rs\") line 85","kind":{"UnsafeFnCall":"RustIntrinsic"}},{"loc":"file: Real(\"src/platform/linux.rs\") line 86","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/platform/linux.rs\") line 86","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"platform::Union_Unnamed16::rumble","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/platform/linux.rs\") line 89","kind":{"UnsafeFnCall":"RustIntrinsic"}},{"loc":"file: Real(\"src/platform/linux.rs\") line 90","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/platform/linux.rs\") line 90","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"platform::eviocgname","from_trait":false,"arguments":[{"type_info":"type(*mut u8)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 46","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::eviocgphys","from_trait":false,"arguments":[{"type_info":"type(*mut u8)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 46","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::eviocguniq","from_trait":false,"arguments":[{"type_info":"type(*mut u8)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 46","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::eviocgprop","from_trait":false,"arguments":[{"type_info":"type(*mut u8)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 46","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::eviocgmtslots","from_trait":false,"arguments":[{"type_info":"type(*mut u8)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 46","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::eviocgkey","from_trait":false,"arguments":[{"type_info":"type(*mut u8)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 46","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::eviocgled","from_trait":false,"arguments":[{"type_info":"type(*mut u8)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 46","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::eviocgsnd","from_trait":false,"arguments":[{"type_info":"type(*mut u8)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 46","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::eviocgsw","from_trait":false,"arguments":[{"type_info":"type(*mut u8)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 46","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::eviocsff","from_trait":false,"arguments":[{"type_info":"type(*const ff_effect)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 33","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::eviocgrab","from_trait":false,"arguments":[{"type_info":"type(*const ::std::os::raw::c_int)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 33","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::eviocrevoke","from_trait":false,"arguments":[{"type_info":"type(*const ::std::os::raw::c_int)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 33","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::eviocsclockid","from_trait":false,"arguments":[{"type_info":"type(*const ::std::os::raw::c_int)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 33","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::eviocgbit","from_trait":false,"arguments":[{"type_info":"type(*mut u8)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/platform/linux.rs\") line 224","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::eviocgabs","from_trait":false,"arguments":[{"type_info":"type(*mut input_absinfo)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/platform/linux.rs\") line 228","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::blkroset","from_trait":false,"arguments":[{"type_info":"type(*const ::std::os::raw::c_int)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 12","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::blkroget","from_trait":false,"arguments":[{"type_info":"type(*mut ::std::os::raw::c_int)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 8","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::blkrrpart","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::blkgetsize","from_trait":false,"arguments":[{"type_info":"type(*mut ::std::os::raw::c_ulong)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 8","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::blkflsbuf","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::blkraset","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 22","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::blkraget","from_trait":false,"arguments":[{"type_info":"type(*mut ::std::os::raw::c_long)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 8","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::blkfraset","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 22","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::blkfraget","from_trait":false,"arguments":[{"type_info":"type(*mut ::std::os::raw::c_long)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 8","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::blksectget","from_trait":false,"arguments":[{"type_info":"type(*mut ::std::os::raw::c_ushort)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 8","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::blksszget","from_trait":false,"arguments":[{"type_info":"type(*mut ::std::os::raw::c_int)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 8","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::blkbszget","from_trait":false,"arguments":[{"type_info":"type(*mut ::std::os::raw::c_int)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 8","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::blkbszset","from_trait":false,"arguments":[{"type_info":"type(*const ::std::os::raw::c_int)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 12","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::blkgetsize64","from_trait":false,"arguments":[{"type_info":"type(*mut u64)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 8","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::blktracestart","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::blktracestop","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::blktraceteardown","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::blkdiscard","from_trait":false,"arguments":[{"type_info":"type(*const [u64; ])","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 12","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::blkiomin","from_trait":false,"arguments":[{"type_info":"type(*mut ::std::os::raw::c_uint)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 8","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::blkioopt","from_trait":false,"arguments":[{"type_info":"type(*mut ::std::os::raw::c_uint)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 8","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::blkalignoff","from_trait":false,"arguments":[{"type_info":"type(*mut ::std::os::raw::c_int)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 8","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::blkpbszget","from_trait":false,"arguments":[{"type_info":"type(*mut ::std::os::raw::c_uint)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 8","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::blkdiscardzeros","from_trait":false,"arguments":[{"type_info":"type(*mut ::std::os::raw::c_uint)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 8","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::blksecdiscard","from_trait":false,"arguments":[{"type_info":"type(*const [u64; ])","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 12","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::blkrotational","from_trait":false,"arguments":[{"type_info":"type(*mut ::std::os::raw::c_ushort)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 8","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::blkzeroout","from_trait":false,"arguments":[{"type_info":"type(*const [u64; ])","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 12","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::apm_ioc_standby","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::apm_ioc_suspend","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::btrfs_ioc_balance_ctl","from_trait":false,"arguments":[{"type_info":"type(*const ::std::os::raw::c_int)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 33","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::btrfs_ioc_clone","from_trait":false,"arguments":[{"type_info":"type(*const ::std::os::raw::c_int)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 33","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::btrfs_ioc_default_subvol","from_trait":false,"arguments":[{"type_info":"type(*const u64)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 33","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::btrfs_ioc_get_fslabel","from_trait":false,"arguments":[{"type_info":"type(*mut [::std::os::raw::c_char; ])","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 27","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::btrfs_ioc_quota_rescan_wait","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::btrfs_ioc_scrub_cancel","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::btrfs_ioc_set_fslabel","from_trait":false,"arguments":[{"type_info":"type(*const [::std::os::raw::c_char; ])","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 33","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::btrfs_ioc_start_sync","from_trait":false,"arguments":[{"type_info":"type(*mut u64)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 27","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::btrfs_ioc_subvol_getflags","from_trait":false,"arguments":[{"type_info":"type(*mut u64)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 27","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::btrfs_ioc_subvol_setflags","from_trait":false,"arguments":[{"type_info":"type(*const u64)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 33","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::btrfs_ioc_sync","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::btrfs_ioc_trans_end","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::btrfs_ioc_trans_start","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::btrfs_ioc_wait_sync","from_trait":false,"arguments":[{"type_info":"type(*const u64)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 33","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::cm_iocardoff","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::cm_iocgstatus","from_trait":false,"arguments":[{"type_info":"type(*mut *mut ::libc::c_uchar)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 27","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::cm_iocsrdr","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::cxl_ioctl_get_process_element","from_trait":false,"arguments":[{"type_info":"type(*mut u32)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 27","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::drm_ioctl_agp_acquire","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::drm_ioctl_agp_release","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::drm_ioctl_drop_master","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::drm_ioctl_mode_rmfb","from_trait":false,"arguments":[{"type_info":"type(*mut ::libc::c_uint)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 39","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::drm_ioctl_radeon_cp_idle","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::drm_ioctl_radeon_cp_reset","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::drm_ioctl_radeon_cp_resume","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::drm_ioctl_radeon_cp_start","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::drm_ioctl_radeon_flip","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::drm_ioctl_radeon_reset","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::drm_ioctl_radeon_swap","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::drm_ioctl_set_master","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::eviocgeffects","from_trait":false,"arguments":[{"type_info":"type(*mut ::std::os::raw::c_int)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 27","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::eviocgid","from_trait":false,"arguments":[{"type_info":"type(*mut input_id)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 27","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::eviocgkeycode","from_trait":false,"arguments":[{"type_info":"type(*mut [::libc::c_uint; ])","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 27","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::eviocgrep","from_trait":false,"arguments":[{"type_info":"type(*mut [::libc::c_uint; ])","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 27","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::eviocgversion","from_trait":false,"arguments":[{"type_info":"type(*mut ::std::os::raw::c_int)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 27","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::eviocrmff","from_trait":false,"arguments":[{"type_info":"type(*const ::std::os::raw::c_int)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 33","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::eviocskeycode","from_trait":false,"arguments":[{"type_info":"type(*const [::libc::c_uint; ])","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 33","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::eviocsrep","from_trait":false,"arguments":[{"type_info":"type(*const [::libc::c_uint; ])","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 33","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::ext2_ioc_getflags","from_trait":false,"arguments":[{"type_info":"type(*mut ::std::os::raw::c_long)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 27","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::ext2_ioc_getversion","from_trait":false,"arguments":[{"type_info":"type(*mut ::std::os::raw::c_long)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 27","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::ext2_ioc_getversion_new","from_trait":false,"arguments":[{"type_info":"type(*mut ::std::os::raw::c_long)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 27","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::ext2_ioc_group_extend","from_trait":false,"arguments":[{"type_info":"type(*const ::libc::c_ulong)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 33","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::ext2_ioc_setflags","from_trait":false,"arguments":[{"type_info":"type(*const ::std::os::raw::c_long)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 33","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::ext2_ioc_setversion","from_trait":false,"arguments":[{"type_info":"type(*const ::std::os::raw::c_long)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 33","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::ext2_ioc_setversion_new","from_trait":false,"arguments":[{"type_info":"type(*const ::std::os::raw::c_long)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 33","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::ext4_ioc_resize_fs","from_trait":false,"arguments":[{"type_info":"type(*const u64)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 33","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::fat_ioctl_get_attributes","from_trait":false,"arguments":[{"type_info":"type(*mut u32)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 27","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::fat_ioctl_get_volume_id","from_trait":false,"arguments":[{"type_info":"type(*mut u32)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 27","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::fat_ioctl_set_attributes","from_trait":false,"arguments":[{"type_info":"type(*const u32)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 33","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::fs_ioc32_getflags","from_trait":false,"arguments":[{"type_info":"type(*mut ::std::os::raw::c_int)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 27","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::fs_ioc32_getversion","from_trait":false,"arguments":[{"type_info":"type(*mut ::std::os::raw::c_int)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 27","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::fs_ioc32_setflags","from_trait":false,"arguments":[{"type_info":"type(*const ::std::os::raw::c_int)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 33","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::fs_ioc32_setversion","from_trait":false,"arguments":[{"type_info":"type(*const ::std::os::raw::c_int)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 33","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::fs_ioc_getflags","from_trait":false,"arguments":[{"type_info":"type(*mut ::std::os::raw::c_long)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 27","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::fs_ioc_getversion","from_trait":false,"arguments":[{"type_info":"type(*mut ::std::os::raw::c_long)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 27","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::fs_ioc_setflags","from_trait":false,"arguments":[{"type_info":"type(*const ::std::os::raw::c_long)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 33","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::fs_ioc_setversion","from_trait":false,"arguments":[{"type_info":"type(*const ::std::os::raw::c_long)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 33","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::fw_cdev_ioc_get_speed","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::hidiocapplication","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::hidiocgflag","from_trait":false,"arguments":[{"type_info":"type(*mut ::std::os::raw::c_int)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 27","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::hidiocgrdescsize","from_trait":false,"arguments":[{"type_info":"type(*mut ::std::os::raw::c_int)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 27","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::hidiocgversion","from_trait":false,"arguments":[{"type_info":"type(*mut ::std::os::raw::c_int)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 27","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::hidiocinitreport","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::hidiocsflag","from_trait":false,"arguments":[{"type_info":"type(*const ::std::os::raw::c_int)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 33","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::iiocdbgvar","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::iiocdrvctl","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::iiocgetcps","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::iiocgetdvr","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::iiocgetmap","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::iiocgetprf","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::iiocgetset","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::iiocnetaif","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::iiocnetaln","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::iiocnetanm","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::iiocnetasl","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::iiocnetdif","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::iiocnetdil","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::iiocnetdln","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::iiocnetdnm","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::iiocnetdwrset","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::iiocnetgcf","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::iiocnetgnm","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::iiocnetgpn","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::iiocnethup","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::iiocnetlcr","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::iiocnetscf","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::iiocsetbrj","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::iiocsetgst","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::iiocsetmap","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::iiocsetprf","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::iiocsetset","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::iiocsetver","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::iiocsigprf","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::ioctl_wdm_max_command","from_trait":false,"arguments":[{"type_info":"type(*mut u16)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 27","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::ivtv_ioc_passthrough_mode","from_trait":false,"arguments":[{"type_info":"type(*const ::std::os::raw::c_int)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 33","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::jsiocgaxes","from_trait":false,"arguments":[{"type_info":"type(*mut u8)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 27","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::jsiocgaxmap","from_trait":false,"arguments":[{"type_info":"type(*mut [u8; ])","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 27","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::jsiocgbuttons","from_trait":false,"arguments":[{"type_info":"type(*mut u8)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 27","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::jsiocgversion","from_trait":false,"arguments":[{"type_info":"type(*mut u32)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 27","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::jsiocsaxmap","from_trait":false,"arguments":[{"type_info":"type(*const [u8; ])","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 33","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::kiocsound","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::meyeioc_qbuf_capt","from_trait":false,"arguments":[{"type_info":"type(*const ::std::os::raw::c_int)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 33","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::meyeioc_stillcapt","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::meyeioc_stilljcapt","from_trait":false,"arguments":[{"type_info":"type(*mut ::std::os::raw::c_int)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 27","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::meyeioc_sync","from_trait":false,"arguments":[{"type_info":"type(*mut ::std::os::raw::c_int)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 39","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::mgsl_iocclrmodcount","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::mgsl_iocgif","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::mgsl_iocgstats","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::mgsl_iocgtxidle","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::mgsl_iocgxctrl","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::mgsl_iocgxsync","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::mgsl_ioclooptxdone","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::mgsl_iocrxenable","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::mgsl_iocsif","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::mgsl_iocstxidle","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::mgsl_iocsxctrl","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::mgsl_iocsxsync","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::mgsl_ioctxabort","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::mgsl_ioctxenable","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::mgsl_iocwaitevent","from_trait":false,"arguments":[{"type_info":"type(*mut ::std::os::raw::c_int)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 39","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::nvme_ioctl_id","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::osiocgnetaddr","from_trait":false,"arguments":[{"type_info":"type(*mut ::std::os::raw::c_int)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 27","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::osiocsnetaddr","from_trait":false,"arguments":[{"type_info":"type(*const ::std::os::raw::c_int)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 33","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::pciioc_controller","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::pciioc_mmap_is_io","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::pciioc_mmap_is_mem","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::pciioc_write_combine","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::perf_event_ioc_disable","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::perf_event_ioc_enable","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::perf_event_ioc_id","from_trait":false,"arguments":[{"type_info":"type(*mut *mut u64)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 27","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::perf_event_ioc_period","from_trait":false,"arguments":[{"type_info":"type(*const u64)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 33","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::perf_event_ioc_refresh","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::perf_event_ioc_reset","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::perf_event_ioc_set_filter","from_trait":false,"arguments":[{"type_info":"type(*const *mut ::std::os::raw::c_char)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 33","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::perf_event_ioc_set_output","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::pmu_ioc_can_sleep","from_trait":false,"arguments":[{"type_info":"type(*mut ::libc::size_t)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 27","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::pmu_ioc_get_backlight","from_trait":false,"arguments":[{"type_info":"type(*mut ::libc::size_t)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 27","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::pmu_ioc_get_model","from_trait":false,"arguments":[{"type_info":"type(*mut ::libc::size_t)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 27","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::pmu_ioc_grab_backlight","from_trait":false,"arguments":[{"type_info":"type(*mut ::libc::size_t)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 27","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::pmu_ioc_has_adb","from_trait":false,"arguments":[{"type_info":"type(*mut ::libc::size_t)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 27","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::pmu_ioc_set_backlight","from_trait":false,"arguments":[{"type_info":"type(*const ::libc::size_t)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 33","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::pmu_ioc_sleep","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::pppiocattach","from_trait":false,"arguments":[{"type_info":"type(*const ::std::os::raw::c_int)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 33","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::pppiocattchan","from_trait":false,"arguments":[{"type_info":"type(*const ::std::os::raw::c_int)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 33","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::pppiocbundle","from_trait":false,"arguments":[{"type_info":"type(*const ::std::os::raw::c_int)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 33","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::pppiocconnect","from_trait":false,"arguments":[{"type_info":"type(*const ::std::os::raw::c_int)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 33","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::pppiocdetach","from_trait":false,"arguments":[{"type_info":"type(*const ::std::os::raw::c_int)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 33","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::pppiocdisconn","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::pppiocgasyncmap","from_trait":false,"arguments":[{"type_info":"type(*mut ::std::os::raw::c_int)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 27","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::pppiocgchan","from_trait":false,"arguments":[{"type_info":"type(*mut ::std::os::raw::c_int)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 27","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::pppiocgcompressors","from_trait":false,"arguments":[{"type_info":"type(*mut [::libc::c_ulong; ])","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 27","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::pppiocgdebug","from_trait":false,"arguments":[{"type_info":"type(*mut ::std::os::raw::c_int)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 27","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::pppiocgflags","from_trait":false,"arguments":[{"type_info":"type(*mut ::std::os::raw::c_int)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 27","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::pppiocgifname","from_trait":false,"arguments":[{"type_info":"type(*mut [::std::os::raw::c_char; ])","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 27","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::pppiocgmpflags","from_trait":false,"arguments":[{"type_info":"type(*mut ::std::os::raw::c_int)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 27","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::pppiocgmru","from_trait":false,"arguments":[{"type_info":"type(*mut ::std::os::raw::c_int)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 27","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::pppiocgrasyncmap","from_trait":false,"arguments":[{"type_info":"type(*mut ::std::os::raw::c_int)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 27","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::pppiocgunit","from_trait":false,"arguments":[{"type_info":"type(*mut ::std::os::raw::c_int)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 27","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::pppiocnewunit","from_trait":false,"arguments":[{"type_info":"type(*mut ::std::os::raw::c_int)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 39","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::pppiocsasyncmap","from_trait":false,"arguments":[{"type_info":"type(*const ::std::os::raw::c_int)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 33","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::pppiocscompressor","from_trait":false,"arguments":[{"type_info":"type(*const ::std::os::raw::c_int)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 33","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::pppiocsdebug","from_trait":false,"arguments":[{"type_info":"type(*const ::std::os::raw::c_int)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 33","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::pppiocsflags","from_trait":false,"arguments":[{"type_info":"type(*const ::std::os::raw::c_int)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 33","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::pppiocsmaxcid","from_trait":false,"arguments":[{"type_info":"type(*const ::std::os::raw::c_int)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 33","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::pppiocsmpflags","from_trait":false,"arguments":[{"type_info":"type(*const ::std::os::raw::c_int)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 33","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::pppiocsmpmru","from_trait":false,"arguments":[{"type_info":"type(*const ::std::os::raw::c_int)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 33","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::pppiocsmpmtu","from_trait":false,"arguments":[{"type_info":"type(*const ::std::os::raw::c_int)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 33","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::pppiocsmrru","from_trait":false,"arguments":[{"type_info":"type(*const ::std::os::raw::c_int)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 33","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::pppiocsmru","from_trait":false,"arguments":[{"type_info":"type(*const ::std::os::raw::c_int)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 33","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::pppiocsrasyncmap","from_trait":false,"arguments":[{"type_info":"type(*const ::std::os::raw::c_int)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 33","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::pppiocxferunit","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::reiserfs_ioc_getflags","from_trait":false,"arguments":[{"type_info":"type(*mut ::std::os::raw::c_long)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 27","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::reiserfs_ioc_getversion","from_trait":false,"arguments":[{"type_info":"type(*mut ::std::os::raw::c_long)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 27","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::resierfs_ioc_setflags","from_trait":false,"arguments":[{"type_info":"type(*const ::std::os::raw::c_long)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 33","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::reiserfs_ioc_setversion","from_trait":false,"arguments":[{"type_info":"type(*const ::std::os::raw::c_long)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 33","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::reiserfs_ioc_unpack","from_trait":false,"arguments":[{"type_info":"type(*const ::std::os::raw::c_long)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 33","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::rfkill_ioctl_noinput","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::scsi_ioctl_benchmark_command","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::scsi_ioctl_doorlock","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::scsi_ioctl_doorunlock","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::scsi_ioctl_get_bus_number","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::scsi_ioctl_get_idlun","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::scsi_ioctl_probe_host","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::scsi_ioctl_send_command","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::scsi_ioctl_start_unit","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::scsi_ioctl_stop_unit","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::scsi_ioctl_sync","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::scsi_ioctl_tagged_disable","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::scsi_ioctl_tagged_enable","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::scsi_ioctl_test_unit_ready","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocadddlci","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocaddmulti","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocaddrt","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocaipxitfcrt","from_trait":false,"arguments":[{"type_info":"type(*mut u8)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 4","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocaipxprislt","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocatalkdifaddr","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocatmark","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocax25addfwd","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocax25adduid","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocax25bpqaddr","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocax25ctlcon","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocax25delfwd","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocax25deluid","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocax25devctl","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocax25getinfo","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocax25getinfoold","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocax25getparms","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocax25getuid","from_trait":false,"arguments":[{"type_info":"type(*mut u8)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 4","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocax25nouid","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocax25optrt","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocax25setparms","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocbondchangeactive","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocbondenslave","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocbondinfoquery","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocbondrelease","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocbondsethwaddr","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocbondslaveinfoquery","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocbraddbr","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocbraddif","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocbrdelbr","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocbrdelif","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocdarp","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocdeldlci","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocdelmulti","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocdelrt","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocdevplip","from_trait":false,"arguments":[{"type_info":"type(*mut u8)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 4","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocdevprivate","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocdifaddr","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocdrarp","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocethtool","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocgarp","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocgbpqethparam","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocgcmfirmware","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocgcmfrequency","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocgcmpids","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocgcmstats","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocgdebserint","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocgdongle","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocgetlinkname","from_trait":false,"arguments":[{"type_info":"type(*mut u8)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 4","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocghwtstamp","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocgifaddr","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocgifbr","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocgifbrdaddr","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocgifconf","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocgifcount","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocgifdstaddr","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocgifencap","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocgifflags","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocgifhwaddr","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocgifindex","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocgifmap","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocgifmem","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocgifmetric","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocgifmtu","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocgifname","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocgifnetmask","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocgifpflags","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocgifslave","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocgiftxqlen","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocgifvlan","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocgkeepalive","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocgkeepperiod","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocglease","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocgmediabusy","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocgmiiphy","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocgmiireg","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocgmode","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocgoutfill","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocgpgrp","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocgpppcstats","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocgpppstats","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocgpppver","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocgqos","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocgrarp","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocgreceiving","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocgstamp","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocgstampns","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocinq","from_trait":false,"arguments":[{"type_info":"type(*mut u8)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 4","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocipxcfgdata","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocipxncpconn","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocmkclip","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocnrctlcon","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocnrdecobs","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocnrgetparms","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocnrrtctl","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocnrsetparms","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocoutq","from_trait":false,"arguments":[{"type_info":"type(*mut u8)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 4","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocoutqnsd","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocparm_mask","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocprotoprivate","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocrsaccept","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocrsclrrt","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocrsgcause","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocrsgfacilities","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocrsgl2call","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocrsl2call","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocrsscause","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocrssl2call","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocrtmsg","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocsarp","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocsbandwidth","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocsbpqethaddr","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocsbpqethopt","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocsbpqethparam","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocscmfrequency","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocscmpids","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocsdebserint","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocsdongle","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocsdtrrts","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocshwtstamp","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocsifaddr","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocsifatmtcp","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocsifbr","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocsifbrdaddr","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocsifdstaddr","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocsifencap","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocsifflags","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocsifhwaddr","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocsifhwbroadcast","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocsiflink","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocsifmap","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocsifmem","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocsifmetric","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocsifmtu","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocsifname","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocsifnetmask","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocsifpflags","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocsifslave","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocsiftxqlen","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocsifvlan","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocskeepalive","from_trait":false,"arguments":[{"type_info":"type(*mut u8)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 4","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocskeepperiod","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocslease","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocsmediabusy","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocsmiireg","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocsmode","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocsoutfill","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocspgrp","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocsrarp","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocwandev","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocx25callaccptapprv","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocx25gcalluserdata","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocx25gcausediag","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocx25gdtefacilities","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocx25gfacilities","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocx25gsubscrip","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocx25scalluserdata","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocx25scausediag","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocx25scudmatchlen","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocx25sdtefacilities","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocx25sendcallaccpt","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocx25sfacilities","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::siocx25ssubscrip","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::sndrv_dm_fm_ioctl_clear_patches","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::sndrv_dm_fm_ioctl_reset","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::sndrv_dm_fm_ioctl_set_connection","from_trait":false,"arguments":[{"type_info":"type(*const ::std::os::raw::c_int)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 33","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::sndrv_dm_fm_ioctl_set_mode","from_trait":false,"arguments":[{"type_info":"type(*const ::std::os::raw::c_int)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 33","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::sndrv_dm_fm_oss_ioctl_play_note","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::sndrv_dm_fm_oss_ioctl_reset","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::sndrv_dm_fm_oss_ioctl_set_mode","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::sndrv_dm_fm_oss_ioctl_set_opl","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::sndrv_dm_fm_oss_ioctl_set_params","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::sndrv_dm_fm_oss_ioctl_set_voice","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::sndrv_emu10k1_ioctl_continue","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::sndrv_emu10k1_ioctl_dbg_read","from_trait":false,"arguments":[{"type_info":"type(*mut ::std::os::raw::c_int)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 27","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::sndrv_emu10k1_ioctl_pversion","from_trait":false,"arguments":[{"type_info":"type(*mut ::std::os::raw::c_int)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 27","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::sndrv_emu10k1_ioctl_single_step","from_trait":false,"arguments":[{"type_info":"type(*const ::std::os::raw::c_int)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 33","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::sndrv_emu10k1_ioctl_stop","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::sndrv_emu10k1_ioctl_tram_setup","from_trait":false,"arguments":[{"type_info":"type(*const ::std::os::raw::c_int)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 33","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::sndrv_emu10k1_ioctl_zero_tram_counter","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::sndrv_firewire_ioctl_lock","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::sndrv_firewire_ioctl_unlock","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::sndrv_sb_csp_ioctl_pause","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::sndrv_sb_csp_ioctl_restart","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::sndrv_sb_csp_ioctl_stop","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::sndrv_sb_csp_ioctl_unload_code","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::sonypi_iocgbat1cap","from_trait":false,"arguments":[{"type_info":"type(*mut u16)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 27","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::sonypi_iocgbat1rem","from_trait":false,"arguments":[{"type_info":"type(*mut u16)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 27","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::sonypi_iocgbat2cap","from_trait":false,"arguments":[{"type_info":"type(*mut u16)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 27","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::sonypi_iocgbat2rem","from_trait":false,"arguments":[{"type_info":"type(*mut u16)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 27","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::sonypi_iocgbatflags","from_trait":false,"arguments":[{"type_info":"type(*mut u8)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 27","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::sonypi_iocgblue","from_trait":false,"arguments":[{"type_info":"type(*mut u8)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 27","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::sonypi_iocgbrt","from_trait":false,"arguments":[{"type_info":"type(*mut u8)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 27","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::sonypi_iocgfan","from_trait":false,"arguments":[{"type_info":"type(*mut u8)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 27","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::sonypi_iocgtemp","from_trait":false,"arguments":[{"type_info":"type(*mut u8)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 27","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::sonypi_iocsblue","from_trait":false,"arguments":[{"type_info":"type(*const u8)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 33","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::sonypi_iocsbrt","from_trait":false,"arguments":[{"type_info":"type(*const u8)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 33","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::sonypi_iocsfan","from_trait":false,"arguments":[{"type_info":"type(*const u8)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 33","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::spiocstype","from_trait":false,"arguments":[{"type_info":"type(*const ::libc::c_ulong)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 33","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::spi_ioc_rd_bits_per_word","from_trait":false,"arguments":[{"type_info":"type(*mut u8)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 27","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::spi_ioc_rd_lsb_first","from_trait":false,"arguments":[{"type_info":"type(*mut u8)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 27","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::spi_ioc_rd_max_speed_hz","from_trait":false,"arguments":[{"type_info":"type(*mut u32)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 27","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::spi_ioc_rd_mode","from_trait":false,"arguments":[{"type_info":"type(*mut u8)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 27","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::spi_ioc_rd_mode32","from_trait":false,"arguments":[{"type_info":"type(*mut u32)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 27","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::spi_ioc_wr_bits_per_word","from_trait":false,"arguments":[{"type_info":"type(*const u8)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 33","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::spi_ioc_wr_lsb_first","from_trait":false,"arguments":[{"type_info":"type(*const u8)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 33","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::spi_ioc_wr_max_speed_hz","from_trait":false,"arguments":[{"type_info":"type(*const u32)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 33","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::spi_ioc_wr_mode","from_trait":false,"arguments":[{"type_info":"type(*const u8)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 33","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::spi_ioc_wr_mode32","from_trait":false,"arguments":[{"type_info":"type(*const u32)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 33","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::sys_f_ioctlsocket","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::tioccbrk","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::tioccons","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::tiocexcl","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::tiocgdev","from_trait":false,"arguments":[{"type_info":"type(*mut ::libc::c_uint)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 27","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::tiocgetd","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::tiocgexcl","from_trait":false,"arguments":[{"type_info":"type(*mut ::std::os::raw::c_int)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 27","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::tiocgicount","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::tiocglcktrmios","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::tiocgpgrp","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::tiocgpkt","from_trait":false,"arguments":[{"type_info":"type(*mut ::std::os::raw::c_int)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 27","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::tiocgptlck","from_trait":false,"arguments":[{"type_info":"type(*mut ::std::os::raw::c_int)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 27","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::tiocgptn","from_trait":false,"arguments":[{"type_info":"type(*mut ::libc::c_uint)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 27","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::tiocgrs485","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::tiocgserial","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::tiocgsid","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::tiocgsoftcar","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::tiocgwinsz","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::tiocinq","from_trait":false,"arguments":[{"type_info":"type(*mut u8)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 4","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::tioclinux","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::tiocl_blankedscreen","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::tiocl_blankscreen","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::tiocl_getfgconsole","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::tiocl_getkmsgredirect","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::tiocl_getmousereporting","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::tiocl_getshiftstate","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::tiocl_pastesel","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::tiocl_scrollconsole","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::tiocl_selbuttonmask","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::tiocl_selchar","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::tiocl_selclear","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::tiocl_selline","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::tiocl_selloadlut","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::tiocl_selmousereport","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::tiocl_selpointer","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::tiocl_selword","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::tiocl_setkmsgredirect","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::tiocl_setsel","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::tiocl_setvesablank","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::tiocl_unblankscreen","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::tiocmbic","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::tiocmbis","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::tiocmget","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::tiocmiwait","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::tiocmset","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::tiocm_car","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::tiocm_cd","from_trait":false,"arguments":[{"type_info":"type(*mut u8)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 4","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::tiocm_cts","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::tiocm_dsr","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::tiocm_dtr","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::tiocm_le","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::tiocm_loop","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::tiocm_out1","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::tiocm_out2","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::tiocm_ri","from_trait":false,"arguments":[{"type_info":"type(*mut u8)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 4","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::tiocm_rng","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::tiocm_rts","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::tiocm_sr","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::tiocm_st","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::tiocnotty","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::tiocnxcl","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::tiocoutq","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::tiocpkt","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::tiocpkt_data","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::tiocpkt_dostop","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::tiocpkt_flushread","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::tiocpkt_flushwrite","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::tiocpkt_ioctl","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::tiocpkt_nostop","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::tiocpkt_start","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::tiocpkt_stop","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::tiocsbrk","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::tiocsctty","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::tiocserconfig","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::tiocsergetlsr","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::tiocsergetmulti","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::tiocsergstruct","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::tiocsergwild","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::tiocsersetmulti","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::tiocserswild","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::tiocser_temt","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::tiocsetd","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::tiocsig","from_trait":false,"arguments":[{"type_info":"type(*const ::std::os::raw::c_int)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 33","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::tiocslcktrmios","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::tiocspgrp","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::tiocsptlck","from_trait":false,"arguments":[{"type_info":"type(*const ::std::os::raw::c_int)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 33","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::tiocsrs485","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::tiocsserial","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::tiocssoftcar","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::tiocsti","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::tiocswinsz","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::tiocvhangup","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::ubi_iocdet","from_trait":false,"arguments":[{"type_info":"type(*const i32)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 33","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::ubi_iocebch","from_trait":false,"arguments":[{"type_info":"type(*const i32)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 33","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::ubi_ioceber","from_trait":false,"arguments":[{"type_info":"type(*const i32)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 33","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::ubi_iocebismap","from_trait":false,"arguments":[{"type_info":"type(*mut i32)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 27","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::ubi_iocebunmap","from_trait":false,"arguments":[{"type_info":"type(*const i32)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 33","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::ubi_iocrmvol","from_trait":false,"arguments":[{"type_info":"type(*const i32)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 33","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::ubi_iocvolrmblk","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::ubi_iocvolup","from_trait":false,"arguments":[{"type_info":"type(*const i64)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 33","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::usbtmc_ioctl_abort_bulk_in","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::usbtmc_ioctl_abort_bulk_out","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::usbtmc_ioctl_clear","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::usbtmc_ioctl_clear_in_halt","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::usbtmc_ioctl_clear_out_halt","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::usbtmc_ioctl_indicator_pulse","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::vidioc_g_input","from_trait":false,"arguments":[{"type_info":"type(*mut ::std::os::raw::c_int)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 27","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::vidioc_g_output","from_trait":false,"arguments":[{"type_info":"type(*mut ::std::os::raw::c_int)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 27","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::vidioc_g_priority","from_trait":false,"arguments":[{"type_info":"type(*mut u32)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 27","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::vidioc_log_status","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::vidioc_omap3isp_stat_en","from_trait":false,"arguments":[{"type_info":"type(*mut ::libc::c_ulong)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 39","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::vidioc_overlay","from_trait":false,"arguments":[{"type_info":"type(*const ::std::os::raw::c_int)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 33","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::vidioc_reserved","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::vidioc_streamoff","from_trait":false,"arguments":[{"type_info":"type(*const ::std::os::raw::c_int)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 33","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::vidioc_streamon","from_trait":false,"arguments":[{"type_info":"type(*const ::std::os::raw::c_int)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 33","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::vidioc_s_input","from_trait":false,"arguments":[{"type_info":"type(*mut ::std::os::raw::c_int)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 39","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::vidioc_s_output","from_trait":false,"arguments":[{"type_info":"type(*mut ::std::os::raw::c_int)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 39","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::vidioc_s_priority","from_trait":false,"arguments":[{"type_info":"type(*const u32)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 33","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::wdioc_getbootstatus","from_trait":false,"arguments":[{"type_info":"type(*mut ::std::os::raw::c_int)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 27","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::wdioc_getpretimeout","from_trait":false,"arguments":[{"type_info":"type(*mut ::std::os::raw::c_int)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 27","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::wdioc_getstatus","from_trait":false,"arguments":[{"type_info":"type(*mut ::std::os::raw::c_int)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 27","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::wdioc_gettemp","from_trait":false,"arguments":[{"type_info":"type(*mut ::std::os::raw::c_int)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 27","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::wdioc_gettimeleft","from_trait":false,"arguments":[{"type_info":"type(*mut ::std::os::raw::c_int)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 27","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::wdioc_gettimeout","from_trait":false,"arguments":[{"type_info":"type(*mut ::std::os::raw::c_int)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 27","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::wdioc_keepalive","from_trait":false,"arguments":[{"type_info":"type(*mut ::std::os::raw::c_int)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 27","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::wdioc_setoptions","from_trait":false,"arguments":[{"type_info":"type(*mut ::std::os::raw::c_int)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 27","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::wdioc_setpretimeout","from_trait":false,"arguments":[{"type_info":"type(*mut ::std::os::raw::c_int)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 39","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::wdioc_settimeout","from_trait":false,"arguments":[{"type_info":"type(*mut ::std::os::raw::c_int)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 39","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::x86_ioc_rdmsr_regs","from_trait":false,"arguments":[{"type_info":"type(*mut [u32; ])","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 39","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::x86_ioc_wrmsr_regs","from_trait":false,"arguments":[{"type_info":"type(*mut [u32; ])","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 39","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::xfs_ioc_freeze","from_trait":false,"arguments":[{"type_info":"type(*mut ::std::os::raw::c_int)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 39","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::xfs_ioc_getversion","from_trait":false,"arguments":[{"type_info":"type(*mut ::std::os::raw::c_long)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 27","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::xfs_ioc_getxflags","from_trait":false,"arguments":[{"type_info":"type(*mut ::std::os::raw::c_long)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 27","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::xfs_ioc_goingdown","from_trait":false,"arguments":[{"type_info":"type(*mut u32)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 27","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::xfs_ioc_setxflags","from_trait":false,"arguments":[{"type_info":"type(*const ::std::os::raw::c_long)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 33","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::xfs_ioc_thaw","from_trait":false,"arguments":[{"type_info":"type(*mut ::std::os::raw::c_int)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 39","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::fioclex","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::cz_nboards","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::cz_boot_start","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::cz_boot_data","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::cz_boot_end","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"platform::cz_test","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 16","kind":{"UnsafeFnCall":"C"}}]}

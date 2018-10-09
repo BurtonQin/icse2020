@@ -1,0 +1,4 @@
+{"name":"traits::read_buffer_ref","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/traits.rs\") line 15","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/traits.rs\") line 16","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"wildly_unsafe","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 42","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"BufferRef::advance","from_trait":true,"arguments":[],"sources":[]}
+{"name":"BufferRef::uninitialized_mut","from_trait":true,"arguments":[],"sources":[]}

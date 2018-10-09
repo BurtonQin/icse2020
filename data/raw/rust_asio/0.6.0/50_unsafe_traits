@@ -1,0 +1,32 @@
+{"name":"<unsafe_cell::UnsafeBoxedCell<T> as std::marker::Send>"}
+{"name":"<unsafe_cell::UnsafeRefCell<T> as std::marker::Send>"}
+{"name":"<unsafe_cell::UnsafeSliceCell<T> as std::marker::Send>"}
+{"name":"<ffi::tss::pthread::PthreadTssPtr<T> as std::marker::Send>"}
+{"name":"<ffi::tss::pthread::PthreadTssPtr<T> as std::marker::Sync>"}
+{"name":"<core::IoContext as core::AsIoContext>"}
+{"name":"<core::IoContext as std::marker::Send>"}
+{"name":"<core::IoContextWork as core::AsIoContext>"}
+{"name":"<core::reactor::fd::AsyncFd as core::AsIoContext>"}
+{"name":"<core::scheduler::timer_queue::AsyncTimer as core::AsIoContext>"}
+{"name":"<async::strand::StrandData<T> as std::marker::Send>"}
+{"name":"<async::strand::Strand<'a, T> as core::AsIoContext>"}
+{"name":"<async::strand::StrandImmutable<'a, T> as core::AsIoContext>"}
+{"name":"<async::coroutine::Coroutine<'a> as core::AsIoContext>"}
+{"name":"<stream_socket::StreamSocket<P> as std::marker::Send>"}
+{"name":"<stream_socket::StreamSocket<P> as core::AsIoContext>"}
+{"name":"<dgram_socket::DgramSocket<P> as std::marker::Send>"}
+{"name":"<dgram_socket::DgramSocket<P> as core::AsIoContext>"}
+{"name":"<raw_socket::RawSocket<P> as std::marker::Send>"}
+{"name":"<raw_socket::RawSocket<P> as core::AsIoContext>"}
+{"name":"<seq_packet_socket::SeqPacketSocket<P> as std::marker::Send>"}
+{"name":"<seq_packet_socket::SeqPacketSocket<P> as core::AsIoContext>"}
+{"name":"<socket_listener::SocketListener<P, S> as std::marker::Send>"}
+{"name":"<socket_listener::SocketListener<P, S> as core::AsIoContext>"}
+{"name":"<ip::resolver::ResolverIter<P> as std::marker::Send>"}
+{"name":"<ip::resolver::Resolver<P, S> as core::AsIoContext>"}
+{"name":"<posix::StreamDescriptor as std::marker::Send>"}
+{"name":"<posix::StreamDescriptor as core::AsIoContext>"}
+{"name":"<signal_set::SignalSet as std::marker::Send>"}
+{"name":"<signal_set::SignalSet as core::AsIoContext>"}
+{"name":"<waitable_timer::WaitableTimer<C> as std::marker::Send>"}
+{"name":"<waitable_timer::WaitableTimer<C> as core::AsIoContext>"}

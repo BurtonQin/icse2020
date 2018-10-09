@@ -1,0 +1,17 @@
+{"name":"<auto::web_rtcdtls_transport::WebRTCDTLSTransport as glib::IsA<glib::Object>>"}
+{"name":"<auto::web_rtcdtls_transport::WebRTCDTLSTransport as std::marker::Send>"}
+{"name":"<auto::web_rtcdtls_transport::WebRTCDTLSTransport as std::marker::Sync>"}
+{"name":"<auto::web_rtcice_transport::WebRTCICETransport as glib::IsA<glib::Object>>"}
+{"name":"<auto::web_rtcice_transport::WebRTCICETransport as std::marker::Send>"}
+{"name":"<auto::web_rtcice_transport::WebRTCICETransport as std::marker::Sync>"}
+{"name":"<auto::web_rtcrtp_receiver::WebRTCRTPReceiver as glib::IsA<glib::Object>>"}
+{"name":"<auto::web_rtcrtp_receiver::WebRTCRTPReceiver as std::marker::Send>"}
+{"name":"<auto::web_rtcrtp_receiver::WebRTCRTPReceiver as std::marker::Sync>"}
+{"name":"<auto::web_rtcrtp_sender::WebRTCRTPSender as glib::IsA<glib::Object>>"}
+{"name":"<auto::web_rtcrtp_sender::WebRTCRTPSender as std::marker::Send>"}
+{"name":"<auto::web_rtcrtp_sender::WebRTCRTPSender as std::marker::Sync>"}
+{"name":"<auto::web_rtcrtp_transceiver::WebRTCRTPTransceiver as glib::IsA<glib::Object>>"}
+{"name":"<auto::web_rtcrtp_transceiver::WebRTCRTPTransceiver as std::marker::Send>"}
+{"name":"<auto::web_rtcrtp_transceiver::WebRTCRTPTransceiver as std::marker::Sync>"}
+{"name":"<auto::web_rtc_session_description::WebRTCSessionDescription as std::marker::Send>"}
+{"name":"<auto::web_rtc_session_description::WebRTCSessionDescription as std::marker::Sync>"}

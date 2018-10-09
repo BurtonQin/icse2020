@@ -1,0 +1,16 @@
+{"name":"IntrusiveAlias::new_of","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<OwnBox<T>>::from_alias","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<OwnBox<T>>::into_alias","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<OwnBox<T>>::as_alias","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<OwnBox<T>>::into_box","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 153","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/lib.rs\") line 153","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"<BorrowBox<'a, T>>::new_from","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<BorrowBoxMut<'a, T>>::new_from","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<T as Intrusive>::from_alias","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 349","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<T as Intrusive>::into_alias","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 353","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<T as Intrusive>::as_alias_mut","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 358","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/lib.rs\") line 358","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"<T as Intrusive>::of_alias","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 362","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"<T as Intrusive>::of_alias_mut","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 366","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"<T as Intrusive>::from_field","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 409","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/lib.rs\") line 411","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<T as Intrusive>::into_field","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 415","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/lib.rs\") line 415","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<T as Intrusive>::of_field","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 419","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/lib.rs\") line 419","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<T as Intrusive>::of_field_mut","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 423","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/lib.rs\") line 423","kind":{"UnsafeFnCall":"Rust"}}]}

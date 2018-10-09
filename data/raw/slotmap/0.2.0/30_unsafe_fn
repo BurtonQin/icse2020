@@ -1,0 +1,5 @@
+{"name":"<normal::SlotMap<T>>::remove_from_slot","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/normal.rs\") line 287","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/normal.rs\") line 294","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<normal::SlotMap<T>>::get_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/normal.rs\") line 452","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<normal::SlotMap<T>>::get_unchecked_mut","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/normal.rs\") line 495","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<dense::DenseSlotMap<T>>::get_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/dense.rs\") line 414","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/dense.rs\") line 415","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<dense::DenseSlotMap<T>>::get_unchecked_mut","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/dense.rs\") line 459","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/dense.rs\") line 460","kind":{"UnsafeFnCall":"Rust"}}]}

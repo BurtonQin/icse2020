@@ -1,0 +1,16 @@
+{"name":"<block::BasicBlock as util::Sub<value::Value>>"}
+{"name":"<types::StructType as util::Sub<types::Type>>"}
+{"name":"<types::FunctionType as util::Sub<types::Type>>"}
+{"name":"<types::PointerType as util::Sub<types::Type>>"}
+{"name":"<types::IntegerType as util::Sub<types::Type>>"}
+{"name":"<types::VectorType as util::Sub<types::Type>>"}
+{"name":"<types::ArrayType as util::Sub<types::Type>>"}
+{"name":"<types::VoidType as util::Sub<types::Type>>"}
+{"name":"<types::FloatType as util::Sub<types::Type>>"}
+{"name":"<types::DoubleType as util::Sub<types::Type>>"}
+{"name":"<value::Arg as util::Sub<value::Value>>"}
+{"name":"<value::GlobalValue as util::Sub<value::Value>>"}
+{"name":"<value::GlobalVariable as util::Sub<value::GlobalValue>>"}
+{"name":"<value::Alias as util::Sub<value::GlobalValue>>"}
+{"name":"<value::Function as util::Sub<value::GlobalValue>>"}
+{"name":"<value::Function as util::Sub<value::Value>>"}

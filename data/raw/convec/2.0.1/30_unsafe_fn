@@ -1,0 +1,3 @@
+{"name":"<convec::ConVec<T>>::get_unchecked","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<convec::ConVec<T>>::pop","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/convec.rs\") line 159","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/convec.rs\") line 161","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/convec.rs\") line 162","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/convec.rs\") line 162","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/convec.rs\") line 162","kind":"DerefRawPointer"}]}
+{"name":"<AoVec<T>>::get_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 64","kind":{"UnsafeFnCall":"Rust"}}]}

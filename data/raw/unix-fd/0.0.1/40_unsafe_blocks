@@ -1,0 +1,18 @@
+{"sources":[["42",[{"loc":"file: Real(\"src/lib.rs\") line 27","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["109",[{"loc":"file: Real(\"src/fd.rs\") line 40","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["167",[{"loc":"file: Real(\"src/fd.rs\") line 68","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["3169",[{"loc":"file: Real(\"src/fd.rs\") line 76","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["3195",[{"loc":"file: Real(\"src/fd.rs\") line 84","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["3223",[{"loc":"file: Real(\"src/fd.rs\") line 94","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["3254",[{"loc":"file: Real(\"src/fd.rs\") line 103","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["3282",[{"loc":"file: Real(\"src/fd.rs\") line 115","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["3329",[{"loc":"file: Real(\"src/fd.rs\") line 146","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["484",[{"loc":"file: Real(\"src/fd.rs\") line 175","kind":{"UnsafeFnCall":"Rust"}}]],["3354",[{"loc":"file: Real(\"src/fd.rs\") line 179","kind":{"UnsafeFnCall":"C"}},{"loc":"file: Real(\"src/fd.rs\") line 181","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["523",[{"loc":"file: Real(\"src/fd.rs\") line 198","kind":{"UnsafeFnCall":"Rust"}}]],["3394",[{"loc":"file: Real(\"src/fd.rs\") line 201","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["542",[{"loc":"file: Real(\"src/fd.rs\") line 208","kind":{"UnsafeFnCall":"Rust"}}]],["3424",[{"loc":"file: Real(\"src/fd.rs\") line 211","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["3449",[{"loc":"file: Real(\"src/fd.rs\") line 224","kind":{"UnsafeFnCall":"C"}}]],["575",[{"loc":"file: Real(\"src/fd.rs\") line 234","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["846",[{"loc":"file: Real(\"src/dir.rs\") line 26","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["894",[{"loc":"file: Real(\"src/dir.rs\") line 46","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["927",[{"loc":"file: Real(\"src/dir.rs\") line 63","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["958",[{"loc":"file: Real(\"src/dir.rs\") line 84","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["1025",[{"loc":"file: Real(\"src/dir.rs\") line 139","kind":"DerefRawPointer"}]]]}

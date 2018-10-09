@@ -1,0 +1,4 @@
+{"name":"<stream::Decompress as std::marker::Send>"}
+{"name":"<stream::Decompress as std::marker::Sync>"}
+{"name":"<stream::Compress as std::marker::Send>"}
+{"name":"<stream::Compress as std::marker::Sync>"}

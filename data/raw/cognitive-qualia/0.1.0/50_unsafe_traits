@@ -1,0 +1,4 @@
+{"name":"<memory::Memory as std::marker::Send>"}
+{"name":"<memory::Memory as std::marker::Sync>"}
+{"name":"<memory::MemoryView as std::marker::Send>"}
+{"name":"<memory::MemoryView as std::marker::Sync>"}

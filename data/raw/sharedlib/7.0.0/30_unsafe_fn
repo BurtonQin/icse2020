@@ -1,0 +1,18 @@
+{"name":"os::unix::lib::Lib::new","from_trait":true,"arguments":[],"sources":[]}
+{"name":"os::unix::lib::Lib::find","from_trait":true,"arguments":[],"sources":[]}
+{"name":"lib_impl::lib::Lib::new","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib_impl/lib.rs\") line 36","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"lib_impl::lib::Lib::find_data","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib_impl/lib.rs\") line 83","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/lib_impl/lib.rs\") line 84","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"lib_impl::lib::Lib::find_func","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib_impl/lib.rs\") line 129","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<lib_impl::lib_tracked::LibTracked<TLib>>::new","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib_impl/lib_tracked.rs\") line 39","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<lib_impl::lib_tracked::LibTracked<TLib>>::find_data","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib_impl/lib_tracked.rs\") line 96","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<lib_impl::lib_tracked::LibTracked<TLib>>::find_func","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib_impl/lib_tracked.rs\") line 150","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"lib_impl::lib_unsafe::LibUnsafe::new","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib_impl/lib_unsafe.rs\") line 37","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"lib_impl::lib_unsafe::LibUnsafe::find_data","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib_impl/lib_unsafe.rs\") line 86","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/lib_impl/lib_unsafe.rs\") line 85","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"lib_impl::lib_unsafe::LibUnsafe::find_func","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib_impl/lib_unsafe.rs\") line 133","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/lib_impl/lib_unsafe.rs\") line 132","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/lib_impl/lib_unsafe.rs\") line 136","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<symbol::data::Data<'a, T> as symbol::symbol::Symbol<&'a T>>::get","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<symbol::data_tracked::DataTracked<T, TLib> as symbol::symbol::Symbol<&'a T>>::get","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/symbol/data_tracked.rs\") line 26","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"symbol::data_unsafe::<impl symbol::symbol::Symbol<&'a T> for *const T>::get","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/symbol/data_unsafe.rs\") line 9","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"<symbol::func::Func<'a, T> as symbol::symbol::Symbol<T>>::get","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<symbol::func_tracked::FuncTracked<T, TLib> as symbol::symbol::Symbol<T>>::get","from_trait":true,"arguments":[],"sources":[]}
+{"name":"symbol::func_unsafe::<impl symbol::symbol::Symbol<T> for T>::get","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<util::error_mutex::ERROR_MUTEX as lazy_static::Deref>::deref::__stability","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__lazy_static_internal\") line 13","kind":"Static"}]}

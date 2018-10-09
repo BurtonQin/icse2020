@@ -1,0 +1,6 @@
+{"sources":[["10",[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/msp430-0.1.0/src/asm.rs\") line 7","kind":"Asm"}]]]}
+{"sources":[["15",[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/msp430-0.1.0/src/asm.rs\") line 19","kind":"Asm"}]]]}
+{"sources":[["64",[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/msp430-0.1.0/src/interrupt.rs\") line 55","kind":{"UnsafeFnCall":"Rust"}}]],["73",[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/msp430-0.1.0/src/interrupt.rs\") line 60","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["91",[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/msp430-0.1.0/src/register/sp.rs\") line 8","kind":"Asm"}]]]}
+{"sources":[["107",[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/msp430-0.1.0/src/register/pc.rs\") line 8","kind":"Asm"}]]]}
+{"sources":[["281",[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/msp430-0.1.0/src/register/sr.rs\") line 80","kind":"Asm"}]]]}

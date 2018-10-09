@@ -1,0 +1,5 @@
+{"name":"<mem::Pin<'a, T>>::new_unchecked","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<mem::Pin<'a, T>>::get_mut","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<mem::Pin<'a, T>>::map","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<boxed::PinBox<T>>::get_mut","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<boxed::PinBox<T>>::unpin","from_trait":true,"arguments":[],"sources":[]}

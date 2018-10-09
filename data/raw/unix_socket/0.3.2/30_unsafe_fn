@@ -1,0 +1,3 @@
+{"name":"Inner::new","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/unix_socket-0.3.2/src/lib.rs\") line 51","kind":{"UnsafeFnCall":"System"}}]}
+{"name":"Inner::new_pair","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/unix_socket-0.3.2/src/lib.rs\") line 61","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"sockaddr_un","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/unix_socket-0.3.2/src/lib.rs\") line 72","kind":{"UnsafeFnCall":"Rust"}}]}

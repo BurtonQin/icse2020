@@ -1,0 +1,9 @@
+{"name":"<kernel::kernel::Kernel<Msg, Dis> as std::marker::Send>"}
+{"name":"<kernel::kernel::Kernel<Msg, Dis> as std::marker::Sync>"}
+{"name":"<kernel::kernel_ref::KernelRef<Msg> as std::marker::Send>"}
+{"name":"<kernel::kernel_ref::KernelRef<Msg> as std::marker::Sync>"}
+{"name":"<kernel::mailbox::MailboxSender<Msg> as std::marker::Send>"}
+{"name":"<kernel::mailbox::MailboxSender<Msg> as std::marker::Sync>"}
+{"name":"<protocol::Envelope<T> as std::marker::Send>"}
+{"name":"<system::system::ActorSystem<Msg> as std::marker::Send>"}
+{"name":"<system::system::ActorSystem<Msg> as std::marker::Sync>"}

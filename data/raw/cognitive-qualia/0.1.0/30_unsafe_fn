@@ -1,0 +1,5 @@
+{"name":"memory::Buffer::as_memory","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/cognitive-qualia-0.1.0/src/memory.rs\") line 105","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<memory::Buffer as image::Pixmap>::as_ptr","from_trait":true,"arguments":[],"sources":[]}
+{"name":"memory::Memory::new_borrowed","from_trait":true,"arguments":[{"type_info":"type(*mut u8)","kind":"RawPointer"}],"sources":[]}
+{"name":"memory::Memory::absorb","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/cognitive-qualia-0.1.0/src/memory.rs\") line 224","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/cognitive-qualia-0.1.0/src/memory.rs\") line 224","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"<memory::MemoryView as image::Pixmap>::as_ptr","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/cognitive-qualia-0.1.0/src/memory.rs\") line 311","kind":{"UnsafeFnCall":"Rust"}}]}

@@ -1,0 +1,60 @@
+{"sources":[["29",[{"loc":"file: Real(\"src/buffers.rs\") line 25","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/buffers.rs\") line 25","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["63",[{"loc":"file: Real(\"src/buffers.rs\") line 54","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/buffers.rs\") line 54","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["93",[{"loc":"file: Real(\"src/buffers.rs\") line 83","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["108",[{"loc":"file: Real(\"src/buffers.rs\") line 99","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["123",[{"loc":"file: Real(\"src/buffers.rs\") line 113","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["146",[{"loc":"file: Real(\"src/buffers.rs\") line 134","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["176",[{"loc":"file: Real(\"src/buffers.rs\") line 160","kind":{"UnsafeFnCall":"RustIntrinsic"}},{"loc":"file: Real(\"src/buffers.rs\") line 157","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["210",[{"loc":"file: Real(\"src/buffers.rs\") line 168","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/buffers.rs\") line 168","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["229",[{"loc":"file: Real(\"src/buffers.rs\") line 174","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/buffers.rs\") line 174","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["264",[{"loc":"file: Real(\"src/drawing.rs\") line 18","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["284",[{"loc":"file: Real(\"src/drawing.rs\") line 41","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["305",[{"loc":"file: Real(\"src/drawing.rs\") line 57","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["333",[{"loc":"file: Real(\"src/drawing.rs\") line 78","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["365",[{"loc":"file: Real(\"src/drawing.rs\") line 94","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["405",[{"loc":"file: Real(\"src/shaders.rs\") line 18","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["418",[{"loc":"file: Real(\"src/shaders.rs\") line 22","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["437",[{"loc":"file: Real(\"src/shaders.rs\") line 28","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["458",[{"loc":"file: Real(\"src/shaders.rs\") line 39","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["477",[{"loc":"file: Real(\"src/shaders.rs\") line 45","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["505",[{"loc":"file: Real(\"src/shaders.rs\") line 56","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["527",[{"loc":"file: Real(\"src/shaders.rs\") line 67","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["541",[{"loc":"file: Real(\"src/shaders.rs\") line 73","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["553",[{"loc":"file: Real(\"src/shaders.rs\") line 79","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["565",[{"loc":"file: Real(\"src/shaders.rs\") line 85","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["577",[{"loc":"file: Real(\"src/shaders.rs\") line 91","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["594",[{"loc":"file: Real(\"src/shaders.rs\") line 101","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["616",[{"loc":"file: Real(\"src/shaders.rs\") line 109","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["635",[{"loc":"file: Real(\"src/shaders.rs\") line 115","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["658",[{"loc":"file: Real(\"src/shaders.rs\") line 121","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["685",[{"loc":"file: Real(\"src/shaders.rs\") line 127","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["704",[{"loc":"file: Real(\"src/shaders.rs\") line 133","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["723",[{"loc":"file: Real(\"src/shaders.rs\") line 139","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["746",[{"loc":"file: Real(\"src/shaders.rs\") line 145","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["773",[{"loc":"file: Real(\"src/shaders.rs\") line 151","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["792",[{"loc":"file: Real(\"src/shaders.rs\") line 157","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["811",[{"loc":"file: Real(\"src/shaders.rs\") line 163","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["834",[{"loc":"file: Real(\"src/shaders.rs\") line 169","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["861",[{"loc":"file: Real(\"src/shaders.rs\") line 175","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["884",[{"loc":"file: Real(\"src/shaders.rs\") line 182","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["905",[{"loc":"file: Real(\"src/shaders.rs\") line 188","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["926",[{"loc":"file: Real(\"src/shaders.rs\") line 194","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["947",[{"loc":"file: Real(\"src/shaders.rs\") line 200","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["968",[{"loc":"file: Real(\"src/shaders.rs\") line 206","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["989",[{"loc":"file: Real(\"src/shaders.rs\") line 212","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["1010",[{"loc":"file: Real(\"src/shaders.rs\") line 218","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["1031",[{"loc":"file: Real(\"src/shaders.rs\") line 224","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["1052",[{"loc":"file: Real(\"src/shaders.rs\") line 230","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["1073",[{"loc":"file: Real(\"src/shaders.rs\") line 236","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["1094",[{"loc":"file: Real(\"src/shaders.rs\") line 242","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["1115",[{"loc":"file: Real(\"src/shaders.rs\") line 248","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["1139",[{"loc":"file: Real(\"src/shaders.rs\") line 256","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["1164",[{"loc":"file: Real(\"src/shaders.rs\") line 262","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["1189",[{"loc":"file: Real(\"src/shaders.rs\") line 268","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["1219",[{"loc":"file: Real(\"src/textures.rs\") line 12","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/textures.rs\") line 12","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["1249",[{"loc":"file: Real(\"src/textures.rs\") line 24","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["1265",[{"loc":"file: Real(\"src/textures.rs\") line 30","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["1284",[{"loc":"file: Real(\"src/textures.rs\") line 36","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/textures.rs\") line 36","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["1322",[{"loc":"file: Real(\"src/textures.rs\") line 51","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["1351",[{"loc":"file: Real(\"src/textures.rs\") line 67","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["1370",[{"loc":"file: Real(\"src/textures.rs\") line 73","kind":{"UnsafeFnCall":"Rust"}}]]]}

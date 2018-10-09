@@ -1,0 +1,2 @@
+{"name":"<slice::Bits<End>>::get_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/slice.rs\") line 32","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<slice::Bits<End>>::modify_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/slice.rs\") line 39","kind":{"UnsafeFnCall":"Rust"}}]}

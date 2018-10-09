@@ -1,0 +1,14 @@
+{"sources":[["213",[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/shred-0.7.0/src/cell.rs\") line 107","kind":"DerefRawPointer"}]]]}
+{"sources":[["239",[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/shred-0.7.0/src/cell.rs\") line 120","kind":"DerefRawPointer"}]]]}
+{"sources":[["264",[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/shred-0.7.0/src/cell.rs\") line 136","kind":"DerefRawPointer"}]]]}
+{"sources":[["290",[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/shred-0.7.0/src/cell.rs\") line 148","kind":"DerefRawPointer"}]]]}
+{"sources":[["308",[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/shred-0.7.0/src/cell.rs\") line 157","kind":"DerefRawPointer"}]]]}
+{"sources":[["6444",[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/shred-0.7.0/src/dispatch/stage.rs\") line 46","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["6455",[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/shred-0.7.0/src/dispatch/stage.rs\") line 46","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["6512",[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/shred-0.7.0/src/dispatch/stage.rs\") line 46","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["6523",[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/shred-0.7.0/src/dispatch/stage.rs\") line 46","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["3501",[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/shred-0.7.0/src/meta.rs\") line 255","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["4411",[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/shred-0.7.0/src/res/mod.rs\") line 41","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["4454",[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/shred-0.7.0/src/res/mod.rs\") line 64","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["4478",[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/shred-0.7.0/src/res/mod.rs\") line 73","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["7208",[{"loc":"file: Macros(\"mopafy\") line 14","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["7255",[{"loc":"file: Macros(\"mopafy\") line 28","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["7139",[{"loc":"file: Macros(\"mopafy\") line 45","kind":{"UnsafeFnCall":"Rust"}}]]]}

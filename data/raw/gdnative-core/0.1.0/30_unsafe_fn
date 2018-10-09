@@ -1,0 +1,3 @@
+{"name":"GodotObject::_new","from_trait":false,"arguments":[{"type_info":"type(*mut gdnative_sys::godot_object)","kind":"RawPointer"},{"type_info":"type(*mut void)","kind":"RawPointer"}],"sources":[]}
+{"name":"GodotObject::_destroy","from_trait":false,"arguments":[{"type_info":"type(*mut gdnative_sys::godot_object)","kind":"RawPointer"},{"type_info":"type(*mut void)","kind":"RawPointer"},{"type_info":"type(*mut void)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 33","kind":"DerefRawPointer"}]}
+{"name":"register_godot_class","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 49","kind":{"UnsafeFnCall":"C"}}]}

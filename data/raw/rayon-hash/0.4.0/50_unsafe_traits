@@ -1,0 +1,20 @@
+{"name":"<ptr::Unique<T> as std::marker::Send>"}
+{"name":"<ptr::Unique<T> as std::marker::Sync>"}
+{"name":"<par::table::ParIterProducer<'a, K, V> as std::marker::Send>"}
+{"name":"<par::table::ParKeys<'a, K, V> as std::marker::Send>"}
+{"name":"<par::table::ParKeysProducer<'a, K, V> as std::marker::Send>"}
+{"name":"<par::table::ParValues<'a, K, V> as std::marker::Send>"}
+{"name":"<par::table::ParValuesProducer<'a, K, V> as std::marker::Send>"}
+{"name":"<par::table::ParIterMut<'a, K, V> as std::marker::Send>"}
+{"name":"<par::table::ParIterMutProducer<'a, K, V> as std::marker::Send>"}
+{"name":"<par::table::ParValuesMut<'a, K, V> as std::marker::Send>"}
+{"name":"<par::table::ParValuesMutProducer<'a, K, V> as std::marker::Send>"}
+{"name":"<par::table::ParIntoIterProducer<'a, K, V> as std::marker::Send>"}
+{"name":"<std_hash::table::Iter<'a, K, V> as std::marker::Sync>"}
+{"name":"<std_hash::table::Iter<'a, K, V> as std::marker::Send>"}
+{"name":"<std_hash::table::IterMut<'a, K, V> as std::marker::Sync>"}
+{"name":"<std_hash::table::IterMut<'a, K, V> as std::marker::Send>"}
+{"name":"<std_hash::table::IntoIter<K, V> as std::marker::Sync>"}
+{"name":"<std_hash::table::IntoIter<K, V> as std::marker::Send>"}
+{"name":"<std_hash::table::Drain<'a, K, V> as std::marker::Sync>"}
+{"name":"<std_hash::table::Drain<'a, K, V> as std::marker::Send>"}

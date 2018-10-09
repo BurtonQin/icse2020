@@ -1,0 +1,3 @@
+{"name":"driver::spidev::spi_ioc_wr_mode","from_trait":false,"arguments":[{"type_info":"type(*const u8)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 62","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"driver::spidev::spi_ioc_wr_lsb_first","from_trait":false,"arguments":[{"type_info":"type(*const u8)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 62","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"driver::spidev::spi_ioc_wr_max_speed_hz","from_trait":false,"arguments":[{"type_info":"type(*const u32)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 62","kind":{"UnsafeFnCall":"C"}}]}

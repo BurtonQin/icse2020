@@ -1,0 +1,4 @@
+{"name":"<video::backends::frame::Frame as std::marker::Send>"}
+{"name":"<video::backends::frame::Frame as std::marker::Sync>"}
+{"name":"<sched::job::JobRef as std::marker::Send>"}
+{"name":"<sched::job::JobRef as std::marker::Sync>"}

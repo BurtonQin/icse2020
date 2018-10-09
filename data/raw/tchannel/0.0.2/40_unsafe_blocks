@@ -1,0 +1,10 @@
+{"sources":[["76",[{"loc":"file: Real(\"src/atomic_arc.rs\") line 36","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["107",[{"loc":"file: Real(\"src/atomic_arc.rs\") line 45","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["150",[{"loc":"file: Real(\"src/atomic_arc.rs\") line 58","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["196",[{"loc":"file: Real(\"src/atomic_cell.rs\") line 41","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["292",[{"loc":"file: Real(\"src/atomic_cell.rs\") line 84","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["371",[{"loc":"file: Real(\"src/mpsc/segment.rs\") line 75","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["395",[{"loc":"file: Real(\"src/mpsc/segment.rs\") line 87","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["988",[{"loc":"file: Real(\"src/oneshot.rs\") line 107","kind":{"UnsafeFnCall":"Rust"}}]],["963",[{"loc":"file: Real(\"src/oneshot.rs\") line 109","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["1064",[{"loc":"file: Real(\"src/oneshot.rs\") line 207","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["2002",[{"loc":"file: Real(\"src/lib.rs\") line 83","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["2013",[{"loc":"file: Real(\"src/lib.rs\") line 83","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}

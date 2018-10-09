@@ -1,0 +1,7 @@
+{"name":"device::Device::from_ped_device","from_trait":true,"arguments":[{"type_info":"type(*mut PedDevice)","kind":"RawPointer"}],"sources":[]}
+{"name":"device::Device::ped_device","from_trait":true,"arguments":[],"sources":[]}
+{"name":"disk::Disk::get_device","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/disk.rs\") line 127","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/disk.rs\") line 127","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"disk::Disk::get_device_mut","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/disk.rs\") line 134","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/disk.rs\") line 134","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"disk::Disk::get_partition_by_sector_raw","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/disk.rs\") line 331","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"disk::Disk::get_partition_raw","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/disk.rs\") line 345","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"disk::Disk::remove_partition","from_trait":true,"arguments":[{"type_info":"type(*mut PedPartition)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/disk.rs\") line 384","kind":{"UnsafeFnCall":"C"}}]}

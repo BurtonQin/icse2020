@@ -1,0 +1,5 @@
+{"name":"raw::grab","from_trait":false,"arguments":[{"type_info":"type(*mut xlib::Display)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/raw.rs\") line 14","kind":{"UnsafeFnCall":"C"}},{"loc":"file: Real(\"src/raw.rs\") line 17","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"raw::next_event","from_trait":false,"arguments":[{"type_info":"type(*mut xlib::Display)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/raw.rs\") line 39","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"raw::get_display","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/raw.rs\") line 43","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"raw::get_root","from_trait":false,"arguments":[{"type_info":"type(*mut xlib::Display)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/raw.rs\") line 47","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"CallbackStorage::get_display_mut","from_trait":true,"arguments":[],"sources":[]}

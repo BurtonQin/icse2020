@@ -1,0 +1,9 @@
+{"sources":[["310",[{"loc":"file: Real(\"src/tcp_socket.rs\") line 26","kind":{"UnsafeFnCall":"C"}},{"loc":"file: Real(\"src/tcp_socket.rs\") line 33","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["413",[{"loc":"file: Real(\"src/tcp_socket.rs\") line 49","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["431",[{"loc":"file: Real(\"src/tcp_socket.rs\") line 55","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["464",[{"loc":"file: Real(\"src/tcp_socket.rs\") line 62","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["485",[{"loc":"file: Real(\"src/tcp_socket.rs\") line 68","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["518",[{"loc":"file: Real(\"src/tcp_socket.rs\") line 78","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["569",[{"loc":"file: Real(\"src/tcp_socket.rs\") line 100","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/tcp_socket.rs\") line 106","kind":"DerefRawPointer"}]]]}
+{"sources":[["628",[{"loc":"file: Real(\"src/tcp_socket.rs\") line 113","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/tcp_socket.rs\") line 120","kind":"DerefRawPointer"}]]]}
+{"sources":[["714",[{"loc":"file: Real(\"src/lib.rs\") line 23","kind":{"UnsafeFnCall":"Rust"}}]]]}

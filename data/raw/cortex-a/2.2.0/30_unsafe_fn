@@ -1,0 +1,6 @@
+{"name":"<barrier::SY as barrier::sealed::Dmb>::__dmb","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/barrier.rs\") line 42","kind":"Asm"}]}
+{"name":"<barrier::SY as barrier::sealed::Dsb>::__dsb","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/barrier.rs\") line 48","kind":"Asm"}]}
+{"name":"<barrier::SY as barrier::sealed::Isb>::__isb","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/barrier.rs\") line 61","kind":"Asm"}]}
+{"name":"barrier::dmb","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/barrier.rs\") line 70","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"barrier::dsb","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/barrier.rs\") line 78","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"barrier::isb","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/barrier.rs\") line 86","kind":{"UnsafeFnCall":"Rust"}}]}

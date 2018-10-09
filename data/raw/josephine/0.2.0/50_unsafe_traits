@@ -1,0 +1,21 @@
+{"name":"<std::string::String as compartment::JSCompartmental<C, D>>"}
+{"name":"<usize as compartment::JSCompartmental<C, D>>"}
+{"name":"<() as compartment::JSCompartmental<C, D>>"}
+{"name":"<std::option::Option<T> as compartment::JSCompartmental<C, D>>"}
+{"name":"<std::vec::Vec<T> as compartment::JSCompartmental<C, D>>"}
+{"name":"<managed::JSManaged<'a, C, T> as compartment::JSCompartmental<C, D>>"}
+{"name":"<string::JSString<'a, C> as compartment::JSCompartmental<C, D>>"}
+{"name":"<managed::JSManaged<'a, C, T> as trace::JSTraceable>"}
+{"name":"<std::string::String as root::JSLifetime<'a>>"}
+{"name":"<usize as root::JSLifetime<'a>>"}
+{"name":"<std::option::Option<T> as root::JSLifetime<'a>>"}
+{"name":"<std::vec::Vec<T> as root::JSLifetime<'a>>"}
+{"name":"<managed::JSManaged<'b, C, T> as root::JSLifetime<'a>>"}
+{"name":"<root::JSRoot<'a, T> as std::ops::Drop>"}
+{"name":"<string::JSString<'a, C> as trace::JSTraceable>"}
+{"name":"<string::JSString<'b, C> as root::JSLifetime<'a>>"}
+{"name":"<std::string::String as trace::JSTraceable>"}
+{"name":"<usize as trace::JSTraceable>"}
+{"name":"<() as trace::JSTraceable>"}
+{"name":"<std::option::Option<T> as trace::JSTraceable>"}
+{"name":"<std::vec::Vec<T> as trace::JSTraceable>"}

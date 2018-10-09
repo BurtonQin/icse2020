@@ -1,0 +1,5 @@
+{"name":"<Volatile<T>>::new","from_trait":true,"arguments":[{"type_info":"type(*const T)","kind":"RawPointer"}],"sources":[]}
+{"name":"<Volatile<T>>::offset","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 266","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/lib.rs\") line 266","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<Volatile<T>>::store","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 294","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"<Volatile<T>>::load","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 319","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"<Volatile<T>>::modify","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 353","kind":{"UnsafeFnCall":"RustIntrinsic"}},{"loc":"file: Real(\"src/lib.rs\") line 355","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}

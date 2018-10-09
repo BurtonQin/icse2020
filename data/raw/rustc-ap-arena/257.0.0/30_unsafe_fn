@@ -1,0 +1,2 @@
+{"name":"<TypedArenaChunk<T>>::new","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<TypedArenaChunk<T>>::destroy","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-ap-arena-257.0.0/lib.rs\") line 89","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-ap-arena-257.0.0/lib.rs\") line 90","kind":{"UnsafeFnCall":"Rust"}}]}

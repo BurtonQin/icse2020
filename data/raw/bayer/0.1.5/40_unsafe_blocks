@@ -1,0 +1,8 @@
+{"sources":[["3785",[{"loc":"file: Real(\"src/demosaic/mod.rs\") line 6","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["3796",[{"loc":"file: Real(\"src/demosaic/mod.rs\") line 6","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["2355",[{"loc":"file: Real(\"src/ffi.rs\") line 65","kind":{"UnsafeFnCall":"Rust"}}]],["2363",[{"loc":"file: Real(\"src/ffi.rs\") line 66","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["2580",[{"loc":"file: Real(\"src/ffi.rs\") line 152","kind":{"UnsafeFnCall":"Rust"}}]],["2608",[{"loc":"file: Real(\"src/ffi.rs\") line 155","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["2630",[{"loc":"file: Real(\"src/ffi.rs\") line 166","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["2637",[{"loc":"file: Real(\"src/ffi.rs\") line 167","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["9354",[{"loc":"file: Real(\"src/bayer.rs\") line 13","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["9365",[{"loc":"file: Real(\"src/bayer.rs\") line 13","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["9522",[{"loc":"file: Real(\"src/bayer.rs\") line 26","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["9533",[{"loc":"file: Real(\"src/bayer.rs\") line 26","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["10718",[{"loc":"file: Real(\"src/raster.rs\") line 8","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["10729",[{"loc":"file: Real(\"src/raster.rs\") line 8","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["3679",[{"loc":"file: Real(\"src/raster.rs\") line 97","kind":{"UnsafeFnCall":"Rust"}}]]]}

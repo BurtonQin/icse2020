@@ -1,0 +1,3 @@
+{"name":"base::cast_event","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/xcb-0.8.2/src/base.rs\") line 124","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"base::cast_error","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/xcb-0.8.2/src/base.rs\") line 180","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"base::Connection::from_raw_conn","from_trait":true,"arguments":[{"type_info":"type(*mut xcb_connection_t)","kind":"RawPointer"}],"sources":[]}

@@ -1,0 +1,5 @@
+{"name":"<&'a str as Pattern>::skip_over_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 151","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<char as Pattern>::skip_over_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 180","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<F as Pattern>::skip_over_unchecked","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<StrSlicer<'str, T>>::jump_to_unchecked","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<StrSlicer<'str, T>>::skip_over_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 540","kind":{"UnsafeFnCall":"Rust"}}]}

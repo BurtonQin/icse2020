@@ -1,0 +1,9 @@
+{"name":"<table::Iter<'a, K, V> as core::marker::Sync>"}
+{"name":"<table::Iter<'a, K, V> as core::marker::Send>"}
+{"name":"<table::IterMut<'a, K, V> as core::marker::Sync>"}
+{"name":"<table::IterMut<'a, K, V> as core::marker::Send>"}
+{"name":"<table::IntoIter<K, V> as core::marker::Sync>"}
+{"name":"<table::IntoIter<K, V> as core::marker::Send>"}
+{"name":"<table::Drain<'a, K, V> as core::marker::Sync>"}
+{"name":"<table::Drain<'a, K, V> as core::marker::Send>"}
+{"name":"<table::RawTable<K, V> as core::ops::Drop>"}

@@ -1,0 +1,1 @@
+{"name":"drop_empty_entry_box","from_trait":false,"arguments":[{"type_info":"type(*mut LinkedHashMapEntry<K, V>)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 103","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/lib.rs\") line 103","kind":{"UnsafeFnCall":"Rust"}}]}

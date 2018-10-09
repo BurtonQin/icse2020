@@ -1,0 +1,5 @@
+{"name":"<auth::HAS_AESNI as lazy_static::Deref>::deref::__stability","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__lazy_static_internal\") line 13","kind":"Static"}]}
+{"name":"auth::LoginRequest::prepare_key::as_array","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"array_ref\") line 5","kind":"DerefRawPointer"}]}
+{"name":"auth::LoginRequest::generate_email_hash::as_array","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"array_ref\") line 5","kind":"DerefRawPointer"}]}
+{"name":"<BASE_URI as lazy_static::Deref>::deref::__stability","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__lazy_static_internal\") line 13","kind":"Static"}]}
+{"name":"<BASE_API_URI as lazy_static::Deref>::deref::__stability","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__lazy_static_internal\") line 13","kind":"Static"}]}

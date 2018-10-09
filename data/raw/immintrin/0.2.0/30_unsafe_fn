@@ -1,0 +1,71 @@
+{"name":"xmmintrin::_mm_loadh_pi","from_trait":false,"arguments":[{"type_info":"type(*const __m64)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/xmmintrin.rs\") line 437","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/xmmintrin.rs\") line 437","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"xmmintrin::_mm_loadl_pi","from_trait":false,"arguments":[{"type_info":"type(*const __m64)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/xmmintrin.rs\") line 448","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"xmmintrin::_mm_load_ss","from_trait":false,"arguments":[{"type_info":"type(*const f32)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/xmmintrin.rs\") line 457","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"xmmintrin::_mm_load1_ps","from_trait":false,"arguments":[{"type_info":"type(*const f32)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/xmmintrin.rs\") line 465","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"xmmintrin::_mm_load_ps1","from_trait":false,"arguments":[{"type_info":"type(*const f32)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/xmmintrin.rs\") line 470","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"xmmintrin::_mm_load_ps","from_trait":false,"arguments":[{"type_info":"type(*const f32)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/xmmintrin.rs\") line 476","kind":"DerefRawPointer"}]}
+{"name":"xmmintrin::_mm_loadu_ps","from_trait":false,"arguments":[{"type_info":"type(*const f32)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/xmmintrin.rs\") line 484","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"xmmintrin::_mm_loadr_ps","from_trait":false,"arguments":[{"type_info":"type(*const f32)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/xmmintrin.rs\") line 489","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/xmmintrin.rs\") line 490","kind":{"UnsafeFnCall":"PlatformIntrinsic"}}]}
+{"name":"xmmintrin::_mm_undefined_ps","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/xmmintrin.rs\") line 494","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"xmmintrin::_mm_storeh_pi","from_trait":false,"arguments":[{"type_info":"type(*mut __m64)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/xmmintrin.rs\") line 528","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/xmmintrin.rs\") line 528","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"xmmintrin::_mm_storel_pi","from_trait":false,"arguments":[{"type_info":"type(*mut __m64)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/xmmintrin.rs\") line 536","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"xmmintrin::_mm_store_ss","from_trait":false,"arguments":[{"type_info":"type(*mut f32)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/xmmintrin.rs\") line 544","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"xmmintrin::_mm_storeu_ps","from_trait":false,"arguments":[{"type_info":"type(*mut f32)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/xmmintrin.rs\") line 552","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"xmmintrin::_mm_store_ps","from_trait":false,"arguments":[{"type_info":"type(*mut f32)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/xmmintrin.rs\") line 558","kind":"DerefRawPointer"}]}
+{"name":"xmmintrin::_mm_store1_ps","from_trait":false,"arguments":[{"type_info":"type(*mut f32)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/xmmintrin.rs\") line 563","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"xmmintrin::_mm_store_ps1","from_trait":false,"arguments":[{"type_info":"type(*mut f32)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/xmmintrin.rs\") line 567","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"xmmintrin::_mm_storer_ps","from_trait":false,"arguments":[{"type_info":"type(*mut f32)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/xmmintrin.rs\") line 571","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"xmmintrin::_mm_setcsr","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/xmmintrin.rs\") line 590","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"xmmintrin::unimplemented_mmx::_mm_cvtps_pi32","from_trait":false,"arguments":[],"sources":[]}
+{"name":"xmmintrin::unimplemented_mmx::_mm_cvt_ps2pi","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/xmmintrin.rs\") line 720","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"xmmintrin::unimplemented_mmx::_mm_cvttps_pi32","from_trait":false,"arguments":[],"sources":[]}
+{"name":"xmmintrin::unimplemented_mmx::_mm_cvtt_ps2pi","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/xmmintrin.rs\") line 732","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"xmmintrin::unimplemented_mmx::_mm_max_pi16","from_trait":false,"arguments":[],"sources":[]}
+{"name":"xmmintrin::unimplemented_mmx::_mm_max_pu8","from_trait":false,"arguments":[],"sources":[]}
+{"name":"xmmintrin::unimplemented_mmx::_mm_min_pi16","from_trait":false,"arguments":[],"sources":[]}
+{"name":"xmmintrin::unimplemented_mmx::_mm_min_pu8","from_trait":false,"arguments":[],"sources":[]}
+{"name":"xmmintrin::unimplemented_mmx::_mm_mulhi_pu16","from_trait":false,"arguments":[],"sources":[]}
+{"name":"xmmintrin::unimplemented_mmx::_mm_avg_pu8","from_trait":false,"arguments":[],"sources":[]}
+{"name":"xmmintrin::unimplemented_mmx::_mm_avg_pu16","from_trait":false,"arguments":[],"sources":[]}
+{"name":"xmmintrin::unimplemented_mmx::_mm_sad_pu8","from_trait":false,"arguments":[],"sources":[]}
+{"name":"xmmintrin::unimplemented_mmx::_mm_cvtps_pi16","from_trait":false,"arguments":[],"sources":[]}
+{"name":"xmmintrin::unimplemented_mmx::_mm_cvtps_pi8","from_trait":false,"arguments":[],"sources":[]}
+{"name":"xmmintrin::unimplemented_mmx::_mm_extract_pi16","from_trait":false,"arguments":[],"sources":[]}
+{"name":"xmmintrin::unimplemented_mmx::_mm_insert_pi16","from_trait":false,"arguments":[],"sources":[]}
+{"name":"xmmintrin::unimplemented_mmx::_mm_shuffle_pi16","from_trait":false,"arguments":[],"sources":[]}
+{"name":"xmmintrin::unimplemented_mmx::_m_maskmovq","from_trait":false,"arguments":[{"type_info":"type(*mut i8)","kind":"RawPointer"}],"sources":[]}
+{"name":"xmmintrin::unimplemented_mmx::_m_pavgb","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/xmmintrin.rs\") line 868","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"xmmintrin::unimplemented_mmx::_m_pavgw","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/xmmintrin.rs\") line 874","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"xmmintrin::unimplemented_mmx::_m_pextrw","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/xmmintrin.rs\") line 880","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"xmmintrin::unimplemented_mmx::_m_pinsrw","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/xmmintrin.rs\") line 886","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"xmmintrin::unimplemented_mmx::_m_pmaxsw","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/xmmintrin.rs\") line 892","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"xmmintrin::unimplemented_mmx::_m_pmaxub","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/xmmintrin.rs\") line 898","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"xmmintrin::unimplemented_mmx::_m_pminsw","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/xmmintrin.rs\") line 904","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"xmmintrin::unimplemented_mmx::_m_pminub","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/xmmintrin.rs\") line 910","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"xmmintrin::unimplemented_mmx::_m_pmovmskb","from_trait":false,"arguments":[],"sources":[]}
+{"name":"xmmintrin::unimplemented_mmx::_m_pmulhuw","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/xmmintrin.rs\") line 922","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"xmmintrin::unimplemented_mmx::_m_psadbw","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/xmmintrin.rs\") line 928","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"xmmintrin::unimplemented_mmx::_m_pshufw","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/xmmintrin.rs\") line 934","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"emmintrin::_mm_load_pd","from_trait":false,"arguments":[{"type_info":"type(*const f64)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/emmintrin.rs\") line 625","kind":"DerefRawPointer"}]}
+{"name":"emmintrin::_mm_load_pd1","from_trait":false,"arguments":[{"type_info":"type(*const f64)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/emmintrin.rs\") line 629","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"emmintrin::_mm_load_sd","from_trait":false,"arguments":[{"type_info":"type(*const f64)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/emmintrin.rs\") line 634","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/emmintrin.rs\") line 635","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"emmintrin::_mm_load_si128","from_trait":false,"arguments":[{"type_info":"type(*const __m128i)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/emmintrin.rs\") line 642","kind":"DerefRawPointer"}]}
+{"name":"emmintrin::_mm_load1_pd","from_trait":false,"arguments":[{"type_info":"type(*const f64)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/emmintrin.rs\") line 646","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/emmintrin.rs\") line 647","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"emmintrin::_mm_loadh_pd","from_trait":false,"arguments":[{"type_info":"type(*const f64)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/emmintrin.rs\") line 653","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/emmintrin.rs\") line 654","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"emmintrin::_mm_loadl_epi64","from_trait":false,"arguments":[{"type_info":"type(*const __m128i)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/emmintrin.rs\") line 660","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/emmintrin.rs\") line 661","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"emmintrin::_mm_loadl_pd","from_trait":false,"arguments":[{"type_info":"type(*const f64)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/emmintrin.rs\") line 667","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/emmintrin.rs\") line 668","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"emmintrin::_mm_loadr_pd","from_trait":false,"arguments":[{"type_info":"type(*const f64)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/emmintrin.rs\") line 673","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/emmintrin.rs\") line 674","kind":{"UnsafeFnCall":"PlatformIntrinsic"}}]}
+{"name":"emmintrin::_mm_loadu_pd","from_trait":false,"arguments":[{"type_info":"type(*const f64)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/emmintrin.rs\") line 679","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/emmintrin.rs\") line 680","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"emmintrin::_mm_loadu_si128","from_trait":false,"arguments":[{"type_info":"type(*const __m128i)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/emmintrin.rs\") line 686","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/emmintrin.rs\") line 687","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"emmintrin::_mm_maskmoveu_si128","from_trait":false,"arguments":[{"type_info":"type(*mut i8)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/emmintrin.rs\") line 698","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"emmintrin::_mm_store_pd","from_trait":false,"arguments":[{"type_info":"type(*mut f64)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/emmintrin.rs\") line 1253","kind":"DerefRawPointer"}]}
+{"name":"emmintrin::_mm_store_pd1","from_trait":false,"arguments":[{"type_info":"type(*mut f64)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/emmintrin.rs\") line 1257","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"emmintrin::_mm_store_sd","from_trait":false,"arguments":[{"type_info":"type(*mut f64)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/emmintrin.rs\") line 1265","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"emmintrin::_mm_store_si128","from_trait":false,"arguments":[{"type_info":"type(*mut __m128i)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/emmintrin.rs\") line 1270","kind":"DerefRawPointer"}]}
+{"name":"emmintrin::_mm_store1_pd","from_trait":false,"arguments":[{"type_info":"type(*mut f64)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/emmintrin.rs\") line 1274","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"emmintrin::_mm_storeh_pd","from_trait":false,"arguments":[{"type_info":"type(*mut f64)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/emmintrin.rs\") line 1282","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/emmintrin.rs\") line 1282","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"emmintrin::_mm_storel_epi64","from_trait":false,"arguments":[{"type_info":"type(*mut __m128i)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/emmintrin.rs\") line 1290","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"emmintrin::_mm_storel_pd","from_trait":false,"arguments":[{"type_info":"type(*mut f64)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/emmintrin.rs\") line 1298","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"emmintrin::_mm_storer_pd","from_trait":false,"arguments":[{"type_info":"type(*mut f64)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/emmintrin.rs\") line 1302","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"emmintrin::_mm_storeu_pd","from_trait":false,"arguments":[{"type_info":"type(*mut f64)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/emmintrin.rs\") line 1310","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"emmintrin::_mm_storeu_si128","from_trait":false,"arguments":[{"type_info":"type(*mut __m128i)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/emmintrin.rs\") line 1318","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}

@@ -1,0 +1,1 @@
+{"name":"<NoMessage as MessageGroup>::from_raw_c","from_trait":true,"arguments":[{"type_info":"type(*mut c_void)","kind":"RawPointer"},{"type_info":"type(*const syscom::wl_argument)","kind":"RawPointer"}],"sources":[]}

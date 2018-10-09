@@ -1,0 +1,6 @@
+{"name":"linux::ioctl_wrapper::ioctl_defrag_range","from_trait":false,"arguments":[{"type_info":"type(*const IoctlDefragRangeArgs)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 28","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"linux::ioctl_wrapper::ioctl_dev_info","from_trait":false,"arguments":[{"type_info":"type(*mut IoctlDevInfoArgs)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 36","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"linux::ioctl_wrapper::ioctl_file_dedupe_range","from_trait":false,"arguments":[{"type_info":"type(*mut IoctlFileDedupeRange)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 36","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"linux::ioctl_wrapper::ioctl_fs_info","from_trait":false,"arguments":[{"type_info":"type(*mut IoctlFsInfoArgs)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 20","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"linux::ioctl_wrapper::ioctl_space_info","from_trait":false,"arguments":[{"type_info":"type(*mut IoctlSpaceArgs)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 36","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"linux::ioctl_wrapper::ioctl_fiemap","from_trait":false,"arguments":[{"type_info":"type(*mut IoctlFiemap)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 36","kind":{"UnsafeFnCall":"C"}}]}

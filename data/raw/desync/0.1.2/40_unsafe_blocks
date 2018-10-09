@@ -1,0 +1,4 @@
+{"sources":[["2265",[{"loc":"file: Macros(\"__lazy_static_internal\") line 14","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["2444",[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/desync-0.1.2/src/scheduler.rs\") line 105","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["2455",[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/desync-0.1.2/src/scheduler.rs\") line 105","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["2115",[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/desync-0.1.2/src/unsafe_job.rs\") line 22","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["2136",[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/desync-0.1.2/src/unsafe_job.rs\") line 31","kind":"DerefRawPointer"}]]]}

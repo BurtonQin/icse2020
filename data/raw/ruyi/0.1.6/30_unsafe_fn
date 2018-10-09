@@ -1,0 +1,8 @@
+{"name":"<slab::Object<T>>::unchecked_unwrap","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<slab::Object<T>>::unchecked_unwrap_mut","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<slab::Object<T>>::unchecked_next_free","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<slab::Slab<T, I>>::get_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/slab.rs\") line 183","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/slab.rs\") line 183","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<slab::Slab<T, I>>::get_unchecked_mut","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/slab.rs\") line 188","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/slab.rs\") line 188","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"buf::ByteBuf::mut_ptr_at","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/buf/mod.rs\") line 592","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"io::util::RECV_BUF::__getit","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__thread_local_inner\") line 16","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"reactor::CURRENT_LOOP::__getit","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__thread_local_inner\") line 16","kind":{"UnsafeFnCall":"Rust"}}]}

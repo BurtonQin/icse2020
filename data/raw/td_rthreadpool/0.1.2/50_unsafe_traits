@@ -1,0 +1,6 @@
+{"name":"<mutex::sys::ReentrantMutex as std::marker::Send>"}
+{"name":"<mutex::sys::ReentrantMutex as std::marker::Sync>"}
+{"name":"<mutex::poison::Flag as std::marker::Send>"}
+{"name":"<mutex::poison::Flag as std::marker::Sync>"}
+{"name":"<mutex::remutex::ReentrantMutex<T> as std::marker::Send>"}
+{"name":"<mutex::remutex::ReentrantMutex<T> as std::marker::Sync>"}

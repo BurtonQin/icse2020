@@ -1,0 +1,6 @@
+{"name":"sources::registry::DEFAULT_ID::FOO::__getit","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__thread_local_inner\") line 16","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"util::job::imp::setup","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/cargo-0.22.0/src/cargo/util/job.rs\") line 37","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"util::network::maybe_spurious::extend_lifetime","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/cargo-0.22.0/src/cargo/util/network.rs\") line 21","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"util::profile::PROFILE_STACK::__getit","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__thread_local_inner\") line 16","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"util::profile::MESSAGES::__getit","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__thread_local_inner\") line 16","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"handle_cause::extend_lifetime","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/cargo-0.22.0/src/cargo/lib.rs\") line 187","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}

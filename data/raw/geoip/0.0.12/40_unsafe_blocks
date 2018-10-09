@@ -1,0 +1,10 @@
+{"sources":[["1040",[{"loc":"file: Macros(\"__lazy_static_internal\") line 14","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["77",[{"loc":"file: Real(\"src/geoip/lib.rs\") line 117","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["527",[{"loc":"file: Real(\"src/geoip/lib.rs\") line 279","kind":{"UnsafeFnCall":"C"}}]],["546",[{"loc":"file: Real(\"src/geoip/lib.rs\") line 285","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["582",[{"loc":"file: Real(\"src/geoip/lib.rs\") line 295","kind":{"UnsafeFnCall":"C"}}]],["608",[{"loc":"file: Real(\"src/geoip/lib.rs\") line 300","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["642",[{"loc":"file: Real(\"src/geoip/lib.rs\") line 307","kind":{"UnsafeFnCall":"C"}}]],["655",[{"loc":"file: Real(\"src/geoip/lib.rs\") line 312","kind":{"UnsafeFnCall":"Rust"}}]],["683",[{"loc":"file: Real(\"src/geoip/lib.rs\") line 319","kind":{"UnsafeFnCall":"C"}}]],["668",[{"loc":"file: Real(\"src/geoip/lib.rs\") line 315","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["719",[{"loc":"file: Real(\"src/geoip/lib.rs\") line 328","kind":{"UnsafeFnCall":"C"}}]],["728",[{"loc":"file: Real(\"src/geoip/lib.rs\") line 329","kind":{"UnsafeFnCall":"C"}}]],["742",[{"loc":"file: Real(\"src/geoip/lib.rs\") line 337","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/geoip/lib.rs\") line 337","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/geoip/lib.rs\") line 338","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["775",[{"loc":"file: Real(\"src/geoip/lib.rs\") line 346","kind":{"UnsafeFnCall":"C"}},{"loc":"file: Real(\"src/geoip/lib.rs\") line 357","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["820",[{"loc":"file: Real(\"src/geoip/lib.rs\") line 366","kind":{"UnsafeFnCall":"C"}},{"loc":"file: Real(\"src/geoip/lib.rs\") line 377","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["873",[{"loc":"file: Real(\"src/geoip/lib.rs\") line 385","kind":{"UnsafeFnCall":"C"}}]],["884",[{"loc":"file: Real(\"src/geoip/lib.rs\") line 388","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["982",[{"loc":"file: Real(\"src/geoip/lib.rs\") line 423","kind":{"UnsafeFnCall":"C"}}]]]}

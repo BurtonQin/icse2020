@@ -1,0 +1,175 @@
+{"name":"btim::Cr1::modify_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"btim::Cr1::write_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"btim::Cr2::modify_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"btim::Cr2::write_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"btim::Dier::modify_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"btim::Dier::write_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"btim::Sr::modify_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"btim::Sr::write_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"btim::Egr::write_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"btim::Cnt::modify_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"btim::Cnt::write_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"btim::Psc::modify_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"btim::Psc::write_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"btim::Arr::modify_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"btim::Arr::write_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"dbgmcu::Cr::modify_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"dbgmcu::Cr::write_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"dbgmcu::Apb1fz::modify_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"dbgmcu::Apb1fz::write_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"dbgmcu::Apb2fz::modify_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"dbgmcu::Apb2fz::write_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"gpio::Moder::modify_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"gpio::Moder::write_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"gpio::Otyper::modify_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"gpio::Otyper::write_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"gpio::Ospeedr::modify_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"gpio::Ospeedr::write_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"gpio::Pupdr::modify_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"gpio::Pupdr::write_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"gpio::Odr::modify_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"gpio::Odr::write_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"gpio::Bsrr::write_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"gpio::Lckr::modify_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"gpio::Lckr::write_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"gpio::Afrl::modify_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"gpio::Afrl::write_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"gpio::Afrh::modify_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"gpio::Afrh::write_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"gpio::Brr::write_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"gptim::Cr1::modify_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"gptim::Cr1::write_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"gptim::Cr2::modify_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"gptim::Cr2::write_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"gptim::Smcr::modify_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"gptim::Smcr::write_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"gptim::Dier::modify_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"gptim::Dier::write_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"gptim::Sr::modify_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"gptim::Sr::write_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"gptim::Egr::write_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"gptim::Ccmr1Output::modify_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"gptim::Ccmr1Output::write_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"gptim::Ccmr1Input::modify_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"gptim::Ccmr1Input::write_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"gptim::Ccmr2Output::modify_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"gptim::Ccmr2Output::write_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"gptim::Ccmr2Input::modify_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"gptim::Ccmr2Input::write_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"gptim::Ccer::modify_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"gptim::Ccer::write_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"gptim::Cnt::modify_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"gptim::Cnt::write_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"gptim::Psc::modify_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"gptim::Psc::write_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"gptim::Arr::modify_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"gptim::Arr::write_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"gptim::Ccr1::modify_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"gptim::Ccr1::write_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"gptim::Ccr2::modify_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"gptim::Ccr2::write_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"gptim::Ccr3::modify_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"gptim::Ccr3::write_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"gptim::Ccr4::modify_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"gptim::Ccr4::write_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"gptim::Dcr::modify_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"gptim::Dcr::write_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"gptim::Dmar::modify_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"gptim::Dmar::write_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"i2c::Cr1::modify_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"i2c::Cr1::write_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"i2c::Cr2::modify_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"i2c::Cr2::write_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"i2c::Oar1::modify_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"i2c::Oar1::write_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"i2c::Oar2::modify_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"i2c::Oar2::write_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"i2c::Timingr::modify_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"i2c::Timingr::write_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"i2c::Timeoutr::modify_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"i2c::Timeoutr::write_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"i2c::Isr::modify_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"i2c::Isr::write_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"i2c::Icr::write_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"i2c::Txdr::modify_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"i2c::Txdr::write_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"rcc::Cr::modify_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"rcc::Cr::write_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"rcc::Cfgr::modify_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"rcc::Cfgr::write_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"rcc::Cir::modify_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"rcc::Cir::write_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"rcc::Apb2rstr::modify_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"rcc::Apb2rstr::write_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"rcc::Apb1rstr::modify_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"rcc::Apb1rstr::write_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"rcc::Ahbenr::modify_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"rcc::Ahbenr::write_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"rcc::Apb2enr::modify_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"rcc::Apb2enr::write_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"rcc::Apb1enr::modify_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"rcc::Apb1enr::write_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"rcc::Bdcr::modify_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"rcc::Bdcr::write_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"rcc::Csr::modify_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"rcc::Csr::write_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"rcc::Ahbrstr::modify_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"rcc::Ahbrstr::write_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"rcc::Cfgr2::modify_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"rcc::Cfgr2::write_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"rcc::Cfgr3::modify_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"rcc::Cfgr3::write_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"spi::Cr1::modify_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"spi::Cr1::write_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"spi::Cr2::modify_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"spi::Cr2::write_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"spi::Sr::modify_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"spi::Sr::write_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"spi::Dr::modify_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"spi::Dr::write_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"spi::Crcpr::modify_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"spi::Crcpr::write_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"spi::I2scfgr::modify_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"spi::I2scfgr::write_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"spi::I2spr::modify_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"spi::I2spr::write_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"usart::Cr1::modify_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"usart::Cr1::write_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"usart::Cr2::modify_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"usart::Cr2::write_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"usart::Cr3::modify_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"usart::Cr3::write_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"usart::Brr::modify_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"usart::Brr::write_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"usart::Gtpr::modify_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"usart::Gtpr::write_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"usart::Rtor::modify_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"usart::Rtor::write_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"usart::Rqr::modify_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"usart::Rqr::write_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"usart::Icr::modify_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"usart::Icr::write_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"usart::Tdr::modify_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"usart::Tdr::write_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"dbgmcu_mut","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 98","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"gpioa_mut","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 108","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"gpiob_mut","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 118","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"gpioc_mut","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 128","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"gpiod_mut","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 138","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"gpioe_mut","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 148","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"gpiof_mut","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 158","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"gpiog_mut","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 168","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"gpioh_mut","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 178","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"i2c1_mut","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 188","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"rcc_mut","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 198","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"spi1_mut","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 208","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"tim2_mut","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 218","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"tim3_mut","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 228","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"tim4_mut","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 238","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"tim6_mut","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 248","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"tim7_mut","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 258","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"usart1_mut","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 268","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"usart2_mut","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 278","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"usart3_mut","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 288","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"deref","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 292","kind":"DerefRawPointer"}]}
+{"name":"deref_mut","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 296","kind":"DerefRawPointer"}]}

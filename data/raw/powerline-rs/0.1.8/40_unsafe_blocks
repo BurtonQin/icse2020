@@ -1,0 +1,6 @@
+{"sources":[["3367",[{"loc":"file: Real(\"src/module.rs\") line 17","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["3378",[{"loc":"file: Real(\"src/module.rs\") line 17","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["699",[{"loc":"file: Real(\"src/segments/segment_host.rs\") line 19","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["868",[{"loc":"file: Real(\"src/segments/segment_perms.rs\") line 11","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["931",[{"loc":"file: Real(\"src/segments/segment_ps.rs\") line 16","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["1354",[{"loc":"file: Real(\"src/segments/segment_user.rs\") line 16","kind":{"UnsafeFnCall":"C"}}]],["1383",[{"loc":"file: Real(\"src/segments/segment_user.rs\") line 29","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["4282",[{"loc":"file: Real(\"src/main.rs\") line 16","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["4293",[{"loc":"file: Real(\"src/main.rs\") line 16","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}

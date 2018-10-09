@@ -1,0 +1,2 @@
+{"name":"<slice::BitSlice<'a, Block>>::from_raw_parts","from_trait":true,"arguments":[{"type_info":"type(*const Block)","kind":"RawPointer"}],"sources":[]}
+{"name":"<slice::BitSliceMut<'a, Block>>::from_raw_parts","from_trait":true,"arguments":[{"type_info":"type(*mut Block)","kind":"RawPointer"}],"sources":[]}

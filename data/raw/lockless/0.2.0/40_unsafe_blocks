@@ -1,0 +1,13 @@
+{"sources":[["77",[{"loc":"file: Real(\"src/primitives/atomic_cell.rs\") line 30","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["100",[{"loc":"file: Real(\"src/primitives/atomic_cell.rs\") line 39","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/primitives/atomic_cell.rs\") line 40","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["120",[{"loc":"file: Real(\"src/primitives/atomic_cell.rs\") line 45","kind":"DerefRawPointer"}]]]}
+{"sources":[["147",[{"loc":"file: Real(\"src/primitives/atomic_cell.rs\") line 53","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/primitives/atomic_cell.rs\") line 54","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["180",[{"loc":"file: Real(\"src/primitives/atomic_cell.rs\") line 69","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["241",[{"loc":"file: Real(\"src/primitives/atomic_cell.rs\") line 86","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["285",[{"loc":"file: Real(\"src/primitives/atomic_cell.rs\") line 112","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/primitives/atomic_cell.rs\") line 114","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["491",[{"loc":"file: Real(\"src/primitives/prepend_list.rs\") line 42","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["525",[{"loc":"file: Real(\"src/primitives/prepend_list.rs\") line 48","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["568",[{"loc":"file: Real(\"src/primitives/prepend_list.rs\") line 62","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["752",[{"loc":"file: Real(\"src/primitives/append_list.rs\") line 63","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["814",[{"loc":"file: Real(\"src/primitives/append_list.rs\") line 82","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["860",[{"loc":"file: Real(\"src/primitives/append_list.rs\") line 98","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/primitives/append_list.rs\") line 99","kind":"DerefRawPointer"}]]]}

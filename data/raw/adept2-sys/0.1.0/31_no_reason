@@ -1,0 +1,6 @@
+{"name":"dpcdecl::TptFromDtp","node_id":"201","location":"file: Real(\"src/dpcdecl.rs\") line 121"}
+{"name":"dpcdecl::PtcFromDtp","node_id":"213","location":"file: Real(\"src/dpcdecl.rs\") line 126"}
+{"name":"dpcdecl::DtpFromTptPtc","node_id":"227","location":"file: Real(\"src/dpcdecl.rs\") line 131"}
+{"name":"dpcdecl::ProductFromPdid","node_id":"264","location":"file: Real(\"src/dpcdecl.rs\") line 148"}
+{"name":"dpcdecl::VariantFromPdid","node_id":"278","location":"file: Real(\"src/dpcdecl.rs\") line 153"}
+{"name":"dpcdecl::FwidFromPdid","node_id":"292","location":"file: Real(\"src/dpcdecl.rs\") line 158"}

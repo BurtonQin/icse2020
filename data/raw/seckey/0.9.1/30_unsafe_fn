@@ -1,0 +1,5 @@
+{"name":"<tempkey::TempKey<'a, T>>::unsafe_from","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/tempkey.rs\") line 29","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"zerosafe::unsafe_zero","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/zerosafe.rs\") line 25","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<seckey::SecKey<T>>::from_ptr","from_trait":true,"arguments":[{"type_info":"type(*const T)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/seckey.rs\") line 55","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<seckey::SecKey<T>>::with","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/seckey.rs\") line 67","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/seckey.rs\") line 70","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<seckey::SecKey<T>>::lock","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/seckey.rs\") line 110","kind":{"UnsafeFnCall":"Rust"}}]}

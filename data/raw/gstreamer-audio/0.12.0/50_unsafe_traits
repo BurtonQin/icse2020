@@ -1,0 +1,6 @@
+{"name":"<auto::stream_volume::StreamVolume as glib::IsA<glib::Object>>"}
+{"name":"<auto::stream_volume::StreamVolume as std::marker::Send>"}
+{"name":"<auto::stream_volume::StreamVolume as std::marker::Sync>"}
+{"name":"<audio_format_info::AudioFormatInfo as std::marker::Sync>"}
+{"name":"<audio_format_info::AudioFormatInfo as std::marker::Send>"}
+{"name":"<audio_info::AudioInfo as std::marker::Send>"}

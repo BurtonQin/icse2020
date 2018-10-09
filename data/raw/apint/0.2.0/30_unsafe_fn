@@ -1,0 +1,2 @@
+{"name":"apint::constructors::<impl apint::ApInt>::drop_digits","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/apint/constructors.rs\") line 29","kind":"AccessToUnionField"},{"loc":"file: Real(\"src/apint/constructors.rs\") line 28","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"apint::constructors::<impl apint::ApInt>::new_ext","from_trait":true,"arguments":[{"type_info":"type(*mut Digit)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/apint/constructors.rs\") line 73","kind":{"UnsafeFnCall":"Rust"}}]}

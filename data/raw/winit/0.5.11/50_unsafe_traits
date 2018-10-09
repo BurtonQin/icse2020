@@ -1,0 +1,12 @@
+{"name":"<api::wayland::context::WaylandEnv as wayland_client::Handler<wayland_client::client::wl_registry::WlRegistry>>"}
+{"name":"<api::wayland::context::WaylandEnv as wayland_client::Handler<wayland_client::client::wl_output::WlOutput>>"}
+{"name":"<api::wayland::context::WaylandEnv as wayland_client::Handler<wayland_client::client::wl_seat::WlSeat>>"}
+{"name":"<api::wayland::context::WaylandEnv as wayland_client::Handler<wayland_client::client::wl_pointer::WlPointer>>"}
+{"name":"<api::wayland::context::WaylandEnv as wayland_client::Handler<wayland_client::client::wl_keyboard::WlKeyboard>>"}
+{"name":"<api::x11::window::WindowProxyData as std::marker::Send>"}
+{"name":"<api::x11::window::XWindow as std::marker::Send>"}
+{"name":"<api::x11::window::XWindow as std::marker::Sync>"}
+{"name":"<api::x11::window::Window as std::marker::Send>"}
+{"name":"<api::x11::window::Window as std::marker::Sync>"}
+{"name":"<api::x11::xdisplay::XConnection as std::marker::Send>"}
+{"name":"<api::x11::xdisplay::XConnection as std::marker::Sync>"}

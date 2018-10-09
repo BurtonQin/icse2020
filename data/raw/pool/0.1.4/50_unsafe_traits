@@ -1,0 +1,5 @@
+{"name":"<reset::Dirty<T> as std::marker::Send>"}
+{"name":"<reset::Dirty<T> as std::marker::Sync>"}
+{"name":"<Pool<T> as std::marker::Send>"}
+{"name":"<Checkout<T> as std::marker::Send>"}
+{"name":"<Checkout<T> as std::marker::Sync>"}

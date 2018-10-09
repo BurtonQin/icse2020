@@ -1,0 +1,27 @@
+{"name":"collective::UserOperation::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"collective::user_operation_landing_pad","from_trait":false,"arguments":[{"type_info":"type(*mut c_void)","kind":"RawPointer"},{"type_info":"type(*mut c_void)","kind":"RawPointer"},{"type_info":"type(*mut c_int)","kind":"RawPointer"},{"type_info":"type(*mut ffi::MPI_Datatype)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/collective.rs\") line 1650","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/collective.rs\") line 1651","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/collective.rs\") line 1651","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/collective.rs\") line 1658","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/collective.rs\") line 1659","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"collective::UnsafeUserOperation::associative","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/collective.rs\") line 1710","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"collective::UnsafeUserOperation::commutative","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/collective.rs\") line 1719","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"collective::UnsafeUserOperation::new","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/collective.rs\") line 1737","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/collective.rs\") line 1738","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"datatype::DatatypeRef::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<T as datatype::Pointer>::pointer","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<[T] as datatype::Pointer>::pointer","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/datatype.rs\") line 460","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"<T as datatype::PointerMut>::pointer_mut","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<[T] as datatype::PointerMut>::pointer_mut","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/datatype.rs\") line 485","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"<datatype::DynBuffer<'a> as datatype::Pointer>::pointer","from_trait":true,"arguments":[],"sources":[]}
+{"name":"datatype::DynBuffer::from_raw","from_trait":true,"arguments":[{"type_info":"type(*const T)","kind":"RawPointer"}],"sources":[]}
+{"name":"<datatype::DynBufferMut<'a> as datatype::Pointer>::pointer","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<datatype::DynBufferMut<'a> as datatype::PointerMut>::pointer_mut","from_trait":true,"arguments":[],"sources":[]}
+{"name":"datatype::DynBufferMut::from_raw","from_trait":true,"arguments":[{"type_info":"type(*mut T)","kind":"RawPointer"}],"sources":[]}
+{"name":"<datatype::View<'d, 'b, D, B>>::with_count_and_datatype","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<datatype::View<'d, 'b, D, B> as datatype::Pointer>::pointer","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/datatype.rs\") line 794","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<datatype::MutView<'d, 'b, D, B>>::with_count_and_datatype","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<datatype::MutView<'d, 'b, D, B> as datatype::PointerMut>::pointer_mut","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/datatype.rs\") line 871","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"datatype::Partitioned::counts_ptr","from_trait":false,"arguments":[],"sources":[]}
+{"name":"datatype::Partitioned::displs_ptr","from_trait":false,"arguments":[],"sources":[]}
+{"name":"<datatype::Partition<'b, B, C, D> as datatype::Pointer>::pointer","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/datatype.rs\") line 953","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<datatype::PartitionMut<'b, B, C, D> as datatype::PointerMut>::pointer_mut","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/datatype.rs\") line 1026","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<request::Request<'a, S>>::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<request::Request<'a, S>>::into_raw","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/request.rs\") line 108","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/request.rs\") line 109","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/request.rs\") line 110","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/request.rs\") line 112","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<request::StaticScope as request::Scope<'static>>::unregister","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<&'b request::LocalScope<'a> as request::Scope<'a>>::unregister","from_trait":true,"arguments":[],"sources":[]}

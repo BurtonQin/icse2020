@@ -1,0 +1,8 @@
+{"name":"<child_process::ChildProcess as stdweb::ReferenceType>::from_reference_unchecked","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<cluster::ClusterSettings as stdweb::ReferenceType>::from_reference_unchecked","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<cluster::Worker as stdweb::ReferenceType>::from_reference_unchecked","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<timers::OneShotTimeout as stdweb::ReferenceType>::from_reference_unchecked","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<timers::RepeatableTimeout as stdweb::ReferenceType>::from_reference_unchecked","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<process::Process as stdweb::ReferenceType>::from_reference_unchecked","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<promise::Promise as stdweb::ReferenceType>::from_reference_unchecked","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<promise::PromiseCallback as stdweb::ReferenceType>::from_reference_unchecked","from_trait":true,"arguments":[],"sources":[]}

@@ -1,0 +1,3 @@
+{"name":"core::MdbValue::new","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"core::MdbValue::from_raw","from_trait":true,"arguments":[{"type_info":"type(*const ffi::MDB_val)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/core.rs\") line 1861","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/core.rs\") line 1861","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/core.rs\") line 1861","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"core::MdbValue::get_ref","from_trait":true,"arguments":[],"sources":[]}

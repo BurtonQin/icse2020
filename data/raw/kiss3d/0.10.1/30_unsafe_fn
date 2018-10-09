@@ -1,0 +1,3 @@
+{"name":"resource::texture_manager::KEY_TEXTURE_MANAGER::__getit","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__thread_local_inner\") line 16","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"resource::mesh_manager::KEY_MESH_MANAGER::__getit","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__thread_local_inner\") line 16","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"resource::material_manager::KEY_MATERIAL_MANAGER::__getit","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__thread_local_inner\") line 16","kind":{"UnsafeFnCall":"Rust"}}]}

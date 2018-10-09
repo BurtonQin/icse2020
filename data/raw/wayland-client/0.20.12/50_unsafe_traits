@@ -1,0 +1,9 @@
+{"name":"<display::DisplayInner as std::marker::Send>"}
+{"name":"<display::DisplayInner as std::marker::Sync>"}
+{"name":"<proxy::Proxy<I> as std::marker::Send>"}
+{"name":"<proxy::Proxy<I> as std::marker::Sync>"}
+{"name":"<cursor::CursorTheme as std::marker::Send>"}
+{"name":"<cursor::Cursor<'a> as std::marker::Send>"}
+{"name":"<cursor::CursorImageBuffer<'a> as std::marker::Send>"}
+{"name":"<egl::WlEglSurface as std::marker::Send>"}
+{"name":"<egl::WlEglSurface as std::marker::Sync>"}

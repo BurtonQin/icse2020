@@ -1,0 +1,2 @@
+{"name":"MallocSizeOfOps::malloc_size_of","from_trait":true,"arguments":[{"type_info":"type(*const T)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"lib.rs\") line 108","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"MallocSizeOfOps::malloc_enclosing_size_of","from_trait":true,"arguments":[{"type_info":"type(*const T)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"lib.rs\") line 121","kind":{"UnsafeFnCall":"C"}}]}

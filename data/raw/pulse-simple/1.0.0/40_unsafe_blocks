@@ -1,0 +1,4 @@
+{"sources":[["175",[{"loc":"file: Real(\"src/lib.rs\") line 101","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["229",[{"loc":"file: Real(\"src/lib.rs\") line 125","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["291",[{"loc":"file: Real(\"src/lib.rs\") line 144","kind":{"UnsafeFnCall":"RustIntrinsic"}},{"loc":"file: Real(\"src/lib.rs\") line 145","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["368",[{"loc":"file: Real(\"src/lib.rs\") line 180","kind":{"UnsafeFnCall":"RustIntrinsic"}},{"loc":"file: Real(\"src/lib.rs\") line 181","kind":{"UnsafeFnCall":"C"}}]]]}

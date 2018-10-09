@@ -1,0 +1,3 @@
+{"name":"<futures_01::NotifyWaker as futures::executor::UnsafeNotify>::clone_raw","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/futures_01.rs\") line 252","kind":"DerefRawPointer"}]}
+{"name":"<futures_01::NotifyWaker as futures::executor::UnsafeNotify>::drop_raw","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/futures_01.rs\") line 258","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<futures_02::AsyncIo02AsTokio<E, I> as tokio_io::AsyncRead>::prepare_uninitialized_buffer","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/futures_02.rs\") line 271","kind":{"UnsafeFnCall":"Rust"}}]}

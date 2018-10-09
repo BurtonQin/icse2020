@@ -1,0 +1,2 @@
+{"name":"<tensor::Tensor<N, DimArray, Storage>>::slice_dim_mut_raw","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/tensor.rs\") line 470","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/tensor.rs\") line 470","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<tensor::Tensor<N, DimArray, Storage>>::mid_outer_views_mut","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/tensor.rs\") line 531","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/tensor.rs\") line 531","kind":{"UnsafeFnCall":"Rust"}}]}

@@ -1,0 +1,2 @@
+{"name":"instruction::Instructions::from_raw_parts","from_trait":true,"arguments":[{"type_info":"type(*mut cs_insn)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/instruction.rs\") line 37","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"instruction::Insn::detail","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/instruction.rs\") line 181","kind":"DerefRawPointer"}]}

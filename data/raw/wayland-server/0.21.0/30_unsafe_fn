@@ -1,0 +1,8 @@
+{"name":"display::Display::add_socket_fd","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/display.rs\") line 200","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"display::Display::create_client","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/display.rs\") line 205","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"imp::clients::ClientConnection::new","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/rust_imp/clients.rs\") line 45","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"imp::clients::ClientManager::init_client","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/rust_imp/clients.rs\") line 325","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"imp::display::DisplayInner::add_socket_fd","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/rust_imp/display.rs\") line 124","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"imp::display::DisplayInner::create_client","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/rust_imp/display.rs\") line 128","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"imp::resources::NewResourceInner::implement","from_trait":true,"arguments":[],"sources":[]}
+{"name":"imp::make_dispatcher","from_trait":false,"arguments":[],"sources":[]}

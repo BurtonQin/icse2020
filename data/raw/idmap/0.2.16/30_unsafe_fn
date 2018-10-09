@@ -1,0 +1,2 @@
+{"name":"<table::DenseEntryTable<K, V, T> as table::EntryIterable<K, V>>::unchecked_entries","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/table.rs\") line 493","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<table::DirectEntryTable<K, V> as table::EntryIterable<K, V>>::unchecked_entries","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/table.rs\") line 714","kind":{"UnsafeFnCall":"Rust"}}]}

@@ -1,0 +1,26 @@
+{"name":"<tagged_ptr::Packed<A, B, C, D, E, F, G, H>>::cast","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/tagged_ptr.rs\") line 37","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<tagged_ptr::Packed<A, B, C, D, E, F, G, H>>::decode","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/tagged_ptr.rs\") line 40","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/tagged_ptr.rs\") line 41","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/tagged_ptr.rs\") line 42","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/tagged_ptr.rs\") line 43","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/tagged_ptr.rs\") line 44","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/tagged_ptr.rs\") line 45","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/tagged_ptr.rs\") line 46","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/tagged_ptr.rs\") line 47","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<tagged_ptr::Packed<A, B, C, D, E, F, G, H>>::encode","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/tagged_ptr.rs\") line 52","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/tagged_ptr.rs\") line 53","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/tagged_ptr.rs\") line 54","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/tagged_ptr.rs\") line 55","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/tagged_ptr.rs\") line 56","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/tagged_ptr.rs\") line 57","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/tagged_ptr.rs\") line 58","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/tagged_ptr.rs\") line 59","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<tagged_ptr::RefMut<'a, A, B, C, D, E, F, G, H>>::new","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/tagged_ptr.rs\") line 124","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<*const T as packable3::Packable3>::pack","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<*const T as packable3::Packable3>::unpack","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<*mut T as packable3::Packable3>::pack","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<*mut T as packable3::Packable3>::unpack","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<&'a T as packable3::Packable3>::pack","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/packable3.rs\") line 23","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<&'a T as packable3::Packable3>::unpack","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/packable3.rs\") line 25","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/packable3.rs\") line 26","kind":"DerefRawPointer"}]}
+{"name":"<&'a mut T as packable3::Packable3>::pack","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/packable3.rs\") line 30","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<&'a mut T as packable3::Packable3>::unpack","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/packable3.rs\") line 32","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/packable3.rs\") line 33","kind":"DerefRawPointer"}]}
+{"name":"<std::boxed::Box<T> as packable3::Packable3>::pack","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/packable3.rs\") line 37","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<std::boxed::Box<T> as packable3::Packable3>::unpack","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/packable3.rs\") line 38","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/packable3.rs\") line 38","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<std::rc::Rc<T> as packable3::Packable3>::pack","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/packable3.rs\") line 41","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<std::rc::Rc<T> as packable3::Packable3>::unpack","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/packable3.rs\") line 42","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/packable3.rs\") line 42","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<bool as packable3::Packable3>::pack","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<bool as packable3::Packable3>::unpack","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<u16 as packable3::Packable3>::pack","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<u16 as packable3::Packable3>::unpack","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<u32 as packable3::Packable3>::pack","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<u32 as packable3::Packable3>::unpack","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<f32 as packable3::Packable3>::pack","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/packable3.rs\") line 57","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"<f32 as packable3::Packable3>::unpack","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/packable3.rs\") line 58","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"<() as packable3::Packable3>::pack","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<() as packable3::Packable3>::unpack","from_trait":true,"arguments":[],"sources":[]}

@@ -1,0 +1,34 @@
+{"sources":[["1162",[{"loc":"file: Real(\"src/io.rs\") line 90","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/io.rs\") line 90","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["1342",[{"loc":"file: Real(\"src/io.rs\") line 150","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/io.rs\") line 150","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["1692",[{"loc":"file: Real(\"src/sync.rs\") line 104","kind":"DerefRawPointer"}]]]}
+{"sources":[["10864",[{"loc":"file: Real(\"src/shm/mod.rs\") line 35","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["10875",[{"loc":"file: Real(\"src/shm/mod.rs\") line 35","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["10821",[{"loc":"file: Real(\"src/shm/mod.rs\") line 35","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["2877",[{"loc":"file: Real(\"src/unix/channel.rs\") line 95","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/unix/channel.rs\") line 96","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/unix/channel.rs\") line 96","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["2957",[{"loc":"file: Real(\"src/unix/channel.rs\") line 120","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["3007",[{"loc":"file: Real(\"src/unix/channel.rs\") line 131","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/unix/channel.rs\") line 133","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/unix/channel.rs\") line 133","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["3208",[{"loc":"file: Real(\"src/unix/channel.rs\") line 219","kind":{"UnsafeFnCall":"C"}},{"loc":"file: Real(\"src/unix/channel.rs\") line 223","kind":{"UnsafeFnCall":"C"}},{"loc":"file: Real(\"src/unix/channel.rs\") line 226","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["3312",[{"loc":"file: Real(\"src/unix/channel.rs\") line 245","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["3374",[{"loc":"file: Real(\"src/unix/channel.rs\") line 270","kind":{"UnsafeFnCall":"C"}},{"loc":"file: Real(\"src/unix/channel.rs\") line 274","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["3446",[{"loc":"file: Real(\"src/unix/channel.rs\") line 296","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["3621",[{"loc":"file: Real(\"src/unix/sharedmem.rs\") line 41","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["3646",[{"loc":"file: Real(\"src/unix/sharedmem.rs\") line 55","kind":{"UnsafeFnCall":"C"}},{"loc":"file: Real(\"src/unix/sharedmem.rs\") line 60","kind":{"UnsafeFnCall":"C"}},{"loc":"file: Real(\"src/unix/sharedmem.rs\") line 65","kind":{"UnsafeFnCall":"C"}},{"loc":"file: Real(\"src/unix/sharedmem.rs\") line 69","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["3773",[{"loc":"file: Real(\"src/unix/sharedmem.rs\") line 86","kind":{"UnsafeFnCall":"C"}}]],["3810",[{"loc":"file: Real(\"src/unix/sharedmem.rs\") line 98","kind":{"UnsafeFnCall":"C"}}]],["3828",[{"loc":"file: Real(\"src/unix/sharedmem.rs\") line 102","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["4035",[{"loc":"file: Real(\"src/unix/sharedmem.rs\") line 158","kind":{"UnsafeFnCall":"C"}}]],["4065",[{"loc":"file: Real(\"src/unix/sharedmem.rs\") line 165","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["13573",[{"loc":"file: Macros(\"__lazy_static_internal\") line 14","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["13578",[{"loc":"file: Real(\"src/unix/sharedmem.rs\") line 184","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["4191",[{"loc":"file: Real(\"src/unix/sync.rs\") line 19","kind":"DerefRawPointer"}]],["4202",[{"loc":"file: Real(\"src/unix/sync.rs\") line 20","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["4399",[{"loc":"file: Real(\"src/unix/sync.rs\") line 94","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["4450",[{"loc":"file: Real(\"src/unix/sync.rs\") line 113","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["4537",[{"loc":"file: Real(\"src/unix/fd.rs\") line 16","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["4984",[{"loc":"file: Real(\"src/unix/mod.rs\") line 94","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["5054",[{"loc":"file: Real(\"src/unix/mod.rs\") line 115","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["5363",[{"loc":"file: Real(\"src/unix/mod.rs\") line 218","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["5429",[{"loc":"file: Real(\"src/unix/mod.rs\") line 238","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["5462",[{"loc":"file: Real(\"src/unix/mod.rs\") line 250","kind":{"UnsafeFnCall":"C"}},{"loc":"file: Real(\"src/unix/mod.rs\") line 251","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["5499",[{"loc":"file: Real(\"src/unix/mod.rs\") line 260","kind":{"UnsafeFnCall":"C"}},{"loc":"file: Real(\"src/unix/mod.rs\") line 261","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["5537",[{"loc":"file: Real(\"src/unix/mod.rs\") line 270","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/unix/mod.rs\") line 273","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["5668",[{"loc":"file: Real(\"src/unix/mod.rs\") line 315","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/unix/mod.rs\") line 320","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/unix/mod.rs\") line 325","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["5814",[{"loc":"file: Real(\"src/unix/mod.rs\") line 346","kind":"DerefRawPointer"}]],["5850",[{"loc":"file: Real(\"src/unix/mod.rs\") line 351","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/unix/mod.rs\") line 351","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["5878",[{"loc":"file: Real(\"src/unix/mod.rs\") line 356","kind":"DerefRawPointer"}]]]}
+{"sources":[["5922",[{"loc":"file: Real(\"src/unix/mod.rs\") line 363","kind":"DerefRawPointer"}]]]}
+{"sources":[["5968",[{"loc":"file: Real(\"src/unix/mod.rs\") line 372","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/unix/mod.rs\") line 372","kind":{"UnsafeFnCall":"Rust"}}]]]}

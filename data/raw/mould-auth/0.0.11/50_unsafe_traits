@@ -1,0 +1,4 @@
+{"name":"<token::TokenService<R> as std::marker::Sync>"}
+{"name":"<token::TokenService<R> as std::marker::Send>"}
+{"name":"<cred::AuthService<R> as std::marker::Sync>"}
+{"name":"<cred::AuthService<R> as std::marker::Send>"}

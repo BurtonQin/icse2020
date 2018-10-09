@@ -1,0 +1,20 @@
+{"name":"<vec_u8::EnumVec<T>>::set_len","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<vec_u8::EnumVec<T>>::get_raw_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/vec_u8/mod.rs\") line 540","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<vec_u8::EnumVec<T>>::set_raw_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/vec_u8/mod.rs\") line 560","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<vec_u8::EnumVec<T>>::storage_mut","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<vec_u16::EnumVec<T>>::set_len","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<vec_u16::EnumVec<T>>::get_raw_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/vec_u16/mod.rs\") line 540","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<vec_u16::EnumVec<T>>::set_raw_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/vec_u16/mod.rs\") line 560","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<vec_u16::EnumVec<T>>::storage_mut","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<vec_u32::EnumVec<T>>::set_len","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<vec_u32::EnumVec<T>>::get_raw_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/vec_u32/mod.rs\") line 540","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<vec_u32::EnumVec<T>>::set_raw_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/vec_u32/mod.rs\") line 560","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<vec_u32::EnumVec<T>>::storage_mut","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<vec_u64::EnumVec<T>>::set_len","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<vec_u64::EnumVec<T>>::get_raw_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/vec_u64/mod.rs\") line 540","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<vec_u64::EnumVec<T>>::set_raw_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/vec_u64/mod.rs\") line 560","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<vec_u64::EnumVec<T>>::storage_mut","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<vec_u128::EnumVec<T>>::set_len","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<vec_u128::EnumVec<T>>::get_raw_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/vec_u128/mod.rs\") line 540","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<vec_u128::EnumVec<T>>::set_raw_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/vec_u128/mod.rs\") line 560","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<vec_u128::EnumVec<T>>::storage_mut","from_trait":true,"arguments":[],"sources":[]}

@@ -1,0 +1,8 @@
+{"name":"atom::Atom::from_ptr","from_trait":true,"arguments":[{"type_info":"type(*const CHFL_ATOM)","kind":"RawPointer"}],"sources":[]}
+{"name":"cell::UnitCell::from_ptr","from_trait":true,"arguments":[{"type_info":"type(*const CHFL_CELL)","kind":"RawPointer"}],"sources":[]}
+{"name":"residue::Residue::from_ptr","from_trait":true,"arguments":[{"type_info":"type(*const CHFL_RESIDUE)","kind":"RawPointer"}],"sources":[]}
+{"name":"topology::Topology::from_ptr","from_trait":true,"arguments":[{"type_info":"type(*const CHFL_TOPOLOGY)","kind":"RawPointer"}],"sources":[]}
+{"name":"frame::Frame::from_ptr","from_trait":true,"arguments":[{"type_info":"type(*const CHFL_FRAME)","kind":"RawPointer"}],"sources":[]}
+{"name":"trajectory::Trajectory::from_ptr","from_trait":true,"arguments":[{"type_info":"type(*const CHFL_TRAJECTORY)","kind":"RawPointer"}],"sources":[]}
+{"name":"selection::Selection::from_ptr","from_trait":true,"arguments":[{"type_info":"type(*const CHFL_SELECTION)","kind":"RawPointer"}],"sources":[]}
+{"name":"property::RawProperty::from_ptr","from_trait":true,"arguments":[{"type_info":"type(*const CHFL_PROPERTY)","kind":"RawPointer"}],"sources":[]}

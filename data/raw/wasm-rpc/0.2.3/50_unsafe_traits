@@ -1,0 +1,3 @@
+{"name":"<*const u8 as Dereferenceable>"}
+{"name":"<alloc::prelude::Vec<u8> as Referenceable>"}
+{"name":"<alloc::prelude::String as Referenceable>"}

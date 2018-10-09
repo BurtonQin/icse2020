@@ -1,0 +1,14 @@
+{"name":"<colors::Color as bindings::AsNative<bindings::ffi::Struct_Unnamed3>>::as_native","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/colors.rs\") line 15","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"<colors::Color as bindings::FromNative<bindings::ffi::Struct_Unnamed3>>::from_native","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/colors.rs\") line 21","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"<console::Root as bindings::AsNative<*mut line::libc::c_void>>::as_native","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<console::Offscreen as bindings::AsNative<*mut line::libc::c_void>>::as_native","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<image::Image as bindings::AsNative<*mut line::libc::c_void>>::as_native","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<image::Image as bindings::FromNative<*mut line::libc::c_void>>::from_native","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/image.rs\") line 23","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"image::get_image_size","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/image.rs\") line 32","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"<map::Map as bindings::AsNative<*mut line::libc::c_void>>::as_native","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<namegen::NAMEGEN_MUTEX as std::ops::Deref>::deref::__stability","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"lazy_static\") line 30","kind":"Static"},{"loc":"file: Macros(\"lazy_static\") line 34","kind":"DerefRawPointer"},{"loc":"file: Macros(\"lazy_static\") line 34","kind":"Static"}]}
+{"name":"<pathfinding::AStar<'a> as bindings::AsNative<*mut line::libc::c_void>>::as_native","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<pathfinding::Dijkstra<'a> as bindings::AsNative<*mut line::libc::c_void>>::as_native","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<random::Rng as bindings::AsNative<*mut line::libc::c_void>>::as_native","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<&'a U as bindings::AsNative<T>>::as_native","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/bindings.rs\") line 24","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<std::boxed::Box<U> as bindings::AsNative<T>>::as_native","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/bindings.rs\") line 30","kind":{"UnsafeFnCall":"Rust"}}]}

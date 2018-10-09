@@ -1,0 +1,16 @@
+{"name":"mdb_vals::from_reserved","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/mdb_vals.rs\") line 54","kind":{"UnsafeFnCall":"RustIntrinsic"}},{"loc":"file: Real(\"src/mdb_vals.rs\") line 53","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/mdb_vals.rs\") line 55","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"env::EnvBuilder::open","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/env.rs\") line 273","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"env::Environment::from_raw","from_trait":true,"arguments":[{"type_info":"type(*mut ffi::MDB_env)","kind":"RawPointer"}],"sources":[]}
+{"name":"env::Environment::borrow_raw","from_trait":true,"arguments":[{"type_info":"type(*mut ffi::MDB_env)","kind":"RawPointer"}],"sources":[]}
+{"name":"env::Environment::set_flags","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/env.rs\") line 554","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"env::Environment::fd","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/env.rs\") line 592","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"env::Environment::set_mapsize","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/env.rs\") line 619","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"dbi::Database::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"dbi::Database::borrow_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<V as traits::FromReservedLmdbBytes>::from_reserved_lmdb_bytes","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/traits.rs\") line 641","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"<[V] as traits::FromReservedLmdbBytes>::from_reserved_lmdb_bytes","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/traits.rs\") line 690","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"tx::TxHandle::commit","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/tx.rs\") line 265","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"tx::WriteAccessor::put_reserve_unsized","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/tx.rs\") line 1183","kind":{"UnsafeFnCall":"C"}},{"loc":"file: Real(\"src/tx.rs\") line 1187","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"cursor::create_cursor","from_trait":false,"arguments":[{"type_info":"type(*mut ffi::MDB_cursor)","kind":"RawPointer"}],"sources":[]}
+{"name":"cursor::Cursor::reserve_unsized","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/cursor.rs\") line 1308","kind":{"UnsafeFnCall":"C"}},{"loc":"file: Real(\"src/cursor.rs\") line 1312","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"cursor::Cursor::overwrite_in_place_unsized","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/cursor.rs\") line 1435","kind":{"UnsafeFnCall":"C"}},{"loc":"file: Real(\"src/cursor.rs\") line 1439","kind":{"UnsafeFnCall":"Rust"}}]}

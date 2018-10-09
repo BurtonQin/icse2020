@@ -1,0 +1,13 @@
+{"name":"<u8 as as_bytes::Safe>"}
+{"name":"<u16 as as_bytes::Safe>"}
+{"name":"<u32 as as_bytes::Safe>"}
+{"name":"<u64 as as_bytes::Safe>"}
+{"name":"<i8 as as_bytes::Safe>"}
+{"name":"<i16 as as_bytes::Safe>"}
+{"name":"<i32 as as_bytes::Safe>"}
+{"name":"<i64 as as_bytes::Safe>"}
+{"name":"<simdty::Simd2<T> as as_bytes::Safe>"}
+{"name":"<simdty::Simd4<T> as as_bytes::Safe>"}
+{"name":"<simdty::Simd8<T> as as_bytes::Safe>"}
+{"name":"<simdty::Simd16<T> as as_bytes::Safe>"}
+{"name":"<simdty::Simd32<T> as as_bytes::Safe>"}

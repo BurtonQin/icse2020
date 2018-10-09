@@ -1,0 +1,70 @@
+{"name":"events::EventFifo::push","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-client-0.6.2/src/events.rs\") line 46","kind":"DerefRawPointer"}]}
+{"name":"events::EventFifo::pop","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-client-0.6.2/src/events.rs\") line 50","kind":"DerefRawPointer"}]}
+{"name":"events::EventFifo::alive","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<sys::wayland::client::WlDisplay as ProxyInternal>::from_ptr","from_trait":true,"arguments":[{"type_info":"type(*mut wl_proxy)","kind":"RawPointer"}],"sources":[]}
+{"name":"<sys::wayland::client::WlDisplay as ProxyInternal>::from_ptr_no_own","from_trait":true,"arguments":[{"type_info":"type(*mut wl_proxy)","kind":"RawPointer"}],"sources":[]}
+{"name":"<sys::wayland::client::WlDisplay as ProxyInternal>::set_evq","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<sys::wayland::client::WlRegistry as ProxyInternal>::from_ptr","from_trait":true,"arguments":[{"type_info":"type(*mut wl_proxy)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ffi_dispatch\") line 2","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"<sys::wayland::client::WlRegistry as ProxyInternal>::from_ptr_no_own","from_trait":true,"arguments":[{"type_info":"type(*mut wl_proxy)","kind":"RawPointer"}],"sources":[]}
+{"name":"<sys::wayland::client::WlRegistry as ProxyInternal>::set_evq","from_trait":true,"arguments":[],"sources":[]}
+{"name":"sys::wayland::client::WlRegistry::bind","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/unsafe_analysis/crates.io-downloads/way-cooler-bg/target/debug/build/wayland-client-51f1fa9de62d1d4c/out/wayland_client_api.rs\") line 977","kind":"DerefRawPointer"},{"loc":"file: Macros(\"ffi_dispatch\") line 2","kind":{"UnsafeFnCall":"C"}},{"loc":"file: Real(\"/home/ans5k/unsafe_analysis/crates.io-downloads/way-cooler-bg/target/debug/build/wayland-client-51f1fa9de62d1d4c/out/wayland_client_api.rs\") line 978","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Macros(\"ffi_dispatch\") line 2","kind":{"UnsafeFnCall":"C"}},{"loc":"file: Macros(\"ffi_dispatch\") line 2","kind":{"UnsafeFnCall":"C"}},{"loc":"file: Real(\"/home/ans5k/unsafe_analysis/crates.io-downloads/way-cooler-bg/target/debug/build/wayland-client-51f1fa9de62d1d4c/out/wayland_client_api.rs\") line 982","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<sys::wayland::client::WlCallback as ProxyInternal>::from_ptr","from_trait":true,"arguments":[{"type_info":"type(*mut wl_proxy)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ffi_dispatch\") line 2","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"<sys::wayland::client::WlCallback as ProxyInternal>::from_ptr_no_own","from_trait":true,"arguments":[{"type_info":"type(*mut wl_proxy)","kind":"RawPointer"}],"sources":[]}
+{"name":"<sys::wayland::client::WlCallback as ProxyInternal>::set_evq","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<sys::wayland::client::WlCompositor as ProxyInternal>::from_ptr","from_trait":true,"arguments":[{"type_info":"type(*mut wl_proxy)","kind":"RawPointer"}],"sources":[]}
+{"name":"<sys::wayland::client::WlCompositor as ProxyInternal>::from_ptr_no_own","from_trait":true,"arguments":[{"type_info":"type(*mut wl_proxy)","kind":"RawPointer"}],"sources":[]}
+{"name":"<sys::wayland::client::WlCompositor as ProxyInternal>::set_evq","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<sys::wayland::client::WlShmPool as ProxyInternal>::from_ptr","from_trait":true,"arguments":[{"type_info":"type(*mut wl_proxy)","kind":"RawPointer"}],"sources":[]}
+{"name":"<sys::wayland::client::WlShmPool as ProxyInternal>::from_ptr_no_own","from_trait":true,"arguments":[{"type_info":"type(*mut wl_proxy)","kind":"RawPointer"}],"sources":[]}
+{"name":"<sys::wayland::client::WlShmPool as ProxyInternal>::set_evq","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<sys::wayland::client::WlShm as ProxyInternal>::from_ptr","from_trait":true,"arguments":[{"type_info":"type(*mut wl_proxy)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ffi_dispatch\") line 2","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"<sys::wayland::client::WlShm as ProxyInternal>::from_ptr_no_own","from_trait":true,"arguments":[{"type_info":"type(*mut wl_proxy)","kind":"RawPointer"}],"sources":[]}
+{"name":"<sys::wayland::client::WlShm as ProxyInternal>::set_evq","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<sys::wayland::client::WlBuffer as ProxyInternal>::from_ptr","from_trait":true,"arguments":[{"type_info":"type(*mut wl_proxy)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ffi_dispatch\") line 2","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"<sys::wayland::client::WlBuffer as ProxyInternal>::from_ptr_no_own","from_trait":true,"arguments":[{"type_info":"type(*mut wl_proxy)","kind":"RawPointer"}],"sources":[]}
+{"name":"<sys::wayland::client::WlBuffer as ProxyInternal>::set_evq","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<sys::wayland::client::WlDataOffer as ProxyInternal>::from_ptr","from_trait":true,"arguments":[{"type_info":"type(*mut wl_proxy)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ffi_dispatch\") line 2","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"<sys::wayland::client::WlDataOffer as ProxyInternal>::from_ptr_no_own","from_trait":true,"arguments":[{"type_info":"type(*mut wl_proxy)","kind":"RawPointer"}],"sources":[]}
+{"name":"<sys::wayland::client::WlDataOffer as ProxyInternal>::set_evq","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<sys::wayland::client::WlDataSource as ProxyInternal>::from_ptr","from_trait":true,"arguments":[{"type_info":"type(*mut wl_proxy)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ffi_dispatch\") line 2","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"<sys::wayland::client::WlDataSource as ProxyInternal>::from_ptr_no_own","from_trait":true,"arguments":[{"type_info":"type(*mut wl_proxy)","kind":"RawPointer"}],"sources":[]}
+{"name":"<sys::wayland::client::WlDataSource as ProxyInternal>::set_evq","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<sys::wayland::client::WlDataDevice as ProxyInternal>::from_ptr","from_trait":true,"arguments":[{"type_info":"type(*mut wl_proxy)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ffi_dispatch\") line 2","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"<sys::wayland::client::WlDataDevice as ProxyInternal>::from_ptr_no_own","from_trait":true,"arguments":[{"type_info":"type(*mut wl_proxy)","kind":"RawPointer"}],"sources":[]}
+{"name":"<sys::wayland::client::WlDataDevice as ProxyInternal>::set_evq","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<sys::wayland::client::WlDataDeviceManager as ProxyInternal>::from_ptr","from_trait":true,"arguments":[{"type_info":"type(*mut wl_proxy)","kind":"RawPointer"}],"sources":[]}
+{"name":"<sys::wayland::client::WlDataDeviceManager as ProxyInternal>::from_ptr_no_own","from_trait":true,"arguments":[{"type_info":"type(*mut wl_proxy)","kind":"RawPointer"}],"sources":[]}
+{"name":"<sys::wayland::client::WlDataDeviceManager as ProxyInternal>::set_evq","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<sys::wayland::client::WlShell as ProxyInternal>::from_ptr","from_trait":true,"arguments":[{"type_info":"type(*mut wl_proxy)","kind":"RawPointer"}],"sources":[]}
+{"name":"<sys::wayland::client::WlShell as ProxyInternal>::from_ptr_no_own","from_trait":true,"arguments":[{"type_info":"type(*mut wl_proxy)","kind":"RawPointer"}],"sources":[]}
+{"name":"<sys::wayland::client::WlShell as ProxyInternal>::set_evq","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<sys::wayland::client::WlShellSurface as ProxyInternal>::from_ptr","from_trait":true,"arguments":[{"type_info":"type(*mut wl_proxy)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ffi_dispatch\") line 2","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"<sys::wayland::client::WlShellSurface as ProxyInternal>::from_ptr_no_own","from_trait":true,"arguments":[{"type_info":"type(*mut wl_proxy)","kind":"RawPointer"}],"sources":[]}
+{"name":"<sys::wayland::client::WlShellSurface as ProxyInternal>::set_evq","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<sys::wayland::client::WlSurface as ProxyInternal>::from_ptr","from_trait":true,"arguments":[{"type_info":"type(*mut wl_proxy)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ffi_dispatch\") line 2","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"<sys::wayland::client::WlSurface as ProxyInternal>::from_ptr_no_own","from_trait":true,"arguments":[{"type_info":"type(*mut wl_proxy)","kind":"RawPointer"}],"sources":[]}
+{"name":"<sys::wayland::client::WlSurface as ProxyInternal>::set_evq","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<sys::wayland::client::WlSeat as ProxyInternal>::from_ptr","from_trait":true,"arguments":[{"type_info":"type(*mut wl_proxy)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ffi_dispatch\") line 2","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"<sys::wayland::client::WlSeat as ProxyInternal>::from_ptr_no_own","from_trait":true,"arguments":[{"type_info":"type(*mut wl_proxy)","kind":"RawPointer"}],"sources":[]}
+{"name":"<sys::wayland::client::WlSeat as ProxyInternal>::set_evq","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<sys::wayland::client::WlPointer as ProxyInternal>::from_ptr","from_trait":true,"arguments":[{"type_info":"type(*mut wl_proxy)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ffi_dispatch\") line 2","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"<sys::wayland::client::WlPointer as ProxyInternal>::from_ptr_no_own","from_trait":true,"arguments":[{"type_info":"type(*mut wl_proxy)","kind":"RawPointer"}],"sources":[]}
+{"name":"<sys::wayland::client::WlPointer as ProxyInternal>::set_evq","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<sys::wayland::client::WlKeyboard as ProxyInternal>::from_ptr","from_trait":true,"arguments":[{"type_info":"type(*mut wl_proxy)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ffi_dispatch\") line 2","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"<sys::wayland::client::WlKeyboard as ProxyInternal>::from_ptr_no_own","from_trait":true,"arguments":[{"type_info":"type(*mut wl_proxy)","kind":"RawPointer"}],"sources":[]}
+{"name":"<sys::wayland::client::WlKeyboard as ProxyInternal>::set_evq","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<sys::wayland::client::WlTouch as ProxyInternal>::from_ptr","from_trait":true,"arguments":[{"type_info":"type(*mut wl_proxy)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ffi_dispatch\") line 2","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"<sys::wayland::client::WlTouch as ProxyInternal>::from_ptr_no_own","from_trait":true,"arguments":[{"type_info":"type(*mut wl_proxy)","kind":"RawPointer"}],"sources":[]}
+{"name":"<sys::wayland::client::WlTouch as ProxyInternal>::set_evq","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<sys::wayland::client::WlOutput as ProxyInternal>::from_ptr","from_trait":true,"arguments":[{"type_info":"type(*mut wl_proxy)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ffi_dispatch\") line 2","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"<sys::wayland::client::WlOutput as ProxyInternal>::from_ptr_no_own","from_trait":true,"arguments":[{"type_info":"type(*mut wl_proxy)","kind":"RawPointer"}],"sources":[]}
+{"name":"<sys::wayland::client::WlOutput as ProxyInternal>::set_evq","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<sys::wayland::client::WlRegion as ProxyInternal>::from_ptr","from_trait":true,"arguments":[{"type_info":"type(*mut wl_proxy)","kind":"RawPointer"}],"sources":[]}
+{"name":"<sys::wayland::client::WlRegion as ProxyInternal>::from_ptr_no_own","from_trait":true,"arguments":[{"type_info":"type(*mut wl_proxy)","kind":"RawPointer"}],"sources":[]}
+{"name":"<sys::wayland::client::WlRegion as ProxyInternal>::set_evq","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<sys::wayland::client::WlSubcompositor as ProxyInternal>::from_ptr","from_trait":true,"arguments":[{"type_info":"type(*mut wl_proxy)","kind":"RawPointer"}],"sources":[]}
+{"name":"<sys::wayland::client::WlSubcompositor as ProxyInternal>::from_ptr_no_own","from_trait":true,"arguments":[{"type_info":"type(*mut wl_proxy)","kind":"RawPointer"}],"sources":[]}
+{"name":"<sys::wayland::client::WlSubcompositor as ProxyInternal>::set_evq","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<sys::wayland::client::WlSubsurface as ProxyInternal>::from_ptr","from_trait":true,"arguments":[{"type_info":"type(*mut wl_proxy)","kind":"RawPointer"}],"sources":[]}
+{"name":"<sys::wayland::client::WlSubsurface as ProxyInternal>::from_ptr_no_own","from_trait":true,"arguments":[{"type_info":"type(*mut wl_proxy)","kind":"RawPointer"}],"sources":[]}
+{"name":"<sys::wayland::client::WlSubsurface as ProxyInternal>::set_evq","from_trait":true,"arguments":[],"sources":[]}

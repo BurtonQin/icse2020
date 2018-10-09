@@ -1,0 +1,3 @@
+{"name":"<T as clear::InitializableFromZeroed>::initialize","from_trait":true,"arguments":[{"type_info":"type(*mut Self)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/clear_on_drop-0.2.3/src/clear.rs\") line 91","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<[T] as clear::InitializableFromZeroed>::initialize","from_trait":true,"arguments":[{"type_info":"type(*mut Self)","kind":"RawPointer"}],"sources":[]}
+{"name":"<str as clear::InitializableFromZeroed>::initialize","from_trait":true,"arguments":[{"type_info":"type(*mut Self)","kind":"RawPointer"}],"sources":[]}

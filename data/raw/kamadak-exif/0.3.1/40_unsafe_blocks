@@ -1,0 +1,19 @@
+{"sources":[["8020",[{"loc":"file: Real(\"src/endian.rs\") line 54","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/endian.rs\") line 54","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["8062",[{"loc":"file: Real(\"src/endian.rs\") line 54","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/endian.rs\") line 54","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["8104",[{"loc":"file: Real(\"src/endian.rs\") line 54","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/endian.rs\") line 54","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["8134",[{"loc":"file: Real(\"src/endian.rs\") line 65","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["8165",[{"loc":"file: Real(\"src/endian.rs\") line 65","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["8196",[{"loc":"file: Real(\"src/endian.rs\") line 65","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["8239",[{"loc":"file: Real(\"src/endian.rs\") line 54","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/endian.rs\") line 54","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["8281",[{"loc":"file: Real(\"src/endian.rs\") line 54","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/endian.rs\") line 54","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["8323",[{"loc":"file: Real(\"src/endian.rs\") line 54","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/endian.rs\") line 54","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["8353",[{"loc":"file: Real(\"src/endian.rs\") line 65","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["8384",[{"loc":"file: Real(\"src/endian.rs\") line 65","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["8415",[{"loc":"file: Real(\"src/endian.rs\") line 65","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["696",[{"loc":"file: Real(\"src/reader.rs\") line 92","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["670",[{"loc":"file: Real(\"src/reader.rs\") line 86","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["8923",[{"loc":"file: Real(\"src/tag.rs\") line 107","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["8934",[{"loc":"file: Real(\"src/tag.rs\") line 107","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["8880",[{"loc":"file: Real(\"src/tag.rs\") line 107","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["4584",[{"loc":"file: Real(\"src/util.rs\") line 37","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["4617",[{"loc":"file: Real(\"src/util.rs\") line 42","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["5766",[{"loc":"file: Real(\"src/value.rs\") line 361","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["7649",[{"loc":"file: Real(\"src/writer.rs\") line 530","kind":{"UnsafeFnCall":"Rust"}}]]]}

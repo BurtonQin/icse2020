@@ -1,0 +1,18 @@
+{"name":"<&'a S as functional::MappedGenericSequence<T, U>>"}
+{"name":"<&'a mut S as functional::MappedGenericSequence<T, U>>"}
+{"name":"<&'a S as functional::FunctionalSequence<T>>"}
+{"name":"<&'a mut S as functional::FunctionalSequence<T>>"}
+{"name":"<&'a S as sequence::GenericSequence<T>>"}
+{"name":"<&'a mut S as sequence::GenericSequence<T>>"}
+{"name":"<GenericArray<T, N> as sequence::Lengthen<T>>"}
+{"name":"<GenericArray<T, N> as sequence::Shorten<T>>"}
+{"name":"<GenericArray<T, N> as sequence::Split<T, K>>"}
+{"name":"<GenericArray<T, N> as sequence::Concat<T, M>>"}
+{"name":"<typenum::UTerm as ArrayLength<T>>"}
+{"name":"<typenum::UInt<N, typenum::B0> as ArrayLength<T>>"}
+{"name":"<typenum::UInt<N, typenum::B1> as ArrayLength<T>>"}
+{"name":"<GenericArray<T, N> as core::marker::Send>"}
+{"name":"<GenericArray<T, N> as core::marker::Sync>"}
+{"name":"<GenericArray<T, N> as sequence::GenericSequence<T>>"}
+{"name":"<GenericArray<T, N> as functional::MappedGenericSequence<T, U>>"}
+{"name":"<GenericArray<T, N> as functional::FunctionalSequence<T>>"}

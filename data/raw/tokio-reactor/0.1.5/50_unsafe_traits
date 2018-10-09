@@ -1,0 +1,8 @@
+{"name":"<atomic_task::AtomicTask as std::marker::Send>"}
+{"name":"<atomic_task::AtomicTask as std::marker::Sync>"}
+{"name":"<registration::Registration as std::marker::Send>"}
+{"name":"<registration::Registration as std::marker::Sync>"}
+{"name":"<sharded_rwlock::RwLock<T> as std::marker::Send>"}
+{"name":"<sharded_rwlock::RwLock<T> as std::marker::Sync>"}
+{"name":"<sharded_rwlock::RwLockReadGuard<'a, T> as std::marker::Sync>"}
+{"name":"<sharded_rwlock::RwLockWriteGuard<'a, T> as std::marker::Sync>"}

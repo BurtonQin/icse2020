@@ -1,0 +1,5 @@
+{"name":"frame::frame_from_bytes","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/frame.rs\") line 31","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"frame::frame_from_bytes_mut","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/frame.rs\") line 39","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"stream::data_cb_c","from_trait":false,"arguments":[{"type_info":"type(*mut ffi::cubeb_stream)","kind":"RawPointer"},{"type_info":"type(*mut c_void)","kind":"RawPointer"},{"type_info":"type(*const c_void)","kind":"RawPointer"},{"type_info":"type(*mut c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"stream::state_cb_c","from_trait":false,"arguments":[{"type_info":"type(*mut ffi::cubeb_stream)","kind":"RawPointer"},{"type_info":"type(*mut c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"stream::device_changed_cb_c","from_trait":false,"arguments":[{"type_info":"type(*mut c_void)","kind":"RawPointer"}],"sources":[]}

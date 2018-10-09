@@ -1,0 +1,5 @@
+{"name":"<&'a mut [V] as SplitMut<usize, V>>"}
+{"name":"<std::vec::Vec<V> as SplitMut<usize, V>>"}
+{"name":"<std::collections::VecDeque<V> as SplitMut<usize, V>>"}
+{"name":"<std::collections::HashMap<K, V, S> as SplitMut<&'a Q, V>>"}
+{"name":"<std::collections::BTreeMap<K, V> as SplitMut<&'a Q, V>>"}

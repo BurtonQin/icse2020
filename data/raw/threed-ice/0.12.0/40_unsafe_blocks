@@ -1,0 +1,18 @@
+{"sources":[["1328",[{"loc":"file: Real(\"src/analysis.rs\") line 7","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["1339",[{"loc":"file: Real(\"src/analysis.rs\") line 7","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["92",[{"loc":"file: Real(\"src/analysis.rs\") line 35","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["162",[{"loc":"file: Real(\"src/dimensions.rs\") line 12","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["178",[{"loc":"file: Real(\"src/dimensions.rs\") line 18","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["194",[{"loc":"file: Real(\"src/dimensions.rs\") line 24","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["210",[{"loc":"file: Real(\"src/dimensions.rs\") line 30","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["307",[{"loc":"file: Real(\"src/output.rs\") line 12","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["2010",[{"loc":"file: Real(\"src/lib.rs\") line 49","kind":{"UnsafeFnCall":"Rust"}}]],["2018",[{"loc":"file: Real(\"src/lib.rs\") line 49","kind":{"UnsafeFnCall":"Rust"}}]],["430",[{"loc":"file: Real(\"src/power_grid.rs\") line 31","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/power_grid.rs\") line 34","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["528",[{"loc":"file: Real(\"src/power_grid.rs\") line 59","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["2111",[{"loc":"file: Real(\"src/stack.rs\") line 22","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["2122",[{"loc":"file: Real(\"src/stack.rs\") line 22","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["2179",[{"loc":"file: Real(\"src/stack.rs\") line 22","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["2190",[{"loc":"file: Real(\"src/stack.rs\") line 22","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["659",[{"loc":"file: Real(\"src/stack.rs\") line 38","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["855",[{"loc":"file: Real(\"src/system.rs\") line 22","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["877",[{"loc":"file: Real(\"src/system.rs\") line 30","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["892",[{"loc":"file: Real(\"src/system.rs\") line 36","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["907",[{"loc":"file: Real(\"src/system.rs\") line 42","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["1099",[{"loc":"file: Real(\"src/system_matrix.rs\") line 16","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["1217",[{"loc":"file: Real(\"src/thermal_grid.rs\") line 16","kind":{"UnsafeFnCall":"C"}}]]]}

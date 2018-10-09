@@ -1,0 +1,1 @@
+{"name":"Library::get","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 23","kind":{"UnsafeFnCall":"RustIntrinsic"}},{"loc":"file: Real(\"src/lib.rs\") line 28","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/lib.rs\") line 31","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}

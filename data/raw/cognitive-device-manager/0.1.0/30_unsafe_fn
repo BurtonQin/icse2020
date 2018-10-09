@@ -1,0 +1,4 @@
+{"name":"virtual_terminal::ioctl::set_vt_mode","from_trait":false,"arguments":[{"type_info":"type(*mut u8)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 6","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"virtual_terminal::ioctl::get_vt_state","from_trait":false,"arguments":[{"type_info":"type(*mut u8)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 6","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"virtual_terminal::ioctl::release_vt","from_trait":false,"arguments":[{"type_info":"type(*mut u8)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 6","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"virtual_terminal::ioctl::activate_vt","from_trait":false,"arguments":[{"type_info":"type(*mut u8)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 6","kind":{"UnsafeFnCall":"C"}}]}

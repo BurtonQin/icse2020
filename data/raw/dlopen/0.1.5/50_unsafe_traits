@@ -1,0 +1,14 @@
+{"name":"<raw::common::Library as std::marker::Sync>"}
+{"name":"<raw::common::Library as std::marker::Send>"}
+{"name":"<symbor::ptr_or_null::PtrOrNull<'lib, T> as std::marker::Send>"}
+{"name":"<symbor::ptr_or_null::PtrOrNull<'lib, T> as std::marker::Sync>"}
+{"name":"<symbor::ptr_or_null_mut::PtrOrNullMut<'lib, T> as std::marker::Send>"}
+{"name":"<symbor::ptr_or_null_mut::PtrOrNullMut<'lib, T> as std::marker::Sync>"}
+{"name":"<symbor::symbol::Symbol<'lib, T> as std::marker::Send>"}
+{"name":"<symbor::symbol::Symbol<'lib, T> as std::marker::Sync>"}
+{"name":"<symbor::library::Library as std::marker::Send>"}
+{"name":"<symbor::library::Library as std::marker::Sync>"}
+{"name":"<symbor::reference::Ref<'lib, T> as std::marker::Send>"}
+{"name":"<symbor::reference::Ref<'lib, T> as std::marker::Sync>"}
+{"name":"<symbor::reference_mut::RefMut<'lib, T> as std::marker::Send>"}
+{"name":"<symbor::reference_mut::RefMut<'lib, T> as std::marker::Sync>"}

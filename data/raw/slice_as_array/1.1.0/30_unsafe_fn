@@ -1,0 +1,3 @@
+{"name":"reexport::ptr_write","from_trait":false,"arguments":[{"type_info":"type(*mut T)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 63","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"reexport::ptr_read","from_trait":false,"arguments":[{"type_info":"type(*const T)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 64","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"reexport::uninitialized","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 66","kind":{"UnsafeFnCall":"Rust"}}]}

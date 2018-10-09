@@ -1,0 +1,19 @@
+{"name":"<T as IntoUnchecked<U>>::into_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 137","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<&'a T as FromUnchecked<&'a U>>::from_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 144","kind":"DerefRawPointer"}]}
+{"name":"<&'a mut T as FromUnchecked<&'a mut U>>::from_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 151","kind":"DerefRawPointer"}]}
+{"name":"<&'a T as FromUnchecked<*const T>>::from_unchecked","from_trait":true,"arguments":[{"type_info":"type(*const T)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 158","kind":"DerefRawPointer"}]}
+{"name":"<&'a mut T as FromUnchecked<*mut T>>::from_unchecked","from_trait":true,"arguments":[{"type_info":"type(*mut T)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 165","kind":"DerefRawPointer"}]}
+{"name":"<&'a [T] as FromUnchecked<&'a [U]>>::from_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 172","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<&'a mut [T] as FromUnchecked<&'a mut [U]>>::from_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 179","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<&'a str as FromUnchecked<&'a [u8]>>::from_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 186","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<&'a mut str as FromUnchecked<&'a mut [u8]>>::from_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 193","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<std::vec::Vec<T> as FromUnchecked<std::vec::Vec<U>>>::from_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 202","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<std::string::String as FromUnchecked<std::vec::Vec<u8>>>::from_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 216","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<std::string::String as FromUnchecked<std::boxed::Box<[u8]>>>::from_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 224","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<std::boxed::Box<T> as FromUnchecked<std::boxed::Box<U>>>::from_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 232","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<std::boxed::Box<[T]> as FromUnchecked<std::boxed::Box<[U]>>>::from_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 240","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<std::boxed::Box<T> as FromUnchecked<*mut T>>::from_unchecked","from_trait":true,"arguments":[{"type_info":"type(*mut T)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 248","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<std::sync::Arc<T> as FromUnchecked<*const T>>::from_unchecked","from_trait":true,"arguments":[{"type_info":"type(*const T)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 256","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<std::sync::Arc<T> as FromUnchecked<std::sync::Arc<U>>>::from_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 264","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<std::rc::Rc<T> as FromUnchecked<*const T>>::from_unchecked","from_trait":true,"arguments":[{"type_info":"type(*const T)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 272","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<std::rc::Rc<T> as FromUnchecked<std::rc::Rc<U>>>::from_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 280","kind":{"UnsafeFnCall":"Rust"}}]}

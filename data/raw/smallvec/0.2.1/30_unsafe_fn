@@ -1,0 +1,2 @@
+{"name":"deallocate","from_trait":false,"arguments":[{"type_info":"type(*mut T)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/smallvec-0.2.1/lib.rs\") line 53","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<SmallVec<A>>::set_len","from_trait":true,"arguments":[],"sources":[]}

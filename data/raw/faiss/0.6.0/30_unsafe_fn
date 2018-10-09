@@ -1,0 +1,3 @@
+{"name":"<index::flat::FlatIndexImpl as index::FromInnerPtr>::from_inner_ptr","from_trait":true,"arguments":[{"type_info":"type(*mut FaissIndex)","kind":"RawPointer"}],"sources":[]}
+{"name":"<index::lsh::LshIndex as index::FromInnerPtr>::from_inner_ptr","from_trait":true,"arguments":[{"type_info":"type(*mut FaissIndex)","kind":"RawPointer"}],"sources":[]}
+{"name":"<index::IndexImpl as index::FromInnerPtr>::from_inner_ptr","from_trait":true,"arguments":[{"type_info":"type(*mut FaissIndex)","kind":"RawPointer"}],"sources":[]}

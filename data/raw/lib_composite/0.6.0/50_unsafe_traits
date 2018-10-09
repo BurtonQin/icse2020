@@ -1,0 +1,3 @@
+{"name":"<sl_lock::Lock<T> as std::marker::Send>"}
+{"name":"<sl_lock::Lock<T> as std::marker::Sync>"}
+{"name":"<sl_lock::LockGuard<'a, T> as std::marker::Sync>"}

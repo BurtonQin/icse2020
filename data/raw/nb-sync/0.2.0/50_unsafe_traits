@@ -1,0 +1,6 @@
+{"name":"<bare_metal::CriticalSection as fifo::NonReentrant>"}
+{"name":"<fifo::NonReentrantToken as fifo::NonReentrant>"}
+{"name":"<fifo::Channel<'a, T> as core::marker::Sync>"}
+{"name":"<fifo::Receiver<'a, 'b, T> as core::marker::Send>"}
+{"name":"<fifo::Sender<'a, 'b, T> as core::marker::Send>"}
+{"name":"<Mutex<T> as core::marker::Sync>"}

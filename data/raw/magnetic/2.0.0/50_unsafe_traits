@@ -1,0 +1,19 @@
+{"name":"<buffer::dynamic::DynamicBuffer<T> as std::marker::Send>"}
+{"name":"<buffer::dynamic::DynamicBufferP2<T> as std::marker::Send>"}
+{"name":"<spsc::SPSCQueue<T, B> as std::marker::Sync>"}
+{"name":"<spsc::SPSCConsumer<T, B> as std::marker::Send>"}
+{"name":"<spsc::SPSCProducer<T, B> as std::marker::Send>"}
+{"name":"<mpsc::MPSCQueue<T, B> as std::marker::Sync>"}
+{"name":"<mpsc::MPSCConsumer<T, B> as std::marker::Send>"}
+{"name":"<mpsc::MPSCProducer<T, B> as std::marker::Send>"}
+{"name":"<mpsc::MPSCProducer<T, B> as std::marker::Sync>"}
+{"name":"<spmc::SPMCQueue<T, B> as std::marker::Sync>"}
+{"name":"<spmc::SPMCConsumer<T, B> as std::marker::Send>"}
+{"name":"<spmc::SPMCConsumer<T, B> as std::marker::Sync>"}
+{"name":"<spmc::SPMCProducer<T, B> as std::marker::Send>"}
+{"name":"<spmc::SPMCProducer<T, B> as std::marker::Sync>"}
+{"name":"<mpmc::MPMCQueue<T, B> as std::marker::Sync>"}
+{"name":"<mpmc::MPMCConsumer<T, B> as std::marker::Send>"}
+{"name":"<mpmc::MPMCConsumer<T, B> as std::marker::Sync>"}
+{"name":"<mpmc::MPMCProducer<T, B> as std::marker::Send>"}
+{"name":"<mpmc::MPMCProducer<T, B> as std::marker::Sync>"}

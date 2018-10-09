@@ -1,0 +1,3 @@
+{"name":"byte_str::ByteStr::from_raw_parts","from_trait":true,"arguments":[{"type_info":"type(*const u8)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/byte_str.rs\") line 58","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"byte_str::ByteStr::from_raw_parts_mut","from_trait":true,"arguments":[{"type_info":"type(*mut u8)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/byte_str.rs\") line 64","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"byte_string::ByteString::set_len","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/byte_string.rs\") line 123","kind":{"UnsafeFnCall":"Rust"}}]}

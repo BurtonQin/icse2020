@@ -1,0 +1,2 @@
+{"name":"azure_hl::AzSourceSurfaceGetSize_","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/azure_hl.rs\") line 1004","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"azure_hl::AzSourceSurfaceGetFormat_","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/azure_hl.rs\") line 1010","kind":{"UnsafeFnCall":"C"}}]}

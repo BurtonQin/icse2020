@@ -1,0 +1,4 @@
+{"name":"<mutex::Mutex<L, T> as std::marker::Send>"}
+{"name":"<mutex::Mutex<L, T> as std::marker::Sync>"}
+{"name":"<rwlock::RwLock<L, T> as std::marker::Send>"}
+{"name":"<rwlock::RwLock<L, T> as std::marker::Sync>"}

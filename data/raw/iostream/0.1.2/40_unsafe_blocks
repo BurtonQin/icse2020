@@ -1,0 +1,16 @@
+{"sources":[["391",[{"loc":"file: Real(\"src/io/memory/memory_stream.rs\") line 175","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["636",[{"loc":"file: Real(\"src/io/memory/memory_stream.rs\") line 272","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["3308",[{"loc":"file: Real(\"src/io/stream_rw/stream_reader.rs\") line 126","kind":"DerefRawPointer"}]]]}
+{"sources":[["3383",[{"loc":"file: Real(\"src/io/stream_rw/stream_reader.rs\") line 152","kind":"DerefRawPointer"}]]]}
+{"sources":[["3458",[{"loc":"file: Real(\"src/io/stream_rw/stream_reader.rs\") line 176","kind":"DerefRawPointer"}]]]}
+{"sources":[["3533",[{"loc":"file: Real(\"src/io/stream_rw/stream_reader.rs\") line 200","kind":"DerefRawPointer"}]]]}
+{"sources":[["3608",[{"loc":"file: Real(\"src/io/stream_rw/stream_reader.rs\") line 224","kind":"DerefRawPointer"}]]]}
+{"sources":[["3667",[{"loc":"file: Real(\"src/io/stream_rw/stream_reader.rs\") line 243","kind":"DerefRawPointer"}]]]}
+{"sources":[["4227",[{"loc":"file: Real(\"src/io/stream_rw/stream_writer.rs\") line 76","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/io/stream_rw/stream_writer.rs\") line 80","kind":"DerefRawPointer"}]]]}
+{"sources":[["4288",[{"loc":"file: Real(\"src/io/stream_rw/stream_writer.rs\") line 101","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/io/stream_rw/stream_writer.rs\") line 105","kind":"DerefRawPointer"}]]]}
+{"sources":[["4349",[{"loc":"file: Real(\"src/io/stream_rw/stream_writer.rs\") line 124","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/io/stream_rw/stream_writer.rs\") line 128","kind":"DerefRawPointer"}]]]}
+{"sources":[["4410",[{"loc":"file: Real(\"src/io/stream_rw/stream_writer.rs\") line 146","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/io/stream_rw/stream_writer.rs\") line 150","kind":"DerefRawPointer"}]]]}
+{"sources":[["4471",[{"loc":"file: Real(\"src/io/stream_rw/stream_writer.rs\") line 168","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/io/stream_rw/stream_writer.rs\") line 172","kind":"DerefRawPointer"}]]]}
+{"sources":[["4532",[{"loc":"file: Real(\"src/io/stream_rw/stream_writer.rs\") line 190","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/io/stream_rw/stream_writer.rs\") line 194","kind":"DerefRawPointer"}]]]}
+{"sources":[["4593",[{"loc":"file: Real(\"src/io/stream_rw/stream_writer.rs\") line 209","kind":"DerefRawPointer"}]]]}
+{"sources":[["4638",[{"loc":"file: Real(\"src/io/stream_rw/stream_writer.rs\") line 224","kind":"DerefRawPointer"}]]]}

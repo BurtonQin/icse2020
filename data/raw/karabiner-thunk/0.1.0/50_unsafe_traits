@@ -1,0 +1,4 @@
+{"name":"<Thunk<'a, T> as std::marker::Send>"}
+{"name":"<Thunk<'a, T> as std::marker::Sync>"}
+{"name":"<Expr<'a, T> as std::marker::Send>"}
+{"name":"<Expr<'a, T> as std::marker::Sync>"}

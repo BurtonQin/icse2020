@@ -1,0 +1,3 @@
+{"name":"<Malloc<T>>::from_ptr","from_trait":true,"arguments":[{"type_info":"type(*mut T)","kind":"RawPointer"}],"sources":[]}
+{"name":"<Malloc<[T]>>::from_array","from_trait":true,"arguments":[{"type_info":"type(*mut T)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 48","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<Malloc<str>>::from_c_str","from_trait":true,"arguments":[{"type_info":"type(*mut c_char)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 65","kind":{"UnsafeFnCall":"C"}},{"loc":"file: Real(\"src/lib.rs\") line 66","kind":{"UnsafeFnCall":"Rust"}}]}

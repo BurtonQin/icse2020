@@ -1,0 +1,4 @@
+{"name":"<ThreadIsolated<T, NonOwningThread> as std::marker::Send>"}
+{"name":"<ThreadIsolated<T, NonOwningThread> as std::marker::Sync>"}
+{"name":"<ThreadIsolatedWeak<T> as std::marker::Send>"}
+{"name":"<ThreadIsolatedWeak<T> as std::marker::Sync>"}

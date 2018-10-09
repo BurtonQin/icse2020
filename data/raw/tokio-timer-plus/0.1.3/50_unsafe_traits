@@ -1,0 +1,4 @@
+{"name":"<mpmc::Queue<T, U> as std::marker::Send>"}
+{"name":"<mpmc::Queue<T, U> as std::marker::Sync>"}
+{"name":"<mpmc::Node<T, U> as std::marker::Send>"}
+{"name":"<mpmc::Node<T, U> as std::marker::Sync>"}

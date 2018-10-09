@@ -1,0 +1,91 @@
+{"name":"<bool as traits::IntoHeap<'h>>::from_heap","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<bool as traits::IntoHeap<'h>>::trace","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<char as traits::IntoHeap<'h>>::from_heap","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<char as traits::IntoHeap<'h>>::trace","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<i8 as traits::IntoHeap<'h>>::from_heap","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<i8 as traits::IntoHeap<'h>>::trace","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<u8 as traits::IntoHeap<'h>>::from_heap","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<u8 as traits::IntoHeap<'h>>::trace","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<i16 as traits::IntoHeap<'h>>::from_heap","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<i16 as traits::IntoHeap<'h>>::trace","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<u16 as traits::IntoHeap<'h>>::from_heap","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<u16 as traits::IntoHeap<'h>>::trace","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<i32 as traits::IntoHeap<'h>>::from_heap","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<i32 as traits::IntoHeap<'h>>::trace","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<u32 as traits::IntoHeap<'h>>::from_heap","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<u32 as traits::IntoHeap<'h>>::trace","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<i64 as traits::IntoHeap<'h>>::from_heap","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<i64 as traits::IntoHeap<'h>>::trace","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<u64 as traits::IntoHeap<'h>>::from_heap","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<u64 as traits::IntoHeap<'h>>::trace","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<isize as traits::IntoHeap<'h>>::from_heap","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<isize as traits::IntoHeap<'h>>::trace","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<usize as traits::IntoHeap<'h>>::from_heap","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<usize as traits::IntoHeap<'h>>::trace","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<f32 as traits::IntoHeap<'h>>::from_heap","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<f32 as traits::IntoHeap<'h>>::trace","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<f64 as traits::IntoHeap<'h>>::from_heap","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<f64 as traits::IntoHeap<'h>>::trace","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<std::string::String as traits::IntoHeap<'h>>::from_heap","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<std::string::String as traits::IntoHeap<'h>>::trace","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<&'static T as traits::IntoHeap<'h>>::from_heap","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<&'static T as traits::IntoHeap<'h>>::trace","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<std::marker::PhantomData<T> as traits::IntoHeap<'h>>::from_heap","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<std::marker::PhantomData<T> as traits::IntoHeap<'h>>::trace","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<gcleaf::GCLeaf<T> as traits::IntoHeap<'h>>::from_heap","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<gcleaf::GCLeaf<T> as traits::IntoHeap<'h>>::trace","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<std::boxed::Box<T> as traits::IntoHeap<'h>>::from_heap","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<std::boxed::Box<T> as traits::IntoHeap<'h>>::trace","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<std::rc::Rc<T> as traits::IntoHeap<'h>>::from_heap","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<std::rc::Rc<T> as traits::IntoHeap<'h>>::trace","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<std::option::Option<T> as traits::IntoHeap<'h>>::trace","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/traits.rs\") line 180","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<std::option::Option<T> as traits::IntoHeap<'h>>::from_heap","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/traits.rs\") line 187","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<() as traits::IntoHeap<'h>>::trace","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<() as traits::IntoHeap<'h>>::from_heap","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<(T,) as traits::IntoHeap<'h>>::trace","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/traits.rs\") line 213","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<(T,) as traits::IntoHeap<'h>>::from_heap","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/traits.rs\") line 224","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<(T, U) as traits::IntoHeap<'h>>::trace","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/traits.rs\") line 213","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/traits.rs\") line 213","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<(T, U) as traits::IntoHeap<'h>>::from_heap","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/traits.rs\") line 224","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/traits.rs\") line 224","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<(T, U, V) as traits::IntoHeap<'h>>::trace","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/traits.rs\") line 213","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/traits.rs\") line 213","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/traits.rs\") line 213","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<(T, U, V) as traits::IntoHeap<'h>>::from_heap","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/traits.rs\") line 224","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/traits.rs\") line 224","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/traits.rs\") line 224","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<(T, U, V, W) as traits::IntoHeap<'h>>::trace","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/traits.rs\") line 213","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/traits.rs\") line 213","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/traits.rs\") line 213","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/traits.rs\") line 213","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<(T, U, V, W) as traits::IntoHeap<'h>>::from_heap","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/traits.rs\") line 224","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/traits.rs\") line 224","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/traits.rs\") line 224","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/traits.rs\") line 224","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<(T, U, V, W, X) as traits::IntoHeap<'h>>::trace","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/traits.rs\") line 213","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/traits.rs\") line 213","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/traits.rs\") line 213","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/traits.rs\") line 213","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/traits.rs\") line 213","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<(T, U, V, W, X) as traits::IntoHeap<'h>>::from_heap","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/traits.rs\") line 224","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/traits.rs\") line 224","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/traits.rs\") line 224","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/traits.rs\") line 224","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/traits.rs\") line 224","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<(T, U, V, W, X, Y) as traits::IntoHeap<'h>>::trace","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/traits.rs\") line 213","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/traits.rs\") line 213","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/traits.rs\") line 213","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/traits.rs\") line 213","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/traits.rs\") line 213","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/traits.rs\") line 213","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<(T, U, V, W, X, Y) as traits::IntoHeap<'h>>::from_heap","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/traits.rs\") line 224","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/traits.rs\") line 224","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/traits.rs\") line 224","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/traits.rs\") line 224","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/traits.rs\") line 224","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/traits.rs\") line 224","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<(T, U, V, W, X, Y, Z) as traits::IntoHeap<'h>>::trace","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/traits.rs\") line 213","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/traits.rs\") line 213","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/traits.rs\") line 213","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/traits.rs\") line 213","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/traits.rs\") line 213","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/traits.rs\") line 213","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/traits.rs\") line 213","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<(T, U, V, W, X, Y, Z) as traits::IntoHeap<'h>>::from_heap","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/traits.rs\") line 224","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/traits.rs\") line 224","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/traits.rs\") line 224","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/traits.rs\") line 224","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/traits.rs\") line 224","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/traits.rs\") line 224","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/traits.rs\") line 224","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"pages::mark_entry_point","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/pages.rs\") line 18","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/pages.rs\") line 20","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/pages.rs\") line 24","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/pages.rs\") line 24","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"pages::PageHeader::mark","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/pages.rs\") line 73","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"pages::PageHeader::sweep","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/pages.rs\") line 77","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<pages::TypedPage<U>>::init","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/pages.rs\") line 143","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<pages::TypedPage<U>>::add_to_free_list","from_trait":true,"arguments":[{"type_info":"type(*mut U)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/pages.rs\") line 162","kind":"DerefRawPointer"},{"loc":"file: Macros(\"assert_eq\") line 3","kind":"DerefRawPointer"}]}
+{"name":"<pages::TypedPage<U>>::allocation_index","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<pages::TypedPage<U>>::get_mark_bit","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/pages.rs\") line 183","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<pages::TypedPage<U>>::set_mark_bit","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/pages.rs\") line 188","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<pages::TypedPage<U>>::try_alloc","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/pages.rs\") line 204","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/pages.rs\") line 205","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/pages.rs\") line 206","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<pages::TypedPage<U>>::sweep","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/pages.rs\") line 217","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/pages.rs\") line 219","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"pages::sweep_entry_point","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/pages.rs\") line 233","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"pages::PageSet::new","from_trait":true,"arguments":[{"type_info":"type(*mut Heap)","kind":"RawPointer"}],"sources":[]}
+{"name":"pages::PageSet::unchecked_downcast_mut","from_trait":true,"arguments":[],"sources":[]}
+{"name":"pages::PageSet::clear_mark_bits","from_trait":true,"arguments":[],"sources":[]}
+{"name":"pages::PageSet::sweep","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/pages.rs\") line 374","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<pages::PageSetRef<'a, 'h, T>>::try_alloc","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/pages.rs\") line 406","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/pages.rs\") line 416","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"heap::Heap::pin","from_trait":true,"arguments":[],"sources":[]}
+{"name":"heap::Heap::unpin","from_trait":true,"arguments":[],"sources":[]}
+{"name":"heap::Heap::from_allocation","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/heap.rs\") line 184","kind":"DerefRawPointer"}]}
+{"name":"heap::Heap::get_mark_bit","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/heap.rs\") line 188","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/heap.rs\") line 188","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"heap::Heap::set_mark_bit","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/heap.rs\") line 192","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/heap.rs\") line 192","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"heap::Heap::clear_mark_bits","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/heap.rs\") line 227","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<gcref::GcRef<'h, T>>::new","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/gcref.rs\") line 18","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/gcref.rs\") line 19","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/gcref.rs\") line 19","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"collections::<impl traits::IntoHeap<'h> for std::vec::Vec<T>>::from_heap","from_trait":true,"arguments":[],"sources":[]}
+{"name":"collections::<impl traits::IntoHeap<'h> for std::vec::Vec<T>>::trace","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/collections.rs\") line 25","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<collections::VecRef<'h, T> as traits::IntoHeap<'h>>::from_heap","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/collections.rs\") line 67","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<collections::VecRef<'h, T> as traits::IntoHeap<'h>>::trace","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/collections.rs\") line 76","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/collections.rs\") line 77","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<collections::VecRef<'h, T>>::with_storage","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/collections.rs\") line 104","kind":"DerefRawPointer"}]}
+{"name":"<collections::VecRef<'h, T>>::with_storage_mut","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/collections.rs\") line 120","kind":"DerefRawPointer"}]}
+{"name":"<ptr::Pointer<T>>::new","from_trait":true,"arguments":[{"type_info":"type(*const T)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/ptr.rs\") line 61","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<ptr::Pointer<T>>::as_ref","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/ptr.rs\") line 88","kind":"DerefRawPointer"}]}
+{"name":"ptr::UntypedPointer::new","from_trait":true,"arguments":[{"type_info":"type(*const ())","kind":"RawPointer"}],"sources":[]}
+{"name":"ptr::UntypedPointer::as_typed_ptr","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/ptr.rs\") line 186","kind":{"UnsafeFnCall":"Rust"}}]}

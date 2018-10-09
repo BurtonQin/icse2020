@@ -1,0 +1,7 @@
+{"name":"ffi::RPI_PWM_DMAC_PANIC","from_trait":false,"arguments":[],"sources":[]}
+{"name":"ffi::RPI_PWM_DMAC_DREQ","from_trait":false,"arguments":[],"sources":[]}
+{"name":"handle::handle::Handle::new","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/handle/handle.rs\") line 23","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"channel::channel::Channel::new","from_trait":true,"arguments":[],"sources":[]}
+{"name":"channel::channel::Channel::into_inner","from_trait":true,"arguments":[],"sources":[]}
+{"name":"channel::immutable::Ref::wrap","from_trait":true,"arguments":[{"type_info":"type(*const ffi::ws2811_channel_t)","kind":"RawPointer"}],"sources":[]}
+{"name":"channel::mutable::Ref::wrap","from_trait":true,"arguments":[{"type_info":"type(*mut ffi::ws2811_channel_t)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/channel/mutable.rs\") line 14","kind":{"UnsafeFnCall":"Rust"}}]}

@@ -1,0 +1,20 @@
+{"name":"rt::IS_MAIN_THREAD::__getit","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__thread_local_inner\") line 16","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"rt::set_initialized","from_trait":false,"arguments":[],"sources":[]}
+{"name":"<future::Inner as SourceFuncs>::g_source_func::call","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/future.rs\") line 172","kind":"DerefRawPointer"}]}
+{"name":"interval::handler","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/interval.rs\") line 61","kind":"DerefRawPointer"}]}
+{"name":"interval::destroy","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/interval.rs\") line 66","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"timeout::handler","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/timeout.rs\") line 55","kind":"DerefRawPointer"}]}
+{"name":"timeout::destroy","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/timeout.rs\") line 62","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<io::state::IoChannelFuncs as SourceFuncs>::g_source_func::call","from_trait":false,"arguments":[{"type_info":"type(*mut glib_sys::GIOChannel)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/io/state.rs\") line 99","kind":{"UnsafeFnCall":"C"}},{"loc":"file: Real(\"src/io/state.rs\") line 102","kind":"DerefRawPointer"}]}
+{"name":"io::IoChannel::unix_new","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/io/mod.rs\") line 29","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"io::rc","from_trait":false,"arguments":[{"type_info":"type(*mut glib_sys::GError)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/io/mod.rs\") line 190","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"error::new","from_trait":false,"arguments":[{"type_info":"type(*mut glib_sys::GError)","kind":"RawPointer"}],"sources":[]}
+{"name":"<net::tcp::TcpStream as tokio_io::AsyncRead>::prepare_uninitialized_buffer","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<Source<T>>::set_callback::destroy","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 497","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<Source<T>>::unix_modify_fd","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 579","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"<Source<T>>::unix_remove_fd","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 599","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"<Source<T>>::unix_query_fd","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 619","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"prepare","from_trait":false,"arguments":[{"type_info":"type(*mut glib_sys::GSource)","kind":"RawPointer"},{"type_info":"type(*mut c_int)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 701","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/lib.rs\") line 706","kind":"DerefRawPointer"}]}
+{"name":"check","from_trait":false,"arguments":[{"type_info":"type(*mut glib_sys::GSource)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 718","kind":"DerefRawPointer"}]}
+{"name":"dispatch","from_trait":false,"arguments":[{"type_info":"type(*mut glib_sys::GSource)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 736","kind":"DerefRawPointer"}]}
+{"name":"finalize","from_trait":false,"arguments":[{"type_info":"type(*mut glib_sys::GSource)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 746","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/lib.rs\") line 746","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/lib.rs\") line 747","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/lib.rs\") line 747","kind":{"UnsafeFnCall":"Rust"}}]}

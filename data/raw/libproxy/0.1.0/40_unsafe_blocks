@@ -1,0 +1,9 @@
+{"sources":[["119",[{"loc":"file: Real(\"src/ffi.rs\") line 29","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["186",[{"loc":"file: Real(\"src/ffi.rs\") line 63","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["264",[{"loc":"file: Real(\"src/proxies.rs\") line 26","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/proxies.rs\") line 28","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["303",[{"loc":"file: Real(\"src/proxies.rs\") line 41","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["321",[{"loc":"file: Real(\"src/proxies.rs\") line 46","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["448",[{"loc":"file: Real(\"src/proxies.rs\") line 96","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/proxies.rs\") line 98","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["552",[{"loc":"file: Real(\"src/factory.rs\") line 18","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["625",[{"loc":"file: Real(\"src/factory.rs\") line 110","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["645",[{"loc":"file: Real(\"src/factory.rs\") line 117","kind":{"UnsafeFnCall":"C"}}]]]}

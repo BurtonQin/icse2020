@@ -1,0 +1,4 @@
+{"name":"libc_free","from_trait":false,"arguments":[{"type_info":"type(*const c_char)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/c_str.rs\") line 164","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"OwnedCString::new","from_trait":true,"arguments":[{"type_info":"type(*const c_char)","kind":"RawPointer"}],"sources":[]}
+{"name":"CStrBuf::from_vec_unchecked","from_trait":true,"arguments":[],"sources":[]}
+{"name":"parse_c_multistring","from_trait":false,"arguments":[{"type_info":"type(*const c_char)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/c_str.rs\") line 531","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/c_str.rs\") line 532","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/c_str.rs\") line 534","kind":{"UnsafeFnCall":"Rust"}}]}

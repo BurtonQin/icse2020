@@ -1,0 +1,5 @@
+{"name":"unmarshal_static_string","from_trait":false,"arguments":[{"type_info":"type(*const c_char)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 407","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"unmarshal_string","from_trait":false,"arguments":[{"type_info":"type(*const c_char)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 411","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"unmarshal_strary","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 415","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"Toupcam::read_eeprom","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 998","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"Toupcam::write_eeprom","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 1002","kind":{"UnsafeFnCall":"C"}}]}

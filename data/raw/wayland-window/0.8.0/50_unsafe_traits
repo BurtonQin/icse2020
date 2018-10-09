@@ -1,0 +1,4 @@
+{"name":"<decorated_surface::DecoratedSurface<H> as wayland_client::Handler<wayland_client::client::wl_pointer::WlPointer>>"}
+{"name":"shell::xdg::<impl wayland_client::Handler<wayland_protocols::unstable::xdg_shell::api::zxdg_toplevel_v6::ZxdgToplevelV6> for decorated_surface::DecoratedSurface<H>>"}
+{"name":"shell::xdg::<impl wayland_client::Handler<wayland_protocols::unstable::xdg_shell::api::zxdg_surface_v6::ZxdgSurfaceV6> for decorated_surface::DecoratedSurface<H>>"}
+{"name":"shell::wl::<impl wayland_client::Handler<wayland_client::client::wl_shell_surface::WlShellSurface> for decorated_surface::DecoratedSurface<H>>"}

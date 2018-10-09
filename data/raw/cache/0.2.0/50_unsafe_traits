@@ -1,0 +1,3 @@
+{"name":"<Cache<K> as std::marker::Send>"}
+{"name":"<Cache<K> as std::marker::Sync>"}
+{"name":"<Cached<'a, V> as owning_ref::StableDeref>"}

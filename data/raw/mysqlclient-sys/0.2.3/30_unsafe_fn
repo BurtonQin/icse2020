@@ -1,0 +1,2 @@
+{"name":"<__BindgenUnionField<T>>::as_ref","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/bindings_macos.rs\") line 12","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"<__BindgenUnionField<T>>::as_mut","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/bindings_macos.rs\") line 16","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}

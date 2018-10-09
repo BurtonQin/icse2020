@@ -1,0 +1,5 @@
+{"sources":[["319",[{"loc":"file: Real(\"src/daemon.rs\") line 91","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["752",[{"loc":"file: Real(\"src/daemon.rs\") line 324","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["3969",[{"loc":"file: Real(\"src/daemon.rs\") line 423","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["3980",[{"loc":"file: Real(\"src/daemon.rs\") line 423","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["4037",[{"loc":"file: Real(\"src/daemon.rs\") line 423","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["4048",[{"loc":"file: Real(\"src/daemon.rs\") line 423","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["2071",[{"loc":"file: Real(\"src/main.rs\") line 287","kind":{"UnsafeFnCall":"Rust"}}]],["2075",[{"loc":"file: Real(\"src/main.rs\") line 289","kind":{"UnsafeFnCall":"C"}}]],["2103",[{"loc":"file: Real(\"src/main.rs\") line 300","kind":{"UnsafeFnCall":"C"}}]]]}

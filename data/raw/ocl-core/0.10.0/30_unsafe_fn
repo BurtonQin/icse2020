@@ -1,0 +1,83 @@
+{"name":"functions::retain_device","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/functions.rs\") line 672","kind":{"UnsafeFnCall":"System"}}]}
+{"name":"functions::release_device","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/functions.rs\") line 681","kind":{"UnsafeFnCall":"System"}}]}
+{"name":"functions::retain_context","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/functions.rs\") line 823","kind":{"UnsafeFnCall":"System"}}]}
+{"name":"functions::release_context","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/functions.rs\") line 830","kind":{"UnsafeFnCall":"System"}}]}
+{"name":"functions::retain_command_queue","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/functions.rs\") line 1044","kind":{"UnsafeFnCall":"System"}}]}
+{"name":"functions::release_command_queue","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/functions.rs\") line 1051","kind":{"UnsafeFnCall":"System"}}]}
+{"name":"functions::create_buffer","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/functions.rs\") line 1123","kind":{"UnsafeFnCall":"System"}}]}
+{"name":"functions::create_from_gl_buffer","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/functions.rs\") line 1158","kind":{"UnsafeFnCall":"System"}}]}
+{"name":"functions::create_from_gl_renderbuffer","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/functions.rs\") line 1190","kind":{"UnsafeFnCall":"System"}}]}
+{"name":"functions::create_from_gl_texture","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/functions.rs\") line 1250","kind":{"UnsafeFnCall":"System"}}]}
+{"name":"functions::create_from_gl_texture_2d","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/functions.rs\") line 1280","kind":{"UnsafeFnCall":"System"}}]}
+{"name":"functions::create_from_gl_texture_3d","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/functions.rs\") line 1310","kind":{"UnsafeFnCall":"System"}}]}
+{"name":"functions::create_image","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/functions.rs\") line 1389","kind":{"UnsafeFnCall":"System"}}]}
+{"name":"functions::retain_mem_object","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/functions.rs\") line 1404","kind":{"UnsafeFnCall":"System"}}]}
+{"name":"functions::release_mem_object","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/functions.rs\") line 1409","kind":{"UnsafeFnCall":"System"}}]}
+{"name":"functions::retain_sampler","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/functions.rs\") line 1566","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/functions.rs\") line 1566","kind":{"UnsafeFnCall":"System"}}]}
+{"name":"functions::release_sampler","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/functions.rs\") line 1571","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/functions.rs\") line 1571","kind":{"UnsafeFnCall":"System"}}]}
+{"name":"functions::retain_program","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/functions.rs\") line 1741","kind":{"UnsafeFnCall":"System"}}]}
+{"name":"functions::release_program","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/functions.rs\") line 1746","kind":{"UnsafeFnCall":"System"}}]}
+{"name":"functions::retain_kernel","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/functions.rs\") line 1990","kind":{"UnsafeFnCall":"System"}}]}
+{"name":"functions::release_kernel","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/functions.rs\") line 1995","kind":{"UnsafeFnCall":"System"}}]}
+{"name":"functions::retain_event","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/functions.rs\") line 2227","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/functions.rs\") line 2227","kind":{"UnsafeFnCall":"System"}}]}
+{"name":"functions::release_event","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/functions.rs\") line 2232","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/functions.rs\") line 2232","kind":{"UnsafeFnCall":"System"}}]}
+{"name":"functions::set_event_callback","from_trait":false,"arguments":[{"type_info":"type(*mut c_void)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/functions.rs\") line 2281","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/functions.rs\") line 2280","kind":{"UnsafeFnCall":"System"}}]}
+{"name":"functions::enqueue_read_buffer","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/functions.rs\") line 2395","kind":{"UnsafeFnCall":"System"}}]}
+{"name":"functions::enqueue_read_buffer_rect","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/functions.rs\") line 2460","kind":{"UnsafeFnCall":"System"}}]}
+{"name":"functions::enqueue_write_buffer","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/functions.rs\") line 2505","kind":{"UnsafeFnCall":"System"}}]}
+{"name":"functions::enqueue_write_buffer_rect","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/functions.rs\") line 2559","kind":{"UnsafeFnCall":"System"}}]}
+{"name":"functions::enqueue_read_image","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/functions.rs\") line 2789","kind":{"UnsafeFnCall":"System"}}]}
+{"name":"functions::enqueue_write_image","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/functions.rs\") line 2835","kind":{"UnsafeFnCall":"System"}}]}
+{"name":"functions::_enqueue_map_buffer","from_trait":false,"arguments":[{"type_info":"type(*const cl_event)","kind":"RawPointer"},{"type_info":"type(*mut cl_event)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/functions.rs\") line 3027","kind":{"UnsafeFnCall":"System"}}]}
+{"name":"functions::enqueue_map_buffer","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/functions.rs\") line 3074","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"functions::enqueue_map_image","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/functions.rs\") line 3118","kind":{"UnsafeFnCall":"System"}}]}
+{"name":"functions::enqueue_kernel","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/functions.rs\") line 3285","kind":{"UnsafeFnCall":"System"}}]}
+{"name":"functions::enqueue_task","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/functions.rs\") line 3339","kind":{"UnsafeFnCall":"System"}}]}
+{"name":"functions::get_extension_function_address_for_platform","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/functions.rs\") line 3485","kind":{"UnsafeFnCall":"System"}}]}
+{"name":"<&'e *mut ffi::c_void as types::abs::ClEventPtrRef<'e>>::as_ptr_ref","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<&'e L as types::abs::ClEventPtrRef<'e>>::as_ptr_ref","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/types/abs.rs\") line 186","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<() as types::abs::ClNullEventPtr>::clone_from","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<std::cell::Ref<'a, W> as types::abs::ClWaitListPtr>::as_ptr_ptr","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/types/abs.rs\") line 225","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<&'a [*mut ffi::c_void] as types::abs::ClWaitListPtr>::as_ptr_ptr","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<&'a [types::abs::Event] as types::abs::ClWaitListPtr>::as_ptr_ptr","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<() as types::abs::ClWaitListPtr>::as_ptr_ptr","from_trait":true,"arguments":[],"sources":[]}
+{"name":"types::abs::EventRefWrapper::new","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<types::abs::EventRefWrapper as types::abs::ClEventPtrRef<'e>>::as_ptr_ref","from_trait":true,"arguments":[],"sources":[]}
+{"name":"types::abs::PlatformId::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"types::abs::PlatformId::null","from_trait":true,"arguments":[],"sources":[]}
+{"name":"types::abs::DeviceId::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"types::abs::DeviceId::null","from_trait":true,"arguments":[],"sources":[]}
+{"name":"types::abs::Context::from_raw_create_ptr","from_trait":true,"arguments":[],"sources":[]}
+{"name":"types::abs::Context::from_raw_copied_ptr","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/types/abs.rs\") line 488","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"types::abs::CommandQueue::from_raw_create_ptr","from_trait":true,"arguments":[],"sources":[]}
+{"name":"types::abs::CommandQueue::from_raw_copied_ptr","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/types/abs.rs\") line 598","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"types::abs::Mem::from_raw_create_ptr","from_trait":true,"arguments":[],"sources":[]}
+{"name":"types::abs::Mem::from_raw_copied_ptr","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/types/abs.rs\") line 687","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<types::abs::MemMap<T>>::from_raw","from_trait":true,"arguments":[{"type_info":"type(*mut T)","kind":"RawPointer"}],"sources":[]}
+{"name":"<types::abs::MemMap<T>>::as_slice","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/types/abs.rs\") line 767","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<types::abs::MemMap<T>>::as_slice_mut","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/types/abs.rs\") line 772","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"types::abs::Program::from_raw_create_ptr","from_trait":true,"arguments":[],"sources":[]}
+{"name":"types::abs::Program::from_raw_copied_ptr","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/types/abs.rs\") line 809","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"types::abs::Kernel::from_raw_create_ptr","from_trait":true,"arguments":[],"sources":[]}
+{"name":"types::abs::Kernel::from_raw_copied_ptr","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/types/abs.rs\") line 893","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"types::abs::Event::from_raw_create_ptr","from_trait":true,"arguments":[],"sources":[]}
+{"name":"types::abs::Event::from_raw_copied_ptr","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/types/abs.rs\") line 981","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"types::abs::Event::set_callback","from_trait":true,"arguments":[{"type_info":"type(*mut c_void)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/types/abs.rs\") line 1052","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"types::abs::Event::as_ptr_ref","from_trait":true,"arguments":[],"sources":[]}
+{"name":"types::abs::Event::as_ptr_mut","from_trait":true,"arguments":[],"sources":[]}
+{"name":"types::abs::Event::from_raw","from_trait":true,"arguments":[],"sources":[]}
+{"name":"types::abs::Event::_as_ptr_ptr","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<&'a mut types::abs::Event as types::abs::ClNullEventPtr>::clone_from","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<types::abs::Event as types::abs::ClWaitListPtr>::as_ptr_ptr","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/types/abs.rs\") line 1160","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<&'a types::abs::Event as types::abs::ClWaitListPtr>::as_ptr_ptr","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/types/abs.rs\") line 1165","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<types::abs::Event as types::abs::ClEventPtrRef<'e>>::as_ptr_ref","from_trait":true,"arguments":[],"sources":[]}
+{"name":"types::abs::Sampler::from_raw_create_ptr","from_trait":true,"arguments":[],"sources":[]}
+{"name":"types::abs::Sampler::as_ptr","from_trait":true,"arguments":[],"sources":[]}
+{"name":"types::structs::ArgVal::from_raw","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"types::structs::ContextProperties::extract_property_from_raw","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/types/structs.rs\") line 542","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/types/structs.rs\") line 543","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/types/structs.rs\") line 547","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"types::structs::ContextProperties::from_raw","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/types/structs.rs\") line 576","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/types/structs.rs\") line 577","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/types/structs.rs\") line 586","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"util::bytes_to","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/util.rs\") line 113","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/util.rs\") line 114","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"util::bytes_into","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/util.rs\") line 134","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/util.rs\") line 135","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"util::bytes_into_vec","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/util.rs\") line 157","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"util::bytes_to_vec","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/util.rs\") line 176","kind":{"UnsafeFnCall":"RustIntrinsic"}},{"loc":"file: Real(\"src/util.rs\") line 177","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"util::into_bytes","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/util.rs\") line 220","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}

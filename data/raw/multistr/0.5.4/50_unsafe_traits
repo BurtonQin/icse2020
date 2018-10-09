@@ -1,0 +1,4 @@
+{"name":"<str as strlike::DataConcat>"}
+{"name":"<[T] as strlike::DataConcat>"}
+{"name":"<vec::Dynamic<T> as std::marker::Send>"}
+{"name":"<vec::Dynamic<T> as std::marker::Sync>"}

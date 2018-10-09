@@ -1,0 +1,95 @@
+{"name":"arraytraits::<impl std::marker::Sync for ArrayBase<S, D>>"}
+{"name":"arraytraits::<impl std::marker::Send for ArrayBase<S, D>>"}
+{"name":"<std::rc::Rc<std::vec::Vec<A>> as data_traits::Data>"}
+{"name":"<std::rc::Rc<std::vec::Vec<A>> as data_traits::DataMut>"}
+{"name":"<std::rc::Rc<std::vec::Vec<A>> as data_traits::DataClone>"}
+{"name":"<std::vec::Vec<A> as data_traits::Data>"}
+{"name":"<std::vec::Vec<A> as data_traits::DataMut>"}
+{"name":"<std::vec::Vec<A> as data_traits::DataClone>"}
+{"name":"<ViewRepr<&'a A> as data_traits::Data>"}
+{"name":"<ViewRepr<&'a A> as data_traits::DataClone>"}
+{"name":"<ViewRepr<&'a mut A> as data_traits::Data>"}
+{"name":"<ViewRepr<&'a mut A> as data_traits::DataMut>"}
+{"name":"<std::rc::Rc<std::vec::Vec<A>> as data_traits::DataShared>"}
+{"name":"<ViewRepr<&'a A> as data_traits::DataShared>"}
+{"name":"<std::vec::Vec<A> as data_traits::DataOwned>"}
+{"name":"<std::rc::Rc<std::vec::Vec<A>> as data_traits::DataOwned>"}
+{"name":"<dimension::dim::Dim<[usize; _]> as dimension::dimension_trait::Dimension>"}
+{"name":"<dimension::dim::Dim<[usize; _]> as dimension::dimension_trait::Dimension>"}
+{"name":"<dimension::dim::Dim<[usize; _]> as dimension::dimension_trait::Dimension>"}
+{"name":"<dimension::dim::Dim<[usize; _]> as dimension::dimension_trait::Dimension>"}
+{"name":"<dimension::dim::Dim<[usize; _]> as dimension::dimension_trait::Dimension>"}
+{"name":"<dimension::dim::Dim<[usize; _]> as dimension::dimension_trait::Dimension>"}
+{"name":"<dimension::dim::Dim<[usize; _]> as dimension::dimension_trait::Dimension>"}
+{"name":"<dimension::dim::Dim<std::vec::Vec<usize>> as dimension::dimension_trait::Dimension>"}
+{"name":"<D as dimension::ndindex::NdIndex<D>>"}
+{"name":"<() as dimension::ndindex::NdIndex<dimension::dim::Dim<[usize; _]>>>"}
+{"name":"<(usize, usize) as dimension::ndindex::NdIndex<dimension::dim::Dim<[usize; _]>>>"}
+{"name":"<(usize, usize, usize) as dimension::ndindex::NdIndex<dimension::dim::Dim<[usize; _]>>>"}
+{"name":"<(usize, usize, usize, usize) as dimension::ndindex::NdIndex<dimension::dim::Dim<[usize; _]>>>"}
+{"name":"<(usize, usize, usize, usize, usize) as dimension::ndindex::NdIndex<dimension::dim::Dim<[usize; _]>>>"}
+{"name":"<usize as dimension::ndindex::NdIndex<dimension::dim::Dim<[usize; _]>>>"}
+{"name":"<usize as dimension::ndindex::NdIndex<dimension::dim::Dim<std::vec::Vec<usize>>>>"}
+{"name":"<[usize; _] as dimension::ndindex::NdIndex<dimension::dim::Dim<[usize; _]>>>"}
+{"name":"<dimension::dim::Dim<[usize; _]> as dimension::ndindex::NdIndex<dimension::dim::Dim<std::vec::Vec<usize>>>>"}
+{"name":"<[usize; _] as dimension::ndindex::NdIndex<dimension::dim::Dim<std::vec::Vec<usize>>>>"}
+{"name":"<[usize; _] as dimension::ndindex::NdIndex<dimension::dim::Dim<[usize; _]>>>"}
+{"name":"<dimension::dim::Dim<[usize; _]> as dimension::ndindex::NdIndex<dimension::dim::Dim<std::vec::Vec<usize>>>>"}
+{"name":"<[usize; _] as dimension::ndindex::NdIndex<dimension::dim::Dim<std::vec::Vec<usize>>>>"}
+{"name":"<[usize; _] as dimension::ndindex::NdIndex<dimension::dim::Dim<[usize; _]>>>"}
+{"name":"<dimension::dim::Dim<[usize; _]> as dimension::ndindex::NdIndex<dimension::dim::Dim<std::vec::Vec<usize>>>>"}
+{"name":"<[usize; _] as dimension::ndindex::NdIndex<dimension::dim::Dim<std::vec::Vec<usize>>>>"}
+{"name":"<[usize; _] as dimension::ndindex::NdIndex<dimension::dim::Dim<[usize; _]>>>"}
+{"name":"<dimension::dim::Dim<[usize; _]> as dimension::ndindex::NdIndex<dimension::dim::Dim<std::vec::Vec<usize>>>>"}
+{"name":"<[usize; _] as dimension::ndindex::NdIndex<dimension::dim::Dim<std::vec::Vec<usize>>>>"}
+{"name":"<[usize; _] as dimension::ndindex::NdIndex<dimension::dim::Dim<[usize; _]>>>"}
+{"name":"<dimension::dim::Dim<[usize; _]> as dimension::ndindex::NdIndex<dimension::dim::Dim<std::vec::Vec<usize>>>>"}
+{"name":"<[usize; _] as dimension::ndindex::NdIndex<dimension::dim::Dim<std::vec::Vec<usize>>>>"}
+{"name":"<[usize; _] as dimension::ndindex::NdIndex<dimension::dim::Dim<[usize; _]>>>"}
+{"name":"<dimension::dim::Dim<[usize; _]> as dimension::ndindex::NdIndex<dimension::dim::Dim<std::vec::Vec<usize>>>>"}
+{"name":"<[usize; _] as dimension::ndindex::NdIndex<dimension::dim::Dim<std::vec::Vec<usize>>>>"}
+{"name":"<&'a [usize] as dimension::ndindex::NdIndex<dimension::dim::Dim<std::vec::Vec<usize>>>>"}
+{"name":"<std::vec::Vec<usize> as dimension::ndindex::NdIndex<dimension::dim::Dim<std::vec::Vec<usize>>>>"}
+{"name":"<[T; _] as free_functions::FixedInitializer>"}
+{"name":"<[T; _] as free_functions::FixedInitializer>"}
+{"name":"<[T; _] as free_functions::FixedInitializer>"}
+{"name":"<[T; _] as free_functions::FixedInitializer>"}
+{"name":"<[T; _] as free_functions::FixedInitializer>"}
+{"name":"<[T; _] as free_functions::FixedInitializer>"}
+{"name":"<[T; _] as free_functions::FixedInitializer>"}
+{"name":"<[T; _] as free_functions::FixedInitializer>"}
+{"name":"<[T; _] as free_functions::FixedInitializer>"}
+{"name":"<[T; _] as free_functions::FixedInitializer>"}
+{"name":"<[T; _] as free_functions::FixedInitializer>"}
+{"name":"<[T; _] as free_functions::FixedInitializer>"}
+{"name":"<[T; _] as free_functions::FixedInitializer>"}
+{"name":"<[T; _] as free_functions::FixedInitializer>"}
+{"name":"<[T; _] as free_functions::FixedInitializer>"}
+{"name":"<[T; _] as free_functions::FixedInitializer>"}
+{"name":"<[T; _] as free_functions::FixedInitializer>"}
+{"name":"iterators::<impl std::marker::Send for Iter<'a, A, D>>"}
+{"name":"iterators::<impl std::marker::Sync for Iter<'a, A, D>>"}
+{"name":"iterators::<impl std::marker::Send for IndexedIter<'a, A, D>>"}
+{"name":"iterators::<impl std::marker::Sync for IndexedIter<'a, A, D>>"}
+{"name":"<iterators::InnerIter<'a, A, D> as std::marker::Send>"}
+{"name":"<iterators::InnerIter<'a, A, D> as std::marker::Sync>"}
+{"name":"<iterators::AxisIter<'a, A, D> as std::marker::Send>"}
+{"name":"<iterators::AxisIter<'a, A, D> as std::marker::Sync>"}
+{"name":"<iterators::AxisChunksIter<'a, A, D> as std::marker::Send>"}
+{"name":"<iterators::AxisChunksIter<'a, A, D> as std::marker::Sync>"}
+{"name":"iterators::<impl std::marker::Send for IterMut<'a, A, D>>"}
+{"name":"iterators::<impl std::marker::Sync for IterMut<'a, A, D>>"}
+{"name":"iterators::<impl std::marker::Send for IndexedIterMut<'a, A, D>>"}
+{"name":"iterators::<impl std::marker::Sync for IndexedIterMut<'a, A, D>>"}
+{"name":"<iterators::InnerIterMut<'a, A, D> as std::marker::Send>"}
+{"name":"<iterators::InnerIterMut<'a, A, D> as std::marker::Sync>"}
+{"name":"<iterators::AxisIterMut<'a, A, D> as std::marker::Send>"}
+{"name":"<iterators::AxisIterMut<'a, A, D> as std::marker::Sync>"}
+{"name":"<iterators::AxisChunksIterMut<'a, A, D> as std::marker::Send>"}
+{"name":"<iterators::AxisChunksIterMut<'a, A, D> as std::marker::Sync>"}
+{"name":"<linspace::Linspace<F> as iterators::TrustedIterator>"}
+{"name":"<Iter<'a, A, D> as iterators::TrustedIterator>"}
+{"name":"<std::iter::Map<I, F> as iterators::TrustedIterator>"}
+{"name":"<std::slice::Iter<'a, A> as iterators::TrustedIterator>"}
+{"name":"<std::ops::Range<usize> as iterators::TrustedIterator>"}
+{"name":"<indexes::Indices<D> as iterators::TrustedIterator>"}

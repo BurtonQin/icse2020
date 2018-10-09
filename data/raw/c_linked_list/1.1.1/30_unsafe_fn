@@ -1,0 +1,2 @@
+{"name":"<CLinkedListMut<T, N>>::from_ptr","from_trait":true,"arguments":[{"type_info":"type(*mut T)","kind":"RawPointer"}],"sources":[]}
+{"name":"<CLinkedListConst<T, N>>::from_ptr","from_trait":true,"arguments":[{"type_info":"type(*const T)","kind":"RawPointer"}],"sources":[]}

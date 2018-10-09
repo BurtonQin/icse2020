@@ -1,0 +1,9 @@
+{"name":"<buffer::Raw<R>>::len","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<dummy::DummyMapping as mapping::Gate<dummy::DummyResources>>::set","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<dummy::DummyMapping as mapping::Gate<dummy::DummyResources>>::slice","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<dummy::DummyMapping as mapping::Gate<dummy::DummyResources>>::mut_slice","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<mapping::Raw<R>>::take_access","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<mapping::Raw<R>>::release_access","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<mapping::Raw<R>>::use_access","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/gfx_core-0.7.2/src/mapping.rs\") line 98","kind":"DerefRawPointer"}]}
+{"name":"mapping::read","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/gfx_core-0.7.2/src/mapping.rs\") line 164","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/gfx_core-0.7.2/src/mapping.rs\") line 164","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"mapping::write","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/gfx_core-0.7.2/src/mapping.rs\") line 178","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/gfx_core-0.7.2/src/mapping.rs\") line 178","kind":{"UnsafeFnCall":"Rust"}}]}

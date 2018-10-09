@@ -1,0 +1,6 @@
+{"name":"decode::to_byte_ptr","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/decode.rs\") line 248","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"decode::to_byte_ptr_mut","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/decode.rs\") line 253","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"decode::FloatUnion::as_f32_mut","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/decode.rs\") line 498","kind":"DerefRawPointer"}]}
+{"name":"decode::FloatUnion::as_f32","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/decode.rs\") line 502","kind":"DerefRawPointer"}]}
+{"name":"decode::FloatUnion::as_u32_mut","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/decode.rs\") line 506","kind":"DerefRawPointer"}]}
+{"name":"decode::FloatUnion::as_u32","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/decode.rs\") line 510","kind":"DerefRawPointer"}]}

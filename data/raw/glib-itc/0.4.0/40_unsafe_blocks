@@ -1,0 +1,4 @@
+{"sources":[["56",[{"loc":"file: Real(\"src/unix.rs\") line 37","kind":{"UnsafeFnCall":"C"}},{"loc":"file: Real(\"src/unix.rs\") line 38","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["121",[{"loc":"file: Real(\"src/unix.rs\") line 53","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["318",[{"loc":"file: Real(\"src/lib.rs\") line 85","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["350",[{"loc":"file: Real(\"src/lib.rs\") line 88","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["372",[{"loc":"file: Real(\"src/lib.rs\") line 94","kind":{"UnsafeFnCall":"C"}}]],["381",[{"loc":"file: Real(\"src/lib.rs\") line 95","kind":{"UnsafeFnCall":"C"}}]]]}

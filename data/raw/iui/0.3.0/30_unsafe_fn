@@ -1,0 +1,28 @@
+{"name":"controls::basic::Label::from_raw","from_trait":true,"arguments":[{"type_info":"type(*mut uiLabel)","kind":"RawPointer"}],"sources":[]}
+{"name":"controls::basic::Button::from_raw","from_trait":true,"arguments":[{"type_info":"type(*mut uiButton)","kind":"RawPointer"}],"sources":[]}
+{"name":"controls::window::WINDOWS::__getit","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__thread_local_inner\") line 16","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"controls::window::Window::from_raw","from_trait":true,"arguments":[{"type_info":"type(*mut uiWindow)","kind":"RawPointer"}],"sources":[]}
+{"name":"controls::window::Window::destroy_all_windows","from_trait":true,"arguments":[],"sources":[]}
+{"name":"controls::window::Window::destroy","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/controls/window.rs\") line 182","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"controls::layout::VerticalBox::from_raw","from_trait":true,"arguments":[{"type_info":"type(*mut uiBox)","kind":"RawPointer"}],"sources":[]}
+{"name":"controls::layout::HorizontalBox::from_raw","from_trait":true,"arguments":[{"type_info":"type(*mut uiBox)","kind":"RawPointer"}],"sources":[]}
+{"name":"controls::layout::TabGroup::from_raw","from_trait":true,"arguments":[{"type_info":"type(*mut uiTab)","kind":"RawPointer"}],"sources":[]}
+{"name":"controls::layout::Group::from_raw","from_trait":true,"arguments":[{"type_info":"type(*mut uiGroup)","kind":"RawPointer"}],"sources":[]}
+{"name":"controls::layout::HorizontalSeparator::from_raw","from_trait":true,"arguments":[{"type_info":"type(*mut uiSeparator)","kind":"RawPointer"}],"sources":[]}
+{"name":"controls::layout::Spacer::from_raw","from_trait":true,"arguments":[{"type_info":"type(*mut uiBox)","kind":"RawPointer"}],"sources":[]}
+{"name":"controls::layout::LayoutGrid::from_raw","from_trait":true,"arguments":[{"type_info":"type(*mut uiGrid)","kind":"RawPointer"}],"sources":[]}
+{"name":"controls::entry::Spinbox::from_raw","from_trait":true,"arguments":[{"type_info":"type(*mut uiSpinbox)","kind":"RawPointer"}],"sources":[]}
+{"name":"controls::entry::Slider::from_raw","from_trait":true,"arguments":[{"type_info":"type(*mut uiSlider)","kind":"RawPointer"}],"sources":[]}
+{"name":"controls::entry::Entry::from_raw","from_trait":true,"arguments":[{"type_info":"type(*mut uiEntry)","kind":"RawPointer"}],"sources":[]}
+{"name":"controls::entry::MultilineEntry::from_raw","from_trait":true,"arguments":[{"type_info":"type(*mut uiMultilineEntry)","kind":"RawPointer"}],"sources":[]}
+{"name":"controls::entry::Combobox::from_raw","from_trait":true,"arguments":[{"type_info":"type(*mut uiCombobox)","kind":"RawPointer"}],"sources":[]}
+{"name":"controls::entry::Checkbox::from_raw","from_trait":true,"arguments":[{"type_info":"type(*mut uiCheckbox)","kind":"RawPointer"}],"sources":[]}
+{"name":"controls::Control::from_ui_control","from_trait":true,"arguments":[{"type_info":"type(*mut uiControl)","kind":"RawPointer"}],"sources":[]}
+{"name":"controls::Control::destroy","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/controls/mod.rs\") line 61","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"controls::<impl ui::UI>::set_parent_of","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/controls/mod.rs\") line 82","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"draw::brush::BrushRef::ptr","from_trait":true,"arguments":[],"sources":[]}
+{"name":"draw::context::DrawContext::from_ui_draw_context","from_trait":true,"arguments":[{"type_info":"type(*mut uiDrawContext)","kind":"RawPointer"}],"sources":[]}
+{"name":"draw::strokeparams::StrokeParamsRef::ptr","from_trait":true,"arguments":[],"sources":[]}
+{"name":"ffi_tools::set_initialized","from_trait":false,"arguments":[],"sources":[]}
+{"name":"ffi_tools::unset_initialized","from_trait":false,"arguments":[],"sources":[]}
+{"name":"menus::MenuItem::from_raw","from_trait":true,"arguments":[{"type_info":"type(*mut uiMenuItem)","kind":"RawPointer"}],"sources":[]}

@@ -1,0 +1,10 @@
+{"name":"<RadosCtx as std::marker::Send>"}
+{"name":"<RadosCtx as std::marker::Sync>"}
+{"name":"<ops::RadosWriteCompletion as std::marker::Send>"}
+{"name":"<ops::RadosWriteCompletion as std::marker::Sync>"}
+{"name":"<ops::RadosRemoveCompletion as std::marker::Send>"}
+{"name":"<ops::RadosRemoveCompletion as std::marker::Sync>"}
+{"name":"<ops::RadosReadCompletion as std::marker::Send>"}
+{"name":"<ops::RadosReadCompletion as std::marker::Sync>"}
+{"name":"<ops::RadosStatCompletion as std::marker::Send>"}
+{"name":"<ops::RadosStatCompletion as std::marker::Sync>"}

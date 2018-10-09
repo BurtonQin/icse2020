@@ -1,0 +1,4 @@
+{"name":"class::traits::object::Object::to","from_trait":false,"arguments":[],"sources":[]}
+{"name":"util::cstr_to_string","from_trait":false,"arguments":[{"type_info":"type(*const c_char)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/util.rs\") line 9","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"util::cstr_to_str","from_trait":false,"arguments":[{"type_info":"type(*const c_char)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/util.rs\") line 13","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"util::ptr_to_data","from_trait":false,"arguments":[{"type_info":"type(*mut c_void)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/util.rs\") line 64","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/util.rs\") line 65","kind":{"UnsafeFnCall":"Rust"}}]}

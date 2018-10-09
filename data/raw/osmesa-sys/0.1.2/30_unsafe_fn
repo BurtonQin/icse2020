@@ -1,0 +1,12 @@
+{"name":"OSMesaColorClamp","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"shared_library\") line 28","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"OSMesaCreateContext","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"shared_library\") line 28","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"OSMesaCreateContextExt","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"shared_library\") line 28","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"OSMesaCreateContextAttribs","from_trait":false,"arguments":[{"type_info":"type(*const c_int)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"shared_library\") line 28","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"OSMesaDestroyContext","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"shared_library\") line 28","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"OSMesaGetColorBuffer","from_trait":false,"arguments":[{"type_info":"type(*mut c_int)","kind":"RawPointer"},{"type_info":"type(*mut c_int)","kind":"RawPointer"},{"type_info":"type(*mut c_int)","kind":"RawPointer"},{"type_info":"type(*mut *mut c_void)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"shared_library\") line 28","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"OSMesaGetCurrentContext","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"shared_library\") line 28","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"OSMesaGetDepthBuffer","from_trait":false,"arguments":[{"type_info":"type(*mut c_int)","kind":"RawPointer"},{"type_info":"type(*mut c_int)","kind":"RawPointer"},{"type_info":"type(*mut c_int)","kind":"RawPointer"},{"type_info":"type(*mut *mut c_void)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"shared_library\") line 28","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"OSMesaGetIntegerv","from_trait":false,"arguments":[{"type_info":"type(*mut c_int)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"shared_library\") line 28","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"OSMesaGetProcAddress","from_trait":false,"arguments":[{"type_info":"type(*const c_char)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"shared_library\") line 28","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"OSMesaMakeCurrent","from_trait":false,"arguments":[{"type_info":"type(*mut c_void)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"shared_library\") line 28","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"OSMesaPixelStore","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"shared_library\") line 28","kind":{"UnsafeFnCall":"C"}}]}

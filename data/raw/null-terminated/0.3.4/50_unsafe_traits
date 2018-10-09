@@ -1,0 +1,6 @@
+{"name":"<impl core::marker::Send for Opaque>"}
+{"name":"<impl core::marker::Sync for Opaque>"}
+{"name":"<Iter<'a, T> as core::marker::Send>"}
+{"name":"<Iter<'a, T> as core::marker::Sync>"}
+{"name":"<IterMut<'a, T> as core::marker::Send>"}
+{"name":"<IterMut<'a, T> as core::marker::Sync>"}

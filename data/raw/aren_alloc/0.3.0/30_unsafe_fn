@@ -1,0 +1,1 @@
+{"name":"Pool::recycle","from_trait":true,"arguments":[{"type_info":"type(*mut Node)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 126","kind":{"UnsafeFnCall":"Rust"}}]}

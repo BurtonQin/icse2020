@@ -1,0 +1,3 @@
+{"name":"<pg::connection::raw::RawResult as std::marker::Send>"}
+{"name":"<pg::connection::raw::RawResult as std::marker::Sync>"}
+{"name":"<pg::connection::PgConnection as std::marker::Send>"}

@@ -1,0 +1,14 @@
+{"name":"<raw_mutex::RawMutex as lock_api::RawMutex>"}
+{"name":"<raw_mutex::RawMutex as lock_api::RawMutexFair>"}
+{"name":"<raw_mutex::RawMutex as lock_api::RawMutexTimed>"}
+{"name":"<raw_rwlock::RawRwLock as lock_api::RawRwLock>"}
+{"name":"<raw_rwlock::RawRwLock as lock_api::RawRwLockFair>"}
+{"name":"<raw_rwlock::RawRwLock as lock_api::RawRwLockDowngrade>"}
+{"name":"<raw_rwlock::RawRwLock as lock_api::RawRwLockTimed>"}
+{"name":"<raw_rwlock::RawRwLock as lock_api::RawRwLockRecursive>"}
+{"name":"<raw_rwlock::RawRwLock as lock_api::RawRwLockRecursiveTimed>"}
+{"name":"<raw_rwlock::RawRwLock as lock_api::RawRwLockUpgrade>"}
+{"name":"<raw_rwlock::RawRwLock as lock_api::RawRwLockUpgradeFair>"}
+{"name":"<raw_rwlock::RawRwLock as lock_api::RawRwLockUpgradeDowngrade>"}
+{"name":"<raw_rwlock::RawRwLock as lock_api::RawRwLockUpgradeTimed>"}
+{"name":"<remutex::RawThreadId as lock_api::GetThreadId>"}

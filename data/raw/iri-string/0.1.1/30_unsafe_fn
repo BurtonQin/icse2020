@@ -1,0 +1,14 @@
+{"name":"<absolute::AbsoluteIriStr as opaque_typedef::OpaqueTypedefUnsized>::from_inner_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/absolute.rs\") line 155","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"<absolute::AbsoluteIriStr as opaque_typedef::OpaqueTypedefUnsized>::from_inner_unchecked_mut","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/absolute.rs\") line 155","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"<absolute::AbsoluteIriStr as opaque_typedef::OpaqueTypedefUnsized>::as_inner_mut","from_trait":true,"arguments":[],"sources":[]}
+{"name":"absolute::AbsoluteIriStr::from_str_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/absolute.rs\") line 210","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<absolute::AbsoluteIriString as opaque_typedef::OpaqueTypedef>::from_inner_unchecked","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<absolute::AbsoluteIriString as opaque_typedef::OpaqueTypedef>::as_inner_mut","from_trait":true,"arguments":[],"sources":[]}
+{"name":"absolute::AbsoluteIriString::from_string_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/absolute.rs\") line 346","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<relative::RelativeIriStr as opaque_typedef::OpaqueTypedefUnsized>::from_inner_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/relative.rs\") line 141","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"<relative::RelativeIriStr as opaque_typedef::OpaqueTypedefUnsized>::from_inner_unchecked_mut","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/relative.rs\") line 141","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"<relative::RelativeIriStr as opaque_typedef::OpaqueTypedefUnsized>::as_inner_mut","from_trait":true,"arguments":[],"sources":[]}
+{"name":"relative::RelativeIriStr::from_str_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/relative.rs\") line 186","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<relative::RelativeIriString as opaque_typedef::OpaqueTypedef>::from_inner_unchecked","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<relative::RelativeIriString as opaque_typedef::OpaqueTypedef>::as_inner_mut","from_trait":true,"arguments":[],"sources":[]}
+{"name":"relative::RelativeIriString::new_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/relative.rs\") line 288","kind":{"UnsafeFnCall":"Rust"}}]}

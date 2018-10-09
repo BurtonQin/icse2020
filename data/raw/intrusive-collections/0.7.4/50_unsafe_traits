@@ -1,0 +1,16 @@
+{"name":"<&'a T as intrusive_pointer::IntrusivePointer<T>>"}
+{"name":"<unsafe_ref::UnsafeRef<T> as intrusive_pointer::IntrusivePointer<T>>"}
+{"name":"<alloc::boxed::Box<T> as intrusive_pointer::IntrusivePointer<T>>"}
+{"name":"<alloc::rc::Rc<T> as intrusive_pointer::IntrusivePointer<T>>"}
+{"name":"<alloc::sync::Arc<T> as intrusive_pointer::IntrusivePointer<T>>"}
+{"name":"<unsafe_ref::UnsafeRef<T> as core::marker::Send>"}
+{"name":"<unsafe_ref::UnsafeRef<T> as core::marker::Sync>"}
+{"name":"<linked_list::Link as core::marker::Send>"}
+{"name":"<linked_list::LinkedList<A> as core::marker::Sync>"}
+{"name":"<linked_list::LinkedList<A> as core::marker::Send>"}
+{"name":"<rbtree::Link as core::marker::Send>"}
+{"name":"<rbtree::RBTree<A> as core::marker::Sync>"}
+{"name":"<rbtree::RBTree<A> as core::marker::Send>"}
+{"name":"<singly_linked_list::Link as core::marker::Send>"}
+{"name":"<singly_linked_list::SinglyLinkedList<A> as core::marker::Sync>"}
+{"name":"<singly_linked_list::SinglyLinkedList<A> as core::marker::Send>"}

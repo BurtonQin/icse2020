@@ -1,0 +1,9 @@
+{"name":"<deque::Worker<T> as std::marker::Send>"}
+{"name":"<deque::Stealer<T> as std::marker::Send>"}
+{"name":"<deque::Stealer<T> as std::marker::Sync>"}
+{"name":"<epoch::atomic::Atomic<T> as std::marker::Send>"}
+{"name":"<epoch::atomic::Atomic<T> as std::marker::Sync>"}
+{"name":"<epoch::garbage::Garbage as std::marker::Send>"}
+{"name":"<epoch::garbage::Garbage as std::marker::Sync>"}
+{"name":"<stack::Stack<T> as std::marker::Send>"}
+{"name":"<stack::Stack<T> as std::marker::Sync>"}

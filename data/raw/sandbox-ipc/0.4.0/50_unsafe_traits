@@ -1,0 +1,10 @@
+{"name":"<sync::Mutex as std::marker::Send>"}
+{"name":"<sync::Mutex as std::marker::Sync>"}
+{"name":"<platform::sharedmem::SharedMem as std::marker::Send>"}
+{"name":"<platform::sharedmem::SharedMem as std::marker::Sync>"}
+{"name":"<platform::sharedmem::SharedMemMap as std::marker::Send>"}
+{"name":"<platform::sharedmem::SharedMemMap as std::marker::Sync>"}
+{"name":"<platform::sync::Mutex as std::marker::Send>"}
+{"name":"<platform::sync::Mutex as std::marker::Sync>"}
+{"name":"<platform::Cmsg as std::marker::Send>"}
+{"name":"<platform::Cmsg as std::marker::Sync>"}

@@ -1,0 +1,3 @@
+{"name":"<steps::check_errors::CheckErrorsStepFactory::analyse_source_line::ERR_CODE_REGEX as lazy_static::Deref>::deref::__stability","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__lazy_static_internal\") line 13","kind":"Static"}]}
+{"name":"<steps::check_errors::CheckErrorsStepFactory::analyse_source_line::MESSAGE_REGEX as lazy_static::Deref>::deref::__stability","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__lazy_static_internal\") line 13","kind":"Static"}]}
+{"name":"<steps::check_errors::CheckErrorsStepFactory::analyse_source_line::GLOBAL_MESSAGE_REGEX as lazy_static::Deref>::deref::__stability","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__lazy_static_internal\") line 13","kind":"Static"}]}

@@ -1,0 +1,5 @@
+{"sources":[["64",[{"loc":"file: Real(\"src/imgbuf.rs\") line 17","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["92",[{"loc":"file: Real(\"src/imgbuf.rs\") line 26","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["1292",[{"loc":"file: Real(\"src/mask.rs\") line 72","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/mask.rs\") line 73","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["7170",[{"loc":"file: Real(\"src/fig.rs\") line 24","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["7181",[{"loc":"file: Real(\"src/fig.rs\") line 24","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["5997",[{"loc":"file: Real(\"src/raster.rs\") line 50","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/raster.rs\") line 51","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}

@@ -1,0 +1,13 @@
+{"sources":[["1925",[{"loc":"file: Real(\"src/broadcast/mod.rs\") line 9","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["1936",[{"loc":"file: Real(\"src/broadcast/mod.rs\") line 9","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["1994",[{"loc":"file: Real(\"src/broadcast/mod.rs\") line 9","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["2005",[{"loc":"file: Real(\"src/broadcast/mod.rs\") line 9","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["574",[{"loc":"file: Real(\"src/mpmc/mutex_linked_list.rs\") line 80","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/mpmc/mutex_linked_list.rs\") line 85","kind":"DerefRawPointer"}]]]}
+{"sources":[["616",[{"loc":"file: Real(\"src/mpmc/mutex_linked_list.rs\") line 95","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/mpmc/mutex_linked_list.rs\") line 98","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/mpmc/mutex_linked_list.rs\") line 99","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/mpmc/mutex_linked_list.rs\") line 100","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/mpmc/mutex_linked_list.rs\") line 102","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["684",[{"loc":"file: Real(\"src/mpmc/mutex_linked_list.rs\") line 116","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/mpmc/mutex_linked_list.rs\") line 117","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["937",[{"loc":"file: Real(\"src/mpmc/mpmc_bounded_queue.rs\") line 115","kind":"DerefRawPointer"}]],["973",[{"loc":"file: Real(\"src/mpmc/mpmc_bounded_queue.rs\") line 122","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/mpmc/mpmc_bounded_queue.rs\") line 123","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/mpmc/mpmc_bounded_queue.rs\") line 122","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/mpmc/mpmc_bounded_queue.rs\") line 122","kind":"DerefRawPointer"}]]]}
+{"sources":[["1052",[{"loc":"file: Real(\"src/mpmc/mpmc_bounded_queue.rs\") line 147","kind":"DerefRawPointer"}]],["1090",[{"loc":"file: Real(\"src/mpmc/mpmc_bounded_queue.rs\") line 153","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/mpmc/mpmc_bounded_queue.rs\") line 154","kind":"DerefRawPointer"}]]]}
+{"sources":[["1596",[{"loc":"file: Real(\"src/mpmc/mod.rs\") line 29","kind":"DerefRawPointer"}]]]}
+{"sources":[["1620",[{"loc":"file: Real(\"src/mpmc/mod.rs\") line 37","kind":"DerefRawPointer"}]]]}
+{"sources":[["1645",[{"loc":"file: Real(\"src/mpmc/mod.rs\") line 47","kind":"DerefRawPointer"}]]]}
+{"sources":[["1685",[{"loc":"file: Real(\"src/mpmc/mod.rs\") line 66","kind":"DerefRawPointer"}]]]}
+{"sources":[["1708",[{"loc":"file: Real(\"src/mpmc/mod.rs\") line 74","kind":"DerefRawPointer"}]]]}
+{"sources":[["1733",[{"loc":"file: Real(\"src/mpmc/mod.rs\") line 83","kind":"DerefRawPointer"}]]]}

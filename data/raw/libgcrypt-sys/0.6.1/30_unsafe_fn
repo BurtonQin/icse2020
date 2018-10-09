@@ -1,0 +1,19 @@
+{"name":"funcs::gcry_fips_mode_active","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"funcs.rs\") line 373","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"funcs::gcry_fast_random_poll","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"funcs.rs\") line 377","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"funcs::gcry_cipher_test_algo","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"funcs.rs\") line 382","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"funcs::gcry_md_test_algo","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"funcs.rs\") line 386","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"funcs::gcry_mac_test_algo","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"funcs.rs\") line 390","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"funcs::gcry_pk_test_algo","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"funcs.rs\") line 394","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"funcs::gcry_cipher_reset","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"funcs.rs\") line 399","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"funcs::gcry_cipher_sync","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"funcs.rs\") line 403","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"funcs::gcry_cipher_cts","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"funcs.rs\") line 407","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"funcs::gcry_cipher_set_sbox","from_trait":false,"arguments":[{"type_info":"type(*const c_char)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"funcs.rs\") line 416","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"funcs::gcry_cipher_final","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"funcs.rs\") line 420","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"funcs::gcry_md_final","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"funcs.rs\") line 425","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"funcs::gcry_md_get_asnoid","from_trait":false,"arguments":[{"type_info":"type(*mut c_void)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"funcs.rs\") line 429","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"funcs::gcry_mac_reset","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"funcs.rs\") line 434","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"funcs::gcrympi_const_one","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"funcs.rs\") line 439","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"funcs::gcrympi_const_two","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"funcs.rs\") line 444","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"funcs::gcrympi_const_three","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"funcs.rs\") line 449","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"funcs::gcrympi_const_four","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"funcs.rs\") line 454","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"funcs::gcrympi_const_eight","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"funcs.rs\") line 459","kind":{"UnsafeFnCall":"C"}}]}

@@ -1,0 +1,69 @@
+{"name":"<() as EnumLike>"}
+{"name":"<bool as EnumLike>"}
+{"name":"<std::option::Option<T> as EnumLike>"}
+{"name":"<std::result::Result<T, S> as EnumLike>"}
+{"name":"<(T,) as EnumLike>"}
+{"name":"<(T, S) as EnumLike>"}
+{"name":"<(A30, A29, A28, A27, A26, A25, A24, A23, A22, A21, A20, A19, A18, A17, A16, A15, A14, A13, A12, A11, A10, A9, A8, A7, A6, A5, A4, A3, A2, A1, A0, A31) as EnumLike>"}
+{"name":"<(A29, A28, A27, A26, A25, A24, A23, A22, A21, A20, A19, A18, A17, A16, A15, A14, A13, A12, A11, A10, A9, A8, A7, A6, A5, A4, A3, A2, A1, A0, A30) as EnumLike>"}
+{"name":"<(A28, A27, A26, A25, A24, A23, A22, A21, A20, A19, A18, A17, A16, A15, A14, A13, A12, A11, A10, A9, A8, A7, A6, A5, A4, A3, A2, A1, A0, A29) as EnumLike>"}
+{"name":"<(A27, A26, A25, A24, A23, A22, A21, A20, A19, A18, A17, A16, A15, A14, A13, A12, A11, A10, A9, A8, A7, A6, A5, A4, A3, A2, A1, A0, A28) as EnumLike>"}
+{"name":"<(A26, A25, A24, A23, A22, A21, A20, A19, A18, A17, A16, A15, A14, A13, A12, A11, A10, A9, A8, A7, A6, A5, A4, A3, A2, A1, A0, A27) as EnumLike>"}
+{"name":"<(A25, A24, A23, A22, A21, A20, A19, A18, A17, A16, A15, A14, A13, A12, A11, A10, A9, A8, A7, A6, A5, A4, A3, A2, A1, A0, A26) as EnumLike>"}
+{"name":"<(A24, A23, A22, A21, A20, A19, A18, A17, A16, A15, A14, A13, A12, A11, A10, A9, A8, A7, A6, A5, A4, A3, A2, A1, A0, A25) as EnumLike>"}
+{"name":"<(A23, A22, A21, A20, A19, A18, A17, A16, A15, A14, A13, A12, A11, A10, A9, A8, A7, A6, A5, A4, A3, A2, A1, A0, A24) as EnumLike>"}
+{"name":"<(A22, A21, A20, A19, A18, A17, A16, A15, A14, A13, A12, A11, A10, A9, A8, A7, A6, A5, A4, A3, A2, A1, A0, A23) as EnumLike>"}
+{"name":"<(A21, A20, A19, A18, A17, A16, A15, A14, A13, A12, A11, A10, A9, A8, A7, A6, A5, A4, A3, A2, A1, A0, A22) as EnumLike>"}
+{"name":"<(A20, A19, A18, A17, A16, A15, A14, A13, A12, A11, A10, A9, A8, A7, A6, A5, A4, A3, A2, A1, A0, A21) as EnumLike>"}
+{"name":"<(A19, A18, A17, A16, A15, A14, A13, A12, A11, A10, A9, A8, A7, A6, A5, A4, A3, A2, A1, A0, A20) as EnumLike>"}
+{"name":"<(A18, A17, A16, A15, A14, A13, A12, A11, A10, A9, A8, A7, A6, A5, A4, A3, A2, A1, A0, A19) as EnumLike>"}
+{"name":"<(A17, A16, A15, A14, A13, A12, A11, A10, A9, A8, A7, A6, A5, A4, A3, A2, A1, A0, A18) as EnumLike>"}
+{"name":"<(A16, A15, A14, A13, A12, A11, A10, A9, A8, A7, A6, A5, A4, A3, A2, A1, A0, A17) as EnumLike>"}
+{"name":"<(A15, A14, A13, A12, A11, A10, A9, A8, A7, A6, A5, A4, A3, A2, A1, A0, A16) as EnumLike>"}
+{"name":"<(A14, A13, A12, A11, A10, A9, A8, A7, A6, A5, A4, A3, A2, A1, A0, A15) as EnumLike>"}
+{"name":"<(A13, A12, A11, A10, A9, A8, A7, A6, A5, A4, A3, A2, A1, A0, A14) as EnumLike>"}
+{"name":"<(A12, A11, A10, A9, A8, A7, A6, A5, A4, A3, A2, A1, A0, A13) as EnumLike>"}
+{"name":"<(A11, A10, A9, A8, A7, A6, A5, A4, A3, A2, A1, A0, A12) as EnumLike>"}
+{"name":"<(A10, A9, A8, A7, A6, A5, A4, A3, A2, A1, A0, A11) as EnumLike>"}
+{"name":"<(A9, A8, A7, A6, A5, A4, A3, A2, A1, A0, A10) as EnumLike>"}
+{"name":"<(A8, A7, A6, A5, A4, A3, A2, A1, A0, A9) as EnumLike>"}
+{"name":"<(A7, A6, A5, A4, A3, A2, A1, A0, A8) as EnumLike>"}
+{"name":"<(A6, A5, A4, A3, A2, A1, A0, A7) as EnumLike>"}
+{"name":"<(A5, A4, A3, A2, A1, A0, A6) as EnumLike>"}
+{"name":"<(A4, A3, A2, A1, A0, A5) as EnumLike>"}
+{"name":"<(A3, A2, A1, A0, A4) as EnumLike>"}
+{"name":"<(A2, A1, A0, A3) as EnumLike>"}
+{"name":"<(A1, A0, A2) as EnumLike>"}
+{"name":"<[T; _] as EnumLike>"}
+{"name":"<[A; _] as EnumLike>"}
+{"name":"<[A; _] as EnumLike>"}
+{"name":"<[A; _] as EnumLike>"}
+{"name":"<[A; _] as EnumLike>"}
+{"name":"<[A; _] as EnumLike>"}
+{"name":"<[A; _] as EnumLike>"}
+{"name":"<[A; _] as EnumLike>"}
+{"name":"<[A; _] as EnumLike>"}
+{"name":"<[A; _] as EnumLike>"}
+{"name":"<[A; _] as EnumLike>"}
+{"name":"<[A; _] as EnumLike>"}
+{"name":"<[A; _] as EnumLike>"}
+{"name":"<[A; _] as EnumLike>"}
+{"name":"<[A; _] as EnumLike>"}
+{"name":"<[A; _] as EnumLike>"}
+{"name":"<[A; _] as EnumLike>"}
+{"name":"<[A; _] as EnumLike>"}
+{"name":"<[A; _] as EnumLike>"}
+{"name":"<[A; _] as EnumLike>"}
+{"name":"<[A; _] as EnumLike>"}
+{"name":"<[A; _] as EnumLike>"}
+{"name":"<[A; _] as EnumLike>"}
+{"name":"<[A; _] as EnumLike>"}
+{"name":"<[A; _] as EnumLike>"}
+{"name":"<[A; _] as EnumLike>"}
+{"name":"<[A; _] as EnumLike>"}
+{"name":"<[A; _] as EnumLike>"}
+{"name":"<[A; _] as EnumLike>"}
+{"name":"<[A; _] as EnumLike>"}
+{"name":"<[A; _] as EnumLike>"}
+{"name":"<[A; _] as EnumLike>"}
+{"name":"<[A; _] as EnumLike>"}
