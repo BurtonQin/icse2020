@@ -1,25 +1,4 @@
-#[derive(Serialize, Deserialize, Debug)]
-pub enum Abi {
-    Cdecl,
-    Stdcall,
-    Fastcall,
-    Vectorcall,
-    Thiscall,
-    Aapcs,
-    Win64,
-    SysV64,
-    PtxKernel,
-    Msp430Interrupt,
-    X86Interrupt,
-    AmdGpuKernel,
-    Rust,
-    C,
-    System,
-    RustIntrinsic,
-    RustCall,
-    PlatformIntrinsic,
-    Unadjusted,
-}
+use Abi;
 
 #[derive(Serialize, Deserialize, Debug)]
 pub enum FnCallInfo {

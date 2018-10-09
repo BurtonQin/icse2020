@@ -1,4 +1,5 @@
 use std::collections::HashMap;
+use std::fmt::Write;
 
 use syntax::ast::NodeId;
 use rustc::hir;
@@ -6,10 +7,12 @@ use rustc::hir::def_id::DefId;
 use rustc::mir::visit::Visitor;
 use rustc::mir::{BasicBlock, Location, Operand, Terminator, TerminatorKind, Mir};
 use rustc::ty::TyKind;
+use rustc::ty;
 
 use results::implicit::UnsafeInBody;
 use rustc::lint::LateContext;
 use implicit_unsafe::deps;
+use get_fn_path;
 
 
 pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, fns: &Vec<NodeId>, optimistic: bool)
@@ -30,15 +33,15 @@ pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, fns: &Vec<Node
                 let body = cx.tcx.hir.body(body_id);
                 hir::intravisit::walk_body(&mut body_visitor, body);
                 if body_visitor.has_unsafe {
-                    let mut info = UnsafeInBody::new(::get_node_name(cx, fn_id), true);
+                    let mut info = UnsafeInBody::new(get_fn_path(cx,fn_def_id), true);
                     with_unsafe.insert(fn_def_id, info);
                 } else {
                     // collect calls
                     let mir = &mut cx.tcx.optimized_mir(fn_def_id);
-                    let mut calls_visitor = CallsVisitor::new(&cx,mir);
+                    let mut calls_visitor = CallsVisitor::new(&cx,mir,fn_def_id);
                     calls_visitor.visit_mir(mir);
                     if !optimistic && calls_visitor.uses_fn_ptr {
-                        let mut info = UnsafeInBody::new(::get_node_name(cx, fn_id), true);
+                        let mut info = UnsafeInBody::new(get_fn_path(cx,fn_def_id), true);
                         with_unsafe.insert(fn_def_id, info);
                     } else {
                         call_graph.insert(fn_def_id, calls_visitor.calls);
@@ -54,16 +57,33 @@ pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, fns: &Vec<Node
         if let None = with_unsafe.get(def_id) {
             for calee_def_id in calls.iter() {
                 if !calee_def_id.is_local() {
-                    external_calls.insert(cx
-                                              .tcx
-                                              .item_path_str(*calee_def_id)
-                                              .to_string(), *calee_def_id);
+
+                    info!("external call def id: {:?}", calee_def_id);
+
+                    external_calls.insert(get_fn_path(cx,*calee_def_id), *calee_def_id);
                 }
             }
         }
     }
     let implicit_external =
         deps::load(cx, &external_calls, optimistic);
+    for (def_id, calls) in call_graph.iter() {
+        if let None = with_unsafe.get(def_id) {
+            for calee_def_id in calls.iter() {
+                if !calee_def_id.is_local() {
+                    if let Some (ub) = implicit_external.get(calee_def_id) {
+                        if ub.has_unsafe {
+                            with_unsafe.insert(*def_id,
+                                               UnsafeInBody::new(
+                                                   get_fn_path(cx,*def_id),
+                                                   true));
+                            break;
+                        }
+                    }
+                }
+            }
+        }
+    }
     // propagate crate local unsafety
     let mut changes = true;
     while changes {
@@ -80,8 +100,7 @@ pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, fns: &Vec<Node
                                 true
                             }
                         })  {
-                    let info = UnsafeInBody::new(::get_node_name(cx,
-                                                                 cx.tcx.hir.def_index_to_node_id(def_id.index)), true);
+                    let info = UnsafeInBody::new(get_fn_path(cx,*def_id), true);
                     with_unsafe.insert(*def_id, info);
                     changes = true;
                 }
@@ -95,7 +114,7 @@ pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, fns: &Vec<Node
             let mut ub = UnsafeInBody::new(elt.fn_name.clone(), elt.has_unsafe);
             result.push(ub);
         } else {
-            result.push(UnsafeInBody::new(::get_node_name(cx, cx.tcx.hir.def_index_to_node_id(fn_def_id.index)), false));
+            result.push(UnsafeInBody::new(get_fn_path(cx,fn_def_id), false));
         }
     }
     result
@@ -105,13 +124,14 @@ pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, fns: &Vec<Node
 struct CallsVisitor<'a, 'tcx: 'a> {
     cx: &'a LateContext<'a, 'tcx>,
     mir: &'tcx Mir<'tcx>,
+    fn_def_id: DefId,
     calls: Vec<DefId>,
     uses_fn_ptr: bool,
 }
 
 impl<'a, 'tcx> CallsVisitor<'a, 'tcx> {
-    fn new(cx: &'a LateContext<'a, 'tcx>, mir: &'tcx Mir<'tcx>,) -> Self {
-        CallsVisitor { cx, mir, calls: Vec::new(),  uses_fn_ptr: false}
+    fn new(cx: &'a LateContext<'a, 'tcx>, mir: &'tcx Mir<'tcx>, fn_def_id: DefId) -> Self {
+        CallsVisitor { cx, mir, fn_def_id, calls: Vec::new(),  uses_fn_ptr: false}
     }
 }
 
@@ -128,20 +148,40 @@ impl<'a, 'tcx> Visitor<'tcx> for CallsVisitor<'a, 'tcx> {
             destination: _,
             cleanup: _,
         } = terminator.kind {
-            match func.ty(&self.mir.local_decls,self.cx.tcx).sty {
-                TyKind::FnDef(callee_def_id, _substs) => {
-                    match self.cx.tcx.fn_sig(callee_def_id).unsafety() {
-                        hir::Unsafety::Unsafe => {} // do nothing; there must be a surrounding unsafe block
-                        hir::Unsafety::Normal => { self.calls.push(callee_def_id); }
-                    };
-                }
-                TyKind::FnPtr(ref poly_sig) => {
+            match func {
+                Operand::Constant(constant) =>
+                    if let TyKind::FnDef(callee_def_id, substs) = constant.literal.ty.sty {
+                        let param_env = self.cx.tcx.param_env(self.fn_def_id);
+                        if let Some(instance) = ty::Instance::resolve(self.cx.tcx, param_env, callee_def_id, substs) {
+                            match instance.def {
+                                ty::InstanceDef::Item(def_id)
+                                | ty::InstanceDef::Intrinsic(def_id)
+                                | ty::InstanceDef::Virtual(def_id, _)
+                                | ty::InstanceDef::CloneShim(def_id,_) => {
+                                    self.calls.push(def_id);
+                                }
+                                _ => error!("ty::InstanceDef:: NOT handled {:?}", instance.def),
+                            }
+                        }
+                    }
+                _ => {
                     self.uses_fn_ptr = true;
                 }
-                _ => {
-                    error ! ("TypeVariants NOT handled {:?}", func.ty(&self.mir.local_decls,self.cx.tcx).sty);
-                }
             }
+//            match func.ty(&self.mir.local_decls,self.cx.tcx).sty {
+//                TyKind::FnDef(callee_def_id, _substs) => {
+//                    match self.cx.tcx.fn_sig(callee_def_id).unsafety() {
+//                        hir::Unsafety::Unsafe => {} // do nothing; there must be a surrounding unsafe block
+//                        hir::Unsafety::Normal => { self.calls.push(callee_def_id); }
+//                    };
+//                }
+//                TyKind::FnPtr(ref poly_sig) => {
+//                    self.uses_fn_ptr = true;
+//                }
+//                _ => {
+//                    error ! ("TypeVariants NOT handled {:?}", func.ty(&self.mir.local_decls,self.cx.tcx).sty);
+//                }
+//            }
 
         }
     }
@@ -173,3 +213,4 @@ impl<'a, 'tcx> hir::intravisit::Visitor<'tcx> for UnsafeBlocksVisitorData<'tcx> 
         hir::intravisit::NestedVisitorMap::All(self.hir)
     }
 }
+

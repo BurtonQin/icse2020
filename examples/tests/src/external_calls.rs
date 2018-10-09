@@ -1,6 +1,9 @@
 use byteorder::{BigEndian, ByteOrder, LittleEndian, ReadBytesExt};
 use std::io::Cursor;
 
+use rand::{thread_rng, Rng};
+use rand::RngCore;
+
 pub fn use_trait() {
     // let mut buf = [0; 4];
     // LittleEndian::write_u32(&mut buf, 1_000_000);
@@ -13,4 +16,11 @@ pub fn use_trait() {
 
 pub unsafe fn unsafe_no_reason() {
     let mut i = 0; i +=1;
+}
+
+pub fn test_rand() {
+    let mut rng = thread_rng();
+    let x: u32 = rng.gen();
+    println!("{}", x);
+    let y = rng.next_u32();
 }
