@@ -12,10 +12,10 @@ res <- read.table( file="~/unsafe_analysis/analysis-data/research-questions/rq06
                    , sep='\t'
                    , comment.char = "#"
                    , quote="\\"
-                   , col.names=c("abi", "call"))
+                   , col.names=c("abi", "full_path", "name"))
 
 c_calls <-  subset( res, res$abi == "C" )
-c_calls_aggregate <- count(c_calls,'call')
+c_calls_aggregate <- count(c_calls,'full_path')
 c_summary <- quantile(c_calls_aggregate$freq, c(.50,.75,.95))
 
 intrinsics <- subset( res, res$abi == "RustIntrinsic" )

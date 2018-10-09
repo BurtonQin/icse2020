@@ -43,7 +43,7 @@ ggplot(ggdata, aes(x=value, y=ecdf)) +
   ylab("Percent of Crates") +
   labs(title="Cumulative Distribution of Unsafe Functions") +
   scale_x_continuous(
-    breaks=c(seq(0,x_max,10),x_max)
+    breaks=c(seq(0,x_max-10,10),x_max)
     , limits = c(0,x_max+1)
     , labels = comma
   ) +

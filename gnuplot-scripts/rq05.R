@@ -48,9 +48,11 @@ all_frame$names <- factor(all_frame$names, levels = all_frame$names[order(all_fr
 ggplot(all_frame, aes(x=names, y=data))+
   geom_bar(stat = "identity") +
   geom_text(aes(x = names, 
-                y = data + 0.02, label = sprintf("%1.4f%%", 100*data)
+                y = data + 0.02, label = sprintf("%1.4f%%", 100*data),
+                angle = 45
   )
   ) +
+  scale_y_continuous(limits = c(0,0.60))+
   theme (
     legend.title = element_blank(),
     axis.text.x=element_text(angle=45, hjust=1),
