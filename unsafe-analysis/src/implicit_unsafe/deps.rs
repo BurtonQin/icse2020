@@ -73,6 +73,7 @@ pub fn load_dependencies(used_crates:HashSet<String>) -> HashMap<String,CrateInf
     let mut result = HashMap::new();
     if let Ok( (packages, _resolve) ) = resolve_res {
         for package_id in packages.package_ids() {
+
             if let Ok(package) = packages.get(package_id) {
                 let crate_name = package.name().to_string().replace("-","_");
                 if let None = used_crates.get(&crate_name) {

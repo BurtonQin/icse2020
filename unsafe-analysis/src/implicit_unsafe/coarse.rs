@@ -13,7 +13,7 @@ use results::implicit::UnsafeInBody;
 use rustc::lint::LateContext;
 use implicit_unsafe::deps;
 use get_fn_path;
-
+use implicit_unsafe::UnsafeBlocksVisitorData;
 
 pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, fns: &Vec<NodeId>, optimistic: bool)
                                       -> Vec<UnsafeInBody> {
@@ -40,7 +40,7 @@ pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, fns: &Vec<Node
                     let mir = &mut cx.tcx.optimized_mir(fn_def_id);
                     let mut calls_visitor = CallsVisitor::new(&cx,mir,fn_def_id);
                     calls_visitor.visit_mir(mir);
-                    if !optimistic && calls_visitor.uses_fn_ptr {
+                    if !optimistic && (calls_visitor.uses_fn_ptr || calls_visitor.uses_unresolved_calls) {
                         let mut info = UnsafeInBody::new(get_fn_path(cx,fn_def_id), true);
                         with_unsafe.insert(fn_def_id, info);
                     } else {
@@ -51,7 +51,6 @@ pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, fns: &Vec<Node
         }
     }
     // propagate external unsafety
-    //TODO
     let mut external_calls : HashMap<String,DefId> = HashMap::new();
     for (def_id, calls) in call_graph.iter() {
         if let None = with_unsafe.get(def_id) {
@@ -127,11 +126,15 @@ struct CallsVisitor<'a, 'tcx: 'a> {
     fn_def_id: DefId,
     calls: Vec<DefId>,
     uses_fn_ptr: bool,
+    uses_unresolved_calls: bool,
 }
 
 impl<'a, 'tcx> CallsVisitor<'a, 'tcx> {
     fn new(cx: &'a LateContext<'a, 'tcx>, mir: &'tcx Mir<'tcx>, fn_def_id: DefId) -> Self {
-        CallsVisitor { cx, mir, fn_def_id, calls: Vec::new(),  uses_fn_ptr: false}
+        CallsVisitor { cx, mir, fn_def_id,
+            calls: Vec::new(),
+            uses_fn_ptr: false,
+            uses_unresolved_calls: false}
     }
 }
 
@@ -162,6 +165,8 @@ impl<'a, 'tcx> Visitor<'tcx> for CallsVisitor<'a, 'tcx> {
                                 }
                                 _ => error!("ty::InstanceDef:: NOT handled {:?}", instance.def),
                             }
+                        } else {
+                            self.uses_unresolved_calls = true;
                         }
                     }
                 _ => {
@@ -187,30 +192,5 @@ impl<'a, 'tcx> Visitor<'tcx> for CallsVisitor<'a, 'tcx> {
     }
 }
 
-struct UnsafeBlocksVisitorData<'tcx> {
-    hir: &'tcx hir::map::Map<'tcx>,
-    has_unsafe: bool,
-}
 
-impl<'a, 'tcx> hir::intravisit::Visitor<'tcx> for UnsafeBlocksVisitorData<'tcx> {
-    fn visit_block(&mut self, b: &'tcx hir::Block) {
-        match b.rules {
-            hir::BlockCheckMode::DefaultBlock => {}
-            hir::BlockCheckMode::UnsafeBlock(_unsafe_source) => {
-                self.has_unsafe = true;
-            }
-            hir::BlockCheckMode::PushUnsafeBlock(unsafe_source) => {
-                error!("hir::BlockCheckMode::PushUnsafeBlock {:?}", unsafe_source);
-            }
-            hir::BlockCheckMode::PopUnsafeBlock(unsafe_source) => {
-                error!("hir::BlockCheckMode::PopUnsafeBlock {:?}", unsafe_source);
-            }
-        }
-        hir::intravisit::walk_block(self, b);
-    }
-
-    fn nested_visit_map<'this>(&'this mut self) -> hir::intravisit::NestedVisitorMap<'this, 'tcx> {
-        hir::intravisit::NestedVisitorMap::All(self.hir)
-    }
-}
 

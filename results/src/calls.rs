@@ -6,3 +6,4 @@ pub struct ExternalCall {
     pub def_path: String,
     pub name: String,
 }
+
