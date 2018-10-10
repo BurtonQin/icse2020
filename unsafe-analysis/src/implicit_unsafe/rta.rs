@@ -22,6 +22,7 @@ pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>
         match cx.tcx.fn_sig(fn_def_id).unsafety() {
             hir::Unsafety::Unsafe => {} //ignore it
             hir::Unsafety::Normal => {
+                error!("Processing function {:?}", fn_def_id);
                 let mut body_visitor = UnsafeBlocksVisitorData {
                     hir: &cx.tcx.hir,
                     has_unsafe: false,
@@ -35,6 +36,7 @@ pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>
                 } else {
                     let mir = &mut cx.tcx.optimized_mir(fn_def_id);
                     let mut calls_visitor = CallsVisitor::new(&cx,mir,fn_def_id);
+                    calls_visitor.visit_mir(mir);
                 }
             }
         }
@@ -45,12 +47,28 @@ pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>
 
 }
 
+enum CallTypes {
+    External (DefId),
+    Local (DefId),
+    TraitObject(),
+    FnPtr(),
+    SelfCall(),
+    ParametricCall(),
+}
+
 struct CallsVisitor<'a, 'tcx: 'a> {
     cx: &'a LateContext<'a, 'tcx>,
     mir: &'tcx Mir<'tcx>,
     fn_def_id: DefId,
     calls: Vec<DefId>,
     uses_fn_ptr: bool,
+}
+
+impl <'a, 'tcx> CallsVisitor<'a, 'tcx> {
+    fn is_default_method(self: &Self) -> bool {
+        //TODO should return true if this is default method of a trait with self
+        false
+    }
 }
 
 impl<'a, 'tcx> CallsVisitor<'a, 'tcx> {
@@ -87,7 +105,14 @@ impl<'a, 'tcx> Visitor<'tcx> for CallsVisitor<'a, 'tcx> {
                                 _ => error!("ty::InstanceDef:: NOT handled {:?}", instance.def),
                             }
                         } else {
-                            error!("Type not resolved for call {:?}",func)
+                            // default trait method (func), self type (param to callee)
+                            if ( self.is_default_method() ) {
+                                //TODO
+                            }
+                            // method of generic type parameter
+                            // function pointer
+                            error!("Type not resolved for call {:?}",func);
+                            error!("calee def id {:?}", callee_def_id);
                         }
                     }
                 _ => {
