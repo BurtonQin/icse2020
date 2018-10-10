@@ -19,11 +19,13 @@ pub struct UnsafeTraitSafeMethodInBody {
     pub has_unsafe: bool,
 }
 
+#[derive(Serialize, Deserialize, Debug)]
 pub struct TraitBound {
     pub trait_def_path: String,
     pub generic: String,
 }
 
+#[derive(Serialize, Deserialize, Debug)]
 pub enum CallTypes {
     // Identifier of function
     Resolved(String),
@@ -39,11 +41,13 @@ pub enum CallTypes {
     Unresolved(String,String),
 }
 
+#[derive(Serialize, Deserialize, Debug)]
 pub struct UnresolvedFn {
     pub generics: Vec<TraitBound>,
     pub calls: Vec<CallTypes>,
 }
 
+#[derive(Serialize, Deserialize, Debug)]
 pub enum UnsafeResults {
     Resolved(String,bool),
     Unresolved(String, UnresolvedFn),
