@@ -16,7 +16,7 @@ pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>
                                       , fns: &Vec<NodeId>, optimistic: bool)
                                       -> Vec<UnsafeResults> {
     let mut with_unsafe = HashMap::new();
-    //let mut call_graph = HashMap::new();
+    let mut call_graph = HashMap::new();
     for &fn_id in fns {
         let fn_def_id = cx.tcx.hir.local_def_id(fn_id);
         match cx.tcx.fn_sig(fn_def_id).unsafety() {
@@ -37,7 +37,44 @@ pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>
                     let mir = &mut cx.tcx.optimized_mir(fn_def_id);
                     let mut calls_visitor = CallsVisitor::new(&cx,mir,fn_id);
                     calls_visitor.visit_mir(mir);
+                    call_graph.insert(fn_def_id, calls_visitor.calls);
                 }
+            }
+        }
+    }
+
+    //propagate known types
+    let mut changed: bool = true;
+    while changed {
+        changed = false;
+        for &fn_id in fns {
+            let fn_def_id = cx.tcx.hir.local_def_id(fn_id);
+            if let Some(calls) = call_graph.get(&fn_def_id) {
+                for c1 in calls.iter() {
+                    if let CallTypes::Local(c1_def_id, substs1) = c1  {
+                        if let Some(calls2) = call_graph.get( &c1_def_id ) {
+                            for c2 in calls2.iter() {
+                                if let CallTypes::ParametricCall(c2_def_id, substs2) = c2 {
+                                    println!("1: {:?} {:?}", c1_def_id, substs1);
+                                    println!("1: {:?}", cx.tcx.generics_of(*c1_def_id));
+                                    println!("2: {:?} {:?}", c2_def_id, substs2);
+                                    println!("2: {:?}", cx.tcx.generics_of(*c2_def_id));
+                                    println!("2:rebased {:?}", substs2.rebase_onto(cx.tcx,*c1_def_id, substs1));
+                                    let param_env = cx.tcx.param_env(*c1_def_id).with_reveal_all();
+                                    if let Some(instance) = ty::Instance::resolve(
+                                            cx.tcx, param_env, *c2_def_id,
+                                            substs2.rebase_onto(cx.tcx,*c1_def_id, substs1)) {
+                                        println!("Instance {:?}", instance );
+                                    } else {
+                                        println!("Instance not resolved!");
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            } else {
+                error!("Entry in call_graph not found for {:?}", fn_def_id);
             }
         }
     }
@@ -47,62 +84,75 @@ pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>
 
 }
 
-enum CallTypes {
-    External (DefId),
-    Local (DefId),
-    TraitObject(),
-    FnPtr(),
+enum CallTypes<'tcx> {
+    External (DefId, &'tcx ty::subst::Substs<'tcx>),
+    Local (DefId, &'tcx ty::subst::Substs<'tcx>),
+//    TraitObject(),
+//    FnPtr(),
     //method called
-    SelfCall(DefId),
-    ParametricCall(),
+//    SelfCall(DefId),
+//     callee def id, subst of fn call
+    ParametricCall(DefId, &'tcx ty::subst::Substs<'tcx>),
 }
 
 struct CallsVisitor<'a, 'tcx: 'a> {
     cx: &'a LateContext<'a, 'tcx>,
     mir: &'tcx Mir<'tcx>,
     fn_id: NodeId,
-    calls: Vec<CallTypes>,
+    calls: Vec<CallTypes<'tcx>>,
     uses_fn_ptr: bool,
 }
 
 impl <'a, 'tcx> CallsVisitor<'a, 'tcx> {
-    fn is_associated_method_with_self(self: &Self) -> bool {
-        //TODO should return true if this is default method of a trait with self
-        let node = self.cx.tcx.hir.get(self.fn_id);
-        match node {
-            hir::Node::TraitItem(ref trait_item) => {
-                match trait_item.node {
-                    hir::TraitItemKind::Method(ref method_sig, ref trait_method) => {
-                        match trait_method {
-                            hir::TraitMethod::Provided(_) => {
-                                let fn_def_id = self.cx.tcx.hir.local_def_id(self.fn_id);
-                                self.cx.tcx.associated_item(fn_def_id).method_has_self_argument
-                            }
-                            _ => {false}
-                        }
-                    }
-                    _ => {false}
-                }
-            }
-            _ => false
-        }
-    }
+//    fn is_associated_method_with_self(self: &Self) -> bool {
+//        //TODO should return true if this is default method of a trait with self
+//        let node = self.cx.tcx.hir.get(self.fn_id);
+//        match node {
+//            hir::Node::TraitItem(ref trait_item) => {
+//                match trait_item.node {
+//                    hir::TraitItemKind::Method(ref method_sig, ref trait_method) => {
+//                        match trait_method {
+//                            hir::TraitMethod::Provided(_) => {
+//                                let fn_def_id = self.cx.tcx.hir.local_def_id(self.fn_id);
+//                                self.cx.tcx.associated_item(fn_def_id).method_has_self_argument
+//                            }
+//                            _ => {false}
+//                        }
+//                    }
+//                    _ => {false}
+//                }
+//            }
+//            _ => false
+//        }
+//    }
 
-    fn is_method_same_trait(self: &Self, def_id: DefId) -> bool {
-        if let Some (trait_id) = self.cx.tcx.trait_of_item(def_id) {
-            let fn_def_id = self.cx.tcx.hir.local_def_id(self.fn_id);
-            if let Some (fn_trait_id) = self.cx.tcx.trait_of_item(fn_def_id) {
-                if fn_trait_id == trait_id {
-                    self.cx.tcx.associated_item(def_id).method_has_self_argument
-                } else {
-                    false
+//    fn is_method_same_trait(self: &Self, def_id: DefId) -> bool {
+//        if let Some (trait_id) = self.cx.tcx.trait_of_item(def_id) {
+//            let fn_def_id = self.cx.tcx.hir.local_def_id(self.fn_id);
+//            if let Some (fn_trait_id) = self.cx.tcx.trait_of_item(fn_def_id) {
+//                if fn_trait_id == trait_id {
+//                    self.cx.tcx.associated_item(def_id).method_has_self_argument
+//                } else {
+//                    false
+//                }
+//            } else {
+//                false
+//            }
+//        } else {
+//            false
+//        }
+//    }
+
+    fn has_unresolved_substs(self: &Self, substs: &'tcx ty::subst::Substs) -> bool {
+        let mut res = false;
+        for ty in substs.types() {
+            match  ty.sty {
+                ty::TyKind::Param(ref param_ty) => {res = true;}
+                _ => {
                 }
-            } else {
-                false
             }
-        } else {
-            false
         }
+        res
     }
 
 }
@@ -138,9 +188,9 @@ impl<'a, 'tcx> Visitor<'tcx> for CallsVisitor<'a, 'tcx> {
                                 | ty::InstanceDef::Virtual(def_id, _)
                                 | ty::InstanceDef::CloneShim(def_id,_) => {
                                     if def_id.is_local() {
-                                        self.calls.push(CallTypes::Local(def_id));
+                                        self.calls.push(CallTypes::Local(def_id,substs));
                                     } else {
-                                        self.calls.push(CallTypes::External(def_id));
+                                        self.calls.push(CallTypes::External(def_id,substs));
                                     }
                                 }
                                 _ => error!("ty::InstanceDef:: NOT handled {:?}", instance.def),
@@ -148,19 +198,30 @@ impl<'a, 'tcx> Visitor<'tcx> for CallsVisitor<'a, 'tcx> {
                         } else {
                             let mut resolved = false;
                             // default trait method (func), self type (param to callee)
-                            if self.is_associated_method_with_self() {
-                                // need to check is callee_def_id is method in trait
-                                if self.is_method_same_trait(callee_def_id) {
-                                    self.calls.push( CallTypes::SelfCall(callee_def_id) );
-                                    resolved = true;
-                                }
-                            }
+//                            if self.is_associated_method_with_self() {
+//                                // need to check is callee_def_id is method in trait
+//                                if self.is_method_same_trait(callee_def_id) {
+//                                    self.calls.push( CallTypes::SelfCall(callee_def_id) );
+//                                    resolved = true;
+//                                }
+//                            }
                             // method of generic type parameter (generic from method or trait defns)
-                            // self.cx.tcx.generics_of(fn_def_id)
 
-                            error!("substs {:?}", substs);
-                            error!("generics of method {:?}", self.cx.tcx.generics_of(fn_def_id));
-                            error!("generics of calee {:?}", self.cx.tcx.generics_of(callee_def_id));
+                            // self.cx.tcx.generics_of(fn_def_id)
+                            if self.has_unresolved_substs(substs) {
+//                                error!("substs {:?}", substs);
+//                                error!("generics of method {:?}", self.cx.tcx.generics_of(fn_def_id));
+//                                if let Some(parent_def_id) = self.cx.tcx.generics_of(fn_def_id).parent {
+//                                    error!("generics of method's parent {:?}",
+//                                           self.cx.tcx.generics_of(parent_def_id));
+//                                }
+//                                error!("generics of calee {:?}", self.cx.tcx.generics_of(callee_def_id));
+//                                if let Some(parent_def_id) = self.cx.tcx.generics_of(callee_def_id).parent {
+//                                    error!("generics of calee's parent {:?}", self.cx.tcx.generics_of(parent_def_id));
+//                                }
+                                self.calls.push(CallTypes::ParametricCall(callee_def_id, substs));
+                                resolved = true;
+                            }
 
                             // function pointer
                             if self.cx.tcx.is_closure(callee_def_id) {
