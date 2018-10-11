@@ -1,4 +1,5 @@
 #![feature(box_patterns)]
+#![feature(extern_prelude)]
 
 mod static_dispatch;
 mod fn_pointer;

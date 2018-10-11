@@ -35,7 +35,7 @@ pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>
                     with_unsafe.insert(fn_def_id, info);
                 } else {
                     let mir = &mut cx.tcx.optimized_mir(fn_def_id);
-                    let mut calls_visitor = CallsVisitor::new(&cx,mir,fn_def_id);
+                    let mut calls_visitor = CallsVisitor::new(&cx,mir,fn_id);
                     calls_visitor.visit_mir(mir);
                 }
             }
@@ -52,28 +52,64 @@ enum CallTypes {
     Local (DefId),
     TraitObject(),
     FnPtr(),
-    SelfCall(),
+    //method called
+    SelfCall(DefId),
     ParametricCall(),
 }
 
 struct CallsVisitor<'a, 'tcx: 'a> {
     cx: &'a LateContext<'a, 'tcx>,
     mir: &'tcx Mir<'tcx>,
-    fn_def_id: DefId,
-    calls: Vec<DefId>,
+    fn_id: NodeId,
+    calls: Vec<CallTypes>,
     uses_fn_ptr: bool,
 }
 
 impl <'a, 'tcx> CallsVisitor<'a, 'tcx> {
-    fn is_default_method(self: &Self) -> bool {
+    fn is_associated_method_with_self(self: &Self) -> bool {
         //TODO should return true if this is default method of a trait with self
-        false
+        let node = self.cx.tcx.hir.get(self.fn_id);
+        match node {
+            hir::Node::TraitItem(ref trait_item) => {
+                match trait_item.node {
+                    hir::TraitItemKind::Method(ref method_sig, ref trait_method) => {
+                        match trait_method {
+                            hir::TraitMethod::Provided(_) => {
+                                let fn_def_id = self.cx.tcx.hir.local_def_id(self.fn_id);
+                                self.cx.tcx.associated_item(fn_def_id).method_has_self_argument
+                            }
+                            _ => {false}
+                        }
+                    }
+                    _ => {false}
+                }
+            }
+            _ => false
+        }
     }
+
+    fn is_method_same_trait(self: &Self, def_id: DefId) -> bool {
+        if let Some (trait_id) = self.cx.tcx.trait_of_item(def_id) {
+            let fn_def_id = self.cx.tcx.hir.local_def_id(self.fn_id);
+            if let Some (fn_trait_id) = self.cx.tcx.trait_of_item(fn_def_id) {
+                if fn_trait_id == trait_id {
+                    self.cx.tcx.associated_item(def_id).method_has_self_argument
+                } else {
+                    false
+                }
+            } else {
+                false
+            }
+        } else {
+            false
+        }
+    }
+
 }
 
 impl<'a, 'tcx> CallsVisitor<'a, 'tcx> {
-    fn new(cx: &'a LateContext<'a, 'tcx>, mir: &'tcx Mir<'tcx>, fn_def_id: DefId) -> Self {
-        CallsVisitor { cx, mir, fn_def_id, calls: Vec::new(),  uses_fn_ptr: false}
+    fn new(cx: &'a LateContext<'a, 'tcx>, mir: &'tcx Mir<'tcx>, fn_id: NodeId) -> Self {
+        CallsVisitor { cx, mir, fn_id, calls: Vec::new(),  uses_fn_ptr: false}
     }
 }
 
@@ -93,26 +129,49 @@ impl<'a, 'tcx> Visitor<'tcx> for CallsVisitor<'a, 'tcx> {
             match func {
                 Operand::Constant(constant) =>
                     if let TyKind::FnDef(callee_def_id, substs) = constant.literal.ty.sty {
-                        let param_env = self.cx.tcx.param_env(self.fn_def_id);
+                        let fn_def_id = self.cx.tcx.hir.local_def_id(self.fn_id);
+                        let param_env = self.cx.tcx.param_env(fn_def_id);
                         if let Some(instance) = ty::Instance::resolve(self.cx.tcx, param_env, callee_def_id, substs) {
                             match instance.def {
                                 ty::InstanceDef::Item(def_id)
                                 | ty::InstanceDef::Intrinsic(def_id)
                                 | ty::InstanceDef::Virtual(def_id, _)
                                 | ty::InstanceDef::CloneShim(def_id,_) => {
-                                    self.calls.push(def_id);
+                                    if def_id.is_local() {
+                                        self.calls.push(CallTypes::Local(def_id));
+                                    } else {
+                                        self.calls.push(CallTypes::External(def_id));
+                                    }
                                 }
                                 _ => error!("ty::InstanceDef:: NOT handled {:?}", instance.def),
                             }
                         } else {
+                            let mut resolved = false;
                             // default trait method (func), self type (param to callee)
-                            if ( self.is_default_method() ) {
-                                //TODO
+                            if self.is_associated_method_with_self() {
+                                // need to check is callee_def_id is method in trait
+                                if self.is_method_same_trait(callee_def_id) {
+                                    self.calls.push( CallTypes::SelfCall(callee_def_id) );
+                                    resolved = true;
+                                }
                             }
-                            // method of generic type parameter
+                            // method of generic type parameter (generic from method or trait defns)
+                            // self.cx.tcx.generics_of(fn_def_id)
+
+                            error!("substs {:?}", substs);
+                            error!("generics of method {:?}", self.cx.tcx.generics_of(fn_def_id));
+                            error!("generics of calee {:?}", self.cx.tcx.generics_of(callee_def_id));
+
                             // function pointer
-                            error!("Type not resolved for call {:?}",func);
-                            error!("calee def id {:?}", callee_def_id);
+                            if self.cx.tcx.is_closure(callee_def_id) {
+                                error!("is closure {:?}", callee_def_id);
+                                resolved = true; // nothing to do; the closure's body is parsed in the enclosing function
+                            }
+
+                            if !resolved {
+                                error!("Type not resolved for call {:?}", func);
+                                error!("calee def id {:?}", callee_def_id);
+                            }
                         }
                     }
                 _ => {
