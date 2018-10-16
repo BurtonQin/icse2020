@@ -1,14 +1,16 @@
 #[derive(Serialize, Deserialize, Debug, Clone)]
 pub struct UnsafeInBody {
-    pub fn_name: String,
+    pub def_path: String,
     pub has_unsafe: bool,
+    pub name: String,
 }
 
 impl UnsafeInBody {
-    pub fn new(fn_name: String, has_unsafe:bool ) -> Self {
+    pub fn new(def_path: String, has_unsafe:bool, name: String ) -> Self {
         UnsafeInBody {
-            fn_name,
+            def_path,
             has_unsafe,
+            name,
         }
     }
 }

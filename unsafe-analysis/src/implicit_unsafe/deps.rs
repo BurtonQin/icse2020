@@ -29,11 +29,11 @@ pub fn load<'a, 'tcx>( cx: &'a LateContext<'a, 'tcx>, calls: &HashMap<String,Def
     for (fn_name,def_id) in calls.iter() {
         if is_excluded_crate( &cx.tcx.crate_name(def_id.krate).to_string() ) {
             info!("Call {:?} from excluded crate", fn_name);
-            result.insert(*def_id, UnsafeInBody::new(fn_name.clone(), false));
+            result.insert(*def_id, UnsafeInBody::new(fn_name.clone(), false, fn_name.to_string()));
         } else {
             if !result.contains_key(def_id) {
                 info!("Call {:?} not found", fn_name);
-                result.insert(*def_id, UnsafeInBody::new(fn_name.clone(), !optimistic));
+                result.insert(*def_id, UnsafeInBody::new(fn_name.clone(), !optimistic, fn_name.to_string()));
             }
         }
     }
@@ -66,27 +66,39 @@ pub fn load_dependencies(used_crates:HashSet<String>) -> HashMap<String,CrateInf
     let mut manifest_path = PathBuf::from(env::var("CARGO_MANIFEST_DIR").unwrap());
     manifest_path.push("Cargo.toml");
 
-    let cargo_config = Config::default().unwrap();
+    error!("manifest path {:?}", manifest_path);
 
-    let workspace = Workspace::new(&manifest_path.as_path(), &cargo_config).unwrap();
-    let resolve_res = ops::resolve_ws(&workspace);
     let mut result = HashMap::new();
-    if let Ok( (packages, _resolve) ) = resolve_res {
-        for package_id in packages.package_ids() {
-
-            if let Ok(package) = packages.get(package_id) {
-                let crate_name = package.name().to_string().replace("-","_");
-                if let None = used_crates.get(&crate_name) {
-                    info!("Crate not used {:?}", crate_name);
-                } else {
-                    result.insert(package.name().to_string(), CrateInfo::new(
-                        crate_name,
-                        package.version().to_string(),
-                    ));
+    match Config::default() {
+        Ok(cargo_config) => {
+            match Workspace::new(&manifest_path.as_path(), &cargo_config) {
+                Ok(workspace) =>  {
+                    let resolve_res = ops::resolve_ws(&workspace);
+                    if let Ok((packages, _resolve)) = resolve_res {
+                        for package_id in packages.package_ids() {
+                            if let Ok(package) = packages.get(package_id) {
+                                let crate_name = package.name().to_string().replace("-", "_");
+                                if let None = used_crates.get(&crate_name) {
+                                    info!("Crate not used {:?}", crate_name);
+                                } else {
+                                    result.insert(package.name().to_string(), CrateInfo::new(
+                                        crate_name,
+                                        package.version().to_string(),
+                                    ));
+                                }
+                            } else {
+                                error!("Can't get package {:?}", package_id);
+                            }
+                        }
+                    }
                 }
-            } else {
-                error!("Can't get package {:?}", package_id);
+                Err(e) => {
+                    error!("Error loading workspace {:?}", e);
+                }
             }
+        }
+        Err(e) => {
+                error!("Failed to create default configuration {:?}", e);
         }
     }
     result
@@ -135,10 +147,10 @@ fn load_analysis<'a, 'tcx>(
             let trimmed_line = line.trim_right();
             info!("Processsing line {:?}", trimmed_line);
             let ub: UnsafeInBody = serde_json::from_str(&trimmed_line).unwrap();
-            let full_name = ub.fn_name;
-            if let Some(def_id) = calls.get(&full_name) {
-                info!("Call {:?} found", &full_name);
-                result.insert(*def_id,UnsafeInBody::new(full_name,ub.has_unsafe));
+            let def_path = ub.def_path;
+            if let Some(def_id) = calls.get(&def_path) {
+                info!("Call {:?} found", &def_path);
+                result.insert(*def_id,UnsafeInBody::new(def_path,ub.has_unsafe,ub.name));
             }
         }
     }
