@@ -16,7 +16,7 @@ source ../rust_flags.sh
 
 cd $CRATES_DIR
 
-for x in {c..c}
+for x in {a..z}
 do
 	for d in $(ls -d $CRATES_DIR/$x*)
 	do

@@ -66,7 +66,7 @@ pub fn load_dependencies(used_crates:HashSet<String>) -> HashMap<String,CrateInf
     let mut manifest_path = PathBuf::from(env::var("CARGO_MANIFEST_DIR").unwrap());
     manifest_path.push("Cargo.toml");
 
-    error!("manifest path {:?}", manifest_path);
+    info!("manifest path {:?}", manifest_path);
 
     let mut result = HashMap::new();
     match Config::default() {
