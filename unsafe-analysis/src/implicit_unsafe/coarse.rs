@@ -215,7 +215,7 @@ impl<'a, 'tcx> Visitor<'tcx> for CallsVisitor<'a, 'tcx> {
                         let param_env = self.cx.tcx.param_env(self.fn_def_id);
                         if let Some(instance) = ty::Instance::resolve(self.cx.tcx, param_env, callee_def_id, substs) {
 
-                            error!("func {:?} has type {:?}", func, instance);
+                            info!("func {:?} has type {:?}", func, instance);
 
                             match instance.def {
                                 ty::InstanceDef::Item(def_id)
@@ -229,7 +229,7 @@ impl<'a, 'tcx> Visitor<'tcx> for CallsVisitor<'a, 'tcx> {
                                 _ => error!("ty::InstanceDef:: NOT handled {:?}", instance.def),
                             }
                         } else {
-                            error!("no type for func: {:?}", func);
+                            info!("no type for func: {:?}", func);
                             self.uses_unresolved_calls = true;
                         }
                     }

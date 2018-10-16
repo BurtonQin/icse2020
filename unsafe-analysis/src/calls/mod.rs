@@ -1,5 +1,6 @@
 use rustc::hir;
 use rustc::lint::LateContext;
+use rustc::mir;
 use rustc::mir::{BasicBlock, Location, Mir, Terminator, TerminatorKind};
 use rustc::mir::visit::Visitor;
 use rustc::ty;
@@ -107,14 +108,27 @@ impl<'a, 'tcx> Visitor<'tcx> for UnsafeCallsVisitor<'a, 'tcx> {
 
                 }
                 TyKind::FnPtr(ref poly_sig) => {
-                    if let hir::Unsafety::Unsafe = poly_sig.unsafety() {
-                        let elt = results::calls::ExternalCall {
-                            abi: convert_abi(poly_sig.abi()),
-                            def_path: "Unsafe_Call_Fn_Ptr".to_string(),
-                            name: "Unsafe_Call_Fn_Ptr".to_string()
-                        };
-                        self.data.push(elt);
+
+                    match func {
+                        mir::Operand::Move(arg)
+                        | mir::Operand::Copy(arg) => {
+                            info!("func {:?} is fn ptr", arg.ty(&self.mir.local_decls,self.cx.tcx));
+                            if let hir::Unsafety::Unsafe = poly_sig.unsafety() {
+                                let elt = results::calls::ExternalCall {
+                                    abi: convert_abi(poly_sig.abi()),
+                                    def_path: "Unsafe_Call_Fn_Ptr".to_string(),
+                                    name: arg.ty(&self.mir.local_decls,self.cx.tcx).to_ty(self.cx.tcx).to_string()
+                                };
+                                self.data.push(elt);
+                            }
+                        }
+                        _ => {
+                        }
                     }
+
+
+
+
                 }
                 _ => {
                     error!("TypeVariants NOT handled {:?}", func.ty(&self.mir.local_decls, self.cx.tcx).sty);
