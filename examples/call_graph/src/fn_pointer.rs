@@ -19,12 +19,12 @@ fn m_with_ptr<F>( f: F ) -> i32
 
 fn with_closure() {
     m_with_ptr(|x| {
-        6
+        unsafe{ x }
     });
 }
 
 fn id(x:i32) -> i32 {
-    x
+    unsafe {x}
 }
 
 fn with_fn() {
