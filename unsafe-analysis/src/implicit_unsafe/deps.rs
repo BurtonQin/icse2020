@@ -28,11 +28,11 @@ pub fn load<'a, 'tcx>( cx: &'a LateContext<'a, 'tcx>, calls: &HashMap<String,Def
     }
     for (fn_name,def_id) in calls.iter() {
         if is_excluded_crate( &cx.tcx.crate_name(def_id.krate).to_string() ) {
-            info!("Call {:?} from excluded crate", fn_name);
+            //info!("Call {:?} from excluded crate", fn_name);
             result.insert(*def_id, UnsafeInBody::new(fn_name.clone(), false, fn_name.to_string()));
         } else {
             if !result.contains_key(def_id) {
-                info!("Call {:?} not found", fn_name);
+                //info!("Call {:?} not found", fn_name);
                 result.insert(*def_id, UnsafeInBody::new(fn_name.clone(), !optimistic, fn_name.to_string()));
             }
         }
@@ -79,7 +79,7 @@ pub fn load_dependencies(used_crates:HashSet<String>) -> HashMap<String,CrateInf
                             if let Ok(package) = packages.get(package_id) {
                                 let crate_name = package.name().to_string().replace("-", "_");
                                 if let None = used_crates.get(&crate_name) {
-                                    info!("Crate not used {:?}", crate_name);
+                                    //info!("Crate not used {:?}", crate_name);
                                 } else {
                                     result.insert(package.name().to_string(), CrateInfo::new(
                                         crate_name,
