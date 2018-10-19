@@ -77,6 +77,13 @@ impl<'a, 'tcx> LintPass for Functions {
 
 impl<'a, 'tcx> LateLintPass<'a, 'tcx> for Functions {
 
+    fn check_crate(&mut self, _: &LateContext<'a, 'tcx>, _: &'tcx Crate) {
+        // get error logger already initialized
+//        env_logger::init();
+//        info!("Logger Initialized");
+    }
+
+
     fn check_crate_post(&mut self, cx: &LateContext<'a, 'tcx>, _: &'tcx Crate) {
 
         let root_dir = get_root_dir();

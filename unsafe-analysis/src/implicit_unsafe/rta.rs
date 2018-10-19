@@ -44,40 +44,37 @@ pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>
     }
 
     //propagate known types
-    let mut changed: bool = true;
-    while changed {
-        changed = false;
-        for &fn_id in fns {
-            let fn_def_id = cx.tcx.hir.local_def_id(fn_id);
-            if let Some(calls) = call_graph.get(&fn_def_id) {
-                for c1 in calls.iter() {
-                    if let CallTypes::Local(c1_def_id, substs1) = c1  {
-                        if let Some(calls2) = call_graph.get( &c1_def_id ) {
-                            for c2 in calls2.iter() {
-                                if let CallTypes::ParametricCall(c2_def_id, substs2) = c2 {
-                                    println!("1: {:?} {:?}", c1_def_id, substs1);
-                                    println!("1: {:?}", cx.tcx.generics_of(*c1_def_id));
-                                    println!("2: {:?} {:?}", c2_def_id, substs2);
-                                    println!("2: {:?}", cx.tcx.generics_of(*c2_def_id));
-                                    println!("2:rebased {:?}", substs2.rebase_onto(cx.tcx,*c1_def_id, substs1));
-                                    let param_env = cx.tcx.param_env(*c1_def_id).with_reveal_all();
-                                    if let Some(instance) = ty::Instance::resolve(
-                                            cx.tcx, param_env, *c2_def_id,
-                                            substs2.rebase_onto(cx.tcx,*c1_def_id, substs1)) {
-                                        println!("Instance {:?}", instance );
-                                    } else {
-                                        println!("Instance not resolved!");
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-            } else {
-                error!("Entry in call_graph not found for {:?}", fn_def_id);
-            }
-        }
-    }
+//    let mut changed: bool = true;
+//    let mut current_values = FxHashMap::default(); // from the fxhash or rustc-hash crates
+//    while changed {
+//        changed = false;
+//        for &fn_id in fns {
+//            let fn_def_id = cx.tcx.hir.local_def_id(fn_id);
+//            let param_env = cx.tcx.param_env(fn_def_id).with_reveal_all();
+//            if let Some(calls) = call_graph.get(&fn_def_id) {
+//                for c1 in calls.iter() {
+//                    if let CallTypes::Local(c1_def_id, substs1) = c1  {
+//                        let unsafe_value = if let Some(instance) = ty::Instance::resolve(
+//                            cx.tcx,
+//                            param_env,
+//                            c1_def_id,
+//                            substs1,
+//                        ) {
+//                            match current_value[&instance].subst(tcx, substs1) {
+//                                // subst: rustc::ty::substs::Subst, TypeFoldable, struct_type_foldable!
+//                            }
+//                        } else {
+//                            UnsafeValue::IfUnsafe(c1_def_id, substs1)
+//                        };
+//                        current_values[fn_def_id] += unsafe_value;
+//                        // updates changed
+//                    }
+//                }
+//            } else {
+//                error!("Entry in call_graph not found for {:?}", fn_def_id);
+//            }
+//        }
+//    }
 
     //TODO
     Vec::new()
@@ -170,75 +167,75 @@ impl<'a, 'tcx> Visitor<'tcx> for CallsVisitor<'a, 'tcx> {
         terminator: &Terminator<'tcx>,
         _location: Location,
     ) {
-        if let TerminatorKind::Call {
-            ref func,
-            args: _,
-            destination: _,
-            cleanup: _,
-        } = terminator.kind {
-            match func {
-                Operand::Constant(constant) =>
-                    if let TyKind::FnDef(callee_def_id, substs) = constant.literal.ty.sty {
-                        let fn_def_id = self.cx.tcx.hir.local_def_id(self.fn_id);
-                        let param_env = self.cx.tcx.param_env(fn_def_id);
-                        if let Some(instance) = ty::Instance::resolve(self.cx.tcx, param_env, callee_def_id, substs) {
-                            match instance.def {
-                                ty::InstanceDef::Item(def_id)
-                                | ty::InstanceDef::Intrinsic(def_id)
-                                | ty::InstanceDef::Virtual(def_id, _)
-                                | ty::InstanceDef::CloneShim(def_id,_) => {
-                                    if def_id.is_local() {
-                                        self.calls.push(CallTypes::Local(def_id,substs));
-                                    } else {
-                                        self.calls.push(CallTypes::External(def_id,substs));
-                                    }
-                                }
-                                _ => error!("ty::InstanceDef:: NOT handled {:?}", instance.def),
-                            }
-                        } else {
-                            let mut resolved = false;
-                            // default trait method (func), self type (param to callee)
-//                            if self.is_associated_method_with_self() {
-//                                // need to check is callee_def_id is method in trait
-//                                if self.is_method_same_trait(callee_def_id) {
-//                                    self.calls.push( CallTypes::SelfCall(callee_def_id) );
-//                                    resolved = true;
+//        if let TerminatorKind::Call {
+//            ref func,
+//            args: _,
+//            destination: _,
+//            cleanup: _,
+//        } = terminator.kind {
+//            match func {
+//                Operand::Constant(constant) =>
+//                    if let TyKind::FnDef(callee_def_id, substs) = constant.literal.ty.sty {
+//                        let fn_def_id = self.cx.tcx.hir.local_def_id(self.fn_id);
+//                        let param_env = self.cx.tcx.param_env(fn_def_id);
+//                        if let Some(instance) = ty::Instance::resolve(self.cx.tcx, param_env, callee_def_id, substs) {
+//                            match instance.def {
+//                                ty::InstanceDef::Item(def_id)
+//                                | ty::InstanceDef::Intrinsic(def_id)
+//                                | ty::InstanceDef::Virtual(def_id, _)
+//                                | ty::InstanceDef::CloneShim(def_id,_) => {
+//                                    if def_id.is_local() {
+//                                        self.calls.push(CallTypes::Local(def_id,substs));
+//                                    } else {
+//                                        self.calls.push(CallTypes::External(def_id,substs));
+//                                    }
 //                                }
+//                                _ => error!("ty::InstanceDef:: NOT handled {:?}", instance.def),
 //                            }
-                            // method of generic type parameter (generic from method or trait defns)
-
-                            // self.cx.tcx.generics_of(fn_def_id)
-                            if self.has_unresolved_substs(substs) {
-//                                error!("substs {:?}", substs);
-//                                error!("generics of method {:?}", self.cx.tcx.generics_of(fn_def_id));
-//                                if let Some(parent_def_id) = self.cx.tcx.generics_of(fn_def_id).parent {
-//                                    error!("generics of method's parent {:?}",
-//                                           self.cx.tcx.generics_of(parent_def_id));
-//                                }
-//                                error!("generics of calee {:?}", self.cx.tcx.generics_of(callee_def_id));
-//                                if let Some(parent_def_id) = self.cx.tcx.generics_of(callee_def_id).parent {
-//                                    error!("generics of calee's parent {:?}", self.cx.tcx.generics_of(parent_def_id));
-//                                }
-                                self.calls.push(CallTypes::ParametricCall(callee_def_id, substs));
-                                resolved = true;
-                            }
-
-                            // function pointer
-                            if self.cx.tcx.is_closure(callee_def_id) {
-                                error!("is closure {:?}", callee_def_id);
-                                resolved = true; // nothing to do; the closure's body is parsed in the enclosing function
-                            }
-
-                            if !resolved {
-                                error!("Type not resolved for call {:?}", func);
-                                error!("calee def id {:?}", callee_def_id);
-                            }
-                        }
-                    }
-                _ => {
-                    error!("func not handled ")
-                }
-            }
-        }
+//                        } else {
+//                            let mut resolved = false;
+//                            // default trait method (func), self type (param to callee)
+////                            if self.is_associated_method_with_self() {
+////                                // need to check is callee_def_id is method in trait
+////                                if self.is_method_same_trait(callee_def_id) {
+////                                    self.calls.push( CallTypes::SelfCall(callee_def_id) );
+////                                    resolved = true;
+////                                }
+////                            }
+//                            // method of generic type parameter (generic from method or trait defns)
+//
+//                            // self.cx.tcx.generics_of(fn_def_id)
+//                            if self.has_unresolved_substs(substs) {
+////                                error!("substs {:?}", substs);
+////                                error!("generics of method {:?}", self.cx.tcx.generics_of(fn_def_id));
+////                                if let Some(parent_def_id) = self.cx.tcx.generics_of(fn_def_id).parent {
+////                                    error!("generics of method's parent {:?}",
+////                                           self.cx.tcx.generics_of(parent_def_id));
+////                                }
+////                                error!("generics of calee {:?}", self.cx.tcx.generics_of(callee_def_id));
+////                                if let Some(parent_def_id) = self.cx.tcx.generics_of(callee_def_id).parent {
+////                                    error!("generics of calee's parent {:?}", self.cx.tcx.generics_of(parent_def_id));
+////                                }
+//                                self.calls.push(CallTypes::ParametricCall(callee_def_id, substs));
+//                                resolved = true;
+//                            }
+//
+//                            // function pointer
+//                            if self.cx.tcx.is_closure(callee_def_id) {
+//                                error!("is closure {:?}", callee_def_id);
+//                                resolved = true; // nothing to do; the closure's body is parsed in the enclosing function
+//                            }
+//
+//                            if !resolved {
+//                                error!("Type not resolved for call {:?}", func);
+//                                error!("calee def id {:?}", callee_def_id);
+//                            }
+//                        }
+//                    }
+//                _ => {
+//                    error!("func not handled ")
+//                }
+//            }
+//        }
     }
 }

@@ -26,6 +26,9 @@ pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, fns: &Vec<Node
     let mut with_unsafe = HashMap::new();
     let mut call_graph = HashMap::new();
     for &fn_id in fns {
+
+        debug!("Processing {:?}", fn_id);
+
         let fn_def_id = cx.tcx.hir.local_def_id(fn_id);
         match cx.tcx.fn_sig(fn_def_id).unsafety() {
             hir::Unsafety::Unsafe => {} //ignore it
@@ -63,7 +66,7 @@ pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, fns: &Vec<Node
                 if let Call::Static(calee_def_id) = call
                 {
                     if !calee_def_id.is_local() {
-                        info!("external call def id: {:?}", calee_def_id);
+                        //info!("external call def id: {:?}", calee_def_id);
 
                         external_calls.insert(get_fn_path(cx, *calee_def_id), *calee_def_id);
                     }
@@ -215,7 +218,7 @@ impl<'a, 'tcx> Visitor<'tcx> for CallsVisitor<'a, 'tcx> {
                         let param_env = self.cx.tcx.param_env(self.fn_def_id);
                         if let Some(instance) = ty::Instance::resolve(self.cx.tcx, param_env, callee_def_id, substs) {
 
-                            info!("func {:?} has type {:?}", func, instance);
+//                            info!("func {:?} has type {:?}", func, instance);
 
                             match instance.def {
                                 ty::InstanceDef::Item(def_id)
@@ -229,7 +232,7 @@ impl<'a, 'tcx> Visitor<'tcx> for CallsVisitor<'a, 'tcx> {
                                 _ => error!("ty::InstanceDef:: NOT handled {:?}", instance.def),
                             }
                         } else {
-                            info!("no type for func: {:?}", func);
+//                            info!("no type for func: {:?}", func);
                             self.uses_unresolved_calls = true;
                         }
                     }
