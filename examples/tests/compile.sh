@@ -5,7 +5,7 @@ source ../../rust_flags.sh
 
 mkdir -p $UNSAFE_ANALYSIS_DIR
 
-RUST_LOG=info
+export RUST_LOG=unsafe_analysis=debug,rustc=error
 
 cargo +$NIGHTLY  $1
 

@@ -67,39 +67,45 @@ pub fn load_dependencies(used_crates:HashSet<String>) -> HashMap<String,CrateInf
     manifest_path.push("Cargo.toml");
 
     info!("manifest path {:?}", manifest_path);
-
     let mut result = HashMap::new();
-    match Config::default() {
-        Ok(cargo_config) => {
-            match Workspace::new(&manifest_path.as_path(), &cargo_config) {
-                Ok(workspace) =>  {
-                    let resolve_res = ops::resolve_ws(&workspace);
-                    if let Ok((packages, _resolve)) = resolve_res {
-                        for package_id in packages.package_ids() {
-                            if let Ok(package) = packages.get(package_id) {
-                                let crate_name = package.name().to_string().replace("-", "_");
-                                if let None = used_crates.get(&crate_name) {
-                                    //info!("Crate not used {:?}", crate_name);
+
+    let path: &Path = Path::new(&manifest_path);
+
+    if path.exists() {
+        match Config::default() {
+            Ok(cargo_config) => {
+                match Workspace::new(&manifest_path.as_path(), &cargo_config) {
+                    Ok(workspace) => {
+                        let resolve_res = ops::resolve_ws(&workspace);
+                        if let Ok((packages, _resolve)) = resolve_res {
+                            for package_id in packages.package_ids() {
+                                if let Ok(package) = packages.get(package_id) {
+                                    let crate_name = package.name().to_string().replace("-", "_");
+                                    if let None = used_crates.get(&crate_name) {
+                                        //info!("Crate not used {:?}", crate_name);
+                                    } else {
+                                        result.insert(package.name().to_string(), CrateInfo::new(
+                                            crate_name,
+                                            package.version().to_string(),
+                                        ));
+                                    }
                                 } else {
-                                    result.insert(package.name().to_string(), CrateInfo::new(
-                                        crate_name,
-                                        package.version().to_string(),
-                                    ));
+                                    error!("Can't get package {:?}", package_id);
                                 }
-                            } else {
-                                error!("Can't get package {:?}", package_id);
                             }
                         }
                     }
-                }
-                Err(e) => {
-                    error!("Error loading workspace {:?}", e);
+                    Err(e) => {
+                        error!("Error loading workspace {:?}", e);
+                    }
                 }
             }
-        }
-        Err(e) => {
+            Err(e) => {
                 error!("Failed to create default configuration {:?}", e);
+            }
         }
+    } else {
+        error!("Cargo file does not exists! {:?}", manifest_path);
     }
     result
 
