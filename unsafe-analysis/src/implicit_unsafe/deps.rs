@@ -69,9 +69,7 @@ pub fn load_dependencies(used_crates:HashSet<String>) -> HashMap<String,CrateInf
     info!("manifest path {:?}", manifest_path);
     let mut result = HashMap::new();
 
-    let path: &Path = Path::new(&manifest_path);
-
-    if path.exists() {
+    if manifest_path.as_path().exists() {
         match Config::default() {
             Ok(cargo_config) => {
                 match Workspace::new(&manifest_path.as_path(), &cargo_config) {
