@@ -33,10 +33,11 @@ fn process_file( input_file: File, writer: &mut BufWriter<File>, crate_name: &St
             //process line
             let trimmed_line = line.trim_right();
             let res: results::implicit::UnsafeInBody = serde_json::from_str(&trimmed_line).unwrap();
-            writeln!(writer, "{}\t{}\t{}"
+            writeln!(writer, "{}\t{}\t{}\t{}"
                      , crate_name
                      , res.def_path
                      , res.has_unsafe
+                     , res.name
             );
         }
     }
