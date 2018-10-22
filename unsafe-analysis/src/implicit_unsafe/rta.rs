@@ -4,10 +4,16 @@ use rustc::hir::def_id::DefId;
 use rustc::mir::visit::Visitor;
 use rustc::mir::{BasicBlock, Location, Operand, Terminator, TerminatorKind, Mir};
 use rustc::ty::TyKind;
+use rustc::ty::TypeFoldable;
+use rustc::ty::subst::Substs;
+use rustc::ty::subst::Subst;
 use rustc::ty;
 use rustc::lint::LateContext;
 
-use std::collections::HashMap;
+
+
+//use std::collections::HashMap;
+use fxhash::FxHashMap;
 use results::implicit::UnsafeResults;
 use implicit_unsafe::UnsafeBlocksVisitorData;
 use get_fn_path;
@@ -15,8 +21,8 @@ use get_fn_path;
 pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>
                                       , fns: &Vec<NodeId>, optimistic: bool)
                                       -> Vec<UnsafeResults> {
-    let mut with_unsafe = HashMap::new();
-    let mut call_graph = HashMap::new();
+    let mut with_unsafe = FxHashMap::default();
+    let mut call_graph = FxHashMap::default();
     for &fn_id in fns {
         let fn_def_id = cx.tcx.hir.local_def_id(fn_id);
         match cx.tcx.fn_sig(fn_def_id).unsafety() {
@@ -37,24 +43,130 @@ pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>
                     let mir = &mut cx.tcx.optimized_mir(fn_def_id);
                     let mut calls_visitor = CallsVisitor::new(&cx,mir,fn_id);
                     calls_visitor.visit_mir(mir);
-                    call_graph.insert(fn_def_id, calls_visitor.calls);
+                    if calls_visitor.uses_fn_ptr && !optimistic {
+                        let mut info = UnsafeResults::Resolved(get_fn_path(cx,fn_def_id), true);
+                        with_unsafe.insert(fn_def_id, info);
+                    } else {
+                        call_graph.insert(fn_def_id, calls_visitor.calls);
+                    }
                 }
             }
         }
     }
+    let rcg = resolve(cx, &call_graph);
+    error!("Call Graph +++++++++++++++++++++++++++++++++++++++++++");
+    dump_call_graph(cx,&call_graph);
+    error!("Resolved Call Graph ++++++++++++++++++++++++++++++++++++");
+    dump_call_graph(cx,&rcg);
 
+    //TODO
+    Vec::new()
+
+}
+
+fn dump_call_graph<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, call_graph: &FxHashMap<DefId,Vec<Call<'tcx>>>) {
+    for (d,c) in call_graph.iter() {
+        error!("{:?} : {:?}", d, c);
+    }
+}
+
+
+fn resolve<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, call_graph: &FxHashMap<DefId,Vec<Call<'tcx>>>)
+            -> FxHashMap<DefId,Vec<Call<'tcx>>>  {
+    let mut new_call_graph = FxHashMap::default();
     //propagate known types
-//    let mut changed: bool = true;
-//    let mut current_values = FxHashMap::default(); // from the fxhash or rustc-hash crates
-//    while changed {
-//        changed = false;
-//        for &fn_id in fns {
-//            let fn_def_id = cx.tcx.hir.local_def_id(fn_id);
-//            let param_env = cx.tcx.param_env(fn_def_id).with_reveal_all();
-//            if let Some(calls) = call_graph.get(&fn_def_id) {
-//                for c1 in calls.iter() {
-//                    if let CallTypes::Local(c1_def_id, substs1) = c1  {
-//                        let unsafe_value = if let Some(instance) = ty::Instance::resolve(
+    for (fn_def_id,calls) in call_graph.iter() {
+        let mut new_calls: Vec<Call<'tcx>> = Vec::new();
+        let mut wl: Vec<(DefId, &Substs)> = Vec::new();
+        for c in calls {
+            match c {
+                Call::Static(def_id, substs) => {
+                    if let Some(calls1) = call_graph.get(&def_id) {
+                        if calls1.is_empty() {
+                            new_calls.push(c.clone());
+                        } else {
+                            wl.push((*def_id, substs));
+                        }
+                    } else {
+                        error!("def id not in call graph");
+                    }
+                }
+                Call::Virtual(..) => {
+                    //TODO
+                }
+            }
+        }
+        while !wl.is_empty() {
+            if let Some((def_id, substs)) = wl.pop() {
+                if let Some(calls) = call_graph.get(&def_id) {
+                    if calls.is_empty() {
+                        new_calls.push(Call::Static(def_id,substs));
+                    } else {
+                        for c in calls {
+                            match c {
+                                Call::Static(c_def_id, c_substs) => {
+                                    let  param_env = cx.tcx.param_env(def_id);
+                                    if let Some(instance) = ty::Instance::resolve(
+                                            cx.tcx,
+                                            param_env,
+                                            // Which substs do I care substs, c_substs????
+                                            *c_def_id, c_substs) {
+                                        match instance.def {
+                                            ty::InstanceDef::Item(def_id)
+                                            | ty::InstanceDef::Intrinsic(def_id)
+                                            | ty::InstanceDef::CloneShim(def_id, _) => {
+                                                // Which substs do I care substs, c_substs, ty_subts????
+                                                let new_substs = instance.subst(cx.tcx,&c_substs).substs;
+                                                wl.push((*c_def_id, new_substs));
+                                            }
+                                            | ty::InstanceDef::Virtual(def_id, _) => {
+                                                new_calls.push(Call::Virtual(def_id));
+                                            }
+                                            _ => error!("ty::InstanceDef:: NOT handled {:?}", instance.def),
+                                        }
+
+                                    } else {
+                                        info!("STILL no type for func: {:?}", c_def_id);
+                                        new_calls.push(Call::Static(def_id, substs));
+                                    }
+                                }
+                                Call::Virtual(_) => {
+                                    //TODO
+                                }
+                            }
+                        }
+                    }
+                } else {
+                    error!("def id not in call graph");
+                }
+            }
+        }
+        new_call_graph.insert(*fn_def_id, new_calls);
+    }
+    new_call_graph
+}
+
+//            for c in calls.iter() {
+//                if let Call::Static(c_def_id, substs) = c  {
+//                    if let Some(instance) = ty::Instance::resolve(self.cx.tcx, param_env, callee_def_id, substs) {
+//                        match instance.def {
+//                            ty::InstanceDef::Item(def_id)
+//                            | ty::InstanceDef::Intrinsic(def_id)
+//                            | ty::InstanceDef::CloneShim(def_id, _) => {
+//                                self.calls.push(Call::Static(def_id, substs));
+//                            }
+//                            | ty::InstanceDef::Virtual(def_id, _) => {
+//                                self.calls.push(Call::Virtual(def_id));
+//                            }
+//                            _ => error!("ty::InstanceDef:: NOT handled {:?}", instance.def),
+//                        }
+//                    } else {
+//                        //                            info!("no type for func: {:?}", func);
+//                        self.calls.push(Call::Static(def_id, substs));
+//                    }
+//
+//
+//                    let unsafe_value = if let Some(instance) = ty::Instance::resolve(
 //                            cx.tcx,
 //                            param_env,
 //                            c1_def_id,
@@ -74,85 +186,30 @@ pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>
 //                error!("Entry in call_graph not found for {:?}", fn_def_id);
 //            }
 //        }
-//    }
 
-    //TODO
-    Vec::new()
 
+#[derive(Clone,Debug)]
+enum Call<'tcx> {
+    Static (DefId, &'tcx ty::subst::Substs<'tcx>),
+    Virtual(DefId), // def id of the trait method called
 }
 
-enum CallTypes<'tcx> {
-    External (DefId, &'tcx ty::subst::Substs<'tcx>),
-    Local (DefId, &'tcx ty::subst::Substs<'tcx>),
-//    TraitObject(),
-//    FnPtr(),
-    //method called
-//    SelfCall(DefId),
-//     callee def id, subst of fn call
-    ParametricCall(DefId, &'tcx ty::subst::Substs<'tcx>),
+EnumTypeFoldableImpl! {
+    impl<'tcx> TypeFoldable<'tcx> for Call<'tcx> {
+        (Call::Static)(def_id, substs),
+        (Call::Virtual)(def_id),
+    }
 }
+
 
 struct CallsVisitor<'a, 'tcx: 'a> {
     cx: &'a LateContext<'a, 'tcx>,
     mir: &'tcx Mir<'tcx>,
     fn_id: NodeId,
-    calls: Vec<CallTypes<'tcx>>,
+    calls: Vec<Call<'tcx>>,
     uses_fn_ptr: bool,
 }
 
-impl <'a, 'tcx> CallsVisitor<'a, 'tcx> {
-//    fn is_associated_method_with_self(self: &Self) -> bool {
-//        //TODO should return true if this is default method of a trait with self
-//        let node = self.cx.tcx.hir.get(self.fn_id);
-//        match node {
-//            hir::Node::TraitItem(ref trait_item) => {
-//                match trait_item.node {
-//                    hir::TraitItemKind::Method(ref method_sig, ref trait_method) => {
-//                        match trait_method {
-//                            hir::TraitMethod::Provided(_) => {
-//                                let fn_def_id = self.cx.tcx.hir.local_def_id(self.fn_id);
-//                                self.cx.tcx.associated_item(fn_def_id).method_has_self_argument
-//                            }
-//                            _ => {false}
-//                        }
-//                    }
-//                    _ => {false}
-//                }
-//            }
-//            _ => false
-//        }
-//    }
-
-//    fn is_method_same_trait(self: &Self, def_id: DefId) -> bool {
-//        if let Some (trait_id) = self.cx.tcx.trait_of_item(def_id) {
-//            let fn_def_id = self.cx.tcx.hir.local_def_id(self.fn_id);
-//            if let Some (fn_trait_id) = self.cx.tcx.trait_of_item(fn_def_id) {
-//                if fn_trait_id == trait_id {
-//                    self.cx.tcx.associated_item(def_id).method_has_self_argument
-//                } else {
-//                    false
-//                }
-//            } else {
-//                false
-//            }
-//        } else {
-//            false
-//        }
-//    }
-
-    fn has_unresolved_substs(self: &Self, substs: &'tcx ty::subst::Substs) -> bool {
-        let mut res = false;
-        for ty in substs.types() {
-            match  ty.sty {
-                ty::TyKind::Param(ref param_ty) => {res = true;}
-                _ => {
-                }
-            }
-        }
-        res
-    }
-
-}
 
 impl<'a, 'tcx> CallsVisitor<'a, 'tcx> {
     fn new(cx: &'a LateContext<'a, 'tcx>, mir: &'tcx Mir<'tcx>, fn_id: NodeId) -> Self {
@@ -167,75 +224,39 @@ impl<'a, 'tcx> Visitor<'tcx> for CallsVisitor<'a, 'tcx> {
         terminator: &Terminator<'tcx>,
         _location: Location,
     ) {
-//        if let TerminatorKind::Call {
-//            ref func,
-//            args: _,
-//            destination: _,
-//            cleanup: _,
-//        } = terminator.kind {
-//            match func {
-//                Operand::Constant(constant) =>
-//                    if let TyKind::FnDef(callee_def_id, substs) = constant.literal.ty.sty {
-//                        let fn_def_id = self.cx.tcx.hir.local_def_id(self.fn_id);
-//                        let param_env = self.cx.tcx.param_env(fn_def_id);
-//                        if let Some(instance) = ty::Instance::resolve(self.cx.tcx, param_env, callee_def_id, substs) {
-//                            match instance.def {
-//                                ty::InstanceDef::Item(def_id)
-//                                | ty::InstanceDef::Intrinsic(def_id)
-//                                | ty::InstanceDef::Virtual(def_id, _)
-//                                | ty::InstanceDef::CloneShim(def_id,_) => {
-//                                    if def_id.is_local() {
-//                                        self.calls.push(CallTypes::Local(def_id,substs));
-//                                    } else {
-//                                        self.calls.push(CallTypes::External(def_id,substs));
-//                                    }
-//                                }
-//                                _ => error!("ty::InstanceDef:: NOT handled {:?}", instance.def),
-//                            }
-//                        } else {
-//                            let mut resolved = false;
-//                            // default trait method (func), self type (param to callee)
-////                            if self.is_associated_method_with_self() {
-////                                // need to check is callee_def_id is method in trait
-////                                if self.is_method_same_trait(callee_def_id) {
-////                                    self.calls.push( CallTypes::SelfCall(callee_def_id) );
-////                                    resolved = true;
-////                                }
-////                            }
-//                            // method of generic type parameter (generic from method or trait defns)
-//
-//                            // self.cx.tcx.generics_of(fn_def_id)
-//                            if self.has_unresolved_substs(substs) {
-////                                error!("substs {:?}", substs);
-////                                error!("generics of method {:?}", self.cx.tcx.generics_of(fn_def_id));
-////                                if let Some(parent_def_id) = self.cx.tcx.generics_of(fn_def_id).parent {
-////                                    error!("generics of method's parent {:?}",
-////                                           self.cx.tcx.generics_of(parent_def_id));
-////                                }
-////                                error!("generics of calee {:?}", self.cx.tcx.generics_of(callee_def_id));
-////                                if let Some(parent_def_id) = self.cx.tcx.generics_of(callee_def_id).parent {
-////                                    error!("generics of calee's parent {:?}", self.cx.tcx.generics_of(parent_def_id));
-////                                }
-//                                self.calls.push(CallTypes::ParametricCall(callee_def_id, substs));
-//                                resolved = true;
-//                            }
-//
-//                            // function pointer
-//                            if self.cx.tcx.is_closure(callee_def_id) {
-//                                error!("is closure {:?}", callee_def_id);
-//                                resolved = true; // nothing to do; the closure's body is parsed in the enclosing function
-//                            }
-//
-//                            if !resolved {
-//                                error!("Type not resolved for call {:?}", func);
-//                                error!("calee def id {:?}", callee_def_id);
-//                            }
-//                        }
-//                    }
-//                _ => {
-//                    error!("func not handled ")
-//                }
-//            }
-//        }
+        if let TerminatorKind::Call {
+            ref func,
+            args: _,
+            destination: _,
+            cleanup: _,
+        } = terminator.kind {
+            match func {
+                Operand::Constant(constant) => {
+                    if let TyKind::FnDef(callee_def_id, substs) = constant.literal.ty.sty {
+                        let fn_def_id = self.cx.tcx.hir.local_def_id(self.fn_id);
+                        let param_env = self.cx.tcx.param_env(fn_def_id);
+                        if let Some(instance) = ty::Instance::resolve(self.cx.tcx, param_env, callee_def_id, substs) {
+                            match instance.def {
+                                ty::InstanceDef::Item(def_id)
+                                | ty::InstanceDef::Intrinsic(def_id)
+                                | ty::InstanceDef::CloneShim(def_id, _) => {
+                                    self.calls.push(Call::Static(def_id, substs));
+                                }
+                                | ty::InstanceDef::Virtual(def_id, _) => {
+                                    self.calls.push(Call::Virtual(def_id));
+                                }
+                                _ => error!("ty::InstanceDef:: NOT handled {:?}", instance.def),
+                            }
+                        } else {
+                            error!("no type for func: {:?}", func);
+                            self.calls.push(Call::Static(callee_def_id, substs));
+                        }
+                    }
+                }
+                _ => {
+                    self.uses_fn_ptr = true;
+                }
+            }
+        }
     }
 }
