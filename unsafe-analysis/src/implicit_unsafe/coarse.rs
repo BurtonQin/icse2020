@@ -240,21 +240,6 @@ impl<'a, 'tcx> Visitor<'tcx> for CallsVisitor<'a, 'tcx> {
                     self.uses_fn_ptr = true;
                 }
             }
-//            match func.ty(&self.mir.local_decls,self.cx.tcx).sty {
-//                TyKind::FnDef(callee_def_id, _substs) => {
-//                    match self.cx.tcx.fn_sig(callee_def_id).unsafety() {
-//                        hir::Unsafety::Unsafe => {} // do nothing; there must be a surrounding unsafe block
-//                        hir::Unsafety::Normal => { self.calls.push(callee_def_id); }
-//                    };
-//                }
-//                TyKind::FnPtr(ref poly_sig) => {
-//                    self.uses_fn_ptr = true;
-//                }
-//                _ => {
-//                    error ! ("TypeVariants NOT handled {:?}", func.ty(&self.mir.local_decls,self.cx.tcx).sty);
-//                }
-//            }
-
         }
     }
 }

@@ -66,7 +66,7 @@ pub fn load_dependencies(used_crates:HashSet<String>) -> HashMap<String,CrateInf
     let mut manifest_path = PathBuf::from(env::var("CARGO_MANIFEST_DIR").unwrap());
     manifest_path.push("Cargo.toml");
 
-    info!("manifest path {:?}", manifest_path);
+//    info!("manifest path {:?}", manifest_path);
     let mut result = HashMap::new();
 
     if manifest_path.as_path().exists() {
@@ -118,7 +118,7 @@ fn load_analysis<'a, 'tcx>(
     result: &mut HashMap<DefId,UnsafeInBody>
 ) -> Result<(), &'static str> {
     //filter external calls to this crate
-    info!("Processing crate: {:?}", crate_info);
+//    info!("Processing crate: {:?}", crate_info);
     let root_dir = ::get_root_dir();
     let dir_path: PathBuf = [&root_dir,&crate_info.name].iter().collect();
     //check if directory with crate name exists
