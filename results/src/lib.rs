@@ -36,7 +36,8 @@ static NO_REASON_FOR_UNSAFE: &'static str = "31_no_reason";
 static BLOCK_UNSAFETY_SOURCES_FILE_NAME: &'static str = "40_unsafe_blocks";
 static BLOCK_SUMMARY_BB: &'static str = "41_blocks_summary";
 
-static UNSAFE_TRAITS: &'static str = "50_unsafe_traits";
+static UNSAFE_TRAITS_IMPLS: &'static str = "50_unsafe_traits_impls";
+static UNSAFE_TRAITS: &'static str = "51_unsafe_traits";
 
 #[derive(Serialize, Deserialize, Debug)]
 pub enum Abi {
@@ -156,6 +157,10 @@ impl<'a, 'b> FileOps<'a, 'b> {
 
     pub fn get_no_reason_for_unsafety_file(&self, save: bool) -> File {
         self.open_file(NO_REASON_FOR_UNSAFE, save)
+    }
+
+    pub fn get_unsafe_traits_impls_file(&self, save: bool) -> File {
+        self.open_file(UNSAFE_TRAITS_IMPLS, save)
     }
 
     pub fn get_unsafe_traits_file(&self, save: bool) -> File {
