@@ -1,0 +1,12 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"read\"), disambiguator: 0 }]","has_unsafe":false,"name":"read"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"read_text\"), disambiguator: 0 }]","has_unsafe":false,"name":"read_text"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"read_delim\"), disambiguator: 0 }]","has_unsafe":false,"name":"read_delim"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"read_lines\"), disambiguator: 0 }]","has_unsafe":false,"name":"read_lines"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"read_words\"), disambiguator: 0 }]","has_unsafe":false,"name":"read_words"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"write\"), disambiguator: 0 }]","has_unsafe":true,"name":"write"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"write_text\"), disambiguator: 0 }]","has_unsafe":true,"name":"write_text"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"write_lines\"), disambiguator: 0 }]","has_unsafe":true,"name":"write_lines"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"write_fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"write_fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"write_newline\"), disambiguator: 0 }]","has_unsafe":true,"name":"write_newline"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"contains\"), disambiguator: 0 }]","has_unsafe":true,"name":"contains"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"merge\"), disambiguator: 0 }]","has_unsafe":true,"name":"merge"}

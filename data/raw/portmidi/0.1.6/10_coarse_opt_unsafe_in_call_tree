@@ -1,0 +1,47 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"ffi\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<ffi::PmError as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"ffi\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"tmp_from_primitive\"), disambiguator: 0 }]","has_unsafe":false,"name":"ffi::tmp_from_primitive"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 10 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<PortMidiError as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 9 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<PortMidiError as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 8 }, DisambiguatedDefPathData { data: ValueNs(\"eq\"), disambiguator: 0 }]","has_unsafe":true,"name":"<PortMidiError as std::cmp::PartialEq>::eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"assert_receiver_is_total_eq\"), disambiguator: 0 }]","has_unsafe":false,"name":"<PortMidiError as std::cmp::Eq>::assert_receiver_is_total_eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<PortMidiError as std::fmt::Display>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"description\"), disambiguator: 0 }]","has_unsafe":false,"name":"<PortMidiError as std::error::Error>::description"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"from_pm_error\"), disambiguator: 0 }]","has_unsafe":false,"name":"from_pm_error"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"initialize\"), disambiguator: 0 }]","has_unsafe":true,"name":"initialize"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"terminate\"), disambiguator: 0 }]","has_unsafe":true,"name":"terminate"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"count_devices\"), disambiguator: 0 }]","has_unsafe":true,"name":"count_devices"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_default_input_device_id\"), disambiguator: 0 }]","has_unsafe":true,"name":"get_default_input_device_id"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_default_output_device_id\"), disambiguator: 0 }]","has_unsafe":true,"name":"get_default_output_device_id"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 13 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<DeviceInfo as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 12 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<DeviceInfo as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"wrap\"), disambiguator: 0 }]","has_unsafe":true,"name":"DeviceInfo::wrap"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_device_info\"), disambiguator: 0 }]","has_unsafe":true,"name":"get_device_info"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 18 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<MidiMessage as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 16 }, DisambiguatedDefPathData { data: ValueNs(\"eq\"), disambiguator: 0 }]","has_unsafe":false,"name":"<MidiMessage as std::cmp::PartialEq>::eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 16 }, DisambiguatedDefPathData { data: ValueNs(\"ne\"), disambiguator: 0 }]","has_unsafe":false,"name":"<MidiMessage as std::cmp::PartialEq>::ne"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 15 }, DisambiguatedDefPathData { data: ValueNs(\"assert_receiver_is_total_eq\"), disambiguator: 0 }]","has_unsafe":false,"name":"<MidiMessage as std::cmp::Eq>::assert_receiver_is_total_eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 14 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<MidiMessage as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"wrap\"), disambiguator: 0 }]","has_unsafe":false,"name":"MidiMessage::wrap"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"unwrap\"), disambiguator: 0 }]","has_unsafe":false,"name":"MidiMessage::unwrap"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 23 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<MidiEvent as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 21 }, DisambiguatedDefPathData { data: ValueNs(\"eq\"), disambiguator: 0 }]","has_unsafe":false,"name":"<MidiEvent as std::cmp::PartialEq>::eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 21 }, DisambiguatedDefPathData { data: ValueNs(\"ne\"), disambiguator: 0 }]","has_unsafe":false,"name":"<MidiEvent as std::cmp::PartialEq>::ne"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 20 }, DisambiguatedDefPathData { data: ValueNs(\"assert_receiver_is_total_eq\"), disambiguator: 0 }]","has_unsafe":false,"name":"<MidiEvent as std::cmp::Eq>::assert_receiver_is_total_eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 19 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<MidiEvent as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"wrap\"), disambiguator: 0 }]","has_unsafe":false,"name":"MidiEvent::wrap"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"unwrap\"), disambiguator: 0 }]","has_unsafe":false,"name":"MidiEvent::unwrap"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"InputPort::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"open\"), disambiguator: 0 }]","has_unsafe":true,"name":"InputPort::open"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"read\"), disambiguator: 0 }]","has_unsafe":true,"name":"InputPort::read"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"poll\"), disambiguator: 0 }]","has_unsafe":true,"name":"InputPort::poll"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"close\"), disambiguator: 0 }]","has_unsafe":true,"name":"InputPort::close"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"has_host_error\"), disambiguator: 0 }]","has_unsafe":true,"name":"InputPort::has_host_error"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"OutputPort::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"open\"), disambiguator: 0 }]","has_unsafe":true,"name":"OutputPort::open"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"abort\"), disambiguator: 0 }]","has_unsafe":true,"name":"OutputPort::abort"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"close\"), disambiguator: 0 }]","has_unsafe":true,"name":"OutputPort::close"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"write_event\"), disambiguator: 0 }]","has_unsafe":true,"name":"OutputPort::write_event"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"write_message\"), disambiguator: 0 }]","has_unsafe":true,"name":"OutputPort::write_message"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"has_host_error\"), disambiguator: 0 }]","has_unsafe":true,"name":"OutputPort::has_host_error"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_error_text\"), disambiguator: 0 }]","has_unsafe":true,"name":"get_error_text"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_host_error_text\"), disambiguator: 0 }]","has_unsafe":true,"name":"get_host_error_text"}

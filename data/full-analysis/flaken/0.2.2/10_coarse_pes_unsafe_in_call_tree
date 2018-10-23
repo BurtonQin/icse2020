@@ -1,0 +1,10 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Flaken as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"as_millis\"), disambiguator: 0 }]","has_unsafe":false,"name":"<std::time::Duration as AsMillis>::as_millis"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"default\"), disambiguator: 0 }]","has_unsafe":false,"name":"Flaken::default"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"epoch\"), disambiguator: 0 }]","has_unsafe":false,"name":"Flaken::epoch"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"node\"), disambiguator: 0 }]","has_unsafe":false,"name":"Flaken::node"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"bitwidths\"), disambiguator: 0 }]","has_unsafe":false,"name":"Flaken::bitwidths"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"next\"), disambiguator: 0 }]","has_unsafe":false,"name":"Flaken::next"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"encode\"), disambiguator: 0 }]","has_unsafe":false,"name":"Flaken::encode"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"decode\"), disambiguator: 0 }]","has_unsafe":false,"name":"Flaken::decode"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"bitmask\"), disambiguator: 0 }]","has_unsafe":false,"name":"bitmask"}

@@ -1,0 +1,4 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"compile_protos\"), disambiguator: 0 }]","has_unsafe":true,"name":"compile_protos"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"download_protoc\"), disambiguator: 0 }]","has_unsafe":true,"name":"download_protoc"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"download_protoc\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"convert_permissions\"), disambiguator: 0 }]","has_unsafe":false,"name":"download_protoc::convert_permissions"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"protoc_url\"), disambiguator: 0 }]","has_unsafe":false,"name":"protoc_url"}

@@ -1,0 +1,5 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"load_file\"), disambiguator: 0 }]","has_unsafe":false,"name":"load_file"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"fixture_path\"), disambiguator: 0 }]","has_unsafe":false,"name":"fixture_path"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"load_fixture\"), disambiguator: 0 }]","has_unsafe":false,"name":"load_fixture"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"assert_snapshot\"), disambiguator: 0 }]","has_unsafe":false,"name":"assert_snapshot"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"assert_snapshot_plain\"), disambiguator: 0 }]","has_unsafe":false,"name":"assert_snapshot_plain"}

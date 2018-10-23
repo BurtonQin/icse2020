@@ -1,0 +1,3 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"test_waiter_map\"), disambiguator: 0 }]","has_unsafe":true,"name":"test_waiter_map"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"test_waiter_map\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_go_check\"), disambiguator: 0 }]","has_unsafe":false,"name":"test_waiter_map::_go_check"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}

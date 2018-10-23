@@ -1,0 +1,6 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"utils\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lit_str_value\"), disambiguator: 0 }]","has_unsafe":false,"name":"utils::lit_str_value"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"utils\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"target_attributes\"), disambiguator: 0 }]","has_unsafe":false,"name":"utils::target_attributes"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"enum_to_str\"), disambiguator: 0 }]","has_unsafe":false,"name":"enum_to_str"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"each_variant\"), disambiguator: 0 }]","has_unsafe":false,"name":"each_variant"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"variant_value\"), disambiguator: 0 }]","has_unsafe":false,"name":"variant_value"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","has_unsafe":true,"name":"registrar::_registrar"}

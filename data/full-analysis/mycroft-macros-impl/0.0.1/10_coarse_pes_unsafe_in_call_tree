@@ -1,0 +1,8 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"compile\"), disambiguator: 0 }]","has_unsafe":true,"name":"compile"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"input_explanation\"), disambiguator: 0 }]","has_unsafe":false,"name":"input_explanation"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"mycroft_program_impl\"), disambiguator: 0 }]","has_unsafe":true,"name":"mycroft_program_impl"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"mycroft_program_impl\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"func\"), disambiguator: 0 }]","has_unsafe":true,"name":"mycroft_program_impl::func"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"input_explanation_file\"), disambiguator: 0 }]","has_unsafe":false,"name":"input_explanation_file"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"mycroft_files_impl\"), disambiguator: 0 }]","has_unsafe":true,"name":"mycroft_files_impl"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"mycroft_files_impl\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"func\"), disambiguator: 0 }]","has_unsafe":true,"name":"mycroft_files_impl::func"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","has_unsafe":true,"name":"registrar::_registrar"}

@@ -1,0 +1,6 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"start\"), disambiguator: 0 }]","has_unsafe":false,"name":"start"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"end\"), disambiguator: 0 }]","has_unsafe":false,"name":"end"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"trace\"), disambiguator: 0 }]","has_unsafe":false,"name":"trace"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"trace_function\"), disambiguator: 0 }]","has_unsafe":false,"name":"trace_function"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"AutoTrace::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"drop\"), disambiguator: 0 }]","has_unsafe":false,"name":"<AutoTrace<'a> as std::ops::Drop>::drop"}

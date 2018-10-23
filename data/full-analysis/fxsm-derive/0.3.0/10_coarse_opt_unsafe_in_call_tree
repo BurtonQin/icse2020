@@ -1,0 +1,10 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<EnumFieldData as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"to_tokens\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Stmts as quote::ToTokens>::to_tokens"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"ident_with_data\"), disambiguator: 0 }]","has_unsafe":false,"name":"ident_with_data"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"serialize_variant\"), disambiguator: 0 }]","has_unsafe":false,"name":"serialize_variant"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"serialize_enum\"), disambiguator: 0 }]","has_unsafe":false,"name":"serialize_enum"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_finish_states\"), disambiguator: 0 }]","has_unsafe":false,"name":"get_finish_states"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"gen_for_clonable\"), disambiguator: 0 }]","has_unsafe":false,"name":"gen_for_clonable"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"fxsm\"), disambiguator: 0 }]","has_unsafe":false,"name":"fxsm"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"impl_fsm\"), disambiguator: 0 }]","has_unsafe":false,"name":"impl_fsm"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","has_unsafe":true,"name":"registrar::_registrar"}

@@ -1,0 +1,6 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"hoard\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"usable_size\"), disambiguator: 0 }]","has_unsafe":false,"name":"hoard::usable_size"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"__rust_allocate\"), disambiguator: 0 }]","has_unsafe":true,"name":"__rust_allocate"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"__rust_deallocate\"), disambiguator: 0 }]","has_unsafe":true,"name":"__rust_deallocate"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"__rust_reallocate\"), disambiguator: 0 }]","has_unsafe":true,"name":"__rust_reallocate"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"__rust_reallocate_inplace\"), disambiguator: 0 }]","has_unsafe":true,"name":"__rust_reallocate_inplace"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"__rust_usable_size\"), disambiguator: 0 }]","has_unsafe":false,"name":"__rust_usable_size"}

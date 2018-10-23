@@ -1,0 +1,4 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":false,"name":"main"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"keccak256\"), disambiguator: 0 }]","has_unsafe":true,"name":"keccak256"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"cpointer_to_string\"), disambiguator: 0 }]","has_unsafe":true,"name":"cpointer_to_string"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"vec_to_hex_string\"), disambiguator: 0 }]","has_unsafe":false,"name":"vec_to_hex_string"}

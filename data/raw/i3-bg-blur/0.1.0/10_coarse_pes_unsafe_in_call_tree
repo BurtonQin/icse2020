@@ -1,0 +1,4 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"current_workspace_is_empty\"), disambiguator: 0 }]","has_unsafe":true,"name":"current_workspace_is_empty"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"work\"), disambiguator: 0 }]","has_unsafe":false,"name":"work"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"listen\"), disambiguator: 0 }]","has_unsafe":true,"name":"listen"}

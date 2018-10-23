@@ -1,0 +1,25 @@
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"cap_from_text\"), disambiguator: 0 }]","name":"cap_from_text"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"cap_dup\"), disambiguator: 0 }]","name":"cap_dup"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"cap_set_proc\"), disambiguator: 0 }]","name":"cap_set_proc"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"cap_clear_flag\"), disambiguator: 0 }]","name":"cap_clear_flag"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"cap_get_pid\"), disambiguator: 0 }]","name":"cap_get_pid"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"cap_init\"), disambiguator: 0 }]","name":"cap_init"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"cap_from_name\"), disambiguator: 0 }]","name":"cap_from_name"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"cap_drop_bound\"), disambiguator: 0 }]","name":"cap_drop_bound"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"cap_free\"), disambiguator: 0 }]","name":"cap_free"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"cap_set_fd\"), disambiguator: 0 }]","name":"cap_set_fd"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"cap_get_flag\"), disambiguator: 0 }]","name":"cap_get_flag"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"cap_get_proc\"), disambiguator: 0 }]","name":"cap_get_proc"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"cap_get_fd\"), disambiguator: 0 }]","name":"cap_get_fd"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"cap_to_text\"), disambiguator: 0 }]","name":"cap_to_text"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"ffi\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Module(\"c_str\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 32 }, DisambiguatedDefPathData { data: ValueNs(\"from_ptr\"), disambiguator: 0 }]","name":"from_ptr"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"cap_free\"), disambiguator: 0 }]","name":"cap_free"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"cap_compare\"), disambiguator: 0 }]","name":"cap_compare"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"cap_set_file\"), disambiguator: 0 }]","name":"cap_set_file"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"cap_set_flag\"), disambiguator: 0 }]","name":"cap_set_flag"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"cap_clear\"), disambiguator: 0 }]","name":"cap_clear"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"cap_get_file\"), disambiguator: 0 }]","name":"cap_get_file"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"cap_to_name\"), disambiguator: 0 }]","name":"cap_to_name"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"ffi\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Module(\"c_str\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 32 }, DisambiguatedDefPathData { data: ValueNs(\"from_ptr\"), disambiguator: 0 }]","name":"from_ptr"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"cap_free\"), disambiguator: 0 }]","name":"cap_free"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"cap_get_bound\"), disambiguator: 0 }]","name":"cap_get_bound"}

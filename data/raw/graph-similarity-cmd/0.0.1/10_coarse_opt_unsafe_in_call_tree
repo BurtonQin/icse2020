@@ -1,0 +1,6 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"convert_weight\"), disambiguator: 0 }]","has_unsafe":false,"name":"convert_weight"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"determine_edge_value_range\"), disambiguator: 0 }]","has_unsafe":false,"name":"determine_edge_value_range"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"normalize_to_closed01\"), disambiguator: 0 }]","has_unsafe":false,"name":"normalize_to_closed01"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"load_graph\"), disambiguator: 0 }]","has_unsafe":true,"name":"load_graph"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"score_graphs\"), disambiguator: 0 }]","has_unsafe":true,"name":"score_graphs"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}

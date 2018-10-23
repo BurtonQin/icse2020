@@ -1,0 +1,2 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"sqrt\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"find_sqrt\"), disambiguator: 0 }]","has_unsafe":true,"name":"sqrt::find_sqrt"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"find_root\"), disambiguator: 0 }]","has_unsafe":true,"name":"find_root"}

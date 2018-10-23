@@ -1,0 +1,12 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"actor\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"build_handler\"), disambiguator: 0 }]","has_unsafe":true,"name":"actor::build_handler"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"actor\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"impl_handler\"), disambiguator: 0 }]","has_unsafe":true,"name":"actor::impl_handler"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"actor\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"gen_handler\"), disambiguator: 0 }]","has_unsafe":true,"name":"actor::gen_handler"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"actor\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"parse_attributes\"), disambiguator: 0 }]","has_unsafe":true,"name":"actor::parse_attributes"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"message\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"expand\"), disambiguator: 0 }]","has_unsafe":true,"name":"message::expand"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"message\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_attribute_type_multiple\"), disambiguator: 0 }]","has_unsafe":false,"name":"message::get_attribute_type_multiple"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"message\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"meta_item_to_ty\"), disambiguator: 0 }]","has_unsafe":true,"name":"message::meta_item_to_ty"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"message\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"message_attr\"), disambiguator: 0 }]","has_unsafe":true,"name":"message::message_attr"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"message_derive_rtype\"), disambiguator: 0 }]","has_unsafe":true,"name":"message_derive_rtype"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"actor\"), disambiguator: 0 }]","has_unsafe":true,"name":"actor"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"msg\"), disambiguator: 0 }]","has_unsafe":true,"name":"msg"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","has_unsafe":true,"name":"registrar::_registrar"}

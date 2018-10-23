@@ -1,0 +1,4 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"args\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"parse\"), disambiguator: 0 }]","has_unsafe":true,"name":"args::parse"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"sock\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"on\"), disambiguator: 0 }]","has_unsafe":true,"name":"sock::on"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"sock\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"at\"), disambiguator: 0 }]","has_unsafe":true,"name":"sock::at"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}

@@ -1,0 +1,3 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"to_rgb_buffer\"), disambiguator: 0 }]","has_unsafe":false,"name":"Image::to_rgb_buffer"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"read\"), disambiguator: 0 }]","has_unsafe":true,"name":"read"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"write\"), disambiguator: 0 }]","has_unsafe":true,"name":"write"}

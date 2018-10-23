@@ -1,0 +1,35 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 10 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<ToLowerCamel as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"convert\"), disambiguator: 0 }]","has_unsafe":true,"name":"<ToLowerCamel as Naming>::convert"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"copy\"), disambiguator: 0 }]","has_unsafe":false,"name":"<ToLowerCamel as Naming>::copy"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"first_iter\"), disambiguator: 0 }]","has_unsafe":false,"name":"<ToLowerCamel as Operator>::first_iter"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"open_section\"), disambiguator: 0 }]","has_unsafe":false,"name":"<ToLowerCamel as Operator>::open_section"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"rest_iter\"), disambiguator: 0 }]","has_unsafe":false,"name":"<ToLowerCamel as Operator>::rest_iter"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"sep\"), disambiguator: 0 }]","has_unsafe":false,"name":"<ToLowerCamel as Operator>::sep"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 12 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<ToUpperCamel as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"convert\"), disambiguator: 0 }]","has_unsafe":true,"name":"<ToUpperCamel as Naming>::convert"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"copy\"), disambiguator: 0 }]","has_unsafe":false,"name":"<ToUpperCamel as Naming>::copy"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"first_iter\"), disambiguator: 0 }]","has_unsafe":false,"name":"<ToUpperCamel as Operator>::first_iter"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"open_section\"), disambiguator: 0 }]","has_unsafe":false,"name":"<ToUpperCamel as Operator>::open_section"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"rest_iter\"), disambiguator: 0 }]","has_unsafe":false,"name":"<ToUpperCamel as Operator>::rest_iter"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"sep\"), disambiguator: 0 }]","has_unsafe":false,"name":"<ToUpperCamel as Operator>::sep"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 14 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<ToLowerSnake as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"convert\"), disambiguator: 0 }]","has_unsafe":true,"name":"<ToLowerSnake as Naming>::convert"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"copy\"), disambiguator: 0 }]","has_unsafe":false,"name":"<ToLowerSnake as Naming>::copy"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"first_iter\"), disambiguator: 0 }]","has_unsafe":false,"name":"<ToLowerSnake as Operator>::first_iter"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"open_section\"), disambiguator: 0 }]","has_unsafe":false,"name":"<ToLowerSnake as Operator>::open_section"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"rest_iter\"), disambiguator: 0 }]","has_unsafe":false,"name":"<ToLowerSnake as Operator>::rest_iter"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"sep\"), disambiguator: 0 }]","has_unsafe":false,"name":"<ToLowerSnake as Operator>::sep"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 16 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<ToUpperSnake as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"convert\"), disambiguator: 0 }]","has_unsafe":true,"name":"<ToUpperSnake as Naming>::convert"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"copy\"), disambiguator: 0 }]","has_unsafe":false,"name":"<ToUpperSnake as Naming>::copy"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"first_iter\"), disambiguator: 0 }]","has_unsafe":false,"name":"<ToUpperSnake as Operator>::first_iter"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"open_section\"), disambiguator: 0 }]","has_unsafe":false,"name":"<ToUpperSnake as Operator>::open_section"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"rest_iter\"), disambiguator: 0 }]","has_unsafe":false,"name":"<ToUpperSnake as Operator>::rest_iter"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"sep\"), disambiguator: 0 }]","has_unsafe":false,"name":"<ToUpperSnake as Operator>::sep"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 17 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<AnyCase as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 8 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"AnyCase::new"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"operate\"), disambiguator: 0 }]","has_unsafe":true,"name":"operate"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"to_lower_camel\"), disambiguator: 0 }]","has_unsafe":false,"name":"to_lower_camel"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"to_upper_camel\"), disambiguator: 0 }]","has_unsafe":false,"name":"to_upper_camel"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"to_lower_snake\"), disambiguator: 0 }]","has_unsafe":false,"name":"to_lower_snake"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"to_upper_snake\"), disambiguator: 0 }]","has_unsafe":false,"name":"to_upper_snake"}

@@ -1,0 +1,22 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<E as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"eq\"), disambiguator: 0 }]","has_unsafe":true,"name":"<E as std::cmp::PartialEq>::eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"ne\"), disambiguator: 0 }]","has_unsafe":true,"name":"<E as std::cmp::PartialEq>::ne"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"print\"), disambiguator: 0 }]","has_unsafe":false,"name":"E::print"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<LinuxTuplesConnection as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"ti\"), disambiguator: 0 }]","has_unsafe":true,"name":"ti"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"ctoi\"), disambiguator: 0 }]","has_unsafe":true,"name":"ctoi"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"ciot\"), disambiguator: 0 }]","has_unsafe":true,"name":"ciot"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"cdot\"), disambiguator: 0 }]","has_unsafe":true,"name":"cdot"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"ctod\"), disambiguator: 0 }]","has_unsafe":true,"name":"ctod"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"send_tuple\"), disambiguator: 0 }]","has_unsafe":true,"name":"send_tuple"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"recv_tuple\"), disambiguator: 0 }]","has_unsafe":true,"name":"recv_tuple"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"put_tuple\"), disambiguator: 0 }]","has_unsafe":true,"name":"LinuxTuplesConnection::put_tuple"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"get_tuple\"), disambiguator: 0 }]","has_unsafe":true,"name":"LinuxTuplesConnection::get_tuple"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"read_tuple\"), disambiguator: 0 }]","has_unsafe":true,"name":"LinuxTuplesConnection::read_tuple"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"get_nb_tuple\"), disambiguator: 0 }]","has_unsafe":true,"name":"LinuxTuplesConnection::get_nb_tuple"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"read_nb_tuple\"), disambiguator: 0 }]","has_unsafe":true,"name":"LinuxTuplesConnection::read_nb_tuple"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"read_all_tuples\"), disambiguator: 0 }]","has_unsafe":true,"name":"LinuxTuplesConnection::read_all_tuples"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"number_of_tuples\"), disambiguator: 0 }]","has_unsafe":true,"name":"LinuxTuplesConnection::number_of_tuples"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"replace_tuple\"), disambiguator: 0 }]","has_unsafe":true,"name":"LinuxTuplesConnection::replace_tuple"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"server_log\"), disambiguator: 0 }]","has_unsafe":true,"name":"LinuxTuplesConnection::server_log"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"print_tuple\"), disambiguator: 0 }]","has_unsafe":false,"name":"LinuxTuplesConnection::print_tuple"}

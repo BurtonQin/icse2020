@@ -1,0 +1,6 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Mcp3008<SPI, CS>>::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"read_channel\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Mcp3008<SPI, CS>>::read_channel"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Mcp3004<SPI, CS>>::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"read_channel\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Mcp3004<SPI, CS>>::read_channel"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Channels8 as core::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Channels4 as core::clone::Clone>::clone"}

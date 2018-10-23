@@ -1,0 +1,3 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"derive_json_typegen\"), disambiguator: 0 }]","has_unsafe":true,"name":"derive_json_typegen"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"extract_from_proc_macro_hack\"), disambiguator: 0 }]","has_unsafe":false,"name":"extract_from_proc_macro_hack"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","has_unsafe":true,"name":"registrar::_registrar"}

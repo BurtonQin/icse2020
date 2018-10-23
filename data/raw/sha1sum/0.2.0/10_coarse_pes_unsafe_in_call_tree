@@ -1,0 +1,4 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_checksum_file\"), disambiguator: 0 }]","has_unsafe":true,"name":"parse_checksum_file"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"check_files\"), disambiguator: 0 }]","has_unsafe":true,"name":"check_files"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"sha1sum\"), disambiguator: 0 }]","has_unsafe":true,"name":"sha1sum"}

@@ -1,0 +1,1 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"to_boxed\"), disambiguator: 0 }]","has_unsafe":false,"name":"<F as Boxable<T, E>>::to_boxed"}

@@ -1,0 +1,9 @@
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"abort\"), disambiguator: 0 }]","name":"abort"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"abort\"), disambiguator: 0 }]","name":"abort"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"abort\"), disambiguator: 0 }]","name":"abort"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"boxed\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"from_raw\"), disambiguator: 0 }]","name":"from_raw"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"slice\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"from_raw_parts_mut\"), disambiguator: 0 }]","name":"from_raw_parts_mut"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"abort\"), disambiguator: 0 }]","name":"abort"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"abort\"), disambiguator: 0 }]","name":"abort"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"abort\"), disambiguator: 0 }]","name":"abort"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"slice\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"from_raw_parts_mut\"), disambiguator: 0 }]","name":"from_raw_parts_mut"}

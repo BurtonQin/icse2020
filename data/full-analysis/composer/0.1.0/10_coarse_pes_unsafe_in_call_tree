@@ -1,0 +1,4 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":true,"name":"Composer::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"is_available\"), disambiguator: 0 }]","has_unsafe":false,"name":"Composer::is_available"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"ensure_available\"), disambiguator: 0 }]","has_unsafe":true,"name":"Composer::ensure_available"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"install\"), disambiguator: 0 }]","has_unsafe":true,"name":"Composer::install"}

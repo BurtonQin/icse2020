@@ -1,0 +1,14 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_digit_at\"), disambiguator: 0 }]","has_unsafe":false,"name":"<u8 as DigitAt>::get_digit_at"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"get_digit_at\"), disambiguator: 0 }]","has_unsafe":false,"name":"<u16 as DigitAt>::get_digit_at"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"get_digit_at\"), disambiguator: 0 }]","has_unsafe":false,"name":"<u32 as DigitAt>::get_digit_at"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"get_digit_at\"), disambiguator: 0 }]","has_unsafe":false,"name":"<u64 as DigitAt>::get_digit_at"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"get_digit_at\"), disambiguator: 0 }]","has_unsafe":false,"name":"<&'a str as DigitAt>::get_digit_at"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"get_digit_at\"), disambiguator: 0 }]","has_unsafe":false,"name":"<std::string::String as DigitAt>::get_digit_at"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"get_digit_at\"), disambiguator: 0 }]","has_unsafe":false,"name":"<[u8] as DigitAt>::get_digit_at"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"get_digit_at\"), disambiguator: 0 }]","has_unsafe":false,"name":"<&'a [u8] as DigitAt>::get_digit_at"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 8 }, DisambiguatedDefPathData { data: ValueNs(\"get_digit_at\"), disambiguator: 0 }]","has_unsafe":false,"name":"<std::borrow::Cow<'a, str> as DigitAt>::get_digit_at"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 9 }, DisambiguatedDefPathData { data: ValueNs(\"get_digit_at\"), disambiguator: 0 }]","has_unsafe":true,"name":"<(dyn std::convert::AsRef<(dyn DigitAt + 'static)> + 'static) as DigitAt>::get_digit_at"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 10 }, DisambiguatedDefPathData { data: ValueNs(\"af_sort_unstable\"), disambiguator: 0 }]","has_unsafe":false,"name":"<[T] as AFSortable>::af_sort_unstable"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"ident\"), disambiguator: 0 }]","has_unsafe":false,"name":"ident"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"sort_unstable_by\"), disambiguator: 0 }]","has_unsafe":false,"name":"sort_unstable_by"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"sort_req\"), disambiguator: 0 }]","has_unsafe":false,"name":"sort_req"}

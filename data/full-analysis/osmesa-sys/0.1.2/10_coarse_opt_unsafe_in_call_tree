@@ -1,0 +1,3 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"open\"), disambiguator: 0 }]","has_unsafe":true,"name":"OsMesa::open"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"get_static_ref\"), disambiguator: 0 }]","has_unsafe":true,"name":"OsMesa::get_static_ref"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"try_loading\"), disambiguator: 0 }]","has_unsafe":true,"name":"OsMesa::try_loading"}

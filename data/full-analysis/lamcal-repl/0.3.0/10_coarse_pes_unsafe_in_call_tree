@@ -1,0 +1,48 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"app_dir\"), disambiguator: 0 }]","has_unsafe":true,"name":"app_dir"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"settings_file\"), disambiguator: 0 }]","has_unsafe":true,"name":"settings_file"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"history_file\"), disambiguator: 0 }]","has_unsafe":true,"name":"history_file"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"print\"), disambiguator: 0 }]","has_unsafe":false,"name":"print"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"print_error\"), disambiguator: 0 }]","has_unsafe":false,"name":"print_error"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"print_warning\"), disambiguator: 0 }]","has_unsafe":false,"name":"print_warning"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"print_info\"), disambiguator: 0 }]","has_unsafe":false,"name":"print_info"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"handle_continuation\"), disambiguator: 0 }]","has_unsafe":false,"name":"handle_continuation"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"next\"), disambiguator: 0 }]","has_unsafe":false,"name":"next"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"stop\"), disambiguator: 0 }]","has_unsafe":false,"name":"stop"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_alpha_renaming_strategy\"), disambiguator: 0 }]","has_unsafe":true,"name":"parse_alpha_renaming_strategy"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_beta_reduction_strategy\"), disambiguator: 0 }]","has_unsafe":true,"name":"parse_beta_reduction_strategy"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"execute\"), disambiguator: 0 }]","has_unsafe":true,"name":"LciCommand::execute"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"from\"), disambiguator: 0 }]","has_unsafe":false,"name":"<LciCommand<'a> as std::convert::From<Help>>::from"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"from\"), disambiguator: 0 }]","has_unsafe":false,"name":"<LciCommand<'a> as std::convert::From<Quit>>::from"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"from\"), disambiguator: 0 }]","has_unsafe":false,"name":"<LciCommand<'a> as std::convert::From<Version>>::from"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"from\"), disambiguator: 0 }]","has_unsafe":false,"name":"<LciCommand<'a> as std::convert::From<lamcal_repl::command::PrintAlphaRenamingStrategy>>::from"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"from\"), disambiguator: 0 }]","has_unsafe":false,"name":"<LciCommand<'a> as std::convert::From<lamcal_repl::command::PrintBetaReductionStrategy>>::from"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"from\"), disambiguator: 0 }]","has_unsafe":false,"name":"<LciCommand<'a> as std::convert::From<lamcal_repl::command::SetAlphaRenamingStrategy>>::from"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"from\"), disambiguator: 0 }]","has_unsafe":false,"name":"<LciCommand<'a> as std::convert::From<lamcal_repl::command::SetBetaReductionStrategy>>::from"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 8 }, DisambiguatedDefPathData { data: ValueNs(\"from\"), disambiguator: 0 }]","has_unsafe":false,"name":"<LciCommand<'a> as std::convert::From<lamcal_repl::command::ParseLambdaExpression<'a>>>::from"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 9 }, DisambiguatedDefPathData { data: ValueNs(\"from\"), disambiguator: 0 }]","has_unsafe":false,"name":"<LciCommand<'a> as std::convert::From<lamcal_repl::command::ExpandLambdaExpression<'a>>>::from"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 10 }, DisambiguatedDefPathData { data: ValueNs(\"from\"), disambiguator: 0 }]","has_unsafe":false,"name":"<LciCommand<'a> as std::convert::From<lamcal_repl::command::BetaReduceLambdaExpression<'a>>>::from"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 11 }, DisambiguatedDefPathData { data: ValueNs(\"from\"), disambiguator: 0 }]","has_unsafe":false,"name":"<LciCommand<'a> as std::convert::From<lamcal_repl::command::EvaluateLambdaExpression<'a>>>::from"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 12 }, DisambiguatedDefPathData { data: ValueNs(\"from\"), disambiguator: 0 }]","has_unsafe":false,"name":"<LciCommand<'a> as std::convert::From<lamcal_repl::let_stmt::LetStatement>>::from"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 13 }, DisambiguatedDefPathData { data: ValueNs(\"from\"), disambiguator: 0 }]","has_unsafe":false,"name":"<LciCommand<'a> as std::convert::From<lamcal_repl::command::ClearEnvironment>>::from"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 14 }, DisambiguatedDefPathData { data: ValueNs(\"from\"), disambiguator: 0 }]","has_unsafe":false,"name":"<LciCommand<'a> as std::convert::From<lamcal_repl::command::PrintEnvironment>>::from"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 15 }, DisambiguatedDefPathData { data: ValueNs(\"from\"), disambiguator: 0 }]","has_unsafe":false,"name":"<LciCommand<'a> as std::convert::From<lamcal_repl::command::LoadBindings>>::from"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 22 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Quit as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 21 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Quit as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 19 }, DisambiguatedDefPathData { data: ValueNs(\"eq\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Quit as std::cmp::PartialEq>::eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 16 }, DisambiguatedDefPathData { data: ValueNs(\"with_input\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Quit as lamcal_repl::command::Command>::with_input"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 16 }, DisambiguatedDefPathData { data: ValueNs(\"execute\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Quit as lamcal_repl::command::Command>::execute"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 26 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Help as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 25 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Help as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 23 }, DisambiguatedDefPathData { data: ValueNs(\"eq\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Help as std::cmp::PartialEq>::eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 17 }, DisambiguatedDefPathData { data: ValueNs(\"with_input\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Help as lamcal_repl::command::Command>::with_input"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 17 }, DisambiguatedDefPathData { data: ValueNs(\"execute\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Help as lamcal_repl::command::Command>::execute"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 30 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Version as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 29 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Version as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 27 }, DisambiguatedDefPathData { data: ValueNs(\"eq\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Version as std::cmp::PartialEq>::eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 18 }, DisambiguatedDefPathData { data: ValueNs(\"with_input\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Version as lamcal_repl::command::Command>::with_input"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 18 }, DisambiguatedDefPathData { data: ValueNs(\"execute\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Version as lamcal_repl::command::Command>::execute"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"welcome_message\"), disambiguator: 0 }]","has_unsafe":false,"name":"welcome_message"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"version_message\"), disambiguator: 0 }]","has_unsafe":false,"name":"version_message"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_command\"), disambiguator: 0 }]","has_unsafe":true,"name":"parse_command"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"help_message\"), disambiguator: 0 }]","has_unsafe":false,"name":"help_message"}

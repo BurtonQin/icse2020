@@ -1,0 +1,7 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"helpers\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"build_str_from_c\"), disambiguator: 0 }]","has_unsafe":true,"name":"helpers::build_str_from_c"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"helpers\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"path_to_str\"), disambiguator: 0 }]","has_unsafe":false,"name":"helpers::path_to_str"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"helpers\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"protect_against_panic\"), disambiguator: 0 }]","has_unsafe":false,"name":"helpers::protect_against_panic"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"rust_join\"), disambiguator: 0 }]","has_unsafe":false,"name":"rust_join"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"rust_dirname\"), disambiguator: 0 }]","has_unsafe":false,"name":"rust_dirname"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"rust_extension\"), disambiguator: 0 }]","has_unsafe":false,"name":"rust_extension"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"rust_filename\"), disambiguator: 0 }]","has_unsafe":false,"name":"rust_filename"}

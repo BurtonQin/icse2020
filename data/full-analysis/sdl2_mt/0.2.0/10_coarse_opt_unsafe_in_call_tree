@@ -1,0 +1,14 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"sdl_handler\"), disambiguator: 0 }]","has_unsafe":true,"name":"sdl_handler"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Sdl2Mt as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<UiThreadExited as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<UiThreadExited as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"map_ute\"), disambiguator: 0 }]","has_unsafe":false,"name":"map_ute"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"create_simple_window\"), disambiguator: 0 }]","has_unsafe":false,"name":"Sdl2Mt::create_simple_window"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"create_window\"), disambiguator: 0 }]","has_unsafe":false,"name":"Sdl2Mt::create_window"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"run_on_ui_thread\"), disambiguator: 0 }]","has_unsafe":false,"name":"Sdl2Mt::run_on_ui_thread"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"handle_ui_events\"), disambiguator: 0 }]","has_unsafe":false,"name":"Sdl2Mt::handle_ui_events"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"exit\"), disambiguator: 0 }]","has_unsafe":false,"name":"Sdl2Mt::exit"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"deref\"), disambiguator: 0 }]","has_unsafe":true,"name":"<MT_HANDLE as lazy_static::Deref>::deref"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"deref\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"__static_ref_initialize\"), disambiguator: 0 }]","has_unsafe":false,"name":"<MT_HANDLE as lazy_static::Deref>::deref::__static_ref_initialize"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"initialize\"), disambiguator: 0 }]","has_unsafe":true,"name":"<MT_HANDLE as lazy_static::LazyStatic>::initialize"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"init\"), disambiguator: 0 }]","has_unsafe":true,"name":"init"}

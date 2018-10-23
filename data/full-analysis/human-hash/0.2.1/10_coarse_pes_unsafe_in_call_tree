@@ -1,0 +1,4 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"HumanHasher::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"humanize\"), disambiguator: 0 }]","has_unsafe":false,"name":"HumanHasher::humanize"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"compress\"), disambiguator: 0 }]","has_unsafe":false,"name":"compress"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"humanize\"), disambiguator: 0 }]","has_unsafe":false,"name":"humanize"}

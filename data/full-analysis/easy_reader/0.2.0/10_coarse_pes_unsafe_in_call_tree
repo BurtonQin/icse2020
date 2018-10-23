@@ -1,0 +1,11 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"eq\"), disambiguator: 0 }]","has_unsafe":true,"name":"<ReadMode as std::cmp::PartialEq>::eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"EasyReader::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"from_bof\"), disambiguator: 0 }]","has_unsafe":false,"name":"EasyReader::from_bof"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"from_eof\"), disambiguator: 0 }]","has_unsafe":false,"name":"EasyReader::from_eof"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"next_line\"), disambiguator: 0 }]","has_unsafe":true,"name":"EasyReader::next_line"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"prev_line\"), disambiguator: 0 }]","has_unsafe":true,"name":"EasyReader::prev_line"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"random_line\"), disambiguator: 0 }]","has_unsafe":true,"name":"EasyReader::random_line"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"read_line\"), disambiguator: 0 }]","has_unsafe":true,"name":"EasyReader::read_line"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"find_start_line\"), disambiguator: 0 }]","has_unsafe":false,"name":"EasyReader::find_start_line"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"find_end_line\"), disambiguator: 0 }]","has_unsafe":false,"name":"EasyReader::find_end_line"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"read_byte\"), disambiguator: 0 }]","has_unsafe":false,"name":"EasyReader::read_byte"}

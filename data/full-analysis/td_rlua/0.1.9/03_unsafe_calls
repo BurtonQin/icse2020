@@ -1,0 +1,263 @@
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"luaL_openlibs\"), disambiguator: 0 }]","name":"luaL_openlibs"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_getmetatable\"), disambiguator: 0 }]","name":"lua_getmetatable"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"lua_newtable\"), disambiguator: 0 }]","name":"lua_newtable"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_setmetatable\"), disambiguator: 0 }]","name":"lua_setmetatable"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_getmetatable\"), disambiguator: 0 }]","name":"lua_getmetatable"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"lua_tostring\"), disambiguator: 0 }]","name":"lua_tostring"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"ffi\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Module(\"c_str\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 32 }, DisambiguatedDefPathData { data: ValueNs(\"from_ptr\"), disambiguator: 0 }]","name":"from_ptr"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_pushnil\"), disambiguator: 0 }]","name":"lua_pushnil"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"lua_newtable\"), disambiguator: 0 }]","name":"lua_newtable"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_settable\"), disambiguator: 0 }]","name":"lua_settable"}
+{"abi":"RustIntrinsic","def_path":"[DisambiguatedDefPathData { data: Module(\"intrinsics\"), disambiguator: 0 }, DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"transmute\"), disambiguator: 0 }]","name":"transmute"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_pushlightuserdata\"), disambiguator: 0 }]","name":"lua_pushlightuserdata"}
+{"abi":"RustIntrinsic","def_path":"[DisambiguatedDefPathData { data: Module(\"intrinsics\"), disambiguator: 0 }, DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"transmute\"), disambiguator: 0 }]","name":"transmute"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_pushcclosure\"), disambiguator: 0 }]","name":"lua_pushcclosure"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_settable\"), disambiguator: 0 }]","name":"lua_settable"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"lua_newtable\"), disambiguator: 0 }]","name":"lua_newtable"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_rawset\"), disambiguator: 0 }]","name":"lua_rawset"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_setglobal\"), disambiguator: 0 }]","name":"lua_setglobal"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_getglobal\"), disambiguator: 0 }]","name":"lua_getglobal"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_getglobal\"), disambiguator: 0 }]","name":"lua_getglobal"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"lua_pcall\"), disambiguator: 0 }]","name":"lua_pcall"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"lua_pop\"), disambiguator: 0 }]","name":"lua_pop"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"lua_pop\"), disambiguator: 0 }]","name":"lua_pop"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"lua_istable\"), disambiguator: 0 }]","name":"lua_istable"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_pushnil\"), disambiguator: 0 }]","name":"lua_pushnil"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_getglobal\"), disambiguator: 0 }]","name":"lua_getglobal"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_getglobal\"), disambiguator: 0 }]","name":"lua_getglobal"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"lua_pcall\"), disambiguator: 0 }]","name":"lua_pcall"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"lua_pop\"), disambiguator: 0 }]","name":"lua_pop"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"lua_pop\"), disambiguator: 0 }]","name":"lua_pop"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_newuserdata\"), disambiguator: 0 }]","name":"lua_newuserdata"}
+{"abi":"RustIntrinsic","def_path":"[DisambiguatedDefPathData { data: Module(\"intrinsics\"), disambiguator: 0 }, DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"transmute\"), disambiguator: 0 }]","name":"transmute"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"ptr\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"write\"), disambiguator: 0 }]","name":"write"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_pushcclosure\"), disambiguator: 0 }]","name":"lua_pushcclosure"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_touserdata\"), disambiguator: 0 }]","name":"lua_touserdata"}
+{"abi":"RustIntrinsic","def_path":"[DisambiguatedDefPathData { data: Module(\"intrinsics\"), disambiguator: 0 }, DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"transmute\"), disambiguator: 0 }]","name":"transmute"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_pushboolean\"), disambiguator: 0 }]","name":"lua_pushboolean"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_pushstring\"), disambiguator: 0 }]","name":"lua_pushstring"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_pushstring\"), disambiguator: 0 }]","name":"lua_pushstring"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_newuserdata\"), disambiguator: 0 }]","name":"lua_newuserdata"}
+{"abi":"RustIntrinsic","def_path":"[DisambiguatedDefPathData { data: Module(\"intrinsics\"), disambiguator: 0 }, DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"transmute\"), disambiguator: 0 }]","name":"transmute"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"ptr\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"write\"), disambiguator: 0 }]","name":"write"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_pushcclosure\"), disambiguator: 0 }]","name":"lua_pushcclosure"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"lua_newtable\"), disambiguator: 0 }]","name":"lua_newtable"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_settable\"), disambiguator: 0 }]","name":"lua_settable"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"lua_insert\"), disambiguator: 0 }]","name":"lua_insert"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_settable\"), disambiguator: 0 }]","name":"lua_settable"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"luaL_loadbuffer\"), disambiguator: 0 }]","name":"luaL_loadbuffer"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"luaL_error\"), disambiguator: 0 }]","name":"luaL_error"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_getglobal\"), disambiguator: 0 }]","name":"lua_getglobal"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_gettable\"), disambiguator: 0 }]","name":"lua_gettable"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_getglobal\"), disambiguator: 0 }]","name":"lua_getglobal"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"lua_istable\"), disambiguator: 0 }]","name":"lua_istable"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"lua_newtable\"), disambiguator: 0 }]","name":"lua_newtable"}
+{"abi":"RustIntrinsic","def_path":"[DisambiguatedDefPathData { data: Module(\"intrinsics\"), disambiguator: 0 }, DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"transmute\"), disambiguator: 0 }]","name":"transmute"}
+{"abi":"RustIntrinsic","def_path":"[DisambiguatedDefPathData { data: Module(\"intrinsics\"), disambiguator: 0 }, DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"transmute\"), disambiguator: 0 }]","name":"transmute"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_pushlightuserdata\"), disambiguator: 0 }]","name":"lua_pushlightuserdata"}
+{"abi":"RustIntrinsic","def_path":"[DisambiguatedDefPathData { data: Module(\"intrinsics\"), disambiguator: 0 }, DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"transmute\"), disambiguator: 0 }]","name":"transmute"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_pushcclosure\"), disambiguator: 0 }]","name":"lua_pushcclosure"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_settable\"), disambiguator: 0 }]","name":"lua_settable"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_pushlightuserdata\"), disambiguator: 0 }]","name":"lua_pushlightuserdata"}
+{"abi":"RustIntrinsic","def_path":"[DisambiguatedDefPathData { data: Module(\"intrinsics\"), disambiguator: 0 }, DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"transmute\"), disambiguator: 0 }]","name":"transmute"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_pushcclosure\"), disambiguator: 0 }]","name":"lua_pushcclosure"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_settable\"), disambiguator: 0 }]","name":"lua_settable"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_setmetatable\"), disambiguator: 0 }]","name":"lua_setmetatable"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"lua_pop\"), disambiguator: 0 }]","name":"lua_pop"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_getglobal\"), disambiguator: 0 }]","name":"lua_getglobal"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_getglobal\"), disambiguator: 0 }]","name":"lua_getglobal"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"lua_pcall\"), disambiguator: 0 }]","name":"lua_pcall"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"lua_pop\"), disambiguator: 0 }]","name":"lua_pop"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"lua_pop\"), disambiguator: 0 }]","name":"lua_pop"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"mem\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"uninitialized\"), disambiguator: 0 }]","name":"uninitialized"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_tonumberx\"), disambiguator: 0 }]","name":"lua_tonumberx"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_pushinteger\"), disambiguator: 0 }]","name":"lua_pushinteger"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_getglobal\"), disambiguator: 0 }]","name":"lua_getglobal"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_setmetatable\"), disambiguator: 0 }]","name":"lua_setmetatable"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_newuserdata\"), disambiguator: 0 }]","name":"lua_newuserdata"}
+{"abi":"RustIntrinsic","def_path":"[DisambiguatedDefPathData { data: Module(\"intrinsics\"), disambiguator: 0 }, DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"transmute\"), disambiguator: 0 }]","name":"transmute"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"ptr\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"write\"), disambiguator: 0 }]","name":"write"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_pushcclosure\"), disambiguator: 0 }]","name":"lua_pushcclosure"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"mem\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"uninitialized\"), disambiguator: 0 }]","name":"uninitialized"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_tointegerx\"), disambiguator: 0 }]","name":"lua_tointegerx"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_pushinteger\"), disambiguator: 0 }]","name":"lua_pushinteger"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"mem\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"uninitialized\"), disambiguator: 0 }]","name":"uninitialized"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_tointegerx\"), disambiguator: 0 }]","name":"lua_tointegerx"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_pushinteger\"), disambiguator: 0 }]","name":"lua_pushinteger"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_newuserdata\"), disambiguator: 0 }]","name":"lua_newuserdata"}
+{"abi":"RustIntrinsic","def_path":"[DisambiguatedDefPathData { data: Module(\"intrinsics\"), disambiguator: 0 }, DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"transmute\"), disambiguator: 0 }]","name":"transmute"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"ptr\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"write\"), disambiguator: 0 }]","name":"write"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_pushcclosure\"), disambiguator: 0 }]","name":"lua_pushcclosure"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_createtable\"), disambiguator: 0 }]","name":"lua_createtable"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_settable\"), disambiguator: 0 }]","name":"lua_settable"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_setglobal\"), disambiguator: 0 }]","name":"lua_setglobal"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_settable\"), disambiguator: 0 }]","name":"lua_settable"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"lua_pop\"), disambiguator: 0 }]","name":"lua_pop"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_getglobal\"), disambiguator: 0 }]","name":"lua_getglobal"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_getglobal\"), disambiguator: 0 }]","name":"lua_getglobal"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"lua_pcall\"), disambiguator: 0 }]","name":"lua_pcall"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"lua_pop\"), disambiguator: 0 }]","name":"lua_pop"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"lua_pop\"), disambiguator: 0 }]","name":"lua_pop"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_getglobal\"), disambiguator: 0 }]","name":"lua_getglobal"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_getglobal\"), disambiguator: 0 }]","name":"lua_getglobal"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"lua_pcall\"), disambiguator: 0 }]","name":"lua_pcall"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"lua_pop\"), disambiguator: 0 }]","name":"lua_pop"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"lua_pop\"), disambiguator: 0 }]","name":"lua_pop"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_newuserdata\"), disambiguator: 0 }]","name":"lua_newuserdata"}
+{"abi":"RustIntrinsic","def_path":"[DisambiguatedDefPathData { data: Module(\"intrinsics\"), disambiguator: 0 }, DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"transmute\"), disambiguator: 0 }]","name":"transmute"}
+{"abi":"RustIntrinsic","def_path":"[DisambiguatedDefPathData { data: Module(\"intrinsics\"), disambiguator: 0 }, DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"copy_nonoverlapping\"), disambiguator: 0 }]","name":"copy_nonoverlapping"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"lua_newtable\"), disambiguator: 0 }]","name":"lua_newtable"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_settable\"), disambiguator: 0 }]","name":"lua_settable"}
+{"abi":"RustIntrinsic","def_path":"[DisambiguatedDefPathData { data: Module(\"intrinsics\"), disambiguator: 0 }, DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"transmute\"), disambiguator: 0 }]","name":"transmute"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_pushlightuserdata\"), disambiguator: 0 }]","name":"lua_pushlightuserdata"}
+{"abi":"RustIntrinsic","def_path":"[DisambiguatedDefPathData { data: Module(\"intrinsics\"), disambiguator: 0 }, DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"transmute\"), disambiguator: 0 }]","name":"transmute"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_pushcclosure\"), disambiguator: 0 }]","name":"lua_pushcclosure"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_settable\"), disambiguator: 0 }]","name":"lua_settable"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_setmetatable\"), disambiguator: 0 }]","name":"lua_setmetatable"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_touserdata\"), disambiguator: 0 }]","name":"lua_touserdata"}
+{"abi":"RustIntrinsic","def_path":"[DisambiguatedDefPathData { data: Module(\"intrinsics\"), disambiguator: 0 }, DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"transmute\"), disambiguator: 0 }]","name":"transmute"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"lua_isboolean\"), disambiguator: 0 }]","name":"lua_isboolean"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_toboolean\"), disambiguator: 0 }]","name":"lua_toboolean"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_newuserdata\"), disambiguator: 0 }]","name":"lua_newuserdata"}
+{"abi":"RustIntrinsic","def_path":"[DisambiguatedDefPathData { data: Module(\"intrinsics\"), disambiguator: 0 }, DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"transmute\"), disambiguator: 0 }]","name":"transmute"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"ptr\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"write\"), disambiguator: 0 }]","name":"write"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_pushcclosure\"), disambiguator: 0 }]","name":"lua_pushcclosure"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"mem\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"uninitialized\"), disambiguator: 0 }]","name":"uninitialized"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_tolstring\"), disambiguator: 0 }]","name":"lua_tolstring"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"ffi\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Module(\"c_str\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 32 }, DisambiguatedDefPathData { data: ValueNs(\"from_ptr\"), disambiguator: 0 }]","name":"from_ptr"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_newuserdata\"), disambiguator: 0 }]","name":"lua_newuserdata"}
+{"abi":"RustIntrinsic","def_path":"[DisambiguatedDefPathData { data: Module(\"intrinsics\"), disambiguator: 0 }, DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"transmute\"), disambiguator: 0 }]","name":"transmute"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"ptr\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"write\"), disambiguator: 0 }]","name":"write"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_pushcclosure\"), disambiguator: 0 }]","name":"lua_pushcclosure"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_getglobal\"), disambiguator: 0 }]","name":"lua_getglobal"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"luaL_loadstring\"), disambiguator: 0 }]","name":"luaL_loadstring"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"lua_pcall\"), disambiguator: 0 }]","name":"lua_pcall"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"lua_pop\"), disambiguator: 0 }]","name":"lua_pop"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"lua_istable\"), disambiguator: 0 }]","name":"lua_istable"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_next\"), disambiguator: 0 }]","name":"lua_next"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"lua_pop\"), disambiguator: 0 }]","name":"lua_pop"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"lua_pushcfunction\"), disambiguator: 0 }]","name":"lua_pushcfunction"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_settable\"), disambiguator: 0 }]","name":"lua_settable"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_getglobal\"), disambiguator: 0 }]","name":"lua_getglobal"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_getglobal\"), disambiguator: 0 }]","name":"lua_getglobal"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"lua_pcall\"), disambiguator: 0 }]","name":"lua_pcall"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"lua_pop\"), disambiguator: 0 }]","name":"lua_pop"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"lua_pop\"), disambiguator: 0 }]","name":"lua_pop"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_pushnumber\"), disambiguator: 0 }]","name":"lua_pushnumber"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_getglobal\"), disambiguator: 0 }]","name":"lua_getglobal"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_getglobal\"), disambiguator: 0 }]","name":"lua_getglobal"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"lua_pcall\"), disambiguator: 0 }]","name":"lua_pcall"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"lua_pop\"), disambiguator: 0 }]","name":"lua_pop"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"lua_pop\"), disambiguator: 0 }]","name":"lua_pop"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"mem\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"uninitialized\"), disambiguator: 0 }]","name":"uninitialized"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_tointegerx\"), disambiguator: 0 }]","name":"lua_tointegerx"}
+{"abi":"RustIntrinsic","def_path":"[DisambiguatedDefPathData { data: Module(\"intrinsics\"), disambiguator: 0 }, DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"transmute\"), disambiguator: 0 }]","name":"transmute"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_pushlightuserdata\"), disambiguator: 0 }]","name":"lua_pushlightuserdata"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"lua_newtable\"), disambiguator: 0 }]","name":"lua_newtable"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_settable\"), disambiguator: 0 }]","name":"lua_settable"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_setmetatable\"), disambiguator: 0 }]","name":"lua_setmetatable"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_pushinteger\"), disambiguator: 0 }]","name":"lua_pushinteger"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_touserdata\"), disambiguator: 0 }]","name":"lua_touserdata"}
+{"abi":"RustIntrinsic","def_path":"[DisambiguatedDefPathData { data: Module(\"intrinsics\"), disambiguator: 0 }, DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"transmute\"), disambiguator: 0 }]","name":"transmute"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"mem\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"uninitialized\"), disambiguator: 0 }]","name":"uninitialized"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"mem\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"uninitialized\"), disambiguator: 0 }]","name":"uninitialized"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_tointegerx\"), disambiguator: 0 }]","name":"lua_tointegerx"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_newuserdata\"), disambiguator: 0 }]","name":"lua_newuserdata"}
+{"abi":"RustIntrinsic","def_path":"[DisambiguatedDefPathData { data: Module(\"intrinsics\"), disambiguator: 0 }, DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"transmute\"), disambiguator: 0 }]","name":"transmute"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"ptr\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"write\"), disambiguator: 0 }]","name":"write"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_pushcclosure\"), disambiguator: 0 }]","name":"lua_pushcclosure"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_pushinteger\"), disambiguator: 0 }]","name":"lua_pushinteger"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"mem\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"uninitialized\"), disambiguator: 0 }]","name":"uninitialized"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_tointegerx\"), disambiguator: 0 }]","name":"lua_tointegerx"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_touserdata\"), disambiguator: 0 }]","name":"lua_touserdata"}
+{"abi":"RustIntrinsic","def_path":"[DisambiguatedDefPathData { data: Module(\"intrinsics\"), disambiguator: 0 }, DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"transmute\"), disambiguator: 0 }]","name":"transmute"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_gettop\"), disambiguator: 0 }]","name":"lua_gettop"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_error\"), disambiguator: 0 }]","name":"lua_error"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_close\"), disambiguator: 0 }]","name":"lua_close"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_gettop\"), disambiguator: 0 }]","name":"lua_gettop"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_getglobal\"), disambiguator: 0 }]","name":"lua_getglobal"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"lua_insert\"), disambiguator: 0 }]","name":"lua_insert"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_getglobal\"), disambiguator: 0 }]","name":"lua_getglobal"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"lua_insert\"), disambiguator: 0 }]","name":"lua_insert"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"lua_pcall\"), disambiguator: 0 }]","name":"lua_pcall"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"lua_pop\"), disambiguator: 0 }]","name":"lua_pop"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"lua_newtable\"), disambiguator: 0 }]","name":"lua_newtable"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_settable\"), disambiguator: 0 }]","name":"lua_settable"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"luaL_newstate\"), disambiguator: 0 }]","name":"luaL_newstate"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_atpanic\"), disambiguator: 0 }]","name":"lua_atpanic"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_newuserdata\"), disambiguator: 0 }]","name":"lua_newuserdata"}
+{"abi":"RustIntrinsic","def_path":"[DisambiguatedDefPathData { data: Module(\"intrinsics\"), disambiguator: 0 }, DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"transmute\"), disambiguator: 0 }]","name":"transmute"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"ptr\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"write\"), disambiguator: 0 }]","name":"write"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_pushcclosure\"), disambiguator: 0 }]","name":"lua_pushcclosure"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_getglobal\"), disambiguator: 0 }]","name":"lua_getglobal"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_getglobal\"), disambiguator: 0 }]","name":"lua_getglobal"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"lua_pcall\"), disambiguator: 0 }]","name":"lua_pcall"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"lua_pop\"), disambiguator: 0 }]","name":"lua_pop"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"lua_pop\"), disambiguator: 0 }]","name":"lua_pop"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_getglobal\"), disambiguator: 0 }]","name":"lua_getglobal"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_getglobal\"), disambiguator: 0 }]","name":"lua_getglobal"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"lua_pcall\"), disambiguator: 0 }]","name":"lua_pcall"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"lua_pop\"), disambiguator: 0 }]","name":"lua_pop"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"lua_pop\"), disambiguator: 0 }]","name":"lua_pop"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_touserdata\"), disambiguator: 0 }]","name":"lua_touserdata"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_getmetatable\"), disambiguator: 0 }]","name":"lua_getmetatable"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_gettable\"), disambiguator: 0 }]","name":"lua_gettable"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"lua_pop\"), disambiguator: 0 }]","name":"lua_pop"}
+{"abi":"RustIntrinsic","def_path":"[DisambiguatedDefPathData { data: Module(\"intrinsics\"), disambiguator: 0 }, DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"transmute\"), disambiguator: 0 }]","name":"transmute"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_touserdata\"), disambiguator: 0 }]","name":"lua_touserdata"}
+{"abi":"RustIntrinsic","def_path":"[DisambiguatedDefPathData { data: Module(\"intrinsics\"), disambiguator: 0 }, DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"transmute\"), disambiguator: 0 }]","name":"transmute"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_pushnil\"), disambiguator: 0 }]","name":"lua_pushnil"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_pushstring\"), disambiguator: 0 }]","name":"lua_pushstring"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_newuserdata\"), disambiguator: 0 }]","name":"lua_newuserdata"}
+{"abi":"RustIntrinsic","def_path":"[DisambiguatedDefPathData { data: Module(\"intrinsics\"), disambiguator: 0 }, DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"transmute\"), disambiguator: 0 }]","name":"transmute"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"ptr\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"write\"), disambiguator: 0 }]","name":"write"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_pushcclosure\"), disambiguator: 0 }]","name":"lua_pushcclosure"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"lua_newtable\"), disambiguator: 0 }]","name":"lua_newtable"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_setglobal\"), disambiguator: 0 }]","name":"lua_setglobal"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"lua_pop\"), disambiguator: 0 }]","name":"lua_pop"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"lua_register\"), disambiguator: 0 }]","name":"lua_register"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_rawlen\"), disambiguator: 0 }]","name":"lua_rawlen"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"lua_tostring\"), disambiguator: 0 }]","name":"lua_tostring"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"ffi\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Module(\"c_str\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 32 }, DisambiguatedDefPathData { data: ValueNs(\"from_ptr\"), disambiguator: 0 }]","name":"from_ptr"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_getglobal\"), disambiguator: 0 }]","name":"lua_getglobal"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_getglobal\"), disambiguator: 0 }]","name":"lua_getglobal"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"lua_pcall\"), disambiguator: 0 }]","name":"lua_pcall"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"lua_pop\"), disambiguator: 0 }]","name":"lua_pop"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"lua_pop\"), disambiguator: 0 }]","name":"lua_pop"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"mem\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"uninitialized\"), disambiguator: 0 }]","name":"uninitialized"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_tonumberx\"), disambiguator: 0 }]","name":"lua_tonumberx"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_newuserdata\"), disambiguator: 0 }]","name":"lua_newuserdata"}
+{"abi":"RustIntrinsic","def_path":"[DisambiguatedDefPathData { data: Module(\"intrinsics\"), disambiguator: 0 }, DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"transmute\"), disambiguator: 0 }]","name":"transmute"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"ptr\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"write\"), disambiguator: 0 }]","name":"write"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_pushcclosure\"), disambiguator: 0 }]","name":"lua_pushcclosure"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_pushnumber\"), disambiguator: 0 }]","name":"lua_pushnumber"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_getglobal\"), disambiguator: 0 }]","name":"lua_getglobal"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_getglobal\"), disambiguator: 0 }]","name":"lua_getglobal"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"lua_pcall\"), disambiguator: 0 }]","name":"lua_pcall"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"lua_pop\"), disambiguator: 0 }]","name":"lua_pop"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"lua_pop\"), disambiguator: 0 }]","name":"lua_pop"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"mem\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"uninitialized\"), disambiguator: 0 }]","name":"uninitialized"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_tointegerx\"), disambiguator: 0 }]","name":"lua_tointegerx"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_newuserdata\"), disambiguator: 0 }]","name":"lua_newuserdata"}
+{"abi":"RustIntrinsic","def_path":"[DisambiguatedDefPathData { data: Module(\"intrinsics\"), disambiguator: 0 }, DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"transmute\"), disambiguator: 0 }]","name":"transmute"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"ptr\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"write\"), disambiguator: 0 }]","name":"write"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_getglobal\"), disambiguator: 0 }]","name":"lua_getglobal"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_setmetatable\"), disambiguator: 0 }]","name":"lua_setmetatable"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_pushinteger\"), disambiguator: 0 }]","name":"lua_pushinteger"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"mem\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"uninitialized\"), disambiguator: 0 }]","name":"uninitialized"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_tointegerx\"), disambiguator: 0 }]","name":"lua_tointegerx"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_pushinteger\"), disambiguator: 0 }]","name":"lua_pushinteger"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_newuserdata\"), disambiguator: 0 }]","name":"lua_newuserdata"}
+{"abi":"RustIntrinsic","def_path":"[DisambiguatedDefPathData { data: Module(\"intrinsics\"), disambiguator: 0 }, DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"transmute\"), disambiguator: 0 }]","name":"transmute"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"ptr\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"write\"), disambiguator: 0 }]","name":"write"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_pushcclosure\"), disambiguator: 0 }]","name":"lua_pushcclosure"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"lua_pop\"), disambiguator: 0 }]","name":"lua_pop"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_getglobal\"), disambiguator: 0 }]","name":"lua_getglobal"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_getfield\"), disambiguator: 0 }]","name":"lua_getfield"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"lua_pushcfunction\"), disambiguator: 0 }]","name":"lua_pushcfunction"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_rawlen\"), disambiguator: 0 }]","name":"lua_rawlen"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_rawseti\"), disambiguator: 0 }]","name":"lua_rawseti"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_rawgeti\"), disambiguator: 0 }]","name":"lua_rawgeti"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_rawseti\"), disambiguator: 0 }]","name":"lua_rawseti"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_setfield\"), disambiguator: 0 }]","name":"lua_setfield"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"lua_pop\"), disambiguator: 0 }]","name":"lua_pop"}

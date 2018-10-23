@@ -1,0 +1,27 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<LuminanceColorSpace as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<LuminanceColorSpace as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"eq\"), disambiguator: 0 }]","has_unsafe":true,"name":"<LuminanceColorSpace as std::cmp::PartialEq>::eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"ne\"), disambiguator: 0 }]","has_unsafe":true,"name":"<LuminanceColorSpace as std::cmp::PartialEq>::ne"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"LuminanceColorSpace::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"to_luma\"), disambiguator: 0 }]","has_unsafe":false,"name":"LuminanceColorSpace::to_luma"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"from_luma\"), disambiguator: 0 }]","has_unsafe":false,"name":"LuminanceColorSpace::from_luma"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"round_to_u8\"), disambiguator: 0 }]","has_unsafe":false,"name":"round_to_u8"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"scale255\"), disambiguator: 0 }]","has_unsafe":false,"name":"scale255"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"compute_luminance\"), disambiguator: 0 }]","has_unsafe":false,"name":"compute_luminance"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Color as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"Color::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"quantize\"), disambiguator: 0 }]","has_unsafe":false,"name":"Color::quantize"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"luminance\"), disambiguator: 0 }]","has_unsafe":false,"name":"Color::luminance"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"luminance_color\"), disambiguator: 0 }]","has_unsafe":false,"name":"Color::luminance_color"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"apply_contrast\"), disambiguator: 0 }]","has_unsafe":false,"name":"apply_contrast"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"build_gamma_correcting_lut\"), disambiguator: 0 }]","has_unsafe":true,"name":"build_gamma_correcting_lut"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"generate_tables\"), disambiguator: 0 }]","has_unsafe":true,"name":"GammaLut::generate_tables"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"table_count\"), disambiguator: 0 }]","has_unsafe":false,"name":"GammaLut::table_count"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"get_table\"), disambiguator: 0 }]","has_unsafe":false,"name":"GammaLut::get_table"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":true,"name":"GammaLut::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"preblend_default_colors_bgra\"), disambiguator: 0 }]","has_unsafe":false,"name":"GammaLut::preblend_default_colors_bgra"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"replace_pixels_bgra\"), disambiguator: 0 }]","has_unsafe":false,"name":"GammaLut::replace_pixels_bgra"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"replace_pixels_rgb\"), disambiguator: 0 }]","has_unsafe":false,"name":"GammaLut::replace_pixels_rgb"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"preblend_bgra\"), disambiguator: 0 }]","has_unsafe":false,"name":"GammaLut::preblend_bgra"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"preblend_rgb\"), disambiguator: 0 }]","has_unsafe":false,"name":"GammaLut::preblend_rgb"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"preblend_grayscale_bgra\"), disambiguator: 0 }]","has_unsafe":false,"name":"GammaLut::preblend_grayscale_bgra"}

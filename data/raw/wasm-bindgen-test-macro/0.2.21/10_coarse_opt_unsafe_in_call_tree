@@ -1,0 +1,2 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"wasm_bindgen_test\"), disambiguator: 0 }]","has_unsafe":false,"name":"wasm_bindgen_test"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","has_unsafe":true,"name":"registrar::_registrar"}

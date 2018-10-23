@@ -1,0 +1,4 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"system_resolve_ipv4\"), disambiguator: 0 }]","has_unsafe":true,"name":"system_resolve_ipv4"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"system_resolve_ipv6\"), disambiguator: 0 }]","has_unsafe":true,"name":"system_resolve_ipv6"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"build_ip_type\"), disambiguator: 0 }]","has_unsafe":false,"name":"build_ip_type"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"dry_resolve\"), disambiguator: 0 }]","has_unsafe":true,"name":"dry_resolve"}

@@ -1,0 +1,3 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"lib\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"build_message\"), disambiguator: 0 }]","has_unsafe":false,"name":"lib::build_message"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"cli\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"build_cli\"), disambiguator: 0 }]","has_unsafe":false,"name":"cli::build_cli"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}

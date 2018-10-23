@@ -1,0 +1,4 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"to_utm_wgs84\"), disambiguator: 0 }]","has_unsafe":false,"name":"to_utm_wgs84"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"radians_to_utm_wgs84\"), disambiguator: 0 }]","has_unsafe":false,"name":"radians_to_utm_wgs84"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"meridian_convergence\"), disambiguator: 0 }]","has_unsafe":false,"name":"meridian_convergence"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"footprint_latitude\"), disambiguator: 0 }]","has_unsafe":false,"name":"footprint_latitude"}

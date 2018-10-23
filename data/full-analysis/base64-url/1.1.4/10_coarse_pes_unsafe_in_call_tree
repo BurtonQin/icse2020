@@ -1,0 +1,10 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"encode\"), disambiguator: 0 }]","has_unsafe":true,"name":"encode"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"encode_and_store_to_slice\"), disambiguator: 0 }]","has_unsafe":true,"name":"encode_and_store_to_slice"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"encode_and_push_to_string\"), disambiguator: 0 }]","has_unsafe":true,"name":"encode_and_push_to_string"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"decode\"), disambiguator: 0 }]","has_unsafe":true,"name":"decode"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"decode_and_store_to_slice\"), disambiguator: 0 }]","has_unsafe":true,"name":"decode_and_store_to_slice"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"decode_and_push_to_vec\"), disambiguator: 0 }]","has_unsafe":true,"name":"decode_and_push_to_vec"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"unsafe_escape\"), disambiguator: 0 }]","has_unsafe":false,"name":"unsafe_escape"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"unsafe_escape_owned\"), disambiguator: 0 }]","has_unsafe":true,"name":"unsafe_escape_owned"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"unsafe_unescape\"), disambiguator: 0 }]","has_unsafe":false,"name":"unsafe_unescape"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"unsafe_unescape_owned\"), disambiguator: 0 }]","has_unsafe":false,"name":"unsafe_unescape_owned"}

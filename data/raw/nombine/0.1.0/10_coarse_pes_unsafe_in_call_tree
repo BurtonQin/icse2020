@@ -1,0 +1,6 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"from_nom\"), disambiguator: 0 }]","has_unsafe":false,"name":"from_nom"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"convert_from_nom\"), disambiguator: 0 }]","has_unsafe":false,"name":"convert_from_nom"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"from_combine\"), disambiguator: 0 }]","has_unsafe":false,"name":"from_combine"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"convert_from_combine\"), disambiguator: 0 }]","has_unsafe":false,"name":"convert_from_combine"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"position\"), disambiguator: 0 }]","has_unsafe":true,"name":"position"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"from_nom_context\"), disambiguator: 0 }]","has_unsafe":true,"name":"from_nom_context"}

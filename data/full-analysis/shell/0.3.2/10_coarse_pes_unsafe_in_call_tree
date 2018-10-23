@@ -1,0 +1,32 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<ShellConfig as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"isatty\"), disambiguator: 0 }]","has_unsafe":true,"name":"isatty"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new_stdio\"), disambiguator: 0 }]","has_unsafe":true,"name":"MultiShell::new_stdio"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"MultiShell::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"out\"), disambiguator: 0 }]","has_unsafe":false,"name":"MultiShell::out"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"err\"), disambiguator: 0 }]","has_unsafe":false,"name":"MultiShell::err"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"say\"), disambiguator: 0 }]","has_unsafe":true,"name":"MultiShell::say"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"status\"), disambiguator: 0 }]","has_unsafe":true,"name":"MultiShell::status"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"verbose\"), disambiguator: 0 }]","has_unsafe":true,"name":"MultiShell::verbose"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"concise\"), disambiguator: 0 }]","has_unsafe":true,"name":"MultiShell::concise"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"error\"), disambiguator: 0 }]","has_unsafe":true,"name":"MultiShell::error"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"warn\"), disambiguator: 0 }]","has_unsafe":true,"name":"MultiShell::warn"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"set_verbose\"), disambiguator: 0 }]","has_unsafe":false,"name":"MultiShell::set_verbose"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_verbose\"), disambiguator: 0 }]","has_unsafe":false,"name":"MultiShell::get_verbose"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"tag\"), disambiguator: 0 }]","has_unsafe":true,"name":"MultiShell::tag"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"header\"), disambiguator: 0 }]","has_unsafe":true,"name":"MultiShell::header"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"comment\"), disambiguator: 0 }]","has_unsafe":true,"name":"MultiShell::comment"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"tag_color\"), disambiguator: 0 }]","has_unsafe":true,"name":"MultiShell::tag_color"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"error_full\"), disambiguator: 0 }]","has_unsafe":true,"name":"MultiShell::error_full"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"create\"), disambiguator: 0 }]","has_unsafe":true,"name":"Shell::create"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"verbose\"), disambiguator: 0 }]","has_unsafe":true,"name":"Shell::verbose"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"concise\"), disambiguator: 0 }]","has_unsafe":true,"name":"Shell::concise"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"say_write\"), disambiguator: 0 }]","has_unsafe":true,"name":"Shell::say_write"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"say_attr\"), disambiguator: 0 }]","has_unsafe":true,"name":"Shell::say_attr"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"say\"), disambiguator: 0 }]","has_unsafe":true,"name":"Shell::say"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"say_status\"), disambiguator: 0 }]","has_unsafe":true,"name":"Shell::say_status"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"fg\"), disambiguator: 0 }]","has_unsafe":true,"name":"Shell::fg"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"attr\"), disambiguator: 0 }]","has_unsafe":true,"name":"Shell::attr"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"supports_attr\"), disambiguator: 0 }]","has_unsafe":true,"name":"Shell::supports_attr"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"reset\"), disambiguator: 0 }]","has_unsafe":true,"name":"Shell::reset"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"write\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Shell as std::io::Write>::write"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"flush\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Shell as std::io::Write>::flush"}

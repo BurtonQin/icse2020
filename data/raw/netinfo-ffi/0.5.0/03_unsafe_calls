@@ -1,0 +1,40 @@
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"boxed\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"from_raw\"), disambiguator: 0 }]","name":"from_raw"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"temp_box\"), disambiguator: 0 }]","name":"temp_box"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"temp_box\"), disambiguator: 0 }]","name":"temp_box"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"temp_box\"), disambiguator: 0 }]","name":"temp_box"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"temp_box\"), disambiguator: 0 }]","name":"temp_box"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"temp_box\"), disambiguator: 0 }]","name":"temp_box"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"ptr_len_to_vec\"), disambiguator: 0 }]","name":"ptr_len_to_vec"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"temp_box\"), disambiguator: 0 }]","name":"temp_box"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"ptr_len_to_vec\"), disambiguator: 0 }]","name":"ptr_len_to_vec"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"temp_box\"), disambiguator: 0 }]","name":"temp_box"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"temp_box\"), disambiguator: 0 }]","name":"temp_box"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"boxed\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"from_raw\"), disambiguator: 0 }]","name":"from_raw"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"temp_box\"), disambiguator: 0 }]","name":"temp_box"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"write_vec_to_ptr_len32\"), disambiguator: 0 }]","name":"write_vec_to_ptr_len32"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"slice\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"from_raw_parts_mut\"), disambiguator: 0 }]","name":"from_raw_parts_mut"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"boxed\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"from_raw\"), disambiguator: 0 }]","name":"from_raw"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"temp_box\"), disambiguator: 0 }]","name":"temp_box"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"temp_box\"), disambiguator: 0 }]","name":"temp_box"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"temp_box\"), disambiguator: 0 }]","name":"temp_box"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"write_vec_to_ptr_len32\"), disambiguator: 0 }]","name":"write_vec_to_ptr_len32"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"temp_vec_of_box_cloned\"), disambiguator: 0 }]","name":"temp_vec_of_box_cloned"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"write_vec_to_ptr_len32\"), disambiguator: 0 }]","name":"write_vec_to_ptr_len32"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"write_vec_to_ptr_len32\"), disambiguator: 0 }]","name":"write_vec_to_ptr_len32"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"ptr_len_to_vec\"), disambiguator: 0 }]","name":"ptr_len_to_vec"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"boxed\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"from_raw\"), disambiguator: 0 }]","name":"from_raw"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"temp_box\"), disambiguator: 0 }]","name":"temp_box"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"temp_box\"), disambiguator: 0 }]","name":"temp_box"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"temp_box\"), disambiguator: 0 }]","name":"temp_box"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"ptr_len_to_vec\"), disambiguator: 0 }]","name":"ptr_len_to_vec"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"ptr_len_to_vec\"), disambiguator: 0 }]","name":"ptr_len_to_vec"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"temp_box\"), disambiguator: 0 }]","name":"temp_box"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"ptr_len_to_vec\"), disambiguator: 0 }]","name":"ptr_len_to_vec"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"boxed\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"from_raw\"), disambiguator: 0 }]","name":"from_raw"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"temp_box\"), disambiguator: 0 }]","name":"temp_box"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"temp_box\"), disambiguator: 0 }]","name":"temp_box"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"ptr_len_to_vec\"), disambiguator: 0 }]","name":"ptr_len_to_vec"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"temp_box\"), disambiguator: 0 }]","name":"temp_box"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"write_vec_to_ptr_len32\"), disambiguator: 0 }]","name":"write_vec_to_ptr_len32"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"temp_vec\"), disambiguator: 0 }]","name":"temp_vec"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"write_vec_to_ptr_len32\"), disambiguator: 0 }]","name":"write_vec_to_ptr_len32"}

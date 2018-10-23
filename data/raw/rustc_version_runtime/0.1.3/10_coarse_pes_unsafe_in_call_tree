@@ -1,0 +1,3 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"version\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"version_meta\"), disambiguator: 0 }]","has_unsafe":false,"name":"version::version_meta"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"version\"), disambiguator: 0 }]","has_unsafe":false,"name":"version"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"version_matches\"), disambiguator: 0 }]","has_unsafe":true,"name":"version_matches"}

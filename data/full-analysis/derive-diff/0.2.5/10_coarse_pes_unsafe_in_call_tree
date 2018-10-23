@@ -1,0 +1,9 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"generate_diff_impl\"), disambiguator: 0 }]","has_unsafe":true,"name":"generate_diff_impl"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"impl_diff\"), disambiguator: 0 }]","has_unsafe":true,"name":"impl_diff"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"to_tokens\"), disambiguator: 0 }]","has_unsafe":true,"name":"<StructGenerator<'a> as quote::ToTokens>::to_tokens"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"to_tokens\"), disambiguator: 0 }]","has_unsafe":true,"name":"<FieldGenerator<'a> as quote::ToTokens>::to_tokens"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"to_tokens\"), disambiguator: 0 }]","has_unsafe":true,"name":"<StructPatField<'a> as quote::ToTokens>::to_tokens"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"impl_diff_enum\"), disambiguator: 0 }]","has_unsafe":true,"name":"impl_diff_enum"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"to_tokens\"), disambiguator: 0 }]","has_unsafe":true,"name":"<TupleFieldsGenerator<'a> as quote::ToTokens>::to_tokens"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"impl_diff_struct\"), disambiguator: 0 }]","has_unsafe":true,"name":"impl_diff_struct"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","has_unsafe":true,"name":"registrar::_registrar"}

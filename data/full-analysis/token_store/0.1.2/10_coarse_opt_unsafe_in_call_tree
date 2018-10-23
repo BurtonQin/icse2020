@@ -1,0 +1,16 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"valid\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Token<V>>::valid"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Token<V> as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"Store::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"insert\"), disambiguator: 0 }]","has_unsafe":false,"name":"Store::insert"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"get\"), disambiguator: 0 }]","has_unsafe":false,"name":"Store::get"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"get_mut\"), disambiguator: 0 }]","has_unsafe":false,"name":"Store::get_mut"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"remove\"), disambiguator: 0 }]","has_unsafe":false,"name":"Store::remove"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"with_value\"), disambiguator: 0 }]","has_unsafe":true,"name":"Store::with_value"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"as_proxy\"), disambiguator: 0 }]","has_unsafe":false,"name":"Store::as_proxy"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"from\"), disambiguator: 0 }]","has_unsafe":false,"name":"<StoreProxy<'a> as std::convert::From<&'a mut Store>>::from"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"from\"), disambiguator: 0 }]","has_unsafe":false,"name":"<StoreProxy<'a> as std::convert::From<&'a mut StoreProxy<'b>>>::from"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"insert\"), disambiguator: 0 }]","has_unsafe":false,"name":"StoreProxy::insert"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"get\"), disambiguator: 0 }]","has_unsafe":false,"name":"StoreProxy::get"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"get_mut\"), disambiguator: 0 }]","has_unsafe":false,"name":"StoreProxy::get_mut"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"remove\"), disambiguator: 0 }]","has_unsafe":false,"name":"StoreProxy::remove"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"with_value\"), disambiguator: 0 }]","has_unsafe":true,"name":"StoreProxy::with_value"}

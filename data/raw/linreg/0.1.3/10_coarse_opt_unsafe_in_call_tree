@@ -1,0 +1,4 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"mean\"), disambiguator: 0 }]","has_unsafe":false,"name":"<I as IteratorMean<F>>::mean"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"lin_reg\"), disambiguator: 0 }]","has_unsafe":false,"name":"lin_reg"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"linear_regression\"), disambiguator: 0 }]","has_unsafe":false,"name":"linear_regression"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"linear_regression_of\"), disambiguator: 0 }]","has_unsafe":false,"name":"linear_regression_of"}

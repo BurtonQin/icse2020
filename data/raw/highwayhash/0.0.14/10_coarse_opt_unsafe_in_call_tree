@@ -1,0 +1,11 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"siphash\"), disambiguator: 0 }]","has_unsafe":true,"name":"siphash"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"siphash13\"), disambiguator: 0 }]","has_unsafe":true,"name":"siphash13"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"highwayhash64_portable\"), disambiguator: 0 }]","has_unsafe":true,"name":"highwayhash64_portable"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"highwayhash64\"), disambiguator: 0 }]","has_unsafe":true,"name":"highwayhash64"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<HighwayHasher as core::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<HighwayHasher as core::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"HighwayHasher::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new_with_key\"), disambiguator: 0 }]","has_unsafe":false,"name":"HighwayHasher::new_with_key"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"default\"), disambiguator: 0 }]","has_unsafe":false,"name":"<HighwayHasher as core::default::Default>::default"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"finish\"), disambiguator: 0 }]","has_unsafe":false,"name":"<HighwayHasher as core::hash::Hasher>::finish"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"write\"), disambiguator: 0 }]","has_unsafe":true,"name":"<HighwayHasher as core::hash::Hasher>::write"}

@@ -1,0 +1,3 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"finally\"), disambiguator: 0 }]","has_unsafe":true,"name":"<F as Finally<T>>::finally"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"try_finally\"), disambiguator: 0 }]","has_unsafe":true,"name":"try_finally"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"drop\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Finallyalizer<'a, A, F> as std::ops::Drop>::drop"}

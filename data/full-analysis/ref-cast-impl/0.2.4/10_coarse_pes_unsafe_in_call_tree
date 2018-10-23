@@ -1,0 +1,4 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"derive_ref_cast\"), disambiguator: 0 }]","has_unsafe":true,"name":"derive_ref_cast"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"has_repr_c\"), disambiguator: 0 }]","has_unsafe":true,"name":"has_repr_c"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"only_field_ty\"), disambiguator: 0 }]","has_unsafe":true,"name":"only_field_ty"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","has_unsafe":true,"name":"registrar::_registrar"}

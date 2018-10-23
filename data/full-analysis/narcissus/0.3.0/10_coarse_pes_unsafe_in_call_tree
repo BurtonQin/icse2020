@@ -1,0 +1,10 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"euclidian_distance\"), disambiguator: 0 }]","has_unsafe":false,"name":"euclidian_distance"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"cosine_similarity\"), disambiguator: 0 }]","has_unsafe":false,"name":"cosine_similarity"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"jaccard_coeficient\"), disambiguator: 0 }]","has_unsafe":false,"name":"jaccard_coeficient"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"pearson_correlation\"), disambiguator: 0 }]","has_unsafe":false,"name":"pearson_correlation"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"dot_product_naive\"), disambiguator: 0 }]","has_unsafe":false,"name":"dot_product_naive"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"dot_product_optim\"), disambiguator: 0 }]","has_unsafe":false,"name":"dot_product_optim"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"magnitude\"), disambiguator: 0 }]","has_unsafe":false,"name":"magnitude"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"matching_words_frequency\"), disambiguator: 0 }]","has_unsafe":false,"name":"matching_words_frequency"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"matching_words_count\"), disambiguator: 0 }]","has_unsafe":false,"name":"matching_words_count"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"matching_sim\"), disambiguator: 0 }]","has_unsafe":false,"name":"matching_sim"}

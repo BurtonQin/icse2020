@@ -1,0 +1,30 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 8 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<VerifyMode as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 9 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Error as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"drop\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Context as std::ops::Drop>::drop"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":true,"name":"Context::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"set_cipher_list\"), disambiguator: 0 }]","has_unsafe":true,"name":"Context::set_cipher_list"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"set_min_version\"), disambiguator: 0 }]","has_unsafe":true,"name":"Context::set_min_version"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"set_verify\"), disambiguator: 0 }]","has_unsafe":true,"name":"Context::set_verify"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"enable_signed_cert_timestamps\"), disambiguator: 0 }]","has_unsafe":true,"name":"Context::enable_signed_cert_timestamps"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"enable_ocsp_stapling\"), disambiguator: 0 }]","has_unsafe":true,"name":"Context::enable_ocsp_stapling"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"enable_tls_channel_id\"), disambiguator: 0 }]","has_unsafe":true,"name":"Context::enable_tls_channel_id"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"drop\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Client as std::ops::Drop>::drop"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":true,"name":"Client::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"new_socket\"), disambiguator: 0 }]","has_unsafe":true,"name":"Client::new_socket"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"set_bio\"), disambiguator: 0 }]","has_unsafe":true,"name":"Client::set_bio"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"set_fd\"), disambiguator: 0 }]","has_unsafe":true,"name":"Client::set_fd"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"handshake\"), disambiguator: 0 }]","has_unsafe":true,"name":"Client::handshake"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"get_error\"), disambiguator: 0 }]","has_unsafe":true,"name":"Client::get_error"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"set_hostname\"), disambiguator: 0 }]","has_unsafe":true,"name":"Client::set_hostname"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"read\"), disambiguator: 0 }]","has_unsafe":true,"name":"Client::read"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"pending\"), disambiguator: 0 }]","has_unsafe":true,"name":"Client::pending"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"write\"), disambiguator: 0 }]","has_unsafe":true,"name":"Client::write"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"new_socket\"), disambiguator: 0 }]","has_unsafe":true,"name":"Bio::new_socket"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 10 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<SslError as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":true,"name":"<SslError as std::fmt::Display>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"description\"), disambiguator: 0 }]","has_unsafe":false,"name":"<SslError as std::error::Error>::description"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"get\"), disambiguator: 0 }]","has_unsafe":true,"name":"SslError::get"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"peek\"), disambiguator: 0 }]","has_unsafe":true,"name":"SslError::peek"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"lib\"), disambiguator: 0 }]","has_unsafe":true,"name":"SslError::lib"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"reason\"), disambiguator: 0 }]","has_unsafe":true,"name":"SslError::reason"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"clear\"), disambiguator: 0 }]","has_unsafe":true,"name":"SslError::clear"}

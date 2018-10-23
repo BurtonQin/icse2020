@@ -1,0 +1,3 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":true,"name":"Context::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_api_version\"), disambiguator: 0 }]","has_unsafe":true,"name":"Context::get_api_version"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"is_frame_capturing\"), disambiguator: 0 }]","has_unsafe":true,"name":"Context::is_frame_capturing"}

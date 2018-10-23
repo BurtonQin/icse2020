@@ -1,0 +1,11 @@
+{"def_path":"[DisambiguatedDefPathData { data: Trait(\"RecordDecorator\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"fmt_msg\"), disambiguator: 0 }]","has_unsafe":true,"name":"RecordDecorator::fmt_msg"}
+{"def_path":"[DisambiguatedDefPathData { data: Trait(\"RecordDecorator\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"fmt_key\"), disambiguator: 0 }]","has_unsafe":true,"name":"RecordDecorator::fmt_key"}
+{"def_path":"[DisambiguatedDefPathData { data: Trait(\"RecordDecorator\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"fmt_separator\"), disambiguator: 0 }]","has_unsafe":true,"name":"RecordDecorator::fmt_separator"}
+{"def_path":"[DisambiguatedDefPathData { data: Trait(\"RecordDecorator\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"fmt_value\"), disambiguator: 0 }]","has_unsafe":true,"name":"RecordDecorator::fmt_value"}
+{"def_path":"[DisambiguatedDefPathData { data: Trait(\"RecordDecorator\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"fmt_timestamp\"), disambiguator: 0 }]","has_unsafe":true,"name":"RecordDecorator::fmt_timestamp"}
+{"def_path":"[DisambiguatedDefPathData { data: Trait(\"RecordDecorator\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"fmt_level\"), disambiguator: 0 }]","has_unsafe":true,"name":"RecordDecorator::fmt_level"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"TL_BUF\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"__init\"), disambiguator: 0 }]","has_unsafe":false,"name":"TL_BUF::__init"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Streamer<W, F>>::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"log\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Streamer<W, F> as slog::Drain>::log"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"stream\"), disambiguator: 0 }]","has_unsafe":false,"name":"stream"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"async_stream\"), disambiguator: 0 }]","has_unsafe":false,"name":"async_stream"}

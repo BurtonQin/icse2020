@@ -1,0 +1,12 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"from_str\"), disambiguator: 0 }]","has_unsafe":false,"name":"<StatTriggerAction as std::str::FromStr>::from_str"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"slog_value\"), disambiguator: 0 }]","has_unsafe":false,"name":"slog_value"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"loggable\"), disambiguator: 0 }]","has_unsafe":false,"name":"loggable"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"impl_value_traits\"), disambiguator: 0 }]","has_unsafe":false,"name":"impl_value_traits"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_types_bounds\"), disambiguator: 0 }]","has_unsafe":false,"name":"get_types_bounds"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"impl_stats_trigger\"), disambiguator: 0 }]","has_unsafe":false,"name":"impl_stats_trigger"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"impl_loggable\"), disambiguator: 0 }]","has_unsafe":false,"name":"impl_loggable"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_log_details\"), disambiguator: 0 }]","has_unsafe":false,"name":"parse_log_details"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_fixed_field\"), disambiguator: 0 }]","has_unsafe":false,"name":"parse_fixed_field"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_attr_stat_id\"), disambiguator: 0 }]","has_unsafe":false,"name":"is_attr_stat_id"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_stat_trigger\"), disambiguator: 0 }]","has_unsafe":false,"name":"parse_stat_trigger"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","has_unsafe":true,"name":"registrar::_registrar"}

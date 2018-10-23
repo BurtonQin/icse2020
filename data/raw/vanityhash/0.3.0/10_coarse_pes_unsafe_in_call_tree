@@ -1,0 +1,4 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"increment\"), disambiguator: 0 }]","has_unsafe":false,"name":"increment"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"matching_characters\"), disambiguator: 0 }]","has_unsafe":false,"name":"matching_characters"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"matches_symbol\"), disambiguator: 0 }]","has_unsafe":false,"name":"matches_symbol"}

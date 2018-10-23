@@ -1,0 +1,33 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Drawable as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"draw\"), disambiguator: 0 }]","has_unsafe":true,"name":"Drawable::draw"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"draw_arc\"), disambiguator: 0 }]","has_unsafe":true,"name":"Drawable::draw_arc"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"default\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Axle as std::default::Default>::default"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":true,"name":"Axle::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"set_draw_color\"), disambiguator: 0 }]","has_unsafe":true,"name":"Axle::set_draw_color"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"background\"), disambiguator: 0 }]","has_unsafe":false,"name":"Axle::background"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"line\"), disambiguator: 0 }]","has_unsafe":true,"name":"Axle::line"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"rect\"), disambiguator: 0 }]","has_unsafe":true,"name":"Axle::rect"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"quad\"), disambiguator: 0 }]","has_unsafe":true,"name":"Axle::quad"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"ellipse\"), disambiguator: 0 }]","has_unsafe":true,"name":"Axle::ellipse"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"circle\"), disambiguator: 0 }]","has_unsafe":true,"name":"Axle::circle"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"regular_ngon\"), disambiguator: 0 }]","has_unsafe":true,"name":"Axle::regular_ngon"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"ellipsoidal_ngon\"), disambiguator: 0 }]","has_unsafe":true,"name":"Axle::ellipsoidal_ngon"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"circle_arc\"), disambiguator: 0 }]","has_unsafe":true,"name":"Axle::circle_arc"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"ellipse_arc\"), disambiguator: 0 }]","has_unsafe":true,"name":"Axle::ellipse_arc"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"n_point_ellipse_arc\"), disambiguator: 0 }]","has_unsafe":true,"name":"Axle::n_point_ellipse_arc"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"set_pixel\"), disambiguator: 0 }]","has_unsafe":true,"name":"Axle::set_pixel"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"mouse_pos\"), disambiguator: 0 }]","has_unsafe":true,"name":"Axle::mouse_pos"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"mouse_pressed\"), disambiguator: 0 }]","has_unsafe":true,"name":"Axle::mouse_pressed"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"keyboard_pressed\"), disambiguator: 0 }]","has_unsafe":true,"name":"Axle::keyboard_pressed"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"draw\"), disambiguator: 0 }]","has_unsafe":true,"name":"Axle::draw"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"sleep\"), disambiguator: 0 }]","has_unsafe":false,"name":"Axle::sleep"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"sleep_ms\"), disambiguator: 0 }]","has_unsafe":false,"name":"Axle::sleep_ms"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"fps\"), disambiguator: 0 }]","has_unsafe":false,"name":"Axle::fps"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"events\"), disambiguator: 0 }]","has_unsafe":false,"name":"Axle::events"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"wait_event\"), disambiguator: 0 }]","has_unsafe":true,"name":"Axle::wait_event"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"clear\"), disambiguator: 0 }]","has_unsafe":false,"name":"Axle::clear"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"remove\"), disambiguator: 0 }]","has_unsafe":false,"name":"Axle::remove"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"pen_down\"), disambiguator: 0 }]","has_unsafe":false,"name":"Axle::pen_down"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"pen_up\"), disambiguator: 0 }]","has_unsafe":false,"name":"Axle::pen_up"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"size\"), disambiguator: 0 }]","has_unsafe":true,"name":"Axle::size"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"default\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Config as std::default::Default>::default"}

@@ -1,0 +1,22 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"hash\"), disambiguator: 0 }]","has_unsafe":true,"name":"<KeyRef<K> as std::hash::Hash>::hash"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"eq\"), disambiguator: 0 }]","has_unsafe":true,"name":"<KeyRef<K> as std::cmp::PartialEq>::eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"<LruEntry<K, V>>::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":true,"name":"<LruCache<K, V>>::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"unbounded\"), disambiguator: 0 }]","has_unsafe":true,"name":"<LruCache<K, V>>::unbounded"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"construct\"), disambiguator: 0 }]","has_unsafe":true,"name":"<LruCache<K, V>>::construct"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"put\"), disambiguator: 0 }]","has_unsafe":true,"name":"<LruCache<K, V>>::put"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"get\"), disambiguator: 0 }]","has_unsafe":true,"name":"<LruCache<K, V>>::get"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"get_mut\"), disambiguator: 0 }]","has_unsafe":true,"name":"<LruCache<K, V>>::get_mut"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"peek\"), disambiguator: 0 }]","has_unsafe":false,"name":"<LruCache<K, V>>::peek"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"contains\"), disambiguator: 0 }]","has_unsafe":false,"name":"<LruCache<K, V>>::contains"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"pop\"), disambiguator: 0 }]","has_unsafe":false,"name":"<LruCache<K, V>>::pop"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"pop_lru\"), disambiguator: 0 }]","has_unsafe":true,"name":"<LruCache<K, V>>::pop_lru"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"len\"), disambiguator: 0 }]","has_unsafe":false,"name":"<LruCache<K, V>>::len"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"is_empty\"), disambiguator: 0 }]","has_unsafe":false,"name":"<LruCache<K, V>>::is_empty"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"cap\"), disambiguator: 0 }]","has_unsafe":false,"name":"<LruCache<K, V>>::cap"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"resize\"), disambiguator: 0 }]","has_unsafe":true,"name":"<LruCache<K, V>>::resize"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"clear\"), disambiguator: 0 }]","has_unsafe":true,"name":"<LruCache<K, V>>::clear"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"remove_last\"), disambiguator: 0 }]","has_unsafe":true,"name":"<LruCache<K, V>>::remove_last"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"detach\"), disambiguator: 0 }]","has_unsafe":true,"name":"<LruCache<K, V>>::detach"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"attach\"), disambiguator: 0 }]","has_unsafe":true,"name":"<LruCache<K, V>>::attach"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"drop\"), disambiguator: 0 }]","has_unsafe":true,"name":"<LruCache<K, V> as std::ops::Drop>::drop"}

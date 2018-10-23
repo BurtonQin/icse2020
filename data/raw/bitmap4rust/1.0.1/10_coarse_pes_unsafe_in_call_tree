@@ -1,0 +1,6 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"bitmap_create\"), disambiguator: 0 }]","has_unsafe":false,"name":"bitmap_create"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"clear_bit\"), disambiguator: 0 }]","has_unsafe":false,"name":"clear_bit"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"set_bit\"), disambiguator: 0 }]","has_unsafe":false,"name":"set_bit"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_first_set_bit\"), disambiguator: 0 }]","has_unsafe":false,"name":"get_first_set_bit"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_first_unset_bit\"), disambiguator: 0 }]","has_unsafe":false,"name":"get_first_unset_bit"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"check_bit\"), disambiguator: 0 }]","has_unsafe":false,"name":"check_bit"}

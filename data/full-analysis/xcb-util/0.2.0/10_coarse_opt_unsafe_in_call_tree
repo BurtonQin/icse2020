@@ -1,0 +1,2 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"util\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Module(\"utf8\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"into\"), disambiguator: 0 }]","has_unsafe":true,"name":"util::utf8::into"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"util\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Module(\"utf8\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"from\"), disambiguator: 0 }]","has_unsafe":false,"name":"util::utf8::from"}

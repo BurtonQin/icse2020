@@ -1,0 +1,8 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"num\"), disambiguator: 0 }]","has_unsafe":false,"name":"Pos::num"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"move_cursor\"), disambiguator: 0 }]","has_unsafe":false,"name":"move_cursor"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"move_line\"), disambiguator: 0 }]","has_unsafe":false,"name":"move_line"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"set_column\"), disambiguator: 0 }]","has_unsafe":false,"name":"set_column"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"set_position\"), disambiguator: 0 }]","has_unsafe":false,"name":"set_position"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"clear_display\"), disambiguator: 0 }]","has_unsafe":false,"name":"clear_display"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"clear_line\"), disambiguator: 0 }]","has_unsafe":false,"name":"clear_line"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"scroll\"), disambiguator: 0 }]","has_unsafe":false,"name":"scroll"}

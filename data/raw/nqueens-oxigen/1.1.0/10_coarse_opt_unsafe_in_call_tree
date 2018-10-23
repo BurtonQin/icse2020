@@ -1,0 +1,10 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<QueensBoard as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<QueensBoard as std::fmt::Display>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"from_iter\"), disambiguator: 0 }]","has_unsafe":false,"name":"<QueensBoard as std::iter::FromIterator<u8>>::from_iter"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"iter\"), disambiguator: 0 }]","has_unsafe":false,"name":"<QueensBoard as oxigen::Genotype<u8>>::iter"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"into_iter\"), disambiguator: 0 }]","has_unsafe":false,"name":"<QueensBoard as oxigen::Genotype<u8>>::into_iter"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"generate\"), disambiguator: 0 }]","has_unsafe":false,"name":"<QueensBoard as oxigen::Genotype<u8>>::generate"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"fitness\"), disambiguator: 0 }]","has_unsafe":false,"name":"<QueensBoard as oxigen::Genotype<u8>>::fitness"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"mutate\"), disambiguator: 0 }]","has_unsafe":false,"name":"<QueensBoard as oxigen::Genotype<u8>>::mutate"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"is_solution\"), disambiguator: 0 }]","has_unsafe":false,"name":"<QueensBoard as oxigen::Genotype<u8>>::is_solution"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}

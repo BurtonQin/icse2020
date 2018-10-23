@@ -1,0 +1,2 @@
+{"def_path":"[DisambiguatedDefPathData { data: Trait(\"Factorial\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"factorial\"), disambiguator: 0 }]","has_unsafe":true,"name":"Factorial::factorial"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"checked_factorial\"), disambiguator: 0 }]","has_unsafe":true,"name":"<T as Factorial>::checked_factorial"}

@@ -1,0 +1,3 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"remove_empty_subdirs\"), disambiguator: 0 }]","has_unsafe":false,"name":"remove_empty_subdirs"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"_remove_empty_subdirs\"), disambiguator: 0 }]","has_unsafe":false,"name":"_remove_empty_subdirs"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"_try_to_remove_empty_dir\"), disambiguator: 0 }]","has_unsafe":false,"name":"_try_to_remove_empty_dir"}

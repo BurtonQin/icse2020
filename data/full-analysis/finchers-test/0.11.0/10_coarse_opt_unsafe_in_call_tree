@@ -1,0 +1,17 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Client<E> as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Client<E>>::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"request\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Client<E>>::request"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"get\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Client<E>>::get"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"post\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Client<E>>::post"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"put\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Client<E>>::put"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"head\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Client<E>>::head"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"delete\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Client<E>>::delete"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"patch\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Client<E>>::patch"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<ClientRequest<'a, E> as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"method\"), disambiguator: 0 }]","has_unsafe":false,"name":"<ClientRequest<'a, E>>::method"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"uri\"), disambiguator: 0 }]","has_unsafe":false,"name":"<ClientRequest<'a, E>>::uri"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"header\"), disambiguator: 0 }]","has_unsafe":false,"name":"<ClientRequest<'a, E>>::header"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"body\"), disambiguator: 0 }]","has_unsafe":false,"name":"<ClientRequest<'a, E>>::body"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"take\"), disambiguator: 0 }]","has_unsafe":true,"name":"<ClientRequest<'a, E>>::take"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"run\"), disambiguator: 0 }]","has_unsafe":true,"name":"<ClientRequest<'a, E>>::run"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"poll\"), disambiguator: 0 }]","has_unsafe":false,"name":"<TestFuture<T> as futures::Future>::poll"}

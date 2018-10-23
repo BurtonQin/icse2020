@@ -1,0 +1,9 @@
+{"abi":"System","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"AmsiUninitialize\"), disambiguator: 0 }]","name":"AmsiUninitialize"}
+{"abi":"System","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"AmsiScanString\"), disambiguator: 0 }]","name":"AmsiScanString"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"mem\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"zeroed\"), disambiguator: 0 }]","name":"zeroed"}
+{"abi":"System","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"AmsiInitialize\"), disambiguator: 0 }]","name":"AmsiInitialize"}
+{"abi":"System","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"AmsiScanBuffer\"), disambiguator: 0 }]","name":"AmsiScanBuffer"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"mem\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"zeroed\"), disambiguator: 0 }]","name":"zeroed"}
+{"abi":"System","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"AmsiOpenSession\"), disambiguator: 0 }]","name":"AmsiOpenSession"}
+{"abi":"System","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"AmsiCloseSession\"), disambiguator: 0 }]","name":"AmsiCloseSession"}
+{"abi":"System","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"GetLastError\"), disambiguator: 0 }]","name":"GetLastError"}

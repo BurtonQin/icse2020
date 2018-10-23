@@ -1,0 +1,8 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"deref\"), disambiguator: 0 }]","has_unsafe":true,"name":"<HACKLOG_INDENT as lazy_static::Deref>::deref"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"deref\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"__static_ref_initialize\"), disambiguator: 0 }]","has_unsafe":false,"name":"<HACKLOG_INDENT as lazy_static::Deref>::deref::__static_ref_initialize"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"initialize\"), disambiguator: 0 }]","has_unsafe":true,"name":"<HACKLOG_INDENT as lazy_static::LazyStatic>::initialize"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"init\"), disambiguator: 0 }]","has_unsafe":true,"name":"init"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"init_format\"), disambiguator: 0 }]","has_unsafe":false,"name":"init_format"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"init_clap\"), disambiguator: 0 }]","has_unsafe":false,"name":"init_clap"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"indent\"), disambiguator: 0 }]","has_unsafe":true,"name":"indent"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"unindent\"), disambiguator: 0 }]","has_unsafe":true,"name":"unindent"}

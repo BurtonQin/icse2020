@@ -1,0 +1,3 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"test_project_path\"), disambiguator: 0 }]","has_unsafe":false,"name":"test_project_path"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"test_file_path\"), disambiguator: 0 }]","has_unsafe":false,"name":"test_file_path"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"try_test_file_path\"), disambiguator: 0 }]","has_unsafe":false,"name":"try_test_file_path"}

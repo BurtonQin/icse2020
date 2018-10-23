@@ -1,0 +1,14 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Flag as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"drop\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Flag as std::ops::Drop>::drop"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"Flag::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"take_control\"), disambiguator: 0 }]","has_unsafe":false,"name":"Flag::take_control"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"alive\"), disambiguator: 0 }]","has_unsafe":false,"name":"Flag::alive"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"is_alive\"), disambiguator: 0 }]","has_unsafe":false,"name":"Flag::is_alive"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"interrupt\"), disambiguator: 0 }]","has_unsafe":false,"name":"Flag::interrupt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Control as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Control as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"interrupt\"), disambiguator: 0 }]","has_unsafe":false,"name":"Control::interrupt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"stop\"), disambiguator: 0 }]","has_unsafe":false,"name":"Control::stop"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"is_done\"), disambiguator: 0 }]","has_unsafe":false,"name":"Control::is_done"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"is_interrupted\"), disambiguator: 0 }]","has_unsafe":false,"name":"Control::is_interrupted"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"make_pair\"), disambiguator: 0 }]","has_unsafe":false,"name":"make_pair"}

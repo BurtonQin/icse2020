@@ -1,0 +1,17 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Range<A> as core::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"range\"), disambiguator: 0 }]","has_unsafe":false,"name":"range"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"unsigned\"), disambiguator: 0 }]","has_unsafe":false,"name":"unsigned"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"next\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Range<A> as core::iter::Iterator>::next"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"size_hint\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Range<A> as core::iter::Iterator>::size_hint"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"next_back\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Range<A> as core::iter::DoubleEndedIterator>::next_back"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<RangeInclusive<A> as core::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"range_inclusive\"), disambiguator: 0 }]","has_unsafe":false,"name":"range_inclusive"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"next\"), disambiguator: 0 }]","has_unsafe":false,"name":"<RangeInclusive<A> as core::iter::Iterator>::next"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"size_hint\"), disambiguator: 0 }]","has_unsafe":false,"name":"<RangeInclusive<A> as core::iter::Iterator>::size_hint"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"next_back\"), disambiguator: 0 }]","has_unsafe":false,"name":"<RangeInclusive<A> as core::iter::DoubleEndedIterator>::next_back"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 8 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<RangeStep<A> as core::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"range_step\"), disambiguator: 0 }]","has_unsafe":false,"name":"range_step"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"next\"), disambiguator: 0 }]","has_unsafe":false,"name":"<RangeStep<A> as core::iter::Iterator>::next"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 9 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<RangeStepInclusive<A> as core::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"range_step_inclusive\"), disambiguator: 0 }]","has_unsafe":false,"name":"range_step_inclusive"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"next\"), disambiguator: 0 }]","has_unsafe":false,"name":"<RangeStepInclusive<A> as core::iter::Iterator>::next"}

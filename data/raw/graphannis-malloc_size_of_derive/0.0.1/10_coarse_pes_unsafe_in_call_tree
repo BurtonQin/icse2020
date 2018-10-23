@@ -1,0 +1,3 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"MallocSizeOf\"), disambiguator: 0 }]","has_unsafe":true,"name":"MallocSizeOf"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"malloc_size_of_derive\"), disambiguator: 0 }]","has_unsafe":true,"name":"malloc_size_of_derive"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","has_unsafe":true,"name":"registrar::_registrar"}

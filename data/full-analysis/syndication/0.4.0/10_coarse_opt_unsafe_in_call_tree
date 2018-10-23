@@ -1,0 +1,2 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"from_str\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Feed as std::str::FromStr>::from_str"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"to_string\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Feed as std::string::ToString>::to_string"}

@@ -1,0 +1,4 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"user\"), disambiguator: 0 }]","has_unsafe":false,"name":"ServiceBuilder::user"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"into_connect_params\"), disambiguator: 0 }]","has_unsafe":false,"name":"<ServiceBuilder as postgres::params::IntoConnectParams>::into_connect_params"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"build_from_section\"), disambiguator: 0 }]","has_unsafe":false,"name":"build_from_section"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"load_connect_params\"), disambiguator: 0 }]","has_unsafe":true,"name":"load_connect_params"}

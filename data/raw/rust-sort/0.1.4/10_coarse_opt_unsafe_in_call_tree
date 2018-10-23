@@ -1,0 +1,9 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"bubble_sort\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"sort\"), disambiguator: 0 }]","has_unsafe":false,"name":"bubble_sort::sort"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"insertion_sort\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"sort\"), disambiguator: 0 }]","has_unsafe":false,"name":"insertion_sort::sort"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"selection_sort\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"sort\"), disambiguator: 0 }]","has_unsafe":false,"name":"selection_sort::sort"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"cocktail_sort\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"sort\"), disambiguator: 0 }]","has_unsafe":false,"name":"cocktail_sort::sort"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"merge_sort\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"sort\"), disambiguator: 0 }]","has_unsafe":false,"name":"merge_sort::sort"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"merge_sort\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"merge_sort\"), disambiguator: 0 }]","has_unsafe":false,"name":"merge_sort::merge_sort"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"merge_sort\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"merge\"), disambiguator: 0 }]","has_unsafe":false,"name":"merge_sort::merge"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"quick_sort\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"sort\"), disambiguator: 0 }]","has_unsafe":false,"name":"quick_sort::sort"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"quick_sort\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"quick_sort\"), disambiguator: 0 }]","has_unsafe":false,"name":"quick_sort::quick_sort"}

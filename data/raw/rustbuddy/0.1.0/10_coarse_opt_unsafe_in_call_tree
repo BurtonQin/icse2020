@@ -1,0 +1,6 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"BuddyAllocator::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"allocate\"), disambiguator: 0 }]","has_unsafe":false,"name":"BuddyAllocator::allocate"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"free\"), disambiguator: 0 }]","has_unsafe":false,"name":"BuddyAllocator::free"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"free_and_combine\"), disambiguator: 0 }]","has_unsafe":false,"name":"BuddyAllocator::free_and_combine"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"update_parents\"), disambiguator: 0 }]","has_unsafe":false,"name":"BuddyAllocator::update_parents"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"dump\"), disambiguator: 0 }]","has_unsafe":false,"name":"BuddyAllocator::dump"}

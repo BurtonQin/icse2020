@@ -1,0 +1,7 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"as_key\"), disambiguator: 0 }]","has_unsafe":false,"name":"as_key"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"set_passthrough\"), disambiguator: 0 }]","has_unsafe":false,"name":"Files::set_passthrough"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"is_available\"), disambiguator: 0 }]","has_unsafe":false,"name":"Files::is_available"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"file_names\"), disambiguator: 0 }]","has_unsafe":false,"name":"Files::file_names"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get\"), disambiguator: 0 }]","has_unsafe":true,"name":"Files::get"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"read\"), disambiguator: 0 }]","has_unsafe":true,"name":"Files::read"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"next\"), disambiguator: 0 }]","has_unsafe":false,"name":"<FileNames as std::iter::Iterator>::next"}

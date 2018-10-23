@@ -1,0 +1,12 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"default\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Entry as std::default::Default>::default"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"Entry::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":true,"name":"Solver::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"add_headers\"), disambiguator: 0 }]","has_unsafe":false,"name":"Solver::add_headers"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"add_row\"), disambiguator: 0 }]","has_unsafe":false,"name":"Solver::add_row"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"choose_column\"), disambiguator: 0 }]","has_unsafe":false,"name":"Solver::choose_column"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"cover\"), disambiguator: 0 }]","has_unsafe":false,"name":"Solver::cover"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"uncover\"), disambiguator: 0 }]","has_unsafe":false,"name":"Solver::uncover"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"solve\"), disambiguator: 0 }]","has_unsafe":true,"name":"Solver::solve"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"solveception\"), disambiguator: 0 }]","has_unsafe":true,"name":"Solver::solveception"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"next\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Solution<'a, 'b> as std::iter::Iterator>::next"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"get_row\"), disambiguator: 0 }]","has_unsafe":false,"name":"Solution::get_row"}

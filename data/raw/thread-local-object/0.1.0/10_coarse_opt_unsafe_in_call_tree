@@ -1,0 +1,17 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"VALUES\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"__init\"), disambiguator: 0 }]","has_unsafe":false,"name":"VALUES::__init"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"next_id\"), disambiguator: 0 }]","has_unsafe":false,"name":"next_id"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"<ThreadLocal<T>>::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"set\"), disambiguator: 0 }]","has_unsafe":false,"name":"<ThreadLocal<T>>::set"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"remove\"), disambiguator: 0 }]","has_unsafe":true,"name":"<ThreadLocal<T>>::remove"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"entry\"), disambiguator: 0 }]","has_unsafe":false,"name":"<ThreadLocal<T>>::entry"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get\"), disambiguator: 0 }]","has_unsafe":true,"name":"<ThreadLocal<T>>::get"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_mut\"), disambiguator: 0 }]","has_unsafe":true,"name":"<ThreadLocal<T>>::get_mut"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"get_cloned\"), disambiguator: 0 }]","has_unsafe":true,"name":"<ThreadLocal<T>>::get_cloned"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"or_insert\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Entry<'a, T>>::or_insert"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"or_insert_with\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Entry<'a, T>>::or_insert_with"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"get\"), disambiguator: 0 }]","has_unsafe":true,"name":"<OccupiedEntry<'a, T>>::get"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"get_mut\"), disambiguator: 0 }]","has_unsafe":true,"name":"<OccupiedEntry<'a, T>>::get_mut"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"into_mut\"), disambiguator: 0 }]","has_unsafe":true,"name":"<OccupiedEntry<'a, T>>::into_mut"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"insert\"), disambiguator: 0 }]","has_unsafe":true,"name":"<OccupiedEntry<'a, T>>::insert"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"remove\"), disambiguator: 0 }]","has_unsafe":true,"name":"<OccupiedEntry<'a, T>>::remove"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"insert\"), disambiguator: 0 }]","has_unsafe":true,"name":"<VacantEntry<'a, T>>::insert"}

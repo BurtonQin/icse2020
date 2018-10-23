@@ -1,0 +1,14 @@
+{"def_path":"[DisambiguatedDefPathData { data: Trait(\"IterExt\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"collect_vec\"), disambiguator: 0 }]","has_unsafe":false,"name":"IterExt::collect_vec"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"readable\"), disambiguator: 0 }]","has_unsafe":false,"name":"readable"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"writable\"), disambiguator: 0 }]","has_unsafe":false,"name":"writable"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"common_tokens\"), disambiguator: 0 }]","has_unsafe":false,"name":"common_tokens"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"var_name\"), disambiguator: 0 }]","has_unsafe":false,"name":"Field::var_name"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"name\"), disambiguator: 0 }]","has_unsafe":false,"name":"Field::name"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_fields\"), disambiguator: 0 }]","has_unsafe":false,"name":"get_fields"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"readable_body\"), disambiguator: 0 }]","has_unsafe":false,"name":"readable_body"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"writable_body\"), disambiguator: 0 }]","has_unsafe":false,"name":"writable_body"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"EnumCtx::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"next\"), disambiguator: 0 }]","has_unsafe":false,"name":"EnumCtx::next"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"impl_readable\"), disambiguator: 0 }]","has_unsafe":false,"name":"impl_readable"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"impl_writable\"), disambiguator: 0 }]","has_unsafe":false,"name":"impl_writable"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","has_unsafe":true,"name":"registrar::_registrar"}

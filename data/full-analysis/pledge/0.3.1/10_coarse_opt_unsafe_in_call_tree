@@ -1,0 +1,10 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"eq\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Error as std::cmp::PartialEq>::eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"ne\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Error as std::cmp::PartialEq>::ne"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"assert_receiver_is_total_eq\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Error as std::cmp::Eq>::assert_receiver_is_total_eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Error as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Error as std::fmt::Display>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"description\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Error as std::error::Error>::description"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"to_promise_string\"), disambiguator: 0 }]","has_unsafe":false,"name":"Promise::to_promise_string"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"to_promise_string\"), disambiguator: 0 }]","has_unsafe":false,"name":"<[Promise] as ToPromiseString>::to_promise_string"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"pledge_with_paths\"), disambiguator: 0 }]","has_unsafe":false,"name":"pledge_with_paths"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"pledge\"), disambiguator: 0 }]","has_unsafe":false,"name":"pledge"}

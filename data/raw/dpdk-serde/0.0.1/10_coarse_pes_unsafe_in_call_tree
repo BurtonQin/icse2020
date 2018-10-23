@@ -1,0 +1,5 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<OrderedSet<V> as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":true,"name":"<OrderedSet<V> as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"serialize\"), disambiguator: 0 }]","has_unsafe":true,"name":"<OrderedSet<V> as serde::Serialize>::serialize"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"deserialize\"), disambiguator: 0 }]","has_unsafe":true,"name":"<OrderedSet<V> as serde::Deserialize>::deserialize"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"default\"), disambiguator: 0 }]","has_unsafe":true,"name":"<OrderedSet<V> as std::default::Default>::default"}

@@ -1,0 +1,23 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"compress\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<compress::Format as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"compress\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"eq\"), disambiguator: 0 }]","has_unsafe":true,"name":"<compress::Format as std::cmp::PartialEq>::eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"compress\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"assert_receiver_is_total_eq\"), disambiguator: 0 }]","has_unsafe":false,"name":"<compress::Format as std::cmp::Eq>::assert_receiver_is_total_eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"compress\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"compress_zip\"), disambiguator: 0 }]","has_unsafe":true,"name":"compress::compress_zip"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"compress\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"compress_tgz\"), disambiguator: 0 }]","has_unsafe":true,"name":"compress::compress_tgz"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"compress\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"compress\"), disambiguator: 0 }]","has_unsafe":true,"name":"compress::compress"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"stage\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"load_yaml\"), disambiguator: 0 }]","has_unsafe":true,"name":"stage::load_yaml"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"stage\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"load_json\"), disambiguator: 0 }]","has_unsafe":true,"name":"stage::load_json"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"stage\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"load_toml\"), disambiguator: 0 }]","has_unsafe":true,"name":"stage::load_toml"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"load_stage\"), disambiguator: 0 }]","has_unsafe":true,"name":"load_stage"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"object\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"load_yaml\"), disambiguator: 0 }]","has_unsafe":true,"name":"object::load_yaml"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"object\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"load_json\"), disambiguator: 0 }]","has_unsafe":true,"name":"object::load_json"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"object\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"load_toml\"), disambiguator: 0 }]","has_unsafe":true,"name":"object::load_toml"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"object\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"insert\"), disambiguator: 0 }]","has_unsafe":true,"name":"object::insert"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"load_data\"), disambiguator: 0 }]","has_unsafe":true,"name":"load_data"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"load_data_dirs\"), disambiguator: 0 }]","has_unsafe":true,"name":"load_data_dirs"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"clap\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Arguments as structopt::StructOpt>::clap"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"from_clap\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Arguments as structopt::StructOpt>::from_clap"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"augment_clap\"), disambiguator: 0 }]","has_unsafe":true,"name":"Arguments::augment_clap"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"is_subcommand\"), disambiguator: 0 }]","has_unsafe":false,"name":"Arguments::is_subcommand"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Arguments as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"run\"), disambiguator: 0 }]","has_unsafe":true,"name":"run"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}

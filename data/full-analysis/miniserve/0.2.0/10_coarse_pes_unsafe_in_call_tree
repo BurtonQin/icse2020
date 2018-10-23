@@ -1,0 +1,14 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<BasicAuthParams as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<BasicAuthParams as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<MiniserveConfig as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<MiniserveConfig as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_basic_auth\"), disambiguator: 0 }]","has_unsafe":true,"name":"parse_basic_auth"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_valid_path\"), disambiguator: 0 }]","has_unsafe":false,"name":"is_valid_path"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_valid_port\"), disambiguator: 0 }]","has_unsafe":false,"name":"is_valid_port"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_valid_interface\"), disambiguator: 0 }]","has_unsafe":false,"name":"is_valid_interface"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_valid_auth\"), disambiguator: 0 }]","has_unsafe":false,"name":"is_valid_auth"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_args\"), disambiguator: 0 }]","has_unsafe":true,"name":"parse_args"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"file_handler\"), disambiguator: 0 }]","has_unsafe":true,"name":"file_handler"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"configure_app\"), disambiguator: 0 }]","has_unsafe":true,"name":"configure_app"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"response\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Auth as actix_web::middleware::Middleware<MiniserveConfig>>::response"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}

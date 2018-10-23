@@ -1,0 +1,4 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"connect\"), disambiguator: 0 }]","has_unsafe":false,"name":"SocksStream::connect"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"read\"), disambiguator: 0 }]","has_unsafe":false,"name":"<SocksStream as std::io::Read>::read"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"write\"), disambiguator: 0 }]","has_unsafe":false,"name":"<SocksStream as std::io::Write>::write"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"flush\"), disambiguator: 0 }]","has_unsafe":false,"name":"<SocksStream as std::io::Write>::flush"}

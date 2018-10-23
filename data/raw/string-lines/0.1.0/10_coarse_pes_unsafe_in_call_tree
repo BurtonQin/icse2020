@@ -1,0 +1,12 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<StringLines as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Error as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Error as std::fmt::Display>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"description\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Error as std::error::Error>::description"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"from\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Error as std::convert::From<std::io::Error>>::from"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"from\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Error as std::convert::From<file_lock::Error>>::from"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"from\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Error as std::convert::From<std::string::FromUtf8Error>>::from"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"open\"), disambiguator: 0 }]","has_unsafe":false,"name":"StringLines::open"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"push\"), disambiguator: 0 }]","has_unsafe":true,"name":"StringLines::push"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"pop_inner\"), disambiguator: 0 }]","has_unsafe":true,"name":"StringLines::pop_inner"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"pop\"), disambiguator: 0 }]","has_unsafe":true,"name":"StringLines::pop"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"clear\"), disambiguator: 0 }]","has_unsafe":true,"name":"StringLines::clear"}

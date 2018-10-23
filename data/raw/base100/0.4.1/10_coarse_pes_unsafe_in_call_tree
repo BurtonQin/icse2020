@@ -1,0 +1,3 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"emoji_to_char\"), disambiguator: 0 }]","has_unsafe":false,"name":"emoji_to_char"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"char_to_emoji\"), disambiguator: 0 }]","has_unsafe":false,"name":"char_to_emoji"}

@@ -1,0 +1,7 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"ffi\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":true,"name":"<ffi::Msghdr<'a, 'b, 'c, T>>::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"ffi\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"<ffi::Cmsghdr<T>>::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"ffi\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"recvmsg\"), disambiguator: 0 }]","has_unsafe":true,"name":"ffi::recvmsg"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"ffi\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"sendmsg\"), disambiguator: 0 }]","has_unsafe":true,"name":"ffi::sendmsg"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"FdPadding::new"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"recv_fd\"), disambiguator: 0 }]","has_unsafe":true,"name":"recv_fd"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"send_fd\"), disambiguator: 0 }]","has_unsafe":true,"name":"send_fd"}

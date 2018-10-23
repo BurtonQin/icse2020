@@ -1,0 +1,7 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Morphism<'static, Void>>::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"head\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Morphism<'a, B, C>>::head"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"push_front\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Morphism<'a, B, C>>::push_front"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"tail\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Morphism<'a, A, B>>::tail"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"push_back\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Morphism<'a, A, B>>::push_back"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"then\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Morphism<'a, A, B>>::then"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"run\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Morphism<'a, A, B>>::run"}

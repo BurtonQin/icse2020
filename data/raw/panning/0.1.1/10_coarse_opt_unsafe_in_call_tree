@@ -1,0 +1,4 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"stereo\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"pan\"), disambiguator: 0 }]","has_unsafe":false,"name":"stereo::pan"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"stereo\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"centre\"), disambiguator: 0 }]","has_unsafe":false,"name":"stereo::centre"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"stereo\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"hard_left\"), disambiguator: 0 }]","has_unsafe":false,"name":"stereo::hard_left"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"stereo\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"hard_right\"), disambiguator: 0 }]","has_unsafe":false,"name":"stereo::hard_right"}

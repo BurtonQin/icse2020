@@ -1,0 +1,4 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"find_all_pids\"), disambiguator: 0 }]","has_unsafe":true,"name":"find_all_pids"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_cmdline\"), disambiguator: 0 }]","has_unsafe":true,"name":"get_cmdline"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"spinlock\"), disambiguator: 0 }]","has_unsafe":true,"name":"spinlock"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"kill_and_restart\"), disambiguator: 0 }]","has_unsafe":true,"name":"kill_and_restart"}

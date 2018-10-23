@@ -1,0 +1,7 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"download\"), disambiguator: 0 }]","has_unsafe":true,"name":"download"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_file_size\"), disambiguator: 0 }]","has_unsafe":false,"name":"get_file_size"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"write_file\"), disambiguator: 0 }]","has_unsafe":true,"name":"write_file"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"send_request\"), disambiguator: 0 }]","has_unsafe":true,"name":"send_request"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_url\"), disambiguator: 0 }]","has_unsafe":true,"name":"parse_url"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"read_line\"), disambiguator: 0 }]","has_unsafe":false,"name":"read_line"}

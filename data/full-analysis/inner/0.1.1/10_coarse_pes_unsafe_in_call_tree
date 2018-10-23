@@ -1,0 +1,2 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"into_result\"), disambiguator: 0 }]","has_unsafe":false,"name":"<std::result::Result<T, E> as IntoResult<T, E>>::into_result"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"into_result\"), disambiguator: 0 }]","has_unsafe":false,"name":"<std::option::Option<T> as IntoResult<T, ()>>::into_result"}

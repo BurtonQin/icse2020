@@ -1,0 +1,19 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"busy_loop_fail\"), disambiguator: 0 }]","has_unsafe":false,"name":"busy_loop_fail"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<RdRand as core::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<RdSeed as core::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":true,"name":"RdRand::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"try_next_u16\"), disambiguator: 0 }]","has_unsafe":true,"name":"RdRand::try_next_u16"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"try_next_u32\"), disambiguator: 0 }]","has_unsafe":true,"name":"RdRand::try_next_u32"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"try_next_u64\"), disambiguator: 0 }]","has_unsafe":true,"name":"RdRand::try_next_u64"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"next_u32\"), disambiguator: 0 }]","has_unsafe":true,"name":"<RdRand as rand_core::RngCore>::next_u32"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"next_u64\"), disambiguator: 0 }]","has_unsafe":true,"name":"<RdRand as rand_core::RngCore>::next_u64"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"fill_bytes\"), disambiguator: 0 }]","has_unsafe":true,"name":"<RdRand as rand_core::RngCore>::fill_bytes"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"try_fill_bytes\"), disambiguator: 0 }]","has_unsafe":true,"name":"<RdRand as rand_core::RngCore>::try_fill_bytes"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 8 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":true,"name":"RdSeed::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 8 }, DisambiguatedDefPathData { data: ValueNs(\"try_next_u16\"), disambiguator: 0 }]","has_unsafe":true,"name":"RdSeed::try_next_u16"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 8 }, DisambiguatedDefPathData { data: ValueNs(\"try_next_u32\"), disambiguator: 0 }]","has_unsafe":true,"name":"RdSeed::try_next_u32"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 8 }, DisambiguatedDefPathData { data: ValueNs(\"try_next_u64\"), disambiguator: 0 }]","has_unsafe":true,"name":"RdSeed::try_next_u64"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 9 }, DisambiguatedDefPathData { data: ValueNs(\"next_u32\"), disambiguator: 0 }]","has_unsafe":true,"name":"<RdSeed as rand_core::RngCore>::next_u32"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 9 }, DisambiguatedDefPathData { data: ValueNs(\"next_u64\"), disambiguator: 0 }]","has_unsafe":true,"name":"<RdSeed as rand_core::RngCore>::next_u64"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 9 }, DisambiguatedDefPathData { data: ValueNs(\"fill_bytes\"), disambiguator: 0 }]","has_unsafe":true,"name":"<RdSeed as rand_core::RngCore>::fill_bytes"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 9 }, DisambiguatedDefPathData { data: ValueNs(\"try_fill_bytes\"), disambiguator: 0 }]","has_unsafe":true,"name":"<RdSeed as rand_core::RngCore>::try_fill_bytes"}

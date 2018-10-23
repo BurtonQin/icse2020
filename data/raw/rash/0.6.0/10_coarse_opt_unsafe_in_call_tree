@@ -1,0 +1,9 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"cli\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"build_cli\"), disambiguator: 0 }]","has_unsafe":false,"name":"cli::build_cli"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"run\"), disambiguator: 0 }]","has_unsafe":true,"name":"run"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"calc_hash_fixed\"), disambiguator: 0 }]","has_unsafe":true,"name":"calc_hash_fixed"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"calc_hash_var\"), disambiguator: 0 }]","has_unsafe":false,"name":"calc_hash_var"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"calc_hash_extendable\"), disambiguator: 0 }]","has_unsafe":false,"name":"calc_hash_extendable"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"fill\"), disambiguator: 0 }]","has_unsafe":false,"name":"fill"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"args\"), disambiguator: 0 }]","has_unsafe":true,"name":"args"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_alg\"), disambiguator: 0 }]","has_unsafe":true,"name":"get_alg"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}

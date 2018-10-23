@@ -1,0 +1,3 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"file\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"mk_pipe\"), disambiguator: 0 }]","has_unsafe":true,"name":"file::mk_pipe"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"file\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"mktemp_at\"), disambiguator: 0 }]","has_unsafe":true,"name":"file::mktemp_at"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"file\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"randname\"), disambiguator: 0 }]","has_unsafe":true,"name":"file::randname"}

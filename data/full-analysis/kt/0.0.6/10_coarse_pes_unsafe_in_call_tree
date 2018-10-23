@@ -1,0 +1,4 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"run\"), disambiguator: 0 }]","has_unsafe":true,"name":"run"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"write_bytes\"), disambiguator: 0 }]","has_unsafe":true,"name":"write_bytes"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"error_regarding_output_file\"), disambiguator: 0 }]","has_unsafe":false,"name":"error_regarding_output_file"}

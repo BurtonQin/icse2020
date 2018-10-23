@@ -1,0 +1,8 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<CodeBuilder as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"add_line\"), disambiguator: 0 }]","has_unsafe":false,"name":"CodeBuilder::add_line"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"add\"), disambiguator: 0 }]","has_unsafe":false,"name":"CodeBuilder::add"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"add_code\"), disambiguator: 0 }]","has_unsafe":false,"name":"CodeBuilder::add_code"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"result\"), disambiguator: 0 }]","has_unsafe":false,"name":"CodeBuilder::result"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"CodeBuilder::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"with_indent_size\"), disambiguator: 0 }]","has_unsafe":false,"name":"CodeBuilder::with_indent_size"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"format\"), disambiguator: 0 }]","has_unsafe":false,"name":"CodeBuilder::format"}

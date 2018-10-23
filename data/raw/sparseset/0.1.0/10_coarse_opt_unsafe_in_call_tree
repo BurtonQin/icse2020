@@ -1,0 +1,18 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"key\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Entry<T>>::key"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"value\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Entry<T>>::value"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"value_mut\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Entry<T>>::value_mut"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"with_capacity\"), disambiguator: 0 }]","has_unsafe":true,"name":"<SparseSet<T>>::with_capacity"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"len\"), disambiguator: 0 }]","has_unsafe":false,"name":"<SparseSet<T>>::len"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"capacity\"), disambiguator: 0 }]","has_unsafe":false,"name":"<SparseSet<T>>::capacity"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"clear\"), disambiguator: 0 }]","has_unsafe":false,"name":"<SparseSet<T>>::clear"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"dense_idx\"), disambiguator: 0 }]","has_unsafe":false,"name":"<SparseSet<T>>::dense_idx"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"get\"), disambiguator: 0 }]","has_unsafe":false,"name":"<SparseSet<T>>::get"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"get_mut\"), disambiguator: 0 }]","has_unsafe":false,"name":"<SparseSet<T>>::get_mut"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"contains\"), disambiguator: 0 }]","has_unsafe":false,"name":"<SparseSet<T>>::contains"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"insert\"), disambiguator: 0 }]","has_unsafe":false,"name":"<SparseSet<T>>::insert"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"remove\"), disambiguator: 0 }]","has_unsafe":false,"name":"<SparseSet<T>>::remove"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"deref\"), disambiguator: 0 }]","has_unsafe":false,"name":"<SparseSet<T> as std::ops::Deref>::deref"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"deref_mut\"), disambiguator: 0 }]","has_unsafe":false,"name":"<SparseSet<T> as std::ops::DerefMut>::deref_mut"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"into_iter\"), disambiguator: 0 }]","has_unsafe":false,"name":"<SparseSet<T> as std::iter::IntoIterator>::into_iter"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"into_iter\"), disambiguator: 0 }]","has_unsafe":false,"name":"<&'a SparseSet<T> as std::iter::IntoIterator>::into_iter"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"into_iter\"), disambiguator: 0 }]","has_unsafe":false,"name":"<&'a mut SparseSet<T> as std::iter::IntoIterator>::into_iter"}

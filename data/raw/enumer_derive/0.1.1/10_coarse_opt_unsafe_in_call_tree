@@ -1,0 +1,3 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"enum_iter\"), disambiguator: 0 }]","has_unsafe":false,"name":"enum_iter"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"enum_iter_impl\"), disambiguator: 0 }]","has_unsafe":false,"name":"enum_iter_impl"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","has_unsafe":true,"name":"registrar::_registrar"}

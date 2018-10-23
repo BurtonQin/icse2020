@@ -1,0 +1,18 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Error as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"description\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Error as std::error::Error>::description"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"cause\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Error as std::error::Error>::cause"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Error as std::fmt::Display>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"str_to_wchar_checked\"), disambiguator: 0 }]","has_unsafe":false,"name":"str_to_wchar_checked"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"init\"), disambiguator: 0 }]","has_unsafe":true,"name":"Lcd::init"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"init_mono\"), disambiguator: 0 }]","has_unsafe":true,"name":"Lcd::init_mono"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"init_color\"), disambiguator: 0 }]","has_unsafe":true,"name":"Lcd::init_color"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"init_either\"), disambiguator: 0 }]","has_unsafe":true,"name":"Lcd::init_either"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"is_connected\"), disambiguator: 0 }]","has_unsafe":true,"name":"Lcd::is_connected"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"update\"), disambiguator: 0 }]","has_unsafe":true,"name":"Lcd::update"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"is_button_pressed\"), disambiguator: 0 }]","has_unsafe":true,"name":"Lcd::is_button_pressed"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"set_mono_background\"), disambiguator: 0 }]","has_unsafe":true,"name":"Lcd::set_mono_background"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"set_mono_text\"), disambiguator: 0 }]","has_unsafe":true,"name":"Lcd::set_mono_text"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"set_color_background\"), disambiguator: 0 }]","has_unsafe":true,"name":"Lcd::set_color_background"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"set_color_title\"), disambiguator: 0 }]","has_unsafe":true,"name":"Lcd::set_color_title"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"set_color_text\"), disambiguator: 0 }]","has_unsafe":true,"name":"Lcd::set_color_text"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"drop\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Lcd as std::ops::Drop>::drop"}

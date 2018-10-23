@@ -1,0 +1,6 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"Sbxor::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"create\"), disambiguator: 0 }]","has_unsafe":false,"name":"Sbxor::create"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"decode_sbxor\"), disambiguator: 0 }]","has_unsafe":true,"name":"Sbxor::decode_sbxor"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"decode_sbxor_char\"), disambiguator: 0 }]","has_unsafe":true,"name":"Sbxor::decode_sbxor_char"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"encode_sbxor_phrase\"), disambiguator: 0 }]","has_unsafe":true,"name":"Sbxor::encode_sbxor_phrase"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_english\"), disambiguator: 0 }]","has_unsafe":false,"name":"is_english"}

@@ -1,0 +1,4 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_limit\"), disambiguator: 0 }]","has_unsafe":true,"name":"get_limit"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get\"), disambiguator: 0 }]","has_unsafe":true,"name":"get"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"max\"), disambiguator: 0 }]","has_unsafe":true,"name":"max"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"set_to_max\"), disambiguator: 0 }]","has_unsafe":true,"name":"set_to_max"}

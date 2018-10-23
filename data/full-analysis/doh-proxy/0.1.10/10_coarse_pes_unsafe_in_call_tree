@@ -1,0 +1,18 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"dns\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"qdcount\"), disambiguator: 0 }]","has_unsafe":false,"name":"dns::qdcount"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"dns\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"ancount\"), disambiguator: 0 }]","has_unsafe":false,"name":"dns::ancount"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"dns\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"nscount\"), disambiguator: 0 }]","has_unsafe":false,"name":"dns::nscount"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"dns\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"arcount\"), disambiguator: 0 }]","has_unsafe":false,"name":"dns::arcount"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"dns\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"skip_name\"), disambiguator: 0 }]","has_unsafe":false,"name":"dns::skip_name"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"dns\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"min_ttl\"), disambiguator: 0 }]","has_unsafe":false,"name":"dns::min_ttl"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<InnerDoH as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<DoH as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<DoH as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Error as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Error as std::fmt::Display>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"description\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Error as std::error::Error>::description"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"call\"), disambiguator: 0 }]","has_unsafe":true,"name":"<DoH as hyper::service::Service>::call"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"handle_client\"), disambiguator: 0 }]","has_unsafe":true,"name":"DoH::handle_client"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"proxy\"), disambiguator: 0 }]","has_unsafe":false,"name":"DoH::proxy"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"read_body_and_proxy\"), disambiguator: 0 }]","has_unsafe":false,"name":"DoH::read_body_and_proxy"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_opts\"), disambiguator: 0 }]","has_unsafe":true,"name":"parse_opts"}

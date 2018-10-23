@@ -1,0 +1,3 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_prime\"), disambiguator: 0 }]","has_unsafe":true,"name":"is_prime"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_prime_with_witnesses\"), disambiguator: 0 }]","has_unsafe":true,"name":"is_prime_with_witnesses"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"powmod\"), disambiguator: 0 }]","has_unsafe":true,"name":"powmod"}

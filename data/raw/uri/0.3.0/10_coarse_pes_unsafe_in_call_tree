@@ -1,0 +1,23 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"default\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Uri as std::default::Default>::default"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Uri as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"map_to_u16\"), disambiguator: 0 }]","has_unsafe":false,"name":"map_to_u16"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"deref\"), disambiguator: 0 }]","has_unsafe":true,"name":"<URI_REGEX as lazy_static::Deref>::deref"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"deref\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"__static_ref_initialize\"), disambiguator: 0 }]","has_unsafe":true,"name":"<URI_REGEX as lazy_static::Deref>::deref::__static_ref_initialize"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 8 }, DisambiguatedDefPathData { data: ValueNs(\"initialize\"), disambiguator: 0 }]","has_unsafe":true,"name":"<URI_REGEX as lazy_static::LazyStatic>::initialize"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_uri\"), disambiguator: 0 }]","has_unsafe":true,"name":"is_uri"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 11 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<ParseError as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 10 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<ParseError as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":true,"name":"Uri::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"UriWriter::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"write_uri\"), disambiguator: 0 }]","has_unsafe":false,"name":"UriWriter::write_uri"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"is_valid_uri\"), disambiguator: 0 }]","has_unsafe":false,"name":"UriWriter::is_valid_uri"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"write_scheme\"), disambiguator: 0 }]","has_unsafe":false,"name":"UriWriter::write_scheme"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"write_authority\"), disambiguator: 0 }]","has_unsafe":false,"name":"UriWriter::write_authority"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"write_host\"), disambiguator: 0 }]","has_unsafe":false,"name":"UriWriter::write_host"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"write_port\"), disambiguator: 0 }]","has_unsafe":false,"name":"UriWriter::write_port"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"write_path\"), disambiguator: 0 }]","has_unsafe":false,"name":"UriWriter::write_path"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"write_query\"), disambiguator: 0 }]","has_unsafe":false,"name":"UriWriter::write_query"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"write_fragment\"), disambiguator: 0 }]","has_unsafe":false,"name":"UriWriter::write_fragment"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Uri as std::fmt::Display>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<ParseError as std::fmt::Display>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"description\"), disambiguator: 0 }]","has_unsafe":false,"name":"<ParseError as std::error::Error>::description"}

@@ -1,0 +1,7 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"to_capitalized\"), disambiguator: 0 }]","has_unsafe":false,"name":"<str as CaseExt>::to_capitalized"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"to_camel\"), disambiguator: 0 }]","has_unsafe":false,"name":"<str as CaseExt>::to_camel"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"to_camel_lowercase\"), disambiguator: 0 }]","has_unsafe":false,"name":"<str as CaseExt>::to_camel_lowercase"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"to_snake\"), disambiguator: 0 }]","has_unsafe":false,"name":"<str as CaseExt>::to_snake"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"to_dashed\"), disambiguator: 0 }]","has_unsafe":false,"name":"<str as CaseExt>::to_dashed"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"to_camel_internal\"), disambiguator: 0 }]","has_unsafe":false,"name":"to_camel_internal"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_ascii_uppercase\"), disambiguator: 0 }]","has_unsafe":false,"name":"is_ascii_uppercase"}

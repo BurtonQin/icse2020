@@ -1,0 +1,2 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"unwrap\"), disambiguator: 0 }]","has_unsafe":true,"name":"<std::boxed::Box<T> as Unwrappable<T>>::unwrap"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"unwrap_mut\"), disambiguator: 0 }]","has_unsafe":true,"name":"<std::boxed::Box<T> as Unwrappable<T>>::unwrap_mut"}

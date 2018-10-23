@@ -1,0 +1,23 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<GridIndex as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"eq\"), disambiguator: 0 }]","has_unsafe":false,"name":"<GridIndex as std::cmp::PartialEq>::eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"ne\"), disambiguator: 0 }]","has_unsafe":false,"name":"<GridIndex as std::cmp::PartialEq>::ne"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"GridIndex::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"cell_count\"), disambiguator: 0 }]","has_unsafe":false,"name":"GridIndex::cell_count"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"row_cell_indexes\"), disambiguator: 0 }]","has_unsafe":false,"name":"GridIndex::row_cell_indexes"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"col_cell_indexes\"), disambiguator: 0 }]","has_unsafe":false,"name":"GridIndex::col_cell_indexes"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"top_row_indices\"), disambiguator: 0 }]","has_unsafe":false,"name":"GridIndex::top_row_indices"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"left_column_indices\"), disambiguator: 0 }]","has_unsafe":false,"name":"GridIndex::left_column_indices"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"right_column_indices\"), disambiguator: 0 }]","has_unsafe":false,"name":"GridIndex::right_column_indices"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"bottom_row_indices\"), disambiguator: 0 }]","has_unsafe":false,"name":"GridIndex::bottom_row_indices"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"rt_i\"), disambiguator: 0 }]","has_unsafe":false,"name":"GridIndex::rt_i"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"dr_i\"), disambiguator: 0 }]","has_unsafe":false,"name":"GridIndex::dr_i"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"dn_i\"), disambiguator: 0 }]","has_unsafe":false,"name":"GridIndex::dn_i"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"dl_i\"), disambiguator: 0 }]","has_unsafe":false,"name":"GridIndex::dl_i"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lt_i\"), disambiguator: 0 }]","has_unsafe":false,"name":"GridIndex::lt_i"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"ul_i\"), disambiguator: 0 }]","has_unsafe":false,"name":"GridIndex::ul_i"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"up_i\"), disambiguator: 0 }]","has_unsafe":false,"name":"GridIndex::up_i"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"ur_i\"), disambiguator: 0 }]","has_unsafe":false,"name":"GridIndex::ur_i"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"row_indices\"), disambiguator: 0 }]","has_unsafe":false,"name":"GridIndex::row_indices"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"column_indices\"), disambiguator: 0 }]","has_unsafe":false,"name":"GridIndex::column_indices"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"middle_indices\"), disambiguator: 0 }]","has_unsafe":false,"name":"GridIndex::middle_indices"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"neighbor_index\"), disambiguator: 0 }]","has_unsafe":false,"name":"GridIndex::neighbor_index"}

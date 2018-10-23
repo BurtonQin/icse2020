@@ -1,0 +1,6 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"next\"), disambiguator: 0 }]","has_unsafe":false,"name":"<StdinReader as std::iter::Iterator>::next"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"stdin_reader\"), disambiguator: 0 }]","has_unsafe":false,"name":"stdin_reader"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"unique_filter\"), disambiguator: 0 }]","has_unsafe":false,"name":"unique_filter"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"unique_filter_with_cap\"), disambiguator: 0 }]","has_unsafe":false,"name":"unique_filter_with_cap"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"unique_filter_with_override\"), disambiguator: 0 }]","has_unsafe":false,"name":"unique_filter_with_override"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}

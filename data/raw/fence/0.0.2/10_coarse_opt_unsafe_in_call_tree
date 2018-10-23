@@ -1,0 +1,4 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"from_secs\"), disambiguator: 0 }]","has_unsafe":false,"name":"Fence::from_secs"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"from_millis\"), disambiguator: 0 }]","has_unsafe":false,"name":"Fence::from_millis"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"from_duration\"), disambiguator: 0 }]","has_unsafe":false,"name":"Fence::from_duration"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"sleep\"), disambiguator: 0 }]","has_unsafe":false,"name":"Fence::sleep"}

@@ -1,0 +1,8 @@
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"mallctl\"), disambiguator: 0 }]","name":"mallctl"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"sdallocx\"), disambiguator: 0 }]","name":"sdallocx"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"mallctl\"), disambiguator: 0 }]","name":"mallctl"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"rallocx\"), disambiguator: 0 }]","name":"rallocx"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"mallocx\"), disambiguator: 0 }]","name":"mallocx"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"malloc_usable_size\"), disambiguator: 0 }]","name":"malloc_usable_size"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"calloc\"), disambiguator: 0 }]","name":"calloc"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"mallocx\"), disambiguator: 0 }]","name":"mallocx"}

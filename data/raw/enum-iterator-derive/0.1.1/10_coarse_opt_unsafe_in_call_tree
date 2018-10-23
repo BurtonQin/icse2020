@@ -1,0 +1,4 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"enum_iterator\"), disambiguator: 0 }]","has_unsafe":true,"name":"enum_iterator"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"field_less\"), disambiguator: 0 }]","has_unsafe":false,"name":"field_less"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"abort\"), disambiguator: 0 }]","has_unsafe":false,"name":"abort"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","has_unsafe":true,"name":"registrar::_registrar"}

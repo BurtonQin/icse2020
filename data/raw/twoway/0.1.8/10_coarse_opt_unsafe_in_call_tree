@@ -1,0 +1,25 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"bmh\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"bmh_skip\"), disambiguator: 0 }]","has_unsafe":false,"name":"bmh::bmh_skip"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"bmh\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"find\"), disambiguator: 0 }]","has_unsafe":true,"name":"bmh::find"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"find_str\"), disambiguator: 0 }]","has_unsafe":true,"name":"find_str"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"find_bytes\"), disambiguator: 0 }]","has_unsafe":true,"name":"find_bytes"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"rfind_str\"), disambiguator: 0 }]","has_unsafe":true,"name":"rfind_str"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"rfind_bytes\"), disambiguator: 0 }]","has_unsafe":true,"name":"rfind_bytes"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<StrSearcher<'a, 'b> as core::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<StrSearcher<'a, 'b> as core::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<StrSearcherImpl as core::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<StrSearcherImpl as core::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 8 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<EmptyNeedle as core::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<EmptyNeedle as core::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"StrSearcher::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 10 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<TwoWaySearcher as core::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 9 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<TwoWaySearcher as core::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"TwoWaySearcher::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"byteset_create\"), disambiguator: 0 }]","has_unsafe":false,"name":"TwoWaySearcher::byteset_create"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"byteset_contains\"), disambiguator: 0 }]","has_unsafe":false,"name":"TwoWaySearcher::byteset_contains"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"next\"), disambiguator: 0 }]","has_unsafe":false,"name":"TwoWaySearcher::next"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"next_back\"), disambiguator: 0 }]","has_unsafe":false,"name":"TwoWaySearcher::next_back"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"maximal_suffix\"), disambiguator: 0 }]","has_unsafe":false,"name":"TwoWaySearcher::maximal_suffix"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"reverse_maximal_suffix\"), disambiguator: 0 }]","has_unsafe":false,"name":"TwoWaySearcher::reverse_maximal_suffix"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"use_early_reject\"), disambiguator: 0 }]","has_unsafe":false,"name":"<MatchOnly as TwoWayStrategy>::use_early_reject"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"rejecting\"), disambiguator: 0 }]","has_unsafe":false,"name":"<MatchOnly as TwoWayStrategy>::rejecting"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"matching\"), disambiguator: 0 }]","has_unsafe":false,"name":"<MatchOnly as TwoWayStrategy>::matching"}

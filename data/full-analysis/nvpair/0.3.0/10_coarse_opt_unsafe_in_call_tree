@@ -1,0 +1,27 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"insert\"), disambiguator: 0 }]","has_unsafe":true,"name":"<bool as NvEncode>::insert"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"insert\"), disambiguator: 0 }]","has_unsafe":true,"name":"<u32 as NvEncode>::insert"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"insert\"), disambiguator: 0 }]","has_unsafe":true,"name":"<std::ffi::CStr as NvEncode>::insert"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"insert\"), disambiguator: 0 }]","has_unsafe":true,"name":"<NvListRef as NvEncode>::insert"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"as_raw\"), disambiguator: 0 }]","has_unsafe":false,"name":"NvEncoding::as_raw"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 11 }, DisambiguatedDefPathData { data: ValueNs(\"as_ptr\"), disambiguator: 0 }]","has_unsafe":false,"name":"<NvList as foreign_types::ForeignType>::as_ptr"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 12 }, DisambiguatedDefPathData { data: ValueNs(\"drop\"), disambiguator: 0 }]","has_unsafe":true,"name":"<NvList as std::ops::Drop>::drop"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 13 }, DisambiguatedDefPathData { data: ValueNs(\"deref\"), disambiguator: 0 }]","has_unsafe":true,"name":"<NvList as std::ops::Deref>::deref"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 14 }, DisambiguatedDefPathData { data: ValueNs(\"deref_mut\"), disambiguator: 0 }]","has_unsafe":true,"name":"<NvList as std::ops::DerefMut>::deref_mut"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 15 }, DisambiguatedDefPathData { data: ValueNs(\"borrow\"), disambiguator: 0 }]","has_unsafe":true,"name":"<NvList as std::borrow::Borrow<NvListRef>>::borrow"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 16 }, DisambiguatedDefPathData { data: ValueNs(\"as_ref\"), disambiguator: 0 }]","has_unsafe":true,"name":"<NvList as std::convert::AsRef<NvListRef>>::as_ref"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":true,"name":"NvList::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"new_unqiue_names\"), disambiguator: 0 }]","has_unsafe":true,"name":"NvList::new_unqiue_names"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"try_clone\"), disambiguator: 0 }]","has_unsafe":true,"name":"NvList::try_clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":true,"name":"<NvList as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"as_mut_ptr\"), disambiguator: 0 }]","has_unsafe":true,"name":"NvListRef::as_mut_ptr"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"as_ptr\"), disambiguator: 0 }]","has_unsafe":true,"name":"NvListRef::as_ptr"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"encoded_size\"), disambiguator: 0 }]","has_unsafe":true,"name":"NvListRef::encoded_size"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"is_empty\"), disambiguator: 0 }]","has_unsafe":true,"name":"NvListRef::is_empty"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"add_boolean\"), disambiguator: 0 }]","has_unsafe":true,"name":"NvListRef::add_boolean"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"first\"), disambiguator: 0 }]","has_unsafe":true,"name":"NvListRef::first"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"iter\"), disambiguator: 0 }]","has_unsafe":false,"name":"NvListRef::iter"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"exists\"), disambiguator: 0 }]","has_unsafe":true,"name":"NvListRef::exists"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"lookup\"), disambiguator: 0 }]","has_unsafe":true,"name":"NvListRef::lookup"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"try_to_owned\"), disambiguator: 0 }]","has_unsafe":true,"name":"NvListRef::try_to_owned"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 8 }, DisambiguatedDefPathData { data: ValueNs(\"next\"), disambiguator: 0 }]","has_unsafe":true,"name":"<NvListIter<'a> as std::iter::Iterator>::next"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 10 }, DisambiguatedDefPathData { data: ValueNs(\"name\"), disambiguator: 0 }]","has_unsafe":true,"name":"NvPair::name"}

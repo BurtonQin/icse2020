@@ -1,0 +1,8 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"wait4\"), disambiguator: 0 }]","has_unsafe":true,"name":"wait4"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"cvt_r\"), disambiguator: 0 }]","has_unsafe":false,"name":"cvt_r"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"timeval_to_duration\"), disambiguator: 0 }]","has_unsafe":false,"name":"timeval_to_duration"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"bar\"), disambiguator: 0 }]","has_unsafe":false,"name":"bar"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"print_time_bars\"), disambiguator: 0 }]","has_unsafe":false,"name":"print_time_bars"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"run_cmd_time\"), disambiguator: 0 }]","has_unsafe":true,"name":"run_cmd_time"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"time_cmp\"), disambiguator: 0 }]","has_unsafe":true,"name":"time_cmp"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}

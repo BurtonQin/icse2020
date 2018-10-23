@@ -1,0 +1,7 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"double_exponential\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"integrate\"), disambiguator: 0 }]","has_unsafe":false,"name":"double_exponential::integrate"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"double_exponential\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"integrate_core\"), disambiguator: 0 }]","has_unsafe":false,"name":"double_exponential::integrate_core"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"clenshaw_curtis\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"integrate\"), disambiguator: 0 }]","has_unsafe":false,"name":"clenshaw_curtis::integrate"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"clenshaw_curtis\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"integrate_core\"), disambiguator: 0 }]","has_unsafe":false,"name":"clenshaw_curtis::integrate_core"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Output as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Output as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"scale\"), disambiguator: 0 }]","has_unsafe":false,"name":"Output::scale"}

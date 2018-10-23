@@ -1,0 +1,9 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"value_of_digit\"), disambiguator: 0 }]","has_unsafe":false,"name":"value_of_digit"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"decode\"), disambiguator: 0 }]","has_unsafe":false,"name":"decode"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"decode_full_bytes\"), disambiguator: 0 }]","has_unsafe":false,"name":"decode_full_bytes"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"decode_str\"), disambiguator: 0 }]","has_unsafe":false,"name":"decode_str"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"decode_full_bytes_str\"), disambiguator: 0 }]","has_unsafe":false,"name":"decode_full_bytes_str"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"encode\"), disambiguator: 0 }]","has_unsafe":true,"name":"encode"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"encode_full_bytes\"), disambiguator: 0 }]","has_unsafe":true,"name":"encode_full_bytes"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"validate\"), disambiguator: 0 }]","has_unsafe":false,"name":"validate"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"validate_str\"), disambiguator: 0 }]","has_unsafe":false,"name":"validate_str"}

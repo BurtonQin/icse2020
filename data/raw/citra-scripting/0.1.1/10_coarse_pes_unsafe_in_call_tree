@@ -1,0 +1,10 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<RequestType as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_id\"), disambiguator: 0 }]","has_unsafe":false,"name":"RequestType::get_id"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"generate_header\"), disambiguator: 0 }]","has_unsafe":true,"name":"generate_header"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"read_and_validate_header\"), disambiguator: 0 }]","has_unsafe":true,"name":"read_and_validate_header"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"translate_zmq_error\"), disambiguator: 0 }]","has_unsafe":false,"name":"translate_zmq_error"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"translate_io_error\"), disambiguator: 0 }]","has_unsafe":false,"name":"translate_io_error"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"make_request\"), disambiguator: 0 }]","has_unsafe":true,"name":"CitraConnection::make_request"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"read_memory\"), disambiguator: 0 }]","has_unsafe":true,"name":"CitraConnection::read_memory"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"write_memory\"), disambiguator: 0 }]","has_unsafe":true,"name":"CitraConnection::write_memory"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"connect\"), disambiguator: 0 }]","has_unsafe":true,"name":"CitraConnection::connect"}

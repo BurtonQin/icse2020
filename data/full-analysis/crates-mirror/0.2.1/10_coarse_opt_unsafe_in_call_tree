@@ -1,0 +1,29 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<GitConfig as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"decode\"), disambiguator: 0 }]","has_unsafe":false,"name":"<GitConfig as rustc_serialize::Decodable>::decode"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<GitConfig as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 10 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<OriginConfig as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 9 }, DisambiguatedDefPathData { data: ValueNs(\"decode\"), disambiguator: 0 }]","has_unsafe":false,"name":"<OriginConfig as rustc_serialize::Decodable>::decode"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 8 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<OriginConfig as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 13 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Config as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 12 }, DisambiguatedDefPathData { data: ValueNs(\"decode\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Config as rustc_serialize::Decodable>::decode"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 11 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Config as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"from_file\"), disambiguator: 0 }]","has_unsafe":false,"name":"Config::from_file"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 14 }, DisambiguatedDefPathData { data: ValueNs(\"decode\"), disambiguator: 0 }]","has_unsafe":false,"name":"<IndexFile as rustc_serialize::Decodable>::decode"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"from_line\"), disambiguator: 0 }]","has_unsafe":true,"name":"IndexFile::from_line"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 19 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Crate as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 18 }, DisambiguatedDefPathData { data: ValueNs(\"hash\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Crate as std::hash::Hash>::hash"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 17 }, DisambiguatedDefPathData { data: ValueNs(\"eq\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Crate as std::cmp::PartialEq>::eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 17 }, DisambiguatedDefPathData { data: ValueNs(\"ne\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Crate as std::cmp::PartialEq>::ne"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 16 }, DisambiguatedDefPathData { data: ValueNs(\"assert_receiver_is_total_eq\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Crate as std::cmp::Eq>::assert_receiver_is_total_eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 15 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Crate as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"get_index_file\"), disambiguator: 0 }]","has_unsafe":false,"name":"Crate::get_index_file"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 20 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Mirror as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"redirect\"), disambiguator: 0 }]","has_unsafe":true,"name":"Mirror::redirect"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"download\"), disambiguator: 0 }]","has_unsafe":false,"name":"Mirror::download"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"fetch\"), disambiguator: 0 }]","has_unsafe":true,"name":"Mirror::fetch"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"handle\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Mirror as iron::Handler>::handle"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"progress_monitor\"), disambiguator: 0 }]","has_unsafe":true,"name":"progress_monitor"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"credentials\"), disambiguator: 0 }]","has_unsafe":true,"name":"credentials"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"poll_index\"), disambiguator: 0 }]","has_unsafe":true,"name":"poll_index"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"try_merge\"), disambiguator: 0 }]","has_unsafe":true,"name":"try_merge"}

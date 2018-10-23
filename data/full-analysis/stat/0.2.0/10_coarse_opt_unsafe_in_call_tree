@@ -1,0 +1,58 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"types\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"f64\"), disambiguator: 0 }]","has_unsafe":false,"name":"<i8 as types::F64>::f64"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"types\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"f64\"), disambiguator: 0 }]","has_unsafe":false,"name":"<i16 as types::F64>::f64"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"types\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"f64\"), disambiguator: 0 }]","has_unsafe":false,"name":"<i32 as types::F64>::f64"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"types\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"f64\"), disambiguator: 0 }]","has_unsafe":false,"name":"<i64 as types::F64>::f64"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"types\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"f64\"), disambiguator: 0 }]","has_unsafe":false,"name":"<u8 as types::F64>::f64"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"types\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"f64\"), disambiguator: 0 }]","has_unsafe":false,"name":"<u16 as types::F64>::f64"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"types\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"f64\"), disambiguator: 0 }]","has_unsafe":false,"name":"<u32 as types::F64>::f64"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"types\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"f64\"), disambiguator: 0 }]","has_unsafe":false,"name":"<u64 as types::F64>::f64"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"types\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 8 }, DisambiguatedDefPathData { data: ValueNs(\"f64\"), disambiguator: 0 }]","has_unsafe":false,"name":"<isize as types::F64>::f64"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"types\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 9 }, DisambiguatedDefPathData { data: ValueNs(\"f64\"), disambiguator: 0 }]","has_unsafe":false,"name":"<usize as types::F64>::f64"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"types\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 10 }, DisambiguatedDefPathData { data: ValueNs(\"f64\"), disambiguator: 0 }]","has_unsafe":false,"name":"<f32 as types::F64>::f64"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"types\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 11 }, DisambiguatedDefPathData { data: ValueNs(\"f64\"), disambiguator: 0 }]","has_unsafe":false,"name":"<f64 as types::F64>::f64"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"mean\"), disambiguator: 0 }]","has_unsafe":false,"name":"mean"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"absdev\"), disambiguator: 0 }]","has_unsafe":false,"name":"absdev"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"absdev_mean\"), disambiguator: 0 }]","has_unsafe":false,"name":"absdev_mean"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"covariance_nonpub\"), disambiguator: 0 }]","has_unsafe":false,"name":"covariance_nonpub"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"covariance_mean\"), disambiguator: 0 }]","has_unsafe":false,"name":"covariance_mean"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"covariance\"), disambiguator: 0 }]","has_unsafe":false,"name":"covariance"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"correlation\"), disambiguator: 0 }]","has_unsafe":false,"name":"correlation"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"kurtosis\"), disambiguator: 0 }]","has_unsafe":false,"name":"kurtosis"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"kurtosis_main_sd\"), disambiguator: 0 }]","has_unsafe":false,"name":"kurtosis_main_sd"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"lag1autocorrelation\"), disambiguator: 0 }]","has_unsafe":false,"name":"lag1autocorrelation"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"lag1autocorrelation_mean\"), disambiguator: 0 }]","has_unsafe":false,"name":"lag1autocorrelation_mean"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"median_from_sorted_data\"), disambiguator: 0 }]","has_unsafe":false,"name":"median_from_sorted_data"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"max\"), disambiguator: 0 }]","has_unsafe":false,"name":"max"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"min\"), disambiguator: 0 }]","has_unsafe":false,"name":"min"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"minmax\"), disambiguator: 0 }]","has_unsafe":false,"name":"minmax"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"p_variance\"), disambiguator: 0 }]","has_unsafe":false,"name":"p_variance"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"quantile_from_sorted_data\"), disambiguator: 0 }]","has_unsafe":false,"name":"quantile_from_sorted_data"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"skew\"), disambiguator: 0 }]","has_unsafe":false,"name":"skew"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"skew_mean_sd\"), disambiguator: 0 }]","has_unsafe":false,"name":"skew_mean_sd"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"t_test\"), disambiguator: 0 }]","has_unsafe":false,"name":"t_test"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"_variance\"), disambiguator: 0 }]","has_unsafe":false,"name":"_variance"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"variance_with_fixed_mean\"), disambiguator: 0 }]","has_unsafe":false,"name":"variance_with_fixed_mean"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"sd_with_fixed_mean\"), disambiguator: 0 }]","has_unsafe":false,"name":"sd_with_fixed_mean"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"variance_mean\"), disambiguator: 0 }]","has_unsafe":false,"name":"variance_mean"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"sd_mean\"), disambiguator: 0 }]","has_unsafe":false,"name":"sd_mean"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"variance\"), disambiguator: 0 }]","has_unsafe":false,"name":"variance"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"sd\"), disambiguator: 0 }]","has_unsafe":false,"name":"sd"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"tss_mean\"), disambiguator: 0 }]","has_unsafe":false,"name":"tss_mean"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"tss\"), disambiguator: 0 }]","has_unsafe":false,"name":"tss"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"w_absdev\"), disambiguator: 0 }]","has_unsafe":false,"name":"w_absdev"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"w_absdev_mean\"), disambiguator: 0 }]","has_unsafe":false,"name":"w_absdev_mean"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"w_kurtosis\"), disambiguator: 0 }]","has_unsafe":false,"name":"w_kurtosis"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"w_kurtosis_mean_sd\"), disambiguator: 0 }]","has_unsafe":false,"name":"w_kurtosis_mean_sd"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"w_mean\"), disambiguator: 0 }]","has_unsafe":false,"name":"w_mean"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"w_skew\"), disambiguator: 0 }]","has_unsafe":false,"name":"w_skew"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"w_skew_mean_sd\"), disambiguator: 0 }]","has_unsafe":false,"name":"w_skew_mean_sd"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"wvariance\"), disambiguator: 0 }]","has_unsafe":false,"name":"wvariance"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"factor\"), disambiguator: 0 }]","has_unsafe":false,"name":"factor"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"w_variance_with_fixed_mean\"), disambiguator: 0 }]","has_unsafe":false,"name":"w_variance_with_fixed_mean"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"wsd_with_fixed_mean\"), disambiguator: 0 }]","has_unsafe":false,"name":"wsd_with_fixed_mean"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"w_variance_mean\"), disambiguator: 0 }]","has_unsafe":false,"name":"w_variance_mean"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"w_sd_mean\"), disambiguator: 0 }]","has_unsafe":false,"name":"w_sd_mean"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"w_sd\"), disambiguator: 0 }]","has_unsafe":false,"name":"w_sd"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"w_variance\"), disambiguator: 0 }]","has_unsafe":false,"name":"w_variance"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"w_tss_mean\"), disambiguator: 0 }]","has_unsafe":false,"name":"w_tss_mean"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"w_tss\"), disambiguator: 0 }]","has_unsafe":false,"name":"w_tss"}

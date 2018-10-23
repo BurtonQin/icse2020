@@ -1,0 +1,1 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"allocate\"), disambiguator: 0 }]","has_unsafe":false,"name":"<DefaultHeap as Allocator>::allocate"}

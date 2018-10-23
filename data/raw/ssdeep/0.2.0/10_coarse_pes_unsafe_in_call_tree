@@ -1,0 +1,7 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"compare\"), disambiguator: 0 }]","has_unsafe":true,"name":"compare"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"hash\"), disambiguator: 0 }]","has_unsafe":true,"name":"hash"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"hash_from_file\"), disambiguator: 0 }]","has_unsafe":true,"name":"hash_from_file"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"path_as_cstring\"), disambiguator: 0 }]","has_unsafe":true,"name":"path_as_cstring"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"bytes_to_cstring\"), disambiguator: 0 }]","has_unsafe":false,"name":"bytes_to_cstring"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"create_buffer_for_result\"), disambiguator: 0 }]","has_unsafe":false,"name":"create_buffer_for_result"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"result_buffer_to_string\"), disambiguator: 0 }]","has_unsafe":true,"name":"result_buffer_to_string"}

@@ -1,0 +1,6 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"print_usage\"), disambiguator: 0 }]","has_unsafe":false,"name":"print_usage"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_encoding\"), disambiguator: 0 }]","has_unsafe":false,"name":"get_encoding"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"convert_via_utf8\"), disambiguator: 0 }]","has_unsafe":true,"name":"convert_via_utf8"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"convert_via_utf16\"), disambiguator: 0 }]","has_unsafe":true,"name":"convert_via_utf16"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"convert\"), disambiguator: 0 }]","has_unsafe":true,"name":"convert"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}

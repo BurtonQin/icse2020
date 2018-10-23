@@ -1,0 +1,17 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"gamma\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lanczos_gamma\"), disambiguator: 0 }]","has_unsafe":false,"name":"gamma::lanczos_gamma"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"gamma\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"gamma\"), disambiguator: 0 }]","has_unsafe":false,"name":"gamma::gamma"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"gamma\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lanczos_cgamma\"), disambiguator: 0 }]","has_unsafe":true,"name":"gamma::lanczos_cgamma"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"gamma\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"cgamma\"), disambiguator: 0 }]","has_unsafe":true,"name":"gamma::cgamma"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"polynomials\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"legendre_rec\"), disambiguator: 0 }]","has_unsafe":false,"name":"polynomials::legendre_rec"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"polynomials\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"legendre\"), disambiguator: 0 }]","has_unsafe":false,"name":"polynomials::legendre"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"ei\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"agm\"), disambiguator: 0 }]","has_unsafe":false,"name":"ei::agm"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"ei\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"magm\"), disambiguator: 0 }]","has_unsafe":false,"name":"ei::magm"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"ei\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"cK\"), disambiguator: 0 }]","has_unsafe":false,"name":"ei::cK"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"ei\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"cE\"), disambiguator: 0 }]","has_unsafe":false,"name":"ei::cE"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"ei\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"RF\"), disambiguator: 0 }]","has_unsafe":false,"name":"ei::RF"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"ei\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"RC\"), disambiguator: 0 }]","has_unsafe":false,"name":"ei::RC"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"ei\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"RJ\"), disambiguator: 0 }]","has_unsafe":false,"name":"ei::RJ"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"ei\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"RD\"), disambiguator: 0 }]","has_unsafe":false,"name":"ei::RD"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"ei\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"eiF\"), disambiguator: 0 }]","has_unsafe":false,"name":"ei::eiF"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"ei\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"eiE\"), disambiguator: 0 }]","has_unsafe":false,"name":"ei::eiE"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"ei\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"eiPi\"), disambiguator: 0 }]","has_unsafe":false,"name":"ei::eiPi"}

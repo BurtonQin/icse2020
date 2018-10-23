@@ -1,0 +1,10 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"id\"), disambiguator: 0 }]","has_unsafe":true,"name":"id"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"from_rotation_and_translation\"), disambiguator: 0 }]","has_unsafe":true,"name":"from_rotation_and_translation"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"add\"), disambiguator: 0 }]","has_unsafe":true,"name":"add"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"mul\"), disambiguator: 0 }]","has_unsafe":true,"name":"mul"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"scale\"), disambiguator: 0 }]","has_unsafe":true,"name":"scale"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"conj\"), disambiguator: 0 }]","has_unsafe":true,"name":"conj"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"dot\"), disambiguator: 0 }]","has_unsafe":true,"name":"dot"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"normalize\"), disambiguator: 0 }]","has_unsafe":true,"name":"normalize"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_rotation\"), disambiguator: 0 }]","has_unsafe":false,"name":"get_rotation"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_translation\"), disambiguator: 0 }]","has_unsafe":true,"name":"get_translation"}

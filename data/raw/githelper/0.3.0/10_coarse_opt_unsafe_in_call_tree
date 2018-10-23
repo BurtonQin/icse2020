@@ -1,0 +1,9 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_current_commitid_for_repo\"), disambiguator: 0 }]","has_unsafe":false,"name":"get_current_commitid_for_repo"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"clone"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"add\"), disambiguator: 0 }]","has_unsafe":false,"name":"add"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"commit\"), disambiguator: 0 }]","has_unsafe":false,"name":"commit"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"status\"), disambiguator: 0 }]","has_unsafe":false,"name":"status"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"init\"), disambiguator: 0 }]","has_unsafe":false,"name":"init"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"pull\"), disambiguator: 0 }]","has_unsafe":false,"name":"pull"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"push\"), disambiguator: 0 }]","has_unsafe":false,"name":"push"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"sync\"), disambiguator: 0 }]","has_unsafe":false,"name":"sync"}

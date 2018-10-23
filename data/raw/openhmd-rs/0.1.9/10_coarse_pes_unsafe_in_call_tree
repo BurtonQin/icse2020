@@ -1,0 +1,25 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":true,"name":"Context::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"probe\"), disambiguator: 0 }]","has_unsafe":true,"name":"Context::probe"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"update\"), disambiguator: 0 }]","has_unsafe":true,"name":"Context::update"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"list_open_device\"), disambiguator: 0 }]","has_unsafe":true,"name":"Context::list_open_device"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_error\"), disambiguator: 0 }]","has_unsafe":true,"name":"Context::get_error"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"destroy\"), disambiguator: 0 }]","has_unsafe":true,"name":"Context::destroy"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"list_gets\"), disambiguator: 0 }]","has_unsafe":true,"name":"Context::list_gets"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"drop\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Context as std::ops::Drop>::drop"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"getf\"), disambiguator: 0 }]","has_unsafe":true,"name":"Device::getf"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"get_rotation_quat\"), disambiguator: 0 }]","has_unsafe":true,"name":"Device::get_rotation_quat"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"get_position_vec\"), disambiguator: 0 }]","has_unsafe":true,"name":"Device::get_position_vec"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"get_view_matrix_l\"), disambiguator: 0 }]","has_unsafe":true,"name":"Device::get_view_matrix_l"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"get_view_matrix_r\"), disambiguator: 0 }]","has_unsafe":true,"name":"Device::get_view_matrix_r"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"get_proj_matrix_l\"), disambiguator: 0 }]","has_unsafe":true,"name":"Device::get_proj_matrix_l"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"get_proj_matrix_r\"), disambiguator: 0 }]","has_unsafe":true,"name":"Device::get_proj_matrix_r"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"get_scr_size_w\"), disambiguator: 0 }]","has_unsafe":true,"name":"Device::get_scr_size_w"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"get_scr_size_h\"), disambiguator: 0 }]","has_unsafe":true,"name":"Device::get_scr_size_h"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"get_scr_res_w\"), disambiguator: 0 }]","has_unsafe":true,"name":"Device::get_scr_res_w"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"get_scr_res_h\"), disambiguator: 0 }]","has_unsafe":true,"name":"Device::get_scr_res_h"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"get_distortion_k\"), disambiguator: 0 }]","has_unsafe":true,"name":"Device::get_distortion_k"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"get_aberration_k\"), disambiguator: 0 }]","has_unsafe":true,"name":"Device::get_aberration_k"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"setf\"), disambiguator: 0 }]","has_unsafe":true,"name":"Device::setf"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"geti\"), disambiguator: 0 }]","has_unsafe":true,"name":"Device::geti"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"close\"), disambiguator: 0 }]","has_unsafe":true,"name":"Device::close"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"drop\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Device as std::ops::Drop>::drop"}

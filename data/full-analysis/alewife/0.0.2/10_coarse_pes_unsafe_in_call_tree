@@ -1,0 +1,6 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"fetch\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Subscriber<Topic, Content>>::fetch"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Publisher<Topic, Content> as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Publisher<Topic, Content>>::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"publish\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Publisher<Topic, Content>>::publish"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"add_subscriber\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Builder<Topic, Content>>::add_subscriber"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"build\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Builder<Topic, Content>>::build"}

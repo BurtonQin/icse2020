@@ -1,0 +1,12 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"init\"), disambiguator: 0 }]","has_unsafe":false,"name":"Status::init"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"thread_notif_end\"), disambiguator: 0 }]","has_unsafe":false,"name":"thread_notif_end"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"create_unix_stream\"), disambiguator: 0 }]","has_unsafe":false,"name":"create_unix_stream"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"thread_read_socket\"), disambiguator: 0 }]","has_unsafe":false,"name":"thread_read_socket"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"thread_send_print_elapsed_time\"), disambiguator: 0 }]","has_unsafe":false,"name":"thread_send_print_elapsed_time"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"print_elapsed_time\"), disambiguator: 0 }]","has_unsafe":true,"name":"print_elapsed_time"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"print_line\"), disambiguator: 0 }]","has_unsafe":true,"name":"print_line"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"print_line\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"write_line\"), disambiguator: 0 }]","has_unsafe":true,"name":"print_line::write_line"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_string_time\"), disambiguator: 0 }]","has_unsafe":false,"name":"get_string_time"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"split_str_len\"), disambiguator: 0 }]","has_unsafe":false,"name":"split_str_len"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"split_str_len\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"split_\"), disambiguator: 0 }]","has_unsafe":false,"name":"split_str_len::split_"}

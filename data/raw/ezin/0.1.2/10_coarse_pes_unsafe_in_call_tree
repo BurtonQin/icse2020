@@ -1,0 +1,3 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_array\"), disambiguator: 0 }]","has_unsafe":false,"name":"get_array"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_number\"), disambiguator: 0 }]","has_unsafe":false,"name":"get_number"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_string\"), disambiguator: 0 }]","has_unsafe":false,"name":"get_string"}

@@ -1,0 +1,10 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"with_axiom\"), disambiguator: 0 }]","has_unsafe":false,"name":"LSystem::with_axiom"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"add_rule\"), disambiguator: 0 }]","has_unsafe":false,"name":"LSystem::add_rule"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"add_context_rule\"), disambiguator: 0 }]","has_unsafe":false,"name":"LSystem::add_context_rule"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"add_distribution\"), disambiguator: 0 }]","has_unsafe":false,"name":"LSystem::add_distribution"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"add_context_distribution\"), disambiguator: 0 }]","has_unsafe":false,"name":"LSystem::add_context_distribution"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"reset\"), disambiguator: 0 }]","has_unsafe":false,"name":"LSystem::reset"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"default\"), disambiguator: 0 }]","has_unsafe":true,"name":"LSystem::default"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_sorted_rules\"), disambiguator: 0 }]","has_unsafe":false,"name":"LSystem::get_sorted_rules"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_successor\"), disambiguator: 0 }]","has_unsafe":true,"name":"LSystem::get_successor"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"next\"), disambiguator: 0 }]","has_unsafe":true,"name":"<LSystem as std::iter::Iterator>::next"}

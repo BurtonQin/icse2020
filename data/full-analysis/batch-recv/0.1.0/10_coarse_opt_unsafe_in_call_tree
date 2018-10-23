@@ -1,0 +1,3 @@
+{"def_path":"[DisambiguatedDefPathData { data: Trait(\"BatchRecv\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"batch_recv\"), disambiguator: 0 }]","has_unsafe":false,"name":"BatchRecv::batch_recv"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"try_iter\"), disambiguator: 0 }]","has_unsafe":false,"name":"<std::sync::mpsc::Receiver<T> as TryIterRecv<'a>>::try_iter"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"recv\"), disambiguator: 0 }]","has_unsafe":false,"name":"<std::sync::mpsc::Receiver<T> as TryIterRecv<'a>>::recv"}

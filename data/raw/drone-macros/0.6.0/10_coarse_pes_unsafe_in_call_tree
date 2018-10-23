@@ -1,0 +1,17 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"bind\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"bind\"), disambiguator: 0 }]","has_unsafe":true,"name":"bind::bind"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"heap\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"heap\"), disambiguator: 0 }]","has_unsafe":true,"name":"heap::heap"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"heap\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"normalize_pools\"), disambiguator: 0 }]","has_unsafe":false,"name":"heap::normalize_pools"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"heap\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"parse_doc\"), disambiguator: 0 }]","has_unsafe":true,"name":"heap::parse_doc"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"heap\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"parse_attr\"), disambiguator: 0 }]","has_unsafe":true,"name":"heap::parse_attr"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"heap\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"parse_size\"), disambiguator: 0 }]","has_unsafe":false,"name":"heap::parse_size"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"heap\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"parse_pools\"), disambiguator: 0 }]","has_unsafe":false,"name":"heap::parse_pools"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"heap\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<heap::Pool as std::fmt::Display>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"heap\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"length\"), disambiguator: 0 }]","has_unsafe":false,"name":"heap::Pool::length"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"heap\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"as_usize_lit\"), disambiguator: 0 }]","has_unsafe":false,"name":"<u32 as heap::IntExt>::as_usize_lit"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"reg\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"reg\"), disambiguator: 0 }]","has_unsafe":true,"name":"reg::reg"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"thread_local\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"thread_local\"), disambiguator: 0 }]","has_unsafe":true,"name":"thread_local::thread_local"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"bind_imp\"), disambiguator: 0 }]","has_unsafe":true,"name":"bind_imp"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"heap_imp\"), disambiguator: 0 }]","has_unsafe":true,"name":"heap_imp"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"reg_imp\"), disambiguator: 0 }]","has_unsafe":true,"name":"reg_imp"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"thread_local_imp\"), disambiguator: 0 }]","has_unsafe":true,"name":"thread_local_imp"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","has_unsafe":true,"name":"registrar::_registrar"}

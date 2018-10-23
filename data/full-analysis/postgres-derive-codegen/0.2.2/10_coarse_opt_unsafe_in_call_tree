@@ -1,0 +1,8 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"expand\"), disambiguator: 0 }]","has_unsafe":false,"name":"expand"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"register\"), disambiguator: 0 }]","has_unsafe":false,"name":"register"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"register\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"strip_attributes\"), disambiguator: 0 }]","has_unsafe":false,"name":"register::strip_attributes"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"register\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"strip_attributes\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"fold_attribute\"), disambiguator: 0 }]","has_unsafe":false,"name":"<register::strip_attributes::StripAttributeFolder as syntax::fold::Folder>::fold_attribute"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"register\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"strip_attributes\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"fold_mac\"), disambiguator: 0 }]","has_unsafe":false,"name":"<register::strip_attributes::StripAttributeFolder as syntax::fold::Folder>::fold_mac"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"expand_tosql\"), disambiguator: 0 }]","has_unsafe":true,"name":"expand_tosql"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"expand_fromsql\"), disambiguator: 0 }]","has_unsafe":true,"name":"expand_fromsql"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"expand_inner\"), disambiguator: 0 }]","has_unsafe":true,"name":"expand_inner"}

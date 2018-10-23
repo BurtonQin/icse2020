@@ -1,0 +1,10 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"search\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"binary_search\"), disambiguator: 0 }]","has_unsafe":false,"name":"search::binary_search"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"sort\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"bubble_sort\"), disambiguator: 0 }]","has_unsafe":false,"name":"sort::bubble_sort"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"sort\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"insert_sort\"), disambiguator: 0 }]","has_unsafe":false,"name":"sort::insert_sort"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"sort\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"select_sort\"), disambiguator: 0 }]","has_unsafe":false,"name":"sort::select_sort"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"sort\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"should_sort\"), disambiguator: 0 }]","has_unsafe":false,"name":"sort::should_sort"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"sort\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"create_slice\"), disambiguator: 0 }]","has_unsafe":true,"name":"sort::create_slice"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"sort\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"merge_sort_smart\"), disambiguator: 0 }]","has_unsafe":true,"name":"sort::merge_sort_smart"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"sort\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"merge_sort\"), disambiguator: 0 }]","has_unsafe":true,"name":"sort::merge_sort"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"sort\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"merge_sort_with_buf\"), disambiguator: 0 }]","has_unsafe":true,"name":"sort::merge_sort_with_buf"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"sort\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"merge_sorted_halves\"), disambiguator: 0 }]","has_unsafe":true,"name":"sort::merge_sorted_halves"}

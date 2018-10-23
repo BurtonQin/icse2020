@@ -1,0 +1,3 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"try_push\"), disambiguator: 0 }]","has_unsafe":true,"name":"<std::vec::Vec<T> as FallibleVec<T>>::try_push"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"try_reserve\"), disambiguator: 0 }]","has_unsafe":true,"name":"<std::vec::Vec<T> as FallibleVec<T>>::try_reserve"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"try_extend_vec\"), disambiguator: 0 }]","has_unsafe":true,"name":"try_extend_vec"}

@@ -1,0 +1,5 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":true,"name":"SqliteConnectionManager::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new_with_flags\"), disambiguator: 0 }]","has_unsafe":true,"name":"SqliteConnectionManager::new_with_flags"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"connect\"), disambiguator: 0 }]","has_unsafe":true,"name":"<SqliteConnectionManager as r2d2::ManageConnection>::connect"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"is_valid\"), disambiguator: 0 }]","has_unsafe":true,"name":"<SqliteConnectionManager as r2d2::ManageConnection>::is_valid"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"has_broken\"), disambiguator: 0 }]","has_unsafe":false,"name":"<SqliteConnectionManager as r2d2::ManageConnection>::has_broken"}

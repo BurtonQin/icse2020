@@ -1,0 +1,9 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"column_derive\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"impl_to_column_names\"), disambiguator: 0 }]","has_unsafe":true,"name":"column_derive::impl_to_column_names"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"dao_derive\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"impl_from_dao\"), disambiguator: 0 }]","has_unsafe":true,"name":"dao_derive::impl_from_dao"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"dao_derive\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"impl_to_dao\"), disambiguator: 0 }]","has_unsafe":true,"name":"dao_derive::impl_to_dao"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"table_derive\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"impl_to_table_name\"), disambiguator: 0 }]","has_unsafe":true,"name":"table_derive::impl_to_table_name"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"from_dao\"), disambiguator: 0 }]","has_unsafe":true,"name":"from_dao"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"to_dao\"), disambiguator: 0 }]","has_unsafe":true,"name":"to_dao"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"to_table_name\"), disambiguator: 0 }]","has_unsafe":true,"name":"to_table_name"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"to_column_names\"), disambiguator: 0 }]","has_unsafe":true,"name":"to_column_names"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","has_unsafe":true,"name":"registrar::_registrar"}

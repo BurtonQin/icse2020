@@ -1,0 +1,6 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"parse\"), disambiguator: 0 }]","has_unsafe":true,"name":"File::parse"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_section\"), disambiguator: 0 }]","has_unsafe":true,"name":"File::get_section"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"is_little_endian\"), disambiguator: 0 }]","has_unsafe":false,"name":"File::is_little_endian"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"elf_get_section\"), disambiguator: 0 }]","has_unsafe":true,"name":"elf_get_section"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"macho_get_section\"), disambiguator: 0 }]","has_unsafe":true,"name":"macho_get_section"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"macho_translate_section_name\"), disambiguator: 0 }]","has_unsafe":false,"name":"macho_translate_section_name"}

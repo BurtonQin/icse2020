@@ -1,0 +1,15 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Hex<'a> as std::fmt::Display>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":true,"name":"Cursor::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"build\"), disambiguator: 0 }]","has_unsafe":false,"name":"Cursor::build"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"next\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Iter<'b, 'a> as std::iter::Iterator>::next"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"into_iter\"), disambiguator: 0 }]","has_unsafe":false,"name":"<&'a mut Cursor<'conn> as std::iter::IntoIterator>::into_iter"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"iter\"), disambiguator: 0 }]","has_unsafe":false,"name":"Cursor::iter"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"next_batch\"), disambiguator: 0 }]","has_unsafe":true,"name":"Cursor::next_batch"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"close\"), disambiguator: 0 }]","has_unsafe":true,"name":"Cursor::close"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"drop\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Cursor<'a> as std::ops::Drop>::drop"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Builder<'conn, 'builder, D>>::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"query_params\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Builder<'conn, 'builder, D>>::query_params"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"batch_size\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Builder<'conn, 'builder, D>>::batch_size"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"tag\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Builder<'conn, 'builder, D>>::tag"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"query\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Builder<'conn, 'builder, D>>::query"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"finalize\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Builder<'conn, 'builder, D>>::finalize"}

@@ -1,0 +1,26 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<New as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<New as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"assert_receiver_is_total_eq\"), disambiguator: 0 }]","has_unsafe":false,"name":"<New as std::cmp::Eq>::assert_receiver_is_total_eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"eq\"), disambiguator: 0 }]","has_unsafe":true,"name":"<New as std::cmp::PartialEq>::eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 8 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Error as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Error as std::fmt::Display>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"from\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Error as std::convert::From<std::string::String>>::from"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"from\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Error as std::convert::From<&'static str>>::from"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"from\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Error as std::convert::From<proc_macro::LexError>>::from"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"widget\"), disambiguator: 0 }]","has_unsafe":true,"name":"widget"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"expand_widget\"), disambiguator: 0 }]","has_unsafe":true,"name":"expand_widget"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_widget_attributes\"), disambiguator: 0 }]","has_unsafe":false,"name":"parse_widget_attributes"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_gui_attribute\"), disambiguator: 0 }]","has_unsafe":true,"name":"parse_gui_attribute"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_gui_attributes\"), disambiguator: 0 }]","has_unsafe":true,"name":"parse_gui_attributes"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_widget_attribute\"), disambiguator: 0 }]","has_unsafe":true,"name":"parse_widget_attribute"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"expand_widget_input\"), disambiguator: 0 }]","has_unsafe":true,"name":"expand_widget_input"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"check_struct_fields\"), disambiguator: 0 }]","has_unsafe":false,"name":"check_struct_fields"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"expand_widget_traits\"), disambiguator: 0 }]","has_unsafe":true,"name":"expand_widget_traits"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"expand_new_impl\"), disambiguator: 0 }]","has_unsafe":true,"name":"expand_new_impl"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"expand_renderer_trait\"), disambiguator: 0 }]","has_unsafe":true,"name":"expand_renderer_trait"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"expand_object_trait\"), disambiguator: 0 }]","has_unsafe":true,"name":"expand_object_trait"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"expand_widget_trait\"), disambiguator: 0 }]","has_unsafe":true,"name":"expand_widget_trait"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"handleable\"), disambiguator: 0 }]","has_unsafe":true,"name":"handleable"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"expand_handleable\"), disambiguator: 0 }]","has_unsafe":true,"name":"expand_handleable"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"expand_handleable_input\"), disambiguator: 0 }]","has_unsafe":true,"name":"expand_handleable_input"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","has_unsafe":true,"name":"registrar::_registrar"}

@@ -1,0 +1,9 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"process_src\"), disambiguator: 0 }]","has_unsafe":false,"name":"Scanner::process_src"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"process_dir\"), disambiguator: 0 }]","has_unsafe":false,"name":"Scanner::process_dir"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"process_file\"), disambiguator: 0 }]","has_unsafe":false,"name":"Scanner::process_file"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"from_toml\"), disambiguator: 0 }]","has_unsafe":false,"name":"StructWriter::from_toml"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"write_ptr\"), disambiguator: 0 }]","has_unsafe":false,"name":"StructWriter::write_ptr"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"write_ptrwrite\"), disambiguator: 0 }]","has_unsafe":false,"name":"StructWriter::write_ptrwrite"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"write_step\"), disambiguator: 0 }]","has_unsafe":false,"name":"StructWriter::write_step"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"write_outer\"), disambiguator: 0 }]","has_unsafe":false,"name":"StructWriter::write_outer"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"write_struct\"), disambiguator: 0 }]","has_unsafe":false,"name":"StructWriter::write_struct"}

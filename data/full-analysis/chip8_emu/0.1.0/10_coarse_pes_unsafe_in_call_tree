@@ -1,0 +1,17 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"load_font_into_memory\"), disambiguator: 0 }]","has_unsafe":false,"name":"Memory::load_font_into_memory"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"load_rom_into_memory\"), disambiguator: 0 }]","has_unsafe":false,"name":"Memory::load_rom_into_memory"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"new_and_init\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Chip8<rand::XorShiftRng>>::new_and_init"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"new_and_init_with_rng\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Chip8<R>>::new_and_init_with_rng"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"load_rom\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Chip8<R>>::load_rom"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"read_next_opcode\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Chip8<R>>::read_next_opcode"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"execute_next_opcode\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Chip8<R>>::execute_next_opcode"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"update_timers\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Chip8<R>>::update_timers"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"get_screen_ref\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Chip8<R>>::get_screen_ref"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"set_key_state\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Chip8<R>>::set_key_state"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"should_play_sound\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Chip8<R>>::should_play_sound"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"opcode_address\"), disambiguator: 0 }]","has_unsafe":false,"name":"opcode_address"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"opcode_register_vx\"), disambiguator: 0 }]","has_unsafe":false,"name":"opcode_register_vx"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"opcode_register_vy\"), disambiguator: 0 }]","has_unsafe":false,"name":"opcode_register_vy"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"opcode_operand\"), disambiguator: 0 }]","has_unsafe":false,"name":"opcode_operand"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"opcode_second_byte\"), disambiguator: 0 }]","has_unsafe":false,"name":"opcode_second_byte"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"opcode_last_octet\"), disambiguator: 0 }]","has_unsafe":false,"name":"opcode_last_octet"}

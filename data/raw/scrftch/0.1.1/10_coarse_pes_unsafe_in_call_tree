@@ -1,0 +1,16 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"unix\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"info\"), disambiguator: 0 }]","has_unsafe":true,"name":"unix::info"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"unix\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_hostname\"), disambiguator: 0 }]","has_unsafe":false,"name":"unix::get_hostname"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"unix\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_username\"), disambiguator: 0 }]","has_unsafe":false,"name":"unix::get_username"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"unix\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_os_release\"), disambiguator: 0 }]","has_unsafe":true,"name":"unix::get_os_release"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"unix\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_uptime\"), disambiguator: 0 }]","has_unsafe":false,"name":"unix::get_uptime"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"unix\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_memory\"), disambiguator: 0 }]","has_unsafe":false,"name":"unix::get_memory"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"unix\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_shell\"), disambiguator: 0 }]","has_unsafe":false,"name":"unix::get_shell"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"unix\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_desktop\"), disambiguator: 0 }]","has_unsafe":false,"name":"unix::get_desktop"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"windows\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"info\"), disambiguator: 0 }]","has_unsafe":true,"name":"windows::info"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"windows\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_hostname\"), disambiguator: 0 }]","has_unsafe":false,"name":"windows::get_hostname"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"windows\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_username\"), disambiguator: 0 }]","has_unsafe":false,"name":"windows::get_username"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"windows\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_system_name\"), disambiguator: 0 }]","has_unsafe":true,"name":"windows::get_system_name"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get\"), disambiguator: 0 }]","has_unsafe":true,"name":"Logo::get"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_logo\"), disambiguator: 0 }]","has_unsafe":true,"name":"get_logo"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"print_output\"), disambiguator: 0 }]","has_unsafe":true,"name":"print_output"}

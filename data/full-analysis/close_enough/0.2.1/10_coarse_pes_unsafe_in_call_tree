@@ -1,0 +1,4 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"close_enough\"), disambiguator: 0 }]","has_unsafe":true,"name":"close_enough"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"same_char\"), disambiguator: 0 }]","has_unsafe":false,"name":"same_char"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"select_shortest\"), disambiguator: 0 }]","has_unsafe":true,"name":"select_shortest"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"skip_word\"), disambiguator: 0 }]","has_unsafe":false,"name":"skip_word"}

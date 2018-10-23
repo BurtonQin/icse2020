@@ -1,0 +1,6 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"sleep_5ms\"), disambiguator: 0 }]","has_unsafe":false,"name":"sleep_5ms"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":true,"name":"<PCA9685<T>>::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"set_pwm_freq\"), disambiguator: 0 }]","has_unsafe":true,"name":"<PCA9685<T>>::set_pwm_freq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"set_pwm\"), disambiguator: 0 }]","has_unsafe":true,"name":"<PCA9685<T>>::set_pwm"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"set_all_pwm\"), disambiguator: 0 }]","has_unsafe":true,"name":"<PCA9685<T>>::set_all_pwm"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"reset_all_servos\"), disambiguator: 0 }]","has_unsafe":true,"name":"<PCA9685<T>>::reset_all_servos"}

@@ -1,0 +1,12 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"TL_BUF\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"__init\"), disambiguator: 0 }]","has_unsafe":false,"name":"TL_BUF::__init"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"<LogBuilder<T>>::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"filter\"), disambiguator: 0 }]","has_unsafe":false,"name":"<LogBuilder<T>>::filter"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"parse\"), disambiguator: 0 }]","has_unsafe":false,"name":"<LogBuilder<T>>::parse"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"build\"), disambiguator: 0 }]","has_unsafe":false,"name":"<LogBuilder<T>>::build"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"<EnvLogger<T>>::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"filter\"), disambiguator: 0 }]","has_unsafe":false,"name":"<EnvLogger<T>>::filter"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"enabled\"), disambiguator: 0 }]","has_unsafe":false,"name":"<EnvLogger<T>>::enabled"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"log\"), disambiguator: 0 }]","has_unsafe":true,"name":"<EnvLogger<T> as slog::Drain>::log"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"new"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"init\"), disambiguator: 0 }]","has_unsafe":true,"name":"init"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_logging_spec\"), disambiguator: 0 }]","has_unsafe":false,"name":"parse_logging_spec"}

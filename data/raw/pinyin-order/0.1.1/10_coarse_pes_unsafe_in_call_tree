@@ -1,0 +1,11 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"eq\"), disambiguator: 0 }]","has_unsafe":true,"name":"<PinYin as std::cmp::PartialEq>::eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"ne\"), disambiguator: 0 }]","has_unsafe":true,"name":"<PinYin as std::cmp::PartialEq>::ne"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"assert_receiver_is_total_eq\"), disambiguator: 0 }]","has_unsafe":false,"name":"<PinYin as std::cmp::Eq>::assert_receiver_is_total_eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"partial_cmp\"), disambiguator: 0 }]","has_unsafe":true,"name":"<PinYin as std::cmp::PartialOrd>::partial_cmp"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"lt\"), disambiguator: 0 }]","has_unsafe":true,"name":"<PinYin as std::cmp::PartialOrd>::lt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"le\"), disambiguator: 0 }]","has_unsafe":true,"name":"<PinYin as std::cmp::PartialOrd>::le"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"gt\"), disambiguator: 0 }]","has_unsafe":true,"name":"<PinYin as std::cmp::PartialOrd>::gt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"ge\"), disambiguator: 0 }]","has_unsafe":true,"name":"<PinYin as std::cmp::PartialOrd>::ge"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<PinYin as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"cmp\"), disambiguator: 0 }]","has_unsafe":false,"name":"<PinYin as std::cmp::Ord>::cmp"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"as_pinyin\"), disambiguator: 0 }]","has_unsafe":false,"name":"as_pinyin"}

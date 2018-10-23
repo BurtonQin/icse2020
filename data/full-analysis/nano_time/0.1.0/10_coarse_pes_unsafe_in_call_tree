@@ -1,0 +1,2 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"nano_time\"), disambiguator: 0 }]","has_unsafe":true,"name":"nano_time"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"nano_time\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"os_precise_time_ns\"), disambiguator: 0 }]","has_unsafe":true,"name":"nano_time::os_precise_time_ns"}

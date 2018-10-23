@@ -1,0 +1,13 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"utils\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"op_f\"), disambiguator: 0 }]","has_unsafe":false,"name":"utils::op_f"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"utils\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"op_g\"), disambiguator: 0 }]","has_unsafe":false,"name":"utils::op_g"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"utils\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"op_h\"), disambiguator: 0 }]","has_unsafe":false,"name":"utils::op_h"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"utils\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"op_i\"), disambiguator: 0 }]","has_unsafe":false,"name":"utils::op_i"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"utils\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"compress\"), disambiguator: 0 }]","has_unsafe":true,"name":"utils::compress"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Md5 as core::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"default\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Md5 as core::default::Default>::default"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"finalize\"), disambiguator: 0 }]","has_unsafe":true,"name":"Md5::finalize"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"hash\"), disambiguator: 0 }]","has_unsafe":true,"name":"Md5::hash"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"consume\"), disambiguator: 0 }]","has_unsafe":true,"name":"Md5::consume"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"process\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Md5 as digest::Input>::process"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"fixed_result\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Md5 as digest::FixedOutput>::fixed_result"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Md5 as core::fmt::Debug>::fmt"}

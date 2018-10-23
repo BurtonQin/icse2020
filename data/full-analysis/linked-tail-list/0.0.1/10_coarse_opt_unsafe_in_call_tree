@@ -1,0 +1,35 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Own<T>>::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Link<T>>::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"new_to_node\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Link<T>>::new_to_node"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"opt_node_ref\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Link<T>>::opt_node_ref"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Node<T>>::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"<TailList<T>>::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"push\"), disambiguator: 0 }]","has_unsafe":true,"name":"<TailList<T>>::push"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"cursor\"), disambiguator: 0 }]","has_unsafe":true,"name":"<TailList<T>>::cursor"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Cursor<'node, T>>::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"next\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Cursor<'node, T>>::next"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"<ValRef<'node, T>>::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"insert_before\"), disambiguator: 0 }]","has_unsafe":true,"name":"<ValRef<'node, T>>::insert_before"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"insert_after\"), disambiguator: 0 }]","has_unsafe":true,"name":"<ValRef<'node, T>>::insert_after"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"remove\"), disambiguator: 0 }]","has_unsafe":true,"name":"<ValRef<'node, T>>::remove"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"tail\"), disambiguator: 0 }]","has_unsafe":true,"name":"<TailValRef<'node, 'tail, T>>::tail"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"into_tail\"), disambiguator: 0 }]","has_unsafe":true,"name":"<TailValRef<'node, 'tail, T>>::into_tail"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"into_passive\"), disambiguator: 0 }]","has_unsafe":false,"name":"<TailValRef<'node, 'tail, T>>::into_passive"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"insert_before\"), disambiguator: 0 }]","has_unsafe":true,"name":"<TailValRef<'node, 'tail, T>>::insert_before"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"insert_after\"), disambiguator: 0 }]","has_unsafe":true,"name":"<TailValRef<'node, 'tail, T>>::insert_after"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"remove\"), disambiguator: 0 }]","has_unsafe":true,"name":"<TailValRef<'node, 'tail, T>>::remove"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"insert_at\"), disambiguator: 0 }]","has_unsafe":true,"name":"insert_at"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"swap_places\"), disambiguator: 0 }]","has_unsafe":true,"name":"swap_places"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"unlink\"), disambiguator: 0 }]","has_unsafe":true,"name":"unlink"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"fixup_owning_link\"), disambiguator: 0 }]","has_unsafe":true,"name":"fixup_owning_link"}
+{"def_path":"[DisambiguatedDefPathData { data: Trait(\"OwnRef\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new_ref\"), disambiguator: 0 }]","has_unsafe":false,"name":"OwnRef::new_ref"}
+{"def_path":"[DisambiguatedDefPathData { data: Trait(\"OwnRef\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"borrow_inner\"), disambiguator: 0 }]","has_unsafe":true,"name":"OwnRef::borrow_inner"}
+{"def_path":"[DisambiguatedDefPathData { data: Trait(\"OwnRef\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"borrow_inner_mut\"), disambiguator: 0 }]","has_unsafe":true,"name":"OwnRef::borrow_inner_mut"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"get_mut_ptr\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Own<T> as OwnRef>::get_mut_ptr"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 8 }, DisambiguatedDefPathData { data: ValueNs(\"get_mut_ptr\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Ref<T> as OwnRef>::get_mut_ptr"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 9 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Ref<T> as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 10 }, DisambiguatedDefPathData { data: ValueNs(\"drop\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Cursor<'node, T> as std::ops::Drop>::drop"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 11 }, DisambiguatedDefPathData { data: ValueNs(\"deref\"), disambiguator: 0 }]","has_unsafe":true,"name":"<ValRef<'node, T> as std::ops::Deref>::deref"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 12 }, DisambiguatedDefPathData { data: ValueNs(\"deref_mut\"), disambiguator: 0 }]","has_unsafe":true,"name":"<ValRef<'node, T> as std::ops::DerefMut>::deref_mut"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 13 }, DisambiguatedDefPathData { data: ValueNs(\"deref\"), disambiguator: 0 }]","has_unsafe":true,"name":"<TailValRef<'node, 'tail, T> as std::ops::Deref>::deref"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 14 }, DisambiguatedDefPathData { data: ValueNs(\"deref_mut\"), disambiguator: 0 }]","has_unsafe":true,"name":"<TailValRef<'node, 'tail, T> as std::ops::DerefMut>::deref_mut"}

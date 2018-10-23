@@ -1,0 +1,2 @@
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"get_unchecked_mut\"), disambiguator: 0 }]","name":"get_unchecked_mut"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"get_unchecked\"), disambiguator: 0 }]","name":"get_unchecked"}

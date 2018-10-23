@@ -1,0 +1,16 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"attempt_alloc\"), disambiguator: 0 }]","has_unsafe":true,"name":"Chunk::attempt_alloc"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"Arena::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"with_capacity\"), disambiguator: 0 }]","has_unsafe":false,"name":"Arena::with_capacity"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"add_chunk\"), disambiguator: 0 }]","has_unsafe":false,"name":"Arena::add_chunk"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"allocator\"), disambiguator: 0 }]","has_unsafe":false,"name":"Arena::allocator"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"capacity\"), disambiguator: 0 }]","has_unsafe":false,"name":"Arena::capacity"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Arena as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Allocator<'a> as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"round_up\"), disambiguator: 0 }]","has_unsafe":false,"name":"round_up"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"alloc_raw\"), disambiguator: 0 }]","has_unsafe":true,"name":"Allocator::alloc_raw"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"alloc\"), disambiguator: 0 }]","has_unsafe":true,"name":"Allocator::alloc"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"alloc_default\"), disambiguator: 0 }]","has_unsafe":true,"name":"Allocator::alloc_default"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"alloc_slice_raw\"), disambiguator: 0 }]","has_unsafe":true,"name":"Allocator::alloc_slice_raw"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"alloc_slice\"), disambiguator: 0 }]","has_unsafe":true,"name":"Allocator::alloc_slice"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"alloc_slice_fn\"), disambiguator: 0 }]","has_unsafe":true,"name":"Allocator::alloc_slice_fn"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"alloc_slice_default\"), disambiguator: 0 }]","has_unsafe":true,"name":"Allocator::alloc_slice_default"}

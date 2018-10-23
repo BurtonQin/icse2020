@@ -1,0 +1,5 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"intermediate_filter\"), disambiguator: 0 }]","has_unsafe":false,"name":"intermediate_filter"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"filter_naive\"), disambiguator: 0 }]","has_unsafe":true,"name":"filter_naive"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"bin_freq\"), disambiguator: 0 }]","has_unsafe":false,"name":"bin_freq"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"dft\"), disambiguator: 0 }]","has_unsafe":true,"name":"dft"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"dft_power\"), disambiguator: 0 }]","has_unsafe":false,"name":"dft_power"}

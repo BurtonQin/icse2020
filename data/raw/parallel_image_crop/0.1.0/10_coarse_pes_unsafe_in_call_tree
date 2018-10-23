@@ -1,0 +1,13 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"lazy_load\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_image_format\"), disambiguator: 0 }]","has_unsafe":false,"name":"lazy_load::get_image_format"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"lazy_load\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"dimensions\"), disambiguator: 0 }]","has_unsafe":true,"name":"lazy_load::dimensions"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"lazy_load\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"vec_to_image\"), disambiguator: 0 }]","has_unsafe":true,"name":"lazy_load::vec_to_image"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"lazy_load\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lazy_crop_to_image\"), disambiguator: 0 }]","has_unsafe":true,"name":"lazy_load::lazy_crop_to_image"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"lazy_load\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lazy_crop_to_vec\"), disambiguator: 0 }]","has_unsafe":true,"name":"lazy_load::lazy_crop_to_vec"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Crop as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Array as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"from_vec\"), disambiguator: 0 }]","has_unsafe":false,"name":"Array::from_vec"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"into_vec\"), disambiguator: 0 }]","has_unsafe":true,"name":"Array::into_vec"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"scale_range\"), disambiguator: 0 }]","has_unsafe":false,"name":"scale_range"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"lazy_crop_and_resize\"), disambiguator: 0 }]","has_unsafe":true,"name":"lazy_crop_and_resize"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"crop_and_resize\"), disambiguator: 0 }]","has_unsafe":true,"name":"crop_and_resize"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parallel_crop_and_resize\"), disambiguator: 0 }]","has_unsafe":true,"name":"parallel_crop_and_resize"}

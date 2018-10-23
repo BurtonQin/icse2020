@@ -1,0 +1,43 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 9 }, DisambiguatedDefPathData { data: ValueNs(\"deref\"), disambiguator: 0 }]","has_unsafe":true,"name":"<BOLD as lazy_static::Deref>::deref"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 9 }, DisambiguatedDefPathData { data: ValueNs(\"deref\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"__static_ref_initialize\"), disambiguator: 0 }]","has_unsafe":false,"name":"<BOLD as lazy_static::Deref>::deref::__static_ref_initialize"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 10 }, DisambiguatedDefPathData { data: ValueNs(\"initialize\"), disambiguator: 0 }]","has_unsafe":true,"name":"<BOLD as lazy_static::LazyStatic>::initialize"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 11 }, DisambiguatedDefPathData { data: ValueNs(\"deref\"), disambiguator: 0 }]","has_unsafe":true,"name":"<UNDERLINE as lazy_static::Deref>::deref"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 11 }, DisambiguatedDefPathData { data: ValueNs(\"deref\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"__static_ref_initialize\"), disambiguator: 0 }]","has_unsafe":false,"name":"<UNDERLINE as lazy_static::Deref>::deref::__static_ref_initialize"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 12 }, DisambiguatedDefPathData { data: ValueNs(\"initialize\"), disambiguator: 0 }]","has_unsafe":true,"name":"<UNDERLINE as lazy_static::LazyStatic>::initialize"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 13 }, DisambiguatedDefPathData { data: ValueNs(\"deref\"), disambiguator: 0 }]","has_unsafe":true,"name":"<HEADING as lazy_static::Deref>::deref"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 13 }, DisambiguatedDefPathData { data: ValueNs(\"deref\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"__static_ref_initialize\"), disambiguator: 0 }]","has_unsafe":false,"name":"<HEADING as lazy_static::Deref>::deref::__static_ref_initialize"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 14 }, DisambiguatedDefPathData { data: ValueNs(\"initialize\"), disambiguator: 0 }]","has_unsafe":true,"name":"<HEADING as lazy_static::LazyStatic>::initialize"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"show_disk_status\"), disambiguator: 0 }]","has_unsafe":true,"name":"show_disk_status"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_disks\"), disambiguator: 0 }]","has_unsafe":true,"name":"parse_disks"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_partition_file\"), disambiguator: 0 }]","has_unsafe":false,"name":"parse_partition_file"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"mark_mounted_disks\"), disambiguator: 0 }]","has_unsafe":false,"name":"mark_mounted_disks"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_file_contents\"), disambiguator: 0 }]","has_unsafe":false,"name":"get_file_contents"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"replace_file_contents\"), disambiguator: 0 }]","has_unsafe":false,"name":"replace_file_contents"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_command_output\"), disambiguator: 0 }]","has_unsafe":true,"name":"get_command_output"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"read_one_line_from_stdin\"), disambiguator: 0 }]","has_unsafe":false,"name":"read_one_line_from_stdin"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"try_shutdown\"), disambiguator: 0 }]","has_unsafe":true,"name":"try_shutdown"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 15 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<DiskInformation as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"eq\"), disambiguator: 0 }]","has_unsafe":true,"name":"<DiskInformation as std::cmp::PartialEq>::eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 18 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<DiskState as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 17 }, DisambiguatedDefPathData { data: ValueNs(\"eq\"), disambiguator: 0 }]","has_unsafe":true,"name":"<DiskState as std::cmp::PartialEq>::eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 17 }, DisambiguatedDefPathData { data: ValueNs(\"ne\"), disambiguator: 0 }]","has_unsafe":true,"name":"<DiskState as std::cmp::PartialEq>::ne"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 16 }, DisambiguatedDefPathData { data: ValueNs(\"assert_receiver_is_total_eq\"), disambiguator: 0 }]","has_unsafe":false,"name":"<DiskState as std::cmp::Eq>::assert_receiver_is_total_eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<DiskState as std::fmt::Display>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 22 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<ByteUnit as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 21 }, DisambiguatedDefPathData { data: ValueNs(\"assert_receiver_is_total_eq\"), disambiguator: 0 }]","has_unsafe":false,"name":"<ByteUnit as std::cmp::Eq>::assert_receiver_is_total_eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 20 }, DisambiguatedDefPathData { data: ValueNs(\"cmp\"), disambiguator: 0 }]","has_unsafe":true,"name":"<ByteUnit as std::cmp::Ord>::cmp"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 19 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<ByteUnit as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"to_byte\"), disambiguator: 0 }]","has_unsafe":false,"name":"ByteUnit::to_byte"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"byte_per_second\"), disambiguator: 0 }]","has_unsafe":false,"name":"ByteUnit::byte_per_second"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"eq\"), disambiguator: 0 }]","has_unsafe":false,"name":"<ByteUnit as std::cmp::PartialEq>::eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"partial_cmp\"), disambiguator: 0 }]","has_unsafe":true,"name":"<ByteUnit as std::cmp::PartialOrd>::partial_cmp"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"add\"), disambiguator: 0 }]","has_unsafe":false,"name":"<ByteUnit as std::ops::Add>::add"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"add_assign\"), disambiguator: 0 }]","has_unsafe":false,"name":"<ByteUnit as std::ops::AddAssign>::add_assign"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"sub\"), disambiguator: 0 }]","has_unsafe":false,"name":"<ByteUnit as std::ops::Sub>::sub"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 8 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<ByteUnit as std::fmt::Display>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"print_help\"), disambiguator: 0 }]","has_unsafe":true,"name":"print_help"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"select_disk_to_wipe\"), disambiguator: 0 }]","has_unsafe":true,"name":"select_disk_to_wipe"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"update_jobs\"), disambiguator: 0 }]","has_unsafe":true,"name":"update_jobs"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"wipe_disk\"), disambiguator: 0 }]","has_unsafe":true,"name":"wipe_disk"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"try_max_brightness\"), disambiguator: 0 }]","has_unsafe":false,"name":"try_max_brightness"}

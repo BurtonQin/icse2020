@@ -1,0 +1,5 @@
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: Module(\"utils\"), disambiguator: 0 }, DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"gethostname\"), disambiguator: 0 }]","name":"gethostname"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"vec\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"set_len\"), disambiguator: 0 }]","name":"set_len"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"alloc\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"box_free\"), disambiguator: 0 }]","name":"box_free"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"alloc\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"box_free\"), disambiguator: 0 }]","name":"box_free"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: Module(\"unix\"), disambiguator: 0 }, DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"getpid\"), disambiguator: 0 }]","name":"getpid"}

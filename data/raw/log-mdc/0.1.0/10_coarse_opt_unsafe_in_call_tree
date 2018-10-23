@@ -1,0 +1,11 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"MDC\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"__init\"), disambiguator: 0 }]","has_unsafe":false,"name":"MDC::__init"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"insert\"), disambiguator: 0 }]","has_unsafe":false,"name":"insert"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"insert_scoped\"), disambiguator: 0 }]","has_unsafe":false,"name":"insert_scoped"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"extend\"), disambiguator: 0 }]","has_unsafe":false,"name":"extend"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"extend_scoped\"), disambiguator: 0 }]","has_unsafe":false,"name":"extend_scoped"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get\"), disambiguator: 0 }]","has_unsafe":false,"name":"get"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"remove\"), disambiguator: 0 }]","has_unsafe":false,"name":"remove"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"clear\"), disambiguator: 0 }]","has_unsafe":false,"name":"clear"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"iter\"), disambiguator: 0 }]","has_unsafe":false,"name":"iter"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"drop\"), disambiguator: 0 }]","has_unsafe":false,"name":"<InsertGuard as std::ops::Drop>::drop"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"drop\"), disambiguator: 0 }]","has_unsafe":false,"name":"<ExtendGuard as std::ops::Drop>::drop"}

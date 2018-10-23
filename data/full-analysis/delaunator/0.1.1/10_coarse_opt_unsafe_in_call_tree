@@ -1,0 +1,25 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Point as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"eq\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Point as std::cmp::PartialEq>::eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"ne\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Point as std::cmp::PartialEq>::ne"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Point as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"dist2\"), disambiguator: 0 }]","has_unsafe":false,"name":"Point::dist2"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"orient\"), disambiguator: 0 }]","has_unsafe":false,"name":"Point::orient"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"circumdelta\"), disambiguator: 0 }]","has_unsafe":false,"name":"Point::circumdelta"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"circumradius2\"), disambiguator: 0 }]","has_unsafe":false,"name":"Point::circumradius2"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"circumcenter\"), disambiguator: 0 }]","has_unsafe":false,"name":"Point::circumcenter"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"in_circle\"), disambiguator: 0 }]","has_unsafe":false,"name":"Point::in_circle"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"nearly_equals\"), disambiguator: 0 }]","has_unsafe":false,"name":"Point::nearly_equals"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"next_halfedge\"), disambiguator: 0 }]","has_unsafe":false,"name":"next_halfedge"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"prev_halfedge\"), disambiguator: 0 }]","has_unsafe":false,"name":"prev_halfedge"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"Triangulation::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"len\"), disambiguator: 0 }]","has_unsafe":false,"name":"Triangulation::len"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"add_triangle\"), disambiguator: 0 }]","has_unsafe":false,"name":"Triangulation::add_triangle"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"legalize\"), disambiguator: 0 }]","has_unsafe":false,"name":"Triangulation::legalize"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"Hull::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"hash_key\"), disambiguator: 0 }]","has_unsafe":false,"name":"Hull::hash_key"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"hash_edge\"), disambiguator: 0 }]","has_unsafe":false,"name":"Hull::hash_edge"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"find_visible_edge\"), disambiguator: 0 }]","has_unsafe":false,"name":"Hull::find_visible_edge"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"calc_bbox_center\"), disambiguator: 0 }]","has_unsafe":false,"name":"calc_bbox_center"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"find_closest_point\"), disambiguator: 0 }]","has_unsafe":false,"name":"find_closest_point"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"find_seed_triangle\"), disambiguator: 0 }]","has_unsafe":false,"name":"find_seed_triangle"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"triangulate\"), disambiguator: 0 }]","has_unsafe":false,"name":"triangulate"}

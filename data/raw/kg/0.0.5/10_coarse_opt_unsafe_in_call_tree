@@ -1,0 +1,11 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"cleanup\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"middleware\"), disambiguator: 0 }]","has_unsafe":false,"name":"cleanup::middleware"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"frontmatter\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"middleware\"), disambiguator: 0 }]","has_unsafe":false,"name":"frontmatter::middleware"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"frontmatter\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lexer\"), disambiguator: 0 }]","has_unsafe":false,"name":"frontmatter::lexer"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"frontmatter\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"serialize\"), disambiguator: 0 }]","has_unsafe":true,"name":"frontmatter::serialize"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"frontmatter\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"deserialize\"), disambiguator: 0 }]","has_unsafe":true,"name":"frontmatter::deserialize"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"layouts\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"middleware\"), disambiguator: 0 }]","has_unsafe":false,"name":"layouts::middleware"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"markdown\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"middleware\"), disambiguator: 0 }]","has_unsafe":false,"name":"markdown::middleware"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"util\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"ext_matches\"), disambiguator: 0 }]","has_unsafe":false,"name":"util::ext_matches"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"util\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"rename_ext\"), disambiguator: 0 }]","has_unsafe":false,"name":"util::rename_ext"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"util\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"path_includes\"), disambiguator: 0 }]","has_unsafe":false,"name":"util::path_includes"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}

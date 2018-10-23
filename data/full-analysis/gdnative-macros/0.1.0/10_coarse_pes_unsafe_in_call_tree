@@ -1,0 +1,3 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"godot_export\"), disambiguator: 0 }]","has_unsafe":true,"name":"godot_export"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"impl_godot_export\"), disambiguator: 0 }]","has_unsafe":true,"name":"impl_godot_export"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","has_unsafe":true,"name":"registrar::_registrar"}

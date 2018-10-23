@@ -1,0 +1,4 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"deref\"), disambiguator: 0 }]","has_unsafe":true,"name":"<EMAIL_REGEX as lazy_static::Deref>::deref"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"deref\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"__static_ref_initialize\"), disambiguator: 0 }]","has_unsafe":true,"name":"<EMAIL_REGEX as lazy_static::Deref>::deref::__static_ref_initialize"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"initialize\"), disambiguator: 0 }]","has_unsafe":true,"name":"<EMAIL_REGEX as lazy_static::LazyStatic>::initialize"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"validate_email\"), disambiguator: 0 }]","has_unsafe":true,"name":"validate_email"}

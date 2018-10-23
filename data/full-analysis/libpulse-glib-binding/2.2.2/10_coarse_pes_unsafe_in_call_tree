@@ -1,0 +1,4 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"inner\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Mainloop as pulse::mainloop::api::Mainloop>::inner"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"drop_actual\"), disambiguator: 0 }]","has_unsafe":true,"name":"drop_actual"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":true,"name":"Mainloop::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"get_api\"), disambiguator: 0 }]","has_unsafe":true,"name":"Mainloop::get_api"}

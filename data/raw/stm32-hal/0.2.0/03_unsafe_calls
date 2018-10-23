@@ -1,0 +1,2 @@
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"flash\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Trait(\"Flash\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lock\"), disambiguator: 0 }]","name":"lock"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"flash\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Trait(\"Flash\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"unlock\"), disambiguator: 0 }]","name":"unlock"}

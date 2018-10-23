@@ -1,0 +1,3 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"parse\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"parse\"), disambiguator: 0 }]","has_unsafe":true,"name":"parse::parse"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"vendor\"), disambiguator: 0 }]","has_unsafe":true,"name":"vendor"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"prefix\"), disambiguator: 0 }]","has_unsafe":false,"name":"prefix"}

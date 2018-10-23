@@ -1,0 +1,22 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"ext\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<ext::Error as core::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"ext\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"suicide\"), disambiguator: 0 }]","has_unsafe":true,"name":"ext::suicide"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"ext\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"balance\"), disambiguator: 0 }]","has_unsafe":true,"name":"ext::balance"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"ext\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"create\"), disambiguator: 0 }]","has_unsafe":true,"name":"ext::create"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"ext\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"call\"), disambiguator: 0 }]","has_unsafe":true,"name":"ext::call"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"ext\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"call_code\"), disambiguator: 0 }]","has_unsafe":true,"name":"ext::call_code"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"ext\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"static_call\"), disambiguator: 0 }]","has_unsafe":true,"name":"ext::static_call"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"ext\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"block_hash\"), disambiguator: 0 }]","has_unsafe":true,"name":"ext::block_hash"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"ext\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"coinbase\"), disambiguator: 0 }]","has_unsafe":true,"name":"ext::coinbase"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"ext\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"timestamp\"), disambiguator: 0 }]","has_unsafe":true,"name":"ext::timestamp"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"ext\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"block_number\"), disambiguator: 0 }]","has_unsafe":true,"name":"ext::block_number"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"ext\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"difficulty\"), disambiguator: 0 }]","has_unsafe":true,"name":"ext::difficulty"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"ext\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"gas_limit\"), disambiguator: 0 }]","has_unsafe":true,"name":"ext::gas_limit"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"ext\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"sender\"), disambiguator: 0 }]","has_unsafe":true,"name":"ext::sender"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"ext\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"origin\"), disambiguator: 0 }]","has_unsafe":true,"name":"ext::origin"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"ext\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"value\"), disambiguator: 0 }]","has_unsafe":true,"name":"ext::value"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"ext\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"address\"), disambiguator: 0 }]","has_unsafe":true,"name":"ext::address"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"ext\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"log\"), disambiguator: 0 }]","has_unsafe":true,"name":"ext::log"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"ext\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"input\"), disambiguator: 0 }]","has_unsafe":true,"name":"ext::input"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"ext\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"ret\"), disambiguator: 0 }]","has_unsafe":true,"name":"ext::ret"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"storage\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"read\"), disambiguator: 0 }]","has_unsafe":true,"name":"storage::read"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"storage\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"write\"), disambiguator: 0 }]","has_unsafe":true,"name":"storage::write"}

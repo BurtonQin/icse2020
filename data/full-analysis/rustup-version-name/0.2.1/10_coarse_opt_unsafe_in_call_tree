@@ -1,0 +1,7 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get\"), disambiguator: 0 }]","has_unsafe":false,"name":"OverridesDatabase::get"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"with_date\"), disambiguator: 0 }]","has_unsafe":false,"name":"with_date"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"clean_toolchain_name\"), disambiguator: 0 }]","has_unsafe":false,"name":"clean_toolchain_name"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"plain_overrides_file\"), disambiguator: 0 }]","has_unsafe":false,"name":"plain_overrides_file"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"settings_toml\"), disambiguator: 0 }]","has_unsafe":false,"name":"settings_toml"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"toolchain\"), disambiguator: 0 }]","has_unsafe":false,"name":"toolchain"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":false,"name":"main"}

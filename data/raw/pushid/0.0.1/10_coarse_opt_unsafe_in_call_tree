@@ -1,0 +1,7 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":true,"name":"PushId::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"gen_random_indices\"), disambiguator: 0 }]","has_unsafe":true,"name":"PushId::gen_random_indices"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"generate_random_indices\"), disambiguator: 0 }]","has_unsafe":true,"name":"PushId::generate_random_indices"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"gen_time_based_prefix\"), disambiguator: 0 }]","has_unsafe":false,"name":"PushId::gen_time_based_prefix"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"indices_to_characters\"), disambiguator: 0 }]","has_unsafe":false,"name":"PushId::indices_to_characters"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_now\"), disambiguator: 0 }]","has_unsafe":false,"name":"PushId::get_now"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"get_id\"), disambiguator: 0 }]","has_unsafe":true,"name":"<PushId as PushIdGen>::get_id"}

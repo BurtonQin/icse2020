@@ -1,0 +1,8 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"validate_some_assumptions\"), disambiguator: 0 }]","has_unsafe":false,"name":"validate_some_assumptions"}
+{"def_path":"[DisambiguatedDefPathData { data: Trait(\"SliceArrayExt\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"to_array\"), disambiguator: 0 }]","has_unsafe":true,"name":"SliceArrayExt::to_array"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"flat\"), disambiguator: 0 }]","has_unsafe":true,"name":"<[V] as SliceFlatExt<<V as IsSliceomorphic>::Element>>::flat"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"flat_mut\"), disambiguator: 0 }]","has_unsafe":true,"name":"<[V] as SliceFlatExt<<V as IsSliceomorphic>::Element>>::flat_mut"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"nest\"), disambiguator: 0 }]","has_unsafe":true,"name":"<[T] as SliceNestExt<T>>::nest"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"nest_mut\"), disambiguator: 0 }]","has_unsafe":true,"name":"<[T] as SliceNestExt<T>>::nest_mut"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"as_array\"), disambiguator: 0 }]","has_unsafe":true,"name":"<[T] as SliceArrayExt<T>>::as_array"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"as_mut_array\"), disambiguator: 0 }]","has_unsafe":true,"name":"<[T] as SliceArrayExt<T>>::as_mut_array"}

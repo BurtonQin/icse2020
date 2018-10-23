@@ -1,0 +1,6 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"rust\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"arrayify\"), disambiguator: 0 }]","has_unsafe":false,"name":"rust::arrayify"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"rust\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"factorial\"), disambiguator: 0 }]","has_unsafe":false,"name":"rust::factorial"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"rust\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"permutations\"), disambiguator: 0 }]","has_unsafe":false,"name":"rust::permutations"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"rust\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"combinatorial_count\"), disambiguator: 0 }]","has_unsafe":false,"name":"rust::combinatorial_count"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"permutations\"), disambiguator: 0 }]","has_unsafe":false,"name":"permutations"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"combinatorial_count\"), disambiguator: 0 }]","has_unsafe":false,"name":"combinatorial_count"}

@@ -1,0 +1,126 @@
+{"abi":"System","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"system\" fn(u32, i32, i32, i32, i32, i32, u32, u32, *const std::os::raw::c_void)"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"error\"), disambiguator: 0 }]","name":"error"}
+{"abi":"System","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"system\" fn() -> u32"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"error\"), disambiguator: 0 }]","name":"error"}
+{"abi":"System","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"system\" fn(u32, u32)"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"error\"), disambiguator: 0 }]","name":"error"}
+{"abi":"System","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"system\" fn(u32, u32)"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"error\"), disambiguator: 0 }]","name":"error"}
+{"abi":"System","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"system\" fn(u32)"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"error\"), disambiguator: 0 }]","name":"error"}
+{"abi":"System","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"system\" fn(u32, u32)"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"error\"), disambiguator: 0 }]","name":"error"}
+{"abi":"System","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"system\" fn(u32, u32)"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"error\"), disambiguator: 0 }]","name":"error"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"library\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Module(\"common\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"symbol\"), disambiguator: 0 }]","name":"symbol"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"library\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Module(\"common\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"symbol\"), disambiguator: 0 }]","name":"symbol"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"library\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Module(\"common\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"symbol\"), disambiguator: 0 }]","name":"symbol"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"library\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Module(\"common\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"symbol\"), disambiguator: 0 }]","name":"symbol"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"library\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Module(\"common\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"symbol\"), disambiguator: 0 }]","name":"symbol"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"library\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Module(\"common\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"symbol\"), disambiguator: 0 }]","name":"symbol"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"library\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Module(\"common\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"symbol\"), disambiguator: 0 }]","name":"symbol"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"library\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Module(\"common\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"symbol\"), disambiguator: 0 }]","name":"symbol"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"library\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Module(\"common\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"symbol\"), disambiguator: 0 }]","name":"symbol"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"library\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Module(\"common\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"symbol\"), disambiguator: 0 }]","name":"symbol"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"library\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Module(\"common\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"symbol\"), disambiguator: 0 }]","name":"symbol"}
+{"abi":"System","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"system\" fn(i32, f32, f32, f32, f32)"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"error\"), disambiguator: 0 }]","name":"error"}
+{"abi":"System","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"system\" fn(u32)"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"error\"), disambiguator: 0 }]","name":"error"}
+{"abi":"System","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"system\" fn(u32, u32)"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"error\"), disambiguator: 0 }]","name":"error"}
+{"abi":"System","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"system\" fn(i32, i32, i32, i32)"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"error\"), disambiguator: 0 }]","name":"error"}
+{"abi":"System","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"system\" fn(i32, i32, u8, *const f32)"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"error\"), disambiguator: 0 }]","name":"error"}
+{"abi":"System","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"system\" fn(u32, u32, u32, u32)"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"error\"), disambiguator: 0 }]","name":"error"}
+{"abi":"System","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"system\" fn(i32, *const u32)"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"error\"), disambiguator: 0 }]","name":"error"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"mem\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"uninitialized\"), disambiguator: 0 }]","name":"uninitialized"}
+{"abi":"System","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"system\" fn(i32, *mut u32)"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"error\"), disambiguator: 0 }]","name":"error"}
+{"abi":"System","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"system\" fn() -> u32"}
+{"abi":"System","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"system\" fn(i32, i32)"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"error\"), disambiguator: 0 }]","name":"error"}
+{"abi":"System","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"system\" fn(*mut std::os::raw::c_void) -> *mut std::os::raw::c_void"}
+{"abi":"System","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"system\" fn(*mut std::os::raw::c_void, *mut i32, *mut i32) -> u32"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"mem\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"uninitialized\"), disambiguator: 0 }]","name":"uninitialized"}
+{"abi":"System","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"system\" fn(*mut std::os::raw::c_void, *const i32, *mut *mut std::os::raw::c_void, i32, *mut i32) -> u32"}
+{"abi":"System","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"system\" fn(u32) -> u32"}
+{"abi":"System","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"system\" fn(*mut std::os::raw::c_void, *mut std::os::raw::c_void, *mut std::os::raw::c_void, *const i32) -> *mut std::os::raw::c_void"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"mem\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"uninitialized\"), disambiguator: 0 }]","name":"uninitialized"}
+{"abi":"System","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"system\" fn(*mut std::os::raw::c_void, *mut std::os::raw::c_void, i32, *mut i32) -> u32"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"program\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get\"), disambiguator: 0 }]","name":"get"}
+{"abi":"System","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"system\" fn(u32, *const i8) -> i32"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"error\"), disambiguator: 0 }]","name":"error"}
+{"abi":"System","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"system\" fn(u32)"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"error\"), disambiguator: 0 }]","name":"error"}
+{"abi":"System","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"system\" fn(u32, u32)"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"error\"), disambiguator: 0 }]","name":"error"}
+{"abi":"System","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"system\" fn(u32)"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"error\"), disambiguator: 0 }]","name":"error"}
+{"abi":"System","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"system\" fn(u32, i32, i32)"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"error\"), disambiguator: 0 }]","name":"error"}
+{"abi":"System","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"system\" fn(i32, f32)"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"error\"), disambiguator: 0 }]","name":"error"}
+{"abi":"System","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"system\" fn(*mut std::os::raw::c_void, *mut std::os::raw::c_void, *mut std::os::raw::c_void, *const i32) -> *mut std::os::raw::c_void"}
+{"abi":"System","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"system\" fn(*mut std::os::raw::c_void, *mut std::os::raw::c_void, *mut std::os::raw::c_void, *mut std::os::raw::c_void) -> u32"}
+{"abi":"System","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"system\" fn(*mut std::os::raw::c_void, i32) -> u32"}
+{"abi":"System","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"system\" fn(f32, f32, f32, f32)"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"error\"), disambiguator: 0 }]","name":"error"}
+{"abi":"System","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"system\" fn(*mut std::os::raw::c_void, *mut std::os::raw::c_void) -> u32"}
+{"abi":"System","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"system\" fn(u32, isize, *const std::os::raw::c_void, u32)"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"error\"), disambiguator: 0 }]","name":"error"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"mem\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"uninitialized\"), disambiguator: 0 }]","name":"uninitialized"}
+{"abi":"System","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"system\" fn(i32, *mut u32)"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"error\"), disambiguator: 0 }]","name":"error"}
+{"abi":"System","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"system\" fn(u32, u32)"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"error\"), disambiguator: 0 }]","name":"error"}
+{"abi":"System","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"system\" fn(u32, u32, i32)"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"error\"), disambiguator: 0 }]","name":"error"}
+{"abi":"System","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"system\" fn(u32, u32, i32)"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"error\"), disambiguator: 0 }]","name":"error"}
+{"abi":"System","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"system\" fn(u32) -> u32"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"error\"), disambiguator: 0 }]","name":"error"}
+{"abi":"System","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"system\" fn(u32, i32, *const *const i8, *const i32)"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"error\"), disambiguator: 0 }]","name":"error"}
+{"abi":"System","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"system\" fn(u32)"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"error\"), disambiguator: 0 }]","name":"error"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"program\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get\"), disambiguator: 0 }]","name":"get"}
+{"abi":"System","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"system\" fn(u32)"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"error\"), disambiguator: 0 }]","name":"error"}
+{"abi":"System","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"system\" fn(i32, f32, f32)"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"error\"), disambiguator: 0 }]","name":"error"}
+{"abi":"System","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"system\" fn(u32)"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"error\"), disambiguator: 0 }]","name":"error"}
+{"abi":"System","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"system\" fn(u32, i32, u32, u8, i32, *const std::os::raw::c_void)"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"error\"), disambiguator: 0 }]","name":"error"}
+{"abi":"System","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"system\" fn(i32, *const u32)"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"error\"), disambiguator: 0 }]","name":"error"}
+{"abi":"System","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"system\" fn(u32, i32, i32, i32, i32, i32, u32, u32, *const std::os::raw::c_void)"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"error\"), disambiguator: 0 }]","name":"error"}
+{"abi":"System","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"system\" fn(u32)"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"error\"), disambiguator: 0 }]","name":"error"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"mem\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"uninitialized\"), disambiguator: 0 }]","name":"uninitialized"}
+{"abi":"System","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"system\" fn(u32, u32, *mut i32)"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"error\"), disambiguator: 0 }]","name":"error"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"mem\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"uninitialized\"), disambiguator: 0 }]","name":"uninitialized"}
+{"abi":"System","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"system\" fn(u32, u32, *mut i32)"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"error\"), disambiguator: 0 }]","name":"error"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"mem\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"uninitialized\"), disambiguator: 0 }]","name":"uninitialized"}
+{"abi":"System","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"system\" fn(u32, i32, *mut i32, *mut i8)"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"error\"), disambiguator: 0 }]","name":"error"}
+{"abi":"System","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"system\" fn(i32, f32, f32, f32)"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"error\"), disambiguator: 0 }]","name":"error"}
+{"abi":"System","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"system\" fn(u32, u32, u32)"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"error\"), disambiguator: 0 }]","name":"error"}
+{"abi":"System","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"system\" fn(u32, i32, u32)"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"error\"), disambiguator: 0 }]","name":"error"}
+{"abi":"System","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"system\" fn(*const i8) -> *mut std::os::raw::c_void"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"mem\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"transmute_copy\"), disambiguator: 0 }]","name":"transmute_copy"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"program\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get\"), disambiguator: 0 }]","name":"get"}
+{"abi":"System","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"system\" fn(u32, *const i8) -> i32"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"error\"), disambiguator: 0 }]","name":"error"}
+{"abi":"System","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"system\" fn(u32)"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"error\"), disambiguator: 0 }]","name":"error"}

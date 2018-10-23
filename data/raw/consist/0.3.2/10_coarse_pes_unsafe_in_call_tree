@@ -1,0 +1,7 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"write\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Hasher64StdHashHasher<T> as std::hash::Hasher>::write"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"finish\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Hasher64StdHashHasher<T> as std::hash::Hasher>::finish"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"<HashRing<B>>::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"add_bucket\"), disambiguator: 0 }]","has_unsafe":true,"name":"<HashRing<B>>::add_bucket"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"get_bucket\"), disambiguator: 0 }]","has_unsafe":true,"name":"<HashRing<B>>::get_bucket"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"remove_bucket\"), disambiguator: 0 }]","has_unsafe":true,"name":"<HashRing<B>>::remove_bucket"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"get_hash_code\"), disambiguator: 0 }]","has_unsafe":true,"name":"<HashRing<B>>::get_hash_code"}

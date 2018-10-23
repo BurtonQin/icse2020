@@ -1,0 +1,2 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"to_bytes\"), disambiguator: 0 }]","has_unsafe":false,"name":"to_bytes"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"totp\"), disambiguator: 0 }]","has_unsafe":true,"name":"totp"}

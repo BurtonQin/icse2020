@@ -1,0 +1,7 @@
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 17 }, DisambiguatedDefPathData { data: ValueNs(\"blosc_cbuffer_sizes\"), disambiguator: 0 }]","name":"blosc_cbuffer_sizes"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"blosc_decompress_ctx\"), disambiguator: 0 }]","name":"blosc_decompress_ctx"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"vec\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"set_len\"), disambiguator: 0 }]","name":"set_len"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 15 }, DisambiguatedDefPathData { data: ValueNs(\"blosc_get_complib_info\"), disambiguator: 0 }]","name":"blosc_get_complib_info"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"decompress_bytes\"), disambiguator: 0 }]","name":"decompress_bytes"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"blosc_compress_ctx\"), disambiguator: 0 }]","name":"blosc_compress_ctx"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"vec\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"set_len\"), disambiguator: 0 }]","name":"set_len"}

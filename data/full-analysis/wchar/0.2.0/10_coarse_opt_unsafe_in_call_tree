@@ -1,0 +1,10 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"wch\"), disambiguator: 0 }]","has_unsafe":true,"name":"wch"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"wch_c\"), disambiguator: 0 }]","has_unsafe":true,"name":"wch_c"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"from_str\"), disambiguator: 0 }]","has_unsafe":false,"name":"WideString::from_str"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"from_str\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"encode_wide\"), disambiguator: 0 }]","has_unsafe":false,"name":"WideString::from_str::encode_wide"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"generate_code\"), disambiguator: 0 }]","has_unsafe":false,"name":"WideString::generate_code"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"from_str\"), disambiguator: 0 }]","has_unsafe":false,"name":"WideCString::from_str"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"from_str\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"encode_wide\"), disambiguator: 0 }]","has_unsafe":false,"name":"WideCString::from_str::encode_wide"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"generate_code\"), disambiguator: 0 }]","has_unsafe":false,"name":"WideCString::generate_code"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"generate_slice_code\"), disambiguator: 0 }]","has_unsafe":false,"name":"generate_slice_code"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","has_unsafe":true,"name":"registrar::_registrar"}

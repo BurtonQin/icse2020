@@ -1,0 +1,3 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"xor\"), disambiguator: 0 }]","has_unsafe":false,"name":"xor"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"pbkdf2_body\"), disambiguator: 0 }]","has_unsafe":true,"name":"pbkdf2_body"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"pbkdf2\"), disambiguator: 0 }]","has_unsafe":true,"name":"pbkdf2"}

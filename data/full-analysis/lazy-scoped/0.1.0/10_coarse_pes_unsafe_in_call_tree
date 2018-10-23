@@ -1,0 +1,6 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"as_ref\"), disambiguator: 0 }]","has_unsafe":false,"name":"<LazyStorage<T, F>>::as_ref"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"consume\"), disambiguator: 0 }]","has_unsafe":false,"name":"<LazyStorage<T, F>>::consume"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Lazy<T, F>>::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"consume\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Lazy<T, F>>::consume"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"consume_fn\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Lazy<T, F>>::consume_fn"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"deref\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Lazy<T, F> as std::ops::Deref>::deref"}

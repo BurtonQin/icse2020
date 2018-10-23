@@ -1,0 +1,28 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"output\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<output::OutputError as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"output\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<output::OutputError as std::fmt::Display>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"output\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"output\"), disambiguator: 0 }]","has_unsafe":false,"name":"output::output"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"status\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<status::StatusError as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"status\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<status::StatusError as std::fmt::Display>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"status\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"status\"), disambiguator: 0 }]","has_unsafe":false,"name":"status::status"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"signal_from_exit_status\"), disambiguator: 0 }]","has_unsafe":false,"name":"signal_from_exit_status"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"home\"), disambiguator: 0 }]","has_unsafe":false,"name":"home"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"empty\"), disambiguator: 0 }]","has_unsafe":false,"name":"empty"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"tmpdir\"), disambiguator: 0 }]","has_unsafe":true,"name":"tmpdir"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"glob\"), disambiguator: 0 }]","has_unsafe":true,"name":"glob"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"touch\"), disambiguator: 0 }]","has_unsafe":false,"name":"touch"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"mkdir\"), disambiguator: 0 }]","has_unsafe":false,"name":"mkdir"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"rmdir\"), disambiguator: 0 }]","has_unsafe":false,"name":"rmdir"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"rm\"), disambiguator: 0 }]","has_unsafe":false,"name":"rm"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"slurp\"), disambiguator: 0 }]","has_unsafe":false,"name":"slurp"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"read\"), disambiguator: 0 }]","has_unsafe":false,"name":"read"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"dump\"), disambiguator: 0 }]","has_unsafe":false,"name":"dump"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"cd\"), disambiguator: 0 }]","has_unsafe":false,"name":"cd"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"cwd\"), disambiguator: 0 }]","has_unsafe":false,"name":"cwd"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"can\"), disambiguator: 0 }]","has_unsafe":false,"name":"can"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"isfile\"), disambiguator: 0 }]","has_unsafe":false,"name":"isfile"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"isdir\"), disambiguator: 0 }]","has_unsafe":false,"name":"isdir"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"say\"), disambiguator: 0 }]","has_unsafe":false,"name":"say"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"out\"), disambiguator: 0 }]","has_unsafe":false,"name":"out"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"err\"), disambiguator: 0 }]","has_unsafe":false,"name":"err"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"warn\"), disambiguator: 0 }]","has_unsafe":false,"name":"warn"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"die\"), disambiguator: 0 }]","has_unsafe":false,"name":"die"}

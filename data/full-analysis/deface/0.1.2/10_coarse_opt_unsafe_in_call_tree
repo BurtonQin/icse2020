@@ -1,0 +1,13 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Error as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lex\"), disambiguator: 0 }]","has_unsafe":false,"name":"Lexer::lex"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"peek_char\"), disambiguator: 0 }]","has_unsafe":false,"name":"Lexer::peek_char"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"peek_line\"), disambiguator: 0 }]","has_unsafe":false,"name":"Lexer::peek_line"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"next_line\"), disambiguator: 0 }]","has_unsafe":false,"name":"Lexer::next_line"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"next_char\"), disambiguator: 0 }]","has_unsafe":false,"name":"Lexer::next_char"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"consume_while_char\"), disambiguator: 0 }]","has_unsafe":false,"name":"Lexer::consume_while_char"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"expect_char\"), disambiguator: 0 }]","has_unsafe":false,"name":"Lexer::expect_char"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"emit\"), disambiguator: 0 }]","has_unsafe":false,"name":"Lexer::emit"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"transform\"), disambiguator: 0 }]","has_unsafe":false,"name":"Lexer::transform"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"parse\"), disambiguator: 0 }]","has_unsafe":false,"name":"Lexer::parse"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"convert\"), disambiguator: 0 }]","has_unsafe":false,"name":"convert"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}

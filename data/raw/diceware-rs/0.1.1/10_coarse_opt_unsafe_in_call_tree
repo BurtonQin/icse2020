@@ -1,0 +1,4 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_words\"), disambiguator: 0 }]","has_unsafe":true,"name":"get_words"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"roll_dice\"), disambiguator: 0 }]","has_unsafe":true,"name":"roll_dice"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"load_diceware\"), disambiguator: 0 }]","has_unsafe":false,"name":"load_diceware"}

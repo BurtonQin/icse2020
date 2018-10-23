@@ -1,0 +1,16 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"image\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Module(\"jpeg\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"read\"), disambiguator: 0 }]","has_unsafe":true,"name":"image::jpeg::read"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"image\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Module(\"png\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"read\"), disambiguator: 0 }]","has_unsafe":true,"name":"image::png::read"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"image\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Module(\"png\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"write\"), disambiguator: 0 }]","has_unsafe":false,"name":"image::png::write"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"clap\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Opt as structopt::StructOpt>::clap"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"from_clap\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Opt as structopt::StructOpt>::from_clap"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"augment_clap\"), disambiguator: 0 }]","has_unsafe":false,"name":"Opt::augment_clap"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"from_subcommand\"), disambiguator: 0 }]","has_unsafe":false,"name":"Opt::from_subcommand"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"is_subcommand\"), disambiguator: 0 }]","has_unsafe":false,"name":"Opt::is_subcommand"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"compress_file\"), disambiguator: 0 }]","has_unsafe":true,"name":"compress_file"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"decompress_file\"), disambiguator: 0 }]","has_unsafe":true,"name":"decompress_file"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"from_str\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Profile as std::str::FromStr>::from_str"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"into\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Profile as std::convert::Into<squish::Algorithm>>::into"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"format_to_dxgiformat\"), disambiguator: 0 }]","has_unsafe":false,"name":"format_to_dxgiformat"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"dxgiformat_to_format\"), disambiguator: 0 }]","has_unsafe":false,"name":"dxgiformat_to_format"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"d3dformat_to_format\"), disambiguator: 0 }]","has_unsafe":false,"name":"d3dformat_to_format"}

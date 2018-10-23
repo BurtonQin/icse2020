@@ -1,0 +1,10 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"logger\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"debug\"), disambiguator: 0 }]","has_unsafe":true,"name":"logger::debug"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"crypto\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"keccak\"), disambiguator: 0 }]","has_unsafe":true,"name":"crypto::keccak"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"panic\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"panic_fmt\"), disambiguator: 0 }]","has_unsafe":true,"name":"panic::panic_fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"panic\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"eh_personality\"), disambiguator: 0 }]","has_unsafe":false,"name":"panic::eh_personality"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"panic\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"oom\"), disambiguator: 0 }]","has_unsafe":true,"name":"panic::oom"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"read_u32\"), disambiguator: 0 }]","has_unsafe":true,"name":"read_u32"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"write_u32\"), disambiguator: 0 }]","has_unsafe":true,"name":"write_u32"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"write_ptr\"), disambiguator: 0 }]","has_unsafe":true,"name":"write_ptr"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"read_u64\"), disambiguator: 0 }]","has_unsafe":true,"name":"read_u64"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"write_u64\"), disambiguator: 0 }]","has_unsafe":true,"name":"write_u64"}

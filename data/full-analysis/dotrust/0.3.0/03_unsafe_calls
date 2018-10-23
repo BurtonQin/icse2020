@@ -1,0 +1,8 @@
+{"abi":"C","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"C\" fn(*const std::os::raw::c_void, u32, *const i8, *const i8, *const i8, *const *const std::os::raw::c_void) -> i32"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get\"), disambiguator: 0 }]","name":"get"}
+{"abi":"C","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"C\" fn(*const i8, *const i8, i32, *const *const i8, *const *const i8, *const *const std::os::raw::c_void, *const u32) -> i32"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get\"), disambiguator: 0 }]","name":"get"}
+{"abi":"C","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"C\" fn(*const std::os::raw::c_void, u32) -> i32"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get\"), disambiguator: 0 }]","name":"get"}
+{"abi":"C","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"C\" fn(*const std::os::raw::c_void, u32, *const i32) -> i32"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get\"), disambiguator: 0 }]","name":"get"}

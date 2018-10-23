@@ -1,0 +1,6 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"unindent\"), disambiguator: 0 }]","has_unsafe":false,"name":"unindent"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"unindent_bytes\"), disambiguator: 0 }]","has_unsafe":false,"name":"unindent_bytes"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"count_spaces\"), disambiguator: 0 }]","has_unsafe":false,"name":"count_spaces"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lines\"), disambiguator: 0 }]","has_unsafe":false,"name":"<[u8] as BytesExt>::lines"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lines\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"is_newline\"), disambiguator: 0 }]","has_unsafe":false,"name":"<[u8] as BytesExt>::lines::is_newline"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"next\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Lines<'a> as std::iter::Iterator>::next"}

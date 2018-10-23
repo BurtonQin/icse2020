@@ -1,0 +1,9 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"RGBA::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"to_f32\"), disambiguator: 0 }]","has_unsafe":false,"name":"<RGBA as Color>::to_f32"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"to_u8\"), disambiguator: 0 }]","has_unsafe":false,"name":"<RGBA as Color>::to_u8"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"RGB::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"from_hex_str\"), disambiguator: 0 }]","has_unsafe":false,"name":"RGB::from_hex_str"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"convert_byte_slice\"), disambiguator: 0 }]","has_unsafe":false,"name":"RGB::convert_byte_slice"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"hex_byte_to_number\"), disambiguator: 0 }]","has_unsafe":false,"name":"RGB::hex_byte_to_number"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"to_f32\"), disambiguator: 0 }]","has_unsafe":false,"name":"<RGB as Color>::to_f32"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"to_u8\"), disambiguator: 0 }]","has_unsafe":false,"name":"<RGB as Color>::to_u8"}

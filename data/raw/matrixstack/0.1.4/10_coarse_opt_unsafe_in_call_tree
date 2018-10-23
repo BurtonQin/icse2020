@@ -1,0 +1,10 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"<MatrixStack<T>>::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"transform\"), disambiguator: 0 }]","has_unsafe":true,"name":"<MatrixStack<T>>::transform"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"rotate\"), disambiguator: 0 }]","has_unsafe":true,"name":"<MatrixStack<T>>::rotate"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"push\"), disambiguator: 0 }]","has_unsafe":false,"name":"<MatrixStack<T>>::push"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"pop\"), disambiguator: 0 }]","has_unsafe":false,"name":"<MatrixStack<T>>::pop"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"transform_vector\"), disambiguator: 0 }]","has_unsafe":true,"name":"<MatrixStack<T>>::transform_vector"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"transform_point\"), disambiguator: 0 }]","has_unsafe":true,"name":"<MatrixStack<T>>::transform_point"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"transform_point_no_translate\"), disambiguator: 0 }]","has_unsafe":true,"name":"<MatrixStack<T>>::transform_point_no_translate"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_matrix\"), disambiguator: 0 }]","has_unsafe":false,"name":"<MatrixStack<T>>::get_matrix"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"origin\"), disambiguator: 0 }]","has_unsafe":false,"name":"<MatrixStack<T>>::origin"}

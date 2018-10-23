@@ -1,0 +1,24 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"CORE\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"__init\"), disambiguator: 0 }]","has_unsafe":true,"name":"CORE::__init"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"HANDLE\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"__init\"), disambiguator: 0 }]","has_unsafe":false,"name":"HANDLE::__init"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Client<hyper::client::HttpConnector>>::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"create_connector\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Client<C>>::create_connector"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"with_core_and_connector\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Client<C>>::with_core_and_connector"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"connect\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Client<C>>::connect"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"delete\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Client<C>>::delete"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"get\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Client<C>>::get"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"head\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Client<C>>::head"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"options\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Client<C>>::options"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"patch\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Client<C>>::patch"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"post\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Client<C>>::post"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"put\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Client<C>>::put"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"trace\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Client<C>>::trace"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"as_hyper\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Client<C>>::as_hyper"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":true,"name":"<RequestBuilder<'a, C>>::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"header\"), disambiguator: 0 }]","has_unsafe":true,"name":"<RequestBuilder<'a, C>>::header"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"body\"), disambiguator: 0 }]","has_unsafe":true,"name":"<RequestBuilder<'a, C>>::body"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"send\"), disambiguator: 0 }]","has_unsafe":true,"name":"<RequestBuilder<'a, C>>::send"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"Response::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"version\"), disambiguator: 0 }]","has_unsafe":false,"name":"Response::version"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"headers\"), disambiguator: 0 }]","has_unsafe":false,"name":"Response::headers"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"status\"), disambiguator: 0 }]","has_unsafe":false,"name":"Response::status"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"read\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Response as std::io::Read>::read"}

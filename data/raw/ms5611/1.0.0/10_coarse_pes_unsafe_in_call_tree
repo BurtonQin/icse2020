@@ -1,0 +1,12 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_i2c_bus_path\"), disambiguator: 0 }]","has_unsafe":false,"name":"get_i2c_bus_path"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_delay\"), disambiguator: 0 }]","has_unsafe":false,"name":"Osr::get_delay"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"addr_modifier\"), disambiguator: 0 }]","has_unsafe":false,"name":"Osr::addr_modifier"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"addr\"), disambiguator: 0 }]","has_unsafe":false,"name":"Ms5611Reg::addr"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Ms5611Sample as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Prom as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":true,"name":"Ms5611::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"reset\"), disambiguator: 0 }]","has_unsafe":false,"name":"Ms5611::reset"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"read_prom\"), disambiguator: 0 }]","has_unsafe":true,"name":"Ms5611::read_prom"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"read_prom\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"crc_accumulate_byte\"), disambiguator: 0 }]","has_unsafe":false,"name":"Ms5611::read_prom::crc_accumulate_byte"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"read_prom\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"crc_accumulate_buf2\"), disambiguator: 0 }]","has_unsafe":false,"name":"Ms5611::read_prom::crc_accumulate_buf2"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"read_sample\"), disambiguator: 0 }]","has_unsafe":true,"name":"Ms5611::read_sample"}

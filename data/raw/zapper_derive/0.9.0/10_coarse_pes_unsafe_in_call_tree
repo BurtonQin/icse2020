@@ -1,0 +1,8 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"from\"), disambiguator: 0 }]","has_unsafe":false,"name":"Analysis::from"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"zapper_env_derive\"), disambiguator: 0 }]","has_unsafe":true,"name":"zapper_env_derive"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"impl_zapper_env\"), disambiguator: 0 }]","has_unsafe":true,"name":"impl_zapper_env"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"zapper_runner_derive\"), disambiguator: 0 }]","has_unsafe":true,"name":"zapper_runner_derive"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_num\"), disambiguator: 0 }]","has_unsafe":false,"name":"is_num"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_str_primitive\"), disambiguator: 0 }]","has_unsafe":false,"name":"is_str_primitive"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"impl_zapper_runner\"), disambiguator: 0 }]","has_unsafe":true,"name":"impl_zapper_runner"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","has_unsafe":true,"name":"registrar::_registrar"}

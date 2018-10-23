@@ -1,0 +1,39 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"extract_bits\"), disambiguator: 0 }]","has_unsafe":false,"name":"extract_bits"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Opcode as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"eq\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Opcode as std::cmp::PartialEq>::eq"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_op\"), disambiguator: 0 }]","has_unsafe":false,"name":"parse_op"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_a\"), disambiguator: 0 }]","has_unsafe":false,"name":"parse_a"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_b\"), disambiguator: 0 }]","has_unsafe":false,"name":"parse_b"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_c\"), disambiguator: 0 }]","has_unsafe":false,"name":"parse_c"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_value\"), disambiguator: 0 }]","has_unsafe":false,"name":"parse_value"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Instruction as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"Instruction::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Registers as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"Registers::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"get\"), disambiguator: 0 }]","has_unsafe":false,"name":"Registers::get"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"set\"), disambiguator: 0 }]","has_unsafe":false,"name":"Registers::set"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 8 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Memory as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"Memory::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"allocate\"), disambiguator: 0 }]","has_unsafe":false,"name":"Memory::allocate"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"abandon\"), disambiguator: 0 }]","has_unsafe":false,"name":"Memory::abandon"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"get\"), disambiguator: 0 }]","has_unsafe":false,"name":"Memory::get"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"get_instruction\"), disambiguator: 0 }]","has_unsafe":false,"name":"Memory::get_instruction"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"set\"), disambiguator: 0 }]","has_unsafe":false,"name":"Memory::set"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"load\"), disambiguator: 0 }]","has_unsafe":false,"name":"Memory::load"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"Machine::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"get_instruction\"), disambiguator: 0 }]","has_unsafe":false,"name":"Machine::get_instruction"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"mov\"), disambiguator: 0 }]","has_unsafe":false,"name":"Machine::mov"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"array_get\"), disambiguator: 0 }]","has_unsafe":false,"name":"Machine::array_get"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"array_set\"), disambiguator: 0 }]","has_unsafe":false,"name":"Machine::array_set"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"add\"), disambiguator: 0 }]","has_unsafe":false,"name":"Machine::add"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"mul\"), disambiguator: 0 }]","has_unsafe":false,"name":"Machine::mul"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"div\"), disambiguator: 0 }]","has_unsafe":false,"name":"Machine::div"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"nand\"), disambiguator: 0 }]","has_unsafe":false,"name":"Machine::nand"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"allocate\"), disambiguator: 0 }]","has_unsafe":false,"name":"Machine::allocate"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"abandon\"), disambiguator: 0 }]","has_unsafe":false,"name":"Machine::abandon"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"output\"), disambiguator: 0 }]","has_unsafe":false,"name":"Machine::output"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"input\"), disambiguator: 0 }]","has_unsafe":false,"name":"Machine::input"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"load\"), disambiguator: 0 }]","has_unsafe":false,"name":"Machine::load"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"ortho\"), disambiguator: 0 }]","has_unsafe":false,"name":"Machine::ortho"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"read_instructions\"), disambiguator: 0 }]","has_unsafe":true,"name":"read_instructions"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}

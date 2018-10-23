@@ -1,0 +1,17 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"share\"), disambiguator: 0 }]","has_unsafe":true,"name":"SharedUdpSocket::share"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"endpoint\"), disambiguator: 0 }]","has_unsafe":true,"name":"SharedUdpSocket::endpoint"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"try_endpoint\"), disambiguator: 0 }]","has_unsafe":true,"name":"SharedUdpSocket::try_endpoint"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"steal\"), disambiguator: 0 }]","has_unsafe":false,"name":"SharedUdpSocket::steal"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"local_addr\"), disambiguator: 0 }]","has_unsafe":true,"name":"SharedUdpSocket::local_addr"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"pump\"), disambiguator: 0 }]","has_unsafe":true,"name":"pump"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"endpoint_new\"), disambiguator: 0 }]","has_unsafe":true,"name":"endpoint_new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"remote_addr\"), disambiguator: 0 }]","has_unsafe":false,"name":"UdpEndpoint::remote_addr"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"steal\"), disambiguator: 0 }]","has_unsafe":false,"name":"UdpEndpoint::steal"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"local_addr\"), disambiguator: 0 }]","has_unsafe":true,"name":"UdpEndpoint::local_addr"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"local_addr\"), disambiguator: 0 }]","has_unsafe":true,"name":"SharedUdpSocketInner::local_addr"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"poll\"), disambiguator: 0 }]","has_unsafe":true,"name":"<IncomingEndpoints as futures::Stream>::poll"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"poll\"), disambiguator: 0 }]","has_unsafe":true,"name":"<UdpEndpoint as futures::Stream>::poll"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"start_send\"), disambiguator: 0 }]","has_unsafe":true,"name":"<UdpEndpoint as futures::Sink>::start_send"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"poll_complete\"), disambiguator: 0 }]","has_unsafe":false,"name":"<UdpEndpoint as futures::Sink>::poll_complete"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"drop\"), disambiguator: 0 }]","has_unsafe":false,"name":"<SharedUdpSocket as std::ops::Drop>::drop"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"drop\"), disambiguator: 0 }]","has_unsafe":false,"name":"<UdpEndpoint as std::ops::Drop>::drop"}

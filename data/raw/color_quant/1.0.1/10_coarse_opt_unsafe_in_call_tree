@@ -1,0 +1,14 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Quad<T> as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"NeuQuant::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"init\"), disambiguator: 0 }]","has_unsafe":false,"name":"NeuQuant::init"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"map_pixel\"), disambiguator: 0 }]","has_unsafe":false,"name":"NeuQuant::map_pixel"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"index_of\"), disambiguator: 0 }]","has_unsafe":false,"name":"NeuQuant::index_of"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"color_map_rgba\"), disambiguator: 0 }]","has_unsafe":false,"name":"NeuQuant::color_map_rgba"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"color_map_rgb\"), disambiguator: 0 }]","has_unsafe":false,"name":"NeuQuant::color_map_rgb"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"altersingle\"), disambiguator: 0 }]","has_unsafe":false,"name":"NeuQuant::altersingle"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"alterneigh\"), disambiguator: 0 }]","has_unsafe":false,"name":"NeuQuant::alterneigh"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"contest\"), disambiguator: 0 }]","has_unsafe":false,"name":"NeuQuant::contest"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"learn\"), disambiguator: 0 }]","has_unsafe":false,"name":"NeuQuant::learn"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"build_colormap\"), disambiguator: 0 }]","has_unsafe":false,"name":"NeuQuant::build_colormap"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"inxbuild\"), disambiguator: 0 }]","has_unsafe":false,"name":"NeuQuant::inxbuild"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"inxsearch\"), disambiguator: 0 }]","has_unsafe":false,"name":"NeuQuant::inxsearch"}

@@ -1,0 +1,13 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Roll as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Roll as std::fmt::Display>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"into_iter\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Roll as std::iter::IntoIterator>::into_iter"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"next\"), disambiguator: 0 }]","has_unsafe":true,"name":"<RollIterator as std::iter::Iterator>::next"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<DieRollTerm as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<DieRollTerm as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"parse\"), disambiguator: 0 }]","has_unsafe":false,"name":"DieRollTerm::parse"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"calculate\"), disambiguator: 0 }]","has_unsafe":false,"name":"DieRollTerm::calculate"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"evaluate\"), disambiguator: 0 }]","has_unsafe":false,"name":"DieRollTerm::evaluate"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<DieRollTerm as std::fmt::Display>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"roll_dice\"), disambiguator: 0 }]","has_unsafe":true,"name":"roll_dice"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_die_roll_terms\"), disambiguator: 0 }]","has_unsafe":true,"name":"parse_die_roll_terms"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"roll_range\"), disambiguator: 0 }]","has_unsafe":true,"name":"roll_range"}

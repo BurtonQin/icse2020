@@ -1,0 +1,11 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_error\"), disambiguator: 0 }]","has_unsafe":true,"name":"get_error"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":true,"name":"Sweep::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_version\"), disambiguator: 0 }]","has_unsafe":true,"name":"Sweep::get_version"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"is_abi_compatible\"), disambiguator: 0 }]","has_unsafe":true,"name":"Sweep::is_abi_compatible"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"set_motor_speed\"), disambiguator: 0 }]","has_unsafe":true,"name":"Sweep::set_motor_speed"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_motor_speed\"), disambiguator: 0 }]","has_unsafe":true,"name":"Sweep::get_motor_speed"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_sample_rate\"), disambiguator: 0 }]","has_unsafe":true,"name":"Sweep::get_sample_rate"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_motor_ready\"), disambiguator: 0 }]","has_unsafe":true,"name":"Sweep::get_motor_ready"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"start_scanning\"), disambiguator: 0 }]","has_unsafe":true,"name":"Sweep::start_scanning"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"stop_scanning\"), disambiguator: 0 }]","has_unsafe":true,"name":"Sweep::stop_scanning"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"scan\"), disambiguator: 0 }]","has_unsafe":true,"name":"Sweep::scan"}

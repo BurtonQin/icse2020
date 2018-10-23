@@ -1,0 +1,10 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<BloomFilter<H> as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"<BloomFilter<std::hash::SipHasher>>::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"new_with_params\"), disambiguator: 0 }]","has_unsafe":false,"name":"<BloomFilter<std::hash::SipHasher>>::new_with_params"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"new_with_hasher\"), disambiguator: 0 }]","has_unsafe":false,"name":"<BloomFilter<H>>::new_with_hasher"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"new_with_params_with_hasher\"), disambiguator: 0 }]","has_unsafe":false,"name":"<BloomFilter<H>>::new_with_params_with_hasher"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"add\"), disambiguator: 0 }]","has_unsafe":false,"name":"<BloomFilter<H>>::add"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"query\"), disambiguator: 0 }]","has_unsafe":false,"name":"<BloomFilter<H>>::query"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"bloom_hash\"), disambiguator: 0 }]","has_unsafe":false,"name":"<BloomFilter<H>>::bloom_hash"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"get_bits_set\"), disambiguator: 0 }]","has_unsafe":false,"name":"<BloomFilter<H>>::get_bits_set"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"clear\"), disambiguator: 0 }]","has_unsafe":false,"name":"<BloomFilter<H>>::clear"}

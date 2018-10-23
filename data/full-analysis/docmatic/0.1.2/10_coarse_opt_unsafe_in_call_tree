@@ -1,0 +1,6 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":true,"name":"Assert::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"library_path\"), disambiguator: 0 }]","has_unsafe":false,"name":"Assert::library_path"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"cfg\"), disambiguator: 0 }]","has_unsafe":false,"name":"Assert::cfg"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"test_file\"), disambiguator: 0 }]","has_unsafe":false,"name":"Assert::test_file"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"default\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Assert as std::default::Default>::default"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"assert_file\"), disambiguator: 0 }]","has_unsafe":true,"name":"assert_file"}

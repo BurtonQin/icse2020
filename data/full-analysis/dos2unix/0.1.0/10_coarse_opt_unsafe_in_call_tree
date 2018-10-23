@@ -1,0 +1,4 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"is_ascii\"), disambiguator: 0 }]","has_unsafe":false,"name":"Dos2Unix::is_ascii"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"is_dos_eol\"), disambiguator: 0 }]","has_unsafe":false,"name":"Dos2Unix::is_dos_eol"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"to_unix_line_endings\"), disambiguator: 0 }]","has_unsafe":false,"name":"Dos2Unix::to_unix_line_endings"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"convert\"), disambiguator: 0 }]","has_unsafe":false,"name":"Dos2Unix::convert"}

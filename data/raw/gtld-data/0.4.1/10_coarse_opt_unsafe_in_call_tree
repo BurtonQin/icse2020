@@ -1,0 +1,9 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"gtlds\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"all\"), disambiguator: 0 }]","has_unsafe":false,"name":"gtlds::all"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<GtldKind as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<GtldKind as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"eq\"), disambiguator: 0 }]","has_unsafe":true,"name":"<GtldKind as std::cmp::PartialEq>::eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Gtld<'a> as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Gtld<'a> as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"domain_exists\"), disambiguator: 0 }]","has_unsafe":false,"name":"domain_exists"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_by_kind\"), disambiguator: 0 }]","has_unsafe":false,"name":"get_by_kind"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_by_organization\"), disambiguator: 0 }]","has_unsafe":false,"name":"get_by_organization"}

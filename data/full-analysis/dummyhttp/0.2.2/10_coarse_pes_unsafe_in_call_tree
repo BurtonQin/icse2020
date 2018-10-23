@@ -1,0 +1,12 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<DummyhttpConfig as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<DummyhttpConfig as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_valid_port\"), disambiguator: 0 }]","has_unsafe":false,"name":"is_valid_port"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_valid_status_code\"), disambiguator: 0 }]","has_unsafe":false,"name":"is_valid_status_code"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_valid_interface\"), disambiguator: 0 }]","has_unsafe":false,"name":"is_valid_interface"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_valid_header\"), disambiguator: 0 }]","has_unsafe":true,"name":"is_valid_header"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_args\"), disambiguator: 0 }]","has_unsafe":true,"name":"parse_args"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"respond\"), disambiguator: 0 }]","has_unsafe":true,"name":"respond"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"configure_app\"), disambiguator: 0 }]","has_unsafe":true,"name":"configure_app"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"start\"), disambiguator: 0 }]","has_unsafe":true,"name":"<VerboseLogger as actix_web::middleware::Middleware<S>>::start"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"finish\"), disambiguator: 0 }]","has_unsafe":true,"name":"<VerboseLogger as actix_web::middleware::Middleware<S>>::finish"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}

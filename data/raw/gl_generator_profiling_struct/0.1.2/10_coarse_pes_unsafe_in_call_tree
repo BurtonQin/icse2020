@@ -1,0 +1,9 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"write\"), disambiguator: 0 }]","has_unsafe":true,"name":"<ProfilingStructGenerator as gl_generator::Generator>::write"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"write_helper\"), disambiguator: 0 }]","has_unsafe":true,"name":"write_helper"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"write_header\"), disambiguator: 0 }]","has_unsafe":true,"name":"write_header"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"write_type_aliases\"), disambiguator: 0 }]","has_unsafe":true,"name":"write_type_aliases"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"write_enums\"), disambiguator: 0 }]","has_unsafe":true,"name":"write_enums"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"write_fnptr_struct_def\"), disambiguator: 0 }]","has_unsafe":true,"name":"write_fnptr_struct_def"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"write_panicking_fns\"), disambiguator: 0 }]","has_unsafe":true,"name":"write_panicking_fns"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"write_struct\"), disambiguator: 0 }]","has_unsafe":true,"name":"write_struct"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"write_impl\"), disambiguator: 0 }]","has_unsafe":true,"name":"write_impl"}

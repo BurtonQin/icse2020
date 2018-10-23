@@ -1,0 +1,3 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<CORSMiddleware as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"new_middleware\"), disambiguator: 0 }]","has_unsafe":false,"name":"<CORSMiddleware as gotham::middleware::NewMiddleware>::new_middleware"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"call\"), disambiguator: 0 }]","has_unsafe":true,"name":"<CORSMiddleware as gotham::middleware::Middleware>::call"}

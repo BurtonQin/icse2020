@@ -1,0 +1,6 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"interrupt\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"interrupt\"), disambiguator: 0 }]","has_unsafe":true,"name":"interrupt::interrupt"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"vtable\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"vtable\"), disambiguator: 0 }]","has_unsafe":true,"name":"vtable::vtable"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"vtable\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"parse_thread\"), disambiguator: 0 }]","has_unsafe":false,"name":"vtable::parse_thread"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"interrupt\"), disambiguator: 0 }]","has_unsafe":true,"name":"interrupt"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"vtable\"), disambiguator: 0 }]","has_unsafe":true,"name":"vtable"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","has_unsafe":true,"name":"registrar::_registrar"}

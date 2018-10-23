@@ -1,0 +1,9 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lower_bound\"), disambiguator: 0 }]","has_unsafe":true,"name":"<[T] as Ext>::lower_bound"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lower_bound_by\"), disambiguator: 0 }]","has_unsafe":true,"name":"<[T] as Ext>::lower_bound_by"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lower_bound_by_key\"), disambiguator: 0 }]","has_unsafe":true,"name":"<[T] as Ext>::lower_bound_by_key"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"upper_bound\"), disambiguator: 0 }]","has_unsafe":true,"name":"<[T] as Ext>::upper_bound"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"upper_bound_by\"), disambiguator: 0 }]","has_unsafe":true,"name":"<[T] as Ext>::upper_bound_by"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"upper_bound_by_key\"), disambiguator: 0 }]","has_unsafe":true,"name":"<[T] as Ext>::upper_bound_by_key"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"equal_range\"), disambiguator: 0 }]","has_unsafe":true,"name":"<[T] as Ext>::equal_range"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"equal_range_by\"), disambiguator: 0 }]","has_unsafe":true,"name":"<[T] as Ext>::equal_range_by"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"equal_range_by_key\"), disambiguator: 0 }]","has_unsafe":true,"name":"<[T] as Ext>::equal_range_by_key"}

@@ -1,0 +1,10 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"linkbot_joint_event_callback\"), disambiguator: 0 }]","has_unsafe":true,"name":"linkbot_joint_event_callback"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"linkbot_button_event_callback\"), disambiguator: 0 }]","has_unsafe":true,"name":"linkbot_button_event_callback"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":true,"name":"Linkbot::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_joint_angles\"), disambiguator: 0 }]","has_unsafe":true,"name":"Linkbot::get_joint_angles"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"move_motors\"), disambiguator: 0 }]","has_unsafe":true,"name":"Linkbot::move_motors"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"move_motors_to\"), disambiguator: 0 }]","has_unsafe":true,"name":"Linkbot::move_motors_to"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"move_wait\"), disambiguator: 0 }]","has_unsafe":false,"name":"Linkbot::move_wait"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"set_button_handler\"), disambiguator: 0 }]","has_unsafe":true,"name":"Linkbot::set_button_handler"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"unset_button_handler\"), disambiguator: 0 }]","has_unsafe":true,"name":"Linkbot::unset_button_handler"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"set_buzzer_frequency\"), disambiguator: 0 }]","has_unsafe":true,"name":"Linkbot::set_buzzer_frequency"}

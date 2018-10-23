@@ -1,0 +1,9 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"is\"), disambiguator: 0 }]","has_unsafe":true,"name":"<(dyn Implementation<Meta, Msg> + 'static)>::is"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"downcast\"), disambiguator: 0 }]","has_unsafe":true,"name":"<(dyn Implementation<Meta, Msg> + 'static)>::downcast"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"downcast_ref\"), disambiguator: 0 }]","has_unsafe":true,"name":"<(dyn Implementation<Meta, Msg> + 'static)>::downcast_ref"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"downcast_mut\"), disambiguator: 0 }]","has_unsafe":true,"name":"<(dyn Implementation<Meta, Msg> + 'static)>::downcast_mut"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"receive\"), disambiguator: 0 }]","has_unsafe":true,"name":"<F as Implementation<Meta, Msg>>::receive"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"downcast_impl\"), disambiguator: 0 }]","has_unsafe":true,"name":"downcast_impl"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"c_interface\"), disambiguator: 0 }]","has_unsafe":false,"name":"<AnonymousObject as Interface>::c_interface"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"is_destructor\"), disambiguator: 0 }]","has_unsafe":false,"name":"<NoMessage as MessageGroup>::is_destructor"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"as_raw_c_in\"), disambiguator: 0 }]","has_unsafe":false,"name":"<NoMessage as MessageGroup>::as_raw_c_in"}

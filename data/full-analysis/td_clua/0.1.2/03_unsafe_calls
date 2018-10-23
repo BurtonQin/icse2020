@@ -1,0 +1,22 @@
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_rotate\"), disambiguator: 0 }]","name":"lua_rotate"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"lua_pop\"), disambiguator: 0 }]","name":"lua_pop"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_type\"), disambiguator: 0 }]","name":"lua_type"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_type\"), disambiguator: 0 }]","name":"lua_type"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_type\"), disambiguator: 0 }]","name":"lua_type"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"lua_pushcfunction\"), disambiguator: 0 }]","name":"lua_pushcfunction"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_setglobal\"), disambiguator: 0 }]","name":"lua_setglobal"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_yieldk\"), disambiguator: 0 }]","name":"lua_yieldk"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_rotate\"), disambiguator: 0 }]","name":"lua_rotate"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_rawgeti\"), disambiguator: 0 }]","name":"lua_rawgeti"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_type\"), disambiguator: 0 }]","name":"lua_type"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_type\"), disambiguator: 0 }]","name":"lua_type"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_pushcclosure\"), disambiguator: 0 }]","name":"lua_pushcclosure"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_settop\"), disambiguator: 0 }]","name":"lua_settop"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_callk\"), disambiguator: 0 }]","name":"lua_callk"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"luaL_loadbufferx\"), disambiguator: 0 }]","name":"luaL_loadbufferx"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_tolstring\"), disambiguator: 0 }]","name":"lua_tolstring"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_type\"), disambiguator: 0 }]","name":"lua_type"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_type\"), disambiguator: 0 }]","name":"lua_type"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_type\"), disambiguator: 0 }]","name":"lua_type"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_createtable\"), disambiguator: 0 }]","name":"lua_createtable"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lua_pcallk\"), disambiguator: 0 }]","name":"lua_pcallk"}

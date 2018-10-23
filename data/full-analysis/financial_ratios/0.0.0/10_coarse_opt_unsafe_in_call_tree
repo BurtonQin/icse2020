@@ -1,0 +1,13 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"current_ratio\"), disambiguator: 0 }]","has_unsafe":false,"name":"current_ratio"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"quick_ratio\"), disambiguator: 0 }]","has_unsafe":false,"name":"quick_ratio"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"cash_ratio\"), disambiguator: 0 }]","has_unsafe":false,"name":"cash_ratio"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"debt_ratio\"), disambiguator: 0 }]","has_unsafe":false,"name":"debt_ratio"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"times_interest_earned\"), disambiguator: 0 }]","has_unsafe":false,"name":"times_interest_earned"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"cash_coverage_ratio\"), disambiguator: 0 }]","has_unsafe":false,"name":"cash_coverage_ratio"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"inventory_turnover\"), disambiguator: 0 }]","has_unsafe":false,"name":"inventory_turnover"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"receivables_turnover\"), disambiguator: 0 }]","has_unsafe":false,"name":"receivables_turnover"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"total_asset_turnover\"), disambiguator: 0 }]","has_unsafe":false,"name":"total_asset_turnover"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"profit_margin\"), disambiguator: 0 }]","has_unsafe":false,"name":"profit_margin"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"return_on_assets\"), disambiguator: 0 }]","has_unsafe":false,"name":"return_on_assets"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"return_on_equity\"), disambiguator: 0 }]","has_unsafe":false,"name":"return_on_equity"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"earnings_per_share\"), disambiguator: 0 }]","has_unsafe":false,"name":"earnings_per_share"}

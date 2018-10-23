@@ -1,0 +1,5 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"init\"), disambiguator: 0 }]","has_unsafe":false,"name":"init"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_event\"), disambiguator: 0 }]","has_unsafe":false,"name":"parse_event"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"update\"), disambiguator: 0 }]","has_unsafe":false,"name":"update"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"render\"), disambiguator: 0 }]","has_unsafe":true,"name":"render"}

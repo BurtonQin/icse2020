@@ -1,0 +1,15 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"header\"), disambiguator: 0 }]","has_unsafe":false,"name":"header"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"build_command\"), disambiguator: 0 }]","has_unsafe":false,"name":"build_command"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"to_procout\"), disambiguator: 0 }]","has_unsafe":false,"name":"to_procout"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"to_procout\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"blah\"), disambiguator: 0 }]","has_unsafe":false,"name":"to_procout::blah"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"to_proc\"), disambiguator: 0 }]","has_unsafe":false,"name":"to_proc"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"to_proc\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"blah\"), disambiguator: 0 }]","has_unsafe":false,"name":"to_proc::blah"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"to_res\"), disambiguator: 0 }]","has_unsafe":false,"name":"to_res"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"to_res\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"blah\"), disambiguator: 0 }]","has_unsafe":false,"name":"to_res::blah"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"CommandExt::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"wd\"), disambiguator: 0 }]","has_unsafe":false,"name":"CommandExt::wd"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"header\"), disambiguator: 0 }]","has_unsafe":false,"name":"CommandExt::header"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"arg\"), disambiguator: 0 }]","has_unsafe":false,"name":"CommandExt::arg"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"args\"), disambiguator: 0 }]","has_unsafe":false,"name":"CommandExt::args"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"env\"), disambiguator: 0 }]","has_unsafe":false,"name":"CommandExt::env"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"exec\"), disambiguator: 0 }]","has_unsafe":false,"name":"CommandExt::exec"}

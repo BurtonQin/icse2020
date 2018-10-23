@@ -1,0 +1,7 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":true,"name":"<NTree<R, P>>::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"insert\"), disambiguator: 0 }]","has_unsafe":true,"name":"<NTree<R, P>>::insert"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"range_query\"), disambiguator: 0 }]","has_unsafe":true,"name":"<NTree<R, P>>::range_query"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"contains\"), disambiguator: 0 }]","has_unsafe":true,"name":"<NTree<R, P>>::contains"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"nearby\"), disambiguator: 0 }]","has_unsafe":true,"name":"<NTree<R, P>>::nearby"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"split_and_insert\"), disambiguator: 0 }]","has_unsafe":true,"name":"split_and_insert"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"next\"), disambiguator: 0 }]","has_unsafe":true,"name":"<RangeQuery<'t, 'q, R, P> as std::iter::Iterator>::next"}

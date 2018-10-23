@@ -1,0 +1,9 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"times\"), disambiguator: 0 }]","has_unsafe":false,"name":"<i8 as Times>::times"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"times\"), disambiguator: 0 }]","has_unsafe":false,"name":"<u8 as Times>::times"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"times\"), disambiguator: 0 }]","has_unsafe":false,"name":"<i16 as Times>::times"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"times\"), disambiguator: 0 }]","has_unsafe":false,"name":"<u16 as Times>::times"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"times\"), disambiguator: 0 }]","has_unsafe":false,"name":"<i32 as Times>::times"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"times\"), disambiguator: 0 }]","has_unsafe":false,"name":"<u32 as Times>::times"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"times\"), disambiguator: 0 }]","has_unsafe":false,"name":"<i64 as Times>::times"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"times\"), disambiguator: 0 }]","has_unsafe":false,"name":"<u64 as Times>::times"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 8 }, DisambiguatedDefPathData { data: ValueNs(\"times\"), disambiguator: 0 }]","has_unsafe":false,"name":"<usize as Times>::times"}

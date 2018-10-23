@@ -1,0 +1,6 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"format\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"level_token\"), disambiguator: 0 }]","has_unsafe":false,"name":"format::level_token"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"format\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"prefix_token\"), disambiguator: 0 }]","has_unsafe":false,"name":"format::prefix_token"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"format\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"format\"), disambiguator: 0 }]","has_unsafe":false,"name":"format::format"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"color\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"level_color\"), disambiguator: 0 }]","has_unsafe":false,"name":"color::level_color"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"builder\"), disambiguator: 0 }]","has_unsafe":false,"name":"builder"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"init\"), disambiguator: 0 }]","has_unsafe":true,"name":"init"}

@@ -1,0 +1,2 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"__LOG_SCOPES\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"__init\"), disambiguator: 0 }]","has_unsafe":false,"name":"__LOG_SCOPES::__init"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"drop\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Scope as std::ops::Drop>::drop"}

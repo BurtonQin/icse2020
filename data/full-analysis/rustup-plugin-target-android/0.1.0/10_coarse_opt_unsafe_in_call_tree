@@ -1,0 +1,13 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"into_option\"), disambiguator: 0 }]","has_unsafe":false,"name":"<std::option::Option<T> as IntoOption>::into_option"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"into_option\"), disambiguator: 0 }]","has_unsafe":false,"name":"<std::result::Result<T, E> as IntoOption>::into_option"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"into_option\"), disambiguator: 0 }]","has_unsafe":false,"name":"<bool as IntoOption>::into_option"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"expect\"), disambiguator: 0 }]","has_unsafe":false,"name":"expect"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"info\"), disambiguator: 0 }]","has_unsafe":false,"name":"info"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_directory\"), disambiguator: 0 }]","has_unsafe":false,"name":"is_directory"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_file\"), disambiguator: 0 }]","has_unsafe":false,"name":"is_file"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"locate_python\"), disambiguator: 0 }]","has_unsafe":false,"name":"locate_python"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"target_triple\"), disambiguator: 0 }]","has_unsafe":false,"name":"TargetDesc::target_triple"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"dir_name\"), disambiguator: 0 }]","has_unsafe":false,"name":"TargetDesc::dir_name"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"simple_arch\"), disambiguator: 0 }]","has_unsafe":false,"name":"TargetDesc::simple_arch"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_target_desc\"), disambiguator: 0 }]","has_unsafe":false,"name":"parse_target_desc"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":false,"name":"main"}

@@ -1,0 +1,2 @@
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"ptr\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"read_volatile\"), disambiguator: 0 }]","name":"read_volatile"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"ptr\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"write_volatile\"), disambiguator: 0 }]","name":"write_volatile"}

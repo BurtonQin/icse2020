@@ -1,0 +1,6 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"run\"), disambiguator: 0 }]","has_unsafe":false,"name":"run"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"print_usage\"), disambiguator: 0 }]","has_unsafe":false,"name":"print_usage"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"visit\"), disambiguator: 0 }]","has_unsafe":false,"name":"visit"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"print_result\"), disambiguator: 0 }]","has_unsafe":false,"name":"print_result"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"mean\"), disambiguator: 0 }]","has_unsafe":false,"name":"mean"}

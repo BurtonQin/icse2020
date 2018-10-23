@@ -1,0 +1,25 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"succeeded\"), disambiguator: 0 }]","has_unsafe":false,"name":"<i32 as FTErrorMethods>::succeeded"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<FT_Vector as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<FT_BBox as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<FT_Matrix as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 8 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<FT_UnitVector as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 10 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<FT_Size_Metrics as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 12 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<FT_Glyph_Metrics as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 14 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<FT_Parameter as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 16 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<FT_Bitmap_Size as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 18 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<TT_OS2 as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 20 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<FT_CharMapRec as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 22 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<FT_ListRec as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 24 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<FT_Size_RequestRec as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"FT_HAS_HORIZONTAL\"), disambiguator: 0 }]","has_unsafe":true,"name":"FT_HAS_HORIZONTAL"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"FT_HAS_VERTICAL\"), disambiguator: 0 }]","has_unsafe":true,"name":"FT_HAS_VERTICAL"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"FT_HAS_KERNING\"), disambiguator: 0 }]","has_unsafe":true,"name":"FT_HAS_KERNING"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"FT_IS_SCALABLE\"), disambiguator: 0 }]","has_unsafe":true,"name":"FT_IS_SCALABLE"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"FT_IS_SFNT\"), disambiguator: 0 }]","has_unsafe":true,"name":"FT_IS_SFNT"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"FT_IS_FIXED_WIDTH\"), disambiguator: 0 }]","has_unsafe":true,"name":"FT_IS_FIXED_WIDTH"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"FT_HAS_FIXED_SIZES\"), disambiguator: 0 }]","has_unsafe":true,"name":"FT_HAS_FIXED_SIZES"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"FT_HAS_GLYPH_NAMES\"), disambiguator: 0 }]","has_unsafe":true,"name":"FT_HAS_GLYPH_NAMES"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"FT_HAS_MULTIPLE_MASTERS\"), disambiguator: 0 }]","has_unsafe":true,"name":"FT_HAS_MULTIPLE_MASTERS"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"FT_IS_CID_KEYED\"), disambiguator: 0 }]","has_unsafe":true,"name":"FT_IS_CID_KEYED"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"FT_IS_TRICKY\"), disambiguator: 0 }]","has_unsafe":true,"name":"FT_IS_TRICKY"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"FT_HAS_COLOR\"), disambiguator: 0 }]","has_unsafe":true,"name":"FT_HAS_COLOR"}

@@ -1,0 +1,23 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"predicate\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Module(\"operators\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"eq\"), disambiguator: 0 }]","has_unsafe":false,"name":"predicate::operators::eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"predicate\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Module(\"operators\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"ne\"), disambiguator: 0 }]","has_unsafe":false,"name":"predicate::operators::ne"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"predicate\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Module(\"operators\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"deny\"), disambiguator: 0 }]","has_unsafe":false,"name":"predicate::operators::deny"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"predicate\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Module(\"parsers\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"parse_key\"), disambiguator: 0 }]","has_unsafe":false,"name":"predicate::parsers::parse_key"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"predicate\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Module(\"parsers\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"parse_args_str\"), disambiguator: 0 }]","has_unsafe":false,"name":"predicate::parsers::parse_args_str"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"read_stdin\"), disambiguator: 0 }]","has_unsafe":false,"name":"read_stdin"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"write_result\"), disambiguator: 0 }]","has_unsafe":false,"name":"write_result"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"pretty\"), disambiguator: 0 }]","has_unsafe":true,"name":"pretty"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"pick\"), disambiguator: 0 }]","has_unsafe":true,"name":"pick"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get\"), disambiguator: 0 }]","has_unsafe":true,"name":"get"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"filter\"), disambiguator: 0 }]","has_unsafe":true,"name":"filter"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"some\"), disambiguator: 0 }]","has_unsafe":true,"name":"some"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"every\"), disambiguator: 0 }]","has_unsafe":true,"name":"every"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"find\"), disambiguator: 0 }]","has_unsafe":true,"name":"find"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"length\"), disambiguator: 0 }]","has_unsafe":true,"name":"length"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"prepare_array_op\"), disambiguator: 0 }]","has_unsafe":false,"name":"prepare_array_op"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"prepare_array_data\"), disambiguator: 0 }]","has_unsafe":false,"name":"prepare_array_data"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"prepare_object_data\"), disambiguator: 0 }]","has_unsafe":false,"name":"prepare_object_data"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"compare\"), disambiguator: 0 }]","has_unsafe":false,"name":"compare"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"cast_path\"), disambiguator: 0 }]","has_unsafe":false,"name":"cast_path"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"read\"), disambiguator: 0 }]","has_unsafe":false,"name":"read"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"read_file\"), disambiguator: 0 }]","has_unsafe":false,"name":"read_file"}

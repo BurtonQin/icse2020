@@ -1,0 +1,3 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"enabled\"), disambiguator: 0 }]","has_unsafe":false,"name":"<ColoredLogger as log::Log>::enabled"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"log\"), disambiguator: 0 }]","has_unsafe":true,"name":"<ColoredLogger as log::Log>::log"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"init\"), disambiguator: 0 }]","has_unsafe":true,"name":"init"}

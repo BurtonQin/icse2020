@@ -1,0 +1,2 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"write_str\"), disambiguator: 0 }]","has_unsafe":false,"name":"<W as WriteStrExt>::write_str"}
+{"def_path":"[DisambiguatedDefPathData { data: Trait(\"IdentityMutExt\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"identity_mut\"), disambiguator: 0 }]","has_unsafe":false,"name":"IdentityMutExt::identity_mut"}

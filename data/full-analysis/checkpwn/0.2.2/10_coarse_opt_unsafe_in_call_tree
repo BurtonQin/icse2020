@@ -1,0 +1,15 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"api\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_api_route\"), disambiguator: 0 }]","has_unsafe":false,"name":"api::CheckableChoices::get_api_route"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"api\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"drop\"), disambiguator: 0 }]","has_unsafe":true,"name":"<api::PassArg as std::ops::Drop>::drop"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"api\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"format_req\"), disambiguator: 0 }]","has_unsafe":false,"name":"api::format_req"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"api\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"arg_to_api_route\"), disambiguator: 0 }]","has_unsafe":false,"name":"api::arg_to_api_route"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"api\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"split_range\"), disambiguator: 0 }]","has_unsafe":false,"name":"api::split_range"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"api\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"search_in_range\"), disambiguator: 0 }]","has_unsafe":false,"name":"api::search_in_range"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"api\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"breach_report\"), disambiguator: 0 }]","has_unsafe":false,"name":"api::breach_report"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"api\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"evaluate_acc_breach\"), disambiguator: 0 }]","has_unsafe":false,"name":"api::evaluate_acc_breach"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"api\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"acc_breach_request\"), disambiguator: 0 }]","has_unsafe":true,"name":"api::acc_breach_request"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"api\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"read_file\"), disambiguator: 0 }]","has_unsafe":false,"name":"api::read_file"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"api\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"hash_password\"), disambiguator: 0 }]","has_unsafe":false,"name":"api::hash_password"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"api\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"strip\"), disambiguator: 0 }]","has_unsafe":false,"name":"api::strip"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"acc_check\"), disambiguator: 0 }]","has_unsafe":true,"name":"acc_check"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"pass_check\"), disambiguator: 0 }]","has_unsafe":true,"name":"pass_check"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}

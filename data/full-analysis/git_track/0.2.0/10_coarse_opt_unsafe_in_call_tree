@@ -1,0 +1,8 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"set_argparse\"), disambiguator: 0 }]","has_unsafe":true,"name":"set_argparse"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_logs\"), disambiguator: 0 }]","has_unsafe":false,"name":"get_logs"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"remove_log\"), disambiguator: 0 }]","has_unsafe":false,"name":"remove_log"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"display_resume\"), disambiguator: 0 }]","has_unsafe":false,"name":"display_resume"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"watch_repository\"), disambiguator: 0 }]","has_unsafe":true,"name":"watch_repository"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"initialize_repository\"), disambiguator: 0 }]","has_unsafe":true,"name":"initialize_repository"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_current_branch\"), disambiguator: 0 }]","has_unsafe":true,"name":"get_current_branch"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}

@@ -1,0 +1,11 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"default_case_fold\"), disambiguator: 0 }]","has_unsafe":false,"name":"<I as Caseless>::default_case_fold"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"default_caseless_match\"), disambiguator: 0 }]","has_unsafe":false,"name":"<I as Caseless>::default_caseless_match"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"canonical_caseless_match\"), disambiguator: 0 }]","has_unsafe":false,"name":"<I as Caseless>::canonical_caseless_match"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"compatibility_caseless_match\"), disambiguator: 0 }]","has_unsafe":false,"name":"<I as Caseless>::compatibility_caseless_match"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"default_case_fold_str\"), disambiguator: 0 }]","has_unsafe":false,"name":"default_case_fold_str"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"default_caseless_match_str\"), disambiguator: 0 }]","has_unsafe":false,"name":"default_caseless_match_str"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"canonical_caseless_match_str\"), disambiguator: 0 }]","has_unsafe":false,"name":"canonical_caseless_match_str"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"compatibility_caseless_match_str\"), disambiguator: 0 }]","has_unsafe":false,"name":"compatibility_caseless_match_str"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"iter_eq\"), disambiguator: 0 }]","has_unsafe":false,"name":"iter_eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"next\"), disambiguator: 0 }]","has_unsafe":false,"name":"<CaseFold<I> as std::iter::Iterator>::next"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"size_hint\"), disambiguator: 0 }]","has_unsafe":false,"name":"<CaseFold<I> as std::iter::Iterator>::size_hint"}

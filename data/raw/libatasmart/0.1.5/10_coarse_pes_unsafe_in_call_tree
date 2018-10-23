@@ -1,0 +1,14 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":true,"name":"Disk::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_disk_size\"), disambiguator: 0 }]","has_unsafe":true,"name":"Disk::get_disk_size"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"check_sleep_mode\"), disambiguator: 0 }]","has_unsafe":true,"name":"Disk::check_sleep_mode"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_power_on\"), disambiguator: 0 }]","has_unsafe":true,"name":"Disk::get_power_on"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_power_cycle_count\"), disambiguator: 0 }]","has_unsafe":true,"name":"Disk::get_power_cycle_count"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_bad_sectors\"), disambiguator: 0 }]","has_unsafe":true,"name":"Disk::get_bad_sectors"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_temperature\"), disambiguator: 0 }]","has_unsafe":true,"name":"Disk::get_temperature"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_smart_status\"), disambiguator: 0 }]","has_unsafe":true,"name":"Disk::get_smart_status"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"dump\"), disambiguator: 0 }]","has_unsafe":true,"name":"Disk::dump"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"identify_is_available\"), disambiguator: 0 }]","has_unsafe":true,"name":"Disk::identify_is_available"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"smart_is_available\"), disambiguator: 0 }]","has_unsafe":true,"name":"Disk::smart_is_available"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"execute_smart_self_test\"), disambiguator: 0 }]","has_unsafe":true,"name":"Disk::execute_smart_self_test"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"smart_get_overall\"), disambiguator: 0 }]","has_unsafe":true,"name":"Disk::smart_get_overall"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"drop\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Disk as std::ops::Drop>::drop"}

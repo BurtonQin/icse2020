@@ -1,0 +1,68 @@
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"clang_parseTranslationUnit2\"), disambiguator: 0 }]","name":"clang_parseTranslationUnit2"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"clang_disposeTranslationUnit\"), disambiguator: 0 }]","name":"clang_disposeTranslationUnit"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"clang_visitChildren\"), disambiguator: 0 }]","name":"clang_visitChildren"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"clang_getCursorType\"), disambiguator: 0 }]","name":"clang_getCursorType"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"clang_Cursor_isVariadic\"), disambiguator: 0 }]","name":"clang_Cursor_isVariadic"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"clang_getCursorSpelling\"), disambiguator: 0 }]","name":"clang_getCursorSpelling"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"clang_equalLocations\"), disambiguator: 0 }]","name":"clang_equalLocations"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"clang_Type_getNumObjCProtocolRefs\"), disambiguator: 0 }]","name":"clang_Type_getNumObjCProtocolRefs"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"clang_getResultType\"), disambiguator: 0 }]","name":"clang_getResultType"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"clang_isConstQualifiedType\"), disambiguator: 0 }]","name":"clang_isConstQualifiedType"}
+{"abi":"RustIntrinsic","def_path":"[DisambiguatedDefPathData { data: Module(\"intrinsics\"), disambiguator: 0 }, DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"discriminant_value\"), disambiguator: 0 }]","name":"discriminant_value"}
+{"abi":"RustIntrinsic","def_path":"[DisambiguatedDefPathData { data: Module(\"intrinsics\"), disambiguator: 0 }, DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"discriminant_value\"), disambiguator: 0 }]","name":"discriminant_value"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"clang_getTypedefName\"), disambiguator: 0 }]","name":"clang_getTypedefName"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"clang_getTypedefDeclUnderlyingType\"), disambiguator: 0 }]","name":"clang_getTypedefDeclUnderlyingType"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"clang_getCursorAvailability\"), disambiguator: 0 }]","name":"clang_getCursorAvailability"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"clang_getCursorPlatformAvailability\"), disambiguator: 0 }]","name":"clang_getCursorPlatformAvailability"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"clang_getCursorPlatformAvailability\"), disambiguator: 0 }]","name":"clang_getCursorPlatformAvailability"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"clang_getCursorLocation\"), disambiguator: 0 }]","name":"clang_getCursorLocation"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"clang_Type_getObjCProtocolDecl\"), disambiguator: 0 }]","name":"clang_Type_getObjCProtocolDecl"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"clang_getCString\"), disambiguator: 0 }]","name":"clang_getCString"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"ffi\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Module(\"c_str\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 32 }, DisambiguatedDefPathData { data: ValueNs(\"from_ptr\"), disambiguator: 0 }]","name":"from_ptr"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"clang_disposeString\"), disambiguator: 0 }]","name":"clang_disposeString"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"clang_getNumArgTypes\"), disambiguator: 0 }]","name":"clang_getNumArgTypes"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"clang_isFunctionTypeVariadic\"), disambiguator: 0 }]","name":"clang_isFunctionTypeVariadic"}
+{"abi":"RustIntrinsic","def_path":"[DisambiguatedDefPathData { data: Module(\"intrinsics\"), disambiguator: 0 }, DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"discriminant_value\"), disambiguator: 0 }]","name":"discriminant_value"}
+{"abi":"RustIntrinsic","def_path":"[DisambiguatedDefPathData { data: Module(\"intrinsics\"), disambiguator: 0 }, DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"discriminant_value\"), disambiguator: 0 }]","name":"discriminant_value"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"clang_getTypeSpelling\"), disambiguator: 0 }]","name":"clang_getTypeSpelling"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"walker\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 13 }, DisambiguatedDefPathData { data: ValueNs(\"from\"), disambiguator: 0 }]","name":"from"}
+{"abi":"RustIntrinsic","def_path":"[DisambiguatedDefPathData { data: Module(\"intrinsics\"), disambiguator: 0 }, DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"transmute\"), disambiguator: 0 }]","name":"transmute"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"clang_getCursorResultType\"), disambiguator: 0 }]","name":"clang_getCursorResultType"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"clang_getCursorPlatformAvailability\"), disambiguator: 0 }]","name":"clang_getCursorPlatformAvailability"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"clang_Cursor_getObjCPropertyAttributes\"), disambiguator: 0 }]","name":"clang_Cursor_getObjCPropertyAttributes"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"clang_getArgType\"), disambiguator: 0 }]","name":"clang_getArgType"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"clang_getTypeDeclaration\"), disambiguator: 0 }]","name":"clang_getTypeDeclaration"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"clang_getCanonicalType\"), disambiguator: 0 }]","name":"clang_getCanonicalType"}
+{"abi":"RustIntrinsic","def_path":"[DisambiguatedDefPathData { data: Module(\"intrinsics\"), disambiguator: 0 }, DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"discriminant_value\"), disambiguator: 0 }]","name":"discriminant_value"}
+{"abi":"RustIntrinsic","def_path":"[DisambiguatedDefPathData { data: Module(\"intrinsics\"), disambiguator: 0 }, DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"discriminant_value\"), disambiguator: 0 }]","name":"discriminant_value"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"clang_disposeIndex\"), disambiguator: 0 }]","name":"clang_disposeIndex"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"clang_getEnumDeclIntegerType\"), disambiguator: 0 }]","name":"clang_getEnumDeclIntegerType"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"clang_Cursor_getNumArguments\"), disambiguator: 0 }]","name":"clang_Cursor_getNumArguments"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"clang_Cursor_getObjCPropertyGetterName\"), disambiguator: 0 }]","name":"clang_Cursor_getObjCPropertyGetterName"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"clang_Type_getNumObjCTypeArgs\"), disambiguator: 0 }]","name":"clang_Type_getNumObjCTypeArgs"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"clang_Type_getModifiedType\"), disambiguator: 0 }]","name":"clang_Type_getModifiedType"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"clang_getPointeeType\"), disambiguator: 0 }]","name":"clang_getPointeeType"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"clang_getTranslationUnitCursor\"), disambiguator: 0 }]","name":"clang_getTranslationUnitCursor"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"clang_getEnumConstantDeclValue\"), disambiguator: 0 }]","name":"clang_getEnumConstantDeclValue"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"clang_Cursor_getArgument\"), disambiguator: 0 }]","name":"clang_Cursor_getArgument"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"clang_Cursor_getObjCPropertySetterName\"), disambiguator: 0 }]","name":"clang_Cursor_getObjCPropertySetterName"}
+{"abi":"RustIntrinsic","def_path":"[DisambiguatedDefPathData { data: Module(\"intrinsics\"), disambiguator: 0 }, DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"discriminant_value\"), disambiguator: 0 }]","name":"discriminant_value"}
+{"abi":"RustIntrinsic","def_path":"[DisambiguatedDefPathData { data: Module(\"intrinsics\"), disambiguator: 0 }, DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"discriminant_value\"), disambiguator: 0 }]","name":"discriminant_value"}
+{"abi":"RustIntrinsic","def_path":"[DisambiguatedDefPathData { data: Module(\"intrinsics\"), disambiguator: 0 }, DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"discriminant_value\"), disambiguator: 0 }]","name":"discriminant_value"}
+{"abi":"RustIntrinsic","def_path":"[DisambiguatedDefPathData { data: Module(\"intrinsics\"), disambiguator: 0 }, DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"discriminant_value\"), disambiguator: 0 }]","name":"discriminant_value"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"clang_Type_getObjCTypeArg\"), disambiguator: 0 }]","name":"clang_Type_getObjCTypeArg"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"clang_getFileLocation\"), disambiguator: 0 }]","name":"clang_getFileLocation"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"clang_getFileName\"), disambiguator: 0 }]","name":"clang_getFileName"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"clang_getArrayElementType\"), disambiguator: 0 }]","name":"clang_getArrayElementType"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"clang_Type_getObjCObjectBaseType\"), disambiguator: 0 }]","name":"clang_Type_getObjCObjectBaseType"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"clang_Type_getNullability\"), disambiguator: 0 }]","name":"clang_Type_getNullability"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"clang_createIndex\"), disambiguator: 0 }]","name":"clang_createIndex"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"clang_getEnumConstantDeclUnsignedValue\"), disambiguator: 0 }]","name":"clang_getEnumConstantDeclUnsignedValue"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"clang_isCursorDefinition\"), disambiguator: 0 }]","name":"clang_isCursorDefinition"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"clang_getCursorDisplayName\"), disambiguator: 0 }]","name":"clang_getCursorDisplayName"}
+{"abi":"RustIntrinsic","def_path":"[DisambiguatedDefPathData { data: Module(\"intrinsics\"), disambiguator: 0 }, DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"discriminant_value\"), disambiguator: 0 }]","name":"discriminant_value"}
+{"abi":"RustIntrinsic","def_path":"[DisambiguatedDefPathData { data: Module(\"intrinsics\"), disambiguator: 0 }, DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"discriminant_value\"), disambiguator: 0 }]","name":"discriminant_value"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"clang_getArraySize\"), disambiguator: 0 }]","name":"clang_getArraySize"}
+{"abi":"RustIntrinsic","def_path":"[DisambiguatedDefPathData { data: Module(\"intrinsics\"), disambiguator: 0 }, DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"discriminant_value\"), disambiguator: 0 }]","name":"discriminant_value"}
+{"abi":"RustIntrinsic","def_path":"[DisambiguatedDefPathData { data: Module(\"intrinsics\"), disambiguator: 0 }, DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"discriminant_value\"), disambiguator: 0 }]","name":"discriminant_value"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"clang_Type_getNamedType\"), disambiguator: 0 }]","name":"clang_Type_getNamedType"}

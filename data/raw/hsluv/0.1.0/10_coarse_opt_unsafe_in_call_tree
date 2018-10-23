@@ -1,0 +1,79 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 21 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<RgbBounds as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 20 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<RgbBounds as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 24 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Rgb as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 23 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Rgb as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"Rgb::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"red\"), disambiguator: 0 }]","has_unsafe":false,"name":"Rgb::red"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"red_ref\"), disambiguator: 0 }]","has_unsafe":false,"name":"Rgb::red_ref"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"red_mut\"), disambiguator: 0 }]","has_unsafe":false,"name":"Rgb::red_mut"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"green\"), disambiguator: 0 }]","has_unsafe":false,"name":"Rgb::green"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"green_ref\"), disambiguator: 0 }]","has_unsafe":false,"name":"Rgb::green_ref"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"green_mut\"), disambiguator: 0 }]","has_unsafe":false,"name":"Rgb::green_mut"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"blue\"), disambiguator: 0 }]","has_unsafe":false,"name":"Rgb::blue"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"blue_ref\"), disambiguator: 0 }]","has_unsafe":false,"name":"Rgb::blue_ref"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"blue_mut\"), disambiguator: 0 }]","has_unsafe":false,"name":"Rgb::blue_mut"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 27 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<HslBounds as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 26 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<HslBounds as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 30 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Hsluv as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 29 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Hsluv as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Hsluv as Hsl>::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"hue\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Hsluv as Hsl>::hue"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"hue_ref\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Hsluv as Hsl>::hue_ref"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"hue_mut\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Hsluv as Hsl>::hue_mut"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"saturation\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Hsluv as Hsl>::saturation"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"saturation_ref\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Hsluv as Hsl>::saturation_ref"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"saturation_mut\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Hsluv as Hsl>::saturation_mut"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"lightness\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Hsluv as Hsl>::lightness"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"lightness_ref\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Hsluv as Hsl>::lightness_ref"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"lightness_mut\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Hsluv as Hsl>::lightness_mut"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 33 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Hpluv as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 32 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Hpluv as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Hpluv as Hsl>::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"hue\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Hpluv as Hsl>::hue"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"hue_ref\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Hpluv as Hsl>::hue_ref"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"hue_mut\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Hpluv as Hsl>::hue_mut"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"saturation\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Hpluv as Hsl>::saturation"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"saturation_ref\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Hpluv as Hsl>::saturation_ref"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"saturation_mut\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Hpluv as Hsl>::saturation_mut"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"lightness\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Hpluv as Hsl>::lightness"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"lightness_ref\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Hpluv as Hsl>::lightness_ref"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"lightness_mut\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Hpluv as Hsl>::lightness_mut"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"hsluv_to_rgb\"), disambiguator: 0 }]","has_unsafe":false,"name":"hsluv_to_rgb"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"hpluv_to_rgb\"), disambiguator: 0 }]","has_unsafe":false,"name":"hpluv_to_rgb"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"rgb_to_hsluv\"), disambiguator: 0 }]","has_unsafe":false,"name":"rgb_to_hsluv"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"rgb_to_hpluv\"), disambiguator: 0 }]","has_unsafe":false,"name":"rgb_to_hpluv"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 36 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Bounds as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 35 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Bounds as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<BoundsIter<I> as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"next\"), disambiguator: 0 }]","has_unsafe":false,"name":"<BoundsIter<I> as std::iter::Iterator>::next"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_bounds\"), disambiguator: 0 }]","has_unsafe":false,"name":"get_bounds"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"intersect_line_line\"), disambiguator: 0 }]","has_unsafe":false,"name":"intersect_line_line"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"dist_from_pole\"), disambiguator: 0 }]","has_unsafe":false,"name":"dist_from_pole"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"ray_length_until_intersect\"), disambiguator: 0 }]","has_unsafe":false,"name":"ray_length_until_intersect"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"max_safe_chroma_for_lightness\"), disambiguator: 0 }]","has_unsafe":false,"name":"max_safe_chroma_for_lightness"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"max_chroma_for_lightness_hue\"), disambiguator: 0 }]","has_unsafe":false,"name":"max_chroma_for_lightness_hue"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"dot_product\"), disambiguator: 0 }]","has_unsafe":false,"name":"dot_product"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"from_linear\"), disambiguator: 0 }]","has_unsafe":false,"name":"from_linear"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"to_linear\"), disambiguator: 0 }]","has_unsafe":false,"name":"to_linear"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 39 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Xyz as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 37 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Xyz as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"from\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Rgb as std::convert::From<Xyz>>::from"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"from\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Xyz as std::convert::From<Rgb>>::from"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 42 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Luv as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 40 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Luv as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"y_to_lightness\"), disambiguator: 0 }]","has_unsafe":false,"name":"y_to_lightness"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"lightness_to_y\"), disambiguator: 0 }]","has_unsafe":false,"name":"lightness_to_y"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"from\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Luv as std::convert::From<Xyz>>::from"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 8 }, DisambiguatedDefPathData { data: ValueNs(\"from\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Xyz as std::convert::From<Luv>>::from"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 45 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Lch as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 44 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Lch as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 9 }, DisambiguatedDefPathData { data: ValueNs(\"from\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Lch as std::convert::From<Luv>>::from"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 10 }, DisambiguatedDefPathData { data: ValueNs(\"from\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Luv as std::convert::From<Lch>>::from"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 11 }, DisambiguatedDefPathData { data: ValueNs(\"from\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Lch as std::convert::From<Hsluv>>::from"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 12 }, DisambiguatedDefPathData { data: ValueNs(\"from\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Hsluv as std::convert::From<Lch>>::from"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 13 }, DisambiguatedDefPathData { data: ValueNs(\"from\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Lch as std::convert::From<Hpluv>>::from"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 14 }, DisambiguatedDefPathData { data: ValueNs(\"from\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Hpluv as std::convert::From<Lch>>::from"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 15 }, DisambiguatedDefPathData { data: ValueNs(\"from\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Rgb as std::convert::From<Hsluv>>::from"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 16 }, DisambiguatedDefPathData { data: ValueNs(\"from\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Rgb as std::convert::From<Hpluv>>::from"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 17 }, DisambiguatedDefPathData { data: ValueNs(\"from\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Hsluv as std::convert::From<Rgb>>::from"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 18 }, DisambiguatedDefPathData { data: ValueNs(\"from\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Hpluv as std::convert::From<Rgb>>::from"}

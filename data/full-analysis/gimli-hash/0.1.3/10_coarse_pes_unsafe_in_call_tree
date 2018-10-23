@@ -1,0 +1,10 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<GimliHash as core::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"default\"), disambiguator: 0 }]","has_unsafe":false,"name":"<GimliHash as core::default::Default>::default"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"update\"), disambiguator: 0 }]","has_unsafe":true,"name":"GimliHash::update"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"finalize\"), disambiguator: 0 }]","has_unsafe":true,"name":"GimliHash::finalize"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"xof\"), disambiguator: 0 }]","has_unsafe":true,"name":"GimliHash::xof"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"absorb\"), disambiguator: 0 }]","has_unsafe":true,"name":"GimliHash::absorb"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"pad\"), disambiguator: 0 }]","has_unsafe":true,"name":"GimliHash::pad"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"squeeze\"), disambiguator: 0 }]","has_unsafe":true,"name":"XofReader::squeeze"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"with\"), disambiguator: 0 }]","has_unsafe":true,"name":"with"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"with\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"transmute\"), disambiguator: 0 }]","has_unsafe":true,"name":"with::transmute"}

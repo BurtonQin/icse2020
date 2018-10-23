@@ -1,0 +1,4 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"print_usage\"), disambiguator: 0 }]","has_unsafe":false,"name":"print_usage"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"check_argv\"), disambiguator: 0 }]","has_unsafe":false,"name":"check_argv"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"input_from_args\"), disambiguator: 0 }]","has_unsafe":false,"name":"input_from_args"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":false,"name":"main"}

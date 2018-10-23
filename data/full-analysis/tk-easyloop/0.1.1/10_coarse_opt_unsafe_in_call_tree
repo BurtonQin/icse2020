@@ -1,0 +1,10 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"HANDLE\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"FOO\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"__init\"), disambiguator: 0 }]","has_unsafe":false,"name":"HANDLE::FOO::__init"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"handle\"), disambiguator: 0 }]","has_unsafe":true,"name":"handle"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_running\"), disambiguator: 0 }]","has_unsafe":false,"name":"is_running"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"run\"), disambiguator: 0 }]","has_unsafe":true,"name":"run"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"run_forever\"), disambiguator: 0 }]","has_unsafe":true,"name":"run_forever"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"timeout\"), disambiguator: 0 }]","has_unsafe":true,"name":"timeout"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"timeout_at\"), disambiguator: 0 }]","has_unsafe":true,"name":"timeout_at"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"interval\"), disambiguator: 0 }]","has_unsafe":true,"name":"interval"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"spawn\"), disambiguator: 0 }]","has_unsafe":true,"name":"spawn"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"spawn_fn\"), disambiguator: 0 }]","has_unsafe":true,"name":"spawn_fn"}

@@ -1,0 +1,6 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"marshall_value\"), disambiguator: 0 }]","has_unsafe":true,"name":"marshall_value"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"create_constant_func\"), disambiguator: 0 }]","has_unsafe":true,"name":"create_constant_func"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"build_output_path\"), disambiguator: 0 }]","has_unsafe":false,"name":"build_output_path"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"CopyConsts::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"add_const\"), disambiguator: 0 }]","has_unsafe":true,"name":"CopyConsts::add_const"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"write_code\"), disambiguator: 0 }]","has_unsafe":false,"name":"CopyConsts::write_code"}

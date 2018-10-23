@@ -1,0 +1,6 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"CondVar::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"notify_one\"), disambiguator: 0 }]","has_unsafe":false,"name":"CondVar::notify_one"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"notify_all\"), disambiguator: 0 }]","has_unsafe":false,"name":"CondVar::notify_all"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"notify\"), disambiguator: 0 }]","has_unsafe":false,"name":"CondVar::notify"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"wait\"), disambiguator: 0 }]","has_unsafe":false,"name":"CondVar::wait"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"wait_timeout_ms\"), disambiguator: 0 }]","has_unsafe":true,"name":"CondVar::wait_timeout_ms"}

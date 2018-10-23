@@ -1,0 +1,3 @@
+{"def_path":"[DisambiguatedDefPathData { data: Trait(\"ToDigits\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"to_digits\"), disambiguator: 0 }]","has_unsafe":false,"name":"ToDigits::to_digits"}
+{"def_path":"[DisambiguatedDefPathData { data: Trait(\"FromIterRadix\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"from_iter_radix\"), disambiguator: 0 }]","has_unsafe":false,"name":"FromIterRadix::from_iter_radix"}
+{"def_path":"[DisambiguatedDefPathData { data: Trait(\"FromDigits\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"from_digits\"), disambiguator: 0 }]","has_unsafe":false,"name":"FromDigits::from_digits"}

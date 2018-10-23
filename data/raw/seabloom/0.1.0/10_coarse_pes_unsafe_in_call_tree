@@ -1,0 +1,12 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"Seabloom::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"create_random_seeds\"), disambiguator: 0 }]","has_unsafe":true,"name":"Seabloom::create_random_seeds"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"create_optimal\"), disambiguator: 0 }]","has_unsafe":true,"name":"Seabloom::create_optimal"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"create\"), disambiguator: 0 }]","has_unsafe":true,"name":"Seabloom::create"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"clear\"), disambiguator: 0 }]","has_unsafe":false,"name":"Seabloom::clear"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"setbit\"), disambiguator: 0 }]","has_unsafe":false,"name":"Seabloom::setbit"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"getbit\"), disambiguator: 0 }]","has_unsafe":false,"name":"Seabloom::getbit"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"add_bytes\"), disambiguator: 0 }]","has_unsafe":true,"name":"Seabloom::add_bytes"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"add\"), disambiguator: 0 }]","has_unsafe":true,"name":"Seabloom::add"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"add_list\"), disambiguator: 0 }]","has_unsafe":true,"name":"Seabloom::add_list"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"has_bytes\"), disambiguator: 0 }]","has_unsafe":true,"name":"Seabloom::has_bytes"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"has\"), disambiguator: 0 }]","has_unsafe":true,"name":"Seabloom::has"}

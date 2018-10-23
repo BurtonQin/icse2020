@@ -1,0 +1,57 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"inline_bits\"), disambiguator: 0 }]","has_unsafe":false,"name":"inline_bits"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"inline_capacity\"), disambiguator: 0 }]","has_unsafe":false,"name":"inline_capacity"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"inline_shift\"), disambiguator: 0 }]","has_unsafe":false,"name":"inline_shift"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"inline_index\"), disambiguator: 0 }]","has_unsafe":false,"name":"inline_index"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"inline_ones\"), disambiguator: 0 }]","has_unsafe":false,"name":"inline_ones"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"bits_per_storage\"), disambiguator: 0 }]","has_unsafe":false,"name":"bits_per_storage"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":true,"name":"Header::new"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"header_len\"), disambiguator: 0 }]","has_unsafe":false,"name":"header_len"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"buffer_len\"), disambiguator: 0 }]","has_unsafe":false,"name":"buffer_len"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"SmallBitVec::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"from_elem\"), disambiguator: 0 }]","has_unsafe":true,"name":"SmallBitVec::from_elem"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"with_capacity\"), disambiguator: 0 }]","has_unsafe":true,"name":"SmallBitVec::with_capacity"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"len\"), disambiguator: 0 }]","has_unsafe":true,"name":"SmallBitVec::len"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"is_empty\"), disambiguator: 0 }]","has_unsafe":true,"name":"SmallBitVec::is_empty"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"capacity\"), disambiguator: 0 }]","has_unsafe":true,"name":"SmallBitVec::capacity"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"get\"), disambiguator: 0 }]","has_unsafe":true,"name":"SmallBitVec::get"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"set\"), disambiguator: 0 }]","has_unsafe":true,"name":"SmallBitVec::set"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"push\"), disambiguator: 0 }]","has_unsafe":true,"name":"SmallBitVec::push"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"pop\"), disambiguator: 0 }]","has_unsafe":true,"name":"SmallBitVec::pop"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"remove\"), disambiguator: 0 }]","has_unsafe":true,"name":"SmallBitVec::remove"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"clear\"), disambiguator: 0 }]","has_unsafe":true,"name":"SmallBitVec::clear"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"reserve\"), disambiguator: 0 }]","has_unsafe":true,"name":"SmallBitVec::reserve"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"iter\"), disambiguator: 0 }]","has_unsafe":true,"name":"SmallBitVec::iter"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"range\"), disambiguator: 0 }]","has_unsafe":true,"name":"SmallBitVec::range"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"all_false\"), disambiguator: 0 }]","has_unsafe":true,"name":"SmallBitVec::all_false"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"all_true\"), disambiguator: 0 }]","has_unsafe":true,"name":"SmallBitVec::all_true"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"reallocate\"), disambiguator: 0 }]","has_unsafe":true,"name":"SmallBitVec::reallocate"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"heap_ptr\"), disambiguator: 0 }]","has_unsafe":false,"name":"SmallBitVec::heap_ptr"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"is_inline\"), disambiguator: 0 }]","has_unsafe":false,"name":"SmallBitVec::is_inline"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"is_heap\"), disambiguator: 0 }]","has_unsafe":false,"name":"SmallBitVec::is_heap"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"header_raw\"), disambiguator: 0 }]","has_unsafe":false,"name":"SmallBitVec::header_raw"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"header_mut\"), disambiguator: 0 }]","has_unsafe":true,"name":"SmallBitVec::header_mut"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"header\"), disambiguator: 0 }]","has_unsafe":true,"name":"SmallBitVec::header"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"buffer_raw\"), disambiguator: 0 }]","has_unsafe":true,"name":"SmallBitVec::buffer_raw"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"buffer_mut\"), disambiguator: 0 }]","has_unsafe":true,"name":"SmallBitVec::buffer_mut"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"buffer\"), disambiguator: 0 }]","has_unsafe":true,"name":"SmallBitVec::buffer"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":true,"name":"<SmallBitVec as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"default\"), disambiguator: 0 }]","has_unsafe":false,"name":"<SmallBitVec as std::default::Default>::default"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"eq\"), disambiguator: 0 }]","has_unsafe":true,"name":"<SmallBitVec as std::cmp::PartialEq>::eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"drop\"), disambiguator: 0 }]","has_unsafe":true,"name":"<SmallBitVec as std::ops::Drop>::drop"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":true,"name":"<SmallBitVec as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 8 }, DisambiguatedDefPathData { data: ValueNs(\"index\"), disambiguator: 0 }]","has_unsafe":true,"name":"<SmallBitVec as std::ops::Index<usize>>::index"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 9 }, DisambiguatedDefPathData { data: ValueNs(\"hash\"), disambiguator: 0 }]","has_unsafe":true,"name":"<SmallBitVec as std::hash::Hash>::hash"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 10 }, DisambiguatedDefPathData { data: ValueNs(\"extend\"), disambiguator: 0 }]","has_unsafe":true,"name":"<SmallBitVec as std::iter::Extend<bool>>::extend"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 11 }, DisambiguatedDefPathData { data: ValueNs(\"from_iter\"), disambiguator: 0 }]","has_unsafe":true,"name":"<SmallBitVec as std::iter::FromIterator<bool>>::from_iter"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 12 }, DisambiguatedDefPathData { data: ValueNs(\"into_iter\"), disambiguator: 0 }]","has_unsafe":true,"name":"<SmallBitVec as std::iter::IntoIterator>::into_iter"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 13 }, DisambiguatedDefPathData { data: ValueNs(\"into_iter\"), disambiguator: 0 }]","has_unsafe":true,"name":"<&'a SmallBitVec as std::iter::IntoIterator>::into_iter"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 14 }, DisambiguatedDefPathData { data: ValueNs(\"next\"), disambiguator: 0 }]","has_unsafe":true,"name":"<IntoIter as std::iter::Iterator>::next"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 14 }, DisambiguatedDefPathData { data: ValueNs(\"size_hint\"), disambiguator: 0 }]","has_unsafe":false,"name":"<IntoIter as std::iter::Iterator>::size_hint"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 15 }, DisambiguatedDefPathData { data: ValueNs(\"next_back\"), disambiguator: 0 }]","has_unsafe":true,"name":"<IntoIter as std::iter::DoubleEndedIterator>::next_back"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 17 }, DisambiguatedDefPathData { data: ValueNs(\"next\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Iter<'a> as std::iter::Iterator>::next"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 17 }, DisambiguatedDefPathData { data: ValueNs(\"size_hint\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Iter<'a> as std::iter::Iterator>::size_hint"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 18 }, DisambiguatedDefPathData { data: ValueNs(\"next_back\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Iter<'a> as std::iter::DoubleEndedIterator>::next_back"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 23 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<VecRange<'a> as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 22 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<VecRange<'a> as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 20 }, DisambiguatedDefPathData { data: ValueNs(\"iter\"), disambiguator: 0 }]","has_unsafe":false,"name":"VecRange::iter"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 21 }, DisambiguatedDefPathData { data: ValueNs(\"index\"), disambiguator: 0 }]","has_unsafe":true,"name":"<VecRange<'a> as std::ops::Index<usize>>::index"}

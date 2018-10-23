@@ -1,0 +1,2 @@
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"bytes\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 26 }, DisambiguatedDefPathData { data: ValueNs(\"bytes_mut\"), disambiguator: 0 }]","name":"bytes_mut"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"bytes\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 26 }, DisambiguatedDefPathData { data: ValueNs(\"advance_mut\"), disambiguator: 0 }]","name":"advance_mut"}

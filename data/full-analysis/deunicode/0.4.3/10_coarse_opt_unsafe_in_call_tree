@@ -1,0 +1,12 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Ptr as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"deunicode\"), disambiguator: 0 }]","has_unsafe":false,"name":"deunicode"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"deunicode_with_tofu\"), disambiguator: 0 }]","has_unsafe":false,"name":"deunicode_with_tofu"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"deunicode_char\"), disambiguator: 0 }]","has_unsafe":true,"name":"deunicode_char"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"ascii_chars\"), disambiguator: 0 }]","has_unsafe":false,"name":"<std::string::String as AsciiChars>::ascii_chars"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"to_ascii_lossy\"), disambiguator: 0 }]","has_unsafe":false,"name":"<std::string::String as AsciiChars>::to_ascii_lossy"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"ascii_chars\"), disambiguator: 0 }]","has_unsafe":false,"name":"<str as AsciiChars>::ascii_chars"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"to_ascii_lossy\"), disambiguator: 0 }]","has_unsafe":false,"name":"<str as AsciiChars>::to_ascii_lossy"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"AsciiCharsIter::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"next\"), disambiguator: 0 }]","has_unsafe":false,"name":"<AsciiCharsIter<'a> as std::iter::Iterator>::next"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"count\"), disambiguator: 0 }]","has_unsafe":false,"name":"<AsciiCharsIter<'a> as std::iter::Iterator>::count"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"size_hint\"), disambiguator: 0 }]","has_unsafe":false,"name":"<AsciiCharsIter<'a> as std::iter::Iterator>::size_hint"}

@@ -1,0 +1,6 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"STACK_LIMIT\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"__init\"), disambiguator: 0 }]","has_unsafe":true,"name":"STACK_LIMIT::__init"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_stack_limit\"), disambiguator: 0 }]","has_unsafe":false,"name":"get_stack_limit"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"set_stack_limit\"), disambiguator: 0 }]","has_unsafe":false,"name":"set_stack_limit"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"maybe_grow\"), disambiguator: 0 }]","has_unsafe":true,"name":"maybe_grow"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"remaining_stack\"), disambiguator: 0 }]","has_unsafe":true,"name":"remaining_stack"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"grow_the_stack\"), disambiguator: 0 }]","has_unsafe":true,"name":"grow_the_stack"}

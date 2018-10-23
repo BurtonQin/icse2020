@@ -1,0 +1,9 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"sr\"), disambiguator: 0 }]","has_unsafe":true,"name":"sr"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"dr\"), disambiguator: 0 }]","has_unsafe":false,"name":"dr"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"tt\"), disambiguator: 0 }]","has_unsafe":true,"name":"tt"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"flatten_token_tree\"), disambiguator: 0 }]","has_unsafe":false,"name":"flatten_token_tree"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":true,"name":"Parser::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_tokens\"), disambiguator: 0 }]","has_unsafe":true,"name":"Parser::get_tokens"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_tokentree\"), disambiguator: 0 }]","has_unsafe":true,"name":"Parser::get_tokentree"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_tokens_local\"), disambiguator: 0 }]","has_unsafe":true,"name":"Parser::get_tokens_local"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_tokenstree_local\"), disambiguator: 0 }]","has_unsafe":true,"name":"Parser::get_tokenstree_local"}

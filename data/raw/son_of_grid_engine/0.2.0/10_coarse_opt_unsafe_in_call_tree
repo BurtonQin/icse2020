@@ -1,0 +1,29 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"discover\"), disambiguator: 0 }]","has_unsafe":true,"name":"discover"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<SystemInfo as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"is_multicore\"), disambiguator: 0 }]","has_unsafe":false,"name":"SystemInfo::is_multicore"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"available_cpus\"), disambiguator: 0 }]","has_unsafe":false,"name":"SystemInfo::available_cpus"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_pinned_threadpool\"), disambiguator: 0 }]","has_unsafe":true,"name":"SystemInfo::get_pinned_threadpool"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"pin_workers\"), disambiguator: 0 }]","has_unsafe":true,"name":"SystemInfo::pin_workers"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_master_ips\"), disambiguator: 0 }]","has_unsafe":false,"name":"SystemInfo::get_master_ips"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"listen_on_port\"), disambiguator: 0 }]","has_unsafe":false,"name":"SystemInfo::listen_on_port"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"connect_to_master\"), disambiguator: 0 }]","has_unsafe":false,"name":"SystemInfo::connect_to_master"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<JobType as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"eq\"), disambiguator: 0 }]","has_unsafe":true,"name":"<JobType as std::cmp::PartialEq>::eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"ne\"), disambiguator: 0 }]","has_unsafe":true,"name":"<JobType as std::cmp::PartialEq>::ne"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"assert_receiver_is_total_eq\"), disambiguator: 0 }]","has_unsafe":false,"name":"<JobType as std::cmp::Eq>::assert_receiver_is_total_eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 9 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<NetworkInfo as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 8 }, DisambiguatedDefPathData { data: ValueNs(\"eq\"), disambiguator: 0 }]","has_unsafe":true,"name":"<NetworkInfo as std::cmp::PartialEq>::eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"assert_receiver_is_total_eq\"), disambiguator: 0 }]","has_unsafe":false,"name":"<NetworkInfo as std::cmp::Eq>::assert_receiver_is_total_eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<NetworkInfo as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"init\"), disambiguator: 0 }]","has_unsafe":false,"name":"NetworkInfo::init"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"gen_network_info_string\"), disambiguator: 0 }]","has_unsafe":false,"name":"gen_network_info_string"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_job_type\"), disambiguator: 0 }]","has_unsafe":true,"name":"parse_job_type"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"err_to_string\"), disambiguator: 0 }]","has_unsafe":false,"name":"err_to_string"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_scratch_path\"), disambiguator: 0 }]","has_unsafe":false,"name":"parse_scratch_path"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"new_cpu_set\"), disambiguator: 0 }]","has_unsafe":true,"name":"new_cpu_set"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"create_random_temp_dir\"), disambiguator: 0 }]","has_unsafe":true,"name":"create_random_temp_dir"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_local_hostname\"), disambiguator: 0 }]","has_unsafe":false,"name":"get_local_hostname"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_local_ips\"), disambiguator: 0 }]","has_unsafe":false,"name":"get_local_ips"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_ip\"), disambiguator: 0 }]","has_unsafe":false,"name":"parse_ip"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_ifconfig\"), disambiguator: 0 }]","has_unsafe":false,"name":"parse_ifconfig"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"exec\"), disambiguator: 0 }]","has_unsafe":false,"name":"exec"}

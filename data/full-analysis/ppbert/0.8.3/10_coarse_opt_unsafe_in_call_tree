@@ -1,0 +1,4 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"handle\"), disambiguator: 0 }]","has_unsafe":false,"name":"handle"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"create_bert2_file\"), disambiguator: 0 }]","has_unsafe":false,"name":"create_bert2_file"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"usize_to_leb128\"), disambiguator: 0 }]","has_unsafe":false,"name":"usize_to_leb128"}

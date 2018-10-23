@@ -1,0 +1,3 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"fs\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"read_file\"), disambiguator: 0 }]","has_unsafe":true,"name":"fs::read_file"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"fs\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"write_to_file\"), disambiguator: 0 }]","has_unsafe":true,"name":"fs::write_to_file"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"fs\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"glob\"), disambiguator: 0 }]","has_unsafe":true,"name":"fs::glob"}

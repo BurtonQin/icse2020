@@ -1,0 +1,3 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"poll\"), disambiguator: 0 }]","has_unsafe":false,"name":"<StateMachine<Original, <Intermediate as futures::IntoFuture>::Future, F> as futures::Future>::poll"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"poll\"), disambiguator: 0 }]","has_unsafe":false,"name":"<AndThen2<Original, <Intermediate as futures::IntoFuture>::Future, F> as futures::Future>::poll"}
+{"def_path":"[DisambiguatedDefPathData { data: Trait(\"FutureExt\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"and_then2\"), disambiguator: 0 }]","has_unsafe":false,"name":"FutureExt::and_then2"}

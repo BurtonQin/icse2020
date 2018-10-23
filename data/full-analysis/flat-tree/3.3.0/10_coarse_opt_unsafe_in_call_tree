@@ -1,0 +1,44 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"iterator\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<iterator::Iterator as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"iterator\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"iterator::Iterator::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"iterator\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"index\"), disambiguator: 0 }]","has_unsafe":false,"name":"iterator::Iterator::index"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"iterator\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"offset\"), disambiguator: 0 }]","has_unsafe":false,"name":"iterator::Iterator::offset"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"iterator\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"seek\"), disambiguator: 0 }]","has_unsafe":false,"name":"iterator::Iterator::seek"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"iterator\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"is_left\"), disambiguator: 0 }]","has_unsafe":false,"name":"iterator::Iterator::is_left"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"iterator\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"is_right\"), disambiguator: 0 }]","has_unsafe":false,"name":"iterator::Iterator::is_right"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"iterator\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"prev\"), disambiguator: 0 }]","has_unsafe":false,"name":"iterator::Iterator::prev"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"iterator\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"sibling\"), disambiguator: 0 }]","has_unsafe":false,"name":"iterator::Iterator::sibling"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"iterator\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"parent\"), disambiguator: 0 }]","has_unsafe":false,"name":"iterator::Iterator::parent"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"iterator\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"left_span\"), disambiguator: 0 }]","has_unsafe":false,"name":"iterator::Iterator::left_span"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"iterator\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"right_span\"), disambiguator: 0 }]","has_unsafe":false,"name":"iterator::Iterator::right_span"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"iterator\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"left_child\"), disambiguator: 0 }]","has_unsafe":false,"name":"iterator::Iterator::left_child"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"iterator\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"right_child\"), disambiguator: 0 }]","has_unsafe":false,"name":"iterator::Iterator::right_child"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"iterator\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"next\"), disambiguator: 0 }]","has_unsafe":false,"name":"<iterator::Iterator as std::iter::Iterator>::next"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"iterator\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"default\"), disambiguator: 0 }]","has_unsafe":false,"name":"<iterator::Iterator as std::default::Default>::default"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"iterator\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"two_pow\"), disambiguator: 0 }]","has_unsafe":false,"name":"iterator::two_pow"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"index\"), disambiguator: 0 }]","has_unsafe":false,"name":"index"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"depth\"), disambiguator: 0 }]","has_unsafe":false,"name":"depth"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"offset_with_depth\"), disambiguator: 0 }]","has_unsafe":false,"name":"offset_with_depth"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"offset\"), disambiguator: 0 }]","has_unsafe":false,"name":"offset"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parent_with_depth\"), disambiguator: 0 }]","has_unsafe":false,"name":"parent_with_depth"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parent\"), disambiguator: 0 }]","has_unsafe":false,"name":"parent"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"sibling_with_depth\"), disambiguator: 0 }]","has_unsafe":false,"name":"sibling_with_depth"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"sibling\"), disambiguator: 0 }]","has_unsafe":false,"name":"sibling"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"uncle_with_depth\"), disambiguator: 0 }]","has_unsafe":false,"name":"uncle_with_depth"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"uncle\"), disambiguator: 0 }]","has_unsafe":false,"name":"uncle"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"children_with_depth\"), disambiguator: 0 }]","has_unsafe":false,"name":"children_with_depth"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"children\"), disambiguator: 0 }]","has_unsafe":false,"name":"children"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"left_child_with_depth\"), disambiguator: 0 }]","has_unsafe":false,"name":"left_child_with_depth"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"left_child\"), disambiguator: 0 }]","has_unsafe":false,"name":"left_child"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"right_child_with_depth\"), disambiguator: 0 }]","has_unsafe":false,"name":"right_child_with_depth"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"right_child\"), disambiguator: 0 }]","has_unsafe":false,"name":"right_child"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"right_span_with_depth\"), disambiguator: 0 }]","has_unsafe":false,"name":"right_span_with_depth"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"right_span\"), disambiguator: 0 }]","has_unsafe":false,"name":"right_span"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"left_span_with_depth\"), disambiguator: 0 }]","has_unsafe":false,"name":"left_span_with_depth"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"left_span\"), disambiguator: 0 }]","has_unsafe":false,"name":"left_span"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"spans_with_depth\"), disambiguator: 0 }]","has_unsafe":false,"name":"spans_with_depth"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"spans\"), disambiguator: 0 }]","has_unsafe":false,"name":"spans"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"count_with_depth\"), disambiguator: 0 }]","has_unsafe":false,"name":"count_with_depth"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"count\"), disambiguator: 0 }]","has_unsafe":false,"name":"count"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"full_roots\"), disambiguator: 0 }]","has_unsafe":false,"name":"full_roots"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_even\"), disambiguator: 0 }]","has_unsafe":false,"name":"is_even"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_odd\"), disambiguator: 0 }]","has_unsafe":false,"name":"is_odd"}

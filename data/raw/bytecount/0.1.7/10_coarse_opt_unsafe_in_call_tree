@@ -1,0 +1,15 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"splat\"), disambiguator: 0 }]","has_unsafe":false,"name":"<usize as ByteChunk>::splat"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"from_splat\"), disambiguator: 0 }]","has_unsafe":false,"name":"<usize as ByteChunk>::from_splat"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"bytewise_equal\"), disambiguator: 0 }]","has_unsafe":false,"name":"<usize as ByteChunk>::bytewise_equal"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"increment\"), disambiguator: 0 }]","has_unsafe":false,"name":"<usize as ByteChunk>::increment"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"sum\"), disambiguator: 0 }]","has_unsafe":false,"name":"<usize as ByteChunk>::sum"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"splat\"), disambiguator: 0 }]","has_unsafe":false,"name":"<[T; _] as ByteChunk>::splat"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"from_splat\"), disambiguator: 0 }]","has_unsafe":false,"name":"<[T; _] as ByteChunk>::from_splat"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"bytewise_equal\"), disambiguator: 0 }]","has_unsafe":false,"name":"<[T; _] as ByteChunk>::bytewise_equal"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"increment\"), disambiguator: 0 }]","has_unsafe":false,"name":"<[T; _] as ByteChunk>::increment"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"sum\"), disambiguator: 0 }]","has_unsafe":false,"name":"<[T; _] as ByteChunk>::sum"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"chunk_align\"), disambiguator: 0 }]","has_unsafe":true,"name":"chunk_align"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"chunk_count\"), disambiguator: 0 }]","has_unsafe":false,"name":"chunk_count"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"count_generic\"), disambiguator: 0 }]","has_unsafe":true,"name":"count_generic"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"count\"), disambiguator: 0 }]","has_unsafe":true,"name":"count"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"naive_count\"), disambiguator: 0 }]","has_unsafe":false,"name":"naive_count"}

@@ -1,0 +1,10 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"kana\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"to_hiragana\"), disambiguator: 0 }]","has_unsafe":false,"name":"kana::to_hiragana"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"kana\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"to_katakana\"), disambiguator: 0 }]","has_unsafe":false,"name":"kana::to_katakana"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"kana\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"is_hiragana\"), disambiguator: 0 }]","has_unsafe":false,"name":"kana::is_hiragana"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"kana\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"is_katakana\"), disambiguator: 0 }]","has_unsafe":false,"name":"kana::is_katakana"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"kana\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"is_kanji\"), disambiguator: 0 }]","has_unsafe":false,"name":"kana::is_kanji"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"kana\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"is_script\"), disambiguator: 0 }]","has_unsafe":false,"name":"kana::is_script"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"kana\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"in_range\"), disambiguator: 0 }]","has_unsafe":false,"name":"kana::in_range"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"kana\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"kana_converter\"), disambiguator: 0 }]","has_unsafe":false,"name":"kana::kana_converter"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"romaji\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"from_romaji\"), disambiguator: 0 }]","has_unsafe":true,"name":"romaji::from_romaji"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"romaji\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"to_romaji\"), disambiguator: 0 }]","has_unsafe":true,"name":"romaji::to_romaji"}

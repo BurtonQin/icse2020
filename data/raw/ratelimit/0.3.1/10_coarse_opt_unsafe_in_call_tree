@@ -1,0 +1,17 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"build\"), disambiguator: 0 }]","has_unsafe":false,"name":"Config::build"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"quantum\"), disambiguator: 0 }]","has_unsafe":false,"name":"Config::quantum"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"capacity\"), disambiguator: 0 }]","has_unsafe":false,"name":"Config::capacity"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"interval\"), disambiguator: 0 }]","has_unsafe":false,"name":"Config::interval"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"frequency\"), disambiguator: 0 }]","has_unsafe":false,"name":"Config::frequency"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"default\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Config as std::default::Default>::default"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"default\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Ratelimit as std::default::Default>::default"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"Ratelimit::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"configure\"), disambiguator: 0 }]","has_unsafe":false,"name":"Ratelimit::configure"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"configured\"), disambiguator: 0 }]","has_unsafe":false,"name":"Ratelimit::configured"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"run\"), disambiguator: 0 }]","has_unsafe":true,"name":"Ratelimit::run"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"clone_sender\"), disambiguator: 0 }]","has_unsafe":false,"name":"Ratelimit::clone_sender"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"block\"), disambiguator: 0 }]","has_unsafe":true,"name":"Ratelimit::block"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"give\"), disambiguator: 0 }]","has_unsafe":false,"name":"Ratelimit::give"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"take\"), disambiguator: 0 }]","has_unsafe":false,"name":"Ratelimit::take"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"tick\"), disambiguator: 0 }]","has_unsafe":false,"name":"Ratelimit::tick"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"cycles\"), disambiguator: 0 }]","has_unsafe":false,"name":"cycles"}

@@ -1,0 +1,9 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"helpers\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"index_to_position\"), disambiguator: 0 }]","has_unsafe":false,"name":"helpers::index_to_position"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"helpers\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"position_to_index\"), disambiguator: 0 }]","has_unsafe":false,"name":"helpers::position_to_index"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<NArray<T> as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<NArray<T> as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"from_function\"), disambiguator: 0 }]","has_unsafe":false,"name":"<NArray<T>>::from_function"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"<NArray<T>>::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"index\"), disambiguator: 0 }]","has_unsafe":false,"name":"<NArray<T> as std::ops::Index<S>>::index"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"index_mut\"), disambiguator: 0 }]","has_unsafe":false,"name":"<NArray<T> as std::ops::IndexMut<S>>::index_mut"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"into_iter\"), disambiguator: 0 }]","has_unsafe":false,"name":"<NArray<T> as std::iter::IntoIterator>::into_iter"}

@@ -1,0 +1,3 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"log\"), disambiguator: 0 }]","has_unsafe":false,"name":"log"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"log_safe\"), disambiguator: 0 }]","has_unsafe":false,"name":"log_safe"}

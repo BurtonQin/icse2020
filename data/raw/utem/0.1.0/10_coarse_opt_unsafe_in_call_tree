@@ -1,0 +1,11 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"english\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Module(\"dictionary\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"to\"), disambiguator: 0 }]","has_unsafe":false,"name":"english::dictionary::to"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"english\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Module(\"dictionary\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"from\"), disambiguator: 0 }]","has_unsafe":false,"name":"english::dictionary::from"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"english\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"is_ender\"), disambiguator: 0 }]","has_unsafe":false,"name":"english::is_ender"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"english\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"unphrase\"), disambiguator: 0 }]","has_unsafe":false,"name":"english::unphrase"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"english\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"reformat\"), disambiguator: 0 }]","has_unsafe":false,"name":"english::reformat"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"english\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"encode\"), disambiguator: 0 }]","has_unsafe":false,"name":"english::encode"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"english\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"translate\"), disambiguator: 0 }]","has_unsafe":false,"name":"english::translate"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"unwrap\"), disambiguator: 0 }]","has_unsafe":false,"name":"unwrap"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"decode\"), disambiguator: 0 }]","has_unsafe":false,"name":"decode"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"encode\"), disambiguator: 0 }]","has_unsafe":false,"name":"encode"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"translate\"), disambiguator: 0 }]","has_unsafe":false,"name":"translate"}

@@ -1,0 +1,15 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"source_dir\"), disambiguator: 0 }]","has_unsafe":false,"name":"source_dir"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"version\"), disambiguator: 0 }]","has_unsafe":false,"name":"version"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"Build::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"out_dir\"), disambiguator: 0 }]","has_unsafe":true,"name":"Build::out_dir"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"target\"), disambiguator: 0 }]","has_unsafe":false,"name":"Build::target"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"host\"), disambiguator: 0 }]","has_unsafe":false,"name":"Build::host"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"build\"), disambiguator: 0 }]","has_unsafe":true,"name":"Build::build"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"run_command\"), disambiguator: 0 }]","has_unsafe":false,"name":"Build::run_command"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"cp_r\"), disambiguator: 0 }]","has_unsafe":false,"name":"cp_r"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"sanitize_sh\"), disambiguator: 0 }]","has_unsafe":false,"name":"sanitize_sh"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"sanitize_sh\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"change_drive\"), disambiguator: 0 }]","has_unsafe":false,"name":"sanitize_sh::change_drive"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"include_dir\"), disambiguator: 0 }]","has_unsafe":false,"name":"Artifacts::include_dir"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"lib_dir\"), disambiguator: 0 }]","has_unsafe":false,"name":"Artifacts::lib_dir"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"libs\"), disambiguator: 0 }]","has_unsafe":false,"name":"Artifacts::libs"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"print_cargo_metadata\"), disambiguator: 0 }]","has_unsafe":false,"name":"Artifacts::print_cargo_metadata"}

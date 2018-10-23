@@ -1,0 +1,6 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"retrieve\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_save_zip\"), disambiguator: 0 }]","has_unsafe":false,"name":"retrieve::get_save_zip"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"retrieve\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"process_zip\"), disambiguator: 0 }]","has_unsafe":true,"name":"retrieve::process_zip"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"retrieve\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"xml\"), disambiguator: 0 }]","has_unsafe":true,"name":"retrieve::xml"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"retrieve\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"retrieve\"), disambiguator: 0 }]","has_unsafe":true,"name":"retrieve::retrieve"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"usage\"), disambiguator: 0 }]","has_unsafe":false,"name":"usage"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}

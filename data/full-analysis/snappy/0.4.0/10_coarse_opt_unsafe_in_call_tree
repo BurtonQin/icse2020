@@ -1,0 +1,4 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"validate_compressed_buffer\"), disambiguator: 0 }]","has_unsafe":true,"name":"validate_compressed_buffer"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"compress\"), disambiguator: 0 }]","has_unsafe":true,"name":"compress"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"uncompress\"), disambiguator: 0 }]","has_unsafe":true,"name":"uncompress"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"uncompress_to\"), disambiguator: 0 }]","has_unsafe":true,"name":"uncompress_to"}

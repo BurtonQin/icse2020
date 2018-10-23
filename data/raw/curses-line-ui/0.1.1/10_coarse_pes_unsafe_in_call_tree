@@ -1,0 +1,3 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"line_ui\"), disambiguator: 0 }]","has_unsafe":true,"name":"line_ui"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_input_character\"), disambiguator: 0 }]","has_unsafe":false,"name":"is_input_character"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"push\"), disambiguator: 0 }]","has_unsafe":true,"name":"<VecPusher<'a, T>>::push"}

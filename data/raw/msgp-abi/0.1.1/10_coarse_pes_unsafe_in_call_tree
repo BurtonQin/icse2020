@@ -1,0 +1,9 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Buf as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"encode\"), disambiguator: 0 }]","has_unsafe":true,"name":"encode"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"decode\"), disambiguator: 0 }]","has_unsafe":true,"name":"decode"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"create_decoder\"), disambiguator: 0 }]","has_unsafe":true,"name":"create_decoder"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"feed_decoder\"), disambiguator: 0 }]","has_unsafe":true,"name":"feed_decoder"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"read_decoder\"), disambiguator: 0 }]","has_unsafe":true,"name":"read_decoder"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_decoder_buffer_len\"), disambiguator: 0 }]","has_unsafe":true,"name":"get_decoder_buffer_len"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_decoder_result_len\"), disambiguator: 0 }]","has_unsafe":true,"name":"get_decoder_result_len"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"drop_decoder\"), disambiguator: 0 }]","has_unsafe":true,"name":"drop_decoder"}

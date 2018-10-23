@@ -1,0 +1,13 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"utils\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"only_keys\"), disambiguator: 0 }]","has_unsafe":false,"name":"utils::only_keys"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"utils\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"parse_lines\"), disambiguator: 0 }]","has_unsafe":false,"name":"utils::parse_lines"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"utils\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"parse_line\"), disambiguator: 0 }]","has_unsafe":false,"name":"utils::parse_line"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"utils\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"set_variables\"), disambiguator: 0 }]","has_unsafe":false,"name":"utils::set_variables"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"utils\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"unload\"), disambiguator: 0 }]","has_unsafe":false,"name":"utils::unload"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"utils\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"unload_from_parsed_lines\"), disambiguator: 0 }]","has_unsafe":false,"name":"utils::unload_from_parsed_lines"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"internal\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"read_to_string\"), disambiguator: 0 }]","has_unsafe":false,"name":"internal::read_to_string"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"key\"), disambiguator: 0 }]","has_unsafe":false,"name":"key"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"load\"), disambiguator: 0 }]","has_unsafe":false,"name":"load"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"load_from_reader\"), disambiguator: 0 }]","has_unsafe":false,"name":"load_from_reader"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"snapshot\"), disambiguator: 0 }]","has_unsafe":false,"name":"snapshot"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"unload\"), disambiguator: 0 }]","has_unsafe":false,"name":"unload"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"unload_from_reader\"), disambiguator: 0 }]","has_unsafe":false,"name":"unload_from_reader"}

@@ -1,0 +1,13 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"deref\"), disambiguator: 0 }]","has_unsafe":true,"name":"<INITIALIZED as lazy_static::Deref>::deref"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"deref\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"__static_ref_initialize\"), disambiguator: 0 }]","has_unsafe":false,"name":"<INITIALIZED as lazy_static::Deref>::deref::__static_ref_initialize"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"initialize\"), disambiguator: 0 }]","has_unsafe":true,"name":"<INITIALIZED as lazy_static::LazyStatic>::initialize"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"VALUES\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"__init\"), disambiguator: 0 }]","has_unsafe":false,"name":"VALUES::__init"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"init\"), disambiguator: 0 }]","has_unsafe":false,"name":"init"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"ensure_initialized\"), disambiguator: 0 }]","has_unsafe":true,"name":"ensure_initialized"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"add_entry\"), disambiguator: 0 }]","has_unsafe":false,"name":"add_entry"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"update_entry\"), disambiguator: 0 }]","has_unsafe":false,"name":"update_entry"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":true,"name":"UpdatablePanicContext::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"update\"), disambiguator: 0 }]","has_unsafe":false,"name":"UpdatablePanicContext::update"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":true,"name":"PanicContext::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"drop\"), disambiguator: 0 }]","has_unsafe":false,"name":"<PanicContext as std::ops::Drop>::drop"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"panic_context\"), disambiguator: 0 }]","has_unsafe":true,"name":"panic_context"}

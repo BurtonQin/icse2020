@@ -1,0 +1,16 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"bformat_args_impl\"), disambiguator: 0 }]","has_unsafe":true,"name":"bformat_args_impl"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"bformat_args_impl\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"func\"), disambiguator: 0 }]","has_unsafe":true,"name":"bformat_args_impl::func"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"bformat_args\"), disambiguator: 0 }]","has_unsafe":true,"name":"bformat_args"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"use_arg\"), disambiguator: 0 }]","has_unsafe":false,"name":"use_arg"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"bformat_keys\"), disambiguator: 0 }]","has_unsafe":true,"name":"bformat_keys"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"use_kw_arg\"), disambiguator: 0 }]","has_unsafe":false,"name":"use_kw_arg"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"detect_keywords\"), disambiguator: 0 }]","has_unsafe":false,"name":"detect_keywords"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"expected_comma\"), disambiguator: 0 }]","has_unsafe":true,"name":"expected_comma"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"unexpected_end\"), disambiguator: 0 }]","has_unsafe":false,"name":"unexpected_end"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_format\"), disambiguator: 0 }]","has_unsafe":true,"name":"get_format"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"consume_comma\"), disambiguator: 0 }]","has_unsafe":false,"name":"consume_comma"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"next_arg\"), disambiguator: 0 }]","has_unsafe":true,"name":"next_arg"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"next_kw_pair\"), disambiguator: 0 }]","has_unsafe":true,"name":"next_kw_pair"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"next_expr\"), disambiguator: 0 }]","has_unsafe":false,"name":"next_expr"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"tok_str\"), disambiguator: 0 }]","has_unsafe":true,"name":"tok_str"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","has_unsafe":true,"name":"registrar::_registrar"}

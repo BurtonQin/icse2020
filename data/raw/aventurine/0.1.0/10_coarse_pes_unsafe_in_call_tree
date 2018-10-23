@@ -1,0 +1,2 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"EventSystem::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"operate\"), disambiguator: 0 }]","has_unsafe":true,"name":"<EventSystem as topaz::System<T, S, E>>::operate"}

@@ -1,0 +1,9 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"as_millis\"), disambiguator: 0 }]","has_unsafe":false,"name":"<std::time::Duration as AsMillis>::as_millis"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"MonteFlake::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"epoch\"), disambiguator: 0 }]","has_unsafe":false,"name":"MonteFlake::epoch"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"id\"), disambiguator: 0 }]","has_unsafe":false,"name":"MonteFlake::id"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"bitwidths\"), disambiguator: 0 }]","has_unsafe":false,"name":"MonteFlake::bitwidths"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"next\"), disambiguator: 0 }]","has_unsafe":false,"name":"MonteFlake::next"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"encode\"), disambiguator: 0 }]","has_unsafe":false,"name":"MonteFlake::encode"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"decode\"), disambiguator: 0 }]","has_unsafe":false,"name":"MonteFlake::decode"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"bitmask\"), disambiguator: 0 }]","has_unsafe":false,"name":"bitmask"}

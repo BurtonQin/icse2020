@@ -1,0 +1,6 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"<SimpleLogger<T>>::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"enabled\"), disambiguator: 0 }]","has_unsafe":false,"name":"<SimpleLogger<T> as log::Log>::enabled"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"log\"), disambiguator: 0 }]","has_unsafe":true,"name":"<SimpleLogger<T> as log::Log>::log"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"log_to_file\"), disambiguator: 0 }]","has_unsafe":true,"name":"log_to_file"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"log_to_stderr\"), disambiguator: 0 }]","has_unsafe":true,"name":"log_to_stderr"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"log_to\"), disambiguator: 0 }]","has_unsafe":true,"name":"log_to"}

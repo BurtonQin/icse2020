@@ -1,0 +1,13 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"CellularMap::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_width\"), disambiguator: 0 }]","has_unsafe":false,"name":"CellularMap::get_width"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_height\"), disambiguator: 0 }]","has_unsafe":false,"name":"CellularMap::get_height"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_element\"), disambiguator: 0 }]","has_unsafe":false,"name":"CellularMap::get_element"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"random_fill\"), disambiguator: 0 }]","has_unsafe":true,"name":"CellularMap::random_fill"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"evolve_default\"), disambiguator: 0 }]","has_unsafe":false,"name":"CellularMap::evolve_default"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"evolve\"), disambiguator: 0 }]","has_unsafe":false,"name":"CellularMap::evolve"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"place_logic\"), disambiguator: 0 }]","has_unsafe":false,"name":"CellularMap::place_logic"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"count_adjacent_wall\"), disambiguator: 0 }]","has_unsafe":false,"name":"CellularMap::count_adjacent_wall"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"is_wall\"), disambiguator: 0 }]","has_unsafe":false,"name":"CellularMap::is_wall"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"is_out_of_bound\"), disambiguator: 0 }]","has_unsafe":false,"name":"CellularMap::is_out_of_bound"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"is_on_border\"), disambiguator: 0 }]","has_unsafe":false,"name":"CellularMap::is_on_border"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_index\"), disambiguator: 0 }]","has_unsafe":false,"name":"CellularMap::get_index"}

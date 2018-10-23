@@ -1,0 +1,2 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"substring\"), disambiguator: 0 }]","has_unsafe":false,"name":"<str as StringPlus>::substring"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"at\"), disambiguator: 0 }]","has_unsafe":false,"name":"<str as StringPlus>::at"}

@@ -1,0 +1,10 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"handler\"), disambiguator: 0 }]","has_unsafe":true,"name":"handler"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_attribute\"), disambiguator: 0 }]","has_unsafe":true,"name":"parse_attribute"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"extract_named_path_segments\"), disambiguator: 0 }]","has_unsafe":false,"name":"extract_named_path_segments"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"extract_fn_args\"), disambiguator: 0 }]","has_unsafe":false,"name":"extract_fn_args"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"validate_args\"), disambiguator: 0 }]","has_unsafe":false,"name":"validate_args"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"impl_handler\"), disambiguator: 0 }]","has_unsafe":true,"name":"impl_handler"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"impl_args_parser\"), disambiguator: 0 }]","has_unsafe":false,"name":"impl_args_parser"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"as_name_str\"), disambiguator: 0 }]","has_unsafe":false,"name":"Method::as_name_str"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"parse\"), disambiguator: 0 }]","has_unsafe":false,"name":"Method::parse"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","has_unsafe":true,"name":"registrar::_registrar"}

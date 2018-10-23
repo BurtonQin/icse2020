@@ -1,0 +1,3 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":false,"name":"main"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"benchmark_big_string\"), disambiguator: 0 }]","has_unsafe":false,"name":"benchmark_big_string"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"benchmark_small_string\"), disambiguator: 0 }]","has_unsafe":false,"name":"benchmark_small_string"}

@@ -1,0 +1,20 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"decode\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Options as rustc_serialize::Decodable>::decode"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"decode\"), disambiguator: 0 }]","has_unsafe":false,"name":"<RegistryPackage as rustc_serialize::Decodable>::decode"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"encode\"), disambiguator: 0 }]","has_unsafe":false,"name":"<RegistryPackage as rustc_serialize::Encodable>::encode"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 8 }, DisambiguatedDefPathData { data: ValueNs(\"assert_receiver_is_total_eq\"), disambiguator: 0 }]","has_unsafe":false,"name":"<RegistryDependency as std::cmp::Eq>::assert_receiver_is_total_eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"cmp\"), disambiguator: 0 }]","has_unsafe":false,"name":"<RegistryDependency as std::cmp::Ord>::cmp"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"eq\"), disambiguator: 0 }]","has_unsafe":false,"name":"<RegistryDependency as std::cmp::PartialEq>::eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"ne\"), disambiguator: 0 }]","has_unsafe":false,"name":"<RegistryDependency as std::cmp::PartialEq>::ne"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"partial_cmp\"), disambiguator: 0 }]","has_unsafe":false,"name":"<RegistryDependency as std::cmp::PartialOrd>::partial_cmp"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"lt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<RegistryDependency as std::cmp::PartialOrd>::lt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"le\"), disambiguator: 0 }]","has_unsafe":false,"name":"<RegistryDependency as std::cmp::PartialOrd>::le"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"gt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<RegistryDependency as std::cmp::PartialOrd>::gt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"ge\"), disambiguator: 0 }]","has_unsafe":false,"name":"<RegistryDependency as std::cmp::PartialOrd>::ge"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"decode\"), disambiguator: 0 }]","has_unsafe":false,"name":"<RegistryDependency as rustc_serialize::Decodable>::decode"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"encode\"), disambiguator: 0 }]","has_unsafe":false,"name":"<RegistryDependency as rustc_serialize::Encodable>::encode"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"real_main\"), disambiguator: 0 }]","has_unsafe":true,"name":"real_main"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"sync\"), disambiguator: 0 }]","has_unsafe":true,"name":"sync"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"sync_git\"), disambiguator: 0 }]","has_unsafe":true,"name":"sync_git"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"sync_git\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"build_ar\"), disambiguator: 0 }]","has_unsafe":true,"name":"sync_git::build_ar"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"read\"), disambiguator: 0 }]","has_unsafe":false,"name":"read"}

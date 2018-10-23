@@ -1,0 +1,6 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"pick_from_slice\"), disambiguator: 0 }]","has_unsafe":true,"name":"pick_from_slice"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"pick_from_multiple_slices\"), disambiguator: 0 }]","has_unsafe":true,"name":"pick_from_multiple_slices"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"pick_multiple_from_slice\"), disambiguator: 0 }]","has_unsafe":true,"name":"pick_multiple_from_slice"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"pick_multiple_from_multiple_slices\"), disambiguator: 0 }]","has_unsafe":true,"name":"pick_multiple_from_multiple_slices"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"gen_usize_with_weights\"), disambiguator: 0 }]","has_unsafe":true,"name":"gen_usize_with_weights"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"gen_multiple_usize_with_weights\"), disambiguator: 0 }]","has_unsafe":true,"name":"gen_multiple_usize_with_weights"}

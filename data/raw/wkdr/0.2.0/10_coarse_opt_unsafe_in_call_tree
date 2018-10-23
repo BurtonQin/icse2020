@@ -1,0 +1,12 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"input\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"comma_separated_ids_as_vector\"), disambiguator: 0 }]","has_unsafe":false,"name":"input::comma_separated_ids_as_vector"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"input\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"all_ids_valid\"), disambiguator: 0 }]","has_unsafe":false,"name":"input::all_ids_valid"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"input\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"entities_from_input\"), disambiguator: 0 }]","has_unsafe":false,"name":"input::entities_from_input"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"printing\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"spaces_to_underscores\"), disambiguator: 0 }]","has_unsafe":false,"name":"printing::spaces_to_underscores"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"print_entity_summary\"), disambiguator: 0 }]","has_unsafe":false,"name":"print_entity_summary"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"query_entities\"), disambiguator: 0 }]","has_unsafe":false,"name":"query_entities"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"print_search_result_table\"), disambiguator: 0 }]","has_unsafe":false,"name":"print_search_result_table"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"search_query_from_matches\"), disambiguator: 0 }]","has_unsafe":false,"name":"search_query_from_matches"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"search_wikibase\"), disambiguator: 0 }]","has_unsafe":false,"name":"search_wikibase"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<CliError as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"process_input\"), disambiguator: 0 }]","has_unsafe":false,"name":"process_input"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}

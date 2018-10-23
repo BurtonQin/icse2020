@@ -1,0 +1,14 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<LoopControl as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"open\"), disambiguator: 0 }]","has_unsafe":false,"name":"LoopControl::open"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"next_free\"), disambiguator: 0 }]","has_unsafe":true,"name":"LoopControl::next_free"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<LoopDevice as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"open\"), disambiguator: 0 }]","has_unsafe":false,"name":"LoopDevice::open"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"attach\"), disambiguator: 0 }]","has_unsafe":true,"name":"LoopDevice::attach"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"attach_file\"), disambiguator: 0 }]","has_unsafe":true,"name":"LoopDevice::attach_file"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"attach_with_offset\"), disambiguator: 0 }]","has_unsafe":true,"name":"LoopDevice::attach_with_offset"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"attach_with_sizelimit\"), disambiguator: 0 }]","has_unsafe":true,"name":"LoopDevice::attach_with_sizelimit"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"get_path\"), disambiguator: 0 }]","has_unsafe":false,"name":"LoopDevice::get_path"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"path\"), disambiguator: 0 }]","has_unsafe":false,"name":"LoopDevice::path"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"detach\"), disambiguator: 0 }]","has_unsafe":true,"name":"LoopDevice::detach"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"set_capacity\"), disambiguator: 0 }]","has_unsafe":true,"name":"LoopDevice::set_capacity"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"default\"), disambiguator: 0 }]","has_unsafe":false,"name":"<loop_info64 as std::default::Default>::default"}

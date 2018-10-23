@@ -1,0 +1,13 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"uavcan_sized\"), disambiguator: 0 }]","has_unsafe":true,"name":"uavcan_sized"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"impl_uavcan_struct\"), disambiguator: 0 }]","has_unsafe":true,"name":"impl_uavcan_struct"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"classify_type\"), disambiguator: 0 }]","has_unsafe":true,"name":"classify_type"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_primitive_type\"), disambiguator: 0 }]","has_unsafe":true,"name":"is_primitive_type"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_bool_primitive_type\"), disambiguator: 0 }]","has_unsafe":true,"name":"is_bool_primitive_type"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_unsigned_primitive_type\"), disambiguator: 0 }]","has_unsafe":true,"name":"is_unsigned_primitive_type"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_signed_primitive_type\"), disambiguator: 0 }]","has_unsafe":true,"name":"is_signed_primitive_type"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_float_primitive_type\"), disambiguator: 0 }]","has_unsafe":true,"name":"is_float_primitive_type"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_void_primitive_type\"), disambiguator: 0 }]","has_unsafe":true,"name":"is_void_primitive_type"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_static_array\"), disambiguator: 0 }]","has_unsafe":false,"name":"is_static_array"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_dynamic_array\"), disambiguator: 0 }]","has_unsafe":true,"name":"is_dynamic_array"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"array_from_dynamic\"), disambiguator: 0 }]","has_unsafe":true,"name":"array_from_dynamic"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","has_unsafe":true,"name":"registrar::_registrar"}

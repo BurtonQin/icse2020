@@ -1,0 +1,7 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<CpuFeature as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"has_feature\"), disambiguator: 0 }]","has_unsafe":false,"name":"CpuInfo::has_feature"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_present\"), disambiguator: 0 }]","has_unsafe":true,"name":"is_present"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"version\"), disambiguator: 0 }]","has_unsafe":true,"name":"version"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"error\"), disambiguator: 0 }]","has_unsafe":true,"name":"error"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"identify\"), disambiguator: 0 }]","has_unsafe":true,"name":"identify"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"clock_frequency\"), disambiguator: 0 }]","has_unsafe":true,"name":"clock_frequency"}

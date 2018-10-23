@@ -1,0 +1,78 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"ptr_void\"), disambiguator: 0 }]","has_unsafe":false,"name":"ptr_void"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"ptr_mut_void\"), disambiguator: 0 }]","has_unsafe":false,"name":"ptr_mut_void"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"version_number\"), disambiguator: 0 }]","has_unsafe":true,"name":"version_number"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"compress\"), disambiguator: 0 }]","has_unsafe":true,"name":"compress"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"decompress\"), disambiguator: 0 }]","has_unsafe":true,"name":"decompress"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_decompressed_size\"), disambiguator: 0 }]","has_unsafe":true,"name":"get_decompressed_size"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"max_clevel\"), disambiguator: 0 }]","has_unsafe":true,"name":"max_clevel"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"compress_bound\"), disambiguator: 0 }]","has_unsafe":true,"name":"compress_bound"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_error\"), disambiguator: 0 }]","has_unsafe":true,"name":"is_error"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"default\"), disambiguator: 0 }]","has_unsafe":true,"name":"<CCtx as core::default::Default>::default"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"create_cctx\"), disambiguator: 0 }]","has_unsafe":true,"name":"create_cctx"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"drop\"), disambiguator: 0 }]","has_unsafe":true,"name":"<CCtx as core::ops::Drop>::drop"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_error_name\"), disambiguator: 0 }]","has_unsafe":true,"name":"get_error_name"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"compress_cctx\"), disambiguator: 0 }]","has_unsafe":true,"name":"compress_cctx"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"default\"), disambiguator: 0 }]","has_unsafe":true,"name":"<DCtx as core::default::Default>::default"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"create_dctx\"), disambiguator: 0 }]","has_unsafe":true,"name":"create_dctx"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"drop\"), disambiguator: 0 }]","has_unsafe":true,"name":"<DCtx as core::ops::Drop>::drop"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"decompress_dctx\"), disambiguator: 0 }]","has_unsafe":true,"name":"decompress_dctx"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"compress_using_dict\"), disambiguator: 0 }]","has_unsafe":true,"name":"compress_using_dict"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"decompress_using_dict\"), disambiguator: 0 }]","has_unsafe":true,"name":"decompress_using_dict"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"create_cdict\"), disambiguator: 0 }]","has_unsafe":true,"name":"create_cdict"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"drop\"), disambiguator: 0 }]","has_unsafe":true,"name":"<CDict<'a> as core::ops::Drop>::drop"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"compress_using_cdict\"), disambiguator: 0 }]","has_unsafe":true,"name":"compress_using_cdict"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"create_ddict\"), disambiguator: 0 }]","has_unsafe":true,"name":"create_ddict"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 9 }, DisambiguatedDefPathData { data: ValueNs(\"drop\"), disambiguator: 0 }]","has_unsafe":true,"name":"<DDict<'a> as core::ops::Drop>::drop"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"decompress_using_ddict\"), disambiguator: 0 }]","has_unsafe":true,"name":"decompress_using_ddict"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 12 }, DisambiguatedDefPathData { data: ValueNs(\"default\"), disambiguator: 0 }]","has_unsafe":true,"name":"<CStream as core::default::Default>::default"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"create_cstream\"), disambiguator: 0 }]","has_unsafe":true,"name":"create_cstream"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 13 }, DisambiguatedDefPathData { data: ValueNs(\"drop\"), disambiguator: 0 }]","has_unsafe":true,"name":"<CStream as core::ops::Drop>::drop"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"init_cstream\"), disambiguator: 0 }]","has_unsafe":true,"name":"init_cstream"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"ptr_mut\"), disambiguator: 0 }]","has_unsafe":false,"name":"ptr_mut"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 15 }, DisambiguatedDefPathData { data: ValueNs(\"deref\"), disambiguator: 0 }]","has_unsafe":false,"name":"<OutBufferWrapper<'a, 'b> as core::ops::Deref>::deref"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 16 }, DisambiguatedDefPathData { data: ValueNs(\"deref_mut\"), disambiguator: 0 }]","has_unsafe":false,"name":"<OutBufferWrapper<'a, 'b> as core::ops::DerefMut>::deref_mut"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 17 }, DisambiguatedDefPathData { data: ValueNs(\"wrap\"), disambiguator: 0 }]","has_unsafe":false,"name":"OutBuffer::wrap"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 18 }, DisambiguatedDefPathData { data: ValueNs(\"drop\"), disambiguator: 0 }]","has_unsafe":false,"name":"<OutBufferWrapper<'a, 'b> as core::ops::Drop>::drop"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 19 }, DisambiguatedDefPathData { data: ValueNs(\"deref\"), disambiguator: 0 }]","has_unsafe":false,"name":"<InBufferWrapper<'a, 'b> as core::ops::Deref>::deref"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 20 }, DisambiguatedDefPathData { data: ValueNs(\"deref_mut\"), disambiguator: 0 }]","has_unsafe":false,"name":"<InBufferWrapper<'a, 'b> as core::ops::DerefMut>::deref_mut"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 21 }, DisambiguatedDefPathData { data: ValueNs(\"wrap\"), disambiguator: 0 }]","has_unsafe":false,"name":"InBuffer::wrap"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 22 }, DisambiguatedDefPathData { data: ValueNs(\"drop\"), disambiguator: 0 }]","has_unsafe":false,"name":"<InBufferWrapper<'a, 'b> as core::ops::Drop>::drop"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"compress_stream\"), disambiguator: 0 }]","has_unsafe":true,"name":"compress_stream"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"flush_stream\"), disambiguator: 0 }]","has_unsafe":true,"name":"flush_stream"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"end_stream\"), disambiguator: 0 }]","has_unsafe":true,"name":"end_stream"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"cstream_in_size\"), disambiguator: 0 }]","has_unsafe":true,"name":"cstream_in_size"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"cstream_out_size\"), disambiguator: 0 }]","has_unsafe":true,"name":"cstream_out_size"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 23 }, DisambiguatedDefPathData { data: ValueNs(\"default\"), disambiguator: 0 }]","has_unsafe":true,"name":"<DStream as core::default::Default>::default"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"create_dstream\"), disambiguator: 0 }]","has_unsafe":true,"name":"create_dstream"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 24 }, DisambiguatedDefPathData { data: ValueNs(\"drop\"), disambiguator: 0 }]","has_unsafe":true,"name":"<DStream as core::ops::Drop>::drop"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"init_dstream\"), disambiguator: 0 }]","has_unsafe":true,"name":"init_dstream"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"decompress_stream\"), disambiguator: 0 }]","has_unsafe":true,"name":"decompress_stream"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"dstream_in_size\"), disambiguator: 0 }]","has_unsafe":true,"name":"dstream_in_size"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"dstream_out_size\"), disambiguator: 0 }]","has_unsafe":true,"name":"dstream_out_size"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"find_frame_compressed_size\"), disambiguator: 0 }]","has_unsafe":true,"name":"find_frame_compressed_size"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_frame_content_size\"), disambiguator: 0 }]","has_unsafe":true,"name":"get_frame_content_size"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"find_decompressed_size\"), disambiguator: 0 }]","has_unsafe":true,"name":"find_decompressed_size"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"sizeof_cctx\"), disambiguator: 0 }]","has_unsafe":true,"name":"sizeof_cctx"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"sizeof_dctx\"), disambiguator: 0 }]","has_unsafe":true,"name":"sizeof_dctx"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"sizeof_cstream\"), disambiguator: 0 }]","has_unsafe":true,"name":"sizeof_cstream"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"sizeof_dstream\"), disambiguator: 0 }]","has_unsafe":true,"name":"sizeof_dstream"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"sizeof_cdict\"), disambiguator: 0 }]","has_unsafe":true,"name":"sizeof_cdict"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"sizeof_ddict\"), disambiguator: 0 }]","has_unsafe":true,"name":"sizeof_ddict"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"create_cdict_by_reference\"), disambiguator: 0 }]","has_unsafe":true,"name":"create_cdict_by_reference"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_frame\"), disambiguator: 0 }]","has_unsafe":true,"name":"is_frame"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"create_ddict_by_reference\"), disambiguator: 0 }]","has_unsafe":true,"name":"create_ddict_by_reference"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_dict_id_from_dict\"), disambiguator: 0 }]","has_unsafe":true,"name":"get_dict_id_from_dict"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_dict_id_from_ddict\"), disambiguator: 0 }]","has_unsafe":true,"name":"get_dict_id_from_ddict"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_dict_id_from_frame\"), disambiguator: 0 }]","has_unsafe":true,"name":"get_dict_id_from_frame"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"init_cstream_src_size\"), disambiguator: 0 }]","has_unsafe":true,"name":"init_cstream_src_size"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"init_cstream_using_dict\"), disambiguator: 0 }]","has_unsafe":true,"name":"init_cstream_using_dict"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"init_cstream_using_cdict\"), disambiguator: 0 }]","has_unsafe":true,"name":"init_cstream_using_cdict"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"reset_cstream\"), disambiguator: 0 }]","has_unsafe":true,"name":"reset_cstream"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"init_dstream_using_dict\"), disambiguator: 0 }]","has_unsafe":true,"name":"init_dstream_using_dict"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"init_dstream_using_ddict\"), disambiguator: 0 }]","has_unsafe":true,"name":"init_dstream_using_ddict"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"reset_dstream\"), disambiguator: 0 }]","has_unsafe":true,"name":"reset_dstream"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"train_from_buffer\"), disambiguator: 0 }]","has_unsafe":true,"name":"train_from_buffer"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_block_size\"), disambiguator: 0 }]","has_unsafe":true,"name":"get_block_size"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"compress_block\"), disambiguator: 0 }]","has_unsafe":true,"name":"compress_block"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"decompress_block\"), disambiguator: 0 }]","has_unsafe":true,"name":"decompress_block"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"insert_block\"), disambiguator: 0 }]","has_unsafe":true,"name":"insert_block"}

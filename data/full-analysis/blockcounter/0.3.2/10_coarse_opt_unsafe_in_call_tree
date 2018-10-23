@@ -1,0 +1,11 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Blocks<F>>::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new_with_comments\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Blocks<F>>::new_with_comments"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"next\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Blocks<F> as std::iter::Iterator>::next"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"blank_lines\"), disambiguator: 0 }]","has_unsafe":false,"name":"blank_lines"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"count_blocks\"), disambiguator: 0 }]","has_unsafe":false,"name":"count_blocks"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_comment\"), disambiguator: 0 }]","has_unsafe":false,"name":"is_comment"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_blank\"), disambiguator: 0 }]","has_unsafe":false,"name":"is_blank"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"clean\"), disambiguator: 0 }]","has_unsafe":false,"name":"clean"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"clean_all_blank\"), disambiguator: 0 }]","has_unsafe":false,"name":"clean_all_blank"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"remove_blank_at_beginning\"), disambiguator: 0 }]","has_unsafe":false,"name":"remove_blank_at_beginning"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"remove_blank_at_end\"), disambiguator: 0 }]","has_unsafe":false,"name":"remove_blank_at_end"}

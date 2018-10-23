@@ -1,0 +1,76 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Error as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Error as std::fmt::Display>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"description\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Error as std::error::Error>::description"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"cause\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Error as std::error::Error>::cause"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 8 }, DisambiguatedDefPathData { data: ValueNs(\"from\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Error as std::convert::From<git2::Error>>::from"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 9 }, DisambiguatedDefPathData { data: ValueNs(\"from\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Error as std::convert::From<std::io::Error>>::from"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 10 }, DisambiguatedDefPathData { data: ValueNs(\"from\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Error as std::convert::From<std::string::String>>::from"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 11 }, DisambiguatedDefPathData { data: ValueNs(\"from\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Error as std::convert::From<&'static str>>::from"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 12 }, DisambiguatedDefPathData { data: ValueNs(\"from\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Error as std::convert::From<std::str::Utf8Error>>::from"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"zero_oid\"), disambiguator: 0 }]","has_unsafe":true,"name":"zero_oid"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"peel_to_commit\"), disambiguator: 0 }]","has_unsafe":true,"name":"peel_to_commit"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"commit_obj_summarize_components\"), disambiguator: 0 }]","has_unsafe":true,"name":"commit_obj_summarize_components"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"commit_summarize_components\"), disambiguator: 0 }]","has_unsafe":true,"name":"commit_summarize_components"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"commit_obj_summarize\"), disambiguator: 0 }]","has_unsafe":true,"name":"commit_obj_summarize"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"commit_summarize\"), disambiguator: 0 }]","has_unsafe":true,"name":"commit_summarize"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"notfound_to_none\"), disambiguator: 0 }]","has_unsafe":true,"name":"notfound_to_none"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"reference_matching_opt\"), disambiguator: 0 }]","has_unsafe":true,"name":"reference_matching_opt"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parents_from_ids\"), disambiguator: 0 }]","has_unsafe":false,"name":"parents_from_ids"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"read\"), disambiguator: 0 }]","has_unsafe":true,"name":"Internals::read"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"read_series\"), disambiguator: 0 }]","has_unsafe":true,"name":"Internals::read_series"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"exists\"), disambiguator: 0 }]","has_unsafe":true,"name":"Internals::exists"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"copy\"), disambiguator: 0 }]","has_unsafe":true,"name":"Internals::copy"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"delete\"), disambiguator: 0 }]","has_unsafe":true,"name":"Internals::delete"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"update_series\"), disambiguator: 0 }]","has_unsafe":true,"name":"Internals::update_series"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"write\"), disambiguator: 0 }]","has_unsafe":true,"name":"Internals::write"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"diff_empty\"), disambiguator: 0 }]","has_unsafe":true,"name":"diff_empty"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"add\"), disambiguator: 0 }]","has_unsafe":true,"name":"add"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"unadd\"), disambiguator: 0 }]","has_unsafe":true,"name":"unadd"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"shead_series_name\"), disambiguator: 0 }]","has_unsafe":true,"name":"shead_series_name"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"series\"), disambiguator: 0 }]","has_unsafe":true,"name":"series"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"start\"), disambiguator: 0 }]","has_unsafe":true,"name":"start"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"checkout_tree\"), disambiguator: 0 }]","has_unsafe":true,"name":"checkout_tree"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"checkout\"), disambiguator: 0 }]","has_unsafe":true,"name":"checkout"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"base\"), disambiguator: 0 }]","has_unsafe":true,"name":"base"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"detach\"), disambiguator: 0 }]","has_unsafe":true,"name":"detach"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"delete\"), disambiguator: 0 }]","has_unsafe":true,"name":"delete"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"do_diff\"), disambiguator: 0 }]","has_unsafe":true,"name":"do_diff"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_editor\"), disambiguator: 0 }]","has_unsafe":true,"name":"get_editor"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_pager\"), disambiguator: 0 }]","has_unsafe":true,"name":"get_pager"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"cmd_maybe_shell\"), disambiguator: 0 }]","has_unsafe":false,"name":"cmd_maybe_shell"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"run_editor\"), disambiguator: 0 }]","has_unsafe":true,"name":"run_editor"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"Output::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"auto_pager\"), disambiguator: 0 }]","has_unsafe":true,"name":"Output::auto_pager"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"get_color\"), disambiguator: 0 }]","has_unsafe":true,"name":"Output::get_color"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"write_err\"), disambiguator: 0 }]","has_unsafe":false,"name":"Output::write_err"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"drop\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Output as std::ops::Drop>::drop"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"write\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Output as std::io::Write>::write"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"flush\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Output as std::io::Write>::flush"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_signature\"), disambiguator: 0 }]","has_unsafe":true,"name":"get_signature"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"commit_status\"), disambiguator: 0 }]","has_unsafe":true,"name":"commit_status"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"cover\"), disambiguator: 0 }]","has_unsafe":true,"name":"cover"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"cp_mv\"), disambiguator: 0 }]","has_unsafe":true,"name":"cp_mv"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"date_822\"), disambiguator: 0 }]","has_unsafe":false,"name":"date_822"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"shortlog\"), disambiguator: 0 }]","has_unsafe":true,"name":"shortlog"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"ascii_isalnum\"), disambiguator: 0 }]","has_unsafe":false,"name":"ascii_isalnum"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"sanitize_summary\"), disambiguator: 0 }]","has_unsafe":false,"name":"sanitize_summary"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"split_message\"), disambiguator: 0 }]","has_unsafe":false,"name":"split_message"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"plain\"), disambiguator: 0 }]","has_unsafe":false,"name":"DiffColors::plain"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":true,"name":"DiffColors::new"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"diffstat\"), disambiguator: 0 }]","has_unsafe":true,"name":"diffstat"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"write_diff\"), disambiguator: 0 }]","has_unsafe":true,"name":"write_diff"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_commits\"), disambiguator: 0 }]","has_unsafe":true,"name":"get_commits"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"write_commit_range_diff\"), disambiguator: 0 }]","has_unsafe":true,"name":"write_commit_range_diff"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"write_commit_range_diff\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<write_commit_range_diff::CommitState as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"write_commit_range_diff\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<write_commit_range_diff::CommitState as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"write_commit_range_diff\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"eq\"), disambiguator: 0 }]","has_unsafe":true,"name":"<write_commit_range_diff::CommitState as std::cmp::PartialEq>::eq"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"write_commit_range_diff\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"assert_receiver_is_total_eq\"), disambiguator: 0 }]","has_unsafe":false,"name":"<write_commit_range_diff::CommitState as std::cmp::Eq>::assert_receiver_is_total_eq"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"write_series_diff\"), disambiguator: 0 }]","has_unsafe":true,"name":"write_series_diff"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"mail_signature\"), disambiguator: 0 }]","has_unsafe":false,"name":"mail_signature"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"ensure_space\"), disambiguator: 0 }]","has_unsafe":false,"name":"ensure_space"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"ensure_nl\"), disambiguator: 0 }]","has_unsafe":false,"name":"ensure_nl"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"format\"), disambiguator: 0 }]","has_unsafe":true,"name":"format"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"log\"), disambiguator: 0 }]","has_unsafe":true,"name":"log"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"rebase\"), disambiguator: 0 }]","has_unsafe":true,"name":"rebase"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"req\"), disambiguator: 0 }]","has_unsafe":true,"name":"req"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}

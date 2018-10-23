@@ -1,0 +1,11 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"predicates\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"Absolute\"), disambiguator: 0 }]","has_unsafe":false,"name":"predicates::Absolute"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"predicates\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"exactinit\"), disambiguator: 0 }]","has_unsafe":false,"name":"predicates::RawGeometryPredicates::exactinit"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"GeometryPredicates::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"orient2d\"), disambiguator: 0 }]","has_unsafe":true,"name":"GeometryPredicates::orient2d"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"orient3d\"), disambiguator: 0 }]","has_unsafe":true,"name":"GeometryPredicates::orient3d"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"incircle\"), disambiguator: 0 }]","has_unsafe":true,"name":"GeometryPredicates::incircle"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"insphere\"), disambiguator: 0 }]","has_unsafe":true,"name":"GeometryPredicates::insphere"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"orient2d_fast\"), disambiguator: 0 }]","has_unsafe":true,"name":"orient2d_fast"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"orient3d_fast\"), disambiguator: 0 }]","has_unsafe":true,"name":"orient3d_fast"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"incircle_fast\"), disambiguator: 0 }]","has_unsafe":true,"name":"incircle_fast"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"insphere_fast\"), disambiguator: 0 }]","has_unsafe":true,"name":"insphere_fast"}

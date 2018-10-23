@@ -1,0 +1,9 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"h\"), disambiguator: 0 }]","has_unsafe":false,"name":"h"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"rc\"), disambiguator: 0 }]","has_unsafe":false,"name":"rc"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"ntf64\"), disambiguator: 0 }]","has_unsafe":false,"name":"ntf64"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"ntr64\"), disambiguator: 0 }]","has_unsafe":false,"name":"ntr64"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"ntc64\"), disambiguator: 0 }]","has_unsafe":false,"name":"ntc64"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"nthash\"), disambiguator: 0 }]","has_unsafe":false,"name":"nthash"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"NtHashIterator::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"next\"), disambiguator: 0 }]","has_unsafe":false,"name":"<NtHashIterator<'a> as std::iter::Iterator>::next"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"size_hint\"), disambiguator: 0 }]","has_unsafe":false,"name":"<NtHashIterator<'a> as std::iter::Iterator>::size_hint"}

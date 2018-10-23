@@ -1,0 +1,6 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new_digraph\"), disambiguator: 0 }]","has_unsafe":false,"name":"DotBuilder::new_digraph"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"set_ratio\"), disambiguator: 0 }]","has_unsafe":false,"name":"DotBuilder::set_ratio"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"set_node_attrs\"), disambiguator: 0 }]","has_unsafe":false,"name":"DotBuilder::set_node_attrs"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"add_edge\"), disambiguator: 0 }]","has_unsafe":false,"name":"DotBuilder::add_edge"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"finish\"), disambiguator: 0 }]","has_unsafe":false,"name":"DotBuilder::finish"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"png_bytes\"), disambiguator: 0 }]","has_unsafe":false,"name":"DotBuilder::png_bytes"}

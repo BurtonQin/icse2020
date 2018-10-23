@@ -1,0 +1,3 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"helpers\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"to_c_string\"), disambiguator: 0 }]","has_unsafe":false,"name":"helpers::to_c_string"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"helpers\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"to_truncated_c_string\"), disambiguator: 0 }]","has_unsafe":true,"name":"helpers::to_truncated_c_string"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"helpers\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"map_game_id\"), disambiguator: 0 }]","has_unsafe":false,"name":"helpers::map_game_id"}

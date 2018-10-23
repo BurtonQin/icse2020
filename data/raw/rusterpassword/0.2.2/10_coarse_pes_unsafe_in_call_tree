@@ -1,0 +1,9 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"gen_master_key_custom\"), disambiguator: 0 }]","has_unsafe":true,"name":"gen_master_key_custom"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"gen_master_key\"), disambiguator: 0 }]","has_unsafe":true,"name":"gen_master_key"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"gen_site_seed\"), disambiguator: 0 }]","has_unsafe":true,"name":"gen_site_seed"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"gen_site_password\"), disambiguator: 0 }]","has_unsafe":true,"name":"gen_site_password"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"create_identicon\"), disambiguator: 0 }]","has_unsafe":true,"name":"create_identicon"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"hash_hmac_sha256\"), disambiguator: 0 }]","has_unsafe":true,"name":"hash_hmac_sha256"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Identicon as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"eq\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Identicon as std::cmp::PartialEq>::eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"ne\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Identicon as std::cmp::PartialEq>::ne"}

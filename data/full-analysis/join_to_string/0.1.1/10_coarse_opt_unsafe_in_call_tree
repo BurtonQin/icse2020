@@ -1,0 +1,7 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"join\"), disambiguator: 0 }]","has_unsafe":false,"name":"join"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"prefix\"), disambiguator: 0 }]","has_unsafe":false,"name":"<JoinBuilder<'a, I>>::prefix"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"suffix\"), disambiguator: 0 }]","has_unsafe":false,"name":"<JoinBuilder<'a, I>>::suffix"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"surround_with\"), disambiguator: 0 }]","has_unsafe":false,"name":"<JoinBuilder<'a, I>>::surround_with"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"separator\"), disambiguator: 0 }]","has_unsafe":false,"name":"<JoinBuilder<'a, I>>::separator"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"to_buf\"), disambiguator: 0 }]","has_unsafe":false,"name":"<JoinBuilder<'a, I>>::to_buf"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"to_string\"), disambiguator: 0 }]","has_unsafe":false,"name":"<JoinBuilder<'a, I>>::to_string"}

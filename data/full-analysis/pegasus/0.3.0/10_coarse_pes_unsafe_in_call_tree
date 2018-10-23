@@ -1,0 +1,6 @@
+{"def_path":"[DisambiguatedDefPathData { data: Trait(\"Init\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"proceed\"), disambiguator: 0 }]","has_unsafe":false,"name":"Init::proceed"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"tick\"), disambiguator: 0 }]","has_unsafe":true,"name":"<App<I>>::tick"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"run\"), disambiguator: 0 }]","has_unsafe":true,"name":"<DrawSystem<R, C, P> as specs::System<f32>>::run"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"drop\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Swing<'a, D> as std::ops::Drop>::drop"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Pegasus<D>>::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"swing\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Pegasus<D>>::swing"}

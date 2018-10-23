@@ -1,0 +1,13 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Error as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"from_i32\"), disambiguator: 0 }]","has_unsafe":true,"name":"Error::from_i32"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"from_mosq_err_t\"), disambiguator: 0 }]","has_unsafe":false,"name":"Error::from_mosq_err_t"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<QoS as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"to_i32\"), disambiguator: 0 }]","has_unsafe":false,"name":"QoS::to_i32"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"init\"), disambiguator: 0 }]","has_unsafe":true,"name":"init"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"cleanup\"), disambiguator: 0 }]","has_unsafe":true,"name":"cleanup"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":true,"name":"Mosquitto::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"destroy\"), disambiguator: 0 }]","has_unsafe":true,"name":"Mosquitto::destroy"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"connect\"), disambiguator: 0 }]","has_unsafe":true,"name":"Mosquitto::connect"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"disconnect\"), disambiguator: 0 }]","has_unsafe":true,"name":"Mosquitto::disconnect"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"main_loop\"), disambiguator: 0 }]","has_unsafe":true,"name":"Mosquitto::main_loop"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"publish\"), disambiguator: 0 }]","has_unsafe":true,"name":"Mosquitto::publish"}

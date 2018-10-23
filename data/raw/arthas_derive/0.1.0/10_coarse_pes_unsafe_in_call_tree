@@ -1,0 +1,23 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"arthas\"), disambiguator: 0 }]","has_unsafe":true,"name":"arthas"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"impl_arthas\"), disambiguator: 0 }]","has_unsafe":true,"name":"impl_arthas"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_ast_struct_fields\"), disambiguator: 0 }]","has_unsafe":false,"name":"get_ast_struct_fields"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"generate_deep_struct\"), disambiguator: 0 }]","has_unsafe":true,"name":"generate_deep_struct"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_rename_value\"), disambiguator: 0 }]","has_unsafe":false,"name":"get_rename_value"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"generate_rename_map_block\"), disambiguator: 0 }]","has_unsafe":true,"name":"generate_rename_map_block"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"generate_field_int_map_block\"), disambiguator: 0 }]","has_unsafe":true,"name":"generate_field_int_map_block"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"to_ident\"), disambiguator: 0 }]","has_unsafe":true,"name":"to_ident"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"type_to_string\"), disambiguator: 0 }]","has_unsafe":true,"name":"type_to_string"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"check_is_struct\"), disambiguator: 0 }]","has_unsafe":false,"name":"check_is_struct"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"check_has_id\"), disambiguator: 0 }]","has_unsafe":false,"name":"check_has_id"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"check_is_one\"), disambiguator: 0 }]","has_unsafe":false,"name":"check_is_one"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_vec\"), disambiguator: 0 }]","has_unsafe":false,"name":"is_vec"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_option\"), disambiguator: 0 }]","has_unsafe":false,"name":"is_option"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_hashmap\"), disambiguator: 0 }]","has_unsafe":false,"name":"is_hashmap"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_vec_generic_type\"), disambiguator: 0 }]","has_unsafe":true,"name":"get_vec_generic_type"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_option_generic_type\"), disambiguator: 0 }]","has_unsafe":true,"name":"get_option_generic_type"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_hashmap_generic_type\"), disambiguator: 0 }]","has_unsafe":true,"name":"get_hashmap_generic_type"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"hashmap_is_struct_type\"), disambiguator: 0 }]","has_unsafe":true,"name":"hashmap_is_struct_type"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"vec_is_struct_type\"), disambiguator: 0 }]","has_unsafe":true,"name":"vec_is_struct_type"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"option_is_struct_type\"), disambiguator: 0 }]","has_unsafe":true,"name":"option_is_struct_type"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_struct_type\"), disambiguator: 0 }]","has_unsafe":true,"name":"is_struct_type"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","has_unsafe":true,"name":"registrar::_registrar"}

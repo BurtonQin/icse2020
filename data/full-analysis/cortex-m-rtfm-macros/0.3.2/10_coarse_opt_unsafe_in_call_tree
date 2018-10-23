@@ -1,0 +1,16 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"analyze\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"ceiling\"), disambiguator: 0 }]","has_unsafe":false,"name":"analyze::Ownership::ceiling"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"analyze\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"is_owned\"), disambiguator: 0 }]","has_unsafe":false,"name":"analyze::Ownership::is_owned"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"analyze\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"app\"), disambiguator: 0 }]","has_unsafe":false,"name":"analyze::app"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"check\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"from\"), disambiguator: 0 }]","has_unsafe":false,"name":"check::Exception::from"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"check\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"nr\"), disambiguator: 0 }]","has_unsafe":false,"name":"check::Exception::nr"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"check\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"app\"), disambiguator: 0 }]","has_unsafe":false,"name":"check::app"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"check\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"task\"), disambiguator: 0 }]","has_unsafe":true,"name":"check::task"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"trans\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"krate\"), disambiguator: 0 }]","has_unsafe":false,"name":"trans::krate"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"trans\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"app\"), disambiguator: 0 }]","has_unsafe":false,"name":"trans::app"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"trans\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"idle\"), disambiguator: 0 }]","has_unsafe":false,"name":"trans::idle"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"trans\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"init\"), disambiguator: 0 }]","has_unsafe":false,"name":"trans::init"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"trans\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"resources\"), disambiguator: 0 }]","has_unsafe":false,"name":"trans::resources"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"trans\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"tasks\"), disambiguator: 0 }]","has_unsafe":false,"name":"trans::tasks"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"app\"), disambiguator: 0 }]","has_unsafe":true,"name":"app"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"run\"), disambiguator: 0 }]","has_unsafe":true,"name":"run"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","has_unsafe":true,"name":"registrar::_registrar"}

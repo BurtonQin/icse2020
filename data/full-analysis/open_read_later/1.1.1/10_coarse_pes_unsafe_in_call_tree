@@ -1,0 +1,13 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"util\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"prompt\"), disambiguator: 0 }]","has_unsafe":false,"name":"util::prompt"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"util\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"read_from_file\"), disambiguator: 0 }]","has_unsafe":false,"name":"util::read_from_file"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"util\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"overwrite_file\"), disambiguator: 0 }]","has_unsafe":false,"name":"util::overwrite_file"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"util\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"trace\"), disambiguator: 0 }]","has_unsafe":false,"name":"util::trace"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"run\"), disambiguator: 0 }]","has_unsafe":true,"name":"run"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_args\"), disambiguator: 0 }]","has_unsafe":true,"name":"parse_args"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"list\"), disambiguator: 0 }]","has_unsafe":true,"name":"list"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"save\"), disambiguator: 0 }]","has_unsafe":true,"name":"save"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"show\"), disambiguator: 0 }]","has_unsafe":true,"name":"show"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"delete\"), disambiguator: 0 }]","has_unsafe":true,"name":"delete"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"tag\"), disambiguator: 0 }]","has_unsafe":true,"name":"tag"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"search\"), disambiguator: 0 }]","has_unsafe":true,"name":"search"}

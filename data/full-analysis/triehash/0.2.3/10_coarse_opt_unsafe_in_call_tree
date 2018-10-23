@@ -1,0 +1,9 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"shared_prefix_len\"), disambiguator: 0 }]","has_unsafe":false,"name":"shared_prefix_len"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"ordered_trie_root\"), disambiguator: 0 }]","has_unsafe":true,"name":"ordered_trie_root"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"trie_root\"), disambiguator: 0 }]","has_unsafe":true,"name":"trie_root"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"sec_trie_root\"), disambiguator: 0 }]","has_unsafe":true,"name":"sec_trie_root"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"gen_trie_root\"), disambiguator: 0 }]","has_unsafe":true,"name":"gen_trie_root"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"hex_prefix_encode\"), disambiguator: 0 }]","has_unsafe":true,"name":"hex_prefix_encode"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"as_nibbles\"), disambiguator: 0 }]","has_unsafe":true,"name":"as_nibbles"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"hash256rlp\"), disambiguator: 0 }]","has_unsafe":true,"name":"hash256rlp"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"hash256aux\"), disambiguator: 0 }]","has_unsafe":true,"name":"hash256aux"}

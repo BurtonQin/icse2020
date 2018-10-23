@@ -1,0 +1,8 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_max_k\"), disambiguator: 0 }]","has_unsafe":false,"name":"get_max_k"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_lambda\"), disambiguator: 0 }]","has_unsafe":false,"name":"get_lambda"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_x\"), disambiguator: 0 }]","has_unsafe":false,"name":"get_x"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_k_at_index\"), disambiguator: 0 }]","has_unsafe":false,"name":"get_k_at_index"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_strikes\"), disambiguator: 0 }]","has_unsafe":false,"name":"get_strikes"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"call_aug\"), disambiguator: 0 }]","has_unsafe":true,"name":"call_aug"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"carr_madan_g\"), disambiguator: 0 }]","has_unsafe":true,"name":"carr_madan_g"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"carr_madan_call\"), disambiguator: 0 }]","has_unsafe":true,"name":"carr_madan_call"}

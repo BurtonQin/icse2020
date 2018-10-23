@@ -1,0 +1,3 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"read_pbuf\"), disambiguator: 0 }]","has_unsafe":true,"name":"read_pbuf"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"header\"), disambiguator: 0 }]","has_unsafe":false,"name":"header"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"write_pbuf\"), disambiguator: 0 }]","has_unsafe":false,"name":"write_pbuf"}

@@ -1,0 +1,11 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<kodama_method as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<kodama_method as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<kodama_dendrogram as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<kodama_step as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"into_method\"), disambiguator: 0 }]","has_unsafe":false,"name":"kodama_method::into_method"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"kodama_linkage_double\"), disambiguator: 0 }]","has_unsafe":true,"name":"kodama_linkage_double"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"kodama_linkage_float\"), disambiguator: 0 }]","has_unsafe":true,"name":"kodama_linkage_float"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"kodama_dendrogram_free\"), disambiguator: 0 }]","has_unsafe":true,"name":"kodama_dendrogram_free"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"kodama_dendrogram_len\"), disambiguator: 0 }]","has_unsafe":true,"name":"kodama_dendrogram_len"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"kodama_dendrogram_observations\"), disambiguator: 0 }]","has_unsafe":true,"name":"kodama_dendrogram_observations"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"kodama_dendrogram_steps\"), disambiguator: 0 }]","has_unsafe":true,"name":"kodama_dendrogram_steps"}

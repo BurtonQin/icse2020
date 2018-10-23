@@ -1,0 +1,9 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"yes\"), disambiguator: 0 }]","has_unsafe":false,"name":"yes"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_somewhat_yes\"), disambiguator: 0 }]","has_unsafe":false,"name":"is_somewhat_yes"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_kinda_yes\"), disambiguator: 0 }]","has_unsafe":false,"name":"is_kinda_yes"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"no\"), disambiguator: 0 }]","has_unsafe":false,"name":"no"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_somewhat_no\"), disambiguator: 0 }]","has_unsafe":false,"name":"is_somewhat_no"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_kinda_no\"), disambiguator: 0 }]","has_unsafe":false,"name":"is_kinda_no"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"convert_to_something_that_may_be_yes_or_no\"), disambiguator: 0 }]","has_unsafe":false,"name":"convert_to_something_that_may_be_yes_or_no"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"definitely_yes\"), disambiguator: 0 }]","has_unsafe":false,"name":"definitely_yes"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"definitely_no\"), disambiguator: 0 }]","has_unsafe":false,"name":"definitely_no"}

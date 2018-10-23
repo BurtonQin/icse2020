@@ -1,0 +1,8 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"impl_unix\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"runas_impl\"), disambiguator: 0 }]","has_unsafe":false,"name":"impl_unix::runas_impl"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":true,"name":"Command::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"arg\"), disambiguator: 0 }]","has_unsafe":true,"name":"Command::arg"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"args\"), disambiguator: 0 }]","has_unsafe":true,"name":"Command::args"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"show\"), disambiguator: 0 }]","has_unsafe":false,"name":"Command::show"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"gui\"), disambiguator: 0 }]","has_unsafe":false,"name":"Command::gui"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"force_prompt\"), disambiguator: 0 }]","has_unsafe":false,"name":"Command::force_prompt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"status\"), disambiguator: 0 }]","has_unsafe":false,"name":"Command::status"}

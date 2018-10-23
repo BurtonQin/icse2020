@@ -1,0 +1,13 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"eq\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Gender as std::cmp::PartialEq>::eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Gender as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"as_str\"), disambiguator: 0 }]","has_unsafe":false,"name":"Gender::as_str"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"eq\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Case as std::cmp::PartialEq>::eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"as_str\"), disambiguator: 0 }]","has_unsafe":false,"name":"Case::as_str"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"find_exception\"), disambiguator: 0 }]","has_unsafe":false,"name":"find_exception"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"find_suffix\"), disambiguator: 0 }]","has_unsafe":false,"name":"find_suffix"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":true,"name":"Petrovich::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"inflect\"), disambiguator: 0 }]","has_unsafe":false,"name":"Petrovich::inflect"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"firstname\"), disambiguator: 0 }]","has_unsafe":false,"name":"Petrovich::firstname"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"middlename\"), disambiguator: 0 }]","has_unsafe":false,"name":"Petrovich::middlename"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"lastname\"), disambiguator: 0 }]","has_unsafe":false,"name":"Petrovich::lastname"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"detect_gender\"), disambiguator: 0 }]","has_unsafe":false,"name":"Petrovich::detect_gender"}

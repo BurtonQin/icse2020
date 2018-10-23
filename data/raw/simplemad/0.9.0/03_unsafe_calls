@@ -1,0 +1,10 @@
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"mad_frame_decode\"), disambiguator: 0 }]","name":"mad_frame_decode"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"mad_synth_frame\"), disambiguator: 0 }]","name":"mad_synth_frame"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"mad_header_decode\"), disambiguator: 0 }]","name":"mad_header_decode"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"mad_stream_init\"), disambiguator: 0 }]","name":"mad_stream_init"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"mad_frame_init\"), disambiguator: 0 }]","name":"mad_frame_init"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"mad_synth_init\"), disambiguator: 0 }]","name":"mad_synth_init"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"mad_stream_buffer\"), disambiguator: 0 }]","name":"mad_stream_buffer"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"mad_stream_finish\"), disambiguator: 0 }]","name":"mad_stream_finish"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"mad_frame_finish\"), disambiguator: 0 }]","name":"mad_frame_finish"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"mad_stream_buffer\"), disambiguator: 0 }]","name":"mad_stream_buffer"}

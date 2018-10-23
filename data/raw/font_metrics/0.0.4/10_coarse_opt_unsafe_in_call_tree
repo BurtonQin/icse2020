@@ -1,0 +1,4 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_args\"), disambiguator: 0 }]","has_unsafe":true,"name":"parse_args"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"x_height_test\"), disambiguator: 0 }]","has_unsafe":false,"name":"x_height_test"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"glyph_height\"), disambiguator: 0 }]","has_unsafe":false,"name":"glyph_height"}

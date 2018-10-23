@@ -1,0 +1,2 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"drop\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Defer<F> as std::ops::Drop>::drop"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"defer\"), disambiguator: 0 }]","has_unsafe":false,"name":"defer"}

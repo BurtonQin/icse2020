@@ -1,0 +1,2 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"non_windows\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"compile_resource\"), disambiguator: 0 }]","has_unsafe":false,"name":"non_windows::compile_resource"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"compile\"), disambiguator: 0 }]","has_unsafe":false,"name":"compile"}

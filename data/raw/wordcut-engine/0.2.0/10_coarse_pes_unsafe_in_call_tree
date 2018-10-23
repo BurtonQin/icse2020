@@ -1,0 +1,56 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"create_prefix_tree\"), disambiguator: 0 }]","has_unsafe":true,"name":"create_prefix_tree"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 15 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<EdgeType as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 14 }, DisambiguatedDefPathData { data: ValueNs(\"eq\"), disambiguator: 0 }]","has_unsafe":true,"name":"<EdgeType as std::cmp::PartialEq>::eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 13 }, DisambiguatedDefPathData { data: ValueNs(\"assert_receiver_is_total_eq\"), disambiguator: 0 }]","has_unsafe":false,"name":"<EdgeType as std::cmp::Eq>::assert_receiver_is_total_eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 11 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<EdgeType as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 18 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Edge as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 16 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Edge as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"is_unk\"), disambiguator: 0 }]","has_unsafe":true,"name":"Edge::is_unk"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"better_than\"), disambiguator: 0 }]","has_unsafe":true,"name":"Edge::better_than"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"better\"), disambiguator: 0 }]","has_unsafe":true,"name":"Edge::better"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 20 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<State as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 19 }, DisambiguatedDefPathData { data: ValueNs(\"eq\"), disambiguator: 0 }]","has_unsafe":true,"name":"<State as std::cmp::PartialEq>::eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"PatEdgeBuilder::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"to_text_state\"), disambiguator: 0 }]","has_unsafe":true,"name":"PatEdgeBuilder::to_text_state"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"to_space_state\"), disambiguator: 0 }]","has_unsafe":true,"name":"PatEdgeBuilder::to_space_state"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"to_another_state\"), disambiguator: 0 }]","has_unsafe":true,"name":"PatEdgeBuilder::to_another_state"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"transit\"), disambiguator: 0 }]","has_unsafe":true,"name":"PatEdgeBuilder::transit"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"is_pat_final\"), disambiguator: 0 }]","has_unsafe":true,"name":"PatEdgeBuilder::is_pat_final"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"build\"), disambiguator: 0 }]","has_unsafe":true,"name":"<PatEdgeBuilder as EdgeBuilder>::build"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_latin\"), disambiguator: 0 }]","has_unsafe":false,"name":"is_latin"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"create_latin_edge_builder\"), disambiguator: 0 }]","has_unsafe":false,"name":"create_latin_edge_builder"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 21 }, DisambiguatedDefPathData { data: ValueNs(\"deref\"), disambiguator: 0 }]","has_unsafe":true,"name":"<PUNC_SET as lazy_static::Deref>::deref"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 21 }, DisambiguatedDefPathData { data: ValueNs(\"deref\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"__static_ref_initialize\"), disambiguator: 0 }]","has_unsafe":false,"name":"<PUNC_SET as lazy_static::Deref>::deref::__static_ref_initialize"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 22 }, DisambiguatedDefPathData { data: ValueNs(\"initialize\"), disambiguator: 0 }]","has_unsafe":true,"name":"<PUNC_SET as lazy_static::LazyStatic>::initialize"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_punc\"), disambiguator: 0 }]","has_unsafe":true,"name":"is_punc"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"create_punc_edge_builder\"), disambiguator: 0 }]","has_unsafe":false,"name":"create_punc_edge_builder"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"UnkEdgeBuilder::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"build\"), disambiguator: 0 }]","has_unsafe":false,"name":"<UnkEdgeBuilder as EdgeBuilder>::build"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 23 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Pointer as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"update\"), disambiguator: 0 }]","has_unsafe":false,"name":"Pointer::update"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"gen_edge\"), disambiguator: 0 }]","has_unsafe":false,"name":"Pointer::gen_edge"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"DictEdgeBuilder::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"add_pointer\"), disambiguator: 0 }]","has_unsafe":false,"name":"DictEdgeBuilder::add_pointer"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"update_pointers\"), disambiguator: 0 }]","has_unsafe":false,"name":"DictEdgeBuilder::update_pointers"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"gen_edge\"), disambiguator: 0 }]","has_unsafe":true,"name":"DictEdgeBuilder::gen_edge"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"build\"), disambiguator: 0 }]","has_unsafe":true,"name":"<DictEdgeBuilder<'a> as EdgeBuilder>::build"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"build_path\"), disambiguator: 0 }]","has_unsafe":true,"name":"build_path"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 26 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<DagEdge as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 25 }, DisambiguatedDefPathData { data: ValueNs(\"eq\"), disambiguator: 0 }]","has_unsafe":true,"name":"<DagEdge as std::cmp::PartialEq>::eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 25 }, DisambiguatedDefPathData { data: ValueNs(\"ne\"), disambiguator: 0 }]","has_unsafe":false,"name":"<DagEdge as std::cmp::PartialEq>::ne"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 24 }, DisambiguatedDefPathData { data: ValueNs(\"assert_receiver_is_total_eq\"), disambiguator: 0 }]","has_unsafe":false,"name":"<DagEdge as std::cmp::Eq>::assert_receiver_is_total_eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 8 }, DisambiguatedDefPathData { data: ValueNs(\"build_dag_edges\"), disambiguator: 0 }]","has_unsafe":false,"name":"<DictEdgeBuilder<'a> as DagEdgeBuilder>::build_dag_edges"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 9 }, DisambiguatedDefPathData { data: ValueNs(\"build_dag_edges\"), disambiguator: 0 }]","has_unsafe":true,"name":"<PatEdgeBuilder as DagEdgeBuilder>::build_dag_edges"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"build_dag\"), disambiguator: 0 }]","has_unsafe":true,"name":"build_dag"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 28 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<TextRange as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 27 }, DisambiguatedDefPathData { data: ValueNs(\"eq\"), disambiguator: 0 }]","has_unsafe":false,"name":"<TextRange as std::cmp::PartialEq>::eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 27 }, DisambiguatedDefPathData { data: ValueNs(\"ne\"), disambiguator: 0 }]","has_unsafe":false,"name":"<TextRange as std::cmp::PartialEq>::ne"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"path_to_ranges\"), disambiguator: 0 }]","has_unsafe":false,"name":"path_to_ranges"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"path_to_str_vec\"), disambiguator: 0 }]","has_unsafe":false,"name":"path_to_str_vec"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 29 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Wordcut as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 10 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"Wordcut::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 10 }, DisambiguatedDefPathData { data: ValueNs(\"segment\"), disambiguator: 0 }]","has_unsafe":true,"name":"Wordcut::segment"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 10 }, DisambiguatedDefPathData { data: ValueNs(\"segment_into_strings\"), disambiguator: 0 }]","has_unsafe":true,"name":"Wordcut::segment_into_strings"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 10 }, DisambiguatedDefPathData { data: ValueNs(\"put_delimiters\"), disambiguator: 0 }]","has_unsafe":true,"name":"Wordcut::put_delimiters"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"load_wordlist\"), disambiguator: 0 }]","has_unsafe":false,"name":"load_wordlist"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"load_dict\"), disambiguator: 0 }]","has_unsafe":true,"name":"load_dict"}

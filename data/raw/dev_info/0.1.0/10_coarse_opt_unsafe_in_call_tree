@@ -1,0 +1,5 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"Options::new"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"match_arguments\"), disambiguator: 0 }]","has_unsafe":true,"name":"match_arguments"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"process_arguments\"), disambiguator: 0 }]","has_unsafe":true,"name":"process_arguments"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_color_scheme\"), disambiguator: 0 }]","has_unsafe":false,"name":"get_color_scheme"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}

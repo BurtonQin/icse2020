@@ -1,0 +1,3 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"stdin\"), disambiguator: 0 }]","has_unsafe":false,"name":"stdin"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"stdout\"), disambiguator: 0 }]","has_unsafe":false,"name":"stdout"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}

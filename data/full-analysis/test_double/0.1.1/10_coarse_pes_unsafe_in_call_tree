@@ -1,0 +1,6 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"test_doubles\"), disambiguator: 0 }]","has_unsafe":true,"name":"test_doubles"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"functionlike_internal\"), disambiguator: 0 }]","has_unsafe":true,"name":"functionlike_internal"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"test_double\"), disambiguator: 0 }]","has_unsafe":true,"name":"test_double"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"attribute_internal\"), disambiguator: 0 }]","has_unsafe":true,"name":"attribute_internal"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"process_single_item\"), disambiguator: 0 }]","has_unsafe":true,"name":"process_single_item"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","has_unsafe":true,"name":"registrar::_registrar"}

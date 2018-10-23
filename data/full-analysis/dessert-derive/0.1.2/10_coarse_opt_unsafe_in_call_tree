@@ -1,0 +1,5 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"impl_viadmacro\"), disambiguator: 0 }]","has_unsafe":true,"name":"impl_viadmacro"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"impl_viasmacro\"), disambiguator: 0 }]","has_unsafe":true,"name":"impl_viasmacro"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"viad_macro\"), disambiguator: 0 }]","has_unsafe":true,"name":"viad_macro"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"vias_macro\"), disambiguator: 0 }]","has_unsafe":true,"name":"vias_macro"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","has_unsafe":true,"name":"registrar::_registrar"}

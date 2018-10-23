@@ -1,0 +1,8 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"derive\"), disambiguator: 0 }]","has_unsafe":true,"name":"derive"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"type_from_attrs\"), disambiguator: 0 }]","has_unsafe":false,"name":"type_from_attrs"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"generate_derive_enum_impls\"), disambiguator: 0 }]","has_unsafe":true,"name":"generate_derive_enum_impls"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"generate_common_impl\"), disambiguator: 0 }]","has_unsafe":true,"name":"generate_common_impl"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"generate_postgres_impl\"), disambiguator: 0 }]","has_unsafe":true,"name":"generate_postgres_impl"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"generate_mysql_impl\"), disambiguator: 0 }]","has_unsafe":true,"name":"generate_mysql_impl"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"generate_sqlite_impl\"), disambiguator: 0 }]","has_unsafe":true,"name":"generate_sqlite_impl"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","has_unsafe":true,"name":"registrar::_registrar"}

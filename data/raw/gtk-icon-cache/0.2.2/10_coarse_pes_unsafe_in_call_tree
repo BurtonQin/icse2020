@@ -1,0 +1,9 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<GtkIconCache as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<GtkIconCache as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"with_file_path\"), disambiguator: 0 }]","has_unsafe":true,"name":"GtkIconCache::with_file_path"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"load_cache\"), disambiguator: 0 }]","has_unsafe":true,"name":"GtkIconCache::load_cache"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"read_card16_from\"), disambiguator: 0 }]","has_unsafe":true,"name":"GtkIconCache::read_card16_from"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"read_card32_from\"), disambiguator: 0 }]","has_unsafe":true,"name":"GtkIconCache::read_card32_from"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"read_cstring_from\"), disambiguator: 0 }]","has_unsafe":true,"name":"GtkIconCache::read_cstring_from"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lookup\"), disambiguator: 0 }]","has_unsafe":true,"name":"GtkIconCache::lookup"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"icon_name_hash\"), disambiguator: 0 }]","has_unsafe":true,"name":"icon_name_hash"}

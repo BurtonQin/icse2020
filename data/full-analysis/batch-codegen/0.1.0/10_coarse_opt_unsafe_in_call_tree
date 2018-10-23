@@ -1,0 +1,9 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"task_derive\"), disambiguator: 0 }]","has_unsafe":true,"name":"task_derive"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_derive_name_attr\"), disambiguator: 0 }]","has_unsafe":true,"name":"get_derive_name_attr"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_derive_exchange_attr\"), disambiguator: 0 }]","has_unsafe":true,"name":"get_derive_exchange_attr"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_derive_routing_key_attr\"), disambiguator: 0 }]","has_unsafe":true,"name":"get_derive_routing_key_attr"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_derive_timeout_attr\"), disambiguator: 0 }]","has_unsafe":true,"name":"get_derive_timeout_attr"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_derive_retries_attr\"), disambiguator: 0 }]","has_unsafe":true,"name":"get_derive_retries_attr"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_str_attr_by_name\"), disambiguator: 0 }]","has_unsafe":true,"name":"get_str_attr_by_name"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_raw_attr_by_name\"), disambiguator: 0 }]","has_unsafe":true,"name":"get_raw_attr_by_name"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","has_unsafe":true,"name":"registrar::_registrar"}

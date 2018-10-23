@@ -1,0 +1,107 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"input\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<input::Input as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"input\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<input::Input as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"input\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"eq\"), disambiguator: 0 }]","has_unsafe":true,"name":"<input::Input as std::cmp::PartialEq>::eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"input\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"ne\"), disambiguator: 0 }]","has_unsafe":true,"name":"<input::Input as std::cmp::PartialEq>::ne"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"input\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"assert_receiver_is_total_eq\"), disambiguator: 0 }]","has_unsafe":false,"name":"<input::Input as std::cmp::Eq>::assert_receiver_is_total_eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"input\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"hash\"), disambiguator: 0 }]","has_unsafe":true,"name":"<input::Input as std::hash::Hash>::hash"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"unix\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Module(\"constants\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"NCURSES_BITS\"), disambiguator: 0 }]","has_unsafe":false,"name":"unix::constants::NCURSES_BITS"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"unix\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Module(\"constants\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"COLOR_PAIR\"), disambiguator: 0 }]","has_unsafe":false,"name":"unix::constants::COLOR_PAIR"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"unix\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"pre_init\"), disambiguator: 0 }]","has_unsafe":true,"name":"unix::pre_init"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"unix\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_attron\"), disambiguator: 0 }]","has_unsafe":true,"name":"unix::_attron"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"unix\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_attroff\"), disambiguator: 0 }]","has_unsafe":true,"name":"unix::_attroff"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"unix\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_attrset\"), disambiguator: 0 }]","has_unsafe":true,"name":"unix::_attrset"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"unix\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_draw_box\"), disambiguator: 0 }]","has_unsafe":true,"name":"unix::_draw_box"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"unix\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_getmouse\"), disambiguator: 0 }]","has_unsafe":true,"name":"unix::_getmouse"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"unix\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_resize_term\"), disambiguator: 0 }]","has_unsafe":true,"name":"unix::_resize_term"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"unix\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_set_blink\"), disambiguator: 0 }]","has_unsafe":false,"name":"unix::_set_blink"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"unix\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_set_title\"), disambiguator: 0 }]","has_unsafe":false,"name":"unix::_set_title"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"unix\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"to_special_keycode\"), disambiguator: 0 }]","has_unsafe":false,"name":"unix::to_special_keycode"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"unix\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_ungetch\"), disambiguator: 0 }]","has_unsafe":true,"name":"unix::_ungetch"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"unix\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"convert_input_to_c_int\"), disambiguator: 0 }]","has_unsafe":true,"name":"unix::convert_input_to_c_int"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"to_chtype\"), disambiguator: 0 }]","has_unsafe":false,"name":"<char as ToChtype>::to_chtype"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"to_chtype\"), disambiguator: 0 }]","has_unsafe":false,"name":"<u64 as ToChtype>::to_chtype"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Window as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"addch\"), disambiguator: 0 }]","has_unsafe":true,"name":"Window::addch"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"addstr\"), disambiguator: 0 }]","has_unsafe":true,"name":"Window::addstr"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"addnstr\"), disambiguator: 0 }]","has_unsafe":true,"name":"Window::addnstr"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"attrget\"), disambiguator: 0 }]","has_unsafe":true,"name":"Window::attrget"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"attroff\"), disambiguator: 0 }]","has_unsafe":true,"name":"Window::attroff"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"attron\"), disambiguator: 0 }]","has_unsafe":true,"name":"Window::attron"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"attrset\"), disambiguator: 0 }]","has_unsafe":true,"name":"Window::attrset"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"bkgd\"), disambiguator: 0 }]","has_unsafe":true,"name":"Window::bkgd"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"bgkdset\"), disambiguator: 0 }]","has_unsafe":true,"name":"Window::bgkdset"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"border\"), disambiguator: 0 }]","has_unsafe":true,"name":"Window::border"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"chgat\"), disambiguator: 0 }]","has_unsafe":true,"name":"Window::chgat"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"clear\"), disambiguator: 0 }]","has_unsafe":true,"name":"Window::clear"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"clearok\"), disambiguator: 0 }]","has_unsafe":true,"name":"Window::clearok"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"clrtobot\"), disambiguator: 0 }]","has_unsafe":true,"name":"Window::clrtobot"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"clrtoeol\"), disambiguator: 0 }]","has_unsafe":true,"name":"Window::clrtoeol"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"color_set\"), disambiguator: 0 }]","has_unsafe":true,"name":"Window::color_set"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"copywin\"), disambiguator: 0 }]","has_unsafe":true,"name":"Window::copywin"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"delch\"), disambiguator: 0 }]","has_unsafe":true,"name":"Window::delch"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"deleteln\"), disambiguator: 0 }]","has_unsafe":true,"name":"Window::deleteln"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"delwin\"), disambiguator: 0 }]","has_unsafe":true,"name":"Window::delwin"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"derwin\"), disambiguator: 0 }]","has_unsafe":true,"name":"Window::derwin"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"draw_box\"), disambiguator: 0 }]","has_unsafe":true,"name":"Window::draw_box"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"erase\"), disambiguator: 0 }]","has_unsafe":true,"name":"Window::erase"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"get_beg_y\"), disambiguator: 0 }]","has_unsafe":true,"name":"Window::get_beg_y"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"get_beg_x\"), disambiguator: 0 }]","has_unsafe":true,"name":"Window::get_beg_x"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"get_beg_yx\"), disambiguator: 0 }]","has_unsafe":true,"name":"Window::get_beg_yx"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"getbkgd\"), disambiguator: 0 }]","has_unsafe":true,"name":"Window::getbkgd"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"getch\"), disambiguator: 0 }]","has_unsafe":true,"name":"Window::getch"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"get_cur_x\"), disambiguator: 0 }]","has_unsafe":true,"name":"Window::get_cur_x"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"get_cur_y\"), disambiguator: 0 }]","has_unsafe":true,"name":"Window::get_cur_y"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"get_cur_yx\"), disambiguator: 0 }]","has_unsafe":true,"name":"Window::get_cur_yx"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"get_max_x\"), disambiguator: 0 }]","has_unsafe":true,"name":"Window::get_max_x"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"get_max_y\"), disambiguator: 0 }]","has_unsafe":true,"name":"Window::get_max_y"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"get_max_yx\"), disambiguator: 0 }]","has_unsafe":true,"name":"Window::get_max_yx"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"hline\"), disambiguator: 0 }]","has_unsafe":true,"name":"Window::hline"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"keypad\"), disambiguator: 0 }]","has_unsafe":true,"name":"Window::keypad"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"mv\"), disambiguator: 0 }]","has_unsafe":true,"name":"Window::mv"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"mvaddch\"), disambiguator: 0 }]","has_unsafe":true,"name":"Window::mvaddch"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"mvaddstr\"), disambiguator: 0 }]","has_unsafe":true,"name":"Window::mvaddstr"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"mvaddnstr\"), disambiguator: 0 }]","has_unsafe":true,"name":"Window::mvaddnstr"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"mvchgat\"), disambiguator: 0 }]","has_unsafe":true,"name":"Window::mvchgat"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"mvinch\"), disambiguator: 0 }]","has_unsafe":true,"name":"Window::mvinch"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"mvprintw\"), disambiguator: 0 }]","has_unsafe":true,"name":"Window::mvprintw"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"nodelay\"), disambiguator: 0 }]","has_unsafe":true,"name":"Window::nodelay"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"overlay\"), disambiguator: 0 }]","has_unsafe":true,"name":"Window::overlay"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"overwrite\"), disambiguator: 0 }]","has_unsafe":true,"name":"Window::overwrite"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"printw\"), disambiguator: 0 }]","has_unsafe":true,"name":"Window::printw"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"refresh\"), disambiguator: 0 }]","has_unsafe":true,"name":"Window::refresh"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"scrollok\"), disambiguator: 0 }]","has_unsafe":true,"name":"Window::scrollok"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"setscrreg\"), disambiguator: 0 }]","has_unsafe":true,"name":"Window::setscrreg"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"subwin\"), disambiguator: 0 }]","has_unsafe":true,"name":"Window::subwin"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"timeout\"), disambiguator: 0 }]","has_unsafe":true,"name":"Window::timeout"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"ungetch\"), disambiguator: 0 }]","has_unsafe":true,"name":"Window::ungetch"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"vline\"), disambiguator: 0 }]","has_unsafe":true,"name":"Window::vline"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"baudrate\"), disambiguator: 0 }]","has_unsafe":true,"name":"baudrate"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"beep\"), disambiguator: 0 }]","has_unsafe":true,"name":"beep"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"can_change_color\"), disambiguator: 0 }]","has_unsafe":true,"name":"can_change_color"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"cbreak\"), disambiguator: 0 }]","has_unsafe":true,"name":"cbreak"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"color_content\"), disambiguator: 0 }]","has_unsafe":true,"name":"color_content"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"curs_set\"), disambiguator: 0 }]","has_unsafe":true,"name":"curs_set"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"def_prog_mode\"), disambiguator: 0 }]","has_unsafe":true,"name":"def_prog_mode"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"def_shell_mode\"), disambiguator: 0 }]","has_unsafe":true,"name":"def_shell_mode"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"endwin\"), disambiguator: 0 }]","has_unsafe":true,"name":"endwin"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"flash\"), disambiguator: 0 }]","has_unsafe":true,"name":"flash"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"flushinp\"), disambiguator: 0 }]","has_unsafe":true,"name":"flushinp"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"getmouse\"), disambiguator: 0 }]","has_unsafe":true,"name":"getmouse"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"half_delay\"), disambiguator: 0 }]","has_unsafe":true,"name":"half_delay"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"has_colors\"), disambiguator: 0 }]","has_unsafe":true,"name":"has_colors"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"initscr\"), disambiguator: 0 }]","has_unsafe":true,"name":"initscr"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"init_color\"), disambiguator: 0 }]","has_unsafe":true,"name":"init_color"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"init_pair\"), disambiguator: 0 }]","has_unsafe":true,"name":"init_pair"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"mousemask\"), disambiguator: 0 }]","has_unsafe":true,"name":"mousemask"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"napms\"), disambiguator: 0 }]","has_unsafe":true,"name":"napms"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"newwin\"), disambiguator: 0 }]","has_unsafe":true,"name":"newwin"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"nl\"), disambiguator: 0 }]","has_unsafe":true,"name":"nl"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"nocbreak\"), disambiguator: 0 }]","has_unsafe":true,"name":"nocbreak"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"noecho\"), disambiguator: 0 }]","has_unsafe":true,"name":"noecho"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"reset_prog_mode\"), disambiguator: 0 }]","has_unsafe":true,"name":"reset_prog_mode"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"reset_shell_mode\"), disambiguator: 0 }]","has_unsafe":true,"name":"reset_shell_mode"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"resize_term\"), disambiguator: 0 }]","has_unsafe":true,"name":"resize_term"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"set_blink\"), disambiguator: 0 }]","has_unsafe":false,"name":"set_blink"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"set_title\"), disambiguator: 0 }]","has_unsafe":false,"name":"set_title"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"start_color\"), disambiguator: 0 }]","has_unsafe":true,"name":"start_color"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"use_default_colors\"), disambiguator: 0 }]","has_unsafe":true,"name":"use_default_colors"}

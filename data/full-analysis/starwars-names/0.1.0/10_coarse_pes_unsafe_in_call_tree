@@ -1,0 +1,3 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"names\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_names\"), disambiguator: 0 }]","has_unsafe":false,"name":"names::get_names"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"all\"), disambiguator: 0 }]","has_unsafe":false,"name":"all"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"random\"), disambiguator: 0 }]","has_unsafe":true,"name":"random"}

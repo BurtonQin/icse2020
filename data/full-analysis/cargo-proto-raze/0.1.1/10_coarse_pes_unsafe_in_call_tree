@@ -1,0 +1,20 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"common\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<common::RazePackage as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"common\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<common::DependencyWithPath as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"common\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"generic_linux_cfgs\"), disambiguator: 0 }]","has_unsafe":false,"name":"common::generic_linux_cfgs"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"common\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"generate_build_file\"), disambiguator: 0 }]","has_unsafe":false,"name":"common::generate_build_file"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"common\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"bazelize_features\"), disambiguator: 0 }]","has_unsafe":false,"name":"common::bazelize_features"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"vendor\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"materialize\"), disambiguator: 0 }]","has_unsafe":true,"name":"vendor::materialize"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"vendor\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"cp_r\"), disambiguator: 0 }]","has_unsafe":true,"name":"vendor::cp_r"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"vendor\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"sha256\"), disambiguator: 0 }]","has_unsafe":true,"name":"vendor::sha256"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"workspace\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"materialize\"), disambiguator: 0 }]","has_unsafe":true,"name":"workspace::materialize"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"isnt_plus\"), disambiguator: 0 }]","has_unsafe":false,"name":"isnt_plus"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"isnt_colon\"), disambiguator: 0 }]","has_unsafe":false,"name":"isnt_colon"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"isnt_comma\"), disambiguator: 0 }]","has_unsafe":false,"name":"isnt_comma"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_override\"), disambiguator: 0 }]","has_unsafe":true,"name":"parse_override"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_overrides\"), disambiguator: 0 }]","has_unsafe":true,"name":"parse_overrides"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"decode\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Options as rustc_serialize::Decodable>::decode"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<DependencyOverride as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"real_main\"), disambiguator: 0 }]","has_unsafe":true,"name":"real_main"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"load_registry\"), disambiguator: 0 }]","has_unsafe":false,"name":"load_registry"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"verify_lock_file_path\"), disambiguator: 0 }]","has_unsafe":true,"name":"verify_lock_file_path"}

@@ -1,0 +1,10 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"cargo_expand_or_run_nightly\"), disambiguator: 0 }]","has_unsafe":true,"name":"cargo_expand_or_run_nightly"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"definitely_not_nightly\"), disambiguator: 0 }]","has_unsafe":false,"name":"definitely_not_nightly"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"cargo_binary\"), disambiguator: 0 }]","has_unsafe":false,"name":"cargo_binary"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"cargo_expand\"), disambiguator: 0 }]","has_unsafe":true,"name":"cargo_expand"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"wrap_args\"), disambiguator: 0 }]","has_unsafe":true,"name":"wrap_args"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"color_never\"), disambiguator: 0 }]","has_unsafe":false,"name":"color_never"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"which\"), disambiguator: 0 }]","has_unsafe":false,"name":"which"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"filter_err\"), disambiguator: 0 }]","has_unsafe":false,"name":"filter_err"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"ignore_cargo_err\"), disambiguator: 0 }]","has_unsafe":false,"name":"ignore_cargo_err"}

@@ -1,0 +1,3 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"write_first_packet\"), disambiguator: 0 }]","has_unsafe":false,"name":"write_first_packet"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"write_second_packet\"), disambiguator: 0 }]","has_unsafe":false,"name":"write_second_packet"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}

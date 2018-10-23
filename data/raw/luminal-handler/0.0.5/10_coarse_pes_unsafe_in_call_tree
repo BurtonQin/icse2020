@@ -1,0 +1,4 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"<HandlerService<H>>::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"call\"), disambiguator: 0 }]","has_unsafe":true,"name":"<HandlerService<H> as hyper::client::Service>::call"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"handler_fn\"), disambiguator: 0 }]","has_unsafe":false,"name":"handler_fn"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"handle\"), disambiguator: 0 }]","has_unsafe":true,"name":"<HandlerFn<F> as Handler>::handle"}

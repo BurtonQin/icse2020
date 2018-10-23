@@ -1,0 +1,8 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"ip\"), disambiguator: 0 }]","has_unsafe":true,"name":"ip"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"ipv4\"), disambiguator: 0 }]","has_unsafe":true,"name":"ipv4"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"ipv6\"), disambiguator: 0 }]","has_unsafe":true,"name":"ipv6"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_string_literal\"), disambiguator: 0 }]","has_unsafe":true,"name":"parse_string_literal"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"quote_ipv4\"), disambiguator: 0 }]","has_unsafe":true,"name":"quote_ipv4"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"quote_ipv6\"), disambiguator: 0 }]","has_unsafe":true,"name":"quote_ipv6"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_ts\"), disambiguator: 0 }]","has_unsafe":false,"name":"parse_ts"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","has_unsafe":true,"name":"registrar::_registrar"}

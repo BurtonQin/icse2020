@@ -1,0 +1,16 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":true,"name":"Storage::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"sync\"), disambiguator: 0 }]","has_unsafe":false,"name":"Storage::sync"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Storage as std::fmt::Display>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"save\"), disambiguator: 0 }]","has_unsafe":true,"name":"save"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"load\"), disambiguator: 0 }]","has_unsafe":false,"name":"load"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"rm\"), disambiguator: 0 }]","has_unsafe":false,"name":"rm"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"rmdir\"), disambiguator: 0 }]","has_unsafe":false,"name":"rmdir"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"mkdir\"), disambiguator: 0 }]","has_unsafe":false,"name":"mkdir"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"mv_ll\"), disambiguator: 0 }]","has_unsafe":false,"name":"mv_ll"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"mv\"), disambiguator: 0 }]","has_unsafe":false,"name":"mv"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_permissions\"), disambiguator: 0 }]","has_unsafe":false,"name":"get_permissions"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"set_permissions\"), disambiguator: 0 }]","has_unsafe":false,"name":"set_permissions"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"fnrm_first\"), disambiguator: 0 }]","has_unsafe":true,"name":"fnrm_first"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"copy\"), disambiguator: 0 }]","has_unsafe":true,"name":"copy"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_exists\"), disambiguator: 0 }]","has_unsafe":false,"name":"get_exists"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"path_type\"), disambiguator: 0 }]","has_unsafe":true,"name":"path_type"}

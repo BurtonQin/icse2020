@@ -1,0 +1,76 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"range\"), disambiguator: 0 }]","has_unsafe":false,"name":"range"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"next\"), disambiguator: 0 }]","has_unsafe":false,"name":"<FRange as std::iter::Iterator>::next"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"zip\"), disambiguator: 0 }]","has_unsafe":true,"name":"zip"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"to_f64\"), disambiguator: 0 }]","has_unsafe":true,"name":"to_f64"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"valr\"), disambiguator: 0 }]","has_unsafe":false,"name":"valr"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"mapr\"), disambiguator: 0 }]","has_unsafe":true,"name":"mapr"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"mapv\"), disambiguator: 0 }]","has_unsafe":true,"name":"mapv"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"to_str\"), disambiguator: 0 }]","has_unsafe":false,"name":"PlotKind::to_str"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":true,"name":"Series::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"kind_ref\"), disambiguator: 0 }]","has_unsafe":true,"name":"Series::kind_ref"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"xaxis\"), disambiguator: 0 }]","has_unsafe":true,"name":"Series::xaxis"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"yaxis\"), disambiguator: 0 }]","has_unsafe":true,"name":"Series::yaxis"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"fill\"), disambiguator: 0 }]","has_unsafe":true,"name":"Series::fill"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"fill_color\"), disambiguator: 0 }]","has_unsafe":true,"name":"Series::fill_color"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"color\"), disambiguator: 0 }]","has_unsafe":true,"name":"Series::color"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"line_width\"), disambiguator: 0 }]","has_unsafe":true,"name":"Series::line_width"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"radius\"), disambiguator: 0 }]","has_unsafe":true,"name":"Series::radius"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"symbol\"), disambiguator: 0 }]","has_unsafe":true,"name":"Series::symbol"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"steps\"), disambiguator: 0 }]","has_unsafe":true,"name":"Series::steps"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"width\"), disambiguator: 0 }]","has_unsafe":true,"name":"Series::width"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"to_str\"), disambiguator: 0 }]","has_unsafe":false,"name":"Corner::to_str"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"to_str\"), disambiguator: 0 }]","has_unsafe":false,"name":"Side::to_str"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":true,"name":"Axis::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"set_option\"), disambiguator: 0 }]","has_unsafe":true,"name":"Axis::set_option"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"axis_function\"), disambiguator: 0 }]","has_unsafe":false,"name":"Axis::axis_function"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"transform\"), disambiguator: 0 }]","has_unsafe":false,"name":"Axis::transform"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"label_formatter\"), disambiguator: 0 }]","has_unsafe":false,"name":"Axis::label_formatter"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"label_post\"), disambiguator: 0 }]","has_unsafe":false,"name":"Axis::label_post"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"label_pre\"), disambiguator: 0 }]","has_unsafe":false,"name":"Axis::label_pre"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"min\"), disambiguator: 0 }]","has_unsafe":true,"name":"Axis::min"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"max\"), disambiguator: 0 }]","has_unsafe":true,"name":"Axis::max"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"position\"), disambiguator: 0 }]","has_unsafe":true,"name":"Axis::position"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"time\"), disambiguator: 0 }]","has_unsafe":true,"name":"Axis::time"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"tick_values\"), disambiguator: 0 }]","has_unsafe":true,"name":"Axis::tick_values"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"tick_values_and_labels\"), disambiguator: 0 }]","has_unsafe":true,"name":"Axis::tick_values_and_labels"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":true,"name":"Markings::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"markings\"), disambiguator: 0 }]","has_unsafe":true,"name":"Markings::markings"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"add_marking\"), disambiguator: 0 }]","has_unsafe":true,"name":"Markings::add_marking"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"vertical_area\"), disambiguator: 0 }]","has_unsafe":true,"name":"Markings::vertical_area"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"horizontal_area\"), disambiguator: 0 }]","has_unsafe":true,"name":"Markings::horizontal_area"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"vertical_line\"), disambiguator: 0 }]","has_unsafe":true,"name":"Markings::vertical_line"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"horizontal_line\"), disambiguator: 0 }]","has_unsafe":true,"name":"Markings::horizontal_line"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"area\"), disambiguator: 0 }]","has_unsafe":true,"name":"Markings::area"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"color\"), disambiguator: 0 }]","has_unsafe":true,"name":"Markings::color"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":true,"name":"Grid::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"set_option\"), disambiguator: 0 }]","has_unsafe":true,"name":"Grid::set_option"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"hide\"), disambiguator: 0 }]","has_unsafe":true,"name":"Grid::hide"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"color\"), disambiguator: 0 }]","has_unsafe":true,"name":"Grid::color"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"background_color\"), disambiguator: 0 }]","has_unsafe":true,"name":"Grid::background_color"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"background_gradient\"), disambiguator: 0 }]","has_unsafe":true,"name":"Grid::background_gradient"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 8 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":true,"name":"Legend::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 8 }, DisambiguatedDefPathData { data: ValueNs(\"set_option\"), disambiguator: 0 }]","has_unsafe":true,"name":"Legend::set_option"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 8 }, DisambiguatedDefPathData { data: ValueNs(\"pos\"), disambiguator: 0 }]","has_unsafe":true,"name":"Legend::pos"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 9 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"Plot::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 9 }, DisambiguatedDefPathData { data: ValueNs(\"text\"), disambiguator: 0 }]","has_unsafe":false,"name":"Plot::text"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 9 }, DisambiguatedDefPathData { data: ValueNs(\"html\"), disambiguator: 0 }]","has_unsafe":false,"name":"Plot::html"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 9 }, DisambiguatedDefPathData { data: ValueNs(\"size\"), disambiguator: 0 }]","has_unsafe":false,"name":"Plot::size"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 9 }, DisambiguatedDefPathData { data: ValueNs(\"xaxis\"), disambiguator: 0 }]","has_unsafe":true,"name":"Plot::xaxis"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 9 }, DisambiguatedDefPathData { data: ValueNs(\"yaxis\"), disambiguator: 0 }]","has_unsafe":true,"name":"Plot::yaxis"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 9 }, DisambiguatedDefPathData { data: ValueNs(\"yaxis2\"), disambiguator: 0 }]","has_unsafe":true,"name":"Plot::yaxis2"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 9 }, DisambiguatedDefPathData { data: ValueNs(\"points\"), disambiguator: 0 }]","has_unsafe":true,"name":"Plot::points"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 9 }, DisambiguatedDefPathData { data: ValueNs(\"lines\"), disambiguator: 0 }]","has_unsafe":true,"name":"Plot::lines"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 9 }, DisambiguatedDefPathData { data: ValueNs(\"bars\"), disambiguator: 0 }]","has_unsafe":true,"name":"Plot::bars"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 9 }, DisambiguatedDefPathData { data: ValueNs(\"legend_pos\"), disambiguator: 0 }]","has_unsafe":true,"name":"Plot::legend_pos"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 9 }, DisambiguatedDefPathData { data: ValueNs(\"legend\"), disambiguator: 0 }]","has_unsafe":true,"name":"Plot::legend"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 9 }, DisambiguatedDefPathData { data: ValueNs(\"grid\"), disambiguator: 0 }]","has_unsafe":true,"name":"Plot::grid"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 9 }, DisambiguatedDefPathData { data: ValueNs(\"extra_symbols\"), disambiguator: 0 }]","has_unsafe":false,"name":"Plot::extra_symbols"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 9 }, DisambiguatedDefPathData { data: ValueNs(\"markings\"), disambiguator: 0 }]","has_unsafe":true,"name":"Plot::markings"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 9 }, DisambiguatedDefPathData { data: ValueNs(\"set_option\"), disambiguator: 0 }]","has_unsafe":true,"name":"Plot::set_option"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 9 }, DisambiguatedDefPathData { data: ValueNs(\"render_placeholder\"), disambiguator: 0 }]","has_unsafe":true,"name":"Plot::render_placeholder"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 9 }, DisambiguatedDefPathData { data: ValueNs(\"render_script\"), disambiguator: 0 }]","has_unsafe":true,"name":"Plot::render_script"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"script\"), disambiguator: 0 }]","has_unsafe":false,"name":"script"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 10 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"Page::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 10 }, DisambiguatedDefPathData { data: ValueNs(\"plot\"), disambiguator: 0 }]","has_unsafe":true,"name":"Page::plot"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 10 }, DisambiguatedDefPathData { data: ValueNs(\"size\"), disambiguator: 0 }]","has_unsafe":false,"name":"Page::size"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 10 }, DisambiguatedDefPathData { data: ValueNs(\"render\"), disambiguator: 0 }]","has_unsafe":true,"name":"Page::render"}

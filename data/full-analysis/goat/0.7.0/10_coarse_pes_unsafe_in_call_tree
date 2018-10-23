@@ -1,0 +1,9 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"keymapping\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"parse_mappings\"), disambiguator: 0 }]","has_unsafe":false,"name":"keymapping::parse_mappings"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"ui\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"ui::AppState::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"ui\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"time_passed_in_seconds\"), disambiguator: 0 }]","has_unsafe":false,"name":"ui::AppState::time_passed_in_seconds"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"ui\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"progress_in_percent\"), disambiguator: 0 }]","has_unsafe":false,"name":"ui::AppState::progress_in_percent"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"ui\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"at_end\"), disambiguator: 0 }]","has_unsafe":false,"name":"ui::AppState::at_end"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"ui\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"run\"), disambiguator: 0 }]","has_unsafe":true,"name":"ui::run"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"ui\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"draw\"), disambiguator: 0 }]","has_unsafe":true,"name":"ui::draw"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"app\"), disambiguator: 0 }]","has_unsafe":true,"name":"app"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}

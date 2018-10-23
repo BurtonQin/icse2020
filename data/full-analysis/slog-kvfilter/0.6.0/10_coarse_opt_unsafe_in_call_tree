@@ -1,0 +1,6 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"emit_arguments\"), disambiguator: 0 }]","has_unsafe":false,"name":"<FilteringSerializer<'a> as slog::Serializer>::emit_arguments"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"<KVFilter<D>>::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"only_pass_any_on_all_keys\"), disambiguator: 0 }]","has_unsafe":false,"name":"<KVFilter<D>>::only_pass_any_on_all_keys"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"always_suppress_any\"), disambiguator: 0 }]","has_unsafe":false,"name":"<KVFilter<D>>::always_suppress_any"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"is_match\"), disambiguator: 0 }]","has_unsafe":false,"name":"<KVFilter<D>>::is_match"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"log\"), disambiguator: 0 }]","has_unsafe":false,"name":"<KVFilter<D> as slog::Drain>::log"}

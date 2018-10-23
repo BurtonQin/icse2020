@@ -1,0 +1,20 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"execute_runner\"), disambiguator: 0 }]","has_unsafe":true,"name":"execute_runner"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"app\"), disambiguator: 0 }]","has_unsafe":true,"name":"SubCommandRun::app"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"execute\"), disambiguator: 0 }]","has_unsafe":true,"name":"SubCommandRun::execute"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"app\"), disambiguator: 0 }]","has_unsafe":true,"name":"SubCommandRequest::app"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"execute\"), disambiguator: 0 }]","has_unsafe":true,"name":"SubCommandRequest::execute"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"app\"), disambiguator: 0 }]","has_unsafe":true,"name":"SubCommandGet::app"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"execute\"), disambiguator: 0 }]","has_unsafe":true,"name":"SubCommandGet::execute"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"app\"), disambiguator: 0 }]","has_unsafe":true,"name":"SubCommandHead::app"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"execute\"), disambiguator: 0 }]","has_unsafe":true,"name":"SubCommandHead::execute"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"app\"), disambiguator: 0 }]","has_unsafe":true,"name":"SubCommandDelete::app"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"execute\"), disambiguator: 0 }]","has_unsafe":true,"name":"SubCommandDelete::execute"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"app\"), disambiguator: 0 }]","has_unsafe":true,"name":"SubCommandPut::app"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"execute\"), disambiguator: 0 }]","has_unsafe":true,"name":"SubCommandPut::execute"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"app\"), disambiguator: 0 }]","has_unsafe":true,"name":"SubCommandPost::app"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"execute\"), disambiguator: 0 }]","has_unsafe":true,"name":"SubCommandPost::execute"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"app\"), disambiguator: 0 }]","has_unsafe":true,"name":"SubCommandSummary::app"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"execute\"), disambiguator: 0 }]","has_unsafe":true,"name":"SubCommandSummary::execute"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 8 }, DisambiguatedDefPathData { data: ValueNs(\"app\"), disambiguator: 0 }]","has_unsafe":true,"name":"SubCommandTimeSeries::app"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 8 }, DisambiguatedDefPathData { data: ValueNs(\"execute\"), disambiguator: 0 }]","has_unsafe":true,"name":"SubCommandTimeSeries::execute"}

@@ -1,0 +1,3 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"diff\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"diff\"), disambiguator: 0 }]","has_unsafe":true,"name":"diff::diff"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"patch\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"patch\"), disambiguator: 0 }]","has_unsafe":false,"name":"patch::patch"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"patch\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"offtin\"), disambiguator: 0 }]","has_unsafe":false,"name":"patch::offtin"}

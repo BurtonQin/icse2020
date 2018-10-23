@@ -1,0 +1,9 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"io\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_date\"), disambiguator: 0 }]","has_unsafe":true,"name":"io::get_date"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"io\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"print\"), disambiguator: 0 }]","has_unsafe":true,"name":"io::print"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"print\"), disambiguator: 0 }]","has_unsafe":true,"name":"Logger::print"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"set_max_level\"), disambiguator: 0 }]","has_unsafe":false,"name":"Logger::set_max_level"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"enabled\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Logger as log::Log>::enabled"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"log\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Logger as log::Log>::log"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"flush\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Logger as log::Log>::flush"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"init\"), disambiguator: 0 }]","has_unsafe":true,"name":"init"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"init_with_max_level\"), disambiguator: 0 }]","has_unsafe":true,"name":"init_with_max_level"}

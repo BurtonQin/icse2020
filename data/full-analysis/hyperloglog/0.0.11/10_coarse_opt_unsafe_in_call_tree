@@ -1,0 +1,15 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":true,"name":"<HyperLogLog<V>>::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new_from_template\"), disambiguator: 0 }]","has_unsafe":false,"name":"<HyperLogLog<V>>::new_from_template"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"insert\"), disambiguator: 0 }]","has_unsafe":false,"name":"<HyperLogLog<V>>::insert"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"len\"), disambiguator: 0 }]","has_unsafe":false,"name":"<HyperLogLog<V>>::len"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"is_empty\"), disambiguator: 0 }]","has_unsafe":false,"name":"<HyperLogLog<V>>::is_empty"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"merge\"), disambiguator: 0 }]","has_unsafe":false,"name":"<HyperLogLog<V>>::merge"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"clear\"), disambiguator: 0 }]","has_unsafe":false,"name":"<HyperLogLog<V>>::clear"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_treshold\"), disambiguator: 0 }]","has_unsafe":false,"name":"<HyperLogLog<V>>::get_treshold"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_alpha\"), disambiguator: 0 }]","has_unsafe":false,"name":"<HyperLogLog<V>>::get_alpha"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"bit_length\"), disambiguator: 0 }]","has_unsafe":false,"name":"<HyperLogLog<V>>::bit_length"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_rho\"), disambiguator: 0 }]","has_unsafe":false,"name":"<HyperLogLog<V>>::get_rho"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"vec_count_zero\"), disambiguator: 0 }]","has_unsafe":false,"name":"<HyperLogLog<V>>::vec_count_zero"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"estimate_bias\"), disambiguator: 0 }]","has_unsafe":false,"name":"<HyperLogLog<V>>::estimate_bias"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_nearest_neighbors\"), disambiguator: 0 }]","has_unsafe":false,"name":"<HyperLogLog<V>>::get_nearest_neighbors"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"ep\"), disambiguator: 0 }]","has_unsafe":false,"name":"<HyperLogLog<V>>::ep"}

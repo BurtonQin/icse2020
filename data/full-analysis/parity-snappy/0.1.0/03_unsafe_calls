@@ -1,0 +1,5 @@
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"snappy_validate_compressed_buffer\"), disambiguator: 0 }]","name":"snappy_validate_compressed_buffer"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"snappy_compress\"), disambiguator: 0 }]","name":"snappy_compress"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"snappy_max_compressed_length\"), disambiguator: 0 }]","name":"snappy_max_compressed_length"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"snappy_uncompressed_length\"), disambiguator: 0 }]","name":"snappy_uncompressed_length"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"snappy_uncompress\"), disambiguator: 0 }]","name":"snappy_uncompress"}

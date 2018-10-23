@@ -1,0 +1,7 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"ellipse\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"ellipse::Ellipse::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"ellipse\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"inside\"), disambiguator: 0 }]","has_unsafe":false,"name":"ellipse::Ellipse::inside"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"ellipse\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"intensity\"), disambiguator: 0 }]","has_unsafe":false,"name":"ellipse::Ellipse::intensity"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"ellipse\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"bounding_box\"), disambiguator: 0 }]","has_unsafe":false,"name":"ellipse::Ellipse::bounding_box"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"shepplogan\"), disambiguator: 0 }]","has_unsafe":false,"name":"shepplogan"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"shepplogan_modified\"), disambiguator: 0 }]","has_unsafe":false,"name":"shepplogan_modified"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"phantom\"), disambiguator: 0 }]","has_unsafe":false,"name":"phantom"}

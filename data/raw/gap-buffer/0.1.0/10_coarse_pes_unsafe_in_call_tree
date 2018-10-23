@@ -1,0 +1,16 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"insert_str\"), disambiguator: 0 }]","has_unsafe":true,"name":"GapBuffer::insert_str"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"remove\"), disambiguator: 0 }]","has_unsafe":true,"name":"GapBuffer::remove"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"with_capacity\"), disambiguator: 0 }]","has_unsafe":true,"name":"GapBuffer::with_capacity"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"allocate_extra\"), disambiguator: 0 }]","has_unsafe":true,"name":"GapBuffer::allocate_extra"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"buf_len\"), disambiguator: 0 }]","has_unsafe":true,"name":"GapBuffer::buf_len"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"clear\"), disambiguator: 0 }]","has_unsafe":false,"name":"GapBuffer::clear"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"gap_len\"), disambiguator: 0 }]","has_unsafe":true,"name":"GapBuffer::gap_len"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"grow_gap\"), disambiguator: 0 }]","has_unsafe":true,"name":"GapBuffer::grow_gap"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"head\"), disambiguator: 0 }]","has_unsafe":true,"name":"GapBuffer::head"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"move_gap_to\"), disambiguator: 0 }]","has_unsafe":true,"name":"GapBuffer::move_gap_to"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"tail\"), disambiguator: 0 }]","has_unsafe":true,"name":"GapBuffer::tail"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":true,"name":"<GapBuffer as std::fmt::Display>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"drop\"), disambiguator: 0 }]","has_unsafe":true,"name":"<GapBuffer as std::ops::Drop>::drop"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"ptr_to_isize\"), disambiguator: 0 }]","has_unsafe":true,"name":"ptr_to_isize"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"ptr_diff\"), disambiguator: 0 }]","has_unsafe":true,"name":"ptr_diff"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"string_from_segment\"), disambiguator: 0 }]","has_unsafe":true,"name":"string_from_segment"}

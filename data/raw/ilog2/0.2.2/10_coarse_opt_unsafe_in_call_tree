@@ -1,0 +1,8 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":false,"name":"main"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"test_bitops\"), disambiguator: 0 }]","has_unsafe":false,"name":"test_bitops"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"test_msb\"), disambiguator: 0 }]","has_unsafe":false,"name":"test_msb"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"test_lsb\"), disambiguator: 0 }]","has_unsafe":false,"name":"test_lsb"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"test_msz\"), disambiguator: 0 }]","has_unsafe":false,"name":"test_msz"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"test_lsz\"), disambiguator: 0 }]","has_unsafe":false,"name":"test_lsz"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"test_rounddown\"), disambiguator: 0 }]","has_unsafe":false,"name":"test_rounddown"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"test_roundup\"), disambiguator: 0 }]","has_unsafe":false,"name":"test_roundup"}

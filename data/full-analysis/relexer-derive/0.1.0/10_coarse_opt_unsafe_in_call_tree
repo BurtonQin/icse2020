@@ -1,0 +1,5 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"Token\"), disambiguator: 0 }]","has_unsafe":false,"name":"Token"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"token_derive\"), disambiguator: 0 }]","has_unsafe":false,"name":"token_derive"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"has_skip\"), disambiguator: 0 }]","has_unsafe":false,"name":"has_skip"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"check_regex\"), disambiguator: 0 }]","has_unsafe":true,"name":"check_regex"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","has_unsafe":true,"name":"registrar::_registrar"}

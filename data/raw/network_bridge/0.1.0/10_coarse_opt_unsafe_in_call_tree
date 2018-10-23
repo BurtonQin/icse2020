@@ -1,0 +1,11 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"BridgeBuilder::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"name\"), disambiguator: 0 }]","has_unsafe":false,"name":"BridgeBuilder::name"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"interface\"), disambiguator: 0 }]","has_unsafe":true,"name":"BridgeBuilder::interface"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"remove_interface\"), disambiguator: 0 }]","has_unsafe":true,"name":"BridgeBuilder::remove_interface"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"build\"), disambiguator: 0 }]","has_unsafe":true,"name":"BridgeBuilder::build"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"create_bridge\"), disambiguator: 0 }]","has_unsafe":true,"name":"create_bridge"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"delete_bridge\"), disambiguator: 0 }]","has_unsafe":true,"name":"delete_bridge"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"interface_id\"), disambiguator: 0 }]","has_unsafe":true,"name":"interface_id"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"bridge_del_add_if\"), disambiguator: 0 }]","has_unsafe":true,"name":"bridge_del_add_if"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"add_interface_to_bridge\"), disambiguator: 0 }]","has_unsafe":true,"name":"add_interface_to_bridge"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"delete_interface_from_bridge\"), disambiguator: 0 }]","has_unsafe":true,"name":"delete_interface_from_bridge"}

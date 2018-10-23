@@ -1,0 +1,16 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"process\"), disambiguator: 0 }]","has_unsafe":false,"name":"<DummySource as minions::elem::source::Source>::process"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<SourceState as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"process\"), disambiguator: 0 }]","has_unsafe":true,"name":"<SourceState as minions::elem::source::Source>::process"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"time_baseline\"), disambiguator: 0 }]","has_unsafe":true,"name":"time_baseline"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"send_data\"), disambiguator: 0 }]","has_unsafe":true,"name":"send_data"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"indirect_send_data\"), disambiguator: 0 }]","has_unsafe":true,"name":"indirect_send_data"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"locked_send_data\"), disambiguator: 0 }]","has_unsafe":true,"name":"locked_send_data"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"lotted_send_data\"), disambiguator: 0 }]","has_unsafe":true,"name":"lotted_send_data"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"mpsc_send_data\"), disambiguator: 0 }]","has_unsafe":true,"name":"mpsc_send_data"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"receive_data\"), disambiguator: 0 }]","has_unsafe":true,"name":"receive_data"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"source_send_data\"), disambiguator: 0 }]","has_unsafe":true,"name":"source_send_data"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"source_send_data_with_swap\"), disambiguator: 0 }]","has_unsafe":true,"name":"source_send_data_with_swap"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"add_task_time\"), disambiguator: 0 }]","has_unsafe":true,"name":"add_task_time"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"start_stop\"), disambiguator: 0 }]","has_unsafe":true,"name":"start_stop"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"dummy_start_stop\"), disambiguator: 0 }]","has_unsafe":true,"name":"dummy_start_stop"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}

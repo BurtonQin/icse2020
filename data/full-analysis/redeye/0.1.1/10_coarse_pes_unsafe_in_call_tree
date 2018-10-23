@@ -1,0 +1,4 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_cli_opts\"), disambiguator: 0 }]","has_unsafe":true,"name":"parse_cli_opts"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"new_parser_task\"), disambiguator: 0 }]","has_unsafe":false,"name":"new_parser_task"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"handle_redeye_error\"), disambiguator: 0 }]","has_unsafe":false,"name":"handle_redeye_error"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}

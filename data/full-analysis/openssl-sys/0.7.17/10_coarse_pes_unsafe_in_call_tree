@@ -1,0 +1,14 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 13 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<BIO_METHOD as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<EVP_MD_CTX as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<EVP_CIPHER as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<HMAC_CTX as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 8 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<GENERAL_NAME as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 10 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<X509V3_CTX as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 12 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<BIGNUM as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"init\"), disambiguator: 0 }]","has_unsafe":true,"name":"init"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"set_id_callback\"), disambiguator: 0 }]","has_unsafe":true,"name":"set_id_callback"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"probe\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"find_certs_dirs\"), disambiguator: 0 }]","has_unsafe":false,"name":"probe::find_certs_dirs"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"probe\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"init_ssl_cert_env_vars\"), disambiguator: 0 }]","has_unsafe":false,"name":"probe::init_ssl_cert_env_vars"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"probe\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"init_ssl_cert_env_vars\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"put\"), disambiguator: 0 }]","has_unsafe":false,"name":"probe::init_ssl_cert_env_vars::put"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"probe\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"probe\"), disambiguator: 0 }]","has_unsafe":false,"name":"probe::probe"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"probe\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"try\"), disambiguator: 0 }]","has_unsafe":false,"name":"probe::try"}

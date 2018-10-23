@@ -1,0 +1,9 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"http_name\"), disambiguator: 0 }]","has_unsafe":false,"name":"http_name"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"eq\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Version as std::cmp::PartialEq>::eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"ne\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Version as std::cmp::PartialEq>::ne"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Version as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"as_digit\"), disambiguator: 0 }]","has_unsafe":false,"name":"as_digit"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"http_version\"), disambiguator: 0 }]","has_unsafe":true,"name":"http_version"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"space\"), disambiguator: 0 }]","has_unsafe":false,"name":"space"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"crlf\"), disambiguator: 0 }]","has_unsafe":false,"name":"crlf"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"request_target\"), disambiguator: 0 }]","has_unsafe":false,"name":"request_target"}

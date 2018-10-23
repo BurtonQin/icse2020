@@ -1,0 +1,9 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"encode\"), disambiguator: 0 }]","has_unsafe":false,"name":"encode"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<StrictEncodeSet as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"contains\"), disambiguator: 0 }]","has_unsafe":false,"name":"<StrictEncodeSet as url::percent_encoding::EncodeSet>::contains"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_launch_params\"), disambiguator: 0 }]","has_unsafe":true,"name":"parse_launch_params"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"find_oauth_signature_index\"), disambiguator: 0 }]","has_unsafe":false,"name":"find_oauth_signature_index"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"signed_launch_params\"), disambiguator: 0 }]","has_unsafe":false,"name":"signed_launch_params"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"request_signature\"), disambiguator: 0 }]","has_unsafe":false,"name":"request_signature"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"signature\"), disambiguator: 0 }]","has_unsafe":true,"name":"signature"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"verify_lti_launch\"), disambiguator: 0 }]","has_unsafe":true,"name":"verify_lti_launch"}

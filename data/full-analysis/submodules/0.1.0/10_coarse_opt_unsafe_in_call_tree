@@ -1,0 +1,12 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"update\"), disambiguator: 0 }]","has_unsafe":false,"name":"update"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"arg\"), disambiguator: 0 }]","has_unsafe":false,"name":"Update::arg"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"init\"), disambiguator: 0 }]","has_unsafe":false,"name":"Update::init"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"rebase\"), disambiguator: 0 }]","has_unsafe":false,"name":"Update::rebase"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"merge\"), disambiguator: 0 }]","has_unsafe":false,"name":"Update::merge"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"checkout\"), disambiguator: 0 }]","has_unsafe":false,"name":"Update::checkout"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"remote\"), disambiguator: 0 }]","has_unsafe":false,"name":"Update::remote"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"no_fetch\"), disambiguator: 0 }]","has_unsafe":false,"name":"Update::no_fetch"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"recursive\"), disambiguator: 0 }]","has_unsafe":false,"name":"Update::recursive"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"force\"), disambiguator: 0 }]","has_unsafe":false,"name":"Update::force"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"run\"), disambiguator: 0 }]","has_unsafe":false,"name":"Update::run"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"fail\"), disambiguator: 0 }]","has_unsafe":false,"name":"fail"}

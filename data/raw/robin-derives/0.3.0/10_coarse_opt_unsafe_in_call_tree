@@ -1,0 +1,9 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"each_variant\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"derive\"), disambiguator: 0 }]","has_unsafe":false,"name":"each_variant::derive"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"jobs\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"derive\"), disambiguator: 0 }]","has_unsafe":false,"name":"jobs::derive"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"jobs\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lookup_job_impl\"), disambiguator: 0 }]","has_unsafe":false,"name":"jobs::lookup_job_impl"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"jobs\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"job_impl\"), disambiguator: 0 }]","has_unsafe":false,"name":"jobs::job_impl"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"jobs\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"underscore\"), disambiguator: 0 }]","has_unsafe":false,"name":"jobs::underscore"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"derive_each_variant\"), disambiguator: 0 }]","has_unsafe":true,"name":"derive_each_variant"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"derive_jobs\"), disambiguator: 0 }]","has_unsafe":true,"name":"derive_jobs"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"expand_derive\"), disambiguator: 0 }]","has_unsafe":true,"name":"expand_derive"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","has_unsafe":true,"name":"registrar::_registrar"}

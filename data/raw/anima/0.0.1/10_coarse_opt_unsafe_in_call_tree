@@ -1,0 +1,10 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"project\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"project::Project::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"project\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"open\"), disambiguator: 0 }]","has_unsafe":false,"name":"project::Project::open"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Args as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"decode\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Args as rustc_serialize::Decodable>::decode"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"new"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"init_mruby\"), disambiguator: 0 }]","has_unsafe":false,"name":"init_mruby"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"run\"), disambiguator: 0 }]","has_unsafe":false,"name":"run"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"build\"), disambiguator: 0 }]","has_unsafe":false,"name":"build"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"package\"), disambiguator: 0 }]","has_unsafe":false,"name":"package"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}

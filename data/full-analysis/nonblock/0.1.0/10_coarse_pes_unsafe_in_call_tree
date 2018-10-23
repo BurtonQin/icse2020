@@ -1,0 +1,6 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"from_fd\"), disambiguator: 0 }]","has_unsafe":true,"name":"<NonBlockingReader<R>>::from_fd"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"into_blocking\"), disambiguator: 0 }]","has_unsafe":true,"name":"<NonBlockingReader<R>>::into_blocking"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"is_eof\"), disambiguator: 0 }]","has_unsafe":false,"name":"<NonBlockingReader<R>>::is_eof"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"read_available\"), disambiguator: 0 }]","has_unsafe":true,"name":"<NonBlockingReader<R>>::read_available"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"read_available_to_string\"), disambiguator: 0 }]","has_unsafe":true,"name":"<NonBlockingReader<R>>::read_available_to_string"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"set_blocking\"), disambiguator: 0 }]","has_unsafe":true,"name":"set_blocking"}

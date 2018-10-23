@@ -1,0 +1,17 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"utils\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_byte_at\"), disambiguator: 0 }]","has_unsafe":false,"name":"utils::get_byte_at"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"utils\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"num_to_buffer\"), disambiguator: 0 }]","has_unsafe":false,"name":"utils::num_to_buffer"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<HOTPAlgorithm as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"from_buffer_len\"), disambiguator: 0 }]","has_unsafe":false,"name":"HOTPAlgorithm::from_buffer_len"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_algorithm\"), disambiguator: 0 }]","has_unsafe":false,"name":"HOTPAlgorithm::get_algorithm"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":true,"name":"HOTP::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"from_base32\"), disambiguator: 0 }]","has_unsafe":false,"name":"HOTP::from_base32"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"from_bin\"), disambiguator: 0 }]","has_unsafe":false,"name":"HOTP::from_bin"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"generate_secret\"), disambiguator: 0 }]","has_unsafe":true,"name":"HOTP::generate_secret"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"get_secret_base32\"), disambiguator: 0 }]","has_unsafe":false,"name":"HOTP::get_secret_base32"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"get_otp\"), disambiguator: 0 }]","has_unsafe":true,"name":"HOTP::get_otp"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"get_hotp_value\"), disambiguator: 0 }]","has_unsafe":false,"name":"HOTP::get_hotp_value"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"validate\"), disambiguator: 0 }]","has_unsafe":true,"name":"HOTP::validate"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"TOTP::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"get_time\"), disambiguator: 0 }]","has_unsafe":false,"name":"TOTP::get_time"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"get_otp\"), disambiguator: 0 }]","has_unsafe":true,"name":"TOTP::get_otp"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"validate\"), disambiguator: 0 }]","has_unsafe":true,"name":"TOTP::validate"}

@@ -1,0 +1,3 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"print_usage\"), disambiguator: 0 }]","has_unsafe":true,"name":"print_usage"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"print_banner\"), disambiguator: 0 }]","has_unsafe":false,"name":"print_banner"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}

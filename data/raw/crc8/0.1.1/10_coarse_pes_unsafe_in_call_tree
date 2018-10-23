@@ -1,0 +1,3 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"create_msb\"), disambiguator: 0 }]","has_unsafe":false,"name":"Crc8::create_msb"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"create_lsb\"), disambiguator: 0 }]","has_unsafe":false,"name":"Crc8::create_lsb"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"calc\"), disambiguator: 0 }]","has_unsafe":false,"name":"Crc8::calc"}

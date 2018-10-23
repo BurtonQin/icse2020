@@ -1,0 +1,5 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"extended\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"encode\"), disambiguator: 0 }]","has_unsafe":true,"name":"extended::encode"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"extended\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"decode\"), disambiguator: 0 }]","has_unsafe":true,"name":"extended::decode"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"standard\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"encode\"), disambiguator: 0 }]","has_unsafe":true,"name":"standard::encode"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"standard\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"decode\"), disambiguator: 0 }]","has_unsafe":true,"name":"standard::decode"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"standard\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"rotate_11\"), disambiguator: 0 }]","has_unsafe":false,"name":"standard::rotate_11"}

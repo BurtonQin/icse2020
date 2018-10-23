@@ -1,0 +1,11 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"tokio_google\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"native2io\"), disambiguator: 0 }]","has_unsafe":false,"name":"tokio_google::native2io"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"tokio_google\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"fetch_google\"), disambiguator: 0 }]","has_unsafe":true,"name":"tokio_google::fetch_google"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"tokio_google\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"wrong_hostname_error\"), disambiguator: 0 }]","has_unsafe":true,"name":"tokio_google::wrong_hostname_error"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"test_google\"), disambiguator: 0 }]","has_unsafe":true,"name":"test_google"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"connect_bad_hostname\"), disambiguator: 0 }]","has_unsafe":true,"name":"connect_bad_hostname"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"connect_bad_hostname_ignored\"), disambiguator: 0 }]","has_unsafe":true,"name":"connect_bad_hostname_ignored"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"parse_pem\"), disambiguator: 0 }]","has_unsafe":true,"name":"CertificatesAndKey::parse_pem"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"new_acceptor\"), disambiguator: 0 }]","has_unsafe":true,"name":"new_acceptor"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"new_connector_with_root_ca\"), disambiguator: 0 }]","has_unsafe":false,"name":"new_connector_with_root_ca"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"server\"), disambiguator: 0 }]","has_unsafe":true,"name":"server"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"alpn\"), disambiguator: 0 }]","has_unsafe":true,"name":"alpn"}

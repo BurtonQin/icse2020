@@ -1,0 +1,2 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"foo\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"hello\"), disambiguator: 0 }]","has_unsafe":false,"name":"foo::hello"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"foo\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Module(\"bar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"hello\"), disambiguator: 0 }]","has_unsafe":false,"name":"foo::bar::hello"}

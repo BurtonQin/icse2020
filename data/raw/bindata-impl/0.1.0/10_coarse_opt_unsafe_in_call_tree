@@ -1,0 +1,12 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"to_tokens\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Asset as quote::ToTokens>::to_tokens"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"to_tokens\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Bytes as quote::ToTokens>::to_tokens"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"read_bytes\"), disambiguator: 0 }]","has_unsafe":false,"name":"read_bytes"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"abs_path\"), disambiguator: 0 }]","has_unsafe":false,"name":"abs_path"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"relativize_path\"), disambiguator: 0 }]","has_unsafe":false,"name":"relativize_path"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"walk\"), disambiguator: 0 }]","has_unsafe":false,"name":"walk"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"bindata_impl\"), disambiguator: 0 }]","has_unsafe":true,"name":"bindata_impl"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"bindata_impl\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"parse_meta_list\"), disambiguator: 0 }]","has_unsafe":false,"name":"bindata_impl::parse_meta_list"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"bindata_impl\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"parse_meta_namevalue\"), disambiguator: 0 }]","has_unsafe":false,"name":"bindata_impl::parse_meta_namevalue"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"bindata_impl\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"parse_nestedmeta_meta\"), disambiguator: 0 }]","has_unsafe":false,"name":"bindata_impl::parse_nestedmeta_meta"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"bindata_impl\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"parse_string_literal\"), disambiguator: 0 }]","has_unsafe":false,"name":"bindata_impl::parse_string_literal"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","has_unsafe":true,"name":"registrar::_registrar"}

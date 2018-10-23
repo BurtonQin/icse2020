@@ -1,0 +1,2 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"logger\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"logger_init\"), disambiguator: 0 }]","has_unsafe":true,"name":"logger::logger_init"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}

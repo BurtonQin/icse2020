@@ -1,0 +1,4 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"lonlat2tile\"), disambiguator: 0 }]","has_unsafe":false,"name":"lonlat2tile"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"tile2lonlat\"), disambiguator: 0 }]","has_unsafe":false,"name":"tile2lonlat"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"zoom_in\"), disambiguator: 0 }]","has_unsafe":false,"name":"zoom_in"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"zoom_out\"), disambiguator: 0 }]","has_unsafe":false,"name":"zoom_out"}

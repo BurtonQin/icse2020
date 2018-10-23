@@ -1,0 +1,16 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"helpers\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"extract_attrs\"), disambiguator: 0 }]","has_unsafe":false,"name":"helpers::extract_attrs"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"helpers\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"unique_attr\"), disambiguator: 0 }]","has_unsafe":false,"name":"helpers::unique_attr"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"helpers\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"is_disabled\"), disambiguator: 0 }]","has_unsafe":false,"name":"helpers::is_disabled"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"to_string\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"to_string_inner\"), disambiguator: 0 }]","has_unsafe":false,"name":"to_string::to_string_inner"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"from_string\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"from_string_inner\"), disambiguator: 0 }]","has_unsafe":false,"name":"from_string::from_string_inner"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"enum_iter\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"enum_iter_inner\"), disambiguator: 0 }]","has_unsafe":false,"name":"enum_iter::enum_iter_inner"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"enum_messages\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"enum_message_inner\"), disambiguator: 0 }]","has_unsafe":false,"name":"enum_messages::enum_message_inner"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"enum_properties\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"extract_properties\"), disambiguator: 0 }]","has_unsafe":false,"name":"enum_properties::extract_properties"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"enum_properties\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"enum_properties_inner\"), disambiguator: 0 }]","has_unsafe":false,"name":"enum_properties::enum_properties_inner"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"debug_print_generated\"), disambiguator: 0 }]","has_unsafe":false,"name":"debug_print_generated"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"from_string\"), disambiguator: 0 }]","has_unsafe":false,"name":"from_string"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"to_string\"), disambiguator: 0 }]","has_unsafe":false,"name":"to_string"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"enum_iter\"), disambiguator: 0 }]","has_unsafe":false,"name":"enum_iter"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"enum_messages\"), disambiguator: 0 }]","has_unsafe":false,"name":"enum_messages"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"enum_properties\"), disambiguator: 0 }]","has_unsafe":false,"name":"enum_properties"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","has_unsafe":true,"name":"registrar::_registrar"}

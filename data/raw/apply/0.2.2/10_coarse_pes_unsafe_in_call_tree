@@ -1,0 +1,3 @@
+{"def_path":"[DisambiguatedDefPathData { data: Trait(\"Apply\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"apply\"), disambiguator: 0 }]","has_unsafe":true,"name":"Apply::apply"}
+{"def_path":"[DisambiguatedDefPathData { data: Trait(\"Apply\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"apply_ref\"), disambiguator: 0 }]","has_unsafe":true,"name":"Apply::apply_ref"}
+{"def_path":"[DisambiguatedDefPathData { data: Trait(\"Apply\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"apply_mut\"), disambiguator: 0 }]","has_unsafe":true,"name":"Apply::apply_mut"}

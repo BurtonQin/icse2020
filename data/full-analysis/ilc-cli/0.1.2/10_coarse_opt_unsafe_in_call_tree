@@ -1,0 +1,21 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"chain\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"read\"), disambiguator: 0 }]","has_unsafe":false,"name":"<chain::Chain<T> as std::io::Read>::read"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"chain\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"write\"), disambiguator: 0 }]","has_unsafe":false,"name":"<chain::Chain<T> as std::io::Write>::write"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"chain\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"flush\"), disambiguator: 0 }]","has_unsafe":false,"name":"<chain::Chain<T> as std::io::Write>::flush"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"chain\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"<chain::Chain<T>>::new"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"error\"), disambiguator: 0 }]","has_unsafe":true,"name":"error"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"die\"), disambiguator: 0 }]","has_unsafe":false,"name":"die"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"decoder\"), disambiguator: 0 }]","has_unsafe":false,"name":"decoder"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"encoder\"), disambiguator: 0 }]","has_unsafe":false,"name":"encoder"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"force_decoder\"), disambiguator: 0 }]","has_unsafe":false,"name":"force_decoder"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"force_encoder\"), disambiguator: 0 }]","has_unsafe":false,"name":"force_encoder"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"context\"), disambiguator: 0 }]","has_unsafe":false,"name":"Environment::context"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"input\"), disambiguator: 0 }]","has_unsafe":false,"name":"Environment::input"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"inputs\"), disambiguator: 0 }]","has_unsafe":false,"name":"Environment::inputs"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"output\"), disambiguator: 0 }]","has_unsafe":true,"name":"Environment::output"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"decoder\"), disambiguator: 0 }]","has_unsafe":false,"name":"Environment::decoder"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"encoder\"), disambiguator: 0 }]","has_unsafe":false,"name":"Environment::encoder"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"build_context\"), disambiguator: 0 }]","has_unsafe":false,"name":"build_context"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"gather_input\"), disambiguator: 0 }]","has_unsafe":false,"name":"gather_input"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"open_files\"), disambiguator: 0 }]","has_unsafe":false,"name":"open_files"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"open_output\"), disambiguator: 0 }]","has_unsafe":true,"name":"open_output"}

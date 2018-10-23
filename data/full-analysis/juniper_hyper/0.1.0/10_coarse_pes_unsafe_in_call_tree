@@ -1,0 +1,16 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"graphql\"), disambiguator: 0 }]","has_unsafe":true,"name":"graphql"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"graphiql\"), disambiguator: 0 }]","has_unsafe":true,"name":"graphiql"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"render_error\"), disambiguator: 0 }]","has_unsafe":true,"name":"render_error"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"execute_request\"), disambiguator: 0 }]","has_unsafe":true,"name":"execute_request"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"gql_request_from_get\"), disambiguator: 0 }]","has_unsafe":true,"name":"gql_request_from_get"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"invalid_err\"), disambiguator: 0 }]","has_unsafe":false,"name":"invalid_err"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"new_response\"), disambiguator: 0 }]","has_unsafe":false,"name":"new_response"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"new_html_response\"), disambiguator: 0 }]","has_unsafe":true,"name":"new_html_response"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"_IMPL_DESERIALIZE_FOR_GraphQLRequest\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"deserialize\"), disambiguator: 0 }]","has_unsafe":true,"name":"_IMPL_DESERIALIZE_FOR_GraphQLRequest::<impl _IMPL_DESERIALIZE_FOR_GraphQLRequest::_serde::Deserialize<'de> for GraphQLRequest>::deserialize"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"execute\"), disambiguator: 0 }]","has_unsafe":true,"name":"GraphQLRequest::execute"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"_IMPL_SERIALIZE_FOR_GraphQLResponse\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"serialize\"), disambiguator: 0 }]","has_unsafe":true,"name":"_IMPL_SERIALIZE_FOR_GraphQLResponse::<impl _IMPL_DESERIALIZE_FOR_GraphQLRequest::_serde::Serialize for GraphQLResponse<'a>>::serialize"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"is_ok\"), disambiguator: 0 }]","has_unsafe":false,"name":"GraphQLResponse::is_ok"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<GraphQLRequestError as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<GraphQLRequestError as std::fmt::Display>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"description\"), disambiguator: 0 }]","has_unsafe":false,"name":"<GraphQLRequestError as std::error::Error>::description"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"cause\"), disambiguator: 0 }]","has_unsafe":false,"name":"<GraphQLRequestError as std::error::Error>::cause"}

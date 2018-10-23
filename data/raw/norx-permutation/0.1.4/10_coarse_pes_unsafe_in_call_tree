@@ -1,0 +1,6 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"portable\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"norx\"), disambiguator: 0 }]","has_unsafe":false,"name":"portable::norx"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"portable\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"f\"), disambiguator: 0 }]","has_unsafe":false,"name":"portable::f"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"portable\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"h\"), disambiguator: 0 }]","has_unsafe":false,"name":"portable::h"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"portable\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"g\"), disambiguator: 0 }]","has_unsafe":false,"name":"portable::g"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"norx\"), disambiguator: 0 }]","has_unsafe":false,"name":"norx"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"norx_x4\"), disambiguator: 0 }]","has_unsafe":false,"name":"norx_x4"}

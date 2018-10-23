@@ -1,0 +1,20 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"empty\"), disambiguator: 0 }]","has_unsafe":false,"name":"MatchExp::empty"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"match_and_select\"), disambiguator: 0 }]","has_unsafe":false,"name":"MatchExp::match_and_select"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"parse_line\"), disambiguator: 0 }]","has_unsafe":false,"name":"CSVRow::parse_line"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"get_cell\"), disambiguator: 0 }]","has_unsafe":false,"name":"CSVRow::get_cell"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"print\"), disambiguator: 0 }]","has_unsafe":false,"name":"CSVRow::print"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"deref\"), disambiguator: 0 }]","has_unsafe":true,"name":"<NUMBER_RX as lazy_static::Deref>::deref"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"deref\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"__static_ref_initialize\"), disambiguator: 0 }]","has_unsafe":true,"name":"<NUMBER_RX as lazy_static::Deref>::deref::__static_ref_initialize"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"initialize\"), disambiguator: 0 }]","has_unsafe":true,"name":"<NUMBER_RX as lazy_static::LazyStatic>::initialize"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"deref\"), disambiguator: 0 }]","has_unsafe":true,"name":"<ASTERISK_RX as lazy_static::Deref>::deref"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"deref\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"__static_ref_initialize\"), disambiguator: 0 }]","has_unsafe":true,"name":"<ASTERISK_RX as lazy_static::Deref>::deref::__static_ref_initialize"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"initialize\"), disambiguator: 0 }]","has_unsafe":true,"name":"<ASTERISK_RX as lazy_static::LazyStatic>::initialize"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"maybe_trim\"), disambiguator: 0 }]","has_unsafe":false,"name":"maybe_trim"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"svgrep_file\"), disambiguator: 0 }]","has_unsafe":false,"name":"svgrep_file"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"error\"), disambiguator: 0 }]","has_unsafe":false,"name":"error"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"build_rxs\"), disambiguator: 0 }]","has_unsafe":true,"name":"build_rxs"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"build_cell_select\"), disambiguator: 0 }]","has_unsafe":false,"name":"build_cell_select"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"build_match_exp\"), disambiguator: 0 }]","has_unsafe":true,"name":"build_match_exp"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"build_config\"), disambiguator: 0 }]","has_unsafe":true,"name":"build_config"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_command_line\"), disambiguator: 0 }]","has_unsafe":true,"name":"parse_command_line"}

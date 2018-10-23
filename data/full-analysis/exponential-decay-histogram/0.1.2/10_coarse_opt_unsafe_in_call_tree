@@ -1,0 +1,15 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"default\"), disambiguator: 0 }]","has_unsafe":true,"name":"<ExponentialDecayHistogram as std::default::Default>::default"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":true,"name":"ExponentialDecayHistogram::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"with_size_and_alpha\"), disambiguator: 0 }]","has_unsafe":true,"name":"ExponentialDecayHistogram::with_size_and_alpha"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"update\"), disambiguator: 0 }]","has_unsafe":false,"name":"ExponentialDecayHistogram::update"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"update_at\"), disambiguator: 0 }]","has_unsafe":false,"name":"ExponentialDecayHistogram::update_at"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"snapshot\"), disambiguator: 0 }]","has_unsafe":false,"name":"ExponentialDecayHistogram::snapshot"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"weight\"), disambiguator: 0 }]","has_unsafe":false,"name":"ExponentialDecayHistogram::weight"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"rescale_if_needed\"), disambiguator: 0 }]","has_unsafe":false,"name":"ExponentialDecayHistogram::rescale_if_needed"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"rescale\"), disambiguator: 0 }]","has_unsafe":false,"name":"ExponentialDecayHistogram::rescale"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"value\"), disambiguator: 0 }]","has_unsafe":false,"name":"Snapshot::value"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"max\"), disambiguator: 0 }]","has_unsafe":false,"name":"Snapshot::max"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"min\"), disambiguator: 0 }]","has_unsafe":false,"name":"Snapshot::min"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"mean\"), disambiguator: 0 }]","has_unsafe":false,"name":"Snapshot::mean"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"stddev\"), disambiguator: 0 }]","has_unsafe":false,"name":"Snapshot::stddev"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"count\"), disambiguator: 0 }]","has_unsafe":false,"name":"Snapshot::count"}

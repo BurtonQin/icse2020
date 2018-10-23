@@ -1,0 +1,17 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Options as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"default\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Options as std::default::Default>::default"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"masculine\"), disambiguator: 0 }]","has_unsafe":false,"name":"Options::masculine"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"literal_for\"), disambiguator: 0 }]","has_unsafe":false,"name":"literal_for"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"add_unit_for\"), disambiguator: 0 }]","has_unsafe":false,"name":"add_unit_for"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"unpluralize\"), disambiguator: 0 }]","has_unsafe":false,"name":"unpluralize"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"complete\"), disambiguator: 0 }]","has_unsafe":true,"name":"complete"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"basic\"), disambiguator: 0 }]","has_unsafe":true,"name":"basic"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"smaller_than_60\"), disambiguator: 0 }]","has_unsafe":true,"name":"smaller_than_60"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"base_onto\"), disambiguator: 0 }]","has_unsafe":true,"name":"base_onto"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"smaller_than_1000\"), disambiguator: 0 }]","has_unsafe":true,"name":"smaller_than_1000"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"smaller_than_2000\"), disambiguator: 0 }]","has_unsafe":true,"name":"smaller_than_2000"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"push_space_or_dash\"), disambiguator: 0 }]","has_unsafe":false,"name":"push_space_or_dash"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"smaller_than_1000000\"), disambiguator: 0 }]","has_unsafe":true,"name":"smaller_than_1000000"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"over_1000000\"), disambiguator: 0 }]","has_unsafe":true,"name":"over_1000000"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"french_number\"), disambiguator: 0 }]","has_unsafe":true,"name":"french_number"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"french_number_options\"), disambiguator: 0 }]","has_unsafe":true,"name":"french_number_options"}

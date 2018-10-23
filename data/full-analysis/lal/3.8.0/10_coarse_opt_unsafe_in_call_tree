@@ -1,0 +1,8 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_integer\"), disambiguator: 0 }]","has_unsafe":false,"name":"is_integer"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"result_exit\"), disambiguator: 0 }]","has_unsafe":false,"name":"result_exit"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"handle_manifest_agnostic_cmds\"), disambiguator: 0 }]","has_unsafe":true,"name":"handle_manifest_agnostic_cmds"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"handle_environment_agnostic_cmds\"), disambiguator: 0 }]","has_unsafe":true,"name":"handle_environment_agnostic_cmds"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"handle_network_cmds\"), disambiguator: 0 }]","has_unsafe":true,"name":"handle_network_cmds"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"handle_env_command\"), disambiguator: 0 }]","has_unsafe":true,"name":"handle_env_command"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"handle_docker_cmds\"), disambiguator: 0 }]","has_unsafe":true,"name":"handle_docker_cmds"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}

@@ -1,0 +1,6 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"write_links\"), disambiguator: 0 }]","has_unsafe":false,"name":"write_links"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_quality\"), disambiguator: 0 }]","has_unsafe":false,"name":"get_quality"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_choice\"), disambiguator: 0 }]","has_unsafe":true,"name":"get_choice"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_search\"), disambiguator: 0 }]","has_unsafe":false,"name":"get_search"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"continue_search\"), disambiguator: 0 }]","has_unsafe":false,"name":"continue_search"}

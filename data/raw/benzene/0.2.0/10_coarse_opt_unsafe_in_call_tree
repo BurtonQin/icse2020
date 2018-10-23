@@ -1,0 +1,3 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Communication<Context, Event> as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"interpret\"), disambiguator: 0 }]","has_unsafe":true,"name":"interpret"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"start\"), disambiguator: 0 }]","has_unsafe":true,"name":"start"}

@@ -1,0 +1,13 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"relocate\"), disambiguator: 0 }]","has_unsafe":true,"name":"DynamicRelocator::relocate"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"dynamic\"), disambiguator: 0 }]","has_unsafe":false,"name":"DynamicRelocator::dynamic"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"into_elf\"), disambiguator: 0 }]","has_unsafe":false,"name":"Collected::into_elf"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"reorder\"), disambiguator: 0 }]","has_unsafe":false,"name":"Collected::reorder"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"into_collected\"), disambiguator: 0 }]","has_unsafe":false,"name":"<SimpleCollector as Collector>::into_collected"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"SimpleCollector::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"collect\"), disambiguator: 0 }]","has_unsafe":true,"name":"SimpleCollector::collect"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"merge\"), disambiguator: 0 }]","has_unsafe":true,"name":"SimpleCollector::merge"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"default\"), disambiguator: 0 }]","has_unsafe":false,"name":"<LdOptions as std::default::Default>::default"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"search_lib\"), disambiguator: 0 }]","has_unsafe":false,"name":"search_lib"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"ldarg\"), disambiguator: 0 }]","has_unsafe":false,"name":"ldarg"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_ld_options\"), disambiguator: 0 }]","has_unsafe":true,"name":"parse_ld_options"}

@@ -1,0 +1,2 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"add_shutdown_hook\"), disambiguator: 0 }]","has_unsafe":true,"name":"add_shutdown_hook"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"tests\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_in_the_bowl\"), disambiguator: 0 }]","has_unsafe":false,"name":"tests::get_in_the_bowl"}

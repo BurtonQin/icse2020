@@ -1,0 +1,7 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"list_devices\"), disambiguator: 0 }]","has_unsafe":true,"name":"list_devices"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"print_device\"), disambiguator: 0 }]","has_unsafe":false,"name":"print_device"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"print_config\"), disambiguator: 0 }]","has_unsafe":true,"name":"print_config"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"print_interface\"), disambiguator: 0 }]","has_unsafe":false,"name":"print_interface"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"print_endpoint\"), disambiguator: 0 }]","has_unsafe":false,"name":"print_endpoint"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_speed\"), disambiguator: 0 }]","has_unsafe":false,"name":"get_speed"}

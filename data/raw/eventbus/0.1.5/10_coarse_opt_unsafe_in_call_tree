@@ -1,0 +1,16 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"eq\"), disambiguator: 0 }]","has_unsafe":false,"name":"<EventHandlerId<T> as std::cmp::PartialEq>::eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"<EventMetadata<T>>::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"put\"), disambiguator: 0 }]","has_unsafe":true,"name":"<EventMetadata<T>>::put"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"remove\"), disambiguator: 0 }]","has_unsafe":false,"name":"<EventMetadata<T>>::remove"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"post\"), disambiguator: 0 }]","has_unsafe":false,"name":"<EventMetadata<T>>::post"}
+{"def_path":"[DisambiguatedDefPathData { data: Trait(\"Event\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"cancellable\"), disambiguator: 0 }]","has_unsafe":false,"name":"Event::cancellable"}
+{"def_path":"[DisambiguatedDefPathData { data: Trait(\"Event\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"cancelled\"), disambiguator: 0 }]","has_unsafe":false,"name":"Event::cancelled"}
+{"def_path":"[DisambiguatedDefPathData { data: Trait(\"Event\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"cancel\"), disambiguator: 0 }]","has_unsafe":false,"name":"Event::cancel"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"eq\"), disambiguator: 0 }]","has_unsafe":false,"name":"<EventBus as std::cmp::PartialEq>::eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"ne\"), disambiguator: 0 }]","has_unsafe":false,"name":"<EventBus as std::cmp::PartialEq>::ne"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"assert_receiver_is_total_eq\"), disambiguator: 0 }]","has_unsafe":false,"name":"<EventBus as std::cmp::Eq>::assert_receiver_is_total_eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"hash\"), disambiguator: 0 }]","has_unsafe":false,"name":"<EventBus as std::hash::Hash>::hash"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":true,"name":"EventBus::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"register\"), disambiguator: 0 }]","has_unsafe":false,"name":"EventBus::register"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"unregister\"), disambiguator: 0 }]","has_unsafe":false,"name":"EventBus::unregister"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"post\"), disambiguator: 0 }]","has_unsafe":false,"name":"EventBus::post"}

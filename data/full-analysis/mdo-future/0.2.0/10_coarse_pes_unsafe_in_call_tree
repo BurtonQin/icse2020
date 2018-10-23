@@ -1,0 +1,7 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"future\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"bind\"), disambiguator: 0 }]","has_unsafe":true,"name":"future::bind"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"future\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"ret\"), disambiguator: 0 }]","has_unsafe":false,"name":"future::ret"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"stream\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"bind\"), disambiguator: 0 }]","has_unsafe":true,"name":"stream::bind"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"stream\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"ret\"), disambiguator: 0 }]","has_unsafe":false,"name":"stream::ret"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"stream\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"mzero\"), disambiguator: 0 }]","has_unsafe":false,"name":"stream::mzero"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"stream\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"stream::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"stream\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"poll\"), disambiguator: 0 }]","has_unsafe":true,"name":"<stream::WrappedStream<F> as futures::Stream>::poll"}

@@ -1,0 +1,15 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"clamp\"), disambiguator: 0 }]","has_unsafe":false,"name":"main::clamp"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"set\"), disambiguator: 0 }]","has_unsafe":true,"name":"set"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"clean\"), disambiguator: 0 }]","has_unsafe":true,"name":"clean"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_color\"), disambiguator: 0 }]","has_unsafe":false,"name":"is_color"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"to_color\"), disambiguator: 0 }]","has_unsafe":true,"name":"to_color"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_offset\"), disambiguator: 0 }]","has_unsafe":false,"name":"is_offset"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"to_offset\"), disambiguator: 0 }]","has_unsafe":false,"name":"to_offset"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_size\"), disambiguator: 0 }]","has_unsafe":false,"name":"is_size"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"to_size\"), disambiguator: 0 }]","has_unsafe":false,"name":"to_size"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_scale\"), disambiguator: 0 }]","has_unsafe":false,"name":"is_scale"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"to_scale\"), disambiguator: 0 }]","has_unsafe":false,"name":"to_scale"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_opacity\"), disambiguator: 0 }]","has_unsafe":false,"name":"is_opacity"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"to_opacity\"), disambiguator: 0 }]","has_unsafe":false,"name":"to_opacity"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"with_opacity\"), disambiguator: 0 }]","has_unsafe":true,"name":"with_opacity"}

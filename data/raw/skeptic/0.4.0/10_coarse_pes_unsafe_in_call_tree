@@ -1,0 +1,17 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"generate_doc_tests\"), disambiguator: 0 }]","has_unsafe":false,"name":"generate_doc_tests"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"run\"), disambiguator: 0 }]","has_unsafe":false,"name":"run"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"extract_tests\"), disambiguator: 0 }]","has_unsafe":false,"name":"extract_tests"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"extract_tests_from_file\"), disambiguator: 0 }]","has_unsafe":false,"name":"extract_tests_from_file"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"join_strings\"), disambiguator: 0 }]","has_unsafe":false,"name":"join_strings"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"TestNameGen::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"advance\"), disambiguator: 0 }]","has_unsafe":false,"name":"TestNameGen::advance"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"sanitize_test_name\"), disambiguator: 0 }]","has_unsafe":false,"name":"sanitize_test_name"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"to_lowercase\"), disambiguator: 0 }]","has_unsafe":false,"name":"to_lowercase"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_code_block_info\"), disambiguator: 0 }]","has_unsafe":false,"name":"parse_code_block_info"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"emit_tests\"), disambiguator: 0 }]","has_unsafe":false,"name":"emit_tests"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"create_test_string\"), disambiguator: 0 }]","has_unsafe":false,"name":"create_test_string"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"rt\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"run_test\"), disambiguator: 0 }]","has_unsafe":true,"name":"rt::run_test"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"rt\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"write_test_case\"), disambiguator: 0 }]","has_unsafe":false,"name":"rt::write_test_case"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"rt\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"compile_test_case\"), disambiguator: 0 }]","has_unsafe":false,"name":"rt::compile_test_case"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"rt\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"run_test_case\"), disambiguator: 0 }]","has_unsafe":false,"name":"rt::run_test_case"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"rt\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"interpret_output\"), disambiguator: 0 }]","has_unsafe":false,"name":"rt::interpret_output"}

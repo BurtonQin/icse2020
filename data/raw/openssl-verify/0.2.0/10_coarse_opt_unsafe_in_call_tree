@@ -1,0 +1,7 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"verify_callback\"), disambiguator: 0 }]","has_unsafe":true,"name":"verify_callback"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"verify_hostname\"), disambiguator: 0 }]","has_unsafe":true,"name":"verify_hostname"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"verify_subject_alt_names\"), disambiguator: 0 }]","has_unsafe":true,"name":"verify_subject_alt_names"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"verify_subject_name\"), disambiguator: 0 }]","has_unsafe":true,"name":"verify_subject_name"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"matches_dns\"), disambiguator: 0 }]","has_unsafe":false,"name":"matches_dns"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"matches_wildcard\"), disambiguator: 0 }]","has_unsafe":false,"name":"matches_wildcard"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"matches_ip\"), disambiguator: 0 }]","has_unsafe":false,"name":"matches_ip"}

@@ -1,0 +1,14 @@
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"ftdi_init\"), disambiguator: 0 }]","name":"ftdi_init"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"ftdi_write_data\"), disambiguator: 0 }]","name":"ftdi_write_data"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"ftdi_read_data_get_chunksize\"), disambiguator: 0 }]","name":"ftdi_read_data_get_chunksize"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"ftdi_write_data_set_chunksize\"), disambiguator: 0 }]","name":"ftdi_write_data_set_chunksize"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"ftdi_usb_purge_buffers\"), disambiguator: 0 }]","name":"ftdi_usb_purge_buffers"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"ftdi_set_interface\"), disambiguator: 0 }]","name":"ftdi_set_interface"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"ftdi_read_data\"), disambiguator: 0 }]","name":"ftdi_read_data"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"ftdi_write_data_get_chunksize\"), disambiguator: 0 }]","name":"ftdi_write_data_get_chunksize"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"ftdi_set_latency_timer\"), disambiguator: 0 }]","name":"ftdi_set_latency_timer"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"ftdi_usb_open\"), disambiguator: 0 }]","name":"ftdi_usb_open"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"ftdi_deinit\"), disambiguator: 0 }]","name":"ftdi_deinit"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"ftdi_read_data_set_chunksize\"), disambiguator: 0 }]","name":"ftdi_read_data_set_chunksize"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"ftdi_get_latency_timer\"), disambiguator: 0 }]","name":"ftdi_get_latency_timer"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"ftdi_usb_reset\"), disambiguator: 0 }]","name":"ftdi_usb_reset"}

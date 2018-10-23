@@ -1,0 +1,11 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"file_help\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"create\"), disambiguator: 0 }]","has_unsafe":false,"name":"file_help::create"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"file_help\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"open\"), disambiguator: 0 }]","has_unsafe":false,"name":"file_help::open"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"file_help\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"write\"), disambiguator: 0 }]","has_unsafe":false,"name":"file_help::write"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"file_help\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"read\"), disambiguator: 0 }]","has_unsafe":false,"name":"file_help::read"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"file_help\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"delete\"), disambiguator: 0 }]","has_unsafe":false,"name":"file_help::delete"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"side_models\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"side_models::Word::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"side_models\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"side_models::Language::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"Manager::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"parse\"), disambiguator: 0 }]","has_unsafe":false,"name":"Manager::parse"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"set_def\"), disambiguator: 0 }]","has_unsafe":false,"name":"Manager::set_def"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_def\"), disambiguator: 0 }]","has_unsafe":false,"name":"Manager::get_def"}

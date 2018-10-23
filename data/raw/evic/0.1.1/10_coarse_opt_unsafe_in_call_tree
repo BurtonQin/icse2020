@@ -1,0 +1,6 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"print_usage\"), disambiguator: 0 }]","has_unsafe":false,"name":"print_usage"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"print_version\"), disambiguator: 0 }]","has_unsafe":false,"name":"print_version"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"suffixed_file_path\"), disambiguator: 0 }]","has_unsafe":false,"name":"suffixed_file_path"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"encrypt\"), disambiguator: 0 }]","has_unsafe":false,"name":"encrypt"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"decrypt\"), disambiguator: 0 }]","has_unsafe":false,"name":"decrypt"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}

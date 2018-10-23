@@ -1,0 +1,22 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"libucl\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"drop\"), disambiguator: 0 }]","has_unsafe":true,"name":"<libucl::Ucl as std::ops::Drop>::drop"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"libucl\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"unwrap\"), disambiguator: 0 }]","has_unsafe":false,"name":"libucl::Ucl::unwrap"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"libucl\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"ucl_to_json\"), disambiguator: 0 }]","has_unsafe":true,"name":"libucl::ucl_to_json"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"nos\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<nos::Opt as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"nos\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<nos::Opt as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"nos\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"default\"), disambiguator: 0 }]","has_unsafe":false,"name":"<nos::Opt as std::default::Default>::default"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"nos\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"nos::Opt::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"nos\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"to_getopts\"), disambiguator: 0 }]","has_unsafe":false,"name":"nos::Opt::to_getopts"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"nos\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"opt_to_getopts\"), disambiguator: 0 }]","has_unsafe":false,"name":"nos::opt_to_getopts"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"nereon_json\"), disambiguator: 0 }]","has_unsafe":true,"name":"nereon_json"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"nereon_init\"), disambiguator: 0 }]","has_unsafe":true,"name":"nereon_init"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"ucl_to_value\"), disambiguator: 0 }]","has_unsafe":true,"name":"ucl_to_value"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"expand_vars\"), disambiguator: 0 }]","has_unsafe":true,"name":"expand_vars"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"value_into_string\"), disambiguator: 0 }]","has_unsafe":false,"name":"value_into_string"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"concatenate_values\"), disambiguator: 0 }]","has_unsafe":false,"name":"concatenate_values"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"insert_value\"), disambiguator: 0 }]","has_unsafe":true,"name":"insert_value"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_expansions\"), disambiguator: 0 }]","has_unsafe":false,"name":"get_expansions"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"substitute_expansions\"), disambiguator: 0 }]","has_unsafe":false,"name":"substitute_expansions"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"expand_str\"), disambiguator: 0 }]","has_unsafe":true,"name":"expand_str"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"expand\"), disambiguator: 0 }]","has_unsafe":true,"name":"expand"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"expand_var\"), disambiguator: 0 }]","has_unsafe":true,"name":"expand_var"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_node\"), disambiguator: 0 }]","has_unsafe":false,"name":"get_node"}

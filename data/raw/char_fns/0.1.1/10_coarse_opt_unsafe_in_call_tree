@@ -1,0 +1,4 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"char_len\"), disambiguator: 0 }]","has_unsafe":false,"name":"<str as CharFns>::char_len"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"char_split\"), disambiguator: 0 }]","has_unsafe":false,"name":"<str as CharFns>::char_split"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"char_replace\"), disambiguator: 0 }]","has_unsafe":false,"name":"<str as CharFns>::char_replace"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"byte_index\"), disambiguator: 0 }]","has_unsafe":false,"name":"byte_index"}

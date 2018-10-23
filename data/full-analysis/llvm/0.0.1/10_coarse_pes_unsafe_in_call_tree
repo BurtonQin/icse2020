@@ -1,0 +1,46 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":true,"name":"Context::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"create_builder\"), disambiguator: 0 }]","has_unsafe":true,"name":"Context::create_builder"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"module_create_with_name\"), disambiguator: 0 }]","has_unsafe":true,"name":"Context::module_create_with_name"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"void_type\"), disambiguator: 0 }]","has_unsafe":true,"name":"Context::void_type"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"int32_type\"), disambiguator: 0 }]","has_unsafe":true,"name":"Context::int32_type"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"int16_type\"), disambiguator: 0 }]","has_unsafe":true,"name":"Context::int16_type"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"int8_type\"), disambiguator: 0 }]","has_unsafe":true,"name":"Context::int8_type"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"int1_type\"), disambiguator: 0 }]","has_unsafe":true,"name":"Context::int1_type"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"const_bool\"), disambiguator: 0 }]","has_unsafe":true,"name":"Context::const_bool"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"append_basic_block\"), disambiguator: 0 }]","has_unsafe":true,"name":"Context::append_basic_block"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"drop\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Context as std::ops::Drop>::drop"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"dump\"), disambiguator: 0 }]","has_unsafe":true,"name":"Module::dump"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"add_function\"), disambiguator: 0 }]","has_unsafe":true,"name":"Module::add_function"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"get_named_function\"), disambiguator: 0 }]","has_unsafe":true,"name":"Module::get_named_function"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"position_at_end\"), disambiguator: 0 }]","has_unsafe":true,"name":"Builder::position_at_end"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"build_ret\"), disambiguator: 0 }]","has_unsafe":true,"name":"Builder::build_ret"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"build_ret_void\"), disambiguator: 0 }]","has_unsafe":true,"name":"Builder::build_ret_void"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"build_alloca\"), disambiguator: 0 }]","has_unsafe":true,"name":"Builder::build_alloca"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"build_store\"), disambiguator: 0 }]","has_unsafe":true,"name":"Builder::build_store"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"build_load\"), disambiguator: 0 }]","has_unsafe":true,"name":"Builder::build_load"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"build_call\"), disambiguator: 0 }]","has_unsafe":true,"name":"Builder::build_call"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"build_add\"), disambiguator: 0 }]","has_unsafe":true,"name":"Builder::build_add"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"build_sub\"), disambiguator: 0 }]","has_unsafe":true,"name":"Builder::build_sub"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"build_mul\"), disambiguator: 0 }]","has_unsafe":true,"name":"Builder::build_mul"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"build_sdiv\"), disambiguator: 0 }]","has_unsafe":true,"name":"Builder::build_sdiv"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"build_icmp\"), disambiguator: 0 }]","has_unsafe":true,"name":"Builder::build_icmp"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"build_global_string\"), disambiguator: 0 }]","has_unsafe":true,"name":"Builder::build_global_string"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"build_in_bounds_gep\"), disambiguator: 0 }]","has_unsafe":true,"name":"Builder::build_in_bounds_gep"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"build_cond_br\"), disambiguator: 0 }]","has_unsafe":true,"name":"Builder::build_cond_br"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"build_br\"), disambiguator: 0 }]","has_unsafe":true,"name":"Builder::build_br"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"drop\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Builder as std::ops::Drop>::drop"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"const_int\"), disambiguator: 0 }]","has_unsafe":true,"name":"const_int"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"function_type\"), disambiguator: 0 }]","has_unsafe":true,"name":"function_type"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"pointer_type\"), disambiguator: 0 }]","has_unsafe":true,"name":"pointer_type"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_first_param\"), disambiguator: 0 }]","has_unsafe":true,"name":"get_first_param"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_next_param\"), disambiguator: 0 }]","has_unsafe":true,"name":"get_next_param"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"set_value_name\"), disambiguator: 0 }]","has_unsafe":true,"name":"set_value_name"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"create_pass_manager\"), disambiguator: 0 }]","has_unsafe":true,"name":"create_pass_manager"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"print_module_to_file\"), disambiguator: 0 }]","has_unsafe":true,"name":"print_module_to_file"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"print_module_to_string\"), disambiguator: 0 }]","has_unsafe":true,"name":"print_module_to_string"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_target_from_name\"), disambiguator: 0 }]","has_unsafe":true,"name":"get_target_from_name"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"create_target_machine\"), disambiguator: 0 }]","has_unsafe":true,"name":"create_target_machine"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"target_machine_emit_to_file\"), disambiguator: 0 }]","has_unsafe":true,"name":"target_machine_emit_to_file"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"initialize_native_target\"), disambiguator: 0 }]","has_unsafe":true,"name":"initialize_native_target"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"initialize_native_asm_printer\"), disambiguator: 0 }]","has_unsafe":true,"name":"initialize_native_asm_printer"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_default_target_triple\"), disambiguator: 0 }]","has_unsafe":true,"name":"get_default_target_triple"}

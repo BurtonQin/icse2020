@@ -1,0 +1,9 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"start\"), disambiguator: 0 }]","has_unsafe":true,"name":"start"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"process\"), disambiguator: 0 }]","has_unsafe":false,"name":"process"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"create_bibliography\"), disambiguator: 0 }]","has_unsafe":false,"name":"create_bibliography"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"find_reference\"), disambiguator: 0 }]","has_unsafe":false,"name":"find_reference"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"detect_reference\"), disambiguator: 0 }]","has_unsafe":false,"name":"detect_reference"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"replace\"), disambiguator: 0 }]","has_unsafe":false,"name":"replace"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"help\"), disambiguator: 0 }]","has_unsafe":false,"name":"help"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"fail\"), disambiguator: 0 }]","has_unsafe":false,"name":"fail"}

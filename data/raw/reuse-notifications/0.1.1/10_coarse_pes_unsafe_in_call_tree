@@ -1,0 +1,9 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"reuse\"), disambiguator: 0 }]","has_unsafe":true,"name":"<notify_rust::Notification as ReuseNotification>::reuse"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"reuse_with\"), disambiguator: 0 }]","has_unsafe":true,"name":"<notify_rust::Notification as ReuseNotification>::reuse_with"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"display_reusing_id\"), disambiguator: 0 }]","has_unsafe":true,"name":"<(dyn ReuseNotification + 'static)>::display_reusing_id"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"temp_file\"), disambiguator: 0 }]","has_unsafe":false,"name":"temp_file"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"stored_id\"), disambiguator: 0 }]","has_unsafe":true,"name":"stored_id"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"read_notification_id\"), disambiguator: 0 }]","has_unsafe":true,"name":"read_notification_id"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"store_new_notification_id\"), disambiguator: 0 }]","has_unsafe":true,"name":"store_new_notification_id"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"fallback\"), disambiguator: 0 }]","has_unsafe":true,"name":"fallback"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"random_id\"), disambiguator: 0 }]","has_unsafe":true,"name":"random_id"}

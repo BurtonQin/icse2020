@@ -1,0 +1,6 @@
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"__rust_realloc\"), disambiguator: 0 }]","name":"__rust_realloc"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"__rust_alloc_zeroed\"), disambiguator: 0 }]","name":"__rust_alloc_zeroed"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"__rust_alloc\"), disambiguator: 0 }]","name":"__rust_alloc"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"__rust_grow_in_place\"), disambiguator: 0 }]","name":"__rust_grow_in_place"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"__rust_shrink_in_place\"), disambiguator: 0 }]","name":"__rust_shrink_in_place"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"__rust_dealloc\"), disambiguator: 0 }]","name":"__rust_dealloc"}

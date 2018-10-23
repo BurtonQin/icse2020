@@ -1,0 +1,24 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"eq\"), disambiguator: 0 }]","has_unsafe":false,"name":"<CMacro as std::cmp::PartialEq>::eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"ne\"), disambiguator: 0 }]","has_unsafe":false,"name":"<CMacro as std::cmp::PartialEq>::ne"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<CMacro as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"CharStream::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"at_end\"), disambiguator: 0 }]","has_unsafe":false,"name":"CharStream::at_end"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"peek\"), disambiguator: 0 }]","has_unsafe":false,"name":"CharStream::peek"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"next\"), disambiguator: 0 }]","has_unsafe":false,"name":"CharStream::next"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"consume\"), disambiguator: 0 }]","has_unsafe":false,"name":"CharStream::consume"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"consume_char\"), disambiguator: 0 }]","has_unsafe":false,"name":"CharStream::consume_char"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"consume_while\"), disambiguator: 0 }]","has_unsafe":false,"name":"CharStream::consume_while"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"skip_whitespace\"), disambiguator: 0 }]","has_unsafe":false,"name":"CharStream::skip_whitespace"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"tail\"), disambiguator: 0 }]","has_unsafe":false,"name":"CharStream::tail"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"next\"), disambiguator: 0 }]","has_unsafe":false,"name":"<CHeaderLineIter<'a> as std::iter::Iterator>::next"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_ident_char\"), disambiguator: 0 }]","has_unsafe":false,"name":"is_ident_char"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_c_style_comment\"), disambiguator: 0 }]","has_unsafe":false,"name":"parse_c_style_comment"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_arg_list\"), disambiguator: 0 }]","has_unsafe":false,"name":"parse_arg_list"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_ident\"), disambiguator: 0 }]","has_unsafe":false,"name":"parse_ident"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_macro\"), disambiguator: 0 }]","has_unsafe":false,"name":"parse_macro"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"extract_macros\"), disambiguator: 0 }]","has_unsafe":false,"name":"extract_macros"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"generate_rust_src\"), disambiguator: 0 }]","has_unsafe":false,"name":"generate_rust_src"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"CMacro::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"new_with_args\"), disambiguator: 0 }]","has_unsafe":false,"name":"CMacro::new_with_args"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"guess_type\"), disambiguator: 0 }]","has_unsafe":false,"name":"guess_type"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"translate_macro\"), disambiguator: 0 }]","has_unsafe":false,"name":"translate_macro"}

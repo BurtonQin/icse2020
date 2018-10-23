@@ -1,0 +1,4 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"verbose\"), disambiguator: 0 }]","has_unsafe":false,"name":"VerboseLogger::verbose"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"handle\"), disambiguator: 0 }]","has_unsafe":true,"name":"handle"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"check_url\"), disambiguator: 0 }]","has_unsafe":true,"name":"check_url"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}

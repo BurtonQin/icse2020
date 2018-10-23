@@ -1,0 +1,8 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Error as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"eq\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Error as std::cmp::PartialEq>::eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"ne\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Error as std::cmp::PartialEq>::ne"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Error as std::fmt::Display>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"tau_b\"), disambiguator: 0 }]","has_unsafe":false,"name":"tau_b"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"tau_b_with_comparator\"), disambiguator: 0 }]","has_unsafe":false,"name":"tau_b_with_comparator"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"significance\"), disambiguator: 0 }]","has_unsafe":false,"name":"significance"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"sum\"), disambiguator: 0 }]","has_unsafe":false,"name":"sum"}

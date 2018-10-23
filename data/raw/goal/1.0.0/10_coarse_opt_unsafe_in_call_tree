@@ -1,0 +1,9 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"open_goal_file\"), disambiguator: 0 }]","has_unsafe":false,"name":"open_goal_file"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_goal\"), disambiguator: 0 }]","has_unsafe":false,"name":"parse_goal"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_goal\"), disambiguator: 0 }]","has_unsafe":false,"name":"get_goal"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"set_goal\"), disambiguator: 0 }]","has_unsafe":false,"name":"set_goal"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"edit_goal\"), disambiguator: 0 }]","has_unsafe":true,"name":"edit_goal"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"remove_goal\"), disambiguator: 0 }]","has_unsafe":false,"name":"remove_goal"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"show_current_goal\"), disambiguator: 0 }]","has_unsafe":false,"name":"show_current_goal"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"Goal::new"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}

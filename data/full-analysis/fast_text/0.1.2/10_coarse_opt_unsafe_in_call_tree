@@ -1,0 +1,20 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"s\"), disambiguator: 0 }]","has_unsafe":false,"name":"s"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"install\"), disambiguator: 0 }]","has_unsafe":false,"name":"install"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"wrap_install\"), disambiguator: 0 }]","has_unsafe":false,"name":"wrap_install"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"supervised\"), disambiguator: 0 }]","has_unsafe":false,"name":"supervised"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"quantize\"), disambiguator: 0 }]","has_unsafe":false,"name":"quantize"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"predict\"), disambiguator: 0 }]","has_unsafe":false,"name":"predict"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"predict_prob\"), disambiguator: 0 }]","has_unsafe":false,"name":"predict_prob"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"predict_prob\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"ext\"), disambiguator: 0 }]","has_unsafe":false,"name":"predict_prob::ext"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"gen_mod\"), disambiguator: 0 }]","has_unsafe":false,"name":"gen_mod"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"skipgram\"), disambiguator: 0 }]","has_unsafe":false,"name":"skipgram"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"cbow\"), disambiguator: 0 }]","has_unsafe":false,"name":"cbow"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"min_skipgram\"), disambiguator: 0 }]","has_unsafe":false,"name":"min_skipgram"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"min_cbow\"), disambiguator: 0 }]","has_unsafe":false,"name":"min_cbow"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"resp\"), disambiguator: 0 }]","has_unsafe":false,"name":"resp"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"run_cmd\"), disambiguator: 0 }]","has_unsafe":false,"name":"run_cmd"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"nn\"), disambiguator: 0 }]","has_unsafe":false,"name":"nn"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"analogies\"), disambiguator: 0 }]","has_unsafe":false,"name":"analogies"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_vec\"), disambiguator: 0 }]","has_unsafe":false,"name":"parse_vec"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"word_vector\"), disambiguator: 0 }]","has_unsafe":false,"name":"word_vector"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"sentence_vector\"), disambiguator: 0 }]","has_unsafe":false,"name":"sentence_vector"}

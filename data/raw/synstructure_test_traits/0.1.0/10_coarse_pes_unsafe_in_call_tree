@@ -1,0 +1,2 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"walk_fields\"), disambiguator: 0 }]","has_unsafe":false,"name":"<i32 as WalkFields>::walk_fields"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"interesting\"), disambiguator: 0 }]","has_unsafe":false,"name":"<i32 as Interest>::interesting"}

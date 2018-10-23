@@ -1,0 +1,4 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"gb18030\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"forward\"), disambiguator: 0 }]","has_unsafe":false,"name":"gb18030::forward"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"gb18030\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"backward\"), disambiguator: 0 }]","has_unsafe":false,"name":"gb18030::backward"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"gb18030_ranges\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"forward\"), disambiguator: 0 }]","has_unsafe":false,"name":"gb18030_ranges::forward"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"gb18030_ranges\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"backward\"), disambiguator: 0 }]","has_unsafe":false,"name":"gb18030_ranges::backward"}

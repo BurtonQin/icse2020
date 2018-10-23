@@ -1,0 +1,33 @@
+{"abi":"C","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"C\" fn(*mut alsa::alsa::snd_pcm_t, *mut alsa::alsa::snd_pcm_hw_params_t, i32) -> i32"}
+{"abi":"C","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"C\" fn(*const alsa::alsa::snd_pcm_hw_params_t, *mut u32) -> i32"}
+{"abi":"C","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"C\" fn(*mut *mut alsa::alsa::snd_pcm_hw_params_t) -> i32"}
+{"abi":"C","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"C\" fn(*mut alsa::alsa::snd_pcm_t) -> i32"}
+{"abi":"C","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"C\" fn(*mut alsa::alsa::snd_pcm_t, *mut alsa::alsa::snd_pcm_status_t) -> i32"}
+{"abi":"C","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"C\" fn(*mut alsa::alsa::snd_pcm_t) -> i32"}
+{"abi":"C","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"C\" fn(*const alsa::alsa::snd_pcm_status_t) -> u64"}
+{"abi":"C","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"C\" fn(*mut alsa::alsa::snd_pcm_t, *mut alsa::alsa::snd_pcm_hw_params_t) -> i32"}
+{"abi":"C","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"C\" fn(*mut alsa::alsa::snd_pcm_hw_params_t)"}
+{"abi":"C","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"C\" fn(*mut alsa::alsa::snd_pcm_t, *mut alsa::alsa::snd_pcm_hw_params_t, u32) -> i32"}
+{"abi":"C","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"C\" fn(*mut alsa::alsa::snd_pcm_t, *mut alsa::alsa::snd_pcm_hw_params_t, u32, i32) -> i32"}
+{"abi":"RustIntrinsic","def_path":"[DisambiguatedDefPathData { data: Module(\"intrinsics\"), disambiguator: 0 }, DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"discriminant_value\"), disambiguator: 0 }]","name":"discriminant_value"}
+{"abi":"RustIntrinsic","def_path":"[DisambiguatedDefPathData { data: Module(\"intrinsics\"), disambiguator: 0 }, DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"discriminant_value\"), disambiguator: 0 }]","name":"discriminant_value"}
+{"abi":"C","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"C\" fn(*mut alsa::alsa::snd_pcm_t, *const libc::c_void, u64) -> i64"}
+{"abi":"C","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"C\" fn(*mut alsa::alsa::snd_pcm_t, *mut alsa::alsa::snd_pcm_hw_params_t) -> i32"}
+{"abi":"C","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"C\" fn(*mut alsa::alsa::snd_pcm_t) -> i32"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: Module(\"unix\"), disambiguator: 0 }, DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"dlopen\"), disambiguator: 0 }]","name":"dlopen"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"deref\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"__stability\"), disambiguator: 0 }]","name":"__stability"}
+{"abi":"C","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"C\" fn() -> usize"}
+{"abi":"C","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"C\" fn(*const alsa::alsa::snd_pcm_hw_params_t, *mut u64, *mut i32) -> i32"}
+{"abi":"C","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"C\" fn(*const alsa::alsa::snd_pcm_hw_params_t, *mut u32, *mut i32) -> i32"}
+{"abi":"RustIntrinsic","def_path":"[DisambiguatedDefPathData { data: Module(\"intrinsics\"), disambiguator: 0 }, DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"discriminant_value\"), disambiguator: 0 }]","name":"discriminant_value"}
+{"abi":"RustIntrinsic","def_path":"[DisambiguatedDefPathData { data: Module(\"intrinsics\"), disambiguator: 0 }, DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"discriminant_value\"), disambiguator: 0 }]","name":"discriminant_value"}
+{"abi":"C","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"C\" fn(*mut alsa::alsa::snd_pcm_t, *mut alsa::alsa::snd_pcm_hw_params_t, u32) -> i32"}
+{"abi":"RustIntrinsic","def_path":"[DisambiguatedDefPathData { data: Module(\"intrinsics\"), disambiguator: 0 }, DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"discriminant_value\"), disambiguator: 0 }]","name":"discriminant_value"}
+{"abi":"RustIntrinsic","def_path":"[DisambiguatedDefPathData { data: Module(\"intrinsics\"), disambiguator: 0 }, DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"discriminant_value\"), disambiguator: 0 }]","name":"discriminant_value"}
+{"abi":"C","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"C\" fn(*mut alsa::alsa::snd_pcm_t, *mut libc::c_void, u64) -> i64"}
+{"abi":"C","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"C\" fn(*mut alsa::alsa::snd_pcm_t, *mut alsa::alsa::snd_pcm_hw_params_t) -> i32"}
+{"abi":"C","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"C\" fn(*mut alsa::alsa::snd_pcm_t, i32, i32) -> i32"}
+{"abi":"C","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"C\" fn(*mut *mut alsa::alsa::snd_pcm_t, *const i8, u32, i32) -> i32"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: Module(\"unix\"), disambiguator: 0 }, DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"dlsym\"), disambiguator: 0 }]","name":"dlsym"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"mem\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"transmute_copy\"), disambiguator: 0 }]","name":"transmute_copy"}
+{"abi":"C","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"C\" fn(*const alsa::alsa::snd_pcm_hw_params_t, *mut u64) -> i32"}

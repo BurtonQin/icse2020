@@ -1,0 +1,9 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"eq\"), disambiguator: 0 }]","has_unsafe":true,"name":"<BuildType as std::cmp::PartialEq>::eq"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"target_triple\"), disambiguator: 0 }]","has_unsafe":false,"name":"target_triple"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"find_crate_root\"), disambiguator: 0 }]","has_unsafe":false,"name":"find_crate_root"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"debugger_command\"), disambiguator: 0 }]","has_unsafe":false,"name":"debugger_command"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"hfuzz_version\"), disambiguator: 0 }]","has_unsafe":false,"name":"hfuzz_version"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"hfuzz_run\"), disambiguator: 0 }]","has_unsafe":true,"name":"hfuzz_run"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"hfuzz_build\"), disambiguator: 0 }]","has_unsafe":true,"name":"hfuzz_build"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"hfuzz_clean\"), disambiguator: 0 }]","has_unsafe":false,"name":"hfuzz_clean"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}

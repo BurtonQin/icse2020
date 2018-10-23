@@ -1,0 +1,124 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"core_fonts\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"metrics\"), disambiguator: 0 }]","has_unsafe":false,"name":"core_fonts::metrics"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"glyphnames\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"name_to_unicode\"), disambiguator: 0 }]","has_unsafe":false,"name":"glyphnames::name_to_unicode"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"zapfglyphnames\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"zapfdigbats_names_to_unicode\"), disambiguator: 0 }]","has_unsafe":false,"name":"zapfglyphnames::zapfdigbats_names_to_unicode"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_info\"), disambiguator: 0 }]","has_unsafe":true,"name":"get_info"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_catalog\"), disambiguator: 0 }]","has_unsafe":true,"name":"get_catalog"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_pages\"), disambiguator: 0 }]","has_unsafe":true,"name":"get_pages"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"pdf_to_utf8\"), disambiguator: 0 }]","has_unsafe":false,"name":"pdf_to_utf8"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"to_utf8\"), disambiguator: 0 }]","has_unsafe":false,"name":"to_utf8"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_type\"), disambiguator: 0 }]","has_unsafe":true,"name":"get_type"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_obj\"), disambiguator: 0 }]","has_unsafe":false,"name":"get_obj"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"maybe_deref\"), disambiguator: 0 }]","has_unsafe":false,"name":"maybe_deref"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"maybe_get_obj\"), disambiguator: 0 }]","has_unsafe":true,"name":"maybe_get_obj"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"from_opt_obj\"), disambiguator: 0 }]","has_unsafe":false,"name":"<std::option::Option<T> as FromOptObj<'a>>::from_opt_obj"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"from_opt_obj\"), disambiguator: 0 }]","has_unsafe":false,"name":"<T as FromOptObj<'a>>::from_opt_obj"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"from_obj\"), disambiguator: 0 }]","has_unsafe":false,"name":"<std::vec::Vec<T> as FromObj<'a>>::from_obj"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"to_array4\"), disambiguator: 0 }]","has_unsafe":false,"name":"to_array4"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"from_obj\"), disambiguator: 0 }]","has_unsafe":false,"name":"<[T; _] as FromObj<'a>>::from_obj"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"from_obj\"), disambiguator: 0 }]","has_unsafe":false,"name":"<[T; _] as FromObj<'a>>::from_obj"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"from_obj\"), disambiguator: 0 }]","has_unsafe":false,"name":"<f64 as FromObj<'a>>::from_obj"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"from_obj\"), disambiguator: 0 }]","has_unsafe":false,"name":"<i64 as FromObj<'a>>::from_obj"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"from_obj\"), disambiguator: 0 }]","has_unsafe":false,"name":"<&'a lopdf::Dictionary as FromObj<'a>>::from_obj"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 8 }, DisambiguatedDefPathData { data: ValueNs(\"from_obj\"), disambiguator: 0 }]","has_unsafe":false,"name":"<&'a lopdf::Object as FromObj<'a>>::from_obj"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get\"), disambiguator: 0 }]","has_unsafe":true,"name":"get"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_name_string\"), disambiguator: 0 }]","has_unsafe":true,"name":"get_name_string"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_name\"), disambiguator: 0 }]","has_unsafe":true,"name":"get_name"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"maybe_get_name_string\"), disambiguator: 0 }]","has_unsafe":true,"name":"maybe_get_name_string"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"maybe_get_name\"), disambiguator: 0 }]","has_unsafe":true,"name":"maybe_get_name"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"maybe_get_array\"), disambiguator: 0 }]","has_unsafe":true,"name":"maybe_get_array"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 36 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<PdfSimpleFont<'a> as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 37 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<PdfType3Font<'a> as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"make_font\"), disambiguator: 0 }]","has_unsafe":true,"name":"make_font"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_core_font\"), disambiguator: 0 }]","has_unsafe":false,"name":"is_core_font"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"encoding_to_unicode_table\"), disambiguator: 0 }]","has_unsafe":false,"name":"encoding_to_unicode_table"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 9 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":true,"name":"PdfSimpleFont::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 9 }, DisambiguatedDefPathData { data: ValueNs(\"get_encoding\"), disambiguator: 0 }]","has_unsafe":true,"name":"PdfSimpleFont::get_encoding"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 9 }, DisambiguatedDefPathData { data: ValueNs(\"get_type\"), disambiguator: 0 }]","has_unsafe":true,"name":"PdfSimpleFont::get_type"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 9 }, DisambiguatedDefPathData { data: ValueNs(\"get_basefont\"), disambiguator: 0 }]","has_unsafe":true,"name":"PdfSimpleFont::get_basefont"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 9 }, DisambiguatedDefPathData { data: ValueNs(\"get_subtype\"), disambiguator: 0 }]","has_unsafe":true,"name":"PdfSimpleFont::get_subtype"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 9 }, DisambiguatedDefPathData { data: ValueNs(\"get_widths\"), disambiguator: 0 }]","has_unsafe":true,"name":"PdfSimpleFont::get_widths"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 9 }, DisambiguatedDefPathData { data: ValueNs(\"get_name\"), disambiguator: 0 }]","has_unsafe":true,"name":"PdfSimpleFont::get_name"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 9 }, DisambiguatedDefPathData { data: ValueNs(\"get_descriptor\"), disambiguator: 0 }]","has_unsafe":true,"name":"PdfSimpleFont::get_descriptor"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 10 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":true,"name":"PdfType3Font::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 11 }, DisambiguatedDefPathData { data: ValueNs(\"next\"), disambiguator: 0 }]","has_unsafe":true,"name":"<PdfFontIter<'a> as std::iter::Iterator>::next"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 12 }, DisambiguatedDefPathData { data: ValueNs(\"char_codes\"), disambiguator: 0 }]","has_unsafe":false,"name":"<(dyn PdfFont + 'a)>::char_codes"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 12 }, DisambiguatedDefPathData { data: ValueNs(\"decode\"), disambiguator: 0 }]","has_unsafe":false,"name":"<(dyn PdfFont + 'a)>::decode"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 13 }, DisambiguatedDefPathData { data: ValueNs(\"get_width\"), disambiguator: 0 }]","has_unsafe":false,"name":"<PdfSimpleFont<'a> as PdfFont>::get_width"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 13 }, DisambiguatedDefPathData { data: ValueNs(\"next_char\"), disambiguator: 0 }]","has_unsafe":false,"name":"<PdfSimpleFont<'a> as PdfFont>::next_char"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 13 }, DisambiguatedDefPathData { data: ValueNs(\"decode_char\"), disambiguator: 0 }]","has_unsafe":false,"name":"<PdfSimpleFont<'a> as PdfFont>::decode_char"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 14 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":true,"name":"<PdfSimpleFont<'a> as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 15 }, DisambiguatedDefPathData { data: ValueNs(\"get_width\"), disambiguator: 0 }]","has_unsafe":false,"name":"<PdfType3Font<'a> as PdfFont>::get_width"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 15 }, DisambiguatedDefPathData { data: ValueNs(\"next_char\"), disambiguator: 0 }]","has_unsafe":false,"name":"<PdfType3Font<'a> as PdfFont>::next_char"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 15 }, DisambiguatedDefPathData { data: ValueNs(\"decode_char\"), disambiguator: 0 }]","has_unsafe":false,"name":"<PdfType3Font<'a> as PdfFont>::decode_char"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 16 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":true,"name":"<PdfType3Font<'a> as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_unicode_map\"), disambiguator: 0 }]","has_unsafe":true,"name":"get_unicode_map"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 17 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":true,"name":"PdfCIDFont::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 18 }, DisambiguatedDefPathData { data: ValueNs(\"get_width\"), disambiguator: 0 }]","has_unsafe":false,"name":"<PdfCIDFont<'a> as PdfFont>::get_width"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 18 }, DisambiguatedDefPathData { data: ValueNs(\"next_char\"), disambiguator: 0 }]","has_unsafe":false,"name":"<PdfCIDFont<'a> as PdfFont>::next_char"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 18 }, DisambiguatedDefPathData { data: ValueNs(\"decode_char\"), disambiguator: 0 }]","has_unsafe":false,"name":"<PdfCIDFont<'a> as PdfFont>::decode_char"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 19 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":true,"name":"<PdfCIDFont<'a> as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 38 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<PdfFontDescriptor<'a> as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 20 }, DisambiguatedDefPathData { data: ValueNs(\"get_file\"), disambiguator: 0 }]","has_unsafe":true,"name":"PdfFontDescriptor::get_file"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 20 }, DisambiguatedDefPathData { data: ValueNs(\"get_name\"), disambiguator: 0 }]","has_unsafe":true,"name":"PdfFontDescriptor::get_name"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 21 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":true,"name":"<PdfFontDescriptor<'a> as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 41 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Type0Func as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 40 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Type0Func as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"interpolate\"), disambiguator: 0 }]","has_unsafe":false,"name":"interpolate"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 22 }, DisambiguatedDefPathData { data: ValueNs(\"eval\"), disambiguator: 0 }]","has_unsafe":false,"name":"Type0Func::eval"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 43 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Type2Func as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 42 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Type2Func as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 45 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Function as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 44 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Function as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 23 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":true,"name":"Function::new"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"as_num\"), disambiguator: 0 }]","has_unsafe":false,"name":"as_num"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 46 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<TextState<'a> as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_contents\"), disambiguator: 0 }]","has_unsafe":true,"name":"get_contents"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 47 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<GraphicsState<'a> as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"show_text\"), disambiguator: 0 }]","has_unsafe":true,"name":"show_text"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 50 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<MediaBox as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 49 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<MediaBox as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"apply_state\"), disambiguator: 0 }]","has_unsafe":true,"name":"apply_state"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 51 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<PathOp as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 52 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Path as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 24 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"Path::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 24 }, DisambiguatedDefPathData { data: ValueNs(\"current_point\"), disambiguator: 0 }]","has_unsafe":false,"name":"Path::current_point"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 53 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<CalGray as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 54 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<CalRGB as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 55 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Lab as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 56 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Separation as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 57 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<ColorSpace as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"make_colorspace\"), disambiguator: 0 }]","has_unsafe":true,"name":"make_colorspace"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 25 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"Processor::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 25 }, DisambiguatedDefPathData { data: ValueNs(\"process_stream\"), disambiguator: 0 }]","has_unsafe":true,"name":"Processor::process_stream"}
+{"def_path":"[DisambiguatedDefPathData { data: Trait(\"OutputDev\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"stroke\"), disambiguator: 0 }]","has_unsafe":false,"name":"OutputDev::stroke"}
+{"def_path":"[DisambiguatedDefPathData { data: Trait(\"OutputDev\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"fill\"), disambiguator: 0 }]","has_unsafe":false,"name":"OutputDev::fill"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 26 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"HTMLOutput::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 27 }, DisambiguatedDefPathData { data: ValueNs(\"begin_page\"), disambiguator: 0 }]","has_unsafe":true,"name":"<HTMLOutput<'a> as OutputDev>::begin_page"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 27 }, DisambiguatedDefPathData { data: ValueNs(\"end_page\"), disambiguator: 0 }]","has_unsafe":true,"name":"<HTMLOutput<'a> as OutputDev>::end_page"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 27 }, DisambiguatedDefPathData { data: ValueNs(\"output_character\"), disambiguator: 0 }]","has_unsafe":true,"name":"<HTMLOutput<'a> as OutputDev>::output_character"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 27 }, DisambiguatedDefPathData { data: ValueNs(\"begin_word\"), disambiguator: 0 }]","has_unsafe":false,"name":"<HTMLOutput<'a> as OutputDev>::begin_word"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 27 }, DisambiguatedDefPathData { data: ValueNs(\"end_word\"), disambiguator: 0 }]","has_unsafe":false,"name":"<HTMLOutput<'a> as OutputDev>::end_word"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 27 }, DisambiguatedDefPathData { data: ValueNs(\"end_line\"), disambiguator: 0 }]","has_unsafe":false,"name":"<HTMLOutput<'a> as OutputDev>::end_line"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 28 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"SVGOutput::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 29 }, DisambiguatedDefPathData { data: ValueNs(\"begin_page\"), disambiguator: 0 }]","has_unsafe":true,"name":"<SVGOutput<'a> as OutputDev>::begin_page"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 29 }, DisambiguatedDefPathData { data: ValueNs(\"end_page\"), disambiguator: 0 }]","has_unsafe":true,"name":"<SVGOutput<'a> as OutputDev>::end_page"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 29 }, DisambiguatedDefPathData { data: ValueNs(\"output_character\"), disambiguator: 0 }]","has_unsafe":false,"name":"<SVGOutput<'a> as OutputDev>::output_character"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 29 }, DisambiguatedDefPathData { data: ValueNs(\"begin_word\"), disambiguator: 0 }]","has_unsafe":false,"name":"<SVGOutput<'a> as OutputDev>::begin_word"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 29 }, DisambiguatedDefPathData { data: ValueNs(\"end_word\"), disambiguator: 0 }]","has_unsafe":false,"name":"<SVGOutput<'a> as OutputDev>::end_word"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 29 }, DisambiguatedDefPathData { data: ValueNs(\"end_line\"), disambiguator: 0 }]","has_unsafe":false,"name":"<SVGOutput<'a> as OutputDev>::end_line"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 29 }, DisambiguatedDefPathData { data: ValueNs(\"fill\"), disambiguator: 0 }]","has_unsafe":true,"name":"<SVGOutput<'a> as OutputDev>::fill"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 30 }, DisambiguatedDefPathData { data: ValueNs(\"convert\"), disambiguator: 0 }]","has_unsafe":false,"name":"<&'a mut std::string::String as ConvertToFmt>::convert"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 31 }, DisambiguatedDefPathData { data: ValueNs(\"write_str\"), disambiguator: 0 }]","has_unsafe":false,"name":"<WriteAdapter<W> as std::fmt::Write>::write_str"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 32 }, DisambiguatedDefPathData { data: ValueNs(\"convert\"), disambiguator: 0 }]","has_unsafe":false,"name":"<&'a mut (dyn std::io::Write + 'a) as ConvertToFmt>::convert"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 33 }, DisambiguatedDefPathData { data: ValueNs(\"convert\"), disambiguator: 0 }]","has_unsafe":false,"name":"<&'a mut std::fs::File as ConvertToFmt>::convert"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 34 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"<PlainTextOutput<W>>::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 35 }, DisambiguatedDefPathData { data: ValueNs(\"begin_page\"), disambiguator: 0 }]","has_unsafe":false,"name":"<PlainTextOutput<W> as OutputDev>::begin_page"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 35 }, DisambiguatedDefPathData { data: ValueNs(\"end_page\"), disambiguator: 0 }]","has_unsafe":false,"name":"<PlainTextOutput<W> as OutputDev>::end_page"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 35 }, DisambiguatedDefPathData { data: ValueNs(\"output_character\"), disambiguator: 0 }]","has_unsafe":false,"name":"<PlainTextOutput<W> as OutputDev>::output_character"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 35 }, DisambiguatedDefPathData { data: ValueNs(\"begin_word\"), disambiguator: 0 }]","has_unsafe":false,"name":"<PlainTextOutput<W> as OutputDev>::begin_word"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 35 }, DisambiguatedDefPathData { data: ValueNs(\"end_word\"), disambiguator: 0 }]","has_unsafe":false,"name":"<PlainTextOutput<W> as OutputDev>::end_word"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 35 }, DisambiguatedDefPathData { data: ValueNs(\"end_line\"), disambiguator: 0 }]","has_unsafe":false,"name":"<PlainTextOutput<W> as OutputDev>::end_line"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"print_metadata\"), disambiguator: 0 }]","has_unsafe":true,"name":"print_metadata"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"extract_text\"), disambiguator: 0 }]","has_unsafe":true,"name":"extract_text"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_inherited\"), disambiguator: 0 }]","has_unsafe":true,"name":"get_inherited"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"output_doc\"), disambiguator: 0 }]","has_unsafe":true,"name":"output_doc"}

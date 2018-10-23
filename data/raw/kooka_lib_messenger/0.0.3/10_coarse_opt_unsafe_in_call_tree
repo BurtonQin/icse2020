@@ -1,0 +1,3 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"receiver\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"subscribe\"), disambiguator: 0 }]","has_unsafe":true,"name":"receiver::subscribe"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"receiver\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"consume_messages\"), disambiguator: 0 }]","has_unsafe":true,"name":"receiver::consume_messages"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"sender\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"produce_message\"), disambiguator: 0 }]","has_unsafe":true,"name":"sender::produce_message"}

@@ -1,0 +1,22 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"devices\"), disambiguator: 0 }]","has_unsafe":true,"name":"devices"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"open\"), disambiguator: 0 }]","has_unsafe":true,"name":"open"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"open\"), disambiguator: 0 }]","has_unsafe":true,"name":"Device::open"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"close\"), disambiguator: 0 }]","has_unsafe":true,"name":"Device::close"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"drop\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Device as std::ops::Drop>::drop"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"deref\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Device as std::ops::Deref>::deref"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"Controller::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"sample_rate\"), disambiguator: 0 }]","has_unsafe":true,"name":"Controller::sample_rate"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"set_sample_rate\"), disambiguator: 0 }]","has_unsafe":true,"name":"Controller::set_sample_rate"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"center_freq\"), disambiguator: 0 }]","has_unsafe":true,"name":"Controller::center_freq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"set_center_freq\"), disambiguator: 0 }]","has_unsafe":true,"name":"Controller::set_center_freq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"ppm\"), disambiguator: 0 }]","has_unsafe":true,"name":"Controller::ppm"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"set_ppm\"), disambiguator: 0 }]","has_unsafe":true,"name":"Controller::set_ppm"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"enable_agc\"), disambiguator: 0 }]","has_unsafe":true,"name":"Controller::enable_agc"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"disable_agc\"), disambiguator: 0 }]","has_unsafe":true,"name":"Controller::disable_agc"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"tuner_gains\"), disambiguator: 0 }]","has_unsafe":true,"name":"Controller::tuner_gains"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"tuner_gain\"), disambiguator: 0 }]","has_unsafe":true,"name":"Controller::tuner_gain"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"set_tuner_gain\"), disambiguator: 0 }]","has_unsafe":true,"name":"Controller::set_tuner_gain"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"cancel_async_read\"), disambiguator: 0 }]","has_unsafe":true,"name":"Controller::cancel_async_read"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"Reader::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"read_async\"), disambiguator: 0 }]","has_unsafe":true,"name":"Reader::read_async"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"async_wrapper\"), disambiguator: 0 }]","has_unsafe":true,"name":"async_wrapper"}

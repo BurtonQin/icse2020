@@ -1,0 +1,3 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"perft\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"perform_perft\"), disambiguator: 0 }]","has_unsafe":true,"name":"perft::perform_perft"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"print_usage\"), disambiguator: 0 }]","has_unsafe":false,"name":"print_usage"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}

@@ -1,0 +1,31 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"util\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"parse_versions\"), disambiguator: 0 }]","has_unsafe":false,"name":"util::parse_versions"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"util\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"parse_versions\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"parse_version\"), disambiguator: 0 }]","has_unsafe":false,"name":"util::parse_versions::parse_version"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"util\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"strptime\"), disambiguator: 0 }]","has_unsafe":true,"name":"util::strptime"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"util\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_repo_description\"), disambiguator: 0 }]","has_unsafe":true,"name":"util::get_repo_description"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"util\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"detect_ci\"), disambiguator: 0 }]","has_unsafe":false,"name":"util::detect_ci"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<CIPlatform as std::fmt::Display>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_environment\"), disambiguator: 0 }]","has_unsafe":false,"name":"get_environment"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"detect_from_envmap\"), disambiguator: 0 }]","has_unsafe":false,"name":"CIPlatform::detect_from_envmap"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_build_deps\"), disambiguator: 0 }]","has_unsafe":false,"name":"get_build_deps"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_dependencies\"), disambiguator: 0 }]","has_unsafe":false,"name":"parse_dependencies"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_version_from_cmd\"), disambiguator: 0 }]","has_unsafe":false,"name":"get_version_from_cmd"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"write_compiler_version\"), disambiguator: 0 }]","has_unsafe":false,"name":"write_compiler_version"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"fmt_option_str\"), disambiguator: 0 }]","has_unsafe":false,"name":"fmt_option_str"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"write_git_version\"), disambiguator: 0 }]","has_unsafe":true,"name":"write_git_version"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"write_ci\"), disambiguator: 0 }]","has_unsafe":false,"name":"write_ci"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"write_features\"), disambiguator: 0 }]","has_unsafe":false,"name":"write_features"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"write_env\"), disambiguator: 0 }]","has_unsafe":false,"name":"write_env"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"write_dependencies\"), disambiguator: 0 }]","has_unsafe":false,"name":"write_dependencies"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"write_time\"), disambiguator: 0 }]","has_unsafe":true,"name":"write_time"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"write_cfg\"), disambiguator: 0 }]","has_unsafe":false,"name":"write_cfg"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"default\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Options as std::default::Default>::default"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"set_compiler\"), disambiguator: 0 }]","has_unsafe":false,"name":"Options::set_compiler"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"set_git\"), disambiguator: 0 }]","has_unsafe":false,"name":"Options::set_git"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"set_ci\"), disambiguator: 0 }]","has_unsafe":false,"name":"Options::set_ci"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"set_env\"), disambiguator: 0 }]","has_unsafe":false,"name":"Options::set_env"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"set_dependencies\"), disambiguator: 0 }]","has_unsafe":false,"name":"Options::set_dependencies"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"set_features\"), disambiguator: 0 }]","has_unsafe":false,"name":"Options::set_features"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"set_time\"), disambiguator: 0 }]","has_unsafe":false,"name":"Options::set_time"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"set_cfg\"), disambiguator: 0 }]","has_unsafe":false,"name":"Options::set_cfg"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"write_built_file_with_opts\"), disambiguator: 0 }]","has_unsafe":true,"name":"write_built_file_with_opts"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"write_built_file\"), disambiguator: 0 }]","has_unsafe":true,"name":"write_built_file"}

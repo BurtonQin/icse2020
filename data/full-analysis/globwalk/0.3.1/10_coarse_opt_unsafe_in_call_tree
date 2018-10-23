@@ -1,0 +1,12 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":true,"name":"GlobWalker::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"from_patterns\"), disambiguator: 0 }]","has_unsafe":true,"name":"GlobWalker::from_patterns"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"from_ignore\"), disambiguator: 0 }]","has_unsafe":false,"name":"GlobWalker::from_ignore"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"min_depth\"), disambiguator: 0 }]","has_unsafe":false,"name":"GlobWalker::min_depth"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"max_depth\"), disambiguator: 0 }]","has_unsafe":false,"name":"GlobWalker::max_depth"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"follow_links\"), disambiguator: 0 }]","has_unsafe":false,"name":"GlobWalker::follow_links"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"max_open\"), disambiguator: 0 }]","has_unsafe":false,"name":"GlobWalker::max_open"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"sort_by\"), disambiguator: 0 }]","has_unsafe":false,"name":"GlobWalker::sort_by"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"contents_first\"), disambiguator: 0 }]","has_unsafe":false,"name":"GlobWalker::contents_first"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"into_iter\"), disambiguator: 0 }]","has_unsafe":false,"name":"<GlobWalker as std::iter::IntoIterator>::into_iter"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"next\"), disambiguator: 0 }]","has_unsafe":true,"name":"<IntoIter as std::iter::Iterator>::next"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"glob\"), disambiguator: 0 }]","has_unsafe":true,"name":"glob"}

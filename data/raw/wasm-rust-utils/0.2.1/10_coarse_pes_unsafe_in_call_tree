@@ -1,0 +1,6 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"browser\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"log\"), disambiguator: 0 }]","has_unsafe":true,"name":"browser::log"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"utils\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"js_string_output\"), disambiguator: 0 }]","has_unsafe":false,"name":"utils::js_string_output"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"utils\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"js_string_input\"), disambiguator: 0 }]","has_unsafe":true,"name":"utils::js_string_input"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"prelude\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"alloc\"), disambiguator: 0 }]","has_unsafe":true,"name":"prelude::alloc"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"prelude\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"dealloc\"), disambiguator: 0 }]","has_unsafe":true,"name":"prelude::dealloc"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"prelude\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"dealloc_str\"), disambiguator: 0 }]","has_unsafe":true,"name":"prelude::dealloc_str"}

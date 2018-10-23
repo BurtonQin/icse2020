@@ -1,0 +1,7 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<PlacesLocation as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<PlacesLocation as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"eq\"), disambiguator: 0 }]","has_unsafe":false,"name":"<PlacesLocation as std::cmp::PartialEq>::eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"ne\"), disambiguator: 0 }]","has_unsafe":false,"name":"<PlacesLocation as std::cmp::PartialEq>::ne"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"friendly_db_size\"), disambiguator: 0 }]","has_unsafe":false,"name":"PlacesLocation::friendly_db_size"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_all_places_dbs\"), disambiguator: 0 }]","has_unsafe":true,"name":"get_all_places_dbs"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_largest_places_db\"), disambiguator: 0 }]","has_unsafe":true,"name":"get_largest_places_db"}

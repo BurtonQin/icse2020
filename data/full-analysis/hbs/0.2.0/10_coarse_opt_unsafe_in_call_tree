@@ -1,0 +1,13 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":true,"name":"Heartbeat::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"heartbeat\"), disambiguator: 0 }]","has_unsafe":true,"name":"Heartbeat::heartbeat"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"write_log\"), disambiguator: 0 }]","has_unsafe":false,"name":"Heartbeat::write_log"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"log_to_buffer_index\"), disambiguator: 0 }]","has_unsafe":false,"name":"Heartbeat::log_to_buffer_index"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_window_size\"), disambiguator: 0 }]","has_unsafe":true,"name":"Heartbeat::get_window_size"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_user_tag\"), disambiguator: 0 }]","has_unsafe":true,"name":"Heartbeat::get_user_tag"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_global_time\"), disambiguator: 0 }]","has_unsafe":true,"name":"Heartbeat::get_global_time"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_window_time\"), disambiguator: 0 }]","has_unsafe":true,"name":"Heartbeat::get_window_time"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_global_work\"), disambiguator: 0 }]","has_unsafe":true,"name":"Heartbeat::get_global_work"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_window_work\"), disambiguator: 0 }]","has_unsafe":true,"name":"Heartbeat::get_window_work"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_global_perf\"), disambiguator: 0 }]","has_unsafe":true,"name":"Heartbeat::get_global_perf"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_window_perf\"), disambiguator: 0 }]","has_unsafe":true,"name":"Heartbeat::get_window_perf"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_instant_perf\"), disambiguator: 0 }]","has_unsafe":true,"name":"Heartbeat::get_instant_perf"}

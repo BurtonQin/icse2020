@@ -1,0 +1,2 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"keys\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_private_key\"), disambiguator: 0 }]","has_unsafe":true,"name":"keys::get_private_key"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"package\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"sign_package\"), disambiguator: 0 }]","has_unsafe":true,"name":"package::sign_package"}

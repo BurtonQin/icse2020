@@ -1,0 +1,13 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"deref\"), disambiguator: 0 }]","has_unsafe":true,"name":"<CATE_PATH as std::ops::Deref>::deref"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"deref\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"__static_ref_initialize\"), disambiguator: 0 }]","has_unsafe":false,"name":"<CATE_PATH as std::ops::Deref>::deref::__static_ref_initialize"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"deref\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"require_sync\"), disambiguator: 0 }]","has_unsafe":false,"name":"<CATE_PATH as std::ops::Deref>::deref::require_sync"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"deref\"), disambiguator: 0 }]","has_unsafe":true,"name":"<STDIN_PATH as std::ops::Deref>::deref"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"deref\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"__static_ref_initialize\"), disambiguator: 0 }]","has_unsafe":false,"name":"<STDIN_PATH as std::ops::Deref>::deref::__static_ref_initialize"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"deref\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"require_sync\"), disambiguator: 0 }]","has_unsafe":false,"name":"<STDIN_PATH as std::ops::Deref>::deref::require_sync"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"write_buffer\"), disambiguator: 0 }]","has_unsafe":false,"name":"write_buffer"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"print_cate\"), disambiguator: 0 }]","has_unsafe":false,"name":"print_cate"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"stderr\"), disambiguator: 0 }]","has_unsafe":false,"name":"stderr"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"file_reader\"), disambiguator: 0 }]","has_unsafe":false,"name":"file_reader"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"read_input\"), disambiguator: 0 }]","has_unsafe":false,"name":"read_input"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"handle_input\"), disambiguator: 0 }]","has_unsafe":true,"name":"handle_input"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}

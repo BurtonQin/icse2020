@@ -1,0 +1,10 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"random_usize\"), disambiguator: 0 }]","has_unsafe":false,"name":"random_usize"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"random_u64\"), disambiguator: 0 }]","has_unsafe":false,"name":"random_u64"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"random_u32\"), disambiguator: 0 }]","has_unsafe":false,"name":"random_u32"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"random_u16\"), disambiguator: 0 }]","has_unsafe":false,"name":"random_u16"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"random_u8\"), disambiguator: 0 }]","has_unsafe":false,"name":"random_u8"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"random_isize\"), disambiguator: 0 }]","has_unsafe":false,"name":"random_isize"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"random_i64\"), disambiguator: 0 }]","has_unsafe":false,"name":"random_i64"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"random_i32\"), disambiguator: 0 }]","has_unsafe":false,"name":"random_i32"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"random_i16\"), disambiguator: 0 }]","has_unsafe":false,"name":"random_i16"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"random_i8\"), disambiguator: 0 }]","has_unsafe":false,"name":"random_i8"}

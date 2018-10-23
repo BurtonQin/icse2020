@@ -1,0 +1,8 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_commits\"), disambiguator: 0 }]","has_unsafe":false,"name":"get_commits"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"tag_commits\"), disambiguator: 0 }]","has_unsafe":false,"name":"tag_commits"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"tag_commit\"), disambiguator: 0 }]","has_unsafe":false,"name":"tag_commit"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"untag_commits\"), disambiguator: 0 }]","has_unsafe":false,"name":"untag_commits"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"gen_tag_name\"), disambiguator: 0 }]","has_unsafe":false,"name":"gen_tag_name"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"delete_tag\"), disambiguator: 0 }]","has_unsafe":false,"name":"delete_tag"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_first_commit_sha\"), disambiguator: 0 }]","has_unsafe":false,"name":"get_first_commit_sha"}

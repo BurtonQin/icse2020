@@ -1,0 +1,7 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"Config::new"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"read_wordlist\"), disambiguator: 0 }]","has_unsafe":false,"name":"read_wordlist"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"split_wordlist\"), disambiguator: 0 }]","has_unsafe":false,"name":"split_wordlist"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"select_words\"), disambiguator: 0 }]","has_unsafe":false,"name":"select_words"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"usage\"), disambiguator: 0 }]","has_unsafe":false,"name":"usage"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"config\"), disambiguator: 0 }]","has_unsafe":true,"name":"config"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}

@@ -1,0 +1,3 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"cli\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"print_usage\"), disambiguator: 0 }]","has_unsafe":true,"name":"cli::print_usage"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"cli\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"print_version\"), disambiguator: 0 }]","has_unsafe":false,"name":"cli::print_version"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}

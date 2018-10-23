@@ -1,0 +1,9 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"snapshot\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Spy<Args>>::snapshot"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"called\"), disambiguator: 0 }]","has_unsafe":false,"name":"<SpySnapshot<Args>>::called"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"called_with\"), disambiguator: 0 }]","has_unsafe":false,"name":"<SpySnapshot<Args>>::called_with"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"each_called_with\"), disambiguator: 0 }]","has_unsafe":false,"name":"<SpySnapshot<Args>>::each_called_with"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"num_of_calls\"), disambiguator: 0 }]","has_unsafe":false,"name":"<SpySnapshot<Args>>::num_of_calls"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"all_calls\"), disambiguator: 0 }]","has_unsafe":false,"name":"<SpySnapshot<Args>>::all_calls"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"first_call\"), disambiguator: 0 }]","has_unsafe":false,"name":"<SpySnapshot<Args>>::first_call"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"last_call\"), disambiguator: 0 }]","has_unsafe":false,"name":"<SpySnapshot<Args>>::last_call"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"nth_call\"), disambiguator: 0 }]","has_unsafe":false,"name":"<SpySnapshot<Args>>::nth_call"}

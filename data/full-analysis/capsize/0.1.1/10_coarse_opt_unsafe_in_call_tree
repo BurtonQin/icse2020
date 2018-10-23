@@ -1,0 +1,12 @@
+{"def_path":"[DisambiguatedDefPathData { data: Trait(\"Capacity\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"kilobytes\"), disambiguator: 0 }]","has_unsafe":false,"name":"Capacity::kilobytes"}
+{"def_path":"[DisambiguatedDefPathData { data: Trait(\"Capacity\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"megabytes\"), disambiguator: 0 }]","has_unsafe":false,"name":"Capacity::megabytes"}
+{"def_path":"[DisambiguatedDefPathData { data: Trait(\"Capacity\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"gigabytes\"), disambiguator: 0 }]","has_unsafe":false,"name":"Capacity::gigabytes"}
+{"def_path":"[DisambiguatedDefPathData { data: Trait(\"Capacity\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"terabytes\"), disambiguator: 0 }]","has_unsafe":false,"name":"Capacity::terabytes"}
+{"def_path":"[DisambiguatedDefPathData { data: Trait(\"Capacity\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"petabytes\"), disambiguator: 0 }]","has_unsafe":false,"name":"Capacity::petabytes"}
+{"def_path":"[DisambiguatedDefPathData { data: Trait(\"Capacity\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"exabytes\"), disambiguator: 0 }]","has_unsafe":false,"name":"Capacity::exabytes"}
+{"def_path":"[DisambiguatedDefPathData { data: Trait(\"Capacity\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"capacity\"), disambiguator: 0 }]","has_unsafe":false,"name":"Capacity::capacity"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"bytes\"), disambiguator: 0 }]","has_unsafe":false,"name":"<i64 as Capacity>::bytes"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"bytes\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Bytes as Capacity>::bytes"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Bytes as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"into\"), disambiguator: 0 }]","has_unsafe":false,"name":"<impl std::convert::Into<Bytes> for i64>::into"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"from_str\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Bytes as std::str::FromStr>::from_str"}

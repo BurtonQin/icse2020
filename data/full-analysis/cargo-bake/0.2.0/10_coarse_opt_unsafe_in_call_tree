@@ -1,0 +1,29 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<BakeMode as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"bake_mode_args\"), disambiguator: 0 }]","has_unsafe":true,"name":"bake_mode_args"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"debug_mode_args\"), disambiguator: 0 }]","has_unsafe":false,"name":"debug_mode_args"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"cargo_args_for_bake_mode\"), disambiguator: 0 }]","has_unsafe":false,"name":"cargo_args_for_bake_mode"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"codegen_units\"), disambiguator: 0 }]","has_unsafe":true,"name":"codegen_units"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"do_comparison\"), disambiguator: 0 }]","has_unsafe":true,"name":"do_comparison"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"running_as_rustc_proxy\"), disambiguator: 0 }]","has_unsafe":false,"name":"running_as_rustc_proxy"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"turn_on_rustc_proxy\"), disambiguator: 0 }]","has_unsafe":false,"name":"turn_on_rustc_proxy"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_cargo_name\"), disambiguator: 0 }]","has_unsafe":false,"name":"get_cargo_name"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_rustc_name\"), disambiguator: 0 }]","has_unsafe":false,"name":"get_rustc_name"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"run_cargo\"), disambiguator: 0 }]","has_unsafe":false,"name":"run_cargo"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"run_rustc\"), disambiguator: 0 }]","has_unsafe":true,"name":"run_rustc"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_command\"), disambiguator: 0 }]","has_unsafe":false,"name":"get_command"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"strip_bake_args\"), disambiguator: 0 }]","has_unsafe":false,"name":"strip_bake_args"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"strip_opt_args\"), disambiguator: 0 }]","has_unsafe":false,"name":"strip_opt_args"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_bake_mode_from_args\"), disambiguator: 0 }]","has_unsafe":false,"name":"get_bake_mode_from_args"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_debug_mode_from_args\"), disambiguator: 0 }]","has_unsafe":false,"name":"get_debug_mode_from_args"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"set_bake_mode\"), disambiguator: 0 }]","has_unsafe":false,"name":"set_bake_mode"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"set_debug_mode\"), disambiguator: 0 }]","has_unsafe":false,"name":"set_debug_mode"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_bake_mode\"), disambiguator: 0 }]","has_unsafe":false,"name":"get_bake_mode"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_debug_mode\"), disambiguator: 0 }]","has_unsafe":false,"name":"get_debug_mode"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"have_gold\"), disambiguator: 0 }]","has_unsafe":false,"name":"have_gold"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Error as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"description\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Error as std::error::Error>::description"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"cause\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Error as std::error::Error>::cause"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Error as std::fmt::Display>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"from\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Error as std::convert::From<std::io::Error>>::from"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"from\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Error as std::convert::From<std::env::VarError>>::from"}

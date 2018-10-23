@@ -1,0 +1,8 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"resize\"), disambiguator: 0 }]","has_unsafe":false,"name":"<&'a mut [T] as ResizeSlice>::resize"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"resize_from\"), disambiguator: 0 }]","has_unsafe":false,"name":"<&'a mut [T] as ResizeSlice>::resize_from"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"resize_to\"), disambiguator: 0 }]","has_unsafe":false,"name":"<&'a mut [T] as ResizeSlice>::resize_to"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"resize\"), disambiguator: 0 }]","has_unsafe":false,"name":"<&'a [T] as ResizeSlice>::resize"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"resize_from\"), disambiguator: 0 }]","has_unsafe":false,"name":"<&'a [T] as ResizeSlice>::resize_from"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"resize_to\"), disambiguator: 0 }]","has_unsafe":false,"name":"<&'a [T] as ResizeSlice>::resize_to"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"copy_from\"), disambiguator: 0 }]","has_unsafe":true,"name":"<[T] as SliceExt<T>>::copy_from"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"copy_inner\"), disambiguator: 0 }]","has_unsafe":true,"name":"<[T] as SliceExt<T>>::copy_inner"}

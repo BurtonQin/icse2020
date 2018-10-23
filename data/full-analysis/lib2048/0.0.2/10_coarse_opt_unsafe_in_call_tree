@@ -1,0 +1,33 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 9 }, DisambiguatedDefPathData { data: ValueNs(\"assert_receiver_is_total_eq\"), disambiguator: 0 }]","has_unsafe":false,"name":"<TilePos as std::cmp::Eq>::assert_receiver_is_total_eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 8 }, DisambiguatedDefPathData { data: ValueNs(\"eq\"), disambiguator: 0 }]","has_unsafe":false,"name":"<TilePos as std::cmp::PartialEq>::eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 8 }, DisambiguatedDefPathData { data: ValueNs(\"ne\"), disambiguator: 0 }]","has_unsafe":false,"name":"<TilePos as std::cmp::PartialEq>::ne"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<TilePos as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<TilePos as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"from\"), disambiguator: 0 }]","has_unsafe":false,"name":"<TilePos as std::convert::From<(usize, usize)>>::from"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"to_usize_index\"), disambiguator: 0 }]","has_unsafe":false,"name":"TilePos::to_usize_index"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"from_usize_index\"), disambiguator: 0 }]","has_unsafe":false,"name":"TilePos::from_usize_index"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"size_to_max_index\"), disambiguator: 0 }]","has_unsafe":false,"name":"TilePos::size_to_max_index"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"size_as_usize\"), disambiguator: 0 }]","has_unsafe":false,"name":"TilePos::size_as_usize"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"index\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Board as std::ops::Index<usize>>::index"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"index_mut\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Board as std::ops::IndexMut<usize>>::index_mut"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 11 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Control as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 10 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Control as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 14 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Display as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 13 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Display as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 18 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Board as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 17 }, DisambiguatedDefPathData { data: ValueNs(\"assert_receiver_is_total_eq\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Board as std::cmp::Eq>::assert_receiver_is_total_eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 16 }, DisambiguatedDefPathData { data: ValueNs(\"eq\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Board as std::cmp::PartialEq>::eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 16 }, DisambiguatedDefPathData { data: ValueNs(\"ne\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Board as std::cmp::PartialEq>::ne"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"Board::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"from_raw_board\"), disambiguator: 0 }]","has_unsafe":false,"name":"Board::from_raw_board"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"start_game\"), disambiguator: 0 }]","has_unsafe":false,"name":"Board::start_game"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"control_and_generate\"), disambiguator: 0 }]","has_unsafe":false,"name":"Board::control_and_generate"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"next_index\"), disambiguator: 0 }]","has_unsafe":false,"name":"next_index"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"each_start\"), disambiguator: 0 }]","has_unsafe":false,"name":"each_start"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"control_move\"), disambiguator: 0 }]","has_unsafe":false,"name":"control_move"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"display_combine_into\"), disambiguator: 0 }]","has_unsafe":false,"name":"display_combine_into"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"display_move\"), disambiguator: 0 }]","has_unsafe":false,"name":"display_move"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"gen_tile_value\"), disambiguator: 0 }]","has_unsafe":false,"name":"gen_tile_value"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"gen_pos\"), disambiguator: 0 }]","has_unsafe":false,"name":"gen_pos"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"gen\"), disambiguator: 0 }]","has_unsafe":false,"name":"gen"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_game_over\"), disambiguator: 0 }]","has_unsafe":false,"name":"is_game_over"}

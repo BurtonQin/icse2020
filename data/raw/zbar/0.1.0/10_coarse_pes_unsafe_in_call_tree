@@ -1,0 +1,4 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"zbar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"image_set_data\"), disambiguator: 0 }]","has_unsafe":true,"name":"zbar::image_set_data"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"zbar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"image_free_data\"), disambiguator: 0 }]","has_unsafe":true,"name":"zbar::image_free_data"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"zbar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"symbol_get_data\"), disambiguator: 0 }]","has_unsafe":true,"name":"zbar::symbol_get_data"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"zbar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_symbol_name\"), disambiguator: 0 }]","has_unsafe":true,"name":"zbar::get_symbol_name"}

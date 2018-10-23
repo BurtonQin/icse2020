@@ -1,0 +1,30 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"default\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Config as std::default::Default>::default"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Library as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<MSVCTarget as std::fmt::Display>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Error as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"description\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Error as std::error::Error>::description"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"cause\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Error as std::error::Error>::cause"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Error as std::fmt::Display>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"probe_package\"), disambiguator: 0 }]","has_unsafe":false,"name":"probe_package"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"find_package\"), disambiguator: 0 }]","has_unsafe":false,"name":"find_package"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"find_vcpkg_root\"), disambiguator: 0 }]","has_unsafe":false,"name":"find_vcpkg_root"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"validate_vcpkg_root\"), disambiguator: 0 }]","has_unsafe":false,"name":"validate_vcpkg_root"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"find_vcpkg_target\"), disambiguator: 0 }]","has_unsafe":false,"name":"find_vcpkg_target"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 9 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Port as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 8 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Port as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"load_port_manifest\"), disambiguator: 0 }]","has_unsafe":false,"name":"load_port_manifest"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"load_port_file\"), disambiguator: 0 }]","has_unsafe":false,"name":"load_port_file"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"load_ports\"), disambiguator: 0 }]","has_unsafe":false,"name":"load_ports"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"Config::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"lib_name\"), disambiguator: 0 }]","has_unsafe":false,"name":"Config::lib_name"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"lib_names\"), disambiguator: 0 }]","has_unsafe":false,"name":"Config::lib_names"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"cargo_metadata\"), disambiguator: 0 }]","has_unsafe":false,"name":"Config::cargo_metadata"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"emit_includes\"), disambiguator: 0 }]","has_unsafe":false,"name":"Config::emit_includes"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"copy_dlls\"), disambiguator: 0 }]","has_unsafe":false,"name":"Config::copy_dlls"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"probe\"), disambiguator: 0 }]","has_unsafe":false,"name":"Config::probe"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"emit_libs\"), disambiguator: 0 }]","has_unsafe":false,"name":"Config::emit_libs"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"do_dll_copy\"), disambiguator: 0 }]","has_unsafe":false,"name":"Config::do_dll_copy"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"find_package\"), disambiguator: 0 }]","has_unsafe":false,"name":"Config::find_package"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"Library::new"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"envify\"), disambiguator: 0 }]","has_unsafe":false,"name":"envify"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"msvc_target\"), disambiguator: 0 }]","has_unsafe":false,"name":"msvc_target"}

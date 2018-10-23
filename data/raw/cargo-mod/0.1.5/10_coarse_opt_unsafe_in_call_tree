@@ -1,0 +1,10 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"utils\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"are_in_project\"), disambiguator: 0 }]","has_unsafe":false,"name":"utils::are_in_project"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"module\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"is_file\"), disambiguator: 0 }]","has_unsafe":false,"name":"module::is_file"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"module\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"gen_module\"), disambiguator: 0 }]","has_unsafe":false,"name":"module::gen_module"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"module\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"gen_file_module\"), disambiguator: 0 }]","has_unsafe":false,"name":"module::gen_file_module"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"module\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"gen_folder_module\"), disambiguator: 0 }]","has_unsafe":false,"name":"module::gen_folder_module"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"module\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"generate_modstring\"), disambiguator: 0 }]","has_unsafe":false,"name":"module::generate_modstring"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"module\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"update_modrs\"), disambiguator: 0 }]","has_unsafe":false,"name":"module::update_modrs"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"module\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"what_to_update\"), disambiguator: 0 }]","has_unsafe":false,"name":"module::what_to_update"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"print_usage\"), disambiguator: 0 }]","has_unsafe":false,"name":"print_usage"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}

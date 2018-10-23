@@ -1,0 +1,17 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"then\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Promise<T, E>>::then"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"then_result\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Promise<T, E>>::then_result"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"ok_then\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Promise<T, E>>::ok_then"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"err_then\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Promise<T, E>>::err_then"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Promise<T, E>>::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"race\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Promise<T, E>>::race"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"all\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Promise<T, E>>::all"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"resolve\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Promise<T, E>>::resolve"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"reject\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Promise<T, E>>::reject"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"from_result\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Promise<T, E>>::from_result"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"impl_new\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Promise<T, E>>::impl_new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"impl_then\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Promise<T, E>>::impl_then"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"impl_then_result\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Promise<T, E>>::impl_then_result"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"impl_ok_then\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Promise<T, E>>::impl_ok_then"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"impl_err_then\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Promise<T, E>>::impl_err_then"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"impl_race\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Promise<T, E>>::impl_race"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"impl_all\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Promise<T, E>>::impl_all"}

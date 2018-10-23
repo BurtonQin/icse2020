@@ -1,0 +1,16 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"sort\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"selection\"), disambiguator: 0 }]","has_unsafe":true,"name":"sort::selection"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"sort\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"bubble\"), disambiguator: 0 }]","has_unsafe":true,"name":"sort::bubble"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"sort\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"cocktail\"), disambiguator: 0 }]","has_unsafe":true,"name":"sort::cocktail"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"sort\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"insection\"), disambiguator: 0 }]","has_unsafe":true,"name":"sort::insection"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"sort\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"merge\"), disambiguator: 0 }]","has_unsafe":true,"name":"sort::merge"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"sort\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"combine\"), disambiguator: 0 }]","has_unsafe":true,"name":"sort::combine"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"sort\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"quick\"), disambiguator: 0 }]","has_unsafe":true,"name":"sort::quick"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"sort\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"partition\"), disambiguator: 0 }]","has_unsafe":true,"name":"sort::partition"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"sort\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"heap\"), disambiguator: 0 }]","has_unsafe":true,"name":"sort::heap"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"sort\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"heapify\"), disambiguator: 0 }]","has_unsafe":true,"name":"sort::heapify"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"search\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"linear\"), disambiguator: 0 }]","has_unsafe":false,"name":"search::linear"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"search\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"binary\"), disambiguator: 0 }]","has_unsafe":false,"name":"search::binary"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"search\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"exponential\"), disambiguator: 0 }]","has_unsafe":false,"name":"search::exponential"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"search\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"fibonacci\"), disambiguator: 0 }]","has_unsafe":false,"name":"search::fibonacci"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"pattern\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"bruteforce\"), disambiguator: 0 }]","has_unsafe":false,"name":"pattern::bruteforce"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"pattern\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"karp_rabin\"), disambiguator: 0 }]","has_unsafe":false,"name":"pattern::karp_rabin"}

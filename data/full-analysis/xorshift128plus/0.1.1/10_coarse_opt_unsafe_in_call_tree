@@ -1,0 +1,8 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"ldexp\"), disambiguator: 0 }]","has_unsafe":false,"name":"ldexp"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"lcg_parkmiller\"), disambiguator: 0 }]","has_unsafe":false,"name":"lcg_parkmiller"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"splitmix64\"), disambiguator: 0 }]","has_unsafe":false,"name":"splitmix64"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"u64_from_bytes\"), disambiguator: 0 }]","has_unsafe":false,"name":"u64_from_bytes"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"from_bytes\"), disambiguator: 0 }]","has_unsafe":false,"name":"XorShift128Plus::from_bytes"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"from_u32\"), disambiguator: 0 }]","has_unsafe":false,"name":"XorShift128Plus::from_u32"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"from_u64\"), disambiguator: 0 }]","has_unsafe":false,"name":"XorShift128Plus::from_u64"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"next\"), disambiguator: 0 }]","has_unsafe":false,"name":"XorShift128Plus::next"}

@@ -1,0 +1,3 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"eval\"), disambiguator: 0 }]","has_unsafe":true,"name":"eval"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"read_statement\"), disambiguator: 0 }]","has_unsafe":false,"name":"read_statement"}

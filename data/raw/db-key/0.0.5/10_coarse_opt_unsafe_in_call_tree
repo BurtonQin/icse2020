@@ -1,0 +1,3 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"from_u8\"), disambiguator: 0 }]","has_unsafe":false,"name":"from_u8"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"from_u8\"), disambiguator: 0 }]","has_unsafe":false,"name":"<i32 as Key>::from_u8"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"as_slice\"), disambiguator: 0 }]","has_unsafe":false,"name":"<i32 as Key>::as_slice"}

@@ -1,0 +1,2 @@
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"vsprintf_raw\"), disambiguator: 0 }]","name":"vsprintf_raw"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"vsnprintf_wrapper\"), disambiguator: 0 }]","name":"vsnprintf_wrapper"}

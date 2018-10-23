@@ -1,0 +1,4 @@
+{"def_path":"[DisambiguatedDefPathData { data: Trait(\"Pluggable\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get\"), disambiguator: 0 }]","has_unsafe":true,"name":"Pluggable::get"}
+{"def_path":"[DisambiguatedDefPathData { data: Trait(\"Pluggable\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_ref\"), disambiguator: 0 }]","has_unsafe":true,"name":"Pluggable::get_ref"}
+{"def_path":"[DisambiguatedDefPathData { data: Trait(\"Pluggable\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_mut\"), disambiguator: 0 }]","has_unsafe":true,"name":"Pluggable::get_mut"}
+{"def_path":"[DisambiguatedDefPathData { data: Trait(\"Pluggable\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"compute\"), disambiguator: 0 }]","has_unsafe":true,"name":"Pluggable::compute"}

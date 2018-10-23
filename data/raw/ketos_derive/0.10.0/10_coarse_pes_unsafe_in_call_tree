@@ -1,0 +1,14 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"derive_foreign_value\"), disambiguator: 0 }]","has_unsafe":true,"name":"derive_foreign_value"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"derive_from_value\"), disambiguator: 0 }]","has_unsafe":true,"name":"derive_from_value"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"derive_from_value_clone\"), disambiguator: 0 }]","has_unsafe":true,"name":"derive_from_value_clone"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"derive_from_value_ref\"), disambiguator: 0 }]","has_unsafe":true,"name":"derive_from_value_ref"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"derive_into_value\"), disambiguator: 0 }]","has_unsafe":true,"name":"derive_into_value"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"derive_struct_value\"), disambiguator: 0 }]","has_unsafe":true,"name":"derive_struct_value"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"default\"), disambiguator: 0 }]","has_unsafe":false,"name":"<AttrOpts as std::default::Default>::default"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_attrs\"), disambiguator: 0 }]","has_unsafe":true,"name":"parse_attrs"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"lit_str\"), disambiguator: 0 }]","has_unsafe":true,"name":"lit_str"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"make_field_name\"), disambiguator: 0 }]","has_unsafe":false,"name":"make_field_name"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"tokens_str\"), disambiguator: 0 }]","has_unsafe":true,"name":"tokens_str"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"split_with_lifetime\"), disambiguator: 0 }]","has_unsafe":true,"name":"split_with_lifetime"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"to_tokens\"), disambiguator: 0 }]","has_unsafe":true,"name":"<LtImplGenerics<'a> as quote::ToTokens>::to_tokens"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","has_unsafe":true,"name":"registrar::_registrar"}

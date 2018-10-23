@@ -1,0 +1,11 @@
+{"abi":"C","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"C\" fn(*const u8) -> bool"}
+{"abi":"C","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"C\" fn(u32) -> bool"}
+{"abi":"C","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"C\" fn(i32, *const u16, i32, i32, i32) -> bool"}
+{"abi":"C","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"C\" fn(i32, *const u16) -> bool"}
+{"abi":"C","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"C\" fn()"}
+{"abi":"C","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"C\" fn(*const u8) -> bool"}
+{"abi":"C","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"C\" fn(u32) -> bool"}
+{"abi":"C","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"C\" fn(*const u16, u32) -> bool"}
+{"abi":"C","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"C\" fn(u32) -> bool"}
+{"abi":"C","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"C\" fn()"}
+{"abi":"C","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"C\" fn(*const u16, i32, i32, i32) -> bool"}

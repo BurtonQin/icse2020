@@ -1,0 +1,123 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"__op_addadd\"), disambiguator: 0 }]","has_unsafe":true,"name":"__op_addadd"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"add\"), disambiguator: 0 }]","has_unsafe":false,"name":"<std::string::String as OpAddable>::add"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"add\"), disambiguator: 0 }]","has_unsafe":false,"name":"<std::vec::Vec<A> as OpAddable>::add"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"__op_concat\"), disambiguator: 0 }]","has_unsafe":true,"name":"__op_concat"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"concat\"), disambiguator: 0 }]","has_unsafe":false,"name":"<std::string::String as OpConcatable>::concat"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"concat\"), disambiguator: 0 }]","has_unsafe":false,"name":"<std::vec::Vec<A> as OpConcatable>::concat"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"assertEqual\"), disambiguator: 0 }]","has_unsafe":true,"name":"assertEqual"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"putStrLn\"), disambiguator: 0 }]","has_unsafe":false,"name":"putStrLn"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"List\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"reverse\"), disambiguator: 0 }]","has_unsafe":false,"name":"List::reverse"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"__op_index\"), disambiguator: 0 }]","has_unsafe":true,"name":"__op_index"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 22 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Either<A, B> as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 21 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Either<A, B> as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"map\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Either<A, B>>::map"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"show\"), disambiguator: 0 }]","has_unsafe":false,"name":"show"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"isSuffixOf\"), disambiguator: 0 }]","has_unsafe":false,"name":"isSuffixOf"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"isPrefixOf\"), disambiguator: 0 }]","has_unsafe":false,"name":"isPrefixOf"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"elem\"), disambiguator: 0 }]","has_unsafe":false,"name":"elem"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"replicate\"), disambiguator: 0 }]","has_unsafe":false,"name":"replicate"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"words\"), disambiguator: 0 }]","has_unsafe":false,"name":"words"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"length\"), disambiguator: 0 }]","has_unsafe":true,"name":"length"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"get_len\"), disambiguator: 0 }]","has_unsafe":false,"name":"<std::string::String as Lengthable>::get_len"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"get_len\"), disambiguator: 0 }]","has_unsafe":false,"name":"<std::vec::Vec<T> as Lengthable>::get_len"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"__op_bind\"), disambiguator: 0 }]","has_unsafe":true,"name":"__op_bind"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"bind_it\"), disambiguator: 0 }]","has_unsafe":false,"name":"<std::string::String as Bindable<T>>::bind_it"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"__op_forwardslash\"), disambiguator: 0 }]","has_unsafe":false,"name":"__op_forwardslash"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"__op_dollarnot\"), disambiguator: 0 }]","has_unsafe":false,"name":"__op_dollarnot"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"union\"), disambiguator: 0 }]","has_unsafe":false,"name":"union"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"toInteger\"), disambiguator: 0 }]","has_unsafe":false,"name":"toInteger"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"fromInteger\"), disambiguator: 0 }]","has_unsafe":false,"name":"fromInteger"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"shiftL\"), disambiguator: 0 }]","has_unsafe":false,"name":"shiftL"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"shiftR\"), disambiguator: 0 }]","has_unsafe":false,"name":"shiftR"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"fromEnum\"), disambiguator: 0 }]","has_unsafe":true,"name":"fromEnum"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"__op_dotted_and\"), disambiguator: 0 }]","has_unsafe":false,"name":"__op_dotted_and"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"__op_dotted_or\"), disambiguator: 0 }]","has_unsafe":false,"name":"__op_dotted_or"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"__op_assign_div\"), disambiguator: 0 }]","has_unsafe":false,"name":"__op_assign_div"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"__op_tuple2\"), disambiguator: 0 }]","has_unsafe":false,"name":"__op_tuple2"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"__op_power\"), disambiguator: 0 }]","has_unsafe":false,"name":"__op_power"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"__mod\"), disambiguator: 0 }]","has_unsafe":false,"name":"__mod"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"not\"), disambiguator: 0 }]","has_unsafe":false,"name":"not"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"__break\"), disambiguator: 0 }]","has_unsafe":true,"name":"__break"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"__break_str\"), disambiguator: 0 }]","has_unsafe":true,"name":"__break_str"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"any\"), disambiguator: 0 }]","has_unsafe":false,"name":"any"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"isJust\"), disambiguator: 0 }]","has_unsafe":false,"name":"isJust"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"null\"), disambiguator: 0 }]","has_unsafe":false,"name":"null"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"lines\"), disambiguator: 0 }]","has_unsafe":false,"name":"lines"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"unlines\"), disambiguator: 0 }]","has_unsafe":false,"name":"unlines"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"ord\"), disambiguator: 0 }]","has_unsafe":false,"name":"ord"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"isAscii\"), disambiguator: 0 }]","has_unsafe":false,"name":"isAscii"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"isPrint\"), disambiguator: 0 }]","has_unsafe":false,"name":"isPrint"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"isOctDigit\"), disambiguator: 0 }]","has_unsafe":false,"name":"isOctDigit"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"isDigit\"), disambiguator: 0 }]","has_unsafe":false,"name":"isDigit"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"head\"), disambiguator: 0 }]","has_unsafe":false,"name":"head"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"head_str\"), disambiguator: 0 }]","has_unsafe":false,"name":"head_str"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"init\"), disambiguator: 0 }]","has_unsafe":false,"name":"init"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"init_str\"), disambiguator: 0 }]","has_unsafe":false,"name":"init_str"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"tail\"), disambiguator: 0 }]","has_unsafe":false,"name":"tail"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"tail_str\"), disambiguator: 0 }]","has_unsafe":false,"name":"tail_str"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"fst\"), disambiguator: 0 }]","has_unsafe":false,"name":"fst"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"snd\"), disambiguator: 0 }]","has_unsafe":false,"name":"snd"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"flip\"), disambiguator: 0 }]","has_unsafe":true,"name":"flip"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"take\"), disambiguator: 0 }]","has_unsafe":false,"name":"take"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"take_str\"), disambiguator: 0 }]","has_unsafe":false,"name":"take_str"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"hasExtension\"), disambiguator: 0 }]","has_unsafe":false,"name":"hasExtension"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"replaceExtension\"), disambiguator: 0 }]","has_unsafe":false,"name":"replaceExtension"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"addExtension\"), disambiguator: 0 }]","has_unsafe":false,"name":"addExtension"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"takeWhile\"), disambiguator: 0 }]","has_unsafe":true,"name":"takeWhile"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"takeWhile_str\"), disambiguator: 0 }]","has_unsafe":true,"name":"takeWhile_str"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"fromIntegral\"), disambiguator: 0 }]","has_unsafe":false,"name":"fromIntegral"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"drop\"), disambiguator: 0 }]","has_unsafe":false,"name":"drop"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"drop_str\"), disambiguator: 0 }]","has_unsafe":false,"name":"drop_str"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"dropWhile\"), disambiguator: 0 }]","has_unsafe":true,"name":"dropWhile"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"span\"), disambiguator: 0 }]","has_unsafe":true,"name":"span"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"chr\"), disambiguator: 0 }]","has_unsafe":false,"name":"chr"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"id\"), disambiguator: 0 }]","has_unsafe":false,"name":"id"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"__boxed_chars\"), disambiguator: 0 }]","has_unsafe":false,"name":"__boxed_chars"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"__boxed_slice\"), disambiguator: 0 }]","has_unsafe":false,"name":"__boxed_slice"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"setBit\"), disambiguator: 0 }]","has_unsafe":false,"name":"setBit"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"clearBit\"), disambiguator: 0 }]","has_unsafe":false,"name":"clearBit"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"testBit\"), disambiguator: 0 }]","has_unsafe":false,"name":"testBit"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"__return\"), disambiguator: 0 }]","has_unsafe":true,"name":"__return"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 8 }, DisambiguatedDefPathData { data: ValueNs(\"show_s\"), disambiguator: 0 }]","has_unsafe":false,"name":"<showOct as ShowS>::show_s"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 9 }, DisambiguatedDefPathData { data: ValueNs(\"show_s\"), disambiguator: 0 }]","has_unsafe":false,"name":"<showHex as ShowS>::show_s"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 10 }, DisambiguatedDefPathData { data: ValueNs(\"show_s\"), disambiguator: 0 }]","has_unsafe":false,"name":"<showString as ShowS>::show_s"}
+{"def_path":"[DisambiguatedDefPathData { data: Trait(\"ReadS\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"map\"), disambiguator: 0 }]","has_unsafe":false,"name":"ReadS::map"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 11 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<(dyn ReadS<A> + 'static) as std::fmt::Display>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 12 }, DisambiguatedDefPathData { data: ValueNs(\"read_s\"), disambiguator: 0 }]","has_unsafe":false,"name":"<readHex as ReadS<isize>>::read_s"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 13 }, DisambiguatedDefPathData { data: ValueNs(\"read_s\"), disambiguator: 0 }]","has_unsafe":false,"name":"<readHex as ReadS<char>>::read_s"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 14 }, DisambiguatedDefPathData { data: ValueNs(\"read_s\"), disambiguator: 0 }]","has_unsafe":false,"name":"<readOct as ReadS<isize>>::read_s"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 15 }, DisambiguatedDefPathData { data: ValueNs(\"read_s\"), disambiguator: 0 }]","has_unsafe":false,"name":"<readOct as ReadS<char>>::read_s"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 16 }, DisambiguatedDefPathData { data: ValueNs(\"read_s\"), disambiguator: 0 }]","has_unsafe":false,"name":"<readDec as ReadS<isize>>::read_s"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"BSC\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"head\"), disambiguator: 0 }]","has_unsafe":false,"name":"BSC::head"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"BSC\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"tail\"), disambiguator: 0 }]","has_unsafe":false,"name":"BSC::tail"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"BSC\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"null\"), disambiguator: 0 }]","has_unsafe":false,"name":"BSC::null"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"BSC\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lines\"), disambiguator: 0 }]","has_unsafe":false,"name":"BSC::lines"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"BSC\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"pack\"), disambiguator: 0 }]","has_unsafe":false,"name":"BSC::pack"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"BSC\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"unpack\"), disambiguator: 0 }]","has_unsafe":false,"name":"BSC::unpack"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"BSC\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"take\"), disambiguator: 0 }]","has_unsafe":false,"name":"BSC::take"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"BSW\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"null\"), disambiguator: 0 }]","has_unsafe":false,"name":"BSW::null"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"BSW\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"head\"), disambiguator: 0 }]","has_unsafe":false,"name":"BSW::head"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"BSW\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"tail\"), disambiguator: 0 }]","has_unsafe":false,"name":"BSW::tail"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"BSW\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"readFile\"), disambiguator: 0 }]","has_unsafe":false,"name":"BSW::readFile"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 23 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<FilePath as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 17 }, DisambiguatedDefPathData { data: ValueNs(\"from\"), disambiguator: 0 }]","has_unsafe":false,"name":"<FilePath as std::convert::From<std::string::String>>::from"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 18 }, DisambiguatedDefPathData { data: ValueNs(\"from\"), disambiguator: 0 }]","has_unsafe":false,"name":"<impl std::convert::From<FilePath> for std::string::String>::from"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 19 }, DisambiguatedDefPathData { data: ValueNs(\"to_string\"), disambiguator: 0 }]","has_unsafe":false,"name":"<FilePath as std::string::ToString>::to_string"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"openTempFile\"), disambiguator: 0 }]","has_unsafe":false,"name":"openTempFile"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"hClose\"), disambiguator: 0 }]","has_unsafe":false,"name":"hClose"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"removeFile\"), disambiguator: 0 }]","has_unsafe":false,"name":"removeFile"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"getTemporaryDirectory\"), disambiguator: 0 }]","has_unsafe":false,"name":"getTemporaryDirectory"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"takeFileName\"), disambiguator: 0 }]","has_unsafe":false,"name":"takeFileName"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"maybe\"), disambiguator: 0 }]","has_unsafe":false,"name":"maybe"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"bracket\"), disambiguator: 0 }]","has_unsafe":false,"name":"bracket"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"seq\"), disambiguator: 0 }]","has_unsafe":false,"name":"seq"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"Map\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"insert\"), disambiguator: 0 }]","has_unsafe":false,"name":"Map::insert"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"Map\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lookup\"), disambiguator: 0 }]","has_unsafe":false,"name":"Map::lookup"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 25 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Set<T> as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 24 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Set<T> as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 20 }, DisambiguatedDefPathData { data: ValueNs(\"member\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Set<T>>::member"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 20 }, DisambiguatedDefPathData { data: ValueNs(\"fromList\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Set<T>>::fromList"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"array\"), disambiguator: 0 }]","has_unsafe":false,"name":"array"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"listArray\"), disambiguator: 0 }]","has_unsafe":false,"name":"listArray"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"__op_array_index\"), disambiguator: 0 }]","has_unsafe":false,"name":"__op_array_index"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"__op_rshift\"), disambiguator: 0 }]","has_unsafe":false,"name":"__op_rshift"}

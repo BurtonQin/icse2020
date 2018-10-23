@@ -1,0 +1,5 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"run_build\"), disambiguator: 0 }]","has_unsafe":false,"name":"main::run_build"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"push_glob\"), disambiguator: 0 }]","has_unsafe":true,"name":"push_glob"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"run_node_test\"), disambiguator: 0 }]","has_unsafe":false,"name":"run_node_test"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"psc_package_build\"), disambiguator: 0 }]","has_unsafe":false,"name":"psc_package_build"}

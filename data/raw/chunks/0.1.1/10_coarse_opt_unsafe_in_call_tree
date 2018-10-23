@@ -1,0 +1,12 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"chunk\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get\"), disambiguator: 0 }]","has_unsafe":false,"name":"<chunk::Chunk<S>>::get"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"chunk\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_mut\"), disambiguator: 0 }]","has_unsafe":false,"name":"<chunk::Chunk<S>>::get_mut"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Chunks<S>>::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"tick\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Chunks<S>>::tick"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"reap\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Chunks<S>>::reap"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"load\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Chunks<S>>::load"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"load_sync\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Chunks<S>>::load_sync"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"reload\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Chunks<S>>::reload"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"handle_response\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Chunks<S>>::handle_response"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"save\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Chunks<S>>::save"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"is_loading\"), disambiguator: 0 }]","has_unsafe":false,"name":"<State<S>>::is_loading"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"is_unloading\"), disambiguator: 0 }]","has_unsafe":false,"name":"<State<S>>::is_unloading"}

@@ -1,0 +1,4 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"socket_derive\"), disambiguator: 0 }]","has_unsafe":false,"name":"socket_derive"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"has_attr\"), disambiguator: 0 }]","has_unsafe":false,"name":"has_attr"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"only_has_inner_socket\"), disambiguator: 0 }]","has_unsafe":false,"name":"only_has_inner_socket"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","has_unsafe":true,"name":"registrar::_registrar"}

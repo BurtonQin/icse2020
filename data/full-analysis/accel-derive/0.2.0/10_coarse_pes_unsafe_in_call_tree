@@ -1,0 +1,3 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"kernel\"), disambiguator: 0 }]","has_unsafe":true,"name":"kernel"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"func2caller\"), disambiguator: 0 }]","has_unsafe":true,"name":"func2caller"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","has_unsafe":true,"name":"registrar::_registrar"}

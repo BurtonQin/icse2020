@@ -1,0 +1,10 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"test_semiring1\"), disambiguator: 0 }]","has_unsafe":true,"name":"test_semiring1"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"test_semiring2\"), disambiguator: 0 }]","has_unsafe":true,"name":"test_semiring2"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"test_division\"), disambiguator: 0 }]","has_unsafe":true,"name":"test_division"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"test_reverse\"), disambiguator: 0 }]","has_unsafe":true,"name":"test_reverse"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"test_equality\"), disambiguator: 0 }]","has_unsafe":true,"name":"test_equality"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"test_io\"), disambiguator: 0 }]","has_unsafe":true,"name":"test_io"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"test_clone\"), disambiguator: 0 }]","has_unsafe":true,"name":"test_clone"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"test12\"), disambiguator: 0 }]","has_unsafe":true,"name":"test12"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"test1\"), disambiguator: 0 }]","has_unsafe":true,"name":"test1"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}

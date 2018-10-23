@@ -1,0 +1,10 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"component\"), disambiguator: 0 }]","has_unsafe":true,"name":"component"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"component_event\"), disambiguator: 0 }]","has_unsafe":true,"name":"component_event"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"parse\"), disambiguator: 0 }]","has_unsafe":true,"name":"<EventSourceAttribute as syn::synom::Synom>::parse"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"parse\"), disambiguator: 0 }]","has_unsafe":true,"name":"<AggregateAttribute as syn::synom::Synom>::parse"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"parse\"), disambiguator: 0 }]","has_unsafe":true,"name":"<EventTypeVersionAttribute as syn::synom::Synom>::parse"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"impl_component_event\"), disambiguator: 0 }]","has_unsafe":true,"name":"impl_component_event"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"generate_event_matches\"), disambiguator: 0 }]","has_unsafe":true,"name":"generate_event_matches"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"event_type_name\"), disambiguator: 0 }]","has_unsafe":false,"name":"event_type_name"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"impl_component\"), disambiguator: 0 }]","has_unsafe":true,"name":"impl_component"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","has_unsafe":true,"name":"registrar::_registrar"}

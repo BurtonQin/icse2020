@@ -1,0 +1,2 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"shortener\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_content\"), disambiguator: 0 }]","has_unsafe":true,"name":"shortener::get_content"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"shortener\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"shorten\"), disambiguator: 0 }]","has_unsafe":true,"name":"shortener::shorten"}

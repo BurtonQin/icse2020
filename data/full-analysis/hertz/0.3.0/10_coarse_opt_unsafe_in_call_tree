@@ -1,0 +1,12 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"ns_to_s\"), disambiguator: 0 }]","has_unsafe":false,"name":"ns_to_s"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"s_to_ns\"), disambiguator: 0 }]","has_unsafe":false,"name":"s_to_ns"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"ns_to_ms\"), disambiguator: 0 }]","has_unsafe":false,"name":"ns_to_ms"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"s_to_ms\"), disambiguator: 0 }]","has_unsafe":false,"name":"s_to_ms"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"ms_to_s\"), disambiguator: 0 }]","has_unsafe":false,"name":"ms_to_s"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"ms_to_ns\"), disambiguator: 0 }]","has_unsafe":false,"name":"ms_to_ns"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"fps_to_ns_per_frame\"), disambiguator: 0 }]","has_unsafe":false,"name":"fps_to_ns_per_frame"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"sleep_for_constant_rate\"), disambiguator: 0 }]","has_unsafe":false,"name":"sleep_for_constant_rate"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"hertz_range\"), disambiguator: 0 }]","has_unsafe":false,"name":"hertz_range"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"nyquist\"), disambiguator: 0 }]","has_unsafe":false,"name":"nyquist"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"rayleigh\"), disambiguator: 0 }]","has_unsafe":false,"name":"rayleigh"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"cycles_per_second_to_seconds_per_cycle\"), disambiguator: 0 }]","has_unsafe":false,"name":"cycles_per_second_to_seconds_per_cycle"}

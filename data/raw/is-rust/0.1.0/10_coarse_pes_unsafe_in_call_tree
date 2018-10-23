@@ -1,0 +1,6 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_rust\"), disambiguator: 0 }]","has_unsafe":false,"name":"is_rust"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_rusty\"), disambiguator: 0 }]","has_unsafe":false,"name":"is_rusty"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_at_least_rusty\"), disambiguator: 0 }]","has_unsafe":false,"name":"is_at_least_rusty"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_very_rusty\"), disambiguator: 0 }]","has_unsafe":false,"name":"is_very_rusty"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_not_rust\"), disambiguator: 0 }]","has_unsafe":false,"name":"is_not_rust"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"str_is_rust\"), disambiguator: 0 }]","has_unsafe":false,"name":"str_is_rust"}

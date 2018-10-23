@@ -1,0 +1,10 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"plugged\"), disambiguator: 0 }]","has_unsafe":false,"name":"plugged"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"battery\"), disambiguator: 0 }]","has_unsafe":false,"name":"battery"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"ram\"), disambiguator: 0 }]","has_unsafe":true,"name":"ram"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"cpu\"), disambiguator: 0 }]","has_unsafe":true,"name":"cpu"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"date\"), disambiguator: 0 }]","has_unsafe":true,"name":"date"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"separated\"), disambiguator: 0 }]","has_unsafe":false,"name":"separated"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"status\"), disambiguator: 0 }]","has_unsafe":true,"name":"status"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"update_status\"), disambiguator: 0 }]","has_unsafe":false,"name":"update_status"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"run\"), disambiguator: 0 }]","has_unsafe":true,"name":"run"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}

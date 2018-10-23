@@ -1,0 +1,10 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"<PnmEncoder as afi::EncoderV>::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"run\"), disambiguator: 0 }]","has_unsafe":false,"name":"<PnmEncoder as afi::EncoderV>::run"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"end\"), disambiguator: 0 }]","has_unsafe":false,"name":"<PnmEncoder as afi::EncoderV>::end"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":true,"name":"<PnmDecoder<T> as afi::Decoder<T>>::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"run\"), disambiguator: 0 }]","has_unsafe":true,"name":"<PnmDecoder<T> as afi::Decoder<T>>::run"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"get\"), disambiguator: 0 }]","has_unsafe":false,"name":"<PnmDecoder<T> as afi::Decoder<T>>::get"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"set\"), disambiguator: 0 }]","has_unsafe":false,"name":"<PnmDecoder<T> as afi::Decoder<T>>::set"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"decode\"), disambiguator: 0 }]","has_unsafe":true,"name":"decode"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"skip\"), disambiguator: 0 }]","has_unsafe":true,"name":"skip"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"utf8_to_u16\"), disambiguator: 0 }]","has_unsafe":true,"name":"utf8_to_u16"}

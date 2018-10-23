@@ -1,0 +1,22 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 9 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<U128A as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 8 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<U128A as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"assert_receiver_is_total_eq\"), disambiguator: 0 }]","has_unsafe":false,"name":"<U128A as std::cmp::Eq>::assert_receiver_is_total_eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"eq\"), disambiguator: 0 }]","has_unsafe":false,"name":"<U128A as std::cmp::PartialEq>::eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"ne\"), disambiguator: 0 }]","has_unsafe":false,"name":"<U128A as std::cmp::PartialEq>::ne"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"from\"), disambiguator: 0 }]","has_unsafe":true,"name":"U128A::from"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"m128i\"), disambiguator: 0 }]","has_unsafe":true,"name":"U128A::m128i"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"bitxor_assign\"), disambiguator: 0 }]","has_unsafe":false,"name":"<U128A as std::ops::BitXorAssign>::bitxor_assign"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"aes_round\"), disambiguator: 0 }]","has_unsafe":true,"name":"aes_round"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"block_shuffle\"), disambiguator: 0 }]","has_unsafe":false,"name":"block_shuffle"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"permute\"), disambiguator: 0 }]","has_unsafe":true,"name":"permute"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"randen_generate\"), disambiguator: 0 }]","has_unsafe":true,"name":"randen_generate"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"randen_absorb\"), disambiguator: 0 }]","has_unsafe":false,"name":"randen_absorb"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 12 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<RandenRng as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 11 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<RandenRng as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"new_unseeded\"), disambiguator: 0 }]","has_unsafe":false,"name":"RandenRng::new_unseeded"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"next_u32\"), disambiguator: 0 }]","has_unsafe":true,"name":"<RandenRng as rand::Rng>::next_u32"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"next_u64\"), disambiguator: 0 }]","has_unsafe":true,"name":"<RandenRng as rand::Rng>::next_u64"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"fill_bytes\"), disambiguator: 0 }]","has_unsafe":true,"name":"<RandenRng as rand::Rng>::fill_bytes"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"reseed\"), disambiguator: 0 }]","has_unsafe":false,"name":"<RandenRng as rand::SeedableRng<&'a [U128A; _]>>::reseed"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"from_seed\"), disambiguator: 0 }]","has_unsafe":false,"name":"<RandenRng as rand::SeedableRng<&'a [U128A; _]>>::from_seed"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"rand\"), disambiguator: 0 }]","has_unsafe":false,"name":"<RandenRng as rand::Rand>::rand"}

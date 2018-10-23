@@ -1,0 +1,17 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 9 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<RawPacketStream as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"register\"), disambiguator: 0 }]","has_unsafe":true,"name":"<RawPacketStream as mio::Evented>::register"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"reregister\"), disambiguator: 0 }]","has_unsafe":true,"name":"<RawPacketStream as mio::Evented>::reregister"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"deregister\"), disambiguator: 0 }]","has_unsafe":true,"name":"<RawPacketStream as mio::Evented>::deregister"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":true,"name":"RawPacketStream::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"bind\"), disambiguator: 0 }]","has_unsafe":true,"name":"RawPacketStream::bind"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"bind_by_index\"), disambiguator: 0 }]","has_unsafe":true,"name":"RawPacketStream::bind_by_index"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"read_fd\"), disambiguator: 0 }]","has_unsafe":true,"name":"read_fd"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"read\"), disambiguator: 0 }]","has_unsafe":true,"name":"<RawPacketStream as std::io::Read>::read"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"read\"), disambiguator: 0 }]","has_unsafe":true,"name":"<&'a RawPacketStream as std::io::Read>::read"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"write_fd\"), disambiguator: 0 }]","has_unsafe":true,"name":"write_fd"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"write\"), disambiguator: 0 }]","has_unsafe":true,"name":"<RawPacketStream as std::io::Write>::write"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"flush\"), disambiguator: 0 }]","has_unsafe":false,"name":"<RawPacketStream as std::io::Write>::flush"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"write\"), disambiguator: 0 }]","has_unsafe":true,"name":"<&'a RawPacketStream as std::io::Write>::write"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"flush\"), disambiguator: 0 }]","has_unsafe":false,"name":"<&'a RawPacketStream as std::io::Write>::flush"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"into_raw_fd\"), disambiguator: 0 }]","has_unsafe":false,"name":"<RawPacketStream as std::os::ext::io::IntoRawFd>::into_raw_fd"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"as_raw_fd\"), disambiguator: 0 }]","has_unsafe":false,"name":"<RawPacketStream as std::os::ext::io::AsRawFd>::as_raw_fd"}

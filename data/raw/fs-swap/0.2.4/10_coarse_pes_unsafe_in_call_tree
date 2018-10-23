@@ -1,0 +1,3 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"platform\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Module(\"linux\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"swap\"), disambiguator: 0 }]","has_unsafe":true,"name":"platform::linux::swap"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"swap\"), disambiguator: 0 }]","has_unsafe":true,"name":"swap"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"swap_nonatomic\"), disambiguator: 0 }]","has_unsafe":true,"name":"swap_nonatomic"}

@@ -1,0 +1,7 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":true,"name":"AppIndicator::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"set_status\"), disambiguator: 0 }]","has_unsafe":true,"name":"AppIndicator::set_status"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"set_menu\"), disambiguator: 0 }]","has_unsafe":true,"name":"AppIndicator::set_menu"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"set_label\"), disambiguator: 0 }]","has_unsafe":true,"name":"AppIndicator::set_label"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"set_title\"), disambiguator: 0 }]","has_unsafe":true,"name":"AppIndicator::set_title"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"set_icon_full\"), disambiguator: 0 }]","has_unsafe":true,"name":"AppIndicator::set_icon_full"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"set_attention_icon_full\"), disambiguator: 0 }]","has_unsafe":true,"name":"AppIndicator::set_attention_icon_full"}

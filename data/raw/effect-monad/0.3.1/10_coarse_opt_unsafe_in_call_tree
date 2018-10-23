@@ -1,0 +1,6 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"call_once\"), disambiguator: 0 }]","has_unsafe":false,"name":"<ResolveFn<T> as core::ops::FnOnce<Args>>::call_once"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"from\"), disambiguator: 0 }]","has_unsafe":false,"name":"<ResolveFn<T> as core::convert::From<T>>::from"}
+{"def_path":"[DisambiguatedDefPathData { data: Trait(\"EffectMonad\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"bind_ignore_contents\"), disambiguator: 0 }]","has_unsafe":false,"name":"EffectMonad::bind_ignore_contents"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"bind\"), disambiguator: 0 }]","has_unsafe":false,"name":"<T as EffectMonad<A>>::bind"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"call_once\"), disambiguator: 0 }]","has_unsafe":false,"name":"<BoundEffect<Ea, F> as core::ops::FnOnce<()>>::call_once"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"bind_effects\"), disambiguator: 0 }]","has_unsafe":false,"name":"bind_effects"}

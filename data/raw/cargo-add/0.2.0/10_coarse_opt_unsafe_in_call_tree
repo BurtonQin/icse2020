@@ -1,0 +1,15 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Args as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"decode\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Args as rustc_serialize::Decodable>::decode"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<ManifestError as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"description\"), disambiguator: 0 }]","has_unsafe":false,"name":"<ManifestError as std::error::Error>::description"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<ManifestError as std::fmt::Display>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_dependency\"), disambiguator: 0 }]","has_unsafe":false,"name":"parse_dependency"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_semver\"), disambiguator: 0 }]","has_unsafe":false,"name":"parse_semver"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_git\"), disambiguator: 0 }]","has_unsafe":false,"name":"parse_git"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_path\"), disambiguator: 0 }]","has_unsafe":false,"name":"parse_path"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"find_manifest\"), disambiguator: 0 }]","has_unsafe":false,"name":"find_manifest"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"manifest_search\"), disambiguator: 0 }]","has_unsafe":false,"name":"manifest_search"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"read_as_toml\"), disambiguator: 0 }]","has_unsafe":false,"name":"read_as_toml"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"write_from_toml\"), disambiguator: 0 }]","has_unsafe":false,"name":"write_from_toml"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"insert_dependency\"), disambiguator: 0 }]","has_unsafe":false,"name":"insert_dependency"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}

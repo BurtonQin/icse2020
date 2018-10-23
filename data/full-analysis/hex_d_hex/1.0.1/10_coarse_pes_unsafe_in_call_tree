@@ -1,0 +1,6 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"utf8_byte_to_hex_position\"), disambiguator: 0 }]","has_unsafe":false,"name":"utf8_byte_to_hex_position"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"hex_position_to_capital_utf8_byte\"), disambiguator: 0 }]","has_unsafe":false,"name":"hex_position_to_capital_utf8_byte"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"hex_position_to_lower_utf8_byte\"), disambiguator: 0 }]","has_unsafe":false,"name":"hex_position_to_lower_utf8_byte"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"dhex\"), disambiguator: 0 }]","has_unsafe":false,"name":"dhex"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"capital_hex\"), disambiguator: 0 }]","has_unsafe":false,"name":"capital_hex"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"lower_hex\"), disambiguator: 0 }]","has_unsafe":false,"name":"lower_hex"}

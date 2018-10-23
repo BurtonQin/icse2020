@@ -1,0 +1,3 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"read_input\"), disambiguator: 0 }]","has_unsafe":false,"name":"read_input"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"write_file\"), disambiguator: 0 }]","has_unsafe":false,"name":"write_file"}

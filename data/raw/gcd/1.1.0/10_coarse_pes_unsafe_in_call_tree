@@ -1,0 +1,5 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"gcd\"), disambiguator: 0 }]","has_unsafe":false,"name":"<u8 as Gcd>::gcd"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"gcd\"), disambiguator: 0 }]","has_unsafe":false,"name":"<u16 as Gcd>::gcd"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"gcd\"), disambiguator: 0 }]","has_unsafe":false,"name":"<u32 as Gcd>::gcd"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"gcd\"), disambiguator: 0 }]","has_unsafe":false,"name":"<u64 as Gcd>::gcd"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"gcd\"), disambiguator: 0 }]","has_unsafe":false,"name":"<usize as Gcd>::gcd"}

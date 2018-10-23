@@ -1,0 +1,8 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"memcmp\"), disambiguator: 0 }]","has_unsafe":true,"name":"<[u8] as Memcmp>::memcmp"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"memcmp\"), disambiguator: 0 }]","has_unsafe":true,"name":"<[u16] as Memcmp>::memcmp"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"memcmp\"), disambiguator: 0 }]","has_unsafe":true,"name":"<[u32] as Memcmp>::memcmp"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"memcmp\"), disambiguator: 0 }]","has_unsafe":true,"name":"<[u64] as Memcmp>::memcmp"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"memcmp\"), disambiguator: 0 }]","has_unsafe":true,"name":"<[i8] as Memcmp>::memcmp"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"memcmp\"), disambiguator: 0 }]","has_unsafe":true,"name":"<[i16] as Memcmp>::memcmp"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"memcmp\"), disambiguator: 0 }]","has_unsafe":true,"name":"<[i32] as Memcmp>::memcmp"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"memcmp\"), disambiguator: 0 }]","has_unsafe":true,"name":"<[i64] as Memcmp>::memcmp"}

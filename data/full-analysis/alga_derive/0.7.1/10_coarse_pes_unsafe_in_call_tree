@@ -1,0 +1,7 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_op_arity\"), disambiguator: 0 }]","has_unsafe":false,"name":"get_op_arity"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_closest_trait\"), disambiguator: 0 }]","has_unsafe":false,"name":"get_closest_trait"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_dependencies\"), disambiguator: 0 }]","has_unsafe":false,"name":"get_dependencies"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_props\"), disambiguator: 0 }]","has_unsafe":false,"name":"get_props"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"derive_alga\"), disambiguator: 0 }]","has_unsafe":true,"name":"derive_alga"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"unzip4\"), disambiguator: 0 }]","has_unsafe":true,"name":"<I as Unzip4<A, B, C, D>>::unzip4"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","has_unsafe":true,"name":"registrar::_registrar"}

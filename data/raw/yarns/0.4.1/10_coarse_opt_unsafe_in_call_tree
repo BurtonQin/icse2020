@@ -1,0 +1,6 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"head\"), disambiguator: 0 }]","has_unsafe":false,"name":"head"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"substr\"), disambiguator: 0 }]","has_unsafe":false,"name":"substr"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"concat\"), disambiguator: 0 }]","has_unsafe":false,"name":"concat"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"contains\"), disambiguator: 0 }]","has_unsafe":false,"name":"contains"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"read\"), disambiguator: 0 }]","has_unsafe":false,"name":"read"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"len\"), disambiguator: 0 }]","has_unsafe":false,"name":"len"}

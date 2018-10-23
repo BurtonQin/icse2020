@@ -1,0 +1,5 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"set_sampling_flags\"), disambiguator: 0 }]","has_unsafe":true,"name":"set_sampling_flags"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_sampling_flags\"), disambiguator: 0 }]","has_unsafe":true,"name":"get_sampling_flags"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"set_trace_context\"), disambiguator: 0 }]","has_unsafe":true,"name":"set_trace_context"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_trace_context\"), disambiguator: 0 }]","has_unsafe":true,"name":"get_trace_context"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_header\"), disambiguator: 0 }]","has_unsafe":true,"name":"parse_header"}

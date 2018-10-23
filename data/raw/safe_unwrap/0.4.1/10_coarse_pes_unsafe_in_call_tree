@@ -1,0 +1,2 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"safe_unwrap\"), disambiguator: 0 }]","has_unsafe":false,"name":"<core::result::Result<T, E> as SafeUnwrap<T>>::safe_unwrap"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"safe_unwrap\"), disambiguator: 0 }]","has_unsafe":false,"name":"<core::option::Option<T> as SafeUnwrap<T>>::safe_unwrap"}

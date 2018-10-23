@@ -1,0 +1,2 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"try_join\"), disambiguator: 0 }]","has_unsafe":true,"name":"<std::thread::JoinHandle<T> as TryJoinHandle>::try_join"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"try_timed_join\"), disambiguator: 0 }]","has_unsafe":true,"name":"<std::thread::JoinHandle<T> as TryJoinHandle>::try_timed_join"}

@@ -1,0 +1,7 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"Fail\"), disambiguator: 0 }]","has_unsafe":true,"name":"Fail"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"fail_derive\"), disambiguator: 0 }]","has_unsafe":true,"name":"fail_derive"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"display_body\"), disambiguator: 0 }]","has_unsafe":false,"name":"display_body"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"find_error_msg\"), disambiguator: 0 }]","has_unsafe":false,"name":"find_error_msg"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_backtrace\"), disambiguator: 0 }]","has_unsafe":false,"name":"is_backtrace"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_cause\"), disambiguator: 0 }]","has_unsafe":false,"name":"is_cause"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","has_unsafe":true,"name":"registrar::_registrar"}

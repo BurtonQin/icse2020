@@ -1,0 +1,4 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":false,"name":"main"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"credentials_callback\"), disambiguator: 0 }]","has_unsafe":true,"name":"credentials_callback"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"check_repo\"), disambiguator: 0 }]","has_unsafe":true,"name":"check_repo"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"cargo_update\"), disambiguator: 0 }]","has_unsafe":true,"name":"cargo_update"}

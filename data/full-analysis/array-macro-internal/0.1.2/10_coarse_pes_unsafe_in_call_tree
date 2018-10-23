@@ -1,0 +1,3 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"internal_array_impl\"), disambiguator: 0 }]","has_unsafe":false,"name":"internal_array_impl"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"internal_array_impl\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"func\"), disambiguator: 0 }]","has_unsafe":false,"name":"internal_array_impl::func"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","has_unsafe":true,"name":"registrar::_registrar"}

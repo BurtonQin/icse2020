@@ -1,0 +1,2 @@
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"convec\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"get_unchecked\"), disambiguator: 0 }]","name":"get_unchecked"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"convec\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"pop\"), disambiguator: 0 }]","name":"pop"}

@@ -1,0 +1,8 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<FileCount as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"run\"), disambiguator: 0 }]","has_unsafe":true,"name":"Worker::run"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"eq\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Sort as std::cmp::PartialEq>::eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"from_str\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Sort as std::str::FromStr>::from_str"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"last_n_chars\"), disambiguator: 0 }]","has_unsafe":false,"name":"last_n_chars"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"str_repeat\"), disambiguator: 0 }]","has_unsafe":false,"name":"str_repeat"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"print_totals_by_lang\"), disambiguator: 0 }]","has_unsafe":false,"name":"print_totals_by_lang"}

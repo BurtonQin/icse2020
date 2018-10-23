@@ -1,0 +1,13 @@
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"WildMidi_GetInfo\"), disambiguator: 0 }]","name":"WildMidi_GetInfo"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"ffi\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Module(\"c_str\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 32 }, DisambiguatedDefPathData { data: ValueNs(\"from_ptr\"), disambiguator: 0 }]","name":"from_ptr"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"WildMidi_Shutdown\"), disambiguator: 0 }]","name":"WildMidi_Shutdown"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"WildMidi_OpenBuffer\"), disambiguator: 0 }]","name":"WildMidi_OpenBuffer"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"WildMidi_GetInfo\"), disambiguator: 0 }]","name":"WildMidi_GetInfo"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"WildMidi_GetOutput\"), disambiguator: 0 }]","name":"WildMidi_GetOutput"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"WildMidi_Open\"), disambiguator: 0 }]","name":"WildMidi_Open"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"WildMidi_Init\"), disambiguator: 0 }]","name":"WildMidi_Init"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"WildMidi_Close\"), disambiguator: 0 }]","name":"WildMidi_Close"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"WildMidi_GetInfo\"), disambiguator: 0 }]","name":"WildMidi_GetInfo"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"WildMidi_FastSeek\"), disambiguator: 0 }]","name":"WildMidi_FastSeek"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"WildMidi_MasterVolume\"), disambiguator: 0 }]","name":"WildMidi_MasterVolume"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"WildMidi_GetInfo\"), disambiguator: 0 }]","name":"WildMidi_GetInfo"}

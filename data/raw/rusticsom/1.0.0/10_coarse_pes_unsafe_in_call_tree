@@ -1,0 +1,15 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"create\"), disambiguator: 0 }]","has_unsafe":true,"name":"SOM::create"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"winner\"), disambiguator: 0 }]","has_unsafe":true,"name":"SOM::winner"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"update\"), disambiguator: 0 }]","has_unsafe":true,"name":"SOM::update"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"train_random\"), disambiguator: 0 }]","has_unsafe":true,"name":"SOM::train_random"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"train_batch\"), disambiguator: 0 }]","has_unsafe":true,"name":"SOM::train_batch"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"update_regulate_lrate\"), disambiguator: 0 }]","has_unsafe":false,"name":"SOM::update_regulate_lrate"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"activation_response\"), disambiguator: 0 }]","has_unsafe":true,"name":"SOM::activation_response"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"winner_dist\"), disambiguator: 0 }]","has_unsafe":true,"name":"SOM::winner_dist"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_size\"), disambiguator: 0 }]","has_unsafe":false,"name":"SOM::get_size"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"distance_map\"), disambiguator: 0 }]","has_unsafe":true,"name":"SOM::distance_map"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":true,"name":"<SOM as std::fmt::Display>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"norm\"), disambiguator: 0 }]","has_unsafe":true,"name":"norm"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"default_decay_function\"), disambiguator: 0 }]","has_unsafe":false,"name":"default_decay_function"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"gaussian\"), disambiguator: 0 }]","has_unsafe":true,"name":"gaussian"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"euclid_dist\"), disambiguator: 0 }]","has_unsafe":true,"name":"euclid_dist"}

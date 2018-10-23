@@ -1,0 +1,12 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"check\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"check_urls\"), disambiguator: 0 }]","has_unsafe":true,"name":"check::check_urls"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"check\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"check_url\"), disambiguator: 0 }]","has_unsafe":true,"name":"check::check_url"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"check\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"check_file_url\"), disambiguator: 0 }]","has_unsafe":true,"name":"check::check_file_url"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"check\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"check_http_url\"), disambiguator: 0 }]","has_unsafe":true,"name":"check::check_http_url"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"parse\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"parse_html_file\"), disambiguator: 0 }]","has_unsafe":true,"name":"parse::parse_html_file"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"parse\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"parse_a_hrefs\"), disambiguator: 0 }]","has_unsafe":true,"name":"parse::parse_a_hrefs"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<MainArgs as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"decode\"), disambiguator: 0 }]","has_unsafe":true,"name":"<MainArgs as rustc_serialize::Decodable>::decode"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"init_logger\"), disambiguator: 0 }]","has_unsafe":true,"name":"init_logger"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"determine_dir\"), disambiguator: 0 }]","has_unsafe":true,"name":"determine_dir"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"walk_dir\"), disambiguator: 0 }]","has_unsafe":true,"name":"walk_dir"}

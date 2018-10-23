@@ -1,0 +1,8 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":true,"name":"UnicornHatHd::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"set_rotation\"), disambiguator: 0 }]","has_unsafe":false,"name":"UnicornHatHd::set_rotation"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"display\"), disambiguator: 0 }]","has_unsafe":true,"name":"UnicornHatHd::display"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"set_pixel\"), disambiguator: 0 }]","has_unsafe":false,"name":"UnicornHatHd::set_pixel"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_pixel\"), disambiguator: 0 }]","has_unsafe":false,"name":"UnicornHatHd::get_pixel"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"clear_pixels\"), disambiguator: 0 }]","has_unsafe":false,"name":"UnicornHatHd::clear_pixels"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"as_array\"), disambiguator: 0 }]","has_unsafe":true,"name":"UnicornHatHd::as_array"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"default\"), disambiguator: 0 }]","has_unsafe":true,"name":"<UnicornHatHd as std::default::Default>::default"}

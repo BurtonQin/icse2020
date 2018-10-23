@@ -1,0 +1,6 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_top_left\"), disambiguator: 0 }]","has_unsafe":true,"name":"get_top_left"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_top_right\"), disambiguator: 0 }]","has_unsafe":true,"name":"get_top_right"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_lower_left\"), disambiguator: 0 }]","has_unsafe":true,"name":"get_lower_left"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_lower_right\"), disambiguator: 0 }]","has_unsafe":true,"name":"get_lower_right"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"crop_image\"), disambiguator: 0 }]","has_unsafe":true,"name":"crop_image"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}

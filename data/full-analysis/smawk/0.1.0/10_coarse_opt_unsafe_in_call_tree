@@ -1,0 +1,14 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"lane_minimum\"), disambiguator: 0 }]","has_unsafe":true,"name":"lane_minimum"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"brute_force_row_minima\"), disambiguator: 0 }]","has_unsafe":true,"name":"brute_force_row_minima"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"brute_force_column_minima\"), disambiguator: 0 }]","has_unsafe":true,"name":"brute_force_column_minima"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"recursive_row_minima\"), disambiguator: 0 }]","has_unsafe":true,"name":"recursive_row_minima"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"recursive_column_minima\"), disambiguator: 0 }]","has_unsafe":true,"name":"recursive_column_minima"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"recursive_inner\"), disambiguator: 0 }]","has_unsafe":true,"name":"recursive_inner"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"smawk_row_minima\"), disambiguator: 0 }]","has_unsafe":false,"name":"smawk_row_minima"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"smawk_column_minima\"), disambiguator: 0 }]","has_unsafe":false,"name":"smawk_column_minima"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"smawk_inner\"), disambiguator: 0 }]","has_unsafe":false,"name":"smawk_inner"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"online_column_minima\"), disambiguator: 0 }]","has_unsafe":false,"name":"online_column_minima"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_monge\"), disambiguator: 0 }]","has_unsafe":true,"name":"is_monge"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"rand\"), disambiguator: 0 }]","has_unsafe":false,"name":"<MongePrim as rand::Rand>::rand"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"to_matrix\"), disambiguator: 0 }]","has_unsafe":true,"name":"MongePrim::to_matrix"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"random_monge_matrix\"), disambiguator: 0 }]","has_unsafe":true,"name":"random_monge_matrix"}
