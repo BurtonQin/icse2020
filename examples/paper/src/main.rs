@@ -2,7 +2,9 @@ use std::fmt::Write;
 
 trait Animal {
     fn name(&self) -> &'static str;
-    fn sound(&self) -> &'static str;
+    fn sound(&self) -> &'static str {
+        ""
+    }
     fn says(&self) -> String {
         let mut buffer = String::new();
         write!(buffer, "The {:?} says {:?}", self.name(), self.sound());
@@ -25,31 +27,55 @@ impl Animal for Fox {
     fn name(&self) -> &'static str {
         "fox"
     }
-    fn sound(&self) -> &'static str {
-        ""
-    }
     fn says(&self) -> String {
         "What does the fox say?".to_string()
     }
 }
 
-fn chases<A:Animal,B:Animal>(predator:&A, prey:&B) -> String {
-    let mut buffer = String::new();
-    let predator_name = predator.name();
-    let prey_name = prey.name();
-    write!(buffer, "{:?} chases {:?}",predator_name,prey_name);
-    buffer
-}
+//fn chases<A:Animal,B:Animal>(predator:&A, prey:&B) -> String {
+//    let mut buffer = String::new();
+//    let predator_name = predator.name();
+//    let prey_name = prey.name();
+//    write!(buffer, "{:?} chases {:?}",predator_name,prey_name);
+//    buffer
+//}
 
 fn mini_zoo() {
     let mouse = Mouse{};
     let fox = Fox{};
     let mouse_says = mouse.says();
     let fox_says = fox.says();
-    let message = chases(&fox,&mouse);
-    println!("{:?}",mouse_says);
-    println!("{:?}",fox_says);
-    println!("{:?}",message);
+//    let message = chases(&fox,&mouse);
+//    println!("{:?}",mouse_says);
+//    println!("{:?}",fox_says);
+//    println!("{:?}",message);
+}
+
+fn make_sound(animal: &Animal) -> &'static str{
+    animal.sound()
+}
+
+fn sounds() {
+    let mouse = Mouse{};
+    let fox = Fox{};
+    make_sound(&mouse as &Animal);
+    make_sound( &fox as &Animal);
+}
+
+fn twice<F>( f: F ) -> i32
+    where F: Fn(i32) -> i32 {
+    f(f(0))
+}
+fn incr(x:i32) -> i32 {
+    unsafe {x+1}
+}
+fn add_two_closure() {
+    twice(|x| {
+        unsafe{ x+1 }
+    });
+}
+fn add_two() {
+    twice(incr);
 }
 
 // trait Trait {
