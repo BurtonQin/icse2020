@@ -111,7 +111,7 @@ impl<'a, 'tcx> LateLintPass<'a, 'tcx> for Functions {
         let result = traits::run_analysis(cx);
         save_analysis(result.unsafe_traits_impls, &mut impls_file);
         save_analysis(result.unsafe_traits, &mut traits_file);
-//        //unsafety sources in blocks
+        //unsafety sources in blocks
 //        let mut bus_file = file_ops.get_blocks_unsafety_sources_file(true);
 //        let bus_res = blocks::run_unsafety_sources_analysis(cx,&self.normal_functions);
 //        save_analysis(bus_res, &mut bus_file);
@@ -131,6 +131,7 @@ impl<'a, 'tcx> LateLintPass<'a, 'tcx> for Functions {
 //        let opt_rta_impl_unsafe = implicit_unsafe::rta::run_sources_analysis(cx,&self.normal_functions,
 //                                                                             true);
 //        save_analysis(opt_rta_impl_unsafe, &mut file_ops.get_implicit_unsafe_rta_opt_file(true));
+
 //        let pes_rta_impl_unsafe = implicit_unsafe::rta::run_sources_analysis(cx,
 //                                                                                &self.normal_functions,
 //                                                                                false);

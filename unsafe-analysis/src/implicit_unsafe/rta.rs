@@ -28,6 +28,7 @@ pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>
         match cx.tcx.fn_sig(fn_def_id).unsafety() {
             hir::Unsafety::Unsafe => {} //ignore it
             hir::Unsafety::Normal => {
+                error!("Processing function {:?}", fn_def_id);
                 let mut body_visitor = UnsafeBlocksVisitorData {
                     hir: &cx.tcx.hir,
                     has_unsafe: false,
@@ -89,8 +90,9 @@ fn resolve<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, call_graph: &FxHashMap<DefId,Ve
                             wl.push((*def_id, substs));
                         }
                     } else {
-                        error!("def id not in call graph {:?}", def_id);
-                    }
+                            error!("def id not in call graph {:?}", def_id);
+                            wl.push((*def_id, substs));
+                        }
                 }
                 Call::Virtual(..) => {
                     //TODO
@@ -103,7 +105,6 @@ fn resolve<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, call_graph: &FxHashMap<DefId,Ve
                 error!("substs {:?}", substs);
                 if let Some(calls) = call_graph.get(&def_id) {
                     if calls.is_empty() {
-                        error!("Empty call list, add to new_calls {:?}", def_id);
                         new_calls.push(Call::Static(def_id,substs));
                     } else {
                         for c in calls {
