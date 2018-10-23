@@ -118,7 +118,7 @@ fn load_analysis<'a, 'tcx>(
     result: &mut HashMap<DefId,UnsafeInBody>
 ) -> Result<(), &'static str> {
     //filter external calls to this crate
-    info!("Processing crate: {:?}", crate_info);
+    //info!("Processing crate: {:?}", crate_info);
     let root_dir = ::get_root_dir();
     let dir_path: PathBuf = [&root_dir,&crate_info.name].iter().collect();
     //check if directory with crate name exists
@@ -137,7 +137,7 @@ fn load_analysis<'a, 'tcx>(
         } else {
             file_ops.get_implicit_unsafe_coarse_pes_file(false)
         };
-    info!("Processsing file {:?}", file_ops.get_root_path_components());
+    //info!("Processsing file {:?}", file_ops.get_root_path_components());
     let mut reader = BufReader::new(file);
     //read line by line
     loop {
@@ -149,11 +149,11 @@ fn load_analysis<'a, 'tcx>(
         } else {
             //process line
             let trimmed_line = line.trim_right();
-            info!("Processsing line {:?}", trimmed_line);
+            //info!("Processsing line {:?}", trimmed_line);
             let ub: UnsafeInBody = serde_json::from_str(&trimmed_line).unwrap();
             let def_path = ub.def_path;
             if let Some(def_id) = calls.get(&def_path) {
-                info!("Call {:?} found", &def_path);
+                //info!("Call {:?} found", &def_path);
                 result.insert(*def_id,UnsafeInBody::new(def_path,ub.has_unsafe,ub.name));
             }
         }
