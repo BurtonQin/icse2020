@@ -163,7 +163,7 @@ impl<'a, 'b> FileOps<'a, 'b> {
         self.open_file(UNSAFE_TRAITS_IMPLS, save)
     }
 
-    pub fn get_unsafe_traits_file(&self, save: bool) -> File {
+   pub fn get_unsafe_traits_file(&self, save: bool) -> File {
         self.open_file(UNSAFE_TRAITS, save)
     }
 }

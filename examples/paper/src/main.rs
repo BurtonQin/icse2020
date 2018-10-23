@@ -32,6 +32,7 @@ impl Animal for Fox {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 fn chases<A:Animal,B:Animal>(predator:&A, prey:&B) -> String {
     let mut buffer = String::new();
     let predator_name = predator.name();
@@ -42,10 +43,16 @@ fn chases<A:Animal,B:Animal>(predator:&A, prey:&B) -> {
     let buffer = String::new();
     write!(buffer, "{:?} chases {:?}",predator,prey);
 >>>>>>> 7d0aff54d755afc00056ebbe5b8d400582b18bd0
+=======
+fn chases<A:Animal,B:Animal>(predator:&A, prey:&B) -> {
+    let buffer = String::new();
+    write!(buffer, "{:?} chases {:?}",predator,prey);
+>>>>>>> 7d0aff54d755afc00056ebbe5b8d400582b18bd0
     buffer
 }
 
 fn mini_zoo() {
+<<<<<<< HEAD
 <<<<<<< HEAD
     let mouse = Mouse{};
     let fox = Fox{};
@@ -56,11 +63,16 @@ fn mini_zoo() {
     println!("{:?}",fox_says);
     println!("{:?}",message);
 =======
+=======
+>>>>>>> 7d0aff54d755afc00056ebbe5b8d400582b18bd0
     let dog = Mouse{};
     let fox = Fox{};
     println!("{:?}",dog.says());
     println!("{:?}",fox.says());
     println(chases(fox,mouse));
+<<<<<<< HEAD
+>>>>>>> 7d0aff54d755afc00056ebbe5b8d400582b18bd0
+=======
 >>>>>>> 7d0aff54d755afc00056ebbe5b8d400582b18bd0
 }
 

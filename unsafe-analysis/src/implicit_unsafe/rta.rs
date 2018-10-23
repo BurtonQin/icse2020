@@ -120,7 +120,6 @@ fn resolve<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, call_graph: &FxHashMap<DefId,Ve
 
                                     // need to merge substs and c_substs!!!!!!!!!
                                     //
-
                                     let  param_env = cx.tcx.param_env(def_id);
                                     if let Some(instance) = ty::Instance::resolve(
                                             cx.tcx,

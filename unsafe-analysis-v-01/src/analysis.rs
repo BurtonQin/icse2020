@@ -16,7 +16,6 @@ pub trait Analysis {
     fn run_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, fn_info: &'a FnInfo) -> Self;
 }
 
-
 pub fn save_analysis<T>(analysis_results: &Vec<(&FnInfo, T)>, file: &mut File)
 where
     T: serde::ser::Serialize,
