@@ -16,11 +16,7 @@ source ../rust_flags.sh
 
 cd $CRATES_DIR
 
-<<<<<<< HEAD
 for x in {a..m}
-=======
-for x in {l..m}
->>>>>>> 7d0aff54d755afc00056ebbe5b8d400582b18bd0
 do
 	for d in $(ls -d $CRATES_DIR/$x*)
 	do
