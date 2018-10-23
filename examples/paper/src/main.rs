@@ -31,18 +31,23 @@ impl Animal for Fox {
     }
 }
 
-fn chases<A:Animal,B:Animal>(predator:&A, prey:&B) -> {
-    let buffer = String::new();
-    write!(buffer, "{:?} chases {:?}",predator,prey);
+fn chases<A:Animal,B:Animal>(predator:&A, prey:&B) -> String {
+    let mut buffer = String::new();
+    let predator_name = predator.name();
+    let prey_name = prey.name();
+    write!(buffer, "{:?} chases {:?}",predator_name,prey_name);
     buffer
 }
 
 fn mini_zoo() {
-    let dog = Mouse{};
+    let mouse = Mouse{};
     let fox = Fox{};
-    println!("{:?}",dog.says());
-    println!("{:?}",fox.says());
-    println(chases(fox,mouse));
+    let mouse_says = mouse.says();
+    let fox_says = fox.says();
+    let message = chases(&fox,&mouse);
+    println!("{:?}",mouse_says);
+    println!("{:?}",fox_says);
+    println!("{:?}",message);
 }
 
 // trait Trait {

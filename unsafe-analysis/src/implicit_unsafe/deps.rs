@@ -14,6 +14,7 @@ use std::io::BufReader;
 use std::path::PathBuf;
 use std::collections::HashSet;
 use std::path::Path;
+use implicit_unsafe::is_library_crate;
 
 pub fn load<'a, 'tcx>( cx: &'a LateContext<'a, 'tcx>, calls: &HashMap<String,DefId>, optimistic: bool)
     -> HashMap<DefId,UnsafeInBody> {
@@ -27,7 +28,7 @@ pub fn load<'a, 'tcx>( cx: &'a LateContext<'a, 'tcx>, calls: &HashMap<String,Def
         }
     }
     for (fn_name,def_id) in calls.iter() {
-        if is_excluded_crate( &cx.tcx.crate_name(def_id.krate).to_string() ) {
+        if is_library_crate( &cx.tcx.crate_name(def_id.krate).to_string() ) {
             //info!("Call {:?} from excluded crate", fn_name);
             result.insert(*def_id, UnsafeInBody::new(fn_name.clone(), false, fn_name.to_string()));
         } else {
@@ -161,7 +162,4 @@ fn load_analysis<'a, 'tcx>(
     Ok(())
 }
 
-pub fn is_excluded_crate(crate_name: &String) -> bool {
-    crate_name.as_str() == "alloc" || crate_name.as_str() == "std" || crate_name.as_str() == "core" || crate_name.as_str() == "proc_macro"
-    //false
-}
+

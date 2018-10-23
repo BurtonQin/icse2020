@@ -28,7 +28,6 @@ pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>
         match cx.tcx.fn_sig(fn_def_id).unsafety() {
             hir::Unsafety::Unsafe => {} //ignore it
             hir::Unsafety::Normal => {
-                error!("Processing function {:?}", fn_def_id);
                 let mut body_visitor = UnsafeBlocksVisitorData {
                     hir: &cx.tcx.hir,
                     has_unsafe: false,
@@ -76,6 +75,7 @@ fn resolve<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, call_graph: &FxHashMap<DefId,Ve
     let mut new_call_graph = FxHashMap::default();
     //propagate known types
     for (fn_def_id,calls) in call_graph.iter() {
+        error!("Processing function {:?}", fn_def_id);
         let mut new_calls: Vec<Call<'tcx>> = Vec::new();
         let mut wl: Vec<(DefId, &Substs)> = Vec::new();
         for c in calls {
@@ -85,10 +85,11 @@ fn resolve<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, call_graph: &FxHashMap<DefId,Ve
                         if calls1.is_empty() {
                             new_calls.push(c.clone());
                         } else {
+                            error!("Add to wl {:?}", def_id);
                             wl.push((*def_id, substs));
                         }
                     } else {
-                        error!("def id not in call graph");
+                        error!("def id not in call graph {:?}", def_id);
                     }
                 }
                 Call::Virtual(..) => {
@@ -98,18 +99,33 @@ fn resolve<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, call_graph: &FxHashMap<DefId,Ve
         }
         while !wl.is_empty() {
             if let Some((def_id, substs)) = wl.pop() {
+                error!("Removed from wl {:?}", def_id);
+                error!("substs {:?}", substs);
                 if let Some(calls) = call_graph.get(&def_id) {
                     if calls.is_empty() {
+                        error!("Empty call list, add to new_calls {:?}", def_id);
                         new_calls.push(Call::Static(def_id,substs));
                     } else {
                         for c in calls {
                             match c {
                                 Call::Static(c_def_id, c_substs) => {
+                                    error!("Call {:?}", c_def_id);
+                                    error!("c_substs {:?}", c_substs);
+                                    for s in c_substs.iter() {
+                                        if let ty::subst::UnpackedKind::Type(t) = s.unpack() {
+                                            error!("{:?}", t.sty);
+                                        }
+                                    }
+
+                                    // need to merge substs and c_substs!!!!!!!!!
+                                    //
+
                                     let  param_env = cx.tcx.param_env(def_id);
                                     if let Some(instance) = ty::Instance::resolve(
                                             cx.tcx,
                                             param_env,
                                             // Which substs do I care substs, c_substs????
+                                            // neither replace with new_substs
                                             *c_def_id, c_substs) {
                                         match instance.def {
                                             ty::InstanceDef::Item(def_id)
@@ -117,6 +133,7 @@ fn resolve<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, call_graph: &FxHashMap<DefId,Ve
                                             | ty::InstanceDef::CloneShim(def_id, _) => {
                                                 // Which substs do I care substs, c_substs, ty_subts????
                                                 let new_substs = instance.subst(cx.tcx,&c_substs).substs;
+                                                error!("Add to wl {:?}", def_id);
                                                 wl.push((*c_def_id, new_substs));
                                             }
                                             | ty::InstanceDef::Virtual(def_id, _) => {
@@ -137,7 +154,7 @@ fn resolve<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, call_graph: &FxHashMap<DefId,Ve
                         }
                     }
                 } else {
-                    error!("def id not in call graph");
+                    error!("wl def id not in call graph {:?}", def_id);
                 }
             }
         }
