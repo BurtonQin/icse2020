@@ -28,7 +28,6 @@ pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>
         match cx.tcx.fn_sig(fn_def_id).unsafety() {
             hir::Unsafety::Unsafe => {} //ignore it
             hir::Unsafety::Normal => {
-                error!("Processing function {:?}", fn_def_id);
                 let mut body_visitor = UnsafeBlocksVisitorData {
                     hir: &cx.tcx.hir,
                     has_unsafe: false,
@@ -71,8 +70,13 @@ fn dump_call_graph<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, call_graph: &FxHashMap<
 }
 
 
-fn resolve<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, call_graph: &FxHashMap<DefId,Vec<Call<'tcx>>>)
-            -> FxHashMap<DefId,Vec<Call<'tcx>>>  {
+struct CallContext<'tcx> {
+    def_id: DefId,
+    substs: &'tcx ty::subst::Substs<'tcx>,
+}
+fn resolve<'a, 'tcx>(cx: &LateContext<'a, 'tcx>
+                     , call_graph: &FxHashMap<DefId,Vec<Call<'tcx>>>)
+            -> FxHashMap<Key,Vec<Call<'tcx>>>  {
     let mut new_call_graph = FxHashMap::default();
     //propagate known types
     for (fn_def_id,calls) in call_graph.iter() {
@@ -112,13 +116,23 @@ fn resolve<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, call_graph: &FxHashMap<DefId,Ve
                                 Call::Static(c_def_id, c_substs) => {
                                     error!("Call {:?}", c_def_id);
                                     error!("c_substs {:?}", c_substs);
-                                    for s in c_substs.iter() {
-                                        if let ty::subst::UnpackedKind::Type(t) = s.unpack() {
-                                            error!("{:?}", t.sty);
-                                        }
-                                    }
+//                                    for s in c_substs.iter() {
+//                                        if let ty::subst::UnpackedKind::Type(t) = s.unpack() {
+//                                            error!("{:?}", t.sty);
+//                                            if let ty::TyKind::Param(param_ty) = t.sty {
+//                                                error!("param_ty.to_ty {:?}",param_ty.to_ty(cx.tcx));
+//                                            }
+//                                            error!("fold_with {:?}", c_substs.fold_with(&mut t));
+//                                        }
+//                                    }
 
-                                    // need to merge substs and c_substs!!!!!!!!!
+                                    let new_substs = c_substs.subst(cx.tcx,
+                                        substs
+                                    );
+
+                                    error!("new_substs {:?}", new_substs);
+
+                                        // need to merge substs and c_substs!!!!!!!!!
                                     //
                                     let  param_env = cx.tcx.param_env(def_id);
                                     if let Some(instance) = ty::Instance::resolve(
@@ -126,7 +140,7 @@ fn resolve<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, call_graph: &FxHashMap<DefId,Ve
                                             param_env,
                                             // Which substs do I care substs, c_substs????
                                             // neither replace with new_substs
-                                            *c_def_id, c_substs) {
+                                            *c_def_id, new_substs) {
                                         match instance.def {
                                             ty::InstanceDef::Item(def_id)
                                             | ty::InstanceDef::Intrinsic(def_id)
@@ -163,59 +177,11 @@ fn resolve<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, call_graph: &FxHashMap<DefId,Ve
     new_call_graph
 }
 
-//            for c in calls.iter() {
-//                if let Call::Static(c_def_id, substs) = c  {
-//                    if let Some(instance) = ty::Instance::resolve(self.cx.tcx, param_env, callee_def_id, substs) {
-//                        match instance.def {
-//                            ty::InstanceDef::Item(def_id)
-//                            | ty::InstanceDef::Intrinsic(def_id)
-//                            | ty::InstanceDef::CloneShim(def_id, _) => {
-//                                self.calls.push(Call::Static(def_id, substs));
-//                            }
-//                            | ty::InstanceDef::Virtual(def_id, _) => {
-//                                self.calls.push(Call::Virtual(def_id));
-//                            }
-//                            _ => error!("ty::InstanceDef:: NOT handled {:?}", instance.def),
-//                        }
-//                    } else {
-//                        //                            info!("no type for func: {:?}", func);
-//                        self.calls.push(Call::Static(def_id, substs));
-//                    }
-//
-//
-//                    let unsafe_value = if let Some(instance) = ty::Instance::resolve(
-//                            cx.tcx,
-//                            param_env,
-//                            c1_def_id,
-//                            substs1,
-//                        ) {
-//                            match current_value[&instance].subst(tcx, substs1) {
-//                                // subst: rustc::ty::substs::Subst, TypeFoldable, struct_type_foldable!
-//                            }
-//                        } else {
-//                            UnsafeValue::IfUnsafe(c1_def_id, substs1)
-//                        };
-//                        current_values[fn_def_id] += unsafe_value;
-//                        // updates changed
-//                    }
-//                }
-//            } else {
-//                error!("Entry in call_graph not found for {:?}", fn_def_id);
-//            }
-//        }
-
-
 #[derive(Clone,Debug)]
 enum Call<'tcx> {
     Static (DefId, &'tcx ty::subst::Substs<'tcx>),
     Virtual(DefId), // def id of the trait method called
-}
-
-EnumTypeFoldableImpl! {
-    impl<'tcx> TypeFoldable<'tcx> for Call<'tcx> {
-        (Call::Static)(def_id, substs),
-        (Call::Virtual)(def_id),
-    }
+    FnPtr,
 }
 
 
@@ -268,10 +234,17 @@ impl<'a, 'tcx> Visitor<'tcx> for CallsVisitor<'a, 'tcx> {
                             error!("no type for func: {:?}", func);
                             self.calls.push(Call::Static(callee_def_id, substs));
                         }
+                    } else {
+                        error!("Constant: type NOT handled {:?}", constant.literal.ty.sty);
                     }
                 }
-                _ => {
-                    self.uses_fn_ptr = true;
+                Operand::Copy (place)
+                | Operand::Move (place) => {
+                    if let TyKind::FnPtr(ref poly_sig) = constant.literal.ty.sty {
+                        self.calls.push(Call::FnPtr);
+                    } else {
+                        error!("Others: type NOT handled {:?} place{:?}", self.fn_id, place);
+                    }
                 }
             }
         }

@@ -21,4 +21,5 @@ export NIGHTLY=nightly-2018-09-11
 # targets: thumbv7em-none-eabihf
 
 export RUST_LOG=unsafe_analysis=debug,rustc=error
+#export RUST_LOG=unsafe_analysis=debug,rustc=debug
 

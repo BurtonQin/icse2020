@@ -106,11 +106,11 @@ impl<'a, 'tcx> LateLintPass<'a, 'tcx> for Functions {
 //            &mut fn_summary_file,
 //        );
 //        // unsafe traits
-        let mut impls_file = file_ops.get_unsafe_traits_impls_file(true);
-        let mut traits_file = file_ops.get_unsafe_traits_file(true);
-        let result = traits::run_analysis(cx);
-        save_analysis(result.unsafe_traits_impls, &mut impls_file);
-        save_analysis(result.unsafe_traits, &mut traits_file);
+//        let mut impls_file = file_ops.get_unsafe_traits_impls_file(true);
+//        let mut traits_file = file_ops.get_unsafe_traits_file(true);
+//        let result = traits::run_analysis(cx);
+//        save_analysis(result.unsafe_traits_impls, &mut impls_file);
+//        save_analysis(result.unsafe_traits, &mut traits_file);
         //unsafety sources in blocks
 //        let mut bus_file = file_ops.get_blocks_unsafety_sources_file(true);
 //        let bus_res = blocks::run_unsafety_sources_analysis(cx,&self.normal_functions);
@@ -128,9 +128,9 @@ impl<'a, 'tcx> LateLintPass<'a, 'tcx> for Functions {
 //        let pes_impl_unsafe = implicit_unsafe::coarse::run_sources_analysis(cx,&self.normal_functions, false);
 //        save_analysis(pes_impl_unsafe, &mut file_ops.get_implicit_unsafe_coarse_pes_file(true));
 
-//        let opt_rta_impl_unsafe = implicit_unsafe::rta::run_sources_analysis(cx,&self.normal_functions,
-//                                                                             true);
-//        save_analysis(opt_rta_impl_unsafe, &mut file_ops.get_implicit_unsafe_rta_opt_file(true));
+        let opt_rta_impl_unsafe = implicit_unsafe::rta::run_sources_analysis(cx,&self.normal_functions,
+                                                                             true);
+        save_analysis(opt_rta_impl_unsafe, &mut file_ops.get_implicit_unsafe_rta_opt_file(true));
 
 //        let pes_rta_impl_unsafe = implicit_unsafe::rta::run_sources_analysis(cx,
 //                                                                                &self.normal_functions,

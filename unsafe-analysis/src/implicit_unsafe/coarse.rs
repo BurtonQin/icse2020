@@ -27,7 +27,7 @@ pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, fns: &Vec<Node
     let mut call_graph = HashMap::new();
     for &fn_id in fns {
 
-        debug!("Processing {:?}", fn_id);
+        info!("Processing {:?}", ::get_node_name(cx,fn_id));
 
         let fn_def_id = cx.tcx.hir.local_def_id(fn_id);
         match cx.tcx.fn_sig(fn_def_id).unsafety() {
@@ -48,6 +48,10 @@ pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, fns: &Vec<Node
                     let mir = &mut cx.tcx.optimized_mir(fn_def_id);
                     let mut calls_visitor = CallsVisitor::new(&cx,mir,fn_def_id);
                     calls_visitor.visit_mir(mir);
+
+                    info!("calls_visitor.uses_fn_ptr: {:?}",calls_visitor.uses_fn_ptr);
+                    info!("calls_visitor.uses_unresolved_calls: {:?}", calls_visitor.uses_unresolved_calls);
+
                     if !optimistic && (calls_visitor.uses_fn_ptr || calls_visitor.uses_unresolved_calls) {
                         let mut info = UnsafeInBody::new(get_fn_path(cx,fn_def_id), true, ::get_node_name(cx,fn_id));
                         with_unsafe.insert(fn_def_id, info);
@@ -123,7 +127,7 @@ pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, fns: &Vec<Node
                     } else {
                         false
                     }
-                }) {
+                } && !optimistic ) {
                     let info = UnsafeInBody::new(get_fn_path(cx, *def_id), true, fn_name);
                     with_unsafe.insert(*def_id, info);
                     changes = true;
@@ -218,7 +222,7 @@ impl<'a, 'tcx> Visitor<'tcx> for CallsVisitor<'a, 'tcx> {
                         let param_env = self.cx.tcx.param_env(self.fn_def_id);
                         if let Some(instance) = ty::Instance::resolve(self.cx.tcx, param_env, callee_def_id, substs) {
 
-//                            info!("func {:?} has type {:?}", func, instance);
+                            info!("func {:?} has type {:?}", func, instance);
 
                             match instance.def {
                                 ty::InstanceDef::Item(def_id)
@@ -232,11 +236,12 @@ impl<'a, 'tcx> Visitor<'tcx> for CallsVisitor<'a, 'tcx> {
                                 _ => error!("ty::InstanceDef:: NOT handled {:?}", instance.def),
                             }
                         } else {
-//                            info!("no type for func: {:?}", func);
+                            info!("no type for func: {:?}", func);
                             self.uses_unresolved_calls = true;
                         }
                     }
                 _ => {
+                    info!("not Constant func: {:?}", func);
                     self.uses_fn_ptr = true;
                 }
             }

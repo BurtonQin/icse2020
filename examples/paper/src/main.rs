@@ -32,14 +32,6 @@ impl Animal for Fox {
     }
 }
 
-//fn chases<A:Animal,B:Animal>(predator:&A, prey:&B) -> String {
-//    let mut buffer = String::new();
-//    let predator_name = predator.name();
-//    let prey_name = prey.name();
-//    write!(buffer, "{:?} chases {:?}",predator_name,prey_name);
-//    buffer
-//}
-
 fn mini_zoo() {
     let mouse = Mouse{};
     let fox = Fox{};
@@ -51,32 +43,32 @@ fn mini_zoo() {
 //    println!("{:?}",message);
 }
 
-fn make_sound(animal: &Animal) -> &'static str{
-    animal.sound()
-}
+// fn make_sound(animal: &Animal) -> &'static str{
+//     animal.sound()
+// }
 
-fn sounds() {
-    let mouse = Mouse{};
-    let fox = Fox{};
-    make_sound(&mouse as &Animal);
-    make_sound( &fox as &Animal);
-}
+// fn sounds() {
+//     let mouse = Mouse{};
+//     let fox = Fox{};
+//     make_sound(&mouse as &Animal);
+//     make_sound( &fox as &Animal);
+// }
 
-fn twice<F>( f: F ) -> i32
-    where F: Fn(i32) -> i32 {
-    f(f(0))
-}
-fn incr(x:i32) -> i32 {
-    unsafe {x+1}
-}
-fn add_two_closure() {
-    twice(|x| {
-        unsafe{ x+1 }
-    });
-}
-fn add_two() {
-    twice(incr);
-}
+// fn twice<F>( f: F ) -> i32
+//     where F: Fn(i32) -> i32 {
+//     f(f(0))
+// }
+// fn incr(x:i32) -> i32 {
+//     unsafe {x+1}
+// }
+// fn add_two_closure() {
+//     twice(|x| {
+//         unsafe{ x+1 }
+//     });
+// }
+// fn add_two() {
+//     twice(incr);
+// }
 
 // trait Trait {
 //     fn m1(self:&Self) {
