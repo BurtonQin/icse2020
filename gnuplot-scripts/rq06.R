@@ -14,7 +14,7 @@ res <- read.table( file="~/unsafe_analysis/analysis-data/research-questions/rq06
                    , sep='\t'
                    , comment.char = "#"
                    , quote="\\"
-                   , col.names=c("abi", "full_path", "name"))
+                   , col.names=c("abi", "crate", "full_path", "name"))
 
 c_calls <-  subset( res, res$abi == "C" )
 c_calls_aggregate <- summarise( group_by( c_calls,full_path), n=n())
@@ -40,17 +40,28 @@ print(xx,file=filename)
 
 # Rust
 rust <- subset( res, res$abi == "Rust" )
-rust_aggregate <- summarise( group_by( rust,name), n=n())
-
-top5 <- top_n( rust_aggregate, n=5 )
-top5$n <- formatC(top5$n/nrow(rust)*100,digits=1, format = "f")
-colnames(top5) <- c("Function", "Percentage")
-
-core_sum <- nrow(rust[which(rust$name %like any% c("^core::%","^<core::%"))])
-std_sum <- nrow(rust[which(rust$name %like any% c("^std::%","^<std::%"))])
-alloc_sum <- nrow(rust[which(rust$name %like any% c("^alloc::%","^<alloc::%"))])
 all_rust <- nrow(rust)
-core_percentage <- core_sum/all_rust
-std_percentage <- std_sum/all_rust
+
+core <- subset( rust, rust$crate == "core" )
+core_sum <- nrow(core)  
+core_percentage <- core_sum/all_rust * 100
+filename <- "~/work/unsafe_study/paper/rq06_core_per.txt" 
+write(formatC(core_percentage,digits = 1, format = "f"), file=filename)
+
+std <- subset( rust, rust$crate == "std" )
+std_sum <- nrow(std)
+std_percentage <- std_sum/all_rust * 100
+filename <- "~/work/unsafe_study/paper/rq06_std_per.txt" 
+write(formatC(std_percentage,digits = 1, format = "f"), file=filename)
+
+alloc <-  subset( rust, rust$crate == "alloc" )
+alloc_sum <- nrow(alloc)
 alloc_percentage <- alloc_sum/all_rust
-unsafe_fn_ptr <- sum(rust_aggregate[which(rust_aggregate$call %like% c("Unsafe_Call_Fn_Ptr")),"freq"]) / all_rust
+filename <- "~/work/unsafe_study/paper/rq06_alloc_per.txt" 
+write(formatC(alloc_percentage,digits = 1, format = "f"), file=filename)
+
+
+unsafe_fn_ptr <- subset(rust, rust$name == "Unsafe_Call_Fn_Ptr")
+unsafe_fn_ptr_percentage <- nrow(unsafe_fn_ptr) / all_rust
+filename <- "~/work/unsafe_study/paper/rq06_unsafe_ptr_per.txt" 
+write(formatC(unsafe_fn_ptr_percentage,digits = 1, format = "f"), file=filename)

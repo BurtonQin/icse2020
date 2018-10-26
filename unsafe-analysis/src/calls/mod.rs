@@ -74,38 +74,32 @@ impl<'a, 'tcx> Visitor<'tcx> for UnsafeCallsVisitor<'a, 'tcx> {
                                 self.data.push( get_external_call(self.cx, self.cx.tcx.fn_sig(callee_def_id).abi(), callee_def_id) );
                             }
                             rustc_target::spec::abi::Abi::Rust => {
-
-//                                let call_instance = match std::env::var("DO_NOT_USE_INSTANCE") {
-//                                    Err(_) => {"".to_string()}
-//                                    Ok(val) => {val}
-//                                };
-
-//                                if call_instance == "" {
-                                    if let hir::Unsafety::Unsafe = self.cx.tcx.fn_sig(callee_def_id).unsafety() {
-                                        let param_env = self.cx.tcx.param_env(self.fn_def_id);
-                                        if let Some(instance) = ty::Instance::resolve(self.cx.tcx, param_env, callee_def_id, substs) {
-                                            match instance.def {
-                                                ty::InstanceDef::Item(def_id)
-                                                | ty::InstanceDef::Intrinsic(def_id)
-                                                | ty::InstanceDef::Virtual(def_id, _)
-                                                | ty::InstanceDef::DropGlue(def_id, _) => {
-                                                    self.data.push( get_external_call(self.cx, self.cx.tcx.fn_sig(def_id).abi(),def_id) );
-                                                }
-                                                _ => error!("ty::InstanceDef:: NOT handled {:?}", instance.def),
+                                if let hir::Unsafety::Unsafe = self.cx.tcx.fn_sig(callee_def_id).unsafety() {
+                                    let param_env = self.cx.tcx.param_env(self.fn_def_id);
+                                    if let Some(instance) = ty::Instance::resolve(self.cx.tcx, param_env, callee_def_id, substs) {
+                                        match instance.def {
+                                            ty::InstanceDef::Item(def_id)
+                                            | ty::InstanceDef::Intrinsic(def_id)
+                                            | ty::InstanceDef::Virtual(def_id, _)
+                                            | ty::InstanceDef::DropGlue(def_id, _) => {
+                                                self.data.push(
+                                                    get_external_call(
+                                                        self.cx,
+                                                    self.cx.tcx.fn_sig(def_id).abi(),def_id) );
                                             }
-                                        } else {
-                                            // Generics
-                                            self.data.push( get_external_call(self.cx, self.cx.tcx.fn_sig(callee_def_id).abi(), callee_def_id) );
+                                            _ => error!("ty::InstanceDef:: NOT handled {:?}", instance.def),
                                         }
+                                    } else {
+                                        // Generics
+                                        self.data.push( get_external_call(
+                                            self.cx,
+                                            self.cx.tcx.fn_sig(callee_def_id).abi(), callee_def_id) );
                                     }
-//                                } else {
-//                                    self.data.push( get_external_call(self.cx, self.cx.tcx.fn_sig(callee_def_id).abi(), callee_def_id) );
-//                                }
+                                }
                             }
 
                         }
                     }
-
                 }
                 TyKind::FnPtr(ref poly_sig) => {
 
@@ -126,10 +120,6 @@ impl<'a, 'tcx> Visitor<'tcx> for UnsafeCallsVisitor<'a, 'tcx> {
                         _ => {
                         }
                     }
-
-
-
-
                 }
                 _ => {
                     error!("TypeVariants NOT handled {:?}", func.ty(&self.mir.local_decls, self.cx.tcx).sty);
