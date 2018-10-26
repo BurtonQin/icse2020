@@ -1,10 +1,11 @@
 #!/usr/bin/env Rscript
 library(ggplot2)
 library(Hmisc)
-library(plyr)
+library(dplyr)
 library(scales)
 library(data.table)
 library(DescTools)
+library(xtable)
 
 p <- pipe(paste0('sed \'s/"\'"/"`"/g\' "', "~/unsafe_analysis/analysis-data/research-questions/rq06", '"'))
 
@@ -16,18 +17,38 @@ res <- read.table( file="~/unsafe_analysis/analysis-data/research-questions/rq06
                    , col.names=c("abi", "full_path", "name"))
 
 c_calls <-  subset( res, res$abi == "C" )
-c_calls_aggregate <- count(c_calls,'full_path')
-c_summary <- quantile(c_calls_aggregate$freq, c(.50,.75,.95))
+c_calls_aggregate <- summarise( group_by( c_calls,full_path), n=n())
+
+filename <- "~/work/unsafe_study/paper/rq06_c.txt" 
+write(formatC(nrow(c_calls)/nrow(res)*100,digits = 1, format = "f"), file=filename)
+
+# intrinsics
 
 intrinsics <- subset( res, res$abi == "RustIntrinsic" )
-intrinsics_aggregate <- count(intrinsics,'call')
+intrinsics_aggregate <- summarise( group_by( intrinsics,name), n=n())
 
+filename <- "~/work/unsafe_study/paper/rq06_intrinsics_percent.txt" 
+write(formatC(nrow(intrinsics)/nrow(res)*100,digits = 1, format = "f"), file=filename)
+
+top5 <- top_n( intrinsics_aggregate, n=5 )
+top5$n <- formatC(top5$n/nrow(intrinsics)*100,digits=1, format = "f")
+colnames(top5) <- c("Function", "Percentage")
+
+filename <- "~/work/unsafe_study/paper/rq06_intrinsics_table.txt" 
+xx <- xtable(top5,caption = "Top intrinsics calls", label="tbl:allintrinsics", filename=filename)
+print(xx,file=filename)
+
+# Rust
 rust <- subset( res, res$abi == "Rust" )
-rust_aggregate <- count(rust,'call')
+rust_aggregate <- summarise( group_by( rust,name), n=n())
 
-core_sum <- sum(rust_aggregate[which(rust_aggregate$call %like any% c("^core::%","^<core::%")),"freq"])
-std_sum <- sum(rust_aggregate[which(rust_aggregate$call %like any% c("^std::%","^<std::%")),"freq"])
-alloc_sum <- sum(rust_aggregate[which(rust_aggregate$call %like any% c("^alloc::%","^<alloc::%")),"freq"])
+top5 <- top_n( rust_aggregate, n=5 )
+top5$n <- formatC(top5$n/nrow(rust)*100,digits=1, format = "f")
+colnames(top5) <- c("Function", "Percentage")
+
+core_sum <- nrow(rust[which(rust$name %like any% c("^core::%","^<core::%"))])
+std_sum <- nrow(rust[which(rust$name %like any% c("^std::%","^<std::%"))])
+alloc_sum <- nrow(rust[which(rust$name %like any% c("^alloc::%","^<alloc::%"))])
 all_rust <- nrow(rust)
 core_percentage <- core_sum/all_rust
 std_percentage <- std_sum/all_rust

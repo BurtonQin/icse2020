@@ -76,7 +76,7 @@ struct CallContext<'tcx> {
 }
 fn resolve<'a, 'tcx>(cx: &LateContext<'a, 'tcx>
                      , call_graph: &FxHashMap<DefId,Vec<Call<'tcx>>>)
-            -> FxHashMap<Key,Vec<Call<'tcx>>>  {
+            -> FxHashMap<DefId,Vec<Call<'tcx>>>  {
     let mut new_call_graph = FxHashMap::default();
     //propagate known types
     for (fn_def_id,calls) in call_graph.iter() {
@@ -101,7 +101,10 @@ fn resolve<'a, 'tcx>(cx: &LateContext<'a, 'tcx>
                 Call::Virtual(..) => {
                     //TODO
                 }
-            }
+                Call::FnPtr => {
+                    //TODO
+                }
+             }
         }
         while !wl.is_empty() {
             if let Some((def_id, substs)) = wl.pop() {
@@ -162,6 +165,9 @@ fn resolve<'a, 'tcx>(cx: &LateContext<'a, 'tcx>
                                     }
                                 }
                                 Call::Virtual(_) => {
+                                    //TODO
+                                }
+                                Call::FnPtr => {
                                     //TODO
                                 }
                             }
@@ -240,11 +246,12 @@ impl<'a, 'tcx> Visitor<'tcx> for CallsVisitor<'a, 'tcx> {
                 }
                 Operand::Copy (place)
                 | Operand::Move (place) => {
-                    if let TyKind::FnPtr(ref poly_sig) = constant.literal.ty.sty {
-                        self.calls.push(Call::FnPtr);
-                    } else {
-                        error!("Others: type NOT handled {:?} place{:?}", self.fn_id, place);
-                    }
+                    //TODO
+//                    if let TyKind::FnPtr(ref poly_sig) = constant.literal.ty.sty {
+//                        self.calls.push(Call::FnPtr);
+//                    } else {
+//                        error!("Others: type NOT handled {:?} place{:?}", self.fn_id, place);
+//                    }
                 }
             }
         }

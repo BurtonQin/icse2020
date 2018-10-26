@@ -1,0 +1,18 @@
+% latex table generated in R 3.4.4 by xtable 1.8-3 package
+% Thu Oct 25 14:38:02 2018
+\begin{table}[ht]
+\centering
+\begin{tabular}{rll}
+  \hline
+ & Function & Percentage \\ 
+  \hline
+1 & copy & 0.2 \\ 
+  2 & copy\_nonoverlapping & 0.7 \\ 
+  3 & discriminant\_value & 79.9 \\ 
+  4 & transmute & 13.3 \\ 
+  5 & unreachable & 5.8 \\ 
+   \hline
+\end{tabular}
+\caption{Top intrinsics calls} 
+\label{tbl:allintrinsics}
+\end{table}

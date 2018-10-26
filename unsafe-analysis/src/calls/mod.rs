@@ -117,7 +117,8 @@ impl<'a, 'tcx> Visitor<'tcx> for UnsafeCallsVisitor<'a, 'tcx> {
                                 let elt = results::calls::ExternalCall {
                                     abi: convert_abi(poly_sig.abi()),
                                     def_path: "Unsafe_Call_Fn_Ptr".to_string(),
-                                    name: arg.ty(&self.mir.local_decls,self.cx.tcx).to_ty(self.cx.tcx).to_string()
+                                    name: arg.ty(&self.mir.local_decls,self.cx.tcx).to_ty(self.cx.tcx).to_string(),
+                                    crate_name: "Unsafe_Call_Fn_Ptr".to_string(),
                                 };
                                 self.data.push(elt);
                             }
@@ -139,9 +140,18 @@ impl<'a, 'tcx> Visitor<'tcx> for UnsafeCallsVisitor<'a, 'tcx> {
 }
 
 fn get_external_call<'a, 'tcx>(cx: &'a LateContext<'a, 'tcx>, abi: rustc_target::spec::abi::Abi, def_id: DefId) -> results::calls::ExternalCall {
+
+    let crate_name =
+        if def_id.is_local() {
+            ::local_crate_name()
+        } else {
+            cx.tcx.crate_name(def_id.krate).to_string()
+        };
+
     results::calls::ExternalCall {
         abi: convert_abi(abi),
         def_path: get_fn_path( cx, def_id),
         name: cx.tcx.item_name(def_id).to_string(),
+        crate_name
     }
 }

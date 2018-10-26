@@ -34,7 +34,7 @@ ggdata2 <- ddply(ggdata2, .(variable), transform, ecdf=ecdf(value)(value))
 y0 <- length( coarse_opt$x[coarse_opt$x==0] ) / length(coarse_opt$x)
 y1 <- length( coarse_pes$x[coarse_pes$x==0] ) / length(coarse_pes$x)
 
-min_y <- min(
+min_y <- max(
     y0,y1
 )
 first_y <- ceiling(min_y*10)/10
@@ -54,7 +54,7 @@ ggplot() +
   ) +
   theme(axis.text.x=element_text(angle=90, hjust=1)) +
   scale_y_continuous(
-    limits = c(min_y-0.01,1)
+    limits = c(y1-0.01,1)
     , breaks = c(y1,y0, seq(first_y,1,0.05))
     ,labels = percent
   )

@@ -1,6 +1,6 @@
 #[derive(Serialize, Deserialize, Debug)]
 pub struct UnsafeTrait {
-    name: String,
+    pub name: String,
 }
 
 impl UnsafeTrait {
