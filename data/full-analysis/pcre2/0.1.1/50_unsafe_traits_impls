@@ -1,0 +1,6 @@
+{"name":"<ffi::Code as std::marker::Send>"}
+{"name":"<ffi::Code as std::marker::Sync>"}
+{"name":"<ffi::CompileContext as std::marker::Send>"}
+{"name":"<ffi::CompileContext as std::marker::Sync>"}
+{"name":"<ffi::MatchData as std::marker::Send>"}
+{"name":"<ffi::MatchData as std::marker::Sync>"}

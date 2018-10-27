@@ -1,0 +1,221 @@
+{"name":"<() as CellCloneSafe>"}
+{"name":"<(A,) as CellCloneSafe>"}
+{"name":"<(A, B) as CellCloneSafe>"}
+{"name":"<(A, B, C) as CellCloneSafe>"}
+{"name":"<(A, B, C, D) as CellCloneSafe>"}
+{"name":"<(A, B, C, D, E) as CellCloneSafe>"}
+{"name":"<(A, B, C, D, E, F) as CellCloneSafe>"}
+{"name":"<(A, B, C, D, E, F, G) as CellCloneSafe>"}
+{"name":"<(A, B, C, D, E, F, G, H) as CellCloneSafe>"}
+{"name":"<(A, B, C, D, E, F, G, H, I) as CellCloneSafe>"}
+{"name":"<(A, B, C, D, E, F, G, H, I, J) as CellCloneSafe>"}
+{"name":"<(A, B, C, D, E, F, G, H, I, J, K) as CellCloneSafe>"}
+{"name":"<(A, B, C, D, E, F, G, H, I, J, K, L) as CellCloneSafe>"}
+{"name":"<[T; _] as CellCloneSafe>"}
+{"name":"<[T; _] as CellCloneSafe>"}
+{"name":"<[T; _] as CellCloneSafe>"}
+{"name":"<[T; _] as CellCloneSafe>"}
+{"name":"<[T; _] as CellCloneSafe>"}
+{"name":"<[T; _] as CellCloneSafe>"}
+{"name":"<[T; _] as CellCloneSafe>"}
+{"name":"<[T; _] as CellCloneSafe>"}
+{"name":"<[T; _] as CellCloneSafe>"}
+{"name":"<[T; _] as CellCloneSafe>"}
+{"name":"<[T; _] as CellCloneSafe>"}
+{"name":"<[T; _] as CellCloneSafe>"}
+{"name":"<[T; _] as CellCloneSafe>"}
+{"name":"<[T; _] as CellCloneSafe>"}
+{"name":"<[T; _] as CellCloneSafe>"}
+{"name":"<[T; _] as CellCloneSafe>"}
+{"name":"<[T; _] as CellCloneSafe>"}
+{"name":"<[T; _] as CellCloneSafe>"}
+{"name":"<[T; _] as CellCloneSafe>"}
+{"name":"<[T; _] as CellCloneSafe>"}
+{"name":"<[T; _] as CellCloneSafe>"}
+{"name":"<[T; _] as CellCloneSafe>"}
+{"name":"<[T; _] as CellCloneSafe>"}
+{"name":"<[T; _] as CellCloneSafe>"}
+{"name":"<[T; _] as CellCloneSafe>"}
+{"name":"<[T; _] as CellCloneSafe>"}
+{"name":"<[T; _] as CellCloneSafe>"}
+{"name":"<[T; _] as CellCloneSafe>"}
+{"name":"<[T; _] as CellCloneSafe>"}
+{"name":"<[T; _] as CellCloneSafe>"}
+{"name":"<[T; _] as CellCloneSafe>"}
+{"name":"<[T; _] as CellCloneSafe>"}
+{"name":"<[T; _] as CellCloneSafe>"}
+{"name":"<bool as CellCloneSafe>"}
+{"name":"<i8 as CellCloneSafe>"}
+{"name":"<u8 as CellCloneSafe>"}
+{"name":"<i16 as CellCloneSafe>"}
+{"name":"<u16 as CellCloneSafe>"}
+{"name":"<i32 as CellCloneSafe>"}
+{"name":"<u32 as CellCloneSafe>"}
+{"name":"<i64 as CellCloneSafe>"}
+{"name":"<u64 as CellCloneSafe>"}
+{"name":"<isize as CellCloneSafe>"}
+{"name":"<usize as CellCloneSafe>"}
+{"name":"<f32 as CellCloneSafe>"}
+{"name":"<f64 as CellCloneSafe>"}
+{"name":"<&'a T as CellCloneSafe>"}
+{"name":"<*const T as CellCloneSafe>"}
+{"name":"<*mut T as CellCloneSafe>"}
+{"name":"<std::option::Option<T> as CellCloneSafe>"}
+{"name":"<std::result::Result<T, E> as CellCloneSafe>"}
+{"name":"<std::rc::Rc<T> as CellCloneSafe>"}
+{"name":"<std::rc::Weak<T> as CellCloneSafe>"}
+{"name":"<std::sync::Arc<T> as CellCloneSafe>"}
+{"name":"<std::sync::Weak<T> as CellCloneSafe>"}
+{"name":"<std::string::String as CellCloneSafe>"}
+{"name":"<std::ffi::OsString as CellCloneSafe>"}
+{"name":"<std::ffi::CString as CellCloneSafe>"}
+{"name":"<std::path::PathBuf as CellCloneSafe>"}
+{"name":"<std::vec::Vec<T> as CellCloneSafe>"}
+{"name":"<std::collections::VecDeque<T> as CellCloneSafe>"}
+{"name":"<() as CellPartialEqSafe>"}
+{"name":"<(A,) as CellPartialEqSafe>"}
+{"name":"<(A, B) as CellPartialEqSafe>"}
+{"name":"<(A, B, C) as CellPartialEqSafe>"}
+{"name":"<(A, B, C, D) as CellPartialEqSafe>"}
+{"name":"<(A, B, C, D, E) as CellPartialEqSafe>"}
+{"name":"<(A, B, C, D, E, F) as CellPartialEqSafe>"}
+{"name":"<(A, B, C, D, E, F, G) as CellPartialEqSafe>"}
+{"name":"<(A, B, C, D, E, F, G, H) as CellPartialEqSafe>"}
+{"name":"<(A, B, C, D, E, F, G, H, I) as CellPartialEqSafe>"}
+{"name":"<(A, B, C, D, E, F, G, H, I, J) as CellPartialEqSafe>"}
+{"name":"<(A, B, C, D, E, F, G, H, I, J, K) as CellPartialEqSafe>"}
+{"name":"<(A, B, C, D, E, F, G, H, I, J, K, L) as CellPartialEqSafe>"}
+{"name":"<[T; _] as CellPartialEqSafe>"}
+{"name":"<[T; _] as CellPartialEqSafe>"}
+{"name":"<[T; _] as CellPartialEqSafe>"}
+{"name":"<[T; _] as CellPartialEqSafe>"}
+{"name":"<[T; _] as CellPartialEqSafe>"}
+{"name":"<[T; _] as CellPartialEqSafe>"}
+{"name":"<[T; _] as CellPartialEqSafe>"}
+{"name":"<[T; _] as CellPartialEqSafe>"}
+{"name":"<[T; _] as CellPartialEqSafe>"}
+{"name":"<[T; _] as CellPartialEqSafe>"}
+{"name":"<[T; _] as CellPartialEqSafe>"}
+{"name":"<[T; _] as CellPartialEqSafe>"}
+{"name":"<[T; _] as CellPartialEqSafe>"}
+{"name":"<[T; _] as CellPartialEqSafe>"}
+{"name":"<[T; _] as CellPartialEqSafe>"}
+{"name":"<[T; _] as CellPartialEqSafe>"}
+{"name":"<[T; _] as CellPartialEqSafe>"}
+{"name":"<[T; _] as CellPartialEqSafe>"}
+{"name":"<[T; _] as CellPartialEqSafe>"}
+{"name":"<[T; _] as CellPartialEqSafe>"}
+{"name":"<[T; _] as CellPartialEqSafe>"}
+{"name":"<[T; _] as CellPartialEqSafe>"}
+{"name":"<[T; _] as CellPartialEqSafe>"}
+{"name":"<[T; _] as CellPartialEqSafe>"}
+{"name":"<[T; _] as CellPartialEqSafe>"}
+{"name":"<[T; _] as CellPartialEqSafe>"}
+{"name":"<[T; _] as CellPartialEqSafe>"}
+{"name":"<[T; _] as CellPartialEqSafe>"}
+{"name":"<[T; _] as CellPartialEqSafe>"}
+{"name":"<[T; _] as CellPartialEqSafe>"}
+{"name":"<[T; _] as CellPartialEqSafe>"}
+{"name":"<[T; _] as CellPartialEqSafe>"}
+{"name":"<[T; _] as CellPartialEqSafe>"}
+{"name":"<bool as CellPartialEqSafe>"}
+{"name":"<i8 as CellPartialEqSafe>"}
+{"name":"<u8 as CellPartialEqSafe>"}
+{"name":"<i16 as CellPartialEqSafe>"}
+{"name":"<u16 as CellPartialEqSafe>"}
+{"name":"<i32 as CellPartialEqSafe>"}
+{"name":"<u32 as CellPartialEqSafe>"}
+{"name":"<i64 as CellPartialEqSafe>"}
+{"name":"<u64 as CellPartialEqSafe>"}
+{"name":"<isize as CellPartialEqSafe>"}
+{"name":"<usize as CellPartialEqSafe>"}
+{"name":"<f32 as CellPartialEqSafe>"}
+{"name":"<f64 as CellPartialEqSafe>"}
+{"name":"<*const T as CellPartialEqSafe>"}
+{"name":"<*mut T as CellPartialEqSafe>"}
+{"name":"<[T] as CellPartialEqSafe>"}
+{"name":"<std::vec::Vec<T> as CellPartialEqSafe>"}
+{"name":"<str as CellPartialEqSafe>"}
+{"name":"<std::string::String as CellPartialEqSafe>"}
+{"name":"<std::ffi::OsStr as CellPartialEqSafe>"}
+{"name":"<std::ffi::OsString as CellPartialEqSafe>"}
+{"name":"<std::ffi::CStr as CellPartialEqSafe>"}
+{"name":"<std::ffi::CString as CellPartialEqSafe>"}
+{"name":"<std::path::Path as CellPartialEqSafe>"}
+{"name":"<std::path::PathBuf as CellPartialEqSafe>"}
+{"name":"<std::option::Option<T> as CellPartialEqSafe>"}
+{"name":"<std::result::Result<T, E> as CellPartialEqSafe>"}
+{"name":"<T as CellBorrowSafe<T>>"}
+{"name":"<&'a T as CellBorrowSafe<T>>"}
+{"name":"<std::boxed::Box<T> as CellBorrowSafe<T>>"}
+{"name":"<std::rc::Rc<T> as CellBorrowSafe<T>>"}
+{"name":"<std::sync::Arc<T> as CellBorrowSafe<T>>"}
+{"name":"<std::vec::Vec<T> as CellBorrowSafe<[T]>>"}
+{"name":"<std::string::String as CellBorrowSafe<str>>"}
+{"name":"<std::ffi::OsString as CellBorrowSafe<std::ffi::OsStr>>"}
+{"name":"<std::ffi::CString as CellBorrowSafe<std::ffi::CStr>>"}
+{"name":"<std::path::PathBuf as CellBorrowSafe<std::path::Path>>"}
+{"name":"<std::borrow::Cow<'a, T> as CellBorrowSafe<T>>"}
+{"name":"<() as CellHashSafe>"}
+{"name":"<(A,) as CellHashSafe>"}
+{"name":"<(A, B) as CellHashSafe>"}
+{"name":"<(A, B, C) as CellHashSafe>"}
+{"name":"<(A, B, C, D) as CellHashSafe>"}
+{"name":"<(A, B, C, D, E) as CellHashSafe>"}
+{"name":"<(A, B, C, D, E, F) as CellHashSafe>"}
+{"name":"<(A, B, C, D, E, F, G) as CellHashSafe>"}
+{"name":"<(A, B, C, D, E, F, G, H) as CellHashSafe>"}
+{"name":"<(A, B, C, D, E, F, G, H, I) as CellHashSafe>"}
+{"name":"<(A, B, C, D, E, F, G, H, I, J) as CellHashSafe>"}
+{"name":"<(A, B, C, D, E, F, G, H, I, J, K) as CellHashSafe>"}
+{"name":"<(A, B, C, D, E, F, G, H, I, J, K, L) as CellHashSafe>"}
+{"name":"<[T; _] as CellHashSafe>"}
+{"name":"<[T; _] as CellHashSafe>"}
+{"name":"<[T; _] as CellHashSafe>"}
+{"name":"<[T; _] as CellHashSafe>"}
+{"name":"<[T; _] as CellHashSafe>"}
+{"name":"<[T; _] as CellHashSafe>"}
+{"name":"<[T; _] as CellHashSafe>"}
+{"name":"<[T; _] as CellHashSafe>"}
+{"name":"<[T; _] as CellHashSafe>"}
+{"name":"<[T; _] as CellHashSafe>"}
+{"name":"<[T; _] as CellHashSafe>"}
+{"name":"<[T; _] as CellHashSafe>"}
+{"name":"<[T; _] as CellHashSafe>"}
+{"name":"<[T; _] as CellHashSafe>"}
+{"name":"<[T; _] as CellHashSafe>"}
+{"name":"<[T; _] as CellHashSafe>"}
+{"name":"<[T; _] as CellHashSafe>"}
+{"name":"<[T; _] as CellHashSafe>"}
+{"name":"<[T; _] as CellHashSafe>"}
+{"name":"<[T; _] as CellHashSafe>"}
+{"name":"<[T; _] as CellHashSafe>"}
+{"name":"<[T; _] as CellHashSafe>"}
+{"name":"<[T; _] as CellHashSafe>"}
+{"name":"<[T; _] as CellHashSafe>"}
+{"name":"<[T; _] as CellHashSafe>"}
+{"name":"<[T; _] as CellHashSafe>"}
+{"name":"<[T; _] as CellHashSafe>"}
+{"name":"<[T; _] as CellHashSafe>"}
+{"name":"<[T; _] as CellHashSafe>"}
+{"name":"<[T; _] as CellHashSafe>"}
+{"name":"<[T; _] as CellHashSafe>"}
+{"name":"<[T; _] as CellHashSafe>"}
+{"name":"<[T; _] as CellHashSafe>"}
+{"name":"<bool as CellHashSafe>"}
+{"name":"<i8 as CellHashSafe>"}
+{"name":"<u8 as CellHashSafe>"}
+{"name":"<i16 as CellHashSafe>"}
+{"name":"<u16 as CellHashSafe>"}
+{"name":"<i32 as CellHashSafe>"}
+{"name":"<u32 as CellHashSafe>"}
+{"name":"<i64 as CellHashSafe>"}
+{"name":"<u64 as CellHashSafe>"}
+{"name":"<isize as CellHashSafe>"}
+{"name":"<usize as CellHashSafe>"}
+{"name":"<*const T as CellHashSafe>"}
+{"name":"<*mut T as CellHashSafe>"}
+{"name":"<std::option::Option<T> as CellHashSafe>"}
+{"name":"<std::result::Result<T, E> as CellHashSafe>"}
+{"name":"<std::collections::hash_map::DefaultHasher as CellHasherSafe>"}
+{"name":"<std::collections::hash_map::RandomState as CellBuildHasherSafe>"}

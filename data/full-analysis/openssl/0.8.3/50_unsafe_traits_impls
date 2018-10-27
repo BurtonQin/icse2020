@@ -1,0 +1,8 @@
+{"name":"<crypto::pkey::PKey as std::marker::Send>"}
+{"name":"<crypto::pkey::PKey as std::marker::Sync>"}
+{"name":"<ssl::bio::BioMethod as std::marker::Send>"}
+{"name":"<ssl::SslContext as std::marker::Send>"}
+{"name":"<ssl::SslContext as std::marker::Sync>"}
+{"name":"<ssl::SslRef<'a> as std::marker::Send>"}
+{"name":"<ssl::SslRef<'a> as std::marker::Sync>"}
+{"name":"<ssl::SslStream<S> as std::marker::Send>"}

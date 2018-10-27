@@ -1,0 +1,45 @@
+{"name":"<u32 as convert::traits::WasmAbi>"}
+{"name":"<i32 as convert::traits::WasmAbi>"}
+{"name":"<f32 as convert::traits::WasmAbi>"}
+{"name":"<f64 as convert::traits::WasmAbi>"}
+{"name":"<convert::impls::WasmOptionalI32 as convert::traits::WasmAbi>"}
+{"name":"<convert::impls::WasmOptionalU32 as convert::traits::WasmAbi>"}
+{"name":"<convert::impls::WasmOptionalF32 as convert::traits::WasmAbi>"}
+{"name":"<convert::impls::WasmOptionalF64 as convert::traits::WasmAbi>"}
+{"name":"<convert::impls::Wasm64 as convert::traits::WasmAbi>"}
+{"name":"<convert::impls::WasmOptional64 as convert::traits::WasmAbi>"}
+{"name":"<convert::slices::WasmSlice as convert::traits::WasmAbi>"}
+{"name":"<(dyn core::ops::Fn() + 'static) as closure::WasmClosure>"}
+{"name":"<(dyn core::ops::Fn() -> R + 'static) as closure::WasmClosure>"}
+{"name":"<(dyn core::ops::FnMut() + 'static) as closure::WasmClosure>"}
+{"name":"<(dyn core::ops::FnMut() -> R + 'static) as closure::WasmClosure>"}
+{"name":"<(dyn core::ops::Fn(A) + 'static) as closure::WasmClosure>"}
+{"name":"<(dyn core::ops::Fn(A) -> R + 'static) as closure::WasmClosure>"}
+{"name":"<(dyn core::ops::FnMut(A) + 'static) as closure::WasmClosure>"}
+{"name":"<(dyn core::ops::FnMut(A) -> R + 'static) as closure::WasmClosure>"}
+{"name":"<(dyn core::ops::Fn(A, B) + 'static) as closure::WasmClosure>"}
+{"name":"<(dyn core::ops::Fn(A, B) -> R + 'static) as closure::WasmClosure>"}
+{"name":"<(dyn core::ops::FnMut(A, B) + 'static) as closure::WasmClosure>"}
+{"name":"<(dyn core::ops::FnMut(A, B) -> R + 'static) as closure::WasmClosure>"}
+{"name":"<(dyn core::ops::Fn(A, B, C) + 'static) as closure::WasmClosure>"}
+{"name":"<(dyn core::ops::Fn(A, B, C) -> R + 'static) as closure::WasmClosure>"}
+{"name":"<(dyn core::ops::FnMut(A, B, C) + 'static) as closure::WasmClosure>"}
+{"name":"<(dyn core::ops::FnMut(A, B, C) -> R + 'static) as closure::WasmClosure>"}
+{"name":"<(dyn core::ops::Fn(A, B, C, D) + 'static) as closure::WasmClosure>"}
+{"name":"<(dyn core::ops::Fn(A, B, C, D) -> R + 'static) as closure::WasmClosure>"}
+{"name":"<(dyn core::ops::FnMut(A, B, C, D) + 'static) as closure::WasmClosure>"}
+{"name":"<(dyn core::ops::FnMut(A, B, C, D) -> R + 'static) as closure::WasmClosure>"}
+{"name":"<(dyn core::ops::Fn(A, B, C, D, E) + 'static) as closure::WasmClosure>"}
+{"name":"<(dyn core::ops::Fn(A, B, C, D, E) -> R + 'static) as closure::WasmClosure>"}
+{"name":"<(dyn core::ops::FnMut(A, B, C, D, E) + 'static) as closure::WasmClosure>"}
+{"name":"<(dyn core::ops::FnMut(A, B, C, D, E) -> R + 'static) as closure::WasmClosure>"}
+{"name":"<(dyn core::ops::Fn(A, B, C, D, E, F) + 'static) as closure::WasmClosure>"}
+{"name":"<(dyn core::ops::Fn(A, B, C, D, E, F) -> R + 'static) as closure::WasmClosure>"}
+{"name":"<(dyn core::ops::FnMut(A, B, C, D, E, F) + 'static) as closure::WasmClosure>"}
+{"name":"<(dyn core::ops::FnMut(A, B, C, D, E, F) -> R + 'static) as closure::WasmClosure>"}
+{"name":"<(dyn core::ops::Fn(A, B, C, D, E, F, G) + 'static) as closure::WasmClosure>"}
+{"name":"<(dyn core::ops::Fn(A, B, C, D, E, F, G) -> R + 'static) as closure::WasmClosure>"}
+{"name":"<(dyn core::ops::FnMut(A, B, C, D, E, F, G) + 'static) as closure::WasmClosure>"}
+{"name":"<(dyn core::ops::FnMut(A, B, C, D, E, F, G) -> R + 'static) as closure::WasmClosure>"}
+{"name":"<JsStatic<T> as core::marker::Sync>"}
+{"name":"<JsStatic<T> as core::marker::Send>"}

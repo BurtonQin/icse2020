@@ -1,0 +1,10 @@
+{"name":"<cluster::Clustering as std::marker::Send>"}
+{"name":"<cluster::Clustering as std::marker::Sync>"}
+{"name":"<index::flat::FlatIndexImpl as std::marker::Send>"}
+{"name":"<index::flat::FlatIndexImpl as std::marker::Sync>"}
+{"name":"<index::id_map::IdMap<I> as std::marker::Send>"}
+{"name":"<index::id_map::IdMap<I> as std::marker::Sync>"}
+{"name":"<index::lsh::LshIndex as std::marker::Send>"}
+{"name":"<index::lsh::LshIndex as std::marker::Sync>"}
+{"name":"<index::IndexImpl as std::marker::Send>"}
+{"name":"<index::IndexImpl as std::marker::Sync>"}

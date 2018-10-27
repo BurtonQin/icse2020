@@ -1,0 +1,6 @@
+{"name":"<lock::Lock<T> as core::marker::Send>"}
+{"name":"<lock::Lock<T> as core::marker::Sync>"}
+{"name":"<mpsc::queue::Queue<T> as core::marker::Send>"}
+{"name":"<mpsc::queue::Queue<T> as core::marker::Sync>"}
+{"name":"<mpsc::Inner<T> as core::marker::Send>"}
+{"name":"<mpsc::Inner<T> as core::marker::Sync>"}

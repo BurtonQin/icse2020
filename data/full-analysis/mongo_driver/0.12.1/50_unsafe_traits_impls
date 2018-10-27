@@ -1,0 +1,4 @@
+{"name":"<client::ClientPool as std::marker::Send>"}
+{"name":"<client::ClientPool as std::marker::Sync>"}
+{"name":"<client::Uri as std::marker::Send>"}
+{"name":"<client::Uri as std::marker::Sync>"}

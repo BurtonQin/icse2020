@@ -1,0 +1,3 @@
+{"name":"<container::EntitySlot<C, E, M, I> as std::marker::Send>"}
+{"name":"<entity::Entity<C, E, M> as std::marker::Send>"}
+{"name":"<engine::parallel::WakeupMessage<C, E, M, CA, EA, I, CC> as std::marker::Send>"}

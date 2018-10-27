@@ -1,0 +1,6 @@
+{"name":"<internal::ArcCowish as std::marker::Send>"}
+{"name":"<internal::SyncEventListener as std::marker::Send>"}
+{"name":"<internal::SyncEventListener as std::marker::Sync>"}
+{"name":"<internal::Inner<K> as std::marker::Send>"}
+{"name":"<internal::Inner<K> as std::marker::Sync>"}
+{"name":"<internal::emit_value_sync_spawn::SendWrapper as std::marker::Send>"}

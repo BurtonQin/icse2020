@@ -1,0 +1,6 @@
+{"name":"<types::Connection as std::marker::Send>"}
+{"name":"<types::Connection as std::marker::Sync>"}
+{"name":"<types::MutSlab as std::marker::Send>"}
+{"name":"<types::MutSlab as std::marker::Sync>"}
+{"name":"<types::EventHandler as std::marker::Send>"}
+{"name":"<types::EventHandler as std::marker::Sync>"}

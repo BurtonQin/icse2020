@@ -1,0 +1,16 @@
+{"name":"<std::fs::File as traits::ReadBufferMarker>"}
+{"name":"<std::io::Empty as traits::ReadBufferMarker>"}
+{"name":"<std::io::Repeat as traits::ReadBufferMarker>"}
+{"name":"<std::io::Stdin as traits::ReadBufferMarker>"}
+{"name":"<std::net::TcpStream as traits::ReadBufferMarker>"}
+{"name":"<std::process::ChildStderr as traits::ReadBufferMarker>"}
+{"name":"<std::process::ChildStdout as traits::ReadBufferMarker>"}
+{"name":"<&'a [u8] as traits::ReadBufferMarker>"}
+{"name":"<&'a std::fs::File as traits::ReadBufferMarker>"}
+{"name":"<&'a std::net::TcpStream as traits::ReadBufferMarker>"}
+{"name":"<std::io::StdinLock<'a> as traits::ReadBufferMarker>"}
+{"name":"<std::io::Take<R> as traits::ReadBufferMarker>"}
+{"name":"<std::io::BufReader<R> as traits::ReadBufferMarker>"}
+{"name":"<std::io::Chain<T, U> as traits::ReadBufferMarker>"}
+{"name":"<&'a mut R as traits::ReadBufferMarker>"}
+{"name":"<std::boxed::Box<R> as traits::ReadBufferMarker>"}

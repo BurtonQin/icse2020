@@ -1,0 +1,3 @@
+{"name":"<u32 as array::FromVoid>"}
+{"name":"<*const libc::c_void as array::FromVoid>"}
+{"name":"<base::CFType as array::FromVoid>"}

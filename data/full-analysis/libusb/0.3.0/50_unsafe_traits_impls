@@ -1,0 +1,8 @@
+{"name":"<context::Context as std::marker::Sync>"}
+{"name":"<context::Context as std::marker::Send>"}
+{"name":"<device::Device<'a> as std::marker::Send>"}
+{"name":"<device::Device<'a> as std::marker::Sync>"}
+{"name":"<device_handle::DeviceHandle<'a> as std::marker::Send>"}
+{"name":"<device_handle::DeviceHandle<'a> as std::marker::Sync>"}
+{"name":"<config_descriptor::ConfigDescriptor as std::marker::Sync>"}
+{"name":"<config_descriptor::ConfigDescriptor as std::marker::Send>"}

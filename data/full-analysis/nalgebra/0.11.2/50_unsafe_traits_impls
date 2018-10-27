@@ -1,0 +1,12 @@
+{"name":"<core::matrix_slice::SliceStorage<'a, N, R, C, RStride, CStride, Alloc> as core::storage::Storage<N, R, C>>"}
+{"name":"<core::matrix_slice::SliceStorageMut<'a, N, R, C, RStride, CStride, Alloc> as core::storage::Storage<N, R, C>>"}
+{"name":"<core::matrix_slice::SliceStorageMut<'a, N, R, C, RStride, CStride, Alloc> as core::storage::StorageMut<N, R, C>>"}
+{"name":"<core::matrix_array::MatrixArray<N, R, C> as core::storage::Storage<N, R, C>>"}
+{"name":"<core::matrix_array::MatrixArray<N, R, C> as core::storage::StorageMut<N, R, C>>"}
+{"name":"<core::matrix_array::MatrixArray<N, R, C> as core::storage::OwnedStorage<N, R, C>>"}
+{"name":"<core::matrix_vec::MatrixVec<N, core::dimension::Dynamic, C> as core::storage::Storage<N, core::dimension::Dynamic, C>>"}
+{"name":"<core::matrix_vec::MatrixVec<N, R, core::dimension::Dynamic> as core::storage::Storage<N, R, core::dimension::Dynamic>>"}
+{"name":"<core::matrix_vec::MatrixVec<N, core::dimension::Dynamic, C> as core::storage::StorageMut<N, core::dimension::Dynamic, C>>"}
+{"name":"<core::matrix_vec::MatrixVec<N, core::dimension::Dynamic, C> as core::storage::OwnedStorage<N, core::dimension::Dynamic, C>>"}
+{"name":"<core::matrix_vec::MatrixVec<N, R, core::dimension::Dynamic> as core::storage::StorageMut<N, R, core::dimension::Dynamic>>"}
+{"name":"<core::matrix_vec::MatrixVec<N, R, core::dimension::Dynamic> as core::storage::OwnedStorage<N, R, core::dimension::Dynamic>>"}

@@ -1,0 +1,5 @@
+{"name":"<core::cell::Ref<'a, T> as StableDeref>"}
+{"name":"<core::cell::RefMut<'a, T> as StableDeref>"}
+{"name":"<&'a T as StableDeref>"}
+{"name":"<&'a T as CloneStableDeref>"}
+{"name":"<&'a mut T as StableDeref>"}

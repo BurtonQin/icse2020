@@ -1,0 +1,4 @@
+{"name":"<dom::Element as std::marker::Send>"}
+{"name":"<dom::Element as std::marker::Sync>"}
+{"name":"<value::Value as std::marker::Send>"}
+{"name":"<video::AssetPtr<T> as std::marker::Send>"}

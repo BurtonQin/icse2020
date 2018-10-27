@@ -1,0 +1,9 @@
+{"name":"<collections::b_tree::BTree<K, T, Rel, A> as core::marker::Send>"}
+{"name":"<collections::b_tree::BTree<K, T, Rel, A> as core::marker::Sync>"}
+{"name":"<collections::hash_table::HashTable<K, T, H, A> as core::marker::Send>"}
+{"name":"<collections::hash_table::HashTable<K, T, H, A> as core::marker::Sync>"}
+{"name":"<collections::raw_vec::FixedStorage<'a, T> as alloc::Alloc>"}
+{"name":"<collections::vec::IntoIter<T, A> as core::marker::Send>"}
+{"name":"<collections::vec::IntoIter<T, A> as core::marker::Sync>"}
+{"name":"<collections::vec::Drain<'a, T, A> as core::marker::Send>"}
+{"name":"<collections::vec::Drain<'a, T, A> as core::marker::Sync>"}

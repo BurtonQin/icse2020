@@ -1,0 +1,16 @@
+{"name":"<ast::args::Args<C> as gc::Trace>"}
+{"name":"<ast::expr::Expr<C> as gc::Trace>"}
+{"name":"<ast::header::ModuleHeaderError as gc::Trace>"}
+{"name":"<collections::Link<T> as gc::Trace>"}
+{"name":"<collections::GcLinkedList<T> as gc::Trace>"}
+{"name":"<location::Location as gc::Trace>"}
+{"name":"<modules::Module<C, IC> as gc::Trace>"}
+{"name":"<modules::ExportedModule<C> as gc::Trace>"}
+{"name":"<modules::Modules<C, IC> as gc::Trace>"}
+{"name":"<reader::ReadError as gc::Trace>"}
+{"name":"<reader::ReadErrorKind as gc::Trace>"}
+{"name":"<reader::AcceptSet as gc::Trace>"}
+{"name":"<reader::SourceLocation as gc::Trace>"}
+{"name":"<symbol::Symbol as gc::Trace>"}
+{"name":"<util::GcVoid as gc::Trace>"}
+{"name":"<value::Value<C> as gc::Trace>"}

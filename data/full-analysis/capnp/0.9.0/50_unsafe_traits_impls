@@ -1,0 +1,3 @@
+{"name":"<message::Builder<A> as std::marker::Send>"}
+{"name":"<message::HeapAllocator as message::Allocator>"}
+{"name":"<message::ScratchSpaceHeapAllocator<'a, 'b> as message::Allocator>"}

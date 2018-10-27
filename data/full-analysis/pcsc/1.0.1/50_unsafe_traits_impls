@@ -1,0 +1,4 @@
+{"name":"<Context as std::marker::Send>"}
+{"name":"<Context as std::marker::Sync>"}
+{"name":"<Card<'ctx> as std::marker::Send>"}
+{"name":"<Card<'ctx> as std::marker::Sync>"}

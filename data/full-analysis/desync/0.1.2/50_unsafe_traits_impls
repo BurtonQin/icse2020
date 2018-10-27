@@ -1,0 +1,4 @@
+{"name":"<desync::Desync<T> as std::marker::Send>"}
+{"name":"<desync::Desync<T> as std::marker::Sync>"}
+{"name":"<desync::DataRef<T> as std::marker::Send>"}
+{"name":"<unsafe_job::UnsafeJob as std::marker::Send>"}

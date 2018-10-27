@@ -1,0 +1,6 @@
+{"name":"<mirrored::buffer::Buffer<T> as std::marker::Send>"}
+{"name":"<mirrored::buffer::Buffer<T> as std::marker::Sync>"}
+{"name":"<Drain<'a, T> as std::marker::Sync>"}
+{"name":"<Drain<'a, T> as std::marker::Send>"}
+{"name":"<IntoIter<T> as std::marker::Send>"}
+{"name":"<IntoIter<T> as std::marker::Sync>"}

@@ -1,0 +1,4 @@
+{"name":"<element::Element as std::marker::Send>"}
+{"name":"<element::Element as std::marker::Sync>"}
+{"name":"<sglist::SgList as std::marker::Send>"}
+{"name":"<sglist::SgList as std::marker::Sync>"}

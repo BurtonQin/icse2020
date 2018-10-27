@@ -1,0 +1,4 @@
+{"name":"<merger::Merger as std::marker::Send>"}
+{"name":"<merger::Merger as std::marker::Sync>"}
+{"name":"<reader::Reader as std::marker::Send>"}
+{"name":"<reader::Reader as std::marker::Sync>"}

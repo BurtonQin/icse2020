@@ -1,0 +1,12 @@
+{"name":"i2c::SclPin"}
+{"name":"i2c::SdaPin"}
+{"name":"spi::SckPin"}
+{"name":"spi::MisoPin"}
+{"name":"spi::MosiPin"}
+{"name":"spi::SpiDmaStream"}
+{"name":"i2s::SdPin"}
+{"name":"i2s::WsPin"}
+{"name":"i2s::CkPin"}
+{"name":"i2s::ExtSdPin"}
+{"name":"i2s::MckPin"}
+{"name":"i2s::I2sDmaStream"}

@@ -1,0 +1,6 @@
+{"name":"<output::NotRequiredThreadSafe<T> as std::marker::Send>"}
+{"name":"<output::NotRequiredThreadSafe<T> as std::marker::Sync>"}
+{"name":"<view::NotRequiredThreadSafe<T> as std::marker::Send>"}
+{"name":"<view::NotRequiredThreadSafe<T> as std::marker::Sync>"}
+{"name":"<NotRequiredThreadSafe<T> as std::marker::Send>"}
+{"name":"<NotRequiredThreadSafe<T> as std::marker::Sync>"}

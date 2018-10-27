@@ -1,0 +1,12 @@
+{"name":"<rocksdb::DB as std::marker::Send>"}
+{"name":"<rocksdb::DB as std::marker::Sync>"}
+{"name":"<rocksdb::Column as std::marker::Send>"}
+{"name":"<rocksdb::Column as std::marker::Sync>"}
+{"name":"<rocksdb::ReadOptions as std::marker::Sync>"}
+{"name":"<rocksdb::ReadOptions as std::marker::Send>"}
+{"name":"<rocksdb_options::BlockBasedOptions as std::marker::Sync>"}
+{"name":"<rocksdb_options::BlockBasedOptions as std::marker::Send>"}
+{"name":"<rocksdb_options::WriteOptions as std::marker::Sync>"}
+{"name":"<rocksdb_options::WriteOptions as std::marker::Send>"}
+{"name":"<rocksdb_options::Cache as std::marker::Sync>"}
+{"name":"<rocksdb_options::Cache as std::marker::Send>"}

@@ -1,0 +1,13 @@
+{"name":"<store::Index<D> as std::marker::Send>"}
+{"name":"<store::Index<D> as std::marker::Sync>"}
+{"name":"<store::Store<D> as std::marker::Send>"}
+{"name":"<store::Store<D> as std::marker::Sync>"}
+{"name":"<hashstore::Index<K, D> as std::marker::Send>"}
+{"name":"<hashstore::Index<K, D> as std::marker::Sync>"}
+{"name":"<hashstore::HashStore<K, D> as std::marker::Send>"}
+{"name":"<hashstore::HashStore<K, D> as std::marker::Sync>"}
+{"name":"<spscstate::TripleBuffer<T> as std::marker::Sync>"}
+{"name":"<spscstate::Sender<T> as std::marker::Send>"}
+{"name":"<spscstate::Receiver<T> as std::marker::Send>"}
+{"name":"<fjsqueue::FJSQueue<K, C> as std::marker::Send>"}
+{"name":"<fjsqueue::FJSQueue<K, C> as std::marker::Sync>"}

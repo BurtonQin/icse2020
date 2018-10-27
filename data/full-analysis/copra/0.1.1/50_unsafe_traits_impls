@@ -1,0 +1,4 @@
+{"name":"<message::meta::RpcMeta as std::marker::Sync>"}
+{"name":"<message::meta::RpcRequestMeta as std::marker::Sync>"}
+{"name":"<message::meta::RpcResponseMeta as std::marker::Sync>"}
+{"name":"<message::test::TestMessage as std::marker::Sync>"}

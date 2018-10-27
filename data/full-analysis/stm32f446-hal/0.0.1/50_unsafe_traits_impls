@@ -1,0 +1,16 @@
+{"name":"<gpio::gpioa::PA9<gpio::AF7> as serial::TxPin<stm32f4::stm32f446::USART1>>"}
+{"name":"<gpio::gpiob::PB6<gpio::AF7> as serial::TxPin<stm32f4::stm32f446::USART1>>"}
+{"name":"<gpio::gpioa::PA10<gpio::AF7> as serial::RxPin<stm32f4::stm32f446::USART1>>"}
+{"name":"<gpio::gpiob::PB7<gpio::AF7> as serial::RxPin<stm32f4::stm32f446::USART1>>"}
+{"name":"<gpio::gpioa::PA2<gpio::AF7> as serial::TxPin<stm32f4::stm32f446::USART2>>"}
+{"name":"<gpio::gpioa::PA3<gpio::AF7> as serial::RxPin<stm32f4::stm32f446::USART2>>"}
+{"name":"<gpio::gpiob::PB10<gpio::AF7> as serial::TxPin<stm32f4::stm32f446::USART3>>"}
+{"name":"<gpio::gpioc::PC10<gpio::AF7> as serial::TxPin<stm32f4::stm32f446::USART3>>"}
+{"name":"<gpio::gpioc::PC5<gpio::AF7> as serial::RxPin<stm32f4::stm32f446::USART3>>"}
+{"name":"<gpio::gpioc::PC11<gpio::AF7> as serial::RxPin<stm32f4::stm32f446::USART3>>"}
+{"name":"<gpio::gpioa::PA0<gpio::AF7> as serial::TxPin<stm32f4::stm32f446::UART4>>"}
+{"name":"<gpio::gpioa::PA1<gpio::AF7> as serial::RxPin<stm32f4::stm32f446::UART4>>"}
+{"name":"<gpio::gpioc::PC12<gpio::AF7> as serial::TxPin<stm32f4::stm32f446::UART5>>"}
+{"name":"<gpio::gpiod::PD2<gpio::AF7> as serial::RxPin<stm32f4::stm32f446::UART5>>"}
+{"name":"<gpio::gpioc::PC6<gpio::AF7> as serial::TxPin<stm32f4::stm32f446::USART6>>"}
+{"name":"<gpio::gpioc::PC7<gpio::AF7> as serial::RxPin<stm32f4::stm32f446::USART6>>"}

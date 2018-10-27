@@ -1,0 +1,16 @@
+{"name":"element::ElementBase"}
+{"name":"element::ElementClassExt"}
+{"name":"bin::BinBase"}
+{"name":"bin::BinClassExt"}
+{"name":"pipeline::PipelineBase"}
+{"name":"pipeline::PipelineClassExt"}
+{"name":"base_src::BaseSrcBase"}
+{"name":"base_src::BaseSrcClassExt"}
+{"name":"base_sink::BaseSinkBase"}
+{"name":"base_sink::BaseSinkClassExt"}
+{"name":"base_transform::BaseTransformBase"}
+{"name":"base_transform::BaseTransformClassExt"}
+{"name":"pad::PadBase"}
+{"name":"pad::PadClassExt"}
+{"name":"ghost_pad::GhostPadBase"}
+{"name":"ghost_pad::GhostPadClassExt"}

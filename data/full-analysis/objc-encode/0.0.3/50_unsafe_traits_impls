@@ -1,0 +1,22 @@
+{"name":"<i8 as encode::Encode>"}
+{"name":"<i16 as encode::Encode>"}
+{"name":"<i32 as encode::Encode>"}
+{"name":"<i64 as encode::Encode>"}
+{"name":"<u8 as encode::Encode>"}
+{"name":"<u16 as encode::Encode>"}
+{"name":"<u32 as encode::Encode>"}
+{"name":"<u64 as encode::Encode>"}
+{"name":"<f32 as encode::Encode>"}
+{"name":"<f64 as encode::Encode>"}
+{"name":"<bool as encode::Encode>"}
+{"name":"<() as encode::Encode>"}
+{"name":"<*mut i8 as encode::Encode>"}
+{"name":"<*const i8 as encode::Encode>"}
+{"name":"<isize as encode::Encode>"}
+{"name":"<usize as encode::Encode>"}
+{"name":"<*mut libc::c_void as encode::Encode>"}
+{"name":"<*const libc::c_void as encode::Encode>"}
+{"name":"<*const T as encode::Encode>"}
+{"name":"<*mut T as encode::Encode>"}
+{"name":"<core::option::Option<&'a T> as encode::Encode>"}
+{"name":"<core::option::Option<&'a mut T> as encode::Encode>"}

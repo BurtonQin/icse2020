@@ -1,0 +1,8 @@
+{"name":"<support::bst::node::Root<K, V> as std::marker::Sync>"}
+{"name":"<support::bst::node::Root<K, V> as std::marker::Send>"}
+{"name":"<support::bst::node::NodeRef<BorrowType, K, V, Type> as std::marker::Sync>"}
+{"name":"<support::bst::node::NodeRef<support::bst::node::marker::Immut<'a>, K, V, Type> as std::marker::Send>"}
+{"name":"<support::bst::node::NodeRef<support::bst::node::marker::Mut<'a>, K, V, Type> as std::marker::Send>"}
+{"name":"<support::bst::node::NodeRef<support::bst::node::marker::Owned, K, V, Type> as std::marker::Send>"}
+{"name":"<support::bst::Unique<T> as std::marker::Send>"}
+{"name":"<support::bst::Unique<T> as std::marker::Sync>"}

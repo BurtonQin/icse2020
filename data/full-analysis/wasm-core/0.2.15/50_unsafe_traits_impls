@@ -1,0 +1,18 @@
+{"name":"<extern \"C\" fn() as jit::compiler::JitFuncTy>"}
+{"name":"<extern \"C\" fn() -> i64 as jit::compiler::JitFuncTy>"}
+{"name":"<extern \"C\" fn(i64) as jit::compiler::JitFuncTy>"}
+{"name":"<extern \"C\" fn(i64) -> i64 as jit::compiler::JitFuncTy>"}
+{"name":"<extern \"C\" fn(i64, i64) as jit::compiler::JitFuncTy>"}
+{"name":"<extern \"C\" fn(i64, i64) -> i64 as jit::compiler::JitFuncTy>"}
+{"name":"<extern \"C\" fn(i64, i64, i64) as jit::compiler::JitFuncTy>"}
+{"name":"<extern \"C\" fn(i64, i64, i64) -> i64 as jit::compiler::JitFuncTy>"}
+{"name":"<extern \"C\" fn(i64, i64, i64, i64) as jit::compiler::JitFuncTy>"}
+{"name":"<extern \"C\" fn(i64, i64, i64, i64) -> i64 as jit::compiler::JitFuncTy>"}
+{"name":"<extern \"C\" fn(i64, i64, i64, i64, i64) as jit::compiler::JitFuncTy>"}
+{"name":"<extern \"C\" fn(i64, i64, i64, i64, i64) -> i64 as jit::compiler::JitFuncTy>"}
+{"name":"<extern \"C\" fn(i64, i64, i64, i64, i64, i64) as jit::compiler::JitFuncTy>"}
+{"name":"<extern \"C\" fn(i64, i64, i64, i64, i64, i64) -> i64 as jit::compiler::JitFuncTy>"}
+{"name":"<platform::x86_64_linux::NativeMemoryManager as platform::generic::MemoryManager>"}
+{"name":"<platform::other::NativeMemoryManager as platform::generic::MemoryManager>"}
+{"name":"<i32 as int_ops::LoadStore>"}
+{"name":"<i64 as int_ops::LoadStore>"}

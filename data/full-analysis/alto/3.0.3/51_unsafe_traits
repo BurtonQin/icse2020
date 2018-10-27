@@ -1,0 +1,9 @@
+{"name":"alc::DeviceObject"}
+{"name":"alc::LoopbackFrame"}
+{"name":"al::format::SampleFrame"}
+{"name":"al::format::StandardFrame"}
+{"name":"al::format::AsBufferData"}
+{"name":"al::format::AsBufferDataMut"}
+{"name":"al::Source"}
+{"name":"efx::Effect"}
+{"name":"efx::Filter"}

@@ -1,0 +1,12 @@
+{"name":"<rwlock::RwLock<T> as std::marker::Send>"}
+{"name":"<rwlock::RwLock<T> as std::marker::Sync>"}
+{"name":"<mutex::Mutex<T> as std::marker::Send>"}
+{"name":"<mutex::Mutex<T> as std::marker::Sync>"}
+{"name":"<poison::Flag as std::marker::Send>"}
+{"name":"<poison::Flag as std::marker::Sync>"}
+{"name":"<sys::unix::RWLock as std::marker::Send>"}
+{"name":"<sys::unix::RWLock as std::marker::Sync>"}
+{"name":"<sys::unix::Mutex as std::marker::Send>"}
+{"name":"<sys::unix::Mutex as std::marker::Sync>"}
+{"name":"<sys::unix::Condvar as std::marker::Send>"}
+{"name":"<sys::unix::Condvar as std::marker::Sync>"}

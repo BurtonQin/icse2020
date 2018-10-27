@@ -1,0 +1,4 @@
+{"name":"<mut_::Stride<'a, T> as std::marker::Sync>"}
+{"name":"<mut_::Stride<'a, T> as std::marker::Send>"}
+{"name":"<imm::Stride<'a, T> as std::marker::Sync>"}
+{"name":"<imm::Stride<'a, T> as std::marker::Send>"}

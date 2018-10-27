@@ -1,0 +1,10 @@
+{"name":"<pattern::ByteEqSearcher<'a, B> as pattern::Searcher<'a>>"}
+{"name":"<pattern::ByteEqSearcher<'a, B> as pattern::ReverseSearcher<'a>>"}
+{"name":"<pattern::ByteSearcher<'a> as pattern::Searcher<'a>>"}
+{"name":"<pattern::ByteSearcher<'a> as pattern::ReverseSearcher<'a>>"}
+{"name":"<pattern::ByteSliceSearcher<'a, 'b> as pattern::Searcher<'a>>"}
+{"name":"<pattern::ByteSliceSearcher<'a, 'b> as pattern::ReverseSearcher<'a>>"}
+{"name":"<pattern::BytePredicateSearcher<'a, F> as pattern::Searcher<'a>>"}
+{"name":"<pattern::BytePredicateSearcher<'a, F> as pattern::ReverseSearcher<'a>>"}
+{"name":"<pattern::StrSearcher<'a, 'b> as pattern::Searcher<'a>>"}
+{"name":"<pattern::StrSearcher<'a, 'b> as pattern::ReverseSearcher<'a>>"}

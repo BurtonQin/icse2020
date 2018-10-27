@@ -1,0 +1,5 @@
+{"name":"<display::DisplayInfo as std::marker::Send>"}
+{"name":"<display::DisplayInfo as std::marker::Sync>"}
+{"name":"<display::DisplayInfoList as std::marker::Send>"}
+{"name":"<display::DisplayInfoList as std::marker::Sync>"}
+{"name":"<display::Display as std::marker::Send>"}
