@@ -7,5 +7,5 @@ mod static_dispatch;
 //mod dynamic_dispatch;
 
 fn main() {
-    println!("Hello, world!");
+//    println!("Hello, world!");
 }
