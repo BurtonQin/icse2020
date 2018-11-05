@@ -1,2 +1,0 @@
-{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"vec\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"set_len\"), disambiguator: 0 }]","name":"set_len"}
-{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"slice\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_unchecked\"), disambiguator: 0 }]","name":"get_unchecked"}

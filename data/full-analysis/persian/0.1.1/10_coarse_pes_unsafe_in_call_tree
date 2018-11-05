@@ -1,2 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"digits\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"persian_to_english_digits\"), disambiguator: 0 }]","has_unsafe":false,"name":"digits::persian_to_english_digits"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"digits\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"english_to_persian_digits\"), disambiguator: 0 }]","has_unsafe":false,"name":"digits::english_to_persian_digits"}

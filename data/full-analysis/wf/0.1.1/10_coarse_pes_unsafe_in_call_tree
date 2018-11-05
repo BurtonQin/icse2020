@@ -1,9 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"freq\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"word_freq\"), disambiguator: 0 }]","has_unsafe":false,"name":"freq::word_freq"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"freq\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"word_freq_nums\"), disambiguator: 0 }]","has_unsafe":false,"name":"freq::word_freq_nums"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"freq\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"word_freq_no_nums\"), disambiguator: 0 }]","has_unsafe":false,"name":"freq::word_freq_no_nums"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"freq\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"sort_by_freq\"), disambiguator: 0 }]","has_unsafe":true,"name":"freq::sort_by_freq"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"freq\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"sort_by_alpha\"), disambiguator: 0 }]","has_unsafe":false,"name":"freq::sort_by_alpha"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"freq\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"no_sort\"), disambiguator: 0 }]","has_unsafe":false,"name":"freq::no_sort"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"freq\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_freqs\"), disambiguator: 0 }]","has_unsafe":true,"name":"freq::get_freqs"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"print_usage\"), disambiguator: 0 }]","has_unsafe":true,"name":"print_usage"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}

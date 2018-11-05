@@ -1,3 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"take\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Pending<T>>::take"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"next\"), disambiguator: 0 }]","has_unsafe":false,"name":"<InterleaveOrdered<A, B> as std::iter::Iterator>::next"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"interleave_ordered\"), disambiguator: 0 }]","has_unsafe":false,"name":"interleave_ordered"}

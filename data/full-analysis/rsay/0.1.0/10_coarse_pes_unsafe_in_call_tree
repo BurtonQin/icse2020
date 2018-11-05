@@ -1,6 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"print_usage\"), disambiguator: 0 }]","has_unsafe":true,"name":"print_usage"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_numeric\"), disambiguator: 0 }]","has_unsafe":false,"name":"parse_numeric"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"chunk_args\"), disambiguator: 0 }]","has_unsafe":false,"name":"chunk_args"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"multi_line\"), disambiguator: 0 }]","has_unsafe":false,"name":"multi_line"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"say\"), disambiguator: 0 }]","has_unsafe":false,"name":"say"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}

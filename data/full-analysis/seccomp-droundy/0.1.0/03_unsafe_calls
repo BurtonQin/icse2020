@@ -1,6 +1,0 @@
-{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"seccomp_release\"), disambiguator: 0 }]","name":"seccomp_release"}
-{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"seccomp_arch_add\"), disambiguator: 0 }]","name":"seccomp_arch_add"}
-{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"seccomp_syscall_resolve_name\"), disambiguator: 0 }]","name":"seccomp_syscall_resolve_name"}
-{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"seccomp_rule_add_array\"), disambiguator: 0 }]","name":"seccomp_rule_add_array"}
-{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"seccomp_load\"), disambiguator: 0 }]","name":"seccomp_load"}
-{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"seccomp_init\"), disambiguator: 0 }]","name":"seccomp_init"}

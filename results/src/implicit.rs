@@ -1,15 +1,23 @@
 #[derive(Serialize, Deserialize, Debug, Clone)]
+pub enum FnType {
+    Safe,
+    Unsafe,
+    NormalNotSafe,
+    Parametric,
+}
+
+#[derive(Serialize, Deserialize, Debug, Clone)]
 pub struct UnsafeInBody {
     pub def_path: String,
-    pub has_unsafe: bool,
+    pub fn_type: FnType,
     pub name: String,
 }
 
 impl UnsafeInBody {
-    pub fn new(def_path: String, has_unsafe:bool, name: String ) -> Self {
+    pub fn new(def_path: String, fn_type: FnType, name: String ) -> Self {
         UnsafeInBody {
             def_path,
-            has_unsafe,
+            fn_type,
             name,
         }
     }
@@ -27,30 +35,3 @@ pub struct TraitBound {
     pub generic: String,
 }
 
-#[derive(Serialize, Deserialize, Debug)]
-pub enum CallTypes {
-    // Identifier of function
-    Resolved(String),
-    // Identifier of trait method
-    SelfCall(String),
-    // formal argument
-    FnPtr(String),
-    //formal argument, trait, method
-    TraitObject(String,String,String),
-    // type variable, method
-    ParametricCall(String,String),
-    // crate, def path
-    Unresolved(String,String),
-}
-
-#[derive(Serialize, Deserialize, Debug)]
-pub struct UnresolvedFn {
-    pub generics: Vec<TraitBound>,
-    pub calls: Vec<CallTypes>,
-}
-
-#[derive(Serialize, Deserialize, Debug)]
-pub enum UnsafeResults {
-    Resolved(String,bool),
-    Unresolved(String, UnresolvedFn),
-}

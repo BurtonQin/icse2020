@@ -1,2 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"bcrypt_hash\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"bcrypt_hash\"), disambiguator: 0 }]","has_unsafe":true,"name":"bcrypt_hash::bcrypt_hash"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"bcrypt_pbkdf\"), disambiguator: 0 }]","has_unsafe":true,"name":"bcrypt_pbkdf"}

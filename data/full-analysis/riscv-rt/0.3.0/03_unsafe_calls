@@ -1,4 +1,0 @@
-{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"register\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Module(\"mstatus\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"set_mpp\"), disambiguator: 0 }]","name":"set_mpp"}
-{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"zero_bss\"), disambiguator: 0 }]","name":"zero_bss"}
-{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"init_data\"), disambiguator: 0 }]","name":"init_data"}
-{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","name":"main"}

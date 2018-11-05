@@ -1,6 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main_init\"), disambiguator: 0 }]","has_unsafe":false,"name":"main_init"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main_add\"), disambiguator: 0 }]","has_unsafe":false,"name":"main_add"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main_remove\"), disambiguator: 0 }]","has_unsafe":false,"name":"main_remove"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main_modify\"), disambiguator: 0 }]","has_unsafe":false,"name":"main_modify"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main_status\"), disambiguator: 0 }]","has_unsafe":false,"name":"main_status"}

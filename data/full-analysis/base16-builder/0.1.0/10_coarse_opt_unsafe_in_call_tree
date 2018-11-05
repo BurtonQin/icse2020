@@ -1,9 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Template as std::fmt::Debug>::fmt"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Scheme as std::fmt::Debug>::fmt"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"download_sources\"), disambiguator: 0 }]","has_unsafe":true,"name":"download_sources"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"build_themes\"), disambiguator: 0 }]","has_unsafe":true,"name":"build_themes"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_templates\"), disambiguator: 0 }]","has_unsafe":true,"name":"get_templates"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_schemes\"), disambiguator: 0 }]","has_unsafe":true,"name":"get_schemes"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"read_yaml_file\"), disambiguator: 0 }]","has_unsafe":true,"name":"read_yaml_file"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"git_clone\"), disambiguator: 0 }]","has_unsafe":true,"name":"git_clone"}

@@ -1,6 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"char_to_hex\"), disambiguator: 0 }]","has_unsafe":false,"name":"char_to_hex"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"hex\"), disambiguator: 0 }]","has_unsafe":false,"name":"hex"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"hex_pair\"), disambiguator: 0 }]","has_unsafe":false,"name":"hex_pair"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"rgb\"), disambiguator: 0 }]","has_unsafe":false,"name":"rgb"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"rgba\"), disambiguator: 0 }]","has_unsafe":false,"name":"rgba"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"rgb_maybe_a\"), disambiguator: 0 }]","has_unsafe":false,"name":"rgb_maybe_a"}

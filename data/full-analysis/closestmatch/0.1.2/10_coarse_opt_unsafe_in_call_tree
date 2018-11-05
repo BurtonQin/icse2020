@@ -1,8 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<ClosestMatch as std::fmt::Debug>::fmt"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<SplitWord as std::fmt::Debug>::fmt"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<ScoreValue as std::fmt::Debug>::fmt"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"split_word\"), disambiguator: 0 }]","has_unsafe":false,"name":"split_word"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"evaluate\"), disambiguator: 0 }]","has_unsafe":false,"name":"evaluate"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"max_score\"), disambiguator: 0 }]","has_unsafe":false,"name":"max_score"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"ClosestMatch::new"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_closest\"), disambiguator: 0 }]","has_unsafe":false,"name":"ClosestMatch::get_closest"}

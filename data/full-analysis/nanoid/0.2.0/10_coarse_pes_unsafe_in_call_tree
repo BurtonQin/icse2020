@@ -1,8 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"generator\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"universal\"), disambiguator: 0 }]","has_unsafe":true,"name":"generator::universal"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"generator\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"fast\"), disambiguator: 0 }]","has_unsafe":true,"name":"generator::fast"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"random\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"standart\"), disambiguator: 0 }]","has_unsafe":true,"name":"random::standart"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"random\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"os\"), disambiguator: 0 }]","has_unsafe":true,"name":"random::os"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"complex\"), disambiguator: 0 }]","has_unsafe":true,"name":"complex"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"custom\"), disambiguator: 0 }]","has_unsafe":true,"name":"custom"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"generate\"), disambiguator: 0 }]","has_unsafe":true,"name":"generate"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"simple\"), disambiguator: 0 }]","has_unsafe":true,"name":"simple"}

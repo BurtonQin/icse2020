@@ -1,8 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"try_get_or_insert_with\"), disambiguator: 0 }]","has_unsafe":true,"name":"<core::option::Option<A> as OptionExt>::try_get_or_insert_with"}
-{"def_path":"[DisambiguatedDefPathData { data: Trait(\"SliceExt\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"is_sorted\"), disambiguator: 0 }]","has_unsafe":false,"name":"SliceExt::is_sorted"}
-{"def_path":"[DisambiguatedDefPathData { data: Trait(\"SliceExt\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"is_sorted_by_key\"), disambiguator: 0 }]","has_unsafe":false,"name":"SliceExt::is_sorted_by_key"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"is_sorted_by\"), disambiguator: 0 }]","has_unsafe":false,"name":"<[A] as SliceExt>::is_sorted_by"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"try_split_at\"), disambiguator: 0 }]","has_unsafe":true,"name":"<[A] as SliceExt>::try_split_at"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"try_split_at_mut\"), disambiguator: 0 }]","has_unsafe":true,"name":"<[A] as SliceExt>::try_split_at_mut"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"checked_sub\"), disambiguator: 0 }]","has_unsafe":false,"name":"checked_sub"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"zip_opt\"), disambiguator: 0 }]","has_unsafe":false,"name":"zip_opt"}

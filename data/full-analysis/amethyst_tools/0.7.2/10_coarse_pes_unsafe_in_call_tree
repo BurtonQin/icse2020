@@ -1,5 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"exec_new\"), disambiguator: 0 }]","has_unsafe":true,"name":"exec_new"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"exec_update\"), disambiguator: 0 }]","has_unsafe":true,"name":"exec_update"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"check_version\"), disambiguator: 0 }]","has_unsafe":true,"name":"check_version"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"handle_error\"), disambiguator: 0 }]","has_unsafe":true,"name":"handle_error"}

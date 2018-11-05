@@ -1,5 +1,0 @@
-{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"alloc\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"box_free\"), disambiguator: 0 }]","name":"box_free"}
-{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"functions\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"create_buffer\"), disambiguator: 0 }]","name":"create_buffer"}
-{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"functions\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"create_buffer\"), disambiguator: 0 }]","name":"create_buffer"}
-{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"functions\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"create_buffer\"), disambiguator: 0 }]","name":"create_buffer"}
-{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"functions\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"enqueue_read_buffer\"), disambiguator: 0 }]","name":"enqueue_read_buffer"}

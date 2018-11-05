@@ -1,6 +1,0 @@
-{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"heap_size_of\"), disambiguator: 0 }]","name":"heap_size_of"}
-{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"heap_size_of\"), disambiguator: 0 }]","name":"heap_size_of"}
-{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"heap_size_of_impl\"), disambiguator: 0 }]","name":"heap_size_of_impl"}
-{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"heap_size_of\"), disambiguator: 0 }]","name":"heap_size_of"}
-{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"heap_size_of\"), disambiguator: 0 }]","name":"heap_size_of"}
-{"abi":"C","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"heap_size_of_impl\"), disambiguator: 0 }, DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"malloc_usable_size\"), disambiguator: 0 }]","name":"malloc_usable_size"}

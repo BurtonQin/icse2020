@@ -1,5 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"braille\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"byte_to_braille_cell\"), disambiguator: 0 }]","has_unsafe":false,"name":"braille::byte_to_braille_cell"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"braille\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"convert\"), disambiguator: 0 }]","has_unsafe":true,"name":"braille::convert"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"bytes\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"braille_cell_to_byte\"), disambiguator: 0 }]","has_unsafe":false,"name":"bytes::braille_cell_to_byte"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"bytes\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"convert\"), disambiguator: 0 }]","has_unsafe":true,"name":"bytes::convert"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}

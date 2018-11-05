@@ -1,2 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"as_hashdb\"), disambiguator: 0 }]","has_unsafe":false,"name":"<&'a mut (dyn HashDB<H> + 'a) as AsHashDB<H>>::as_hashdb"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"as_hashdb_mut\"), disambiguator: 0 }]","has_unsafe":false,"name":"<&'a mut (dyn HashDB<H> + 'a) as AsHashDB<H>>::as_hashdb_mut"}

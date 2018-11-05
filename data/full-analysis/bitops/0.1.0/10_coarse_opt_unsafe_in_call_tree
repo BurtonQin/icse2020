@@ -1,4 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Trait(\"BitOps\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"is_flag\"), disambiguator: 0 }]","has_unsafe":false,"name":"BitOps::is_flag"}
-{"def_path":"[DisambiguatedDefPathData { data: Trait(\"BitOps\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"is_bit_set\"), disambiguator: 0 }]","has_unsafe":false,"name":"BitOps::is_bit_set"}
-{"def_path":"[DisambiguatedDefPathData { data: Trait(\"BitOps\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"is_flag_set\"), disambiguator: 0 }]","has_unsafe":false,"name":"BitOps::is_flag_set"}
-{"def_path":"[DisambiguatedDefPathData { data: Trait(\"BitOps\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"bits_as_int\"), disambiguator: 0 }]","has_unsafe":false,"name":"BitOps::bits_as_int"}

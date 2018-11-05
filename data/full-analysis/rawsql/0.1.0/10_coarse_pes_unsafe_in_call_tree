@@ -1,8 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"init\"), disambiguator: 0 }]","has_unsafe":false,"name":"Parser::init"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"tag_name\"), disambiguator: 0 }]","has_unsafe":false,"name":"Parser::tag_name"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"build_query\"), disambiguator: 0 }]","has_unsafe":false,"name":"Parser::build_query"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"is_starting_query\"), disambiguator: 0 }]","has_unsafe":false,"name":"Parser::is_starting_query"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"is_finishing_query\"), disambiguator: 0 }]","has_unsafe":false,"name":"Parser::is_finishing_query"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"is_tagged_name\"), disambiguator: 0 }]","has_unsafe":false,"name":"Parser::is_tagged_name"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"get_queries_from\"), disambiguator: 0 }]","has_unsafe":false,"name":"Loader::get_queries_from"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"read_file\"), disambiguator: 0 }]","has_unsafe":false,"name":"read_file"}

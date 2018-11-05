@@ -1,4 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"algo\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"ga\"), disambiguator: 0 }]","has_unsafe":true,"name":"algo::ga"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"algo\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"ga_with_pop\"), disambiguator: 0 }]","has_unsafe":true,"name":"algo::ga_with_pop"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"algo\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"init_generation\"), disambiguator: 0 }]","has_unsafe":true,"name":"algo::init_generation"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"algo\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"next_generation\"), disambiguator: 0 }]","has_unsafe":true,"name":"algo::next_generation"}

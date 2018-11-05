@@ -1,4 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"derive_conform\"), disambiguator: 0 }]","has_unsafe":true,"name":"derive_conform"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"impl_conform\"), disambiguator: 0 }]","has_unsafe":true,"name":"impl_conform"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"field_tokens\"), disambiguator: 0 }]","has_unsafe":false,"name":"field_tokens"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","has_unsafe":true,"name":"registrar::_registrar"}

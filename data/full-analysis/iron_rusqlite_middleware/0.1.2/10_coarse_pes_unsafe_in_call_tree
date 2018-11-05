@@ -1,5 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":true,"name":"RusqliteMiddleware::new"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"new_with_flags\"), disambiguator: 0 }]","has_unsafe":true,"name":"RusqliteMiddleware::new_with_flags"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"get_connection\"), disambiguator: 0 }]","has_unsafe":true,"name":"RusqliteMiddleware::get_connection"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"before\"), disambiguator: 0 }]","has_unsafe":true,"name":"<RusqliteMiddleware as iron::BeforeMiddleware>::before"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"database_connection\"), disambiguator: 0 }]","has_unsafe":true,"name":"<iron::Request<'a, 'b> as RusqliteRequestExtension>::database_connection"}

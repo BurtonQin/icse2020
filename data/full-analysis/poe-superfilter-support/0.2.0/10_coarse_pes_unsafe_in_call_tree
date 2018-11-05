@@ -1,8 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"impl_match_variants\"), disambiguator: 0 }]","has_unsafe":true,"name":"impl_match_variants"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"inner_transform\"), disambiguator: 0 }]","has_unsafe":true,"name":"inner_transform"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"impl_transform\"), disambiguator: 0 }]","has_unsafe":true,"name":"impl_transform"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"inner_transform_result\"), disambiguator: 0 }]","has_unsafe":true,"name":"inner_transform_result"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"impl_transform_result\"), disambiguator: 0 }]","has_unsafe":true,"name":"impl_transform_result"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"inner_scope_value\"), disambiguator: 0 }]","has_unsafe":true,"name":"inner_scope_value"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"impl_inner_scope_value\"), disambiguator: 0 }]","has_unsafe":true,"name":"impl_inner_scope_value"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","has_unsafe":true,"name":"registrar::_registrar"}

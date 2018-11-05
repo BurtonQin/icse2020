@@ -1,6 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"handle_request\"), disambiguator: 0 }]","has_unsafe":true,"name":"handle_request"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"file_response\"), disambiguator: 0 }]","has_unsafe":true,"name":"file_response"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"status_response\"), disambiguator: 0 }]","has_unsafe":true,"name":"status_response"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"extract_path\"), disambiguator: 0 }]","has_unsafe":true,"name":"extract_path"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"decode\"), disambiguator: 0 }]","has_unsafe":true,"name":"<ChunkDecoder as tokio::codec::Decoder>::decode"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}

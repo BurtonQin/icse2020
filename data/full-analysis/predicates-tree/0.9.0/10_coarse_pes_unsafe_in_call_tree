@@ -1,3 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"tree\"), disambiguator: 0 }]","has_unsafe":false,"name":"<predicates_core::reflection::Case<'a> as CaseTreeExt>::tree"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"convert\"), disambiguator: 0 }]","has_unsafe":false,"name":"convert"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<CaseTree as std::fmt::Display>::fmt"}

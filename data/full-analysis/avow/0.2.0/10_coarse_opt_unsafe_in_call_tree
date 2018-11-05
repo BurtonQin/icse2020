@@ -1,3 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"vec\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"are_eq\"), disambiguator: 0 }]","has_unsafe":false,"name":"vec::are_eq"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"vec\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"are_eq\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"compare\"), disambiguator: 0 }]","has_unsafe":false,"name":"vec::are_eq::compare"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"prettify\"), disambiguator: 0 }]","has_unsafe":false,"name":"prettify"}

@@ -1,8 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"pls\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"decode\"), disambiguator: 0 }]","has_unsafe":false,"name":"pls::decode"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"m3u\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"decode\"), disambiguator: 0 }]","has_unsafe":false,"name":"m3u::decode"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"asx\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<asx::PlaylistItem as std::clone::Clone>::clone"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"asx\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"decode\"), disambiguator: 0 }]","has_unsafe":true,"name":"asx::decode"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"xspf\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<xspf::PlaylistItem as std::clone::Clone>::clone"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"xspf\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"decode\"), disambiguator: 0 }]","has_unsafe":true,"name":"xspf::decode"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"decode\"), disambiguator: 0 }]","has_unsafe":true,"name":"decode"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_content_hls\"), disambiguator: 0 }]","has_unsafe":false,"name":"is_content_hls"}

@@ -1,9 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"derive\"), disambiguator: 0 }]","has_unsafe":false,"name":"derive"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"try_from_primitive_for_enum\"), disambiguator: 0 }]","has_unsafe":false,"name":"try_from_primitive_for_enum"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"try_from_primitive\"), disambiguator: 0 }]","has_unsafe":false,"name":"try_from_primitive"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"collect_parent_lint_attrs\"), disambiguator: 0 }]","has_unsafe":false,"name":"collect_parent_lint_attrs"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"collect_parent_lint_attrs\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"is_lint\"), disambiguator: 0 }]","has_unsafe":false,"name":"collect_parent_lint_attrs::is_lint"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"collect_parent_lint_attrs\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"is_cfg_attr_lint\"), disambiguator: 0 }]","has_unsafe":false,"name":"collect_parent_lint_attrs::is_cfg_attr_lint"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"find_repr_attr\"), disambiguator: 0 }]","has_unsafe":false,"name":"find_repr_attr"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"find_repr_attr\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"is_size_repr\"), disambiguator: 0 }]","has_unsafe":false,"name":"find_repr_attr::is_size_repr"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","has_unsafe":true,"name":"registrar::_registrar"}

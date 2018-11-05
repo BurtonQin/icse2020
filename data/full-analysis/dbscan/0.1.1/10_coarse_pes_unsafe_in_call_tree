@@ -1,7 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"euclidean_distance\"), disambiguator: 0 }]","has_unsafe":false,"name":"euclidean_distance"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"cluster\"), disambiguator: 0 }]","has_unsafe":true,"name":"cluster"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Model<T>>::new"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"set_distance_fn\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Model<T>>::set_distance_fn"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"expand_cluster\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Model<T>>::expand_cluster"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"range_query\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Model<T>>::range_query"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"run\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Model<T>>::run"}

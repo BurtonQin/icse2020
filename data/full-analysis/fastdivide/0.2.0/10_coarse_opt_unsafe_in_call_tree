@@ -1,4 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<DividerU64 as std::fmt::Debug>::fmt"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"libdivide_mullhi_u64\"), disambiguator: 0 }]","has_unsafe":false,"name":"libdivide_mullhi_u64"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"divide_by\"), disambiguator: 0 }]","has_unsafe":false,"name":"DividerU64::divide_by"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"divide\"), disambiguator: 0 }]","has_unsafe":false,"name":"DividerU64::divide"}

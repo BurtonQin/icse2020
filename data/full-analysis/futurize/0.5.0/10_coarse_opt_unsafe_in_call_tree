@@ -1,4 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"mark_future\"), disambiguator: 0 }]","has_unsafe":false,"name":"mark_future"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"poll\"), disambiguator: 0 }]","has_unsafe":false,"name":"<MarkedFuture<I, E, O, F> as futures::Future>::poll"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"mark_stream\"), disambiguator: 0 }]","has_unsafe":false,"name":"mark_stream"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"poll\"), disambiguator: 0 }]","has_unsafe":false,"name":"<MarkedStream<I, E, O, F> as futures::Stream>::poll"}

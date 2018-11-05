@@ -1,3 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"default\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Options as std::default::Default>::default"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"distance_field\"), disambiguator: 0 }]","has_unsafe":true,"name":"<image::DynamicImage as DistanceFieldExt>::distance_field"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_nearest_pixel_distance\"), disambiguator: 0 }]","has_unsafe":true,"name":"get_nearest_pixel_distance"}

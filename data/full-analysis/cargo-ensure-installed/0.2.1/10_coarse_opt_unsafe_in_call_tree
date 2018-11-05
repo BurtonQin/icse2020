@@ -1,4 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main_impl\"), disambiguator: 0 }]","has_unsafe":true,"name":"main_impl"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"should_install\"), disambiguator: 0 }]","has_unsafe":false,"name":"should_install"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"read_file_to_string\"), disambiguator: 0 }]","has_unsafe":false,"name":"read_file_to_string"}

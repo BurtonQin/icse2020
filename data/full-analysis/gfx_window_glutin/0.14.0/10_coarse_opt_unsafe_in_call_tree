@@ -1,8 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"init\"), disambiguator: 0 }]","has_unsafe":true,"name":"init"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"init_existing\"), disambiguator: 0 }]","has_unsafe":true,"name":"init_existing"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_window_dimensions\"), disambiguator: 0 }]","has_unsafe":false,"name":"get_window_dimensions"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"init_raw\"), disambiguator: 0 }]","has_unsafe":true,"name":"init_raw"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"init_existing_raw\"), disambiguator: 0 }]","has_unsafe":true,"name":"init_existing_raw"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"update_views\"), disambiguator: 0 }]","has_unsafe":false,"name":"update_views"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"update_views_raw\"), disambiguator: 0 }]","has_unsafe":false,"name":"update_views_raw"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"new_views\"), disambiguator: 0 }]","has_unsafe":false,"name":"new_views"}

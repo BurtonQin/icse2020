@@ -1,6 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"compare_str\"), disambiguator: 0 }]","has_unsafe":false,"name":"compare_str"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"compare_os_str\"), disambiguator: 0 }]","has_unsafe":false,"name":"compare_os_str"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"compare_os_str_inner\"), disambiguator: 0 }]","has_unsafe":false,"name":"compare_os_str_inner"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"sort_str_slice\"), disambiguator: 0 }]","has_unsafe":false,"name":"sort_str_slice"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"sort_path_slice\"), disambiguator: 0 }]","has_unsafe":false,"name":"sort_path_slice"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"sort_path_slice_inner\"), disambiguator: 0 }]","has_unsafe":false,"name":"sort_path_slice_inner"}

@@ -1,7 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"bg_create_test\"), disambiguator: 0 }]","has_unsafe":false,"name":"bg_create_test"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"bgpage_fault_test\"), disambiguator: 0 }]","has_unsafe":true,"name":"bgpage_fault_test"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"bgswitch_test\"), disambiguator: 0 }]","has_unsafe":true,"name":"bgswitch_test"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"bg_tcp_fin_test\"), disambiguator: 0 }]","has_unsafe":false,"name":"bg_tcp_fin_test"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"bg_thread_test\"), disambiguator: 0 }]","has_unsafe":false,"name":"bg_thread_test"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"bg_tls_test\"), disambiguator: 0 }]","has_unsafe":true,"name":"bg_tls_test"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":false,"name":"main"}

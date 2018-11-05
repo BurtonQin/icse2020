@@ -1,8 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"tests\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"foreground_color_strbuf\"), disambiguator: 0 }]","has_unsafe":true,"name":"tests::foreground_color_strbuf"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"tests\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"background_color_strbuf\"), disambiguator: 0 }]","has_unsafe":true,"name":"tests::background_color_strbuf"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"tests\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"foreground_color_ref_str\"), disambiguator: 0 }]","has_unsafe":true,"name":"tests::foreground_color_ref_str"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"tests\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"background_color_ref_str\"), disambiguator: 0 }]","has_unsafe":true,"name":"tests::background_color_ref_str"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"tests\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"custom_styles_strbuf\"), disambiguator: 0 }]","has_unsafe":true,"name":"tests::custom_styles_strbuf"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"tests\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"custom_styles_ref_str\"), disambiguator: 0 }]","has_unsafe":true,"name":"tests::custom_styles_ref_str"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"tests\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"final_test\"), disambiguator: 0 }]","has_unsafe":true,"name":"tests::final_test"}

@@ -1,8 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"gen_tasks_mail\"), disambiguator: 0 }]","has_unsafe":false,"name":"gen_tasks_mail"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"gen_tasks_md\"), disambiguator: 0 }]","has_unsafe":true,"name":"gen_tasks_md"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"render_terminal_output\"), disambiguator: 0 }]","has_unsafe":true,"name":"render_terminal_output"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"github_issue\"), disambiguator: 0 }]","has_unsafe":true,"name":"github_issue"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"update_github_issue\"), disambiguator: 0 }]","has_unsafe":true,"name":"update_github_issue"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_full_name\"), disambiguator: 0 }]","has_unsafe":true,"name":"get_full_name"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_winsize\"), disambiguator: 0 }]","has_unsafe":true,"name":"get_winsize"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"reformat_task\"), disambiguator: 0 }]","has_unsafe":false,"name":"reformat_task"}

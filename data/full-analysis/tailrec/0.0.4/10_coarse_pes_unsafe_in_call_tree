@@ -1,4 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Trait(\"TailRec\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"rec\"), disambiguator: 0 }]","has_unsafe":true,"name":"TailRec::rec"}
-{"def_path":"[DisambiguatedDefPathData { data: Trait(\"TailRec\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"rec_ref\"), disambiguator: 0 }]","has_unsafe":true,"name":"TailRec::rec_ref"}
-{"def_path":"[DisambiguatedDefPathData { data: Trait(\"TailRec\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"rec_mut\"), disambiguator: 0 }]","has_unsafe":true,"name":"TailRec::rec_mut"}
-{"def_path":"[DisambiguatedDefPathData { data: Trait(\"TailRec\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"rec_ref_mut\"), disambiguator: 0 }]","has_unsafe":true,"name":"TailRec::rec_ref_mut"}

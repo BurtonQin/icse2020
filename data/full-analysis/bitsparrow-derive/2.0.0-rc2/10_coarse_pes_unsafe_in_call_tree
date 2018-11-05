@@ -1,8 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"encode\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"encode_ident\"), disambiguator: 0 }]","has_unsafe":true,"name":"encode::encode_ident"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"encode\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"encode_struct\"), disambiguator: 0 }]","has_unsafe":true,"name":"encode::encode_struct"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"encode\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"encode_enum\"), disambiguator: 0 }]","has_unsafe":true,"name":"encode::encode_enum"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"decode\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"decode_struct\"), disambiguator: 0 }]","has_unsafe":true,"name":"decode::decode_struct"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"decode\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"decode_enum\"), disambiguator: 0 }]","has_unsafe":true,"name":"decode::decode_enum"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"derive_encode\"), disambiguator: 0 }]","has_unsafe":true,"name":"derive_encode"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"derive_decode\"), disambiguator: 0 }]","has_unsafe":true,"name":"derive_decode"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","has_unsafe":true,"name":"registrar::_registrar"}

@@ -1,8 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"block_hash\"), disambiguator: 0 }]","has_unsafe":true,"name":"<ElipitcoinBlockchain as BlockChain>::block_hash"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"read\"), disambiguator: 0 }]","has_unsafe":true,"name":"<ElipitcoinBlockchain as BlockChain>::read"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"sender\"), disambiguator: 0 }]","has_unsafe":true,"name":"<ElipitcoinBlockchain as BlockChain>::sender"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"write\"), disambiguator: 0 }]","has_unsafe":true,"name":"<ElipitcoinBlockchain as BlockChain>::write"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"call\"), disambiguator: 0 }]","has_unsafe":true,"name":"<ElipitcoinBlockchain as BlockChain>::call"}
-{"def_path":"[DisambiguatedDefPathData { data: Trait(\"BlockChain\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"read_u32\"), disambiguator: 0 }]","has_unsafe":true,"name":"BlockChain::read_u32"}
-{"def_path":"[DisambiguatedDefPathData { data: Trait(\"BlockChain\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"read_u64\"), disambiguator: 0 }]","has_unsafe":true,"name":"BlockChain::read_u64"}
-{"def_path":"[DisambiguatedDefPathData { data: Trait(\"BlockChain\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"write_u64\"), disambiguator: 0 }]","has_unsafe":true,"name":"BlockChain::write_u64"}

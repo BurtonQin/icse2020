@@ -18,6 +18,19 @@ pub fn process_rq(crates: &Vec<(String,String)>) {
         let file_pes = file_ops.get_implicit_unsafe_coarse_pes_file(false);
         process_file(file_pes, &mut writer_pes, crate_name);
     }
+
+    let output_file = ::get_output_file("rq07_precise_opt");
+    let mut writer_opt = BufWriter::new(output_file);
+    let mut writer_pes = BufWriter::new( ::get_output_file("rq07_precise_pes"));
+    for (crate_name, version) in crates {
+        info!("Processing crate {:?}", crate_name);
+        let dir_name = ::get_full_analysis_dir();
+        let file_ops = results::FileOps::new( crate_name, &version, &dir_name );
+        let file = file_ops.get_implicit_unsafe_precise_opt_file(false);
+        process_file(file, &mut writer_opt, crate_name);
+        let file_pes = file_ops.get_implicit_unsafe_precise_pes_file(false);
+        process_file(file_pes, &mut writer_pes, crate_name);
+    }
 }
 
 fn process_file( input_file: File, writer: &mut BufWriter<File>, crate_name: &String) {
@@ -33,15 +46,10 @@ fn process_file( input_file: File, writer: &mut BufWriter<File>, crate_name: &St
             //process line
             let trimmed_line = line.trim_right();
             let res: results::implicit::UnsafeInBody = serde_json::from_str(&trimmed_line).unwrap();
-            let i = if res.has_unsafe {
-                1
-            }  else {
-                0
-            };
-            writeln!(writer, "{}\t{}\t{}\t{}"
+            writeln!(writer, "{}\t{}\t{:?}\t{}"
                      , crate_name
                      , res.def_path
-                     , i
+                     , res.fn_type
                      , res.name
             );
         }

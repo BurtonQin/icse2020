@@ -1,7 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"cseitsg06\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"execute\"), disambiguator: 0 }]","has_unsafe":true,"name":"cseitsg06::execute"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"cseitsg06\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"pass1\"), disambiguator: 0 }]","has_unsafe":false,"name":"cseitsg06::pass1"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"cseitsg06\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"pass2\"), disambiguator: 0 }]","has_unsafe":false,"name":"cseitsg06::pass2"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"cseitsg06\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"pass3\"), disambiguator: 0 }]","has_unsafe":true,"name":"cseitsg06::pass3"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"cseitsg06\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"chunk_writes\"), disambiguator: 0 }]","has_unsafe":false,"name":"cseitsg06::chunk_writes"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"cseitsg06\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"is_out_of_space_error\"), disambiguator: 0 }]","has_unsafe":false,"name":"cseitsg06::is_out_of_space_error"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}

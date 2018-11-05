@@ -1,5 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"cubic\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"cubic\"), disambiguator: 0 }]","has_unsafe":false,"name":"cubic::cubic"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"linear\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"linear\"), disambiguator: 0 }]","has_unsafe":false,"name":"linear::linear"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"n\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"n\"), disambiguator: 0 }]","has_unsafe":false,"name":"n::n"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"n\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"casteljau\"), disambiguator: 0 }]","has_unsafe":false,"name":"n::casteljau"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"quadratic\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"quadratic\"), disambiguator: 0 }]","has_unsafe":false,"name":"quadratic::quadratic"}

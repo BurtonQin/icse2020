@@ -1,7 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<FnPtr as std::clone::Clone>::clone"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"FnPtr::new"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"is_loaded\"), disambiguator: 0 }]","has_unsafe":false,"name":"FnPtr::is_loaded"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"missing_fn_panic\"), disambiguator: 0 }]","has_unsafe":false,"name":"missing_fn_panic"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Gl as std::clone::Clone>::clone"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"load_with\"), disambiguator: 0 }]","has_unsafe":false,"name":"Gl::load_with"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"load_with\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"do_metaloadfn\"), disambiguator: 0 }]","has_unsafe":true,"name":"Gl::load_with::do_metaloadfn"}

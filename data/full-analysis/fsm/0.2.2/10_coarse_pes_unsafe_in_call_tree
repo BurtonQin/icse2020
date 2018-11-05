@@ -1,4 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Machine<'a, S, E>>::new"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"add_transition\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Machine<'a, S, E>>::add_transition"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"current_state\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Machine<'a, S, E>>::current_state"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"on_event\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Machine<'a, S, E>>::on_event"}

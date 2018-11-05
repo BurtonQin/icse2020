@@ -1,2 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"math\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"abs\"), disambiguator: 0 }]","has_unsafe":false,"name":"math::abs"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"utils\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"greeting\"), disambiguator: 0 }]","has_unsafe":false,"name":"utils::greeting"}

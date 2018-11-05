@@ -1,3 +1,0 @@
-{"abi":"C","def_path":"[DisambiguatedDefPathData { data: Module(\"unix\"), disambiguator: 0 }, DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"getpid\"), disambiguator: 0 }]","name":"getpid"}
-{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"alloc\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"box_free\"), disambiguator: 0 }]","name":"box_free"}
-{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"alloc\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"box_free\"), disambiguator: 0 }]","name":"box_free"}

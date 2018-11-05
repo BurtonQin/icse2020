@@ -1,4 +1,0 @@
-{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"step\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"backward\"), disambiguator: 0 }]","name":"backward"}
-{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"char\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Module(\"convert\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"from_u32_unchecked\"), disambiguator: 0 }]","name":"from_u32_unchecked"}
-{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"step\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"forward\"), disambiguator: 0 }]","name":"forward"}
-{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"char\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Module(\"convert\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"from_u32_unchecked\"), disambiguator: 0 }]","name":"from_u32_unchecked"}

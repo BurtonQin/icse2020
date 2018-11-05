@@ -1,3 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"has_extension\"), disambiguator: 0 }]","has_unsafe":false,"name":"has_extension"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"file_explorer\"), disambiguator: 0 }]","has_unsafe":true,"name":"<imgui::Ui<'ui> as UiFileExplorer>::file_explorer"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"file_explorer\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"view_dirs\"), disambiguator: 0 }]","has_unsafe":true,"name":"<imgui::Ui<'ui> as UiFileExplorer>::file_explorer::view_dirs"}

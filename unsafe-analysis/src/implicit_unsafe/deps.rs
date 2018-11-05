@@ -1,4 +1,4 @@
-use std::collections::HashMap;
+use fxhash::{FxHashMap,FxHashSet};
 
 use cargo::core::Workspace;
 use cargo::ops;
@@ -15,13 +15,14 @@ use std::path::PathBuf;
 use std::collections::HashSet;
 use std::path::Path;
 use implicit_unsafe::is_library_crate;
+use results::implicit::FnType;
 
-pub fn load<'a, 'tcx>( cx: &'a LateContext<'a, 'tcx>, calls: &HashMap<String,DefId>, optimistic: bool)
-    -> HashMap<DefId,UnsafeInBody> {
-    let mut result = HashMap::new();
+pub fn load<'a, 'tcx>( cx: &'a LateContext<'a, 'tcx>, calls: &FxHashMap<String,DefId>, optimistic: bool, coarse: bool)
+    -> FxHashMap<DefId,UnsafeInBody> {
+    let mut result = FxHashMap::default();
     let crates = load_dependencies( get_all_used_crates(cx,calls) );
     for crate_info in crates.values() {
-        let mut analysis = load_analysis(cx, crate_info, calls, optimistic, &mut result);
+        let mut analysis = load_analysis(cx, crate_info, calls, optimistic, coarse, &mut result);
         if let Ok(()) = analysis {
         } else {
             error!("Error processing crate {:?}", crate_info.name);
@@ -30,18 +31,24 @@ pub fn load<'a, 'tcx>( cx: &'a LateContext<'a, 'tcx>, calls: &HashMap<String,Def
     for (fn_name,def_id) in calls.iter() {
         if is_library_crate( &cx.tcx.crate_name(def_id.krate).to_string() ) {
             //info!("Call {:?} from excluded crate", fn_name);
-            result.insert(*def_id, UnsafeInBody::new(fn_name.clone(), false, fn_name.to_string()));
+            result.insert(*def_id, UnsafeInBody::new(fn_name.clone(), FnType::Safe, fn_name.to_string()));
         } else {
             if !result.contains_key(def_id) {
                 //info!("Call {:?} not found", fn_name);
-                result.insert(*def_id, UnsafeInBody::new(fn_name.clone(), !optimistic, fn_name.to_string()));
+                result.insert(*def_id, UnsafeInBody::new(fn_name.clone(),
+                                                         if optimistic {
+                                                             FnType::Safe
+                                                         } else {
+                                                             FnType::NormalNotSafe
+                                                         }
+                                                         , fn_name.to_string()));
             }
         }
     }
     result
 }
 
-fn get_all_used_crates<'a, 'tcx>( cx: &'a LateContext<'a, 'tcx>, calls: &HashMap<String,DefId>)-> HashSet<String> {
+fn get_all_used_crates<'a, 'tcx>( cx: &'a LateContext<'a, 'tcx>, calls: &FxHashMap<String,DefId>)-> HashSet<String> {
     let mut result = HashSet::new();
     for &def_id in calls.values() {
         let crate_num = def_id.krate;
@@ -63,12 +70,12 @@ impl CrateInfo {
     }
 }
 
-pub fn load_dependencies(used_crates:HashSet<String>) -> HashMap<String,CrateInfo> {
+pub fn load_dependencies(used_crates:HashSet<String>) -> FxHashMap<String,CrateInfo> {
     let mut manifest_path = PathBuf::from(env::var("CARGO_MANIFEST_DIR").unwrap());
     manifest_path.push("Cargo.toml");
 
 //    info!("manifest path {:?}", manifest_path);
-    let mut result = HashMap::new();
+    let mut result = FxHashMap::default();
 
     if manifest_path.as_path().exists() {
         match Config::default() {
@@ -114,9 +121,10 @@ pub fn load_dependencies(used_crates:HashSet<String>) -> HashMap<String,CrateInf
 fn load_analysis<'a, 'tcx>(
     cx: &'a LateContext<'a, 'tcx>,
     crate_info: &CrateInfo,
-    calls: &HashMap<String,DefId>,
+    calls: &FxHashMap<String,DefId>,
     optimistic: bool,
-    result: &mut HashMap<DefId,UnsafeInBody>
+    coarse: bool,
+    result: &mut FxHashMap<DefId,UnsafeInBody>
 ) -> Result<(), &'static str> {
     //filter external calls to this crate
 //    info!("Processing crate: {:?}", crate_info);
@@ -133,10 +141,18 @@ fn load_analysis<'a, 'tcx>(
 
     let file_ops = results::FileOps::new(&crate_name, &crate_info.version, &root_dir);
     let file =
-        if optimistic {
-            file_ops.get_implicit_unsafe_coarse_opt_file(false)
+        if coarse {
+            if optimistic {
+                file_ops.get_implicit_unsafe_coarse_opt_file(false)
+            } else {
+                file_ops.get_implicit_unsafe_coarse_pes_file(false)
+            }
         } else {
-            file_ops.get_implicit_unsafe_coarse_pes_file(false)
+            if optimistic {
+                file_ops.get_implicit_unsafe_precise_opt_file(false)
+            } else {
+                file_ops.get_implicit_unsafe_precise_pes_file(false)
+            }
         };
     //info!("Processsing file {:?}", file_ops.get_root_path_components());
     let mut reader = BufReader::new(file);
@@ -155,7 +171,7 @@ fn load_analysis<'a, 'tcx>(
             let def_path = ub.def_path;
             if let Some(def_id) = calls.get(&def_path) {
                 //info!("Call {:?} found", &def_path);
-                result.insert(*def_id,UnsafeInBody::new(def_path,ub.has_unsafe,ub.name));
+                result.insert(*def_id,UnsafeInBody::new(def_path,ub.fn_type,ub.name));
             }
         }
     }

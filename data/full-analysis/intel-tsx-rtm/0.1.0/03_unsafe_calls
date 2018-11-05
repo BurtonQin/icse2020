@@ -1,4 +1,0 @@
-{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"intrinsics\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_xtest\"), disambiguator: 0 }]","name":"_xtest"}
-{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"intrinsics\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_xbegin\"), disambiguator: 0 }]","name":"_xbegin"}
-{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"intrinsics\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_xend\"), disambiguator: 0 }]","name":"_xend"}
-{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"intrinsics\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_xabort\"), disambiguator: 0 }]","name":"_xabort"}

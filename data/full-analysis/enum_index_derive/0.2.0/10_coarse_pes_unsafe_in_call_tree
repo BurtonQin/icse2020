@@ -1,5 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"enum_index\"), disambiguator: 0 }]","has_unsafe":true,"name":"enum_index"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"impl_enum_index\"), disambiguator: 0 }]","has_unsafe":true,"name":"impl_enum_index"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"index_enum\"), disambiguator: 0 }]","has_unsafe":true,"name":"index_enum"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"impl_index_enum\"), disambiguator: 0 }]","has_unsafe":true,"name":"impl_index_enum"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","has_unsafe":true,"name":"registrar::_registrar"}

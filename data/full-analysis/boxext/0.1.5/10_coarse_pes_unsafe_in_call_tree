@@ -1,5 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new_with\"), disambiguator: 0 }]","has_unsafe":true,"name":"<std::boxed::Box<T> as BoxExt>::new_with"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new_zeroed\"), disambiguator: 0 }]","has_unsafe":true,"name":"<std::boxed::Box<T> as BoxExt>::new_zeroed"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"try_new\"), disambiguator: 0 }]","has_unsafe":true,"name":"<std::boxed::Box<T> as BoxExt>::try_new"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"try_new_with\"), disambiguator: 0 }]","has_unsafe":true,"name":"<std::boxed::Box<T> as BoxExt>::try_new_with"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"try_new_zeroed\"), disambiguator: 0 }]","has_unsafe":true,"name":"<std::boxed::Box<T> as BoxExt>::try_new_zeroed"}

@@ -4,5 +4,4 @@ version = "0.1.0"
 authors = ["Ana Nora Evans <ananevans@gmail.com>"]
 
 [dependencies]
-byteorder="1.2.6"
-rand = "0.5"
+#call_graph = { path = "/home/nora/work/unsafe_study/examples/call_graph"}

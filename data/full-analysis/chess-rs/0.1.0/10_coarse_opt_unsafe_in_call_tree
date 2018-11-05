@@ -1,6 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"xchess\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"n_spaces\"), disambiguator: 0 }]","has_unsafe":false,"name":"xchess::n_spaces"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"xchess\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"expand_if_numeric\"), disambiguator: 0 }]","has_unsafe":false,"name":"xchess::expand_if_numeric"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"xchess\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"unicode_pawn\"), disambiguator: 0 }]","has_unsafe":false,"name":"xchess::unicode_pawn"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"xchess\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"read_xchess\"), disambiguator: 0 }]","has_unsafe":false,"name":"xchess::read_xchess"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"clear\"), disambiguator: 0 }]","has_unsafe":false,"name":"clear"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}

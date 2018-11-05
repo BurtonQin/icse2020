@@ -6,6 +6,7 @@
 #![feature(macro_at_most_once_rep)]
 #![feature(extern_prelude)]
 #![feature(box_patterns)]
+#![feature(drain_filter)]
 
 #[macro_use] extern crate log;
 extern crate env_logger;
@@ -130,7 +131,7 @@ impl<'a, 'tcx> LateLintPass<'a, 'tcx> for Functions {
 
         let opt_rta_impl_unsafe = implicit_unsafe::rta::run_sources_analysis(cx,&self.normal_functions,
                                                                              true);
-        save_analysis(opt_rta_impl_unsafe, &mut file_ops.get_implicit_unsafe_rta_opt_file(true));
+        save_analysis(opt_rta_impl_unsafe, &mut file_ops.get_implicit_unsafe_precise_opt_file(true));
 
 //        let pes_rta_impl_unsafe = implicit_unsafe::rta::run_sources_analysis(cx,
 //                                                                                &self.normal_functions,
@@ -212,8 +213,8 @@ pub fn local_crate_name() -> String {
     pkg
 }
 
-fn get_node_name<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, node_id: NodeId) -> String {
-    cx.tcx.node_path_str(node_id)
+fn get_node_name<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, def_id: DefId) -> String {
+    cx.tcx.absolute_item_path_str(def_id)
 }
 
 pub fn get_file_and_line<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, span: Span) -> String {

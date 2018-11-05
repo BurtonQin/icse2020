@@ -1,9 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"lcs\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lcs\"), disambiguator: 0 }]","has_unsafe":false,"name":"lcs::lcs"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"merge\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"merge\"), disambiguator: 0 }]","has_unsafe":false,"name":"merge::merge"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"display\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"display::<impl std::fmt::Display for Changeset>::fmt"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"eq\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Difference as std::cmp::PartialEq>::eq"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"ne\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Difference as std::cmp::PartialEq>::ne"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Difference as std::fmt::Debug>::fmt"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"Changeset::new"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"diff\"), disambiguator: 0 }]","has_unsafe":false,"name":"diff"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"print_diff\"), disambiguator: 0 }]","has_unsafe":false,"name":"print_diff"}

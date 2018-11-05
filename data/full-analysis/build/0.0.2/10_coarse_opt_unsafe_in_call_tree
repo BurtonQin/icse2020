@@ -1,7 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"encode\"), disambiguator: 0 }]","has_unsafe":false,"name":"<BuildDetailAttributes as rustc_serialize::Encodable>::encode"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"encode\"), disambiguator: 0 }]","has_unsafe":false,"name":"<BuildBody as rustc_serialize::Encodable>::encode"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"encode\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Build as rustc_serialize::Encodable>::encode"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_build_attributes\"), disambiguator: 0 }]","has_unsafe":false,"name":"get_build_attributes"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_build_body\"), disambiguator: 0 }]","has_unsafe":false,"name":"get_build_body"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_build\"), disambiguator: 0 }]","has_unsafe":false,"name":"get_build"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"build_as_json\"), disambiguator: 0 }]","has_unsafe":false,"name":"build_as_json"}

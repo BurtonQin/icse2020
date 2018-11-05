@@ -1,9 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"with_size\"), disambiguator: 0 }]","has_unsafe":false,"name":"Mercator::with_size"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"from_ll_to_pixel\"), disambiguator: 0 }]","has_unsafe":false,"name":"Mercator::from_ll_to_pixel"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"from_pixel_to_ll\"), disambiguator: 0 }]","has_unsafe":false,"name":"Mercator::from_pixel_to_ll"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"default\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Mercator as std::default::Default>::default"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"from_ll_to_pixel\"), disambiguator: 0 }]","has_unsafe":false,"name":"from_ll_to_pixel"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"from_pixel_to_ll\"), disambiguator: 0 }]","has_unsafe":false,"name":"from_pixel_to_ll"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"x\"), disambiguator: 0 }]","has_unsafe":false,"name":"<(f64, f64) as Coord>::x"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"y\"), disambiguator: 0 }]","has_unsafe":false,"name":"<(f64, f64) as Coord>::y"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"with_xy\"), disambiguator: 0 }]","has_unsafe":false,"name":"<(f64, f64) as Coord>::with_xy"}

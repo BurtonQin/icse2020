@@ -1,3 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"from_value\"), disambiguator: 0 }]","has_unsafe":true,"name":"<emojicode_sys::Emojicode_Value as FromValue<std::string::String>>::from_value"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"to_value\"), disambiguator: 0 }]","has_unsafe":true,"name":"<std::string::String as ToValue>::to_value"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"to_value\"), disambiguator: 0 }]","has_unsafe":false,"name":"<*mut emojicode_sys::Emojicode_Object as ToValue>::to_value"}

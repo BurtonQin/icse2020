@@ -1,3 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"deep_copy\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"deep_copy\"), disambiguator: 0 }]","has_unsafe":true,"name":"deep_copy::deep_copy"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"deep_copy\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"walk_and_create_dirs\"), disambiguator: 0 }]","has_unsafe":true,"name":"deep_copy::walk_and_create_dirs"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"deep_copy\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"create_dir_maybe\"), disambiguator: 0 }]","has_unsafe":false,"name":"deep_copy::create_dir_maybe"}

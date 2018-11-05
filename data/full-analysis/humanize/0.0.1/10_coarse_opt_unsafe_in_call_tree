@@ -1,3 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"boolean\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"parse\"), disambiguator: 0 }]","has_unsafe":false,"name":"boolean::<impl parser::Parse for bool>::parse"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"parser\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"parse\"), disambiguator: 0 }]","has_unsafe":false,"name":"parser::parse"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"parser\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"parse_with_language\"), disambiguator: 0 }]","has_unsafe":false,"name":"parser::parse_with_language"}

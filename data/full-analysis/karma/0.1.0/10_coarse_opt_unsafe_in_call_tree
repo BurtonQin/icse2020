@@ -1,5 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"Karma::new"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_resize_tmp\"), disambiguator: 0 }]","has_unsafe":false,"name":"Karma::_resize_tmp"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"randomize\"), disambiguator: 0 }]","has_unsafe":false,"name":"Karma::randomize"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"evaluate\"), disambiguator: 0 }]","has_unsafe":false,"name":"Karma::evaluate"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"train\"), disambiguator: 0 }]","has_unsafe":false,"name":"Karma::train"}

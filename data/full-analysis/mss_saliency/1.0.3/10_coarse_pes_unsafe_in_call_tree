@@ -1,3 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"integral\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"integral_image\"), disambiguator: 0 }]","has_unsafe":false,"name":"integral::integral_image"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"integral\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"integral_sum\"), disambiguator: 0 }]","has_unsafe":false,"name":"<imgref::Img<std::vec::Vec<u32>> as integral::IntegralSum>::integral_sum"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"maximum_symmetric_surround_saliency\"), disambiguator: 0 }]","has_unsafe":false,"name":"maximum_symmetric_surround_saliency"}

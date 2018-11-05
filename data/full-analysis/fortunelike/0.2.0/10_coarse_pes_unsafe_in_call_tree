@@ -1,9 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"user_db_default\"), disambiguator: 0 }]","has_unsafe":false,"name":"user_db_default"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"sys_db_default\"), disambiguator: 0 }]","has_unsafe":false,"name":"sys_db_default"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_file\"), disambiguator: 0 }]","has_unsafe":false,"name":"get_file"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"choose_config\"), disambiguator: 0 }]","has_unsafe":false,"name":"choose_config"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"read_config\"), disambiguator: 0 }]","has_unsafe":true,"name":"read_config"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"print_usage\"), disambiguator: 0 }]","has_unsafe":true,"name":"print_usage"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_yaml\"), disambiguator: 0 }]","has_unsafe":true,"name":"parse_yaml"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_values\"), disambiguator: 0 }]","has_unsafe":false,"name":"get_values"}

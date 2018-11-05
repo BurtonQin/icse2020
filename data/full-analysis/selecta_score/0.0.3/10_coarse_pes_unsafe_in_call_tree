@@ -1,6 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"selecta_score\"), disambiguator: 0 }]","has_unsafe":true,"name":"selecta_score"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"score\"), disambiguator: 0 }]","has_unsafe":false,"name":"score"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"compute_match_length\"), disambiguator: 0 }]","has_unsafe":false,"name":"compute_match_length"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"find_char_in_string\"), disambiguator: 0 }]","has_unsafe":false,"name":"find_char_in_string"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"find_end_of_match\"), disambiguator: 0 }]","has_unsafe":false,"name":"find_end_of_match"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"find_from_offset\"), disambiguator: 0 }]","has_unsafe":false,"name":"find_from_offset"}

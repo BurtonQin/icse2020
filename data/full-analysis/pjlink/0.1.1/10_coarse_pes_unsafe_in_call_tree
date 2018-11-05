@@ -1,7 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"pjlink_error\"), disambiguator: 0 }]","has_unsafe":false,"name":"pjlink_error"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"PjlinkDevice::new"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new_with_password\"), disambiguator: 0 }]","has_unsafe":false,"name":"PjlinkDevice::new_with_password"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"send_command\"), disambiguator: 0 }]","has_unsafe":true,"name":"PjlinkDevice::send_command"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_power_status\"), disambiguator: 0 }]","has_unsafe":true,"name":"PjlinkDevice::get_power_status"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"power_on\"), disambiguator: 0 }]","has_unsafe":true,"name":"PjlinkDevice::power_on"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"power_off\"), disambiguator: 0 }]","has_unsafe":true,"name":"PjlinkDevice::power_off"}

@@ -1,4 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"format_message\"), disambiguator: 0 }]","has_unsafe":false,"name":"<FooFormat as artifact::MessageFormatter>::format_message"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"add_logger_name_to_multi_message\"), disambiguator: 0 }]","has_unsafe":false,"name":"<FooFormat as artifact::MessageFormatter>::add_logger_name_to_multi_message"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"add_defaulting_name_to_message\"), disambiguator: 0 }]","has_unsafe":false,"name":"<FooFormat as artifact::MessageFormatter>::add_defaulting_name_to_message"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}

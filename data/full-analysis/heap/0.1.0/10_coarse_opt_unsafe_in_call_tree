@@ -1,8 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"push\"), disambiguator: 0 }]","has_unsafe":false,"name":"push"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"pop\"), disambiguator: 0 }]","has_unsafe":true,"name":"pop"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"build\"), disambiguator: 0 }]","has_unsafe":true,"name":"build"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"sort\"), disambiguator: 0 }]","has_unsafe":true,"name":"sort"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"replace_root\"), disambiguator: 0 }]","has_unsafe":true,"name":"replace_root"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"sift_down\"), disambiguator: 0 }]","has_unsafe":true,"name":"sift_down"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_heap\"), disambiguator: 0 }]","has_unsafe":false,"name":"is_heap"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"map_opt_2_or\"), disambiguator: 0 }]","has_unsafe":false,"name":"map_opt_2_or"}

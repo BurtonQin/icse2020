@@ -1,6 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"params\"), disambiguator: 0 }]","has_unsafe":true,"name":"<iron::Request<'a, 'b> as RequestExt>::params"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"param\"), disambiguator: 0 }]","has_unsafe":true,"name":"<iron::Request<'a, 'b> as RequestExt>::param"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"body\"), disambiguator: 0 }]","has_unsafe":true,"name":"<iron::Request<'a, 'b> as RequestExt>::body"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"before\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Params as iron::BeforeMiddleware>::before"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"combine\"), disambiguator: 0 }]","has_unsafe":true,"name":"combine"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"combine_duplicates\"), disambiguator: 0 }]","has_unsafe":true,"name":"combine_duplicates"}

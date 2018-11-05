@@ -1,7 +1,0 @@
-{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"bulletproof_store\"), disambiguator: 0 }]","name":"bulletproof_store"}
-{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"bulletproof_register\"), disambiguator: 0 }]","name":"bulletproof_register"}
-{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"bulletproof_store_bytes\"), disambiguator: 0 }]","name":"bulletproof_store_bytes"}
-{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"mem\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"uninitialized\"), disambiguator: 0 }]","name":"uninitialized"}
-{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"bulletproof_load\"), disambiguator: 0 }]","name":"bulletproof_load"}
-{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"mem\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"uninitialized\"), disambiguator: 0 }]","name":"uninitialized"}
-{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"bulletproof_load_bytes\"), disambiguator: 0 }]","name":"bulletproof_load_bytes"}

@@ -1,8 +1,0 @@
-{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"malloc_size_of\"), disambiguator: 0 }]","name":"malloc_size_of"}
-{"abi":"C","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"C\" fn(*const std::os::raw::c_void) -> usize"}
-{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"malloc_enclosing_size_of\"), disambiguator: 0 }]","name":"malloc_enclosing_size_of"}
-{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"malloc_enclosing_size_of\"), disambiguator: 0 }]","name":"malloc_enclosing_size_of"}
-{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"malloc_size_of\"), disambiguator: 0 }]","name":"malloc_size_of"}
-{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"malloc_size_of\"), disambiguator: 0 }]","name":"malloc_size_of"}
-{"abi":"C","def_path":"Unsafe_Call_Fn_Ptr","name":"unsafe extern \"C\" fn(*const std::os::raw::c_void) -> usize"}
-{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"malloc_enclosing_size_of\"), disambiguator: 0 }]","name":"malloc_enclosing_size_of"}

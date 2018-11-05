@@ -1,6 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"now_sec\"), disambiguator: 0 }]","has_unsafe":false,"name":"now_sec"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"rtqd_work_dir\"), disambiguator: 0 }]","has_unsafe":false,"name":"rtqd_work_dir"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"process_task\"), disambiguator: 0 }]","has_unsafe":true,"name":"process_task"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"run_command\"), disambiguator: 0 }]","has_unsafe":true,"name":"run_command"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"wait_and_kill_later\"), disambiguator: 0 }]","has_unsafe":true,"name":"wait_and_kill_later"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}

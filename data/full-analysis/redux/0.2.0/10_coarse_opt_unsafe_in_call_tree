@@ -1,7 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"from_args\"), disambiguator: 0 }]","has_unsafe":false,"name":"Options::from_args"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"is_compress\"), disambiguator: 0 }]","has_unsafe":false,"name":"Options::is_compress"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"is_stdin\"), disambiguator: 0 }]","has_unsafe":false,"name":"Options::is_stdin"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"is_stdout\"), disambiguator: 0 }]","has_unsafe":false,"name":"Options::is_stdout"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"input_file\"), disambiguator: 0 }]","has_unsafe":false,"name":"Options::input_file"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"output_file\"), disambiguator: 0 }]","has_unsafe":false,"name":"Options::output_file"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}

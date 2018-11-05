@@ -1,2 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"modify\"), disambiguator: 0 }]","has_unsafe":true,"name":"<DeflateWriter<'a> as iron::modifier::Modifier<iron::Response>>::modify"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"modify\"), disambiguator: 0 }]","has_unsafe":true,"name":"<GzipWriter<'a> as iron::modifier::Modifier<iron::Response>>::modify"}

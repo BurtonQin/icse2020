@@ -25,8 +25,8 @@ static UNSAFE_CALLS: &'static str = "03_unsafe_calls";
 static IMPLICIT_COARSE_OPTIMISTIC_FILENAME: &'static str = "10_coarse_opt_unsafe_in_call_tree";
 static IMPLICIT_COARSE_PESSIMISTIC_FILENAME: &'static str = "10_coarse_pes_unsafe_in_call_tree";
 
-static IMPLICIT_RTA_OPTIMISTIC_FILENAME: &'static str = "11_rta_opt_unsafe_in_call_tree";
-static IMPLICIT_RTA_PESSIMISTIC_FILENAME: &'static str = "11_rta_pes_unsafe_in_call_tree";
+static IMPLICIT_RTA_OPTIMISTIC_FILENAME: &'static str = "11_precise_opt_unsafe_in_call_tree";
+static IMPLICIT_RTA_PESSIMISTIC_FILENAME: &'static str = "11_precise_pes_unsafe_in_call_tree";
 
 //static IMPLICIT_TRAIT_FILENAME: &'static str = "11_unsafe_trait_safe_method_in_call_tree";
 
@@ -123,11 +123,11 @@ impl<'a, 'b> FileOps<'a, 'b> {
         self.open_file(IMPLICIT_COARSE_PESSIMISTIC_FILENAME, save_old)
     }
 
-    pub fn get_implicit_unsafe_rta_opt_file(&self, save_old: bool) -> File {
+    pub fn get_implicit_unsafe_precise_opt_file(&self, save_old: bool) -> File {
         self.open_file(IMPLICIT_RTA_OPTIMISTIC_FILENAME, save_old)
     }
 
-    pub fn get_implicit_unsafe_rta_pes_file(&self, save_old: bool) -> File {
+    pub fn get_implicit_unsafe_precise_pes_file(&self, save_old: bool) -> File {
         self.open_file(IMPLICIT_RTA_PESSIMISTIC_FILENAME, save_old)
     }
 

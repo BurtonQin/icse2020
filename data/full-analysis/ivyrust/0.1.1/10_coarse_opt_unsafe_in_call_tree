@@ -1,9 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"ivy_init\"), disambiguator: 0 }]","has_unsafe":true,"name":"ivy_init"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"ivy_start\"), disambiguator: 0 }]","has_unsafe":true,"name":"ivy_start"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"ivy_stop\"), disambiguator: 0 }]","has_unsafe":true,"name":"ivy_stop"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"ivy_main_loop\"), disambiguator: 0 }]","has_unsafe":true,"name":"ivy_main_loop"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"ivy_send_msg\"), disambiguator: 0 }]","has_unsafe":true,"name":"ivy_send_msg"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"ivy_bind_msg\"), disambiguator: 0 }]","has_unsafe":true,"name":"ivy_bind_msg"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"ivy_unbind_msg\"), disambiguator: 0 }]","has_unsafe":true,"name":"ivy_unbind_msg"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"ivy_change_msg\"), disambiguator: 0 }]","has_unsafe":true,"name":"ivy_change_msg"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"apply_closure\"), disambiguator: 0 }]","has_unsafe":true,"name":"apply_closure"}

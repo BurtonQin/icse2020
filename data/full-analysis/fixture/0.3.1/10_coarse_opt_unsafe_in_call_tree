@@ -1,7 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"find\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"all\"), disambiguator: 0 }]","has_unsafe":false,"name":"find::all"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"find\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"all_with_extension\"), disambiguator: 0 }]","has_unsafe":false,"name":"find::all_with_extension"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"find\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"first\"), disambiguator: 0 }]","has_unsafe":false,"name":"find::first"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"find\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"first_with_extension\"), disambiguator: 0 }]","has_unsafe":false,"name":"find::first_with_extension"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"find\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"some\"), disambiguator: 0 }]","has_unsafe":false,"name":"find::some"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"copy\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"with_references\"), disambiguator: 0 }]","has_unsafe":false,"name":"copy::with_references"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"exists\"), disambiguator: 0 }]","has_unsafe":false,"name":"exists"}

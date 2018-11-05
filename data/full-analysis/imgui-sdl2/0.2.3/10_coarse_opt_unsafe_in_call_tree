@@ -1,7 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":true,"name":"ImguiSdl2::new"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"ignore_event\"), disambiguator: 0 }]","has_unsafe":false,"name":"ImguiSdl2::ignore_event"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"handle_event\"), disambiguator: 0 }]","has_unsafe":true,"name":"ImguiSdl2::handle_event"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"handle_event\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"set_mod\"), disambiguator: 0 }]","has_unsafe":true,"name":"ImguiSdl2::handle_event::set_mod"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"frame\"), disambiguator: 0 }]","has_unsafe":true,"name":"ImguiSdl2::frame"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_clipboard_text\"), disambiguator: 0 }]","has_unsafe":true,"name":"get_clipboard_text"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"set_clipboard_text\"), disambiguator: 0 }]","has_unsafe":true,"name":"set_clipboard_text"}

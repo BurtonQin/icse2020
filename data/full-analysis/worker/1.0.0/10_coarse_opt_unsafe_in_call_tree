@@ -1,5 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"single\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Worker<T>>::single"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"multi\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Worker<T>>::multi"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"add\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Worker<T>>::add"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"stop\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Worker<T>>::stop"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"spawn_thread\"), disambiguator: 0 }]","has_unsafe":false,"name":"spawn_thread"}

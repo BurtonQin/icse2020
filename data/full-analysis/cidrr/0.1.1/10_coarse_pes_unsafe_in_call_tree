@@ -1,7 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"cli\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<cli::Args as std::fmt::Debug>::fmt"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"cli\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"decode\"), disambiguator: 0 }]","has_unsafe":true,"name":"<cli::Args as rustc_serialize::Decodable>::decode"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"domain\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"from_args\"), disambiguator: 0 }]","has_unsafe":false,"name":"domain::Cidr::from_args"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"all_with_prefix\"), disambiguator: 0 }]","has_unsafe":false,"name":"all_with_prefix"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"ip_to_binary\"), disambiguator: 0 }]","has_unsafe":false,"name":"ip_to_binary"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"binary_to_ip\"), disambiguator: 0 }]","has_unsafe":false,"name":"binary_to_ip"}

@@ -1,2 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"add_one\"), disambiguator: 0 }]","has_unsafe":false,"name":"add_one"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"utils\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"mix\"), disambiguator: 0 }]","has_unsafe":false,"name":"utils::mix"}

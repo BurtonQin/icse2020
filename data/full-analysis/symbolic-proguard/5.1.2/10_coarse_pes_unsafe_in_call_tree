@@ -1,4 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"parse\"), disambiguator: 0 }]","has_unsafe":true,"name":"ProguardMappingView::parse"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"uuid\"), disambiguator: 0 }]","has_unsafe":true,"name":"ProguardMappingView::uuid"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"has_line_info\"), disambiguator: 0 }]","has_unsafe":true,"name":"ProguardMappingView::has_line_info"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"convert_dotted_path\"), disambiguator: 0 }]","has_unsafe":true,"name":"ProguardMappingView::convert_dotted_path"}

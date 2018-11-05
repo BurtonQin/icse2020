@@ -1,7 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"zero_memory\"), disambiguator: 0 }]","has_unsafe":true,"name":"zero_memory"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"fixes_newline\"), disambiguator: 0 }]","has_unsafe":false,"name":"fixes_newline"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"read_password\"), disambiguator: 0 }]","has_unsafe":true,"name":"read_password"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"unix\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"io_result\"), disambiguator: 0 }]","has_unsafe":false,"name":"unix::io_result"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"unix\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"read_password_with_reader\"), disambiguator: 0 }]","has_unsafe":true,"name":"unix::read_password_with_reader"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"prompt_password_stdout\"), disambiguator: 0 }]","has_unsafe":true,"name":"prompt_password_stdout"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"prompt_password_stderr\"), disambiguator: 0 }]","has_unsafe":true,"name":"prompt_password_stderr"}

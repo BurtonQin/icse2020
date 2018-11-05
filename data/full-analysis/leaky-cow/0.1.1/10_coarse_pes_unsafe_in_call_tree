@@ -1,1 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"leak\"), disambiguator: 0 }]","has_unsafe":true,"name":"<std::borrow::Cow<'a, B> as LeakyCow<'a, B>>::leak"}

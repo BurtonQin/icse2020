@@ -1,8 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"is_odd\"), disambiguator: 0 }]","has_unsafe":false,"name":"<i8 as IsOdd>::is_odd"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"is_odd\"), disambiguator: 0 }]","has_unsafe":false,"name":"<u8 as IsOdd>::is_odd"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"is_odd\"), disambiguator: 0 }]","has_unsafe":false,"name":"<i16 as IsOdd>::is_odd"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"is_odd\"), disambiguator: 0 }]","has_unsafe":false,"name":"<u16 as IsOdd>::is_odd"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"is_odd\"), disambiguator: 0 }]","has_unsafe":false,"name":"<i32 as IsOdd>::is_odd"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"is_odd\"), disambiguator: 0 }]","has_unsafe":false,"name":"<u32 as IsOdd>::is_odd"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"is_odd\"), disambiguator: 0 }]","has_unsafe":false,"name":"<i64 as IsOdd>::is_odd"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"is_odd\"), disambiguator: 0 }]","has_unsafe":false,"name":"<u64 as IsOdd>::is_odd"}

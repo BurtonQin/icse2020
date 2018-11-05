@@ -1,5 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_valid\"), disambiguator: 0 }]","has_unsafe":false,"name":"is_valid"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"all_domain_suffixes\"), disambiguator: 0 }]","has_unsafe":false,"name":"all_domain_suffixes"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"suffix_is_blacklisted\"), disambiguator: 0 }]","has_unsafe":false,"name":"suffix_is_blacklisted"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"blacklist\"), disambiguator: 0 }]","has_unsafe":false,"name":"blacklist"}
-{"def_path":"[DisambiguatedDefPathData { data: Trait(\"ExtendedIterator\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"tail\"), disambiguator: 0 }]","has_unsafe":false,"name":"ExtendedIterator::tail"}

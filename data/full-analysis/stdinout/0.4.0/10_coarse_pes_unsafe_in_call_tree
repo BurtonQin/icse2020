@@ -1,9 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"read\"), disambiguator: 0 }]","has_unsafe":false,"name":"<InputReader<'a> as std::io::Read>::read"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"fill_buf\"), disambiguator: 0 }]","has_unsafe":false,"name":"<InputReader<'a> as std::io::BufRead>::fill_buf"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"consume\"), disambiguator: 0 }]","has_unsafe":false,"name":"<InputReader<'a> as std::io::BufRead>::consume"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"from\"), disambiguator: 0 }]","has_unsafe":true,"name":"Input::from"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"buf_read\"), disambiguator: 0 }]","has_unsafe":false,"name":"Input::buf_read"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"from\"), disambiguator: 0 }]","has_unsafe":true,"name":"Output::from"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"write\"), disambiguator: 0 }]","has_unsafe":false,"name":"Output::write"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"or_exit\"), disambiguator: 0 }]","has_unsafe":true,"name":"<std::result::Result<R, E> as OrExit<R, S>>::or_exit"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"or_exit\"), disambiguator: 0 }]","has_unsafe":true,"name":"<std::option::Option<R> as OrExit<R, S>>::or_exit"}

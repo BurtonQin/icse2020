@@ -1,7 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"hash\"), disambiguator: 0 }]","has_unsafe":false,"name":"hash"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Ring<T>>::new"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"add_nodes\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Ring<T>>::add_nodes"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"remove_nodes\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Ring<T>>::remove_nodes"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"add_node\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Ring<T>>::add_node"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"remove_node\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Ring<T>>::remove_node"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_node\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Ring<T>>::get_node"}

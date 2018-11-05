@@ -1,6 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"config_from_matches\"), disambiguator: 0 }]","has_unsafe":true,"name":"config_from_matches"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_args\"), disambiguator: 0 }]","has_unsafe":true,"name":"parse_args"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"show_progress\"), disambiguator: 0 }]","has_unsafe":true,"name":"show_progress"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"do_work\"), disambiguator: 0 }]","has_unsafe":true,"name":"do_work"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"build_vocab\"), disambiguator: 0 }]","has_unsafe":true,"name":"build_vocab"}

@@ -1,4 +1,3 @@
-use std::collections::HashMap;
 use std::fmt::Write;
 
 use syntax::ast::NodeId;
@@ -14,6 +13,8 @@ use rustc::lint::LateContext;
 use implicit_unsafe::deps;
 use get_fn_path;
 use implicit_unsafe::UnsafeBlocksVisitorData;
+use results::implicit::FnType;
+use fxhash::FxHashMap;
 
 enum Call {
     Static(DefId),
@@ -22,16 +23,22 @@ enum Call {
 
 pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, fns: &Vec<NodeId>, optimistic: bool)
                                       -> Vec<UnsafeInBody> {
-
-    let mut with_unsafe = HashMap::new();
-    let mut call_graph = HashMap::new();
+    let mut result = Vec::new();
+    let mut with_unsafe = FxHashMap::default();
+    let mut call_graph = FxHashMap::default();
     for &fn_id in fns {
-
-        info!("Processing {:?}", ::get_node_name(cx,fn_id));
-
         let fn_def_id = cx.tcx.hir.local_def_id(fn_id);
+
+        info!("Processing {:?}", ::get_node_name(cx,fn_def_id));
+
         match cx.tcx.fn_sig(fn_def_id).unsafety() {
-            hir::Unsafety::Unsafe => {} //ignore it
+            hir::Unsafety::Unsafe => {
+                result.push(
+                    UnsafeInBody::new(get_fn_path(cx,fn_def_id),
+                                      FnType::Unsafe,
+                                      ::get_node_name(cx,fn_def_id))
+                );
+            } //ignore it
             hir::Unsafety::Normal => {
                 let mut body_visitor = UnsafeBlocksVisitorData {
                     hir: &cx.tcx.hir,
@@ -41,7 +48,9 @@ pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, fns: &Vec<Node
                 let body = cx.tcx.hir.body(body_id);
                 hir::intravisit::walk_body(&mut body_visitor, body);
                 if body_visitor.has_unsafe {
-                    let mut info = UnsafeInBody::new(get_fn_path(cx,fn_def_id), true, ::get_node_name(cx,fn_id));
+                    let mut info = UnsafeInBody::new(get_fn_path(cx,fn_def_id),
+                                                     FnType::NormalNotSafe,
+                                                     ::get_node_name(cx,fn_def_id));
                     with_unsafe.insert(fn_def_id, info);
                 } else {
                     // collect calls
@@ -53,7 +62,9 @@ pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, fns: &Vec<Node
                     info!("calls_visitor.uses_unresolved_calls: {:?}", calls_visitor.uses_unresolved_calls);
 
                     if !optimistic && (calls_visitor.uses_fn_ptr || calls_visitor.uses_unresolved_calls) {
-                        let mut info = UnsafeInBody::new(get_fn_path(cx,fn_def_id), true, ::get_node_name(cx,fn_id));
+                        let mut info = UnsafeInBody::new(get_fn_path(cx,fn_def_id),
+                                                         FnType::NormalNotSafe,
+                                                         ::get_node_name(cx,fn_def_id));
                         with_unsafe.insert(fn_def_id, info);
                     } else {
                         call_graph.insert(fn_def_id, calls_visitor.calls);
@@ -63,7 +74,7 @@ pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, fns: &Vec<Node
         }
     }
     // propagate external unsafety
-    let mut external_calls : HashMap<String,DefId> = HashMap::new();
+    let mut external_calls : FxHashMap<String,DefId> = FxHashMap::default();
     for (def_id, calls) in call_graph.iter() {
         if let None = with_unsafe.get(def_id) {
             for call in calls.iter() {
@@ -78,8 +89,8 @@ pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, fns: &Vec<Node
             }
         }
     }
-    let implicit_external =
-        deps::load(cx, &external_calls, optimistic);
+    let implicit_external: FxHashMap<DefId,UnsafeInBody> =
+        deps::load(cx, &external_calls, optimistic, true);
     for (def_id, calls) in call_graph.iter() {
         if let None = with_unsafe.get(def_id) {
             for call in calls.iter() {
@@ -87,21 +98,19 @@ pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, fns: &Vec<Node
                 if let Call::Static(calee_def_id) = call {
                     if !calee_def_id.is_local() {
                         if let Some(ub) = implicit_external.get(calee_def_id) {
-                            if ub.has_unsafe {
-                                let fn_name =
-                                    if let Some(fn_id) = cx.tcx.hir.as_local_node_id(*def_id) {
-                                        ::get_node_name(cx, fn_id)
-                                    } else {
-                                        "ERROR!".to_string()
-                                    };
+                            if let FnType::NormalNotSafe = ub.fn_type {
+                                let fn_name = ::get_node_name(cx, *def_id);
                                 with_unsafe.insert(*def_id,
                                                    UnsafeInBody::new(
                                                        get_fn_path(cx, *def_id),
-                                                       true,
+                                                       FnType::NormalNotSafe,
                                                        fn_name
                                                    ));
                                 break;
                             }
+                        } else {
+                            // TODO decide if I should make this always safe or dependent on the analysis
+                            error!("External Call NOT found {:?}", ::get_node_name(cx, *def_id));
                         }
                     }
                 }
@@ -113,12 +122,7 @@ pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, fns: &Vec<Node
     while changes {
         changes = false;
         for (def_id, calls) in call_graph.iter() {
-            let fn_name =
-                if let Some(fn_id) = cx.tcx.hir.as_local_node_id(*def_id) {
-                    ::get_node_name(cx, fn_id)
-                } else {
-                    "ERROR!".to_string()
-                };
+            let fn_name = ::get_node_name(cx, *def_id);
             if let None = with_unsafe.get(def_id) {
                 // Dynamic Calls
                 if calls.iter().any(|call|{
@@ -128,7 +132,8 @@ pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, fns: &Vec<Node
                         false
                     }
                 } && !optimistic ) {
-                    let info = UnsafeInBody::new(get_fn_path(cx, *def_id), true, fn_name);
+                    let info = UnsafeInBody::new(get_fn_path(cx, *def_id),
+                                                 FnType::NormalNotSafe, fn_name);
                     with_unsafe.insert(*def_id, info);
                     changes = true;
                 } else {
@@ -155,13 +160,9 @@ pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, fns: &Vec<Node
                                 true
                             }
                         }) {
-                        let fn_name =
-                            if let Some(fn_id) = cx.tcx.hir.as_local_node_id(*def_id) {
-                                ::get_node_name(cx, fn_id)
-                            } else {
-                                "ERROR!".to_string()
-                            };
-                        let info = UnsafeInBody::new(get_fn_path(cx, *def_id), true, fn_name);
+                        let fn_name = ::get_node_name(cx, *def_id);
+                        let info = UnsafeInBody::new(get_fn_path(cx, *def_id),
+                            FnType::NormalNotSafe, fn_name);
                         with_unsafe.insert(*def_id, info);
                         changes = true;
                     }
@@ -169,16 +170,16 @@ pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, fns: &Vec<Node
             }
         }
     }
-    let mut result = Vec::new();
+
     for &fn_id in fns.iter() {
         let fn_def_id = cx.tcx.hir.local_def_id(fn_id);
         if let Some(elt) = with_unsafe.get(&fn_def_id) {
-            let mut ub = UnsafeInBody::new(elt.def_path.clone(), elt.has_unsafe,
-                                           ::get_node_name(cx,fn_id));
+            let mut ub = UnsafeInBody::new(elt.def_path.clone(), elt.fn_type.clone(),
+                                           ::get_node_name(cx,fn_def_id));
             result.push(ub);
         } else {
-            result.push(UnsafeInBody::new(get_fn_path(cx,fn_def_id), false,
-                                          ::get_node_name(cx,fn_id)));
+            result.push(UnsafeInBody::new(get_fn_path(cx,fn_def_id), FnType::Safe,
+                                          ::get_node_name(cx,fn_def_id)));
         }
     }
     result

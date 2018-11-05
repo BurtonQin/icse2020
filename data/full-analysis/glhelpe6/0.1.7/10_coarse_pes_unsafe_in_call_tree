@@ -1,6 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"add_path_line\"), disambiguator: 0 }]","has_unsafe":true,"name":"add_path_line"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"check_gl_error\"), disambiguator: 0 }]","has_unsafe":true,"name":"check_gl_error"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"compile_shader\"), disambiguator: 0 }]","has_unsafe":true,"name":"compile_shader"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"link_program\"), disambiguator: 0 }]","has_unsafe":true,"name":"link_program"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"load_program\"), disambiguator: 0 }]","has_unsafe":true,"name":"load_program"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"load_program_with_shader_outs\"), disambiguator: 0 }]","has_unsafe":true,"name":"load_program_with_shader_outs"}

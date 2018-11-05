@@ -1,9 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Saga<T>>::new"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"tell\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Saga<T>>::tell"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Adventure<T>>::new"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"forward\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Adventure<T>>::forward"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"backward\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Adventure<T>>::backward"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Failure<T>>::new"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"to_error\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Failure<T>>::to_error"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"tell_\"), disambiguator: 0 }]","has_unsafe":false,"name":"tell_"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"revert\"), disambiguator: 0 }]","has_unsafe":false,"name":"revert"}

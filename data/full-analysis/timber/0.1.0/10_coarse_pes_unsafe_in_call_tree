@@ -1,7 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"log\"), disambiguator: 0 }]","has_unsafe":false,"name":"Timber::log"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"timber\"), disambiguator: 0 }]","has_unsafe":true,"name":"Timber::timber"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"init\"), disambiguator: 0 }]","has_unsafe":false,"name":"Timber::init"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_instance\"), disambiguator: 0 }]","has_unsafe":true,"name":"get_instance"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"lock\"), disambiguator: 0 }]","has_unsafe":true,"name":"lock"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"timber\"), disambiguator: 0 }]","has_unsafe":true,"name":"timber"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"init\"), disambiguator: 0 }]","has_unsafe":true,"name":"init"}

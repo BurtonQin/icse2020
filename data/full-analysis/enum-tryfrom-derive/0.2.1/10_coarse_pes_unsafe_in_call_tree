@@ -1,5 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"filter_primitive_type_attr\"), disambiguator: 0 }]","has_unsafe":false,"name":"filter_primitive_type_attr"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"impl_single_type\"), disambiguator: 0 }]","has_unsafe":true,"name":"impl_single_type"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"impl_from_primitive\"), disambiguator: 0 }]","has_unsafe":true,"name":"impl_from_primitive"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"from_primitive\"), disambiguator: 0 }]","has_unsafe":true,"name":"from_primitive"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","has_unsafe":true,"name":"registrar::_registrar"}

@@ -1,5 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"generate_assets\"), disambiguator: 0 }]","has_unsafe":true,"name":"generate_assets"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"help\"), disambiguator: 0 }]","has_unsafe":false,"name":"help"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"impl_rust_embed\"), disambiguator: 0 }]","has_unsafe":true,"name":"impl_rust_embed"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"derive_input_object\"), disambiguator: 0 }]","has_unsafe":true,"name":"derive_input_object"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","has_unsafe":true,"name":"registrar::_registrar"}

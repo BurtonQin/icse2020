@@ -1,5 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"send_input\"), disambiguator: 0 }]","has_unsafe":true,"name":"send_input"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"move_mouse\"), disambiguator: 0 }]","has_unsafe":true,"name":"move_mouse"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"down\"), disambiguator: 0 }]","has_unsafe":true,"name":"MouseButton::down"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"up\"), disambiguator: 0 }]","has_unsafe":true,"name":"MouseButton::up"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"wheel\"), disambiguator: 0 }]","has_unsafe":true,"name":"wheel"}

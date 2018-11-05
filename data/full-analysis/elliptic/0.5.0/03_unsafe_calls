@@ -1,4 +1,0 @@
-{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"curve25519_donna\"), disambiguator: 0 }]","name":"curve25519_donna"}
-{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"curve25519_keygen\"), disambiguator: 0 }]","name":"curve25519_keygen"}
-{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"curve25519_sign\"), disambiguator: 0 }]","name":"curve25519_sign"}
-{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"curve25519_verify\"), disambiguator: 0 }]","name":"curve25519_verify"}

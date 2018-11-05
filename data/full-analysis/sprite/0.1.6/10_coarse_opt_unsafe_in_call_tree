@@ -1,8 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"change_color_always_solid\"), disambiguator: 0 }]","has_unsafe":true,"name":"change_color_always_solid"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"change_color_always_empty\"), disambiguator: 0 }]","has_unsafe":true,"name":"change_color_always_empty"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"change_color_body\"), disambiguator: 0 }]","has_unsafe":true,"name":"change_color_body"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"change_color_body2\"), disambiguator: 0 }]","has_unsafe":true,"name":"change_color_body2"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"set_pixel\"), disambiguator: 0 }]","has_unsafe":true,"name":"set_pixel"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"draw_grid\"), disambiguator: 0 }]","has_unsafe":false,"name":"draw_grid"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"redraw\"), disambiguator: 0 }]","has_unsafe":true,"name":"redraw"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}

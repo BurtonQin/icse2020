@@ -1,9 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Spanned<T>>::new"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"context\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Spanned<T>>::context"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"tracer\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Spanned<T>>::tracer"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"into_inner\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Spanned<T>>::into_inner"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"poll\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Spanned<F> as futures::Future>::poll"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"poll\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Spanned<S> as futures::Stream>::poll"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"start_send\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Spanned<S> as futures::Sink>::start_send"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"poll_complete\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Spanned<S> as futures::Sink>::poll_complete"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"close\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Spanned<S> as futures::Sink>::close"}

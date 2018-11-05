@@ -1,7 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"derive_getters\"), disambiguator: 0 }]","has_unsafe":false,"name":"derive_getters"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"expand_getters\"), disambiguator: 0 }]","has_unsafe":false,"name":"expand_getters"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"derive_setters\"), disambiguator: 0 }]","has_unsafe":false,"name":"derive_setters"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"expand_setters\"), disambiguator: 0 }]","has_unsafe":false,"name":"expand_setters"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"extract_attrs\"), disambiguator: 0 }]","has_unsafe":false,"name":"extract_attrs"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"config_from\"), disambiguator: 0 }]","has_unsafe":false,"name":"config_from"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","has_unsafe":true,"name":"registrar::_registrar"}

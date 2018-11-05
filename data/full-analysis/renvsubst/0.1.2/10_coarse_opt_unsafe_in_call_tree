@@ -1,5 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"value_from_env\"), disambiguator: 0 }]","has_unsafe":false,"name":"value_from_env"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"replace_var\"), disambiguator: 0 }]","has_unsafe":true,"name":"replace_var"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"remove_escape_char\"), disambiguator: 0 }]","has_unsafe":true,"name":"remove_escape_char"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_subst_names\"), disambiguator: 0 }]","has_unsafe":true,"name":"get_subst_names"}

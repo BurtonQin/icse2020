@@ -1,6 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"cat\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"print_with_lolcat\"), disambiguator: 0 }]","has_unsafe":false,"name":"cat::print_with_lolcat"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"cat\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"colored_print\"), disambiguator: 0 }]","has_unsafe":false,"name":"cat::colored_print"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"cat\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_color_tuple\"), disambiguator: 0 }]","has_unsafe":false,"name":"cat::get_color_tuple"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"lolcat_file\"), disambiguator: 0 }]","has_unsafe":false,"name":"lolcat_file"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_cli_args\"), disambiguator: 0 }]","has_unsafe":true,"name":"parse_cli_args"}

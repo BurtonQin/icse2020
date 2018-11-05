@@ -1,4 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"hotp\"), disambiguator: 0 }]","has_unsafe":true,"name":"hotp"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"offset\"), disambiguator: 0 }]","has_unsafe":false,"name":"offset"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"sbits\"), disambiguator: 0 }]","has_unsafe":false,"name":"sbits"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<HotpOutput as std::fmt::Display>::fmt"}

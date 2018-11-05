@@ -1,3 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"rust\"), disambiguator: 0 }]","has_unsafe":true,"name":"<std::result::Result<T, E> as Rust<T, F>>::rust"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"rust\"), disambiguator: 0 }]","has_unsafe":true,"name":"<std::option::Option<T> as Rust<T, F>>::rust"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"e\"), disambiguator: 0 }]","has_unsafe":false,"name":"e"}
