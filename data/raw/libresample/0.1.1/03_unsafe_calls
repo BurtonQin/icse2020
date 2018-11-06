@@ -1,5 +1,5 @@
-{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"resample_get_filter_width\"), disambiguator: 0 }]","name":"resample_get_filter_width"}
-{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"resample_dup\"), disambiguator: 0 }]","name":"resample_dup"}
-{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"resample_process\"), disambiguator: 0 }]","name":"resample_process"}
-{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"resample_close\"), disambiguator: 0 }]","name":"resample_close"}
-{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"resample_open\"), disambiguator: 0 }]","name":"resample_open"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"resample_get_filter_width\"), disambiguator: 0 }]","name":"resample_get_filter_width","crate_name":"libresample"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"resample_dup\"), disambiguator: 0 }]","name":"resample_dup","crate_name":"libresample"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"resample_process\"), disambiguator: 0 }]","name":"resample_process","crate_name":"libresample"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"resample_close\"), disambiguator: 0 }]","name":"resample_close","crate_name":"libresample"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"resample_open\"), disambiguator: 0 }]","name":"resample_open","crate_name":"libresample"}

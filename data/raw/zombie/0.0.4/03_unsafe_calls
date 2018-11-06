@@ -1,1 +1,1 @@
-{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"waitpid\"), disambiguator: 0 }]","name":"waitpid"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"waitpid\"), disambiguator: 0 }]","name":"waitpid","crate_name":"zombie"}

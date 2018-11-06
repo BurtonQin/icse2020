@@ -1,2 +1,2 @@
-{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"c_unlock\"), disambiguator: 0 }]","name":"c_unlock"}
-{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"c_lock\"), disambiguator: 0 }]","name":"c_lock"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"c_unlock\"), disambiguator: 0 }]","name":"c_unlock","crate_name":"file-lock"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"c_lock\"), disambiguator: 0 }]","name":"c_lock","crate_name":"file-lock"}

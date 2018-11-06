@@ -1,6 +1,6 @@
-{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"nop\"), disambiguator: 0 }]","name":"nop"}
-{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Trait(\"AsyncRead\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"initializer\"), disambiguator: 0 }]","name":"initializer"}
-{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Trait(\"AsyncRead\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"initializer\"), disambiguator: 0 }]","name":"initializer"}
-{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"nop\"), disambiguator: 0 }]","name":"nop"}
-{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"nop\"), disambiguator: 0 }]","name":"nop"}
-{"abi":"RustIntrinsic","def_path":"[DisambiguatedDefPathData { data: Module(\"intrinsics\"), disambiguator: 0 }, DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"write_bytes\"), disambiguator: 0 }]","name":"write_bytes"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"nop\"), disambiguator: 0 }]","name":"nop","crate_name":"futures-io"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Trait(\"AsyncRead\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"initializer\"), disambiguator: 0 }]","name":"initializer","crate_name":"futures-io"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Trait(\"AsyncRead\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"initializer\"), disambiguator: 0 }]","name":"initializer","crate_name":"futures-io"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"nop\"), disambiguator: 0 }]","name":"nop","crate_name":"futures-io"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"nop\"), disambiguator: 0 }]","name":"nop","crate_name":"futures-io"}
+{"abi":"RustIntrinsic","def_path":"[DisambiguatedDefPathData { data: Module(\"intrinsics\"), disambiguator: 0 }, DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"write_bytes\"), disambiguator: 0 }]","name":"write_bytes","crate_name":"core"}

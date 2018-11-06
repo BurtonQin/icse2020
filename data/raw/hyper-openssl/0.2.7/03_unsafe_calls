@@ -1,1 +1,1 @@
-{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"ssl\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 24 }, DisambiguatedDefPathData { data: ValueNs(\"set_session\"), disambiguator: 0 }]","name":"set_session"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"ssl\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 24 }, DisambiguatedDefPathData { data: ValueNs(\"set_session\"), disambiguator: 0 }]","name":"set_session","crate_name":"openssl"}

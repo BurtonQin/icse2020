@@ -1,3 +1,3 @@
-{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"fastpbkdf2_hmac_sha256\"), disambiguator: 0 }]","name":"fastpbkdf2_hmac_sha256"}
-{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"fastpbkdf2_hmac_sha512\"), disambiguator: 0 }]","name":"fastpbkdf2_hmac_sha512"}
-{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"fastpbkdf2_hmac_sha1\"), disambiguator: 0 }]","name":"fastpbkdf2_hmac_sha1"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"fastpbkdf2_hmac_sha256\"), disambiguator: 0 }]","name":"fastpbkdf2_hmac_sha256","crate_name":"fastpbkdf2"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"fastpbkdf2_hmac_sha512\"), disambiguator: 0 }]","name":"fastpbkdf2_hmac_sha512","crate_name":"fastpbkdf2"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"fastpbkdf2_hmac_sha1\"), disambiguator: 0 }]","name":"fastpbkdf2_hmac_sha1","crate_name":"fastpbkdf2"}

@@ -1,8 +1,8 @@
-{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"ad_read\"), disambiguator: 0 }]","name":"ad_read"}
-{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"ad_open_dev\"), disambiguator: 0 }]","name":"ad_open_dev"}
-{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"ad_start_rec\"), disambiguator: 0 }]","name":"ad_start_rec"}
-{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"ad_open\"), disambiguator: 0 }]","name":"ad_open"}
-{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"ad_stop_rec\"), disambiguator: 0 }]","name":"ad_stop_rec"}
-{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"ad_close\"), disambiguator: 0 }]","name":"ad_close"}
-{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"ad_stop_rec\"), disambiguator: 0 }]","name":"ad_stop_rec"}
-{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"ad_open_sps\"), disambiguator: 0 }]","name":"ad_open_sps"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"ad_read\"), disambiguator: 0 }]","name":"ad_read","crate_name":"sphinxad_sys"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"ad_open_dev\"), disambiguator: 0 }]","name":"ad_open_dev","crate_name":"sphinxad_sys"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"ad_start_rec\"), disambiguator: 0 }]","name":"ad_start_rec","crate_name":"sphinxad_sys"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"ad_open\"), disambiguator: 0 }]","name":"ad_open","crate_name":"sphinxad_sys"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"ad_stop_rec\"), disambiguator: 0 }]","name":"ad_stop_rec","crate_name":"sphinxad_sys"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"ad_close\"), disambiguator: 0 }]","name":"ad_close","crate_name":"sphinxad_sys"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"ad_stop_rec\"), disambiguator: 0 }]","name":"ad_stop_rec","crate_name":"sphinxad_sys"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"ad_open_sps\"), disambiguator: 0 }]","name":"ad_open_sps","crate_name":"sphinxad_sys"}

@@ -1,4 +1,4 @@
-{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"ptr\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"read\"), disambiguator: 0 }]","name":"read"}
-{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"imp\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"debug_assert_unreachable\"), disambiguator: 0 }]","name":"debug_assert_unreachable"}
-{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"imp\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"debug_assert_unreachable\"), disambiguator: 0 }]","name":"debug_assert_unreachable"}
-{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"ptr\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"write\"), disambiguator: 0 }]","name":"write"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"ptr\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"read\"), disambiguator: 0 }]","name":"read","crate_name":"core"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"imp\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"debug_assert_unreachable\"), disambiguator: 0 }]","name":"debug_assert_unreachable","crate_name":"nodrop"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"imp\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"debug_assert_unreachable\"), disambiguator: 0 }]","name":"debug_assert_unreachable","crate_name":"nodrop"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"ptr\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"write\"), disambiguator: 0 }]","name":"write","crate_name":"core"}

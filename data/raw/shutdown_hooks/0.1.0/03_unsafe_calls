@@ -1,1 +1,1 @@
-{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"atexit\"), disambiguator: 0 }]","name":"atexit"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"atexit\"), disambiguator: 0 }]","name":"atexit","crate_name":"shutdown_hooks"}

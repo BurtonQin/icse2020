@@ -1,5 +1,5 @@
-{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"unlink\"), disambiguator: 0 }]","name":"unlink"}
-{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"erase_lifetime\"), disambiguator: 0 }]","name":"erase_lifetime"}
-{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"unlink\"), disambiguator: 0 }]","name":"unlink"}
-{"abi":"RustIntrinsic","def_path":"[DisambiguatedDefPathData { data: Module(\"intrinsics\"), disambiguator: 0 }, DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"transmute\"), disambiguator: 0 }]","name":"transmute"}
-{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"erase_lifetime\"), disambiguator: 0 }]","name":"erase_lifetime"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"unlink\"), disambiguator: 0 }]","name":"unlink","crate_name":"cancellation"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"erase_lifetime\"), disambiguator: 0 }]","name":"erase_lifetime","crate_name":"cancellation"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"unlink\"), disambiguator: 0 }]","name":"unlink","crate_name":"cancellation"}
+{"abi":"RustIntrinsic","def_path":"[DisambiguatedDefPathData { data: Module(\"intrinsics\"), disambiguator: 0 }, DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"transmute\"), disambiguator: 0 }]","name":"transmute","crate_name":"core"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"erase_lifetime\"), disambiguator: 0 }]","name":"erase_lifetime","crate_name":"cancellation"}

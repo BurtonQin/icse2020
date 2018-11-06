@@ -1,2 +1,2 @@
-{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_cpu_num\"), disambiguator: 0 }]","name":"get_cpu_num"}
-{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_disk_info\"), disambiguator: 0 }]","name":"get_disk_info"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_cpu_num\"), disambiguator: 0 }]","name":"get_cpu_num","crate_name":"sys-info"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_disk_info\"), disambiguator: 0 }]","name":"get_disk_info","crate_name":"sys-info"}

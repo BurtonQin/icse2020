@@ -1,5 +1,5 @@
-{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"inflateInit2_\"), disambiguator: 0 }]","name":"inflateInit2_"}
-{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"deflateInit2_\"), disambiguator: 0 }]","name":"deflateInit2_"}
-{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"inflateInit_\"), disambiguator: 0 }]","name":"inflateInit_"}
-{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"inflateBackInit_\"), disambiguator: 0 }]","name":"inflateBackInit_"}
-{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"deflateInit_\"), disambiguator: 0 }]","name":"deflateInit_"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"inflateInit2_\"), disambiguator: 0 }]","name":"inflateInit2_","crate_name":"cloudflare-zlib-sys"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"deflateInit2_\"), disambiguator: 0 }]","name":"deflateInit2_","crate_name":"cloudflare-zlib-sys"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"inflateInit_\"), disambiguator: 0 }]","name":"inflateInit_","crate_name":"cloudflare-zlib-sys"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"inflateBackInit_\"), disambiguator: 0 }]","name":"inflateBackInit_","crate_name":"cloudflare-zlib-sys"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"deflateInit_\"), disambiguator: 0 }]","name":"deflateInit_","crate_name":"cloudflare-zlib-sys"}

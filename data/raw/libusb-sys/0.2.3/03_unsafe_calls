@@ -1,1 +1,1 @@
-{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"libusb_control_transfer\"), disambiguator: 0 }]","name":"libusb_control_transfer"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"libusb_control_transfer\"), disambiguator: 0 }]","name":"libusb_control_transfer","crate_name":"libusb-sys"}

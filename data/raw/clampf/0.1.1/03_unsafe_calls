@@ -1,5 +1,5 @@
-{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"set_unchecked\"), disambiguator: 0 }]","name":"set_unchecked"}
-{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new_unchecked\"), disambiguator: 0 }]","name":"new_unchecked"}
-{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"set_unchecked\"), disambiguator: 0 }]","name":"set_unchecked"}
-{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new_unchecked\"), disambiguator: 0 }]","name":"new_unchecked"}
-{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new_unchecked\"), disambiguator: 0 }]","name":"new_unchecked"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"set_unchecked\"), disambiguator: 0 }]","name":"set_unchecked","crate_name":"clampf"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new_unchecked\"), disambiguator: 0 }]","name":"new_unchecked","crate_name":"clampf"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"set_unchecked\"), disambiguator: 0 }]","name":"set_unchecked","crate_name":"clampf"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new_unchecked\"), disambiguator: 0 }]","name":"new_unchecked","crate_name":"clampf"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new_unchecked\"), disambiguator: 0 }]","name":"new_unchecked","crate_name":"clampf"}

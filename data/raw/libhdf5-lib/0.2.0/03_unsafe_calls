@@ -1,2 +1,2 @@
-{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"H5open\"), disambiguator: 0 }]","name":"H5open"}
-{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"H5get_libversion\"), disambiguator: 0 }]","name":"H5get_libversion"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"H5open\"), disambiguator: 0 }]","name":"H5open","crate_name":"libhdf5-lib"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"H5get_libversion\"), disambiguator: 0 }]","name":"H5get_libversion","crate_name":"libhdf5-lib"}

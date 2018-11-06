@@ -1,1 +1,1 @@
-{"abi":"C","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"getppid\"), disambiguator: 0 }, DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"getppid\"), disambiguator: 0 }]","name":"getppid"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"getppid\"), disambiguator: 0 }, DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"getppid\"), disambiguator: 0 }]","name":"getppid","crate_name":"sw"}

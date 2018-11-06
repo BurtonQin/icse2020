@@ -1,4 +1,4 @@
-{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"seccomp_release\"), disambiguator: 0 }]","name":"seccomp_release"}
-{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"seccomp_rule_add\"), disambiguator: 0 }]","name":"seccomp_rule_add"}
-{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"seccomp_load\"), disambiguator: 0 }]","name":"seccomp_load"}
-{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"seccomp_init\"), disambiguator: 0 }]","name":"seccomp_init"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"seccomp_release\"), disambiguator: 0 }]","name":"seccomp_release","crate_name":"seccomp_sys"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"seccomp_rule_add\"), disambiguator: 0 }]","name":"seccomp_rule_add","crate_name":"seccomp_sys"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"seccomp_load\"), disambiguator: 0 }]","name":"seccomp_load","crate_name":"seccomp_sys"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"seccomp_init\"), disambiguator: 0 }]","name":"seccomp_init","crate_name":"seccomp_sys"}

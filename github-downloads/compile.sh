@@ -5,6 +5,8 @@ source ../rust_flags.sh
 
 export DO_NOT_USE_INSTANCE=true
 
+export RUST_LOG=error
+
 cd $GITHUB_APPS
 
 function set_out_dir {

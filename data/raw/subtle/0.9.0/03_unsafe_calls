@@ -1,1 +1,1 @@
-{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"hint\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"unreachable_unchecked\"), disambiguator: 0 }]","name":"unreachable_unchecked"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"hint\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"unreachable_unchecked\"), disambiguator: 0 }]","name":"unreachable_unchecked","crate_name":"core"}
