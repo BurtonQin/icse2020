@@ -1,2 +1,0 @@
-{"name":"renderer::get_attrib_location","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/renderer/mod.rs\") line 295","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"renderer::get_uniform_location","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/renderer/mod.rs\") line 302","kind":{"UnsafeFnCall":"Rust"}}]}

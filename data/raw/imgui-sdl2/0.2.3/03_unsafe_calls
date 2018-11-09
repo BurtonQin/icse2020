@@ -1,3 +1,0 @@
-{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 179 }, DisambiguatedDefPathData { data: ValueNs(\"SDL_SetClipboardText\"), disambiguator: 0 }]","name":"SDL_SetClipboardText","crate_name":"sdl2_sys"}
-{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 180 }, DisambiguatedDefPathData { data: ValueNs(\"SDL_GetClipboardText\"), disambiguator: 0 }]","name":"SDL_GetClipboardText","crate_name":"sdl2_sys"}
-{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"igGetIO\"), disambiguator: 0 }]","name":"igGetIO","crate_name":"imgui_sys"}

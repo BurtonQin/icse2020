@@ -1,5 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"Pipe::new"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"then\"), disambiguator: 0 }]","has_unsafe":true,"name":"Pipe::then"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"finally\"), disambiguator: 0 }]","has_unsafe":false,"name":"Pipe::finally"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"pipe_new_error\"), disambiguator: 0 }]","has_unsafe":false,"name":"pipe_new_error"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"pipe_error\"), disambiguator: 0 }]","has_unsafe":false,"name":"pipe_error"}

@@ -1,7 +1,0 @@
-{"sources":[["94",[{"loc":"file: Real(\"src/proj.rs\") line 18","kind":{"UnsafeFnCall":"Rust"}}]]]}
-{"sources":[["114",[{"loc":"file: Real(\"src/proj.rs\") line 24","kind":{"UnsafeFnCall":"C"}}]]]}
-{"sources":[["149",[{"loc":"file: Real(\"src/proj.rs\") line 49","kind":{"UnsafeFnCall":"C"}}]],["155",[{"loc":"file: Real(\"src/proj.rs\") line 50","kind":{"UnsafeFnCall":"C"}}]]]}
-{"sources":[["183",[{"loc":"file: Real(\"src/proj.rs\") line 78","kind":{"UnsafeFnCall":"C"}}]]]}
-{"sources":[["248",[{"loc":"file: Real(\"src/proj.rs\") line 106","kind":{"UnsafeFnCall":"C"}},{"loc":"file: Real(\"src/proj.rs\") line 108","kind":"AccessToUnionField"},{"loc":"file: Real(\"src/proj.rs\") line 109","kind":"AccessToUnionField"},{"loc":"file: Real(\"src/proj.rs\") line 110","kind":{"UnsafeFnCall":"C"}}]]]}
-{"sources":[["339",[{"loc":"file: Real(\"src/proj.rs\") line 170","kind":{"UnsafeFnCall":"C"}},{"loc":"file: Real(\"src/proj.rs\") line 171","kind":"AccessToUnionField"},{"loc":"file: Real(\"src/proj.rs\") line 172","kind":"AccessToUnionField"},{"loc":"file: Real(\"src/proj.rs\") line 173","kind":{"UnsafeFnCall":"C"}}]]]}
-{"sources":[["398",[{"loc":"file: Real(\"src/proj.rs\") line 189","kind":{"UnsafeFnCall":"C"}}]]]}

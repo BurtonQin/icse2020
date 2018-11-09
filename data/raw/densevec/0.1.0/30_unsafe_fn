@@ -1,2 +1,0 @@
-{"name":"<DenseVec<T>>::get_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 135","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/lib.rs\") line 136","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<DenseVec<T>>::get_unchecked_mut","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 140","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/lib.rs\") line 141","kind":{"UnsafeFnCall":"Rust"}}]}

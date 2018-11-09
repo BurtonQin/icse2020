@@ -1,5 +1,0 @@
-{"name":"<CONTAINER as lazy_static::Deref>::deref::__stability","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__lazy_static_internal\") line 13","kind":"Static"}]}
-{"name":"<heap_location::HEAP_LOCATION as lazy_static::Deref>::deref::__stability","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__lazy_static_internal\") line 13","kind":"Static"}]}
-{"name":"<Intern<T> as tinyset::Fits64>::from_u64","from_trait":true,"arguments":[],"sources":[]}
-{"name":"<LocalIntern<T> as tinyset::Fits64>::from_u64","from_trait":true,"arguments":[],"sources":[]}
-{"name":"LOCAL_STUFF::__getit","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__thread_local_inner\") line 16","kind":{"UnsafeFnCall":"Rust"}}]}

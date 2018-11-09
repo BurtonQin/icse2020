@@ -1,6 +1,0 @@
-{"name":"<universe::Universe2D<C, E, M> as universe::Universe<C, E, M>>::get_cell_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/universe.rs\") line 145","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<container::EMPTY as lazy_static::Deref>::deref::__stability","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__lazy_static_internal\") line 13","kind":"Static"}]}
-{"name":"<container::EntityContainer<C, E, M, I>>::get","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/container.rs\") line 164","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<container::EntityContainer<C, E, M, I>>::get_mut","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/container.rs\") line 174","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"emscripten::MAIN_LOOP_CALLBACK::__getit","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__thread_local_inner\") line 16","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"emscripten::set_main_loop_callback::wrapper","from_trait":false,"arguments":[],"sources":[]}

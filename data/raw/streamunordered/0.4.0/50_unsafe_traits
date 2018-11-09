@@ -1,5 +1,0 @@
-{"name":"<StreamUnordered<S> as std::marker::Send>"}
-{"name":"<StreamUnordered<S> as std::marker::Sync>"}
-{"name":"<ArcNode as std::marker::Send>"}
-{"name":"<ArcNode as std::marker::Sync>"}
-{"name":"<ArcNode as futures::executor::UnsafeNotify>"}

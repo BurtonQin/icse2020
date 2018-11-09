@@ -1,9 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"faces\"), disambiguator: 0 }]","has_unsafe":true,"name":"faces"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"vertices\"), disambiguator: 0 }]","has_unsafe":true,"name":"vertices"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"position\"), disambiguator: 0 }]","has_unsafe":true,"name":"position"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"normal\"), disambiguator: 0 }]","has_unsafe":true,"name":"normal"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"tex_coord\"), disambiguator: 0 }]","has_unsafe":true,"name":"tex_coord"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"set_tspace_basic\"), disambiguator: 0 }]","has_unsafe":true,"name":"set_tspace_basic"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"set_tspace\"), disambiguator: 0 }]","has_unsafe":true,"name":"set_tspace"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"generate\"), disambiguator: 0 }]","has_unsafe":true,"name":"Closures::generate"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"generate_tangents\"), disambiguator: 0 }]","has_unsafe":true,"name":"generate_tangents"}

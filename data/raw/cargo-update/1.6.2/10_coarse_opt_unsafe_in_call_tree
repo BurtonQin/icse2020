@@ -1,4 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"actual_main\"), disambiguator: 0 }]","has_unsafe":true,"name":"actual_main"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"save_cargo_update_exec\"), disambiguator: 0 }]","has_unsafe":false,"name":"save_cargo_update_exec"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"restore_cargo_update_exec\"), disambiguator: 0 }]","has_unsafe":false,"name":"restore_cargo_update_exec"}

@@ -1,2 +1,0 @@
-{"name":"<config::EffectConfig::from_comment_block_in_str::FIRST_COMMENT_BLOCK_RE as lazy_static::Deref>::deref::__stability","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__lazy_static_internal\") line 13","kind":"Static"}]}
-{"name":"effect::to_slice","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/effect.rs\") line 1195","kind":{"UnsafeFnCall":"Rust"}}]}

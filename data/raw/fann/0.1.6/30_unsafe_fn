@@ -1,6 +1,0 @@
-{"name":"error::FannError::check_no_error","from_trait":true,"arguments":[{"type_info":"type(*mut fann_error)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/error.rs\") line 113","kind":{"UnsafeFnCall":"C"}},{"loc":"file: Real(\"src/error.rs\") line 134","kind":{"UnsafeFnCall":"C"}},{"loc":"file: Real(\"src/error.rs\") line 134","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"error::FannError::check_zero","from_trait":true,"arguments":[{"type_info":"type(*mut fann_error)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/error.rs\") line 145","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"train_data::CALLBACK::__getit","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__thread_local_inner\") line 16","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"train_data::TrainData::get_raw","from_trait":true,"arguments":[],"sources":[]}
-{"name":"TRAINER::__getit","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__thread_local_inner\") line 16","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"Fann::from_raw","from_trait":true,"arguments":[{"type_info":"type(*mut fann)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 291","kind":{"UnsafeFnCall":"Rust"}}]}

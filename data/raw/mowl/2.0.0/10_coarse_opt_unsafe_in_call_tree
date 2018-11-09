@@ -1,8 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"init_with_level\"), disambiguator: 0 }]","has_unsafe":true,"name":"init_with_level"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"init_with_level_and_without_colors\"), disambiguator: 0 }]","has_unsafe":true,"name":"init_with_level_and_without_colors"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"init\"), disambiguator: 0 }]","has_unsafe":true,"name":"init"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"enabled\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Logger as log::Log>::enabled"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"log\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Logger as log::Log>::log"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"flush\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Logger as log::Log>::flush"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"log_result\"), disambiguator: 0 }]","has_unsafe":true,"name":"Logger::log_result"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"disable_colors\"), disambiguator: 0 }]","has_unsafe":false,"name":"Logger::disable_colors"}

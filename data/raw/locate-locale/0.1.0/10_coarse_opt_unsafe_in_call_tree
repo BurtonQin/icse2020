@@ -1,3 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"unix\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"env\"), disambiguator: 0 }]","has_unsafe":false,"name":"unix::env"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"unix\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"system\"), disambiguator: 0 }]","has_unsafe":false,"name":"unix::system"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"unix\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"user\"), disambiguator: 0 }]","has_unsafe":false,"name":"unix::user"}

@@ -1,4 +1,0 @@
-{"name":"<read::BufReader<R>>::set_pos","from_trait":true,"arguments":[],"sources":[]}
-{"name":"<read::BufReader<R>>::components","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/read.rs\") line 211","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/read.rs\") line 212","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/read.rs\") line 213","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<write::BufWriter<W>>::components","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/write.rs\") line 158","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/write.rs\") line 159","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/write.rs\") line 160","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<write::BufWriter<W>>::set_pos","from_trait":true,"arguments":[],"sources":[]}

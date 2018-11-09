@@ -1,5 +1,0 @@
-{"name":"string::JsonnetString::from_ptr","from_trait":true,"arguments":[{"type_info":"type(*mut c_char)","kind":"RawPointer"}],"sources":[]}
-{"name":"string::JsonnetStringIter::new","from_trait":true,"arguments":[],"sources":[]}
-{"name":"string::JsonnetStringIter::take_next","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/string.rs\") line 153","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/string.rs\") line 155","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"value::JsonVal::from_ptr","from_trait":true,"arguments":[{"type_info":"type(*const JsonnetJsonValue)","kind":"RawPointer"}],"sources":[]}
-{"name":"value::JsonValue::from_ptr","from_trait":true,"arguments":[{"type_info":"type(*mut JsonnetJsonValue)","kind":"RawPointer"}],"sources":[]}

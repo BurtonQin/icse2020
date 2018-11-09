@@ -1,4 +1,0 @@
-{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"slice\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"from_raw_parts\"), disambiguator: 0 }]","name":"from_raw_parts","crate_name":"core"}
-{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"cmpr_8bit\"), disambiguator: 0 }]","name":"cmpr_8bit","crate_name":"sega_cmp"}
-{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"cmpr_16bit\"), disambiguator: 0 }]","name":"cmpr_16bit","crate_name":"sega_cmp"}
-{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"cmpr_32bit\"), disambiguator: 0 }]","name":"cmpr_32bit","crate_name":"sega_cmp"}

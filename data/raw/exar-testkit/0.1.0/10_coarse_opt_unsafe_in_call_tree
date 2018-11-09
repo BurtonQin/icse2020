@@ -1,5 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"collections\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"random_collection_name\"), disambiguator: 0 }]","has_unsafe":true,"name":"collections::random_collection_name"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"collections\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"invalid_collection_name\"), disambiguator: 0 }]","has_unsafe":false,"name":"collections::invalid_collection_name"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"net\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"base_port\"), disambiguator: 0 }]","has_unsafe":false,"name":"net::base_port"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"net\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"next_test_ip4\"), disambiguator: 0 }]","has_unsafe":false,"name":"net::next_test_ip4"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"net\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"with_addr\"), disambiguator: 0 }]","has_unsafe":true,"name":"net::with_addr"}

@@ -1,2 +1,0 @@
-{"name":"base::volatile::VolatileStruct::from_ptr","from_trait":false,"arguments":[{"type_info":"type(*mut Self)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/base/volatile.rs\") line 40","kind":"DerefRawPointer"}]}
-{"name":"base::volatile::VolatileStruct::from_addr","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/base/volatile.rs\") line 47","kind":{"UnsafeFnCall":"Rust"}}]}

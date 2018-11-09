@@ -1,7 +1,0 @@
-{"name":"<device::Device<'nvml> as std::marker::Send>"}
-{"name":"<device::Device<'nvml> as std::marker::Sync>"}
-{"name":"<unit::Unit<'nvml> as std::marker::Send>"}
-{"name":"<unit::Unit<'nvml> as std::marker::Sync>"}
-{"name":"<event::EventSet<'nvml> as std::marker::Send>"}
-{"name":"<NVML as std::marker::Send>"}
-{"name":"<NVML as std::marker::Sync>"}

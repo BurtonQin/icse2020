@@ -1,5 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"add_one_impl\"), disambiguator: 0 }]","has_unsafe":false,"name":"add_one_impl"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"add_one_impl\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"func\"), disambiguator: 0 }]","has_unsafe":false,"name":"add_one_impl::func"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"two_fn_impl\"), disambiguator: 0 }]","has_unsafe":false,"name":"two_fn_impl"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"two_fn_impl\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"func\"), disambiguator: 0 }]","has_unsafe":false,"name":"two_fn_impl::func"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","has_unsafe":true,"name":"registrar::_registrar"}

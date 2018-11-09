@@ -1,5 +1,0 @@
-{"name":"<alloc::MemRef as std::marker::Send>"}
-{"name":"<alloc::MemRef as std::marker::Sync>"}
-{"name":"<buf::ring::RingBuf as std::marker::Send>"}
-{"name":"<str::bytes::Bytes as std::marker::Send>"}
-{"name":"<str::bytes::Bytes as std::marker::Sync>"}

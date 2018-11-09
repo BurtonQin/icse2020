@@ -1,3 +1,0 @@
-{"name":"CortexMHeap::init","from_trait":true,"arguments":[],"sources":[]}
-{"name":"<CortexMHeap as core::alloc::GlobalAlloc>::alloc","from_trait":true,"arguments":[],"sources":[]}
-{"name":"<CortexMHeap as core::alloc::GlobalAlloc>::dealloc","from_trait":true,"arguments":[{"type_info":"type(*mut u8)","kind":"RawPointer"}],"sources":[]}

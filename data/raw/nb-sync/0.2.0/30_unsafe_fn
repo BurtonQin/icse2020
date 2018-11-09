@@ -1,2 +1,0 @@
-{"name":"fifo::NonReentrantToken::new","from_trait":true,"arguments":[],"sources":[]}
-{"name":"<Mutex<T>>::unlock","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 203","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/lib.rs\") line 203","kind":"DerefRawPointer"}]}

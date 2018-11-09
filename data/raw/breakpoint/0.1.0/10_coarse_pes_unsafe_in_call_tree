@@ -1,4 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"tests\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"HIT_BREAKPOINT\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"__init\"), disambiguator: 0 }]","has_unsafe":false,"name":"tests::HIT_BREAKPOINT::__init"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"tests\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"sigtrap_handler\"), disambiguator: 0 }]","has_unsafe":false,"name":"tests::sigtrap_handler"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"tests\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"reset\"), disambiguator: 0 }]","has_unsafe":true,"name":"tests::reset"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"tests\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"hit_breakpoint\"), disambiguator: 0 }]","has_unsafe":false,"name":"tests::hit_breakpoint"}

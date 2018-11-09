@@ -1,4 +1,0 @@
-{"name":"<array_string::ArrayString<A>>::set_len","from_trait":true,"arguments":[],"sources":[]}
-{"name":"<array_string::ArrayString<A>>::raw_mut_bytes","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/arrayvec-0.3.25/src/array_string.rs\") line 203","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"new_array","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/arrayvec-0.3.25/src/lib.rs\") line 71","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<ArrayVec<A>>::set_len","from_trait":true,"arguments":[],"sources":[]}

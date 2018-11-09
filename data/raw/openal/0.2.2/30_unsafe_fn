@@ -1,9 +1,0 @@
-{"name":"listener::listener::Listener::wrap","from_trait":true,"arguments":[{"type_info":"type(*mut ALCdevice)","kind":"RawPointer"},{"type_info":"type(*mut ALCcontext)","kind":"RawPointer"}],"sources":[]}
-{"name":"<capture::capture::Capture<T>>::wrap","from_trait":true,"arguments":[{"type_info":"type(*mut ALCdevice)","kind":"RawPointer"}],"sources":[]}
-{"name":"source::stream::Stream::new","from_trait":true,"arguments":[],"sources":[]}
-{"name":"source::source::Source::new","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/source/source.rs\") line 23","kind":{"UnsafeFnCall":"C"}}]}
-{"name":"source::source::Source::id","from_trait":true,"arguments":[],"sources":[]}
-{"name":"buffer::Buffer::empty","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/buffer.rs\") line 19","kind":{"UnsafeFnCall":"C"}}]}
-{"name":"buffer::Buffer::new","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/buffer.rs\") line 26","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/buffer.rs\") line 28","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"buffer::Buffer::fill","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/buffer.rs\") line 39","kind":{"UnsafeFnCall":"C"}}]}
-{"name":"buffer::Buffer::id","from_trait":true,"arguments":[],"sources":[]}

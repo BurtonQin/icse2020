@@ -1,8 +1,0 @@
-{"name":"wpilib::spi::Spi::transaction","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/wpilib/spi.rs\") line 116","kind":{"UnsafeFnCall":"C"}}]}
-{"name":"<wpilib::sensor_util::NUM_DIGITAL_CHANNELS as lazy_static::Deref>::deref::__stability","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__lazy_static_internal\") line 13","kind":"Static"}]}
-{"name":"<wpilib::sensor_util::NUM_ANALOG_INPUTS as lazy_static::Deref>::deref::__stability","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__lazy_static_internal\") line 13","kind":"Static"}]}
-{"name":"<wpilib::sensor_util::NUM_SOLENOID_CHANNELS as lazy_static::Deref>::deref::__stability","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__lazy_static_internal\") line 13","kind":"Static"}]}
-{"name":"<wpilib::sensor_util::NUM_SOLENOID_MODULES as lazy_static::Deref>::deref::__stability","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__lazy_static_internal\") line 13","kind":"Static"}]}
-{"name":"<wpilib::sensor_util::NUM_PWM_CHANNELS as lazy_static::Deref>::deref::__stability","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__lazy_static_internal\") line 13","kind":"Static"}]}
-{"name":"<wpilib::sensor_util::NUM_RELAY_CHANNELS as lazy_static::Deref>::deref::__stability","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__lazy_static_internal\") line 13","kind":"Static"}]}
-{"name":"<wpilib::sensor_util::NUM_PDP_CHANNELS as lazy_static::Deref>::deref::__stability","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__lazy_static_internal\") line 13","kind":"Static"}]}

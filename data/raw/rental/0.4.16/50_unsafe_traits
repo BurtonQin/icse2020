@@ -1,4 +1,0 @@
-{"name":"<examples::RentRef<T, U> as __rental_prelude::Rental2<'head, 'suffix>>"}
-{"name":"<examples::RentMut<T, U> as __rental_prelude::Rental2<'head, 'suffix>>"}
-{"name":"<examples::RentRefMap<T, U, V> as __rental_prelude::Rental3<'head_0, 'head_1, 'suffix>>"}
-{"name":"<examples::RentMutMap<T, U, V> as __rental_prelude::Rental3<'head_0, 'head_1, 'suffix>>"}

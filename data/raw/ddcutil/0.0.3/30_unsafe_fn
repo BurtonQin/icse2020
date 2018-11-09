@@ -1,7 +1,0 @@
-{"name":"display::DisplayInfo::from_raw","from_trait":true,"arguments":[],"sources":[]}
-{"name":"display::DisplayInfoList::from_raw","from_trait":true,"arguments":[{"type_info":"type(*mut sys::DDCA_Display_Info_List)","kind":"RawPointer"}],"sources":[]}
-{"name":"display::Display::from_raw","from_trait":true,"arguments":[],"sources":[]}
-{"name":"features::Capabilities::from_raw","from_trait":true,"arguments":[],"sources":[]}
-{"name":"features::FeatureInfo::from_raw","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/features.rs\") line 143","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/features.rs\") line 144","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"features::FeatureInfo::from_raw::from_ptr","from_trait":false,"arguments":[{"type_info":"type(*const c_char)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/features.rs\") line 138","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"c_str","from_trait":false,"arguments":[{"type_info":"type(*const libc::c_char)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 24","kind":{"UnsafeFnCall":"Rust"}}]}

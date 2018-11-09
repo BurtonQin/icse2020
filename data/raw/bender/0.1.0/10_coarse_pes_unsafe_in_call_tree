@@ -1,8 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"names\"), disambiguator: 0 }]","has_unsafe":true,"name":"<&'a T as Names>::names"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"names\"), disambiguator: 0 }]","has_unsafe":false,"name":"<moore_svlog::ast::ParamDecl as Names>::names"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"names\"), disambiguator: 0 }]","has_unsafe":false,"name":"<moore_svlog::ast::Port as Names>::names"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"generate_instance\"), disambiguator: 0 }]","has_unsafe":true,"name":"generate_instance"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"generate_instance\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"indented_length\"), disambiguator: 0 }]","has_unsafe":false,"name":"generate_instance::indented_length"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"generate_instance\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"format_reduce\"), disambiguator: 0 }]","has_unsafe":true,"name":"generate_instance::format_reduce"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"ast\"), disambiguator: 0 }]","has_unsafe":true,"name":"ast"}

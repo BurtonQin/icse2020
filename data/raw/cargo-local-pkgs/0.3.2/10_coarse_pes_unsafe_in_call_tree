@@ -1,4 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"init_logging\"), disambiguator: 0 }]","has_unsafe":false,"name":"init_logging"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"collect_local_pkgs\"), disambiguator: 0 }]","has_unsafe":true,"name":"collect_local_pkgs"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"run\"), disambiguator: 0 }]","has_unsafe":true,"name":"run"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}

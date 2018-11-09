@@ -1,1 +1,0 @@
-{"name":"tcp_socket::TcpSocket::setsockopt","from_trait":true,"arguments":[{"type_info":"type(*const libc::c_void)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/tcp_socket.rs\") line 45","kind":{"UnsafeFnCall":"C"}}]}

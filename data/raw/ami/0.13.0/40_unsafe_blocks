@@ -1,9 +1,0 @@
-{"sources":[["2324",[{"loc":"file: Real(\"src/octree.rs\") line 387","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
-{"sources":[["2851",[{"loc":"file: Real(\"src/octree.rs\") line 602","kind":{"UnsafeFnCall":"Rust"}}]],["2855",[{"loc":"file: Real(\"src/octree.rs\") line 605","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
-{"sources":[["3983",[{"loc":"file: Real(\"src/vector.rs\") line 177","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
-{"sources":[["4006",[{"loc":"file: Real(\"src/vector.rs\") line 185","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
-{"sources":[["4029",[{"loc":"file: Real(\"src/vector.rs\") line 193","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
-{"sources":[["5126",[{"loc":"file: Real(\"src/matrix.rs\") line 293","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
-{"sources":[["5155",[{"loc":"file: Real(\"src/matrix.rs\") line 301","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
-{"sources":[["5184",[{"loc":"file: Real(\"src/matrix.rs\") line 309","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
-{"sources":[["5553",[{"loc":"file: Real(\"src/rotation.rs\") line 111","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}

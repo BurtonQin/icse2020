@@ -1,1 +1,0 @@
-{"name":"decompress_bytes","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 373","kind":{"UnsafeFnCall":"C"}},{"loc":"file: Real(\"src/lib.rs\") line 381","kind":{"UnsafeFnCall":"C"}},{"loc":"file: Real(\"src/lib.rs\") line 388","kind":{"UnsafeFnCall":"Rust"}}]}

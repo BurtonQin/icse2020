@@ -1,5 +1,0 @@
-{"name":"<sentinel::MArray<T> as stable_deref_trait::StableDeref>"}
-{"name":"<sentinel::MString as stable_deref_trait::StableDeref>"}
-{"name":"<mbox::MBox<T> as stable_deref_trait::StableDeref>"}
-{"name":"<mbox::MSliceIntoIter<T> as std::marker::Send>"}
-{"name":"<mbox::MSliceIntoIter<T> as std::marker::Sync>"}

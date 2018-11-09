@@ -1,4 +1,0 @@
-{"name":"<bccapi::__IncompleteArrayField<T>>::as_ptr","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/bccapi.rs\") line 92","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
-{"name":"<bccapi::__IncompleteArrayField<T>>::as_mut_ptr","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/bccapi.rs\") line 96","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
-{"name":"<bccapi::__IncompleteArrayField<T>>::as_slice","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/bccapi.rs\") line 100","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/bccapi.rs\") line 100","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<bccapi::__IncompleteArrayField<T>>::as_mut_slice","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/bccapi.rs\") line 104","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/bccapi.rs\") line 104","kind":{"UnsafeFnCall":"Rust"}}]}

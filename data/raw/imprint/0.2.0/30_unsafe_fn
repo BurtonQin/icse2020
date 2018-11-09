@@ -1,6 +1,0 @@
-{"name":"ix::Ix::from_raw","from_trait":true,"arguments":[],"sources":[]}
-{"name":"<ix::BoxedSl<'l, T>>::from_raw","from_trait":true,"arguments":[],"sources":[]}
-{"name":"<ix::Sl<'a, 'l, T>>::from_raw","from_trait":true,"arguments":[{"type_info":"type(*const T)","kind":"RawPointer"}],"sources":[]}
-{"name":"<ix::MutSl<'a, 'l, T>>::from_raw","from_trait":true,"arguments":[{"type_info":"type(*mut T)","kind":"RawPointer"}],"sources":[]}
-{"name":"ix::IxRange::from_raw","from_trait":true,"arguments":[],"sources":[]}
-{"name":"<Val<'x, T>>::known","from_trait":true,"arguments":[],"sources":[]}

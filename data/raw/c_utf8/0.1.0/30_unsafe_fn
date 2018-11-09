@@ -1,6 +1,0 @@
-{"name":"c_utf8_buf::CUtf8Buf::from_string_unchecked","from_trait":true,"arguments":[],"sources":[]}
-{"name":"c_utf8::CUtf8::from_ptr","from_trait":true,"arguments":[{"type_info":"type(*const c_char)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/c_utf8.rs\") line 165","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"c_utf8::CUtf8::from_bytes_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/c_utf8.rs\") line 226","kind":"DerefRawPointer"}]}
-{"name":"c_utf8::CUtf8::from_str_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/c_utf8.rs\") line 232","kind":"DerefRawPointer"}]}
-{"name":"c_utf8::CUtf8::from_str_unchecked_mut","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/c_utf8.rs\") line 238","kind":"DerefRawPointer"}]}
-{"name":"c_utf8::CUtf8::from_c_str_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/c_utf8.rs\") line 245","kind":{"UnsafeFnCall":"Rust"}}]}

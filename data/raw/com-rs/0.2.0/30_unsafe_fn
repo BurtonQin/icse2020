@@ -1,3 +1,0 @@
-{"name":"unknown::IUnknown::query_interface","from_trait":true,"arguments":[{"type_info":"type(*mut *mut c_void)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/com-rs-0.2.0/src/unknown.rs\") line 43","kind":"DerefRawPointer"}]}
-{"name":"unknown::IUnknown::add_ref","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/com-rs-0.2.0/src/unknown.rs\") line 49","kind":"DerefRawPointer"}]}
-{"name":"unknown::IUnknown::release","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/com-rs-0.2.0/src/unknown.rs\") line 55","kind":"DerefRawPointer"}]}

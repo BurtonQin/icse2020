@@ -1,6 +1,0 @@
-{"name":"<arena::Arena as std::marker::Send>"}
-{"name":"<arena::Arena as std::marker::Sync>"}
-{"name":"<job::Job as std::marker::Send>"}
-{"name":"<worker::Worker as std::marker::Send>"}
-{"name":"<iter::vec::NoDropVec<T> as std::marker::Sync>"}
-{"name":"<Spawner::recurse::SendCounter as std::marker::Send>"}

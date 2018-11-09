@@ -1,7 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"home_dir_relative\"), disambiguator: 0 }]","has_unsafe":false,"name":"home_dir_relative"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"user_data_dir\"), disambiguator: 0 }]","has_unsafe":false,"name":"user_data_dir"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"site_data_dir\"), disambiguator: 0 }]","has_unsafe":false,"name":"site_data_dir"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"user_config_dir\"), disambiguator: 0 }]","has_unsafe":false,"name":"user_config_dir"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"site_config_dir\"), disambiguator: 0 }]","has_unsafe":false,"name":"site_config_dir"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"user_cache_dir\"), disambiguator: 0 }]","has_unsafe":false,"name":"user_cache_dir"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"user_log_dir\"), disambiguator: 0 }]","has_unsafe":false,"name":"user_log_dir"}

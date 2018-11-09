@@ -1,6 +1,0 @@
-{"name":"api::RenderDocV100::shutdown","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/api.rs\") line 103","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/api.rs\") line 103","kind":{"UnsafeFnCall":"C"}}]}
-{"name":"<entry::RD_LIB as lazy_static::Deref>::deref::__stability","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__lazy_static_internal\") line 13","kind":"Static"}]}
-{"name":"<RenderDoc<V>>::raw_api","from_trait":true,"arguments":[],"sources":[]}
-{"name":"<RenderDoc<entry::version::V100> as api::RenderDocV100>::entry_v100","from_trait":true,"arguments":[],"sources":[]}
-{"name":"<RenderDoc<entry::version::V110> as api::RenderDocV100>::entry_v100","from_trait":true,"arguments":[],"sources":[]}
-{"name":"<RenderDoc<entry::version::V110> as api::RenderDocV110>::entry_v110","from_trait":true,"arguments":[],"sources":[]}

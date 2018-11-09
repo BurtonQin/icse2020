@@ -1,8 +1,0 @@
-{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"MPI_Recv\"), disambiguator: 0 }]","name":"MPI_Recv","crate_name":"rust_mpi"}
-{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"MPI_Send\"), disambiguator: 0 }]","name":"MPI_Send","crate_name":"rust_mpi"}
-{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"MPI_Finalize\"), disambiguator: 0 }]","name":"MPI_Finalize","crate_name":"rust_mpi"}
-{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"MPI_Recv\"), disambiguator: 0 }]","name":"MPI_Recv","crate_name":"rust_mpi"}
-{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"MPI_Comm_size\"), disambiguator: 0 }]","name":"MPI_Comm_size","crate_name":"rust_mpi"}
-{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"MPI_Init\"), disambiguator: 0 }]","name":"MPI_Init","crate_name":"rust_mpi"}
-{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"MPI_Send\"), disambiguator: 0 }]","name":"MPI_Send","crate_name":"rust_mpi"}
-{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"MPI_Comm_rank\"), disambiguator: 0 }]","name":"MPI_Comm_rank","crate_name":"rust_mpi"}

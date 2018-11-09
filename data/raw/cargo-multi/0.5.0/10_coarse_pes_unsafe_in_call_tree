@@ -1,7 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"announce\"), disambiguator: 0 }]","has_unsafe":false,"name":"announce"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"print_ident\"), disambiguator: 0 }]","has_unsafe":false,"name":"print_ident"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"report_output\"), disambiguator: 0 }]","has_unsafe":false,"name":"report_output"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"read_file\"), disambiguator: 0 }]","has_unsafe":false,"name":"read_file"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"find_workspaces\"), disambiguator: 0 }]","has_unsafe":false,"name":"find_workspaces"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"find_crates\"), disambiguator: 0 }]","has_unsafe":true,"name":"find_crates"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}

@@ -1,3 +1,0 @@
-{"name":"ffi::crc_imp::mz_crc32_combine","from_trait":false,"arguments":[],"sources":[]}
-{"name":"<mem::DirCompress as mem::Direction>::destroy","from_trait":true,"arguments":[{"type_info":"type(*mut ffi::mz_stream)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/flate2-1.0.2/src/mem.rs\") line 571","kind":{"UnsafeFnCall":"C"}}]}
-{"name":"<mem::DirDecompress as mem::Direction>::destroy","from_trait":true,"arguments":[{"type_info":"type(*mut ffi::mz_stream)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/flate2-1.0.2/src/mem.rs\") line 576","kind":{"UnsafeFnCall":"C"}}]}

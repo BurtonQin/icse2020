@@ -1,9 +1,0 @@
-{"name":"<<header::common::content_disposition::DispositionParam as std::fmt::Display>::fmt::RE as lazy_static::Deref>::deref::__stability","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__lazy_static_internal\") line 13","kind":"Static"}]}
-{"name":"httpresponse::POOL::__getit","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__thread_local_inner\") line 16","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<uri::DEFAULT_QUOTER as lazy_static::Deref>::deref::__stability","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__lazy_static_internal\") line 13","kind":"Static"}]}
-{"name":"client::writer::CACHED::__getit","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__thread_local_inner\") line 16","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<server::h2::IoWrapper<T> as tokio_io::AsyncRead>::prepare_uninitialized_buffer","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/actix-web-0.7.7/src/server/h2.rs\") line 454","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"server::message::POOL::__getit","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__thread_local_inner\") line 16","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<server::settings::DEFAULT_CPUPOOL as lazy_static::Deref>::deref::__stability","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__lazy_static_internal\") line 13","kind":"Static"}]}
-{"name":"ws::mask::ShortSlice::new","from_trait":true,"arguments":[],"sources":[]}
-{"name":"ws::mask::cast_slice","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/actix-web-0.7.7/src/ws/mask.rs\") line 74","kind":{"UnsafeFnCall":"Rust"}}]}

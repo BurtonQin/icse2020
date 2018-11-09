@@ -1,7 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Trait(\"Middleware\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"before\"), disambiguator: 0 }]","has_unsafe":false,"name":"Middleware::before"}
-{"def_path":"[DisambiguatedDefPathData { data: Trait(\"Middleware\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"after\"), disambiguator: 0 }]","has_unsafe":false,"name":"Middleware::after"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"MiddlewareBuilder::new"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"add\"), disambiguator: 0 }]","has_unsafe":false,"name":"MiddlewareBuilder::add"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"around\"), disambiguator: 0 }]","has_unsafe":true,"name":"MiddlewareBuilder::around"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"call\"), disambiguator: 0 }]","has_unsafe":true,"name":"<MiddlewareBuilder as conduit::Handler>::call"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"run_afters\"), disambiguator: 0 }]","has_unsafe":false,"name":"run_afters"}

@@ -1,4 +1,0 @@
-{"name":"<mpmc::Sender<T> as std::marker::Send>"}
-{"name":"<mpmc::Sender<T> as std::marker::Sync>"}
-{"name":"<mpmc::Receiver<T> as std::marker::Send>"}
-{"name":"<mpmc::Receiver<T> as std::marker::Sync>"}

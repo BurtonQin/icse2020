@@ -1,7 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"output_to\"), disambiguator: 0 }]","has_unsafe":false,"name":"output_to"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"run\"), disambiguator: 0 }]","has_unsafe":true,"name":"run"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_all_mash_files\"), disambiguator: 0 }]","has_unsafe":true,"name":"parse_all_mash_files"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_mash_files\"), disambiguator: 0 }]","has_unsafe":true,"name":"parse_mash_files"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"calc_sketch_distances\"), disambiguator: 0 }]","has_unsafe":false,"name":"calc_sketch_distances"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"open_mash_file\"), disambiguator: 0 }]","has_unsafe":true,"name":"open_mash_file"}

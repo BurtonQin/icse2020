@@ -1,9 +1,0 @@
-{"name":"container_traits::Trustworthy"}
-{"name":"container_traits::Contiguous"}
-{"name":"container_traits::GetUnchecked"}
-{"name":"container_traits::GetUncheckedMut"}
-{"name":"container_traits::ContiguousMut"}
-{"name":"container_traits::Pushable"}
-{"name":"container_traits::OnePointRange"}
-{"name":"pointer::PointerRange"}
-{"name":"pointer::ContainerRef"}

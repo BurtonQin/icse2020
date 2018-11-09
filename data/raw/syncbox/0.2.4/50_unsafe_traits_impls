@@ -1,5 +1,0 @@
-{"name":"<array_queue::State<T> as std::marker::Send>"}
-{"name":"<array_queue::State<T> as std::marker::Sync>"}
-{"name":"<linked_queue::NodePtr<T> as std::marker::Send>"}
-{"name":"<thread_pool::ThreadPoolInner<T, Q> as std::marker::Send>"}
-{"name":"<thread_pool::ThreadPoolInner<T, Q> as std::marker::Sync>"}

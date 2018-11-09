@@ -1,6 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"LOG_RECORDS\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"__init\"), disambiguator: 0 }]","has_unsafe":false,"name":"LOG_RECORDS::__init"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"enabled\"), disambiguator: 0 }]","has_unsafe":false,"name":"<TestingLogger as log::Log>::enabled"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"log\"), disambiguator: 0 }]","has_unsafe":false,"name":"<TestingLogger as log::Log>::log"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"flush\"), disambiguator: 0 }]","has_unsafe":false,"name":"<TestingLogger as log::Log>::flush"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"setup\"), disambiguator: 0 }]","has_unsafe":false,"name":"setup"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"validate\"), disambiguator: 0 }]","has_unsafe":false,"name":"validate"}

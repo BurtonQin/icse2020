@@ -1,7 +1,0 @@
-{"name":"i2c::SclPin"}
-{"name":"i2c::SdaPin"}
-{"name":"serial::TxPin"}
-{"name":"serial::RxPin"}
-{"name":"spi::SckPin"}
-{"name":"spi::MisoPin"}
-{"name":"spi::MosiPin"}

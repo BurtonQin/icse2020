@@ -1,5 +1,0 @@
-{"name":"<std::option::Option<T> as CellCloneSafe>"}
-{"name":"<std::rc::Rc<T> as CellCloneSafe>"}
-{"name":"<std::rc::Weak<T> as CellCloneSafe>"}
-{"name":"<std::sync::Arc<T> as CellCloneSafe>"}
-{"name":"<std::sync::Weak<T> as CellCloneSafe>"}

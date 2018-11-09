@@ -1,4 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"process\"), disambiguator: 0 }]","has_unsafe":true,"name":"<(dyn Stateless<'a, I, O> + 'static) as Stateful<'a, I, O>>::process"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"train_online_rng\"), disambiguator: 0 }]","has_unsafe":false,"name":"<O as OnlineRand<S, R>>::train_online_rng"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"train_offline_rng\"), disambiguator: 0 }]","has_unsafe":false,"name":"<O as OfflineRand<S, R>>::train_offline_rng"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"mate\"), disambiguator: 0 }]","has_unsafe":false,"name":"<M as MateRand<R>>::mate"}

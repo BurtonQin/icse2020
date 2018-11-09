@@ -1,3 +1,0 @@
-{"name":"<unique::Unique<T>>::new","from_trait":true,"arguments":[{"type_info":"type(*mut T)","kind":"RawPointer"}],"sources":[]}
-{"name":"<unique::Unique<T>>::get","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/pcap-0.7.0/src/unique.rs\") line 24","kind":"DerefRawPointer"}]}
-{"name":"<unique::Unique<T>>::get_mut","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/pcap-0.7.0/src/unique.rs\") line 27","kind":"DerefRawPointer"}]}

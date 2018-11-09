@@ -1,2 +1,0 @@
-{"abi":"C","def_path":"[DisambiguatedDefPathData { data: Module(\"unix\"), disambiguator: 0 }, DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"getrlimit\"), disambiguator: 0 }]","name":"getrlimit","crate_name":"libc"}
-{"abi":"C","def_path":"[DisambiguatedDefPathData { data: Module(\"unix\"), disambiguator: 0 }, DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"setrlimit\"), disambiguator: 0 }]","name":"setrlimit","crate_name":"libc"}

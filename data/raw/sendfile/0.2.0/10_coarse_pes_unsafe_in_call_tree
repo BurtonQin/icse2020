@@ -1,3 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"platform\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"sendfile_internal\"), disambiguator: 0 }]","has_unsafe":true,"name":"platform::sendfile_internal"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"platform\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"sendfile\"), disambiguator: 0 }]","has_unsafe":true,"name":"platform::sendfile"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"platform\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"sendfile_all\"), disambiguator: 0 }]","has_unsafe":true,"name":"platform::sendfile_all"}

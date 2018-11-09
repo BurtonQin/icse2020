@@ -1,2 +1,0 @@
-{"name":"<os::linux::BlockDev as std::os::ext::io::FromRawFd>::from_raw_fd","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/os/linux.rs\") line 33","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/os/linux.rs\") line 33","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"os::linux::BlockDev::from_file_raw","from_trait":true,"arguments":[],"sources":[]}

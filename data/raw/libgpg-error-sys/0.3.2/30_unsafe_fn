@@ -1,3 +1,0 @@
-{"name":"funcs::gpg_err_make_from_errno","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/libgpg-error-sys-0.3.2/lib.rs\") line 60","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"funcs::gpg_error_from_errno","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/libgpg-error-sys-0.3.2/lib.rs\") line 65","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"funcs::gpg_error_from_syserror","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/libgpg-error-sys-0.3.2/lib.rs\") line 70","kind":{"UnsafeFnCall":"C"}}]}

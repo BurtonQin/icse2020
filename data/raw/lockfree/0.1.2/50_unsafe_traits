@@ -1,6 +1,0 @@
-{"name":"<queue::Queue<T> as std::marker::Send>"}
-{"name":"<queue::Queue<T> as std::marker::Sync>"}
-{"name":"<stack::Stack<T> as std::marker::Send>"}
-{"name":"<stack::Stack<T> as std::marker::Sync>"}
-{"name":"<darc::Darc<T> as std::marker::Send>"}
-{"name":"<darc::Darc<T> as std::marker::Sync>"}

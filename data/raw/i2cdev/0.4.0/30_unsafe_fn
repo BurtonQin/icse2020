@@ -1,3 +1,0 @@
-{"name":"ffi::ioctl::set_i2c_slave_address","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 29","kind":{"UnsafeFnCall":"C"}}]}
-{"name":"ffi::ioctl::i2c_smbus","from_trait":false,"arguments":[{"type_info":"type(*const i2c_smbus_ioctl_data)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 21","kind":{"UnsafeFnCall":"C"}}]}
-{"name":"ffi::i2c_smbus_access","from_trait":false,"arguments":[{"type_info":"type(*mut i2c_smbus_data)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/i2cdev-0.4.0/src/ffi.rs\") line 204","kind":{"UnsafeFnCall":"Rust"}}]}

@@ -1,3 +1,0 @@
-{"name":"ColorBufferType::from_raw","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 68","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
-{"name":"ConfigCaveat::from_raw","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 82","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
-{"name":"TransparentType::from_raw","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 95","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}

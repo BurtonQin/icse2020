@@ -1,4 +1,0 @@
-{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"as_slice\"), disambiguator: 0 }]","name":"as_slice","crate_name":"memmap"}
-{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"mem\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"uninitialized\"), disambiguator: 0 }]","name":"uninitialized","crate_name":"core"}
-{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"string\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"as_mut_vec\"), disambiguator: 0 }]","name":"as_mut_vec","crate_name":"alloc"}
-{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"as_slice\"), disambiguator: 0 }]","name":"as_slice","crate_name":"memmap"}

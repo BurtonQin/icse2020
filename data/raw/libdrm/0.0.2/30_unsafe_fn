@@ -1,6 +1,0 @@
-{"name":"<control::ConnectorId as control::ResourceId>::from_raw_id","from_trait":true,"arguments":[],"sources":[]}
-{"name":"<control::EncoderId as control::ResourceId>::from_raw_id","from_trait":true,"arguments":[],"sources":[]}
-{"name":"<control::CrtcId as control::ResourceId>::from_raw_id","from_trait":true,"arguments":[],"sources":[]}
-{"name":"<control::FramebufferId as control::ResourceId>::from_raw_id","from_trait":true,"arguments":[],"sources":[]}
-{"name":"<control::PlaneId as control::ResourceId>::from_raw_id","from_trait":true,"arguments":[],"sources":[]}
-{"name":"<control::PropertyId as control::ResourceId>::from_raw_id","from_trait":true,"arguments":[],"sources":[]}

@@ -1,5 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"read_file\"), disambiguator: 0 }]","has_unsafe":false,"name":"read_file"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"read_credentials\"), disambiguator: 0 }]","has_unsafe":false,"name":"read_credentials"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"run\"), disambiguator: 0 }]","has_unsafe":true,"name":"run"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"execute_api_commands\"), disambiguator: 0 }]","has_unsafe":true,"name":"execute_api_commands"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}

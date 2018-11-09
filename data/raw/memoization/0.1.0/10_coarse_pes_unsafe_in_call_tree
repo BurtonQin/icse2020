@@ -1,9 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Memoized<I, O, Func>>::new"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"process\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Memoized<I, O, Func>>::process"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"fetch\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Memoized<I, O, Func>>::fetch"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Memoized<I, O, Func>>::get"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"is_initialized\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Memoized<I, O, Func>>::is_initialized"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"deref\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Memoized<I, O, Func> as std::ops::Deref>::deref"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"deref_mut\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Memoized<I, O, Func> as std::ops::DerefMut>::deref_mut"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"borrow\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Memoized<I, O, Func> as std::borrow::Borrow<O>>::borrow"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"test\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"eq_str\"), disambiguator: 0 }]","has_unsafe":false,"name":"test::eq_str"}

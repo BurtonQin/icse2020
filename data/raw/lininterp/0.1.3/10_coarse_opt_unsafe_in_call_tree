@@ -1,9 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Trait(\"Lerp\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lerp_points\"), disambiguator: 0 }]","has_unsafe":false,"name":"Lerp::lerp_points"}
-{"def_path":"[DisambiguatedDefPathData { data: Trait(\"LerpBetween\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lerp_between\"), disambiguator: 0 }]","has_unsafe":false,"name":"LerpBetween::lerp_between"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"lerp\"), disambiguator: 0 }]","has_unsafe":false,"name":"lerp"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lerp_by\"), disambiguator: 0 }]","has_unsafe":false,"name":"<(&'a T, &'b T) as LerpBy<F>>::lerp_by"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"pair_with\"), disambiguator: 0 }]","has_unsafe":false,"name":"<A as PairWith<B>>::pair_with"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"lerp_points\"), disambiguator: 0 }]","has_unsafe":false,"name":"lerp_points"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"lerp\"), disambiguator: 0 }]","has_unsafe":false,"name":"<T as Lerp<Factor>>::lerp"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"inv_lerp\"), disambiguator: 0 }]","has_unsafe":false,"name":"<T as InvLerp<Factor>>::inv_lerp"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"avr\"), disambiguator: 0 }]","has_unsafe":false,"name":"avr"}

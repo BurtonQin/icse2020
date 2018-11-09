@@ -1,2 +1,0 @@
-{"name":"<std::cell::Cell<std::vec::Vec<T>> as VecCellExt<T>>::get_value_clone_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 760","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/lib.rs\") line 760","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<std::cell::Cell<std::vec::Vec<T>> as VecCellExt<T>>::set_len","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 800","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/lib.rs\") line 800","kind":{"UnsafeFnCall":"Rust"}}]}

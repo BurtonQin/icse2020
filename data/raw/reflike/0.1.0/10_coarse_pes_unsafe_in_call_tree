@@ -1,5 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"from_ref\"), disambiguator: 0 }]","has_unsafe":false,"name":"<&'a T as Ref<'a, T>>::from_ref"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"from_ref\"), disambiguator: 0 }]","has_unsafe":false,"name":"<T as Ref<'a, T>>::from_ref"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"from_ref\"), disambiguator: 0 }]","has_unsafe":true,"name":"<(R, &'a V) as Ref<'a, (K, V)>>::from_ref"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"from_ref_mut\"), disambiguator: 0 }]","has_unsafe":false,"name":"<&'a mut T as RefMut<'a, T>>::from_ref_mut"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"from_ref_mut\"), disambiguator: 0 }]","has_unsafe":true,"name":"<(R, &'a mut V) as RefMut<'a, (K, V)>>::from_ref_mut"}

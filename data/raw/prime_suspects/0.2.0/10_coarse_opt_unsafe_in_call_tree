@@ -1,6 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"next\"), disambiguator: 0 }]","has_unsafe":false,"name":"<SquareMultiple as std::iter::Iterator>::next"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"SquareMultiple::new"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"eratosthenes_sieve\"), disambiguator: 0 }]","has_unsafe":false,"name":"eratosthenes_sieve"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"segmented_sieve\"), disambiguator: 0 }]","has_unsafe":false,"name":"segmented_sieve"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"segmented_sieve_parallel\"), disambiguator: 0 }]","has_unsafe":false,"name":"segmented_sieve_parallel"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"sieve_segment\"), disambiguator: 0 }]","has_unsafe":false,"name":"sieve_segment"}

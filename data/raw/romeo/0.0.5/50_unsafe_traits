@@ -1,5 +1,0 @@
-{"name":"<address::Address<A> as std::marker::Send>"}
-{"name":"<address::Address<A> as std::marker::Sync>"}
-{"name":"<cell::Cell<A> as std::marker::Send>"}
-{"name":"<cell::Cell<A> as std::marker::Sync>"}
-{"name":"<system::System as std::marker::Send>"}

@@ -1,7 +1,0 @@
-{"sources":[["60",[{"loc":"file: Macros(\"syscall\") line 7","kind":{"UnsafeFnCall":"Rust"}}]],["71",[{"loc":"file: Real(\"src/io.rs\") line 21","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/io.rs\") line 20","kind":{"UnsafeFnCall":"Rust"}}]]]}
-{"sources":[["180",[{"loc":"file: Real(\"src/panicking.rs\") line 34","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
-{"sources":[["485",[{"loc":"file: Real(\"src/lib.rs\") line 49","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["496",[{"loc":"file: Real(\"src/lib.rs\") line 49","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
-{"sources":[["307",[{"loc":"file: Real(\"src/lib.rs\") line 103","kind":"Static"}]]]}
-{"sources":[["366",[{"loc":"file: Real(\"src/lib.rs\") line 142","kind":"Static"}]]]}
-{"sources":[["375",[{"loc":"file: Real(\"src/lib.rs\") line 147","kind":"Static"}]]]}
-{"sources":[["385",[{"loc":"file: Macros(\"syscall\") line 3","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/lib.rs\") line 153","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}

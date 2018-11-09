@@ -1,1 +1,0 @@
-{"name":"NvList::add_binary","from_trait":true,"arguments":[{"type_info":"type(*mut i8)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 345","kind":{"UnsafeFnCall":"C"}}]}

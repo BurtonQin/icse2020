@@ -1,8 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"wgs_encrypt\"), disambiguator: 0 }]","has_unsafe":false,"name":"wgs_encrypt"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_outside_china\"), disambiguator: 0 }]","has_unsafe":false,"name":"is_outside_china"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"wgs_to_gcj\"), disambiguator: 0 }]","has_unsafe":false,"name":"wgs_to_gcj"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"gcj_to_wgs\"), disambiguator: 0 }]","has_unsafe":false,"name":"gcj_to_wgs"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"gcj_to_bd\"), disambiguator: 0 }]","has_unsafe":false,"name":"gcj_to_bd"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"bd_to_gcj\"), disambiguator: 0 }]","has_unsafe":false,"name":"bd_to_gcj"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"bd_to_wgs\"), disambiguator: 0 }]","has_unsafe":false,"name":"bd_to_wgs"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"wgs_to_bd\"), disambiguator: 0 }]","has_unsafe":false,"name":"wgs_to_bd"}

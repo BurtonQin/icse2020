@@ -1,4 +1,0 @@
-{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"libssh2_exit\"), disambiguator: 0 }]","name":"libssh2_exit","crate_name":"libssh2-sys"}
-{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"libssh2_init\"), disambiguator: 0 }]","name":"libssh2_init","crate_name":"libssh2-sys"}
-{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"init\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"platform_init\"), disambiguator: 0 }]","name":"platform_init","crate_name":"libssh2-sys"}
-{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"atexit\"), disambiguator: 0 }]","name":"atexit","crate_name":"libc"}

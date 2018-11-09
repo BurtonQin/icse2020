@@ -1,8 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"<BitReader<R>>::new"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"read_bit\"), disambiguator: 0 }]","has_unsafe":true,"name":"<BitReader<R>>::read_bit"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"read_bits\"), disambiguator: 0 }]","has_unsafe":true,"name":"<BitReader<R>>::read_bits"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"read_byte\"), disambiguator: 0 }]","has_unsafe":true,"name":"<BitReader<R>>::read_byte"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"read_bytes\"), disambiguator: 0 }]","has_unsafe":true,"name":"<BitReader<R>>::read_bytes"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"buf_len\"), disambiguator: 0 }]","has_unsafe":false,"name":"<BitReader<R>>::buf_len"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"expand_buffer\"), disambiguator: 0 }]","has_unsafe":true,"name":"<BitReader<R>>::expand_buffer"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"read\"), disambiguator: 0 }]","has_unsafe":true,"name":"<BitReader<R> as std::io::Read>::read"}

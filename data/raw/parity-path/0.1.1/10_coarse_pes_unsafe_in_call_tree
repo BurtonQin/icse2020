@@ -1,7 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"config_path\"), disambiguator: 0 }]","has_unsafe":false,"name":"config_path"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"config_path_with\"), disambiguator: 0 }]","has_unsafe":false,"name":"config_path_with"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"ethereum\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"default\"), disambiguator: 0 }]","has_unsafe":false,"name":"ethereum::default"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"ethereum\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"test\"), disambiguator: 0 }]","has_unsafe":false,"name":"ethereum::test"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"ethereum\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"with_default\"), disambiguator: 0 }]","has_unsafe":false,"name":"ethereum::with_default"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"ethereum\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"with_testnet\"), disambiguator: 0 }]","has_unsafe":false,"name":"ethereum::with_testnet"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"restrict_permissions_owner\"), disambiguator: 0 }]","has_unsafe":false,"name":"restrict_permissions_owner"}

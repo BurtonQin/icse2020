@@ -1,3 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"logger\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"init\"), disambiguator: 0 }]","has_unsafe":true,"name":"logger::init"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"os\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"os_check\"), disambiguator: 0 }]","has_unsafe":true,"name":"os::os_check"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}

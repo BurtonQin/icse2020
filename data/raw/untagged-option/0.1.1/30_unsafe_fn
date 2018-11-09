@@ -1,3 +1,0 @@
-{"name":"<UntaggedOption<T>>::take","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/untagged-option-0.1.1/src/lib.rs\") line 90","kind":"AccessToUnionField"}]}
-{"name":"<UntaggedOption<T>>::as_ref","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/untagged-option-0.1.1/src/lib.rs\") line 102","kind":"AccessToUnionField"}]}
-{"name":"<UntaggedOption<T>>::as_mut","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/untagged-option-0.1.1/src/lib.rs\") line 114","kind":"AccessToUnionField"}]}

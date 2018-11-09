@@ -1,8 +1,0 @@
-{"name":"<prefetch::Read as prefetch::ReadWrite>"}
-{"name":"<prefetch::Write as prefetch::ReadWrite>"}
-{"name":"<prefetch::None as prefetch::Locality>"}
-{"name":"<prefetch::Low as prefetch::Locality>"}
-{"name":"<prefetch::Medium as prefetch::Locality>"}
-{"name":"<prefetch::High as prefetch::Locality>"}
-{"name":"<prefetch::Instruction as prefetch::CacheType>"}
-{"name":"<prefetch::Data as prefetch::CacheType>"}

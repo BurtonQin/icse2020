@@ -1,2 +1,0 @@
-{"name":"base::ACS","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/base.rs\") line 165","kind":"ExternStatic"},{"loc":"file: Real(\"src/base.rs\") line 165","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/base.rs\") line 165","kind":"DerefRawPointer"}]}
-{"name":"wide::WACS","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/wide.rs\") line 6","kind":"ExternStatic"},{"loc":"file: Real(\"src/wide.rs\") line 6","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/wide.rs\") line 6","kind":"DerefRawPointer"}]}

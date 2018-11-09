@@ -1,4 +1,0 @@
-{"name":"<Tree<T>>::node","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/ego-tree-0.5.0/src/lib.rs\") line 138","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<Tree<T>>::node_mut","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/ego-tree-0.5.0/src/lib.rs\") line 142","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<Tree<T>>::get_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/ego-tree-0.5.0/src/lib.rs\") line 147","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<Tree<T>>::get_unchecked_mut","from_trait":true,"arguments":[],"sources":[]}

@@ -1,3 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"platform\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"handler\"), disambiguator: 0 }]","has_unsafe":false,"name":"platform::handler"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"set_handler\"), disambiguator: 0 }]","has_unsafe":true,"name":"set_handler"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"set_handler_with_polling_rate\"), disambiguator: 0 }]","has_unsafe":true,"name":"set_handler_with_polling_rate"}

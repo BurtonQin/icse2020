@@ -1,5 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"rust_fun_print_something\"), disambiguator: 0 }]","has_unsafe":false,"name":"rust_fun_print_something"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"rust_fun_add_one\"), disambiguator: 0 }]","has_unsafe":false,"name":"rust_fun_add_one"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"c_fun_print_something_else\"), disambiguator: 0 }]","has_unsafe":false,"name":"c_fun_print_something_else"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"c_fun_add_two\"), disambiguator: 0 }]","has_unsafe":false,"name":"c_fun_add_two"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"c_fun_variadic\"), disambiguator: 0 }]","has_unsafe":false,"name":"c_fun_variadic"}

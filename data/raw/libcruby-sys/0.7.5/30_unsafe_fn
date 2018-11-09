@@ -1,4 +1,0 @@
-{"name":"NUM2USIZE","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 268","kind":{"UnsafeFnCall":"C"}},{"loc":"file: Real(\"src/lib.rs\") line 270","kind":{"UnsafeFnCall":"C"}}]}
-{"name":"USIZE2NUM","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 277","kind":{"UnsafeFnCall":"C"}},{"loc":"file: Real(\"src/lib.rs\") line 279","kind":{"UnsafeFnCall":"C"}}]}
-{"name":"NUM2ISIZE","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 286","kind":{"UnsafeFnCall":"C"}},{"loc":"file: Real(\"src/lib.rs\") line 288","kind":{"UnsafeFnCall":"C"}}]}
-{"name":"ISIZE2NUM","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 295","kind":{"UnsafeFnCall":"C"}},{"loc":"file: Real(\"src/lib.rs\") line 297","kind":{"UnsafeFnCall":"C"}}]}

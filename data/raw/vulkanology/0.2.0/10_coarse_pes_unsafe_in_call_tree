@@ -1,2 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"build_utils\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"concatenate_files\"), disambiguator: 0 }]","has_unsafe":true,"name":"build_utils::concatenate_files"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"build_utils\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"concatenate_files\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"append_file\"), disambiguator: 0 }]","has_unsafe":false,"name":"build_utils::concatenate_files::append_file"}

@@ -1,2 +1,0 @@
-{"name":"vsprintf","from_trait":false,"arguments":[{"type_info":"type(*const c_char)","kind":"RawPointer"},{"type_info":"type(*mut V)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 18","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"vsprintf_raw","from_trait":false,"arguments":[{"type_info":"type(*const c_char)","kind":"RawPointer"},{"type_info":"type(*mut V)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 33","kind":{"UnsafeFnCall":"C"}}]}

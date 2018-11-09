@@ -1,5 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"derive_is_enum_variant\"), disambiguator: 0 }]","has_unsafe":false,"name":"derive_is_enum_variant"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"join\"), disambiguator: 0 }]","has_unsafe":false,"name":"PredicateConfig::join"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"from\"), disambiguator: 0 }]","has_unsafe":false,"name":"<PredicateConfig as std::convert::From<&'a std::vec::Vec<syn::Attribute>>>::from"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"expand_derive_is_enum_variant\"), disambiguator: 0 }]","has_unsafe":false,"name":"expand_derive_is_enum_variant"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","has_unsafe":true,"name":"registrar::_registrar"}

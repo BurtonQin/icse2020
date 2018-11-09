@@ -1,2 +1,0 @@
-{"name":"<ObjPool<T>>::get_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 584","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/lib.rs\") line 585","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<ObjPool<T>>::get_unchecked_mut","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 609","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/lib.rs\") line 610","kind":{"UnsafeFnCall":"Rust"}}]}

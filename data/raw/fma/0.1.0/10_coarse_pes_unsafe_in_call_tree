@@ -1,3 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"fma\"), disambiguator: 0 }]","has_unsafe":true,"name":"fma"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"fma\"), disambiguator: 0 }]","has_unsafe":true,"name":"<f64 as Fma>::fma"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"fma\"), disambiguator: 0 }]","has_unsafe":true,"name":"<f32 as Fma>::fma"}

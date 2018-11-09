@@ -1,7 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"Graph::new"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"add_node\"), disambiguator: 0 }]","has_unsafe":false,"name":"Graph::add_node"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"add_edge\"), disambiguator: 0 }]","has_unsafe":false,"name":"Graph::add_edge"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"node_count\"), disambiguator: 0 }]","has_unsafe":false,"name":"Graph::node_count"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"edge_count\"), disambiguator: 0 }]","has_unsafe":false,"name":"Graph::edge_count"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"barabasi_albert_graph\"), disambiguator: 0 }]","has_unsafe":false,"name":"barabasi_albert_graph"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"_test_barabasi_albert\"), disambiguator: 0 }]","has_unsafe":true,"name":"_test_barabasi_albert"}

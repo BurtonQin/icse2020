@@ -1,7 +1,0 @@
-{"name":"<u16 as samples_formats::Sample>"}
-{"name":"<i16 as samples_formats::Sample>"}
-{"name":"<f32 as samples_formats::Sample>"}
-{"name":"<cpal_impl::enumerate::Devices as std::marker::Send>"}
-{"name":"<cpal_impl::enumerate::Devices as std::marker::Sync>"}
-{"name":"<cpal_impl::EventLoop as std::marker::Send>"}
-{"name":"<cpal_impl::EventLoop as std::marker::Sync>"}

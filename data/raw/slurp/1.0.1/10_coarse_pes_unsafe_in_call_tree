@@ -1,5 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"read_all_to_string\"), disambiguator: 0 }]","has_unsafe":false,"name":"read_all_to_string"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"read_all_bytes\"), disambiguator: 0 }]","has_unsafe":false,"name":"read_all_bytes"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"iterate_all_lines\"), disambiguator: 0 }]","has_unsafe":true,"name":"iterate_all_lines"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"read_all_lines\"), disambiguator: 0 }]","has_unsafe":true,"name":"read_all_lines"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"next\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Lines as std::iter::Iterator>::next"}

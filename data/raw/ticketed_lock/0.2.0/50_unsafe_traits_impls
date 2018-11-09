@@ -1,4 +1,0 @@
-{"name":"<ReadTicket<T> as std::marker::Send>"}
-{"name":"<WriteTicket<T> as std::marker::Send>"}
-{"name":"<TicketedLock<T> as std::marker::Send>"}
-{"name":"<TicketedLock<T> as std::marker::Sync>"}

@@ -1,8 +1,0 @@
-{"name":"<primitives::atomic_cell::StorageCell<T> as std::marker::Send>"}
-{"name":"<primitives::invariant::InvariantInner<T> as std::marker::Send>"}
-{"name":"<primitives::invariant::InvariantInner<T> as std::marker::Sync>"}
-{"name":"<handle::resizing::ResizingHandle<H> as handle::core::Handle>"}
-{"name":"<handle::bounded::BoundedHandle<H> as handle::core::Handle>"}
-{"name":"<containers::atomic_cell::AtomicCellInner<T, Tag> as std::marker::Sync>"}
-{"name":"<containers::atomic_cell_array::AtomicCellArrayInner<T, Tag> as std::marker::Sync>"}
-{"name":"<containers::mpsc_queue::MpscQueueInner<T, SenderTag> as std::marker::Sync>"}

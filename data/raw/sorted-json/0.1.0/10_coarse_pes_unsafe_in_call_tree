@@ -1,5 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"to_json\"), disambiguator: 0 }]","has_unsafe":true,"name":"to_json"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"escape_json_string\"), disambiguator: 0 }]","has_unsafe":false,"name":"escape_json_string"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"to_json_\"), disambiguator: 0 }]","has_unsafe":true,"name":"to_json_"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"from_escape_table\"), disambiguator: 0 }]","has_unsafe":false,"name":"CharEscape::from_escape_table"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"write_char_escape\"), disambiguator: 0 }]","has_unsafe":false,"name":"write_char_escape"}

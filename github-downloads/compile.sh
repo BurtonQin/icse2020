@@ -3,8 +3,6 @@ CRT_DIR=`pwd`
 source ../exports.sh
 source ../rust_flags.sh
 
-export DO_NOT_USE_INSTANCE=true
-
 export RUST_LOG=error
 
 cd $GITHUB_APPS
@@ -21,6 +19,12 @@ function compile_1 {
 	cd $1
 	cargo +$NIGHTLY clean
 	cargo +$NIGHTLY build
+	RESULT=$?
+	if [ $RESULT -eq 0 ]; then
+        	echo "$1">>$PROJECT_OUT/github_pass.txt
+	else
+		echo "$1">>$PROJECT_OUT/github_fails.txt
+	fi
 	cd $GITHUB_APPS
 }
 
@@ -30,15 +34,15 @@ function compile_2 {
         cd $1/$2
 	cargo +$NIGHTLY clean
         cargo +$NIGHTLY build
+	RESULT=$?
+        if [ $RESULT -eq 0 ]; then
+                echo "$1/$2">>$PROJECT_OUT/github_pass.txt
+        else
+                echo "$1/$2">>$PROJECT_OUT/github_fails.txt
+        fi
         cd $GITHUB_APPS
 }
 
-function compile {
-	pushd $1
-	cargo +$NIGHTLY clean
-        cargo +$NIGHTLY build
-	popd
-}
 
 compile_1 servo
 
@@ -74,7 +78,6 @@ cd $GITHUB_APPS
 
 compile_1 rsign
 compile_1 flowgger
-compile_1 alacritty
 compile_1 collections-app
 compile_1 polkadot
 compile_1 mooneye-gb
@@ -94,6 +97,7 @@ compile_1 zemeroth
 #graphics
 compile_1 svgcleaner
 compile_1 Image-Processing-CLI-in-Rust
+compile_1 alacritty
 
 #security tools
 compile_1 rshijack
@@ -186,7 +190,6 @@ compile_1 mockito
 compile_1 speculate.rs
 compile_1 afl.rs
 compile_1 trust
-compile_1 tarpaulin
 compile_1 utest
 
 #rustc
@@ -194,11 +197,16 @@ set_out_dir "rust"
 cd rust
 #./x.py build --stage 0
 
+function compile {
+	pushd $1
+	cargo +$NIGHTLY clean
+        cargo +$NIGHTLY build
+	popd
+}
+
 compile src/liballoc
 compile src/libcore/
-compile src/libstd/
-compile src/libtest/
-
+#compile src/libstd/
 
 cd $GITHUB_APPS
 

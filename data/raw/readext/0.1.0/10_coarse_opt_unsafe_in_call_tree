@@ -1,2 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Trait(\"ReadExt\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"read_into_vec\"), disambiguator: 0 }]","has_unsafe":false,"name":"ReadExt::read_into_vec"}
-{"def_path":"[DisambiguatedDefPathData { data: Trait(\"ReadExt\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"read_into_string\"), disambiguator: 0 }]","has_unsafe":false,"name":"ReadExt::read_into_string"}

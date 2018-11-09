@@ -1,5 +1,0 @@
-{"name":"dbg::WRITER::__getit","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__thread_local_inner\") line 16","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"binemit::memorysink::MemoryCodeSink::new","from_trait":true,"arguments":[{"type_info":"type(*mut u8)","kind":"RawPointer"}],"sources":[]}
-{"name":"timing::details::CURRENT_PASS::__getit","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__thread_local_inner\") line 16","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"timing::details::PASS_TIME::__getit","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__thread_local_inner\") line 16","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"context::Context::emit_to_memory","from_trait":true,"arguments":[{"type_info":"type(*mut u8)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/cranelift-codegen-0.18.1/src/context.rs\") line 173","kind":{"UnsafeFnCall":"Rust"}}]}

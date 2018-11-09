@@ -1,2 +1,0 @@
-{"name":"blob::Blob::from_raw","from_trait":true,"arguments":[{"type_info":"type(*const u8)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/blob.rs\") line 38","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/blob.rs\") line 40","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"FDT::from_raw","from_trait":true,"arguments":[{"type_info":"type(*const u8)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 73","kind":{"UnsafeFnCall":"Rust"}}]}

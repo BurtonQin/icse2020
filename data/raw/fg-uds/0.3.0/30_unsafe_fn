@@ -1,5 +1,0 @@
-{"name":"sockaddr_un","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 48","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"create_source_from_socket","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 118","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"new_source","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 133","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"UnixStream::from_fd","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 247","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<UnixStream as tokio_io::AsyncRead>::prepare_uninitialized_buffer","from_trait":true,"arguments":[],"sources":[]}

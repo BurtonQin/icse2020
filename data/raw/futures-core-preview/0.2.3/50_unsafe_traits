@@ -1,5 +1,0 @@
-{"name":"<task::wake::Waker as core::marker::Send>"}
-{"name":"<task::wake::Waker as core::marker::Sync>"}
-{"name":"<task::wake::ArcWrapped<T> as task::wake::UnsafeWake>"}
-{"name":"<task::atomic_waker::AtomicWaker as core::marker::Send>"}
-{"name":"<task::atomic_waker::AtomicWaker as core::marker::Sync>"}

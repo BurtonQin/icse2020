@@ -1,3 +1,0 @@
-{"name":"<hamt::UnsafeNode<K, V, IS, H>>::drop_entry","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/hamt.rs\") line 398","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/hamt.rs\") line 395","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/hamt.rs\") line 401","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"hamt::allocate","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/hamt.rs\") line 1581","kind":{"UnsafeFnCall":"C"}}]}
-{"name":"hamt::deallocate","from_trait":false,"arguments":[{"type_info":"type(*mut u8)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/hamt.rs\") line 1586","kind":{"UnsafeFnCall":"C"}}]}

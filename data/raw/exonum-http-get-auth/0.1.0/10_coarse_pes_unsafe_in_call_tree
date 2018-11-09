@@ -1,2 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"get_auth\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"authenticate\"), disambiguator: 0 }]","has_unsafe":true,"name":"get_auth::authenticate"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"get_auth\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"authenticate_request\"), disambiguator: 0 }]","has_unsafe":false,"name":"get_auth::authenticate_request"}

@@ -1,2 +1,0 @@
-{"name":"rental_impl::OwnedReader::all_erased","from_trait":true,"arguments":[],"sources":[{"loc":"file: Macros(\"rental\") line 5","kind":{"UnsafeFnCall":"RustIntrinsic"}},{"loc":"file: Macros(\"rental\") line 5","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
-{"name":"rental_impl::OwnedReader::all_mut_erased","from_trait":true,"arguments":[],"sources":[{"loc":"file: Macros(\"rental\") line 5","kind":{"UnsafeFnCall":"RustIntrinsic"}},{"loc":"file: Macros(\"rental\") line 5","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}

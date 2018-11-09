@@ -1,4 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"new_types\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"derive\"), disambiguator: 0 }]","has_unsafe":false,"name":"new_types::derive"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"structs\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"derive\"), disambiguator: 0 }]","has_unsafe":false,"name":"structs::derive"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"derive_variable\"), disambiguator: 0 }]","has_unsafe":false,"name":"derive_variable"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","has_unsafe":true,"name":"registrar::_registrar"}

@@ -1,2 +1,0 @@
-{"name":"borrow","from_trait":false,"arguments":[{"type_info":"type(*const T)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/binary-tree-0.2.0/src/lib.rs\") line 28","kind":"DerefRawPointer"}]}
-{"name":"borrow_mut","from_trait":false,"arguments":[{"type_info":"type(*mut T)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/binary-tree-0.2.0/src/lib.rs\") line 32","kind":"DerefRawPointer"}]}

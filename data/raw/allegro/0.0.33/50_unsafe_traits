@@ -1,8 +1,0 @@
-{"name":"<bitmap::Bitmap as std::marker::Send>"}
-{"name":"<bitmap::Bitmap as std::marker::Sync>"}
-{"name":"<bitmap::SubBitmap as std::marker::Send>"}
-{"name":"<bitmap::SubBitmap as std::marker::Sync>"}
-{"name":"<config::Config as std::marker::Send>"}
-{"name":"<config::Config as std::marker::Sync>"}
-{"name":"<core::ThreadState as std::marker::Send>"}
-{"name":"<transformations::Transform as std::marker::Send>"}

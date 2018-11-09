@@ -1,4 +1,0 @@
-{"name":"<ExternalSet<T> as std::marker::Sync>"}
-{"name":"<ExternalSet<T> as std::marker::Send>"}
-{"name":"<ItemOwner<'s, T> as std::marker::Send>"}
-{"name":"<ItemOwner<'s, T> as std::marker::Sync>"}

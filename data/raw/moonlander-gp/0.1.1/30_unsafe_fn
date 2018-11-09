@@ -1,6 +1,0 @@
-{"name":"<(dyn ast::AstNode + 'static) as downcast::Downcast<T>>::downcast_ref_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Macros(\"impl_downcast\") line 5","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
-{"name":"<(dyn ast::AstNode + 'static) as downcast::Downcast<T>>::downcast_mut_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Macros(\"impl_downcast\") line 7","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
-{"name":"<(dyn ast::AstNode + 'static) as downcast::Downcast<T>>::unchecked_downcast","from_trait":true,"arguments":[],"sources":[{"loc":"file: Macros(\"impl_downcast\") line 9","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
-{"name":"<(dyn ast::AstNode + 'static)>::downcast_ref_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Macros(\"downcast_methods\") line 7","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<(dyn ast::AstNode + 'static)>::downcast_mut_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Macros(\"downcast_methods\") line 13","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<(dyn ast::AstNode + 'static)>::unchecked_downcast","from_trait":true,"arguments":[],"sources":[{"loc":"file: Macros(\"downcast_methods\") line 20","kind":{"UnsafeFnCall":"Rust"}}]}

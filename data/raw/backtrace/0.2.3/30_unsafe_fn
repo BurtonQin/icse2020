@@ -1,3 +1,0 @@
-{"name":"symbolize::libbacktrace::call","from_trait":false,"arguments":[{"type_info":"type(*mut c_void)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/backtrace-0.2.3/src/symbolize/libbacktrace.rs\") line 118","kind":"DerefRawPointer"}]}
-{"name":"symbolize::libbacktrace::init_state","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/backtrace-0.2.3/src/symbolize/libbacktrace.rs\") line 154","kind":"Static"}]}
-{"name":"lock::LOCK_HELD::__getit","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__thread_local_inner\") line 16","kind":{"UnsafeFnCall":"Rust"}}]}

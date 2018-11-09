@@ -1,3 +1,0 @@
-{"sources":[["492",[{"loc":"file: Real(\"src/atom.rs\") line 252","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
-{"sources":[["2419",[{"loc":"file: Real(\"src/atomutils.rs\") line 320","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/atomutils.rs\") line 322","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/atomutils.rs\") line 322","kind":"DerefRawPointer"}]]]}
-{"sources":[["2484",[{"loc":"file: Real(\"src/atomutils.rs\") line 341","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/atomutils.rs\") line 341","kind":"DerefRawPointer"}]]]}

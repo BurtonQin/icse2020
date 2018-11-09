@@ -1,6 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"entry\"), disambiguator: 0 }]","has_unsafe":true,"name":"entry"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"exception\"), disambiguator: 0 }]","has_unsafe":true,"name":"exception"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"pre_init\"), disambiguator: 0 }]","has_unsafe":true,"name":"pre_init"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"random_ident\"), disambiguator: 0 }]","has_unsafe":true,"name":"random_ident"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"extract_static_muts\"), disambiguator: 0 }]","has_unsafe":false,"name":"extract_static_muts"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","has_unsafe":true,"name":"registrar::_registrar"}

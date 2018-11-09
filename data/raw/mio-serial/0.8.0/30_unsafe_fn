@@ -1,1 +1,0 @@
-{"name":"<unix::Serial as std::os::ext::io::FromRawFd>::from_raw_fd","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/mio-serial-0.8.0/src/unix.rs\") line 441","kind":{"UnsafeFnCall":"Rust"}}]}

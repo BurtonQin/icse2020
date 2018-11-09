@@ -1,6 +1,0 @@
-{"name":"<OwningRef<O, T>>::new_assert_stable_address","from_trait":true,"arguments":[],"sources":[]}
-{"name":"<OwningRef<O, T>>::map_owner","from_trait":true,"arguments":[],"sources":[]}
-{"name":"<OwningRefMut<O, T>>::new_assert_stable_address","from_trait":true,"arguments":[],"sources":[]}
-{"name":"<OwningRefMut<O, T>>::map_owner","from_trait":true,"arguments":[],"sources":[]}
-{"name":"<std::cell::RefCell<T> as ToHandle>::to_handle","from_trait":true,"arguments":[{"type_info":"type(*const Self)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"/home/nora/.cargo/registry/src/github.com-1ecc6299db9ec823/owning_ref-0.3.3/src/lib.rs\") line 1075","kind":"DerefRawPointer"}]}
-{"name":"<std::cell::RefCell<T> as ToHandleMut>::to_handle_mut","from_trait":true,"arguments":[{"type_info":"type(*const Self)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"/home/nora/.cargo/registry/src/github.com-1ecc6299db9ec823/owning_ref-0.3.3/src/lib.rs\") line 1080","kind":"DerefRawPointer"}]}

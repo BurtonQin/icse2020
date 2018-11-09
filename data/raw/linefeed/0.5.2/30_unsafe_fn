@@ -1,5 +1,0 @@
-{"name":"<memory::MemoryReadGuard<'a> as terminal::TerminalReader<memory::MemoryTerminal>>::prepare_with_lock","from_trait":true,"arguments":[],"sources":[]}
-{"name":"<memory::MemoryReadGuard<'a> as terminal::TerminalReader<memory::MemoryTerminal>>::restore_with_lock","from_trait":true,"arguments":[],"sources":[]}
-{"name":"terminal::DefaultTerminal::cast_writer","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/terminal.rs\") line 175","kind":"DerefRawPointer"}]}
-{"name":"<mortal::TerminalReadGuard<'a> as terminal::TerminalReader<terminal::DefaultTerminal>>::prepare_with_lock","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/terminal.rs\") line 211","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<mortal::TerminalReadGuard<'a> as terminal::TerminalReader<terminal::DefaultTerminal>>::restore_with_lock","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/terminal.rs\") line 229","kind":{"UnsafeFnCall":"Rust"}}]}

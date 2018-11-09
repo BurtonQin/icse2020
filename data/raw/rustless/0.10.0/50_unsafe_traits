@@ -1,4 +1,0 @@
-{"name":"<framework::api::Api as std::marker::Send>"}
-{"name":"<framework::endpoint::Endpoint as std::marker::Send>"}
-{"name":"<framework::app::Application as std::marker::Send>"}
-{"name":"<framework::app::Application as std::marker::Sync>"}

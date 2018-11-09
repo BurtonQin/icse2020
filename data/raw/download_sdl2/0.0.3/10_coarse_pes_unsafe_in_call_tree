@@ -1,9 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"zip_filename_to_target_filename\"), disambiguator: 0 }]","has_unsafe":true,"name":"zip_filename_to_target_filename"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"ungzip_file\"), disambiguator: 0 }]","has_unsafe":true,"name":"ungzip_file"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"unzip_file\"), disambiguator: 0 }]","has_unsafe":true,"name":"unzip_file"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<PathError as std::fmt::Debug>::fmt"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"description\"), disambiguator: 0 }]","has_unsafe":false,"name":"<PathError as std::error::Error>::description"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<PathError as std::fmt::Display>::fmt"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"download_file\"), disambiguator: 0 }]","has_unsafe":true,"name":"download_file"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"fetch_windows_libraries\"), disambiguator: 0 }]","has_unsafe":true,"name":"fetch_windows_libraries"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"download\"), disambiguator: 0 }]","has_unsafe":true,"name":"download"}

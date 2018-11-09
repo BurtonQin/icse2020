@@ -1,4 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Store<TState, TAction>>::new"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"dispatch\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Store<TState, TAction>>::dispatch"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"subscribe\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Store<TState, TAction>>::subscribe"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"state\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Store<TState, TAction>>::state"}

@@ -1,2 +1,0 @@
-{"name":"<SliceRingImpl<T>>::copy_nonoverlapping","from_trait":true,"arguments":[],"sources":[]}
-{"name":"<SliceRingImpl<T>>::handle_cap_increase","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 324","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/lib.rs\") line 350","kind":{"UnsafeFnCall":"Rust"}}]}

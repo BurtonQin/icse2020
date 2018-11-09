@@ -1,8 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":true,"name":"ArcballCamera::new"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_mat4\"), disambiguator: 0 }]","has_unsafe":false,"name":"ArcballCamera::get_mat4"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"rotate\"), disambiguator: 0 }]","has_unsafe":true,"name":"ArcballCamera::rotate"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"zoom\"), disambiguator: 0 }]","has_unsafe":true,"name":"ArcballCamera::zoom"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"pan\"), disambiguator: 0 }]","has_unsafe":true,"name":"ArcballCamera::pan"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"update_screen\"), disambiguator: 0 }]","has_unsafe":false,"name":"ArcballCamera::update_screen"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"screen_to_arcball\"), disambiguator: 0 }]","has_unsafe":false,"name":"ArcballCamera::screen_to_arcball"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"clamp\"), disambiguator: 0 }]","has_unsafe":false,"name":"clamp"}

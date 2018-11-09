@@ -1,2 +1,0 @@
-{"name":"sys::<impl std::os::ext::io::FromRawFd for PipeReader>::from_raw_fd","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/os_pipe-0.7.0/src/unix.rs\") line 68","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"sys::<impl std::os::ext::io::FromRawFd for PipeWriter>::from_raw_fd","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/os_pipe-0.7.0/src/unix.rs\") line 86","kind":{"UnsafeFnCall":"Rust"}}]}

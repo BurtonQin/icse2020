@@ -1,2 +1,0 @@
-{"name":"_extern_definitions::__js_fn__builtin_alloc","from_trait":false,"arguments":[],"sources":[]}
-{"name":"_extern_definitions::__js_fn__builtin_dealloc","from_trait":false,"arguments":[{"type_info":"type(*mut u8)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 38","kind":{"UnsafeFnCall":"Rust"}}]}

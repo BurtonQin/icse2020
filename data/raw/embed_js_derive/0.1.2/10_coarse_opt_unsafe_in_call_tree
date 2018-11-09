@@ -1,4 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"unwrap_delimited\"), disambiguator: 0 }]","has_unsafe":false,"name":"unwrap_delimited"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"prim_to_ty\"), disambiguator: 0 }]","has_unsafe":false,"name":"prim_to_ty"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"embed_js\"), disambiguator: 0 }]","has_unsafe":false,"name":"embed_js"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","has_unsafe":true,"name":"registrar::_registrar"}

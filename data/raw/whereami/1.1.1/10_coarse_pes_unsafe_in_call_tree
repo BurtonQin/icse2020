@@ -1,3 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"implementation\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_path\"), disambiguator: 0 }]","has_unsafe":true,"name":"implementation::get_path"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"executable_path\"), disambiguator: 0 }]","has_unsafe":true,"name":"executable_path"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"module_path\"), disambiguator: 0 }]","has_unsafe":true,"name":"module_path"}

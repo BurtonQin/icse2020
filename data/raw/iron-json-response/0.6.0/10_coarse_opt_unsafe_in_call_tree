@@ -1,8 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<JsonResponse as std::clone::Clone>::clone"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"JsonResponse::new"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"json\"), disambiguator: 0 }]","has_unsafe":false,"name":"JsonResponse::json"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"jsonp\"), disambiguator: 0 }]","has_unsafe":false,"name":"JsonResponse::jsonp"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"JsonResponseMiddleware::new"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"modify\"), disambiguator: 0 }]","has_unsafe":true,"name":"<JsonResponse as iron::modifier::Modifier<iron::Response>>::modify"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"after\"), disambiguator: 0 }]","has_unsafe":true,"name":"<JsonResponseMiddleware as iron::AfterMiddleware>::after"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"catch\"), disambiguator: 0 }]","has_unsafe":true,"name":"<JsonResponseMiddleware as iron::AfterMiddleware>::catch"}

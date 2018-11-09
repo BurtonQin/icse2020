@@ -1,8 +1,0 @@
-{"sources":[["83",[{"loc":"file: Real(\"src/buf.rs\") line 33","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/buf.rs\") line 32","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
-{"sources":[["143",[{"loc":"file: Real(\"src/buf.rs\") line 49","kind":{"UnsafeFnCall":"Rust"}}]]]}
-{"sources":[["536",[{"loc":"file: Macros(\"__lazy_static_internal\") line 14","kind":{"UnsafeFnCall":"Rust"}}]]]}
-{"sources":[["205",[{"loc":"file: Real(\"src/io/stdin.rs\") line 14","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/io/stdin.rs\") line 14","kind":{"UnsafeFnCall":"Rust"}}]]]}
-{"sources":[["242",[{"loc":"file: Real(\"src/io/stdin.rs\") line 28","kind":{"UnsafeFnCall":"C"}}]]]}
-{"sources":[["625",[{"loc":"file: Macros(\"__lazy_static_internal\") line 14","kind":{"UnsafeFnCall":"Rust"}}]]]}
-{"sources":[["638",[{"loc":"file: Real(\"src/io/stdout.rs\") line 12","kind":{"UnsafeFnCall":"C"}}]]]}
-{"sources":[["300",[{"loc":"file: Real(\"src/io/stdout.rs\") line 20","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/io/stdout.rs\") line 20","kind":{"UnsafeFnCall":"Rust"}}]]]}

@@ -1,2 +1,0 @@
-{"name":"sys::do_futex","from_trait":false,"arguments":[{"type_info":"type(*mut c_int)","kind":"RawPointer"},{"type_info":"type(*const timespec)","kind":"RawPointer"},{"type_info":"type(*mut c_int)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/sys.rs\") line 12","kind":{"UnsafeFnCall":"C"}}]}
-{"name":"raw::rwfutex4::likely","from_trait":false,"arguments":[],"sources":[]}

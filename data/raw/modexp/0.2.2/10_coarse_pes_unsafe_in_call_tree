@@ -1,4 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"modexp\"), disambiguator: 0 }]","has_unsafe":true,"name":"modexp"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"modexp_slow\"), disambiguator: 0 }]","has_unsafe":true,"name":"modexp_slow"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"modexp_internal\"), disambiguator: 0 }]","has_unsafe":true,"name":"modexp_internal"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"modexp_fast_internal\"), disambiguator: 0 }]","has_unsafe":true,"name":"modexp_fast_internal"}

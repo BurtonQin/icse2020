@@ -1,5 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"vec\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"vec2_zero\"), disambiguator: 0 }]","has_unsafe":false,"name":"vec::vec2_zero"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"vec\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"vec3_zero\"), disambiguator: 0 }]","has_unsafe":false,"name":"vec::vec3_zero"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"vec\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"vec4_zero\"), disambiguator: 0 }]","has_unsafe":false,"name":"vec::vec4_zero"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"mat\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"mat2x2_zero\"), disambiguator: 0 }]","has_unsafe":false,"name":"mat::mat2x2_zero"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"linear_algebra\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lu_decomp\"), disambiguator: 0 }]","has_unsafe":false,"name":"linear_algebra::lu_decomp"}

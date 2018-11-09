@@ -1,3 +1,0 @@
-{"name":"<Slot<T>>::as_ref","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/slot-0.2.5/src/lib.rs\") line 22","kind":"AccessToUnionField"}]}
-{"name":"<Slot<T>>::as_mut","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/slot-0.2.5/src/lib.rs\") line 25","kind":"AccessToUnionField"}]}
-{"name":"<Slot<T>>::unwrap","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/slot-0.2.5/src/lib.rs\") line 28","kind":"AccessToUnionField"}]}

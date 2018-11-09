@@ -1,6 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"opts\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<opts::InputFlags as std::fmt::Debug>::fmt"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"opts\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"options\"), disambiguator: 0 }]","has_unsafe":false,"name":"opts::options"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"opts\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"print_usage\"), disambiguator: 0 }]","has_unsafe":true,"name":"opts::print_usage"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"opts\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"print_version\"), disambiguator: 0 }]","has_unsafe":false,"name":"opts::print_version"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"opts\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"read\"), disambiguator: 0 }]","has_unsafe":true,"name":"opts::InputFlags::read"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}

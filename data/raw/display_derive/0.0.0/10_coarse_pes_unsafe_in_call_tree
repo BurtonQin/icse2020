@@ -1,5 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"Display\"), disambiguator: 0 }]","has_unsafe":true,"name":"Display"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"display_derive\"), disambiguator: 0 }]","has_unsafe":true,"name":"display_derive"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"display_body\"), disambiguator: 0 }]","has_unsafe":true,"name":"display_body"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"find_display_msg\"), disambiguator: 0 }]","has_unsafe":false,"name":"find_display_msg"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","has_unsafe":true,"name":"registrar::_registrar"}

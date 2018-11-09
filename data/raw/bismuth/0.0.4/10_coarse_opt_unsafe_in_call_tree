@@ -1,9 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":true,"name":"State::new"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"react\"), disambiguator: 0 }]","has_unsafe":true,"name":"<State as bismuth::event::React>::react"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":true,"name":"<MainActivity<R>>::new"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"update\"), disambiguator: 0 }]","has_unsafe":true,"name":"<MainActivity<R> as bismuth::framework::Activity<State, R>>::update"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"render\"), disambiguator: 0 }]","has_unsafe":true,"name":"<MainActivity<R> as bismuth::framework::Activity<State, R>>::render"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"react\"), disambiguator: 0 }]","has_unsafe":true,"name":"<MainActivity<R> as bismuth::event::React>::react"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"new_tree\"), disambiguator: 0 }]","has_unsafe":true,"name":"new_tree"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"new_camera\"), disambiguator: 0 }]","has_unsafe":true,"name":"new_camera"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}

@@ -1,2 +1,0 @@
-{"name":"discriminator::Natural::new_unchecked","from_trait":true,"arguments":[],"sources":[]}
-{"name":"discriminator::Natural::bdisc_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/discriminator.rs\") line 399","kind":{"UnsafeFnCall":"Rust"}}]}

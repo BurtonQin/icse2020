@@ -1,5 +1,0 @@
-{"name":"AppendBuf::advance","from_trait":true,"arguments":[],"sources":[]}
-{"name":"AllocInfo::allocate","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 249","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/lib.rs\") line 250","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"AllocInfo::from_buf","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 258","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"AllocInfo::from_raw_buf","from_trait":true,"arguments":[{"type_info":"type(*mut u8)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 267","kind":{"UnsafeFnCall":"RustIntrinsic"}},{"loc":"file: Real(\"src/lib.rs\") line 268","kind":"DerefRawPointer"}]}
-{"name":"AllocInfo::decrement","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 304","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}

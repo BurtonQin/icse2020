@@ -1,4 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"dot\"), disambiguator: 0 }]","has_unsafe":false,"name":"dot"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"dot\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"as_bytes\"), disambiguator: 0 }]","has_unsafe":false,"name":"dot::as_bytes"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"d8\"), disambiguator: 0 }]","has_unsafe":false,"name":"d8"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"ipv4_address\"), disambiguator: 0 }]","has_unsafe":false,"name":"ipv4_address"}

@@ -1,1 +1,0 @@
-{"name":"<std::vec::Vec<T> as vec::VecExt<T>>::new_uninitialized","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/vec.rs\") line 73","kind":{"UnsafeFnCall":"Rust"}}]}

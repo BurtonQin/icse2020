@@ -1,2 +1,0 @@
-{"name":"memory::deallocate","from_trait":false,"arguments":[{"type_info":"type(*mut u8)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/memory.rs\") line 6","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"memory::allocate","from_trait":false,"arguments":[],"sources":[]}

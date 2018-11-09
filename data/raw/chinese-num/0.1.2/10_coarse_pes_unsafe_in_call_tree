@@ -1,4 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"digit_pos_to_name\"), disambiguator: 0 }]","has_unsafe":false,"name":"digit_pos_to_name"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"append_digit\"), disambiguator: 0 }]","has_unsafe":false,"name":"append_digit"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"to_chinese_num\"), disambiguator: 0 }]","has_unsafe":true,"name":"to_chinese_num"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"to_chinese_num\"), disambiguator: 0 }]","has_unsafe":true,"name":"<usize as ToChineseNum>::to_chinese_num"}

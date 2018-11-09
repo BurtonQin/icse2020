@@ -1,5 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"poll\"), disambiguator: 0 }]","has_unsafe":true,"name":"<OrderedNoGaps<S, F, K> as futures::Stream>::poll"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"poll_from_stream\"), disambiguator: 0 }]","has_unsafe":true,"name":"<OrderedNoGaps<S, F, K>>::poll_from_stream"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"is_next\"), disambiguator: 0 }]","has_unsafe":true,"name":"<OrderedNoGaps<S, F, K>>::is_next"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"buffer_peek_is_next\"), disambiguator: 0 }]","has_unsafe":true,"name":"<OrderedNoGaps<S, F, K>>::buffer_peek_is_next"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"ordered_no_gaps\"), disambiguator: 0 }]","has_unsafe":false,"name":"ordered_no_gaps"}

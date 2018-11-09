@@ -1,3 +1,0 @@
-{"name":"<zd::ZeroDrop<T>>::new_uninitialized","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/zd.rs\") line 64","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<zd::ZeroDrop<T>>::zero_out","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/zd.rs\") line 76","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
-{"name":"<cow::ZeroDropCow<'a, T>>::new_uninitialized","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/cow.rs\") line 47","kind":{"UnsafeFnCall":"Rust"}}]}

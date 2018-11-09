@@ -1,2 +1,0 @@
-{"name":"<fd_guard::FdGuard as std::os::ext::io::FromRawFd>::from_raw_fd","from_trait":true,"arguments":[],"sources":[]}
-{"name":"<inotify::Inotify as std::os::ext::io::FromRawFd>::from_raw_fd","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/inotify-0.6.1/src/inotify.rs\") line 478","kind":{"UnsafeFnCall":"Rust"}}]}

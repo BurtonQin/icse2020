@@ -1,5 +1,0 @@
-{"name":"<render::framebuffer::FrameBuffer<P>>::pixel","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/render/framebuffer.rs\") line 142","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<render::framebuffer::FrameBuffer<P>>::pixel_mut","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/render/framebuffer.rs\") line 151","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<render::framebuffer::FrameBuffer<P>>::depth","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/render/framebuffer.rs\") line 160","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<render::framebuffer::FrameBuffer<P>>::depth_mut","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/render/framebuffer.rs\") line 169","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<render::framebuffer::FrameBuffer<P>>::pixel_depth_mut","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/render/framebuffer.rs\") line 179","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/render/framebuffer.rs\") line 179","kind":{"UnsafeFnCall":"Rust"}}]}

@@ -1,6 +1,0 @@
-{"name":"<T as SafeBorrow<T>>"}
-{"name":"<&'a T as SafeBorrow<T>>"}
-{"name":"<&'a mut T as SafeBorrow<T>>"}
-{"name":"<std::rc::Rc<T> as SafeBorrow<T>>"}
-{"name":"<std::sync::Arc<T> as SafeBorrow<T>>"}
-{"name":"<std::boxed::Box<T> as SafeBorrow<T>>"}

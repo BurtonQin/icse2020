@@ -1,5 +1,0 @@
-{"name":"<log::Log as std::marker::Send>"}
-{"name":"<log::Log as std::marker::Sync>"}
-{"name":"<log::IOBufs as std::marker::Send>"}
-{"name":"<log::IOBufs as std::marker::Sync>"}
-{"name":"<log::Reservation as std::marker::Send>"}

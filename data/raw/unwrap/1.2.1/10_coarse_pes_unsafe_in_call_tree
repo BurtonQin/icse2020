@@ -1,3 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"verbose_unwrap\"), disambiguator: 0 }]","has_unsafe":false,"name":"<std::result::Result<T, E> as VerboseUnwrap>::verbose_unwrap"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"verbose_unwrap\"), disambiguator: 0 }]","has_unsafe":false,"name":"<std::option::Option<T> as VerboseUnwrap>::verbose_unwrap"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"verbose_unwrap_err\"), disambiguator: 0 }]","has_unsafe":false,"name":"<std::result::Result<T, E> as VerboseUnwrapErr>::verbose_unwrap_err"}

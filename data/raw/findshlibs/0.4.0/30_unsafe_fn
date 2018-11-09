@@ -1,2 +1,0 @@
-{"name":"linux::SharedLibrary::new","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/linux/mod.rs\") line 113","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/linux/mod.rs\") line 114","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"linux::SharedLibrary::callback","from_trait":true,"arguments":[{"type_info":"type(*mut bindings::dl_phdr_info)","kind":"RawPointer"},{"type_info":"type(*mut raw::c_void)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/linux/mod.rs\") line 125","kind":"DerefRawPointer"}]}

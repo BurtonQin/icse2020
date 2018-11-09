@@ -1,4 +1,0 @@
-{"name":"<raii::Raii<T> as Handle>::handle","from_trait":true,"arguments":[],"sources":[]}
-{"name":"<environment::Environment<V> as Handle>::handle","from_trait":true,"arguments":[],"sources":[]}
-{"name":"<connection::Connection<'env> as Handle>::handle","from_trait":true,"arguments":[],"sources":[]}
-{"name":"<statement::Statement<'a, 'b, S, R> as Handle>::handle","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/odbc-0.9.8/src/statement/mod.rs\") line 70","kind":{"UnsafeFnCall":"Rust"}}]}

@@ -1,2 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Trait(\"AMQPConnectionNativeTlsExt\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"connect\"), disambiguator: 0 }]","has_unsafe":false,"name":"AMQPConnectionNativeTlsExt::connect"}
-{"def_path":"[DisambiguatedDefPathData { data: Trait(\"AMQPConnectionNativeTlsExt\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"connect_cancellable\"), disambiguator: 0 }]","has_unsafe":false,"name":"AMQPConnectionNativeTlsExt::connect_cancellable"}

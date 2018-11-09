@@ -1,4 +1,0 @@
-{"name":"<mutex::Mutex<T> as core::marker::Sync>"}
-{"name":"<mutex::Mutex<T> as core::marker::Send>"}
-{"name":"<rw_lock::RwLock<T> as core::marker::Send>"}
-{"name":"<rw_lock::RwLock<T> as core::marker::Sync>"}

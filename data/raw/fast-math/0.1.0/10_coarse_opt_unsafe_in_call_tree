@@ -1,5 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"log\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"log2\"), disambiguator: 0 }]","has_unsafe":true,"name":"log::log2"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"log\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"log2_exp_0\"), disambiguator: 0 }]","has_unsafe":true,"name":"log::log2_exp_0"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"log\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"log2_raw\"), disambiguator: 0 }]","has_unsafe":true,"name":"log::log2_raw"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"float\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"decompose\"), disambiguator: 0 }]","has_unsafe":true,"name":"float::decompose"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"float\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"recompose\"), disambiguator: 0 }]","has_unsafe":true,"name":"float::recompose"}

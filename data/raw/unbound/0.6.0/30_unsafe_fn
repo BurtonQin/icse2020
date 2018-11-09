@@ -1,1 +1,0 @@
-{"name":"rust_unbound_callback","from_trait":false,"arguments":[{"type_info":"type(*mut c_void)","kind":"RawPointer"},{"type_info":"type(*mut sys::ub_result)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 552","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/lib.rs\") line 553","kind":"DerefRawPointer"}]}

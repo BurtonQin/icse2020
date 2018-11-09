@@ -1,5 +1,0 @@
-{"name":"value::Value::unpack_from","from_trait":true,"arguments":[{"type_info":"type(*const VALUE)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/sciter-rs-0.5.44/src/value.rs\") line 535","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/sciter-rs-0.5.44/src/value.rs\") line 537","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"value::Value::copy_from","from_trait":true,"arguments":[{"type_info":"type(*const VALUE)","kind":"RawPointer"}],"sources":[]}
-{"name":"<_API as lazy_static::Deref>::deref::__stability","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__lazy_static_internal\") line 13","kind":"Static"}]}
-{"name":"<_GAPI as lazy_static::Deref>::deref::__stability","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__lazy_static_internal\") line 13","kind":"Static"}]}
-{"name":"<_RAPI as lazy_static::Deref>::deref::__stability","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__lazy_static_internal\") line 13","kind":"Static"}]}

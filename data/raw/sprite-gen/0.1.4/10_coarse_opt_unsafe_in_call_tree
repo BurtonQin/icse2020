@@ -1,5 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Options as std::clone::Clone>::clone"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"default\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Options as std::default::Default>::default"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"gen_sprite\"), disambiguator: 0 }]","has_unsafe":true,"name":"gen_sprite"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"onebit_output\"), disambiguator: 0 }]","has_unsafe":false,"name":"onebit_output"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"color_output\"), disambiguator: 0 }]","has_unsafe":true,"name":"color_output"}

@@ -1,3 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"visit_mac\"), disambiguator: 0 }]","has_unsafe":true,"name":"<JsVisitor<'a> as cpp_syn::visit::Visitor>::visit_mac"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"preprocess_crate\"), disambiguator: 0 }]","has_unsafe":true,"name":"preprocess_crate"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"postprocess_crate\"), disambiguator: 0 }]","has_unsafe":true,"name":"postprocess_crate"}

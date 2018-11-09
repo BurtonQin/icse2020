@@ -1,7 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"send_tcp_synack\"), disambiguator: 0 }]","has_unsafe":true,"name":"send_tcp_synack"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"send_tcp_rst\"), disambiguator: 0 }]","has_unsafe":true,"name":"send_tcp_rst"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"log_tcp_ack\"), disambiguator: 0 }]","has_unsafe":true,"name":"log_tcp_ack"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"usage\"), disambiguator: 0 }]","has_unsafe":false,"name":"usage"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"spawn_time_updater\"), disambiguator: 0 }]","has_unsafe":false,"name":"spawn_time_updater"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"packet_should_be_bypassed\"), disambiguator: 0 }]","has_unsafe":true,"name":"packet_should_be_bypassed"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}

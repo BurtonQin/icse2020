@@ -1,4 +1,0 @@
-{"name":"<connection::Connection<'cb> as std::marker::Send>"}
-{"name":"<context::Context<'lg> as std::marker::Send>"}
-{"name":"<logger::Logger<'cb> as std::marker::Send>"}
-{"name":"<stanza::Stanza<'cx> as std::marker::Send>"}

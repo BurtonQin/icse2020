@@ -1,2 +1,0 @@
-{"name":"item::<impl (dyn field::Field + 'static)>::downcast_ref_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/item.rs\") line 42","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/item.rs\") line 42","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
-{"name":"item::<impl (dyn field::Field + 'static)>::downcast_mut_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/item.rs\") line 46","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/item.rs\") line 46","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}

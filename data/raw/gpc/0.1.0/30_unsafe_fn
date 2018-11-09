@@ -1,3 +1,0 @@
-{"name":"<gpc::__BindgenUnionField<T>>::as_ref","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/unsafe_analysis/crates.io-downloads/gpc/target/debug/build/gpc-7e94939305a2202a/out/bindings.rs\") line 9","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
-{"name":"<gpc::__BindgenUnionField<T>>::as_mut","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/unsafe_analysis/crates.io-downloads/gpc/target/debug/build/gpc-7e94939305a2202a/out/bindings.rs\") line 11","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
-{"name":"<GPC_VERSION as lazy_static::Deref>::deref::__stability","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__lazy_static_internal\") line 13","kind":"Static"}]}

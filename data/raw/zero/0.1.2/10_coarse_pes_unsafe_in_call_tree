@@ -1,9 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"read\"), disambiguator: 0 }]","has_unsafe":true,"name":"read"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"read_array\"), disambiguator: 0 }]","has_unsafe":true,"name":"read_array"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"read_str\"), disambiguator: 0 }]","has_unsafe":false,"name":"read_str"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"read_strs_to_null\"), disambiguator: 0 }]","has_unsafe":false,"name":"read_strs_to_null"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 10 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<StrReaderIterator<'a> as core::clone::Clone>::clone"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 9 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<StrReaderIterator<'a> as core::fmt::Debug>::fmt"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 8 }, DisambiguatedDefPathData { data: ValueNs(\"next\"), disambiguator: 0 }]","has_unsafe":false,"name":"<StrReaderIterator<'a> as core::iter::Iterator>::next"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 8 }, DisambiguatedDefPathData { data: ValueNs(\"size_hint\"), disambiguator: 0 }]","has_unsafe":false,"name":"<StrReaderIterator<'a> as core::iter::Iterator>::size_hint"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"read_str_bytes\"), disambiguator: 0 }]","has_unsafe":false,"name":"read_str_bytes"}

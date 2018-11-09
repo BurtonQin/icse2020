@@ -1,7 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"app\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"build\"), disambiguator: 0 }]","has_unsafe":false,"name":"app::build"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"digraph\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_char\"), disambiguator: 0 }]","has_unsafe":false,"name":"digraph::get_char"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"digraph\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_digraph\"), disambiguator: 0 }]","has_unsafe":false,"name":"digraph::get_digraph"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"digraph\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"convert\"), disambiguator: 0 }]","has_unsafe":false,"name":"digraph::convert"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"digraph\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"filter\"), disambiguator: 0 }]","has_unsafe":false,"name":"digraph::filter"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"print_result\"), disambiguator: 0 }]","has_unsafe":true,"name":"print_result"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}

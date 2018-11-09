@@ -1,6 +1,0 @@
-{"name":"<gap_buffer::Range<'a, T>>::new","from_trait":true,"arguments":[],"sources":[]}
-{"name":"<gap_buffer::RangeMut<'a, T>>::new","from_trait":true,"arguments":[],"sources":[]}
-{"name":"<gap_buffer::Slice<T>>::get_with_lifetime","from_trait":true,"arguments":[],"sources":[]}
-{"name":"<gap_buffer::Slice<T>>::range_with_lifetime","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/gap_buffer.rs\") line 933","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/gap_buffer.rs\") line 933","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<gap_buffer::Slice<T>>::range_slice","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/gap_buffer.rs\") line 978","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<gap_buffer::Slice<T>>::as_slices_with_lifetime","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/gap_buffer.rs\") line 1035","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/gap_buffer.rs\") line 1037","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/gap_buffer.rs\") line 1038","kind":{"UnsafeFnCall":"Rust"}}]}

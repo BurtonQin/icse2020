@@ -1,2 +1,0 @@
-{"name":"MemSegment::alloc_uninitialized","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 470","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/lib.rs\") line 470","kind":"DerefRawPointer"}]}
-{"name":"PruCode::run","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 737","kind":{"UnsafeFnCall":"Rust"}}]}

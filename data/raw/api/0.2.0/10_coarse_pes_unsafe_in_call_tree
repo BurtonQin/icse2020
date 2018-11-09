@@ -1,7 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"to_string\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Method as std::string::ToString>::to_string"}
-{"def_path":"[DisambiguatedDefPathData { data: Trait(\"HttpResponse\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"is_1xx\"), disambiguator: 0 }]","has_unsafe":true,"name":"HttpResponse::is_1xx"}
-{"def_path":"[DisambiguatedDefPathData { data: Trait(\"HttpResponse\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"is_2xx\"), disambiguator: 0 }]","has_unsafe":true,"name":"HttpResponse::is_2xx"}
-{"def_path":"[DisambiguatedDefPathData { data: Trait(\"HttpResponse\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"is_3xx\"), disambiguator: 0 }]","has_unsafe":true,"name":"HttpResponse::is_3xx"}
-{"def_path":"[DisambiguatedDefPathData { data: Trait(\"HttpResponse\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"is_4xx\"), disambiguator: 0 }]","has_unsafe":true,"name":"HttpResponse::is_4xx"}
-{"def_path":"[DisambiguatedDefPathData { data: Trait(\"HttpResponse\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"is_5xx\"), disambiguator: 0 }]","has_unsafe":true,"name":"HttpResponse::is_5xx"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<SendError<S, A> as std::fmt::Debug>::fmt"}

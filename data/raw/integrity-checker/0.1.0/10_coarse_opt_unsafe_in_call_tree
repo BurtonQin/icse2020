@@ -1,8 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<ActionSummary as std::fmt::Debug>::fmt"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"validate_usize\"), disambiguator: 0 }]","has_unsafe":false,"name":"validate_usize"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"add_default_flags\"), disambiguator: 0 }]","has_unsafe":false,"name":"<clap::App<'a, 'b> as DefaultFlags>::add_default_flags"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_features\"), disambiguator: 0 }]","has_unsafe":false,"name":"parse_features"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_threads\"), disambiguator: 0 }]","has_unsafe":false,"name":"parse_threads"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_args\"), disambiguator: 0 }]","has_unsafe":true,"name":"parse_args"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"driver\"), disambiguator: 0 }]","has_unsafe":true,"name":"driver"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}

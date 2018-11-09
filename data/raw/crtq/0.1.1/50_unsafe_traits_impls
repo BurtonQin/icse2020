@@ -1,4 +1,0 @@
-{"name":"<Consumer<T> as std::marker::Send>"}
-{"name":"<Queue<T> as std::marker::Send>"}
-{"name":"<Producer<T> as std::marker::Send>"}
-{"name":"<Queue<T> as std::marker::Sync>"}

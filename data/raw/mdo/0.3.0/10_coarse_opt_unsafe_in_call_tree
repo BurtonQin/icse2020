@@ -1,8 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"option\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"bind\"), disambiguator: 0 }]","has_unsafe":false,"name":"option::bind"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"option\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"ret\"), disambiguator: 0 }]","has_unsafe":false,"name":"option::ret"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"option\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"mzero\"), disambiguator: 0 }]","has_unsafe":false,"name":"option::mzero"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"result\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"bind\"), disambiguator: 0 }]","has_unsafe":false,"name":"result::bind"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"result\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"ret\"), disambiguator: 0 }]","has_unsafe":false,"name":"result::ret"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"iter\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"bind\"), disambiguator: 0 }]","has_unsafe":false,"name":"iter::bind"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"iter\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"ret\"), disambiguator: 0 }]","has_unsafe":false,"name":"iter::ret"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"iter\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"mzero\"), disambiguator: 0 }]","has_unsafe":false,"name":"iter::mzero"}

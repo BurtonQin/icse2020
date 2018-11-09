@@ -1,4 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"default\"), disambiguator: 0 }]","has_unsafe":false,"name":"<StatFs as std::default::Default>::default"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"disk_free\"), disambiguator: 0 }]","has_unsafe":false,"name":"disk_free"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"send_content\"), disambiguator: 0 }]","has_unsafe":false,"name":"send_content"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}

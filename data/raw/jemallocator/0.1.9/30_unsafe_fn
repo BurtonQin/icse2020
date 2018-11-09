@@ -1,7 +1,0 @@
-{"name":"<Jemalloc as core::alloc::GlobalAlloc>::alloc","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 76","kind":{"UnsafeFnCall":"C"}}]}
-{"name":"<Jemalloc as core::alloc::GlobalAlloc>::alloc_zeroed","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 83","kind":{"UnsafeFnCall":"C"}},{"loc":"file: Real(\"src/lib.rs\") line 86","kind":{"UnsafeFnCall":"C"}}]}
-{"name":"<Jemalloc as core::alloc::GlobalAlloc>::dealloc","from_trait":true,"arguments":[{"type_info":"type(*mut u8)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 94","kind":{"UnsafeFnCall":"C"}}]}
-{"name":"<Jemalloc as core::alloc::GlobalAlloc>::realloc","from_trait":true,"arguments":[{"type_info":"type(*mut u8)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 103","kind":{"UnsafeFnCall":"C"}}]}
-{"name":"usable_size","from_trait":false,"arguments":[{"type_info":"type(*const T)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 205","kind":{"UnsafeFnCall":"C"}}]}
-{"name":"mallctl_fetch","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 219","kind":{"UnsafeFnCall":"C"}}]}
-{"name":"mallctl_set","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 240","kind":{"UnsafeFnCall":"C"}}]}

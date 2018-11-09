@@ -1,1 +1,0 @@
-{"name":"String2::from_raw_parts","from_trait":true,"arguments":[{"type_info":"type(*mut char)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 487","kind":{"UnsafeFnCall":"Rust"}}]}

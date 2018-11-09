@@ -1,6 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Trait(\"FirCoefs\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"verify_symmetry\"), disambiguator: 0 }]","has_unsafe":true,"name":"FirCoefs::verify_symmetry"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":true,"name":"<FirFilter<C>>::new"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"feed\"), disambiguator: 0 }]","has_unsafe":true,"name":"<FirFilter<C>>::feed"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"calc\"), disambiguator: 0 }]","has_unsafe":true,"name":"<FirFilter<C>>::calc"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"history\"), disambiguator: 0 }]","has_unsafe":true,"name":"<FirFilter<C>>::history"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"history_unordered\"), disambiguator: 0 }]","has_unsafe":true,"name":"<FirFilter<C>>::history_unordered"}

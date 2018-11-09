@@ -1,1 +1,0 @@
-{"name":"platform::linux::renameat2","from_trait":false,"arguments":[{"type_info":"type(*const libc::c_char)","kind":"RawPointer"},{"type_info":"type(*const libc::c_char)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/fs-swap-0.2.4/src/platform/linux.rs\") line 11","kind":{"UnsafeFnCall":"C"}}]}

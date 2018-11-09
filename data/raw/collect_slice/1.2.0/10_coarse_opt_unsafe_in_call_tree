@@ -1,4 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Trait(\"CollectSlice\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"collect_slice_fill\"), disambiguator: 0 }]","has_unsafe":false,"name":"CollectSlice::collect_slice_fill"}
-{"def_path":"[DisambiguatedDefPathData { data: Trait(\"CollectSlice\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"collect_slice_exhaust\"), disambiguator: 0 }]","has_unsafe":false,"name":"CollectSlice::collect_slice_exhaust"}
-{"def_path":"[DisambiguatedDefPathData { data: Trait(\"CollectSlice\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"collect_slice_checked\"), disambiguator: 0 }]","has_unsafe":false,"name":"CollectSlice::collect_slice_checked"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"collect_slice\"), disambiguator: 0 }]","has_unsafe":false,"name":"<I as CollectSlice>::collect_slice"}

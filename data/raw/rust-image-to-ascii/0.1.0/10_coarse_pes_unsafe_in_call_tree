@@ -1,8 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"row_col\"), disambiguator: 0 }]","has_unsafe":false,"name":"row_col"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"download_image\"), disambiguator: 0 }]","has_unsafe":true,"name":"download_image"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"luma\"), disambiguator: 0 }]","has_unsafe":false,"name":"luma"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"save_image\"), disambiguator: 0 }]","has_unsafe":false,"name":"save_image"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"to_ascii\"), disambiguator: 0 }]","has_unsafe":false,"name":"to_ascii"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"test_save\"), disambiguator: 0 }]","has_unsafe":true,"name":"test_save"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"process\"), disambiguator: 0 }]","has_unsafe":true,"name":"process"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}

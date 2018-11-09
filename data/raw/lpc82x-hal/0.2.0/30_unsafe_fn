@@ -1,3 +1,0 @@
-{"name":"pmu::Handle::enter_deep_sleep_mode","from_trait":true,"arguments":[],"sources":[]}
-{"name":"pmu::Handle::enter_power_down_mode","from_trait":true,"arguments":[],"sources":[]}
-{"name":"Peripherals::steal","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 500","kind":{"UnsafeFnCall":"Rust"}}]}

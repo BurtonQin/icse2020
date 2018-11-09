@@ -1,4 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"coder_result_to_u32\"), disambiguator: 0 }]","has_unsafe":false,"name":"coder_result_to_u32"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"decoder_result_to_u32\"), disambiguator: 0 }]","has_unsafe":false,"name":"decoder_result_to_u32"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"encoder_result_to_u32\"), disambiguator: 0 }]","has_unsafe":false,"name":"encoder_result_to_u32"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"option_to_ptr\"), disambiguator: 0 }]","has_unsafe":false,"name":"option_to_ptr"}

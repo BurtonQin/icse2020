@@ -1,2 +1,0 @@
-{"name":"fvad::Vad::new","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 13","kind":{"UnsafeFnCall":"C"}},{"loc":"file: Real(\"src/lib.rs\") line 14","kind":{"UnsafeFnCall":"C"}}]}
-{"name":"fvad::Vad::is_silent","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 24","kind":{"UnsafeFnCall":"C"}}]}

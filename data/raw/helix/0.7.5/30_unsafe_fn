@@ -1,4 +1,0 @@
-{"name":"<coercions::CheckedValue<T>>::new","from_trait":true,"arguments":[],"sources":[]}
-{"name":"errors::Error::raise","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/errors.rs\") line 40","kind":{"UnsafeFnCall":"C"}},{"loc":"file: Real(\"src/errors.rs\") line 41","kind":"ExternStatic"},{"loc":"file: Real(\"src/errors.rs\") line 41","kind":{"UnsafeFnCall":"C"}}]}
-{"name":"Class::from_value","from_trait":true,"arguments":[],"sources":[]}
-{"name":"as_usize","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 157","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}

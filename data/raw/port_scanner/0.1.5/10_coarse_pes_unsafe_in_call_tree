@@ -1,9 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"scan_port\"), disambiguator: 0 }]","has_unsafe":false,"name":"scan_port"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"scan_port_addr\"), disambiguator: 0 }]","has_unsafe":false,"name":"scan_port_addr"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"scan_ports\"), disambiguator: 0 }]","has_unsafe":false,"name":"scan_ports"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"scan_ports_addrs\"), disambiguator: 0 }]","has_unsafe":true,"name":"scan_ports_addrs"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"scan_ports_range\"), disambiguator: 0 }]","has_unsafe":false,"name":"scan_ports_range"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"request_open_port\"), disambiguator: 0 }]","has_unsafe":false,"name":"request_open_port"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"local_port_available\"), disambiguator: 0 }]","has_unsafe":false,"name":"local_port_available"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"local_ports_available\"), disambiguator: 0 }]","has_unsafe":false,"name":"local_ports_available"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"local_ports_available_range\"), disambiguator: 0 }]","has_unsafe":false,"name":"local_ports_available_range"}

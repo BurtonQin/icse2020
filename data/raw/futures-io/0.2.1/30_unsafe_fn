@@ -1,7 +1,0 @@
-{"name":"Initializer::nop","from_trait":true,"arguments":[],"sources":[]}
-{"name":"AsyncRead::initializer","from_trait":false,"arguments":[],"sources":[]}
-{"name":"<std::boxed::Box<T> as AsyncRead>::initializer","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-io-0.2.1/src/lib.rs\") line 253","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<&'a mut T as AsyncRead>::initializer","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-io-0.2.1/src/lib.rs\") line 253","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<&'a [u8] as AsyncRead>::initializer","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-io-0.2.1/src/lib.rs\") line 283","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<std::io::Repeat as AsyncRead>::initializer","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-io-0.2.1/src/lib.rs\") line 283","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<std::io::Cursor<T> as AsyncRead>::initializer","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-io-0.2.1/src/lib.rs\") line 283","kind":{"UnsafeFnCall":"Rust"}}]}

@@ -1,6 +1,0 @@
-{"name":"<client::NativeClient as std::marker::Sync>"}
-{"name":"<client::NativeClient as std::marker::Send>"}
-{"name":"<client::NativeTopic as std::marker::Send>"}
-{"name":"<client::NativeTopic as std::marker::Sync>"}
-{"name":"<consumer::stream_consumer::PolledMessagePtr as std::marker::Send>"}
-{"name":"<message::OwnedHeaders as std::marker::Send>"}

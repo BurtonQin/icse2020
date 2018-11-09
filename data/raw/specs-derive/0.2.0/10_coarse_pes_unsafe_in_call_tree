@@ -1,4 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"component\"), disambiguator: 0 }]","has_unsafe":true,"name":"component"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"parse\"), disambiguator: 0 }]","has_unsafe":true,"name":"<StorageAttribute as syn::synom::Synom>::parse"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"impl_component\"), disambiguator: 0 }]","has_unsafe":true,"name":"impl_component"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","has_unsafe":true,"name":"registrar::_registrar"}

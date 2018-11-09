@@ -1,8 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"attr\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"name_of_field\"), disambiguator: 0 }]","has_unsafe":false,"name":"attr::name_of_field"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"bound\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"with_lifetime_bound\"), disambiguator: 0 }]","has_unsafe":false,"name":"bound::with_lifetime_bound"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"bound\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"where_clause_with_bound\"), disambiguator: 0 }]","has_unsafe":false,"name":"bound::where_clause_with_bound"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"de\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"derive\"), disambiguator: 0 }]","has_unsafe":false,"name":"de::derive"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"ser\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"derive\"), disambiguator: 0 }]","has_unsafe":false,"name":"ser::derive"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"derive_mini_serialize\"), disambiguator: 0 }]","has_unsafe":false,"name":"derive_mini_serialize"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"derive_mini_deserialize\"), disambiguator: 0 }]","has_unsafe":false,"name":"derive_mini_deserialize"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","has_unsafe":true,"name":"registrar::_registrar"}

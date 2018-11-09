@@ -1,4 +1,0 @@
-{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"ALooper_acquire\"), disambiguator: 0 }]","name":"ALooper_acquire","crate_name":"android_looper_sys"}
-{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"ALooper_pollAll\"), disambiguator: 0 }]","name":"ALooper_pollAll","crate_name":"android_looper_sys"}
-{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"ALooper_prepare\"), disambiguator: 0 }]","name":"ALooper_prepare","crate_name":"android_looper_sys"}
-{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"ALooper_acquire\"), disambiguator: 0 }]","name":"ALooper_acquire","crate_name":"android_looper_sys"}

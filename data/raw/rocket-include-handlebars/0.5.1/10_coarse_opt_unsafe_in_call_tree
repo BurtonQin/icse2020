@@ -1,1 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"respond_to\"), disambiguator: 0 }]","has_unsafe":true,"name":"<HandlebarsResponse as rocket::response::Responder<'a>>::respond_to"}

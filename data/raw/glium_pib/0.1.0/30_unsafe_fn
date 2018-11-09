@@ -1,4 +1,0 @@
-{"name":"error::gl_error","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/error.rs\") line 19","kind":{"UnsafeFnCall":"C"}}]}
-{"name":"System::display_size_no_lock","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 210","kind":{"UnsafeFnCall":"C"}}]}
-{"name":"<Window<S> as glium::backend::Backend>::get_proc_address","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 413","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<Window<S> as glium::backend::Backend>::make_current","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 427","kind":{"UnsafeFnCall":"C"}}]}

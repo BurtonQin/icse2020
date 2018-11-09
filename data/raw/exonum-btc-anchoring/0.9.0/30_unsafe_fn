@@ -1,7 +1,0 @@
-{"name":"<blockchain::dto::MsgAnchoringSignature as exonum::encoding::SegmentField<'a>>::from_buffer","from_trait":true,"arguments":[],"sources":[{"loc":"file: Macros(\"__ex_message\") line 49","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<blockchain::dto::MsgAnchoringUpdateLatest as exonum::encoding::SegmentField<'a>>::from_buffer","from_trait":true,"arguments":[],"sources":[{"loc":"file: Macros(\"__ex_message\") line 49","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<blockchain::dto::LectContent as exonum::encoding::Field<'a>>::read","from_trait":true,"arguments":[],"sources":[{"loc":"file: Macros(\"encoding_struct\") line 11","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<details::btc::transactions::AnchoringTx as exonum::encoding::Field<'a>>::read","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/details/macros.rs\") line 276","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<details::btc::transactions::FundingTx as exonum::encoding::Field<'a>>::read","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/details/macros.rs\") line 276","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<details::btc::transactions::BitcoinTx as exonum::encoding::Field<'a>>::read","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/details/macros.rs\") line 276","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<&'a details::btc::types::TxId as exonum::encoding::Field<'a>>::read","from_trait":true,"arguments":[],"sources":[{"loc":"file: Macros(\"implement_pod_as_ref_field\") line 8","kind":"DerefRawPointer"}]}

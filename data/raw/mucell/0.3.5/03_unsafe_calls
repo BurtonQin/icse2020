@@ -1,2 +1,0 @@
-{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 10 }, DisambiguatedDefPathData { data: ValueNs(\"map_unsafe\"), disambiguator: 0 }]","name":"map_unsafe","crate_name":"mucell"}
-{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 10 }, DisambiguatedDefPathData { data: ValueNs(\"filter_map_unsafe\"), disambiguator: 0 }]","name":"filter_map_unsafe","crate_name":"mucell"}

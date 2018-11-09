@@ -1,8 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"notify\"), disambiguator: 0 }]","has_unsafe":true,"name":"notify"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"exit_status_to_message\"), disambiguator: 0 }]","has_unsafe":false,"name":"exit_status_to_message"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"spawn_command\"), disambiguator: 0 }]","has_unsafe":false,"name":"spawn_command"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"args\"), disambiguator: 0 }]","has_unsafe":false,"name":"args"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"first_arg_as_program_name\"), disambiguator: 0 }]","has_unsafe":false,"name":"first_arg_as_program_name"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"alert_after\"), disambiguator: 0 }]","has_unsafe":true,"name":"alert_after"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"run\"), disambiguator: 0 }]","has_unsafe":true,"name":"run"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}

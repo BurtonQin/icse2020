@@ -1,7 +1,0 @@
-{"name":"ioctl::get_chipinfo","from_trait":false,"arguments":[{"type_info":"type(*mut gpiochip_info)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 53","kind":{"UnsafeFnCall":"C"}}]}
-{"name":"ioctl::get_lineinfo","from_trait":false,"arguments":[{"type_info":"type(*mut gpioline_info)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 81","kind":{"UnsafeFnCall":"C"}}]}
-{"name":"ioctl::get_linehandle","from_trait":false,"arguments":[{"type_info":"type(*mut gpiohandle_request)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 81","kind":{"UnsafeFnCall":"C"}}]}
-{"name":"ioctl::get_lineevent","from_trait":false,"arguments":[{"type_info":"type(*mut gpioevent_request)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 81","kind":{"UnsafeFnCall":"C"}}]}
-{"name":"ioctl::get_line_values","from_trait":false,"arguments":[{"type_info":"type(*mut gpiohandle_data)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 81","kind":{"UnsafeFnCall":"C"}}]}
-{"name":"ioctl::set_line_values","from_trait":false,"arguments":[{"type_info":"type(*mut gpiohandle_data)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 81","kind":{"UnsafeFnCall":"C"}}]}
-{"name":"<GpioChip as std::os::ext::io::FromRawFd>::from_raw_fd","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 521","kind":{"UnsafeFnCall":"Rust"}}]}

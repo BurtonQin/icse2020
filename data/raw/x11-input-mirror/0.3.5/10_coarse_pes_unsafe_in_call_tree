@@ -1,3 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"handler\"), disambiguator: 0 }]","has_unsafe":false,"name":"handler"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"handler_thread\"), disambiguator: 0 }]","has_unsafe":true,"name":"handler_thread"}

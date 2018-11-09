@@ -1,5 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Repl<O, E>>::new"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"start\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Repl<O, E>>::start"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"read_eval_print\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Repl<O, E>>::read_eval_print"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"interpret_file\"), disambiguator: 0 }]","has_unsafe":true,"name":"interpret_file"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}

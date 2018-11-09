@@ -1,3 +1,0 @@
-{"name":"<Clamp<T>>::new_unchecked","from_trait":true,"arguments":[],"sources":[]}
-{"name":"<Clamp<T>>::set_unchecked","from_trait":true,"arguments":[],"sources":[]}
-{"name":"<Clamp<T>>::update_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 70","kind":{"UnsafeFnCall":"Rust"}}]}

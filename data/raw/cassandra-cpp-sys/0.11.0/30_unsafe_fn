@@ -1,1 +1,0 @@
-{"name":"ffi_util::raw2utf8","from_trait":false,"arguments":[{"type_info":"type(*const i8)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/ffi_util.rs\") line 8","kind":{"UnsafeFnCall":"Rust"}}]}

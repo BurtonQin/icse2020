@@ -1,2 +1,0 @@
-{"name":"cal::datetime::LocalDate::_new_with_prefilled_values","from_trait":true,"arguments":[],"sources":[]}
-{"name":"system::sys_time","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/datetime-0.4.7/src/system.rs\") line 75","kind":{"UnsafeFnCall":"C"}}]}

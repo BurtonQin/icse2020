@@ -1,4 +1,0 @@
-{"name":"<profile::Profile<C> as std::marker::Send>"}
-{"name":"<context::ThreadContext as std::marker::Send>"}
-{"name":"<transform::Transform<F, T, C, Z> as std::marker::Send>"}
-{"name":"<transform::Transform<F, T, C, flags::DisallowCache> as std::marker::Sync>"}

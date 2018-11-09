@@ -1,5 +1,0 @@
-{"name":"<scheduler::Inner<U> as std::marker::Send>"}
-{"name":"<scheduler::Inner<U> as std::marker::Sync>"}
-{"name":"<scheduler::ArcNode<U> as std::marker::Send>"}
-{"name":"<scheduler::ArcNode<U> as std::marker::Sync>"}
-{"name":"<scheduler::ArcNode<U> as futures::executor::UnsafeNotify>"}

@@ -1,4 +1,0 @@
-{"name":"traps::mach_task_self","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/traps.rs\") line 14","kind":"ExternStatic"}]}
-{"name":"traps::current_task","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/traps.rs\") line 18","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"vm_page_size::mach_vm_trunc_page","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/vm_page_size.rs\") line 12","kind":"ExternStatic"}]}
-{"name":"vm_page_size::mach_vm_round_page","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/vm_page_size.rs\") line 16","kind":"ExternStatic"},{"loc":"file: Real(\"src/vm_page_size.rs\") line 16","kind":"ExternStatic"}]}

@@ -1,5 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"MAYBE_NEXT_VALUE\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"__init\"), disambiguator: 0 }]","has_unsafe":false,"name":"MAYBE_NEXT_VALUE::__init"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"two\"), disambiguator: 0 }]","has_unsafe":true,"name":"two"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"gen_raw\"), disambiguator: 0 }]","has_unsafe":false,"name":"gen_raw"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"gen\"), disambiguator: 0 }]","has_unsafe":true,"name":"gen"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"gen_map\"), disambiguator: 0 }]","has_unsafe":true,"name":"gen_map"}

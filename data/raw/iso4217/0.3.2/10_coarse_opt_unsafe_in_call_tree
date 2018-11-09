@@ -1,8 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"codes\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"all\"), disambiguator: 0 }]","has_unsafe":false,"name":"codes::all"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":false,"name":"<CurrencyCode as std::clone::Clone>::clone"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<CurrencyCode as std::fmt::Debug>::fmt"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"alpha3\"), disambiguator: 0 }]","has_unsafe":false,"name":"alpha3"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"country\"), disambiguator: 0 }]","has_unsafe":false,"name":"country"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"exp\"), disambiguator: 0 }]","has_unsafe":false,"name":"exp"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"name\"), disambiguator: 0 }]","has_unsafe":false,"name":"name"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"num\"), disambiguator: 0 }]","has_unsafe":false,"name":"num"}

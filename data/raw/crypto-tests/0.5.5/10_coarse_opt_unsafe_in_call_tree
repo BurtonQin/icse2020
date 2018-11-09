@@ -1,5 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"hash\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"main_test\"), disambiguator: 0 }]","has_unsafe":true,"name":"hash::main_test"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"hash\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"variable_test\"), disambiguator: 0 }]","has_unsafe":false,"name":"hash::variable_test"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"hash\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"one_million_a\"), disambiguator: 0 }]","has_unsafe":true,"name":"hash::one_million_a"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"mac\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"mac_test\"), disambiguator: 0 }]","has_unsafe":false,"name":"mac::mac_test"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"block_cipher\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"encrypt_decrypt\"), disambiguator: 0 }]","has_unsafe":true,"name":"block_cipher::encrypt_decrypt"}

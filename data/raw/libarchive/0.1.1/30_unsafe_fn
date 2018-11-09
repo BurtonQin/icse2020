@@ -1,8 +1,0 @@
-{"name":"reader::stream_read_callback","from_trait":false,"arguments":[{"type_info":"type(*mut ffi::Struct_archive)","kind":"RawPointer"},{"type_info":"type(*mut c_void)","kind":"RawPointer"},{"type_info":"type(*mut *const c_void)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/libarchive-0.1.1/src/reader.rs\") line 23","kind":"DerefRawPointer"},{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/libarchive-0.1.1/src/reader.rs\") line 24","kind":"DerefRawPointer"},{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/libarchive-0.1.1/src/reader.rs\") line 29","kind":{"UnsafeFnCall":"C"}}]}
-{"name":"<reader::FileReader as archive::Handle>::handle","from_trait":true,"arguments":[],"sources":[]}
-{"name":"<reader::StreamReader as archive::Handle>::handle","from_trait":true,"arguments":[],"sources":[]}
-{"name":"<reader::Builder as archive::Handle>::handle","from_trait":true,"arguments":[],"sources":[]}
-{"name":"<reader::ReaderEntry as archive::Entry>::entry","from_trait":true,"arguments":[],"sources":[]}
-{"name":"<writer::Writer as archive::Handle>::handle","from_trait":true,"arguments":[],"sources":[]}
-{"name":"<writer::Disk as archive::Handle>::handle","from_trait":true,"arguments":[],"sources":[]}
-{"name":"<writer::Builder as archive::Handle>::handle","from_trait":true,"arguments":[],"sources":[]}

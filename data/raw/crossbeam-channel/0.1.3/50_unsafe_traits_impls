@@ -1,4 +1,0 @@
-{"name":"<channel::Sender<T> as std::marker::Send>"}
-{"name":"<channel::Sender<T> as std::marker::Sync>"}
-{"name":"<channel::Receiver<T> as std::marker::Send>"}
-{"name":"<channel::Receiver<T> as std::marker::Sync>"}

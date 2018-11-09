@@ -1,2 +1,0 @@
-{"name":"pod::Pod::uninitialized","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/pod.rs\") line 13","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"pod::Pod::from_ptr","from_trait":false,"arguments":[{"type_info":"type(*const T)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/pod.rs\") line 389","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/pod.rs\") line 390","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}

@@ -1,6 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"proto_to_json\"), disambiguator: 0 }]","has_unsafe":true,"name":"proto_to_json"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"field_to_json\"), disambiguator: 0 }]","has_unsafe":true,"name":"field_to_json"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"extract_vec_shim\"), disambiguator: 0 }]","has_unsafe":true,"name":"extract_vec_shim"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"repeated_to_serde_array\"), disambiguator: 0 }]","has_unsafe":true,"name":"repeated_to_serde_array"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"repeated_field_to_json\"), disambiguator: 0 }]","has_unsafe":true,"name":"repeated_field_to_json"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"singular_field_to_json\"), disambiguator: 0 }]","has_unsafe":true,"name":"singular_field_to_json"}

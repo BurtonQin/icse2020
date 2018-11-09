@@ -1,3 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"into_raw\"), disambiguator: 0 }]","has_unsafe":false,"name":"SuperMatrix::into_raw"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"drop\"), disambiguator: 0 }]","has_unsafe":true,"name":"<SuperMatrix as std::ops::Drop>::drop"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"from_super_matrix\"), disambiguator: 0 }]","has_unsafe":true,"name":"<matrix::format::Compressed<f64> as FromSuperMatrix>::from_super_matrix"}

@@ -1,4 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"curve25519\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"keygen\"), disambiguator: 0 }]","has_unsafe":true,"name":"curve25519::keygen"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"curve25519\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"sign\"), disambiguator: 0 }]","has_unsafe":true,"name":"curve25519::sign"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"curve25519\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"verify\"), disambiguator: 0 }]","has_unsafe":true,"name":"curve25519::verify"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"curve25519\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"donna\"), disambiguator: 0 }]","has_unsafe":true,"name":"curve25519::donna"}

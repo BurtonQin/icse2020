@@ -1,8 +1,0 @@
-{"name":"<mpmc::mutex_linked_list::ListInner<T> as std::marker::Send>"}
-{"name":"<mpmc::mutex_linked_list::ListInner<T> as std::marker::Sync>"}
-{"name":"<mpmc::mpmc_bounded_queue::Node<T> as std::marker::Send>"}
-{"name":"<mpmc::mpmc_bounded_queue::Node<T> as std::marker::Sync>"}
-{"name":"<mpmc::mpmc_bounded_queue::LockFreeQueue<T> as std::marker::Send>"}
-{"name":"<mpmc::mpmc_bounded_queue::LockFreeQueue<T> as std::marker::Sync>"}
-{"name":"<mpmc::Sender<T> as std::marker::Send>"}
-{"name":"<mpmc::Receiver<T> as std::marker::Send>"}

@@ -1,4 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"CONFIG\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"__init\"), disambiguator: 0 }]","has_unsafe":false,"name":"CONFIG::__init"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"hash\"), disambiguator: 0 }]","has_unsafe":true,"name":"hash"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"verify\"), disambiguator: 0 }]","has_unsafe":true,"name":"verify"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"random_bytes\"), disambiguator: 0 }]","has_unsafe":true,"name":"random_bytes"}

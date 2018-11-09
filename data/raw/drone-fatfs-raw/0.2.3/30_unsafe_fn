@@ -1,2 +1,0 @@
-{"name":"f_size","from_trait":false,"arguments":[{"type_info":"type(*mut FIL)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"lib.rs\") line 17","kind":"DerefRawPointer"}]}
-{"name":"f_tell","from_trait":false,"arguments":[{"type_info":"type(*mut FIL)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"lib.rs\") line 22","kind":"DerefRawPointer"}]}

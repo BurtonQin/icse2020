@@ -1,6 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"image\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"<image::Image<T>>::new"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"image\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"load\"), disambiguator: 0 }]","has_unsafe":true,"name":"image::load"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"image\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"load_internal\"), disambiguator: 0 }]","has_unsafe":true,"name":"image::load_internal"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"image\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"load_with_depth\"), disambiguator: 0 }]","has_unsafe":true,"name":"image::load_with_depth"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"image\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"load_from_memory\"), disambiguator: 0 }]","has_unsafe":true,"name":"image::load_from_memory"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"image\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"load_from_memory_with_depth\"), disambiguator: 0 }]","has_unsafe":true,"name":"image::load_from_memory_with_depth"}

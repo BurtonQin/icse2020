@@ -1,2 +1,0 @@
-{"name":"<Box<'a, A>>::new","from_trait":true,"arguments":[{"type_info":"type(*mut A)","kind":"RawPointer"}],"sources":[]}
-{"name":"<Box<'a, A>>::new_unchecked","from_trait":true,"arguments":[{"type_info":"type(*mut A)","kind":"RawPointer"}],"sources":[]}

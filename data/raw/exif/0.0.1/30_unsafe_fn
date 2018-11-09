@@ -1,4 +1,0 @@
-{"name":"value::get_u8","from_trait":false,"arguments":[{"type_info":"type(*const u8)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/value.rs\") line 132","kind":"DerefRawPointer"}]}
-{"name":"value::get_i8","from_trait":false,"arguments":[{"type_info":"type(*const u8)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/value.rs\") line 136","kind":"DerefRawPointer"}]}
-{"name":"value::get_urational","from_trait":false,"arguments":[{"type_info":"type(*const u8)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/value.rs\") line 140","kind":{"UnsafeFnCall":"C"}}]}
-{"name":"value::get_irational","from_trait":false,"arguments":[{"type_info":"type(*const u8)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/value.rs\") line 146","kind":{"UnsafeFnCall":"C"}}]}

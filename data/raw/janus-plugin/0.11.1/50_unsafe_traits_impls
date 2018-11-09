@@ -1,9 +1,0 @@
-{"name":"<sdp::Sdp as std::marker::Send>"}
-{"name":"<session::SessionWrapper<T> as std::marker::Sync>"}
-{"name":"<session::SessionWrapper<T> as std::marker::Send>"}
-{"name":"<jansson::JanssonValue as std::marker::Send>"}
-{"name":"<utils::GLibString as std::marker::Send>"}
-{"name":"<utils::GLibString as std::marker::Sync>"}
-{"name":"<utils::LibcString as std::marker::Send>"}
-{"name":"<utils::LibcString as std::marker::Sync>"}
-{"name":"<PluginResult as std::marker::Send>"}

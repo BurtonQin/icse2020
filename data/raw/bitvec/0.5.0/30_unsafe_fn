@@ -1,3 +1,0 @@
-{"name":"<vec::BitVec<E, T>>::set_bits","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/vec.rs\") line 331","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<vec::BitVec<E, T>>::set_elts","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/vec.rs\") line 344","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<vec::BitVec<E, T>>::set_len","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/vec.rs\") line 349","kind":{"UnsafeFnCall":"Rust"}}]}

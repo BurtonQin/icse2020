@@ -1,1 +1,0 @@
-{"name":"<std::vec::Vec<T> as traits::GetTwo<T>>::get_two_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/traits.rs\") line 94","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/traits.rs\") line 94","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/traits.rs\") line 95","kind":{"UnsafeFnCall":"Rust"}}]}

@@ -1,2 +1,0 @@
-{"name":"erase_lifetime","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"lib.rs\") line 174","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
-{"name":"unlink","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"lib.rs\") line 181","kind":"DerefRawPointer"},{"loc":"file: Real(\"lib.rs\") line 181","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"lib.rs\") line 183","kind":"DerefRawPointer"},{"loc":"file: Real(\"lib.rs\") line 186","kind":"DerefRawPointer"}]}

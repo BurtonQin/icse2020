@@ -1,7 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Trait(\"PostgresMigration\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"up\"), disambiguator: 0 }]","has_unsafe":false,"name":"PostgresMigration::up"}
-{"def_path":"[DisambiguatedDefPathData { data: Trait(\"PostgresMigration\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"down\"), disambiguator: 0 }]","has_unsafe":false,"name":"PostgresMigration::down"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"PostgresAdapter::new"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"init\"), disambiguator: 0 }]","has_unsafe":true,"name":"PostgresAdapter::init"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"applied_migrations\"), disambiguator: 0 }]","has_unsafe":true,"name":"<PostgresAdapter<'a> as schemer::Adapter>::applied_migrations"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"apply_migration\"), disambiguator: 0 }]","has_unsafe":true,"name":"<PostgresAdapter<'a> as schemer::Adapter>::apply_migration"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"revert_migration\"), disambiguator: 0 }]","has_unsafe":true,"name":"<PostgresAdapter<'a> as schemer::Adapter>::revert_migration"}

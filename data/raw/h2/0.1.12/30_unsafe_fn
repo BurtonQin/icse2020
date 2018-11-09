@@ -1,1 +1,0 @@
-{"name":"<codec::framed_write::FramedWrite<T, B> as tokio_io::AsyncRead>::prepare_uninitialized_buffer","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/h2-0.1.12/src/codec/framed_write.rs\") line 271","kind":{"UnsafeFnCall":"Rust"}}]}

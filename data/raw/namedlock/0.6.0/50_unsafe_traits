@@ -1,3 +1,0 @@
-{"name":"<std::boxed::Box<std::sync::Mutex<T>> as ownedmutexguard::OwnedMutex<T>>"}
-{"name":"<std::rc::Rc<std::sync::Mutex<T>> as ownedmutexguard::OwnedMutex<T>>"}
-{"name":"<std::sync::Arc<std::sync::Mutex<T>> as ownedmutexguard::OwnedMutex<T>>"}

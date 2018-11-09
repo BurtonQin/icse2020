@@ -1,2 +1,0 @@
-{"name":"instruction::Instructions::from_raw_parts","from_trait":true,"arguments":[{"type_info":"type(*mut cs_insn)","kind":"RawPointer"}],"sources":[]}
-{"name":"instruction::Insn::detail","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/capstone-0.2.0/src/instruction.rs\") line 112","kind":"DerefRawPointer"}]}

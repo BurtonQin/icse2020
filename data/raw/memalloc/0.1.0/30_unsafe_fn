@@ -1,3 +1,0 @@
-{"name":"allocate","from_trait":false,"arguments":[],"sources":[]}
-{"name":"reallocate","from_trait":false,"arguments":[{"type_info":"type(*mut u8)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/memalloc-0.1.0/src/lib.rs\") line 40","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/memalloc-0.1.0/src/lib.rs\") line 47","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"deallocate","from_trait":false,"arguments":[{"type_info":"type(*mut u8)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/memalloc-0.1.0/src/lib.rs\") line 64","kind":{"UnsafeFnCall":"Rust"}}]}

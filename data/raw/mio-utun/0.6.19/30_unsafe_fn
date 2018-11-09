@@ -1,3 +1,0 @@
-{"name":"linux::tunsetiff","from_trait":false,"arguments":[{"type_info":"type(*const i32)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 62","kind":{"UnsafeFnCall":"C"}}]}
-{"name":"linux::tungetiff","from_trait":false,"arguments":[{"type_info":"type(*mut u32)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 53","kind":{"UnsafeFnCall":"C"}}]}
-{"name":"<linux::UtunStream as std::os::ext::io::FromRawFd>::from_raw_fd","from_trait":true,"arguments":[],"sources":[]}

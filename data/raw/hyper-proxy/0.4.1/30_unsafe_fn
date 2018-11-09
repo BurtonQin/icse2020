@@ -1,1 +1,0 @@
-{"name":"<stream::ProxyStream<R> as tokio_io::AsyncRead>::prepare_uninitialized_buffer","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/stream.rs\") line 48","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/stream.rs\") line 50","kind":{"UnsafeFnCall":"Rust"}}]}

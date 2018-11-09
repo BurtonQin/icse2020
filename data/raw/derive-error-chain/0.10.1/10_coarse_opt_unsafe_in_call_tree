@@ -1,6 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"derive_error_chain\"), disambiguator: 0 }]","has_unsafe":false,"name":"derive_error_chain"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_closure\"), disambiguator: 0 }]","has_unsafe":false,"name":"is_closure"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"fields_pattern\"), disambiguator: 0 }]","has_unsafe":false,"name":"fields_pattern"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"fields_pattern_ignore\"), disambiguator: 0 }]","has_unsafe":false,"name":"fields_pattern_ignore"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"args\"), disambiguator: 0 }]","has_unsafe":false,"name":"args"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","has_unsafe":true,"name":"registrar::_registrar"}

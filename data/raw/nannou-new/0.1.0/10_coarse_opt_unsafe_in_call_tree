@@ -1,7 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lowercase\"), disambiguator: 0 }]","has_unsafe":false,"name":"Project::lowercase"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"template_file_name\"), disambiguator: 0 }]","has_unsafe":false,"name":"Project::template_file_name"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"ask_user\"), disambiguator: 0 }]","has_unsafe":false,"name":"ask_user"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"yes_or_no\"), disambiguator: 0 }]","has_unsafe":false,"name":"yes_or_no"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"random_beverage\"), disambiguator: 0 }]","has_unsafe":true,"name":"random_beverage"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"crates_io_package_latest_version\"), disambiguator: 0 }]","has_unsafe":true,"name":"crates_io_package_latest_version"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}

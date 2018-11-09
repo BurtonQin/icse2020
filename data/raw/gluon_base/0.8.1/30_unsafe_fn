@@ -1,2 +1,0 @@
-{"name":"fixed::forget_lifetime","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/gluon_base-0.8.1/src/fixed.rs\") line 18","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
-{"name":"fixed::forget_lifetime_mut","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/gluon_base-0.8.1/src/fixed.rs\") line 22","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}

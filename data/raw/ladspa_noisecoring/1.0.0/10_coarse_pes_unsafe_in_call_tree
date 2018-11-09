@@ -1,9 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"hanning\"), disambiguator: 0 }]","has_unsafe":false,"name":"hanning"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"default\"), disambiguator: 0 }]","has_unsafe":false,"name":"<NoiseCoring as std::default::Default>::default"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"estimate_noise_parameters\"), disambiguator: 0 }]","has_unsafe":false,"name":"NoiseCoring::estimate_noise_parameters"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"make_filter\"), disambiguator: 0 }]","has_unsafe":true,"name":"NoiseCoring::make_filter"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"apply_filter\"), disambiguator: 0 }]","has_unsafe":true,"name":"NoiseCoring::apply_filter"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"new_noisecoring\"), disambiguator: 0 }]","has_unsafe":false,"name":"new_noisecoring"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"run\"), disambiguator: 0 }]","has_unsafe":true,"name":"<NoiseCoring as ladspa::Plugin>::run"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"activate\"), disambiguator: 0 }]","has_unsafe":false,"name":"<NoiseCoring as ladspa::Plugin>::activate"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_ladspa_descriptor\"), disambiguator: 0 }]","has_unsafe":false,"name":"get_ladspa_descriptor"}

@@ -1,4 +1,0 @@
-{"name":"<CVec<T>>::new","from_trait":true,"arguments":[{"type_info":"type(*mut T)","kind":"RawPointer"}],"sources":[]}
-{"name":"<CVec<T>>::new_with_dtor","from_trait":true,"arguments":[{"type_info":"type(*mut T)","kind":"RawPointer"}],"sources":[]}
-{"name":"<CVec<T>>::into_inner","from_trait":true,"arguments":[],"sources":[]}
-{"name":"<CSlice<T>>::new","from_trait":true,"arguments":[{"type_info":"type(*mut T)","kind":"RawPointer"}],"sources":[]}

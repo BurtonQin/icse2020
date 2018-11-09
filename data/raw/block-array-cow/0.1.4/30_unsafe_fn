@@ -1,2 +1,0 @@
-{"name":"<plain_ptr::PtrConst<T>>::as_mut","from_trait":true,"arguments":[],"sources":[]}
-{"name":"<mempool_elem::MemPool<TElem>>::alloc_elem_uninitialized","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/mempool_elem.rs\") line 122","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/mempool_elem.rs\") line 123","kind":"DerefRawPointer"}]}

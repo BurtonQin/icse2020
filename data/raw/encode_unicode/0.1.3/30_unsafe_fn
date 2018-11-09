@@ -1,2 +1,0 @@
-{"name":"<char as traits::CharExt>::from_utf8_exact_slice_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/encode_unicode-0.1.3/src/traits.rs\") line 266","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<char as traits::CharExt>::from_utf16_tuple_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/encode_unicode-0.1.3/src/traits.rs\") line 345","kind":{"UnsafeFnCall":"Rust"}}]}

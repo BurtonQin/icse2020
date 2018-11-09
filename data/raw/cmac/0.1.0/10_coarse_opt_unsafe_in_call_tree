@@ -1,9 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Cmac<C> as core::clone::Clone>::clone"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"from_cipher\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Cmac<C>>::from_cipher"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"reset\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Cmac<C>>::reset"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"xor\"), disambiguator: 0 }]","has_unsafe":true,"name":"xor"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Cmac<C> as crypto_mac::Mac>::new"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"new_varkey\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Cmac<C> as crypto_mac::Mac>::new_varkey"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"input\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Cmac<C> as crypto_mac::Mac>::input"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"result\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Cmac<C> as crypto_mac::Mac>::result"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Cmac<C> as core::fmt::Debug>::fmt"}

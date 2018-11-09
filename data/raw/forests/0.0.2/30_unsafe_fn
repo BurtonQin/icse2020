@@ -1,3 +1,0 @@
-{"name":"primitive::node::new_with_idx","from_trait":true,"arguments":[],"sources":[]}
-{"name":"primitive::forest_ref_from_raw_parts","from_trait":false,"arguments":[{"type_info":"type(*const ForestEntry<T>)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/primitive/mod.rs\") line 125","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
-{"name":"primitive::forest_ref_from_raw_parts_mut","from_trait":false,"arguments":[{"type_info":"type(*mut ForestEntry<T>)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/primitive/mod.rs\") line 133","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}

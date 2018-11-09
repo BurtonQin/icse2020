@@ -1,5 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"<N2Array<T>>::new"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"index\"), disambiguator: 0 }]","has_unsafe":false,"name":"<N2Array<T> as std::ops::Index<(usize, usize)>>::index"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"index_mut\"), disambiguator: 0 }]","has_unsafe":false,"name":"<N2Array<T> as std::ops::IndexMut<(usize, usize)>>::index_mut"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"levenshtein\"), disambiguator: 0 }]","has_unsafe":false,"name":"levenshtein"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"damerau_levenshtein\"), disambiguator: 0 }]","has_unsafe":false,"name":"damerau_levenshtein"}

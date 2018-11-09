@@ -1,8 +1,0 @@
-{"name":"<tree::rc::data::RcData as std::marker::Send>"}
-{"name":"<tree::rc::data::RcData as std::marker::Sync>"}
-{"name":"<tree::rc::item::RcItem as std::marker::Send>"}
-{"name":"<tree::rc::item::RcItem as std::marker::Sync>"}
-{"name":"<tree::rc::child::RcChild as std::marker::Send>"}
-{"name":"<tree::rc::child::RcChild as std::marker::Sync>"}
-{"name":"<tree::rc::node::RcNode as std::marker::Send>"}
-{"name":"<tree::rc::node::RcNode as std::marker::Sync>"}

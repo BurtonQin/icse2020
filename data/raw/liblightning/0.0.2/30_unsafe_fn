@@ -1,6 +1,0 @@
-{"name":"co::SendableCoState::unwrap","from_trait":true,"arguments":[],"sources":[]}
-{"name":"<co::CoState<F>>::terminate_from_inside","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/co.rs\") line 179","kind":{"UnsafeFnCall":"C"}}]}
-{"name":"scheduler::SyncSchedState::add_coroutine","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/scheduler.rs\") line 59","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<platform::PAGE_SIZE as lazy_static::Deref>::deref::__stability","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__lazy_static_internal\") line 13","kind":"Static"}]}
-{"name":"platform::setup_stack_guard_page","from_trait":false,"arguments":[{"type_info":"type(*mut [u8])","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/platform.rs\") line 24","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/platform.rs\") line 25","kind":{"UnsafeFnCall":"C"}}]}
-{"name":"platform::free_stack","from_trait":false,"arguments":[{"type_info":"type(*mut [u8])","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/platform.rs\") line 60","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/platform.rs\") line 63","kind":{"UnsafeFnCall":"C"}}]}

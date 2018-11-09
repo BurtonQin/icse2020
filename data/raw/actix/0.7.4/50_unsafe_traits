@@ -1,6 +1,0 @@
-{"name":"<address::channel::Inner<A> as std::marker::Send>"}
-{"name":"<address::channel::Inner<A> as std::marker::Sync>"}
-{"name":"<address::envelope::SyncEnvelopeProxy<A, M> as std::marker::Send>"}
-{"name":"<address::queue::Queue<T> as std::marker::Send>"}
-{"name":"<address::queue::Queue<T> as std::marker::Sync>"}
-{"name":"<sync::SyncContextEnvelope<A, M> as std::marker::Send>"}

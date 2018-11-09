@@ -1,5 +1,0 @@
-{"name":"<stack::slice_stack::SliceStack<'a> as stack::Stack>"}
-{"name":"<stack::owned_stack::OwnedStack as stack::Stack>"}
-{"name":"<stack::os::OsStack as core::marker::Send>"}
-{"name":"<stack::os::OsStack as stack::Stack>"}
-{"name":"<stack::os::OsStack as stack::GuardedStack>"}

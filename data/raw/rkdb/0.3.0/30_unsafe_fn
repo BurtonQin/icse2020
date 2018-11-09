@@ -1,7 +1,0 @@
-{"name":"<kbindings::ERR_STRS as lazy_static::Deref>::deref::__stability","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__lazy_static_internal\") line 13","kind":"Static"}]}
-{"name":"kbindings::<impl types::K>::cast","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/kbindings.rs\") line 54","kind":"DerefRawPointer"}]}
-{"name":"kbindings::<impl types::K>::cast_with_ptr_offset","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/kbindings.rs\") line 59","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/kbindings.rs\") line 59","kind":"DerefRawPointer"}]}
-{"name":"kbindings::<impl types::K>::fetch_slice","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/kbindings.rs\") line 64","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/kbindings.rs\") line 64","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/kbindings.rs\") line 64","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<kbindings::KData<'a, T>>::atom","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/kbindings.rs\") line 81","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<kbindings::KData<'a, T>>::guid_atom","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/kbindings.rs\") line 86","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<kbindings::KData<'a, T>>::list","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/kbindings.rs\") line 91","kind":{"UnsafeFnCall":"Rust"}}]}

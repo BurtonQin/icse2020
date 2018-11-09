@@ -1,2 +1,0 @@
-{"name":"Cpu::mem_map_ptr","from_trait":false,"arguments":[{"type_info":"type(*mut T)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 141","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"Unicorn::mem_map_ptr","from_trait":true,"arguments":[{"type_info":"type(*mut T)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 668","kind":{"UnsafeFnCall":"C"}}]}

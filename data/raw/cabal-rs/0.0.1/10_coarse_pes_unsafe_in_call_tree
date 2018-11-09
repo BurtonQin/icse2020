@@ -1,5 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"src\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Cabal<T>>::src"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"build_dir\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Cabal<T>>::build_dir"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"jobs\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Cabal<T>>::jobs"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"verbose\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Cabal<T>>::verbose"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"build\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Cabal<T>>::build"}

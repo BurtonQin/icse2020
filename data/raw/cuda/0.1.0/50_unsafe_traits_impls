@@ -1,4 +1,0 @@
-{"name":"<runtime::CudaStream as std::marker::Send>"}
-{"name":"<runtime::CudaStream as std::marker::Sync>"}
-{"name":"<runtime::CudaEvent as std::marker::Send>"}
-{"name":"<runtime::CudaEvent as std::marker::Sync>"}

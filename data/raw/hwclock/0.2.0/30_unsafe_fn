@@ -1,2 +1,0 @@
-{"name":"ffi::rtc_rd_time","from_trait":false,"arguments":[{"type_info":"type(*mut RtcTime)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 53","kind":{"UnsafeFnCall":"C"}}]}
-{"name":"ffi::rtc_set_time","from_trait":false,"arguments":[{"type_info":"type(*const RtcTime)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 62","kind":{"UnsafeFnCall":"C"}}]}

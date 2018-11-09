@@ -1,8 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"add\"), disambiguator: 0 }]","has_unsafe":false,"name":"<std::ops::Range<T> as Bounded<T>>::add"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"_IMPL_SERIALIZE_FOR_Boundary\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"serialize\"), disambiguator: 0 }]","has_unsafe":false,"name":"_IMPL_SERIALIZE_FOR_Boundary::<impl _IMPL_SERIALIZE_FOR_Boundary::_serde::Serialize for Boundary>::serialize"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Boundary as std::fmt::Debug>::fmt"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"eq\"), disambiguator: 0 }]","has_unsafe":false,"name":"<Boundary as std::cmp::PartialEq>::eq"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"bresenham_algorithm\"), disambiguator: 0 }]","has_unsafe":false,"name":"bresenham_algorithm"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"add_points\"), disambiguator: 0 }]","has_unsafe":false,"name":"add_points"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"calculate\"), disambiguator: 0 }]","has_unsafe":false,"name":"calculate"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"web_calculate\"), disambiguator: 0 }]","has_unsafe":true,"name":"web_calculate"}

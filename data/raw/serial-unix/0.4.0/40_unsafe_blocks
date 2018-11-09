@@ -1,7 +1,0 @@
-{"sources":[["170",[{"loc":"file: Real(\"src/error.rs\") line 80","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/error.rs\") line 80","kind":"DerefRawPointer"}]]]}
-{"sources":[["210",[{"loc":"file: Real(\"src/error.rs\") line 99","kind":{"UnsafeFnCall":"C"}},{"loc":"file: Real(\"src/error.rs\") line 104","kind":{"UnsafeFnCall":"Rust"}}]]]}
-{"sources":[["477",[{"loc":"file: Real(\"src/poll.rs\") line 95","kind":{"UnsafeFnCall":"C"}}]]]}
-{"sources":[["593",[{"loc":"file: Real(\"src/tty.rs\") line 61","kind":{"UnsafeFnCall":"C"}}]],["636",[{"loc":"file: Real(\"src/tty.rs\") line 77","kind":{"UnsafeFnCall":"C"}}]]]}
-{"sources":[["752",[{"loc":"file: Real(\"src/tty.rs\") line 116","kind":{"UnsafeFnCall":"C"}}]]]}
-{"sources":[["792",[{"loc":"file: Real(\"src/tty.rs\") line 132","kind":{"UnsafeFnCall":"C"}}]]]}
-{"sources":[["843",[{"loc":"file: Real(\"src/tty.rs\") line 149","kind":{"UnsafeFnCall":"C"}}]]]}

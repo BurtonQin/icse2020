@@ -1,5 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"internal_extprim_literals_macros_u128\"), disambiguator: 0 }]","has_unsafe":false,"name":"internal_extprim_literals_macros_u128"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"internal_extprim_literals_macros_u128\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"wrapped\"), disambiguator: 0 }]","has_unsafe":true,"name":"internal_extprim_literals_macros_u128::wrapped"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"internal_extprim_literals_macros_i128\"), disambiguator: 0 }]","has_unsafe":false,"name":"internal_extprim_literals_macros_i128"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"internal_extprim_literals_macros_i128\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"wrapped\"), disambiguator: 0 }]","has_unsafe":true,"name":"internal_extprim_literals_macros_i128::wrapped"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","has_unsafe":true,"name":"registrar::_registrar"}

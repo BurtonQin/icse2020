@@ -1,5 +1,0 @@
-{"name":"<device::Device<device::FdWrapper>>::new_from_fd","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/device.rs\") line 81","kind":{"UnsafeFnCall":"C"}}]}
-{"name":"<device::Device<T>>::import_buffer_object_from_egl","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/device.rs\") line 228","kind":{"UnsafeFnCall":"C"}},{"loc":"file: Real(\"src/device.rs\") line 237","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"buffer_object::destroy","from_trait":false,"arguments":[{"type_info":"type(*mut ::ffi::gbm_bo)","kind":"RawPointer"},{"type_info":"type(*mut ::libc::c_void)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/buffer_object.rs\") line 136","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<buffer_object::BufferObject<T>>::new","from_trait":true,"arguments":[{"type_info":"type(*mut ::ffi::gbm_bo)","kind":"RawPointer"}],"sources":[]}
-{"name":"<surface::Surface<T>>::new","from_trait":true,"arguments":[{"type_info":"type(*mut ::ffi::gbm_surface)","kind":"RawPointer"}],"sources":[]}

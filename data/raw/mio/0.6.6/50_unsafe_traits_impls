@@ -1,6 +1,0 @@
-{"name":"<poll::Registration as std::marker::Send>"}
-{"name":"<poll::Registration as std::marker::Sync>"}
-{"name":"<poll::SetReadiness as std::marker::Send>"}
-{"name":"<poll::SetReadiness as std::marker::Sync>"}
-{"name":"<poll::ReadinessQueue as std::marker::Send>"}
-{"name":"<poll::ReadinessQueue as std::marker::Sync>"}

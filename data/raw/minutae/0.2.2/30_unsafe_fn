@@ -1,2 +1,0 @@
-{"name":"<container::EntityContainer<C, E, M>>::get","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/container.rs\") line 122","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<container::EntityContainer<C, E, M>>::get_mut","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/container.rs\") line 132","kind":{"UnsafeFnCall":"Rust"}}]}

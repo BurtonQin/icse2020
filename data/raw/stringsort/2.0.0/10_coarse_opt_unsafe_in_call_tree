@@ -1,5 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"insertsort\"), disambiguator: 0 }]","has_unsafe":false,"name":"insertsort"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"countsort\"), disambiguator: 0 }]","has_unsafe":false,"name":"countsort"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"countsort_insert\"), disambiguator: 0 }]","has_unsafe":false,"name":"countsort_insert"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"countsort_vec\"), disambiguator: 0 }]","has_unsafe":false,"name":"countsort_vec"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"vecsort\"), disambiguator: 0 }]","has_unsafe":false,"name":"vecsort"}

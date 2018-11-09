@@ -1,8 +1,0 @@
-{"name":"module::Module::into_inner","from_trait":true,"arguments":[],"sources":[]}
-{"name":"builder::Builder::into_inner","from_trait":true,"arguments":[],"sources":[]}
-{"name":"bb::BasicBlock::inner","from_trait":true,"arguments":[],"sources":[]}
-{"name":"target::initialize","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/target.rs\") line 13","kind":"Static"},{"loc":"file: Real(\"src/target.rs\") line 14","kind":"Static"},{"loc":"file: Real(\"src/target.rs\") line 15","kind":{"UnsafeFnCall":"C"}},{"loc":"file: Real(\"src/target.rs\") line 16","kind":{"UnsafeFnCall":"C"}},{"loc":"file: Real(\"src/target.rs\") line 17","kind":{"UnsafeFnCall":"C"}}]}
-{"name":"target::OptLevel::inner","from_trait":true,"arguments":[],"sources":[]}
-{"name":"c_api::context","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 107","kind":{"UnsafeFnCall":"C"}}]}
-{"name":"c_api::ty","from_trait":false,"arguments":[],"sources":[]}
-{"name":"c_api::value","from_trait":false,"arguments":[],"sources":[]}

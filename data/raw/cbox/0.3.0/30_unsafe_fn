@@ -1,5 +1,0 @@
-{"name":"DisposeRef::dispose","from_trait":false,"arguments":[{"type_info":"type(*mut <Self>::RefTo)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/cbox-0.3.0/src/lib.rs\") line 18","kind":{"UnsafeFnCall":"C"}}]}
-{"name":"<CSemiBox<'a, D>>::as_ptr","from_trait":true,"arguments":[],"sources":[]}
-{"name":"<CSemiBox<'a, D>>::unwrap","from_trait":true,"arguments":[],"sources":[]}
-{"name":"<CBox<D>>::as_ptr","from_trait":true,"arguments":[],"sources":[]}
-{"name":"<CBox<D>>::unwrap","from_trait":true,"arguments":[],"sources":[]}

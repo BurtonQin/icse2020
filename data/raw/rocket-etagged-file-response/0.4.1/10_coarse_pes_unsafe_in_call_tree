@@ -1,3 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"respond_to\"), disambiguator: 0 }]","has_unsafe":true,"name":"<EtaggedFileResponse as rocket::response::Responder<'a>>::respond_to"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"from\"), disambiguator: 0 }]","has_unsafe":true,"name":"EtaggedFileResponse::from"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"new_etag_map\"), disambiguator: 0 }]","has_unsafe":false,"name":"EtaggedFileResponse::new_etag_map"}

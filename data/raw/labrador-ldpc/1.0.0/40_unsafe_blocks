@@ -1,8 +1,0 @@
-{"sources":[["7957",[{"loc":"file: Real(\"src/codes/mod.rs\") line 37","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["7968",[{"loc":"file: Real(\"src/codes/mod.rs\") line 37","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
-{"sources":[["7928",[{"loc":"file: Real(\"src/codes/mod.rs\") line 37","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
-{"sources":[["5606",[{"loc":"file: Real(\"src/encoder.rs\") line 109","kind":{"UnsafeFnCall":"Rust"}}]],["5820",[{"loc":"file: Real(\"src/encoder.rs\") line 155","kind":{"UnsafeFnCall":"Rust"}}]]]}
-{"sources":[["5859",[{"loc":"file: Real(\"src/encoder.rs\") line 161","kind":{"UnsafeFnCall":"Rust"}}]]]}
-{"sources":[["5956",[{"loc":"file: Real(\"src/encoder.rs\") line 185","kind":{"UnsafeFnCall":"Rust"}}]],["6224",[{"loc":"file: Real(\"src/encoder.rs\") line 241","kind":{"UnsafeFnCall":"Rust"}}]]]}
-{"sources":[["6263",[{"loc":"file: Real(\"src/encoder.rs\") line 247","kind":{"UnsafeFnCall":"Rust"}}]]]}
-{"sources":[["6391",[{"loc":"file: Real(\"src/decoder.rs\") line 26","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/decoder.rs\") line 27","kind":"DerefRawPointer"}]]]}
-{"sources":[["6423",[{"loc":"file: Real(\"src/decoder.rs\") line 32","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/decoder.rs\") line 33","kind":"DerefRawPointer"}]]]}

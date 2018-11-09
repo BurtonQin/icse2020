@@ -1,1 +1,0 @@
-{"name":"Image::malloc_image_rows","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 309","kind":{"UnsafeFnCall":"C"}},{"loc":"file: Real(\"src/lib.rs\") line 311","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/lib.rs\") line 311","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/lib.rs\") line 312","kind":{"UnsafeFnCall":"Rust"}}]}

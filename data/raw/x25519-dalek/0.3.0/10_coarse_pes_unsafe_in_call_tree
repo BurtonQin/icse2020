@@ -1,5 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"x25519\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"decode_scalar\"), disambiguator: 0 }]","has_unsafe":true,"name":"x25519::decode_scalar"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"x25519\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"generate_secret\"), disambiguator: 0 }]","has_unsafe":true,"name":"x25519::generate_secret"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"x25519\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"generate_public\"), disambiguator: 0 }]","has_unsafe":true,"name":"x25519::generate_public"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"x25519\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"x25519\"), disambiguator: 0 }]","has_unsafe":true,"name":"x25519::x25519"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"x25519\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"diffie_hellman\"), disambiguator: 0 }]","has_unsafe":true,"name":"x25519::diffie_hellman"}

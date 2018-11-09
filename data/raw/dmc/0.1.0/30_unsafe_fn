@@ -1,5 +1,0 @@
-{"name":"display::backend::Window::_is_map_notify_callback","from_trait":true,"arguments":[{"type_info":"type(*mut x::Display)","kind":"RawPointer"},{"type_info":"type(*mut x::XEvent)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/dmc-0.1.0/src/display/x11.rs\") line 520","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"display::backend::GLContext::get_proc_address","from_trait":true,"arguments":[{"type_info":"type(*const c_char)","kind":"RawPointer"}],"sources":[]}
-{"name":"display::window::Window::get_internal","from_trait":true,"arguments":[],"sources":[]}
-{"name":"display::window::Window::get_internal_mut","from_trait":true,"arguments":[],"sources":[]}
-{"name":"display::GLContext::get_proc_address","from_trait":true,"arguments":[{"type_info":"type(*const c_char)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/dmc-0.1.0/src/display/mod.rs\") line 863","kind":{"UnsafeFnCall":"Rust"}}]}

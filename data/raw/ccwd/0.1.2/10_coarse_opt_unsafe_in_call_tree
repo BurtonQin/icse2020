@@ -1,5 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","has_unsafe":false,"name":"Clipboard::new"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"run\"), disambiguator: 0 }]","has_unsafe":false,"name":"Clipboard::run"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":false,"name":"main"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_cwd_name\"), disambiguator: 0 }]","has_unsafe":false,"name":"get_cwd_name"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_program_in_path\"), disambiguator: 0 }]","has_unsafe":false,"name":"is_program_in_path"}

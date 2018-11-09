@@ -1,2 +1,0 @@
-{"name":"write_modeldata","from_trait":false,"arguments":[{"type_info":"type(*mut libc::c_void)","kind":"RawPointer"},{"type_info":"type(*mut libc::c_char)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 145","kind":{"UnsafeFnCall":"RustIntrinsic"}},{"loc":"file: Real(\"src/lib.rs\") line 146","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"Problem::from_lprec","from_trait":true,"arguments":[{"type_info":"type(*mut lp::lprec)","kind":"RawPointer"}],"sources":[]}

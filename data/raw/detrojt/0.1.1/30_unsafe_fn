@@ -1,1 +1,0 @@
-{"name":"ptr_try_read","from_trait":false,"arguments":[{"type_info":"type(*const T)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 70","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/lib.rs\") line 73","kind":{"UnsafeFnCall":"Rust"}}]}

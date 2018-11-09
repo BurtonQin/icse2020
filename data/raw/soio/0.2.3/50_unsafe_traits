@@ -1,6 +1,0 @@
-{"name":"<registration::Registration as std::marker::Send>"}
-{"name":"<registration::Registration as std::marker::Sync>"}
-{"name":"<registration::SetReadiness as std::marker::Send>"}
-{"name":"<registration::SetReadiness as std::marker::Sync>"}
-{"name":"<registration::ReadinessQueue as std::marker::Send>"}
-{"name":"<registration::ReadinessQueue as std::marker::Sync>"}

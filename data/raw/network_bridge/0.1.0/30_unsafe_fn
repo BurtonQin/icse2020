@@ -1,5 +1,0 @@
-{"name":"private::ioctl_addbr","from_trait":false,"arguments":[{"type_info":"type(*const libc::c_char)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl_write_ptr_bad\") line 6","kind":{"UnsafeFnCall":"C"}}]}
-{"name":"private::ioctl_delbr","from_trait":false,"arguments":[{"type_info":"type(*const libc::c_char)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl_write_ptr_bad\") line 6","kind":{"UnsafeFnCall":"C"}}]}
-{"name":"private::ioctl_ifindex","from_trait":false,"arguments":[{"type_info":"type(*const ifreq)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl_write_ptr_bad\") line 6","kind":{"UnsafeFnCall":"C"}}]}
-{"name":"private::ioctl_addif","from_trait":false,"arguments":[{"type_info":"type(*const ifreq)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl_write_ptr_bad\") line 6","kind":{"UnsafeFnCall":"C"}}]}
-{"name":"private::ioctl_delif","from_trait":false,"arguments":[{"type_info":"type(*const ifreq)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl_write_ptr_bad\") line 6","kind":{"UnsafeFnCall":"C"}}]}

@@ -1,4 +1,0 @@
-{"name":"<ringbuf::Sender<'a, T> as std::marker::Send>"}
-{"name":"<ringbuf::Receiver<'a, T> as std::marker::Send>"}
-{"name":"<fdbuf::Sender<'a, T> as std::marker::Send>"}
-{"name":"<fdbuf::Receiver<'a, T> as std::marker::Send>"}

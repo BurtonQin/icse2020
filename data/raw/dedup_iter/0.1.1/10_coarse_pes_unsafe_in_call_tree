@@ -1,6 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"next\"), disambiguator: 0 }]","has_unsafe":true,"name":"<Dedup<I> as std::iter::Iterator>::next"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"next\"), disambiguator: 0 }]","has_unsafe":true,"name":"<DedupBy<I, F> as std::iter::Iterator>::next"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"next\"), disambiguator: 0 }]","has_unsafe":true,"name":"<DedupByKey<I, F, K> as std::iter::Iterator>::next"}
-{"def_path":"[DisambiguatedDefPathData { data: Trait(\"DedupAdapter\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"dedup\"), disambiguator: 0 }]","has_unsafe":false,"name":"DedupAdapter::dedup"}
-{"def_path":"[DisambiguatedDefPathData { data: Trait(\"DedupByAdapter\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"dedup_by\"), disambiguator: 0 }]","has_unsafe":false,"name":"DedupByAdapter::dedup_by"}
-{"def_path":"[DisambiguatedDefPathData { data: Trait(\"DedupByKeyAdapter\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"dedup_by_key\"), disambiguator: 0 }]","has_unsafe":false,"name":"DedupByKeyAdapter::dedup_by_key"}

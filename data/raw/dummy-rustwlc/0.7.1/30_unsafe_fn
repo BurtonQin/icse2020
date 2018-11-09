@@ -1,5 +1,0 @@
-{"name":"handle::WlcOutput::get_user_data","from_trait":true,"arguments":[],"sources":[]}
-{"name":"handle::WlcOutput::set_user_data","from_trait":true,"arguments":[],"sources":[]}
-{"name":"handle::WlcView::get_user_data","from_trait":true,"arguments":[],"sources":[]}
-{"name":"handle::WlcView::set_user_data","from_trait":true,"arguments":[],"sources":[]}
-{"name":"pointer_to_string","from_trait":false,"arguments":[{"type_info":"type(*const libc::c_char)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 229","kind":{"UnsafeFnCall":"Rust"}}]}

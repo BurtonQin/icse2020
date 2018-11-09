@@ -1,3 +1,0 @@
-{"name":"as_ref","from_trait":false,"arguments":[{"type_info":"type(*const T)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 13","kind":"DerefRawPointer"}]}
-{"name":"as_mut","from_trait":false,"arguments":[{"type_info":"type(*mut T)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 21","kind":"DerefRawPointer"}]}
-{"name":"<Node<T>>::new_on_heap","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 383","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}

@@ -1,5 +1,0 @@
-{"name":"<id::Id<T, O> as std::marker::Sync>"}
-{"name":"<id::Id<T> as std::marker::Send>"}
-{"name":"<id::Id<T, id::Shared> as std::marker::Send>"}
-{"name":"<id::WeakId<T> as std::marker::Sync>"}
-{"name":"<id::WeakId<T> as std::marker::Send>"}

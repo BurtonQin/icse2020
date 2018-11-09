@@ -1,8 +1,0 @@
-{"name":"<Eps as HasDual>"}
-{"name":"<Send<A, P> as HasDual>"}
-{"name":"<Recv<A, P> as HasDual>"}
-{"name":"<Choose<P, Q> as HasDual>"}
-{"name":"<Offer<P, Q> as HasDual>"}
-{"name":"<Var<Z> as HasDual>"}
-{"name":"<Var<S<N>> as HasDual>"}
-{"name":"<Rec<P> as HasDual>"}

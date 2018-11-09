@@ -1,2 +1,0 @@
-{"name":"<CSlice<'a, T>>::new","from_trait":true,"arguments":[{"type_info":"type(*const T)","kind":"RawPointer"}],"sources":[]}
-{"name":"<CMutSlice<'a, T>>::new","from_trait":true,"arguments":[{"type_info":"type(*mut T)","kind":"RawPointer"}],"sources":[]}

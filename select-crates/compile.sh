@@ -4,6 +4,8 @@ source ../exports.sh
 
 CRT_DIR=`pwd`
 
+export RUST_LOG=error
+
 # compile plugin
 unset RUSTFLAGS
 cd ../unsafe-analysis

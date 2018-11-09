@@ -1,6 +1,0 @@
-{"sources":[["32",[{"loc":"file: Real(\"src/main.rs\") line 23","kind":{"UnsafeFnCall":"C"}},{"loc":"file: Real(\"src/main.rs\") line 23","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/main.rs\") line 23","kind":{"UnsafeFnCall":"C"}},{"loc":"file: Real(\"src/main.rs\") line 23","kind":{"UnsafeFnCall":"Rust"}}]]]}
-{"sources":[["62",[{"loc":"file: Real(\"src/main.rs\") line 31","kind":{"UnsafeFnCall":"C"}}]],["87",[{"loc":"file: Real(\"src/main.rs\") line 38","kind":{"UnsafeFnCall":"C"}}]],["124",[{"loc":"file: Real(\"src/main.rs\") line 46","kind":{"UnsafeFnCall":"C"}}]]]}
-{"sources":[["163",[{"loc":"file: Real(\"src/main.rs\") line 60","kind":{"UnsafeFnCall":"C"}}]]]}
-{"sources":[["235",[{"loc":"file: Real(\"src/main.rs\") line 85","kind":{"UnsafeFnCall":"C"}}]]]}
-{"sources":[["254",[{"loc":"file: Macros(\"vec\") line 3","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Macros(\"vec\") line 3","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Macros(\"vec\") line 3","kind":{"UnsafeFnCall":"Rust"}}]]]}
-{"sources":[["269",[{"loc":"file: Real(\"src/main.rs\") line 126","kind":{"UnsafeFnCall":"Rust"}}]],["273",[{"loc":"file: Real(\"src/main.rs\") line 130","kind":{"UnsafeFnCall":"C"}},{"loc":"file: Real(\"src/main.rs\") line 131","kind":{"UnsafeFnCall":"C"}}]],["309",[{"loc":"file: Real(\"src/main.rs\") line 146","kind":{"UnsafeFnCall":"C"}}]]]}

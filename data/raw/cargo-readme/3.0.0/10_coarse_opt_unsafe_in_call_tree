@@ -1,8 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"helper\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_project_root\"), disambiguator: 0 }]","has_unsafe":false,"name":"helper::get_project_root"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"helper\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_source\"), disambiguator: 0 }]","has_unsafe":false,"name":"helper::get_source"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"helper\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_dest\"), disambiguator: 0 }]","has_unsafe":false,"name":"helper::get_dest"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"helper\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_template_file\"), disambiguator: 0 }]","has_unsafe":false,"name":"helper::get_template_file"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"helper\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"write_output\"), disambiguator: 0 }]","has_unsafe":false,"name":"helper::write_output"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"helper\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"find_entrypoint\"), disambiguator: 0 }]","has_unsafe":false,"name":"helper::find_entrypoint"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","has_unsafe":true,"name":"main"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"execute\"), disambiguator: 0 }]","has_unsafe":false,"name":"execute"}

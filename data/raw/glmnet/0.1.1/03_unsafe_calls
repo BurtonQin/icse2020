@@ -1,2 +1,0 @@
-{"abi":"C","def_path":"[DisambiguatedDefPathData { data: Module(\"ffi\"), disambiguator: 0 }, DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"elnet_\"), disambiguator: 0 }]","name":"elnet_","crate_name":"glmnet"}
-{"abi":"C","def_path":"[DisambiguatedDefPathData { data: Module(\"ffi\"), disambiguator: 0 }, DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"solns_\"), disambiguator: 0 }]","name":"solns_","crate_name":"glmnet"}

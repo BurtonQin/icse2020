@@ -1,4 +1,0 @@
-{"name":"enter::ENTERED::__getit","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__thread_local_inner\") line 16","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"global::EXECUTOR::__getit","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__thread_local_inner\") line 16","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"global::hide_lt","from_trait":false,"arguments":[{"type_info":"type(*mut Executor + 'a)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"/home/nora/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-executor-0.1.4/src/global.rs\") line 179","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
-{"name":"park::CURRENT_PARK_THREAD::__getit","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__thread_local_inner\") line 16","kind":{"UnsafeFnCall":"Rust"}}]}

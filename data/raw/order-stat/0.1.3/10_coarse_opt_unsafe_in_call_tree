@@ -1,9 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"floyd_rivest\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"select\"), disambiguator: 0 }]","has_unsafe":true,"name":"floyd_rivest::select"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"floyd_rivest\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"select_\"), disambiguator: 0 }]","has_unsafe":true,"name":"floyd_rivest::select_"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"quickselect\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"select\"), disambiguator: 0 }]","has_unsafe":false,"name":"quickselect::select"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"quickselect\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"partition\"), disambiguator: 0 }]","has_unsafe":false,"name":"quickselect::partition"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"mom\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"median_of_medians\"), disambiguator: 0 }]","has_unsafe":true,"name":"mom::median_of_medians"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"mom\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"median_of_medians_by\"), disambiguator: 0 }]","has_unsafe":true,"name":"mom::median_of_medians_by"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"mom\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"median5\"), disambiguator: 0 }]","has_unsafe":false,"name":"mom::median5"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"kth\"), disambiguator: 0 }]","has_unsafe":true,"name":"kth"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"kth_by\"), disambiguator: 0 }]","has_unsafe":true,"name":"kth_by"}

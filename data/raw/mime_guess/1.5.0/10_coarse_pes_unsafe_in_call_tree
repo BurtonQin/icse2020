@@ -1,7 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"guess_mime_type\"), disambiguator: 0 }]","has_unsafe":true,"name":"guess_mime_type"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"guess_mime_type_opt\"), disambiguator: 0 }]","has_unsafe":true,"name":"guess_mime_type_opt"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_mime_type\"), disambiguator: 0 }]","has_unsafe":true,"name":"get_mime_type"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_mime_type_opt\"), disambiguator: 0 }]","has_unsafe":true,"name":"get_mime_type_opt"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_mime_type_str\"), disambiguator: 0 }]","has_unsafe":true,"name":"get_mime_type_str"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"octet_stream\"), disambiguator: 0 }]","has_unsafe":false,"name":"octet_stream"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"to_lowercase_cow\"), disambiguator: 0 }]","has_unsafe":false,"name":"to_lowercase_cow"}
