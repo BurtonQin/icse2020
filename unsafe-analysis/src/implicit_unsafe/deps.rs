@@ -167,12 +167,21 @@ fn load_analysis<'a, 'tcx>(
             //process line
             let trimmed_line = line.trim_right();
             //info!("Processsing line {:?}", trimmed_line);
-            let ub: UnsafeInBody = serde_json::from_str(&trimmed_line).unwrap();
-            let def_path = ub.def_path;
-            if let Some(def_id) = calls.get(&def_path) {
-                //info!("Call {:?} found", &def_path);
-                result.insert(*def_id,UnsafeInBody::new(def_path,ub.fn_type,ub.name));
+            let res: serde_json::Result<UnsafeInBody> = serde_json::from_str(&trimmed_line);
+            match res {
+                Ok(ub) => {
+                    let def_path = ub.def_path;
+                    if let Some(def_id) = calls.get(&def_path) {
+                        //info!("Call {:?} found", &def_path);
+                        result.insert(*def_id,UnsafeInBody::new(def_path,ub.fn_type,ub.name));
+                    }
+                }
+                Err(e) => {
+                    error!("Error processing line {:?}", trimmed_line);
+                }
             }
+
+
         }
     }
     Ok(())
