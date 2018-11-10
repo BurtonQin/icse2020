@@ -1,0 +1,10 @@
+{"name":"<proto::LabelPair as std::marker::Sync>"}
+{"name":"<proto::Gauge as std::marker::Sync>"}
+{"name":"<proto::Counter as std::marker::Sync>"}
+{"name":"<proto::Quantile as std::marker::Sync>"}
+{"name":"<proto::Summary as std::marker::Sync>"}
+{"name":"<proto::Untyped as std::marker::Sync>"}
+{"name":"<proto::Histogram as std::marker::Sync>"}
+{"name":"<proto::Bucket as std::marker::Sync>"}
+{"name":"<proto::Metric as std::marker::Sync>"}
+{"name":"<proto::MetricFamily as std::marker::Sync>"}

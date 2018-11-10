@@ -1,0 +1,16 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<BasicAuthParams as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<BasicAuthParams as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<MiniserveConfig as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<MiniserveConfig as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_basic_auth\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"spaserver::parse_basic_auth"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_valid_path\"), disambiguator: 0 }]","fn_type":"Safe","name":"spaserver::is_valid_path"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_valid_port\"), disambiguator: 0 }]","fn_type":"Safe","name":"spaserver::is_valid_port"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_valid_interface\"), disambiguator: 0 }]","fn_type":"Safe","name":"spaserver::is_valid_interface"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_valid_auth\"), disambiguator: 0 }]","fn_type":"Safe","name":"spaserver::is_valid_auth"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_args\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"spaserver::parse_args"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"response\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<Auth as actix_web::middleware::Middleware<MiniserveConfig>>::response"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"spaserver::main"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"init_app\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"spaserver::init_app"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<IndexHandler as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"spaserver::IndexHandler::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"handle\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<IndexHandler as actix_web::dev::Handler<S>>::handle"}

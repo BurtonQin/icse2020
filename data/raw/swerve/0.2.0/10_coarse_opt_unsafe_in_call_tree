@@ -1,0 +1,8 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"open\"), disambiguator: 0 }]","fn_type":"Safe","name":"swerve::TypedFile::open"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"respond_to\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<TypedFile as rocket::response::Responder<'static>>::respond_to"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"rocket_route_fn_serve_root\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"swerve::rocket_route_fn_serve_root"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"serve_root\"), disambiguator: 0 }]","fn_type":"Safe","name":"swerve::serve_root"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"rocket_route_fn_serve_files\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"swerve::rocket_route_fn_serve_files"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"serve_files\"), disambiguator: 0 }]","fn_type":"Safe","name":"swerve::serve_files"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"config_from_args\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"swerve::config_from_args"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"swerve::main"}

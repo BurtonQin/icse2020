@@ -1,0 +1,17 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Map<K>>::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"noop_fix_for_27438\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Map<K>>::new::noop_fix_for_27438"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"phf_path\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Map<K>>::phf_path"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"entry\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Map<K>>::entry"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"build\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Map<K>>::build"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Set<T>>::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"phf_path\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Set<T>>::phf_path"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"entry\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Set<T>>::entry"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"build\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Set<T>>::build"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"<OrderedMap<K>>::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"phf_path\"), disambiguator: 0 }]","fn_type":"Safe","name":"<OrderedMap<K>>::phf_path"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"entry\"), disambiguator: 0 }]","fn_type":"Safe","name":"<OrderedMap<K>>::entry"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"build\"), disambiguator: 0 }]","fn_type":"Safe","name":"<OrderedMap<K>>::build"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"<OrderedSet<T>>::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"phf_path\"), disambiguator: 0 }]","fn_type":"Safe","name":"<OrderedSet<T>>::phf_path"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"entry\"), disambiguator: 0 }]","fn_type":"Safe","name":"<OrderedSet<T>>::entry"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"build\"), disambiguator: 0 }]","fn_type":"Safe","name":"<OrderedSet<T>>::build"}

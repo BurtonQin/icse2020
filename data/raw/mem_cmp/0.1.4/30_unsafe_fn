@@ -1,0 +1,1 @@
+{"name":"ext::_memcmp","from_trait":false,"arguments":[{"type_info":"type(*const T)","kind":"RawPointer"},{"type_info":"type(*const U)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/ext.rs\") line 11","kind":{"UnsafeFnCall":"C"}}]}

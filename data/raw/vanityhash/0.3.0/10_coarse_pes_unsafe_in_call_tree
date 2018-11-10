@@ -1,0 +1,4 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"vanityhash::main"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"increment\"), disambiguator: 0 }]","fn_type":"Safe","name":"vanityhash::increment"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"matching_characters\"), disambiguator: 0 }]","fn_type":"Safe","name":"vanityhash::matching_characters"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"matches_symbol\"), disambiguator: 0 }]","fn_type":"Safe","name":"vanityhash::matches_symbol"}

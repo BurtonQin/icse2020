@@ -1,0 +1,3 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"two_over\"), disambiguator: 0 }]","fn_type":"Safe","name":"quadratic::two_over"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"reciprocity\"), disambiguator: 0 }]","fn_type":"Safe","name":"quadratic::reciprocity"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"jacobi\"), disambiguator: 0 }]","fn_type":"Safe","name":"quadratic::jacobi"}

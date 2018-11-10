@@ -1,0 +1,11 @@
+{"name":"<fifo::Buffer<T> as std::marker::Send>"}
+{"name":"<fifo::Worker<T> as std::marker::Send>"}
+{"name":"<fifo::Stealer<T> as std::marker::Send>"}
+{"name":"<fifo::Stealer<T> as std::marker::Sync>"}
+{"name":"<lifo::Buffer<T> as std::marker::Send>"}
+{"name":"<lifo::Worker<T> as std::marker::Send>"}
+{"name":"<lifo::Stealer<T> as std::marker::Send>"}
+{"name":"<lifo::Stealer<T> as std::marker::Sync>"}
+{"name":"<Worker<T> as std::marker::Send>"}
+{"name":"<Stealer<T> as std::marker::Send>"}
+{"name":"<Stealer<T> as std::marker::Sync>"}

@@ -1,0 +1,12 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"prismatic\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"prismatic::prismatic"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"generate_code\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"prismatic::generate_code"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"struct_name\"), disambiguator: 0 }]","fn_type":"Safe","name":"prismatic::struct_name"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"struct_fields\"), disambiguator: 0 }]","fn_type":"Safe","name":"prismatic::struct_fields"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"struct_types\"), disambiguator: 0 }]","fn_type":"Safe","name":"prismatic::struct_types"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"struct_members\"), disambiguator: 0 }]","fn_type":"Safe","name":"prismatic::struct_members"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"sig_attribute\"), disambiguator: 0 }]","fn_type":"Safe","name":"prismatic::sig_attribute"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"attribute_value\"), disambiguator: 0 }]","fn_type":"Safe","name":"prismatic::attribute_value"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"trim_quotes\"), disambiguator: 0 }]","fn_type":"Safe","name":"prismatic::trim_quotes"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"sig_params\"), disambiguator: 0 }]","fn_type":"Safe","name":"prismatic::sig_params"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"setter_names\"), disambiguator: 0 }]","fn_type":"Safe","name":"prismatic::setter_names"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"prismatic::registrar::_registrar"}

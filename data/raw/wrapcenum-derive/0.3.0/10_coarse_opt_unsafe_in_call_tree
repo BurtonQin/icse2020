@@ -1,0 +1,10 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"from\"), disambiguator: 0 }]","fn_type":"Safe","name":"wrapcenum_derive::VariantInfo::from"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"tokens_for_as_c\"), disambiguator: 0 }]","fn_type":"Safe","name":"wrapcenum_derive::VariantInfo::tokens_for_as_c"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"tokens_for_from_c\"), disambiguator: 0 }]","fn_type":"Safe","name":"wrapcenum_derive::VariantInfo::tokens_for_from_c"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"tokens_for_try_from_c\"), disambiguator: 0 }]","fn_type":"Safe","name":"wrapcenum_derive::VariantInfo::tokens_for_try_from_c"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"enum_wrapper\"), disambiguator: 0 }]","fn_type":"Safe","name":"wrapcenum_derive::enum_wrapper"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"wrap_enum\"), disambiguator: 0 }]","fn_type":"Safe","name":"wrapcenum_derive::wrap_enum"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"gen_impl\"), disambiguator: 0 }]","fn_type":"Safe","name":"wrapcenum_derive::gen_impl"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"attr_val_for_str\"), disambiguator: 0 }]","fn_type":"Safe","name":"wrapcenum_derive::attr_val_for_str"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"variant_attr_val_for_str\"), disambiguator: 0 }]","fn_type":"Safe","name":"wrapcenum_derive::variant_attr_val_for_str"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","fn_type":"Safe","name":"wrapcenum_derive::registrar::_registrar"}

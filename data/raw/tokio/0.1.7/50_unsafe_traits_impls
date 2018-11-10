@@ -1,0 +1,5 @@
+{"name":"<executor::current_thread::scheduler::Inner<U> as std::marker::Send>"}
+{"name":"<executor::current_thread::scheduler::Inner<U> as std::marker::Sync>"}
+{"name":"<executor::current_thread::scheduler::ArcNode<U> as std::marker::Send>"}
+{"name":"<executor::current_thread::scheduler::ArcNode<U> as std::marker::Sync>"}
+{"name":"<executor::current_thread::scheduler::ArcNode<U> as futures::executor::UnsafeNotify>"}

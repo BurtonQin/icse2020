@@ -1,0 +1,7 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Ruleset<T>>::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"add_rule\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<Ruleset<T>>::add_rule"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"add_simple\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<Ruleset<T>>::add_simple"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"add_noop\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<Ruleset<T>>::add_noop"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"next\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<Lexer<'a, T> as std::iter::Iterator>::next"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"lex\"), disambiguator: 0 }]","fn_type":"Safe","name":"reflex::lex"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"convert_regex\"), disambiguator: 0 }]","fn_type":"Safe","name":"reflex::convert_regex"}

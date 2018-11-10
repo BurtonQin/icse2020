@@ -1,0 +1,35 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"markdown\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"greater_or_equal_header_level_regex\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rfc::markdown::greater_or_equal_header_level_regex"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"markdown\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"header_regex\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rfc::markdown::header_regex"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"markdown\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"find_section\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rfc::markdown::find_section"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"markdown\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_section\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rfc::markdown::get_section"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"markdown\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"replace_section\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rfc::markdown::replace_section"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"markdown\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"replace_or_append_section\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rfc::markdown::replace_or_append_section"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"markdown\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"header_level\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rfc::markdown::header_level"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"deref\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<PR_PATH as std::ops::Deref>::deref"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"deref\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"__static_ref_initialize\"), disambiguator: 0 }]","fn_type":"Safe","name":"<PR_PATH as std::ops::Deref>::deref::__static_ref_initialize"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"deref\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"require_sync\"), disambiguator: 0 }]","fn_type":"Safe","name":"<PR_PATH as std::ops::Deref>::deref::require_sync"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"deref\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<PROJECT_NAME as std::ops::Deref>::deref"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"deref\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"__static_ref_initialize\"), disambiguator: 0 }]","fn_type":"Safe","name":"<PROJECT_NAME as std::ops::Deref>::deref::__static_ref_initialize"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"deref\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"require_sync\"), disambiguator: 0 }]","fn_type":"Safe","name":"<PROJECT_NAME as std::ops::Deref>::deref::require_sync"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"pull_request_path\"), disambiguator: 0 }]","fn_type":"Safe","name":"rfc::pull_request_path"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"project_name\"), disambiguator: 0 }]","fn_type":"Safe","name":"rfc::project_name"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rfc::main"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"approve\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rfc::approve"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"implement\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rfc::implement"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"populate_rfc_pr\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rfc::populate_rfc_pr"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"run_command\"), disambiguator: 0 }]","fn_type":"Safe","name":"rfc::run_command"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"incr_rfc_id\"), disambiguator: 0 }]","fn_type":"Safe","name":"rfc::incr_rfc_id"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"rfc_path\"), disambiguator: 0 }]","fn_type":"Safe","name":"rfc::rfc_path"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"new_rfc\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rfc::new_rfc"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"init_rfcs\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rfc::init_rfcs"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"setup_rfcs_dir\"), disambiguator: 0 }]","fn_type":"Safe","name":"rfc::setup_rfcs_dir"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"rfc_branch_name\"), disambiguator: 0 }]","fn_type":"Safe","name":"rfc::rfc_branch_name"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"list_pending_rfcs\"), disambiguator: 0 }]","fn_type":"Safe","name":"rfc::list_pending_rfcs"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"list_accepted_rfcs\"), disambiguator: 0 }]","fn_type":"Safe","name":"rfc::list_accepted_rfcs"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"list_accepted_rfc_nums\"), disambiguator: 0 }]","fn_type":"Safe","name":"rfc::list_accepted_rfc_nums"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_implemented\"), disambiguator: 0 }]","fn_type":"Safe","name":"rfc::is_implemented"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"list_active_rfcs\"), disambiguator: 0 }]","fn_type":"Safe","name":"rfc::list_active_rfcs"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"markdown_link_list\"), disambiguator: 0 }]","fn_type":"Safe","name":"rfc::markdown_link_list"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"markdown_active_rfcs\"), disambiguator: 0 }]","fn_type":"Safe","name":"rfc::markdown_active_rfcs"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"update_readme\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rfc::update_readme"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"max_accepted_rfc_num\"), disambiguator: 0 }]","fn_type":"Safe","name":"rfc::max_accepted_rfc_num"}

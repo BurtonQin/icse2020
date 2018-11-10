@@ -1,0 +1,7 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"text\"), disambiguator: 0 }]","fn_type":"Safe","name":"size::Unit::text"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"format\"), disambiguator: 0 }]","fn_type":"Safe","name":"size::Unit::format"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<Size<T> as std::fmt::Display>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<Fmt<F> as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"bytes\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<Size<T>>::bytes"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"to_string\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Size<T>>::to_string"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"format\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<Size<T>>::format"}

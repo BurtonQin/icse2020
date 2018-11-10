@@ -1,0 +1,9 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"acme_client::main"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"sign_certificate\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"acme_client::sign_certificate"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"revoke_certificate\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"acme_client::revoke_certificate"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"init_logger\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"acme_client::init_logger"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"names_from_csr\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"acme_client::names_from_csr"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"names_from_csr\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"read_file\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"acme_client::names_from_csr::read_file"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_asn1_octet_str\"), disambiguator: 0 }]","fn_type":"Safe","name":"acme_client::parse_asn1_octet_str"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"gen_key\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"acme_client::gen_key"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"gen_csr\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"acme_client::gen_csr"}

@@ -1,0 +1,2 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"emulate_macro_expansion\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"runtime_macros::emulate_macro_expansion"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"emulate_macro_expansion\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"visit_macro\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<emulate_macro_expansion::MacroVisitor<'a, F> as syn::visit::Visit<'ast>>::visit_macro"}

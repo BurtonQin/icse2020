@@ -1,0 +1,3 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"struct_iterator\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"struct_gen_derive::struct_iterator"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"impl_struct_iter\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"struct_gen_derive::impl_struct_iter"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"struct_gen_derive::registrar::_registrar"}

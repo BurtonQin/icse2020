@@ -1,0 +1,10 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"<LazyCell<T>>::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"fill\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<LazyCell<T>>::fill"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"filled\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<LazyCell<T>>::filled"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"borrow\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<LazyCell<T>>::borrow"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"into_inner\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<LazyCell<T>>::into_inner"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"<AtomicLazyCell<T>>::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"fill\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<AtomicLazyCell<T>>::fill"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"filled\"), disambiguator: 0 }]","fn_type":"Safe","name":"<AtomicLazyCell<T>>::filled"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"borrow\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<AtomicLazyCell<T>>::borrow"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"into_inner\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<AtomicLazyCell<T>>::into_inner"}

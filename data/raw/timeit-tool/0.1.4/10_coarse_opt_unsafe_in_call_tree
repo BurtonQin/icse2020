@@ -1,0 +1,13 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"arg_to_path\"), disambiguator: 0 }]","fn_type":"Safe","name":"timeit::arg_to_path"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"assure_directory\"), disambiguator: 0 }]","fn_type":"Safe","name":"timeit::assure_directory"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"try_read_file\"), disambiguator: 0 }]","fn_type":"Safe","name":"timeit::try_read_file"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_time\"), disambiguator: 0 }]","fn_type":"Safe","name":"timeit::parse_time"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_current_time\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"timeit::get_current_time"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_diff\"), disambiguator: 0 }]","fn_type":"Safe","name":"timeit::get_diff"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"print_diff\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"timeit::print_diff"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"drop_file\"), disambiguator: 0 }]","fn_type":"Safe","name":"timeit::drop_file"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"write_current_time\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"timeit::write_current_time"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"handle_existing_timer\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"timeit::handle_existing_timer"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"handle_new_timer\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"timeit::handle_new_timer"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"do_the_thing\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"timeit::do_the_thing"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"timeit::main"}

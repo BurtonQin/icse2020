@@ -1,0 +1,6 @@
+{"name":"<mpsc::queue::Queue<T> as std::marker::Send>"}
+{"name":"<mpsc::queue::Queue<T> as std::marker::Sync>"}
+{"name":"<mpsc::Inner<T> as std::marker::Send>"}
+{"name":"<mpsc::Inner<T> as std::marker::Sync>"}
+{"name":"<lock::Lock<T> as std::marker::Send>"}
+{"name":"<lock::Lock<T> as std::marker::Sync>"}

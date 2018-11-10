@@ -1,0 +1,10 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"round_trip\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"serde_roundtrip_derive::round_trip"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"fold_generics\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Renaming<'a> as syn::fold::Folder>::fold_generics"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"fold_lifetime\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Renaming<'a> as syn::fold::Folder>::fold_lifetime"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"fold_path\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Renaming<'a> as syn::fold::Folder>::fold_path"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"fold_lifetime_ident\"), disambiguator: 0 }]","fn_type":"Safe","name":"serde_roundtrip_derive::Renaming::fold_lifetime_ident"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"fold_ty_param_ident\"), disambiguator: 0 }]","fn_type":"Safe","name":"serde_roundtrip_derive::Renaming::fold_ty_param_ident"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"generic_path\"), disambiguator: 0 }]","fn_type":"Safe","name":"serde_roundtrip_derive::generic_path"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"ty_param_bound\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"serde_roundtrip_derive::ty_param_bound"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"impl_round_trip\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"serde_roundtrip_derive::impl_round_trip"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"serde_roundtrip_derive::registrar::_registrar"}

@@ -1,0 +1,4 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"walker::Walker::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"rewind\"), disambiguator: 0 }]","fn_type":"Safe","name":"walker::Walker::rewind"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_dir\"), disambiguator: 0 }]","fn_type":"Safe","name":"walker::is_dir"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"next\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Walker as std::iter::Iterator>::next"}

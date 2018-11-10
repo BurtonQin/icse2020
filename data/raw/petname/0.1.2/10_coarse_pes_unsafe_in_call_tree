@@ -1,0 +1,4 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"lib\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"petname\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"petname::lib::petname"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"lib\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"default\"), disambiguator: 0 }]","fn_type":"Safe","name":"petname::lib::Petnames::default"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"lib\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"generate\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"petname::lib::Petnames::generate"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"petname::main"}

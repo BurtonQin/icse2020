@@ -1,0 +1,8 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"roads_from_nd::main"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"from_osm\"), disambiguator: 0 }]","fn_type":"Safe","name":"roads_from_nd::Graph::from_osm"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"dijkstra\"), disambiguator: 0 }]","fn_type":"Safe","name":"roads_from_nd::Graph::dijkstra"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"count_uses\"), disambiguator: 0 }]","fn_type":"Safe","name":"roads_from_nd::Graph::count_uses"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"bounds\"), disambiguator: 0 }]","fn_type":"Safe","name":"roads_from_nd::Graph::bounds"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"render\"), disambiguator: 0 }]","fn_type":"Safe","name":"roads_from_nd::Graph::render"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"stupid_proj\"), disambiguator: 0 }]","fn_type":"Safe","name":"roads_from_nd::stupid_proj"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"sigma\"), disambiguator: 0 }]","fn_type":"Safe","name":"roads_from_nd::sigma"}

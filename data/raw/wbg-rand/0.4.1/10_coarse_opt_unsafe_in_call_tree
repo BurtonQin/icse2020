@@ -1,0 +1,11 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"math_random_rng\"), disambiguator: 0 }]","fn_type":"Safe","name":"wbg_rand::math_random_rng"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"random\"), disambiguator: 0 }]","fn_type":"Safe","name":"wbg_rand::random"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"next_u32\"), disambiguator: 0 }]","fn_type":"Safe","name":"<MathRandomRng as rand::Rng>::next_u32"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"wasm_rng\"), disambiguator: 0 }]","fn_type":"Safe","name":"wbg_rand::wasm_rng"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"deref\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<RNG as lazy_static::Deref>::deref"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"deref\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"__static_ref_initialize\"), disambiguator: 0 }]","fn_type":"Safe","name":"<RNG as lazy_static::Deref>::deref::__static_ref_initialize"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"initialize\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<RNG as lazy_static::LazyStatic>::initialize"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"reseed\"), disambiguator: 0 }]","fn_type":"Safe","name":"<WasmRngReseed as rand::reseeding::Reseeder<rand::IsaacRng>>::reseed"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"next_u32\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<WasmRng as rand::Rng>::next_u32"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"next_u64\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<WasmRng as rand::Rng>::next_u64"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"fill_bytes\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<WasmRng as rand::Rng>::fill_bytes"}

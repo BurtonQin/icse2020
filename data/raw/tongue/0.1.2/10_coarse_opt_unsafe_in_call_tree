@@ -1,0 +1,4 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"interrupt\"), disambiguator: 0 }]","fn_type":"Safe","name":"tongue::interrupt"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"disable_sigint\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"tongue::disable_sigint"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"tongue_main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"tongue::tongue_main"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"tongue::main"}

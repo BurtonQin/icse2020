@@ -1,0 +1,22 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Value as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"hex_char\"), disambiguator: 0 }]","fn_type":"Safe","name":"type1_encoding_parser::hex_char"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"comment\"), disambiguator: 0 }]","fn_type":"Safe","name":"type1_encoding_parser::comment"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"content_space\"), disambiguator: 0 }]","fn_type":"Safe","name":"type1_encoding_parser::content_space"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"operator\"), disambiguator: 0 }]","fn_type":"Safe","name":"type1_encoding_parser::operator"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"oct_char\"), disambiguator: 0 }]","fn_type":"Safe","name":"type1_encoding_parser::oct_char"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"escape_sequence\"), disambiguator: 0 }]","fn_type":"Safe","name":"type1_encoding_parser::escape_sequence"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"nested_literal_string\"), disambiguator: 0 }]","fn_type":"Safe","name":"type1_encoding_parser::nested_literal_string"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"literal_string\"), disambiguator: 0 }]","fn_type":"Safe","name":"type1_encoding_parser::literal_string"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"name\"), disambiguator: 0 }]","fn_type":"Safe","name":"type1_encoding_parser::name"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"integer\"), disambiguator: 0 }]","fn_type":"Safe","name":"type1_encoding_parser::integer"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"number\"), disambiguator: 0 }]","fn_type":"Safe","name":"type1_encoding_parser::number"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"space\"), disambiguator: 0 }]","fn_type":"Safe","name":"type1_encoding_parser::space"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"dictionary\"), disambiguator: 0 }]","fn_type":"Safe","name":"type1_encoding_parser::dictionary"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"hexadecimal_string\"), disambiguator: 0 }]","fn_type":"Safe","name":"type1_encoding_parser::hexadecimal_string"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"eol\"), disambiguator: 0 }]","fn_type":"Safe","name":"type1_encoding_parser::eol"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"value\"), disambiguator: 0 }]","fn_type":"Safe","name":"type1_encoding_parser::value"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"array\"), disambiguator: 0 }]","fn_type":"Safe","name":"type1_encoding_parser::array"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"procedure\"), disambiguator: 0 }]","fn_type":"Safe","name":"type1_encoding_parser::procedure"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"file\"), disambiguator: 0 }]","fn_type":"Safe","name":"type1_encoding_parser::file"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"type1_encoding_parser::parse"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_encoding_map\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"type1_encoding_parser::get_encoding_map"}

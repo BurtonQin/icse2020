@@ -1,0 +1,3 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"as_aligned\"), disambiguator: 0 }]","fn_type":"Safe","name":"tlv::as_aligned"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"encode\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"tlv::encode"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"decode\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"tlv::decode"}

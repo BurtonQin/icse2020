@@ -1,0 +1,13 @@
+{"name":"<address::envelope::SyncEnvelope<A> as std::marker::Send>"}
+{"name":"<address::envelope::SyncEnvelopeProxy<A, M> as std::marker::Send>"}
+{"name":"<address::queue::Queue<T> as std::marker::Send>"}
+{"name":"<address::queue::Queue<T> as std::marker::Sync>"}
+{"name":"<address::sync_channel::SyncAddressSender<A> as std::marker::Sync>"}
+{"name":"<address::sync_channel::Inner<A> as std::marker::Send>"}
+{"name":"<address::sync_channel::Inner<A> as std::marker::Sync>"}
+{"name":"<address::Addr<address::sync::Syn, A> as std::marker::Send>"}
+{"name":"<address::Addr<address::sync::Syn, A> as std::marker::Sync>"}
+{"name":"<address::Recipient<address::sync::Syn, M> as std::marker::Send>"}
+{"name":"<address::Recipient<address::sync::Syn, M> as std::marker::Sync>"}
+{"name":"<registry::SystemRegistry as std::marker::Send>"}
+{"name":"<sync::SyncContextEnvelope<A, M> as std::marker::Send>"}

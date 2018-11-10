@@ -1,0 +1,9 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"zero_memory\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rpassword::zero_memory"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"fixes_newline\"), disambiguator: 0 }]","fn_type":"Safe","name":"rpassword::fixes_newline"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"unix\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"io_result\"), disambiguator: 0 }]","fn_type":"Safe","name":"rpassword::unix::io_result"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"unix\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"read_password\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rpassword::unix::read_password"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"read_response\"), disambiguator: 0 }]","fn_type":"Safe","name":"rpassword::read_response"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"prompt_response_stdout\"), disambiguator: 0 }]","fn_type":"Safe","name":"rpassword::prompt_response_stdout"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"prompt_response_stderr\"), disambiguator: 0 }]","fn_type":"Safe","name":"rpassword::prompt_response_stderr"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"prompt_password_stdout\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rpassword::prompt_password_stdout"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"prompt_password_stderr\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rpassword::prompt_password_stderr"}

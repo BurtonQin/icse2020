@@ -1,0 +1,3 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"print_usage\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rewrite::print_usage"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"redirect_to_file\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rewrite::redirect_to_file"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rewrite::main"}

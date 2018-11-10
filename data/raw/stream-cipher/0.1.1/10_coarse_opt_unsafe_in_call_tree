@@ -1,0 +1,4 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<LoopError as core::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<LoopError as core::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<LoopError as core::fmt::Display>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Trait(\"StreamCipherCore\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"apply_keystream\"), disambiguator: 0 }]","fn_type":"Safe","name":"stream_cipher::StreamCipherCore::apply_keystream"}

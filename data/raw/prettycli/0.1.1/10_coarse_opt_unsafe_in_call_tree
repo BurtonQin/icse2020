@@ -1,0 +1,8 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"error\"), disambiguator: 0 }]","fn_type":"Safe","name":"prettycli::error"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"info\"), disambiguator: 0 }]","fn_type":"Safe","name":"prettycli::info"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"warn\"), disambiguator: 0 }]","fn_type":"Safe","name":"prettycli::warn"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"wait\"), disambiguator: 0 }]","fn_type":"Safe","name":"prettycli::wait"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"critical\"), disambiguator: 0 }]","fn_type":"Safe","name":"prettycli::critical"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"command\"), disambiguator: 0 }]","fn_type":"Safe","name":"prettycli::command"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"link\"), disambiguator: 0 }]","fn_type":"Safe","name":"prettycli::link"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"misc\"), disambiguator: 0 }]","fn_type":"Safe","name":"prettycli::misc"}

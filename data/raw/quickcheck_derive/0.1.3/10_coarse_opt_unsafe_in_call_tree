@@ -1,0 +1,3 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"Arbitrary\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"quickcheck_derive::Arbitrary"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"arbitrary_derive\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"quickcheck_derive::arbitrary_derive"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","fn_type":"Safe","name":"quickcheck_derive::registrar::_registrar"}

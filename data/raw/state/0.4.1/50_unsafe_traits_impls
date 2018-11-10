@@ -1,0 +1,4 @@
+{"name":"<container::Container as std::marker::Sync>"}
+{"name":"<container::Container as std::marker::Send>"}
+{"name":"<storage::Storage<T> as std::marker::Sync>"}
+{"name":"<storage::Storage<T> as std::marker::Send>"}

@@ -1,0 +1,2 @@
+{"name":"mem::usafe::drop_in_place","from_trait":false,"arguments":[],"sources":[]}
+{"name":"mem::usafe::discard_n","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/mem.rs\") line 39","kind":{"UnsafeFnCall":"RustIntrinsic"}},{"loc":"file: Real(\"src/mem.rs\") line 40","kind":{"UnsafeFnCall":"Rust"}}]}

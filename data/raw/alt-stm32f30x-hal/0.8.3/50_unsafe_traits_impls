@@ -1,0 +1,9 @@
+{"name":"<gpio::PB6<PT, gpio::AltFn<gpio::AF4, OT, OS>> as i2c::SclPin<stm32f30x::I2C1>>"}
+{"name":"<gpio::PB8<PT, gpio::AltFn<gpio::AF4, OT, OS>> as i2c::SclPin<stm32f30x::I2C1>>"}
+{"name":"<gpio::PA9<PT, gpio::AltFn<gpio::AF4, OT, OS>> as i2c::SclPin<stm32f30x::I2C2>>"}
+{"name":"<gpio::PF1<PT, gpio::AltFn<gpio::AF4, OT, OS>> as i2c::SclPin<stm32f30x::I2C2>>"}
+{"name":"<gpio::PF6<PT, gpio::AltFn<gpio::AF4, OT, OS>> as i2c::SclPin<stm32f30x::I2C2>>"}
+{"name":"<gpio::PB7<PT, gpio::AltFn<gpio::AF4, OT, OS>> as i2c::SdaPin<stm32f30x::I2C1>>"}
+{"name":"<gpio::PB9<PT, gpio::AltFn<gpio::AF4, OT, OS>> as i2c::SdaPin<stm32f30x::I2C1>>"}
+{"name":"<gpio::PA10<PT, gpio::AltFn<gpio::AF4, OT, OS>> as i2c::SdaPin<stm32f30x::I2C2>>"}
+{"name":"<gpio::PF0<PT, gpio::AltFn<gpio::AF4, OT, OS>> as i2c::SdaPin<stm32f30x::I2C2>>"}

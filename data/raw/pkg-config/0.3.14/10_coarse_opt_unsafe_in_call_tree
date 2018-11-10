@@ -1,0 +1,36 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"target_supported\"), disambiguator: 0 }]","fn_type":"Safe","name":"pkg_config::target_supported"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Config as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"default\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Config as std::default::Default>::default"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 8 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Library as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"description\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Error as std::error::Error>::description"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"cause\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Error as std::error::Error>::cause"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<OutputDebugger<'a> as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Error as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Error as std::fmt::Display>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"find_library\"), disambiguator: 0 }]","fn_type":"Safe","name":"pkg_config::find_library"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"probe_library\"), disambiguator: 0 }]","fn_type":"Safe","name":"pkg_config::probe_library"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_variable\"), disambiguator: 0 }]","fn_type":"Safe","name":"pkg_config::get_variable"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"pkg_config::Config::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"statik\"), disambiguator: 0 }]","fn_type":"Safe","name":"pkg_config::Config::statik"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"atleast_version\"), disambiguator: 0 }]","fn_type":"Safe","name":"pkg_config::Config::atleast_version"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"arg\"), disambiguator: 0 }]","fn_type":"Safe","name":"pkg_config::Config::arg"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"cargo_metadata\"), disambiguator: 0 }]","fn_type":"Safe","name":"pkg_config::Config::cargo_metadata"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"env_metadata\"), disambiguator: 0 }]","fn_type":"Safe","name":"pkg_config::Config::env_metadata"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"print_system_libs\"), disambiguator: 0 }]","fn_type":"Safe","name":"pkg_config::Config::print_system_libs"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"find\"), disambiguator: 0 }]","fn_type":"Safe","name":"pkg_config::Config::find"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"probe\"), disambiguator: 0 }]","fn_type":"Safe","name":"pkg_config::Config::probe"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"get_variable\"), disambiguator: 0 }]","fn_type":"Safe","name":"pkg_config::Config::get_variable"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"targetted_env_var\"), disambiguator: 0 }]","fn_type":"Safe","name":"pkg_config::Config::targetted_env_var"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"env_var\"), disambiguator: 0 }]","fn_type":"Safe","name":"pkg_config::Config::env_var"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"env_var_os\"), disambiguator: 0 }]","fn_type":"Safe","name":"pkg_config::Config::env_var_os"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"is_static\"), disambiguator: 0 }]","fn_type":"Safe","name":"pkg_config::Config::is_static"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"command\"), disambiguator: 0 }]","fn_type":"Safe","name":"pkg_config::Config::command"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"print_metadata\"), disambiguator: 0 }]","fn_type":"Safe","name":"pkg_config::Config::print_metadata"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"infer_static\"), disambiguator: 0 }]","fn_type":"Safe","name":"pkg_config::Config::infer_static"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"pkg_config::Library::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"parse_libs_cflags\"), disambiguator: 0 }]","fn_type":"Safe","name":"pkg_config::Library::parse_libs_cflags"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"parse_modversion\"), disambiguator: 0 }]","fn_type":"Safe","name":"pkg_config::Library::parse_modversion"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"envify\"), disambiguator: 0 }]","fn_type":"Safe","name":"pkg_config::envify"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_static_available\"), disambiguator: 0 }]","fn_type":"Safe","name":"pkg_config::is_static_available"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"run\"), disambiguator: 0 }]","fn_type":"Safe","name":"pkg_config::run"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"split_flags\"), disambiguator: 0 }]","fn_type":"Safe","name":"pkg_config::split_flags"}

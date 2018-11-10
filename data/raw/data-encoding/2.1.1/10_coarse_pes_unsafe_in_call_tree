@@ -1,0 +1,105 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 10 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Bf as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 9 }, DisambiguatedDefPathData { data: ValueNs(\"val\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Bf as Static<bool>>::val"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 13 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Bt as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 12 }, DisambiguatedDefPathData { data: ValueNs(\"val\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Bt as Static<bool>>::val"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 16 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<N1 as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 15 }, DisambiguatedDefPathData { data: ValueNs(\"val\"), disambiguator: 0 }]","fn_type":"Safe","name":"<N1 as Static<usize>>::val"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 19 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<N2 as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 18 }, DisambiguatedDefPathData { data: ValueNs(\"val\"), disambiguator: 0 }]","fn_type":"Safe","name":"<N2 as Static<usize>>::val"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 22 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<N3 as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 21 }, DisambiguatedDefPathData { data: ValueNs(\"val\"), disambiguator: 0 }]","fn_type":"Safe","name":"<N3 as Static<usize>>::val"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 25 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<N4 as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 24 }, DisambiguatedDefPathData { data: ValueNs(\"val\"), disambiguator: 0 }]","fn_type":"Safe","name":"<N4 as Static<usize>>::val"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 28 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<N5 as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 27 }, DisambiguatedDefPathData { data: ValueNs(\"val\"), disambiguator: 0 }]","fn_type":"Safe","name":"<N5 as Static<usize>>::val"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 31 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<N6 as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 30 }, DisambiguatedDefPathData { data: ValueNs(\"val\"), disambiguator: 0 }]","fn_type":"Safe","name":"<N6 as Static<usize>>::val"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 33 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<On as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"val\"), disambiguator: 0 }]","fn_type":"Safe","name":"<On as Static<std::option::Option<T>>>::val"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 35 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<Os<T> as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"val\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Os<T> as Static<std::option::Option<T>>>::val"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"div_ceil\"), disambiguator: 0 }]","fn_type":"Safe","name":"data_encoding::div_ceil"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"floor\"), disambiguator: 0 }]","fn_type":"Safe","name":"data_encoding::floor"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"vectorize\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"data_encoding::vectorize"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 41 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<DecodeKind as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 39 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<DecodeKind as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 38 }, DisambiguatedDefPathData { data: ValueNs(\"eq\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<DecodeKind as std::cmp::PartialEq>::eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 37 }, DisambiguatedDefPathData { data: ValueNs(\"assert_receiver_is_total_eq\"), disambiguator: 0 }]","fn_type":"Safe","name":"<DecodeKind as std::cmp::Eq>::assert_receiver_is_total_eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 46 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<DecodeError as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 44 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<DecodeError as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 43 }, DisambiguatedDefPathData { data: ValueNs(\"eq\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<DecodeError as std::cmp::PartialEq>::eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 43 }, DisambiguatedDefPathData { data: ValueNs(\"ne\"), disambiguator: 0 }]","fn_type":"Safe","name":"<DecodeError as std::cmp::PartialEq>::ne"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 42 }, DisambiguatedDefPathData { data: ValueNs(\"assert_receiver_is_total_eq\"), disambiguator: 0 }]","fn_type":"Safe","name":"<DecodeError as std::cmp::Eq>::assert_receiver_is_total_eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"description\"), disambiguator: 0 }]","fn_type":"Safe","name":"<DecodeError as std::error::Error>::description"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<DecodeError as std::fmt::Display>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 51 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<DecodePartial as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 49 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<DecodePartial as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 48 }, DisambiguatedDefPathData { data: ValueNs(\"eq\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<DecodePartial as std::cmp::PartialEq>::eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 48 }, DisambiguatedDefPathData { data: ValueNs(\"ne\"), disambiguator: 0 }]","fn_type":"Safe","name":"<DecodePartial as std::cmp::PartialEq>::ne"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 47 }, DisambiguatedDefPathData { data: ValueNs(\"assert_receiver_is_total_eq\"), disambiguator: 0 }]","fn_type":"Safe","name":"<DecodePartial as std::cmp::Eq>::assert_receiver_is_total_eq"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"order\"), disambiguator: 0 }]","fn_type":"Safe","name":"data_encoding::order"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"enc\"), disambiguator: 0 }]","fn_type":"Safe","name":"data_encoding::enc"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"dec\"), disambiguator: 0 }]","fn_type":"Safe","name":"data_encoding::dec"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"encode_len\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"data_encoding::encode_len"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"encode_block\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"data_encoding::encode_block"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"encode_mut\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"data_encoding::encode_mut"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"decode_block\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"data_encoding::decode_block"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"decode_mut\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"data_encoding::decode_mut"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"check_trail\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"data_encoding::check_trail"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"check_pad\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"data_encoding::check_pad"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"encode_base_len\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"data_encoding::encode_base_len"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"encode_base\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"data_encoding::encode_base"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"encode_pad_len\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"data_encoding::encode_pad_len"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"encode_pad\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"data_encoding::encode_pad"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"encode_wrap_len\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"data_encoding::encode_wrap_len"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"encode_wrap_mut\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"data_encoding::encode_wrap_mut"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"decode_wrap_len\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"data_encoding::decode_wrap_len"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"decode_pad_len\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"data_encoding::decode_pad_len"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"decode_base_len\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"data_encoding::decode_base_len"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"decode_base_mut\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"data_encoding::decode_base_mut"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"decode_pad_mut\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"data_encoding::decode_pad_mut"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"skip_ignore\"), disambiguator: 0 }]","fn_type":"Safe","name":"data_encoding::skip_ignore"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"decode_wrap_block\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"data_encoding::decode_wrap_block"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"decode_wrap_mut\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"data_encoding::decode_wrap_mut"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 56 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<BitOrder as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 54 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<BitOrder as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 53 }, DisambiguatedDefPathData { data: ValueNs(\"eq\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<BitOrder as std::cmp::PartialEq>::eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 52 }, DisambiguatedDefPathData { data: ValueNs(\"assert_receiver_is_total_eq\"), disambiguator: 0 }]","fn_type":"Safe","name":"<BitOrder as std::cmp::Eq>::assert_receiver_is_total_eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 60 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Encoding as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 59 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Encoding as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 58 }, DisambiguatedDefPathData { data: ValueNs(\"eq\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Encoding as std::cmp::PartialEq>::eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 58 }, DisambiguatedDefPathData { data: ValueNs(\"ne\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Encoding as std::cmp::PartialEq>::ne"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 57 }, DisambiguatedDefPathData { data: ValueNs(\"assert_receiver_is_total_eq\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Encoding as std::cmp::Eq>::assert_receiver_is_total_eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 62 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Translate as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 61 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Translate as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 64 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Wrap as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 63 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Wrap as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 66 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Specification as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 65 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Specification as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"data_encoding::Specification::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"sym\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"data_encoding::Encoding::sym"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"val\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"data_encoding::Encoding::val"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"pad\"), disambiguator: 0 }]","fn_type":"Safe","name":"data_encoding::Encoding::pad"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"ctb\"), disambiguator: 0 }]","fn_type":"Safe","name":"data_encoding::Encoding::ctb"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"msb\"), disambiguator: 0 }]","fn_type":"Safe","name":"data_encoding::Encoding::msb"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"bit\"), disambiguator: 0 }]","fn_type":"Safe","name":"data_encoding::Encoding::bit"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"wrap\"), disambiguator: 0 }]","fn_type":"Safe","name":"data_encoding::Encoding::wrap"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"has_ignore\"), disambiguator: 0 }]","fn_type":"Safe","name":"data_encoding::Encoding::has_ignore"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"encode_len\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"data_encoding::Encoding::encode_len"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"encode_mut\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"data_encoding::Encoding::encode_mut"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"encode\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"data_encoding::Encoding::encode"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"decode_len\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"data_encoding::Encoding::decode_len"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"decode_mut\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"data_encoding::Encoding::decode_mut"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"decode\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"data_encoding::Encoding::decode"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"bit_width\"), disambiguator: 0 }]","fn_type":"Safe","name":"data_encoding::Encoding::bit_width"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"is_canonical\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"data_encoding::Encoding::is_canonical"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"specification\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"data_encoding::Encoding::specification"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"internal_new\"), disambiguator: 0 }]","fn_type":"Safe","name":"data_encoding::Encoding::internal_new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"internal_implementation\"), disambiguator: 0 }]","fn_type":"Safe","name":"data_encoding::Encoding::internal_implementation"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 69 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<SpecificationErrorImpl as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 67 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<SpecificationErrorImpl as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 72 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<SpecificationError as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 70 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<SpecificationError as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<SpecificationError as std::fmt::Display>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"description\"), disambiguator: 0 }]","fn_type":"Safe","name":"<SpecificationError as std::error::Error>::description"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 8 }, DisambiguatedDefPathData { data: ValueNs(\"encoding\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"data_encoding::Specification::encoding"}

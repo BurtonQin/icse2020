@@ -1,0 +1,6 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"start\"), disambiguator: 0 }]","fn_type":"Safe","name":"signpost::start"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"end\"), disambiguator: 0 }]","fn_type":"Safe","name":"signpost::end"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"trace\"), disambiguator: 0 }]","fn_type":"Safe","name":"signpost::trace"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"trace_function\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"signpost::trace_function"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"signpost::AutoTrace::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"drop\"), disambiguator: 0 }]","fn_type":"Safe","name":"<AutoTrace<'a> as std::ops::Drop>::drop"}

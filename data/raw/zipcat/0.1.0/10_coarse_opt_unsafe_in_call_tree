@@ -1,0 +1,4 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"zipcat::main"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"print_usage\"), disambiguator: 0 }]","fn_type":"Safe","name":"zipcat::print_usage"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"include_file\"), disambiguator: 0 }]","fn_type":"Safe","name":"zipcat::include_file"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"cat\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"zipcat::cat"}

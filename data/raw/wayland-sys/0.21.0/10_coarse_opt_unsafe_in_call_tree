@@ -1,0 +1,4 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"common\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"wl_fixed_to_double\"), disambiguator: 0 }]","fn_type":"Safe","name":"wayland_sys::common::wl_fixed_to_double"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"common\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"wl_fixed_from_double\"), disambiguator: 0 }]","fn_type":"Safe","name":"wayland_sys::common::wl_fixed_from_double"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"common\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"wl_fixed_to_int\"), disambiguator: 0 }]","fn_type":"Safe","name":"wayland_sys::common::wl_fixed_to_int"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"common\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"wl_fixed_from_int\"), disambiguator: 0 }]","fn_type":"Safe","name":"wayland_sys::common::wl_fixed_from_int"}

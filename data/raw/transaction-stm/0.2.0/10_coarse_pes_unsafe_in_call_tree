@@ -1,0 +1,3 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"run\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"transaction_stm::run"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"with_tx\"), disambiguator: 0 }]","fn_type":"Safe","name":"transaction_stm::with_tx"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"run\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<WithTx<F> as transaction::Transaction>::run"}

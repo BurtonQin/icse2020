@@ -1,0 +1,13 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new_with_eff_key_len\"), disambiguator: 0 }]","fn_type":"Safe","name":"rc2::Rc2::new_with_eff_key_len"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"expand_key\"), disambiguator: 0 }]","fn_type":"Safe","name":"rc2::Rc2::expand_key"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"mix\"), disambiguator: 0 }]","fn_type":"Safe","name":"rc2::Rc2::mix"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"mash\"), disambiguator: 0 }]","fn_type":"Safe","name":"rc2::Rc2::mash"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"reverse_mix\"), disambiguator: 0 }]","fn_type":"Safe","name":"rc2::Rc2::reverse_mix"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"reverse_mash\"), disambiguator: 0 }]","fn_type":"Safe","name":"rc2::Rc2::reverse_mash"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"encrypt\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rc2::Rc2::encrypt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"decrypt\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rc2::Rc2::decrypt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<Rc2 as block_cipher_trait::BlockCipher>::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"new_varkey\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Rc2 as block_cipher_trait::BlockCipher>::new_varkey"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"encrypt_block\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<Rc2 as block_cipher_trait::BlockCipher>::encrypt_block"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"decrypt_block\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<Rc2 as block_cipher_trait::BlockCipher>::decrypt_block"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Rc2 as core::fmt::Debug>::fmt"}

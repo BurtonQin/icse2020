@@ -1,0 +1,13 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"xor\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"xor_utils::xor"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"xor\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<&'a mut R as Xor>::xor"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"xor\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<(dyn std::io::Read + 'static) as Xor>::xor"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"score\"), disambiguator: 0 }]","fn_type":"Safe","name":"<char as Score>::score"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"score\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<std::string::String as Score>::score"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"score_with_words\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<std::string::String as ScoreAgainstDictionary>::score_with_words"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"load_words_list\"), disambiguator: 0 }]","fn_type":"Safe","name":"xor_utils::load_words_list"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"recursive_add_keys\"), disambiguator: 0 }]","fn_type":"Safe","name":"xor_utils::recursive_add_keys"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"gen_ascii_keys\"), disambiguator: 0 }]","fn_type":"Safe","name":"xor_utils::gen_ascii_keys"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"avg_normalized_hamming_distance\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"xor_utils::avg_normalized_hamming_distance"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"score_words\"), disambiguator: 0 }]","fn_type":"Safe","name":"xor_utils::score_words"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"score_character\"), disambiguator: 0 }]","fn_type":"Safe","name":"xor_utils::score_character"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_char_score_map\"), disambiguator: 0 }]","fn_type":"Safe","name":"xor_utils::get_char_score_map"}

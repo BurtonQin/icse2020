@@ -1,0 +1,9 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"TL_BUF\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"__init\"), disambiguator: 0 }]","fn_type":"Safe","name":"slog_syslog::TL_BUF::__init"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"level_to_severity\"), disambiguator: 0 }]","fn_type":"Safe","name":"slog_syslog::level_to_severity"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"slog_syslog::Streamer3164::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"log\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Streamer3164 as slog::Drain>::log"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"slog_syslog::Format3164::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"format\"), disambiguator: 0 }]","fn_type":"Safe","name":"slog_syslog::Format3164::format"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"<KSV<W>>::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"emit_arguments\"), disambiguator: 0 }]","fn_type":"Safe","name":"<KSV<W> as slog::Serializer>::emit_arguments"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"unix_3164\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"slog_syslog::unix_3164"}

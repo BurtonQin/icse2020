@@ -1,0 +1,3 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"root\"), disambiguator: 0 }]","fn_type":"Safe","name":"<() as Radical<N>>::root"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"root\"), disambiguator: 0 }]","fn_type":"Safe","name":"<f32 as Radical<N>>::root"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"root\"), disambiguator: 0 }]","fn_type":"Safe","name":"<f64 as Radical<N>>::root"}

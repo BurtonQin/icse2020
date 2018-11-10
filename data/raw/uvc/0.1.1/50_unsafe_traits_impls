@@ -1,0 +1,22 @@
+{"name":"<context::Context<'a> as std::marker::Send>"}
+{"name":"<context::Context<'a> as std::marker::Sync>"}
+{"name":"<device::DeviceList<'a> as std::marker::Send>"}
+{"name":"<device::DeviceList<'a> as std::marker::Sync>"}
+{"name":"<device::Device<'a> as std::marker::Send>"}
+{"name":"<device::Device<'a> as std::marker::Sync>"}
+{"name":"<device::DeviceHandle<'a> as std::marker::Send>"}
+{"name":"<device::DeviceHandle<'a> as std::marker::Sync>"}
+{"name":"<device::FormatDescriptor<'a> as std::marker::Send>"}
+{"name":"<device::FormatDescriptor<'a> as std::marker::Sync>"}
+{"name":"<device::FormatDescriptors<'a> as std::marker::Send>"}
+{"name":"<device::FormatDescriptors<'a> as std::marker::Sync>"}
+{"name":"<device::FrameDescriptor<'a> as std::marker::Send>"}
+{"name":"<device::FrameDescriptor<'a> as std::marker::Sync>"}
+{"name":"<device::FrameDescriptors<'a> as std::marker::Send>"}
+{"name":"<device::FrameDescriptors<'a> as std::marker::Sync>"}
+{"name":"<frame::Frame as std::marker::Send>"}
+{"name":"<frame::Frame as std::marker::Sync>"}
+{"name":"<streaming::StreamHandle<'a> as std::marker::Send>"}
+{"name":"<streaming::StreamHandle<'a> as std::marker::Sync>"}
+{"name":"<streaming::ActiveStream<'a, U> as std::marker::Send>"}
+{"name":"<streaming::ActiveStream<'a, U> as std::marker::Sync>"}

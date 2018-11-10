@@ -1,0 +1,30 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"strtod\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"strtod::strtod"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Chars<'a> as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"peek\"), disambiguator: 0 }]","fn_type":"Safe","name":"strtod::Chars::peek"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"bump\"), disambiguator: 0 }]","fn_type":"Safe","name":"strtod::Chars::bump"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"parse\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"strtod::Parser::parse"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"parse_impl\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"strtod::Parser::parse_impl"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"overflow\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"strtod::Parser::overflow"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"drop_down\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"strtod::Parser::drop_down"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<U as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"word0\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"strtod::U::word0"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"set_word0\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"strtod::U::set_word0"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"word1\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"strtod::U::word1"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"set_word1\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"strtod::U::set_word1"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 8 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<BigInt as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"strtod::BigInt::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"trim\"), disambiguator: 0 }]","fn_type":"Safe","name":"strtod::BigInt::trim"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"ulp\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"strtod::ulp"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"ratio\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"strtod::ratio"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"b2d\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"strtod::b2d"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"hi0bits\"), disambiguator: 0 }]","fn_type":"Safe","name":"strtod::hi0bits"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"s2b\"), disambiguator: 0 }]","fn_type":"Safe","name":"strtod::s2b"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"multadd\"), disambiguator: 0 }]","fn_type":"Safe","name":"strtod::multadd"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"d2b\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"strtod::d2b"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"lo0bits\"), disambiguator: 0 }]","fn_type":"Safe","name":"strtod::lo0bits"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"i2b\"), disambiguator: 0 }]","fn_type":"Safe","name":"strtod::i2b"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"pow5mult\"), disambiguator: 0 }]","fn_type":"Safe","name":"strtod::pow5mult"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"mult\"), disambiguator: 0 }]","fn_type":"Safe","name":"strtod::mult"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"lshift\"), disambiguator: 0 }]","fn_type":"Safe","name":"strtod::lshift"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"diff\"), disambiguator: 0 }]","fn_type":"Safe","name":"strtod::diff"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"cmp\"), disambiguator: 0 }]","fn_type":"Safe","name":"strtod::cmp"}

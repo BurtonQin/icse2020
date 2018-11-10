@@ -1,0 +1,3 @@
+{"name":"rocksdb::db::<impl std::marker::Send for DB>"}
+{"name":"rocksdb::db::<impl std::marker::Sync for DB>"}
+{"name":"rocksdb::db_options::<impl std::marker::Send for Options>"}

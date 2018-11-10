@@ -1,0 +1,1 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"borrow_int_mut\"), disambiguator: 0 }]","fn_type":"Safe","name":"<core::cell::RefCell<T> as InteriorMut<'a, T>>::borrow_int_mut"}

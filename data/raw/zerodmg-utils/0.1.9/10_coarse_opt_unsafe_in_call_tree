@@ -1,0 +1,4 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"little_endian\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"u8s_to_u16\"), disambiguator: 0 }]","fn_type":"Safe","name":"zerodmg_utils::little_endian::u8s_to_u16"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"little_endian\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"u16_to_u8s\"), disambiguator: 0 }]","fn_type":"Safe","name":"zerodmg_utils::little_endian::u16_to_u8s"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"little_endian\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"u8_get_bit\"), disambiguator: 0 }]","fn_type":"Safe","name":"zerodmg_utils::little_endian::u8_get_bit"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"little_endian\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"u8_set_bit\"), disambiguator: 0 }]","fn_type":"Safe","name":"zerodmg_utils::little_endian::u8_set_bit"}

@@ -1,0 +1,6 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"print_usage\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rsay::print_usage"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_numeric\"), disambiguator: 0 }]","fn_type":"Safe","name":"rsay::parse_numeric"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"chunk_args\"), disambiguator: 0 }]","fn_type":"Safe","name":"rsay::chunk_args"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"multi_line\"), disambiguator: 0 }]","fn_type":"Safe","name":"rsay::multi_line"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"say\"), disambiguator: 0 }]","fn_type":"Safe","name":"rsay::say"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rsay::main"}

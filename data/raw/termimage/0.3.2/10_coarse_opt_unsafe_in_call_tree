@@ -1,0 +1,3 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"termimage::main"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"actual_main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"termimage::actual_main"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"result_main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"termimage::result_main"}

@@ -1,0 +1,4 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"validate_compressed_buffer\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"snappy::validate_compressed_buffer"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"compress\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"snappy::compress"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"uncompress\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"snappy::uncompress"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"uncompress_to\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"snappy::uncompress_to"}

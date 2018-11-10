@@ -1,0 +1,21 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 8 }, DisambiguatedDefPathData { data: ValueNs(\"eq\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<Prefix as std::cmp::PartialEq>::eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"assert_receiver_is_total_eq\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Prefix as std::cmp::Eq>::assert_receiver_is_total_eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Prefix as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Prefix as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"decimal_prefix\"), disambiguator: 0 }]","fn_type":"Safe","name":"number_prefix::decimal_prefix"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"binary_prefix\"), disambiguator: 0 }]","fn_type":"Safe","name":"number_prefix::binary_prefix"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Prefix as std::fmt::Display>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"upper\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Prefix as PrefixNames>::upper"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"caps\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Prefix as PrefixNames>::caps"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"lower\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Prefix as PrefixNames>::lower"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"symbol\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Prefix as PrefixNames>::symbol"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 12 }, DisambiguatedDefPathData { data: ValueNs(\"eq\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<Result<F> as std::cmp::PartialEq>::eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 12 }, DisambiguatedDefPathData { data: ValueNs(\"ne\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<Result<F> as std::cmp::PartialEq>::ne"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 11 }, DisambiguatedDefPathData { data: ValueNs(\"assert_receiver_is_total_eq\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Result<F> as std::cmp::Eq>::assert_receiver_is_total_eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 10 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Result<F> as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 9 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Result<F> as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"format_number\"), disambiguator: 0 }]","fn_type":"Safe","name":"number_prefix::format_number"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"get_1000\"), disambiguator: 0 }]","fn_type":"Safe","name":"<f32 as Amounts>::get_1000"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"get_1024\"), disambiguator: 0 }]","fn_type":"Safe","name":"<f32 as Amounts>::get_1024"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"get_1000\"), disambiguator: 0 }]","fn_type":"Safe","name":"<f64 as Amounts>::get_1000"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"get_1024\"), disambiguator: 0 }]","fn_type":"Safe","name":"<f64 as Amounts>::get_1024"}

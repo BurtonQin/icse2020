@@ -1,0 +1,6 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"reproto_repository_http::HttpObjects::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"checksum_url\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"reproto_repository_http::HttpObjects::checksum_url"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"handle_request\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"reproto_repository_http::HttpObjects::handle_request"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"put_object\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<HttpObjects as repository::Objects>::put_object"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"get_object\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<HttpObjects as repository::Objects>::get_object"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"objects_from_url\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"reproto_repository_http::objects_from_url"}

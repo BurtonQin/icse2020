@@ -1,0 +1,3 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"hello_world\"), disambiguator: 0 }]","fn_type":"Safe","name":"proptest_derive::hello_world"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"impl_hello_world\"), disambiguator: 0 }]","fn_type":"Safe","name":"proptest_derive::impl_hello_world"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","fn_type":"Safe","name":"proptest_derive::registrar::_registrar"}

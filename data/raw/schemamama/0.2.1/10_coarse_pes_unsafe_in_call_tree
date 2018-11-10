@@ -1,0 +1,17 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Direction as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Error<E> as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"description\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<Error<E> as std::error::Error>::description"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"cause\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Error<E> as std::error::Error>::cause"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Error<E> as std::fmt::Display>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Migrator<T>>::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"adapter\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Migrator<T>>::adapter"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"register\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<Migrator<T>>::register"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"version_registered\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Migrator<T>>::version_registered"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"registered_versions\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Migrator<T>>::registered_versions"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"first_version\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Migrator<T>>::first_version"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"last_version\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Migrator<T>>::last_version"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"current_version\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<Migrator<T>>::current_version"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"migrated_versions\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<Migrator<T>>::migrated_versions"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"down\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<Migrator<T>>::down"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"up\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<Migrator<T>>::up"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"within_range\"), disambiguator: 0 }]","fn_type":"Safe","name":"schemamama::within_range"}

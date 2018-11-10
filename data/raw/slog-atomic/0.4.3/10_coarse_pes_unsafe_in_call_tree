@@ -1,0 +1,8 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<AtomicSwitch<E>>::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new_from_arc\"), disambiguator: 0 }]","fn_type":"Safe","name":"<AtomicSwitch<E>>::new_from_arc"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"ctrl\"), disambiguator: 0 }]","fn_type":"Safe","name":"<AtomicSwitch<E>>::ctrl"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"get\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<AtomicSwitchCtrl<E>>::get"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"set\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<AtomicSwitchCtrl<E>>::set"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"swap\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<AtomicSwitchCtrl<E>>::swap"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"drain\"), disambiguator: 0 }]","fn_type":"Safe","name":"<AtomicSwitchCtrl<E>>::drain"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"log\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<AtomicSwitch<E> as slog::Drain>::log"}

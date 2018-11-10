@@ -1,0 +1,8 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"wait4\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"timecmp::wait4"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"cvt_r\"), disambiguator: 0 }]","fn_type":"Safe","name":"timecmp::cvt_r"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"timeval_to_duration\"), disambiguator: 0 }]","fn_type":"Safe","name":"timecmp::timeval_to_duration"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"bar\"), disambiguator: 0 }]","fn_type":"Safe","name":"timecmp::bar"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"print_time_bars\"), disambiguator: 0 }]","fn_type":"Safe","name":"timecmp::print_time_bars"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"run_cmd_time\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"timecmp::run_cmd_time"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"time_cmp\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"timecmp::time_cmp"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"timecmp::main"}

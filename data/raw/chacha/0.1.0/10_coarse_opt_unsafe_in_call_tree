@@ -1,0 +1,18 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new_ietf\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"chacha::ChaCha::new_ietf"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new_chacha20\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"chacha::ChaCha::new_chacha20"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new_chacha12\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"chacha::ChaCha::new_chacha12"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new_chacha8\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"chacha::ChaCha::new_chacha8"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new_xchacha20\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"chacha::ChaCha::new_xchacha20"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Row as core::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"add\"), disambiguator: 0 }]","fn_type":"Safe","name":"chacha::Row::add"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"xor\"), disambiguator: 0 }]","fn_type":"Safe","name":"chacha::Row::xor"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"or\"), disambiguator: 0 }]","fn_type":"Safe","name":"chacha::Row::or"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"shift_left\"), disambiguator: 0 }]","fn_type":"Safe","name":"chacha::Row::shift_left"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"shift_right\"), disambiguator: 0 }]","fn_type":"Safe","name":"chacha::Row::shift_right"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"roll_left\"), disambiguator: 0 }]","fn_type":"Safe","name":"chacha::Row::roll_left"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"permute_general\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"chacha::permute_general"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"permute\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"chacha::permute"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"permute_and_add\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"chacha::permute_and_add"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"increment_counter\"), disambiguator: 0 }]","fn_type":"Safe","name":"chacha::ChaCha::increment_counter"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"xor_read\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<ChaCha as keystream::KeyStream>::xor_read"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"seek_to\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<ChaCha as keystream::SeekableKeyStream>::seek_to"}

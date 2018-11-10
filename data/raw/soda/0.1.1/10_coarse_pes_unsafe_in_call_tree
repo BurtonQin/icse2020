@@ -1,0 +1,2 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"users\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"list_users\"), disambiguator: 0 }]","fn_type":"Safe","name":"soda::users::list_users"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"soda::main"}

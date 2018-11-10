@@ -1,0 +1,4 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"wasm_nm::main"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"try_main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"wasm_nm::try_main"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"print_symbols_in_one\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"wasm_nm::print_symbols_in_one"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_args\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"wasm_nm::parse_args"}

@@ -1,0 +1,4 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"rsgx_ra_init\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"sgx_tkey_exchange::rsgx_ra_init"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"rsgx_ra_init_ex\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"sgx_tkey_exchange::rsgx_ra_init_ex"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"rsgx_ra_get_keys\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"sgx_tkey_exchange::rsgx_ra_get_keys"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"rsgx_ra_close\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"sgx_tkey_exchange::rsgx_ra_close"}

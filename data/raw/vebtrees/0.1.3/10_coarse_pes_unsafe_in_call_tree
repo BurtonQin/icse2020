@@ -1,0 +1,17 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<VEBTree as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"eq\"), disambiguator: 0 }]","fn_type":"Safe","name":"<VEBTree as std::cmp::PartialEq>::eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"ne\"), disambiguator: 0 }]","fn_type":"Safe","name":"<VEBTree as std::cmp::PartialEq>::ne"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"assert_receiver_is_total_eq\"), disambiguator: 0 }]","fn_type":"Safe","name":"<VEBTree as std::cmp::Eq>::assert_receiver_is_total_eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"vebtrees::VEBTree::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"high\"), disambiguator: 0 }]","fn_type":"Safe","name":"vebtrees::VEBTree::high"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"low\"), disambiguator: 0 }]","fn_type":"Safe","name":"vebtrees::VEBTree::low"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"contains\"), disambiguator: 0 }]","fn_type":"Safe","name":"vebtrees::VEBTree::contains"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"search\"), disambiguator: 0 }]","fn_type":"Safe","name":"vebtrees::VEBTree::search"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"insert_into_tree\"), disambiguator: 0 }]","fn_type":"Safe","name":"vebtrees::VEBTree::insert_into_tree"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"insert\"), disambiguator: 0 }]","fn_type":"Safe","name":"vebtrees::VEBTree::insert"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"delete_from_tree\"), disambiguator: 0 }]","fn_type":"Safe","name":"vebtrees::VEBTree::delete_from_tree"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"delete\"), disambiguator: 0 }]","fn_type":"Safe","name":"vebtrees::VEBTree::delete"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"minimum\"), disambiguator: 0 }]","fn_type":"Safe","name":"vebtrees::VEBTree::minimum"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"maximum\"), disambiguator: 0 }]","fn_type":"Safe","name":"vebtrees::VEBTree::maximum"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"findnext\"), disambiguator: 0 }]","fn_type":"Safe","name":"vebtrees::VEBTree::findnext"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"findprev\"), disambiguator: 0 }]","fn_type":"Safe","name":"vebtrees::VEBTree::findprev"}

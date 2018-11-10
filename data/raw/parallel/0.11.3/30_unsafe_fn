@@ -1,0 +1,2 @@
+{"name":"leak_string","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/main.rs\") line 43","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"static_arg","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/main.rs\") line 50","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}

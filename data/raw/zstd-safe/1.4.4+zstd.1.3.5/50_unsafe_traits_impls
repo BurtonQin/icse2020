@@ -1,0 +1,8 @@
+{"name":"<CCtx as core::marker::Send>"}
+{"name":"<DCtx as core::marker::Send>"}
+{"name":"<CDict<'a> as core::marker::Send>"}
+{"name":"<CDict<'a> as core::marker::Sync>"}
+{"name":"<DDict<'a> as core::marker::Send>"}
+{"name":"<DDict<'a> as core::marker::Sync>"}
+{"name":"<CStream as core::marker::Send>"}
+{"name":"<DStream as core::marker::Send>"}

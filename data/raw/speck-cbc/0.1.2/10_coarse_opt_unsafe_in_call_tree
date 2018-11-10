@@ -1,0 +1,2 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"encrypt\"), disambiguator: 0 }]","fn_type":"Safe","name":"speck_cbc::encrypt"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"decrypt\"), disambiguator: 0 }]","fn_type":"Safe","name":"speck_cbc::decrypt"}

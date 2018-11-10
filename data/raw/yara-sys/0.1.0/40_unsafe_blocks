@@ -1,0 +1,16 @@
+{"sources":[["495",[{"loc":"file: Real(\"src/errors/compile.rs\") line 5","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["506",[{"loc":"file: Real(\"src/errors/compile.rs\") line 5","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["708",[{"loc":"file: Real(\"src/errors/mod.rs\") line 23","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["719",[{"loc":"file: Real(\"src/errors/mod.rs\") line 23","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["776",[{"loc":"file: Real(\"src/errors/mod.rs\") line 23","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["787",[{"loc":"file: Real(\"src/errors/mod.rs\") line 23","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["4030",[{"loc":"file: Real(\"src/lib.rs\") line 12","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["4041",[{"loc":"file: Real(\"src/lib.rs\") line 12","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["299",[{"loc":"file: Real(\"src/lib.rs\") line 36","kind":"AccessToUnionField"}]]]}
+{"sources":[["313",[{"loc":"file: Real(\"src/lib.rs\") line 40","kind":"AccessToUnionField"}]]]}
+{"sources":[["330",[{"loc":"file: Real(\"src/lib.rs\") line 46","kind":"AccessToUnionField"}]]]}
+{"sources":[["344",[{"loc":"file: Real(\"src/lib.rs\") line 50","kind":"AccessToUnionField"}]]]}
+{"sources":[["361",[{"loc":"file: Real(\"src/lib.rs\") line 56","kind":"AccessToUnionField"}]]]}
+{"sources":[["378",[{"loc":"file: Real(\"src/lib.rs\") line 63","kind":"AccessToUnionField"}]]]}
+{"sources":[["392",[{"loc":"file: Real(\"src/lib.rs\") line 67","kind":"AccessToUnionField"}]]]}
+{"sources":[["406",[{"loc":"file: Real(\"src/lib.rs\") line 71","kind":"AccessToUnionField"}]]]}
+{"sources":[["420",[{"loc":"file: Real(\"src/lib.rs\") line 75","kind":"AccessToUnionField"}]]]}
+{"sources":[["434",[{"loc":"file: Real(\"src/lib.rs\") line 79","kind":"AccessToUnionField"}]]]}
+{"sources":[["451",[{"loc":"file: Real(\"src/lib.rs\") line 85","kind":"AccessToUnionField"}]]]}
+{"sources":[["465",[{"loc":"file: Real(\"src/lib.rs\") line 89","kind":"AccessToUnionField"}]]]}

@@ -1,0 +1,10 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"wrapped_vec::Idents::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"parse_derives\"), disambiguator: 0 }]","fn_type":"Safe","name":"wrapped_vec::Idents::parse_derives"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"as_parts\"), disambiguator: 0 }]","fn_type":"Safe","name":"wrapped_vec::Idents::as_parts"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"wrapped_vec::Docs::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"as_parts\"), disambiguator: 0 }]","fn_type":"Safe","name":"wrapped_vec::Docs::as_parts"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"wrapped_vec\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"wrapped_vec::wrapped_vec"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"impl_wrapped_vec\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"wrapped_vec::impl_wrapped_vec"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"generate_wrapped_vec\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"wrapped_vec::generate_wrapped_vec"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"attr_string_val\"), disambiguator: 0 }]","fn_type":"Safe","name":"wrapped_vec::attr_string_val"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"wrapped_vec::registrar::_registrar"}

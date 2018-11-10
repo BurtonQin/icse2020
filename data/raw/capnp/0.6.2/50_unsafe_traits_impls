@@ -1,0 +1,5 @@
+{"name":"<message::Reader<S> as std::marker::Send>"}
+{"name":"<message::Builder<A> as std::marker::Send>"}
+{"name":"<message::HeapAllocator as message::Allocator>"}
+{"name":"<message::ScratchSpaceHeapAllocator<'a, 'b> as message::Allocator>"}
+{"name":"<private::arena::SegmentBuilder as std::marker::Send>"}

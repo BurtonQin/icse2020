@@ -1,0 +1,2 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"compress\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"snappy_cpp::compress"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"decompress\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"snappy_cpp::decompress"}

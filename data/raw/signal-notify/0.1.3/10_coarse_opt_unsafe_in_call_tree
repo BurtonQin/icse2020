@@ -1,0 +1,18 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"notify\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"signal_notify::notify"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"notify_on\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"signal_notify::notify_on"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"signal_handler\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"signal_notify::signal_handler"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"deref\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<NOTIFIER as lazy_static::Deref>::deref"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"deref\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"__static_ref_initialize\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<NOTIFIER as lazy_static::Deref>::deref::__static_ref_initialize"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"initialize\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<NOTIFIER as lazy_static::LazyStatic>::initialize"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 10 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Signal as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 8 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Signal as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"assert_receiver_is_total_eq\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Signal as std::cmp::Eq>::assert_receiver_is_total_eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"eq\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<Signal as std::cmp::PartialEq>::eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"cmp\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<Signal as std::cmp::Ord>::cmp"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"partial_cmp\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<Signal as std::cmp::PartialOrd>::partial_cmp"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"hash\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<Signal as std::hash::Hash>::hash"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"signal_notify::Signal::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"as_sig\"), disambiguator: 0 }]","fn_type":"Safe","name":"signal_notify::Signal::as_sig"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"start\"), disambiguator: 0 }]","fn_type":"Safe","name":"signal_notify::start"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"read_signal\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"signal_notify::read_signal"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"ok_or_errno\"), disambiguator: 0 }]","fn_type":"Safe","name":"signal_notify::ok_or_errno"}

@@ -1,0 +1,7 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"ws\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"process_ws_proxy\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"mles_client::ws::process_ws_proxy"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"mles_client::main"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"decode\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<Bytes as tokio_io::codec::Decoder>::decode"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"decode_eof\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<Bytes as tokio_io::codec::Decoder>::decode_eof"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"encode\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<Bytes as tokio_io::codec::Encoder>::encode"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"read_stdin\"), disambiguator: 0 }]","fn_type":"Safe","name":"mles_client::read_stdin"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"process_mles_client\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"mles_client::process_mles_client"}

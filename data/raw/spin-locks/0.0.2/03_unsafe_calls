@@ -1,0 +1,2 @@
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"__hle_acquire_exchange_n1\"), disambiguator: 0 }]","name":"__hle_acquire_exchange_n1","crate_name":"intel_tsx_hle"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"__hle_release_store_n1\"), disambiguator: 0 }]","name":"__hle_release_store_n1","crate_name":"intel_tsx_hle"}

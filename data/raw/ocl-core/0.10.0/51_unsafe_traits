@@ -1,0 +1,12 @@
+{"name":"ocl_core::types::abs::MemCmdRw"}
+{"name":"ocl_core::types::abs::MemCmdAll"}
+{"name":"ocl_core::types::abs::ClEventPtrRef"}
+{"name":"ocl_core::types::abs::ClNullEventPtr"}
+{"name":"ocl_core::types::abs::ClWaitListPtr"}
+{"name":"ocl_core::types::abs::ClPlatformIdPtr"}
+{"name":"ocl_core::types::abs::ClDeviceIdPtr"}
+{"name":"ocl_core::types::abs::ClContextPtr"}
+{"name":"ocl_core::traits::OclPrm"}
+{"name":"ocl_core::traits::OclNum"}
+{"name":"ocl_core::traits::OclScl"}
+{"name":"ocl_core::traits::ocl_vec::OclVec"}

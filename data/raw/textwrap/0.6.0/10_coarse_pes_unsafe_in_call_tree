@@ -1,0 +1,21 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"split\"), disambiguator: 0 }]","fn_type":"Safe","name":"<NoHyphenation as WordSplitter>::split"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"split\"), disambiguator: 0 }]","fn_type":"Safe","name":"<HyphenSplitter as WordSplitter>::split"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"textwrap::IndentedString::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"is_empty\"), disambiguator: 0 }]","fn_type":"Safe","name":"textwrap::IndentedString::is_empty"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"push\"), disambiguator: 0 }]","fn_type":"Safe","name":"textwrap::IndentedString::push"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"push_str\"), disambiguator: 0 }]","fn_type":"Safe","name":"textwrap::IndentedString::push_str"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"into_string\"), disambiguator: 0 }]","fn_type":"Safe","name":"textwrap::IndentedString::into_string"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"textwrap::Wrapper::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"with_termwidth\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"textwrap::Wrapper::with_termwidth"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"initial_indent\"), disambiguator: 0 }]","fn_type":"Safe","name":"textwrap::Wrapper::initial_indent"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"subsequent_indent\"), disambiguator: 0 }]","fn_type":"Safe","name":"textwrap::Wrapper::subsequent_indent"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"break_words\"), disambiguator: 0 }]","fn_type":"Safe","name":"textwrap::Wrapper::break_words"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"squeeze_whitespace\"), disambiguator: 0 }]","fn_type":"Safe","name":"textwrap::Wrapper::squeeze_whitespace"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"word_splitter\"), disambiguator: 0 }]","fn_type":"Safe","name":"textwrap::Wrapper::word_splitter"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"fill\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"textwrap::Wrapper::fill"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"wrap\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"textwrap::Wrapper::wrap"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"fit_part\"), disambiguator: 0 }]","fn_type":"Safe","name":"textwrap::Wrapper::fit_part"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"fill\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"textwrap::fill"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"wrap\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"textwrap::wrap"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"indent\"), disambiguator: 0 }]","fn_type":"Safe","name":"textwrap::indent"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"dedent\"), disambiguator: 0 }]","fn_type":"Safe","name":"textwrap::dedent"}

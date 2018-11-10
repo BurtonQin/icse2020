@@ -1,0 +1,6 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"adapt\"), disambiguator: 0 }]","fn_type":"Safe","name":"unic_idna_punycode::adapt"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"decode_to_string\"), disambiguator: 0 }]","fn_type":"Safe","name":"unic_idna_punycode::decode_to_string"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"decode\"), disambiguator: 0 }]","fn_type":"Safe","name":"unic_idna_punycode::decode"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"encode_str\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"unic_idna_punycode::encode_str"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"encode\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"unic_idna_punycode::encode"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"value_to_digit\"), disambiguator: 0 }]","fn_type":"Safe","name":"unic_idna_punycode::value_to_digit"}

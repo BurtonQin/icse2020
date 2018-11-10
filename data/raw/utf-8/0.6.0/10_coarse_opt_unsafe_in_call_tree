@@ -1,0 +1,18 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"utf8::Decoder::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"has_incomplete_sequence\"), disambiguator: 0 }]","fn_type":"Safe","name":"utf8::Decoder::has_incomplete_sequence"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"decode\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"utf8::Decoder::decode"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 8 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Result<'a> as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Result<'a> as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"complete\"), disambiguator: 0 }]","fn_type":"Safe","name":"utf8::IncompleteSequence::complete"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"width\"), disambiguator: 0 }]","fn_type":"Safe","name":"utf8::width"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_continuation_byte\"), disambiguator: 0 }]","fn_type":"Safe","name":"utf8::is_continuation_byte"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"valid_three_bytes_sequence_prefix\"), disambiguator: 0 }]","fn_type":"Safe","name":"utf8::valid_three_bytes_sequence_prefix"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"valid_four_bytes_sequence_prefix\"), disambiguator: 0 }]","fn_type":"Safe","name":"utf8::valid_four_bytes_sequence_prefix"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"<LossyDecoder<F>>::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"feed\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<LossyDecoder<F>>::feed"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"drop\"), disambiguator: 0 }]","fn_type":"Safe","name":"<LossyDecoder<F> as std::ops::Drop>::drop"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 9 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<InlineString as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"deref\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<InlineString as std::ops::Deref>::deref"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"empty\"), disambiguator: 0 }]","fn_type":"Safe","name":"utf8::InlineString::empty"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"len\"), disambiguator: 0 }]","fn_type":"Safe","name":"utf8::InlineString::len"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"is_empty\"), disambiguator: 0 }]","fn_type":"Safe","name":"utf8::InlineString::is_empty"}

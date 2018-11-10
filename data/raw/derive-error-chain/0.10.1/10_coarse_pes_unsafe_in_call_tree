@@ -1,0 +1,6 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"derive_error_chain\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"derive_error_chain::derive_error_chain"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_closure\"), disambiguator: 0 }]","fn_type":"Safe","name":"derive_error_chain::is_closure"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"fields_pattern\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"derive_error_chain::fields_pattern"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"fields_pattern_ignore\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"derive_error_chain::fields_pattern_ignore"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"args\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"derive_error_chain::args"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"derive_error_chain::registrar::_registrar"}

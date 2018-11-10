@@ -1,0 +1,10 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"xxtea\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"to_bytes\"), disambiguator: 0 }]","fn_type":"Safe","name":"xxtea::xxtea::to_bytes"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"xxtea\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"to_u32\"), disambiguator: 0 }]","fn_type":"Safe","name":"xxtea::xxtea::to_u32"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"xxtea\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"mx\"), disambiguator: 0 }]","fn_type":"Safe","name":"xxtea::xxtea::mx"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"xxtea\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"fixk\"), disambiguator: 0 }]","fn_type":"Safe","name":"xxtea::xxtea::fixk"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"xxtea\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"encrypt_\"), disambiguator: 0 }]","fn_type":"Safe","name":"xxtea::xxtea::encrypt_"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"xxtea\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"decrypt_\"), disambiguator: 0 }]","fn_type":"Safe","name":"xxtea::xxtea::decrypt_"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"xxtea\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"encrypt\"), disambiguator: 0 }]","fn_type":"Safe","name":"xxtea::xxtea::encrypt"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"xxtea\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"decrypt\"), disambiguator: 0 }]","fn_type":"Safe","name":"xxtea::xxtea::decrypt"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"xxtea\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"encrypt_raw\"), disambiguator: 0 }]","fn_type":"Safe","name":"xxtea::xxtea::encrypt_raw"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"xxtea\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"decrypt_raw\"), disambiguator: 0 }]","fn_type":"Safe","name":"xxtea::xxtea::decrypt_raw"}

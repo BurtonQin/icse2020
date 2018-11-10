@@ -1,0 +1,7 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"usize_from\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"usize_conversions::usize_from"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"from_usize\"), disambiguator: 0 }]","fn_type":"Safe","name":"<u128 as FromUsize>::from_usize"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"from_usize\"), disambiguator: 0 }]","fn_type":"Safe","name":"<u64 as FromUsize>::from_usize"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"into_usize\"), disambiguator: 0 }]","fn_type":"Safe","name":"<u64 as IntoUsize>::into_usize"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"into_usize\"), disambiguator: 0 }]","fn_type":"Safe","name":"<u32 as IntoUsize>::into_usize"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"into_usize\"), disambiguator: 0 }]","fn_type":"Safe","name":"<u16 as IntoUsize>::into_usize"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"into_usize\"), disambiguator: 0 }]","fn_type":"Safe","name":"<u8 as IntoUsize>::into_usize"}

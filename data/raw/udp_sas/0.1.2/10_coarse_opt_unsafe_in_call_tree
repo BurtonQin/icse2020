@@ -1,0 +1,8 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"getsockopt\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"udp_sas::getsockopt"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"setsockopt\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"udp_sas::setsockopt"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"set_pktinfo\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"udp_sas::set_pktinfo"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"recv_sas\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"udp_sas::recv_sas"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"send_sas\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"udp_sas::send_sas"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"bind_sas\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<std::net::UdpSocket as UdpSas>::bind_sas"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"send_sas\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<std::net::UdpSocket as UdpSas>::send_sas"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"recv_sas\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<std::net::UdpSocket as UdpSas>::recv_sas"}

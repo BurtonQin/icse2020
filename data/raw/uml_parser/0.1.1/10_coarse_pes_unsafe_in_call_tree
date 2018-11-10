@@ -1,0 +1,28 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"uml_print\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"uml_parser::uml_print::<impl std::fmt::Display for UMLTokens>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"uml_print\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"uml_parser::uml_print::<impl std::fmt::Display for UMLToken>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<UMLToken as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<UMLToken as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"eq\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<UMLToken as std::cmp::PartialEq>::eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"ne\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<UMLToken as std::cmp::PartialEq>::ne"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<UMLTokens as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<UMLTokens as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"eq\"), disambiguator: 0 }]","fn_type":"Safe","name":"<UMLTokens as std::cmp::PartialEq>::eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"ne\"), disambiguator: 0 }]","fn_type":"Safe","name":"<UMLTokens as std::cmp::PartialEq>::ne"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"uml_parser::UMLTokens::new"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"take_until_or_line_ending\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"uml_parser::take_until_or_line_ending"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_uml_file\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"uml_parser::parse_uml_file"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"startuml\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"uml_parser::startuml"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"enduml\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"uml_parser::enduml"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"include_parser\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"uml_parser::include_parser"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"participant_parser\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"uml_parser::participant_parser"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"note_parser\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"uml_parser::note_parser"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"loop_parser\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"uml_parser::loop_parser"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"box_parser\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"uml_parser::box_parser"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"message_parser\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"uml_parser::message_parser"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"par_parser\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"uml_parser::par_parser"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"alt_parser\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"uml_parser::alt_parser"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"delay_parser\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"uml_parser::delay_parser"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"activate_parser\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"uml_parser::activate_parser"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"deactivate_parser\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"uml_parser::deactivate_parser"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"destroy_parser\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"uml_parser::destroy_parser"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"uml_parser\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"uml_parser::uml_parser"}

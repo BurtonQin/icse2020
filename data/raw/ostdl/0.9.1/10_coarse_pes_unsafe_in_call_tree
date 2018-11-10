@@ -1,0 +1,28 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Sub as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Error as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 9 }, DisambiguatedDefPathData { data: ValueNs(\"eq\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<Which as std::cmp::PartialEq>::eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 8 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Which as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"from\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Error as std::convert::From<std::io::Error>>::from"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"from\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Error as std::convert::From<&'static str>>::from"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"from\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Error as std::convert::From<xmlrpc::RequestError>>::from"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"from\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Error as std::convert::From<xmlrpc::Fault>>::from"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"from\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Error as std::convert::From<reqwest::Error>>::from"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"val_to_map\"), disambiguator: 0 }]","fn_type":"Safe","name":"ostdl::val_to_map"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"val_to_str\"), disambiguator: 0 }]","fn_type":"Safe","name":"ostdl::val_to_str"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"val_to_float\"), disambiguator: 0 }]","fn_type":"Safe","name":"ostdl::val_to_float"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"hash_block\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"ostdl::hash_block"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"size_and_hash\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"ostdl::size_and_hash"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"val_to_response\"), disambiguator: 0 }]","fn_type":"Safe","name":"ostdl::val_to_response"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"make_req\"), disambiguator: 0 }]","fn_type":"Safe","name":"ostdl::make_req"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"score_cmp\"), disambiguator: 0 }]","fn_type":"Safe","name":"ostdl::score_cmp"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_lang\"), disambiguator: 0 }]","fn_type":"Safe","name":"ostdl::get_lang"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_token\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"ostdl::get_token"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"match_to_sub\"), disambiguator: 0 }]","fn_type":"Safe","name":"ostdl::match_to_sub"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"find_subtitles\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"ostdl::find_subtitles"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"download_to_file\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"ostdl::download_to_file"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"download_subtitle\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"ostdl::download_subtitle"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"download_subtitles\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"ostdl::download_subtitles"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"print_err\"), disambiguator: 0 }]","fn_type":"Safe","name":"ostdl::print_err"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"print_if_err\"), disambiguator: 0 }]","fn_type":"Safe","name":"ostdl::print_if_err"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"real_main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"ostdl::real_main"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"ostdl::main"}

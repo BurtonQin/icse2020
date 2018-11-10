@@ -1,0 +1,5 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"maketorrent::main"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"time\"), disambiguator: 0 }]","fn_type":"Safe","name":"maketorrent::time"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"create_torrent\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"maketorrent::create_torrent"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"create_torrent_silent\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"maketorrent::create_torrent_silent"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"total_size\"), disambiguator: 0 }]","fn_type":"Safe","name":"maketorrent::total_size"}

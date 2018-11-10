@@ -1,0 +1,7 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"simplified\"), disambiguator: 0 }]","fn_type":"Safe","name":"dunce::simplified"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"canonicalize\"), disambiguator: 0 }]","fn_type":"Safe","name":"dunce::canonicalize"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"windows_char_len\"), disambiguator: 0 }]","fn_type":"Safe","name":"dunce::windows_char_len"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_valid_filename\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"dunce::is_valid_filename"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_reserved\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"dunce::is_reserved"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_safe_to_strip_unc\"), disambiguator: 0 }]","fn_type":"Safe","name":"dunce::is_safe_to_strip_unc"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"right_trim\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"dunce::right_trim"}

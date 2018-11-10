@@ -1,0 +1,15 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<CodeBlock<'a> as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<CodeBlock<'a> as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"eq\"), disambiguator: 0 }]","fn_type":"Safe","name":"<CodeBlock<'a> as std::cmp::PartialEq>::eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"ne\"), disambiguator: 0 }]","fn_type":"Safe","name":"<CodeBlock<'a> as std::cmp::PartialEq>::ne"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"assert_receiver_is_total_eq\"), disambiguator: 0 }]","fn_type":"Safe","name":"<CodeBlock<'a> as std::cmp::Eq>::assert_receiver_is_total_eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"version_sync::CodeBlock::new"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"read_file\"), disambiguator: 0 }]","fn_type":"Safe","name":"version_sync::read_file"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"indent\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"version_sync::indent"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"version_matches_request\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"version_sync::version_matches_request"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"extract_version_request\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"version_sync::extract_version_request"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_toml_block\"), disambiguator: 0 }]","fn_type":"Safe","name":"version_sync::is_toml_block"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"find_toml_blocks\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"version_sync::find_toml_blocks"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"check_markdown_deps\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"version_sync::check_markdown_deps"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"url_matches\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"version_sync::url_matches"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"check_html_root_url\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"version_sync::check_html_root_url"}

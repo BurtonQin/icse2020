@@ -1,0 +1,3 @@
+{"name":"<job::JobRef as std::marker::Send>"}
+{"name":"<job::JobRef as std::marker::Sync>"}
+{"name":"<par_iter::collect::consumer::CollectConsumer<'c, ITEM> as std::marker::Send>"}

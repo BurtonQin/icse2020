@@ -1,0 +1,4 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"sendfd\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<std::os::ext::net::UnixStream as UnixSendFd>::sendfd"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"recvfd\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<std::os::ext::net::UnixStream as UnixSendFd>::recvfd"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"sendfd\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<std::os::ext::net::UnixDatagram as UnixSendFd>::sendfd"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"recvfd\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<std::os::ext::net::UnixDatagram as UnixSendFd>::recvfd"}

@@ -1,0 +1,17 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_tonal_mark\"), disambiguator: 0 }]","fn_type":"Safe","name":"pinyin_zhuyin::get_tonal_mark"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"tone_rhyme\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"pinyin_zhuyin::tone_rhyme"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_rhyme\"), disambiguator: 0 }]","fn_type":"Safe","name":"pinyin_zhuyin::is_rhyme"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_consonant\"), disambiguator: 0 }]","fn_type":"Safe","name":"pinyin_zhuyin::is_consonant"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"decode_rhyme\"), disambiguator: 0 }]","fn_type":"Safe","name":"pinyin_zhuyin::decode_rhyme"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"split\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"pinyin_zhuyin::split"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"_split\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"pinyin_zhuyin::_split"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"encode_pinyin\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"pinyin_zhuyin::encode_pinyin"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"encode_pinyin_from_parts\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"pinyin_zhuyin::encode_pinyin_from_parts"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"decode_pinyin\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"pinyin_zhuyin::decode_pinyin"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"decode_pinyin_to_parts\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"pinyin_zhuyin::decode_pinyin_to_parts"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"encode_zhuyin\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"pinyin_zhuyin::encode_zhuyin"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"encode_zhuyin_from_parts\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"pinyin_zhuyin::encode_zhuyin_from_parts"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"decode_zhuyin\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"pinyin_zhuyin::decode_zhuyin"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"decode_zhuyin_to_parts\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"pinyin_zhuyin::decode_zhuyin_to_parts"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"pinyin_to_zhuyin\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"pinyin_zhuyin::pinyin_to_zhuyin"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"zhuyin_to_pinyin\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"pinyin_zhuyin::zhuyin_to_pinyin"}

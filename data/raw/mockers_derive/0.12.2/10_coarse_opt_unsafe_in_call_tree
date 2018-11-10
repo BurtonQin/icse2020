@@ -1,0 +1,29 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"deref\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<KNOWN_TRAITS as lazy_static::Deref>::deref"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"deref\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"__static_ref_initialize\"), disambiguator: 0 }]","fn_type":"Safe","name":"<KNOWN_TRAITS as lazy_static::Deref>::deref::__static_ref_initialize"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"initialize\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<KNOWN_TRAITS as lazy_static::LazyStatic>::initialize"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_options\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"mockers_derive::parse_options"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_options\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"refs_parser\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"mockers_derive::parse_options::refs_parser"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"mocked\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"mockers_derive::mocked"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"derive_mock\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"mockers_derive::derive_mock"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"mocked_impl\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"mockers_derive::mocked_impl"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"generate_mock\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"mockers_derive::generate_mock"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"generate_mock_for_traits\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"mockers_derive::generate_mock_for_traits"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"generate_mock_struct\"), disambiguator: 0 }]","fn_type":"Safe","name":"mockers_derive::generate_mock_struct"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"generate_mock_impl\"), disambiguator: 0 }]","fn_type":"Safe","name":"mockers_derive::generate_mock_impl"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"generate_trait_methods\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"mockers_derive::generate_trait_methods"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"generate_trait_impl_method\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"mockers_derive::generate_trait_impl_method"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"generate_stub_code\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"mockers_derive::generate_stub_code"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"generate_impl_method_for_trait\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"mockers_derive::generate_impl_method_for_trait"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"generate_impl_method\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"mockers_derive::generate_impl_method"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"generate_extern_mock\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"mockers_derive::generate_extern_mock"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"qualify_self\"), disambiguator: 0 }]","fn_type":"Safe","name":"mockers_derive::qualify_self"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"qualify_self\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"qualify_ty\"), disambiguator: 0 }]","fn_type":"Safe","name":"mockers_derive::qualify_self::qualify_ty"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"qualify_self\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"qualify_bare_fn_arg\"), disambiguator: 0 }]","fn_type":"Safe","name":"mockers_derive::qualify_self::qualify_bare_fn_arg"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"qualify_self\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"qualify_function_ret_ty\"), disambiguator: 0 }]","fn_type":"Safe","name":"mockers_derive::qualify_self::qualify_function_ret_ty"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"qualify_self\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"qualify_path\"), disambiguator: 0 }]","fn_type":"Safe","name":"mockers_derive::qualify_self::qualify_path"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"mk_implitem\"), disambiguator: 0 }]","fn_type":"Safe","name":"mockers_derive::mk_implitem"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"mock\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"mockers_derive::mock"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"unwrap\"), disambiguator: 0 }]","fn_type":"Safe","name":"mockers_derive::unwrap"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"mock_impl\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"mockers_derive::mock_impl"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"mock_impl\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"mock_args\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"mockers_derive::mock_impl::mock_args"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","fn_type":"Safe","name":"mockers_derive::registrar::_registrar"}

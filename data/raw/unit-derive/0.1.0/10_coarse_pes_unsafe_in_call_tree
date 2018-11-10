@@ -1,0 +1,12 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"unit_add\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"unit_derive::unit_add"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"unit_add_assign\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"unit_derive::unit_add_assign"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"unit_sub\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"unit_derive::unit_sub"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"unit_sub_assign\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"unit_derive::unit_sub_assign"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"unit_mul\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"unit_derive::unit_mul"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"unit_mul_assign\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"unit_derive::unit_mul_assign"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"unit_div\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"unit_derive::unit_div"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"unit_div_assign\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"unit_derive::unit_div_assign"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"unit_rem\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"unit_derive::unit_rem"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"unit_neg\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"unit_derive::unit_neg"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"unit_all\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"unit_derive::unit_all"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"unit_derive::registrar::_registrar"}

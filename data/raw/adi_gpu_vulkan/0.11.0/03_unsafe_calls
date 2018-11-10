@@ -1,0 +1,52 @@
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"sprite\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","name":"new","crate_name":"asi_vulkan"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"mem\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"uninitialized\"), disambiguator: 0 }]","name":"uninitialized","crate_name":"core"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"sprite\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","name":"new","crate_name":"asi_vulkan"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"mem\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"uninitialized\"), disambiguator: 0 }]","name":"uninitialized","crate_name":"core"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"new_buffer\"), disambiguator: 0 }]","name":"new_buffer","crate_name":"asi_vulkan"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"destroy_swapchain\"), disambiguator: 0 }]","name":"destroy_swapchain","crate_name":"asi_vulkan"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"map_memory\"), disambiguator: 0 }]","name":"map_memory","crate_name":"asi_vulkan"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"unmap_memory\"), disambiguator: 0 }]","name":"unmap_memory","crate_name":"asi_vulkan"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"ptr\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"offset\"), disambiguator: 0 }]","name":"offset","crate_name":"core"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"sprite\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","name":"new","crate_name":"asi_vulkan"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"mem\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"uninitialized\"), disambiguator: 0 }]","name":"uninitialized","crate_name":"core"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"sprite\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","name":"new","crate_name":"asi_vulkan"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"mem\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"uninitialized\"), disambiguator: 0 }]","name":"uninitialized","crate_name":"core"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"mem\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"uninitialized\"), disambiguator: 0 }]","name":"uninitialized","crate_name":"core"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"new_buffer\"), disambiguator: 0 }]","name":"new_buffer","crate_name":"asi_vulkan"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"new_semaphore\"), disambiguator: 0 }]","name":"new_semaphore","crate_name":"asi_vulkan"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"fence\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","name":"new","crate_name":"asi_vulkan"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_next_image\"), disambiguator: 0 }]","name":"get_next_image","crate_name":"asi_vulkan"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"draw_begin\"), disambiguator: 0 }]","name":"draw_begin","crate_name":"asi_vulkan"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"end_render_pass\"), disambiguator: 0 }]","name":"end_render_pass","crate_name":"asi_vulkan"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"pipeline_barrier\"), disambiguator: 0 }]","name":"pipeline_barrier","crate_name":"asi_vulkan"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"end_cmdbuff\"), disambiguator: 0 }]","name":"end_cmdbuff","crate_name":"asi_vulkan"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"queue_submit\"), disambiguator: 0 }]","name":"queue_submit","crate_name":"asi_vulkan"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"wait_fence\"), disambiguator: 0 }]","name":"wait_fence","crate_name":"asi_vulkan"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"queue_present\"), disambiguator: 0 }]","name":"queue_present","crate_name":"asi_vulkan"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"fence\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"wait\"), disambiguator: 0 }]","name":"wait","crate_name":"asi_vulkan"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"fence\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"drop\"), disambiguator: 0 }]","name":"drop","crate_name":"asi_vulkan"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"drop_semaphore\"), disambiguator: 0 }]","name":"drop_semaphore","crate_name":"asi_vulkan"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"wait_idle\"), disambiguator: 0 }]","name":"wait_idle","crate_name":"asi_vulkan"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"mem\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"zeroed\"), disambiguator: 0 }]","name":"zeroed","crate_name":"core"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"mem\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"zeroed\"), disambiguator: 0 }]","name":"zeroed","crate_name":"core"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"mem\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"uninitialized\"), disambiguator: 0 }]","name":"uninitialized","crate_name":"core"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_buffering\"), disambiguator: 0 }]","name":"get_buffering","crate_name":"asi_vulkan"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"subres_layout\"), disambiguator: 0 }]","name":"subres_layout","crate_name":"asi_vulkan"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"sprite\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","name":"new","crate_name":"asi_vulkan"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"sprite\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","name":"new","crate_name":"asi_vulkan"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"mem\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"uninitialized\"), disambiguator: 0 }]","name":"uninitialized","crate_name":"core"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"new_buffer\"), disambiguator: 0 }]","name":"new_buffer","crate_name":"asi_vulkan"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"vw_camera_new\"), disambiguator: 0 }]","name":"vw_camera_new","crate_name":"asi_vulkan"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"cmd_bind_vb\"), disambiguator: 0 }]","name":"cmd_bind_vb","crate_name":"asi_vulkan"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"cmd_bind_pipeline\"), disambiguator: 0 }]","name":"cmd_bind_pipeline","crate_name":"asi_vulkan"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"cmd_bind_descsets\"), disambiguator: 0 }]","name":"cmd_bind_descsets","crate_name":"asi_vulkan"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"cmd_draw\"), disambiguator: 0 }]","name":"cmd_draw","crate_name":"asi_vulkan"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"copy_image\"), disambiguator: 0 }]","name":"copy_image","crate_name":"asi_vulkan"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"create_swapchain\"), disambiguator: 0 }]","name":"create_swapchain","crate_name":"asi_vulkan"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"create_image_view\"), disambiguator: 0 }]","name":"create_image_view","crate_name":"asi_vulkan"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"create_depth_buffer\"), disambiguator: 0 }]","name":"create_depth_buffer","crate_name":"asi_vulkan"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"create_ms_buffer\"), disambiguator: 0 }]","name":"create_ms_buffer","crate_name":"asi_vulkan"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"create_render_pass\"), disambiguator: 0 }]","name":"create_render_pass","crate_name":"asi_vulkan"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"create_framebuffers\"), disambiguator: 0 }]","name":"create_framebuffers","crate_name":"asi_vulkan"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"map_memory\"), disambiguator: 0 }]","name":"map_memory","crate_name":"asi_vulkan"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"unmap_memory\"), disambiguator: 0 }]","name":"unmap_memory","crate_name":"asi_vulkan"}

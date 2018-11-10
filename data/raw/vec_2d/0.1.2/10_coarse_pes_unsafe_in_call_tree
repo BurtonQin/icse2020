@@ -1,0 +1,7 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Vec2d<T> as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Vec2d<T>>::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"calculate_index\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Vec2d<T>>::calculate_index"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"x_len\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Vec2d<T>>::x_len"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"y_len\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Vec2d<T>>::y_len"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"index\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Vec2d<T> as std::ops::Index<(usize, usize)>>::index"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"index_mut\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Vec2d<T> as std::ops::IndexMut<(usize, usize)>>::index_mut"}

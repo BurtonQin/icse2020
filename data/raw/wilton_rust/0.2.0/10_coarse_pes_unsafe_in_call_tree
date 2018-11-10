@@ -1,0 +1,7 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"copy_to_wilton_bufer\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"wilton_rust::copy_to_wilton_bufer"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"convert_wilton_error\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"wilton_rust::convert_wilton_error"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"panicmsg\"), disambiguator: 0 }]","fn_type":"Safe","name":"wilton_rust::panicmsg"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"wilton_cb\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"wilton_rust::wilton_cb"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"register_wiltocall\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"wilton_rust::register_wiltocall"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"create_wilton_error\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"wilton_rust::create_wilton_error"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"runscript\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"wilton_rust::runscript"}

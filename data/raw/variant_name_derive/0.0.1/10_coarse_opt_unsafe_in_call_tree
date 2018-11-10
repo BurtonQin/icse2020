@@ -1,0 +1,2 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"variant_name\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"variant_name_derive::variant_name"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","fn_type":"Safe","name":"variant_name_derive::registrar::_registrar"}

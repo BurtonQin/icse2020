@@ -1,0 +1,6 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"mashup_macro_impl\"), disambiguator: 0 }]","fn_type":"Safe","name":"mashup_impl::mashup_macro_impl"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"mashup_macro_impl\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"func\"), disambiguator: 0 }]","fn_type":"Safe","name":"mashup_impl::mashup_macro_impl::func"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"mashup\"), disambiguator: 0 }]","fn_type":"Safe","name":"mashup_impl::Concat::mashup"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse\"), disambiguator: 0 }]","fn_type":"Safe","name":"mashup_impl::parse"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"make_macro\"), disambiguator: 0 }]","fn_type":"Safe","name":"mashup_impl::make_macro"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","fn_type":"Safe","name":"mashup_impl::registrar::_registrar"}

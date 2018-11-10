@@ -1,0 +1,7 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"posix\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"substitute\"), disambiguator: 0 }]","fn_type":"Safe","name":"varsun::posix::substitute"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"posix\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"substenvar\"), disambiguator: 0 }]","fn_type":"Safe","name":"varsun::posix::substenvar"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"mswin\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"substitute\"), disambiguator: 0 }]","fn_type":"Safe","name":"varsun::mswin::substitute"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"mswin\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"substenvar\"), disambiguator: 0 }]","fn_type":"Safe","name":"varsun::mswin::substenvar"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"substitute\"), disambiguator: 0 }]","fn_type":"Safe","name":"varsun::substitute"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"substenvar\"), disambiguator: 0 }]","fn_type":"Safe","name":"varsun::substenvar"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"envar\"), disambiguator: 0 }]","fn_type":"Safe","name":"varsun::envar"}

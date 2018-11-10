@@ -1,0 +1,12 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"ensure_exe_extension\"), disambiguator: 0 }]","fn_type":"Safe","name":"which::ensure_exe_extension"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"which\"), disambiguator: 0 }]","fn_type":"Safe","name":"which::which"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"which_in\"), disambiguator: 0 }]","fn_type":"Safe","name":"which::which_in"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"which::Finder::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"find\"), disambiguator: 0 }]","fn_type":"Safe","name":"which::Finder::find"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"which::ExecutableChecker::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"is_valid\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<ExecutableChecker as Checker>::is_valid"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"which::ExistedChecker::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"is_valid\"), disambiguator: 0 }]","fn_type":"Safe","name":"<ExistedChecker as Checker>::is_valid"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"which::CompositeChecker::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"add_checker\"), disambiguator: 0 }]","fn_type":"Safe","name":"which::CompositeChecker::add_checker"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"is_valid\"), disambiguator: 0 }]","fn_type":"Safe","name":"<CompositeChecker as Checker>::is_valid"}

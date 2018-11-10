@@ -1,0 +1,1 @@
+{"name":"<DefaultHeap as Allocator>::deallocate","from_trait":true,"arguments":[{"type_info":"type(*mut T)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/simple_allocator_trait-0.1.0/src/lib.rs\") line 35","kind":{"UnsafeFnCall":"Rust"}}]}

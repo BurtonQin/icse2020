@@ -1,0 +1,7 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_text\"), disambiguator: 0 }]","fn_type":"Safe","name":"quickxml_to_serde::parse_text"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"convert_node\"), disambiguator: 0 }]","fn_type":"Safe","name":"quickxml_to_serde::convert_node"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"xml_to_map\"), disambiguator: 0 }]","fn_type":"Safe","name":"quickxml_to_serde::xml_to_map"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"xml_string_to_json\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"quickxml_to_serde::xml_string_to_json"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"map_over_children\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"quickxml_to_serde::map_over_children"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"map_of_children\"), disambiguator: 0 }]","fn_type":"Safe","name":"quickxml_to_serde::map_of_children"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_root\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"quickxml_to_serde::get_root"}

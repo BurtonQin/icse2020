@@ -1,0 +1,9 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"<CacheEntry<Value>>::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"inc\"), disambiguator: 0 }]","fn_type":"Safe","name":"<CacheEntry<Value>>::inc"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"dec\"), disambiguator: 0 }]","fn_type":"Safe","name":"<CacheEntry<Value>>::dec"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"<PoolCache<Key, Value>>::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"contains_key\"), disambiguator: 0 }]","fn_type":"Safe","name":"<PoolCache<Key, Value>>::contains_key"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"get\"), disambiguator: 0 }]","fn_type":"Safe","name":"<PoolCache<Key, Value>>::get"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"put\"), disambiguator: 0 }]","fn_type":"Safe","name":"<PoolCache<Key, Value>>::put"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"insert\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<PoolCache<Key, Value>>::insert"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"take\"), disambiguator: 0 }]","fn_type":"Safe","name":"<PoolCache<Key, Value>>::take"}

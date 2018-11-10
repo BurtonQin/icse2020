@@ -1,0 +1,4 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"pdfutil::main"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"apply_operation\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"pdfutil::main::apply_operation"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"compute_page_numbers\"), disambiguator: 0 }]","fn_type":"Safe","name":"pdfutil::main::compute_page_numbers"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"complement_page_numbers\"), disambiguator: 0 }]","fn_type":"Safe","name":"pdfutil::main::complement_page_numbers"}

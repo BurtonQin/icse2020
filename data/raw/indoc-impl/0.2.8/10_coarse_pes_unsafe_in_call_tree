@@ -1,0 +1,4 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"indoc_impl\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"indoc_impl::indoc_impl"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"indoc_impl\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"func\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"indoc_impl::indoc_impl::func"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"expand\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"indoc_impl::expand"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"indoc_impl::registrar::_registrar"}

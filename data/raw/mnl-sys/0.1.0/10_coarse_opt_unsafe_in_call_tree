@@ -1,0 +1,2 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"MNL_SOCKET_BUFFER_SIZE\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"mnl_sys::MNL_SOCKET_BUFFER_SIZE"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"MNL_ALIGN\"), disambiguator: 0 }]","fn_type":"Safe","name":"mnl_sys::MNL_ALIGN"}

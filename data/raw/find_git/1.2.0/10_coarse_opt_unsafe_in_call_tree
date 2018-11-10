@@ -1,0 +1,3 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"git_ran_ok\"), disambiguator: 0 }]","fn_type":"Safe","name":"find_git::git_ran_ok"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"try_git_with_no_path\"), disambiguator: 0 }]","fn_type":"Safe","name":"find_git::try_git_with_no_path"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"find_git\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"git_path\"), disambiguator: 0 }]","fn_type":"Safe","name":"find_git::find_git::git_path"}

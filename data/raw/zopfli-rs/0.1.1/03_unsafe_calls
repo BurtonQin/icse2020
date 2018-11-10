@@ -1,0 +1,2 @@
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: Module(\"bindings\"), disambiguator: 0 }, DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"ZopfliCompress\"), disambiguator: 0 }]","name":"ZopfliCompress","crate_name":"zopfli-rs"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"slice\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"from_raw_parts\"), disambiguator: 0 }]","name":"from_raw_parts","crate_name":"core"}

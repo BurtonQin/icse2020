@@ -1,0 +1,4 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"hotp\"), disambiguator: 0 }]","fn_type":"Safe","name":"otp::hotp"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"hotp_validate\"), disambiguator: 0 }]","fn_type":"Safe","name":"otp::hotp_validate"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"totp\"), disambiguator: 0 }]","fn_type":"Safe","name":"otp::totp"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"totp_validate\"), disambiguator: 0 }]","fn_type":"Safe","name":"otp::totp_validate"}

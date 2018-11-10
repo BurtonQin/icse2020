@@ -1,0 +1,8 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"push\"), disambiguator: 0 }]","fn_type":"Safe","name":"heap::push"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"pop\"), disambiguator: 0 }]","fn_type":"Safe","name":"heap::pop"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"build\"), disambiguator: 0 }]","fn_type":"Safe","name":"heap::build"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"sort\"), disambiguator: 0 }]","fn_type":"Safe","name":"heap::sort"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"replace_root\"), disambiguator: 0 }]","fn_type":"Safe","name":"heap::replace_root"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"sift_down\"), disambiguator: 0 }]","fn_type":"Safe","name":"heap::sift_down"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_heap\"), disambiguator: 0 }]","fn_type":"Safe","name":"heap::is_heap"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"map_opt_2_or\"), disambiguator: 0 }]","fn_type":"Safe","name":"heap::map_opt_2_or"}

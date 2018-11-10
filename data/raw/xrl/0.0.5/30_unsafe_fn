@@ -1,0 +1,1 @@
+{"name":"<core::Core as tokio_io::AsyncRead>::prepare_uninitialized_buffer","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/core.rs\") line 30","kind":{"UnsafeFnCall":"Rust"}}]}

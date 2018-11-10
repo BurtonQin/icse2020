@@ -1,0 +1,16 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<ConstructedArgIdent as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<ConstructedArgIdent as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"wasm_wrapper_gen_impl::ConstructedArgIdent::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"with_suffix\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"wasm_wrapper_gen_impl::ConstructedArgIdent::with_suffix"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"to_tokens\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<ConstructedArgIdent as quote::ToTokens>::to_tokens"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"__js_fn_impl\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"wasm_wrapper_gen_impl::__js_fn_impl"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"__js_fn_impl\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"func\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"wasm_wrapper_gen_impl::__js_fn_impl::func"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"process_all_functions\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"wasm_wrapper_gen_impl::process_all_functions"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"process_item\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"wasm_wrapper_gen_impl::process_item"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"generate_function_wrapper\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"wasm_wrapper_gen_impl::generate_function_wrapper"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"expand_argument_into\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"wasm_wrapper_gen_impl::expand_argument_into"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"to_tokens\"), disambiguator: 0 }]","fn_type":"Safe","name":"<WrittenReturnType as quote::ToTokens>::to_tokens"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"setup_for_argument\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"wasm_wrapper_gen_impl::setup_for_argument"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"return_handling\"), disambiguator: 0 }]","fn_type":"Safe","name":"wasm_wrapper_gen_impl::return_handling"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"generate_callable_body\"), disambiguator: 0 }]","fn_type":"Safe","name":"wasm_wrapper_gen_impl::generate_callable_body"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","fn_type":"Safe","name":"wasm_wrapper_gen_impl::registrar::_registrar"}

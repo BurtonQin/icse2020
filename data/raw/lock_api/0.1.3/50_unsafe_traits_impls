@@ -1,0 +1,27 @@
+{"name":"<mutex::Mutex<R, T> as core::marker::Send>"}
+{"name":"<mutex::Mutex<R, T> as core::marker::Sync>"}
+{"name":"<mutex::MutexGuard<'a, R, T> as core::marker::Sync>"}
+{"name":"<mutex::MutexGuard<'a, R, T> as owning_ref::StableDeref>"}
+{"name":"<mutex::MappedMutexGuard<'a, R, T> as core::marker::Sync>"}
+{"name":"<mutex::MappedMutexGuard<'a, R, T> as core::marker::Send>"}
+{"name":"<mutex::MappedMutexGuard<'a, R, T> as owning_ref::StableDeref>"}
+{"name":"<remutex::ReentrantMutex<R, G, T> as core::marker::Send>"}
+{"name":"<remutex::ReentrantMutex<R, G, T> as core::marker::Sync>"}
+{"name":"<remutex::ReentrantMutexGuard<'a, R, G, T> as core::marker::Sync>"}
+{"name":"<remutex::ReentrantMutexGuard<'a, R, G, T> as owning_ref::StableDeref>"}
+{"name":"<remutex::MappedReentrantMutexGuard<'a, R, G, T> as core::marker::Sync>"}
+{"name":"<remutex::MappedReentrantMutexGuard<'a, R, G, T> as owning_ref::StableDeref>"}
+{"name":"<rwlock::RwLock<R, T> as core::marker::Send>"}
+{"name":"<rwlock::RwLock<R, T> as core::marker::Sync>"}
+{"name":"<rwlock::RwLockReadGuard<'a, R, T> as core::marker::Sync>"}
+{"name":"<rwlock::RwLockReadGuard<'a, R, T> as owning_ref::StableDeref>"}
+{"name":"<rwlock::RwLockWriteGuard<'a, R, T> as core::marker::Sync>"}
+{"name":"<rwlock::RwLockWriteGuard<'a, R, T> as owning_ref::StableDeref>"}
+{"name":"<rwlock::RwLockUpgradableReadGuard<'a, R, T> as core::marker::Sync>"}
+{"name":"<rwlock::RwLockUpgradableReadGuard<'a, R, T> as owning_ref::StableDeref>"}
+{"name":"<rwlock::MappedRwLockReadGuard<'a, R, T> as core::marker::Sync>"}
+{"name":"<rwlock::MappedRwLockReadGuard<'a, R, T> as core::marker::Send>"}
+{"name":"<rwlock::MappedRwLockReadGuard<'a, R, T> as owning_ref::StableDeref>"}
+{"name":"<rwlock::MappedRwLockWriteGuard<'a, R, T> as core::marker::Sync>"}
+{"name":"<rwlock::MappedRwLockWriteGuard<'a, R, T> as core::marker::Send>"}
+{"name":"<rwlock::MappedRwLockWriteGuard<'a, R, T> as owning_ref::StableDeref>"}

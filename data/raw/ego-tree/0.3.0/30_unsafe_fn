@@ -1,0 +1,6 @@
+{"name":"node_mut::<impl NodeMut<'a, T>>::append_id","from_trait":true,"arguments":[],"sources":[]}
+{"name":"node_mut::<impl NodeMut<'a, T>>::prepend_id","from_trait":true,"arguments":[],"sources":[]}
+{"name":"node_mut::<impl NodeMut<'a, T>>::insert_id_before","from_trait":true,"arguments":[],"sources":[]}
+{"name":"node_mut::<impl NodeMut<'a, T>>::insert_id_after","from_trait":true,"arguments":[],"sources":[]}
+{"name":"node_mut::<impl NodeMut<'a, T>>::reparent_from_id_append","from_trait":true,"arguments":[],"sources":[]}
+{"name":"node_mut::<impl NodeMut<'a, T>>::reparent_from_id_prepend","from_trait":true,"arguments":[],"sources":[]}

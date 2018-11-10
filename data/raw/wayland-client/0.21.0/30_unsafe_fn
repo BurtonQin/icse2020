@@ -1,0 +1,7 @@
+{"name":"display::Display::from_fd","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/display.rs\") line 116","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<proxy::NewProxy<I>>::implement_nonsend","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/proxy.rs\") line 308","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/proxy.rs\") line 310","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"imp::connection::Connection::new","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/rust_imp/connection.rs\") line 30","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"imp::display::DisplayInner::from_fd","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/rust_imp/display.rs\") line 27","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/rust_imp/display.rs\") line 38","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"imp::proxy::NewProxyInner::assign_queue","from_trait":true,"arguments":[],"sources":[]}
+{"name":"imp::proxy::NewProxyInner::implement","from_trait":true,"arguments":[],"sources":[]}
+{"name":"imp::make_dispatcher","from_trait":false,"arguments":[],"sources":[]}

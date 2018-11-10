@@ -1,0 +1,6 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"derive_setter\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"telebot_derive::derive_setter"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"expand_setter\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"telebot_derive::expand_setter"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"derive_telegram_sendable\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"telebot_derive::derive_telegram_sendable"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"expand_function\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"telebot_derive::expand_function"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"config_from\"), disambiguator: 0 }]","fn_type":"Safe","name":"telebot_derive::config_from"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"telebot_derive::registrar::_registrar"}

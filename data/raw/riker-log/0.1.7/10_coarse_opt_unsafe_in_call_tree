@@ -1,0 +1,6 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"receive\"), disambiguator: 0 }]","fn_type":"Safe","name":"<SimpleLogger<Msg> as riker::actor::Actor>::receive"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"system_receive\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<SimpleLogger<Msg> as riker::actor::Actor>::system_receive"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"props\"), disambiguator: 0 }]","fn_type":"Safe","name":"<SimpleLogger<Msg> as riker::system::LoggerProps>::props"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"actor\"), disambiguator: 0 }]","fn_type":"Safe","name":"<SimpleLogger<Msg>>::actor"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<LoggerConfig as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"from\"), disambiguator: 0 }]","fn_type":"Safe","name":"<LoggerConfig as std::convert::From<&'a config::Config>>::from"}

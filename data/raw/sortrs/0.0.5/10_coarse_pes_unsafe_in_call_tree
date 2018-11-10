@@ -1,0 +1,17 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"insertsort_impl\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"sortrs::insertsort_impl"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"insertsort_by\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"sortrs::insertsort_by"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"insertsort\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"sortrs::insertsort"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"heapify\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"sortrs::heapify"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"shift_down\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"sortrs::shift_down"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"heapsort_impl\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"sortrs::heapsort_impl"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"heapsort_by\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"sortrs::heapsort_by"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"heapsort\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"sortrs::heapsort"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"lg\"), disambiguator: 0 }]","fn_type":"Safe","name":"sortrs::lg"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"ptr_distance\"), disambiguator: 0 }]","fn_type":"Safe","name":"sortrs::ptr_distance"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"median_3\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"sortrs::median_3"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"partition\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"sortrs::partition"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"partition_pivot\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"sortrs::partition_pivot"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"introsort_loop\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"sortrs::introsort_loop"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"introsort_impl\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"sortrs::introsort_impl"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"introsort_by\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"sortrs::introsort_by"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"introsort\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"sortrs::introsort"}

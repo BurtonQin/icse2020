@@ -1,0 +1,11 @@
+{"name":"<error::InternalError<T> as std::marker::Sync>"}
+{"name":"<error::InternalError<T> as std::marker::Send>"}
+{"name":"<middleware::identity::IdentityBox as std::marker::Send>"}
+{"name":"<middleware::identity::IdentityBox as std::marker::Sync>"}
+{"name":"<middleware::session::SessionImplBox as std::marker::Send>"}
+{"name":"<middleware::session::SessionImplBox as std::marker::Sync>"}
+{"name":"<server::settings::ServerSettings as std::marker::Sync>"}
+{"name":"<server::settings::ServerSettings as std::marker::Send>"}
+{"name":"<server::settings::InnerCpuPool as std::marker::Sync>"}
+{"name":"<server::srv::HttpServer<H> as std::marker::Sync>"}
+{"name":"<server::srv::HttpServer<H> as std::marker::Send>"}

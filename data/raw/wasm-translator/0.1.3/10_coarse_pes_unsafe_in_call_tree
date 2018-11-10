@@ -1,0 +1,3 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"resolve\"), disambiguator: 0 }]","fn_type":"Safe","name":"<DefaultResolver as translator::wasm_core::executor::NativeResolver>::resolve"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"wtrans::main"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"debug_print\"), disambiguator: 0 }]","fn_type":"Safe","name":"wtrans::debug_print"}

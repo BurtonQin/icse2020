@@ -1,0 +1,7 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"youtube_downloader::main"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"download\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"youtube_downloader::download"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_file_size\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"youtube_downloader::get_file_size"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"write_file\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"youtube_downloader::write_file"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"send_request\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"youtube_downloader::send_request"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_url\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"youtube_downloader::parse_url"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"read_line\"), disambiguator: 0 }]","fn_type":"Safe","name":"youtube_downloader::read_line"}

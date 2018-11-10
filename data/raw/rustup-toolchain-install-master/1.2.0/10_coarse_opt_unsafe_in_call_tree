@@ -1,0 +1,10 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"clap\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Args as structopt::StructOpt>::clap"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"from_clap\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Args as structopt::StructOpt>::from_clap"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"augment_clap\"), disambiguator: 0 }]","fn_type":"Safe","name":"rustup_toolchain_install_master::Args::augment_clap"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"is_subcommand\"), disambiguator: 0 }]","fn_type":"Safe","name":"rustup_toolchain_install_master::Args::is_subcommand"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Args as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"download_tar_xz\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rustup_toolchain_install_master::download_tar_xz"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"install_single_toolchain\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rustup_toolchain_install_master::install_single_toolchain"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"fetch_master_commit\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rustup_toolchain_install_master::fetch_master_commit"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"run\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rustup_toolchain_install_master::run"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rustup_toolchain_install_master::main"}

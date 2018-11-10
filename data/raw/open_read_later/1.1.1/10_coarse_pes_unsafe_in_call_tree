@@ -1,0 +1,13 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"util\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"prompt\"), disambiguator: 0 }]","fn_type":"Safe","name":"readlater::util::prompt"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"util\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"read_from_file\"), disambiguator: 0 }]","fn_type":"Safe","name":"readlater::util::read_from_file"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"util\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"overwrite_file\"), disambiguator: 0 }]","fn_type":"Safe","name":"readlater::util::overwrite_file"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"util\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"trace\"), disambiguator: 0 }]","fn_type":"Safe","name":"readlater::util::trace"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"readlater::main"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"run\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"readlater::run"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_args\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"readlater::parse_args"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"list\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"readlater::list"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"save\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"readlater::save"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"show\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"readlater::show"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"delete\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"readlater::delete"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"tag\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"readlater::tag"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"search\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"readlater::search"}

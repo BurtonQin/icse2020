@@ -1,0 +1,11 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<OsReleaseError as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"eq\"), disambiguator: 0 }]","fn_type":"Safe","name":"<OsReleaseError as std::cmp::PartialEq>::eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<OsReleaseError as std::fmt::Display>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"description\"), disambiguator: 0 }]","fn_type":"Safe","name":"<OsReleaseError as std::error::Error>::description"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"cause\"), disambiguator: 0 }]","fn_type":"Safe","name":"<OsReleaseError as std::error::Error>::cause"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"from\"), disambiguator: 0 }]","fn_type":"Safe","name":"<OsReleaseError as std::convert::From<std::io::Error>>::from"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"trim_quotes\"), disambiguator: 0 }]","fn_type":"Safe","name":"rs_release::trim_quotes"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"extract_variable_and_value\"), disambiguator: 0 }]","fn_type":"Safe","name":"rs_release::extract_variable_and_value"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_os_release\"), disambiguator: 0 }]","fn_type":"Safe","name":"rs_release::parse_os_release"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_os_release_str\"), disambiguator: 0 }]","fn_type":"Safe","name":"rs_release::parse_os_release_str"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_os_release\"), disambiguator: 0 }]","fn_type":"Safe","name":"rs_release::get_os_release"}

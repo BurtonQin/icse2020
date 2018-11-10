@@ -1,0 +1,7 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"enum_kind\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"enum_kinds::enum_kind"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"find_attribute\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"enum_kinds::find_attribute"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_enum_specification\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"enum_kinds::get_enum_specification"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"create_kind_enum\"), disambiguator: 0 }]","fn_type":"Safe","name":"enum_kinds::create_kind_enum"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_uninhabited_enum\"), disambiguator: 0 }]","fn_type":"Safe","name":"enum_kinds::is_uninhabited_enum"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"create_impl\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"enum_kinds::create_impl"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","fn_type":"Safe","name":"enum_kinds::registrar::_registrar"}

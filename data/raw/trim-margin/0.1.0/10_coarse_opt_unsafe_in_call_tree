@@ -1,0 +1,2 @@
+{"def_path":"[DisambiguatedDefPathData { data: Trait(\"MarginTrimmable\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"trim_margin\"), disambiguator: 0 }]","fn_type":"Safe","name":"trim_margin::MarginTrimmable::trim_margin"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"trim_margin_with\"), disambiguator: 0 }]","fn_type":"Safe","name":"<S as MarginTrimmable>::trim_margin_with"}

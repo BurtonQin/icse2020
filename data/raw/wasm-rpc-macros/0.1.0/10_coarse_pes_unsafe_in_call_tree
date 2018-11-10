@@ -1,0 +1,4 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"export\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"wasm_rpc_macros::export"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"iterate_content_for\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"wasm_rpc_macros::iterate_content_for"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"replace_with_export\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"wasm_rpc_macros::replace_with_export"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"wasm_rpc_macros::registrar::_registrar"}

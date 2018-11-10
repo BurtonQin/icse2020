@@ -1,0 +1,24 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Item<T> as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Item<T> as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"is_box\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Item<T>>::is_box"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"is_glue\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Item<T>>::is_glue"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"penalty\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Item<T>>::penalty"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"flagged\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Item<T>>::flagged"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 8 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Node as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Node as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"default\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Node as std::default::Default>::default"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 11 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Sums as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 9 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Sums as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"default\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Sums as std::default::Default>::default"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 14 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Candidate as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 12 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Candidate as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 17 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Breakpoint as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 15 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Breakpoint as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"ratio\"), disambiguator: 0 }]","fn_type":"Safe","name":"paragraph_breaker::ratio"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"fitness_class\"), disambiguator: 0 }]","fn_type":"Safe","name":"paragraph_breaker::fitness_class"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"badness\"), disambiguator: 0 }]","fn_type":"Safe","name":"paragraph_breaker::badness"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"demerits\"), disambiguator: 0 }]","fn_type":"Safe","name":"paragraph_breaker::demerits"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"sums_after\"), disambiguator: 0 }]","fn_type":"Safe","name":"paragraph_breaker::sums_after"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"explore\"), disambiguator: 0 }]","fn_type":"Safe","name":"paragraph_breaker::explore"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"total_fit\"), disambiguator: 0 }]","fn_type":"Safe","name":"paragraph_breaker::total_fit"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"standard_fit\"), disambiguator: 0 }]","fn_type":"Safe","name":"paragraph_breaker::standard_fit"}

@@ -1,0 +1,12 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"set_callback\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"linenoise::set_callback"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"input\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"linenoise::input"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"history_add\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"linenoise::history_add"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"history_set_max_len\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"linenoise::history_set_max_len"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"history_save\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"linenoise::history_save"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"history_load\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"linenoise::history_load"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"history_line\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"linenoise::history_line"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"clear_screen\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"linenoise::clear_screen"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"set_multiline\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"linenoise::set_multiline"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"print_key_codes\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"linenoise::print_key_codes"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"add_completion\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"linenoise::add_completion"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"internal_callback\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"linenoise::internal_callback"}

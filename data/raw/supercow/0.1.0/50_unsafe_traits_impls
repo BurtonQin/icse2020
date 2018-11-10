@@ -1,0 +1,28 @@
+{"name":"<std::rc::Rc<T> as ext::ConstDeref>"}
+{"name":"<std::sync::Arc<T> as ext::ConstDeref>"}
+{"name":"<std::boxed::Box<T> as ext::ConstDeref>"}
+{"name":"<T as ext::SafeBorrow<T>>"}
+{"name":"<T as ext::SafeBorrow<[B]>>"}
+{"name":"<T as ext::SafeBorrow<str>>"}
+{"name":"<T as ext::SafeBorrow<std::ffi::CStr>>"}
+{"name":"<T as ext::SafeBorrow<std::ffi::OsStr>>"}
+{"name":"<T as ext::SafeBorrow<std::path::Path>>"}
+{"name":"<*const T as ext::PointerFirstRef>"}
+{"name":"<*const [T] as ext::PointerFirstRef>"}
+{"name":"<*const str as ext::PointerFirstRef>"}
+{"name":"<*const std::ffi::CStr as ext::PointerFirstRef>"}
+{"name":"<*const std::ffi::OsStr as ext::PointerFirstRef>"}
+{"name":"<*const std::path::Path as ext::PointerFirstRef>"}
+{"name":"<std::rc::Rc<T> as ext::SharedFrom<std::rc::Rc<T>>>"}
+{"name":"<std::sync::Arc<T> as ext::SharedFrom<std::sync::Arc<T>>>"}
+{"name":"<ext::InlineStorage<A, B> as ext::OwnedStorage<A, B>>"}
+{"name":"<ext::BoxedStorage as ext::OwnedStorage<A, B>>"}
+{"name":"<() as ext::PtrWrite<T>>"}
+{"name":"<*const T as ext::PtrWrite<T>>"}
+{"name":"<*const T as ext::PtrRead<T>>"}
+{"name":"supercow::<impl ext::SharedFrom<T> for std::boxed::Box<(dyn DefaultFeatures<'a> + 'a)>>"}
+{"name":"supercow::<impl ext::SharedFrom<T> for std::boxed::Box<(dyn NonSyncFeatures<'a> + 'a)>>"}
+{"name":"<Supercow<'a, OWNED, BORROWED, SHARED, STORAGE, PTR> as std::marker::Send>"}
+{"name":"<Supercow<'a, OWNED, BORROWED, SHARED, STORAGE, PTR> as std::marker::Sync>"}
+{"name":"<T as PfrExt>"}
+{"name":"<*mut T as PfrExt>"}

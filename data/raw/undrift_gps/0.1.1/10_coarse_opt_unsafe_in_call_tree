@@ -1,0 +1,8 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"wgs_encrypt\"), disambiguator: 0 }]","fn_type":"Safe","name":"undrift_gps::wgs_encrypt"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_outside_china\"), disambiguator: 0 }]","fn_type":"Safe","name":"undrift_gps::is_outside_china"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"wgs_to_gcj\"), disambiguator: 0 }]","fn_type":"Safe","name":"undrift_gps::wgs_to_gcj"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"gcj_to_wgs\"), disambiguator: 0 }]","fn_type":"Safe","name":"undrift_gps::gcj_to_wgs"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"gcj_to_bd\"), disambiguator: 0 }]","fn_type":"Safe","name":"undrift_gps::gcj_to_bd"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"bd_to_gcj\"), disambiguator: 0 }]","fn_type":"Safe","name":"undrift_gps::bd_to_gcj"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"bd_to_wgs\"), disambiguator: 0 }]","fn_type":"Safe","name":"undrift_gps::bd_to_wgs"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"wgs_to_bd\"), disambiguator: 0 }]","fn_type":"Safe","name":"undrift_gps::wgs_to_bd"}

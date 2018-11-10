@@ -1,0 +1,3 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"early_exit\"), disambiguator: 0 }]","fn_type":"Safe","name":"waterrower::early_exit"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"waterrower::main"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"interact\"), disambiguator: 0 }]","fn_type":"Safe","name":"waterrower::interact"}

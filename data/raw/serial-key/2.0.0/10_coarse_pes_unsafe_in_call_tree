@@ -1,0 +1,9 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Status as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"eq\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<Status as std::cmp::PartialEq>::eq"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_key_byte\"), disambiguator: 0 }]","fn_type":"Safe","name":"serial_key::get_key_byte"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_checksum\"), disambiguator: 0 }]","fn_type":"Safe","name":"serial_key::get_checksum"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"make_key\"), disambiguator: 0 }]","fn_type":"Safe","name":"serial_key::make_key"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"check_key_checksum\"), disambiguator: 0 }]","fn_type":"Safe","name":"serial_key::check_key_checksum"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"check_key\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"serial_key::check_key"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"check_bytes\"), disambiguator: 0 }]","fn_type":"Safe","name":"serial_key::check_bytes"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"check_random_bytes\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"serial_key::check_random_bytes"}

@@ -1,0 +1,11 @@
+{"sources":[["342",[{"loc":"file: Real(\"src/mutex/poison.rs\") line 29","kind":"DerefRawPointer"}]]]}
+{"sources":[["378",[{"loc":"file: Real(\"src/mutex/poison.rs\") line 40","kind":"DerefRawPointer"}]]]}
+{"sources":[["395",[{"loc":"file: Real(\"src/mutex/poison.rs\") line 47","kind":"DerefRawPointer"}]]]}
+{"sources":[["800",[{"loc":"file: Real(\"src/mutex/remutex.rs\") line 43","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/mutex/remutex.rs\") line 47","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["828",[{"loc":"file: Real(\"src/mutex/remutex.rs\") line 65","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["847",[{"loc":"file: Real(\"src/mutex/remutex.rs\") line 82","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["875",[{"loc":"file: Real(\"src/mutex/remutex.rs\") line 92","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["967",[{"loc":"file: Real(\"src/mutex/remutex.rs\") line 126","kind":"DerefRawPointer"}]]]}
+{"sources":[["992",[{"loc":"file: Real(\"src/mutex/remutex.rs\") line 133","kind":"DerefRawPointer"}]]]}
+{"sources":[["1016",[{"loc":"file: Real(\"src/mutex/remutex.rs\") line 148","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["1057",[{"loc":"file: Real(\"src/lib.rs\") line 20","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/lib.rs\") line 20","kind":{"UnsafeFnCall":"Rust"}}]]]}

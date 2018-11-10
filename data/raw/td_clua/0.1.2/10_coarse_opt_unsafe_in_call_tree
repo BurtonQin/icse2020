@@ -1,0 +1,2 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"lua_upvalueindex\"), disambiguator: 0 }]","fn_type":"Safe","name":"td_clua::lua_upvalueindex"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"default\"), disambiguator: 0 }]","fn_type":"Safe","name":"<lua_Debug as std::default::Default>::default"}

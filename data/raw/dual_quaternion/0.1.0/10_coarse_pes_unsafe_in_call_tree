@@ -1,0 +1,10 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"id\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"dual_quaternion::id"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"from_rotation_and_translation\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"dual_quaternion::from_rotation_and_translation"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"add\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"dual_quaternion::add"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"mul\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"dual_quaternion::mul"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"scale\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"dual_quaternion::scale"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"conj\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"dual_quaternion::conj"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"dot\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"dual_quaternion::dot"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"normalize\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"dual_quaternion::normalize"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_rotation\"), disambiguator: 0 }]","fn_type":"Safe","name":"dual_quaternion::get_rotation"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_translation\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"dual_quaternion::get_translation"}

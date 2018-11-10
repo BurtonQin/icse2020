@@ -1,0 +1,4 @@
+{"def_path":"[DisambiguatedDefPathData { data: Trait(\"Digest\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"block_bytes\"), disambiguator: 0 }]","fn_type":"Safe","name":"digest::Digest::block_bytes"}
+{"def_path":"[DisambiguatedDefPathData { data: Trait(\"Digest\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"block_bits\"), disambiguator: 0 }]","fn_type":"Safe","name":"digest::Digest::block_bits"}
+{"def_path":"[DisambiguatedDefPathData { data: Trait(\"Digest\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"output_bytes\"), disambiguator: 0 }]","fn_type":"Safe","name":"digest::Digest::output_bytes"}
+{"def_path":"[DisambiguatedDefPathData { data: Trait(\"Digest\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"output_bits\"), disambiguator: 0 }]","fn_type":"Safe","name":"digest::Digest::output_bits"}

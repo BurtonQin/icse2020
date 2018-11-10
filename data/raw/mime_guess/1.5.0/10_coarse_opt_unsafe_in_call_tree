@@ -1,0 +1,7 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"guess_mime_type\"), disambiguator: 0 }]","fn_type":"Safe","name":"mime_guess::guess_mime_type"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"guess_mime_type_opt\"), disambiguator: 0 }]","fn_type":"Safe","name":"mime_guess::guess_mime_type_opt"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_mime_type\"), disambiguator: 0 }]","fn_type":"Safe","name":"mime_guess::get_mime_type"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_mime_type_opt\"), disambiguator: 0 }]","fn_type":"Safe","name":"mime_guess::get_mime_type_opt"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_mime_type_str\"), disambiguator: 0 }]","fn_type":"Safe","name":"mime_guess::get_mime_type_str"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"octet_stream\"), disambiguator: 0 }]","fn_type":"Safe","name":"mime_guess::octet_stream"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"to_lowercase_cow\"), disambiguator: 0 }]","fn_type":"Safe","name":"mime_guess::to_lowercase_cow"}

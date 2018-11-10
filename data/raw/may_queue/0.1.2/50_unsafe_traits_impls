@@ -1,0 +1,12 @@
+{"name":"<mpmc_bounded::Node<T> as std::marker::Send>"}
+{"name":"<mpmc_bounded::Node<T> as std::marker::Sync>"}
+{"name":"<mpmc_bounded::State<T> as std::marker::Send>"}
+{"name":"<mpmc_bounded::State<T> as std::marker::Sync>"}
+{"name":"<mpsc_list::Queue<T> as std::marker::Send>"}
+{"name":"<mpsc_list::Queue<T> as std::marker::Sync>"}
+{"name":"<mpsc_list_v1::Entry<T> as std::marker::Sync>"}
+{"name":"<mpsc_list_v1::Entry<T> as std::marker::Send>"}
+{"name":"<mpsc_list_v1::Queue<T> as std::marker::Send>"}
+{"name":"<mpsc_list_v1::Queue<T> as std::marker::Sync>"}
+{"name":"<spsc::Queue<T> as std::marker::Send>"}
+{"name":"<spsc::Queue<T> as std::marker::Sync>"}

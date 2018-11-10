@@ -1,0 +1,13 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rocket_sync::SyncDevice::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"set_row_from_time\"), disambiguator: 0 }]","fn_type":"Safe","name":"rocket_sync::SyncDevice::set_row_from_time"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_track_value\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rocket_sync::SyncDevice::get_track_value"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rocket_sync::SyncTrack::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"add_key\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rocket_sync::SyncTrack::add_key"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"delete_key\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rocket_sync::SyncTrack::delete_key"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"find_key_idx_by_row\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rocket_sync::SyncTrack::find_key_idx_by_row"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"value_at\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rocket_sync::SyncTrack::value_at"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"find_active_key_idx_for_row\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rocket_sync::SyncTrack::find_active_key_idx_for_row"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"rocket_sync::TrackKey::new"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"rps\"), disambiguator: 0 }]","fn_type":"Safe","name":"rocket_sync::rps"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"key_to_code\"), disambiguator: 0 }]","fn_type":"Safe","name":"rocket_sync::key_to_code"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"code_to_key\"), disambiguator: 0 }]","fn_type":"Safe","name":"rocket_sync::code_to_key"}

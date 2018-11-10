@@ -1,0 +1,3 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"wc_grab::main"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"resolution\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"wc_grab::resolution"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"convert_to_png\"), disambiguator: 0 }]","fn_type":"Safe","name":"wc_grab::convert_to_png"}

@@ -1,0 +1,30 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Color as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"of_value\"), disambiguator: 0 }]","fn_type":"Safe","name":"vtcol::Color::of_value"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"format_brightness\"), disambiguator: 0 }]","fn_type":"Safe","name":"vtcol::Color::format_brightness"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"to_string\"), disambiguator: 0 }]","fn_type":"Safe","name":"vtcol::Color::to_string"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 8 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Scheme as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Scheme as std::fmt::Display>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 9 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Job as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"vtcol::Job::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"pick_scheme\"), disambiguator: 0 }]","fn_type":"Safe","name":"vtcol::Job::pick_scheme"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"scheme_from_stdin\"), disambiguator: 0 }]","fn_type":"Safe","name":"vtcol::Job::scheme_from_stdin"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"usage\"), disambiguator: 0 }]","fn_type":"Safe","name":"vtcol::Job::usage"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"schemes\"), disambiguator: 0 }]","fn_type":"Safe","name":"vtcol::Job::schemes"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"dump\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"vtcol::Job::dump"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"dump_scheme\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"vtcol::Job::dump_scheme"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"dump_palette\"), disambiguator: 0 }]","fn_type":"Safe","name":"vtcol::Job::dump_palette"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"dump\"), disambiguator: 0 }]","fn_type":"Safe","name":"vtcol::Palette::dump"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"nibble_of_char\"), disambiguator: 0 }]","fn_type":"Safe","name":"vtcol::nibble_of_char"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"rgb_of_hex_triplet\"), disambiguator: 0 }]","fn_type":"Safe","name":"vtcol::rgb_of_hex_triplet"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"vtcol::Palette::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"dummy\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"vtcol::Palette::dummy"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"from_buffered_reader\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"vtcol::Palette::from_buffered_reader"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"from_file\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"vtcol::Palette::from_file"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"from_stdin\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"vtcol::Palette::from_stdin"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Palette as std::fmt::Display>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Palette as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"fd_of_path\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"vtcol::fd_of_path"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_console_fd\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"vtcol::get_console_fd"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"write_to_term\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"vtcol::write_to_term"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"clear_term\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"vtcol::clear_term"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"vtcol::main"}

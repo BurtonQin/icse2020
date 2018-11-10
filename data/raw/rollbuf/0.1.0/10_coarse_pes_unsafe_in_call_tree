@@ -1,0 +1,10 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<RollBuf<R> as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"<RollBuf<R>>::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"with_capacity\"), disambiguator: 0 }]","fn_type":"Safe","name":"<RollBuf<R>>::with_capacity"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"capacity\"), disambiguator: 0 }]","fn_type":"Safe","name":"<RollBuf<R>>::capacity"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"end_position\"), disambiguator: 0 }]","fn_type":"Safe","name":"<RollBuf<R>>::end_position"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"fill_buf\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<RollBuf<R>>::fill_buf"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"consume\"), disambiguator: 0 }]","fn_type":"Safe","name":"<RollBuf<R>>::consume"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"roll\"), disambiguator: 0 }]","fn_type":"Safe","name":"<RollBuf<R>>::roll"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"contents\"), disambiguator: 0 }]","fn_type":"Safe","name":"<RollBuf<R>>::contents"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"is_full\"), disambiguator: 0 }]","fn_type":"Safe","name":"<RollBuf<R>>::is_full"}

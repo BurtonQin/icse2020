@@ -1,0 +1,6 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"from_unchecked\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"uncon_derive::from_unchecked"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"as_item\"), disambiguator: 0 }]","fn_type":"Safe","name":"uncon_derive::as_item"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"meta_items\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"uncon_derive::meta_items"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_int_ty\"), disambiguator: 0 }]","fn_type":"Safe","name":"uncon_derive::is_int_ty"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"impl_from_unchecked\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"uncon_derive::impl_from_unchecked"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"uncon_derive::registrar::_registrar"}

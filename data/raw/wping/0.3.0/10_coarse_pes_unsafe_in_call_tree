@@ -1,0 +1,59 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"ewma\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<ewma::Ewma as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"ewma\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<ewma::Ewma as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"ewma\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"wping::ewma::Ewma::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"ewma\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"add_sample\"), disambiguator: 0 }]","fn_type":"Safe","name":"wping::ewma::Ewma::add_sample"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"columnar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"wping::columnar::Column::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"columnar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"spaces\"), disambiguator: 0 }]","fn_type":"Safe","name":"wping::columnar::spaces"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"columnar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"breathing_whitespace\"), disambiguator: 0 }]","fn_type":"Safe","name":"wping::columnar::breathing_whitespace"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"columnar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"wping::columnar::Columnar::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"columnar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"push_col\"), disambiguator: 0 }]","fn_type":"Safe","name":"wping::columnar::Columnar::push_col"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"columnar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"header\"), disambiguator: 0 }]","fn_type":"Safe","name":"wping::columnar::Columnar::header"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"columnar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"format\"), disambiguator: 0 }]","fn_type":"Safe","name":"wping::columnar::Columnar::format"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"process_responses\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"wping::process_responses"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"icmp_populate_packet\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"wping::icmp_populate_packet"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"icmp_calc_checksum\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"wping::icmp_calc_checksum"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"icmp_checksum\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"wping::icmp_checksum"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"icmp_update_seq\"), disambiguator: 0 }]","fn_type":"Safe","name":"wping::icmp_update_seq"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"icmp_set_timestamp\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"wping::icmp_set_timestamp"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"populate_packet\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"wping::populate_packet"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"send_ping\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"wping::send_ping"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Probe as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"wping::Probe::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"received\"), disambiguator: 0 }]","fn_type":"Safe","name":"wping::Probe::received"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"rtt\"), disambiguator: 0 }]","fn_type":"Safe","name":"wping::Probe::rtt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 8 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Stats as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"pl_unit\"), disambiguator: 0 }]","fn_type":"Safe","name":"wping::Stats::pl_unit"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"wping::Stats::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"probe\"), disambiguator: 0 }]","fn_type":"Safe","name":"wping::Stats::probe"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"response\"), disambiguator: 0 }]","fn_type":"Safe","name":"wping::Stats::response"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"last_probe_pending\"), disambiguator: 0 }]","fn_type":"Safe","name":"wping::Stats::last_probe_pending"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"probe_by_seq\"), disambiguator: 0 }]","fn_type":"Safe","name":"wping::Stats::probe_by_seq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"estimate_packet_loss\"), disambiguator: 0 }]","fn_type":"Safe","name":"wping::Stats::estimate_packet_loss"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 12 }, DisambiguatedDefPathData { data: ValueNs(\"eq\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Ns as std::cmp::PartialEq>::eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 12 }, DisambiguatedDefPathData { data: ValueNs(\"ne\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Ns as std::cmp::PartialEq>::ne"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 11 }, DisambiguatedDefPathData { data: ValueNs(\"partial_cmp\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Ns as std::cmp::PartialOrd>::partial_cmp"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 11 }, DisambiguatedDefPathData { data: ValueNs(\"lt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Ns as std::cmp::PartialOrd>::lt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 11 }, DisambiguatedDefPathData { data: ValueNs(\"le\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Ns as std::cmp::PartialOrd>::le"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 11 }, DisambiguatedDefPathData { data: ValueNs(\"gt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Ns as std::cmp::PartialOrd>::gt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 11 }, DisambiguatedDefPathData { data: ValueNs(\"ge\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Ns as std::cmp::PartialOrd>::ge"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 10 }, DisambiguatedDefPathData { data: ValueNs(\"assert_receiver_is_total_eq\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Ns as std::cmp::Eq>::assert_receiver_is_total_eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 9 }, DisambiguatedDefPathData { data: ValueNs(\"cmp\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Ns as std::cmp::Ord>::cmp"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<Ns as std::fmt::Display>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"sub\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Ns as std::ops::Sub>::sub"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"from_duration\"), disambiguator: 0 }]","fn_type":"Safe","name":"wping::Ns::from_duration"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"to_duration\"), disambiguator: 0 }]","fn_type":"Safe","name":"wping::Ns::to_duration"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Percent as std::fmt::Display>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<IpAddrPaddable as std::fmt::Display>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"do_probe\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"wping::do_probe"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"do_response\"), disambiguator: 0 }]","fn_type":"Safe","name":"wping::do_response"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"maybe_resolve\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"wping::maybe_resolve"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"select_destination_address\"), disambiguator: 0 }]","fn_type":"Safe","name":"wping::select_destination_address"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"print_resolved_addrs\"), disambiguator: 0 }]","fn_type":"Safe","name":"wping::print_resolved_addrs"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"columns_simple\"), disambiguator: 0 }]","fn_type":"Safe","name":"wping::columns_simple"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"columns_extended\"), disambiguator: 0 }]","fn_type":"Safe","name":"wping::columns_extended"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"to_display\"), disambiguator: 0 }]","fn_type":"Safe","name":"wping::to_display"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"output_row\"), disambiguator: 0 }]","fn_type":"Safe","name":"wping::output_row"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"passive_update\"), disambiguator: 0 }]","fn_type":"Safe","name":"wping::passive_update"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_cli_int\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"wping::parse_cli_int"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_cli_float\"), disambiguator: 0 }]","fn_type":"Safe","name":"wping::parse_cli_float"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"wping::main"}

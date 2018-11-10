@@ -1,0 +1,2 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"flat_map\"), disambiguator: 0 }]","fn_type":"Safe","name":"<std::option::Option<Item> as FlatMap<Item>>::flat_map"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"filter\"), disambiguator: 0 }]","fn_type":"Safe","name":"<std::option::Option<Item> as Filter<Item>>::filter"}

@@ -1,0 +1,5 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"xor\"), disambiguator: 0 }]","fn_type":"Safe","name":"xor_utils::xor"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"xor\"), disambiguator: 0 }]","fn_type":"Safe","name":"<&'a mut R as Xor>::xor"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"xor\"), disambiguator: 0 }]","fn_type":"Safe","name":"<(dyn std::io::Read + 'static) as Xor>::xor"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"gen_ascii_keys\"), disambiguator: 0 }]","fn_type":"Safe","name":"xor_utils::gen_ascii_keys"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"avg_normalized_hamming_distance\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"xor_utils::avg_normalized_hamming_distance"}

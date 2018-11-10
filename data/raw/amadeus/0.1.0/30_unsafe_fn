@@ -1,0 +1,2 @@
+{"name":"linked_list::LinkedListIndex::staticify","from_trait":true,"arguments":[],"sources":[]}
+{"name":"ordered_linked_list::OrderedLinkedListIndex::staticify","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/ordered_linked_list.rs\") line 11","kind":{"UnsafeFnCall":"Rust"}}]}

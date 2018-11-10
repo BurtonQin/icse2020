@@ -1,0 +1,13 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_last_error\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"source_map_mappings_wasm_api::get_last_error"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"assert_pointer_is_word_aligned\"), disambiguator: 0 }]","fn_type":"Safe","name":"source_map_mappings_wasm_api::assert_pointer_is_word_aligned"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"allocate_mappings\"), disambiguator: 0 }]","fn_type":"Safe","name":"source_map_mappings_wasm_api::allocate_mappings"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"constrain\"), disambiguator: 0 }]","fn_type":"Safe","name":"source_map_mappings_wasm_api::constrain"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_mappings\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"source_map_mappings_wasm_api::parse_mappings"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"free_mappings\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"source_map_mappings_wasm_api::free_mappings"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"by_generated_location\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"source_map_mappings_wasm_api::by_generated_location"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"compute_column_spans\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"source_map_mappings_wasm_api::compute_column_spans"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"by_original_location\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"source_map_mappings_wasm_api::by_original_location"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"u32_to_bias\"), disambiguator: 0 }]","fn_type":"Safe","name":"source_map_mappings_wasm_api::u32_to_bias"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"original_location_for\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"source_map_mappings_wasm_api::original_location_for"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"generated_location_for\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"source_map_mappings_wasm_api::generated_location_for"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"all_generated_locations_for\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"source_map_mappings_wasm_api::all_generated_locations_for"}

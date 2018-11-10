@@ -1,0 +1,38 @@
+{"name":"specs::bitset::<impl join::ParJoin for &'a hibitset::BitSet>"}
+{"name":"specs::bitset::<impl join::ParJoin for &'a hibitset::BitSetAnd<A, B>>"}
+{"name":"specs::bitset::<impl join::ParJoin for &'a hibitset::BitSetNot<A>>"}
+{"name":"specs::bitset::<impl join::ParJoin for &'a hibitset::BitSetOr<A, B>>"}
+{"name":"<join::JoinProducer<'a, J> as std::marker::Send>"}
+{"name":"<(A,) as join::ParJoin>"}
+{"name":"<(A, B) as join::ParJoin>"}
+{"name":"<(A, B, C) as join::ParJoin>"}
+{"name":"<(A, B, C, D) as join::ParJoin>"}
+{"name":"<(A, B, C, D, E) as join::ParJoin>"}
+{"name":"<(A, B, C, D, E, F) as join::ParJoin>"}
+{"name":"<(A, B, C, D, E, F, G) as join::ParJoin>"}
+{"name":"<(A, B, C, D, E, F, G, H) as join::ParJoin>"}
+{"name":"<(A, B, C, D, E, F, G, H, I) as join::ParJoin>"}
+{"name":"<(A, B, C, D, E, F, G, H, I, J) as join::ParJoin>"}
+{"name":"<(A, B, C, D, E, F, G, H, I, J, K) as join::ParJoin>"}
+{"name":"<(A, B, C, D, E, F, G, H, I, J, K, L) as join::ParJoin>"}
+{"name":"<(A, B, C, D, E, F, G, H, I, J, K, L, M) as join::ParJoin>"}
+{"name":"<(A, B, C, D, E, F, G, H, I, J, K, L, M, N) as join::ParJoin>"}
+{"name":"<(A, B, C, D, E, F, G, H, I, J, K, L, M, N, O) as join::ParJoin>"}
+{"name":"<(A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P) as join::ParJoin>"}
+{"name":"<(A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q) as join::ParJoin>"}
+{"name":"<(A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R) as join::ParJoin>"}
+{"name":"<&'rf mut storage::restrict::RestrictedStorage<'rf, 'st, B, T, R, storage::restrict::ParallelRestriction> as join::ParJoin>"}
+{"name":"<storage::restrict::Entry<'rf, T> as std::marker::Send>"}
+{"name":"<storage::restrict::Entry<'rf, T> as std::marker::Sync>"}
+{"name":"<storage::storages::BTreeStorage<T> as storage::DistinctStorage>"}
+{"name":"<storage::storages::HashMapStorage<T> as storage::DistinctStorage>"}
+{"name":"<storage::storages::DenseVecStorage<T> as storage::DistinctStorage>"}
+{"name":"<storage::storages::NullStorage<T> as storage::DistinctStorage>"}
+{"name":"<storage::storages::VecStorage<T> as storage::DistinctStorage>"}
+{"name":"<storage::AntiStorage<'a> as storage::DistinctStorage>"}
+{"name":"<storage::Storage<'a, T, D> as storage::DistinctStorage>"}
+{"name":"<&'a storage::Storage<'e, T, D> as join::ParJoin>"}
+{"name":"<&'a mut storage::Storage<'e, T, D> as join::ParJoin>"}
+{"name":"<&'a world::EntitiesRes as join::ParJoin>"}
+{"name":"<world::World as std::marker::Send>"}
+{"name":"<world::World as std::marker::Sync>"}

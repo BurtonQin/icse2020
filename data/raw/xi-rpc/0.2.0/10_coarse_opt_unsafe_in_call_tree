@@ -1,0 +1,29 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Error as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Trait(\"Handler\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"idle\"), disambiguator: 0 }]","fn_type":"Safe","name":"xi_rpc::Handler::idle"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"call\"), disambiguator: 0 }]","fn_type":"Safe","name":"<F as Callback>::call"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"call\"), disambiguator: 0 }]","fn_type":"Safe","name":"<F as IdleProc>::call"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"invoke\"), disambiguator: 0 }]","fn_type":"Safe","name":"xi_rpc::ResponseHandler::invoke"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_rpc_request\"), disambiguator: 0 }]","fn_type":"Safe","name":"xi_rpc::parse_rpc_request"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"<RpcLoop<W>>::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"get_peer\"), disambiguator: 0 }]","fn_type":"Safe","name":"<RpcLoop<W>>::get_peer"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"read_json\"), disambiguator: 0 }]","fn_type":"Safe","name":"<RpcLoop<W>>::read_json"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"mainloop\"), disambiguator: 0 }]","fn_type":"Safe","name":"<RpcLoop<W>>::mainloop"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"get_peer\"), disambiguator: 0 }]","fn_type":"Safe","name":"<RpcCtx<'a, W>>::get_peer"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"schedule_idle\"), disambiguator: 0 }]","fn_type":"Safe","name":"<RpcCtx<'a, W>>::schedule_idle"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"send\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<RpcPeer<W>>::send"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"respond\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<RpcPeer<W>>::respond"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"send_rpc_notification\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<RpcPeer<W>>::send_rpc_notification"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"send_rpc_request_common\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<RpcPeer<W>>::send_rpc_request_common"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"send_rpc_request_async\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<RpcPeer<W>>::send_rpc_request_async"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"send_rpc_request\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<RpcPeer<W>>::send_rpc_request"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"handle_response\"), disambiguator: 0 }]","fn_type":"Safe","name":"<RpcPeer<W>>::handle_response"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"try_get_rx\"), disambiguator: 0 }]","fn_type":"Safe","name":"<RpcPeer<W>>::try_get_rx"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"get_rx\"), disambiguator: 0 }]","fn_type":"Safe","name":"<RpcPeer<W>>::get_rx"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"put_rx\"), disambiguator: 0 }]","fn_type":"Safe","name":"<RpcPeer<W>>::put_rx"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"request_is_pending\"), disambiguator: 0 }]","fn_type":"Safe","name":"<RpcPeer<W>>::request_is_pending"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<RpcPeer<W> as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"dict_add_value\"), disambiguator: 0 }]","fn_type":"Safe","name":"xi_rpc::dict_add_value"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"dict_get_u64\"), disambiguator: 0 }]","fn_type":"Safe","name":"xi_rpc::dict_get_u64"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"dict_get_string\"), disambiguator: 0 }]","fn_type":"Safe","name":"xi_rpc::dict_get_string"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"arr_get_u64\"), disambiguator: 0 }]","fn_type":"Safe","name":"xi_rpc::arr_get_u64"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"arr_get_i64\"), disambiguator: 0 }]","fn_type":"Safe","name":"xi_rpc::arr_get_i64"}

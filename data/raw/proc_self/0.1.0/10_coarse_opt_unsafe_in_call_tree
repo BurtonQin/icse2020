@@ -1,0 +1,8 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"exe\"), disambiguator: 0 }]","fn_type":"Safe","name":"proc_self::exe"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"exe_path\"), disambiguator: 0 }]","fn_type":"Safe","name":"proc_self::exe_path"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"fd_dir\"), disambiguator: 0 }]","fn_type":"Safe","name":"proc_self::fd_dir"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"fd_path\"), disambiguator: 0 }]","fn_type":"Safe","name":"proc_self::fd_path"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"proc_self::FdIter::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"next\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<FdIter as std::iter::Iterator>::next"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<FdIter as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"drop\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<FdIter as std::ops::Drop>::drop"}

@@ -1,0 +1,1 @@
+{"name":"from_c_str","from_trait":false,"arguments":[{"type_info":"type(*const c_char)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/allegro_util-0.0.33/src/lib.rs\") line 20","kind":{"UnsafeFnCall":"Rust"}}]}

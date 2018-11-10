@@ -1,0 +1,19 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"tmpname\"), disambiguator: 0 }]","fn_type":"Safe","name":"racer_testutils::tmpname"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"racer_testutils::TmpFile::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"path\"), disambiguator: 0 }]","fn_type":"Safe","name":"racer_testutils::TmpFile::path"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<TmpFile as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"as_ref\"), disambiguator: 0 }]","fn_type":"Safe","name":"<TmpFile as std::convert::AsRef<std::path::Path>>::as_ref"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"racer_testutils::TmpDir::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"nested_dir\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"racer_testutils::TmpDir::nested_dir"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"write_file\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"racer_testutils::TmpDir::write_file"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"path\"), disambiguator: 0 }]","fn_type":"Safe","name":"racer_testutils::TmpDir::path"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"as_ref\"), disambiguator: 0 }]","fn_type":"Safe","name":"<TmpDir as std::convert::AsRef<std::path::Path>>::as_ref"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<TmpDir as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"setup_test_project\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"racer_testutils::setup_test_project"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"setup_test_project\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"copy_dirs\"), disambiguator: 0 }]","fn_type":"Safe","name":"racer_testutils::setup_test_project::copy_dirs"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"with_test_project\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"racer_testutils::with_test_project"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_pos_and_source\"), disambiguator: 0 }]","fn_type":"Safe","name":"racer_testutils::get_pos_and_source"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_all_completions\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"racer_testutils::get_all_completions"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_one_completion\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"racer_testutils::get_one_completion"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_only_completion\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"racer_testutils::get_only_completion"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_definition\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"racer_testutils::get_definition"}

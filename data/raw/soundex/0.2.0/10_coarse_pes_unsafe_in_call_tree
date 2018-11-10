@@ -1,0 +1,2 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"american_soundex_code\"), disambiguator: 0 }]","fn_type":"Safe","name":"soundex::american_soundex_code"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"american_soundex\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"soundex::american_soundex"}

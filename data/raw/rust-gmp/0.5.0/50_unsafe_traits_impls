@@ -1,0 +1,8 @@
+{"name":"<mpz::Mpz as std::marker::Send>"}
+{"name":"<mpz::Mpz as std::marker::Sync>"}
+{"name":"<mpq::Mpq as std::marker::Send>"}
+{"name":"<mpq::Mpq as std::marker::Sync>"}
+{"name":"<mpf::Mpf as std::marker::Send>"}
+{"name":"<mpf::Mpf as std::marker::Sync>"}
+{"name":"<rand::RandState as std::marker::Send>"}
+{"name":"<rand::RandState as std::marker::Sync>"}

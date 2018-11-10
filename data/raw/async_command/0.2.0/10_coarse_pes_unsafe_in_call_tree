@@ -1,0 +1,7 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"e\"), disambiguator: 0 }]","fn_type":"Safe","name":"async_command::e"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"o\"), disambiguator: 0 }]","fn_type":"Safe","name":"async_command::o"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"async_command::AsyncCommand::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"run\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"async_command::AsyncCommand::run"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"push\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"async_command::AsyncCommand::push"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"packets\"), disambiguator: 0 }]","fn_type":"Safe","name":"async_command::AsyncCommand::packets"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"next\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<AsyncCommandIntoIterator<'a> as std::iter::Iterator>::next"}

@@ -1,0 +1,9 @@
+{"name":"ndarray::data_traits::Data"}
+{"name":"ndarray::data_traits::DataMut"}
+{"name":"ndarray::data_traits::DataClone"}
+{"name":"ndarray::data_traits::DataOwned"}
+{"name":"ndarray::data_traits::DataShared"}
+{"name":"ndarray::dimension::dimension_trait::Dimension"}
+{"name":"ndarray::dimension::ndindex::NdIndex"}
+{"name":"ndarray::free_functions::FixedInitializer"}
+{"name":"ndarray::iterators::TrustedIterator"}

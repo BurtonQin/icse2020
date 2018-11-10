@@ -1,0 +1,16 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"impl_struct\"), disambiguator: 0 }]","fn_type":"Safe","name":"scroll_derive::impl_struct"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"impl_try_from_ctx\"), disambiguator: 0 }]","fn_type":"Safe","name":"scroll_derive::impl_try_from_ctx"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"derive_pread\"), disambiguator: 0 }]","fn_type":"Safe","name":"scroll_derive::derive_pread"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"impl_try_into_ctx\"), disambiguator: 0 }]","fn_type":"Safe","name":"scroll_derive::impl_try_into_ctx"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"impl_pwrite\"), disambiguator: 0 }]","fn_type":"Safe","name":"scroll_derive::impl_pwrite"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"derive_pwrite\"), disambiguator: 0 }]","fn_type":"Safe","name":"scroll_derive::derive_pwrite"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"size_with\"), disambiguator: 0 }]","fn_type":"Safe","name":"scroll_derive::size_with"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"impl_size_with\"), disambiguator: 0 }]","fn_type":"Safe","name":"scroll_derive::impl_size_with"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"derive_sizewith\"), disambiguator: 0 }]","fn_type":"Safe","name":"scroll_derive::derive_sizewith"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"impl_cread_struct\"), disambiguator: 0 }]","fn_type":"Safe","name":"scroll_derive::impl_cread_struct"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"impl_from_ctx\"), disambiguator: 0 }]","fn_type":"Safe","name":"scroll_derive::impl_from_ctx"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"derive_ioread\"), disambiguator: 0 }]","fn_type":"Safe","name":"scroll_derive::derive_ioread"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"impl_into_ctx\"), disambiguator: 0 }]","fn_type":"Safe","name":"scroll_derive::impl_into_ctx"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"impl_iowrite\"), disambiguator: 0 }]","fn_type":"Safe","name":"scroll_derive::impl_iowrite"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"derive_iowrite\"), disambiguator: 0 }]","fn_type":"Safe","name":"scroll_derive::derive_iowrite"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","fn_type":"Safe","name":"scroll_derive::registrar::_registrar"}

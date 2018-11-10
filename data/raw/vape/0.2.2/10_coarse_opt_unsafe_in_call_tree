@@ -1,0 +1,3 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"print_usage\"), disambiguator: 0 }]","fn_type":"Safe","name":"vape::print_usage"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"to_fw\"), disambiguator: 0 }]","fn_type":"Safe","name":"vape::to_fw"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"vape::main"}

@@ -1,0 +1,14 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"to_tokens\"), disambiguator: 0 }]","fn_type":"Safe","name":"<MyLiteralArray<T> as quasi::ToTokens>::to_tokens"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"to_tokens\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<MyLiteralString as quasi::ToTokens>::to_tokens"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"to_tokens\"), disambiguator: 0 }]","fn_type":"Safe","name":"<MyLiteralTuple2<T1, T2> as quasi::ToTokens>::to_tokens"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"new_ident\"), disambiguator: 0 }]","fn_type":"Safe","name":"nametable_codegen::new_ident"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"to_pub_item\"), disambiguator: 0 }]","fn_type":"Safe","name":"nametable_codegen::to_pub_item"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"to_pub_item_ptr\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"nametable_codegen::to_pub_item_ptr"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"add_suffix_to_path\"), disambiguator: 0 }]","fn_type":"Safe","name":"nametable_codegen::add_suffix_to_path"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"add_prefix_to_path\"), disambiguator: 0 }]","fn_type":"Safe","name":"nametable_codegen::add_prefix_to_path"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"dummy_spanned_nested_metaitem\"), disambiguator: 0 }]","fn_type":"Safe","name":"nametable_codegen::dummy_spanned_nested_metaitem"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"generate_nametable_item\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"nametable_codegen::generate_nametable_item"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"generate_nametable_item\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"detect_collision\"), disambiguator: 0 }]","fn_type":"Safe","name":"nametable_codegen::generate_nametable_item::detect_collision"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"process_nametables\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"nametable_codegen::process_nametables"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"expand\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"nametable_codegen::expand"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"register\"), disambiguator: 0 }]","fn_type":"Safe","name":"nametable_codegen::register"}

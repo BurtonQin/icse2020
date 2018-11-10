@@ -1,0 +1,9 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"YadeError\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"yade::YadeError"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"error_derive\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"yade::error_derive"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"YadeKind\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"yade::YadeKind"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"error_kind_derive\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"yade::error_kind_derive"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"generate_error_impl\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"yade::generate_error_impl"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"generate_display_impl\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"yade::generate_display_impl"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"find_error_msg\"), disambiguator: 0 }]","fn_type":"Safe","name":"yade::find_error_msg"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_cause\"), disambiguator: 0 }]","fn_type":"Safe","name":"yade::is_cause"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"yade::registrar::_registrar"}

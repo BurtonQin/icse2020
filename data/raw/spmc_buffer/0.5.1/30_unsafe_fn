@@ -1,0 +1,5 @@
+{"name":"<SPMCBufferOutput<T>>::discard_read_buffer","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<SPMCBufferSharedState<T>>::clone","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<SPMCBufferSharedState<T>>::eq","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<Buffer<T>>::clone","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 447","kind":"DerefRawPointer"}]}
+{"name":"<Buffer<T>>::eq","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 460","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/lib.rs\") line 460","kind":"DerefRawPointer"}]}

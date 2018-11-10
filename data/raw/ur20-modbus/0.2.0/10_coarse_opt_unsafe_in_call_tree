@@ -1,0 +1,23 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"connect\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"ur20_modbus::Coupler::connect"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"id\"), disambiguator: 0 }]","fn_type":"Safe","name":"ur20_modbus::Coupler::id"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"inputs\"), disambiguator: 0 }]","fn_type":"Safe","name":"ur20_modbus::Coupler::inputs"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"outputs\"), disambiguator: 0 }]","fn_type":"Safe","name":"ur20_modbus::Coupler::outputs"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"modules\"), disambiguator: 0 }]","fn_type":"Safe","name":"ur20_modbus::Coupler::modules"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"set_output\"), disambiguator: 0 }]","fn_type":"Safe","name":"ur20_modbus::Coupler::set_output"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"input\"), disambiguator: 0 }]","fn_type":"Safe","name":"ur20_modbus::Coupler::input"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"output\"), disambiguator: 0 }]","fn_type":"Safe","name":"ur20_modbus::Coupler::output"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"read_input_data\"), disambiguator: 0 }]","fn_type":"Safe","name":"ur20_modbus::Coupler::read_input_data"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"next_out\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"ur20_modbus::Coupler::next_out"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"write\"), disambiguator: 0 }]","fn_type":"Safe","name":"ur20_modbus::Coupler::write"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_data\"), disambiguator: 0 }]","fn_type":"Safe","name":"ur20_modbus::Coupler::get_data"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"tick\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"ur20_modbus::Coupler::tick"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"tick_and_consume\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"ur20_modbus::Coupler::tick_and_consume"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"read_coupler_id\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"ur20_modbus::read_coupler_id"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"read_module_count\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"ur20_modbus::read_module_count"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"read_module_list\"), disambiguator: 0 }]","fn_type":"Safe","name":"ur20_modbus::read_module_list"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"print_module_list\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"ur20_modbus::print_module_list"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"read_module_offsets\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"ur20_modbus::read_module_offsets"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"read_process_input_register_count\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"ur20_modbus::read_process_input_register_count"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"read_process_output_register_count\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"ur20_modbus::read_process_output_register_count"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"read_parameters\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"ur20_modbus::read_parameters"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"process_img_len_to_register_count\"), disambiguator: 0 }]","fn_type":"Safe","name":"ur20_modbus::process_img_len_to_register_count"}

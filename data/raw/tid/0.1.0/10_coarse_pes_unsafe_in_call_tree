@@ -1,0 +1,4 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"_time\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"tid::_time"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"tid::Timer::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"mark\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"tid::Timer::mark"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"present\"), disambiguator: 0 }]","fn_type":"Safe","name":"tid::Timer::present"}

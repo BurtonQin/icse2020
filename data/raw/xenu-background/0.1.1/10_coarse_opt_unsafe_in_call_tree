@@ -1,0 +1,15 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"xenu_background::main"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"clamp\"), disambiguator: 0 }]","fn_type":"Safe","name":"xenu_background::main::clamp"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"set\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"xenu_background::set"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"clean\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"xenu_background::clean"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_color\"), disambiguator: 0 }]","fn_type":"Safe","name":"xenu_background::is_color"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"to_color\"), disambiguator: 0 }]","fn_type":"Safe","name":"xenu_background::to_color"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_offset\"), disambiguator: 0 }]","fn_type":"Safe","name":"xenu_background::is_offset"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"to_offset\"), disambiguator: 0 }]","fn_type":"Safe","name":"xenu_background::to_offset"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_size\"), disambiguator: 0 }]","fn_type":"Safe","name":"xenu_background::is_size"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"to_size\"), disambiguator: 0 }]","fn_type":"Safe","name":"xenu_background::to_size"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_scale\"), disambiguator: 0 }]","fn_type":"Safe","name":"xenu_background::is_scale"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"to_scale\"), disambiguator: 0 }]","fn_type":"Safe","name":"xenu_background::to_scale"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_opacity\"), disambiguator: 0 }]","fn_type":"Safe","name":"xenu_background::is_opacity"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"to_opacity\"), disambiguator: 0 }]","fn_type":"Safe","name":"xenu_background::to_opacity"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"with_opacity\"), disambiguator: 0 }]","fn_type":"Safe","name":"xenu_background::with_opacity"}

@@ -1,0 +1,2 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"or_die\"), disambiguator: 0 }]","fn_type":"Safe","name":"<std::result::Result<T, E> as OrDie<T>>::or_die"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"Safe","name":"qcow2_dump::main"}

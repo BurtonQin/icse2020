@@ -1,0 +1,2 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"str_windows\"), disambiguator: 0 }]","fn_type":"Safe","name":"str_windows::str_windows"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"next\"), disambiguator: 0 }]","fn_type":"Safe","name":"<StrWindowsIter<'a> as std::iter::Iterator>::next"}

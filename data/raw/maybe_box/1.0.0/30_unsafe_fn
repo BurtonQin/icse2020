@@ -1,0 +1,8 @@
+{"name":"transmogrify_inline","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 22","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"transmogrify_inline_mut","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 27","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"transmogrify_boxed","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 32","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"transmogrify_boxed_mut","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 37","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"new_inline","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 41","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/lib.rs\") line 42","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"new_boxed","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 46","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/lib.rs\") line 47","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"get_inline","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 51","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/lib.rs\") line 52","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"get_boxed","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 57","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/lib.rs\") line 58","kind":{"UnsafeFnCall":"Rust"}}]}

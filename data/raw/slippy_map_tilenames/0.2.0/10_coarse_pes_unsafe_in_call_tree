@@ -1,0 +1,4 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"lonlat2tile\"), disambiguator: 0 }]","fn_type":"Safe","name":"slippy_map_tilenames::lonlat2tile"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"tile2lonlat\"), disambiguator: 0 }]","fn_type":"Safe","name":"slippy_map_tilenames::tile2lonlat"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"zoom_in\"), disambiguator: 0 }]","fn_type":"Safe","name":"slippy_map_tilenames::zoom_in"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"zoom_out\"), disambiguator: 0 }]","fn_type":"Safe","name":"slippy_map_tilenames::zoom_out"}

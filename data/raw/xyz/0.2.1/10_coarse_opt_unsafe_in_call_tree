@@ -1,0 +1,3 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"to_rgb_buffer\"), disambiguator: 0 }]","fn_type":"Safe","name":"xyz::Image::to_rgb_buffer"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"read\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"xyz::read"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"write\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"xyz::write"}

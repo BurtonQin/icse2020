@@ -1,0 +1,4 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"derive_trackable_error\"), disambiguator: 0 }]","fn_type":"Safe","name":"trackable_derive::derive_trackable_error"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"impl_trackable_error\"), disambiguator: 0 }]","fn_type":"Safe","name":"trackable_derive::impl_trackable_error"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_error_kind\"), disambiguator: 0 }]","fn_type":"Safe","name":"trackable_derive::get_error_kind"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","fn_type":"Safe","name":"trackable_derive::registrar::_registrar"}

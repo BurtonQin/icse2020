@@ -1,0 +1,2 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"setup_ns\"), disambiguator: 0 }]","fn_type":"Safe","name":"nsenter::setup_ns"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"nsenter::main"}

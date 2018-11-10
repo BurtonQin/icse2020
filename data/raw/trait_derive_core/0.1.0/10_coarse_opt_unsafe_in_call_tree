@@ -1,0 +1,7 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"fnargs\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"parse_args\"), disambiguator: 0 }]","fn_type":"Safe","name":"trait_derive_core::fnargs::parse_args"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"fnargs\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"trait_derive_core::fnargs::FnArgs::new"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"generics_to_quote\"), disambiguator: 0 }]","fn_type":"Safe","name":"trait_derive_core::generics_to_quote"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"sig_to_quote\"), disambiguator: 0 }]","fn_type":"Safe","name":"trait_derive_core::sig_to_quote"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_methods\"), disambiguator: 0 }]","fn_type":"Safe","name":"trait_derive_core::parse_methods"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"generate_trait\"), disambiguator: 0 }]","fn_type":"Safe","name":"trait_derive_core::generate_trait"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"concat_idents\"), disambiguator: 0 }]","fn_type":"Safe","name":"trait_derive_core::concat_idents"}

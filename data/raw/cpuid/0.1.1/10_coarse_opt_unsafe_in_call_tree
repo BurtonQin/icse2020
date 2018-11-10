@@ -1,0 +1,7 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<CpuFeature as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"has_feature\"), disambiguator: 0 }]","fn_type":"Safe","name":"cpuid::CpuInfo::has_feature"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_present\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"cpuid::is_present"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"version\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"cpuid::version"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"error\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"cpuid::error"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"identify\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"cpuid::identify"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"clock_frequency\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"cpuid::clock_frequency"}

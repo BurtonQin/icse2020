@@ -1,0 +1,6 @@
+{"name":"dpcdecl::TptFromDtp","node_id":"201","location":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/adept2-sys-0.1.0/src/dpcdecl.rs\") line 121"}
+{"name":"dpcdecl::PtcFromDtp","node_id":"213","location":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/adept2-sys-0.1.0/src/dpcdecl.rs\") line 126"}
+{"name":"dpcdecl::DtpFromTptPtc","node_id":"227","location":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/adept2-sys-0.1.0/src/dpcdecl.rs\") line 131"}
+{"name":"dpcdecl::ProductFromPdid","node_id":"264","location":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/adept2-sys-0.1.0/src/dpcdecl.rs\") line 148"}
+{"name":"dpcdecl::VariantFromPdid","node_id":"278","location":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/adept2-sys-0.1.0/src/dpcdecl.rs\") line 153"}
+{"name":"dpcdecl::FwidFromPdid","node_id":"292","location":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/adept2-sys-0.1.0/src/dpcdecl.rs\") line 158"}

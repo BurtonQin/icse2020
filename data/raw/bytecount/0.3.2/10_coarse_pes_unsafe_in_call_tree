@@ -1,0 +1,16 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"splat\"), disambiguator: 0 }]","fn_type":"Safe","name":"<usize as ByteChunk>::splat"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"from_splat\"), disambiguator: 0 }]","fn_type":"Safe","name":"<usize as ByteChunk>::from_splat"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"is_leading_utf8_byte\"), disambiguator: 0 }]","fn_type":"Safe","name":"<usize as ByteChunk>::is_leading_utf8_byte"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"bytewise_equal\"), disambiguator: 0 }]","fn_type":"Safe","name":"<usize as ByteChunk>::bytewise_equal"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"increment\"), disambiguator: 0 }]","fn_type":"Safe","name":"<usize as ByteChunk>::increment"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"sum\"), disambiguator: 0 }]","fn_type":"Safe","name":"<usize as ByteChunk>::sum"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"chunk_align\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"bytecount::chunk_align"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"chunk_count\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"bytecount::chunk_count"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"count_generic\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"bytecount::count_generic"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"count\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"bytecount::count"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"naive_count_32\"), disambiguator: 0 }]","fn_type":"Safe","name":"bytecount::naive_count_32"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"naive_count\"), disambiguator: 0 }]","fn_type":"Safe","name":"bytecount::naive_count"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"chunk_num_chars\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"bytecount::chunk_num_chars"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"num_chars_generic\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"bytecount::num_chars_generic"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"num_chars\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"bytecount::num_chars"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"naive_num_chars\"), disambiguator: 0 }]","fn_type":"Safe","name":"bytecount::naive_num_chars"}

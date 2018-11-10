@@ -1,0 +1,4 @@
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"Reset\"), disambiguator: 0 }, DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"__pre_init\"), disambiguator: 0 }]","name":"__pre_init","crate_name":"cortex-m-rt"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"zero_bss\"), disambiguator: 0 }]","name":"zero_bss","crate_name":"r0"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"init_data\"), disambiguator: 0 }]","name":"init_data","crate_name":"r0"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"Reset\"), disambiguator: 0 }, DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","name":"main","crate_name":"cortex-m-rt"}

@@ -1,0 +1,54 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"kb\"), disambiguator: 0 }]","fn_type":"Safe","name":"bytesize::kb"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"kib\"), disambiguator: 0 }]","fn_type":"Safe","name":"bytesize::kib"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"mb\"), disambiguator: 0 }]","fn_type":"Safe","name":"bytesize::mb"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"mib\"), disambiguator: 0 }]","fn_type":"Safe","name":"bytesize::mib"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"gb\"), disambiguator: 0 }]","fn_type":"Safe","name":"bytesize::gb"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"gib\"), disambiguator: 0 }]","fn_type":"Safe","name":"bytesize::gib"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"tb\"), disambiguator: 0 }]","fn_type":"Safe","name":"bytesize::tb"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"tib\"), disambiguator: 0 }]","fn_type":"Safe","name":"bytesize::tib"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"pb\"), disambiguator: 0 }]","fn_type":"Safe","name":"bytesize::pb"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"pib\"), disambiguator: 0 }]","fn_type":"Safe","name":"bytesize::pib"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 9 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<ByteSize as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 8 }, DisambiguatedDefPathData { data: ValueNs(\"eq\"), disambiguator: 0 }]","fn_type":"Safe","name":"<ByteSize as std::cmp::PartialEq>::eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 8 }, DisambiguatedDefPathData { data: ValueNs(\"ne\"), disambiguator: 0 }]","fn_type":"Safe","name":"<ByteSize as std::cmp::PartialEq>::ne"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"partial_cmp\"), disambiguator: 0 }]","fn_type":"Safe","name":"<ByteSize as std::cmp::PartialOrd>::partial_cmp"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"lt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<ByteSize as std::cmp::PartialOrd>::lt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"le\"), disambiguator: 0 }]","fn_type":"Safe","name":"<ByteSize as std::cmp::PartialOrd>::le"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"gt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<ByteSize as std::cmp::PartialOrd>::gt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"ge\"), disambiguator: 0 }]","fn_type":"Safe","name":"<ByteSize as std::cmp::PartialOrd>::ge"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"assert_receiver_is_total_eq\"), disambiguator: 0 }]","fn_type":"Safe","name":"<ByteSize as std::cmp::Eq>::assert_receiver_is_total_eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"cmp\"), disambiguator: 0 }]","fn_type":"Safe","name":"<ByteSize as std::cmp::Ord>::cmp"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"default\"), disambiguator: 0 }]","fn_type":"Safe","name":"<ByteSize as std::default::Default>::default"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"b\"), disambiguator: 0 }]","fn_type":"Safe","name":"bytesize::ByteSize::b"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"kb\"), disambiguator: 0 }]","fn_type":"Safe","name":"bytesize::ByteSize::kb"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"kib\"), disambiguator: 0 }]","fn_type":"Safe","name":"bytesize::ByteSize::kib"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"mb\"), disambiguator: 0 }]","fn_type":"Safe","name":"bytesize::ByteSize::mb"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"mib\"), disambiguator: 0 }]","fn_type":"Safe","name":"bytesize::ByteSize::mib"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"gb\"), disambiguator: 0 }]","fn_type":"Safe","name":"bytesize::ByteSize::gb"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"gib\"), disambiguator: 0 }]","fn_type":"Safe","name":"bytesize::ByteSize::gib"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"tb\"), disambiguator: 0 }]","fn_type":"Safe","name":"bytesize::ByteSize::tb"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"tib\"), disambiguator: 0 }]","fn_type":"Safe","name":"bytesize::ByteSize::tib"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"pb\"), disambiguator: 0 }]","fn_type":"Safe","name":"bytesize::ByteSize::pb"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"pib\"), disambiguator: 0 }]","fn_type":"Safe","name":"bytesize::ByteSize::pib"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"as_u64\"), disambiguator: 0 }]","fn_type":"Safe","name":"bytesize::ByteSize::as_u64"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"to_string_as\"), disambiguator: 0 }]","fn_type":"Safe","name":"bytesize::ByteSize::to_string_as"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"to_string\"), disambiguator: 0 }]","fn_type":"Safe","name":"bytesize::to_string"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<ByteSize as std::fmt::Display>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<ByteSize as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 11 }, DisambiguatedDefPathData { data: ValueNs(\"add\"), disambiguator: 0 }]","fn_type":"Safe","name":"<ByteSize as std::ops::Add<u64>>::add"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 12 }, DisambiguatedDefPathData { data: ValueNs(\"add\"), disambiguator: 0 }]","fn_type":"Safe","name":"bytesize::<impl std::ops::Add<ByteSize> for u64>::add"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 13 }, DisambiguatedDefPathData { data: ValueNs(\"mul\"), disambiguator: 0 }]","fn_type":"Safe","name":"<ByteSize as std::ops::Mul<u64>>::mul"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 14 }, DisambiguatedDefPathData { data: ValueNs(\"mul\"), disambiguator: 0 }]","fn_type":"Safe","name":"bytesize::<impl std::ops::Mul<ByteSize> for u64>::mul"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 15 }, DisambiguatedDefPathData { data: ValueNs(\"add\"), disambiguator: 0 }]","fn_type":"Safe","name":"<ByteSize as std::ops::Add<u32>>::add"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 16 }, DisambiguatedDefPathData { data: ValueNs(\"add\"), disambiguator: 0 }]","fn_type":"Safe","name":"bytesize::<impl std::ops::Add<ByteSize> for u32>::add"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 17 }, DisambiguatedDefPathData { data: ValueNs(\"mul\"), disambiguator: 0 }]","fn_type":"Safe","name":"<ByteSize as std::ops::Mul<u32>>::mul"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 18 }, DisambiguatedDefPathData { data: ValueNs(\"mul\"), disambiguator: 0 }]","fn_type":"Safe","name":"bytesize::<impl std::ops::Mul<ByteSize> for u32>::mul"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 19 }, DisambiguatedDefPathData { data: ValueNs(\"add\"), disambiguator: 0 }]","fn_type":"Safe","name":"<ByteSize as std::ops::Add<u16>>::add"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 20 }, DisambiguatedDefPathData { data: ValueNs(\"add\"), disambiguator: 0 }]","fn_type":"Safe","name":"bytesize::<impl std::ops::Add<ByteSize> for u16>::add"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 21 }, DisambiguatedDefPathData { data: ValueNs(\"mul\"), disambiguator: 0 }]","fn_type":"Safe","name":"<ByteSize as std::ops::Mul<u16>>::mul"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 22 }, DisambiguatedDefPathData { data: ValueNs(\"mul\"), disambiguator: 0 }]","fn_type":"Safe","name":"bytesize::<impl std::ops::Mul<ByteSize> for u16>::mul"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 23 }, DisambiguatedDefPathData { data: ValueNs(\"add\"), disambiguator: 0 }]","fn_type":"Safe","name":"<ByteSize as std::ops::Add<u8>>::add"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 24 }, DisambiguatedDefPathData { data: ValueNs(\"add\"), disambiguator: 0 }]","fn_type":"Safe","name":"bytesize::<impl std::ops::Add<ByteSize> for u8>::add"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 25 }, DisambiguatedDefPathData { data: ValueNs(\"mul\"), disambiguator: 0 }]","fn_type":"Safe","name":"<ByteSize as std::ops::Mul<u8>>::mul"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 26 }, DisambiguatedDefPathData { data: ValueNs(\"mul\"), disambiguator: 0 }]","fn_type":"Safe","name":"bytesize::<impl std::ops::Mul<ByteSize> for u8>::mul"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"add\"), disambiguator: 0 }]","fn_type":"Safe","name":"<ByteSize as std::ops::Add>::add"}

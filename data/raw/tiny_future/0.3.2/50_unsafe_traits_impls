@@ -1,0 +1,3 @@
+{"name":"<Inner<T, U> as std::marker::Sync>"}
+{"name":"<Future<T, U> as std::marker::Send>"}
+{"name":"<Future<T, U> as std::marker::Sync>"}

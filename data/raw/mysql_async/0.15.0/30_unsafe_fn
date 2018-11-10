@@ -1,0 +1,2 @@
+{"name":"<io::Endpoint as tokio_io::AsyncRead>::prepare_uninitialized_buffer","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/io/mod.rs\") line 168","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<io::Stream as tokio_io::AsyncRead>::prepare_uninitialized_buffer","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/io/mod.rs\") line 279","kind":{"UnsafeFnCall":"Rust"}}]}

@@ -1,0 +1,7 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<HmacDRBG<D>>::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"count\"), disambiguator: 0 }]","fn_type":"Safe","name":"<HmacDRBG<D>>::count"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"reseed\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<HmacDRBG<D>>::reseed"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"generate\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<HmacDRBG<D>>::generate"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"generate_to_slice\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<HmacDRBG<D>>::generate_to_slice"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"hmac\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<HmacDRBG<D>>::hmac"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"update\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<HmacDRBG<D>>::update"}

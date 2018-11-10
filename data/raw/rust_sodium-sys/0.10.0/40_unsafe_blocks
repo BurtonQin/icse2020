@@ -1,0 +1,4 @@
+{"sources":[["8173",[{"loc":"file: Macros(\"__lazy_static_internal\") line 14","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["8255",[{"loc":"file: Macros(\"__lazy_static_internal\") line 14","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["7288",[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/rust_sodium-sys-0.10.0/src/seeded_rng.rs\") line 66","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/rust_sodium-sys-0.10.0/src/seeded_rng.rs\") line 66","kind":"DerefRawPointer"}]]]}
+{"sources":[["7389",[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/rust_sodium-sys-0.10.0/src/seeded_rng.rs\") line 107","kind":{"UnsafeFnCall":"C"}}]],["7403",[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/rust_sodium-sys-0.10.0/src/seeded_rng.rs\") line 110","kind":{"UnsafeFnCall":"C"}}]]]}

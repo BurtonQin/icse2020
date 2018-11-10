@@ -1,0 +1,7 @@
+{"sources":[["428",[{"loc":"file: Macros(\"__lazy_static_internal\") line 14","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["445",[{"loc":"file: Real(\"src/lib.rs\") line 32","kind":{"UnsafeFnCall":"Rust"}}]],["454",[{"loc":"file: Real(\"src/lib.rs\") line 35","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["85",[{"loc":"file: Real(\"src/lib.rs\") line 52","kind":"DerefRawPointer"}]]]}
+{"sources":[["108",[{"loc":"file: Real(\"src/lib.rs\") line 62","kind":"DerefRawPointer"}]]]}
+{"sources":[["186",[{"loc":"file: Real(\"src/lib.rs\") line 95","kind":"DerefRawPointer"}]]]}
+{"sources":[["210",[{"loc":"file: Real(\"src/lib.rs\") line 102","kind":"DerefRawPointer"}]]]}
+{"sources":[["231",[{"loc":"file: Real(\"src/lib.rs\") line 108","kind":"DerefRawPointer"}]]]}

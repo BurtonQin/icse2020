@@ -1,0 +1,3 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"into_any\"), disambiguator: 0 }]","fn_type":"Safe","name":"<T as Downcast>::into_any"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"as_any\"), disambiguator: 0 }]","fn_type":"Safe","name":"<T as Downcast>::as_any"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"as_any_mut\"), disambiguator: 0 }]","fn_type":"Safe","name":"<T as Downcast>::as_any_mut"}

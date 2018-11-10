@@ -1,0 +1,3 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"print_help\"), disambiguator: 0 }]","fn_type":"Safe","name":"synner::print_help"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_arguments\"), disambiguator: 0 }]","fn_type":"Safe","name":"synner::parse_arguments"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"synner::main"}

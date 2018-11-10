@@ -1,0 +1,5 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Args<'a> as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"default\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Args<'a> as std::default::Default>::default"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"run\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"protoc_rust_grpc::run"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"remove_dot_slash\"), disambiguator: 0 }]","fn_type":"Safe","name":"protoc_rust_grpc::remove_dot_slash"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"remove_path_prefix\"), disambiguator: 0 }]","fn_type":"Safe","name":"protoc_rust_grpc::remove_path_prefix"}

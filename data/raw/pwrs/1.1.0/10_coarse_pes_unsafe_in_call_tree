@@ -1,0 +1,7 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"pwrs::Config::new"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"read_wordlist\"), disambiguator: 0 }]","fn_type":"Safe","name":"pwrs::read_wordlist"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"split_wordlist\"), disambiguator: 0 }]","fn_type":"Safe","name":"pwrs::split_wordlist"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"select_words\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"pwrs::select_words"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"usage\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"pwrs::usage"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"config\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"pwrs::config"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"pwrs::main"}

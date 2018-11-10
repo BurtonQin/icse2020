@@ -1,0 +1,11 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_read_file\"), disambiguator: 0 }]","fn_type":"Safe","name":"parallel_gnuplot::get_read_file"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_folder\"), disambiguator: 0 }]","fn_type":"Safe","name":"parallel_gnuplot::get_folder"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_write_file\"), disambiguator: 0 }]","fn_type":"Safe","name":"parallel_gnuplot::get_write_file"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"check_folder\"), disambiguator: 0 }]","fn_type":"Safe","name":"parallel_gnuplot::check_folder"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_gp_script_ok\"), disambiguator: 0 }]","fn_type":"Safe","name":"parallel_gnuplot::is_gp_script_ok"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"are_n_none\"), disambiguator: 0 }]","fn_type":"Safe","name":"parallel_gnuplot::are_n_none"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"run\"), disambiguator: 0 }]","fn_type":"Safe","name":"parallel_gnuplot::run"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"stdin_isatty\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"parallel_gnuplot::stdin_isatty"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_datafilename_vec\"), disambiguator: 0 }]","fn_type":"Safe","name":"parallel_gnuplot::get_datafilename_vec"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"parallel_gnuplot::main"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"f\"), disambiguator: 0 }]","fn_type":"Safe","name":"parallel_gnuplot::main::f"}

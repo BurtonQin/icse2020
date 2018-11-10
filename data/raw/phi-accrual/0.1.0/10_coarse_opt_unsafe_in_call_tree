@@ -1,0 +1,8 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<PhiFailureDetector as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<PhiFailureDetector as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"phi_accrual::PhiFailureDetector::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"min_stddev\"), disambiguator: 0 }]","fn_type":"Safe","name":"phi_accrual::PhiFailureDetector::min_stddev"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"history_size\"), disambiguator: 0 }]","fn_type":"Safe","name":"phi_accrual::PhiFailureDetector::history_size"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"heartbeat\"), disambiguator: 0 }]","fn_type":"Safe","name":"phi_accrual::PhiFailureDetector::heartbeat"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"phi\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"phi_accrual::PhiFailureDetector::phi"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"p_later\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"phi_accrual::PhiFailureDetector::p_later"}

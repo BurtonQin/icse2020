@@ -1,0 +1,21 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"stdout_writer\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"write\"), disambiguator: 0 }]","fn_type":"Safe","name":"<stdout_writer::StdoutWriter as std::io::Write>::write"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"stdout_writer\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"flush\"), disambiguator: 0 }]","fn_type":"Safe","name":"<stdout_writer::StdoutWriter as std::io::Write>::flush"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"eq\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<Mode as std::cmp::PartialEq>::eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"assert_receiver_is_total_eq\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Mode as std::cmp::Eq>::assert_receiver_is_total_eq"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"xor::main"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"encrypt_reader\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"xor::encrypt_reader"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"encrypt_path\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"xor::encrypt_path"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"xor_entry\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"xor::xor_entry"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"xor_file\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"xor::xor_file"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"xor_symlink\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"xor::xor_symlink"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"xor_dir\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"xor::xor_dir"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"rename_entry\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"xor::rename_entry"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"repeat_key\"), disambiguator: 0 }]","fn_type":"Safe","name":"xor::repeat_key"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"to_hex_string\"), disambiguator: 0 }]","fn_type":"Safe","name":"xor::to_hex_string"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"from_hex_string\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"xor::from_hex_string"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_key_bytes\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"xor::get_key_bytes"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_largest_file_size\"), disambiguator: 0 }]","fn_type":"Safe","name":"xor::get_largest_file_size"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_longest_name\"), disambiguator: 0 }]","fn_type":"Safe","name":"xor::get_longest_name"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"check_sizes\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"xor::check_sizes"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"show_prompt\"), disambiguator: 0 }]","fn_type":"Safe","name":"xor::show_prompt"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"print_keysize_warning\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"xor::print_keysize_warning"}

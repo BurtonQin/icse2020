@@ -1,0 +1,10 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"create_plugins\"), disambiguator: 0 }]","fn_type":"Safe","name":"syslog_ng_build::create_plugins"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"create_module_init\"), disambiguator: 0 }]","fn_type":"Safe","name":"syslog_ng_build::create_module_init"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"create_module_info\"), disambiguator: 0 }]","fn_type":"Safe","name":"syslog_ng_build::create_module_info"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_out_dir_file_path\"), disambiguator: 0 }]","fn_type":"Safe","name":"syslog_ng_build::get_out_dir_file_path"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"create_module_content\"), disambiguator: 0 }]","fn_type":"Safe","name":"syslog_ng_build::create_module_content"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"link_against_rust_deps\"), disambiguator: 0 }]","fn_type":"Safe","name":"syslog_ng_build::link_against_rust_deps"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"compile_and_link_module\"), disambiguator: 0 }]","fn_type":"Safe","name":"syslog_ng_build::compile_and_link_module"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"write_module_content_to_file\"), disambiguator: 0 }]","fn_type":"Safe","name":"syslog_ng_build::write_module_content_to_file"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"link_against_module\"), disambiguator: 0 }]","fn_type":"Safe","name":"syslog_ng_build::link_against_module"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"create_module\"), disambiguator: 0 }]","fn_type":"Safe","name":"syslog_ng_build::create_module"}

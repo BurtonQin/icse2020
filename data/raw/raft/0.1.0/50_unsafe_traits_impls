@@ -1,0 +1,7 @@
+{"name":"<eraftpb::Entry as std::marker::Sync>"}
+{"name":"<eraftpb::SnapshotMetadata as std::marker::Sync>"}
+{"name":"<eraftpb::Snapshot as std::marker::Sync>"}
+{"name":"<eraftpb::Message as std::marker::Sync>"}
+{"name":"<eraftpb::HardState as std::marker::Sync>"}
+{"name":"<eraftpb::ConfState as std::marker::Sync>"}
+{"name":"<eraftpb::ConfChange as std::marker::Sync>"}

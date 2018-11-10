@@ -1,0 +1,11 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"str_to_ymd\"), disambiguator: 0 }]","fn_type":"Safe","name":"version_check::str_to_ymd"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"str_to_mmp\"), disambiguator: 0 }]","fn_type":"Safe","name":"version_check::str_to_mmp"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"version_and_date_from_rustc_version\"), disambiguator: 0 }]","fn_type":"Safe","name":"version_check::version_and_date_from_rustc_version"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_version_and_date\"), disambiguator: 0 }]","fn_type":"Safe","name":"version_check::get_version_and_date"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_min_date\"), disambiguator: 0 }]","fn_type":"Safe","name":"version_check::is_min_date"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_min_version\"), disambiguator: 0 }]","fn_type":"Safe","name":"version_check::is_min_version"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"version_channel_is\"), disambiguator: 0 }]","fn_type":"Safe","name":"version_check::version_channel_is"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_nightly\"), disambiguator: 0 }]","fn_type":"Safe","name":"version_check::is_nightly"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_beta\"), disambiguator: 0 }]","fn_type":"Safe","name":"version_check::is_beta"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_dev\"), disambiguator: 0 }]","fn_type":"Safe","name":"version_check::is_dev"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"supports_features\"), disambiguator: 0 }]","fn_type":"Safe","name":"version_check::supports_features"}

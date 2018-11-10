@@ -1,0 +1,10 @@
+{"name":"context::context::Context::from_ptr","from_trait":true,"arguments":[{"type_info":"type(*mut xkb_context)","kind":"RawPointer"}],"sources":[]}
+{"name":"context::context::Context::as_ptr","from_trait":true,"arguments":[],"sources":[]}
+{"name":"keymap::keymap::Keymap::from_ptr","from_trait":true,"arguments":[{"type_info":"type(*mut xkb_keymap)","kind":"RawPointer"}],"sources":[]}
+{"name":"keymap::keymap::Keymap::as_ptr","from_trait":true,"arguments":[],"sources":[]}
+{"name":"state::state::State::from_ptr","from_trait":true,"arguments":[{"type_info":"type(*mut xkb_state)","kind":"RawPointer"}],"sources":[]}
+{"name":"state::state::State::as_ptr","from_trait":true,"arguments":[],"sources":[]}
+{"name":"compose::table::Table::from_ptr","from_trait":true,"arguments":[{"type_info":"type(*mut xkb_compose_table)","kind":"RawPointer"}],"sources":[]}
+{"name":"compose::table::Table::as_ptr","from_trait":true,"arguments":[],"sources":[]}
+{"name":"compose::state::State::from_ptr","from_trait":true,"arguments":[{"type_info":"type(*mut xkb_compose_state)","kind":"RawPointer"}],"sources":[]}
+{"name":"compose::state::State::as_ptr","from_trait":true,"arguments":[],"sources":[]}

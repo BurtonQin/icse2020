@@ -1,0 +1,12 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"update\"), disambiguator: 0 }]","fn_type":"Safe","name":"submodules::update"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"arg\"), disambiguator: 0 }]","fn_type":"Safe","name":"submodules::Update::arg"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"init\"), disambiguator: 0 }]","fn_type":"Safe","name":"submodules::Update::init"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"rebase\"), disambiguator: 0 }]","fn_type":"Safe","name":"submodules::Update::rebase"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"merge\"), disambiguator: 0 }]","fn_type":"Safe","name":"submodules::Update::merge"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"checkout\"), disambiguator: 0 }]","fn_type":"Safe","name":"submodules::Update::checkout"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"remote\"), disambiguator: 0 }]","fn_type":"Safe","name":"submodules::Update::remote"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"no_fetch\"), disambiguator: 0 }]","fn_type":"Safe","name":"submodules::Update::no_fetch"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"recursive\"), disambiguator: 0 }]","fn_type":"Safe","name":"submodules::Update::recursive"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"force\"), disambiguator: 0 }]","fn_type":"Safe","name":"submodules::Update::force"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"run\"), disambiguator: 0 }]","fn_type":"Safe","name":"submodules::Update::run"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"fail\"), disambiguator: 0 }]","fn_type":"Safe","name":"submodules::fail"}

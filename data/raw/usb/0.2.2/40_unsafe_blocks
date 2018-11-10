@@ -1,0 +1,23 @@
+{"sources":[["1767",[{"loc":"file: Real(\"src/libusb.rs\") line 78","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["1778",[{"loc":"file: Real(\"src/libusb.rs\") line 78","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["2079",[{"loc":"file: Real(\"src/libusb.rs\") line 141","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["2090",[{"loc":"file: Real(\"src/libusb.rs\") line 141","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["2226",[{"loc":"file: Real(\"src/libusb.rs\") line 184","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["2237",[{"loc":"file: Real(\"src/libusb.rs\") line 184","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["2403",[{"loc":"file: Real(\"src/libusb.rs\") line 194","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["2414",[{"loc":"file: Real(\"src/libusb.rs\") line 194","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["3019",[{"loc":"file: Real(\"src/libusb.rs\") line 440","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["3030",[{"loc":"file: Real(\"src/libusb.rs\") line 440","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["3124",[{"loc":"file: Real(\"src/libusb.rs\") line 491","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["3135",[{"loc":"file: Real(\"src/libusb.rs\") line 491","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["566",[{"loc":"file: Real(\"src/usb.rs\") line 25","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/usb.rs\") line 26","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["604",[{"loc":"file: Real(\"src/usb.rs\") line 38","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["622",[{"loc":"file: Real(\"src/usb.rs\") line 44","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/usb.rs\") line 45","kind":{"UnsafeFnCall":"C"}},{"loc":"file: Real(\"src/usb.rs\") line 46","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/usb.rs\") line 48","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["715",[{"loc":"file: Real(\"src/usb.rs\") line 63","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["745",[{"loc":"file: Real(\"src/usb.rs\") line 75","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/usb.rs\") line 76","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["770",[{"loc":"file: Real(\"src/usb.rs\") line 83","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["784",[{"loc":"file: Real(\"src/usb.rs\") line 89","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["800",[{"loc":"file: Real(\"src/usb.rs\") line 95","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/usb.rs\") line 96","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["845",[{"loc":"file: Real(\"src/usb.rs\") line 112","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["866",[{"loc":"file: Real(\"src/usb.rs\") line 121","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["920",[{"loc":"file: Real(\"src/usb.rs\") line 140","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["969",[{"loc":"file: Real(\"src/usb.rs\") line 155","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/usb.rs\") line 155","kind":{"UnsafeFnCall":"RustIntrinsic"}},{"loc":"file: Real(\"src/usb.rs\") line 156","kind":"DerefRawPointer"}]]]}
+{"sources":[["1105",[{"loc":"file: Real(\"src/usb.rs\") line 190","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["1162",[{"loc":"file: Real(\"src/usb.rs\") line 211","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["1256",[{"loc":"file: Real(\"src/usb.rs\") line 231","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["1366",[{"loc":"file: Real(\"src/usb.rs\") line 254","kind":{"UnsafeFnCall":"C"}}]]]}
+{"sources":[["1407",[{"loc":"file: Real(\"src/usb.rs\") line 268","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/usb.rs\") line 269","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/usb.rs\") line 270","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/usb.rs\") line 271","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/usb.rs\") line 272","kind":"DerefRawPointer"}]]]}

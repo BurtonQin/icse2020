@@ -1,0 +1,75 @@
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"UniformMatrix4fv\"), disambiguator: 0 }]","name":"UniformMatrix4fv","crate_name":"gl"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"GenBuffers\"), disambiguator: 0 }]","name":"GenBuffers","crate_name":"gl"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"BindBuffer\"), disambiguator: 0 }]","name":"BindBuffer","crate_name":"gl"}
+{"abi":"RustIntrinsic","def_path":"[DisambiguatedDefPathData { data: Module(\"intrinsics\"), disambiguator: 0 }, DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"transmute\"), disambiguator: 0 }]","name":"transmute","crate_name":"core"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"BufferData\"), disambiguator: 0 }]","name":"BufferData","crate_name":"gl"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"BindVertexArray\"), disambiguator: 0 }]","name":"BindVertexArray","crate_name":"gl"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"VertexAttribPointer\"), disambiguator: 0 }]","name":"VertexAttribPointer","crate_name":"gl"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"EnableVertexAttribArray\"), disambiguator: 0 }]","name":"EnableVertexAttribArray","crate_name":"gl"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"GenTextures\"), disambiguator: 0 }]","name":"GenTextures","crate_name":"gl"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"BindTexture\"), disambiguator: 0 }]","name":"BindTexture","crate_name":"gl"}
+{"abi":"RustIntrinsic","def_path":"[DisambiguatedDefPathData { data: Module(\"intrinsics\"), disambiguator: 0 }, DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"transmute\"), disambiguator: 0 }]","name":"transmute","crate_name":"core"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"TexImage2D\"), disambiguator: 0 }]","name":"TexImage2D","crate_name":"gl"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"TexParameteri\"), disambiguator: 0 }]","name":"TexParameteri","crate_name":"gl"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"TexParameteri\"), disambiguator: 0 }]","name":"TexParameteri","crate_name":"gl"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"GenerateMipmap\"), disambiguator: 0 }]","name":"GenerateMipmap","crate_name":"gl"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"BindVertexArray\"), disambiguator: 0 }]","name":"BindVertexArray","crate_name":"gl"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"DrawArrays\"), disambiguator: 0 }]","name":"DrawArrays","crate_name":"gl"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"CullFace\"), disambiguator: 0 }]","name":"CullFace","crate_name":"gl"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"GenBuffers\"), disambiguator: 0 }]","name":"GenBuffers","crate_name":"gl"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"BindBuffer\"), disambiguator: 0 }]","name":"BindBuffer","crate_name":"gl"}
+{"abi":"RustIntrinsic","def_path":"[DisambiguatedDefPathData { data: Module(\"intrinsics\"), disambiguator: 0 }, DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"transmute\"), disambiguator: 0 }]","name":"transmute","crate_name":"core"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"BufferData\"), disambiguator: 0 }]","name":"BufferData","crate_name":"gl"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"BindVertexArray\"), disambiguator: 0 }]","name":"BindVertexArray","crate_name":"gl"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"VertexAttribPointer\"), disambiguator: 0 }]","name":"VertexAttribPointer","crate_name":"gl"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"EnableVertexAttribArray\"), disambiguator: 0 }]","name":"EnableVertexAttribArray","crate_name":"gl"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"CullFace\"), disambiguator: 0 }]","name":"CullFace","crate_name":"gl"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"UniformMatrix4fv\"), disambiguator: 0 }]","name":"UniformMatrix4fv","crate_name":"gl"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"GenBuffers\"), disambiguator: 0 }]","name":"GenBuffers","crate_name":"gl"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"BindBuffer\"), disambiguator: 0 }]","name":"BindBuffer","crate_name":"gl"}
+{"abi":"RustIntrinsic","def_path":"[DisambiguatedDefPathData { data: Module(\"intrinsics\"), disambiguator: 0 }, DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"transmute\"), disambiguator: 0 }]","name":"transmute","crate_name":"core"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"BufferData\"), disambiguator: 0 }]","name":"BufferData","crate_name":"gl"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"BindVertexArray\"), disambiguator: 0 }]","name":"BindVertexArray","crate_name":"gl"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"VertexAttribPointer\"), disambiguator: 0 }]","name":"VertexAttribPointer","crate_name":"gl"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"EnableVertexAttribArray\"), disambiguator: 0 }]","name":"EnableVertexAttribArray","crate_name":"gl"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"GenVertexArrays\"), disambiguator: 0 }]","name":"GenVertexArrays","crate_name":"gl"}
+{"abi":"RustIntrinsic","def_path":"[DisambiguatedDefPathData { data: Module(\"intrinsics\"), disambiguator: 0 }, DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"discriminant_value\"), disambiguator: 0 }]","name":"discriminant_value","crate_name":"core"}
+{"abi":"RustIntrinsic","def_path":"[DisambiguatedDefPathData { data: Module(\"intrinsics\"), disambiguator: 0 }, DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"discriminant_value\"), disambiguator: 0 }]","name":"discriminant_value","crate_name":"core"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"CullFace\"), disambiguator: 0 }]","name":"CullFace","crate_name":"gl"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"UniformMatrix4fv\"), disambiguator: 0 }]","name":"UniformMatrix4fv","crate_name":"gl"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"GenBuffers\"), disambiguator: 0 }]","name":"GenBuffers","crate_name":"gl"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"BindBuffer\"), disambiguator: 0 }]","name":"BindBuffer","crate_name":"gl"}
+{"abi":"RustIntrinsic","def_path":"[DisambiguatedDefPathData { data: Module(\"intrinsics\"), disambiguator: 0 }, DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"transmute\"), disambiguator: 0 }]","name":"transmute","crate_name":"core"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"BufferData\"), disambiguator: 0 }]","name":"BufferData","crate_name":"gl"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"BindVertexArray\"), disambiguator: 0 }]","name":"BindVertexArray","crate_name":"gl"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"VertexAttribPointer\"), disambiguator: 0 }]","name":"VertexAttribPointer","crate_name":"gl"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"EnableVertexAttribArray\"), disambiguator: 0 }]","name":"EnableVertexAttribArray","crate_name":"gl"}
+{"abi":"RustIntrinsic","def_path":"[DisambiguatedDefPathData { data: Module(\"intrinsics\"), disambiguator: 0 }, DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"discriminant_value\"), disambiguator: 0 }]","name":"discriminant_value","crate_name":"core"}
+{"abi":"RustIntrinsic","def_path":"[DisambiguatedDefPathData { data: Module(\"intrinsics\"), disambiguator: 0 }, DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"discriminant_value\"), disambiguator: 0 }]","name":"discriminant_value","crate_name":"core"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"BindVertexArray\"), disambiguator: 0 }]","name":"BindVertexArray","crate_name":"gl"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"DrawArrays\"), disambiguator: 0 }]","name":"DrawArrays","crate_name":"gl"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"ClearColor\"), disambiguator: 0 }]","name":"ClearColor","crate_name":"gl"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"Clear\"), disambiguator: 0 }]","name":"Clear","crate_name":"gl"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"Enable\"), disambiguator: 0 }]","name":"Enable","crate_name":"gl"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"DepthFunc\"), disambiguator: 0 }]","name":"DepthFunc","crate_name":"gl"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"Uniform3f\"), disambiguator: 0 }]","name":"Uniform3f","crate_name":"gl"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"CreateProgram\"), disambiguator: 0 }]","name":"CreateProgram","crate_name":"gl"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"AttachShader\"), disambiguator: 0 }]","name":"AttachShader","crate_name":"gl"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"AttachShader\"), disambiguator: 0 }]","name":"AttachShader","crate_name":"gl"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"LinkProgram\"), disambiguator: 0 }]","name":"LinkProgram","crate_name":"gl"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"DetachShader\"), disambiguator: 0 }]","name":"DetachShader","crate_name":"gl"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"DetachShader\"), disambiguator: 0 }]","name":"DetachShader","crate_name":"gl"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"BindVertexArray\"), disambiguator: 0 }]","name":"BindVertexArray","crate_name":"gl"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"DrawArrays\"), disambiguator: 0 }]","name":"DrawArrays","crate_name":"gl"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"Enable\"), disambiguator: 0 }]","name":"Enable","crate_name":"gl"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"Uniform1f\"), disambiguator: 0 }]","name":"Uniform1f","crate_name":"gl"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"UseProgram\"), disambiguator: 0 }]","name":"UseProgram","crate_name":"gl"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"DeleteShader\"), disambiguator: 0 }]","name":"DeleteShader","crate_name":"gl"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"DeleteProgram\"), disambiguator: 0 }]","name":"DeleteProgram","crate_name":"gl"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"DeleteBuffers\"), disambiguator: 0 }]","name":"DeleteBuffers","crate_name":"gl"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"DeleteTextures\"), disambiguator: 0 }]","name":"DeleteTextures","crate_name":"gl"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"DeleteVertexArrays\"), disambiguator: 0 }]","name":"DeleteVertexArrays","crate_name":"gl"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"BindVertexArray\"), disambiguator: 0 }]","name":"BindVertexArray","crate_name":"gl"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"DrawArrays\"), disambiguator: 0 }]","name":"DrawArrays","crate_name":"gl"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"Disable\"), disambiguator: 0 }]","name":"Disable","crate_name":"gl"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"BindTexture\"), disambiguator: 0 }]","name":"BindTexture","crate_name":"gl"}

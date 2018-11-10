@@ -1,0 +1,7 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"owner\"), disambiguator: 0 }]","fn_type":"Safe","name":"upspin::UpspinPath::owner"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"path\"), disambiguator: 0 }]","fn_type":"Safe","name":"upspin::UpspinPath::path"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"file_name\"), disambiguator: 0 }]","fn_type":"Safe","name":"upspin::UpspinPath::file_name"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"full_path\"), disambiguator: 0 }]","fn_type":"Safe","name":"upspin::UpspinPath::full_path"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"is_public\"), disambiguator: 0 }]","fn_type":"Safe","name":"upspin::UpspinPath::is_public"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"upspin::UpspinPath::get"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"from_str\"), disambiguator: 0 }]","fn_type":"Safe","name":"<UpspinPath as std::str::FromStr>::from_str"}

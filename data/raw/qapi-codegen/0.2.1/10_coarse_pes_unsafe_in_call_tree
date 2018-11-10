@@ -1,0 +1,13 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"type_identifier\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"qapi_codegen::type_identifier"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"identifier\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"qapi_codegen::identifier"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"event_identifier\"), disambiguator: 0 }]","fn_type":"Safe","name":"qapi_codegen::event_identifier"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"typename_s\"), disambiguator: 0 }]","fn_type":"Safe","name":"qapi_codegen::typename_s"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"typename\"), disambiguator: 0 }]","fn_type":"Safe","name":"qapi_codegen::typename"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"valuety\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"qapi_codegen::valuety"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Context<W>>::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"process\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<Context<W>>::process"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"process_structs\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<Context<W>>::process_structs"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"process_unions\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<Context<W>>::process_unions"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"process_events\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<Context<W>>::process_events"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"include\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"qapi_codegen::include"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"codegen\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"qapi_codegen::codegen"}

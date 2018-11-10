@@ -1,0 +1,15 @@
+{"name":"tcl::Union_Unnamed1::__mbstate8","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/tcl.rs\") line 20","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"tcl::Union_Unnamed1::_mbstateL","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/tcl.rs\") line 23","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"tcl::Union_Unnamed3::longValue","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/tcl.rs\") line 467","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"tcl::Union_Unnamed3::doubleValue","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/tcl.rs\") line 470","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"tcl::Union_Unnamed3::otherValuePtr","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/tcl.rs\") line 473","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"tcl::Union_Unnamed3::wideValue","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/tcl.rs\") line 476","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"tcl::Union_Unnamed3::twoPtrValue","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/tcl.rs\") line 479","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"tcl::Union_Unnamed3::ptrAndLongRep","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/tcl.rs\") line 482","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"tcl::Union_Unnamed6::oneWordValue","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/tcl.rs\") line 609","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"tcl::Union_Unnamed6::objPtr","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/tcl.rs\") line 612","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"tcl::Union_Unnamed6::words","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/tcl.rs\") line 615","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"tcl::Union_Unnamed6::string","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/tcl.rs\") line 618","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"shims::Tcl_IncrRefCount","from_trait":false,"arguments":[{"type_info":"type(*mut Tcl_Obj)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/shims.rs\") line 32","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"shims::Tcl_DecrRefCount","from_trait":false,"arguments":[{"type_info":"type(*mut Tcl_Obj)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/shims.rs\") line 37","kind":{"UnsafeFnCall":"RustIntrinsic"}},{"loc":"file: Real(\"src/shims.rs\") line 40","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"shims::Tcl_IsShared","from_trait":false,"arguments":[{"type_info":"type(*const Tcl_Obj)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/shims.rs\") line 45","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}

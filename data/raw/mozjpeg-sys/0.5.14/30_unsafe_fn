@@ -1,0 +1,4 @@
+{"name":"msg_parm_union::i","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 625","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"msg_parm_union::s","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 628","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"jpeg_create_decompress","from_trait":false,"arguments":[{"type_info":"type(*mut jpeg_decompress_struct)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 723","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"jpeg_create_compress","from_trait":false,"arguments":[{"type_info":"type(*mut jpeg_compress_struct)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 727","kind":{"UnsafeFnCall":"C"}}]}

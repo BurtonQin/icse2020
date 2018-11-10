@@ -8,8 +8,10 @@ mkdir -p $EMPTY_CRATES_DIR
 while read d; do
 
 	echo $d
-	echo "mv $CRATES_DIR/$d  $EMPTY_CRATES_DIR"
-	mv $CRATES_DIR/$d  $EMPTY_CRATES_DIR
+	echo "rm -rf $FULL_ANALYSIS_DIR/$d"
+	rm -rf $FULL_ANALYSIS_DIR/$d
+	#echo "mv $CRATES_DIR/$d  $EMPTY_CRATES_DIR"
+	#mv $CRATES_DIR/$d  $EMPTY_CRATES_DIR
 	#echo "git rm -r $PROJECT_HOME/data/raw/$d"
 	#git rm -r $PROJECT_HOME/data/raw/$d
 done <./empty_crates.txt

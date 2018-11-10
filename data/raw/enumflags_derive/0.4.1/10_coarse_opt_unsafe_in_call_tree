@@ -1,0 +1,6 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"derive_enum_flags\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"enumflags_derive::derive_enum_flags"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"max_value_of\"), disambiguator: 0 }]","fn_type":"Safe","name":"enumflags_derive::max_value_of"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"fold_expr\"), disambiguator: 0 }]","fn_type":"Safe","name":"enumflags_derive::fold_expr"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"extract_repr\"), disambiguator: 0 }]","fn_type":"Safe","name":"enumflags_derive::extract_repr"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"gen_enumflags\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"enumflags_derive::gen_enumflags"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","fn_type":"Safe","name":"enumflags_derive::registrar::_registrar"}

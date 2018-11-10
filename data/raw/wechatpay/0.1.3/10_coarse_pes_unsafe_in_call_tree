@@ -1,0 +1,19 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"to_string\"), disambiguator: 0 }]","fn_type":"Safe","name":"<TradeType as std::string::ToString>::to_string"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"wechatpay::WechatpayClient::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"check_params\"), disambiguator: 0 }]","fn_type":"Safe","name":"wechatpay::WechatpayClient::check_params"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"request\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"wechatpay::WechatpayClient::request"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"pay\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"wechatpay::WechatpayClient::pay"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"micro_pay\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"wechatpay::WechatpayClient::micro_pay"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"jsapi_pay\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"wechatpay::WechatpayClient::jsapi_pay"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"qrcode_pay\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"wechatpay::WechatpayClient::qrcode_pay"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"app_pay\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"wechatpay::WechatpayClient::app_pay"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"query_order\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"wechatpay::WechatpayClient::query_order"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"eq\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<TradeType as std::cmp::PartialEq>::eq"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_trade_amount\"), disambiguator: 0 }]","fn_type":"Safe","name":"wechatpay::get_trade_amount"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_time_str\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"wechatpay::get_time_str"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_timestamp\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"wechatpay::get_timestamp"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_nonce_str\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"wechatpay::get_nonce_str"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_order_no\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"wechatpay::get_order_no"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_sign\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"wechatpay::get_sign"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"from_xml_str\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"wechatpay::from_xml_str"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"to_xml_str\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"wechatpay::to_xml_str"}

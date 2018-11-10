@@ -1,0 +1,6 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"urlencode::main"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"run\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"urlencode::run"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"transform_line\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"urlencode::transform_line"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"decode\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"urlencode::decode"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"encode\"), disambiguator: 0 }]","fn_type":"Safe","name":"urlencode::encode"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"write_output\"), disambiguator: 0 }]","fn_type":"Safe","name":"urlencode::write_output"}

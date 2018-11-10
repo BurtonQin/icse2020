@@ -1,0 +1,9 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"announce\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"announce\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"reki3::announce::announce"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"announce\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"generate_peer\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"reki3::announce::generate_peer"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"common\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"percent_decode\"), disambiguator: 0 }]","fn_type":"Safe","name":"reki3::common::percent_decode"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"common\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"hexstring\"), disambiguator: 0 }]","fn_type":"Safe","name":"reki3::common::hexstring"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"common\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"query_hashmap\"), disambiguator: 0 }]","fn_type":"Safe","name":"reki3::common::query_hashmap"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"common\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"parse_info_hash\"), disambiguator: 0 }]","fn_type":"Safe","name":"reki3::common::parse_info_hash"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"handle\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<Reki as hyper::server::Handler>::handle"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"print_usage\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"reki3::print_usage"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"reki3::main"}

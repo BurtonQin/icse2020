@@ -1,0 +1,3 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"render\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"fuel_line_derive::render"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"generate_tokens\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"fuel_line_derive::generate_tokens"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"fuel_line_derive::registrar::_registrar"}

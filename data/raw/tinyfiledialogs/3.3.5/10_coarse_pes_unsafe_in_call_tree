@@ -1,0 +1,23 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"message_box\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"tinyfiledialogs::message_box"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"to_str\"), disambiguator: 0 }]","fn_type":"Safe","name":"tinyfiledialogs::MessageBoxIcon::to_str"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"message_box_ok\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"tinyfiledialogs::message_box_ok"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<OkCancel as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"eq\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<OkCancel as std::cmp::PartialEq>::eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<OkCancel as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"message_box_ok_cancel\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"tinyfiledialogs::message_box_ok_cancel"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 8 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<YesNo as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"eq\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<YesNo as std::cmp::PartialEq>::eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<YesNo as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"message_box_yes_no\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"tinyfiledialogs::message_box_yes_no"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"input_box_impl\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"tinyfiledialogs::input_box_impl"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"input_box\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"tinyfiledialogs::input_box"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"password_box\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"tinyfiledialogs::password_box"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"save_file_dialog_impl\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"tinyfiledialogs::save_file_dialog_impl"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"save_file_dialog_with_filter\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"tinyfiledialogs::save_file_dialog_with_filter"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"save_file_dialog\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"tinyfiledialogs::save_file_dialog"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"open_file_dialog_impl\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"tinyfiledialogs::open_file_dialog_impl"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"open_file_dialog\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"tinyfiledialogs::open_file_dialog"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"open_file_dialog_multi\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"tinyfiledialogs::open_file_dialog_multi"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"select_folder_dialog\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"tinyfiledialogs::select_folder_dialog"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"list_dialog\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"tinyfiledialogs::list_dialog"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"color_chooser_dialog\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"tinyfiledialogs::color_chooser_dialog"}

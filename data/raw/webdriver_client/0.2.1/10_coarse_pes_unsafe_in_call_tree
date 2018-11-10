@@ -1,0 +1,3 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"execute_function\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"www::execute_function"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"execute\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"www::execute"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"www::main"}

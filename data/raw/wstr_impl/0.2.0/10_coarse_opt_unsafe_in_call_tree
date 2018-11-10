@@ -1,0 +1,8 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"input_to_utf16_vec\"), disambiguator: 0 }]","fn_type":"Safe","name":"wstr_impl::input_to_utf16_vec"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"input_to_utf16_nullterm_vec\"), disambiguator: 0 }]","fn_type":"Safe","name":"wstr_impl::input_to_utf16_nullterm_vec"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"generate_u16_str_arr_code\"), disambiguator: 0 }]","fn_type":"Safe","name":"wstr_impl::generate_u16_str_arr_code"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"wstr_impl\"), disambiguator: 0 }]","fn_type":"Safe","name":"wstr_impl::wstr_impl"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"wstr_impl\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"func\"), disambiguator: 0 }]","fn_type":"Safe","name":"wstr_impl::wstr_impl::func"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"wstrz_impl\"), disambiguator: 0 }]","fn_type":"Safe","name":"wstr_impl::wstrz_impl"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"wstrz_impl\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"func\"), disambiguator: 0 }]","fn_type":"Safe","name":"wstr_impl::wstrz_impl::func"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","fn_type":"Safe","name":"wstr_impl::registrar::_registrar"}

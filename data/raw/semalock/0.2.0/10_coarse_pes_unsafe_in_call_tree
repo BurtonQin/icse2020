@@ -1,0 +1,6 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"testing\"), disambiguator: 0 }]","fn_type":"Safe","name":"semalock::testing"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"semalock::Semalock::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"unlink\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"semalock::Semalock::unlink"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"with\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"semalock::Semalock::with"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"acquire\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"semalock::Semalock::acquire"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"release\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"semalock::Semalock::release"}

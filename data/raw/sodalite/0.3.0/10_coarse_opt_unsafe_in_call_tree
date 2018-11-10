@@ -1,0 +1,99 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"l32\"), disambiguator: 0 }]","fn_type":"Safe","name":"sodalite::l32"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"ld32\"), disambiguator: 0 }]","fn_type":"Safe","name":"sodalite::ld32"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"dl64\"), disambiguator: 0 }]","fn_type":"Safe","name":"sodalite::dl64"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"st32\"), disambiguator: 0 }]","fn_type":"Safe","name":"sodalite::st32"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"ts64\"), disambiguator: 0 }]","fn_type":"Safe","name":"sodalite::ts64"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"vn\"), disambiguator: 0 }]","fn_type":"Safe","name":"sodalite::vn"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"verify_16\"), disambiguator: 0 }]","fn_type":"Safe","name":"sodalite::verify_16"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"verify_32\"), disambiguator: 0 }]","fn_type":"Safe","name":"sodalite::verify_32"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"core\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"sodalite::core"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"core\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"conv\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"sodalite::core::conv"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"core\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"conv\"), disambiguator: 1 }]","fn_type":"NormalNotSafe","name":"sodalite::core::conv"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"core\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"conv\"), disambiguator: 2 }]","fn_type":"NormalNotSafe","name":"sodalite::core::conv"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"core\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"conv\"), disambiguator: 3 }]","fn_type":"NormalNotSafe","name":"sodalite::core::conv"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"core\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"conv\"), disambiguator: 4 }]","fn_type":"NormalNotSafe","name":"sodalite::core::conv"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"core\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"conv\"), disambiguator: 5 }]","fn_type":"NormalNotSafe","name":"sodalite::core::conv"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"core\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"conv\"), disambiguator: 6 }]","fn_type":"NormalNotSafe","name":"sodalite::core::conv"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"core\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"conv\"), disambiguator: 7 }]","fn_type":"NormalNotSafe","name":"sodalite::core::conv"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"core\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"conv\"), disambiguator: 8 }]","fn_type":"NormalNotSafe","name":"sodalite::core::conv"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"core_salsa20\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"sodalite::core_salsa20"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"core_hsalsa20\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"sodalite::core_hsalsa20"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"stream_salsa20_xor\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"sodalite::stream_salsa20_xor"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"stream_salsa20\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"sodalite::stream_salsa20"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"stream_xsalsa20\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"sodalite::stream_xsalsa20"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"stream_xsalsa20\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"conv\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"sodalite::stream_xsalsa20::conv"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"stream_xsalsa20\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"conv\"), disambiguator: 1 }]","fn_type":"NormalNotSafe","name":"sodalite::stream_xsalsa20::conv"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"stream_xsalsa20_xor\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"sodalite::stream_xsalsa20_xor"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"stream_xsalsa20_xor\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"conv\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"sodalite::stream_xsalsa20_xor::conv"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"stream_xsalsa20_xor\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"conv\"), disambiguator: 1 }]","fn_type":"NormalNotSafe","name":"sodalite::stream_xsalsa20_xor::conv"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"add1305\"), disambiguator: 0 }]","fn_type":"Safe","name":"sodalite::add1305"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"onetimeauth\"), disambiguator: 0 }]","fn_type":"Safe","name":"sodalite::onetimeauth"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"onetimeauth_verify\"), disambiguator: 0 }]","fn_type":"Safe","name":"sodalite::onetimeauth_verify"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"secretbox\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"sodalite::secretbox"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"secretbox\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"conv\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"sodalite::secretbox::conv"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"secretbox\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"conv\"), disambiguator: 1 }]","fn_type":"NormalNotSafe","name":"sodalite::secretbox::conv"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"secretbox\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"conv\"), disambiguator: 2 }]","fn_type":"NormalNotSafe","name":"sodalite::secretbox::conv"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"secretbox_open\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"sodalite::secretbox_open"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"secretbox_open\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"conv\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"sodalite::secretbox_open::conv"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"set25519\"), disambiguator: 0 }]","fn_type":"Safe","name":"sodalite::set25519"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"car25519\"), disambiguator: 0 }]","fn_type":"Safe","name":"sodalite::car25519"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"sel25519\"), disambiguator: 0 }]","fn_type":"Safe","name":"sodalite::sel25519"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"pack25519\"), disambiguator: 0 }]","fn_type":"Safe","name":"sodalite::pack25519"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"neq25519\"), disambiguator: 0 }]","fn_type":"Safe","name":"sodalite::neq25519"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"par25519\"), disambiguator: 0 }]","fn_type":"Safe","name":"sodalite::par25519"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"unpack25519\"), disambiguator: 0 }]","fn_type":"Safe","name":"sodalite::unpack25519"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"gf_add\"), disambiguator: 0 }]","fn_type":"Safe","name":"sodalite::gf_add"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"gf_sub\"), disambiguator: 0 }]","fn_type":"Safe","name":"sodalite::gf_sub"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"gf_mult\"), disambiguator: 0 }]","fn_type":"Safe","name":"sodalite::gf_mult"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"gf_square\"), disambiguator: 0 }]","fn_type":"Safe","name":"sodalite::gf_square"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"inv25519\"), disambiguator: 0 }]","fn_type":"Safe","name":"sodalite::inv25519"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"pow2523\"), disambiguator: 0 }]","fn_type":"Safe","name":"sodalite::pow2523"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"scalarmult\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"sodalite::scalarmult"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"scalarmult\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"conv\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"sodalite::scalarmult::conv"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"scalarmult\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"conv\"), disambiguator: 1 }]","fn_type":"NormalNotSafe","name":"sodalite::scalarmult::conv"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"scalarmult\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"conv\"), disambiguator: 2 }]","fn_type":"NormalNotSafe","name":"sodalite::scalarmult::conv"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"scalarmult\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"conv\"), disambiguator: 3 }]","fn_type":"NormalNotSafe","name":"sodalite::scalarmult::conv"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"scalarmult\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"conv\"), disambiguator: 4 }]","fn_type":"NormalNotSafe","name":"sodalite::scalarmult::conv"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"scalarmult\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"conv\"), disambiguator: 5 }]","fn_type":"NormalNotSafe","name":"sodalite::scalarmult::conv"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"scalarmult\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"conv\"), disambiguator: 6 }]","fn_type":"NormalNotSafe","name":"sodalite::scalarmult::conv"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"scalarmult\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"conv\"), disambiguator: 7 }]","fn_type":"NormalNotSafe","name":"sodalite::scalarmult::conv"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"scalarmult_base\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"sodalite::scalarmult_base"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"box_keypair_seed\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"sodalite::box_keypair_seed"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"box_beforenm\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"sodalite::box_beforenm"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"box_afternm\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"sodalite::box_afternm"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"box_open_afternm\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"sodalite::box_open_afternm"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"box_\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"sodalite::box_"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"box_open\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"sodalite::box_open"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"r\"), disambiguator: 0 }]","fn_type":"Safe","name":"sodalite::r"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"ch\"), disambiguator: 0 }]","fn_type":"Safe","name":"sodalite::ch"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"maj\"), disambiguator: 0 }]","fn_type":"Safe","name":"sodalite::maj"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"upper_sigma0\"), disambiguator: 0 }]","fn_type":"Safe","name":"sodalite::upper_sigma0"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"upper_sigma1\"), disambiguator: 0 }]","fn_type":"Safe","name":"sodalite::upper_sigma1"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"sigma0\"), disambiguator: 0 }]","fn_type":"Safe","name":"sodalite::sigma0"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"sigma1\"), disambiguator: 0 }]","fn_type":"Safe","name":"sodalite::sigma1"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"hashblocks\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"sodalite::hashblocks"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"hashblocks\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"conv\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"sodalite::hashblocks::conv"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"hashblocks\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"conv\"), disambiguator: 1 }]","fn_type":"NormalNotSafe","name":"sodalite::hashblocks::conv"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"hashblocks\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"conv\"), disambiguator: 2 }]","fn_type":"NormalNotSafe","name":"sodalite::hashblocks::conv"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"hash\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"sodalite::hash"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"hash\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"conv\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"sodalite::hash::conv"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"add\"), disambiguator: 0 }]","fn_type":"Safe","name":"sodalite::add"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"cswap\"), disambiguator: 0 }]","fn_type":"Safe","name":"sodalite::cswap"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"pack\"), disambiguator: 0 }]","fn_type":"Safe","name":"sodalite::pack"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"inner_scalarmult\"), disambiguator: 0 }]","fn_type":"Safe","name":"sodalite::inner_scalarmult"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"scalarbase\"), disambiguator: 0 }]","fn_type":"Safe","name":"sodalite::scalarbase"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"sign_keypair_seed\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"sodalite::sign_keypair_seed"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"sign_keypair_seed\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"conv\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"sodalite::sign_keypair_seed::conv"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"sign_keypair_seed\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"conv\"), disambiguator: 1 }]","fn_type":"NormalNotSafe","name":"sodalite::sign_keypair_seed::conv"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"mod_l\"), disambiguator: 0 }]","fn_type":"Safe","name":"sodalite::mod_l"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"reduce\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"sodalite::reduce"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"reduce\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"conv\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"sodalite::reduce::conv"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"sign_attached\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"sodalite::sign_attached"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"sign_attached\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"conv\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"sodalite::sign_attached::conv"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"sign_attached\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"conv\"), disambiguator: 1 }]","fn_type":"NormalNotSafe","name":"sodalite::sign_attached::conv"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"sign_attached\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"conv\"), disambiguator: 2 }]","fn_type":"NormalNotSafe","name":"sodalite::sign_attached::conv"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"unpackneg\"), disambiguator: 0 }]","fn_type":"Safe","name":"sodalite::unpackneg"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"sign_attached_open\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"sodalite::sign_attached_open"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"sign_attached_open\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"conv\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"sodalite::sign_attached_open::conv"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"sign_attached_open\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"conv\"), disambiguator: 1 }]","fn_type":"NormalNotSafe","name":"sodalite::sign_attached_open::conv"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"sign_attached_open\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"conv\"), disambiguator: 2 }]","fn_type":"NormalNotSafe","name":"sodalite::sign_attached_open::conv"}

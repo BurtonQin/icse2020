@@ -1,0 +1,14 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"async_inner\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"futures_await_async_macro::async_inner"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"async\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"futures_await_async_macro::async"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"async_stream\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"futures_await_async_macro::async_stream"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"async_block\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"futures_await_async_macro::async_block"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"async_stream_block\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"futures_await_async_macro::async_stream_block"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"fold_expr\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<ExpandAsyncFor as syn::fold::Fold>::fold_expr"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"fold_item\"), disambiguator: 0 }]","fn_type":"Safe","name":"<ExpandAsyncFor as syn::fold::Fold>::fold_item"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"first_last\"), disambiguator: 0 }]","fn_type":"Safe","name":"futures_await_async_macro::first_last"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"respan\"), disambiguator: 0 }]","fn_type":"Safe","name":"futures_await_async_macro::respan"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"replace_bang\"), disambiguator: 0 }]","fn_type":"Safe","name":"futures_await_async_macro::replace_bang"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"replace_bangs\"), disambiguator: 0 }]","fn_type":"Safe","name":"futures_await_async_macro::replace_bangs"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"parse\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<AsyncStreamArg as syn::synom::Synom>::parse"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"parse\"), disambiguator: 0 }]","fn_type":"Safe","name":"<AsyncStreamArgs as syn::synom::Synom>::parse"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","fn_type":"Safe","name":"futures_await_async_macro::registrar::_registrar"}

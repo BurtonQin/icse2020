@@ -1,0 +1,10 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"handle\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<Router as iron::Handler>::handle"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"rererouter::RouterBuilder::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"route\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rererouter::RouterBuilder::route"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"get\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rererouter::RouterBuilder::get"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"post\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rererouter::RouterBuilder::post"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"put\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rererouter::RouterBuilder::put"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"delete\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rererouter::RouterBuilder::delete"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"not_found\"), disambiguator: 0 }]","fn_type":"Safe","name":"rererouter::RouterBuilder::not_found"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"finalize\"), disambiguator: 0 }]","fn_type":"Safe","name":"rererouter::RouterBuilder::finalize"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"default_not_found\"), disambiguator: 0 }]","fn_type":"Safe","name":"rererouter::default_not_found"}

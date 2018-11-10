@@ -1,0 +1,3 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"derive_parsed\"), disambiguator: 0 }]","fn_type":"Safe","name":"bytepack_derive::derive_parsed"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"impl_parsed\"), disambiguator: 0 }]","fn_type":"Safe","name":"bytepack_derive::impl_parsed"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","fn_type":"Safe","name":"bytepack_derive::registrar::_registrar"}

@@ -1,0 +1,8 @@
+{"name":"<(dyn std::any::Any + 'static) as UnsafeAnyExt>"}
+{"name":"<(dyn UnsafeAny + 'static) as UnsafeAnyExt>"}
+{"name":"<(dyn std::any::Any + std::marker::Send + 'static) as UnsafeAnyExt>"}
+{"name":"<(dyn std::any::Any + std::marker::Sync + 'static) as UnsafeAnyExt>"}
+{"name":"<(dyn std::any::Any + std::marker::Send + std::marker::Sync + 'static) as UnsafeAnyExt>"}
+{"name":"<(dyn UnsafeAny + std::marker::Send + 'static) as UnsafeAnyExt>"}
+{"name":"<(dyn UnsafeAny + std::marker::Sync + 'static) as UnsafeAnyExt>"}
+{"name":"<(dyn UnsafeAny + std::marker::Send + std::marker::Sync + 'static) as UnsafeAnyExt>"}

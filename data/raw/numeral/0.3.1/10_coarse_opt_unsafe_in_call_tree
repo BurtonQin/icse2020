@@ -1,0 +1,14 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"cardinal\"), disambiguator: 0 }]","fn_type":"Safe","name":"<i8 as Cardinal>::cardinal"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"cardinal\"), disambiguator: 0 }]","fn_type":"Safe","name":"<i16 as Cardinal>::cardinal"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"cardinal\"), disambiguator: 0 }]","fn_type":"Safe","name":"<i32 as Cardinal>::cardinal"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"cardinal\"), disambiguator: 0 }]","fn_type":"Safe","name":"<u8 as Cardinal>::cardinal"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"cardinal\"), disambiguator: 0 }]","fn_type":"Safe","name":"<u16 as Cardinal>::cardinal"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 8 }, DisambiguatedDefPathData { data: ValueNs(\"cardinal\"), disambiguator: 0 }]","fn_type":"Safe","name":"<u32 as Cardinal>::cardinal"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 9 }, DisambiguatedDefPathData { data: ValueNs(\"cardinal\"), disambiguator: 0 }]","fn_type":"Safe","name":"<u64 as Cardinal>::cardinal"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"cardinal\"), disambiguator: 0 }]","fn_type":"Safe","name":"<i64 as Cardinal>::cardinal"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"cardinal\"), disambiguator: 0 }]","fn_type":"Safe","name":"<isize as Cardinal>::cardinal"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"cardinal\"), disambiguator: 0 }]","fn_type":"Safe","name":"<usize as Cardinal>::cardinal"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"cardinal_int\"), disambiguator: 0 }]","fn_type":"Safe","name":"numeral::cardinal_int"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"compose_cardinal_int\"), disambiguator: 0 }]","fn_type":"Safe","name":"numeral::compose_cardinal_int"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"push_triplet\"), disambiguator: 0 }]","fn_type":"Safe","name":"numeral::push_triplet"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"push_doublet\"), disambiguator: 0 }]","fn_type":"Safe","name":"numeral::push_doublet"}

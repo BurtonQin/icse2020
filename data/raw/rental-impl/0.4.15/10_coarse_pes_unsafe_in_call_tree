@@ -1,0 +1,10 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"__rental_traits\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rental_impl::__rental_traits"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"__rental_traits\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"wrapped\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rental_impl::__rental_traits::wrapped"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"__rental_structs_and_impls\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rental_impl::__rental_structs_and_impls"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"__rental_structs_and_impls\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"wrapped\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rental_impl::__rental_structs_and_impls::wrapped"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"write_rental_traits\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rental_impl::write_rental_traits"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"write_rental_struct_and_impls\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rental_impl::write_rental_struct_and_impls"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"make_borrow_quotes\"), disambiguator: 0 }]","fn_type":"Safe","name":"rental_impl::make_borrow_quotes"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"make_tail_closure_quotes\"), disambiguator: 0 }]","fn_type":"Safe","name":"rental_impl::make_tail_closure_quotes"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"fold_lifetime\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<RentalLifetimeEraser<'a> as syn::fold::Folder>::fold_lifetime"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rental_impl::registrar::_registrar"}

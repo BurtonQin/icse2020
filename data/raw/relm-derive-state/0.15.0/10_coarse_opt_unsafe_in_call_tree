@@ -1,0 +1,3 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"simple_msg\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"relm_derive_state::simple_msg"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"msg\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"relm_derive_state::msg"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","fn_type":"Safe","name":"relm_derive_state::registrar::_registrar"}

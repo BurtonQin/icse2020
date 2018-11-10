@@ -1,0 +1,3 @@
+{"name":"<usize as statement::BindIndex>::bind","from_trait":true,"arguments":[{"type_info":"type(*mut dpiStmt)","kind":"RawPointer"},{"type_info":"type(*mut dpiVar)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/statement.rs\") line 854","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"<&'a str as statement::BindIndex>::bind","from_trait":true,"arguments":[{"type_info":"type(*mut dpiStmt)","kind":"RawPointer"},{"type_info":"type(*mut dpiVar)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/statement.rs\") line 867","kind":{"UnsafeFnCall":"C"}}]}
+{"name":"<DPI_CONTEXT as lazy_static::Deref>::deref::__stability","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__lazy_static_internal\") line 13","kind":"Static"}]}

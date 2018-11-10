@@ -1,0 +1,4 @@
+{"def_path":"[DisambiguatedDefPathData { data: Trait(\"Glob\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"glob\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"path_glob::Glob::glob"}
+{"def_path":"[DisambiguatedDefPathData { data: Trait(\"Glob\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"rglob_with\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"path_glob::Glob::rglob_with"}
+{"def_path":"[DisambiguatedDefPathData { data: Trait(\"Glob\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"rglob\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"path_glob::Glob::rglob"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"glob_with\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<P as Glob>::glob_with"}

@@ -1,0 +1,6 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"totp\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"totp::totp"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"stdin\"), disambiguator: 0 }]","fn_type":"Safe","name":"totp::stdin"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"error\"), disambiguator: 0 }]","fn_type":"Safe","name":"totp::error"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"help\"), disambiguator: 0 }]","fn_type":"Safe","name":"totp::help"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"handle\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"totp::handle"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"totp::main"}

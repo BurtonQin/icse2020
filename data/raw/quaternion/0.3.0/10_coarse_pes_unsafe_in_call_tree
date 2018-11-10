@@ -1,0 +1,12 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"id\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"quaternion::id"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"add\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"quaternion::add"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"scale\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"quaternion::scale"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"dot\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"quaternion::dot"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"mul\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"quaternion::mul"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"conj\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"quaternion::conj"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"square_len\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"quaternion::square_len"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"len\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"quaternion::len"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"rotate_vector\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"quaternion::rotate_vector"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"rotation_from_to\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"quaternion::rotation_from_to"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"euler_angles\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"quaternion::euler_angles"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"axis_angle\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"quaternion::axis_angle"}

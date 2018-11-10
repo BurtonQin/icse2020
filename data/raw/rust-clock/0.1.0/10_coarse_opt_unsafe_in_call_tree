@@ -1,0 +1,4 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"rust_clock::Clock::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"set_time_ms\"), disambiguator: 0 }]","fn_type":"Safe","name":"rust_clock::Clock::set_time_ms"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"set_time_secs\"), disambiguator: 0 }]","fn_type":"Safe","name":"rust_clock::Clock::set_time_secs"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_time\"), disambiguator: 0 }]","fn_type":"Safe","name":"rust_clock::Clock::get_time"}

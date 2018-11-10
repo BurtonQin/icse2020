@@ -1,0 +1,7 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"read\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Input as std::io::Read>::read"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"read\"), disambiguator: 0 }]","fn_type":"Safe","name":"webextension_protocol::read"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"read_stdin\"), disambiguator: 0 }]","fn_type":"Safe","name":"webextension_protocol::read_stdin"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"write\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Output as std::io::Write>::write"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"flush\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Output as std::io::Write>::flush"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"write\"), disambiguator: 0 }]","fn_type":"Safe","name":"webextension_protocol::write"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"write_stdout\"), disambiguator: 0 }]","fn_type":"Safe","name":"webextension_protocol::write_stdout"}

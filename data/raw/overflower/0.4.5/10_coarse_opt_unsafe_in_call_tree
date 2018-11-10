@@ -1,0 +1,18 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"eq\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<Mode as std::cmp::PartialEq>::eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"assert_receiver_is_total_eq\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Mode as std::cmp::Eq>::assert_receiver_is_total_eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Mode as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Mode as std::fmt::Display>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_trait_name\"), disambiguator: 0 }]","fn_type":"Safe","name":"overflower::get_trait_name"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_stmt_macro\"), disambiguator: 0 }]","fn_type":"Safe","name":"overflower::is_stmt_macro"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"fold_item\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Overflower<'a, 'cx> as syntax::fold::Folder>::fold_item"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"fold_block\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Overflower<'a, 'cx> as syntax::fold::Folder>::fold_block"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"fold_expr\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<Overflower<'a, 'cx> as syntax::fold::Folder>::fold_expr"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"fold_mac\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Overflower<'a, 'cx> as syntax::fold::Folder>::fold_mac"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"ref_mut\"), disambiguator: 0 }]","fn_type":"Safe","name":"overflower::ref_mut"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"tag_method\"), disambiguator: 0 }]","fn_type":"Safe","name":"overflower::tag_method"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_abs\"), disambiguator: 0 }]","fn_type":"Safe","name":"overflower::is_abs"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_abs\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"any_of\"), disambiguator: 0 }]","fn_type":"Safe","name":"overflower::is_abs::any_of"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_mode_str\"), disambiguator: 0 }]","fn_type":"Safe","name":"overflower::parse_mode_str"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_mode_lit\"), disambiguator: 0 }]","fn_type":"Safe","name":"overflower::parse_mode_lit"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_mode\"), disambiguator: 0 }]","fn_type":"Safe","name":"overflower::get_mode"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"plugin_registrar\"), disambiguator: 0 }]","fn_type":"Safe","name":"overflower::plugin_registrar"}

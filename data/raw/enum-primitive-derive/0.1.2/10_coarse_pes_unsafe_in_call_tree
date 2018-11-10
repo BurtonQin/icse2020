@@ -1,0 +1,3 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"primitive\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"enum_primitive_derive::primitive"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"impl_primitive\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"enum_primitive_derive::impl_primitive"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"enum_primitive_derive::registrar::_registrar"}

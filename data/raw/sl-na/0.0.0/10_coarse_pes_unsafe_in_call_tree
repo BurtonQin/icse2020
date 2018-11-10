@@ -1,0 +1,6 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"quad\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"gauss\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"sl_na::quad::gauss"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"quad\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"gauss_complex\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"sl_na::quad::gauss_complex"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"diff\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"diff\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"sl_na::diff::diff"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"diff\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"diffn\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"sl_na::diff::diffn"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"interpolation\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"pli_eq\"), disambiguator: 0 }]","fn_type":"Safe","name":"sl_na::interpolation::pli_eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"ode\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"euler\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"sl_na::ode::euler"}

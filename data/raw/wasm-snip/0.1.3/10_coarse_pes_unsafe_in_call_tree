@@ -1,0 +1,3 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"wasm_snip::main"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"try_main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"wasm_snip::try_main"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_args\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"wasm_snip::parse_args"}

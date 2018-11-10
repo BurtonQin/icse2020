@@ -1,0 +1,3 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"poke_a_mango::main"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"actual_main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"poke_a_mango::actual_main"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"result_main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"poke_a_mango::result_main"}

@@ -1,0 +1,8 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<Result<T> as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Result<T> as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"eq\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<Result<T> as std::cmp::PartialEq>::eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"ne\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<Result<T> as std::cmp::PartialEq>::ne"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"slice\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"diff::slice"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"lines\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"diff::lines"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"chars\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"diff::chars"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"iter\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"diff::iter"}

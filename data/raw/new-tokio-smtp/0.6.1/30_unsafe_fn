@@ -1,0 +1,1 @@
+{"name":"<io::socket::Socket as tokio::io::AsyncRead>::prepare_uninitialized_buffer","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/io/socket.rs\") line 79","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/io/socket.rs\") line 80","kind":{"UnsafeFnCall":"Rust"}}]}

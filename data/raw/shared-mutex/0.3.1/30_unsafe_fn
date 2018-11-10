@@ -1,0 +1,2 @@
+{"name":"<SharedMutexReadGuard<'mutex, T>>::new","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 145","kind":"DerefRawPointer"}]}
+{"name":"<SharedMutexWriteGuard<'mutex, T>>::new","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 157","kind":"DerefRawPointer"}]}

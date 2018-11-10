@@ -1,0 +1,4 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"shippai\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"shippai_derive::shippai"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"impl_shippai\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"shippai_derive::impl_shippai"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"impl_enums\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"shippai_derive::impl_enums"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"shippai_derive::registrar::_registrar"}

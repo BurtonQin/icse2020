@@ -1,0 +1,20 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Function as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<TraitBlock as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"deref\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<BOUNDS_MAP as lazy_static::Deref>::deref"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"deref\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"__static_ref_initialize\"), disambiguator: 0 }]","fn_type":"Safe","name":"<BOUNDS_MAP as lazy_static::Deref>::deref::__static_ref_initialize"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"initialize\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<BOUNDS_MAP as lazy_static::LazyStatic>::initialize"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_block\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"mock_derive::parse_block"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_args\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"mock_derive::parse_args"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"mock_derive::FnArgs::new"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"make_return_tokens\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"mock_derive::make_return_tokens"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"generate_mock_method_body\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"mock_derive::generate_mock_method_body"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_return_type\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"mock_derive::parse_return_type"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"generate_static_name\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"mock_derive::generate_static_name"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"generate_mock_method_name\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"mock_derive::generate_mock_method_name"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"generate_trait_fns\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"mock_derive::generate_trait_fns"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_trait\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"mock_derive::parse_trait"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_foreign_functions\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"mock_derive::parse_foreign_functions"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"make_mut_static\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"mock_derive::make_mut_static"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"mock\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"mock_derive::mock"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"concat_idents\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"mock_derive::concat_idents"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"mock_derive::registrar::_registrar"}

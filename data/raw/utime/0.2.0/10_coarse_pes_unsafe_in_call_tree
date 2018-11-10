@@ -1,0 +1,4 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"set_file_times\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"utime::set_file_times"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"set_file_times\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"utime\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"utime::set_file_times::utime"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_file_times\"), disambiguator: 0 }]","fn_type":"Safe","name":"utime::get_file_times"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_file_times\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"utime\"), disambiguator: 0 }]","fn_type":"Safe","name":"utime::get_file_times::utime"}

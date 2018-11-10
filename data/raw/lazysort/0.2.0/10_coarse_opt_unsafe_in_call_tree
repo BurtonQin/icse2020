@@ -1,0 +1,26 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"pivot\"), disambiguator: 0 }]","fn_type":"Safe","name":"lazysort::pivot"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"partition\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"lazysort::partition"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"qsort\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"lazysort::qsort"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"make_work\"), disambiguator: 0 }]","fn_type":"Safe","name":"lazysort::make_work"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"<LazySortIterator<T>>::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"qsort\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<LazySortIterator<T>>::qsort"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"partial_cmp_first\"), disambiguator: 0 }]","fn_type":"Safe","name":"lazysort::partial_cmp_first"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"partial_cmp_last\"), disambiguator: 0 }]","fn_type":"Safe","name":"lazysort::partial_cmp_last"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"<LazySortIteratorPartialFirst<T>>::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"qsort\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<LazySortIteratorPartialFirst<T>>::qsort"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"<LazySortIteratorPartialLast<T>>::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"qsort\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<LazySortIteratorPartialLast<T>>::qsort"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"<LazySortIteratorBy<T, F>>::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"qsort\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<LazySortIteratorBy<T, F>>::qsort"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"sorted\"), disambiguator: 0 }]","fn_type":"Safe","name":"<I as Sorted>::sorted"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"sorted_partial_first\"), disambiguator: 0 }]","fn_type":"Safe","name":"<I as SortedPartial>::sorted_partial_first"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"sorted_partial_last\"), disambiguator: 0 }]","fn_type":"Safe","name":"<I as SortedPartial>::sorted_partial_last"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"sorted_by\"), disambiguator: 0 }]","fn_type":"Safe","name":"<I as SortedBy>::sorted_by"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"next\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<LazySortIterator<T> as std::iter::Iterator>::next"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"size_hint\"), disambiguator: 0 }]","fn_type":"Safe","name":"<LazySortIterator<T> as std::iter::Iterator>::size_hint"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 8 }, DisambiguatedDefPathData { data: ValueNs(\"next\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<LazySortIteratorPartialFirst<T> as std::iter::Iterator>::next"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 8 }, DisambiguatedDefPathData { data: ValueNs(\"size_hint\"), disambiguator: 0 }]","fn_type":"Safe","name":"<LazySortIteratorPartialFirst<T> as std::iter::Iterator>::size_hint"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 9 }, DisambiguatedDefPathData { data: ValueNs(\"next\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<LazySortIteratorPartialLast<T> as std::iter::Iterator>::next"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 9 }, DisambiguatedDefPathData { data: ValueNs(\"size_hint\"), disambiguator: 0 }]","fn_type":"Safe","name":"<LazySortIteratorPartialLast<T> as std::iter::Iterator>::size_hint"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 10 }, DisambiguatedDefPathData { data: ValueNs(\"next\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<LazySortIteratorBy<T, F> as std::iter::Iterator>::next"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 10 }, DisambiguatedDefPathData { data: ValueNs(\"size_hint\"), disambiguator: 0 }]","fn_type":"Safe","name":"<LazySortIteratorBy<T, F> as std::iter::Iterator>::size_hint"}

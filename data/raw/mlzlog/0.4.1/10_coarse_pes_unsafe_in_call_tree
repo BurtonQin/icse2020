@@ -1,0 +1,13 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"ensure_dir\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"mlzlog::ensure_dir"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<ConsoleAppender as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"mlzlog::ConsoleAppender::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"default\"), disambiguator: 0 }]","fn_type":"Safe","name":"<ConsoleAppender as std::default::Default>::default"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"append\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<ConsoleAppender as log4rs::append::Append>::append"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"flush\"), disambiguator: 0 }]","fn_type":"Safe","name":"<ConsoleAppender as log4rs::append::Append>::flush"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<RollingFileAppender as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"mlzlog::RollingFileAppender::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"rollover\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"mlzlog::RollingFileAppender::rollover"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"append\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<RollingFileAppender as log4rs::append::Append>::append"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"flush\"), disambiguator: 0 }]","fn_type":"Safe","name":"<RollingFileAppender as log4rs::append::Append>::flush"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"init\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"mlzlog::init"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"set_thread_prefix\"), disambiguator: 0 }]","fn_type":"Safe","name":"mlzlog::set_thread_prefix"}

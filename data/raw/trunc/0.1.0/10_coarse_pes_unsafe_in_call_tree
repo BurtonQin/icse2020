@@ -1,0 +1,8 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"trunc\"), disambiguator: 0 }]","fn_type":"Safe","name":"<std::fs::File as Trunc>::trunc"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"trunc\"), disambiguator: 0 }]","fn_type":"Safe","name":"<&'a std::fs::File as Trunc>::trunc"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"trunc\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<std::io::BufReader<R> as Trunc>::trunc"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"trunc\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<std::io::BufWriter<W> as Trunc>::trunc"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"trunc\"), disambiguator: 0 }]","fn_type":"Safe","name":"<std::vec::Vec<u8> as Trunc>::trunc"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"trunc\"), disambiguator: 0 }]","fn_type":"Safe","name":"<std::io::Cursor<std::vec::Vec<u8>> as Trunc>::trunc"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"trunc\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<&'a mut T as Trunc>::trunc"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"trunc\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<std::boxed::Box<T> as Trunc>::trunc"}

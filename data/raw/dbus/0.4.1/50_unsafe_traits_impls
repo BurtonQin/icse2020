@@ -1,0 +1,10 @@
+{"name":"<message::Message as std::marker::Send>"}
+{"name":"<u8 as msgarg::FixedArray>"}
+{"name":"<i16 as msgarg::FixedArray>"}
+{"name":"<u16 as msgarg::FixedArray>"}
+{"name":"<i32 as msgarg::FixedArray>"}
+{"name":"<u32 as msgarg::FixedArray>"}
+{"name":"<i64 as msgarg::FixedArray>"}
+{"name":"<u64 as msgarg::FixedArray>"}
+{"name":"<f64 as msgarg::FixedArray>"}
+{"name":"<Error as std::marker::Send>"}

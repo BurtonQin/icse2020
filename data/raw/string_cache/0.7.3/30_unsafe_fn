@@ -1,0 +1,6 @@
+{"name":"<atom::STRING_CACHE as lazy_static::Deref>::deref::__stability","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__lazy_static_internal\") line 13","kind":"Static"}]}
+{"name":"<atom::Atom<Static>>::unpack","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/string_cache-0.7.3/src/atom.rs\") line 228","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"atom::UnpackedAtom::pack","from_trait":true,"arguments":[],"sources":[]}
+{"name":"atom::UnpackedAtom::from_packed","from_trait":true,"arguments":[],"sources":[]}
+{"name":"atom::from_packed_dynamic","from_trait":false,"arguments":[],"sources":[]}
+{"name":"atom::inline_orig_bytes","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/string_cache-0.7.3/src/atom.rs\") line 618","kind":{"UnsafeFnCall":"Rust"}}]}

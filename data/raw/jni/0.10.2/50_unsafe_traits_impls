@@ -1,0 +1,4 @@
+{"name":"<wrapper::errors::Error as std::marker::Sync>"}
+{"name":"<wrapper::objects::global_ref::GlobalRef as std::marker::Send>"}
+{"name":"<wrapper::java_vm::vm::JavaVM as std::marker::Send>"}
+{"name":"<wrapper::java_vm::vm::JavaVM as std::marker::Sync>"}

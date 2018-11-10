@@ -1,0 +1,6 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"fork\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"redoxfs::fork"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"pipe\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"redoxfs::pipe"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"usage\"), disambiguator: 0 }]","fn_type":"Safe","name":"redoxfs::usage"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"disk_paths\"), disambiguator: 0 }]","fn_type":"Safe","name":"redoxfs::disk_paths"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"daemon\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"redoxfs::daemon"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"redoxfs::main"}

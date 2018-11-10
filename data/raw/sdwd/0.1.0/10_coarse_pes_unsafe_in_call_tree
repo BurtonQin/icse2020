@@ -1,0 +1,7 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"deref\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<WATCHDOG_NOTIFICATION_HASHMAP as lazy_static::Deref>::deref"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"deref\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"__static_ref_initialize\"), disambiguator: 0 }]","fn_type":"Safe","name":"<WATCHDOG_NOTIFICATION_HASHMAP as lazy_static::Deref>::deref::__static_ref_initialize"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"initialize\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<WATCHDOG_NOTIFICATION_HASHMAP as lazy_static::LazyStatic>::initialize"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"expected_timeout\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"sdwd::expected_timeout"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"recommended_timeout\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"sdwd::recommended_timeout"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"ping_watchdog\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"sdwd::ping_watchdog"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"start_watchdog_thread\"), disambiguator: 0 }]","fn_type":"Safe","name":"sdwd::start_watchdog_thread"}

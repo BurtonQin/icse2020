@@ -1,0 +1,4 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"gamma_correction\"), disambiguator: 0 }]","fn_type":"Safe","name":"rgb2xy::gamma_correction"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"rgb2xyz\"), disambiguator: 0 }]","fn_type":"Safe","name":"rgb2xy::rgb2xyz"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"xyz2xy\"), disambiguator: 0 }]","fn_type":"Safe","name":"rgb2xy::xyz2xy"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"rgb2xy\"), disambiguator: 0 }]","fn_type":"Safe","name":"rgb2xy::rgb2xy"}

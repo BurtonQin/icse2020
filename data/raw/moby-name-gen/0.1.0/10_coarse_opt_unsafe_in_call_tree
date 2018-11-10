@@ -1,0 +1,2 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"random_name\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"moby_name_gen::random_name"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"random_name_from_rng\"), disambiguator: 0 }]","fn_type":"Safe","name":"moby_name_gen::random_name_from_rng"}

@@ -1,0 +1,1 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"from_request\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<AcceptLanguage as rocket::request::FromRequest<'a, 'r>>::from_request"}

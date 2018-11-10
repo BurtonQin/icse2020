@@ -1,0 +1,21 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"draw\"), disambiguator: 0 }]","fn_type":"Safe","name":"orbimage::ImageRoi::draw"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Image as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"orbimage::Image::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"from_color\"), disambiguator: 0 }]","fn_type":"Safe","name":"orbimage::Image::from_color"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"from_data\"), disambiguator: 0 }]","fn_type":"Safe","name":"orbimage::Image::from_data"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"from_dynamic_image\"), disambiguator: 0 }]","fn_type":"Safe","name":"orbimage::Image::from_dynamic_image"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"from_path\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"orbimage::Image::from_path"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"default\"), disambiguator: 0 }]","fn_type":"Safe","name":"orbimage::Image::default"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"resize\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"orbimage::Image::resize"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"roi\"), disambiguator: 0 }]","fn_type":"Safe","name":"orbimage::Image::roi"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"into_data\"), disambiguator: 0 }]","fn_type":"Safe","name":"orbimage::Image::into_data"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"draw\"), disambiguator: 0 }]","fn_type":"Safe","name":"orbimage::Image::draw"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"width\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Image as orbclient::Renderer>::width"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"height\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Image as orbclient::Renderer>::height"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"data\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Image as orbclient::Renderer>::data"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"data_mut\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Image as orbclient::Renderer>::data_mut"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"sync\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Image as orbclient::Renderer>::sync"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"mode\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Image as orbclient::Renderer>::mode"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_png\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"orbimage::parse_png"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_bmp\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"orbimage::parse_bmp"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_jpg\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"orbimage::parse_jpg"}

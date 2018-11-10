@@ -1,0 +1,7 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"os\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Module(\"default\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"clear_line_move_one_up\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"screenprints::os::default::clear_line_move_one_up"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"screenprints::Printer::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"clear\"), disambiguator: 0 }]","fn_type":"Safe","name":"screenprints::Printer::clear"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"close\"), disambiguator: 0 }]","fn_type":"Safe","name":"screenprints::Printer::close"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"write\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Printer as std::io::Write>::write"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"flush\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Printer as std::io::Write>::flush"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"drop\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Printer as std::ops::Drop>::drop"}

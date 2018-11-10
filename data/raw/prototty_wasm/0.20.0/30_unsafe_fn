@@ -1,0 +1,4 @@
+{"name":"storage::WasmStorage::from_ptr","from_trait":true,"arguments":[{"type_info":"type(*const u8)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/storage.rs\") line 25","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"input::js_event_input_iter","from_trait":false,"arguments":[{"type_info":"type(*const u64)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/input.rs\") line 190","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"input::InputIter::new","from_trait":true,"arguments":[{"type_info":"type(*const u64)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/input.rs\") line 200","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"alloc::free_byte_buffer","from_trait":false,"arguments":[{"type_info":"type(*mut u8)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/alloc.rs\") line 13","kind":{"UnsafeFnCall":"Rust"}}]}

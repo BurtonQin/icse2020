@@ -1,0 +1,55 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Radix<T> as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Radix<T> as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Radix<i8> as std::fmt::Display>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"do_format\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Radix<i8> as std::fmt::Display>::fmt::do_format"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Radix<u8> as std::fmt::Display>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"do_format\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Radix<u8> as std::fmt::Display>::fmt::do_format"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Radix<i16> as std::fmt::Display>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"do_format\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Radix<i16> as std::fmt::Display>::fmt::do_format"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Radix<u16> as std::fmt::Display>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"do_format\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Radix<u16> as std::fmt::Display>::fmt::do_format"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 8 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Radix<i32> as std::fmt::Display>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 8 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"do_format\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Radix<i32> as std::fmt::Display>::fmt::do_format"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 9 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Radix<u32> as std::fmt::Display>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 9 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"do_format\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Radix<u32> as std::fmt::Display>::fmt::do_format"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 10 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Radix<i64> as std::fmt::Display>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 10 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"do_format\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Radix<i64> as std::fmt::Display>::fmt::do_format"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 11 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Radix<u64> as std::fmt::Display>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 11 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"do_format\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Radix<u64> as std::fmt::Display>::fmt::do_format"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 12 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Radix<isize> as std::fmt::Display>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 12 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"do_format\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Radix<isize> as std::fmt::Display>::fmt::do_format"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 13 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Radix<usize> as std::fmt::Display>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 13 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"do_format\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Radix<usize> as std::fmt::Display>::fmt::do_format"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Radix<T>>::new"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"radix\"), disambiguator: 0 }]","fn_type":"Safe","name":"radix_fmt::radix"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"radix_3\"), disambiguator: 0 }]","fn_type":"Safe","name":"radix_fmt::radix_3"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"radix_4\"), disambiguator: 0 }]","fn_type":"Safe","name":"radix_fmt::radix_4"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"radix_5\"), disambiguator: 0 }]","fn_type":"Safe","name":"radix_fmt::radix_5"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"radix_6\"), disambiguator: 0 }]","fn_type":"Safe","name":"radix_fmt::radix_6"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"radix_7\"), disambiguator: 0 }]","fn_type":"Safe","name":"radix_fmt::radix_7"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"radix_9\"), disambiguator: 0 }]","fn_type":"Safe","name":"radix_fmt::radix_9"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"radix_11\"), disambiguator: 0 }]","fn_type":"Safe","name":"radix_fmt::radix_11"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"radix_12\"), disambiguator: 0 }]","fn_type":"Safe","name":"radix_fmt::radix_12"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"radix_13\"), disambiguator: 0 }]","fn_type":"Safe","name":"radix_fmt::radix_13"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"radix_14\"), disambiguator: 0 }]","fn_type":"Safe","name":"radix_fmt::radix_14"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"radix_15\"), disambiguator: 0 }]","fn_type":"Safe","name":"radix_fmt::radix_15"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"radix_17\"), disambiguator: 0 }]","fn_type":"Safe","name":"radix_fmt::radix_17"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"radix_18\"), disambiguator: 0 }]","fn_type":"Safe","name":"radix_fmt::radix_18"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"radix_19\"), disambiguator: 0 }]","fn_type":"Safe","name":"radix_fmt::radix_19"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"radix_20\"), disambiguator: 0 }]","fn_type":"Safe","name":"radix_fmt::radix_20"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"radix_21\"), disambiguator: 0 }]","fn_type":"Safe","name":"radix_fmt::radix_21"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"radix_22\"), disambiguator: 0 }]","fn_type":"Safe","name":"radix_fmt::radix_22"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"radix_23\"), disambiguator: 0 }]","fn_type":"Safe","name":"radix_fmt::radix_23"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"radix_24\"), disambiguator: 0 }]","fn_type":"Safe","name":"radix_fmt::radix_24"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"radix_25\"), disambiguator: 0 }]","fn_type":"Safe","name":"radix_fmt::radix_25"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"radix_26\"), disambiguator: 0 }]","fn_type":"Safe","name":"radix_fmt::radix_26"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"radix_27\"), disambiguator: 0 }]","fn_type":"Safe","name":"radix_fmt::radix_27"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"radix_28\"), disambiguator: 0 }]","fn_type":"Safe","name":"radix_fmt::radix_28"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"radix_29\"), disambiguator: 0 }]","fn_type":"Safe","name":"radix_fmt::radix_29"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"radix_30\"), disambiguator: 0 }]","fn_type":"Safe","name":"radix_fmt::radix_30"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"radix_31\"), disambiguator: 0 }]","fn_type":"Safe","name":"radix_fmt::radix_31"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"radix_32\"), disambiguator: 0 }]","fn_type":"Safe","name":"radix_fmt::radix_32"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"radix_33\"), disambiguator: 0 }]","fn_type":"Safe","name":"radix_fmt::radix_33"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"radix_34\"), disambiguator: 0 }]","fn_type":"Safe","name":"radix_fmt::radix_34"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"radix_35\"), disambiguator: 0 }]","fn_type":"Safe","name":"radix_fmt::radix_35"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"radix_36\"), disambiguator: 0 }]","fn_type":"Safe","name":"radix_fmt::radix_36"}

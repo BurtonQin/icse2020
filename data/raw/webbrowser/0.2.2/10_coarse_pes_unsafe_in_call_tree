@@ -1,0 +1,7 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Browser as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"open\"), disambiguator: 0 }]","fn_type":"Safe","name":"webbrowser::open"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"open_browser\"), disambiguator: 0 }]","fn_type":"Safe","name":"webbrowser::open_browser"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"open_on_macos\"), disambiguator: 0 }]","fn_type":"Safe","name":"webbrowser::open_on_macos"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"open_on_windows\"), disambiguator: 0 }]","fn_type":"Safe","name":"webbrowser::open_on_windows"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"open_on_linux\"), disambiguator: 0 }]","fn_type":"Safe","name":"webbrowser::open_on_linux"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"open_on_linux_using_browser_env\"), disambiguator: 0 }]","fn_type":"Safe","name":"webbrowser::open_on_linux_using_browser_env"}

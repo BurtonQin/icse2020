@@ -1,0 +1,4 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"wasm_test::Counter::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"next\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Counter as std::iter::Iterator>::next"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"add_one\"), disambiguator: 0 }]","fn_type":"Safe","name":"wasm_test::add_one"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"iterators\"), disambiguator: 0 }]","fn_type":"Safe","name":"wasm_test::iterators"}

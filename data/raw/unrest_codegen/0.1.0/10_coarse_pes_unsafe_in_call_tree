@@ -1,0 +1,10 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"handler\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"unrest_codegen::handler"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_attribute\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"unrest_codegen::parse_attribute"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"extract_named_path_segments\"), disambiguator: 0 }]","fn_type":"Safe","name":"unrest_codegen::extract_named_path_segments"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"extract_fn_args\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"unrest_codegen::extract_fn_args"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"validate_args\"), disambiguator: 0 }]","fn_type":"Safe","name":"unrest_codegen::validate_args"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"impl_handler\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"unrest_codegen::impl_handler"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"impl_args_parser\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"unrest_codegen::impl_args_parser"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"as_name_str\"), disambiguator: 0 }]","fn_type":"Safe","name":"unrest_codegen::Method::as_name_str"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"parse\"), disambiguator: 0 }]","fn_type":"Safe","name":"unrest_codegen::Method::parse"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"unrest_codegen::registrar::_registrar"}

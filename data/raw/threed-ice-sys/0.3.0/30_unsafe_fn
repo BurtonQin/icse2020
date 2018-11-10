@@ -1,0 +1,4 @@
+{"name":"stack_element::StackElement_p::Layer","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/stack_element.rs\") line 17","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"stack_element::StackElement_p::Die","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/stack_element.rs\") line 22","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"stack_element::StackElement_p::Channel","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/stack_element.rs\") line 27","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"stack_element::StackElement_p::HeatSink","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/stack_element.rs\") line 32","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}

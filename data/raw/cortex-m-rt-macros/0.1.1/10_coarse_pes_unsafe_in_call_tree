@@ -1,0 +1,6 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"entry\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"cortex_m_rt_macros::entry"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"exception\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"cortex_m_rt_macros::exception"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"pre_init\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"cortex_m_rt_macros::pre_init"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"random_ident\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"cortex_m_rt_macros::random_ident"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"extract_static_muts\"), disambiguator: 0 }]","fn_type":"Safe","name":"cortex_m_rt_macros::extract_static_muts"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"cortex_m_rt_macros::registrar::_registrar"}

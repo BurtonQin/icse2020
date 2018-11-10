@@ -1,0 +1,8 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"hash_feature\"), disambiguator: 0 }]","fn_type":"Safe","name":"simhash::hash_feature"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"simhash_stream\"), disambiguator: 0 }]","fn_type":"Safe","name":"simhash::simhash_stream"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"simhash\"), disambiguator: 0 }]","fn_type":"Safe","name":"simhash::simhash"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"hash\"), disambiguator: 0 }]","fn_type":"Safe","name":"simhash::hash"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"hamming_distance\"), disambiguator: 0 }]","fn_type":"Safe","name":"simhash::hamming_distance"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"hash_similarity\"), disambiguator: 0 }]","fn_type":"Safe","name":"simhash::hash_similarity"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"similarity_streams\"), disambiguator: 0 }]","fn_type":"Safe","name":"simhash::similarity_streams"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"similarity\"), disambiguator: 0 }]","fn_type":"Safe","name":"simhash::similarity"}

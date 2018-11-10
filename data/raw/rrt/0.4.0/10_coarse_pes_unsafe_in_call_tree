@@ -1,0 +1,13 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Node<T> as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<Node<T> as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Node<T>>::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Tree<N> as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<Tree<N>>::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"add_vertex\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<Tree<N>>::add_vertex"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"add_edge\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Tree<N>>::add_edge"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"get_nearest_id\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<Tree<N>>::get_nearest_id"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"extend\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<Tree<N>>::extend"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"connect\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<Tree<N>>::connect"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"get_until_root\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Tree<N>>::get_until_root"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"dual_rrt_connect\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rrt::dual_rrt_connect"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"smooth_path\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rrt::smooth_path"}

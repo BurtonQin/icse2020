@@ -1,0 +1,4 @@
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"platform\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"syscall0\"), disambiguator: 0 }]","name":"syscall0","crate_name":"syscall"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"hint\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"unreachable_unchecked\"), disambiguator: 0 }]","name":"unreachable_unchecked","crate_name":"core"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"mem\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"uninitialized\"), disambiguator: 0 }]","name":"uninitialized","crate_name":"core"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Module(\"platform\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"syscall4\"), disambiguator: 0 }]","name":"syscall4","crate_name":"syscall"}

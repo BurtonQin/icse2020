@@ -1,0 +1,38 @@
+{"name":"<() as serial::CtsPin<tm4c123x::UART0>>"}
+{"name":"<() as serial::RtsPin<tm4c123x::UART0>>"}
+{"name":"<() as serial::CtsPin<tm4c123x::UART1>>"}
+{"name":"<() as serial::RtsPin<tm4c123x::UART1>>"}
+{"name":"<() as serial::CtsPin<tm4c123x::UART2>>"}
+{"name":"<() as serial::RtsPin<tm4c123x::UART2>>"}
+{"name":"<() as serial::CtsPin<tm4c123x::UART3>>"}
+{"name":"<() as serial::RtsPin<tm4c123x::UART3>>"}
+{"name":"<() as serial::CtsPin<tm4c123x::UART4>>"}
+{"name":"<() as serial::RtsPin<tm4c123x::UART4>>"}
+{"name":"<() as serial::CtsPin<tm4c123x::UART5>>"}
+{"name":"<() as serial::RtsPin<tm4c123x::UART5>>"}
+{"name":"<() as serial::CtsPin<tm4c123x::UART6>>"}
+{"name":"<() as serial::RtsPin<tm4c123x::UART6>>"}
+{"name":"<() as serial::CtsPin<tm4c123x::UART7>>"}
+{"name":"<() as serial::RtsPin<tm4c123x::UART7>>"}
+{"name":"<gpio::gpiof::PF1<gpio::AlternateFunction<gpio::AF1, T>> as serial::CtsPin<tm4c123x::UART1>>"}
+{"name":"<gpio::gpioc::PC5<gpio::AlternateFunction<gpio::AF8, T>> as serial::CtsPin<tm4c123x::UART1>>"}
+{"name":"<gpio::gpioc::PC4<gpio::AlternateFunction<gpio::AF8, T>> as serial::RtsPin<tm4c123x::UART1>>"}
+{"name":"<gpio::gpiof::PF0<gpio::AlternateFunction<gpio::AF1, T>> as serial::RtsPin<tm4c123x::UART1>>"}
+{"name":"<gpio::gpioa::PA0<gpio::AlternateFunction<gpio::AF1, T>> as serial::RxPin<tm4c123x::UART0>>"}
+{"name":"<gpio::gpiob::PB0<gpio::AlternateFunction<gpio::AF1, T>> as serial::RxPin<tm4c123x::UART1>>"}
+{"name":"<gpio::gpioc::PC4<gpio::AlternateFunction<gpio::AF2, T>> as serial::RxPin<tm4c123x::UART1>>"}
+{"name":"<gpio::gpiod::PD6<gpio::AlternateFunction<gpio::AF1, T>> as serial::RxPin<tm4c123x::UART2>>"}
+{"name":"<gpio::gpioc::PC6<gpio::AlternateFunction<gpio::AF1, T>> as serial::RxPin<tm4c123x::UART3>>"}
+{"name":"<gpio::gpioc::PC4<gpio::AlternateFunction<gpio::AF1, T>> as serial::RxPin<tm4c123x::UART4>>"}
+{"name":"<gpio::gpioe::PE4<gpio::AlternateFunction<gpio::AF1, T>> as serial::RxPin<tm4c123x::UART5>>"}
+{"name":"<gpio::gpiod::PD4<gpio::AlternateFunction<gpio::AF1, T>> as serial::RxPin<tm4c123x::UART6>>"}
+{"name":"<gpio::gpioe::PE0<gpio::AlternateFunction<gpio::AF1, T>> as serial::RxPin<tm4c123x::UART7>>"}
+{"name":"<gpio::gpioa::PA1<gpio::AlternateFunction<gpio::AF1, T>> as serial::TxPin<tm4c123x::UART0>>"}
+{"name":"<gpio::gpiob::PB1<gpio::AlternateFunction<gpio::AF1, T>> as serial::TxPin<tm4c123x::UART1>>"}
+{"name":"<gpio::gpioc::PC5<gpio::AlternateFunction<gpio::AF2, T>> as serial::TxPin<tm4c123x::UART1>>"}
+{"name":"<gpio::gpiod::PD7<gpio::AlternateFunction<gpio::AF1, T>> as serial::TxPin<tm4c123x::UART2>>"}
+{"name":"<gpio::gpioc::PC7<gpio::AlternateFunction<gpio::AF1, T>> as serial::TxPin<tm4c123x::UART3>>"}
+{"name":"<gpio::gpioc::PC5<gpio::AlternateFunction<gpio::AF1, T>> as serial::TxPin<tm4c123x::UART4>>"}
+{"name":"<gpio::gpioe::PE5<gpio::AlternateFunction<gpio::AF1, T>> as serial::TxPin<tm4c123x::UART5>>"}
+{"name":"<gpio::gpiod::PD5<gpio::AlternateFunction<gpio::AF1, T>> as serial::TxPin<tm4c123x::UART6>>"}
+{"name":"<gpio::gpioe::PE1<gpio::AlternateFunction<gpio::AF1, T>> as serial::TxPin<tm4c123x::UART7>>"}

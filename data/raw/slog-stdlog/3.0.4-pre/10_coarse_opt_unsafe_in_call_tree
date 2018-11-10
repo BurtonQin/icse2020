@@ -1,0 +1,11 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"log_to_slog_level\"), disambiguator: 0 }]","fn_type":"Safe","name":"slog_stdlog::log_to_slog_level"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"enabled\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Logger as log::Log>::enabled"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"log\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<Logger as log::Log>::log"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"init\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"slog_stdlog::init"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"init_with_level\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"slog_stdlog::init_with_level"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"slog_stdlog::LazyLogString::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<LazyLogString<'a> as std::fmt::Display>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"log\"), disambiguator: 0 }]","fn_type":"Safe","name":"<StdLog as slog::Drain>::log"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"<KSV<W>>::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"into_inner\"), disambiguator: 0 }]","fn_type":"Safe","name":"<KSV<W>>::into_inner"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"emit_arguments\"), disambiguator: 0 }]","fn_type":"Safe","name":"<KSV<W> as slog::Serializer>::emit_arguments"}

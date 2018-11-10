@@ -1,0 +1,1 @@
+{"abi":"RustIntrinsic","def_path":"[DisambiguatedDefPathData { data: Module(\"intrinsics\"), disambiguator: 0 }, DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"write_bytes\"), disambiguator: 0 }]","name":"write_bytes","crate_name":"core"}

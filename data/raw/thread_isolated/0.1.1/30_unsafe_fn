@@ -1,0 +1,3 @@
+{"name":"<ThreadIsolated<T, OwningThread>>::new","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<ThreadIsolated<T, NonOwningThread>>::as_owning_thread","from_trait":true,"arguments":[],"sources":[]}
+{"name":"debug::THREAD_ID::__getit","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__thread_local_inner\") line 16","kind":{"UnsafeFnCall":"Rust"}}]}

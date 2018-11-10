@@ -1,0 +1,3 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"extract_all_frags\"), disambiguator: 0 }]","fn_type":"Safe","name":"stm32::extract_all_frags"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"match_dev_name\"), disambiguator: 0 }]","fn_type":"Safe","name":"stm32::match_dev_name"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"stm32::main"}

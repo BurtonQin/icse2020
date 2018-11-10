@@ -1,0 +1,4 @@
+{"name":"<IterWithIx<'a, K, T> as core::marker::Send>"}
+{"name":"<IterWithIx<'a, K, T> as core::marker::Sync>"}
+{"name":"<IterMutWithIx<'a, K, T> as core::marker::Send>"}
+{"name":"<IterMutWithIx<'a, K, T> as core::marker::Sync>"}

@@ -1,0 +1,8 @@
+{"name":"<block::suite::Suite<T> as std::marker::Send>"}
+{"name":"<block::suite::Suite<T> as std::marker::Sync>"}
+{"name":"<block::context::Context<T> as std::marker::Send>"}
+{"name":"<block::context::Context<T> as std::marker::Sync>"}
+{"name":"<block::example::Example<T> as std::marker::Send>"}
+{"name":"<block::example::Example<T> as std::marker::Sync>"}
+{"name":"<block::Block<T> as std::marker::Send>"}
+{"name":"<block::Block<T> as std::marker::Sync>"}

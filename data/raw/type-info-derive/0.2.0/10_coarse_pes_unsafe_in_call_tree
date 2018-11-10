@@ -1,0 +1,25 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"type_info\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"type_info_derive::type_info"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"impl_type_info\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"type_info_derive::impl_type_info"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"build_field_fn\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"type_info_derive::build_field_fn"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"build_field_mut_fn\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"type_info_derive::build_field_mut_fn"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"build_field_any_fn\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"type_info_derive::build_field_any_fn"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"build_field_any_mut_fn\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"type_info_derive::build_field_any_mut_fn"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"build_field_fn_body\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"type_info_derive::build_field_fn_body"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"build_field_fn_body_from_fields\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"type_info_derive::build_field_fn_body_from_fields"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"build_field_fn_body_from_variants\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"type_info_derive::build_field_fn_body_from_variants"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"build_field_fn_variant_field_match\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"type_info_derive::build_field_fn_variant_field_match"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"build_variant_fn\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"type_info_derive::build_variant_fn"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"add_static\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"type_info_derive::add_static"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"build_type_info\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"type_info_derive::build_type_info"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"build_data\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"type_info_derive::build_data"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"build_data_struct\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"type_info_derive::build_data_struct"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"build_data_enum\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"type_info_derive::build_data_enum"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"build_data_union\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"type_info_derive::build_data_union"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"build_variant\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"type_info_derive::build_variant"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"build_fields\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"type_info_derive::build_fields"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"build_fields_named\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"type_info_derive::build_fields_named"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"build_fields_unnamed\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"type_info_derive::build_fields_unnamed"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"build_field\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"type_info_derive::build_field"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"map_tokens\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"type_info_derive::MetaData::map_tokens"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"map_tokens\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"type_info_derive::MetaFields::map_tokens"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"type_info_derive::registrar::_registrar"}

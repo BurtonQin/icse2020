@@ -1,0 +1,4 @@
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"deref\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"__stability\"), disambiguator: 0 }]","name":"__stability","crate_name":"tape"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"tar_extract_all\"), disambiguator: 0 }]","name":"tar_extract_all","crate_name":"tar_sys"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"tar_open\"), disambiguator: 0 }]","name":"tar_open","crate_name":"tar_sys"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"tar_close\"), disambiguator: 0 }]","name":"tar_close","crate_name":"tar_sys"}

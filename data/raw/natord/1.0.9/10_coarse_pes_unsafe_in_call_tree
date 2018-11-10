@@ -1,0 +1,3 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"compare_iter\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"natord::compare_iter"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"compare\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"natord::compare"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"compare_ignore_case\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"natord::compare_ignore_case"}

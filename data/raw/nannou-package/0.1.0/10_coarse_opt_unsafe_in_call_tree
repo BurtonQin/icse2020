@@ -1,0 +1,6 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"check_parents\"), disambiguator: 0 }]","fn_type":"Safe","name":"nannou_package::check_parents"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"check_dir\"), disambiguator: 0 }]","fn_type":"Safe","name":"nannou_package::check_dir"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"zip_dir\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"nannou_package::zip_dir"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"target_arch\"), disambiguator: 0 }]","fn_type":"Safe","name":"nannou_package::target_arch"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"target_os\"), disambiguator: 0 }]","fn_type":"Safe","name":"nannou_package::target_os"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"nannou_package::main"}

@@ -1,0 +1,10 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"checked_add\"), disambiguator: 0 }]","fn_type":"Safe","name":"<u8 as Int>::checked_add"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"checked_add\"), disambiguator: 0 }]","fn_type":"Safe","name":"<i8 as Int>::checked_add"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"checked_add\"), disambiguator: 0 }]","fn_type":"Safe","name":"<u16 as Int>::checked_add"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"checked_add\"), disambiguator: 0 }]","fn_type":"Safe","name":"<i16 as Int>::checked_add"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"checked_add\"), disambiguator: 0 }]","fn_type":"Safe","name":"<u32 as Int>::checked_add"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"checked_add\"), disambiguator: 0 }]","fn_type":"Safe","name":"<i32 as Int>::checked_add"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"checked_add\"), disambiguator: 0 }]","fn_type":"Safe","name":"<u64 as Int>::checked_add"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"checked_add\"), disambiguator: 0 }]","fn_type":"Safe","name":"<i64 as Int>::checked_add"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 8 }, DisambiguatedDefPathData { data: ValueNs(\"checked_add\"), disambiguator: 0 }]","fn_type":"Safe","name":"<u128 as Int>::checked_add"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 9 }, DisambiguatedDefPathData { data: ValueNs(\"checked_add\"), disambiguator: 0 }]","fn_type":"Safe","name":"<i128 as Int>::checked_add"}

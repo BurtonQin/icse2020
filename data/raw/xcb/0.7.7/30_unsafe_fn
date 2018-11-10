@@ -1,0 +1,1 @@
+{"name":"base::Connection::from_raw_conn","from_trait":true,"arguments":[{"type_info":"type(*mut xcb_connection_t)","kind":"RawPointer"}],"sources":[]}

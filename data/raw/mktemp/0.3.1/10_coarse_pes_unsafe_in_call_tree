@@ -1,0 +1,16 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<TempType as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Temp as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"create_path\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"mktemp::create_path"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"create_path_in\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"mktemp::create_path_in"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new_dir\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"mktemp::Temp::new_dir"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new_dir_in\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"mktemp::Temp::new_dir_in"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new_file_in\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"mktemp::Temp::new_file_in"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new_file\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"mktemp::Temp::new_file"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"to_path_buf\"), disambiguator: 0 }]","fn_type":"Safe","name":"mktemp::Temp::to_path_buf"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"release\"), disambiguator: 0 }]","fn_type":"Safe","name":"mktemp::Temp::release"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"create_file\"), disambiguator: 0 }]","fn_type":"Safe","name":"mktemp::Temp::create_file"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"remove_file\"), disambiguator: 0 }]","fn_type":"Safe","name":"mktemp::Temp::remove_file"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"create_dir\"), disambiguator: 0 }]","fn_type":"Safe","name":"mktemp::Temp::create_dir"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"remove_dir\"), disambiguator: 0 }]","fn_type":"Safe","name":"mktemp::Temp::remove_dir"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"as_ref\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Temp as std::convert::AsRef<std::path::Path>>::as_ref"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"drop\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Temp as std::ops::Drop>::drop"}

@@ -1,0 +1,4 @@
+{"name":"protocol::nonce::Nonce::clone","from_trait":true,"arguments":[],"sources":[]}
+{"name":"<(dyn tasks::Task + 'static)>::downcast_ref_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Macros(\"mopafy\") line 20","kind":{"UnsafeFnCall":"RustIntrinsic"}},{"loc":"file: Macros(\"mopafy\") line 21","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"<(dyn tasks::Task + 'static)>::downcast_mut_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Macros(\"mopafy\") line 34","kind":{"UnsafeFnCall":"RustIntrinsic"}},{"loc":"file: Macros(\"mopafy\") line 35","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"<(dyn tasks::Task + 'static)>::downcast_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Macros(\"mopafy\") line 52","kind":{"UnsafeFnCall":"RustIntrinsic"}},{"loc":"file: Macros(\"mopafy\") line 53","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}

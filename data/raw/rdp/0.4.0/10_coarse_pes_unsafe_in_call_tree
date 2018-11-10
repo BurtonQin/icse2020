@@ -1,0 +1,6 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"spare\"), disambiguator: 0 }]","fn_type":"Safe","name":"rdp::spare"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"from\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Array as std::convert::From<geo::LineString<T>>>::from"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"from\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rdp::<impl std::convert::From<Array> for std::vec::Vec<[f64; _]>>::from"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"simplify_rdp_ffi\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rdp::simplify_rdp_ffi"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"simplify_visvalingam_ffi\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rdp::simplify_visvalingam_ffi"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"drop_float_array\"), disambiguator: 0 }]","fn_type":"Safe","name":"rdp::drop_float_array"}

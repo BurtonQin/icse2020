@@ -1,0 +1,13 @@
+{"sources":[["491",[{"loc":"file: Real(\"src/base.rs\") line 126","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["579",[{"loc":"file: Real(\"src/base.rs\") line 154","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["609",[{"loc":"file: Real(\"src/base.rs\") line 163","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["646",[{"loc":"file: Real(\"src/base.rs\") line 172","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/base.rs\") line 172","kind":"DerefRawPointer"}]]]}
+{"sources":[["683",[{"loc":"file: Real(\"src/base.rs\") line 180","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/base.rs\") line 180","kind":"DerefRawPointer"}]]]}
+{"sources":[["719",[{"loc":"file: Real(\"src/base.rs\") line 191","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["788",[{"loc":"file: Real(\"src/base.rs\") line 208","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["2494",[{"loc":"file: Real(\"src/base.rs\") line 222","kind":{"UnsafeFnCall":"RustIntrinsic"}},{"loc":"file: Real(\"src/base.rs\") line 223","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/base.rs\") line 223","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["2584",[{"loc":"file: Real(\"src/base.rs\") line 244","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/base.rs\") line 244","kind":{"UnsafeFnCall":"RustIntrinsic"}},{"loc":"file: Real(\"src/base.rs\") line 246","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["2646",[{"loc":"file: Real(\"src/base.rs\") line 222","kind":{"UnsafeFnCall":"RustIntrinsic"}},{"loc":"file: Real(\"src/base.rs\") line 223","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/base.rs\") line 223","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["2736",[{"loc":"file: Real(\"src/base.rs\") line 244","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/base.rs\") line 244","kind":{"UnsafeFnCall":"RustIntrinsic"}},{"loc":"file: Real(\"src/base.rs\") line 246","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
+{"sources":[["973",[{"loc":"file: Real(\"src/base.rs\") line 304","kind":{"UnsafeFnCall":"Rust"}}]]]}
+{"sources":[["1451",[{"loc":"file: Real(\"src/mut_.rs\") line 205","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}

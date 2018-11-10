@@ -1,0 +1,2 @@
+{"def_path":"[DisambiguatedDefPathData { data: Trait(\"Handler\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"end\"), disambiguator: 0 }]","fn_type":"Safe","name":"mrogalski_looper::Handler::end"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"run\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"mrogalski_looper::run"}

@@ -1,0 +1,19 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"drop\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<WriteOnDrop<T> as core::ops::Drop>::drop"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"drop\"), disambiguator: 0 }]","fn_type":"Safe","name":"<NoDrop<T> as core::ops::Drop>::drop"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"drop\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<CopyOnDrop<T> as core::ops::Drop>::drop"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"shift_head\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"pdqsort::shift_head"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"shift_tail\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"pdqsort::shift_tail"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"partial_insertion_sort\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"pdqsort::partial_insertion_sort"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"insertion_sort\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"pdqsort::insertion_sort"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"heapsort\"), disambiguator: 0 }]","fn_type":"Safe","name":"pdqsort::heapsort"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"partition_in_blocks\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"pdqsort::partition_in_blocks"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"partition_in_blocks\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"width\"), disambiguator: 0 }]","fn_type":"Safe","name":"pdqsort::partition_in_blocks::width"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"partition\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"pdqsort::partition"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"partition_equal\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"pdqsort::partition_equal"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"break_patterns\"), disambiguator: 0 }]","fn_type":"Safe","name":"pdqsort::break_patterns"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"choose_pivot\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"pdqsort::choose_pivot"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"recurse\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"pdqsort::recurse"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"quicksort\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"pdqsort::quicksort"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"sort\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"pdqsort::sort"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"sort_by\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"pdqsort::sort_by"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"sort_by_key\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"pdqsort::sort_by_key"}

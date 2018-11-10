@@ -1,0 +1,7 @@
+{"def_path":"[DisambiguatedDefPathData { data: Trait(\"PowerBool\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"raise\"), disambiguator: 0 }]","fn_type":"Safe","name":"powerbool::PowerBool::raise"}
+{"def_path":"[DisambiguatedDefPathData { data: Trait(\"PowerBool\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"lower\"), disambiguator: 0 }]","fn_type":"Safe","name":"powerbool::PowerBool::lower"}
+{"def_path":"[DisambiguatedDefPathData { data: Trait(\"PowerBool\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"kick\"), disambiguator: 0 }]","fn_type":"Safe","name":"powerbool::PowerBool::kick"}
+{"def_path":"[DisambiguatedDefPathData { data: Trait(\"PowerBool\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"punch\"), disambiguator: 0 }]","fn_type":"Safe","name":"powerbool::PowerBool::punch"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"set\"), disambiguator: 0 }]","fn_type":"Safe","name":"<bool as PowerBool>::set"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"trip\"), disambiguator: 0 }]","fn_type":"Safe","name":"<bool as PowerBool>::trip"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"change\"), disambiguator: 0 }]","fn_type":"Safe","name":"<T as Change>::change"}

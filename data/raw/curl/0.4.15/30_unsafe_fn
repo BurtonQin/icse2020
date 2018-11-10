@@ -1,0 +1,4 @@
+{"name":"panic::LAST_ERROR::__getit","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__thread_local_inner\") line 16","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"easy::list::from_raw","from_trait":false,"arguments":[{"type_info":"type(*mut curl_sys::curl_slist)","kind":"RawPointer"}],"sources":[]}
+{"name":"easy::handle::EasyData::callback","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/curl-0.4.15/src/easy/handle.rs\") line 1268","kind":"DerefRawPointer"}]}
+{"name":"opt_str","from_trait":false,"arguments":[{"type_info":"type(*const libc::c_char)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/curl-0.4.15/src/lib.rs\") line 119","kind":{"UnsafeFnCall":"Rust"}}]}

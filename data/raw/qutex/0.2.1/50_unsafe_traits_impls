@@ -1,0 +1,4 @@
+{"name":"<qutex::Inner<T> as std::marker::Send>"}
+{"name":"<qutex::Inner<T> as std::marker::Sync>"}
+{"name":"<qrw_lock::Inner<T> as std::marker::Send>"}
+{"name":"<qrw_lock::Inner<T> as std::marker::Sync>"}

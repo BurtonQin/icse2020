@@ -1,0 +1,35 @@
+{"def_path":"[DisambiguatedDefPathData { data: Trait(\"Rect\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"from_u32\"), disambiguator: 0 }]","fn_type":"Safe","name":"rect::Rect::from_u32"}
+{"def_path":"[DisambiguatedDefPathData { data: Trait(\"Rect\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"from_i32\"), disambiguator: 0 }]","fn_type":"Safe","name":"rect::Rect::from_i32"}
+{"def_path":"[DisambiguatedDefPathData { data: Trait(\"Rect\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"xy\"), disambiguator: 0 }]","fn_type":"Safe","name":"rect::Rect::xy"}
+{"def_path":"[DisambiguatedDefPathData { data: Trait(\"Rect\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"wh\"), disambiguator: 0 }]","fn_type":"Safe","name":"rect::Rect::wh"}
+{"def_path":"[DisambiguatedDefPathData { data: Trait(\"Rect\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"xw\"), disambiguator: 0 }]","fn_type":"Safe","name":"rect::Rect::xw"}
+{"def_path":"[DisambiguatedDefPathData { data: Trait(\"Rect\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"yh\"), disambiguator: 0 }]","fn_type":"Safe","name":"rect::Rect::yh"}
+{"def_path":"[DisambiguatedDefPathData { data: Trait(\"Rect\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"x1x2\"), disambiguator: 0 }]","fn_type":"Safe","name":"rect::Rect::x1x2"}
+{"def_path":"[DisambiguatedDefPathData { data: Trait(\"Rect\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"y1y2\"), disambiguator: 0 }]","fn_type":"Safe","name":"rect::Rect::y1y2"}
+{"def_path":"[DisambiguatedDefPathData { data: Trait(\"Rect\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"p1p2\"), disambiguator: 0 }]","fn_type":"Safe","name":"rect::Rect::p1p2"}
+{"def_path":"[DisambiguatedDefPathData { data: Trait(\"Rect\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"xywh\"), disambiguator: 0 }]","fn_type":"Safe","name":"rect::Rect::xywh"}
+{"def_path":"[DisambiguatedDefPathData { data: Trait(\"Rect\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"center\"), disambiguator: 0 }]","fn_type":"Safe","name":"rect::Rect::center"}
+{"def_path":"[DisambiguatedDefPathData { data: Trait(\"Rect\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"is_empty\"), disambiguator: 0 }]","fn_type":"Safe","name":"rect::Rect::is_empty"}
+{"def_path":"[DisambiguatedDefPathData { data: Trait(\"Rect\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"margin\"), disambiguator: 0 }]","fn_type":"Safe","name":"rect::Rect::margin"}
+{"def_path":"[DisambiguatedDefPathData { data: Trait(\"Rect\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"split_left\"), disambiguator: 0 }]","fn_type":"Safe","name":"rect::Rect::split_left"}
+{"def_path":"[DisambiguatedDefPathData { data: Trait(\"Rect\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"split_right\"), disambiguator: 0 }]","fn_type":"Safe","name":"rect::Rect::split_right"}
+{"def_path":"[DisambiguatedDefPathData { data: Trait(\"Rect\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"split_top\"), disambiguator: 0 }]","fn_type":"Safe","name":"rect::Rect::split_top"}
+{"def_path":"[DisambiguatedDefPathData { data: Trait(\"Rect\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"split_bottom\"), disambiguator: 0 }]","fn_type":"Safe","name":"rect::Rect::split_bottom"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"from_x_y_w_h\"), disambiguator: 0 }]","fn_type":"Safe","name":"<[f64; _] as Rect>::from_x_y_w_h"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"x\"), disambiguator: 0 }]","fn_type":"Safe","name":"<[f64; _] as Rect>::x"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"y\"), disambiguator: 0 }]","fn_type":"Safe","name":"<[f64; _] as Rect>::y"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"w\"), disambiguator: 0 }]","fn_type":"Safe","name":"<[f64; _] as Rect>::w"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"h\"), disambiguator: 0 }]","fn_type":"Safe","name":"<[f64; _] as Rect>::h"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"set_x\"), disambiguator: 0 }]","fn_type":"Safe","name":"<[f64; _] as Rect>::set_x"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"set_y\"), disambiguator: 0 }]","fn_type":"Safe","name":"<[f64; _] as Rect>::set_y"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"set_w\"), disambiguator: 0 }]","fn_type":"Safe","name":"<[f64; _] as Rect>::set_w"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"set_h\"), disambiguator: 0 }]","fn_type":"Safe","name":"<[f64; _] as Rect>::set_h"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"from_x_y_w_h\"), disambiguator: 0 }]","fn_type":"Safe","name":"<[f32; _] as Rect>::from_x_y_w_h"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"x\"), disambiguator: 0 }]","fn_type":"Safe","name":"<[f32; _] as Rect>::x"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"y\"), disambiguator: 0 }]","fn_type":"Safe","name":"<[f32; _] as Rect>::y"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"w\"), disambiguator: 0 }]","fn_type":"Safe","name":"<[f32; _] as Rect>::w"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"h\"), disambiguator: 0 }]","fn_type":"Safe","name":"<[f32; _] as Rect>::h"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"set_x\"), disambiguator: 0 }]","fn_type":"Safe","name":"<[f32; _] as Rect>::set_x"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"set_y\"), disambiguator: 0 }]","fn_type":"Safe","name":"<[f32; _] as Rect>::set_y"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"set_w\"), disambiguator: 0 }]","fn_type":"Safe","name":"<[f32; _] as Rect>::set_w"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"set_h\"), disambiguator: 0 }]","fn_type":"Safe","name":"<[f32; _] as Rect>::set_h"}

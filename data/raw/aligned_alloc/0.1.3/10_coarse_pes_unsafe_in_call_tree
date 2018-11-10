@@ -1,0 +1,2 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"aligned_alloc\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"aligned_alloc::aligned_alloc"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"imp\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"aligned_alloc\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"aligned_alloc::imp::aligned_alloc"}

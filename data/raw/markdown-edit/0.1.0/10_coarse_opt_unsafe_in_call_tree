@@ -1,0 +1,3 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"markdown_edit::Markdown::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"replace_body\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"markdown_edit::Markdown::replace_body"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"replace_body\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"markdown_edit::replace_body"}

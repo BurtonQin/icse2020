@@ -1,0 +1,2 @@
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Trait(\"ToHandleMut\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"to_handle_mut\"), disambiguator: 0 }]","name":"to_handle_mut","crate_name":"owning_ref"}
+{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Trait(\"ToHandle\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"to_handle\"), disambiguator: 0 }]","name":"to_handle","crate_name":"owning_ref"}

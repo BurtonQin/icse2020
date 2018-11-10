@@ -1,0 +1,4 @@
+{"name":"c_str::CString::from_vec_unchecked","from_trait":true,"arguments":[],"sources":[]}
+{"name":"c_str::CString::from_raw","from_trait":true,"arguments":[{"type_info":"type(*mut c_char)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/c_str.rs\") line 407","kind":{"UnsafeFnCall":"C"}},{"loc":"file: Real(\"src/c_str.rs\") line 408","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/c_str.rs\") line 409","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"c_str::CStr::from_ptr","from_trait":true,"arguments":[{"type_info":"type(*const c_char)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/c_str.rs\") line 832","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"c_str::CStr::from_bytes_with_nul_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/c_str.rs\") line 898","kind":{"UnsafeFnCall":"Rust"}}]}

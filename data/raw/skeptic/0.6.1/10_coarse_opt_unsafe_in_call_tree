@@ -1,0 +1,18 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"generate_doc_tests\"), disambiguator: 0 }]","fn_type":"Safe","name":"skeptic::generate_doc_tests"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"run\"), disambiguator: 0 }]","fn_type":"Safe","name":"skeptic::run"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"extract_tests\"), disambiguator: 0 }]","fn_type":"Safe","name":"skeptic::extract_tests"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"extract_tests_from_file\"), disambiguator: 0 }]","fn_type":"Safe","name":"skeptic::extract_tests_from_file"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"skeptic::TestNameGen::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"advance\"), disambiguator: 0 }]","fn_type":"Safe","name":"skeptic::TestNameGen::advance"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"sanitize_test_name\"), disambiguator: 0 }]","fn_type":"Safe","name":"skeptic::sanitize_test_name"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"to_lowercase\"), disambiguator: 0 }]","fn_type":"Safe","name":"skeptic::to_lowercase"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_code_block_info\"), disambiguator: 0 }]","fn_type":"Safe","name":"skeptic::parse_code_block_info"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"emit_tests\"), disambiguator: 0 }]","fn_type":"Safe","name":"skeptic::emit_tests"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"create_test_string\"), disambiguator: 0 }]","fn_type":"Safe","name":"skeptic::create_test_string"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"write_if_contents_changed\"), disambiguator: 0 }]","fn_type":"Safe","name":"skeptic::write_if_contents_changed"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"rt\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"compile_test\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"skeptic::rt::compile_test"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"rt\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"run_test\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"skeptic::rt::run_test"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"rt\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"write_test_case\"), disambiguator: 0 }]","fn_type":"Safe","name":"skeptic::rt::write_test_case"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"rt\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"compile_test_case\"), disambiguator: 0 }]","fn_type":"Safe","name":"skeptic::rt::compile_test_case"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"rt\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"run_test_case\"), disambiguator: 0 }]","fn_type":"Safe","name":"skeptic::rt::run_test_case"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"rt\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"interpret_output\"), disambiguator: 0 }]","fn_type":"Safe","name":"skeptic::rt::interpret_output"}

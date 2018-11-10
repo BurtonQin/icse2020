@@ -1,0 +1,24 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"add\"), disambiguator: 0 }]","fn_type":"Safe","name":"nanore::<impl std::ops::Add for std::boxed::Box<RegEx<'a, T, U>>>::add"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"mul\"), disambiguator: 0 }]","fn_type":"Safe","name":"nanore::<impl std::ops::Mul for std::boxed::Box<RegEx<'a, T, U>>>::mul"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"eps\"), disambiguator: 0 }]","fn_type":"Safe","name":"nanore::eps"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"atom\"), disambiguator: 0 }]","fn_type":"Safe","name":"nanore::atom"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"rep\"), disambiguator: 0 }]","fn_type":"Safe","name":"nanore::rep"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"weight\"), disambiguator: 0 }]","fn_type":"Safe","name":"nanore::weight"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"mark\"), disambiguator: 0 }]","fn_type":"Safe","name":"nanore::mark"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"opt\"), disambiguator: 0 }]","fn_type":"Safe","name":"nanore::opt"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"any\"), disambiguator: 0 }]","fn_type":"Safe","name":"nanore::any"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"val\"), disambiguator: 0 }]","fn_type":"Safe","name":"nanore::val"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"<RegExRoot<'a, T, U>>::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"renumber\"), disambiguator: 0 }]","fn_type":"Safe","name":"<RegExRoot<'a, T, U>>::renumber"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<State<T> as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Matcher<'a, T, U> as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Matcher<'a, T, U>>::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"feed\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<Matcher<'a, T, U>>::feed"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"feed_iter\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<Matcher<'a, T, U>>::feed_iter"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"is_match\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Matcher<'a, T, U>>::is_match"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"is_alive\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Matcher<'a, T, U>>::is_alive"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"path\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Matcher<'a, T, U>>::path"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"choice\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Matcher<'a, T, U>>::choice"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"choice_inplace\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Matcher<'a, T, U>>::choice_inplace"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"propagate\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Matcher<'a, T, U>>::propagate"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"shift\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<Matcher<'a, T, U>>::shift"}

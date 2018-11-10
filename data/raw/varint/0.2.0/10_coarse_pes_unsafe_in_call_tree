@@ -1,0 +1,13 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Varint as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Varint as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"number_of_bytes\"), disambiguator: 0 }]","fn_type":"Safe","name":"varint::Varint::number_of_bytes"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"zigzag_signed_int\"), disambiguator: 0 }]","fn_type":"Safe","name":"varint::zigzag_signed_int"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"zigzag_signed_long\"), disambiguator: 0 }]","fn_type":"Safe","name":"varint::zigzag_signed_long"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"zigzag_unsigned_int\"), disambiguator: 0 }]","fn_type":"Safe","name":"varint::zigzag_unsigned_int"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"zigzag_unsigned_long\"), disambiguator: 0 }]","fn_type":"Safe","name":"varint::zigzag_unsigned_long"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"encode_signed_varint32\"), disambiguator: 0 }]","fn_type":"Safe","name":"varint::encode_signed_varint32"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"encode_signed_varint64\"), disambiguator: 0 }]","fn_type":"Safe","name":"varint::encode_signed_varint64"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"encode_unsigned_varint32\"), disambiguator: 0 }]","fn_type":"Safe","name":"varint::encode_unsigned_varint32"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"encode_unsigned_varint64\"), disambiguator: 0 }]","fn_type":"Safe","name":"varint::encode_unsigned_varint64"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"decode_unsigned_varint32\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"varint::decode_unsigned_varint32"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"decode_unsigned_varint64\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"varint::decode_unsigned_varint64"}

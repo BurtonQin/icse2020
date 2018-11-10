@@ -1,0 +1,8 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"as_option\"), disambiguator: 0 }]","fn_type":"Safe","name":"<bool as Boolinator>::as_option"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"as_some\"), disambiguator: 0 }]","fn_type":"Safe","name":"<bool as Boolinator>::as_some"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"as_some_from\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<bool as Boolinator>::as_some_from"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"and_option\"), disambiguator: 0 }]","fn_type":"Safe","name":"<bool as Boolinator>::and_option"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"and_option_from\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<bool as Boolinator>::and_option_from"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"as_result\"), disambiguator: 0 }]","fn_type":"Safe","name":"<bool as Boolinator>::as_result"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"as_result_from\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<bool as Boolinator>::as_result_from"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"expect\"), disambiguator: 0 }]","fn_type":"Safe","name":"<bool as Boolinator>::expect"}

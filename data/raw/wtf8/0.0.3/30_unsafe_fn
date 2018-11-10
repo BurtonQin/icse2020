@@ -1,0 +1,2 @@
+{"name":"not_quite_std::slice_unchecked","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/not_quite_std.rs\") line 163","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/not_quite_std.rs\") line 162","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/not_quite_std.rs\") line 162","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"CodePoint::from_u32_unchecked","from_trait":true,"arguments":[],"sources":[]}

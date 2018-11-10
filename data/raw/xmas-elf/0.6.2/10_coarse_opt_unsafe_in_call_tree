@@ -1,0 +1,3 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"open_file\"), disambiguator: 0 }]","fn_type":"Safe","name":"xmas_elf::open_file"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"display_binary_information\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"xmas_elf::display_binary_information"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"xmas_elf::main"}

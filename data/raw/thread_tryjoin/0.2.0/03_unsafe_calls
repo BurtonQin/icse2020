@@ -1,0 +1,2 @@
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"pthread_tryjoin_np\"), disambiguator: 0 }]","name":"pthread_tryjoin_np","crate_name":"thread_tryjoin"}
+{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"pthread_timedjoin_np\"), disambiguator: 0 }]","name":"pthread_timedjoin_np","crate_name":"thread_tryjoin"}

@@ -1,0 +1,11 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"level_to_string\"), disambiguator: 0 }]","fn_type":"Safe","name":"slog_json::level_to_string"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"slog_json::Format::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"slog_json::FormatBuilder::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"build\"), disambiguator: 0 }]","fn_type":"Safe","name":"slog_json::FormatBuilder::build"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"set_newlines\"), disambiguator: 0 }]","fn_type":"Safe","name":"slog_json::FormatBuilder::set_newlines"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"add_key_values\"), disambiguator: 0 }]","fn_type":"Safe","name":"slog_json::FormatBuilder::add_key_values"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"add_key_value\"), disambiguator: 0 }]","fn_type":"Safe","name":"slog_json::FormatBuilder::add_key_value"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"add_default_keys\"), disambiguator: 0 }]","fn_type":"Safe","name":"slog_json::FormatBuilder::add_default_keys"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"format\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Format as slog_stream::Format>::format"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"slog_json::new"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"default\"), disambiguator: 0 }]","fn_type":"Safe","name":"slog_json::default"}

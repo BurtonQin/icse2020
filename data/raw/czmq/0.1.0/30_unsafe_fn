@@ -1,0 +1,9 @@
+{"name":"<colander::Colander<T>>::from_raw","from_trait":true,"arguments":[{"type_info":"type(*mut T)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/czmq-0.1.0/src/colander.rs\") line 18","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"socket::<impl RawInterface<std::os::raw::c_void> for zmq::Socket>::from_raw","from_trait":true,"arguments":[{"type_info":"type(*mut c_void)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/czmq-0.1.0/src/socket.rs\") line 9","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<zactor::ZActor as RawInterface<std::os::raw::c_void>>::from_raw","from_trait":true,"arguments":[{"type_info":"type(*mut c_void)","kind":"RawPointer"}],"sources":[]}
+{"name":"<zcert::ZCert as RawInterface<czmq_sys::ffi::Struct__zcert_t>>::from_raw","from_trait":true,"arguments":[{"type_info":"type(*mut czmq_sys::zcert_t)","kind":"RawPointer"}],"sources":[]}
+{"name":"<zcertstore::ZCertStore as RawInterface<czmq_sys::ffi::Struct__zcertstore_t>>::from_raw","from_trait":true,"arguments":[{"type_info":"type(*mut czmq_sys::zcertstore_t)","kind":"RawPointer"}],"sources":[]}
+{"name":"<zframe::ZFrame as RawInterface<czmq_sys::ffi::Struct__zframe_t>>::from_raw","from_trait":true,"arguments":[{"type_info":"type(*mut czmq_sys::zframe_t)","kind":"RawPointer"}],"sources":[]}
+{"name":"<zhashx::ZHashX as RawInterface<czmq_sys::ffi::Struct__zhashx_t>>::from_raw","from_trait":true,"arguments":[{"type_info":"type(*mut czmq_sys::zhashx_t)","kind":"RawPointer"}],"sources":[]}
+{"name":"<zmsg::ZMsg as RawInterface<czmq_sys::ffi::Struct__zmsg_t>>::from_raw","from_trait":true,"arguments":[{"type_info":"type(*mut czmq_sys::zmsg_t)","kind":"RawPointer"}],"sources":[]}
+{"name":"<zsock::ZSock as RawInterface<std::os::raw::c_void>>::from_raw","from_trait":true,"arguments":[{"type_info":"type(*mut c_void)","kind":"RawPointer"}],"sources":[]}

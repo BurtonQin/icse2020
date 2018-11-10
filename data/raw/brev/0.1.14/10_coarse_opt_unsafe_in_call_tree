@@ -1,0 +1,28 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"output\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<output::OutputError as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"output\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<output::OutputError as std::fmt::Display>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"output\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"output\"), disambiguator: 0 }]","fn_type":"Safe","name":"brev::output::output"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"status\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<status::StatusError as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"status\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<status::StatusError as std::fmt::Display>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"status\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"status\"), disambiguator: 0 }]","fn_type":"Safe","name":"brev::status::status"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"signal_from_exit_status\"), disambiguator: 0 }]","fn_type":"Safe","name":"brev::signal_from_exit_status"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"home\"), disambiguator: 0 }]","fn_type":"Safe","name":"brev::home"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"empty\"), disambiguator: 0 }]","fn_type":"Safe","name":"brev::empty"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"tmpdir\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"brev::tmpdir"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"glob\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"brev::glob"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"touch\"), disambiguator: 0 }]","fn_type":"Safe","name":"brev::touch"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"mkdir\"), disambiguator: 0 }]","fn_type":"Safe","name":"brev::mkdir"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"rmdir\"), disambiguator: 0 }]","fn_type":"Safe","name":"brev::rmdir"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"rm\"), disambiguator: 0 }]","fn_type":"Safe","name":"brev::rm"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"slurp\"), disambiguator: 0 }]","fn_type":"Safe","name":"brev::slurp"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"read\"), disambiguator: 0 }]","fn_type":"Safe","name":"brev::read"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"dump\"), disambiguator: 0 }]","fn_type":"Safe","name":"brev::dump"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"cd\"), disambiguator: 0 }]","fn_type":"Safe","name":"brev::cd"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"cwd\"), disambiguator: 0 }]","fn_type":"Safe","name":"brev::cwd"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"can\"), disambiguator: 0 }]","fn_type":"Safe","name":"brev::can"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"isfile\"), disambiguator: 0 }]","fn_type":"Safe","name":"brev::isfile"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"isdir\"), disambiguator: 0 }]","fn_type":"Safe","name":"brev::isdir"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"say\"), disambiguator: 0 }]","fn_type":"Safe","name":"brev::say"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"out\"), disambiguator: 0 }]","fn_type":"Safe","name":"brev::out"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"err\"), disambiguator: 0 }]","fn_type":"Safe","name":"brev::err"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"warn\"), disambiguator: 0 }]","fn_type":"Safe","name":"brev::warn"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"die\"), disambiguator: 0 }]","fn_type":"Safe","name":"brev::die"}

@@ -1,0 +1,7 @@
+{"name":"<unique::Unique<T> as std::marker::Send>"}
+{"name":"<unique::Unique<T> as std::marker::Sync>"}
+{"name":"<Active as Activated>"}
+{"name":"<Offline as Activated>"}
+{"name":"<Inactive as State>"}
+{"name":"<Active as State>"}
+{"name":"<Offline as State>"}

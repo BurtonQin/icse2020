@@ -1,0 +1,2 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"constant_time_ne\"), disambiguator: 0 }]","fn_type":"Safe","name":"constant_time_eq::constant_time_ne"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"constant_time_eq\"), disambiguator: 0 }]","fn_type":"Safe","name":"constant_time_eq::constant_time_eq"}

@@ -1,0 +1,6 @@
+{"name":"<sys::__IncompleteArrayField<T>>::as_ptr","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/bindings.rs\") line 12","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"<sys::__IncompleteArrayField<T>>::as_mut_ptr","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/bindings.rs\") line 15","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"<sys::__IncompleteArrayField<T>>::as_slice","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/bindings.rs\") line 19","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/bindings.rs\") line 19","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<sys::__IncompleteArrayField<T>>::as_mut_slice","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/bindings.rs\") line 23","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/bindings.rs\") line 23","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<sys::__BindgenUnionField<T>>::as_ref","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/bindings.rs\") line 42","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
+{"name":"<sys::__BindgenUnionField<T>>::as_mut","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/bindings.rs\") line 44","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}

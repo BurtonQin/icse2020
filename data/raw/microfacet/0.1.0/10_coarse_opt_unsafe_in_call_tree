@@ -1,0 +1,7 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"microfacet_sample\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"microfacet::microfacet_sample"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"from_tangent_to_local\"), disambiguator: 0 }]","fn_type":"Safe","name":"microfacet::from_tangent_to_local"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"reflect\"), disambiguator: 0 }]","fn_type":"Safe","name":"microfacet::reflect"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"microfacet\"), disambiguator: 0 }]","fn_type":"Safe","name":"microfacet::microfacet"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"normal_distribution\"), disambiguator: 0 }]","fn_type":"Safe","name":"microfacet::normal_distribution"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"geometric_term\"), disambiguator: 0 }]","fn_type":"Safe","name":"microfacet::geometric_term"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"fresnel_term\"), disambiguator: 0 }]","fn_type":"Safe","name":"microfacet::fresnel_term"}

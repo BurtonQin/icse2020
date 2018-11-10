@@ -1,0 +1,32 @@
+{"def_path":"[DisambiguatedDefPathData { data: Trait(\"IntTraits\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"log10\"), disambiguator: 0 }]","fn_type":"Safe","name":"int_traits::IntTraits::log10"}
+{"def_path":"[DisambiguatedDefPathData { data: Trait(\"IntTraits\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"log2\"), disambiguator: 0 }]","fn_type":"Safe","name":"int_traits::IntTraits::log2"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"sqrt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<i8 as IntTraits<i8>>::sqrt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"cbrt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<i8 as IntTraits<i8>>::cbrt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"log\"), disambiguator: 0 }]","fn_type":"Safe","name":"<i8 as IntTraits<i8>>::log"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"sqrt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<i16 as IntTraits<i16>>::sqrt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"cbrt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<i16 as IntTraits<i16>>::cbrt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"log\"), disambiguator: 0 }]","fn_type":"Safe","name":"<i16 as IntTraits<i16>>::log"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"sqrt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<i32 as IntTraits<i32>>::sqrt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"cbrt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<i32 as IntTraits<i32>>::cbrt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"log\"), disambiguator: 0 }]","fn_type":"Safe","name":"<i32 as IntTraits<i32>>::log"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"sqrt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<i64 as IntTraits<i64>>::sqrt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"cbrt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<i64 as IntTraits<i64>>::cbrt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"log\"), disambiguator: 0 }]","fn_type":"Safe","name":"<i64 as IntTraits<i64>>::log"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"sqrt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<isize as IntTraits<isize>>::sqrt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"cbrt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<isize as IntTraits<isize>>::cbrt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"log\"), disambiguator: 0 }]","fn_type":"Safe","name":"<isize as IntTraits<isize>>::log"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"sqrt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<u8 as IntTraits<u8>>::sqrt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"cbrt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<u8 as IntTraits<u8>>::cbrt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"log\"), disambiguator: 0 }]","fn_type":"Safe","name":"<u8 as IntTraits<u8>>::log"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"sqrt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<u16 as IntTraits<u16>>::sqrt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"cbrt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<u16 as IntTraits<u16>>::cbrt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"log\"), disambiguator: 0 }]","fn_type":"Safe","name":"<u16 as IntTraits<u16>>::log"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"sqrt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<u32 as IntTraits<u32>>::sqrt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"cbrt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<u32 as IntTraits<u32>>::cbrt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"log\"), disambiguator: 0 }]","fn_type":"Safe","name":"<u32 as IntTraits<u32>>::log"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 8 }, DisambiguatedDefPathData { data: ValueNs(\"sqrt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<u64 as IntTraits<u64>>::sqrt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 8 }, DisambiguatedDefPathData { data: ValueNs(\"cbrt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<u64 as IntTraits<u64>>::cbrt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 8 }, DisambiguatedDefPathData { data: ValueNs(\"log\"), disambiguator: 0 }]","fn_type":"Safe","name":"<u64 as IntTraits<u64>>::log"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 9 }, DisambiguatedDefPathData { data: ValueNs(\"sqrt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<usize as IntTraits<usize>>::sqrt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 9 }, DisambiguatedDefPathData { data: ValueNs(\"cbrt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<usize as IntTraits<usize>>::cbrt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 9 }, DisambiguatedDefPathData { data: ValueNs(\"log\"), disambiguator: 0 }]","fn_type":"Safe","name":"<usize as IntTraits<usize>>::log"}

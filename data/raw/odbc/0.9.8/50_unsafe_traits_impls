@@ -1,0 +1,23 @@
+{"name":"<ffi::odbc_sys::Env as odbc_object::OdbcObject>"}
+{"name":"<ffi::odbc_sys::Dbc as odbc_object::OdbcObject>"}
+{"name":"<ffi::odbc_sys::Stmt as odbc_object::OdbcObject>"}
+{"name":"<raii::Raii<T> as odbc_safe::Handle>"}
+{"name":"<environment::Environment<V> as odbc_safe::Handle>"}
+{"name":"<connection::Connection<'env> as odbc_safe::Handle>"}
+{"name":"<&'a [u8] as statement::types::OdbcType<'a>>"}
+{"name":"<std::vec::Vec<u8> as statement::types::OdbcType<'a>>"}
+{"name":"<std::ffi::CString as statement::types::OdbcType<'a>>"}
+{"name":"<std::string::String as statement::types::OdbcType<'a>>"}
+{"name":"<&'a str as statement::types::OdbcType<'a>>"}
+{"name":"<u8 as statement::types::OdbcType<'a>>"}
+{"name":"<i8 as statement::types::OdbcType<'a>>"}
+{"name":"<i16 as statement::types::OdbcType<'a>>"}
+{"name":"<u16 as statement::types::OdbcType<'a>>"}
+{"name":"<i32 as statement::types::OdbcType<'a>>"}
+{"name":"<u32 as statement::types::OdbcType<'a>>"}
+{"name":"<i64 as statement::types::OdbcType<'a>>"}
+{"name":"<u64 as statement::types::OdbcType<'a>>"}
+{"name":"<f32 as statement::types::OdbcType<'a>>"}
+{"name":"<f64 as statement::types::OdbcType<'a>>"}
+{"name":"<T as statement::output::Output<'a>>"}
+{"name":"<statement::Statement<'con, 'param, C, P> as odbc_safe::Handle>"}

@@ -1,0 +1,3 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"implementation\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_path\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"whereami::implementation::get_path"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"executable_path\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"whereami::executable_path"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"module_path\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"whereami::module_path"}

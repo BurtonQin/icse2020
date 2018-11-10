@@ -1,0 +1,17 @@
+{"name":"<bool as integer::big::UnsignedPrimitive>"}
+{"name":"<u8 as integer::big::UnsignedPrimitive>"}
+{"name":"<u16 as integer::big::UnsignedPrimitive>"}
+{"name":"<u32 as integer::big::UnsignedPrimitive>"}
+{"name":"<u64 as integer::big::UnsignedPrimitive>"}
+{"name":"<u128 as integer::big::UnsignedPrimitive>"}
+{"name":"<usize as integer::big::UnsignedPrimitive>"}
+{"name":"rug::integer::traits::<impl std::marker::Send for integer::big::Integer>"}
+{"name":"rug::integer::traits::<impl std::marker::Sync for integer::big::Integer>"}
+{"name":"rug::rational::traits::<impl std::marker::Send for rational::big::Rational>"}
+{"name":"rug::rational::traits::<impl std::marker::Sync for rational::big::Rational>"}
+{"name":"rug::float::traits::<impl std::marker::Send for float::big::Float>"}
+{"name":"rug::float::traits::<impl std::marker::Sync for float::big::Float>"}
+{"name":"rug::complex::traits::<impl std::marker::Send for complex::big::Complex>"}
+{"name":"rug::complex::traits::<impl std::marker::Sync for complex::big::Complex>"}
+{"name":"<rand::RandState<'a> as std::marker::Send>"}
+{"name":"<rand::RandState<'a> as std::marker::Sync>"}

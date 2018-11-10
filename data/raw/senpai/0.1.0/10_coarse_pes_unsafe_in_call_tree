@@ -1,0 +1,6 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"exists\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<Senpai<T>>::exists"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"hello_kohai\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Senpai<T>>::hello_kohai"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"this_is_for_my_kohai\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<Senpai<T>>::this_is_for_my_kohai"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"im_graduating_my_kohai\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Senpai<T>>::im_graduating_my_kohai"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"notice_me_senpai\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<Kohai<T>>::notice_me_senpai"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"senpai_is_gone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Kohai<T>>::senpai_is_gone"}

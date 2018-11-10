@@ -1,0 +1,8 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"derive_query_params\"), disambiguator: 0 }]","fn_type":"Safe","name":"query_params::derive_query_params"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"gen_serialization_query_params\"), disambiguator: 0 }]","fn_type":"Safe","name":"query_params::gen_serialization_query_params"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_print_fields\"), disambiguator: 0 }]","fn_type":"Safe","name":"query_params::get_print_fields"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"extract_type_name\"), disambiguator: 0 }]","fn_type":"Safe","name":"query_params::extract_type_name"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"vec_to_query_params\"), disambiguator: 0 }]","fn_type":"Safe","name":"query_params::vec_to_query_params"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"option_to_query_params\"), disambiguator: 0 }]","fn_type":"Safe","name":"query_params::option_to_query_params"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"primitive_to_query_params\"), disambiguator: 0 }]","fn_type":"Safe","name":"query_params::primitive_to_query_params"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","fn_type":"Safe","name":"query_params::registrar::_registrar"}

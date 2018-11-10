@@ -1,0 +1,10 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"adbackup_cli::main"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"make_clap\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"adbackup_cli::make_clap"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"make_clap\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"device_arg\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"adbackup_cli::make_clap::device_arg"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"print_devices\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"adbackup_cli::print_devices"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"backup\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"adbackup_cli::backup"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"restore\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"adbackup_cli::restore"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"apps\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"adbackup_cli::apps"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"pull\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"adbackup_cli::pull"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"push\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"adbackup_cli::push"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"param_from_match\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"adbackup_cli::param_from_match"}

@@ -1,0 +1,4 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"print_usage\"), disambiguator: 0 }]","fn_type":"Safe","name":"wesley::print_usage"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"program_options\"), disambiguator: 0 }]","fn_type":"Safe","name":"wesley::program_options"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"read_program_options\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"wesley::read_program_options"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"wesley::main"}

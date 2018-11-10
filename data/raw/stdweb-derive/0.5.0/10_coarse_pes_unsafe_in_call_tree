@@ -1,0 +1,4 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_meta_items\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"stdweb_derive::get_meta_items"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"derive_reference_type\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"stdweb_derive::derive_reference_type"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"derive_reference_type\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"invalid_structure\"), disambiguator: 0 }]","fn_type":"Safe","name":"stdweb_derive::derive_reference_type::invalid_structure"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"stdweb_derive::registrar::_registrar"}

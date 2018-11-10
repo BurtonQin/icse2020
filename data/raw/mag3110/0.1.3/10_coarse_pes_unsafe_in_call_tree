@@ -1,0 +1,12 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Register as core::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"addr\"), disambiguator: 0 }]","fn_type":"Safe","name":"mag3110::Register::addr"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<DataRate as core::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"bits\"), disambiguator: 0 }]","fn_type":"Safe","name":"mag3110::DataRate::bits"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 8 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Oversampling as core::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"bits\"), disambiguator: 0 }]","fn_type":"Safe","name":"mag3110::Oversampling::bits"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<Mag3110<I2C>>::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"set_sampling_mode\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<Mag3110<I2C>>::set_sampling_mode"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"mag\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<Mag3110<I2C>>::mag"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"temp\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<Mag3110<I2C>>::temp"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"stop_sampling\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<Mag3110<I2C>>::stop_sampling"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"write_register\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<Mag3110<I2C>>::write_register"}

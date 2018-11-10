@@ -1,0 +1,6 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"block\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"process_msg_block\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"ripemd160::block::process_msg_block"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Ripemd160 as core::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"default\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Ripemd160 as core::default::Default>::default"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"process\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<Ripemd160 as digest::Input>::process"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"fixed_result\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<Ripemd160 as digest::FixedOutput>::fixed_result"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Ripemd160 as core::fmt::Debug>::fmt"}

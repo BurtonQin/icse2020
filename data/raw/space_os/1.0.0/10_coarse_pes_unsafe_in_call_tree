@@ -1,0 +1,23 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"space_os::main"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"init_font\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"space_os::init_font"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"move_background\"), disambiguator: 0 }]","fn_type":"Safe","name":"space_os::Background::move_background"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"init\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"space_os::DLife::init"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"init\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"space_os::GameOver::init"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"create_texture\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"space_os::GameOver::create_texture"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"mouse_move\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"space_os::GameOver::mouse_move"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"mouse_click\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"space_os::GameOver::mouse_click"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"update\"), disambiguator: 0 }]","fn_type":"Safe","name":"space_os::GameOver::update"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"pass_level\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"space_os::Level::pass_level"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"check_level\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"space_os::Level::check_level"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"init\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"space_os::MainMenu::init"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"create_texture\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"space_os::MainMenu::create_texture"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"mouse_move\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"space_os::MainMenu::mouse_move"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"mouse_click\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"space_os::MainMenu::mouse_click"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"update\"), disambiguator: 0 }]","fn_type":"Safe","name":"space_os::MainMenu::update"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"create\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"space_os::Meteor::create"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"move_meteor\"), disambiguator: 0 }]","fn_type":"Safe","name":"space_os::Meteor::move_meteor"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"draw\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"space_os::Meteor::draw"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"collide\"), disambiguator: 0 }]","fn_type":"Safe","name":"space_os::Meteor::collide"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"update\"), disambiguator: 0 }]","fn_type":"Safe","name":"space_os::Player::update"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"press_player\"), disambiguator: 0 }]","fn_type":"Safe","name":"space_os::Player::press_player"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"rel_player\"), disambiguator: 0 }]","fn_type":"Safe","name":"space_os::Player::rel_player"}

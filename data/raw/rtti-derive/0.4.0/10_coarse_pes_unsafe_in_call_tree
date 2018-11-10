@@ -1,0 +1,9 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"macro_rtti\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rtti_derive::macro_rtti"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"impl_rtti\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rtti_derive::impl_rtti"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"translate_visibility\"), disambiguator: 0 }]","fn_type":"Safe","name":"rtti_derive::translate_visibility"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_attr_hint\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rtti_derive::parse_attr_hint"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_attr_ignore\"), disambiguator: 0 }]","fn_type":"Safe","name":"rtti_derive::parse_attr_ignore"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_lit\"), disambiguator: 0 }]","fn_type":"Safe","name":"rtti_derive::parse_lit"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"filter_attr_rtti\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rtti_derive::filter_attr_rtti"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"dummy_type\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rtti_derive::dummy_type"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rtti_derive::registrar::_registrar"}

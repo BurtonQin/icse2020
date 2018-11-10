@@ -1,0 +1,1 @@
+{"name":"cdb_seqinit","from_trait":false,"arguments":[{"type_info":"type(*mut c_uint)","kind":"RawPointer"},{"type_info":"type(*mut cdb)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/tinycdb-sys-0.0.2/src/lib.rs\") line 161","kind":"DerefRawPointer"}]}

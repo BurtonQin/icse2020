@@ -1,0 +1,15 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"unwrap_terminal\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Symbol<T, NT>>::unwrap_terminal"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"unwrap_nonterminal\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Symbol<T, NT>>::unwrap_nonterminal"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"<ParserMachine<I, S>>::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"step\"), disambiguator: 0 }]","fn_type":"Safe","name":"<ParserMachine<I, S>>::step"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"run\"), disambiguator: 0 }]","fn_type":"Safe","name":"<ParserMachine<I, S>>::run"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"from_iter\"), disambiguator: 0 }]","fn_type":"Safe","name":"<ParserMachine<IterInput<I>, S>>::from_iter"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"peek\"), disambiguator: 0 }]","fn_type":"Safe","name":"<ParserMachine<I, S> as Parser>::peek"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"shift\"), disambiguator: 0 }]","fn_type":"Safe","name":"<ParserMachine<I, S> as Parser>::shift"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"goto\"), disambiguator: 0 }]","fn_type":"Safe","name":"<ParserMachine<I, S> as Parser>::goto"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"reduce\"), disambiguator: 0 }]","fn_type":"Safe","name":"<ParserMachine<I, S> as Parser>::reduce"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"accept\"), disambiguator: 0 }]","fn_type":"Safe","name":"<ParserMachine<I, S> as Parser>::accept"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"<IterInput<I>>::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"peek\"), disambiguator: 0 }]","fn_type":"Safe","name":"<IterInput<I> as ParserInput>::peek"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"next\"), disambiguator: 0 }]","fn_type":"Safe","name":"<IterInput<I> as ParserInput>::next"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"marker\"), disambiguator: 0 }]","fn_type":"Safe","name":"<IterInput<I> as ParserInput>::marker"}

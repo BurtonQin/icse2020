@@ -1,0 +1,2 @@
+{"name":"RawEvent::suspend_one","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 205","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"RawEvent::suspend_all","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 216","kind":{"UnsafeFnCall":"Rust"}}]}

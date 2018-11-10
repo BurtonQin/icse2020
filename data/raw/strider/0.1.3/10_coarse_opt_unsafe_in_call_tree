@@ -1,0 +1,16 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"push_many_back\"), disambiguator: 0 }]","fn_type":"Safe","name":"<std::collections::VecDeque<T> as SliceRing<T>>::push_many_back"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"drop_many_front\"), disambiguator: 0 }]","fn_type":"Safe","name":"<std::collections::VecDeque<T> as SliceRing<T>>::drop_many_front"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"read_many_front\"), disambiguator: 0 }]","fn_type":"Safe","name":"<std::collections::VecDeque<T> as SliceRing<T>>::read_many_front"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"count\"), disambiguator: 0 }]","fn_type":"Safe","name":"strider::count"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"wrap_index\"), disambiguator: 0 }]","fn_type":"Safe","name":"strider::wrap_index"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"next_power_of_two\"), disambiguator: 0 }]","fn_type":"Safe","name":"strider::next_power_of_two"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"<SliceRingImpl<T>>::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"with_capacity\"), disambiguator: 0 }]","fn_type":"Safe","name":"<SliceRingImpl<T>>::with_capacity"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"cap\"), disambiguator: 0 }]","fn_type":"Safe","name":"<SliceRingImpl<T>>::cap"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"capacity\"), disambiguator: 0 }]","fn_type":"Safe","name":"<SliceRingImpl<T>>::capacity"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"is_continuous\"), disambiguator: 0 }]","fn_type":"Safe","name":"<SliceRingImpl<T>>::is_continuous"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"len\"), disambiguator: 0 }]","fn_type":"Safe","name":"<SliceRingImpl<T>>::len"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"wrap_add\"), disambiguator: 0 }]","fn_type":"Safe","name":"<SliceRingImpl<T>>::wrap_add"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"push_many_back\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<SliceRingImpl<T> as SliceRing<T>>::push_many_back"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"drop_many_front\"), disambiguator: 0 }]","fn_type":"Safe","name":"<SliceRingImpl<T> as SliceRing<T>>::drop_many_front"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"read_many_front\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<SliceRingImpl<T> as SliceRing<T>>::read_many_front"}

@@ -1,0 +1,3 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"sub_mix\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"safe_mix::sub_mix"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"triplet_mix\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"safe_mix::triplet_mix"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"triplet_mix\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<I as TripletMix>::triplet_mix"}

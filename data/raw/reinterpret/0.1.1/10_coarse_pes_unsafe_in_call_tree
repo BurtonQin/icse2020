@@ -1,0 +1,3 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"reinterpret_mut_slice\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"reinterpret::reinterpret_mut_slice"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"reinterpret_slice\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"reinterpret::reinterpret_slice"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"reinterpret_vec\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"reinterpret::reinterpret_vec"}

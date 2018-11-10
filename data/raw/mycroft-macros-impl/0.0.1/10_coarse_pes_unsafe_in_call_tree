@@ -1,0 +1,8 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"compile\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"mycroft_macros_impl::compile"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"input_explanation\"), disambiguator: 0 }]","fn_type":"Safe","name":"mycroft_macros_impl::input_explanation"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"mycroft_program_impl\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"mycroft_macros_impl::mycroft_program_impl"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"mycroft_program_impl\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"func\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"mycroft_macros_impl::mycroft_program_impl::func"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"input_explanation_file\"), disambiguator: 0 }]","fn_type":"Safe","name":"mycroft_macros_impl::input_explanation_file"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"mycroft_files_impl\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"mycroft_macros_impl::mycroft_files_impl"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"mycroft_files_impl\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"func\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"mycroft_macros_impl::mycroft_files_impl::func"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"mycroft_macros_impl::registrar::_registrar"}

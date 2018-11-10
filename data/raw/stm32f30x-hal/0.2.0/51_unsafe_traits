@@ -1,0 +1,7 @@
+{"name":"stm32f30x_hal::i2c::SclPin"}
+{"name":"stm32f30x_hal::i2c::SdaPin"}
+{"name":"stm32f30x_hal::serial::TxPin"}
+{"name":"stm32f30x_hal::serial::RxPin"}
+{"name":"stm32f30x_hal::spi::SckPin"}
+{"name":"stm32f30x_hal::spi::MisoPin"}
+{"name":"stm32f30x_hal::spi::MosiPin"}

@@ -1,0 +1,8 @@
+{"name":"<&'a StatsAlloc<T> as std::alloc::GlobalAlloc>::alloc","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 212","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<&'a StatsAlloc<T> as std::alloc::GlobalAlloc>::dealloc","from_trait":true,"arguments":[{"type_info":"type(*mut u8)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 216","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<&'a StatsAlloc<T> as std::alloc::GlobalAlloc>::alloc_zeroed","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 220","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<&'a StatsAlloc<T> as std::alloc::GlobalAlloc>::realloc","from_trait":true,"arguments":[{"type_info":"type(*mut u8)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 224","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<StatsAlloc<T> as std::alloc::GlobalAlloc>::alloc","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 232","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<StatsAlloc<T> as std::alloc::GlobalAlloc>::dealloc","from_trait":true,"arguments":[{"type_info":"type(*mut u8)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 238","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<StatsAlloc<T> as std::alloc::GlobalAlloc>::alloc_zeroed","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 244","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<StatsAlloc<T> as std::alloc::GlobalAlloc>::realloc","from_trait":true,"arguments":[{"type_info":"type(*mut u8)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 258","kind":{"UnsafeFnCall":"Rust"}}]}

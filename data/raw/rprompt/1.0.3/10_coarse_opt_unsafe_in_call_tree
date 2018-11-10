@@ -1,0 +1,3 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"read_reply\"), disambiguator: 0 }]","fn_type":"Safe","name":"rprompt::read_reply"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"prompt_reply_stdout\"), disambiguator: 0 }]","fn_type":"Safe","name":"rprompt::prompt_reply_stdout"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"prompt_reply_stderr\"), disambiguator: 0 }]","fn_type":"Safe","name":"rprompt::prompt_reply_stderr"}

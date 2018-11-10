@@ -1,0 +1,11 @@
+{"name":"<OwningHandle<O, H> as stable_deref_trait::StableDeref>"}
+{"name":"<OwningRef<O, T> as stable_deref_trait::StableDeref>"}
+{"name":"<OwningRefMut<O, T> as stable_deref_trait::StableDeref>"}
+{"name":"<OwningRef<O, T> as stable_deref_trait::CloneStableDeref>"}
+{"name":"<OwningRef<O, T> as std::marker::Send>"}
+{"name":"<OwningRef<O, T> as std::marker::Sync>"}
+{"name":"<OwningRefMut<O, T> as std::marker::Send>"}
+{"name":"<OwningRefMut<O, T> as std::marker::Sync>"}
+{"name":"<std::boxed::Box<T> as IntoErased<'a>>"}
+{"name":"<std::rc::Rc<T> as IntoErased<'a>>"}
+{"name":"<std::sync::Arc<T> as IntoErased<'a>>"}

@@ -1,0 +1,3 @@
+{"name":"<remutex::RawThreadId as lock_api::GetThreadId>::nonzero_thread_id::KEY::__getit","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__thread_local_inner\") line 16","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"<std::option::Option<T> as util::UncheckedOptionExt<T>>::unchecked_unwrap","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot-0.6.4/src/util.rs\") line 18","kind":{"UnsafeFnCall":"Rust"}}]}
+{"name":"util::unreachable","from_trait":false,"arguments":[],"sources":[]}

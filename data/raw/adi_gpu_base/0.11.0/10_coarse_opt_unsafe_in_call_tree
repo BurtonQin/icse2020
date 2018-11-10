@@ -1,0 +1,17 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<ShapeHandle as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Model as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Gradient as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<TexCoords as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"new_shape\"), disambiguator: 0 }]","fn_type":"Safe","name":"adi_gpu_base::new_shape"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_shape\"), disambiguator: 0 }]","fn_type":"Safe","name":"adi_gpu_base::get_shape"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"projection\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"adi_gpu_base::projection"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"zsort\"), disambiguator: 0 }]","fn_type":"Safe","name":"adi_gpu_base::zsort"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 9 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Transform as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"srt\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"adi_gpu_base::Transform::srt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"rt\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"adi_gpu_base::Transform::rt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"st\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"adi_gpu_base::Transform::st"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"t\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"adi_gpu_base::Transform::t"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"s\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"adi_gpu_base::Transform::s"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"r\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"adi_gpu_base::Transform::r"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"m\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"adi_gpu_base::Transform::m"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"into\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Transform as std::convert::Into<[f32; _]>>::into"}

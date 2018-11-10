@@ -1,0 +1,2 @@
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"reexport\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"slice_as_array::reexport::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"reexport\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"forget\"), disambiguator: 0 }]","fn_type":"Safe","name":"slice_as_array::reexport::forget"}

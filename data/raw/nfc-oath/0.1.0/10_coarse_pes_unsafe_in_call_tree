@@ -1,0 +1,11 @@
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<OathDigits as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"tlv\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"nfc_oath::tlv"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_tlv\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"nfc_oath::parse_tlv"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"time_challenge\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"nfc_oath::time_challenge"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<OathCode as std::fmt::Display>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"nfc_oath::OathCredential::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"nfc_oath::OathController::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"close\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"nfc_oath::OathController::close"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"poll\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"nfc_oath::OathController::poll"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"send_apdu\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"nfc_oath::OathController::send_apdu"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"calculate\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"nfc_oath::OathController::calculate"}

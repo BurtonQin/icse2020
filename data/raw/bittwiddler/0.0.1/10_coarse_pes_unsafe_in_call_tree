@@ -1,0 +1,16 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_string_attr_helper\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"bittwiddler::parse_string_attr_helper"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"bitpattern\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"bittwiddler::bitpattern"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_multi_string_attr_helper\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"bittwiddler::parse_multi_string_attr_helper"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<BitTwiddlerFieldRef as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<BitTwiddlerFieldRef as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<BitTwiddlerObjType as std::clone::Clone>::clone"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<BitTwiddlerObjType as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"to_string\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"bittwiddler::BitTwiddlerFieldRef::to_string"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 9 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<StringSplitter<'a> as std::fmt::Debug>::fmt"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"bittwiddler::StringSplitter::new"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"getchar\"), disambiguator: 0 }]","fn_type":"Safe","name":"bittwiddler::StringSplitter::getchar"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"ungetchar\"), disambiguator: 0 }]","fn_type":"Safe","name":"bittwiddler::StringSplitter::ungetchar"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"next\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<StringSplitter<'a> as std::iter::Iterator>::next"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_bool\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"bittwiddler::is_bool"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"bittwiddler\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"bittwiddler::bittwiddler"}
+{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"bittwiddler::registrar::_registrar"}

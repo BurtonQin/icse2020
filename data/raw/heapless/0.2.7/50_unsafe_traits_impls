@@ -1,0 +1,7 @@
+{"name":"<binary_heap::Min as binary_heap::Kind>"}
+{"name":"<binary_heap::Max as binary_heap::Kind>"}
+{"name":"<ring_buffer::spsc::Consumer<'a, T, A, U> as core::marker::Send>"}
+{"name":"<ring_buffer::spsc::Producer<'a, T, A, U> as core::marker::Send>"}
+{"name":"<u8 as ring_buffer::Uxx>"}
+{"name":"<u16 as ring_buffer::Uxx>"}
+{"name":"<usize as ring_buffer::Uxx>"}

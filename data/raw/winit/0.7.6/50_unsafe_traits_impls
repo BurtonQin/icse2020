@@ -1,0 +1,16 @@
+{"name":"<platform::platform::wayland::context::XdgShellPingHandler as wayland_client::Handler<platform::platform::wayland::wayland_protocols::unstable::xdg_shell::api::zxdg_shell_v6::ZxdgShellV6>>"}
+{"name":"<platform::platform::wayland::context::WaylandEnv as wayland_client::Handler<wayland_client::client::wl_registry::WlRegistry>>"}
+{"name":"<platform::platform::wayland::context::WaylandEnv as wayland_client::Handler<wayland_client::client::wl_output::WlOutput>>"}
+{"name":"<platform::platform::wayland::context::InitialBufferHandler as wayland_client::Handler<wayland_client::client::wl_buffer::WlBuffer>>"}
+{"name":"<platform::platform::wayland::event_loop::EventsLoopSink as std::marker::Send>"}
+{"name":"<platform::platform::wayland::event_loop::InputHandler as wayland_client::Handler<wayland_client::client::wl_seat::WlSeat>>"}
+{"name":"<platform::platform::wayland::event_loop::InputHandler as wayland_client::Handler<wayland_client::client::wl_pointer::WlPointer>>"}
+{"name":"<platform::platform::wayland::event_loop::InputHandler as wayland_client::Handler<wayland_client::client::wl_keyboard::WlKeyboard>>"}
+{"name":"<platform::platform::x11::window::WindowProxyData as std::marker::Send>"}
+{"name":"<platform::platform::x11::window::XWindow as std::marker::Send>"}
+{"name":"<platform::platform::x11::window::XWindow as std::marker::Sync>"}
+{"name":"<platform::platform::x11::window::Window as std::marker::Send>"}
+{"name":"<platform::platform::x11::window::Window as std::marker::Sync>"}
+{"name":"<platform::platform::x11::xdisplay::XConnection as std::marker::Send>"}
+{"name":"<platform::platform::x11::xdisplay::XConnection as std::marker::Sync>"}
+{"name":"<platform::platform::x11::WindowData as std::marker::Send>"}

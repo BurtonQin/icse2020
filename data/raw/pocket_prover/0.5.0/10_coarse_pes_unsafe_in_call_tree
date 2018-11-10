@@ -1,0 +1,142 @@
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"count1\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"pocket_prover::count1"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"count2\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"pocket_prover::count2"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"count3\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"pocket_prover::count3"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"count4\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"pocket_prover::count4"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"count5\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"pocket_prover::count5"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"count6\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"pocket_prover::count6"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"count7\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"pocket_prover::count7"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"count8\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"pocket_prover::count8"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"count9\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"pocket_prover::count9"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"count10\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"pocket_prover::count10"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"countn\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"pocket_prover::countn"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"prove1\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"pocket_prover::prove1"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"prove2\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"pocket_prover::prove2"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"prove3\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"pocket_prover::prove3"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"prove4\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"pocket_prover::prove4"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"prove5\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"pocket_prover::prove5"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"prove6\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"pocket_prover::prove6"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"prove7\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"pocket_prover::prove7"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"prove8\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"pocket_prover::prove8"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"prove9\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"pocket_prover::prove9"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"prove10\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"pocket_prover::prove10"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"proven\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"pocket_prover::proven"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"prop\"), disambiguator: 0 }]","fn_type":"Safe","name":"pocket_prover::prop"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"false_1\"), disambiguator: 0 }]","fn_type":"Safe","name":"pocket_prover::false_1"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"not\"), disambiguator: 0 }]","fn_type":"Safe","name":"pocket_prover::not"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"id\"), disambiguator: 0 }]","fn_type":"Safe","name":"pocket_prover::id"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"true_1\"), disambiguator: 0 }]","fn_type":"Safe","name":"pocket_prover::true_1"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"false_2\"), disambiguator: 0 }]","fn_type":"Safe","name":"pocket_prover::false_2"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"and\"), disambiguator: 0 }]","fn_type":"Safe","name":"pocket_prover::and"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"or\"), disambiguator: 0 }]","fn_type":"Safe","name":"pocket_prover::or"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"xor\"), disambiguator: 0 }]","fn_type":"Safe","name":"pocket_prover::xor"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"eq\"), disambiguator: 0 }]","fn_type":"Safe","name":"pocket_prover::eq"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"imply\"), disambiguator: 0 }]","fn_type":"Safe","name":"pocket_prover::imply"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"true_2\"), disambiguator: 0 }]","fn_type":"Safe","name":"pocket_prover::true_2"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"false_3\"), disambiguator: 0 }]","fn_type":"Safe","name":"pocket_prover::false_3"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"false_4\"), disambiguator: 0 }]","fn_type":"Safe","name":"pocket_prover::false_4"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"false_5\"), disambiguator: 0 }]","fn_type":"Safe","name":"pocket_prover::false_5"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"false_6\"), disambiguator: 0 }]","fn_type":"Safe","name":"pocket_prover::false_6"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"false_7\"), disambiguator: 0 }]","fn_type":"Safe","name":"pocket_prover::false_7"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"false_8\"), disambiguator: 0 }]","fn_type":"Safe","name":"pocket_prover::false_8"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"false_9\"), disambiguator: 0 }]","fn_type":"Safe","name":"pocket_prover::false_9"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"false_10\"), disambiguator: 0 }]","fn_type":"Safe","name":"pocket_prover::false_10"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"true_3\"), disambiguator: 0 }]","fn_type":"Safe","name":"pocket_prover::true_3"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"true_4\"), disambiguator: 0 }]","fn_type":"Safe","name":"pocket_prover::true_4"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"true_5\"), disambiguator: 0 }]","fn_type":"Safe","name":"pocket_prover::true_5"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"true_6\"), disambiguator: 0 }]","fn_type":"Safe","name":"pocket_prover::true_6"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"true_7\"), disambiguator: 0 }]","fn_type":"Safe","name":"pocket_prover::true_7"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"true_8\"), disambiguator: 0 }]","fn_type":"Safe","name":"pocket_prover::true_8"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"true_9\"), disambiguator: 0 }]","fn_type":"Safe","name":"pocket_prover::true_9"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"true_10\"), disambiguator: 0 }]","fn_type":"Safe","name":"pocket_prover::true_10"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"and3\"), disambiguator: 0 }]","fn_type":"Safe","name":"pocket_prover::and3"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"and4\"), disambiguator: 0 }]","fn_type":"Safe","name":"pocket_prover::and4"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"and5\"), disambiguator: 0 }]","fn_type":"Safe","name":"pocket_prover::and5"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"and6\"), disambiguator: 0 }]","fn_type":"Safe","name":"pocket_prover::and6"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"and7\"), disambiguator: 0 }]","fn_type":"Safe","name":"pocket_prover::and7"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"and8\"), disambiguator: 0 }]","fn_type":"Safe","name":"pocket_prover::and8"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"and9\"), disambiguator: 0 }]","fn_type":"Safe","name":"pocket_prover::and9"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"and10\"), disambiguator: 0 }]","fn_type":"Safe","name":"pocket_prover::and10"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"andn\"), disambiguator: 0 }]","fn_type":"Safe","name":"pocket_prover::andn"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"or3\"), disambiguator: 0 }]","fn_type":"Safe","name":"pocket_prover::or3"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"or4\"), disambiguator: 0 }]","fn_type":"Safe","name":"pocket_prover::or4"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"or5\"), disambiguator: 0 }]","fn_type":"Safe","name":"pocket_prover::or5"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"or6\"), disambiguator: 0 }]","fn_type":"Safe","name":"pocket_prover::or6"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"or7\"), disambiguator: 0 }]","fn_type":"Safe","name":"pocket_prover::or7"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"or8\"), disambiguator: 0 }]","fn_type":"Safe","name":"pocket_prover::or8"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"or9\"), disambiguator: 0 }]","fn_type":"Safe","name":"pocket_prover::or9"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"or10\"), disambiguator: 0 }]","fn_type":"Safe","name":"pocket_prover::or10"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"orn\"), disambiguator: 0 }]","fn_type":"Safe","name":"pocket_prover::orn"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"xor3\"), disambiguator: 0 }]","fn_type":"Safe","name":"pocket_prover::xor3"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"xor4\"), disambiguator: 0 }]","fn_type":"Safe","name":"pocket_prover::xor4"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"xor5\"), disambiguator: 0 }]","fn_type":"Safe","name":"pocket_prover::xor5"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"xor6\"), disambiguator: 0 }]","fn_type":"Safe","name":"pocket_prover::xor6"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"xor7\"), disambiguator: 0 }]","fn_type":"Safe","name":"pocket_prover::xor7"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"xor8\"), disambiguator: 0 }]","fn_type":"Safe","name":"pocket_prover::xor8"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"xor9\"), disambiguator: 0 }]","fn_type":"Safe","name":"pocket_prover::xor9"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"xor10\"), disambiguator: 0 }]","fn_type":"Safe","name":"pocket_prover::xor10"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"xorn\"), disambiguator: 0 }]","fn_type":"Safe","name":"pocket_prover::xorn"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"imply3\"), disambiguator: 0 }]","fn_type":"Safe","name":"pocket_prover::imply3"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"imply4\"), disambiguator: 0 }]","fn_type":"Safe","name":"pocket_prover::imply4"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"imply5\"), disambiguator: 0 }]","fn_type":"Safe","name":"pocket_prover::imply5"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"imply6\"), disambiguator: 0 }]","fn_type":"Safe","name":"pocket_prover::imply6"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"imply7\"), disambiguator: 0 }]","fn_type":"Safe","name":"pocket_prover::imply7"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"imply8\"), disambiguator: 0 }]","fn_type":"Safe","name":"pocket_prover::imply8"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"imply9\"), disambiguator: 0 }]","fn_type":"Safe","name":"pocket_prover::imply9"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"imply10\"), disambiguator: 0 }]","fn_type":"Safe","name":"pocket_prover::imply10"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"implyn\"), disambiguator: 0 }]","fn_type":"Safe","name":"pocket_prover::implyn"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"start\"), disambiguator: 0 }]","fn_type":"Safe","name":"<fn(u64) -> u64 as Enumerable>::start"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"inc\"), disambiguator: 0 }]","fn_type":"Safe","name":"<fn(u64) -> u64 as Enumerable>::inc"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"start\"), disambiguator: 0 }]","fn_type":"Safe","name":"<u8 as Enumerable>::start"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"inc\"), disambiguator: 0 }]","fn_type":"Safe","name":"<u8 as Enumerable>::inc"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"any\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"pocket_prover::any"}
+{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"all\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"pocket_prover::all"}
+{"def_path":"[DisambiguatedDefPathData { data: Trait(\"Prove\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"does_not_mean\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"pocket_prover::Prove::does_not_mean"}
+{"def_path":"[DisambiguatedDefPathData { data: Trait(\"Prove\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"means\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"pocket_prover::Prove::means"}
+{"def_path":"[DisambiguatedDefPathData { data: Trait(\"Prove\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"eq\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"pocket_prover::Prove::eq"}
+{"def_path":"[DisambiguatedDefPathData { data: Trait(\"Prove\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"exc\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"pocket_prover::Prove::exc"}
+{"def_path":"[DisambiguatedDefPathData { data: Trait(\"Prove\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"imply\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"pocket_prover::Prove::imply"}
+{"def_path":"[DisambiguatedDefPathData { data: Trait(\"ExtendRules\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"full_rules\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"pocket_prover::ExtendRules::full_rules"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"core_rules\"), disambiguator: 0 }]","fn_type":"Safe","name":"<() as CoreRules>::core_rules"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"core_rules\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<(T0, T1) as CoreRules>::core_rules"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"core_rules\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<(T0, T1, T2) as CoreRules>::core_rules"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"core_rules\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<(T0, T1, T2, T3) as CoreRules>::core_rules"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"core_rules\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<(T0, T1, T2, T3, T4) as CoreRules>::core_rules"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"core_rules\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<(T0, T1, T2, T3, T4, T5) as CoreRules>::core_rules"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 8 }, DisambiguatedDefPathData { data: ValueNs(\"core_rules\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<(T0, T1, T2, T3, T4, T5, T6) as CoreRules>::core_rules"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 9 }, DisambiguatedDefPathData { data: ValueNs(\"core_rules\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<(T0, T1, T2, T3, T4, T5, T6, T7) as CoreRules>::core_rules"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 10 }, DisambiguatedDefPathData { data: ValueNs(\"core_rules\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<(T0, T1, T2, T3, T4, T5, T6, T7, T8) as CoreRules>::core_rules"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 11 }, DisambiguatedDefPathData { data: ValueNs(\"core_rules\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<(T0, T1, T2, T3, T4, T5, T6, T7, T8, T9) as CoreRules>::core_rules"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 12 }, DisambiguatedDefPathData { data: ValueNs(\"inner\"), disambiguator: 0 }]","fn_type":"Safe","name":"<() as ExtendRules>::inner"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 12 }, DisambiguatedDefPathData { data: ValueNs(\"extend_rules\"), disambiguator: 0 }]","fn_type":"Safe","name":"<() as ExtendRules>::extend_rules"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 12 }, DisambiguatedDefPathData { data: ValueNs(\"full_rules\"), disambiguator: 0 }]","fn_type":"Safe","name":"<() as ExtendRules>::full_rules"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 13 }, DisambiguatedDefPathData { data: ValueNs(\"inner\"), disambiguator: 0 }]","fn_type":"Safe","name":"<(T0, T1) as ExtendRules>::inner"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 13 }, DisambiguatedDefPathData { data: ValueNs(\"extend_rules\"), disambiguator: 0 }]","fn_type":"Safe","name":"<(T0, T1) as ExtendRules>::extend_rules"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 14 }, DisambiguatedDefPathData { data: ValueNs(\"inner\"), disambiguator: 0 }]","fn_type":"Safe","name":"<(T0, T1, T2) as ExtendRules>::inner"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 14 }, DisambiguatedDefPathData { data: ValueNs(\"extend_rules\"), disambiguator: 0 }]","fn_type":"Safe","name":"<(T0, T1, T2) as ExtendRules>::extend_rules"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 15 }, DisambiguatedDefPathData { data: ValueNs(\"inner\"), disambiguator: 0 }]","fn_type":"Safe","name":"<(T0, T1, T2, T3) as ExtendRules>::inner"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 15 }, DisambiguatedDefPathData { data: ValueNs(\"extend_rules\"), disambiguator: 0 }]","fn_type":"Safe","name":"<(T0, T1, T2, T3) as ExtendRules>::extend_rules"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 16 }, DisambiguatedDefPathData { data: ValueNs(\"inner\"), disambiguator: 0 }]","fn_type":"Safe","name":"<(T0, T1, T2, T3, T4) as ExtendRules>::inner"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 16 }, DisambiguatedDefPathData { data: ValueNs(\"extend_rules\"), disambiguator: 0 }]","fn_type":"Safe","name":"<(T0, T1, T2, T3, T4) as ExtendRules>::extend_rules"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 17 }, DisambiguatedDefPathData { data: ValueNs(\"inner\"), disambiguator: 0 }]","fn_type":"Safe","name":"<(T0, T1, T2, T3, T4, T5) as ExtendRules>::inner"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 17 }, DisambiguatedDefPathData { data: ValueNs(\"extend_rules\"), disambiguator: 0 }]","fn_type":"Safe","name":"<(T0, T1, T2, T3, T4, T5) as ExtendRules>::extend_rules"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 18 }, DisambiguatedDefPathData { data: ValueNs(\"inner\"), disambiguator: 0 }]","fn_type":"Safe","name":"<(T0, T1, T2, T3, T4, T5, T6) as ExtendRules>::inner"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 18 }, DisambiguatedDefPathData { data: ValueNs(\"extend_rules\"), disambiguator: 0 }]","fn_type":"Safe","name":"<(T0, T1, T2, T3, T4, T5, T6) as ExtendRules>::extend_rules"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 19 }, DisambiguatedDefPathData { data: ValueNs(\"inner\"), disambiguator: 0 }]","fn_type":"Safe","name":"<(T0, T1, T2, T3, T4, T5, T6, T7) as ExtendRules>::inner"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 19 }, DisambiguatedDefPathData { data: ValueNs(\"extend_rules\"), disambiguator: 0 }]","fn_type":"Safe","name":"<(T0, T1, T2, T3, T4, T5, T6, T7) as ExtendRules>::extend_rules"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 20 }, DisambiguatedDefPathData { data: ValueNs(\"inner\"), disambiguator: 0 }]","fn_type":"Safe","name":"<(T0, T1, T2, T3, T4, T5, T6, T7, T8) as ExtendRules>::inner"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 20 }, DisambiguatedDefPathData { data: ValueNs(\"extend_rules\"), disambiguator: 0 }]","fn_type":"Safe","name":"<(T0, T1, T2, T3, T4, T5, T6, T7, T8) as ExtendRules>::extend_rules"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 21 }, DisambiguatedDefPathData { data: ValueNs(\"inner\"), disambiguator: 0 }]","fn_type":"Safe","name":"<(T0, T1, T2, T3, T4, T5, T6, T7, T8, T9) as ExtendRules>::inner"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 21 }, DisambiguatedDefPathData { data: ValueNs(\"extend_rules\"), disambiguator: 0 }]","fn_type":"Safe","name":"<(T0, T1, T2, T3, T4, T5, T6, T7, T8, T9) as ExtendRules>::extend_rules"}
+{"def_path":"[DisambiguatedDefPathData { data: Trait(\"Construct\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"n\"), disambiguator: 0 }]","fn_type":"Safe","name":"pocket_prover::Construct::n"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 22 }, DisambiguatedDefPathData { data: ValueNs(\"construct\"), disambiguator: 0 }]","fn_type":"Safe","name":"<() as Construct>::construct"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 23 }, DisambiguatedDefPathData { data: ValueNs(\"construct\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<(T0, T1) as Construct>::construct"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 24 }, DisambiguatedDefPathData { data: ValueNs(\"construct\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<(T0, T1, T2) as Construct>::construct"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 25 }, DisambiguatedDefPathData { data: ValueNs(\"construct\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<(T0, T1, T2, T3) as Construct>::construct"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 26 }, DisambiguatedDefPathData { data: ValueNs(\"construct\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<(T0, T1, T2, T3, T4) as Construct>::construct"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 27 }, DisambiguatedDefPathData { data: ValueNs(\"construct\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<(T0, T1, T2, T3, T4, T5) as Construct>::construct"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 28 }, DisambiguatedDefPathData { data: ValueNs(\"construct\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<(T0, T1, T2, T3, T4, T5, T6) as Construct>::construct"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 29 }, DisambiguatedDefPathData { data: ValueNs(\"construct\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<(T0, T1, T2, T3, T4, T5, T6, T7) as Construct>::construct"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 30 }, DisambiguatedDefPathData { data: ValueNs(\"construct\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<(T0, T1, T2, T3, T4, T5, T6, T7, T8) as Construct>::construct"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 31 }, DisambiguatedDefPathData { data: ValueNs(\"construct\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<(T0, T1, T2, T3, T4, T5, T6, T7, T8, T9) as Construct>::construct"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 32 }, DisambiguatedDefPathData { data: ValueNs(\"count\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<T as Prove>::count"}
+{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 32 }, DisambiguatedDefPathData { data: ValueNs(\"prove\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<T as Prove>::prove"}
