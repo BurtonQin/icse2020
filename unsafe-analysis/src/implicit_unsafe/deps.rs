@@ -154,7 +154,7 @@ fn load_analysis<'a, 'tcx>(
                 file_ops.get_implicit_unsafe_precise_pes_file(false)
             }
         };
-    //info!("Processsing file {:?}", file_ops.get_root_path_components());
+    info!("Processsing file {:?}", file_ops.get_root_path_components());
     let mut reader = BufReader::new(file);
     //read line by line
     loop {
