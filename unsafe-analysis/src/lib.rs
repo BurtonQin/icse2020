@@ -124,6 +124,8 @@ impl<'a, 'tcx> LateLintPass<'a, 'tcx> for Functions {
 //        let unsafe_calls = calls::run_analysis(cx);
 //        save_analysis(unsafe_calls, &mut file_ops.get_unsafe_calls_file(true));
 
+        error!("Running!");
+
         let opt_impl_unsafe = implicit_unsafe::coarse::run_sources_analysis(cx,&self.normal_functions, true);
         save_analysis(opt_impl_unsafe, &mut file_ops.get_implicit_unsafe_coarse_opt_file(true));
         let pes_impl_unsafe = implicit_unsafe::coarse::run_sources_analysis(cx,&self.normal_functions, false);
