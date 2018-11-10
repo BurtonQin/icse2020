@@ -26,7 +26,7 @@ pub fn process_rq(crates: &Vec<(String,String)>) {
                 let trimmed_line = line.trim_right();
                 let fn_summary: results::functions::Summary = serde_json::from_str(&trimmed_line).unwrap();
                 if fn_summary.total() == 0 {
-                    error!("Processing {:?}: {:?}", crate_name, line);
+                    info!("Processing {:?}: {:?}", crate_name, line);
                 } else {
                     writeln!(writer, "{}\t{}"
                              , fn_summary.unsafe_no()
