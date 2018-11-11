@@ -36,6 +36,7 @@ pub fn process_rq(crates: &Vec<(String,String)>) {
 fn process_file( input_file: File, writer: &mut BufWriter<File>, crate_name: &String) {
     let mut reader = BufReader::new(input_file);
     //read line by line
+    let mut total = 0;
     loop {
         let mut line = String::new();
         let len = reader.read_line(&mut line).expect("Error reading file");
@@ -46,12 +47,17 @@ fn process_file( input_file: File, writer: &mut BufWriter<File>, crate_name: &St
             //process line
             let trimmed_line = line.trim_right();
             let res: results::implicit::UnsafeInBody = serde_json::from_str(&trimmed_line).unwrap();
-            writeln!(writer, "{}\t{}\t{:?}\t{}"
-                     , crate_name
-                     , res.def_path
-                     , res.fn_type
-                     , res.name
-            );
+            match res.fn_type {
+                results::implicit::FnType::NormalNotSafe
+                | results::implicit::FnType::Unsafe => {
+                    total = total + 1;
+                }
+                _ => {}
+            }
         }
     }
+    writeln!(writer, "{}\t{}"
+             , crate_name
+             , total
+    );
 }

@@ -282,7 +282,7 @@ impl<'a, 'b, 'tcx:'a+'b>  CallsVisitor<'a, 'b, 'tcx> {
 
         self.depth += 1;
 
-        error!("Resolve {:?} {:?}", ctxt.def_id, ctxt.substs);
+        info!("Resolve {:?} {:?}", ctxt.def_id, ctxt.substs);
 
         // get calls for the method with no substitutions
         let no_substs_ctx = CallContext {
@@ -290,7 +290,7 @@ impl<'a, 'b, 'tcx:'a+'b>  CallsVisitor<'a, 'b, 'tcx> {
             substs: None,
         };
 
-        error!("Resolve no_substs_ctx: {:?} call_graph: {:?}", no_substs_ctx, self.call_graph.get(&no_substs_ctx));
+        info!("Resolve no_substs_ctx: {:?} call_graph: {:?}", no_substs_ctx, self.call_graph.get(&no_substs_ctx));
 
         //check if a node exists for def_id with no substs
         let mut not_in_call_graph_no_subts = false; // for borrow checker
@@ -307,18 +307,30 @@ impl<'a, 'b, 'tcx:'a+'b>  CallsVisitor<'a, 'b, 'tcx> {
 //                error!("Def ID is NOT local: {:?}", no_substs_ctx);
 //            }
 
-            // Did not process yet this function
-            let mir = &mut self.cx.tcx.optimized_mir(no_substs_ctx.def_id);
-            let mut calls_visitor =
-                CallsVisitor::new(&self.cx, mir,
-                                  &no_substs_ctx,
-                                  self.call_graph,
-                                  self.with_unsafe,
-                                  self.external_calls,
-                                  self.optimistic,
-                                  self.depth );
-            calls_visitor.visit_mir(mir);
-//            error!("After visit_mir");
+            //check if it has an MIR associated
+            if self.cx.tcx.mir_keys(hir::def_id::LOCAL_CRATE).contains(&no_substs_ctx.def_id) {
+                // Did not process yet this function
+                let mir = &mut self.cx.tcx.optimized_mir(no_substs_ctx.def_id);
+                let mut calls_visitor =
+                    CallsVisitor::new(&self.cx, mir,
+                                      &no_substs_ctx,
+                                      self.call_graph,
+                                      self.with_unsafe,
+                                      self.external_calls,
+                                      self.optimistic,
+                                      self.depth);
+                calls_visitor.visit_mir(mir);
+                //            error!("After visit_mir");
+            } else {
+                self.call_graph.insert(ctxt, CallData {
+                    call_type: CallType::Resolved,
+                    calls: None,
+                });
+                if !self.optimistic {
+                    self.with_unsafe.insert(ctxt);
+                }
+                return;
+            }
         }
 
         // insert node in call graph for this context if one does not exist

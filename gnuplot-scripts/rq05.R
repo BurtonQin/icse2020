@@ -30,13 +30,10 @@ no_reason_frame <- subset( res, res$fn_call == 0 &&
 
 labels <- c("Unsafe Function Call", "Derefence Raw Pointer",
             "Static Variable Use", "Assembly",
-            "Borrow Packed", "Assign to Union",
-            "Access to Union", "Use of Extern Static Variable", "From Arguments", "From Trait", "No Reason") #should improve the names 
+            "Access to Union", "From Arguments", "From Trait") #should improve the names 
 values <- c( sum(res$fn_call), sum(res$deref_ptr), 
              sum(res$static_access), sum(res$asm),
-             sum(res$borrow_packed), sum(res$assign_union),
-             sum(res$access_union), sum(res$extern_static), sum(res$argument), sum(res$from_crate),
-             nrow(no_reason_frame)
+             sum(res$access_union), sum(res$argument), sum(res$from_crate)
              )
 
 n <- sum(values)
@@ -48,8 +45,7 @@ all_frame$names <- factor(all_frame$names, levels = all_frame$names[order(all_fr
 ggplot(all_frame, aes(x=names, y=data))+
   geom_bar(stat = "identity") +
   geom_text(aes(x = names, 
-                y = data + 0.02, label = sprintf("%1.4f%%", 100*data),
-                angle = 45
+                y = data + 0.02, label = sprintf("%1.2f%%", 100*data),
   )
   ) +
   scale_y_continuous(limits = c(0,0.60))+
@@ -58,8 +54,8 @@ ggplot(all_frame, aes(x=names, y=data))+
     axis.text.x=element_text(angle=45, hjust=1),
     axis.text.y = element_blank()
   ) +
-  labs(title="Unsafe Functions") +
-  labs(x="Unsafety Sources", y="Percentage") 
+  labs(title="Unsafe Rust Operations in Unsafe Functions") +
+  labs(x="Unsafety Rust Operations", y="Percentage") 
 
 ggsave(all_filename, plot = last_plot(), device = "eps")
 

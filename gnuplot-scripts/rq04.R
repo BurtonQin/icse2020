@@ -39,8 +39,8 @@ ggplot(all_frame, aes(x=names, y=data))+
     axis.text.x=element_text(angle=45, hjust=1),
     axis.text.y = element_blank()
   ) +
-  labs(title="Unsafe Blocks") +
-  labs(x="Unsafety Sources", y="Percentage") 
+  labs(title="Unsafe Rust in Blocks") +
+  labs(x="Unsafe Rust Operations", y="Percentage") 
   
 ggsave(all_filename, plot = last_plot(), device = "eps")
 

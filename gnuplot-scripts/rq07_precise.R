@@ -43,9 +43,9 @@ x_max <- summary[2]
 ggplot() +
   geom_point(data=ggdata1, aes(x=value, y=ecdf), shape=20, colour="grey")+
   geom_point(data=ggdata2, aes(x=value, y=ecdf), shape=20)+
-  xlab("Not Safe Functions") +
+  xlab("Possibly Unsafe Functions") +
   ylab("Percent of Crates") +
-  labs(title="Cumulative Distribution of Not Safe Functions") +
+  labs(title="Cumulative Distribution of Possibly Unsafe Functions") +
   scale_x_continuous(
     breaks=c(seq(0,x_max-100,100),x_max)
     , limits = c(0,x_max+1)
@@ -59,3 +59,11 @@ ggplot() +
   )
 ggsave(cdf_filename, plot = last_plot(), device = "eps")
 
+options(digits = 4)
+write(y1*100,file="~/work/unsafe_study/paper/safe_lower.txt")
+write(y0*100,file="~/work/unsafe_study/paper/safe_upper.txt")
+
+opt_max <- max(res$no)
+write(opt_max,file="~/work/unsafe_study/paper/opt_max.txt")
+cons_max <- max(res1$no)
+write(cons_max,file="~/work/unsafe_study/paper/cons_max.txt")

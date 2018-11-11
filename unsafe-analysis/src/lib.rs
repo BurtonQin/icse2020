@@ -124,21 +124,19 @@ impl<'a, 'tcx> LateLintPass<'a, 'tcx> for Functions {
 //        let unsafe_calls = calls::run_analysis(cx);
 //        save_analysis(unsafe_calls, &mut file_ops.get_unsafe_calls_file(true));
 
-        error!("Running!");
+//        let opt_impl_unsafe = implicit_unsafe::coarse::run_sources_analysis(cx,&self.normal_functions, true);
+//        save_analysis(opt_impl_unsafe, &mut file_ops.get_implicit_unsafe_coarse_opt_file(true));
+//        let pes_impl_unsafe = implicit_unsafe::coarse::run_sources_analysis(cx,&self.normal_functions, false);
+//        save_analysis(pes_impl_unsafe, &mut file_ops.get_implicit_unsafe_coarse_pes_file(true));
 
-        let opt_impl_unsafe = implicit_unsafe::coarse::run_sources_analysis(cx,&self.normal_functions, true);
-        save_analysis(opt_impl_unsafe, &mut file_ops.get_implicit_unsafe_coarse_opt_file(true));
-        let pes_impl_unsafe = implicit_unsafe::coarse::run_sources_analysis(cx,&self.normal_functions, false);
-        save_analysis(pes_impl_unsafe, &mut file_ops.get_implicit_unsafe_coarse_pes_file(true));
+        let opt_rta_impl_unsafe = implicit_unsafe::rta::run_sources_analysis(cx,&self.normal_functions,
+                                                                             true);
+        save_analysis(opt_rta_impl_unsafe, &mut file_ops.get_implicit_unsafe_precise_opt_file(true));
 
-//        let opt_rta_impl_unsafe = implicit_unsafe::rta::run_sources_analysis(cx,&self.normal_functions,
-//                                                                             true);
-//        save_analysis(opt_rta_impl_unsafe, &mut file_ops.get_implicit_unsafe_precise_opt_file(true));
-
-//        let pes_rta_impl_unsafe = implicit_unsafe::rta::run_sources_analysis(cx,
-//                                                                                &self.normal_functions,
-//                                                                                false);
-//        save_analysis(pes_rta_impl_unsafe, &mut file_ops.get_implicit_unsafe_rta_pes_file(true));
+        let pes_rta_impl_unsafe = implicit_unsafe::rta::run_sources_analysis(cx,
+                                                                                &self.normal_functions,
+                                                                                false);
+        save_analysis(pes_rta_impl_unsafe, &mut file_ops.get_implicit_unsafe_precise_pes_file(true));
     }
 
     fn check_body(&mut self, cx: &LateContext<'a, 'tcx>, body: &'tcx hir::Body) {

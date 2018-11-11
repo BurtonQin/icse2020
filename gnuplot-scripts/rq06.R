@@ -42,6 +42,8 @@ print(xx,file=filename)
 rust <- subset( res, res$abi == "Rust" )
 all_rust <- nrow(rust)
 
+write(formatC(all_rust/nrow(res)*100,digits = 1, format = "f"), file="~/work/unsafe_study/paper/rq06_rust_percent.txt" )
+
 core <- subset( rust, rust$crate == "core" )
 core_sum <- nrow(core)  
 core_percentage <- core_sum/all_rust * 100

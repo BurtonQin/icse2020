@@ -28,7 +28,7 @@ write(formatC(zero/all*100,digits = 1, format = "f"), file=zero_filename)
 write(all, file=all_filename)
 
 # Implementations
-
+p <- pipe(paste0('sed \'s/"\'"/"`"/g\' "', "~/unsafe_analysis/analysis-data/research-questions/rq03-impls", '"'))
 res <- read.table( file="~/unsafe_analysis/analysis-data/research-questions/rq03-impls"
                    , header=FALSE
                    , sep='\t'
@@ -52,6 +52,7 @@ write(formatC(zero/all*100,digits = 1, format = "f"), file=zero_filename)
 write(all, file=all_filename)
 
 # Sync and Send
+p <- pipe(paste0('sed \'s/"\'"/"`"/g\' "', "~/unsafe_analysis/analysis-data/research-questions/rq03-impls-names", '"'))
 res <- read.table( file="~/unsafe_analysis/analysis-data/research-questions/rq03-impls-names"
                    , header=FALSE
                    , sep='\t'
