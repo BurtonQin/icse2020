@@ -116,21 +116,21 @@ pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>
         }
     }
 
-    error!("external calls +++++++++++++++++++++++++++++++++++++++++++");
-    for (def_id, ub) in external_calls.iter() {
-        error!("{:?} {:?}", def_id, ub);
-    }
-
-    error!("external +++++++++++++++++++++++++++++++++++++++++++");
-    for (def_id, ub) in implicit_external.iter() {
-        error!("{:?} {:?}", def_id, ub);
-    }
-
-
-    error!("With Unsafe +++++++++++++++++++++++++++++++++++++++++++");
-    for def_id in with_unsafe.iter() {
-        error!("{:?}", def_id);
-    }
+//    error!("external calls +++++++++++++++++++++++++++++++++++++++++++");
+//    for (def_id, ub) in external_calls.iter() {
+//        error!("{:?} {:?}", def_id, ub);
+//    }
+//
+//    error!("external +++++++++++++++++++++++++++++++++++++++++++");
+//    for (def_id, ub) in implicit_external.iter() {
+//        error!("{:?} {:?}", def_id, ub);
+//    }
+//
+//
+//    error!("With Unsafe +++++++++++++++++++++++++++++++++++++++++++");
+//    for def_id in with_unsafe.iter() {
+//        error!("{:?}", def_id);
+//    }
 
 
     //reverse call graph
@@ -144,7 +144,7 @@ pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>
                 assert!(false);
             }
             CallType::Parametric => {
-                error!("Parametric call : call {:?} call_data {:?}", caller_ctxt, call_data);
+                info!("Parametric call : call {:?} call_data {:?}", caller_ctxt, call_data);
             }
             CallType::Resolved => {
                 if !reverse_call_graph.contains_key(caller_ctxt) {
@@ -277,12 +277,28 @@ impl<'a, 'b, 'tcx:'a+'b>  CallsVisitor<'a, 'b, 'tcx> {
         CallsVisitor { cx, mir, fn_ctx, call_graph, with_unsafe, external_calls, optimistic, depth}
     }
 
+    fn has_parametric_call(&self, cd: &CallData<'tcx>) -> bool {
+        match cd.calls {
+            None => {false}
+            Some (ref calls) => {
+                for cc in calls.iter() {
+                    if let Some (c) = self.call_graph.get(cc) {
+                        if let CallType::Parametric = c.call_type {
+                            return true
+                        }
+                    }
+                }
+                false
+            }
+        }
+    }
+
     // mutate in place the call data
     fn resolve(&mut self, ctxt: CallContext<'tcx>) {
 
         self.depth += 1;
 
-        info!("Resolve {:?} {:?}", ctxt.def_id, ctxt.substs);
+        error!("Resolve {:?} {:?}", ctxt.def_id, ctxt.substs);
 
         // get calls for the method with no substitutions
         let no_substs_ctx = CallContext {
@@ -322,13 +338,15 @@ impl<'a, 'b, 'tcx:'a+'b>  CallsVisitor<'a, 'b, 'tcx> {
                 calls_visitor.visit_mir(mir);
                 //            error!("After visit_mir");
             } else {
-                self.call_graph.insert(ctxt, CallData {
-                    call_type: CallType::Resolved,
-                    calls: None,
-                });
-                if !self.optimistic {
-                    self.with_unsafe.insert(ctxt);
-                }
+                error!("No MIR for {:?}", &ctxt);
+                // TODO
+//                self.call_graph.insert(ctxt, CallData {
+//                    call_type: CallType::Resolved,
+//                    calls: None,
+//                });
+//                if !self.optimistic {
+//                    self.with_unsafe.insert(ctxt);
+//                }
                 return;
             }
         }
@@ -365,14 +383,14 @@ impl<'a, 'b, 'tcx:'a+'b>  CallsVisitor<'a, 'b, 'tcx> {
                     let mut unresolved_type = false;
                     if let Some(caller_substs) = ctxt.substs {
                         if let Some(callee_substs) = callee_ctxt.substs {
-
-                            error!("caller substs {:?}", caller_substs);
-                            error!("callee substs {:?}", callee_substs);
-
+//
+//                            error!("caller substs {:?}", caller_substs);
+//                            error!("callee substs {:?}", callee_substs);
+//
 
                             let new_substs = callee_substs.subst(self.cx.tcx, caller_substs);
 
-                            error!("new substs substs {:?}", new_substs);
+//                            error!("new substs substs {:?}", new_substs);
 
                             let param_env = self.cx.tcx.param_env(ctxt.def_id);
                             if let Some(instance) = ty::Instance::resolve(self.cx.tcx,
@@ -385,7 +403,7 @@ impl<'a, 'b, 'tcx:'a+'b>  CallsVisitor<'a, 'b, 'tcx> {
                                     | ty::InstanceDef::CloneShim(def_id, _) => {
                                         if self.cx.tcx.is_closure(def_id) {
                                             //do nothing
-                                            error!("closure {:?}", instance.def);
+                                            info!("closure {:?}", instance.def);
                                         } else {
                                             // if the only subst is self replace with None
                                             let ctxt_substs =
@@ -430,7 +448,12 @@ impl<'a, 'b, 'tcx:'a+'b>  CallsVisitor<'a, 'b, 'tcx> {
                             if let Some(cc) = cco {
                                 let mut needs_resolve = false; // for borrow checker
                                 if let None = self.call_graph.get(&cc) {
-                                    needs_resolve = true;
+                                    // if the cc.def_id is a method without impl set unresolved_type
+                                    if self.cx.tcx.is_mir_available(cc.def_id) {
+                                        needs_resolve = true;
+                                    } else {
+                                        unresolved_type = true;
+                                    }
                                 }
                                 if self.depth < MAX_DEPTH {
                                     if needs_resolve {
@@ -438,7 +461,7 @@ impl<'a, 'b, 'tcx:'a+'b>  CallsVisitor<'a, 'b, 'tcx> {
                                             def_id: cc.def_id,
                                             substs: cc.substs,
                                         };
-                                        error!("in resolve {:?} {:?}", cc, self.call_graph.get(&cc));
+//                                        error!("in resolve {:?} {:?}", cc, self.call_graph.get(&cc));
 
                                         self.resolve(cc);
                                     }
@@ -450,7 +473,12 @@ impl<'a, 'b, 'tcx:'a+'b>  CallsVisitor<'a, 'b, 'tcx> {
                             if unresolved_type {
                                 call_data.call_type = CallType::Parametric
                             } else {
-                                call_data.call_type = CallType::Resolved
+                                //if any callee is still parametric, this call is also parametric
+                                if self.has_parametric_call(&call_data) {
+                                    call_data.call_type = CallType::Parametric
+                                } else {
+                                    call_data.call_type = CallType::Resolved
+                                }
                             }
                         } else {// if let Some(calls) = calls_no_substs_opt
                             // no_subst had no calls
@@ -469,7 +497,7 @@ impl<'a, 'b, 'tcx:'a+'b>  CallsVisitor<'a, 'b, 'tcx> {
             //error!("Resolved {:?} calls: {:?}", ctxt.def_id, self.call_graph.get(&ctxt));
         }
         self.depth -= 1;
-        error!("Resolve END {:?} {:?} {:?}", ctxt.def_id, ctxt.substs, self.call_graph.get(&ctxt));
+//        error!("Resolve END {:?} {:?} {:?}", ctxt.def_id, ctxt.substs, self.call_graph.get(&ctxt));
     }
 }
 
@@ -477,7 +505,7 @@ impl<'a, 'b, 'tcx:'a+'b> Visitor<'tcx> for CallsVisitor<'a,'b,'tcx> {
 
     fn visit_mir(&mut self, mir: &Mir<'tcx>) {
 
-        error!("visit_mir {:?}", self.fn_ctx);
+//        error!("visit_mir {:?}", self.fn_ctx);
 
         let mut must_process = true;
 
@@ -506,9 +534,19 @@ impl<'a, 'b, 'tcx:'a+'b> Visitor<'tcx> for CallsVisitor<'a,'b,'tcx> {
 
             self.super_mir(mir);
 
+            let parametric =
+                if let Some(call_data) = self.call_graph.get( self.fn_ctx ) {
+                    if self.has_parametric_call(&call_data) {
+                        true
+                    } else {false}
+                } else {false};
             if let Some(call_data) = self.call_graph.get_mut( self.fn_ctx ) {
                 if call_data.call_type == CallType::Processing {
-                    call_data.call_type = CallType::Resolved;
+                    if parametric {
+                        call_data.call_type = CallType::Parametric
+                    } else {
+                        call_data.call_type = CallType::Resolved
+                    }
                 }
             } else {assert!(false);}
 
@@ -517,7 +555,7 @@ impl<'a, 'b, 'tcx:'a+'b> Visitor<'tcx> for CallsVisitor<'a,'b,'tcx> {
 
         //dump_call_graph(self.cx, self.call_graph);
 
-        error!("visit_mir ended {:?} call_data: {:?}", self.fn_ctx, self.call_graph.get(self.fn_ctx));
+//        error!("visit_mir ended {:?} call_data: {:?}", self.fn_ctx, self.call_graph.get(self.fn_ctx));
 
     }
 
@@ -637,7 +675,7 @@ impl<'a, 'b, 'tcx:'a+'b> Visitor<'tcx> for CallsVisitor<'a,'b,'tcx> {
                         } else { assert!(false); };
                     } else {
                         if let Some (cc) = cco {
-                            error!(" visit_terminator call {:?} {:?}", cco, self.call_graph.get(&cc));
+//                            error!(" visit_terminator call {:?} {:?}", cco, self.call_graph.get(&cc));
                             if cc.substs != None {
                                 let mut not_in_call_graph = None == self.call_graph.get(&cc);
                                 if not_in_call_graph && cc.substs != None {
