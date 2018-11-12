@@ -384,8 +384,8 @@ impl<'a, 'b, 'tcx:'a+'b>  CallsVisitor<'a, 'b, 'tcx> {
                     if let Some(caller_substs) = ctxt.substs {
                         if let Some(callee_substs) = callee_ctxt.substs {
 //
-//                            error!("caller substs {:?}", caller_substs);
-//                            error!("callee substs {:?}", callee_substs);
+                            error!("caller substs {:?}", caller_substs);
+                            error!("callee substs {:?}", callee_substs);
 //
 
                             let new_substs = callee_substs.subst(self.cx.tcx, caller_substs);

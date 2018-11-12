@@ -19,7 +19,7 @@ outliers_filename <- "~/work/unsafe_study/paper/rq01_outliers.txt"
 #table
 summary <- quantile(res$blocks, c(.90,.95,.995))
 fn <- paste0(base_filename,"n",".txt")
-write(nrow(res),file=fn)
+write(format(nrow(res), big.mark=",", trim=TRUE, digits = 2, scientific = FALSE),file=fn)
 p90 <- paste0(base_filename,"90",".txt")
 write(summary[1],file=p90)
 p95 <- paste0(base_filename,"95",".txt")
