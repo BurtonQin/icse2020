@@ -23,7 +23,9 @@ mod rq07a;
 use std::fs::File ;
 use std::fs::OpenOptions;
 use std::path::PathBuf;
-use std::fs::DirBuilder;
+use std::fs::{DirBuilder,DirEntry};
+use std::io::BufReader;
+use std::io::BufRead;
 
 fn main() {
     // create ouput dir if it does not exists
@@ -31,12 +33,16 @@ fn main() {
         Ok (val) => {val.to_string()}
         Err (_) => {"/home/ans5k/unsafe_analysis/analysis-data/research-questions".to_string()}
     };
+    let crates_file = match std::env::var("CRATES_FILE") {
+        Ok (val) => { Some (val.to_string()) }
+        Err (_) => { None }
+    };
     let dir_path: PathBuf = [root_dir].iter().collect();
     DirBuilder::new().recursive(true).create(dir_path).unwrap();
     // logger
     env_logger::init();
     // consider only the most recent version of each crate
-    let crates = get_crates_recent_versions();
+    let crates = get_crates_recent_versions(crates_file);
 //    rq01::process_rq(&crates);
 //    rq02::process_rq(&crates);
 //    rq03::process_rq(&crates);
@@ -45,6 +51,7 @@ fn main() {
 //    rq06::process_rq(&crates);
     rq07a::process_rq(&crates);
 }
+
 
 pub fn get_output_file( name: &'static str ) -> File {
     let root_dir = match std::env::var("RQ_DIR") {
@@ -68,27 +75,53 @@ fn get_full_analysis_dir() -> String {
     }
 }
 
-fn get_crates_recent_versions() -> Vec<(String,String)> {
+fn get_crates_recent_versions(file: Option<String>) -> Vec<(String,String)> {
     let mut res = Vec::new();
     let root_dir = std::fs::read_dir(get_full_analysis_dir()).unwrap();
-    for dir_result in root_dir {
-        let d = dir_result.unwrap();
-        let path_buf = d.path();
-        let crate_name = path_buf.file_name().unwrap().to_owned();
-        let version = std::fs::read_dir(d.path()).unwrap().filter_map(
-            |dir_result| {
-                let dd = dir_result.unwrap();
-                let pb = &dd.path();
-                if let Some (name) = pb.file_name() {
-                    Some (name.to_os_string())
-                } else {
-                    None
-                }
 
+    match file {
+        Some(file_name) => {
+            let file = File::open(file_name).unwrap();
+            let mut reader = BufReader::new(file);
+            loop {
+                let mut crate_name= String::new();
+                let len = reader.read_line(&mut crate_name).expect("Error reading file");
+                if len == 0 {
+                    //EOF reached
+                    break;
+                } else {
+                    //process line
+                    let crate_path : PathBuf = [get_full_analysis_dir(), crate_name.clone()].iter().collect();
+                    let version = get_max_version(&crate_path);
+                    res.push((crate_name.clone(), version));
+                }
             }
-        ).max();
-        res.push((crate_name.to_str().unwrap().to_string()
-                  ,version.unwrap().to_str().unwrap().to_string()));
+        }
+        None => {
+            for dir_result in root_dir {
+                let d = dir_result.unwrap();
+                let path_buf = d.path();
+                let crate_name = path_buf.file_name().unwrap().to_owned();
+                let version = get_max_version(&path_buf);
+                res.push((crate_name.to_str().unwrap().to_string()
+                          , version));
+            }
+        }
     }
     res
+}
+
+fn get_max_version(dir_path: &PathBuf) -> String {
+    let version = std::fs::read_dir(dir_path).unwrap().filter_map(
+        |dir_result| {
+            let dd = dir_result.unwrap();
+            let pb = &dd.path();
+            if let Some(name) = pb.file_name() {
+                Some(name.to_os_string())
+            } else {
+                None
+            }
+        }
+    ).max();
+    version.unwrap().to_str().unwrap().to_string()
 }
