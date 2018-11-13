@@ -6,7 +6,8 @@
 //extern crate call_graph;
 
 //mod external_calls;
-mod trait_type;
+//mod trait_type;
+mod test1;
 
 //pub unsafe fn with_asm() {
 //    asm!("nop");

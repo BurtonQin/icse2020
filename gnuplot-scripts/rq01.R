@@ -66,3 +66,8 @@ write(" values).", file=outliers_filename,append=TRUE)
 options(digits = 4)
 nonzero <- 100 - min_y*100
 write(nonzero,file=nonzero_filename)
+
+# margin of error
+n <- nrow(res)
+p_hat <- nrow (subset(res,blocks==0) ) / all
+margin_of_error <- 1.96 * sqrt(p_hat*(1-p_hat)/n)
