@@ -1,512 +1,512 @@
-"libc" 9945248
-"bitflags" 8899526
-"rand" 7090636
-"log" 6835876
-"lazy_static" 6744459
-"serde" 6645785
-"winapi" 5866787
-"regex-syntax" 5172753
-"regex" 5148477
-"num-traits" 5071582
-"memchr" 5015672
-"rustc-serialize" 4988952
-"winapi-build" 4769397
-"aho-corasick" 4582805
-"kernel32-sys" 4578000
-"unicode-xid" 4506325
-"time" 4234734
-"syn" 4189619
-"thread_local" 4170602
-"utf8-ranges" 4067970
-"quote" 4053884
-"byteorder" 3979084
-"serde_json" 3906257
-"url" 3867891
-"gcc" 3815637
-"num_cpus" 3774489
-"cfg-if" 3643349
-"pkg-config" 3506696
-"semver" 3446692
-"matches" 3359209
-"itoa" 3263392
-"env_logger" 3229464
-"num" 3147962
-"unicode-normalization" 3120629
-"num-integer" 3109055
-"serde_derive" 3091790
-"strsim" 3055188
-"dtoa" 2986662
-"unicode-bidi" 2965912
-"void" 2951143
-"unreachable" 2882125
-"toml" 2818059
-"idna" 2761679
-"num-iter" 2657289
-"openssl-sys" 2545011
-"clap" 2537063
-"ansi_term" 2411238
-"unicase" 2370453
-"hyper" 2369374
-"mime" 2342732
-"thread-id" 2335178
-"term" 2278906
-"vec_map" 2267795
-"chrono" 2230772
-"unicode-width" 2220293
-"tempdir" 2215543
-"slab" 2169196
-"httparse" 2123736
-"openssl" 2104274
-"synom" 2068059
-"rustc_version" 2042024
-"backtrace" 2030638
-"atty" 2010478
-"error-chain" 2003168
-"cc" 1998750
-"traitobject" 1925700
-"smallvec" 1883822
-"rustc-demangle" 1880335
-"language-tags" 1880181
-"uuid" 1860390
-"net2" 1840636
-"base64" 1832939
-"serde_derive_internals" 1782445
-"percent-encoding" 1729362
-"backtrace-sys" 1657330
-"crossbeam" 1648653
-"futures" 1637264
-"syntex_syntax" 1636629
-"flate2" 1592786
-"itertools" 1591088
-"lazycell" 1548846
-"typeable" 1548065
-"mio" 1533685
-"proc-macro2" 1530286
-"quick-error" 1523921
-"getopts" 1519505
-"glob" 1479188
-"textwrap" 1457713
-"miniz-sys" 1453878
-"bytes" 1453039
-"unicode-segmentation" 1452308
-"num-rational" 1452228
-"scopeguard" 1450783
-"either" 1420988
-"libz-sys" 1378104
-"walkdir" 1362913
-"rayon" 1352487
-"num-bigint" 1348742
-"nodrop" 1317409
-"fnv" 1311073
-"scoped-tls" 1301638
-"num-complex" 1297438
-"cmake" 1284482
-"semver-parser" 1260663
-"nix" 1260662
-"filetime" 1257785
-"phf_shared" 1228653
-"docopt" 1227935
-"syntex_pos" 1219142
-"syntex_errors" 1218237
-"cookie" 1209334
-"foreign-types" 1206396
-"phf" 1201900
-"arrayvec" 1171728
-"miow" 1155580
-"phf_generator" 1147498
-"iovec" 1129253
-"phf_codegen" 1107200
-"xml-rs" 1097476
-"crossbeam-utils" 1083180
-"curl-sys" 1076804
-"term_size" 1059977
-"version_check" 1057443
-"advapi32-sys" 1052788
-"pulldown-cmark" 1046196
-"same-file" 1043001
-"siphasher" 1036956
-"ws2_32-sys" 1026629
-"rayon-core" 1016885
-"crossbeam-epoch" 1015030
-"termcolor" 1014179
-"safemem" 1005606
-"linked-hash-map" 987591
-"curl" 983160
-"fs2" 917809
-"hex" 916103
-"tokio-io" 913856
-"crossbeam-deque" 909618
-"tokio-core" 900983
-"ucd-util" 892892
-"libgit2-sys" 877859
-"git2" 857051
-"enum_primitive" 856591
-"solicit" 853347
-"yaml-rust" 850548
-"nom" 848080
-"hpack" 841949
-"tar" 822538
-"owning_ref" 821233
-"serde_codegen_internals" 820104
-"tempfile" 818672
-"openssl-probe" 807144
-"libssh2-sys" 802541
-"memoffset" 792344
-"redox_syscall" 788225
-"rust-crypto" 774224
-"stable_deref_trait" 772623
-"parking_lot" 770104
-"futures-cpupool" 731122
-"core-foundation" 719006
-"core-foundation-sys" 707788
-"remove_dir_all" 699190
-"foreign-types-shared" 696230
-"parking_lot_core" 695856
-"syntex" 693985
-"humantime" 680037
-"synstructure" 675485
-"gl_generator" 675149
-"adler32" 674200
-"cargo_metadata" 672019
-"dbghelp-sys" 671179
-"serde_codegen" 668313
-"handlebars" 659998
-"socket2" 654345
-"pest" 647906
-"diff" 641320
-"failure" 636101
-"failure_derive" 633003
-"user32-sys" 626056
-"mime_guess" 621044
-"native-tls" 619728
-"globset" 619637
-"bufstream" 619160
-"untrusted" 617564
-"khronos_api" 612928
-"git2-curl" 605293
-"tokio-service" 602950
-"gdi32-sys" 592943
-"tokio-timer" 583353
-"take" 579944
-"openssl-sys-extras" 565161
-"tokio-proto" 560943
-"unsafe-any" 554558
-"wincolor" 553675
-"ordermap" 553302
-"racer" 551725
-"typemap" 540448
-"serde_ignored" 537677
-"aster" 536328
-"shell-escape" 526592
-"vcpkg" 525979
-"ignore" 523037
-"sha1" 522124
-"open" 520797
-"memmap" 513996
-"quasi" 513951
-"xattr" 510407
-"quasi_codegen" 508130
-"quine-mc_cluskey" 504254
-"scoped_threadpool" 503712
-"fixedbitset" 501342
-"serde_urlencoded" 496369
-"encoding" 493215
-"petgraph" 492719
-"fuchsia-zircon" 492410
-"fuchsia-zircon-sys" 492352
-"odds" 491517
-"encoding_index_tests" 491505
-"encoding-index-korean" 488392
-"encoding-index-japanese" 487690
-"encoding-index-tradchinese" 487490
-"encoding-index-simpchinese" 487362
-"encoding-index-singlebyte" 487125
-"png" 485846
-"image" 481472
-"bincode" 480596
-"generic-array" 477440
-"antidote" 476237
-"jobserver" 472942
-"reqwest" 466630
-"relay" 460157
-"string_cache" 458021
-"crc" 455292
-"pnacl-build-helper" 453952
-"shared_library" 453945
-"mdbook" 450574
-"libressl-pnacl-sys" 450222
-"bit-vec" 448455
-"inflate" 441892
-"gif" 440386
-"modifier" 439731
-"rls-data" 439668
-"plugin" 438942
-"libloading" 435774
-"isatty" 433315
-"coco" 432949
-"termion" 432165
-"typenum" 424348
-"html5ever" 423737
-"tokio-threadpool" 423696
-"iron" 423584
-"lzw" 423122
-"ring" 422664
-"derive-new" 421758
-"tokio" 421628
-"tokio-tls" 421403
-"home" 418135
-"color_quant" 414730
-"url_serde" 413919
-"tokio-reactor" 411711
-"tendril" 410385
-"mac" 409449
-"rls-span" 405910
-"bit-set" 405278
-"tokio-executor" 405041
-"futf" 404975
-"winapi-x86_64-pc-windows-gnu" 401906
-"utf-8" 399777
-"jsonrpc-core" 398156
-"libflate" 391192
-"hyper-tls" 391002
-"winapi-i686-pc-windows-gnu" 387233
-"schannel" 387047
-"redox_termios" 386862
-"clippy" 385855
-"lzma-sys" 382769
-"xz2" 380999
-"quickcheck" 379786
-"shlex" 378353
-"glutin" 371492
-"build_const" 369626
-"tokio-udp" 368425
-"languageserver-types" 368412
-"conduit-mime-types" 367609
-"rls-analysis" 365639
-"debug_unreachable" 361430
-"string_cache_shared" 360320
-"tokio-tcp" 360145
-"jpeg-decoder" 358029
-"rls-vfs" 356142
-"string_cache_codegen" 355632
-"compiletest_rs" 353084
-"error" 352932
-"digest" 350778
-"deque" 349185
-"userenv-sys" 340883
-"typed-arena" 339176
-"x11-dl" 332149
-"crypto-hash" 331675
-"precomputed-hash" 331605
-"if_chain" 330599
-"markup5ever" 327243
-"heapsize" 324443
-"byte-tools" 320124
-"sha2" 319483
-"ordered-float" 319130
-"deflate" 313349
-"strings" 311951
-"gleam" 309367
-"openssl-verify" 308427
-"hamcrest" 307505
-"wayland-client" 302724
-"clippy_lints" 302517
-"json" 302501
-"difference" 300839
-"zip" 297677
-"protobuf" 296653
-"osmesa-sys" 294574
-"rls-rustc" 291826
-"fake-simd" 291640
-"unix_socket" 289366
-"ascii" 288414
-"euclid" 285297
-"podio" 284505
-"constant_time_eq" 283393
-"tokio-fs" 282616
-"commoncrypto-sys" 282228
-"commoncrypto" 282032
-"msdos_time" 281846
-"skeptic" 277999
-"serde_yaml" 277985
-"cgmath" 273198
-"router" 272142
-"winit" 272138
-"dlib" 269811
-"csv" 269635
-"route-recognizer" 269426
-"rand_core" 269165
-"wayland-sys" 268710
-"rustc-ap-serialize" 268012
-"rustc-ap-rustc_cratesio_shim" 267996
-"rustc-ap-rustc_data_structures" 267882
-"rustc-ap-syntax_pos" 267704
-"rustc-ap-rustc_errors" 267531
-"rustc-ap-syntax" 266904
-"serde_cbor" 264860
-"wayland-scanner" 261500
-"ar" 258000
-"threadpool" 257737
-"wayland-kbd" 256884
-"lru-cache" 254507
-"maplit" 254112
-"psapi-sys" 250448
-"wayland-window" 244876
-"approx" 238489
-"colored" 234962
-"cssparser" 232571
-"encoding_rs" 231394
-"persistent" 231162
-"hyper-native-tls" 230310
-"block-buffer" 230095
-"core-graphics" 228250
-"tiny_http" 228110
-"custom_derive" 226292
-"md5" 225869
-"quasi_macros" 225214
-"chunked_transfer" 224855
-"pretty_assertions" 222013
-"pest_derive" 221893
-"slog" 219029
-"bzip2-sys" 216473
-"mio-uds" 215624
-"log_settings" 214921
-"shell32-sys" 214486
-"notify" 213461
-"serde_macros" 213234
-"bytecount" 211542
-"ena" 209218
-"bzip2" 206666
-"xdg" 205613
-"cocoa" 205070
-"crates-io" 198475
-"toml-query" 196640
-"is-match" 195368
-"syslog" 194202
-"rpassword" 194116
-"bodyparser" 190719
-"arrayref" 188803
-"selectors" 187422
-"metadeps" 185851
-"target_build_utils" 184735
-"objc" 184116
-"crypto-mac" 180671
-"radix_trie" 179728
-"nibble_vec" 179517
-"conv" 178067
-"malloc_buf" 176394
-"endian-type" 176302
-"nalgebra" 176052
-"fern" 175889
-"errno" 175122
-"webpki" 175120
-"termios" 174831
-"rls-blacklist" 174512
-"crc16" 173850
-"serde_test" 173360
-"inotify" 172534
-"draw_state" 172484
-"rustfmt" 169536
-"want" 169431
-"clang-sys" 169141
-"cgl" 168772
-"hmac" 168467
-"try-lock" 168449
-"rustc-ap-rustc_target" 166441
-"extprim" 163240
-"procedural-masquerade" 161492
-"tokio-codec" 160480
-"rusttype" 160115
-"tiny-keccak" 158241
-"http" 157339
-"ws" 157224
-"gfx" 155667
-"bindgen" 155539
-"c_vec" 155302
-"libsqlite3-sys" 155236
-"slog-term" 155163
-"rustls" 154606
-"vergen" 154217
-"cssparser-macros" 152288
-"ammonia" 152135
-"stb_truetype" 151652
-"gfx_gl" 151217
-"dotenv" 150904
-"dwmapi-sys" 149099
-"gl" 148735
-"strum_macros" 146438
-"r2d2" 146234
-"assert_cli" 145769
-"gfx_device_gl" 145363
-"cargo" 145107
-"strum" 144408
-"igd" 142067
-"elasticlunr-rs" 141723
-"serde_bytes" 141267
-"rmp" 140863
-"app_units" 139607
-"xmltree" 139287
-"diesel" 139243
-"multimap" 138051
-"security-framework-sys" 136989
-"multipart" 136644
-"security-framework" 136451
-"rustc-ap-arena" 135951
-"tokio-uds" 134782
-"sdl2" 134502
-"kuchiki" 134299
-"yup-oauth2" 132919
-"number_prefix" 132674
-"webpki-roots" 132662
-"cexpr" 132560
-"environment" 131409
-"os_pipe" 131056
-"sequence_trie" 130607
-"tokio-signal" 129553
-"log4rs" 128316
-"pistoncore-input" 128231
-"mount" 127806
-"duct" 127561
-"postgres" 126513
-"indexmap" 125945
-"piston-float" 125595
-"gfx_core" 125467
-"shared_child" 124989
-"sdl2-sys" 124204
-"rustfix" 123316
-"html-diff" 122357
-"pistoncore-window" 122226
-"parity-wasm" 121349
-"crossbeam-channel" 120652
-"pistoncore-event_loop" 118063
-"libsodium-sys" 117653
-"servo-glutin" 117613
-"expat-sys" 116942
-"rustfmt-nightly" 115439
-"piston-viewport" 114590
-"matrixmultiply" 113961
-"hamming" 113833
-"websocket" 113305
-"magenta-sys" 113267
-"magenta" 113185
-"piston" 112735
-"serde-value" 112717
-"piston2d-graphics" 111710
-"hyper-rustls" 111487
-"hostname" 111402
-"encode_unicode" 111318
-"spmc" 111271
-"primal-sieve" 111220
-"sodiumoxide" 111010
-"rustc-rayon-core" 110444
-"rustc-rayon" 110440
-"ole32-sys" 110326
-"wayland-protocols" 110180
-"primal-bit" 109375
-"num-derive" 109132
-"rocket" 108882
-"block" 108644
-"vecmath" 108531
-"primal-check" 107937
-"data-encoding" 107869
-"primal-estimate" 107827
+libc
+bitflags
+rand
+log
+lazy_static
+serde
+winapi
+regex-syntax
+regex
+num-traits
+memchr
+rustc-serialize
+winapi-build
+aho-corasick
+kernel32-sys
+unicode-xid
+time
+syn
+thread_local
+utf8-ranges
+quote
+byteorder
+serde_json
+url
+gcc
+num_cpus
+cfg-if
+pkg-config
+semver
+matches
+itoa
+env_logger
+num
+unicode-normalization
+num-integer
+serde_derive
+strsim
+dtoa
+unicode-bidi
+void
+unreachable
+toml
+idna
+num-iter
+openssl-sys
+clap
+ansi_term
+unicase
+hyper
+mime
+thread-id
+term
+vec_map
+chrono
+unicode-width
+tempdir
+slab
+httparse
+openssl
+synom
+rustc_version
+backtrace
+atty
+error-chain
+cc
+traitobject
+smallvec
+rustc-demangle
+language-tags
+uuid
+net2
+base64
+serde_derive_internals
+percent-encoding
+backtrace-sys
+crossbeam
+futures
+syntex_syntax
+flate2
+itertools
+lazycell
+typeable
+mio
+proc-macro2
+quick-error
+getopts
+glob
+textwrap
+miniz-sys
+bytes
+unicode-segmentation
+num-rational
+scopeguard
+either
+libz-sys
+walkdir
+rayon
+num-bigint
+nodrop
+fnv
+scoped-tls
+num-complex
+cmake
+semver-parser
+nix
+filetime
+phf_shared
+docopt
+syntex_pos
+syntex_errors
+cookie
+foreign-types
+phf
+arrayvec
+miow
+phf_generator
+iovec
+phf_codegen
+xml-rs
+crossbeam-utils
+curl-sys
+term_size
+version_check
+advapi32-sys
+pulldown-cmark
+same-file
+siphasher
+ws2_32-sys
+rayon-core
+crossbeam-epoch
+termcolor
+safemem
+linked-hash-map
+curl
+fs2
+hex
+tokio-io
+crossbeam-deque
+tokio-core
+ucd-util
+libgit2-sys
+git2
+enum_primitive
+solicit
+yaml-rust
+nom
+hpack
+tar
+owning_ref
+serde_codegen_internals
+tempfile
+openssl-probe
+libssh2-sys
+memoffset
+redox_syscall
+rust-crypto
+stable_deref_trait
+parking_lot
+futures-cpupool
+core-foundation
+core-foundation-sys
+remove_dir_all
+foreign-types-shared
+parking_lot_core
+syntex
+humantime
+synstructure
+gl_generator
+adler32
+cargo_metadata
+dbghelp-sys
+serde_codegen
+handlebars
+socket2
+pest
+diff
+failure
+failure_derive
+user32-sys
+mime_guess
+native-tls
+globset
+bufstream
+untrusted
+khronos_api
+git2-curl
+tokio-service
+gdi32-sys
+tokio-timer
+take
+openssl-sys-extras
+tokio-proto
+unsafe-any
+wincolor
+ordermap
+racer
+typemap
+serde_ignored
+aster
+shell-escape
+vcpkg
+ignore
+sha1
+open
+memmap
+quasi
+xattr
+quasi_codegen
+quine-mc_cluskey
+scoped_threadpool
+fixedbitset
+serde_urlencoded
+encoding
+petgraph
+fuchsia-zircon
+fuchsia-zircon-sys
+odds
+encoding_index_tests
+encoding-index-korean
+encoding-index-japanese
+encoding-index-tradchinese
+encoding-index-simpchinese
+encoding-index-singlebyte
+png
+image
+bincode
+generic-array
+antidote
+jobserver
+reqwest
+relay
+string_cache
+crc
+pnacl-build-helper
+shared_library
+mdbook
+libressl-pnacl-sys
+bit-vec
+inflate
+gif
+modifier
+rls-data
+plugin
+libloading
+isatty
+coco
+termion
+typenum
+html5ever
+tokio-threadpool
+iron
+lzw
+ring
+derive-new
+tokio
+tokio-tls
+home
+color_quant
+url_serde
+tokio-reactor
+tendril
+mac
+rls-span
+bit-set
+tokio-executor
+futf
+winapi-x86_64-pc-windows-gnu
+utf-8
+jsonrpc-core
+libflate
+hyper-tls
+winapi-i686-pc-windows-gnu
+schannel
+redox_termios
+clippy
+lzma-sys
+xz2
+quickcheck
+shlex
+glutin
+build_const
+tokio-udp
+languageserver-types
+conduit-mime-types
+rls-analysis
+debug_unreachable
+string_cache_shared
+tokio-tcp
+jpeg-decoder
+rls-vfs
+string_cache_codegen
+compiletest_rs
+error
+digest
+deque
+userenv-sys
+typed-arena
+x11-dl
+crypto-hash
+precomputed-hash
+if_chain
+markup5ever
+heapsize
+byte-tools
+sha2
+ordered-float
+deflate
+strings
+gleam
+openssl-verify
+hamcrest
+wayland-client
+clippy_lints
+json
+difference
+zip
+protobuf
+osmesa-sys
+rls-rustc
+fake-simd
+unix_socket
+ascii
+euclid
+podio
+constant_time_eq
+tokio-fs
+commoncrypto-sys
+commoncrypto
+msdos_time
+skeptic
+serde_yaml
+cgmath
+router
+winit
+dlib
+csv
+route-recognizer
+rand_core
+wayland-sys
+rustc-ap-serialize
+rustc-ap-rustc_cratesio_shim
+rustc-ap-rustc_data_structures
+rustc-ap-syntax_pos
+rustc-ap-rustc_errors
+rustc-ap-syntax
+serde_cbor
+wayland-scanner
+ar
+threadpool
+wayland-kbd
+lru-cache
+maplit
+psapi-sys
+wayland-window
+approx
+colored
+cssparser
+encoding_rs
+persistent
+hyper-native-tls
+block-buffer
+core-graphics
+tiny_http
+custom_derive
+md5
+quasi_macros
+chunked_transfer
+pretty_assertions
+pest_derive
+slog
+bzip2-sys
+mio-uds
+log_settings
+shell32-sys
+notify
+serde_macros
+bytecount
+ena
+bzip2
+xdg
+cocoa
+crates-io
+toml-query
+is-match
+syslog
+rpassword
+bodyparser
+arrayref
+selectors
+metadeps
+target_build_utils
+objc
+crypto-mac
+radix_trie
+nibble_vec
+conv
+malloc_buf
+endian-type
+nalgebra
+fern
+errno
+webpki
+termios
+rls-blacklist
+crc16
+serde_test
+inotify
+draw_state
+rustfmt
+want
+clang-sys
+cgl
+hmac
+try-lock
+rustc-ap-rustc_target
+extprim
+procedural-masquerade
+tokio-codec
+rusttype
+tiny-keccak
+http
+ws
+gfx
+bindgen
+c_vec
+libsqlite3-sys
+slog-term
+rustls
+vergen
+cssparser-macros
+ammonia
+stb_truetype
+gfx_gl
+dotenv
+dwmapi-sys
+gl
+strum_macros
+r2d2
+assert_cli
+gfx_device_gl
+cargo
+strum
+igd
+elasticlunr-rs
+serde_bytes
+rmp
+app_units
+xmltree
+diesel
+multimap
+security-framework-sys
+multipart
+security-framework
+rustc-ap-arena
+tokio-uds
+sdl2
+kuchiki
+yup-oauth2
+number_prefix
+webpki-roots
+cexpr
+environment
+os_pipe
+sequence_trie
+tokio-signal
+log4rs
+pistoncore-input
+mount
+duct
+postgres
+indexmap
+piston-float
+gfx_core
+shared_child
+sdl2-sys
+rustfix
+html-diff
+pistoncore-window
+parity-wasm
+crossbeam-channel
+pistoncore-event_loop
+libsodium-sys
+servo-glutin
+expat-sys
+rustfmt-nightly
+piston-viewport
+matrixmultiply
+hamming
+websocket
+magenta-sys
+magenta
+piston
+serde-value
+piston2d-graphics
+hyper-rustls
+hostname
+encode_unicode
+spmc
+primal-sieve
+sodiumoxide
+rustc-rayon-core
+rustc-rayon
+ole32-sys
+wayland-protocols
+primal-bit
+num-derive
+rocket
+block
+vecmath
+primal-check
+data-encoding
+primal-estimate

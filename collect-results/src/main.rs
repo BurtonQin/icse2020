@@ -43,12 +43,12 @@ fn main() {
     env_logger::init();
     // consider only the most recent version of each crate
     let crates = get_crates_recent_versions(crates_file);
-//    rq01::process_rq(&crates);
-//    rq02::process_rq(&crates);
-//    rq03::process_rq(&crates);
-//    rq04::process_rq(&crates);
-//    rq05::process_rq(&crates);
-//    rq06::process_rq(&crates);
+    rq01::process_rq(&crates);
+    rq02::process_rq(&crates);
+    rq03::process_rq(&crates);
+    rq04::process_rq(&crates);
+    rq05::process_rq(&crates);
+    rq06::process_rq(&crates);
     rq07a::process_rq(&crates);
 }
 
@@ -84,16 +84,21 @@ fn get_crates_recent_versions(file: Option<String>) -> Vec<(String,String)> {
             let file = File::open(file_name).unwrap();
             let mut reader = BufReader::new(file);
             loop {
-                let mut crate_name= String::new();
-                let len = reader.read_line(&mut crate_name).expect("Error reading file");
+                let mut line= String::new();
+                let len = reader.read_line(&mut line).expect("Error reading file");
+                let crate_name = line.trim_right();
                 if len == 0 {
                     //EOF reached
                     break;
                 } else {
                     //process line
-                    let crate_path : PathBuf = [get_full_analysis_dir(), crate_name.clone()].iter().collect();
-                    let version = get_max_version(&crate_path);
-                    res.push((crate_name.clone(), version));
+                    let crate_path : PathBuf = [get_full_analysis_dir(), crate_name.to_string()].iter().collect();
+                    if crate_path.exists() {
+                        let version = get_max_version(&crate_path);
+                        res.push((crate_name.to_string(), version));
+                    } else {
+                        error!("Crate not found: {:?}", crate_name);
+                    }
                 }
             }
         }
