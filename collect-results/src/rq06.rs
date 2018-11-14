@@ -4,15 +4,25 @@ use std::io::BufRead;
 use std::io::BufWriter;
 use std::io::Write;
 
-pub fn process_rq(crates: &Vec<(String,String)>) {
-    let output_file = ::get_output_file("rq06");
+pub fn process_rq(crates: &Vec<(String,String)>, user_only: bool) {
+    let output_file =
+        if user_only {
+            ::get_output_file("rq06-user-only")
+        } else {
+            ::get_output_file("rq06")
+        };
     let mut writer = BufWriter::new(output_file);
 
     for (crate_name, version) in crates {
         info!("Processing Crate {:?}", crate_name);
         let dir_name = ::get_full_analysis_dir();
         let file_ops = results::FileOps::new( crate_name, &version, &dir_name );
-        let file = file_ops.get_unsafe_calls_file(false);
+        let file =
+            if user_only {
+                file_ops.get_unsafe_calls_file_user_only(false)
+            } else {
+                file_ops.get_unsafe_calls_file(false)
+            };
         let mut reader = BufReader::new(file);
         //read line by line
         loop {

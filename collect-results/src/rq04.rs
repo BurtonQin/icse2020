@@ -31,15 +31,30 @@ impl SourceSummary {
 }
 
 
-pub fn process_rq(crates: &Vec<(String,String)>) {
-    let output_file = ::get_output_file("rq04");
+pub fn process_rq(crates: &Vec<(String,String)>, user_only: bool) {
+    let output_file =
+        if user_only {
+            ::get_output_file("rq04-user-only")
+        } else {
+            ::get_output_file("rq04")
+        };
     let mut writer = BufWriter::new(output_file);
-    let calls_file = ::get_output_file("rq04-calls");
+    let calls_file =
+        if user_only {
+            ::get_output_file("rq04-calls-user-only")
+        } else {
+            ::get_output_file("rq04-calls")
+        };
     let mut calls_writer = BufWriter::new(calls_file);
     for (crate_name, version) in crates {
         let dir_name = ::get_full_analysis_dir();
         let file_ops = results::FileOps::new( crate_name, &version, &dir_name );
-        let file = file_ops.get_blocks_unsafety_sources_file(false);
+        let file =
+            if user_only {
+                file_ops.get_blocks_unsafety_sources_file_user_only(false)
+            } else {
+                file_ops.get_blocks_unsafety_sources_file(false)
+            };
         let mut reader = BufReader::new(file);
         //read line by line
         loop {

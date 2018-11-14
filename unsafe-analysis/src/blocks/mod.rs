@@ -16,19 +16,24 @@ use results::unsafety_sources::Source;
 
 pub fn run_summary_analysis<'a, 'tcx>(cx: &'a LateContext<'a, 'tcx>) -> BlockSummary  {
     let mut visitor = BlockVisitor::new(&cx.tcx.hir);
+
+    info!("Processing crate {:?}",  ::local_crate_name());
+
     rustc::hir::intravisit::walk_crate(&mut visitor, cx.tcx.hir.krate());
-    BlockSummary::new(visitor.unsafe_blocks)
+    BlockSummary::new(visitor.unsafe_blocks,visitor.total_blocks)
 }
 
 struct BlockVisitor<'tcx> {
     hir: &'tcx rustc::hir::map::Map<'tcx>,
     unsafe_blocks: usize,
+    total_blocks: usize,
 }
 
 impl<'tcx> BlockVisitor<'tcx> {
     pub fn new(hir: &'tcx rustc::hir::map::Map<'tcx>) -> Self {
         BlockVisitor {
             unsafe_blocks: 0 as usize,
+            total_blocks: 0 as usize,
             hir,
         }
     }
@@ -42,6 +47,7 @@ impl<'a, 'tcx> rustc::hir::intravisit::Visitor<'tcx> for BlockVisitor<'tcx> {
                 match unsafe_source {
                     rustc::hir::UnsafeSource::UserProvided => {
                         self.unsafe_blocks = self.unsafe_blocks + 1;
+                        info!("hir::UnsafeSource::UserProvided {:?}", self.unsafe_blocks);
                     }
                     rustc::hir::UnsafeSource::CompilerGenerated => {
                         info!("hir::UnsafeSource::CompilerGenerated");
@@ -55,6 +61,8 @@ impl<'a, 'tcx> rustc::hir::intravisit::Visitor<'tcx> for BlockVisitor<'tcx> {
                 error!("hir::BlockCheckMode::PopUnsafeBlock {:?}", unsafe_source);
             }
         }
+        //count all the blocks, including the compiler generated ones
+        self.total_blocks = self.total_blocks + 1;
         rustc::hir::intravisit::walk_block(self, b);
     }
 
@@ -83,7 +91,8 @@ impl UnsafetySourceCollector for BlockUnsafetySourcesAnalysis {
     }
 }
 
-pub fn run_unsafety_sources_analysis<'a, 'tcx>(cx: &'a LateContext<'a, 'tcx>, fns: &Vec<NodeId>) -> Vec<BlockUnsafetySourcesAnalysis> {
+pub fn run_unsafety_sources_analysis<'a, 'tcx>(cx: &'a LateContext<'a, 'tcx>, fns: &Vec<NodeId>,
+            user_defined_only: bool) -> Vec<BlockUnsafetySourcesAnalysis> {
     let mut res =Vec::new();
     for &node_id in fns {
         let mut sources= BlockUnsafetySourcesAnalysis::new();
@@ -92,7 +101,7 @@ pub fn run_unsafety_sources_analysis<'a, 'tcx>(cx: &'a LateContext<'a, 'tcx>, fn
         if !cx.tcx.is_closure(fn_def_id) {
             let mir = &mut cx.tcx.optimized_mir(fn_def_id);
             if let Some(mut body_visitor) =
-            UnsafetySourcesVisitor::new(cx, mir, &mut sources, fn_def_id)
+            UnsafetySourcesVisitor::new(cx, mir, &mut sources, fn_def_id, user_defined_only)
                 {
                     body_visitor.visit_mir(mir);
                 }

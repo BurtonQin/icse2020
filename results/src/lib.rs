@@ -21,6 +21,7 @@ use std::path::PathBuf;
 static SUMMARY_FUNCTIONS_FILE_NAME: &'static str = "02_summary_functions";
 
 static UNSAFE_CALLS: &'static str = "03_unsafe_calls";
+static UNSAFE_CALLS_USER_ONLY: &'static str = "03_unsafe_calls_user_only";
 
 static IMPLICIT_COARSE_OPTIMISTIC_FILENAME: &'static str = "10_coarse_opt_unsafe_in_call_tree";
 static IMPLICIT_COARSE_PESSIMISTIC_FILENAME: &'static str = "10_coarse_pes_unsafe_in_call_tree";
@@ -32,9 +33,11 @@ static IMPLICIT_RTA_PESSIMISTIC_FILENAME: &'static str = "11_precise_pes_unsafe_
 
 static FN_UNSAFETY_SOURCES_FILE_NAME: &'static str = "30_unsafe_fn";
 static NO_REASON_FOR_UNSAFE: &'static str = "31_no_reason";
+static FN_UNSAFETY_SOURCES_USER_ONLY_FILE_NAME: &'static str = "32_unsafe_fn_user_only";
 
 static BLOCK_UNSAFETY_SOURCES_FILE_NAME: &'static str = "40_unsafe_blocks";
 static BLOCK_SUMMARY_BB: &'static str = "41_blocks_summary";
+static BLOCK_UNSAFETY_SOURCES_USER_ONLY_FILE_NAME: &'static str = "42_unsafe_blocks_user_only";
 
 static UNSAFE_TRAITS_IMPLS: &'static str = "50_unsafe_traits_impls";
 static UNSAFE_TRAITS: &'static str = "51_unsafe_traits";
@@ -143,12 +146,24 @@ impl<'a, 'b> FileOps<'a, 'b> {
         self.open_file(FN_UNSAFETY_SOURCES_FILE_NAME, save)
     }
 
+    pub fn get_fn_unsafety_sources_user_only_file(&self, save: bool) -> File {
+        self.open_file(FN_UNSAFETY_SOURCES_USER_ONLY_FILE_NAME, save)
+    }
+
     pub fn get_unsafe_calls_file(&self, save: bool) -> File {
         self.open_file(UNSAFE_CALLS, save)
     }
 
+    pub fn get_unsafe_calls_file_user_only(&self, save: bool) -> File {
+        self.open_file(UNSAFE_CALLS_USER_ONLY, save)
+    }
+
     pub fn get_blocks_unsafety_sources_file(&self, save: bool) -> File {
         self.open_file(BLOCK_UNSAFETY_SOURCES_FILE_NAME, save)
+    }
+
+    pub fn get_blocks_unsafety_sources_file_user_only(&self, save: bool) -> File {
+        self.open_file(BLOCK_UNSAFETY_SOURCES_USER_ONLY_FILE_NAME, save)
     }
 
     pub fn get_blocks_summary_file(&self, save: bool) -> File {

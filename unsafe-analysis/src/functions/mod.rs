@@ -14,7 +14,7 @@ use results::functions::Argument;
 use results::functions::ArgumentKind;
 use results::functions::ShortFnInfo;
 
-pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, fns: &Vec<NodeId>)
+pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, fns: &Vec<NodeId>, user_defined_only: bool)
         -> (Vec<UnsafeFnUsafetySources>,Vec<ShortFnInfo>) {
 
     let mut sources = Vec::new();
@@ -25,7 +25,7 @@ pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, fns: &Vec<Node
         let mut data = process_fn_decl(cx, fn_id);
         let mir = &mut cx.tcx.optimized_mir(fn_def_id);
         let mut success = false;
-        if let Some(mut body_visitor) = UnsafetySourcesVisitor::new(cx, mir, &mut data, fn_def_id)  {
+        if let Some(mut body_visitor) = UnsafetySourcesVisitor::new(cx, mir, &mut data, fn_def_id, user_defined_only)  {
             body_visitor.visit_mir(mir);
             success = true;
         }
