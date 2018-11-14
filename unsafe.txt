@@ -104,3 +104,19 @@ pub fn logger() -> &'static Log {
         }
     }
 }
+
+7. cargo 
+- a bunch of libc calls without checks
+- for C structs: let mut fds: [libc::pollfd; 2] = unsafe { mem::zeroed() }; 
+- pub fn setup() -> Option<Setup> {
+    unsafe { imp::setup() }
+} -- nothing checked
+- change the lifetime 
+    - let tree = unsafe { mem::transmute::<git2::Tree, git2::Tree<'static>>(tree) };
+    - let tx = unsafe { mem::transmute::<Sender<Message<'a>>, Sender<Message<'static>>>(tx) };
+- cast from usize to Downloads
+            unsafe {
+                f(Some(&*(ptr as *const Downloads)))
+            }
+
+
