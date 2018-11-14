@@ -1,3 +1,47 @@
+Debug and PartialEq implementations of the compiler for enum have unsafe blocks:
+Notes from documentation:
+pub unsafe extern "rust-intrinsic" fn discriminant_value<T>(v: &T) -> u64
+Returns the value of the discriminant for the variant in 'v', cast to a u64; if T has no discriminant, returns 0.
+
+Example:
+enum Type { Safe, Unsafe, }
+#[automatically_derived]
+#[allow(unused_qualifications)]
+impl ::std::cmp::PartialEq for Type {
+    #[inline]
+    fn eq(&self, other: &Type) -> bool {
+        {
+            let __self_vi =
+                unsafe { ::std::intrinsics::discriminant_value(&*self) } as
+                    isize;
+            let __arg_1_vi =
+                unsafe { ::std::intrinsics::discriminant_value(&*other) } as
+                    isize;
+            if true && __self_vi == __arg_1_vi {
+                match (&*self, &*other) { _ => true, }
+            } else { false }
+        }
+    }
+}
+#[automatically_derived]
+#[allow(unused_qualifications)]
+impl ::std::fmt::Debug for Type {
+    fn fmt(&self, f: &mut ::std::fmt::Formatter) -> ::std::fmt::Result {
+        match (&*self,) {
+            (&Type::Safe,) => {
+                let mut debug_trait_builder = f.debug_tuple("Safe");
+                debug_trait_builder.finish()
+            }
+            (&Type::Unsafe,) => {
+                let mut debug_trait_builder = f.debug_tuple("Unsafe");
+                debug_trait_builder.finish()
+            }
+        }
+    }
+}
+
+
+
 1. hostname 1 unsafe block
   - call to C function gethostname
   - one file, basically one function
