@@ -1,0 +1,22 @@
+1. hostname 1 unsafe block
+  - call to C function gethostname
+  - one file, basically one function
+2. multipart 1 unsafe block
+  - calls log::set_logger_raw 
+  - log has a lot of unsafe; not clear why
+3. ammonia 1 from macro 
+  {"sources":[["2010",[{"loc":"file: Macros(\"__lazy_static_internal\") line 14","kind":{"UnsafeFnCall":"Rust"}}]]]}
+4. gfx - old sources
+        let slice = unsafe {
+            slice::from_raw_parts(data as *const T as *const u8, mem::size_of::<T>())
+        };
+        self.command_buffer.update_buffer(
+            self.handles.ref_buffer(buf.raw()).clone(), slice, 0);
+5. rustfmt 
+fn isatty() -> bool {
+        extern crate libc;
+
+        unsafe { libc::isatty(libc::STDOUT_FILENO) != 0 }
+    }
+
+
