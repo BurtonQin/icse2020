@@ -10,6 +10,19 @@ pub trait Encoder {
         where F: FnOnce(&mut Self) -> Result<(), Self::Error>;
 }
 
+struct EmptyEncoder{}
+
+impl Encoder for EmptyEncoder {
+
+    type Error = usize;
+
+    fn emit_u8(&mut self, v: u8) -> Result<(), Self::Error> { Err(1) }
+    fn emit_seq<F>(&mut self, len: usize, f: F) -> Result<(), Self::Error>
+        where F: FnOnce(&mut Self) -> Result<(), Self::Error>{ Err(1) }
+    fn emit_seq_elt<F>(&mut self, idx: usize, f: F) -> Result<(), Self::Error>
+        where F: FnOnce(&mut Self) -> Result<(), Self::Error>{ Err(1) }
+}
+
 pub trait Encodable {
     /// Serialize a value using an `Encoder`.
     fn encode<S: Encoder>(&self, s: &mut S) -> Result<(), S::Error>;
@@ -38,4 +51,10 @@ impl Encodable for path::Path {
         use std::os::unix::prelude::*;
         self.as_os_str().as_bytes().encode(e)
     }
+}
+
+fn test() {
+    let mut encoder = EmptyEncoder{};
+    let path = path::Path::new("./foo/bar.txt");
+    path.encode(&mut encoder);
 }
