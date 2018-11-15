@@ -29,13 +29,13 @@ pub trait Encodable {
 }
 
 impl Encodable for u8 {
-    fn encode<S: Encoder>(&self, s: &mut S) -> Result<(), S::Error> {
+    fn encode<S1: Encoder>(&self, s: &mut S1) -> Result<(), S1::Error> {
         s.emit_u8(*self)
     }
 }
 
 impl<T:Encodable> Encodable for [T] {
-    fn encode<S: Encoder>(&self, s: &mut S) -> Result<(), S::Error> {
+    fn encode<S2: Encoder>(&self, s: &mut S2) -> Result<(), S2::Error> {
         s.emit_seq(self.len(), |s| {
             for (i, e) in self.iter().enumerate() {
                 try!(s.emit_seq_elt(i, |s| e.encode(s)))

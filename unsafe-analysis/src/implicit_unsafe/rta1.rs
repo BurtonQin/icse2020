@@ -46,7 +46,7 @@ static MAX_DEPTH: usize = 1032;
 impl<'tcx> CallData<'tcx> {
     fn push(&mut self, cc: CallContext<'tcx>) {
         if let Some(ref mut v) = self.calls {
-             v.push(cc);
+            v.push(cc);
         } else {
             let mut v = Vec::new();
             v.push(cc);
@@ -267,25 +267,24 @@ struct CallsVisitor<'a, 'b, 'tcx:'a+'b> {
 
 
 impl<'a, 'b, 'tcx:'a+'b>  CallsVisitor<'a, 'b, 'tcx> {
-
     fn new(cx: &'a LateContext<'a, 'tcx>,
            mir: &'tcx Mir<'tcx>,
            fn_ctx: &'b CallContext<'tcx>,
-           call_graph: &'b mut FxHashMap<CallContext<'tcx>,CallData<'tcx>>,
+           call_graph: &'b mut FxHashMap<CallContext<'tcx>, CallData<'tcx>>,
            with_unsafe: &'b mut FxHashSet<CallContext<'tcx>>,
-           external_calls: &'b mut FxHashMap<String,DefId>,
+           external_calls: &'b mut FxHashMap<String, DefId>,
            optimistic: bool,
            depth: usize,
     ) -> Self {
-        CallsVisitor { cx, mir, fn_ctx, call_graph, with_unsafe, external_calls, optimistic, depth}
+        CallsVisitor { cx, mir, fn_ctx, call_graph, with_unsafe, external_calls, optimistic, depth }
     }
 
     fn has_parametric_call(&self, cd: &CallData<'tcx>) -> bool {
         match cd.calls {
-            None => {false}
-            Some (ref calls) => {
+            None => { false }
+            Some(ref calls) => {
                 for cc in calls.iter() {
-                    if let Some (c) = self.call_graph.get(cc) {
+                    if let Some(c) = self.call_graph.get(cc) {
                         if let CallType::Parametric = c.call_type {
                             return true
                         }
@@ -294,217 +293,6 @@ impl<'a, 'b, 'tcx:'a+'b>  CallsVisitor<'a, 'b, 'tcx> {
                 false
             }
         }
-    }
-
-    // mutate in place the call data
-    fn resolve(&mut self, ctxt: CallContext<'tcx>) {
-
-        self.depth += 1;
-
-        error!("Resolve {:?} {:?}", ctxt.def_id, ctxt.substs);
-
-        // get calls for the method with no substitutions
-        let no_substs_ctx = CallContext {
-            def_id: ctxt.def_id,
-            substs: Some(Substs::identity_for_item(self.cx.tcx,ctxt.def_id)),
-        };
-
-        info!("Resolve no_substs_ctx: {:?} call_graph: {:?}", no_substs_ctx, self.call_graph.get(&no_substs_ctx));
-
-        //check if a node exists for def_id with no substs
-        let mut not_in_call_graph_no_subts = false; // for borrow checker
-        if let None = self.call_graph.get(&no_substs_ctx) {
-            not_in_call_graph_no_subts = true;
-        }
-        // call visitor on the no substitutions node if it does not exist in call graph
-        // and if this is the node without substs that has not been processed yet
-        if not_in_call_graph_no_subts {
-            //check if it has an MIR associated
-            if self.cx.tcx.mir_keys(hir::def_id::LOCAL_CRATE).contains(&no_substs_ctx.def_id) {
-                // Did not process yet this function
-                let mir = &mut self.cx.tcx.optimized_mir(no_substs_ctx.def_id);
-                let mut calls_visitor =
-                    CallsVisitor::new(&self.cx, mir,
-                                      &no_substs_ctx,
-                                      self.call_graph,
-                                      self.with_unsafe,
-                                      self.external_calls,
-                                      self.optimistic,
-                                      self.depth);
-                calls_visitor.visit_mir(mir);
-            } else {
-                error!("No MIR for {:?}", &ctxt);
-                return;
-            }
-        }
-
-        // insert node in call graph for this context if one does not exist
-        if let None = self.call_graph.get(&ctxt) {
-            self.call_graph.insert(ctxt, CallData {
-                call_type: CallType::Processing,
-                calls: None,
-            });
-        }
-
-        if self.with_unsafe.contains(&no_substs_ctx) {
-            self.with_unsafe.insert(ctxt.clone());
-            if let Some (call_data) = self.call_graph.get_mut(&ctxt) {
-                call_data.call_type = CallType::Resolved;
-                call_data.calls = None;
-            }
-        } else {
-            let mut call_data = CallData {
-                call_type: CallType::Processing,
-                calls: None,
-            };
-            let calls_no_substs_opt =
-                if let Some(cd) = self.call_graph.get(&no_substs_ctx) {
-                    cd.calls.clone()
-                } else {
-                    assert!(false);
-                    None
-                };
-            if let Some(calls) = calls_no_substs_opt { // there are calls
-                for callee_ctxt in calls.iter() {
-                    let mut cco = None;
-                    let mut unresolved_type = false;
-                    if let Some(caller_substs) = ctxt.substs {
-                        if let Some(callee_substs) = callee_ctxt.substs {
-                            let s1 = Substs::identity_for_item(self.cx.tcx, callee_ctxt.def_id);
-                            let s2 = s1.subst(self.cx.tcx, callee_substs);
-                            let new_substs = s2.subst(self.cx.tcx, caller_substs );
-                            error!("generics of caller {:?}", self.cx.tcx.generics_of(ctxt.def_id));
-                            error!("generics of callee {:?}", self.cx.tcx.generics_of(callee_ctxt.def_id));
-                            error!("caller substs {:?}", caller_substs);
-                            error!("callee substs {:?}", callee_substs);
-//                            let new_substs = callee_substs.subst(self.cx.tcx, caller_substs);
-                            error!("new substs substs {:?}", new_substs);
-                            // if the method has self and the self is a type parameter
-                            // do not try to resolve
-                            let mut try_resolve = true;
-                            if self.cx.tcx.generics_of( callee_ctxt.def_id ).has_self {
-                                if let ty::subst::UnpackedKind::Type(ty) = new_substs[0].unpack() {
-                                    if let ty::TyKind::Param(_) = ty.sty {
-                                        try_resolve = false;
-                                        unresolved_type = true;
-                                    }
-                                }
-                            }
-                            if try_resolve {
-                                let param_env = self.cx.tcx.param_env(ctxt.def_id);
-                                if let Some(instance) = ty::Instance::resolve(self.cx.tcx,
-                                                                              param_env,
-                                                                              callee_ctxt.def_id,
-                                                                              new_substs) {
-                                    match instance.def {
-                                        ty::InstanceDef::Item(def_id)
-                                        | ty::InstanceDef::Intrinsic(def_id)
-                                        | ty::InstanceDef::CloneShim(def_id, _) => {
-                                            if self.cx.tcx.is_closure(def_id) {
-                                                //do nothing
-                                                info!("closure {:?}", instance.def);
-                                            } else {
-                                                // if the only subst is self replace with None
-                                                let ctxt_substs =
-                                                    if new_substs.len() == 1 {
-                                                        if self.cx.tcx.generics_of(def_id).has_self {
-                                                            Some(new_substs)
-                                                        } else {
-                                                            if self.cx.tcx.generics_of(callee_ctxt.def_id).has_self {
-                                                                None
-                                                            } else {
-                                                                Some(new_substs)
-                                                            }
-                                                        }
-                                                    } else {
-                                                        Some(new_substs)
-                                                    };
-                                                cco = Some(CallContext {
-                                                    def_id: def_id,
-                                                    substs: ctxt_substs,
-                                                });
-                                            }
-                                        }
-                                        | ty::InstanceDef::Virtual(def_id, _) => {
-                                            assert!(false);
-                                        }
-                                        _ => {
-                                            error!("ty::InstanceDef:: NOT handled {:?}", instance.def);
-                                            assert!(false);
-                                        }
-                                    }
-                                } else {
-                                    // unresolved type, still trait method
-                                    //error!("no type for func: {:?}", ctxt.def_id);
-                                    cco = Some(
-                                        CallContext {
-                                            def_id: callee_ctxt.def_id,
-                                            substs: Some(new_substs),
-                                        }
-                                    );
-                                    unresolved_type = true;
-                                }
-                            } else {
-                                cco = Some(
-                                    CallContext {
-                                        def_id: callee_ctxt.def_id,
-                                        substs: Some(new_substs),
-                                    }
-                                );
-                            }
-                            if let Some(cc) = cco {
-                                let mut needs_resolve = false; // for borrow checker
-                                if let None = self.call_graph.get(&cc) {
-                                    // if the cc.def_id is a method without impl set unresolved_type
-                                    if self.cx.tcx.is_mir_available(cc.def_id) {
-                                        needs_resolve = true;
-                                    } else {
-                                        unresolved_type = true;
-                                    }
-                                }
-                                if self.depth < MAX_DEPTH {
-                                    if needs_resolve {
-                                        let cc = CallContext {
-                                            def_id: cc.def_id,
-                                            substs: cc.substs,
-                                        };
-//                                        error!("in resolve {:?} {:?}", cc, self.call_graph.get(&cc));
-
-                                        self.resolve(cc);
-                                    }
-                                    call_data.push(cc);
-                                } else {
-                                    // ignore the call
-                                }
-                            }
-                            if unresolved_type {
-                                call_data.call_type = CallType::Parametric
-                            } else {
-                                //if any callee is still parametric, this call is also parametric
-                                if self.has_parametric_call(&call_data) {
-                                    call_data.call_type = CallType::Parametric
-                                } else {
-                                    call_data.call_type = CallType::Resolved
-                                }
-                            }
-                        } else {// if let Some(calls) = calls_no_substs_opt
-                            // no_subst had no calls
-                            call_data.call_type = CallType::Resolved;
-                            call_data.calls = None;
-                        }
-                    } else {  // if let Some(caller_substs) = ctxt.substs
-                        error!("No substs for caller {:?}", ctxt);
-                        assert!(false);
-                    }
-                } // end for
-            } else {
-                call_data.call_type = CallType::Resolved;
-            }
-            self.call_graph.insert(ctxt, call_data);
-            //error!("Resolved {:?} calls: {:?}", ctxt.def_id, self.call_graph.get(&ctxt));
-        }
-        self.depth -= 1;
-//        error!("Resolve END {:?} {:?} {:?}", ctxt.def_id, ctxt.substs, self.call_graph.get(&ctxt));
     }
 }
 
@@ -584,7 +372,15 @@ impl<'a, 'b, 'tcx:'a+'b> Visitor<'tcx> for CallsVisitor<'a,'b,'tcx> {
                                 let callee_id_substs = Substs::identity_for_item(self.cx.tcx,callee_def_id);
                                 info!("callee_id_substs {:?}", callee_id_substs);
                                 // combine callee substs
-                                let new_substs = callee_id_substs.subst(self.cx.tcx, callee_subst);
+
+                                let s1 =
+                                    if let Some (caller_substs) = self.fn_ctx.substs {
+                                        callee_id_substs.subst(self.cx.tcx, callee_subst)
+                                    } else {
+                                        callee_id_substs
+                                    };
+                                let new_substs = s1.subst(self.cx.tcx, callee_subst);
+
                                 info!("new_substs {:?}", new_substs);
                                 // find actual method call
                                 let param_env = self.cx.tcx.param_env(self.fn_ctx.def_id);
@@ -601,9 +397,6 @@ impl<'a, 'b, 'tcx:'a+'b> Visitor<'tcx> for CallsVisitor<'a,'b,'tcx> {
                                                 //do nothing
                                                 error!("closure {:?}", instance.def);
                                             } else {
-                                                error!("callee def id: {:?}", def_id);
-                                                error!("callee default substs: {:?}", Substs::identity_for_item(self.cx.tcx,def_id));
-                                                // if Self disappears, I need to shrink the new_substs
                                                 cco = Some(CallContext {
                                                     def_id: def_id,
                                                     substs: if new_substs.len() == 0 {
@@ -672,23 +465,27 @@ impl<'a, 'b, 'tcx:'a+'b> Visitor<'tcx> for CallsVisitor<'a,'b,'tcx> {
                             } else { assert!(false); };
                         } else { assert!(false); };
                     } else {
-                        if let Some (mut cc) = cco {
+                        if let Some (cc) = cco {
 //                            error!(" visit_terminator call {:?} {:?}", cco, self.call_graph.get(&cc));
                             if cc.substs != None {
                                 let mut not_in_call_graph = None == self.call_graph.get(&cc);
                                 if not_in_call_graph {
-//                                    let id_substs = Substs::identity_for_item(self.cx.tcx,cc.def_id);
-//                                    cc.substs =
-//                                        if let Some (substs) = cc.substs {
-//                                            Some (id_substs.subst(self.cx.tcx,&substs))
-//                                        } else {
-//                                            None
-//                                        };
-
-                                    self.resolve(CallContext {
-                                        def_id: cc.def_id,
-                                        substs: cc.substs
-                                    });
+                                    if self.cx.tcx.mir_keys(hir::def_id::LOCAL_CRATE).contains(&cc.def_id) {
+                                        // Did not process yet this function
+                                        let mir = &mut self.cx.tcx.optimized_mir(cc.def_id);
+                                        let mut calls_visitor =
+                                            CallsVisitor::new(&self.cx, mir,
+                                                              &cc,
+                                                              self.call_graph,
+                                                              self.with_unsafe,
+                                                              self.external_calls,
+                                                              self.optimistic,
+                                                              self.depth);
+                                        calls_visitor.visit_mir(mir);
+                                    } else {
+                                        error!("No MIR for {:?}", &cc);
+                                        return;
+                                    }
                                 }
                             }
                             if let Some(call_data) = self.call_graph.get_mut(self.fn_ctx) {
