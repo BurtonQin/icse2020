@@ -56,23 +56,17 @@ impl ::std::fmt::Debug for Type {
         };
         self.command_buffer.update_buffer(
             self.handles.ref_buffer(buf.raw()).clone(), slice, 0);
-5. rustfmt 
-fn isatty() -> bool {
-        extern crate libc;
-
-        unsafe { libc::isatty(libc::STDOUT_FILENO) != 0 }
-    }
-
+5. rustfmt - C function call
 6. log
+- changes the type from usize to enum LevelFilter (static MAX_LOG_LEVEL_FILTER: AtomicUsize = ATOMIC_USIZE_INIT;)
 pub fn max_level() -> LevelFilter {
     unsafe { mem::transmute(MAX_LOG_LEVEL_FILTER.load(Ordering::Relaxed)) }
 }
-changes the type from usize to enum LevelFilter (static MAX_LOG_LEVEL_FILTER: AtomicUsize = ATOMIC_USIZE_INIT;)
 
+- returns a Rust reference to the interior object in Box
 pub fn set_boxed_logger(logger: Box<Log>) -> Result<(), SetLoggerError> {
     set_logger_inner(|| unsafe { &*Box::into_raw(logger) })
 }
-returns a Rust reference to the interior object in Box
 
 fn set_logger_inner<F>(make_logger: F) -> Result<(), SetLoggerError>
 where
@@ -118,5 +112,12 @@ pub fn logger() -> &'static Log {
             unsafe {
                 f(Some(&*(ptr as *const Downloads)))
             }
+8. syslog - call to libc function getpid
+9. wayland-window
+- conversion from [u8] to [u32]
+unsafe { ::std::slice::from_raw_parts(states.as_ptr() as *const _, states.len() / 4) };
+10. scoped_threadpool
+- changes lifetime  mem::transmute::<Thunk<'scope>, Thunk<'static>>(Box::new(f))
+
 
 
