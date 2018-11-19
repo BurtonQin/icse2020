@@ -76,8 +76,7 @@ pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>
             hir::Unsafety::Normal => {
 
                 let ty = cx.tcx.type_of(fn_def_id);
-                if let TyKind::FnDef(new_def_id, substs) = ty.sty {
-                    info!("fn_def_id {:?} new_def_id {:?} substs {:?}", fn_def_id, new_def_id, substs);
+                if let TyKind::FnDef(_, substs) = ty.sty {
                     // TODO figure out whe I might want None for substs
                     let cc = CallContext {
                         def_id: fn_def_id,
@@ -582,10 +581,11 @@ impl<'a, 'b, 'tcx:'a+'b> Visitor<'tcx> for CallsVisitor<'a,'b,'tcx> {
                                 // do nothing
                             } else {
                                 let callee_id_substs = Substs::identity_for_item(self.cx.tcx,callee_def_id);
-                                info!("callee_id_substs {:?}", callee_id_substs);
+                                error!("callee_def_id: {:?}", callee_def_id);
+                                info!("callee_def_id identity substs {:?}", callee_id_substs);
                                 // combine callee substs
                                 let new_substs = callee_id_substs.subst(self.cx.tcx, callee_subst);
-                                info!("new_substs {:?}", new_substs);
+                                info!("callee_def_id substs {:?}", new_substs);
                                 // find actual method call
                                 let param_env = self.cx.tcx.param_env(self.fn_ctx.def_id);
                                 if let Some(instance) = ty::Instance::resolve(self.cx.tcx,
@@ -601,15 +601,31 @@ impl<'a, 'b, 'tcx:'a+'b> Visitor<'tcx> for CallsVisitor<'a,'b,'tcx> {
                                                 //do nothing
                                                 error!("closure {:?}", instance.def);
                                             } else {
-                                                error!("callee def id: {:?}", def_id);
-                                                error!("callee default substs: {:?}", Substs::identity_for_item(self.cx.tcx,def_id));
+                                                error!("Instance::resolve def_id: {:?}", def_id);
+                                                error!("Instance::resolve default substs: {:?}", Substs::identity_for_item(self.cx.tcx,def_id));
+                                                error!("generics callee_def_id {:?}", self.cx.tcx.generics_of(callee_def_id));
+                                                error!("generics Instance::resolve def_id {:?}",self.cx.tcx.generics_of(def_id));
+                                                let s = new_substs;
+//                                                    if self.cx.tcx.generics_of(callee_def_id).has_self &&
+//                                                        !self.cx.tcx.generics_of(def_id).has_self {
+//                                                        // cut the list of new_substs
+//                                                        Substs::for_item(self.cx.tcx, def_id,
+//                                                            |param_def, kinds| {
+//                                                                new_substs[(param_def.index-1) as usize]
+//                                                            }
+//                                                        )
+//                                                    } else {
+//                                                        new_substs
+//                                                    };
+//                                                error!("truncated substs: {:?}", s);
+
                                                 // if Self disappears, I need to shrink the new_substs
                                                 cco = Some(CallContext {
                                                     def_id: def_id,
-                                                    substs: if new_substs.len() == 0 {
+                                                    substs: if s.len() == 0 {
                                                         None
                                                     } else {
-                                                        Some(new_substs)
+                                                        Some(s)
                                                     },
                                                 });
                                             }
