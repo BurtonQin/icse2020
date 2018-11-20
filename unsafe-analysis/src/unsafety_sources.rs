@@ -22,6 +22,7 @@ pub trait UnsafetySourceCollector {
         kind: SourceKind,
         source_info: SourceInfo,
         node_id: NodeId,
+        user_provided: bool,
     );
 }
 
@@ -33,7 +34,6 @@ pub struct UnsafetySourcesVisitor<'a, 'tcx: 'a> {
     param_env: ty::ParamEnv<'tcx>,
     source_info: SourceInfo,
     source_scope_local_data: &'a IndexVec<SourceScope, SourceScopeLocalData>,
-    user_defined_only: bool,
 }
 
 impl<'a, 'tcx> UnsafetySourcesVisitor<'a, 'tcx> {
@@ -42,7 +42,6 @@ impl<'a, 'tcx> UnsafetySourcesVisitor<'a, 'tcx> {
         mir: &'a Mir<'tcx>,
         data: &'a mut UnsafetySourceCollector,
         fn_def_id: hir::def_id::DefId,
-        user_defined_only: bool
     ) -> Option<Self> {
         match mir.source_scope_local_data {
             ClearCrossCrate::Set(ref local_data) => Some(UnsafetySourcesVisitor {
@@ -56,28 +55,76 @@ impl<'a, 'tcx> UnsafetySourcesVisitor<'a, 'tcx> {
                     scope: OUTERMOST_SOURCE_SCOPE,
                 },
                 source_scope_local_data: local_data,
-                user_defined_only,
             }),
             ClearCrossCrate::Clear => {
-                error!("unsafety_violations: {:?} - remote, skipping", fn_def_id);
+                info!("unsafety_violations: {:?} - remote, skipping", fn_def_id);
                 None
             }
         }
     }
 
-    fn get_unsafety_node_id(&self) -> Option<NodeId> {
-        match self.source_scope_local_data[self.source_info.scope].safety {
-            Safety::Safe => None,
-            Safety::BuiltinUnsafe => {
-                // TODO decide if this is the best strategy
-                if self.user_defined_only {
-                    None
+    fn is_unsafety_user_provided(&self, source_info: SourceInfo) -> bool {
+        match self.source_scope_local_data[source_info.scope].safety {
+            Safety::Safe => {
+                //assert!(false, "loc = {:?}", source_info);
+                // it appears on alloc::alloc::box_free
+                false
+            },
+            Safety::BuiltinUnsafe => { false } // TODO check this
+            Safety::FnUnsafe => { true },
+            Safety::ExplicitUnsafe(node_id) => {
+                let node = self.cx.tcx.hir.get(node_id);
+                if let hir::Node::Block(block) = node {
+                    match block.rules {
+                        hir::BlockCheckMode::DefaultBlock => {
+                            false
+                        }
+                        hir::BlockCheckMode::UnsafeBlock(unsafe_source) |
+                        hir::BlockCheckMode::PushUnsafeBlock(unsafe_source) |
+                        hir::BlockCheckMode::PopUnsafeBlock(unsafe_source) => {
+                            match unsafe_source {
+                                hir::UnsafeSource::UserProvided => {
+                                    true
+                                }
+                                hir::UnsafeSource::CompilerGenerated => {
+                                    false
+                                }
+                            }
+                        }
+                    }
                 } else {
-                    Some (self.fn_node_id)
+                    assert!(false); false
                 }
-            }
-            Safety::FnUnsafe => Some (self.fn_node_id),
-            Safety::ExplicitUnsafe(node_id) => Some(node_id),
+            },
+        }
+    }
+
+    fn get_unsafety_node_id(&self, source_info: SourceInfo) -> Option<NodeId> {
+        match self.source_scope_local_data[source_info.scope].safety {
+            Safety::Safe => {
+                //assert!(false);
+                None
+            },
+            Safety::BuiltinUnsafe => { Some(self.fn_node_id) }
+            Safety::FnUnsafe => { Some(self.fn_node_id) },
+            Safety::ExplicitUnsafe(node_id) => { Some(node_id) }
+        }
+    }
+
+    fn add_unsafety_source(
+        &mut self,
+        kind: SourceKind,
+        source_info: SourceInfo,
+    ) {
+        let user_provided = self.is_unsafety_user_provided(source_info);
+        if let Some (unsafety_node_id) = self.get_unsafety_node_id(source_info) {
+            self.data.add_unsafety_source(
+                self.cx,
+                kind,
+                source_info,
+                unsafety_node_id,
+                user_provided
+            );
         }
     }
 }
@@ -114,9 +161,7 @@ impl<'a, 'tcx> Visitor<'tcx> for UnsafetySourcesVisitor<'a, 'tcx> {
                 if let hir::Unsafety::Unsafe = sig.unsafety() {
                     let loc = terminator.source_info;
                     let kind = SourceKind::UnsafeFnCall(convert_abi(sig.abi()));
-                    if let Some (unsafety_node_id) = self.get_unsafety_node_id() {
-                        self.data.add_unsafety_source(self.cx, kind, loc, unsafety_node_id);
-                    }
+                    self.add_unsafety_source(kind, loc);
                 }
             }
         }
@@ -132,14 +177,10 @@ impl<'a, 'tcx> Visitor<'tcx> for UnsafetySourcesVisitor<'a, 'tcx> {
         self.source_info = statement.source_info;
         match statement.kind {
             StatementKind::InlineAsm { .. } => {
-                if let Some (unsafety_node_id) = self.get_unsafety_node_id() {
-                    self.data.add_unsafety_source(
-                        self.cx,
+                self.add_unsafety_source(
                         SourceKind::Asm,
                         statement.source_info,
-                        unsafety_node_id,
                     );
-                }
             }
             _ => {
                 // safe (at least as emitted during MIR construction)
@@ -164,7 +205,6 @@ impl<'a, 'tcx> Visitor<'tcx> for UnsafetySourcesVisitor<'a, 'tcx> {
                         param_env: self.cx.tcx.param_env(def_id),
                         source_info: self.source_info,
                         source_scope_local_data: self.source_scope_local_data,
-                        user_defined_only: self.user_defined_only,
                     };
                     body_visitor.visit_mir(mir);
                 }
@@ -181,14 +221,11 @@ impl<'a, 'tcx> Visitor<'tcx> for UnsafetySourcesVisitor<'a, 'tcx> {
     ) {
         if let PlaceContext::Borrow { .. } = context {
             if rustc_mir::util::is_disaligned(self.cx.tcx, self.mir, self.param_env, place) {
-                if let Some (unsafety_node_id) = self.get_unsafety_node_id() {
-                    self.data.add_unsafety_source(
-                        self.cx,
+                let source_info = self.source_info;
+                    self.add_unsafety_source(
                         SourceKind::BorrowPacked,
-                        self.source_info,
-                        unsafety_node_id,
+                        source_info,
                     );
-                }
             }
         }
 
@@ -206,14 +243,11 @@ impl<'a, 'tcx> Visitor<'tcx> for UnsafetySourcesVisitor<'a, 'tcx> {
                 let base_ty = base.ty(self.mir, self.cx.tcx).to_ty(self.cx.tcx);
                 match base_ty.sty {
                     ty::TyKind::RawPtr(..) => {
-                        if let Some (unsafety_node_id) = self.get_unsafety_node_id() {
-                            self.data.add_unsafety_source(
-                                self.cx,
+                        let source_info = self.source_info;
+                        self.add_unsafety_source(
                                 SourceKind::DerefRawPointer,
-                                self.source_info,
-                                unsafety_node_id,
+                                source_info,
                             );
-                        }
                     }
                     ty::TyKind::Adt(adt, _) => {
                         if adt.is_union() {
@@ -234,27 +268,20 @@ impl<'a, 'tcx> Visitor<'tcx> for UnsafetySourcesVisitor<'a, 'tcx> {
                                         self.param_env,
                                         self.source_info.span,
                                     ) {
-                                        if let Some (unsafety_node_id) = self.get_unsafety_node_id() {
-                                            let kind = SourceKind::AssignmentToNonCopyUnionField;
-                                            self.data.add_unsafety_source(
-                                                self.cx,
-                                                kind,
-                                                self.source_info,
-                                                unsafety_node_id,
-                                            );
-                                        }
+                                        let source_info = self.source_info;
+                                        self.add_unsafety_source(
+                                            SourceKind::AssignmentToNonCopyUnionField,
+                                            source_info,
+                                        );
                                     } else {
                                         // write to non-move union, safe
                                     }
                                 } else {
-                                    if let Some (unsafety_node_id) = self.get_unsafety_node_id() {
-                                        self.data.add_unsafety_source(
-                                            self.cx,
-                                            SourceKind::AccessToUnionField,
-                                            self.source_info,
-                                            unsafety_node_id,
-                                        );
-                                    }
+                                    let source_info = self.source_info;
+                                    self.add_unsafety_source(
+                                        SourceKind::AccessToUnionField,
+                                        source_info,
+                                    );
                                 }
                         }
                     }
@@ -269,24 +296,17 @@ impl<'a, 'tcx> Visitor<'tcx> for UnsafetySourcesVisitor<'a, 'tcx> {
                 //TODO find out what this is
             }
             &Place::Static(box Static { def_id, ty: _ }) => {
+                let source_info = self.source_info;
                 if self.cx.tcx.is_static(def_id) == Some(hir::Mutability::MutMutable) {
-                    if let Some (unsafety_node_id) = self.get_unsafety_node_id() {
-                        self.data.add_unsafety_source(
-                            self.cx,
+                        self.add_unsafety_source(
                             SourceKind::Static,
-                            self.source_info,
-                            unsafety_node_id,
+                            source_info,
                         );
-                    }
                 } else if self.cx.tcx.is_foreign_item(def_id) {
-                    if let Some (unsafety_node_id) = self.get_unsafety_node_id() {
-                        self.data.add_unsafety_source(
-                            self.cx,
+                        self.add_unsafety_source(
                             SourceKind::ExternStatic,
-                            self.source_info,
-                            unsafety_node_id,
+                            source_info,
                         );
-                    }
                 }
             }
         };

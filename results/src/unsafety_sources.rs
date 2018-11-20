@@ -10,6 +10,7 @@ pub enum FnCallInfo {
 pub struct Source {
     pub loc: String,
     pub kind: SourceKind,
+    pub user_provided: bool,
 }
 
 #[derive(Serialize, Deserialize, Debug)]

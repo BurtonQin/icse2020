@@ -36,23 +36,13 @@ impl SourceSummary {
 }
 
 
-pub fn process_rq(crates: &Vec<(String,String)>, user_only: bool) {
-    let output_file =
-        if user_only {
-            ::get_output_file("rq05-user-only")
-        } else {
-            ::get_output_file("rq05")
-        };
+pub fn process_rq(crates: &Vec<(String,String)>) {
+    let output_file = ::get_output_file("rq05");
     let mut writer = BufWriter::new(output_file);
     for (crate_name, version) in crates {
         let dir_name = ::get_full_analysis_dir();
         let file_ops = results::FileOps::new( crate_name, &version, &dir_name );
-        let file =
-            if user_only {
-                file_ops.get_fn_unsafety_sources_user_only_file(false)
-            } else {
-                file_ops.get_fn_unsafety_sources_file(false)
-            };
+        let file = file_ops.get_fn_unsafety_sources_file(false);
         let mut reader = BufReader::new(file);
         //read line by line
         loop {

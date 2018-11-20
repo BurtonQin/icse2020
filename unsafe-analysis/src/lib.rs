@@ -80,9 +80,6 @@ impl<'a, 'tcx> LintPass for Functions {
 impl<'a, 'tcx> LateLintPass<'a, 'tcx> for Functions {
 
     fn check_crate(&mut self, _: &LateContext<'a, 'tcx>, _: &'tcx Crate) {
-        // get error logger already initialized
-//        env_logger::init();
-//        info!("Logger Initialized");
     }
 
 
@@ -91,12 +88,12 @@ impl<'a, 'tcx> LateLintPass<'a, 'tcx> for Functions {
         let root_dir = get_root_dir();
 
         let cnv = local_crate_name_and_version();
-        // safe functions
         let file_ops = results::FileOps::new(&cnv.0, &cnv.1, &root_dir);
 
 //        // blocks summary
 //        let bb_summary: results::blocks::BlockSummary = blocks::run_summary_analysis(cx);
 //        save_summary_analysis(bb_summary, &mut file_ops.get_blocks_summary_file(true));
+//
 //        // unsafe functions summary
 //        let mut fn_summary_file = file_ops.get_summary_functions_file(true);
 //        save_summary_analysis(
@@ -106,6 +103,7 @@ impl<'a, 'tcx> LateLintPass<'a, 'tcx> for Functions {
 //            ),
 //            &mut fn_summary_file,
 //        );
+//
 //        // unsafe traits
 //        let mut impls_file = file_ops.get_unsafe_traits_impls_file(true);
 //        let mut traits_file = file_ops.get_unsafe_traits_file(true);
@@ -114,24 +112,15 @@ impl<'a, 'tcx> LateLintPass<'a, 'tcx> for Functions {
 //        save_analysis(result.unsafe_traits, &mut traits_file);
 //        //unsafety sources in blocks
 //        let mut bus_file = file_ops.get_blocks_unsafety_sources_file(true);
-//        let bus_res = blocks::run_unsafety_sources_analysis(cx,&self.normal_functions, false);
+//        let bus_res = blocks::run_unsafety_sources_analysis(cx,&self.normal_functions);
 //        save_analysis(bus_res, &mut bus_file);
-//        //  unsafety sources in blocks user only
-//        let mut bus_user_file = file_ops.get_blocks_unsafety_sources_file_user_only(true);
-//        let bus_res = blocks::run_unsafety_sources_analysis(cx,&self.normal_functions, true);
-//        save_analysis(bus_res, &mut bus_user_file);
-//        //unsafety in functions
+//       //unsafety in functions
 //        let (fn_unsafety,no_reason) = functions::run_sources_analysis(cx,&self.unsafe_functions, false);
 //        save_analysis(fn_unsafety,&mut file_ops.get_fn_unsafety_sources_file(true));
 //        save_analysis(no_reason,&mut file_ops.get_no_reason_for_unsafety_file(true));
-//        //unsafety in functions user only
-//        let (fn_unsafety,no_reason) = functions::run_sources_analysis(cx,&self.unsafe_functions, true);
-//        save_analysis(fn_unsafety,&mut file_ops.get_fn_unsafety_sources_user_only_file(true));
 //        //save_analysis(no_reason,&mut file_ops.get_no_reason_for_unsafety_file(true));
 //        //unsafe function calls
-//        let unsafe_calls = calls::run_analysis(cx, false);
-//        save_analysis(unsafe_calls, &mut file_ops.get_unsafe_calls_file(true));
-//        let unsafe_calls = calls::run_analysis(cx, false);
+//        let unsafe_calls = calls::run_analysis(cx);
 //        save_analysis(unsafe_calls, &mut file_ops.get_unsafe_calls_file(true));
 //
 //        let opt_impl_unsafe = implicit_unsafe::coarse::run_sources_analysis(cx,&self.normal_functions, true);
@@ -143,10 +132,10 @@ impl<'a, 'tcx> LateLintPass<'a, 'tcx> for Functions {
                                                                              true);
         save_analysis(opt_rta_impl_unsafe, &mut file_ops.get_implicit_unsafe_precise_opt_file(true));
 
-//        let pes_rta_impl_unsafe = implicit_unsafe::rta::run_sources_analysis(cx,
-//                                                                                &self.normal_functions,
-//                                                                                false);
-//        save_analysis(pes_rta_impl_unsafe, &mut file_ops.get_implicit_unsafe_precise_pes_file(true));
+        let pes_rta_impl_unsafe = implicit_unsafe::rta::run_sources_analysis(cx,
+                                                                                &self.normal_functions,
+                                                                                false);
+        save_analysis(pes_rta_impl_unsafe, &mut file_ops.get_implicit_unsafe_precise_pes_file(true));
     }
 
     fn check_body(&mut self, cx: &LateContext<'a, 'tcx>, body: &'tcx hir::Body) {

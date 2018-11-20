@@ -45,7 +45,7 @@ impl<'a, 'tcx> rustc::hir::intravisit::Visitor<'tcx> for TraitVisitor<'a, 'tcx> 
                         .push(UnsafeTrait::new(::get_node_name(self.cx,  self.cx.tcx.hir.local_def_id(item.id))));
             }
         }
-        rustc::hir::intravisit::walk_item(self, item); //TODO maybe not needed- are nested traits a thing?
+        rustc::hir::intravisit::walk_item(self, item);
     }
 
     fn nested_visit_map<'this>(

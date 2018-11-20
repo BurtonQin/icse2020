@@ -2,13 +2,15 @@ use unsafety_sources::Source;
 
 #[derive(Serialize, Deserialize, Debug)]
 pub struct BlockSummary {
+    pub user_unsafe_blocks: usize,
     pub unsafe_blocks: usize,
     pub total: usize,
 }
 
 impl BlockSummary {
-    pub fn new( unsafe_blocks: usize, total: usize) -> Self {
+    pub fn new( user_unsafe_blocks: usize, unsafe_blocks: usize, total: usize) -> Self {
         BlockSummary {
+            user_unsafe_blocks,
             unsafe_blocks,
             total,
         }
@@ -16,32 +18,9 @@ impl BlockSummary {
 }
 
 #[derive(Serialize, Deserialize, Debug)]
-pub struct BlockUnsafetySourcesAnalysis {
-    sources: Vec<(String, Vec<Source>)>,
+pub struct BlockUnsafetySource {
+    pub block_id: String,
+    pub source: Source
 }
 
-impl BlockUnsafetySourcesAnalysis {
-    pub fn new() -> Self {
-        BlockUnsafetySourcesAnalysis {
-            sources: Vec::new(),
-        }
-    }
 
-    pub fn sources(&self) -> &Vec<(String, Vec<Source>)> { &&self.sources }
-
-    pub fn add_source(&mut self, block_id: String, source: Source) {
-        let found = self.sources.iter().any(|(node_id, _)| *node_id == block_id);
-        if found {
-            for (ref mut node_id, ref mut block_sources) in self.sources.iter_mut() {
-                if *node_id == block_id {
-                    block_sources.push(source);
-                    break; // TODO change to while
-                }
-            }
-        } else {
-            let mut block_sources = Vec::new();
-            block_sources.push(source);
-            self.sources.push((block_id, block_sources));
-        }
-    }
-}

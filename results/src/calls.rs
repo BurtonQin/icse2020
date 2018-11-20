@@ -6,5 +6,6 @@ pub struct ExternalCall {
     pub def_path: String,
     pub name: String,
     pub crate_name: String,
+    pub user_provided: bool,
 }
 
