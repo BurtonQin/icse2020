@@ -1,8 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"generator\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"universal\"), disambiguator: 0 }]","fn_type":"Safe","name":"nanoid::generator::universal"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"generator\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"fast\"), disambiguator: 0 }]","fn_type":"Safe","name":"nanoid::generator::fast"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"random\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"standart\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"nanoid::random::standart"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"random\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"os\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"nanoid::random::os"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"complex\"), disambiguator: 0 }]","fn_type":"Safe","name":"nanoid::complex"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"custom\"), disambiguator: 0 }]","fn_type":"Safe","name":"nanoid::custom"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"generate\"), disambiguator: 0 }]","fn_type":"Safe","name":"nanoid::generate"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"simple\"), disambiguator: 0 }]","fn_type":"Safe","name":"nanoid::simple"}

@@ -1,7 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Parameter as std::clone::Clone>::clone"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Method as std::clone::Clone>::clone"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Field as std::clone::Clone>::clone"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Class as std::clone::Clone>::clone"}
-{"def_path":"[DisambiguatedDefPathData { data: Trait(\"Pluggable\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"fields\"), disambiguator: 0 }]","fn_type":"Safe","name":"plugger_types::Pluggable::fields"}
-{"def_path":"[DisambiguatedDefPathData { data: Trait(\"Pluggable\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"methods\"), disambiguator: 0 }]","fn_type":"Safe","name":"plugger_types::Pluggable::methods"}
-{"def_path":"[DisambiguatedDefPathData { data: Trait(\"Pluggable\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"class\"), disambiguator: 0 }]","fn_type":"Safe","name":"plugger_types::Pluggable::class"}

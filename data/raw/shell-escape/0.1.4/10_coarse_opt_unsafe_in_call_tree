@@ -1,4 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"escape\"), disambiguator: 0 }]","fn_type":"Safe","name":"shell_escape::escape"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"windows\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"escape\"), disambiguator: 0 }]","fn_type":"Safe","name":"shell_escape::windows::escape"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"unix\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"non_whitelisted\"), disambiguator: 0 }]","fn_type":"Safe","name":"shell_escape::unix::non_whitelisted"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"unix\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"escape\"), disambiguator: 0 }]","fn_type":"Safe","name":"shell_escape::unix::escape"}

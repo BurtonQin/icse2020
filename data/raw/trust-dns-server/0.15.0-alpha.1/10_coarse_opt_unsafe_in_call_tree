@@ -1,9 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_zone_file\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"named::parse_zone_file"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"load_zone\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"named::load_zone"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"load_zone\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"load_keys\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"named::load_zone::load_keys"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"load_key\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"named::load_key"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"load_cert\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"named::load_cert"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"from\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Args as std::convert::From<clap::ArgMatches<'a>>>::from"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"named::main"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"config_tls\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"named::config_tls"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"banner\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"named::banner"}

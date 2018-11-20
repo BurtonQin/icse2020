@@ -1,2 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"normalized\"), disambiguator: 0 }]","fn_type":"Safe","name":"normalize_line_endings::normalized"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"next\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<Normalized<I> as std::iter::Iterator>::next"}

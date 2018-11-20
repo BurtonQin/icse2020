@@ -1,4 +1,0 @@
-{"name":"STACK_LIMIT::__getit","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__thread_local_inner\") line 16","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"_grow_the_stack","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 119","kind":{"UnsafeFnCall":"C"}}]}
-{"name":"_grow_the_stack::doit","from_trait":false,"arguments":[],"sources":[]}
-{"name":"guess_os_stack_limit","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 160","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/lib.rs\") line 161","kind":{"UnsafeFnCall":"C"}},{"loc":"file: Real(\"src/lib.rs\") line 162","kind":{"UnsafeFnCall":"C"}},{"loc":"file: Real(\"src/lib.rs\") line 162","kind":{"UnsafeFnCall":"C"}},{"loc":"file: Real(\"src/lib.rs\") line 166","kind":{"UnsafeFnCall":"C"}},{"loc":"file: Real(\"src/lib.rs\") line 168","kind":{"UnsafeFnCall":"C"}}]}

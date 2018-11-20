@@ -1,2 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"xxcalc::main"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"non_interactive\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"xxcalc::non_interactive::main"}

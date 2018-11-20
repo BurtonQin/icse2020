@@ -1,2 +1,0 @@
-{"name":"Context::start_frame_capture","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 60","kind":{"UnsafeFnCall":"C"}}]}
-{"name":"Context::end_frame_capture","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 70","kind":{"UnsafeFnCall":"C"}}]}

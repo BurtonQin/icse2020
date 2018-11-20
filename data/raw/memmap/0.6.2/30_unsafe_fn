@@ -1,6 +1,0 @@
-{"name":"MmapOptions::map","from_trait":true,"arguments":[],"sources":[]}
-{"name":"MmapOptions::map_exec","from_trait":true,"arguments":[],"sources":[]}
-{"name":"MmapOptions::map_mut","from_trait":true,"arguments":[],"sources":[]}
-{"name":"MmapOptions::map_copy","from_trait":true,"arguments":[],"sources":[]}
-{"name":"Mmap::map","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/memmap-0.6.2/src/lib.rs\") line 345","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"MmapMut::map_mut","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/memmap-0.6.2/src/lib.rs\") line 468","kind":{"UnsafeFnCall":"Rust"}}]}

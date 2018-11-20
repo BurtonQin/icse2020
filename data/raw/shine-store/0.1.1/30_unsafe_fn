@@ -1,8 +1,0 @@
-{"name":"<store::ReadGuard<'a, D>>::at_unsafe","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/store.rs\") line 275","kind":"DerefRawPointer"}]}
-{"name":"<store::WriteGuard<'a, D>>::at_unsafe","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/store.rs\") line 354","kind":"DerefRawPointer"}]}
-{"name":"<store::WriteGuard<'a, D>>::at_unsafe_mut","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/store.rs\") line 360","kind":"DerefRawPointer"}]}
-{"name":"<hashstore::ReadGuard<'a, K, D>>::at_unsafe","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/hashstore.rs\") line 317","kind":"DerefRawPointer"}]}
-{"name":"<hashstore::WriteGuard<'a, K, D>>::at_unsafe","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/hashstore.rs\") line 409","kind":"DerefRawPointer"}]}
-{"name":"<hashstore::WriteGuard<'a, K, D>>::at_unsafe_mut","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/hashstore.rs\") line 415","kind":"DerefRawPointer"}]}
-{"name":"<threadid::THREAD_ID_MANAGER as lazy_static::Deref>::deref::__stability","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__lazy_static_internal\") line 13","kind":"Static"}]}
-{"name":"threadid::THREAD_ID::__getit","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__thread_local_inner\") line 16","kind":{"UnsafeFnCall":"Rust"}}]}

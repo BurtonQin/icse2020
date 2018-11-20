@@ -1,4 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"setup_dnsmasq\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"taco_dev::setup_dnsmasq"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"setup_nginx\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"taco_dev::setup_nginx"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"reload_nginx\"), disambiguator: 0 }]","fn_type":"Safe","name":"taco_dev::reload_nginx"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"taco_dev::main"}

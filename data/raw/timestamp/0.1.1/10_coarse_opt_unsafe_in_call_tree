@@ -1,4 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_time_format\"), disambiguator: 0 }]","fn_type":"Safe","name":"timestamp::get_time_format"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"append_timestamp_to_stdin_yo\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"timestamp::append_timestamp_to_stdin_yo"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"inner\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"timestamp::inner"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"timestamp::main"}

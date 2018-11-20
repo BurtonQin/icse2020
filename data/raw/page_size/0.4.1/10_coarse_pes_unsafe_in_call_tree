@@ -1,5 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"page_size::get"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_granularity\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"page_size::get_granularity"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_helper\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"page_size::get_helper"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_granularity_helper\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"page_size::get_granularity_helper"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"unix\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"page_size::unix::get"}

@@ -1,4 +1,0 @@
-{"name":"<atomlock::SubCell<T> as std::marker::Send>"}
-{"name":"<atomlock::SubCell<T> as std::marker::Sync>"}
-{"name":"<prooflock::SubCell<T> as std::marker::Send>"}
-{"name":"<prooflock::SubCell<T> as std::marker::Sync>"}

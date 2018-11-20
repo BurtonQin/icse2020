@@ -1,6 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"symlink_auto\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"symlink::symlink_auto"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"symlink_file\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"symlink::symlink_file"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"symlink_dir\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"symlink::symlink_dir"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"remove_symlink_auto\"), disambiguator: 0 }]","fn_type":"Safe","name":"symlink::remove_symlink_auto"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"remove_symlink_dir\"), disambiguator: 0 }]","fn_type":"Safe","name":"symlink::remove_symlink_dir"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"remove_symlink_file\"), disambiguator: 0 }]","fn_type":"Safe","name":"symlink::remove_symlink_file"}

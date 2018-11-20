@@ -1,8 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"setup_seccomp\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"xvf::setup_seccomp"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"path_to_cstring\"), disambiguator: 0 }]","fn_type":"Safe","name":"xvf::path_to_cstring"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"rename_noreplace\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"xvf::rename_noreplace"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"rename_or_suffix\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"xvf::rename_or_suffix"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"deref\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<ARCHIVE_TYPES as lazy_static::Deref>::deref"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"deref\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"__static_ref_initialize\"), disambiguator: 0 }]","fn_type":"Safe","name":"<ARCHIVE_TYPES as lazy_static::Deref>::deref::__static_ref_initialize"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"initialize\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<ARCHIVE_TYPES as lazy_static::LazyStatic>::initialize"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"xvf::main"}

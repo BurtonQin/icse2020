@@ -1,2 +1,0 @@
-{"name":"<std::vec::Vec<T> as vec::VecUninitExtender>::extend_uninit","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/vec.rs\") line 8","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"qtable::QTable::as_ptr","from_trait":true,"arguments":[],"sources":[]}

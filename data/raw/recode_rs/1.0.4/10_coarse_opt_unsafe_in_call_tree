@@ -1,6 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"print_usage\"), disambiguator: 0 }]","fn_type":"Safe","name":"recode_rs::print_usage"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_encoding\"), disambiguator: 0 }]","fn_type":"Safe","name":"recode_rs::get_encoding"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"convert_via_utf8\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"recode_rs::convert_via_utf8"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"convert_via_utf16\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"recode_rs::convert_via_utf16"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"convert\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"recode_rs::convert"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"recode_rs::main"}

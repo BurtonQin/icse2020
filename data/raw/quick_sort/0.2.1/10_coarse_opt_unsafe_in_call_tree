@@ -1,5 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"sort\"), disambiguator: 0 }]","fn_type":"Safe","name":"quick_sort::sort"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"sort_by\"), disambiguator: 0 }]","fn_type":"Safe","name":"quick_sort::sort_by"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"qsort\"), disambiguator: 0 }]","fn_type":"Safe","name":"quick_sort::qsort"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"find_pivot\"), disambiguator: 0 }]","fn_type":"Safe","name":"quick_sort::find_pivot"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"partition\"), disambiguator: 0 }]","fn_type":"Safe","name":"quick_sort::partition"}

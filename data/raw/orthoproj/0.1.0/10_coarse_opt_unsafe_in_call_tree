@@ -1,7 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"<OrthoProj<T>>::new"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new_with_bg\"), disambiguator: 0 }]","fn_type":"Safe","name":"<OrthoProj<T>>::new_with_bg"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"xy_for_pos\"), disambiguator: 0 }]","fn_type":"Safe","name":"<OrthoProj<T>>::xy_for_pos"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"set\"), disambiguator: 0 }]","fn_type":"Safe","name":"<OrthoProj<T>>::set"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get\"), disambiguator: 0 }]","fn_type":"Safe","name":"<OrthoProj<T>>::get"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_pixel\"), disambiguator: 0 }]","fn_type":"Safe","name":"<OrthoProj<T>>::get_pixel"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"set_pixel\"), disambiguator: 0 }]","fn_type":"Safe","name":"<OrthoProj<T>>::set_pixel"}

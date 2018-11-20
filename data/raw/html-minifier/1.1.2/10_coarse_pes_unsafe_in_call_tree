@@ -1,5 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"html_minifier::HTMLMinifier::new"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"digest\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"html_minifier::HTMLMinifier::digest"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_html\"), disambiguator: 0 }]","fn_type":"Safe","name":"html_minifier::HTMLMinifier::get_html"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"minify\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"html_minifier::HTMLMinifier::minify"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"minify\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"html_minifier::minify"}

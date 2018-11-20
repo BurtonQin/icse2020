@@ -1,7 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"latest_version\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"tag_helper::latest_version"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"clap\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<Opt as structopt::StructOpt>::clap"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"from_clap\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<Opt as structopt::StructOpt>::from_clap"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"augment_clap\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"tag_helper::Opt::augment_clap"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"is_subcommand\"), disambiguator: 0 }]","fn_type":"Safe","name":"tag_helper::Opt::is_subcommand"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"tagger\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"tag_helper::tagger"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"tag_helper::main"}

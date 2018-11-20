@@ -1,9 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"sozu_acme::main"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"generate_account\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"sozu_acme::generate_account"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"sign_and_save\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"sozu_acme::sign_and_save"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"generate_id\"), disambiguator: 0 }]","fn_type":"Safe","name":"sozu_acme::generate_id"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"generate_app_id\"), disambiguator: 0 }]","fn_type":"Safe","name":"sozu_acme::generate_app_id"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"set_up_proxying\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"sozu_acme::set_up_proxying"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"remove_proxying\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"sozu_acme::remove_proxying"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"add_certificate\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"sozu_acme::add_certificate"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"order_command\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"sozu_acme::order_command"}

@@ -1,4 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"<EventPublisher<E>>::new"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"subscribe_handler\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<EventPublisher<E>>::subscribe_handler"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"unsubscribe_handler\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<EventPublisher<E>>::unsubscribe_handler"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"publish_event\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<EventPublisher<E>>::publish_event"}

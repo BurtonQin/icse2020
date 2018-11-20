@@ -1,6 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"eq\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<Trit as std::cmp::PartialEq>::eq"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"is_true\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"trit::Trit::is_true"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"is_false\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"trit::Trit::is_false"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"only_true\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"trit::Trit::only_true"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"only_false\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"trit::Trit::only_false"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"is_both\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"trit::Trit::is_both"}

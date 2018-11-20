@@ -1,7 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"call_box\"), disambiguator: 0 }]","fn_type":"Safe","name":"<F as FnBox>::call_box"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"threadpool::Sentinel::new"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"cancel\"), disambiguator: 0 }]","fn_type":"Safe","name":"threadpool::Sentinel::cancel"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"drop\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Sentinel<'a> as std::ops::Drop>::drop"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"threadpool::ThreadPool::new"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"execute\"), disambiguator: 0 }]","fn_type":"Safe","name":"threadpool::ThreadPool::execute"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"spawn_in_pool\"), disambiguator: 0 }]","fn_type":"Safe","name":"threadpool::spawn_in_pool"}

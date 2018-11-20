@@ -1,4 +1,0 @@
-{"name":"types::PrivUnion::new_from_prod","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/types.rs\") line 523","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
-{"name":"types::PrivUnion::new_from_tern","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/types.rs\") line 535","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
-{"name":"types::PrivUnion::prod","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/types.rs\") line 547","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
-{"name":"types::PrivUnion::tern","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/types.rs\") line 552","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}

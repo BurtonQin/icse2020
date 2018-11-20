@@ -1,4 +1,0 @@
-{"name":"nodes::HogwildParameter::value_mut","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/nodes.rs\") line 779","kind":"DerefRawPointer"}]}
-{"name":"nodes::HogwildParameter::squared_gradient_mut","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/nodes.rs\") line 783","kind":"DerefRawPointer"}]}
-{"name":"nodes::HogwildParameter::moments_mut","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/nodes.rs\") line 787","kind":"DerefRawPointer"}]}
-{"name":"nodes::HogwildParameter::num_updates_mut","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/nodes.rs\") line 791","kind":"DerefRawPointer"}]}

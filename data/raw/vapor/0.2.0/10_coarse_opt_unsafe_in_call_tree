@@ -1,8 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Vapor as std::clone::Clone>::clone"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"vapor::Vapor::new"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"event\"), disambiguator: 0 }]","fn_type":"Safe","name":"vapor::Vapor::event"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"gauge\"), disambiguator: 0 }]","fn_type":"Safe","name":"vapor::Vapor::gauge"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"sample_event\"), disambiguator: 0 }]","fn_type":"Safe","name":"vapor::Vapor::sample_event"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"sample_gauge\"), disambiguator: 0 }]","fn_type":"Safe","name":"vapor::Vapor::sample_gauge"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"calc_name\"), disambiguator: 0 }]","fn_type":"Safe","name":"vapor::Vapor::calc_name"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"should_send\"), disambiguator: 0 }]","fn_type":"Safe","name":"vapor::Vapor::should_send"}

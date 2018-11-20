@@ -1,1 +1,0 @@
-{"name":"madvise","from_trait":false,"arguments":[{"type_info":"type(*const u8)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 63","kind":{"UnsafeFnCall":"C"}}]}

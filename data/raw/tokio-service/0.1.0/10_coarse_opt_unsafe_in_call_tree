@@ -1,6 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new_service\"), disambiguator: 0 }]","fn_type":"Safe","name":"<F as NewService>::new_service"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"new_service\"), disambiguator: 0 }]","fn_type":"Safe","name":"<std::sync::Arc<S> as NewService>::new_service"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"new_service\"), disambiguator: 0 }]","fn_type":"Safe","name":"<std::rc::Rc<S> as NewService>::new_service"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"call\"), disambiguator: 0 }]","fn_type":"Safe","name":"<std::boxed::Box<S> as Service>::call"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"call\"), disambiguator: 0 }]","fn_type":"Safe","name":"<std::rc::Rc<S> as Service>::call"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"call\"), disambiguator: 0 }]","fn_type":"Safe","name":"<std::sync::Arc<S> as Service>::call"}

@@ -1,6 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"detached_session_number\"), disambiguator: 0 }]","fn_type":"Safe","name":"tmux_min_attacher::detached_session_number"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"detached_sessions\"), disambiguator: 0 }]","fn_type":"Safe","name":"tmux_min_attacher::detached_sessions"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"exec_program\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"tmux_min_attacher::exec_program"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"prepare_environment\"), disambiguator: 0 }]","fn_type":"Safe","name":"tmux_min_attacher::prepare_environment"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"start_server\"), disambiguator: 0 }]","fn_type":"Safe","name":"tmux_min_attacher::start_server"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"tmux_min_attacher::main"}

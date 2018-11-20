@@ -1,3 +1,0 @@
-{"name":"types::id::<impl utils::convert::FromCapnp<'a> for std::net::SocketAddr>::from_capnp::as_array","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"array_ref\") line 5","kind":"DerefRawPointer"}]}
-{"name":"types::id::<impl utils::convert::FromCapnp<'a> for std::net::SocketAddr>::from_capnp::as_array","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"array_ref\") line 5","kind":"DerefRawPointer"}]}
-{"name":"<utils::consistency::DEBUG_CHECK_CONSISTENCY as lazy_static::Deref>::deref::__stability","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__lazy_static_internal\") line 13","kind":"Static"}]}

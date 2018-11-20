@@ -1,4 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"recv\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"throughput::recv"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"send\"), disambiguator: 0 }]","fn_type":"Safe","name":"throughput::send"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"runit\"), disambiguator: 0 }]","fn_type":"Safe","name":"throughput::runit"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"Safe","name":"throughput::main"}

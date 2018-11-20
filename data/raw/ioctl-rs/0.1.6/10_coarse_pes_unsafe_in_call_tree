@@ -1,6 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"tiocexcl\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"ioctl_rs::tiocexcl"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"tiocnxcl\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"ioctl_rs::tiocnxcl"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"tiocmget\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"ioctl_rs::tiocmget"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"tiocmset\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"ioctl_rs::tiocmset"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"tiocmbis\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"ioctl_rs::tiocmbis"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"tiocmbic\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"ioctl_rs::tiocmbic"}

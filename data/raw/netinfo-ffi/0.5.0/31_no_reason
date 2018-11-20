@@ -1,7 +1,0 @@
-{"name":"netinfo_clear","node_id":"717","location":"file: Real(\"src/lib.rs\") line 419"}
-{"name":"netinfo_start","node_id":"724","location":"file: Real(\"src/lib.rs\") line 430"}
-{"name":"netinfo_stop","node_id":"731","location":"file: Real(\"src/lib.rs\") line 441"}
-{"name":"netinfo_set_min_refresh_interval","node_id":"738","location":"file: Real(\"src/lib.rs\") line 453"}
-{"name":"netinfo_free","node_id":"778","location":"file: Real(\"src/lib.rs\") line 489"}
-{"name":"netinfo_free_stat","node_id":"899","location":"file: Real(\"src/lib.rs\") line 587"}
-{"name":"netinfo_get_error_description","node_id":"906","location":"file: Real(\"src/lib.rs\") line 596"}

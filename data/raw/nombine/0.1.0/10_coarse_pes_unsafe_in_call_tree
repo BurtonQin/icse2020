@@ -1,6 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"from_nom\"), disambiguator: 0 }]","fn_type":"Safe","name":"nombine::from_nom"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"convert_from_nom\"), disambiguator: 0 }]","fn_type":"Safe","name":"nombine::convert_from_nom"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"from_combine\"), disambiguator: 0 }]","fn_type":"Safe","name":"nombine::from_combine"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"convert_from_combine\"), disambiguator: 0 }]","fn_type":"Safe","name":"nombine::convert_from_combine"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"position\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"nombine::position"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"from_nom_context\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"nombine::from_nom_context"}

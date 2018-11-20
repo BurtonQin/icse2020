@@ -1,8 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"default\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Name as std::default::Default>::default"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"names::Generator::new"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"with_naming\"), disambiguator: 0 }]","fn_type":"Safe","name":"names::Generator::with_naming"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"rand_adj\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"names::Generator::rand_adj"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"rand_noun\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"names::Generator::rand_noun"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"rand_num\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"names::Generator::rand_num"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"default\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Generator<'a> as std::default::Default>::default"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"next\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<Generator<'a> as std::iter::Iterator>::next"}

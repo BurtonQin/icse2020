@@ -1,3 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"private_box\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"init\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"private_box::private_box::init"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"private_box\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"encrypt\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"private_box::private_box::encrypt"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"private_box\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"decrypt\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"private_box::private_box::decrypt"}

@@ -1,5 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"impose::Audio::new"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"add_audio\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"impose::Audio::add_audio"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"add_packed_audio\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"impose::Audio::add_packed_audio"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"play\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"impose::Audio::play"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"repeat\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"impose::Audio::repeat"}

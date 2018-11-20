@@ -1,3 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"derive_from_form\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"susanoo_codegen::derive_from_form"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"impl_from_form\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"susanoo_codegen::impl_from_form"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"susanoo_codegen::registrar::_registrar"}

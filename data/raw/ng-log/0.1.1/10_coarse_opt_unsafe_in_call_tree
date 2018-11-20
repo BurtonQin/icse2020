@@ -1,8 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"ng_log::NgLog::new"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"local_from_reader\"), disambiguator: 0 }]","fn_type":"Safe","name":"ng_log::NgLog::local_from_reader"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"world_from_reader\"), disambiguator: 0 }]","fn_type":"Safe","name":"ng_log::NgLog::world_from_reader"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"from_string\"), disambiguator: 0 }]","fn_type":"Safe","name":"ng_log::NgLog::from_string"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"to_string\"), disambiguator: 0 }]","fn_type":"Safe","name":"<NgLog as std::string::ToString>::to_string"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"ng_log::NgEvent::new"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"from_string\"), disambiguator: 0 }]","fn_type":"Safe","name":"ng_log::NgEvent::from_string"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"to_string\"), disambiguator: 0 }]","fn_type":"Safe","name":"<NgEvent as std::string::ToString>::to_string"}

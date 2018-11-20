@@ -1,2 +1,0 @@
-{"name":"api::diag::addrs::addrs_v4","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/api/diag.rs\") line 52","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/api/diag.rs\") line 53","kind":"DerefRawPointer"}]}
-{"name":"api::diag::addrs::addrs_v6","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/api/diag.rs\") line 62","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/api/diag.rs\") line 63","kind":"DerefRawPointer"}]}

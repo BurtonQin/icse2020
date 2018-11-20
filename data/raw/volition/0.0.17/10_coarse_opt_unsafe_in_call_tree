@@ -1,4 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"default\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<Input as std::default::Default>::default"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"volition::Input::new"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"from_existing\"), disambiguator: 0 }]","fn_type":"Safe","name":"volition::Input::from_existing"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"update_inputs\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"volition::Input::update_inputs"}

@@ -1,3 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"fs\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"read_file\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"quicli::fs::read_file"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"fs\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"write_to_file\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"quicli::fs::write_to_file"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"fs\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"glob\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"quicli::fs::glob"}

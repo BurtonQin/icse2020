@@ -1,1 +1,0 @@
-{"name":"read_async_callback","from_trait":false,"arguments":[{"type_info":"type(*mut c_uchar)","kind":"RawPointer"},{"type_info":"type(*mut c_void)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"examples/ex1.rs\") line 161","kind":{"UnsafeFnCall":"Rust"}}]}

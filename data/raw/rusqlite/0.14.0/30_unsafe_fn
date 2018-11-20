@@ -1,6 +1,0 @@
-{"name":"busy::<impl Connection>::busy_handler::busy_handler_callback","from_trait":false,"arguments":[{"type_info":"type(*mut c_void)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/rusqlite-0.14.0/src/busy.rs\") line 50","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
-{"name":"raw_statement::RawStatement::ptr","from_trait":true,"arguments":[],"sources":[]}
-{"name":"errmsg_to_string","from_trait":false,"arguments":[{"type_info":"type(*const c_char)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/rusqlite-0.14.0/src/lib.rs\") line 151","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"Connection::handle","from_trait":true,"arguments":[],"sources":[]}
-{"name":"bypass_sqlite_initialization","from_trait":false,"arguments":[],"sources":[]}
-{"name":"bypass_sqlite_version_check","from_trait":false,"arguments":[],"sources":[]}

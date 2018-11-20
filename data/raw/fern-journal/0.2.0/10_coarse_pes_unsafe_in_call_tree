@@ -1,3 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"fern_journal::JournalLogger::new"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"log_args\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<JournalLogger as fern::FernLog>::log_args"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_logger\"), disambiguator: 0 }]","fn_type":"Safe","name":"fern_journal::get_logger"}

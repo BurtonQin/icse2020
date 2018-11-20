@@ -1,4 +1,0 @@
-{"name":"message::drop_msg_content_box","from_trait":false,"arguments":[{"type_info":"type(*mut c_void)","kind":"RawPointer"},{"type_info":"type(*mut c_void)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/zmq-pw-0.9.8/src/message.rs\") line 43","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"message::Message::alloc","from_trait":true,"arguments":[],"sources":[]}
-{"name":"message::Message::with_capacity_unallocated","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/zmq-pw-0.9.8/src/message.rs\") line 66","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"Socket::from_raw","from_trait":true,"arguments":[{"type_info":"type(*mut c_void)","kind":"RawPointer"}],"sources":[]}

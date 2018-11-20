@@ -1,4 +1,0 @@
-{"name":"memory::MemoryReference::from_reference_unchecked","from_trait":true,"arguments":[],"sources":[]}
-{"name":"objects::impls::utils::game_array_to_vec","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/objects/impls/utils.rs\") line 22","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"pathfinder::LocalCostMatrix::as_uploaded","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/pathfinder.rs\") line 70","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Macros(\"__js_raw_asm\") line 4","kind":{"UnsafeFnCall":"C"}}]}
-{"name":"pathfinder::PF_CALLBACK::FOO::__getit","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__thread_local_inner\") line 16","kind":{"UnsafeFnCall":"Rust"}}]}

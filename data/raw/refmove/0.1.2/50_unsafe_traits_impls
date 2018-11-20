@@ -1,6 +1,0 @@
-{"name":"<anchor::StackAnchor<T> as std::ops::Drop>"}
-{"name":"<anchor::BoxAnchor<T> as std::ops::Drop>"}
-{"name":"refmove::impls::<impl std::iter::TrustedLen for RefMove<'a, I>>"}
-{"name":"<RefMove<'a, T> as std::marker::Send>"}
-{"name":"<RefMove<'a, T> as std::marker::Sync>"}
-{"name":"<RefMove<'a, T> as std::ops::Drop>"}

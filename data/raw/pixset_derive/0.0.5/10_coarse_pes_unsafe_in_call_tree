@@ -1,8 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"pix_like\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"pixset_derive::pix_like"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"validate_input\"), disambiguator: 0 }]","fn_type":"Safe","name":"pixset_derive::validate_input"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"impl_pix\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"pixset_derive::impl_pix"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_total_attr\"), disambiguator: 0 }]","fn_type":"Safe","name":"pixset_derive::get_total_attr"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_variants\"), disambiguator: 0 }]","fn_type":"Safe","name":"pixset_derive::get_variants"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_coords\"), disambiguator: 0 }]","fn_type":"Safe","name":"pixset_derive::get_coords"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_tex_coords\"), disambiguator: 0 }]","fn_type":"Safe","name":"pixset_derive::get_tex_coords"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"pixset_derive::registrar::_registrar"}

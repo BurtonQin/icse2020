@@ -1,9 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"drop\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<DynamicLibrary as std::ops::Drop>::drop"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"open\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"dylib::DynamicLibrary::open"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"prepend_search_path\"), disambiguator: 0 }]","fn_type":"Safe","name":"dylib::DynamicLibrary::prepend_search_path"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"create_path\"), disambiguator: 0 }]","fn_type":"Safe","name":"dylib::DynamicLibrary::create_path"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"envvar\"), disambiguator: 0 }]","fn_type":"Safe","name":"dylib::DynamicLibrary::envvar"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"separator\"), disambiguator: 0 }]","fn_type":"Safe","name":"dylib::DynamicLibrary::separator"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"search_path\"), disambiguator: 0 }]","fn_type":"Safe","name":"dylib::DynamicLibrary::search_path"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"dl\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"open\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"dylib::dl::open"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"dl\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"check_for_errors_in\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"dylib::dl::check_for_errors_in"}

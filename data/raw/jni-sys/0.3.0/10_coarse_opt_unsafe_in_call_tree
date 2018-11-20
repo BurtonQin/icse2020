@@ -1,9 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<jvalue as std::clone::Clone>::clone"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 10 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<jobjectRefType as std::clone::Clone>::clone"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<JNINativeMethod as std::clone::Clone>::clone"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<JNINativeInterface_ as std::clone::Clone>::clone"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<JNIEnv_ as std::clone::Clone>::clone"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<JavaVMOption as std::clone::Clone>::clone"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<JavaVMInitArgs as std::clone::Clone>::clone"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 6 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<JavaVMAttachArgs as std::clone::Clone>::clone"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<JNIInvokeInterface_ as std::clone::Clone>::clone"}

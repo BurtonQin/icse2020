@@ -1,6 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"setup_logging\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"v8unpack::setup_logging"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"v8unpack::parse"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"unpack\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"v8unpack::unpack"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"pack\"), disambiguator: 0 }]","fn_type":"Safe","name":"v8unpack::pack"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"build\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"v8unpack::build"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"v8unpack::main"}

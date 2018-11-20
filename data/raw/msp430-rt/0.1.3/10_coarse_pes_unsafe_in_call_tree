@@ -1,3 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"lang_items\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"start\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"msp430_rt::lang_items::start"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"lang_items\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"report\"), disambiguator: 0 }]","fn_type":"Safe","name":"<() as lang_items::Termination>::report"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"default_handler\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"msp430_rt::default_handler"}

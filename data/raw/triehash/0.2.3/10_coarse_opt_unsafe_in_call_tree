@@ -1,9 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"shared_prefix_len\"), disambiguator: 0 }]","fn_type":"Safe","name":"triehash::shared_prefix_len"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"ordered_trie_root\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"triehash::ordered_trie_root"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"trie_root\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"triehash::trie_root"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"sec_trie_root\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"triehash::sec_trie_root"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"gen_trie_root\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"triehash::gen_trie_root"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"hex_prefix_encode\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"triehash::hex_prefix_encode"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"as_nibbles\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"triehash::as_nibbles"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"hash256rlp\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"triehash::hash256rlp"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"hash256aux\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"triehash::hash256aux"}

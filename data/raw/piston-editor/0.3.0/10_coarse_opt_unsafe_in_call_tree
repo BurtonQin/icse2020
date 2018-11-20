@@ -1,8 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Type as std::clone::Clone>::clone"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Type as std::fmt::Debug>::fmt"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Object as std::clone::Clone>::clone"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Object as std::fmt::Debug>::fmt"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"delete\"), disambiguator: 0 }]","fn_type":"Safe","name":"editor::delete"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"update\"), disambiguator: 0 }]","fn_type":"Safe","name":"editor::update"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"all\"), disambiguator: 0 }]","fn_type":"Safe","name":"editor::all"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get\"), disambiguator: 0 }]","fn_type":"Safe","name":"editor::get"}

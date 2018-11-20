@@ -1,6 +1,0 @@
-{"name":"<buffer::AudioBuffer<'a, T>>::from_raw","from_trait":true,"arguments":[{"type_info":"type(*const *const T)","kind":"RawPointer"},{"type_info":"type(*mut *mut T)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/buffer.rs\") line 29","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/buffer.rs\") line 30","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"api::AEffect::get_plugin","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/api.rs\") line 154","kind":"DerefRawPointer"}]}
-{"name":"api::AEffect::drop_plugin","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/api.rs\") line 159","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/api.rs\") line 160","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"api::AEffect::get_cache","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/api.rs\") line 164","kind":"DerefRawPointer"}]}
-{"name":"<host::PluginLoader<T>>::call_main","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/host.rs\") line 353","kind":"Static"}]}
-{"name":"interfaces::host_dispatch::TIME_INFO::__getit","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__thread_local_inner\") line 16","kind":{"UnsafeFnCall":"Rust"}}]}

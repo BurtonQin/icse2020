@@ -1,3 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"trip\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"ascii_to_bin\"), disambiguator: 0 }]","fn_type":"Safe","name":"trip::trip::ascii_to_bin"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"trip\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"trip\"), disambiguator: 0 }]","fn_type":"Safe","name":"trip::trip::trip"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"Safe","name":"trip::main"}

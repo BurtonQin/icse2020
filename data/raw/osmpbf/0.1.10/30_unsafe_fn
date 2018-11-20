@@ -1,2 +1,0 @@
-{"name":"mmap_blob::Mmap::from_file","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/mmap_blob.rs\") line 43","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"mmap_blob::Mmap::from_path","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/mmap_blob.rs\") line 66","kind":{"UnsafeFnCall":"Rust"}}]}

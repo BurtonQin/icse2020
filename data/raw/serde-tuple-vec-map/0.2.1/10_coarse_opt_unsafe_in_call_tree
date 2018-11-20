@@ -1,6 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"<TupleVecMapVisitor<K, V>>::new"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"expecting\"), disambiguator: 0 }]","fn_type":"Safe","name":"<TupleVecMapVisitor<K, V> as serde::de::Visitor<'de>>::expecting"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"visit_unit\"), disambiguator: 0 }]","fn_type":"Safe","name":"<TupleVecMapVisitor<K, V> as serde::de::Visitor<'de>>::visit_unit"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"visit_map\"), disambiguator: 0 }]","fn_type":"Safe","name":"<TupleVecMapVisitor<K, V> as serde::de::Visitor<'de>>::visit_map"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"serialize\"), disambiguator: 0 }]","fn_type":"Safe","name":"tuple_vec_map::serialize"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"deserialize\"), disambiguator: 0 }]","fn_type":"Safe","name":"tuple_vec_map::deserialize"}

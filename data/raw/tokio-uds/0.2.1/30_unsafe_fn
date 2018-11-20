@@ -1,6 +1,0 @@
-{"name":"<stream::UnixStream as tokio_io::AsyncRead>::prepare_uninitialized_buffer","from_trait":true,"arguments":[],"sources":[]}
-{"name":"<&'a stream::UnixStream as tokio_io::AsyncRead>::prepare_uninitialized_buffer","from_trait":true,"arguments":[],"sources":[]}
-{"name":"stream::read_ready","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-uds-0.2.1/src/stream.rs\") line 327","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-uds-0.2.1/src/stream.rs\") line 328","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"stream::read_ready_vecs","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-uds-0.2.1/src/stream.rs\") line 334","kind":{"UnsafeFnCall":"C"}}]}
-{"name":"stream::write_ready","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-uds-0.2.1/src/stream.rs\") line 349","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"stream::write_ready_vecs","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/tokio-uds-0.2.1/src/stream.rs\") line 355","kind":{"UnsafeFnCall":"C"}}]}

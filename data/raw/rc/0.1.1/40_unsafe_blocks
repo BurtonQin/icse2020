@@ -1,7 +1,0 @@
-{"sources":[["124",[{"loc":"file: Real(\"src/stable_rc.rs\") line 87","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/stable_rc.rs\") line 90","kind":{"UnsafeFnCall":"Rust"}}]]]}
-{"sources":[["230",[{"loc":"file: Real(\"src/stable_rc.rs\") line 162","kind":"DerefRawPointer"}]]]}
-{"sources":[["346",[{"loc":"file: Real(\"src/stable_rc.rs\") line 257","kind":"DerefRawPointer"}]]]}
-{"sources":[["390",[{"loc":"file: Real(\"src/stable_rc.rs\") line 300","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/stable_rc.rs\") line 304","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/stable_rc.rs\") line 304","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/stable_rc.rs\") line 311","kind":{"UnsafeFnCall":"Rust"}}]]]}
-{"sources":[["818",[{"loc":"file: Real(\"src/stable_rc.rs\") line 591","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/stable_rc.rs\") line 596","kind":{"UnsafeFnCall":"Rust"}}]]]}
-{"sources":[["1002",[{"loc":"file: Real(\"src/stable_rc.rs\") line 658","kind":"DerefRawPointer"}]]]}
-{"sources":[["1025",[{"loc":"file: Real(\"src/stable_rc.rs\") line 667","kind":"DerefRawPointer"}]]]}

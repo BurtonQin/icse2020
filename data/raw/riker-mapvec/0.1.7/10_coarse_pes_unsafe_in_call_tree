@@ -1,4 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<MapVec<Msg> as std::clone::Clone>::clone"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"<MapVec<Msg> as riker::system::EventStore>::new"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"insert\"), disambiguator: 0 }]","fn_type":"Safe","name":"<MapVec<Msg> as riker::system::EventStore>::insert"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"load\"), disambiguator: 0 }]","fn_type":"Safe","name":"<MapVec<Msg> as riker::system::EventStore>::load"}

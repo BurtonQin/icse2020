@@ -1,9 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Language as std::fmt::Debug>::fmt"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"moore::main"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"compile\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"moore::compile"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"elaborate\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"moore::elaborate"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"score\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"moore::score"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"elaborate_name\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"moore::elaborate_name"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"elaborate_name\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<elaborate_name::Entity as std::fmt::Debug>::fmt"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"elaborate_name\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<elaborate_name::Elaborate as std::fmt::Debug>::fmt"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_elaborate_name\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"moore::parse_elaborate_name"}

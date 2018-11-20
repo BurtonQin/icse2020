@@ -1,5 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"logging\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Trait(\"AlignedOutputString\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"prefix_with_spaces\"), disambiguator: 0 }]","fn_type":"Safe","name":"ptx_linker::logging::AlignedOutputString::prefix_with_spaces"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"logging\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"setup_logging\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"ptx_linker::logging::setup_logging"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"logging\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"logging_handler\"), disambiguator: 0 }]","fn_type":"Safe","name":"ptx_linker::logging::logging_handler"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"ptx_linker::main"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"run\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"ptx_linker::run"}

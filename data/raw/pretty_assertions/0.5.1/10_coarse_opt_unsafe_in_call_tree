@@ -1,4 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"format_changeset\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"format_changeset\"), disambiguator: 0 }]","fn_type":"Safe","name":"pretty_assertions::format_changeset::format_changeset"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"format_changeset\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"format_replacement\"), disambiguator: 0 }]","fn_type":"Safe","name":"pretty_assertions::format_changeset::format_replacement"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"pretty_assertions::Comparison::new"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Comparison as std::fmt::Display>::fmt"}

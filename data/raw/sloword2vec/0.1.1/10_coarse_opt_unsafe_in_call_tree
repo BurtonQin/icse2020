@@ -1,7 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"sloword2vec::main"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"inner_main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"sloword2vec::inner_main"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"train_and_save\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"sloword2vec::train_and_save"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"load_and_find_similar\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"sloword2vec::load_and_find_similar"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"load_and_do_maths\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"sloword2vec::load_and_do_maths"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"coerce_validate\"), disambiguator: 0 }]","fn_type":"Safe","name":"sloword2vec::coerce_validate"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"version\"), disambiguator: 0 }]","fn_type":"Safe","name":"sloword2vec::version"}

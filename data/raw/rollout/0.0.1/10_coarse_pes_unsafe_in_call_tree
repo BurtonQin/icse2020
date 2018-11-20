@@ -1,4 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rollout::Flipper::new"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"active\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rollout::Flipper::active"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"activate\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rollout::Flipper::activate"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"deactivate\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rollout::Flipper::deactivate"}

@@ -1,8 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"prototty_file_storage::FileStorage::new"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"next_to_exe\"), disambiguator: 0 }]","fn_type":"Safe","name":"prototty_file_storage::FileStorage::next_to_exe"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"full_path\"), disambiguator: 0 }]","fn_type":"Safe","name":"prototty_file_storage::FileStorage::full_path"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"load_raw\"), disambiguator: 0 }]","fn_type":"Safe","name":"<FileStorage as prototty::Storage>::load_raw"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"store_raw\"), disambiguator: 0 }]","fn_type":"Safe","name":"<FileStorage as prototty::Storage>::store_raw"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"remove_raw\"), disambiguator: 0 }]","fn_type":"Safe","name":"<FileStorage as prototty::Storage>::remove_raw"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"exists\"), disambiguator: 0 }]","fn_type":"Safe","name":"<FileStorage as prototty::Storage>::exists"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"clear\"), disambiguator: 0 }]","fn_type":"Safe","name":"<FileStorage as prototty::Storage>::clear"}

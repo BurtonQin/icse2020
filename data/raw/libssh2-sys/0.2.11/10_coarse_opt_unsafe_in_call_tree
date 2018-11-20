@@ -1,5 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<LIBSSH2_SFTP_ATTRIBUTES as std::clone::Clone>::clone"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<LIBSSH2_SFTP_STATVFS as std::clone::Clone>::clone"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"issue_14344_workaround\"), disambiguator: 0 }]","fn_type":"Safe","name":"libssh2_sys::issue_14344_workaround"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"init\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"libssh2_sys::init"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"init\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"shutdown\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"libssh2_sys::init::shutdown"}

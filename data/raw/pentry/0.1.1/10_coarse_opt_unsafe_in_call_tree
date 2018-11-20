@@ -1,5 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"usage\"), disambiguator: 0 }]","fn_type":"Safe","name":"pentry::usage"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"show\"), disambiguator: 0 }]","fn_type":"Safe","name":"pentry::show"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"head\"), disambiguator: 0 }]","fn_type":"Safe","name":"pentry::head"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"inspect\"), disambiguator: 0 }]","fn_type":"Safe","name":"pentry::inspect"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"pentry::main"}

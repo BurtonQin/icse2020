@@ -1,5 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"generate_assets\"), disambiguator: 0 }]","fn_type":"Safe","name":"rust_embed::generate_assets"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"help\"), disambiguator: 0 }]","fn_type":"Safe","name":"rust_embed::help"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"impl_rust_embed\"), disambiguator: 0 }]","fn_type":"Safe","name":"rust_embed::impl_rust_embed"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"derive_input_object\"), disambiguator: 0 }]","fn_type":"Safe","name":"rust_embed::derive_input_object"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","fn_type":"Safe","name":"rust_embed::registrar::_registrar"}

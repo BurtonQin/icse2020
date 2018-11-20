@@ -1,4 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_nonstandard_width\"), disambiguator: 0 }]","fn_type":"Safe","name":"unicode_hfwidth::is_nonstandard_width"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"to_standard_width\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"unicode_hfwidth::to_standard_width"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"to_halfwidth\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"unicode_hfwidth::to_halfwidth"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"to_fullwidth\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"unicode_hfwidth::to_fullwidth"}

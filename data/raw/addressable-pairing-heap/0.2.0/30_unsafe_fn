@@ -1,5 +1,0 @@
-{"name":"<PairingHeap<T, K>>::get_unchecked","from_trait":true,"arguments":[],"sources":[]}
-{"name":"<PairingHeap<T, K>>::get_unchecked_mut","from_trait":true,"arguments":[],"sources":[]}
-{"name":"<PairingHeap<T, K>>::peek_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 374","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<PairingHeap<T, K>>::peek_unchecked_mut","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 389","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<PairingHeap<T, K>>::pop_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 408","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/lib.rs\") line 416","kind":{"UnsafeFnCall":"Rust"}}]}

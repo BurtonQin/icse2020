@@ -1,2 +1,0 @@
-{"name":"<T as util::typemap::Implements<(dyn unsafe_any::UnsafeAny + 'static)>>"}
-{"name":"<T as util::typemap::Implements<(dyn unsafe_any::UnsafeAny + std::marker::Send + std::marker::Sync + 'static)>>"}

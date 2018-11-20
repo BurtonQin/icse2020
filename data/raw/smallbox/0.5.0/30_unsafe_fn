@@ -1,1 +1,0 @@
-{"name":"<stackbox::StackBox<T, Space>>::as_ptr","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/stackbox.rs\") line 184","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/stackbox.rs\") line 187","kind":{"UnsafeFnCall":"RustIntrinsic"}},{"loc":"file: Real(\"src/stackbox.rs\") line 187","kind":{"UnsafeFnCall":"Rust"}}]}

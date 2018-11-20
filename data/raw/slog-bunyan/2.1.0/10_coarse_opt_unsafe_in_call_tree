@@ -1,5 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_hostname\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"slog_bunyan::get_hostname"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"level_to_string\"), disambiguator: 0 }]","fn_type":"Safe","name":"slog_bunyan::level_to_string"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"new_with_ts_fn\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"slog_bunyan::new_with_ts_fn"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"slog_bunyan::new"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"default\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"slog_bunyan::default"}

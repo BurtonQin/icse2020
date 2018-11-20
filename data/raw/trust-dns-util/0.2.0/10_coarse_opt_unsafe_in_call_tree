@@ -1,4 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"args\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"dnskey_to_pem::args"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"dnskey_to_pem::main"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"split_field_value\"), disambiguator: 0 }]","fn_type":"Safe","name":"dnskey_to_pem::split_field_value"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"read_rsa\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"dnskey_to_pem::read_rsa"}

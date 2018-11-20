@@ -1,8 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"from\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Array as std::convert::From<std::vec::Vec<[f64; _]>>>::from"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"from\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"polyline_ffi::<impl std::convert::From<Array> for std::vec::Vec<[f64; _]>>::from"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"arr_from_string\"), disambiguator: 0 }]","fn_type":"Safe","name":"polyline_ffi::arr_from_string"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"string_from_arr\"), disambiguator: 0 }]","fn_type":"Safe","name":"polyline_ffi::string_from_arr"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"decode_polyline_ffi\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"polyline_ffi::decode_polyline_ffi"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"encode_coordinates_ffi\"), disambiguator: 0 }]","fn_type":"Safe","name":"polyline_ffi::encode_coordinates_ffi"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"drop_float_array\"), disambiguator: 0 }]","fn_type":"Safe","name":"polyline_ffi::drop_float_array"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"drop_cstring\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"polyline_ffi::drop_cstring"}

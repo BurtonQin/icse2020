@@ -1,7 +1,0 @@
-{"name":"list::UnsafeList::into_list","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/list.rs\") line 312","kind":"DerefRawPointer"}]}
-{"name":"<arena::Uninitialized<'arena, T>>::as_ref","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/arena.rs\") line 42","kind":"DerefRawPointer"}]}
-{"name":"<arena::Uninitialized<'arena, T>>::into_mut","from_trait":true,"arguments":[],"sources":[]}
-{"name":"<arena::Uninitialized<'arena, T>>::from_raw","from_trait":true,"arguments":[{"type_info":"type(*mut T)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/arena.rs\") line 58","kind":"DerefRawPointer"}]}
-{"name":"arena::Arena::clear","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/arena.rs\") line 245","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"arena::Arena::offset","from_trait":true,"arguments":[],"sources":[]}
-{"name":"arena::Arena::reset_to","from_trait":true,"arguments":[],"sources":[]}

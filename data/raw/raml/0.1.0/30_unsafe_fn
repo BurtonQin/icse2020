@@ -1,1 +1,0 @@
-{"name":"memory::store_field","from_trait":false,"arguments":[{"type_info":"type(*mut Value)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/memory.rs\") line 113","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/memory.rs\") line 114","kind":{"UnsafeFnCall":"C"}}]}

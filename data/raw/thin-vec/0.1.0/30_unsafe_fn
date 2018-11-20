@@ -1,7 +1,0 @@
-{"name":"heap::allocate","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/heap.rs\") line 5","kind":{"UnsafeFnCall":"C"}}]}
-{"name":"heap::deallocate","from_trait":false,"arguments":[{"type_info":"type(*mut u8)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/heap.rs\") line 9","kind":{"UnsafeFnCall":"C"}}]}
-{"name":"heap::reallocate","from_trait":false,"arguments":[{"type_info":"type(*mut u8)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/heap.rs\") line 14","kind":{"UnsafeFnCall":"C"}}]}
-{"name":"<ThinVec<T>>::header_mut","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 272","kind":"DerefRawPointer"}]}
-{"name":"<ThinVec<T>>::set_len","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 277","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<ThinVec<T>>::deallocate","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 669","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<ThinVec<T>>::reallocate","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 681","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/lib.rs\") line 686","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/lib.rs\") line 687","kind":{"UnsafeFnCall":"Rust"}}]}

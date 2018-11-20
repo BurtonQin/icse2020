@@ -1,4 +1,0 @@
-{"name":"fiber::schedule::CURRENT_CONTEXT::__getit","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__thread_local_inner\") line 16","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"net::tcp::TcpListener::with_inner","from_trait":true,"arguments":[],"sources":[]}
-{"name":"net::tcp::TcpStream::with_inner","from_trait":true,"arguments":[],"sources":[]}
-{"name":"net::udp::UdpSocket::with_inner","from_trait":true,"arguments":[],"sources":[]}

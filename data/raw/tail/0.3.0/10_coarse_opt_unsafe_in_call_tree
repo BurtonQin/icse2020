@@ -1,5 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"print_usage\"), disambiguator: 0 }]","fn_type":"Safe","name":"tail::print_usage"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"tail::main"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"follow\"), disambiguator: 0 }]","fn_type":"Safe","name":"tail::follow"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"initial_print\"), disambiguator: 0 }]","fn_type":"Safe","name":"tail::initial_print"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"print_from_cursor\"), disambiguator: 0 }]","fn_type":"Safe","name":"tail::print_from_cursor"}

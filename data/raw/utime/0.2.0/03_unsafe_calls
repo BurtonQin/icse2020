@@ -1,1 +1,0 @@
-{"abi":"C","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"set_file_times\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"utime\"), disambiguator: 0 }, DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"utimes\"), disambiguator: 0 }]","name":"utimes","crate_name":"utime"}

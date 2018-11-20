@@ -1,8 +1,0 @@
-{"name":"<buffer::Buffer<T>>::get","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/buffer.rs\") line 52","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/buffer.rs\") line 53","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/buffer.rs\") line 53","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<buffer::Buffer<T>>::wrapping_get","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/buffer.rs\") line 59","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<buffer::Buffer<T>>::get_ref","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/buffer.rs\") line 64","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/buffer.rs\") line 64","kind":"DerefRawPointer"}]}
-{"name":"<buffer::Buffer<T>>::wrapping_get_ref","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/buffer.rs\") line 69","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<buffer::Buffer<T>>::set","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/buffer.rs\") line 74","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/buffer.rs\") line 74","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<buffer::Buffer<T>>::wrapping_set","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/buffer.rs\") line 79","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<bounded::mpmc::Slot<T>>::get","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/bounded/mpmc.rs\") line 144","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/bounded/mpmc.rs\") line 145","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<bounded::mpmc::Slot<T>>::set","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/bounded/mpmc.rs\") line 150","kind":{"UnsafeFnCall":"Rust"}}]}

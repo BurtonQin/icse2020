@@ -1,3 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"wat::main"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"commit\"), disambiguator: 0 }]","fn_type":"Safe","name":"wat::commit"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"error\"), disambiguator: 0 }]","fn_type":"Safe","name":"wat::error"}

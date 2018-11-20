@@ -1,9 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<PubSub<T> as std::clone::Clone>::clone"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"<PubSub<T>>::new"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"send\"), disambiguator: 0 }]","fn_type":"Safe","name":"<PubSub<T>>::send"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"subscribe\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<PubSub<T>>::subscribe"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"recv\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Subscription<T>>::recv"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"try_recv\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Subscription<T>>::try_recv"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"iter\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Subscription<T>>::iter"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"drop\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Subscription<T> as std::ops::Drop>::drop"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<Subscription<T> as std::clone::Clone>::clone"}

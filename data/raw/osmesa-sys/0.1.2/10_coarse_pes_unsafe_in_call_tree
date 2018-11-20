@@ -1,3 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"open\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"osmesa_sys::OsMesa::open"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"get_static_ref\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"osmesa_sys::OsMesa::get_static_ref"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"try_loading\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"osmesa_sys::OsMesa::try_loading"}

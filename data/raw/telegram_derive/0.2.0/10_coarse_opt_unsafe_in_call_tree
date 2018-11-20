@@ -1,4 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"serialize\"), disambiguator: 0 }]","fn_type":"Safe","name":"telegram_derive::serialize"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"impl_serialize\"), disambiguator: 0 }]","fn_type":"Safe","name":"telegram_derive::impl_serialize"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"impl_serialize_to_body\"), disambiguator: 0 }]","fn_type":"Safe","name":"telegram_derive::impl_serialize_to_body"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","fn_type":"Safe","name":"telegram_derive::registrar::_registrar"}

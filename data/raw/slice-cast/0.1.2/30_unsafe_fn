@@ -1,4 +1,0 @@
-{"name":"cast","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 74","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/lib.rs\") line 77","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"cast_mut","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 103","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/lib.rs\") line 106","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"cast_to","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 133","kind":"DerefRawPointer"}]}
-{"name":"cast_to_mut","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 158","kind":"DerefRawPointer"}]}

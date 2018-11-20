@@ -1,6 +1,0 @@
-{"name":"posix::ioctl::raw::tiocexcl","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 5","kind":{"UnsafeFnCall":"C"}}]}
-{"name":"posix::ioctl::raw::tiocnxcl","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 5","kind":{"UnsafeFnCall":"C"}}]}
-{"name":"posix::ioctl::raw::tiocmget","from_trait":false,"arguments":[{"type_info":"type(*mut u8)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 13","kind":{"UnsafeFnCall":"C"}}]}
-{"name":"posix::ioctl::raw::tiocmbic","from_trait":false,"arguments":[{"type_info":"type(*const u8)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 21","kind":{"UnsafeFnCall":"C"}}]}
-{"name":"posix::ioctl::raw::tiocmbis","from_trait":false,"arguments":[{"type_info":"type(*const u8)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 21","kind":{"UnsafeFnCall":"C"}}]}
-{"name":"<posix::tty::TTYPort as std::os::ext::io::FromRawFd>::from_raw_fd","from_trait":true,"arguments":[],"sources":[]}

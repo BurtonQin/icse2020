@@ -1,2 +1,0 @@
-{"name":"<ordered_skiplist::OrderedSkipList<T>>::with_comp","from_trait":true,"arguments":[],"sources":[]}
-{"name":"<ordered_skiplist::OrderedSkipList<T>>::sort_by","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/ordered_skiplist.rs\") line 204","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/ordered_skiplist.rs\") line 206","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/ordered_skiplist.rs\") line 207","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/ordered_skiplist.rs\") line 207","kind":"DerefRawPointer"}]}

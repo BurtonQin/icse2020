@@ -1,8 +1,0 @@
-{"sources":[["270",[{"loc":"file: Real(\"src/cache.rs\") line 28","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/cache.rs\") line 28","kind":"Static"}]]]}
-{"sources":[["310",[{"loc":"file: Real(\"src/cache.rs\") line 53","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/cache.rs\") line 53","kind":"Static"}]]]}
-{"sources":[["6028",[{"loc":"file: Real(\"src/collision.rs\") line 29","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["6039",[{"loc":"file: Real(\"src/collision.rs\") line 29","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
-{"sources":[["765",[{"loc":"file: Real(\"src/collision.rs\") line 127","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
-{"sources":[["6527",[{"loc":"file: Real(\"src/events/keyboard_mappings.rs\") line 16","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["6538",[{"loc":"file: Real(\"src/events/keyboard_mappings.rs\") line 16","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
-{"sources":[["6595",[{"loc":"file: Real(\"src/events/keyboard_mappings.rs\") line 16","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["6606",[{"loc":"file: Real(\"src/events/keyboard_mappings.rs\") line 16","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
-{"sources":[["7159",[{"loc":"file: Real(\"src/sprite.rs\") line 16","kind":{"UnsafeFnCall":"RustIntrinsic"}}]],["7170",[{"loc":"file: Real(\"src/sprite.rs\") line 16","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
-{"sources":[["7071",[{"loc":"file: Real(\"src/sprite.rs\") line 16","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}

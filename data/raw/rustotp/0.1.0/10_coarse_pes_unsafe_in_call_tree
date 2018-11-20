@@ -1,2 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"to_bytes\"), disambiguator: 0 }]","fn_type":"Safe","name":"rustotp::to_bytes"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"totp\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rustotp::totp"}

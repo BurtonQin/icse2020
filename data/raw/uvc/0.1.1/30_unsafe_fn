@@ -1,4 +1,0 @@
-{"name":"device::Device::from_raw","from_trait":true,"arguments":[{"type_info":"type(*mut uvc_device)","kind":"RawPointer"}],"sources":[]}
-{"name":"frame::Frame::from_raw","from_trait":true,"arguments":[{"type_info":"type(*mut uvc_frame)","kind":"RawPointer"}],"sources":[]}
-{"name":"frame::Frame::new_with_dimensions","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/frame.rs\") line 27","kind":{"UnsafeFnCall":"C"}}]}
-{"name":"streaming::trampoline","from_trait":false,"arguments":[{"type_info":"type(*mut uvc_frame)","kind":"RawPointer"},{"type_info":"type(*mut c_void)","kind":"RawPointer"}],"sources":[]}

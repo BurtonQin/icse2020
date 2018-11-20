@@ -1,7 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"compare\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"ssdeep::compare"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"hash\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"ssdeep::hash"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"hash_from_file\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"ssdeep::hash_from_file"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"path_as_cstring\"), disambiguator: 0 }]","fn_type":"Safe","name":"ssdeep::path_as_cstring"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"bytes_to_cstring\"), disambiguator: 0 }]","fn_type":"Safe","name":"ssdeep::bytes_to_cstring"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"create_buffer_for_result\"), disambiguator: 0 }]","fn_type":"Safe","name":"ssdeep::create_buffer_for_result"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"result_buffer_to_string\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"ssdeep::result_buffer_to_string"}

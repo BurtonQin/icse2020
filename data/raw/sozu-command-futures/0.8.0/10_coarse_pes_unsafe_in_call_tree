@@ -1,6 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"decode\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<CommandCodec as tokio_io::codec::Decoder>::decode"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"encode\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<CommandCodec as tokio_io::codec::Encoder>::encode"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"sozu_command_futures::SozuCommandTransport::new"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<SozuCommandClient as std::clone::Clone>::clone"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"sozu_command_futures::SozuCommandClient::new"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"send\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"sozu_command_futures::SozuCommandClient::send"}

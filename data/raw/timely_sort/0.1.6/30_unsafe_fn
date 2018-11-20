@@ -1,1 +1,0 @@
-{"name":"<batched_vec::BatchedVecRef<'a, T>>::push_all","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/batched_vec.rs\") line 66","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/batched_vec.rs\") line 66","kind":{"UnsafeFnCall":"RustIntrinsic"}},{"loc":"file: Real(\"src/batched_vec.rs\") line 67","kind":{"UnsafeFnCall":"Rust"}}]}

@@ -1,4 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"stache::main"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_dir\"), disambiguator: 0 }]","fn_type":"Safe","name":"stache::parse_dir"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse\"), disambiguator: 0 }]","fn_type":"Safe","name":"stache::parse"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"usage\"), disambiguator: 0 }]","fn_type":"Safe","name":"stache::usage"}

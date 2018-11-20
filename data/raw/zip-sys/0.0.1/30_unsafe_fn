@@ -1,2 +1,0 @@
-{"name":"<__BindgenUnionField<T>>::as_ref","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/unsafe_analysis/crates.io-downloads/zip-sys/target/debug/build/zip-sys-b7a7845912bb056f/out/bindings.rs\") line 9","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
-{"name":"<__BindgenUnionField<T>>::as_mut","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/unsafe_analysis/crates.io-downloads/zip-sys/target/debug/build/zip-sys-b7a7845912bb056f/out/bindings.rs\") line 11","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}

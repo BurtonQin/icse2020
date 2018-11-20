@@ -1,6 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"print\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"userror::print"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"internal\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"userror::internal"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"fatal\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"userror::fatal"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"error\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"userror::error"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"warn\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"userror::warn"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"info\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"userror::info"}

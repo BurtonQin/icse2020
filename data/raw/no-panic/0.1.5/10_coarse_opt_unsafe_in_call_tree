@@ -1,3 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"mangled_marker_name\"), disambiguator: 0 }]","fn_type":"Safe","name":"no_panic::mangled_marker_name"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"no_panic\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"no_panic::no_panic"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","fn_type":"Safe","name":"no_panic::registrar::_registrar"}

@@ -1,5 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"vorbis_encoder::vorbis_encoder_helper::new"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"vorbis_encoder::Encoder::new"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"encode\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"vorbis_encoder::Encoder::encode"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"flush\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"vorbis_encoder::Encoder::flush"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"drop\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<Encoder as std::ops::Drop>::drop"}

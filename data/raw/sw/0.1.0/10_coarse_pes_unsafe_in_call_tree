@@ -1,9 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"getppid\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"sw::getppid"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"start\"), disambiguator: 0 }]","fn_type":"Safe","name":"sw::Stopwatch::start"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"stop\"), disambiguator: 0 }]","fn_type":"Safe","name":"sw::Stopwatch::stop"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"times\"), disambiguator: 0 }]","fn_type":"Safe","name":"sw::Stopwatch::times"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"elapsed\"), disambiguator: 0 }]","fn_type":"Safe","name":"sw::Stopwatch::elapsed"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"record\"), disambiguator: 0 }]","fn_type":"Safe","name":"sw::Stopwatch::record"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"stored_times\"), disambiguator: 0 }]","fn_type":"Safe","name":"sw::Stopwatch::stored_times"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"process_subcommand\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"sw::process_subcommand"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"sw::main"}

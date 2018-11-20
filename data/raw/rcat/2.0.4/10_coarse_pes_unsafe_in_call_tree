@@ -1,5 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"open_file\"), disambiguator: 0 }]","fn_type":"Safe","name":"rcat::open_file"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"print_error\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rcat::print_error"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"print_byte\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rcat::print_byte"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"print_bytes_from_reader\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rcat::print_bytes_from_reader"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rcat::main"}

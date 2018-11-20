@@ -1,3 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"usage\"), disambiguator: 0 }]","fn_type":"Safe","name":"benchmark::usage"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"error\"), disambiguator: 0 }]","fn_type":"Safe","name":"benchmark::error"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"benchmark::main"}

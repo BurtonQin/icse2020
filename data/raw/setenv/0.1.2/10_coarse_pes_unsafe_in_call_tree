@@ -1,6 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_shell\"), disambiguator: 0 }]","fn_type":"Safe","name":"setenv::get_shell"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_name\"), disambiguator: 0 }]","fn_type":"Safe","name":"setenv::Shell::get_name"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"cd\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"setenv::Shell::cd"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"setenv\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"setenv::Shell::setenv"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"split_env\"), disambiguator: 0 }]","fn_type":"Safe","name":"setenv::Shell::split_env"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"setenv_list\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"setenv::Shell::setenv_list"}

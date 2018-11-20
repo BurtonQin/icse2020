@@ -1,6 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Succ<N> as core::clone::Clone>::clone"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Zero as core::clone::Clone>::clone"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"to_usize\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Zero as Natural>::to_usize"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"to_usize\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Succ<N> as Natural>::to_usize"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"add\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Zero as core::ops::Add<N>>::add"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"add\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Succ<M> as core::ops::Add<N>>::add"}

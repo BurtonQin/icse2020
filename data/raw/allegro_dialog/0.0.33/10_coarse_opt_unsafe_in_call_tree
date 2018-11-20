@@ -1,9 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<MessageBoxFlags as std::clone::Clone>::clone"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"get\"), disambiguator: 0 }]","fn_type":"Safe","name":"allegro_dialog::MessageBoxFlags::get"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"zero\"), disambiguator: 0 }]","fn_type":"Safe","name":"<MessageBoxFlags as allegro::Flag>::zero"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"bitor\"), disambiguator: 0 }]","fn_type":"Safe","name":"<MessageBoxFlags as std::ops::BitOr>::bitor"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"bitand\"), disambiguator: 0 }]","fn_type":"Safe","name":"<MessageBoxFlags as std::ops::BitAnd>::bitand"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<MessageBoxResult as std::clone::Clone>::clone"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"init\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"allegro_dialog::DialogAddon::init"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_version\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"allegro_dialog::DialogAddon::get_version"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"show_native_message_box\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"allegro_dialog::show_native_message_box"}

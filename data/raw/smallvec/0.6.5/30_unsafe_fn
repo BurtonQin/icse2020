@@ -1,8 +1,0 @@
-{"name":"deallocate","from_trait":false,"arguments":[{"type_info":"type(*mut T)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/smallvec-0.6.5/lib.rs\") line 225","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<SmallVecData<A>>::inline","from_trait":true,"arguments":[],"sources":[]}
-{"name":"<SmallVecData<A>>::inline_mut","from_trait":true,"arguments":[],"sources":[]}
-{"name":"<SmallVecData<A>>::into_inline","from_trait":true,"arguments":[],"sources":[]}
-{"name":"<SmallVecData<A>>::heap","from_trait":true,"arguments":[],"sources":[]}
-{"name":"<SmallVecData<A>>::heap_mut","from_trait":true,"arguments":[],"sources":[]}
-{"name":"<SmallVec<A>>::from_buf_and_len_unchecked","from_trait":true,"arguments":[],"sources":[]}
-{"name":"<SmallVec<A>>::set_len","from_trait":true,"arguments":[],"sources":[]}

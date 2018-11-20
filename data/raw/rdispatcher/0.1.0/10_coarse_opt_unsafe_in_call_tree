@@ -1,8 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<DispatchMessage<T> as std::clone::Clone>::clone"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Dispatcher<T>>::new"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"register_broadcaster\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Dispatcher<T>>::register_broadcaster"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"register_subscriber\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Dispatcher<T>>::register_subscriber"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"start\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Dispatcher<T>>::start"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"num_broadcasters\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Dispatcher<T>>::num_broadcasters"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"num_subscribers\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Dispatcher<T>>::num_subscribers"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"type_to_string\"), disambiguator: 0 }]","fn_type":"Safe","name":"rdispatcher::type_to_string"}

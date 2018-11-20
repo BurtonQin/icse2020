@@ -1,6 +1,0 @@
-{"name":"<graph::GraphImpl as std::marker::Send>"}
-{"name":"<graph::GraphImpl as std::marker::Sync>"}
-{"name":"<graph::Operation as std::marker::Send>"}
-{"name":"<graph::Operation as std::marker::Sync>"}
-{"name":"<TensorDataCRepr<T> as std::marker::Send>"}
-{"name":"<TensorDataCRepr<T> as std::marker::Sync>"}

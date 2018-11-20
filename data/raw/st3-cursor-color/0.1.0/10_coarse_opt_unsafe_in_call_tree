@@ -1,8 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"xml_parsing\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_old_caret_color_string\"), disambiguator: 0 }]","fn_type":"Safe","name":"st3_cursor_color::xml_parsing::get_old_caret_color_string"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"xml_parsing\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"set_cursor_color\"), disambiguator: 0 }]","fn_type":"Safe","name":"st3_cursor_color::xml_parsing::set_cursor_color"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"date_to_frac\"), disambiguator: 0 }]","fn_type":"Safe","name":"st3_cursor_color::date_to_frac"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"hex_color\"), disambiguator: 0 }]","fn_type":"Safe","name":"st3_cursor_color::hex_color"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"rgb_to_hex\"), disambiguator: 0 }]","fn_type":"Safe","name":"st3_cursor_color::rgb_to_hex"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"create_gradient\"), disambiguator: 0 }]","fn_type":"Safe","name":"st3_cursor_color::create_gradient"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_cur_hex\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"st3_cursor_color::get_cur_hex"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"st3_cursor_color::main"}

@@ -1,3 +1,0 @@
-{"name":"util::NonZeroUsize::new","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/util/mod.rs\") line 17","kind":"DerefRawPointer"}]}
-{"name":"rudymap::rootptr::from_raw","from_trait":false,"arguments":[{"type_info":"type(*mut ())","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/rudymap/rootptr.rs\") line 14","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<rudymap::rootptr::RootPtr<K, V>>::new","from_trait":true,"arguments":[{"type_info":"type(*mut ())","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/rudymap/rootptr.rs\") line 62","kind":{"UnsafeFnCall":"Rust"}}]}

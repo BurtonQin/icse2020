@@ -1,1 +1,0 @@
-{"name":"<ThinBoxedSlice<T>>::from_raw","from_trait":true,"arguments":[{"type_info":"type(*mut [T])","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 107","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/lib.rs\") line 108","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/lib.rs\") line 114","kind":{"UnsafeFnCall":"Rust"}}]}

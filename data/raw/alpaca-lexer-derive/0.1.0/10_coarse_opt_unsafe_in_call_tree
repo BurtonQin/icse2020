@@ -1,3 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"token\"), disambiguator: 0 }]","fn_type":"Safe","name":"alpaca_lexer_derive::token"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"impl_token\"), disambiguator: 0 }]","fn_type":"Safe","name":"alpaca_lexer_derive::impl_token"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","fn_type":"Safe","name":"alpaca_lexer_derive::registrar::_registrar"}

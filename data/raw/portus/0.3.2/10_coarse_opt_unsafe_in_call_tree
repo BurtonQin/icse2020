@@ -1,7 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"cargo_compile_fast_path::FastPathProgramFinder::new"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"visit_expr\"), disambiguator: 0 }]","fn_type":"Safe","name":"<FastPathProgramFinder as syn::visit::Visit<'v>>::visit_expr"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"show_help\"), disambiguator: 0 }]","fn_type":"Safe","name":"cargo_compile_fast_path::show_help"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"cargo_compile_fast_path::main"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"is_hidden\"), disambiguator: 0 }]","fn_type":"Safe","name":"cargo_compile_fast_path::main::is_hidden"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"is_dir\"), disambiguator: 0 }]","fn_type":"Safe","name":"cargo_compile_fast_path::main::is_dir"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"is_rs\"), disambiguator: 0 }]","fn_type":"Safe","name":"cargo_compile_fast_path::main::is_rs"}

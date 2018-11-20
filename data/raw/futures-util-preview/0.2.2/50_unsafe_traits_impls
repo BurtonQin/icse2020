@@ -1,9 +1,0 @@
-{"name":"<lock::Inner<T> as core::marker::Send>"}
-{"name":"<lock::Inner<T> as core::marker::Sync>"}
-{"name":"<future::shared::Inner<F> as core::marker::Sync>"}
-{"name":"<future::shared::Inner<F> as core::marker::Send>"}
-{"name":"<stream::futures_unordered::FuturesUnordered<T> as core::marker::Send>"}
-{"name":"<stream::futures_unordered::FuturesUnordered<T> as core::marker::Sync>"}
-{"name":"<stream::futures_unordered::ArcNode<T> as core::marker::Send>"}
-{"name":"<stream::futures_unordered::ArcNode<T> as core::marker::Sync>"}
-{"name":"<stream::futures_unordered::ArcNode<T> as futures_core::task::UnsafeWake>"}

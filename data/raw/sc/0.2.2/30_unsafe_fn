@@ -1,7 +1,0 @@
-{"name":"platform::syscall0","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/platform/linux-x86_64/mod.rs\") line 16","kind":"Asm"}]}
-{"name":"platform::syscall1","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/platform/linux-x86_64/mod.rs\") line 26","kind":"Asm"}]}
-{"name":"platform::syscall2","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/platform/linux-x86_64/mod.rs\") line 36","kind":"Asm"}]}
-{"name":"platform::syscall3","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/platform/linux-x86_64/mod.rs\") line 46","kind":"Asm"}]}
-{"name":"platform::syscall4","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/platform/linux-x86_64/mod.rs\") line 61","kind":"Asm"}]}
-{"name":"platform::syscall5","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/platform/linux-x86_64/mod.rs\") line 77","kind":"Asm"}]}
-{"name":"platform::syscall6","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/platform/linux-x86_64/mod.rs\") line 94","kind":"Asm"}]}

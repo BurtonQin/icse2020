@@ -1,6 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"load_from_file\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"instantiate::load_from_file"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"resolve_func\"), disambiguator: 0 }]","fn_type":"Safe","name":"<ResolveAll as wasmi::ModuleImportResolver>::resolve_func"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"resolve_global\"), disambiguator: 0 }]","fn_type":"Safe","name":"<ResolveAll as wasmi::ModuleImportResolver>::resolve_global"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"resolve_memory\"), disambiguator: 0 }]","fn_type":"Safe","name":"<ResolveAll as wasmi::ModuleImportResolver>::resolve_memory"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"resolve_table\"), disambiguator: 0 }]","fn_type":"Safe","name":"<ResolveAll as wasmi::ModuleImportResolver>::resolve_table"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"instantiate::main"}

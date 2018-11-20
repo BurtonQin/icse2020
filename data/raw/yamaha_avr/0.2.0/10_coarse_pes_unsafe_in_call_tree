@@ -1,3 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"yamaha_avr::main"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_bool_state\"), disambiguator: 0 }]","fn_type":"Safe","name":"yamaha_avr::parse_bool_state"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"transform_bool_state\"), disambiguator: 0 }]","fn_type":"Safe","name":"yamaha_avr::transform_bool_state"}

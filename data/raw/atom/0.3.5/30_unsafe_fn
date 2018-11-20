@@ -1,6 +1,0 @@
-{"name":"<std::boxed::Box<T> as IntoRawPtr>::into_raw","from_trait":true,"arguments":[],"sources":[]}
-{"name":"<std::boxed::Box<T> as FromRawPtr>::from_raw","from_trait":true,"arguments":[{"type_info":"type(*mut ())","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/atom-0.3.5/src/lib.rs\") line 185","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<std::sync::Arc<T> as IntoRawPtr>::into_raw","from_trait":true,"arguments":[],"sources":[]}
-{"name":"<std::sync::Arc<T> as FromRawPtr>::from_raw","from_trait":true,"arguments":[{"type_info":"type(*mut ())","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/atom-0.3.5/src/lib.rs\") line 199","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"copy_lifetime","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/atom-0.3.5/src/lib.rs\") line 206","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
-{"name":"copy_mut_lifetime","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/atom-0.3.5/src/lib.rs\") line 212","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}

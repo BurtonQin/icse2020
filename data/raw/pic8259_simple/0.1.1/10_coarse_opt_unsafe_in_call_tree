@@ -1,2 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"handles_interrupt\"), disambiguator: 0 }]","fn_type":"Safe","name":"pic8259_simple::Pic::handles_interrupt"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"handles_interrupt\"), disambiguator: 0 }]","fn_type":"Safe","name":"pic8259_simple::ChainedPics::handles_interrupt"}

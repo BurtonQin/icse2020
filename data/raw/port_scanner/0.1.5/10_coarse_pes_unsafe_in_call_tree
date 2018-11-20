@@ -1,9 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"scan_port\"), disambiguator: 0 }]","fn_type":"Safe","name":"port_scanner::scan_port"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"scan_port_addr\"), disambiguator: 0 }]","fn_type":"Safe","name":"port_scanner::scan_port_addr"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"scan_ports\"), disambiguator: 0 }]","fn_type":"Safe","name":"port_scanner::scan_ports"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"scan_ports_addrs\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"port_scanner::scan_ports_addrs"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"scan_ports_range\"), disambiguator: 0 }]","fn_type":"Safe","name":"port_scanner::scan_ports_range"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"request_open_port\"), disambiguator: 0 }]","fn_type":"Safe","name":"port_scanner::request_open_port"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"local_port_available\"), disambiguator: 0 }]","fn_type":"Safe","name":"port_scanner::local_port_available"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"local_ports_available\"), disambiguator: 0 }]","fn_type":"Safe","name":"port_scanner::local_ports_available"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"local_ports_available_range\"), disambiguator: 0 }]","fn_type":"Safe","name":"port_scanner::local_ports_available_range"}

@@ -1,5 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"Token\"), disambiguator: 0 }]","fn_type":"Safe","name":"relexer_derive::Token"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"token_derive\"), disambiguator: 0 }]","fn_type":"Safe","name":"relexer_derive::token_derive"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"has_skip\"), disambiguator: 0 }]","fn_type":"Safe","name":"relexer_derive::has_skip"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"check_regex\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"relexer_derive::check_regex"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","fn_type":"Safe","name":"relexer_derive::registrar::_registrar"}

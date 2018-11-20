@@ -1,2 +1,0 @@
-{"name":"ffi::get_string","from_trait":false,"arguments":[{"type_info":"type(*const c_char)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/ffi/mod.rs\") line 9","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"ffi::parse_cf","from_trait":false,"arguments":[{"type_info":"type(*const c_char)","kind":"RawPointer"},{"type_info":"type(*const c_char)","kind":"RawPointer"}],"sources":[]}

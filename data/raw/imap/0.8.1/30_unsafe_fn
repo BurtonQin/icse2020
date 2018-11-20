@@ -1,2 +1,0 @@
-{"name":"parse::parse_many","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/imap-0.8.1/src/parse.rs\") line 51","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<types::ZeroCopy<D>>::new","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/imap-0.8.1/src/types/mod.rs\") line 42","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}

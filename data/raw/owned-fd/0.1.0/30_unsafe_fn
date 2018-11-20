@@ -1,4 +1,0 @@
-{"name":"dup","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 12","kind":{"UnsafeFnCall":"C"}}]}
-{"name":"OwnedFd::from_unowned_raw","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 47","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<OwnedFd as std::os::ext::io::FromRawFd>::from_raw_fd","from_trait":true,"arguments":[],"sources":[]}
-{"name":"FdRef::from_unowned_raw","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 144","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}

@@ -1,5 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"yandex_translate::main"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_text_from_pipe\"), disambiguator: 0 }]","fn_type":"Safe","name":"yandex_translate::get_text_from_pipe"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_homedir_path\"), disambiguator: 0 }]","fn_type":"Safe","name":"yandex_translate::get_homedir_path"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_config_file_data\"), disambiguator: 0 }]","fn_type":"Safe","name":"yandex_translate::get_config_file_data"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_apikey\"), disambiguator: 0 }]","fn_type":"Safe","name":"yandex_translate::get_apikey"}

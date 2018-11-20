@@ -1,3 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"parity_rocksdb::main"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"concat_merge\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"parity_rocksdb::concat_merge"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"custom_merge\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"parity_rocksdb::custom_merge"}

@@ -1,8 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"mut_getters\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"implement\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"getset::mut_getters::implement"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"getters\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"implement\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"getset::getters::implement"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"setters\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"implement\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"getset::setters::implement"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"getters\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"getset::getters"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"mut_getters\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"getset::mut_getters"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"setters\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"getset::setters"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"produce\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"getset::produce"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"getset::registrar::_registrar"}

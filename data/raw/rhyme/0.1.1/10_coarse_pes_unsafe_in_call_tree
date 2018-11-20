@@ -1,4 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"rhymes\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rhyme::rhymes"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rhyme::Rhyme::new"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"from_path\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rhyme::Rhyme::from_path"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"rhymes\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rhyme::Rhyme::rhymes"}

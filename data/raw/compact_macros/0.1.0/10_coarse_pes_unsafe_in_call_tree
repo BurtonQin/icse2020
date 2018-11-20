@@ -1,4 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"derive_compact\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"compact_macros::derive_compact"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_field_idents\"), disambiguator: 0 }]","fn_type":"Safe","name":"compact_macros::get_field_idents"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"expand_derive_compact\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"compact_macros::expand_derive_compact"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"compact_macros::registrar::_registrar"}

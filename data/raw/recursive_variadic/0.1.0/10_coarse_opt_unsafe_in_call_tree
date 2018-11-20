@@ -1,6 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Trait(\"RecursiveVariadic\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"and\"), disambiguator: 0 }]","fn_type":"Safe","name":"recursive_variadic::RecursiveVariadic::and"}
-{"def_path":"[DisambiguatedDefPathData { data: Trait(\"RecursiveVariadic\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"and_default\"), disambiguator: 0 }]","fn_type":"Safe","name":"recursive_variadic::RecursiveVariadic::and_default"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get\"), disambiguator: 0 }]","fn_type":"Safe","name":"<() as RecursiveVariadic>::get"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_mut\"), disambiguator: 0 }]","fn_type":"Safe","name":"<() as RecursiveVariadic>::get_mut"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"get\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<Entry<T, R> as RecursiveVariadic>::get"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"get_mut\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<Entry<T, R> as RecursiveVariadic>::get_mut"}

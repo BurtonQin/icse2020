@@ -1,5 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Thunk<T, E>>::new"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"seq\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Thunk<T, E>>::seq"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"all\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Thunk<T, E>>::all"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"await\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Thunk<T, E>>::await"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"call_thunk\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Thunk<T, E>>::call_thunk"}

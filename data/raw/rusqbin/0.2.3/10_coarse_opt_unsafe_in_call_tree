@@ -1,4 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rusqbin::main"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"inner_main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rusqbin::inner_main"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"start_on_port\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rusqbin::start_on_port"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"version\"), disambiguator: 0 }]","fn_type":"Safe","name":"rusqbin::version"}

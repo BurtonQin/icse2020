@@ -1,4 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"hotp\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"basic_otp::hotp"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<TotpSlot as std::fmt::Debug>::fmt"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"totp_offset\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"basic_otp::totp_offset"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"totp\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"basic_otp::totp"}

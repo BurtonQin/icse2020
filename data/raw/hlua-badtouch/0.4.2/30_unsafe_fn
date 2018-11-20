@@ -1,3 +1,0 @@
-{"name":"<PushGuard<L>>::new","from_trait":true,"arguments":[],"sources":[]}
-{"name":"<PushGuard<L>>::forget","from_trait":true,"arguments":[],"sources":[]}
-{"name":"Lua::from_existing_state","from_trait":true,"arguments":[{"type_info":"type(*mut T)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/hlua-badtouch-0.4.2/src/lib.rs\") line 532","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}

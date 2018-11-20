@@ -1,3 +1,0 @@
-{"name":"dir::<impl std::os::ext::io::FromRawFd for Dir>::from_raw_fd","from_trait":true,"arguments":[],"sources":[]}
-{"name":"list::errno_location","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/list.rs\") line 37","kind":{"UnsafeFnCall":"C"}}]}
-{"name":"list::DirIter::next_entry","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/list.rs\") line 55","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/list.rs\") line 55","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/list.rs\") line 57","kind":{"UnsafeFnCall":"C"}},{"loc":"file: Real(\"src/list.rs\") line 59","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/list.rs\") line 59","kind":"DerefRawPointer"}]}

@@ -1,6 +1,0 @@
-{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","name":"new","crate_name":"current"}
-{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"current_music_tracks\"), disambiguator: 0 }]","name":"current_music_tracks","crate_name":"piston-music"}
-{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"current_music_tracks\"), disambiguator: 0 }]","name":"current_music_tracks","crate_name":"piston-music"}
-{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","name":"new","crate_name":"current"}
-{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"current_sound_tracks\"), disambiguator: 0 }]","name":"current_sound_tracks","crate_name":"piston-music"}
-{"abi":"Rust","def_path":"[DisambiguatedDefPathData { data: ValueNs(\"current_sound_tracks\"), disambiguator: 0 }]","name":"current_sound_tracks","crate_name":"piston-music"}

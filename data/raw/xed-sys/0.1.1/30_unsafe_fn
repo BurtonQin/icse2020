@@ -1,2 +1,0 @@
-{"name":"<xed_interface::__BindgenUnionField<T>>::as_ref","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/xed_interface.rs\") line 9","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
-{"name":"<xed_interface::__BindgenUnionField<T>>::as_mut","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/xed_interface.rs\") line 11","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}

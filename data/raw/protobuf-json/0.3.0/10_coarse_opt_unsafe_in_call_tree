@@ -1,6 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"proto_to_json\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"protobuf_json::proto_to_json"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"field_to_json\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"protobuf_json::field_to_json"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"extract_vec_shim\"), disambiguator: 0 }]","fn_type":"Safe","name":"protobuf_json::extract_vec_shim"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"repeated_to_serde_array\"), disambiguator: 0 }]","fn_type":"Safe","name":"protobuf_json::repeated_to_serde_array"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"repeated_field_to_json\"), disambiguator: 0 }]","fn_type":"Safe","name":"protobuf_json::repeated_field_to_json"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"singular_field_to_json\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"protobuf_json::singular_field_to_json"}

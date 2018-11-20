@@ -1,8 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"trait_tests\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"trait_tests::trait_tests"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"test_impl\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"trait_tests::test_impl"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"process_case\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"trait_tests::process_case"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_type_with_filled_in_type_params_trait\"), disambiguator: 0 }]","fn_type":"Safe","name":"trait_tests::get_type_with_filled_in_type_params_trait"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_type_with_filled_in_type_params_impl\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"trait_tests::get_type_with_filled_in_type_params_impl"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"generate_unique_test_name\"), disambiguator: 0 }]","fn_type":"Safe","name":"trait_tests::generate_unique_test_name"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"inject_test_all_method\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"trait_tests::inject_test_all_method"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","fn_type":"Safe","name":"trait_tests::registrar::_registrar"}

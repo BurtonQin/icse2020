@@ -1,9 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"cli\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"build_cli\"), disambiguator: 0 }]","fn_type":"Safe","name":"rash::cli::build_cli"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"run\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rash::run"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"calc_hash_fixed\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rash::calc_hash_fixed"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"calc_hash_var\"), disambiguator: 0 }]","fn_type":"Safe","name":"rash::calc_hash_var"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"calc_hash_extendable\"), disambiguator: 0 }]","fn_type":"Safe","name":"rash::calc_hash_extendable"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"fill\"), disambiguator: 0 }]","fn_type":"Safe","name":"rash::fill"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"args\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rash::args"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_alg\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rash::get_alg"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rash::main"}

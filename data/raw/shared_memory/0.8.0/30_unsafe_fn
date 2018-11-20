@@ -1,8 +1,0 @@
-{"name":"<raw::SharedMemRaw as locks::ReadRaw>::get_raw","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/raw.rs\") line 53","kind":"DerefRawPointer"}]}
-{"name":"<raw::SharedMemRaw as locks::ReadRaw>::get_raw_slice","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/raw.rs\") line 65","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<raw::SharedMemRaw as locks::WriteRaw>::get_raw_mut","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/raw.rs\") line 71","kind":"DerefRawPointer"}]}
-{"name":"<raw::SharedMemRaw as locks::WriteRaw>::get_raw_slice_mut","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/raw.rs\") line 82","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<SharedMem<'a> as locks::ReadRaw>::get_raw","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 297","kind":"DerefRawPointer"}]}
-{"name":"<SharedMem<'a> as locks::ReadRaw>::get_raw_slice","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 309","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<SharedMem<'a> as locks::WriteRaw>::get_raw_mut","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 315","kind":"DerefRawPointer"}]}
-{"name":"<SharedMem<'a> as locks::WriteRaw>::get_raw_slice_mut","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 326","kind":{"UnsafeFnCall":"Rust"}}]}

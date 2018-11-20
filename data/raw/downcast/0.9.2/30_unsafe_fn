@@ -1,3 +1,0 @@
-{"name":"Downcast::downcast_ref_unchecked","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/downcast-0.9.2/src/lib.rs\") line 122","kind":"DerefRawPointer"}]}
-{"name":"Downcast::downcast_mut_unchecked","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/downcast-0.9.2/src/lib.rs\") line 133","kind":"DerefRawPointer"}]}
-{"name":"Downcast::downcast_unchecked","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/downcast-0.9.2/src/lib.rs\") line 146","kind":{"UnsafeFnCall":"Rust"}}]}

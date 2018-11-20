@@ -1,2 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Trait(\"BufReadExt\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"stream_until_token\"), disambiguator: 0 }]","fn_type":"Safe","name":"buf_read_ext::BufReadExt::stream_until_token"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"stream_until_token\"), disambiguator: 0 }]","fn_type":"Safe","name":"buf_read_ext::stream_until_token"}

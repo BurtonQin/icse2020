@@ -1,2 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"copy\"), disambiguator: 0 }]","fn_type":"Safe","name":"slice_copy::copy"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"slice_copy::clone"}

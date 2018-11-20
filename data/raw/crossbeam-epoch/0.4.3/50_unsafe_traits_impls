@@ -1,8 +1,0 @@
-{"name":"<atomic::Atomic<T> as core::marker::Send>"}
-{"name":"<atomic::Atomic<T> as core::marker::Sync>"}
-{"name":"<collector::Collector as core::marker::Send>"}
-{"name":"<collector::Collector as core::marker::Sync>"}
-{"name":"<internal::Bag as core::marker::Send>"}
-{"name":"<internal::SealedBag as core::marker::Sync>"}
-{"name":"<sync::queue::Queue<T> as core::marker::Sync>"}
-{"name":"<sync::queue::Queue<T> as core::marker::Send>"}

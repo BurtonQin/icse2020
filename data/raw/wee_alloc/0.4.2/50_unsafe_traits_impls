@@ -1,4 +1,0 @@
-{"name":"<CellHeader<'a> as neighbors::HasNeighbors<'a, CellHeader<'a>>>"}
-{"name":"<WeeAlloc<'a> as core::marker::Sync>"}
-{"name":"<&'b WeeAlloc<'a> as core::alloc::Alloc>"}
-{"name":"<WeeAlloc<'static> as core::alloc::GlobalAlloc>"}

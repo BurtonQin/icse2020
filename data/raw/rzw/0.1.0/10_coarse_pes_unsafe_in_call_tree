@@ -1,2 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"basic::main"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"handler\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"basic::main::handler"}

@@ -1,4 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"input\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"input\"), disambiguator: 0 }]","fn_type":"Safe","name":"easy_syntax::input::input"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"input\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"raw_input\"), disambiguator: 0 }]","fn_type":"Safe","name":"easy_syntax::input::raw_input"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"sound\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"play\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"easy_syntax::sound::play"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"sound\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"play_music\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"easy_syntax::sound::play_music"}

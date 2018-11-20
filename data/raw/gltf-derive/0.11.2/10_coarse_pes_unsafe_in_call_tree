@@ -1,3 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"gltf_derive::main"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"expand\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"gltf_derive::expand"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"gltf_derive::registrar::_registrar"}

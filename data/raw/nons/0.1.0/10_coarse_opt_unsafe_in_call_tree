@@ -1,5 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"util\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"read_fasta\"), disambiguator: 0 }]","fn_type":"Safe","name":"nons::util::read_fasta"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"util\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"read_fasta2\"), disambiguator: 0 }]","fn_type":"Safe","name":"nons::util::read_fasta2"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"nons::main"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"print_help\"), disambiguator: 0 }]","fn_type":"Safe","name":"nons::print_help"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"huh\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"nons::huh"}

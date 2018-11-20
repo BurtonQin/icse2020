@@ -85,7 +85,7 @@ impl<'a, 'b> FileOps<'a, 'b> {
             .read(true)
             .write(true)
             .create(true)
-            .truncate(overwrite) // if true overwrites the old file
+            //.truncate(overwrite) // if true overwrites the old file
             .open(file_path)
             .unwrap()
     }

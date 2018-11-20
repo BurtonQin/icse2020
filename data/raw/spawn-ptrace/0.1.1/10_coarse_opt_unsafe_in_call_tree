@@ -1,1 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"spawn_ptrace\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<std::process::Command as CommandPtraceSpawn>::spawn_ptrace"}

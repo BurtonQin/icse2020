@@ -1,6 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"do_work\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"preoomkiller::do_work"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_int\"), disambiguator: 0 }]","fn_type":"Safe","name":"preoomkiller::parse_int"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"capture\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"preoomkiller::capture"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"read_file\"), disambiguator: 0 }]","fn_type":"Safe","name":"preoomkiller::read_file"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"print_usage\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"preoomkiller::print_usage"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"preoomkiller::main"}

@@ -1,5 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_factor\"), disambiguator: 0 }]","fn_type":"Safe","name":"primes_cli::is_factor"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"factorize\"), disambiguator: 0 }]","fn_type":"Safe","name":"primes_cli::factorize"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_prime\"), disambiguator: 0 }]","fn_type":"Safe","name":"primes_cli::is_prime"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"primes_to_limit\"), disambiguator: 0 }]","fn_type":"Safe","name":"primes_cli::primes_to_limit"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"primes_cli::main"}

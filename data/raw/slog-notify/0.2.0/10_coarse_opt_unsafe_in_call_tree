@@ -1,2 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"log\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<Notify as slog::Drain>::log"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"simple\"), disambiguator: 0 }]","fn_type":"Safe","name":"slog_notify::simple"}

@@ -1,5 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"scale\"), disambiguator: 0 }]","fn_type":"Safe","name":"polyline::scale"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"check\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"polyline::check"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"encode\"), disambiguator: 0 }]","fn_type":"Safe","name":"polyline::encode"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"encode_coordinates\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"polyline::encode_coordinates"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"decode_polyline\"), disambiguator: 0 }]","fn_type":"Safe","name":"polyline::decode_polyline"}

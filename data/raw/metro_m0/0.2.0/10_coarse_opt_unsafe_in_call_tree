@@ -1,4 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"metro_m0::Pins::new"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"spi_master\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"metro_m0::spi_master"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"flash_spi_master\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"metro_m0::flash_spi_master"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"i2c_master\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"metro_m0::i2c_master"}

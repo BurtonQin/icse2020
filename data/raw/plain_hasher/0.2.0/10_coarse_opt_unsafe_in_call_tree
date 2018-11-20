@@ -1,3 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"default\"), disambiguator: 0 }]","fn_type":"Safe","name":"<PlainHasher as std::default::Default>::default"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"finish\"), disambiguator: 0 }]","fn_type":"Safe","name":"<PlainHasher as std::hash::Hasher>::finish"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"write\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<PlainHasher as std::hash::Hasher>::write"}

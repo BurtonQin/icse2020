@@ -1,9 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"deref\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<ESCAPE_QUOTE_RE as lazy_static::Deref>::deref"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"deref\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"__static_ref_initialize\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<ESCAPE_QUOTE_RE as lazy_static::Deref>::deref::__static_ref_initialize"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"initialize\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<ESCAPE_QUOTE_RE as lazy_static::LazyStatic>::initialize"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"find_all\"), disambiguator: 0 }]","fn_type":"Safe","name":"map_to_javascript_html::find_all"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"escape_html_script_text\"), disambiguator: 0 }]","fn_type":"Safe","name":"map_to_javascript_html::escape_html_script_text"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"escape_quote\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"map_to_javascript_html::escape_quote"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"replace_new_line\"), disambiguator: 0 }]","fn_type":"Safe","name":"map_to_javascript_html::replace_new_line"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"hash_map_to_javascript_html\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"map_to_javascript_html::hash_map_to_javascript_html"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"hash_map_to_javascript_html_beautify\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"map_to_javascript_html::hash_map_to_javascript_html_beautify"}

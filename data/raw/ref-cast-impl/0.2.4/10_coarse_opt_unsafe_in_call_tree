@@ -1,4 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"derive_ref_cast\"), disambiguator: 0 }]","fn_type":"Safe","name":"ref_cast_impl::derive_ref_cast"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"has_repr_c\"), disambiguator: 0 }]","fn_type":"Safe","name":"ref_cast_impl::has_repr_c"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"only_field_ty\"), disambiguator: 0 }]","fn_type":"Safe","name":"ref_cast_impl::only_field_ty"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","fn_type":"Safe","name":"ref_cast_impl::registrar::_registrar"}

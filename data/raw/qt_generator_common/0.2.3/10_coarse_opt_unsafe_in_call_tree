@@ -1,7 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"run_qmake_string_query\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"qt_generator_common::run_qmake_string_query"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"run_qmake_query\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"qt_generator_common::run_qmake_query"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_installation_data\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"qt_generator_common::get_installation_data"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"real_lib_name\"), disambiguator: 0 }]","fn_type":"Safe","name":"qt_generator_common::real_lib_name"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"lib_folder_name\"), disambiguator: 0 }]","fn_type":"Safe","name":"qt_generator_common::lib_folder_name"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"framework_name\"), disambiguator: 0 }]","fn_type":"Safe","name":"qt_generator_common::framework_name"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"lib_dependencies\"), disambiguator: 0 }]","fn_type":"Safe","name":"qt_generator_common::lib_dependencies"}

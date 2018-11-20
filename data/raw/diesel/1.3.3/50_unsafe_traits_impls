@@ -1,6 +1,0 @@
-{"name":"<r2d2::ConnectionManager<T> as std::marker::Sync>"}
-{"name":"<mysql::connection::MysqlConnection as std::marker::Send>"}
-{"name":"<pg::connection::raw::RawResult as std::marker::Send>"}
-{"name":"<pg::connection::raw::RawResult as std::marker::Sync>"}
-{"name":"<pg::connection::PgConnection as std::marker::Send>"}
-{"name":"<sqlite::connection::SqliteConnection as std::marker::Send>"}

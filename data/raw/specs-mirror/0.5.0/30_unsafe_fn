@@ -1,6 +1,0 @@
-{"name":"<MirroredStorage<C, S>>::modify","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 48","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<MirroredStorage<C, S> as specs::storage::UnprotectedStorage<C>>::clean","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 73","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<MirroredStorage<C, S> as specs::storage::UnprotectedStorage<C>>::get","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 77","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<MirroredStorage<C, S> as specs::storage::UnprotectedStorage<C>>::get_mut","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 81","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<MirroredStorage<C, S> as specs::storage::UnprotectedStorage<C>>::insert","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 86","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<MirroredStorage<C, S> as specs::storage::UnprotectedStorage<C>>::remove","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 90","kind":{"UnsafeFnCall":"Rust"}}]}

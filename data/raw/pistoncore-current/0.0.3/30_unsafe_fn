@@ -1,4 +1,0 @@
-{"name":"KEY_CURRENT::__getit","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__thread_local_inner\") line 16","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<Current<T>>::new","from_trait":true,"arguments":[],"sources":[]}
-{"name":"<Current<T>>::current","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 85","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
-{"name":"<Current<T>>::current_unwrap","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 91","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/lib.rs\") line 94","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}

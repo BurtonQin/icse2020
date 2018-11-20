@@ -1,7 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"default\"), disambiguator: 0 }]","fn_type":"Safe","name":"<HandleBox<V> as std::default::Default>::default"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"<HandleBox<V>>::new"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new_handle\"), disambiguator: 0 }]","fn_type":"Safe","name":"<HandleBox<V>>::new_handle"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"add\"), disambiguator: 0 }]","fn_type":"Safe","name":"<HandleBox<V>>::add"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"remove\"), disambiguator: 0 }]","fn_type":"Safe","name":"<HandleBox<V>>::remove"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get\"), disambiguator: 0 }]","fn_type":"Safe","name":"<HandleBox<V>>::get"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_mut\"), disambiguator: 0 }]","fn_type":"Safe","name":"<HandleBox<V>>::get_mut"}

@@ -1,2 +1,0 @@
-{"name":"<*const T as base::TCFTypeRef>::from_void_ptr","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}
-{"name":"<*mut T as base::TCFTypeRef>::from_void_ptr","from_trait":true,"arguments":[{"type_info":"type(*const c_void)","kind":"RawPointer"}],"sources":[]}

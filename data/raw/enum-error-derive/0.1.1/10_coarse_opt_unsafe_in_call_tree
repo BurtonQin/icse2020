@@ -1,6 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"enum_error\"), disambiguator: 0 }]","fn_type":"Safe","name":"enum_error_derive::enum_error"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"impl_from_traits\"), disambiguator: 0 }]","fn_type":"Safe","name":"enum_error_derive::impl_from_traits"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"impl_error\"), disambiguator: 0 }]","fn_type":"Safe","name":"enum_error_derive::impl_error"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"impl_display\"), disambiguator: 0 }]","fn_type":"Safe","name":"enum_error_derive::impl_display"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"impl_enum_error\"), disambiguator: 0 }]","fn_type":"Safe","name":"enum_error_derive::impl_enum_error"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","fn_type":"Safe","name":"enum_error_derive::registrar::_registrar"}

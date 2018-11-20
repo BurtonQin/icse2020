@@ -1,6 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"arch\"), disambiguator: 0 }]","fn_type":"Safe","name":"target_info::Target::arch"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"endian\"), disambiguator: 0 }]","fn_type":"Safe","name":"target_info::Target::endian"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"env\"), disambiguator: 0 }]","fn_type":"Safe","name":"target_info::Target::env"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"family\"), disambiguator: 0 }]","fn_type":"Safe","name":"target_info::Target::family"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"os\"), disambiguator: 0 }]","fn_type":"Safe","name":"target_info::Target::os"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"pointer_width\"), disambiguator: 0 }]","fn_type":"Safe","name":"target_info::Target::pointer_width"}

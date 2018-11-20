@@ -1,4 +1,0 @@
-{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"snappy_max_compressed_length\"), disambiguator: 0 }]","name":"snappy_max_compressed_length","crate_name":"snappy-cpp"}
-{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"snappy_compress\"), disambiguator: 0 }]","name":"snappy_compress","crate_name":"snappy-cpp"}
-{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"snappy_uncompressed_length\"), disambiguator: 0 }]","name":"snappy_uncompressed_length","crate_name":"snappy-cpp"}
-{"abi":"C","def_path":"[DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"snappy_uncompress\"), disambiguator: 0 }]","name":"snappy_uncompress","crate_name":"snappy-cpp"}

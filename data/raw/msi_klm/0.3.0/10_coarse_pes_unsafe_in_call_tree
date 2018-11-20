@@ -1,6 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"msi_klm::main"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"print_usage\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"msi_klm::print_usage"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"hexstr_to_color\"), disambiguator: 0 }]","fn_type":"Safe","name":"msi_klm::hexstr_to_color"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"extract_char_value\"), disambiguator: 0 }]","fn_type":"Safe","name":"msi_klm::extract_char_value"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"set_light\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"msi_klm::set_light"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"opt_to_area\"), disambiguator: 0 }]","fn_type":"Safe","name":"msi_klm::opt_to_area"}

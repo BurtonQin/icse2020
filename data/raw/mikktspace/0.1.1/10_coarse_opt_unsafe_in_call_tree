@@ -1,9 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"faces\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"mikktspace::faces"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"vertices\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"mikktspace::vertices"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"position\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"mikktspace::position"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"normal\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"mikktspace::normal"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"tex_coord\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"mikktspace::tex_coord"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"set_tspace_basic\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"mikktspace::set_tspace_basic"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"set_tspace\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"mikktspace::set_tspace"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"generate\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"mikktspace::Closures::generate"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"generate_tangents\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"mikktspace::generate_tangents"}

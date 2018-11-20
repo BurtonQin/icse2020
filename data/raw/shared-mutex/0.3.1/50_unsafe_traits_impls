@@ -1,4 +1,0 @@
-{"name":"<SharedMutex<T> as std::marker::Send>"}
-{"name":"<SharedMutex<T> as std::marker::Sync>"}
-{"name":"<SharedMutexReadGuard<'mutex, T> as std::marker::Send>"}
-{"name":"<SharedMutexReadGuard<'mutex, T> as std::marker::Sync>"}

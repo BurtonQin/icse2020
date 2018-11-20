@@ -1,3 +1,0 @@
-{"name":"fragile::get_thread_id::THREAD_ID::__getit","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__thread_local_inner\") line 16","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"sticky::REGISTRY::__getit","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__thread_local_inner\") line 16","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<sticky::Sticky<T>>::unsafe_take_value","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/fragile-0.3.0/src/sticky.rs\") line 133","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/fragile-0.3.0/src/sticky.rs\") line 131","kind":{"UnsafeFnCall":"Rust"}}]}

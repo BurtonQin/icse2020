@@ -1,5 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"is\"), disambiguator: 0 }]","fn_type":"Safe","name":"<(dyn Error + 'static)>::is"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"downcast\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<(dyn Error + 'static)>::downcast"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"is\"), disambiguator: 0 }]","fn_type":"Safe","name":"<(dyn Error + std::marker::Send + 'static)>::is"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"downcast\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<(dyn Error + std::marker::Send + 'static)>::downcast"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"from\"), disambiguator: 0 }]","fn_type":"Safe","name":"error::<impl std::convert::From<E> for std::boxed::Box<(dyn Error + 'static)>>::from"}

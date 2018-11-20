@@ -1,3 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"find_yaml_block\"), disambiguator: 0 }]","fn_type":"Safe","name":"frontmatter::find_yaml_block"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_and_find_content\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"frontmatter::parse_and_find_content"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"frontmatter::parse"}

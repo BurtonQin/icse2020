@@ -1,6 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"pact_verifier_cli::main"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"print_version\"), disambiguator: 0 }]","fn_type":"Safe","name":"pact_verifier_cli::print_version"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"integer_value\"), disambiguator: 0 }]","fn_type":"Safe","name":"pact_verifier_cli::integer_value"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"pact_source\"), disambiguator: 0 }]","fn_type":"Safe","name":"pact_verifier_cli::pact_source"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"interaction_filter\"), disambiguator: 0 }]","fn_type":"Safe","name":"pact_verifier_cli::interaction_filter"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"handle_command_args\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"pact_verifier_cli::handle_command_args"}

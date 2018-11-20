@@ -1,3 +1,0 @@
-{"name":"<Multiboot<'a, F>>::new","from_trait":true,"arguments":[],"sources":[]}
-{"name":"<Multiboot<'a, F>>::cast","from_trait":true,"arguments":[],"sources":[]}
-{"name":"<Multiboot<'a, F>>::convert_c_string","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 169","kind":{"UnsafeFnCall":"Rust"}}]}

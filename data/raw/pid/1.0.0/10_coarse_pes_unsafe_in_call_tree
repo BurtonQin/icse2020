@@ -1,6 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Pid as std::fmt::Debug>::fmt"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<ControlOutput as std::fmt::Debug>::fmt"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"pid::Pid::new"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"update_setpoint\"), disambiguator: 0 }]","fn_type":"Safe","name":"pid::Pid::update_setpoint"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"reset_integral_term\"), disambiguator: 0 }]","fn_type":"Safe","name":"pid::Pid::reset_integral_term"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"next_control_output\"), disambiguator: 0 }]","fn_type":"Safe","name":"pid::Pid::next_control_output"}

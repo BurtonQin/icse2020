@@ -1,4 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"discovery\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_local_ip\"), disambiguator: 0 }]","fn_type":"Safe","name":"nexrs::discovery::get_local_ip"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"discovery\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"scan_and_ping\"), disambiguator: 0 }]","fn_type":"Safe","name":"nexrs::discovery::scan_and_ping"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"discovery\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"attempt_heartbeat\"), disambiguator: 0 }]","fn_type":"Safe","name":"nexrs::discovery::attempt_heartbeat"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"Safe","name":"nexrs::main"}

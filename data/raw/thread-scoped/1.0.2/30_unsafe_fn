@@ -1,2 +1,0 @@
-{"name":"scoped","from_trait":false,"arguments":[],"sources":[]}
-{"name":"BoxedThing::into_inner","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 92","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}

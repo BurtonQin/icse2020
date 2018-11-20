@@ -1,4 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"hotp\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rusthotp::hotp"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"offset\"), disambiguator: 0 }]","fn_type":"Safe","name":"rusthotp::offset"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"sbits\"), disambiguator: 0 }]","fn_type":"Safe","name":"rusthotp::sbits"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<HotpOutput as std::fmt::Display>::fmt"}

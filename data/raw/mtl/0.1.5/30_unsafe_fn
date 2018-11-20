@@ -1,8 +1,0 @@
-{"name":"<ndarray::subref::RefArray<'a, T> as traits::ArrayType<T>>::get_unchecked","from_trait":true,"arguments":[],"sources":[]}
-{"name":"<ndarray::subref::RefArray<'a, T> as traits::ArrayType<T>>::get_unchecked_mut","from_trait":true,"arguments":[],"sources":[]}
-{"name":"<ndarray::subref::RefMutArray<'a, T> as traits::ArrayType<T>>::get_unchecked","from_trait":true,"arguments":[],"sources":[]}
-{"name":"<ndarray::subref::RefMutArray<'a, T> as traits::ArrayType<T>>::get_unchecked_mut","from_trait":true,"arguments":[],"sources":[]}
-{"name":"<ndarray::Array<T> as traits::ArrayType<T>>::get_unchecked","from_trait":true,"arguments":[],"sources":[]}
-{"name":"<ndarray::Array<T> as traits::ArrayType<T>>::get_unchecked_mut","from_trait":true,"arguments":[],"sources":[]}
-{"name":"<matrix::Matrix<T>>::get_unchecked","from_trait":true,"arguments":[],"sources":[]}
-{"name":"<matrix::Matrix<T>>::get_unchecked_mut","from_trait":true,"arguments":[],"sources":[]}

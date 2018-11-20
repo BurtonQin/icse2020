@@ -1,8 +1,0 @@
-{"name":"boom","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 15","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
-{"name":"<std::option::Option<T> as OptionExt<T>>::boom_some","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 54","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<std::option::Option<T> as OptionExt<T>>::boom_none","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 61","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<std::option::Option<T> as OptionExt<T>>::boom_take","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 70","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<std::result::Result<T, E> as ResultExt<T, E>>::boom_ok","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 80","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<std::result::Result<T, E> as ResultExt<T, E>>::boom_err","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 87","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<[T] as SliceExt<T>>::boom_get","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 97","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<[T] as SliceExt<T>>::boom_get_mut","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 103","kind":{"UnsafeFnCall":"Rust"}}]}

@@ -1,4 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"compile_protos\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"prost_build::compile_protos"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"download_protoc\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"prost_build::download_protoc"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"download_protoc\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"convert_permissions\"), disambiguator: 0 }]","fn_type":"Safe","name":"prost_build::download_protoc::convert_permissions"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"protoc_url\"), disambiguator: 0 }]","fn_type":"Safe","name":"prost_build::protoc_url"}

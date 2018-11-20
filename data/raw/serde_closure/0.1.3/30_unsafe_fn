@@ -1,3 +1,0 @@
-{"name":"<FnOnce<E, F>>::private_construct","from_trait":true,"arguments":[{"type_info":"type(*const ())","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 225","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<FnMut<E, F>>::private_construct","from_trait":true,"arguments":[{"type_info":"type(*const ())","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 339","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<Fn<E, F>>::private_construct","from_trait":true,"arguments":[{"type_info":"type(*const ())","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 467","kind":{"UnsafeFnCall":"Rust"}}]}

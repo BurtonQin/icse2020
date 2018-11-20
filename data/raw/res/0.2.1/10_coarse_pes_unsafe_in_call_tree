@@ -1,5 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"read\"), disambiguator: 0 }]","fn_type":"Safe","name":"res::read"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"res::get"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_table\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"res::get_table"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"check_exists\"), disambiguator: 0 }]","fn_type":"Safe","name":"res::check_exists"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"generate\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"res::generate"}

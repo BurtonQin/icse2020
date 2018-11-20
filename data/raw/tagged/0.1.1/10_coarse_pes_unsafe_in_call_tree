@@ -1,5 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"as_ref\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Tagged<S, B> as std::convert::AsRef<B>>::as_ref"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"as_mut\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Tagged<S, B> as std::convert::AsMut<B>>::as_mut"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Tagged<S, B>>::new"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"untag\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Tagged<S, B>>::untag"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"retag\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Tagged<S, B>>::retag"}

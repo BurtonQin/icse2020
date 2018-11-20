@@ -1,5 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"build_choices\"), disambiguator: 0 }]","fn_type":"Safe","name":"rpgcmds::build_choices"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"choice_with_color\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rpgcmds::choice_with_color"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"choice\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rpgcmds::choice"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"prompt_with_color\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rpgcmds::prompt_with_color"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"prompt\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rpgcmds::prompt"}

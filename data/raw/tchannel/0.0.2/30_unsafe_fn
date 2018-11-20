@@ -1,2 +1,0 @@
-{"name":"<atomic_cell::AtomicCell<T>>::write","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/atomic_cell.rs\") line 59","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<atomic_cell::AtomicCell<T>>::read","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/atomic_cell.rs\") line 68","kind":{"UnsafeFnCall":"Rust"}}]}

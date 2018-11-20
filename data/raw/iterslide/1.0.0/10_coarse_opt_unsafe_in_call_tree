@@ -1,4 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"push_window\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Slide<T, A>>::push_window"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Slide<T, A>>::new"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"next\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Slide<T, A> as std::iter::Iterator>::next"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"slide\"), disambiguator: 0 }]","fn_type":"Safe","name":"<T as SlideIterator<<T as std::iter::IntoIterator>::IntoIter, A>>::slide"}

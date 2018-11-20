@@ -1,3 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"funcs\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"gpg_err_make\"), disambiguator: 0 }]","fn_type":"Safe","name":"libgpg_error_sys::funcs::gpg_err_make"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"funcs\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"gpg_err_code\"), disambiguator: 0 }]","fn_type":"Safe","name":"libgpg_error_sys::funcs::gpg_err_code"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"funcs\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"gpg_err_source\"), disambiguator: 0 }]","fn_type":"Safe","name":"libgpg_error_sys::funcs::gpg_err_source"}

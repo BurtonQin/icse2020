@@ -1,7 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"worst_compress\"), disambiguator: 0 }]","fn_type":"Safe","name":"rust_lzo::worst_compress"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"eq\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<LZOError as std::cmp::PartialEq>::eq"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"drop\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<LZOContext as std::ops::Drop>::drop"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rust_lzo::LZOContext::new"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"compress\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rust_lzo::LZOContext::compress"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"compress_to_slice\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rust_lzo::LZOContext::compress_to_slice"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"decompress_to_slice\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rust_lzo::LZOContext::decompress_to_slice"}

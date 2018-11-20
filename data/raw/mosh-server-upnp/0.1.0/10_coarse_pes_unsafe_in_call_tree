@@ -1,4 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"addr_ip\"), disambiguator: 0 }]","fn_type":"Safe","name":"mosh_server_upnp::addr_ip"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"if_for_addr\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"mosh_server_upnp::if_for_addr"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"try_main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"mosh_server_upnp::try_main"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"mosh_server_upnp::main"}

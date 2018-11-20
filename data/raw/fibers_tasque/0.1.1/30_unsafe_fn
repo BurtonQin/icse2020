@@ -1,4 +1,0 @@
-{"name":"<defaults::DEFAULT_IO_TASK_QUEUE_GLOBAL as lazy_static::Deref>::deref::__stability","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__lazy_static_internal\") line 13","kind":"Static"}]}
-{"name":"<defaults::DEFAULT_CPU_TASK_QUEUE_GLOBAL as lazy_static::Deref>::deref::__stability","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__lazy_static_internal\") line 13","kind":"Static"}]}
-{"name":"defaults::DEFAULT_IO_TASK_QUEUE_LOCAL::__getit","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__thread_local_inner\") line 16","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"defaults::DEFAULT_CPU_TASK_QUEUE_LOCAL::__getit","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__thread_local_inner\") line 16","kind":{"UnsafeFnCall":"Rust"}}]}

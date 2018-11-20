@@ -1,7 +1,0 @@
-{"name":"handle::WlcOutput::dummy","from_trait":true,"arguments":[],"sources":[]}
-{"name":"handle::WlcOutput::get_user_data","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/handle.rs\") line 279","kind":{"UnsafeFnCall":"C"}},{"loc":"file: Real(\"src/handle.rs\") line 280","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"handle::WlcOutput::set_user_data","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/handle.rs\") line 296","kind":{"UnsafeFnCall":"C"}}]}
-{"name":"handle::WlcView::dummy","from_trait":true,"arguments":[],"sources":[]}
-{"name":"handle::WlcView::get_user_data","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/handle.rs\") line 553","kind":{"UnsafeFnCall":"C"}},{"loc":"file: Real(\"src/handle.rs\") line 553","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"handle::WlcView::set_user_data","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/handle.rs\") line 569","kind":{"UnsafeFnCall":"C"}}]}
-{"name":"pointer_to_string","from_trait":false,"arguments":[{"type_info":"type(*const libc::c_char)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 357","kind":{"UnsafeFnCall":"Rust"}}]}

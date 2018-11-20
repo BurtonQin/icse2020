@@ -1,5 +1,0 @@
-{"name":"<iter::SliceIter<'a, T>>::new","from_trait":true,"arguments":[{"type_info":"type(*const T)","kind":"RawPointer"},{"type_info":"type(*const T)","kind":"RawPointer"}],"sources":[]}
-{"name":"<iter::SliceIter<'a, T>>::start_mut","from_trait":true,"arguments":[],"sources":[]}
-{"name":"<iter::SliceIter<'a, T>>::end_mut","from_trait":true,"arguments":[],"sources":[]}
-{"name":"<iter::SliceIter<'a, T>>::next_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/rawslice-0.1.0/src/iter.rs\") line 117","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/rawslice-0.1.0/src/iter.rs\") line 117","kind":"DerefRawPointer"}]}
-{"name":"<iter::SliceIter<'a, T>>::get_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/rawslice-0.1.0/src/iter.rs\") line 122","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/rawslice-0.1.0/src/iter.rs\") line 122","kind":"DerefRawPointer"}]}

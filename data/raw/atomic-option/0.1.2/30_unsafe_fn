@@ -1,2 +1,0 @@
-{"name":"<AtomicOption<T>>::from_raw","from_trait":true,"arguments":[{"type_info":"type(*mut T)","kind":"RawPointer"}],"sources":[]}
-{"name":"from_raw","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/atomic-option-0.1.2/src/lib.rs\") line 217","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}

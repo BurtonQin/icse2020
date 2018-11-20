@@ -1,2 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"from\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Err as std::convert::From<std::io::Error>>::from"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"tokio_bits::main"}

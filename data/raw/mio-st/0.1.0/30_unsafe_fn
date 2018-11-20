@@ -1,8 +1,0 @@
-{"name":"<sys::unix::eventedio::EventedIo as std::os::ext::io::FromRawFd>::from_raw_fd","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/sys/unix/eventedio.rs\") line 64","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<sys::unix::tcp::TcpStream as std::os::ext::io::FromRawFd>::from_raw_fd","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/sys/unix/tcp.rs\") line 120","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<sys::unix::tcp::TcpListener as std::os::ext::io::FromRawFd>::from_raw_fd","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/sys/unix/tcp.rs\") line 190","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<sys::unix::udp::UdpSocket as std::os::ext::io::FromRawFd>::from_raw_fd","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/sys/unix/udp.rs\") line 73","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<net::tcp::TcpStream as std::os::ext::io::FromRawFd>::from_raw_fd","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/net/tcp.rs\") line 237","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<net::tcp::TcpListener as std::os::ext::io::FromRawFd>::from_raw_fd","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/net/tcp.rs\") line 463","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<net::udp::UdpSocket as std::os::ext::io::FromRawFd>::from_raw_fd","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/net/udp.rs\") line 322","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<net::udp::ConnectedUdpSocket as std::os::ext::io::FromRawFd>::from_raw_fd","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/net/udp.rs\") line 580","kind":{"UnsafeFnCall":"Rust"}}]}

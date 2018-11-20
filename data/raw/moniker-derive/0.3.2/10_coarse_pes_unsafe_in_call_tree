@@ -1,5 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"BoundTerm\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"moniker_derive::BoundTerm"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"bound_term_derive\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"moniker_derive::bound_term_derive"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"BoundPattern\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"moniker_derive::BoundPattern"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"bound_pattern_derive\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"moniker_derive::bound_pattern_derive"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"moniker_derive::registrar::_registrar"}

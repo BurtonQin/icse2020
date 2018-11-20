@@ -1,5 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"textwidth::Context::new"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"text_width\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"textwidth::Context::text_width"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"drop\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<Context as std::ops::Drop>::drop"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_text_width\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"textwidth::get_text_width"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"setup_multithreading\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"textwidth::setup_multithreading"}

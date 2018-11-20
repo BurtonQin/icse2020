@@ -1,9 +1,0 @@
-{"name":"<AtomicBool as core::marker::Sync>"}
-{"name":"<AtomicPtr<T> as core::marker::Send>"}
-{"name":"<AtomicPtr<T> as core::marker::Sync>"}
-{"name":"<AtomicI8 as core::marker::Sync>"}
-{"name":"<AtomicU8 as core::marker::Sync>"}
-{"name":"<AtomicI16 as core::marker::Sync>"}
-{"name":"<AtomicU16 as core::marker::Sync>"}
-{"name":"<AtomicIsize as core::marker::Sync>"}
-{"name":"<AtomicUsize as core::marker::Sync>"}

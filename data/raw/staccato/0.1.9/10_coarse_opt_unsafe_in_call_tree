@@ -1,5 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_cli_opts\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"st::parse_cli_opts"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"validate_percents\"), disambiguator: 0 }]","fn_type":"Safe","name":"st::validate_percents"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_percents\"), disambiguator: 0 }]","fn_type":"Safe","name":"st::parse_percents"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_separator\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"st::parse_separator"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"st::main"}

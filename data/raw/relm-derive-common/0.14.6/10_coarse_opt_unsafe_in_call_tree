@@ -1,6 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"impl_msg\"), disambiguator: 0 }]","fn_type":"Safe","name":"relm_derive_common::impl_msg"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"impl_simple_msg\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"relm_derive_common::impl_simple_msg"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"derive_partial_clone\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"relm_derive_common::derive_partial_clone"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"derive_display_variant\"), disambiguator: 0 }]","fn_type":"Safe","name":"relm_derive_common::derive_display_variant"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"derive_into_option\"), disambiguator: 0 }]","fn_type":"Safe","name":"relm_derive_common::derive_into_option"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"remove_generic_bounds\"), disambiguator: 0 }]","fn_type":"Safe","name":"relm_derive_common::remove_generic_bounds"}

@@ -1,6 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"wowcpe::main"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"current_time\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"wowcpe::current_time"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_time\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"wowcpe::parse_time"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"print_response\"), disambiguator: 0 }]","fn_type":"Safe","name":"wowcpe::print_response"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"fail\"), disambiguator: 0 }]","fn_type":"Safe","name":"wowcpe::fail"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"invalid_arg\"), disambiguator: 0 }]","fn_type":"Safe","name":"wowcpe::invalid_arg"}

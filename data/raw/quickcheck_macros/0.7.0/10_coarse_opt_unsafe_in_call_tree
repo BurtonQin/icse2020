@@ -1,3 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"plugin_registrar\"), disambiguator: 0 }]","fn_type":"Safe","name":"quickcheck_macros::plugin_registrar"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"expand_meta_quickcheck\"), disambiguator: 0 }]","fn_type":"Safe","name":"quickcheck_macros::expand_meta_quickcheck"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"wrap_item\"), disambiguator: 0 }]","fn_type":"Safe","name":"quickcheck_macros::wrap_item"}

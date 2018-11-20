@@ -1,3 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"derive\"), disambiguator: 0 }]","fn_type":"Safe","name":"derive_new::derive"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"new_for_struct\"), disambiguator: 0 }]","fn_type":"Safe","name":"derive_new::new_for_struct"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","fn_type":"Safe","name":"derive_new::registrar::_registrar"}

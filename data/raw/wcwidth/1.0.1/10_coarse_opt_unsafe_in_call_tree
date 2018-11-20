@@ -1,3 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"char_width\"), disambiguator: 0 }]","fn_type":"Safe","name":"wcwidth::char_width"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"str_width\"), disambiguator: 0 }]","fn_type":"Safe","name":"wcwidth::str_width"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"lookup_bytes\"), disambiguator: 0 }]","fn_type":"Safe","name":"wcwidth::lookup_bytes"}

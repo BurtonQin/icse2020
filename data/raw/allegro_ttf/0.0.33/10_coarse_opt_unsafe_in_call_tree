@@ -1,9 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<TtfFlags as std::clone::Clone>::clone"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"get\"), disambiguator: 0 }]","fn_type":"Safe","name":"allegro_ttf::TtfFlags::get"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"zero\"), disambiguator: 0 }]","fn_type":"Safe","name":"<TtfFlags as allegro::Flag>::zero"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"bitor\"), disambiguator: 0 }]","fn_type":"Safe","name":"<TtfFlags as std::ops::BitOr>::bitor"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"bitand\"), disambiguator: 0 }]","fn_type":"Safe","name":"<TtfFlags as std::ops::BitAnd>::bitand"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"init\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"allegro_ttf::TtfAddon::init"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_version\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"allegro_ttf::TtfAddon::get_version"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"load_ttf_font\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"allegro_ttf::TtfAddon::load_ttf_font"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"load_ttf_font_stretch\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"allegro_ttf::TtfAddon::load_ttf_font_stretch"}

@@ -1,6 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"ver::main"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"compare\"), disambiguator: 0 }]","fn_type":"Safe","name":"ver::compare"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"exit\"), disambiguator: 0 }]","fn_type":"Safe","name":"ver::exit"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"modify\"), disambiguator: 0 }]","fn_type":"Safe","name":"ver::modify"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse\"), disambiguator: 0 }]","fn_type":"Safe","name":"ver::parse"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"usage\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"ver::usage"}

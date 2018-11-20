@@ -1,6 +1,0 @@
-{"name":"<UnQLite as std::marker::Send>"}
-{"name":"<UnQLite as std::marker::Sync>"}
-{"name":"<error::Error as std::marker::Send>"}
-{"name":"<error::Error as std::marker::Sync>"}
-{"name":"<document::doc_store::UnQLiteVm as std::marker::Send>"}
-{"name":"<document::doc_store::UnQLiteVm as std::marker::Sync>"}

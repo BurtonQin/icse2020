@@ -1,2 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"ensure_stdin_open_or\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"stdin_should_be_tty::ensure_stdin_open_or"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"ensure\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"stdin_should_be_tty::ensure"}

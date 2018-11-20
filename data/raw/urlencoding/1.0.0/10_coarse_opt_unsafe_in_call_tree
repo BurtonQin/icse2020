@@ -1,5 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"encode\"), disambiguator: 0 }]","fn_type":"Safe","name":"urlencoding::encode"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"decode\"), disambiguator: 0 }]","fn_type":"Safe","name":"urlencoding::decode"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"validate_urlencoded_str\"), disambiguator: 0 }]","fn_type":"Safe","name":"urlencoding::validate_urlencoded_str"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"validate_percent_encoding\"), disambiguator: 0 }]","fn_type":"Safe","name":"urlencoding::validate_percent_encoding"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<FromUrlEncodingError as std::fmt::Debug>::fmt"}

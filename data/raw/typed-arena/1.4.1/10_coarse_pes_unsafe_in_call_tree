@@ -1,7 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Arena<T>>::new"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"with_capacity\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Arena<T>>::with_capacity"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"alloc\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<Arena<T>>::alloc"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"alloc_extend\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<Arena<T>>::alloc_extend"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"uninitialized_array\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<Arena<T>>::uninitialized_array"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"into_vec\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Arena<T>>::into_vec"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"reserve\"), disambiguator: 0 }]","fn_type":"Safe","name":"<ChunkList<T>>::reserve"}

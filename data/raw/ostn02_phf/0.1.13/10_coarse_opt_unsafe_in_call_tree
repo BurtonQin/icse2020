@@ -1,7 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_shifts\"), disambiguator: 0 }]","fn_type":"Safe","name":"ostn02_phf::get_shifts"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"from\"), disambiguator: 0 }]","fn_type":"Safe","name":"<GridRefs as std::convert::From<(i32, i32)>>::from"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"from\"), disambiguator: 0 }]","fn_type":"Safe","name":"ostn02_phf::<impl std::convert::From<GridRefs> for (i32, i32)>::from"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"from\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Adjustment as std::convert::From<(f64, f64, f64)>>::from"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"from\"), disambiguator: 0 }]","fn_type":"Safe","name":"ostn02_phf::<impl std::convert::From<Adjustment> for (f64, f64, f64)>::from"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_shifts_ffi\"), disambiguator: 0 }]","fn_type":"Safe","name":"ostn02_phf::get_shifts_ffi"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"ostn02_lookup\"), disambiguator: 0 }]","fn_type":"Safe","name":"ostn02_phf::ostn02_lookup"}

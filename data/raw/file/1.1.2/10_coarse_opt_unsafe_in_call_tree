@@ -1,4 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get\"), disambiguator: 0 }]","fn_type":"Safe","name":"file::get"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"put\"), disambiguator: 0 }]","fn_type":"Safe","name":"file::put"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_text\"), disambiguator: 0 }]","fn_type":"Safe","name":"file::get_text"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"put_text\"), disambiguator: 0 }]","fn_type":"Safe","name":"file::put_text"}

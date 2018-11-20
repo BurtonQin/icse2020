@@ -1,2 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Trait(\"VarIntRead\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"read_varint_u32\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"var_int::VarIntRead::read_varint_u32"}
-{"def_path":"[DisambiguatedDefPathData { data: Trait(\"VarIntWrite\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"write_varint_u32\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"var_int::VarIntWrite::write_varint_u32"}

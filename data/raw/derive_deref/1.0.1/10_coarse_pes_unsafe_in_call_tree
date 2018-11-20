@@ -1,4 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"derive_deref\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"derive_deref::derive_deref"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"derive_deref_mut\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"derive_deref::derive_deref_mut"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_fields\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"derive_deref::parse_fields"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"derive_deref::registrar::_registrar"}

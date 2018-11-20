@@ -1,5 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"derive_format_args\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"runtime_fmt_derive::derive_format_args"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"implement\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"runtime_fmt_derive::implement"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"build_fields\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"runtime_fmt_derive::build_fields"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"build_usize\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"runtime_fmt_derive::build_usize"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"runtime_fmt_derive::registrar::_registrar"}

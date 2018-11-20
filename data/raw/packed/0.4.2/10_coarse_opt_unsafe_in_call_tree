@@ -1,8 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_aligned_for\"), disambiguator: 0 }]","fn_type":"Safe","name":"packed::is_aligned_for"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_aligned_for_slice\"), disambiguator: 0 }]","fn_type":"Safe","name":"packed::is_aligned_for_slice"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"size_of_slice\"), disambiguator: 0 }]","fn_type":"Safe","name":"packed::size_of_slice"}
-{"def_path":"[DisambiguatedDefPathData { data: Trait(\"Aligned\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"is_aligned\"), disambiguator: 0 }]","fn_type":"Safe","name":"packed::Aligned::is_aligned"}
-{"def_path":"[DisambiguatedDefPathData { data: Trait(\"Aligned\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"as_unaligned\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"packed::Aligned::as_unaligned"}
-{"def_path":"[DisambiguatedDefPathData { data: Trait(\"Aligned\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"from_unaligned_ref\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"packed::Aligned::from_unaligned_ref"}
-{"def_path":"[DisambiguatedDefPathData { data: Trait(\"Aligned\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"into_unaligned\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"packed::Aligned::into_unaligned"}
-{"def_path":"[DisambiguatedDefPathData { data: Trait(\"Packed\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"__assert_unaligned\"), disambiguator: 0 }]","fn_type":"Safe","name":"packed::Packed::__assert_unaligned"}

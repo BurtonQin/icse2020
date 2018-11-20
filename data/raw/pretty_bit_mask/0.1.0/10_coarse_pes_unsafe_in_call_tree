@@ -1,4 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"mask\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<B as BitMaskable>::mask"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"flip\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<B as BitMaskable>::flip"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"unmask\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<B as BitMaskable>::unmask"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"masked\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<B as BitMaskable>::masked"}

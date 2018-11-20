@@ -1,7 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_cli_args\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"nordselect::parse_cli_args"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"show_available_filters\"), disambiguator: 0 }]","fn_type":"Safe","name":"nordselect::show_available_filters"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse_filters\"), disambiguator: 0 }]","fn_type":"Safe","name":"nordselect::parse_filters"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"apply_filters\"), disambiguator: 0 }]","fn_type":"Safe","name":"nordselect::apply_filters"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"sort\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"nordselect::sort"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"nordselect::PossibleFilters::new"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"nordselect::main"}

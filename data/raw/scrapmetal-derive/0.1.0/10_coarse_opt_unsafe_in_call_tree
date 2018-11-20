@@ -1,8 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"derive_into_heap\"), disambiguator: 0 }]","fn_type":"Safe","name":"scrapmetal_derive::derive_into_heap"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"impl_term\"), disambiguator: 0 }]","fn_type":"Safe","name":"scrapmetal_derive::impl_term"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"impl_term_for_struct\"), disambiguator: 0 }]","fn_type":"Safe","name":"scrapmetal_derive::impl_term_for_struct"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"impl_term_for_struct_struct\"), disambiguator: 0 }]","fn_type":"Safe","name":"scrapmetal_derive::impl_term_for_struct_struct"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"impl_term_for_tuple_struct\"), disambiguator: 0 }]","fn_type":"Safe","name":"scrapmetal_derive::impl_term_for_tuple_struct"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"impl_term_for_unit_struct\"), disambiguator: 0 }]","fn_type":"Safe","name":"scrapmetal_derive::impl_term_for_unit_struct"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"impl_term_for_enum\"), disambiguator: 0 }]","fn_type":"Safe","name":"scrapmetal_derive::impl_term_for_enum"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","fn_type":"Safe","name":"scrapmetal_derive::registrar::_registrar"}

@@ -1,4 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"to_vec\"), disambiguator: 0 }]","fn_type":"Safe","name":"<I as ToVec<T>>::to_vec"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"to_vec_result\"), disambiguator: 0 }]","fn_type":"Safe","name":"<I as ToVecResult<T, E>>::to_vec_result"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"to_map\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<I as ToMap<K, V>>::to_map"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"to_set\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<I as ToSet<K>>::to_set"}

@@ -1,1 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"fontconfig\"), disambiguator: 0 }, DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<fontconfig::struct__FcMatrix as std::clone::Clone>::clone"}

@@ -1,7 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"pushid::PushId::new"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"gen_random_indices\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"pushid::PushId::gen_random_indices"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"generate_random_indices\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"pushid::PushId::generate_random_indices"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"gen_time_based_prefix\"), disambiguator: 0 }]","fn_type":"Safe","name":"pushid::PushId::gen_time_based_prefix"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"indices_to_characters\"), disambiguator: 0 }]","fn_type":"Safe","name":"pushid::PushId::indices_to_characters"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_now\"), disambiguator: 0 }]","fn_type":"Safe","name":"pushid::PushId::get_now"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"get_id\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<PushId as PushIdGen>::get_id"}

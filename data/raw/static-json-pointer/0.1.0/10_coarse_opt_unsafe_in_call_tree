@@ -1,8 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"deref\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<JSON_CACHE as lazy_static::Deref>::deref"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"deref\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"__static_ref_initialize\"), disambiguator: 0 }]","fn_type":"Safe","name":"<JSON_CACHE as lazy_static::Deref>::deref::__static_ref_initialize"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"initialize\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<JSON_CACHE as lazy_static::LazyStatic>::initialize"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"extract_string_lit\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"static_json_pointer::extract_string_lit"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"extract_json\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"static_json_pointer::extract_json"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"json_token\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"static_json_pointer::json_token"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"json_literal\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"static_json_pointer::json_literal"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","fn_type":"Safe","name":"static_json_pointer::registrar::_registrar"}

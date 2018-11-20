@@ -1,8 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"point_eq\"), disambiguator: 0 }]","fn_type":"Safe","name":"stl::point_eq"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"eq\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Triangle as std::cmp::PartialEq>::eq"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"read_point\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"stl::read_point"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"read_triangle\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"stl::read_triangle"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"read_header\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"stl::read_header"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"read_stl\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"stl::read_stl"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"write_point\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"stl::write_point"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"write_stl\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"stl::write_stl"}

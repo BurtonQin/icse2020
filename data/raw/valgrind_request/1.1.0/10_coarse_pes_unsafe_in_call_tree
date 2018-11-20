@@ -1,6 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"running_on_valgrind\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"valgrind_request::running_on_valgrind"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"discard_translations\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"valgrind_request::discard_translations"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"count_errors\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"valgrind_request::count_errors"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"stack_register\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"valgrind_request::stack_register"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"stack_change\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"valgrind_request::stack_change"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"stack_deregister\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"valgrind_request::stack_deregister"}

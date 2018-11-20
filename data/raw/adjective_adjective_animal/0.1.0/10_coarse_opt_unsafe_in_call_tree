@@ -1,5 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"adjective_adjective_animal::Generator::new"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"rand_adj\"), disambiguator: 0 }]","fn_type":"Safe","name":"adjective_adjective_animal::Generator::rand_adj"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"rand_animal\"), disambiguator: 0 }]","fn_type":"Safe","name":"adjective_adjective_animal::Generator::rand_animal"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"default\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Generator<'a> as std::default::Default>::default"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"next\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Generator<'a> as std::iter::Iterator>::next"}

@@ -1,6 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"disp\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"print\"), disambiguator: 0 }]","fn_type":"Safe","name":"sta::disp::print"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"disp\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"newline\"), disambiguator: 0 }]","fn_type":"Safe","name":"sta::disp::newline"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"disp\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"print_debug\"), disambiguator: 0 }]","fn_type":"Safe","name":"sta::disp::print_debug"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"arg\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_args\"), disambiguator: 0 }]","fn_type":"Safe","name":"sta::arg::get_args"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"conv\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"b_str\"), disambiguator: 0 }]","fn_type":"Safe","name":"sta::conv::b_str"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"stringutil\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get_char_pos\"), disambiguator: 0 }]","fn_type":"Safe","name":"sta::stringutil::get_char_pos"}

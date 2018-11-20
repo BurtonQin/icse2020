@@ -1,5 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"ipv4\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"localhost\"), disambiguator: 0 }]","fn_type":"Safe","name":"network_constants::ipv4::localhost"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"ipv4\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"unspecified\"), disambiguator: 0 }]","fn_type":"Safe","name":"network_constants::ipv4::unspecified"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"ipv4\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"broadcast\"), disambiguator: 0 }]","fn_type":"Safe","name":"network_constants::ipv4::broadcast"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"ipv6\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"localhost\"), disambiguator: 0 }]","fn_type":"Safe","name":"network_constants::ipv6::localhost"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"ipv6\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"unspecified\"), disambiguator: 0 }]","fn_type":"Safe","name":"network_constants::ipv6::unspecified"}

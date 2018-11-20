@@ -1,9 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"SCMP_ACT_ERRNO\"), disambiguator: 0 }]","fn_type":"Safe","name":"seccomp_droundy_sys::SCMP_ACT_ERRNO"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"SCMP_ACT_TRACE\"), disambiguator: 0 }]","fn_type":"Safe","name":"seccomp_droundy_sys::SCMP_ACT_TRACE"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<scmp_filter_attr as std::fmt::Debug>::fmt"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<scmp_filter_attr as std::clone::Clone>::clone"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<scmp_compare as std::fmt::Debug>::fmt"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<scmp_compare as std::clone::Clone>::clone"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 8 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<scmp_arch as std::fmt::Debug>::fmt"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 7 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<scmp_arch as std::clone::Clone>::clone"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 9 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<scmp_arg_cmp as std::fmt::Debug>::fmt"}

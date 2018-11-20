@@ -1,7 +1,0 @@
-{"name":"<cuvector::owned::CuVector<T>>::from_raw_ptr","from_trait":true,"arguments":[{"type_info":"type(*mut T)","kind":"RawPointer"}],"sources":[]}
-{"name":"<cuvector::ptr::CuVectorPtr<T>>::deref","from_trait":true,"arguments":[],"sources":[]}
-{"name":"<cuvector::ptr::CuVectorMutPtr<T>>::deref","from_trait":true,"arguments":[],"sources":[]}
-{"name":"<cuvector::ptr::CuVectorMutPtr<T>>::deref_mut","from_trait":true,"arguments":[],"sources":[]}
-{"name":"<cumatrix::ptr::CuMatrixPtr<T>>::deref","from_trait":true,"arguments":[],"sources":[]}
-{"name":"<cumatrix::ptr::CuMatrixMutPtr<T>>::deref","from_trait":true,"arguments":[],"sources":[]}
-{"name":"<cumatrix::ptr::CuMatrixMutPtr<T>>::deref_mut","from_trait":true,"arguments":[],"sources":[]}

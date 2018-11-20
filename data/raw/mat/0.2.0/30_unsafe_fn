@@ -1,4 +1,0 @@
-{"name":"<&'a Mat<T, NROWS, NCOLS> as traits::UnsafeGet>::unsafe_get","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 246","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<Transpose<M> as traits::UnsafeGet>::unsafe_get","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 319","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<Product<L, R> as traits::UnsafeGet>::unsafe_get","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 356","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/lib.rs\") line 356","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<Sum<L, R> as traits::UnsafeGet>::unsafe_get","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 394","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/lib.rs\") line 394","kind":{"UnsafeFnCall":"Rust"}}]}

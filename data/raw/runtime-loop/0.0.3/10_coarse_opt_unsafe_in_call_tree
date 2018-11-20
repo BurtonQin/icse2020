@@ -1,9 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Signal<T>>::new"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"trigger\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Signal<T>>::trigger"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Pollable<T>>::new"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"add_trigger\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Pollable<T>>::add_trigger"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"poll\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Pollable<T> as PollableTrait>::poll"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"runtime_loop::RuntimeLoop::new"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"get_cancel_flag\"), disambiguator: 0 }]","fn_type":"Safe","name":"runtime_loop::RuntimeLoop::get_cancel_flag"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"add_pollable\"), disambiguator: 0 }]","fn_type":"Safe","name":"runtime_loop::RuntimeLoop::add_pollable"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"run\"), disambiguator: 0 }]","fn_type":"Safe","name":"runtime_loop::RuntimeLoop::run"}

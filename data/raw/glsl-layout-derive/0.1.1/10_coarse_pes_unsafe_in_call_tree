@@ -1,6 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"uniform\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"glsl_layout_derive::uniform"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"impl_uniform\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"glsl_layout_derive::impl_uniform"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"aligned_field\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"glsl_layout_derive::aligned_field"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"align_type_for\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"glsl_layout_derive::align_type_for"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"std140_type_for\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"glsl_layout_derive::std140_type_for"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"glsl_layout_derive::registrar::_registrar"}

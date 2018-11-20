@@ -1,8 +1,0 @@
-{"name":"<auto::map::Map as gdk_pixbuf::IsA<gtk::Widget>>"}
-{"name":"<auto::map::Map as gdk_pixbuf::IsA<gdk_pixbuf::Object>>"}
-{"name":"<auto::map_image::MapImage as gdk_pixbuf::IsA<gdk_pixbuf::Object>>"}
-{"name":"<auto::map_layer::MapLayer as gdk_pixbuf::IsA<gdk_pixbuf::Object>>"}
-{"name":"<auto::map_osd::MapOsd as gdk_pixbuf::IsA<auto::map_layer::MapLayer>>"}
-{"name":"<auto::map_osd::MapOsd as gdk_pixbuf::IsA<gdk_pixbuf::Object>>"}
-{"name":"<auto::map_polygon::MapPolygon as gdk_pixbuf::IsA<gdk_pixbuf::Object>>"}
-{"name":"<auto::map_track::MapTrack as gdk_pixbuf::IsA<gdk_pixbuf::Object>>"}

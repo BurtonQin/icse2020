@@ -1,2 +1,0 @@
-{"name":"elf_sections::ElfSection::string_table","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/elf_sections.rs\") line 190","kind":"DerefRawPointer"},{"loc":"file: Real(\"src/elf_sections.rs\") line 191","kind":"DerefRawPointer"}]}
-{"name":"load","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 32","kind":"DerefRawPointer"}]}

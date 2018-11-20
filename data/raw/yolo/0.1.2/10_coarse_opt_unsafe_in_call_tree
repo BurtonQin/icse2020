@@ -1,3 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"yolo\"), disambiguator: 0 }]","fn_type":"Safe","name":"<std::option::Option<T> as Yolo<T>>::yolo"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"yolo\"), disambiguator: 0 }]","fn_type":"Safe","name":"<std::result::Result<T, E> as Yolo<T>>::yolo"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_result\"), disambiguator: 0 }]","fn_type":"Safe","name":"yolo::get_result"}

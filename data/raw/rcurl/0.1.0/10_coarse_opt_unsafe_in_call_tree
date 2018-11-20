@@ -1,8 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"rcurl::Curl::new"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"absorb\"), disambiguator: 0 }]","fn_type":"Safe","name":"rcurl::Curl::absorb"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"transform\"), disambiguator: 0 }]","fn_type":"Safe","name":"rcurl::Curl::transform"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"squeeze_into\"), disambiguator: 0 }]","fn_type":"Safe","name":"rcurl::Curl::squeeze_into"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"state\"), disambiguator: 0 }]","fn_type":"Safe","name":"rcurl::Curl::state"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"indices\"), disambiguator: 0 }]","fn_type":"Safe","name":"rcurl::Curl::indices"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"fill_state_array_with_slice\"), disambiguator: 0 }]","fn_type":"Safe","name":"rcurl::Curl::fill_state_array_with_slice"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"fill_state_copy_array\"), disambiguator: 0 }]","fn_type":"Safe","name":"rcurl::Curl::fill_state_copy_array"}

@@ -1,5 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"Safe","name":"main::main"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"f\"), disambiguator: 0 }]","fn_type":"Safe","name":"main::main::f"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"f\"), disambiguator: 1 }]","fn_type":"Safe","name":"main::main::f"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"f\"), disambiguator: 2 }]","fn_type":"Safe","name":"main::main::f"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"f\"), disambiguator: 3 }]","fn_type":"Safe","name":"main::main::f"}

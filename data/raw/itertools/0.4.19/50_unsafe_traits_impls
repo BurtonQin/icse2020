@@ -1,9 +1,0 @@
-{"name":"<&'a [T] as misc::Slice>"}
-{"name":"<&'a mut [T] as misc::Slice>"}
-{"name":"<stride::Stride<'a, A> as std::marker::Send>"}
-{"name":"<stride::Stride<'a, A> as std::marker::Sync>"}
-{"name":"<stride::StrideMut<'a, A> as std::marker::Send>"}
-{"name":"<stride::StrideMut<'a, A> as std::marker::Sync>"}
-{"name":"<stride::Stride<'a, A> as misc::Slice>"}
-{"name":"<stride::StrideMut<'a, A> as misc::Slice>"}
-{"name":"<zipslices::ZipSlices<T, U> as misc::Slice>"}

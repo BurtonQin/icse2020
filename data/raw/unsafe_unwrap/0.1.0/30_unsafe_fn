@@ -1,3 +1,0 @@
-{"name":"unreachable","from_trait":false,"arguments":[],"sources":[]}
-{"name":"<core::option::Option<T> as UnsafeUnwrap<T>>::unsafe_unwrap","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 54","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<core::result::Result<T, E> as UnsafeUnwrap<T>>::unsafe_unwrap","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 61","kind":{"UnsafeFnCall":"Rust"}}]}

@@ -1,6 +1,0 @@
-{"sources":[["697",[{"loc":"file: Real(\"src/stackbox.rs\") line 52","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/stackbox.rs\") line 54","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
-{"sources":[["759",[{"loc":"file: Real(\"src/stackbox.rs\") line 133","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/stackbox.rs\") line 138","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
-{"sources":[["808",[{"loc":"file: Real(\"src/stackbox.rs\") line 173","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/stackbox.rs\") line 174","kind":{"UnsafeFnCall":"RustIntrinsic"}}]]]}
-{"sources":[["893",[{"loc":"file: Real(\"src/stackbox.rs\") line 200","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/stackbox.rs\") line 200","kind":"DerefRawPointer"}]]]}
-{"sources":[["917",[{"loc":"file: Real(\"src/stackbox.rs\") line 206","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/stackbox.rs\") line 206","kind":"DerefRawPointer"}]]]}
-{"sources":[["945",[{"loc":"file: Real(\"src/stackbox.rs\") line 212","kind":{"UnsafeFnCall":"Rust"}}]]]}

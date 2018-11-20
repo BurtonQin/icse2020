@@ -1,5 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"unhygienic_impl\"), disambiguator: 0 }]","fn_type":"Safe","name":"unhygienic_impl::unhygienic_impl"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"unhygienic_impl\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"func\"), disambiguator: 0 }]","fn_type":"Safe","name":"unhygienic_impl::unhygienic_impl::func"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"unhygienic_item_impl\"), disambiguator: 0 }]","fn_type":"Safe","name":"unhygienic_impl::unhygienic_item_impl"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"unhygienic_item_impl\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"func\"), disambiguator: 0 }]","fn_type":"Safe","name":"unhygienic_impl::unhygienic_item_impl::func"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"unhygienic_impl::registrar::_registrar"}

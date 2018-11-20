@@ -1,2 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"default_query_func\"), disambiguator: 0 }]","fn_type":"Safe","name":"obozrenie_core::default_query_func"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"default\"), disambiguator: 0 }]","fn_type":"Safe","name":"<GameEntry as std::default::Default>::default"}

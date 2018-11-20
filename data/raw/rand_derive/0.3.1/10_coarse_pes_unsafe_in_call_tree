@@ -1,3 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"rand_derive\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rand_derive::rand_derive"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"impl_rand_derive\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rand_derive::impl_rand_derive"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rand_derive::registrar::_registrar"}

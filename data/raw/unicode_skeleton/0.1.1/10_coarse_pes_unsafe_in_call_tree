@@ -1,7 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"unicode_skeleton::PrototypeCharsIterator::new"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"next\"), disambiguator: 0 }]","fn_type":"Safe","name":"<PrototypeCharsIterator as std::iter::Iterator>::next"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"confusable\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"unicode_skeleton::confusable"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"next\"), disambiguator: 0 }]","fn_type":"Safe","name":"<SkeletonChars<I> as std::iter::Iterator>::next"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"<SkeletonChars<I>>::new"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"skeleton_chars\"), disambiguator: 0 }]","fn_type":"Safe","name":"<I as UnicodeSkeleton<I>>::skeleton_chars"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"skeleton_chars\"), disambiguator: 0 }]","fn_type":"Safe","name":"<&'a str as UnicodeSkeleton<std::str::Chars<'a>>>::skeleton_chars"}

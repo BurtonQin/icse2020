@@ -1,6 +1,0 @@
-{"name":"<job::JobRef as std::marker::Send>"}
-{"name":"<job::JobRef as std::marker::Sync>"}
-{"name":"<worker_local::WorkerLocal<T> as std::marker::Send>"}
-{"name":"<worker_local::WorkerLocal<T> as std::marker::Sync>"}
-{"name":"<thread_pool::ThreadPool::scoped_pool::Handler as std::marker::Send>"}
-{"name":"<thread_pool::ThreadPool::scoped_pool::Handler as std::marker::Sync>"}

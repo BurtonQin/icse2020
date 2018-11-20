@@ -1,1 +1,0 @@
-{"name":"funcs::posix88::fcntl::open","from_trait":false,"arguments":[{"type_info":"type(*const c_char)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/libc-0.1.12/rust/src/liblibc/lib.rs\") line 6429","kind":{"UnsafeFnCall":"C"}}]}

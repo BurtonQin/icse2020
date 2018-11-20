@@ -1,6 +1,0 @@
-{"name":"<data::vec_slice::VecSlice<'a, T>>::new_unsafe","from_trait":true,"arguments":[],"sources":[]}
-{"name":"<data::vec_slice::VecSlice<'a, T>>::get_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"data/vec_slice.rs\") line 76","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<data::vec_slice::VecSliceMut<'a, T>>::new_unsafe","from_trait":true,"arguments":[],"sources":[]}
-{"name":"<data::vec_slice::VecSliceMut<'a, T>>::get_unchecked","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"data/vec_slice.rs\") line 155","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<data::vec_slice::VecSliceMut<'a, T>>::get_unchecked_mut","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"data/vec_slice.rs\") line 164","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<hashable_partial_eq::HashablePartialEq<T>>::new","from_trait":true,"arguments":[],"sources":[]}

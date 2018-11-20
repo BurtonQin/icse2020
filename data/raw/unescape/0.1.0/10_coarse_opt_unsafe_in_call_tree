@@ -1,6 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"unescape\"), disambiguator: 0 }]","fn_type":"Safe","name":"unescape::unescape"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"unescape_unicode\"), disambiguator: 0 }]","fn_type":"Safe","name":"unescape::unescape_unicode"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"unescape_byte\"), disambiguator: 0 }]","fn_type":"Safe","name":"unescape::unescape_byte"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"unescape_octal\"), disambiguator: 0 }]","fn_type":"Safe","name":"unescape::unescape_octal"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"unescape_octal_leading\"), disambiguator: 0 }]","fn_type":"Safe","name":"unescape::unescape_octal_leading"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"unescape_octal_no_leading\"), disambiguator: 0 }]","fn_type":"Safe","name":"unescape::unescape_octal_no_leading"}

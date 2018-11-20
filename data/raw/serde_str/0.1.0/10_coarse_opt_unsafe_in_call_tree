@@ -1,4 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"expecting\"), disambiguator: 0 }]","fn_type":"Safe","name":"<StrVisitor<T> as serde::de::Visitor<'a>>::expecting"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"visit_str\"), disambiguator: 0 }]","fn_type":"Safe","name":"<StrVisitor<T> as serde::de::Visitor<'a>>::visit_str"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"deserialize\"), disambiguator: 0 }]","fn_type":"Safe","name":"serde_str::deserialize"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"serialize\"), disambiguator: 0 }]","fn_type":"Safe","name":"serde_str::serialize"}

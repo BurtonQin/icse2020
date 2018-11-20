@@ -1,4 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"strip_toolchain\"), disambiguator: 0 }]","fn_type":"Safe","name":"rustup_prompt_helper::strip_toolchain"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"read_settings\"), disambiguator: 0 }]","fn_type":"Safe","name":"rustup_prompt_helper::read_settings"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"get_toolchain\"), disambiguator: 0 }]","fn_type":"Safe","name":"rustup_prompt_helper::get_toolchain"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"Safe","name":"rustup_prompt_helper::main"}

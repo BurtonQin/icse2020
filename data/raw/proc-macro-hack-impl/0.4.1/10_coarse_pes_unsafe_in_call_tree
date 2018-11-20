@@ -1,4 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"hack_expr\"), disambiguator: 0 }]","fn_type":"Safe","name":"proc_macro_hack_impl::hack_expr"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"hack_item\"), disambiguator: 0 }]","fn_type":"Safe","name":"proc_macro_hack_impl::hack_item"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"parse\"), disambiguator: 0 }]","fn_type":"Safe","name":"proc_macro_hack_impl::parse"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"registrar\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"_registrar\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"proc_macro_hack_impl::registrar::_registrar"}

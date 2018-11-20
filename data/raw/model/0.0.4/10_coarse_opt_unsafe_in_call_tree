@@ -1,4 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"clone\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Shared<T> as std::clone::Clone>::clone"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"deref\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<Shared<T> as std::ops::Deref>::deref"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Shared<T>>::new"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"permutohedron_heap\"), disambiguator: 0 }]","fn_type":"Safe","name":"model::permutohedron_heap"}

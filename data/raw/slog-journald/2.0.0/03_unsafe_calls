@@ -1,1 +1,0 @@
-{"abi":"C","def_path":"[DisambiguatedDefPathData { data: Module(\"journal\"), disambiguator: 0 }, DisambiguatedDefPathData { data: TypeNs(\"\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"sd_journal_sendv\"), disambiguator: 0 }]","name":"sd_journal_sendv","crate_name":"libsystemd_sys"}

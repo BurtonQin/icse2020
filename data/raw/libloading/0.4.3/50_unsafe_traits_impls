@@ -1,8 +1,0 @@
-{"name":"<os::unix::Library as std::marker::Send>"}
-{"name":"<os::unix::Library as std::marker::Sync>"}
-{"name":"<os::unix::Symbol<T> as std::marker::Send>"}
-{"name":"<os::unix::Symbol<T> as std::marker::Sync>"}
-{"name":"<Library as std::marker::Send>"}
-{"name":"<Library as std::marker::Sync>"}
-{"name":"<Symbol<'lib, T> as std::marker::Send>"}
-{"name":"<Symbol<'lib, T> as std::marker::Sync>"}

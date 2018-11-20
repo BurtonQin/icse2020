@@ -1,9 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<LogMessage as std::fmt::Debug>::fmt"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<LogMessage as std::fmt::Display>::fmt"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"new\"), disambiguator: 0 }]","fn_type":"Safe","name":"ulog::AsyncLogger::new"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"failures\"), disambiguator: 0 }]","fn_type":"Safe","name":"ulog::AsyncLogger::failures"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"sender\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"ulog::AsyncLogger::sender"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"enabled\"), disambiguator: 0 }]","fn_type":"Safe","name":"<AsyncLogger as log::Log>::enabled"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"log\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<AsyncLogger as log::Log>::log"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"init\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"ulog::init"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"init_stderr\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"ulog::init_stderr"}

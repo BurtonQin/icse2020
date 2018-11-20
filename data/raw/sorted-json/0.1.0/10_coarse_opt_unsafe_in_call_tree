@@ -1,5 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"to_json\"), disambiguator: 0 }]","fn_type":"Safe","name":"sorted_json::to_json"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"escape_json_string\"), disambiguator: 0 }]","fn_type":"Safe","name":"sorted_json::escape_json_string"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"to_json_\"), disambiguator: 0 }]","fn_type":"Safe","name":"sorted_json::to_json_"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"from_escape_table\"), disambiguator: 0 }]","fn_type":"Safe","name":"sorted_json::CharEscape::from_escape_table"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"write_char_escape\"), disambiguator: 0 }]","fn_type":"Safe","name":"sorted_json::write_char_escape"}

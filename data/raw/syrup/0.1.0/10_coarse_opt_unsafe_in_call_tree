@@ -1,8 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"initscr\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"syrup::Window::initscr"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"writeln\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"syrup::Window::writeln"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"redraw\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"syrup::Window::redraw"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"draw_input\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"syrup::Window::draw_input"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"resize\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"syrup::Window::resize"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"get\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"syrup::Window::get"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"deref\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Window as std::ops::Deref>::deref"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"drop\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<Window as std::ops::Drop>::drop"}

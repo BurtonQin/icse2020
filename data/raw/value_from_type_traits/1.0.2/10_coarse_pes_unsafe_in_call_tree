@@ -1,1 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"into_enum\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<T as IntoEnum<E>>::into_enum"}

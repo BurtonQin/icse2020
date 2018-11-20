@@ -1,3 +1,0 @@
-{"name":"<NvList as foreign_types::ForeignType>::from_ptr","from_trait":true,"arguments":[{"type_info":"type(*mut sys::nvlist)","kind":"RawPointer"}],"sources":[]}
-{"name":"NvListRef::from_mut_ptr","from_trait":true,"arguments":[{"type_info":"type(*mut sys::nvlist)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 174","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
-{"name":"NvListRef::from_ptr","from_trait":true,"arguments":[{"type_info":"type(*const sys::nvlist)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 179","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}

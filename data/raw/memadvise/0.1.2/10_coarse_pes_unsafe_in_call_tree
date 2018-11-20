@@ -1,3 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"advise\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"memadvise::advise"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"advise_helper\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"memadvise::advise_helper"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"unix\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"advise\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"memadvise::unix::advise"}

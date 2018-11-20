@@ -1,4 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"is_palindrome\"), disambiguator: 0 }]","fn_type":"Safe","name":"palindrome::is_palindrome"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"contains_palindrome\"), disambiguator: 0 }]","fn_type":"Safe","name":"palindrome::contains_palindrome"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"check\"), disambiguator: 0 }]","fn_type":"Safe","name":"palindrome::check"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"check_sentence\"), disambiguator: 0 }]","fn_type":"Safe","name":"palindrome::check_sentence"}

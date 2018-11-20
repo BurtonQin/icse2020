@@ -1,8 +1,0 @@
-{"name":"<core::config::VIEW_ENGINES as lazy_static::Deref>::deref::__stability","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__lazy_static_internal\") line 13","kind":"Static"}]}
-{"name":"<core::context::CONTEXT as lazy_static::Deref>::deref::__stability","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__lazy_static_internal\") line 13","kind":"Static"}]}
-{"name":"<core::router::ROUTE_ALL as lazy_static::Deref>::deref::__stability","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__lazy_static_internal\") line 13","kind":"Static"}]}
-{"name":"<support::session::STORE as lazy_static::Deref>::deref::__stability","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__lazy_static_internal\") line 13","kind":"Static"}]}
-{"name":"<support::session::DEFAULT_LIFETIME as lazy_static::Deref>::deref::__stability","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__lazy_static_internal\") line 13","kind":"Static"}]}
-{"name":"<support::session::AUTO_CLEARN as lazy_static::Deref>::deref::__stability","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__lazy_static_internal\") line 13","kind":"Static"}]}
-{"name":"<support::logger::TEMP_STORE as lazy_static::Deref>::deref::__stability","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__lazy_static_internal\") line 13","kind":"Static"}]}
-{"name":"<support::logger::CONFIG as lazy_static::Deref>::deref::__stability","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"__lazy_static_internal\") line 13","kind":"Static"}]}

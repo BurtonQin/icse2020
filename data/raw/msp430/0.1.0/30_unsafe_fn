@@ -1,3 +1,0 @@
-{"name":"interrupt::enable","from_trait":false,"arguments":[],"sources":[]}
-{"name":"register::sp::write","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/msp430-0.1.0/src/register/sp.rs\") line 20","kind":"Asm"}]}
-{"name":"register::pc::write","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"/home/ans5k/.cargo/registry/src/github.com-1ecc6299db9ec823/msp430-0.1.0/src/register/pc.rs\") line 20","kind":"Asm"}]}

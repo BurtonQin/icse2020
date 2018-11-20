@@ -1,7 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"sv::main"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"print_header\"), disambiguator: 0 }]","fn_type":"Safe","name":"sv::print_header"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"sercxi\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"sv::sercxi"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"create_indent\"), disambiguator: 0 }]","fn_type":"Safe","name":"sv::create_indent"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"difinu\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"sv::difinu"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"print_translations\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"sv::print_translations"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"print_examples\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"sv::print_examples"}

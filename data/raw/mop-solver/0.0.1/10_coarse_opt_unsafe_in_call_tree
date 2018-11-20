@@ -1,2 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Trait(\"Solver\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"initialize\"), disambiguator: 0 }]","fn_type":"Safe","name":"mop_solver::Solver::initialize"}
-{"def_path":"[DisambiguatedDefPathData { data: Trait(\"Solver\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"terminate\"), disambiguator: 0 }]","fn_type":"Safe","name":"mop_solver::Solver::terminate"}

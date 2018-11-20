@@ -1,3 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"respond_to\"), disambiguator: 0 }]","fn_type":"Safe","name":"<EtaggedFileResponse as rocket::response::Responder<'a>>::respond_to"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"from\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rocket_etagged_file_response::EtaggedFileResponse::from"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"new_etag_map\"), disambiguator: 0 }]","fn_type":"Safe","name":"rocket_etagged_file_response::EtaggedFileResponse::new_etag_map"}

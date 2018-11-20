@@ -1,8 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"fmt_inner_hex\"), disambiguator: 0 }]","fn_type":"Safe","name":"hex_slice::fmt_inner_hex"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"hex\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Hex<'a, T>>::hex"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Hex<'a, T> as core::fmt::LowerHex>::fmt"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Hex<'a, T> as core::fmt::UpperHex>::fmt"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<PlainHex<'a, T> as core::fmt::LowerHex>::fmt"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"fmt\"), disambiguator: 0 }]","fn_type":"Safe","name":"<PlainHex<'a, T> as core::fmt::UpperHex>::fmt"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"as_hex\"), disambiguator: 0 }]","fn_type":"Safe","name":"<[T] as AsHex>::as_hex"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 5 }, DisambiguatedDefPathData { data: ValueNs(\"plain_hex\"), disambiguator: 0 }]","fn_type":"Safe","name":"<[T] as AsHex>::plain_hex"}

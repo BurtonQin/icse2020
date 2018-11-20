@@ -1,3 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"gpio\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"init\"), disambiguator: 0 }]","fn_type":"Safe","name":"mockup_hal::gpio::init"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"gpio\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"read\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"mockup_hal::gpio::read"}
-{"def_path":"[DisambiguatedDefPathData { data: Module(\"gpio\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"write\"), disambiguator: 0 }]","fn_type":"Safe","name":"mockup_hal::gpio::write"}

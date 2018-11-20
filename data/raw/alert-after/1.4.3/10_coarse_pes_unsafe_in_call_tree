@@ -1,8 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"notify\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"aa::notify"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"exit_status_to_message\"), disambiguator: 0 }]","fn_type":"Safe","name":"aa::exit_status_to_message"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"spawn_command\"), disambiguator: 0 }]","fn_type":"Safe","name":"aa::spawn_command"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"args\"), disambiguator: 0 }]","fn_type":"Safe","name":"aa::args"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"first_arg_as_program_name\"), disambiguator: 0 }]","fn_type":"Safe","name":"aa::first_arg_as_program_name"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"alert_after\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"aa::alert_after"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"run\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"aa::run"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"aa::main"}

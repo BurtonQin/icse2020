@@ -1,4 +1,0 @@
-{"name":"Referent::assemble_mut","from_trait":false,"arguments":[{"type_info":"type(*mut <Self>::Data)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 18","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/lib.rs\") line 18","kind":{"UnsafeFnCall":"RustIntrinsic"}}]}
-{"name":"<T as Referent>::assemble","from_trait":true,"arguments":[{"type_info":"type(*const T)","kind":"RawPointer"}],"sources":[]}
-{"name":"<[T] as Referent>::assemble","from_trait":true,"arguments":[{"type_info":"type(*const T)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 66","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"<str as Referent>::assemble","from_trait":true,"arguments":[{"type_info":"type(*const u8)","kind":"RawPointer"}],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 90","kind":{"UnsafeFnCall":"Rust"}},{"loc":"file: Real(\"src/lib.rs\") line 90","kind":{"UnsafeFnCall":"Rust"}}]}

@@ -1,5 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"pop\"), disambiguator: 0 }]","fn_type":"Safe","name":"<VarArgs4<T, A, B, C> as Variadic<T, A, B, C>>::pop"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 1 }, DisambiguatedDefPathData { data: ValueNs(\"pop\"), disambiguator: 0 }]","fn_type":"Safe","name":"<VarArgs3<T, A, B> as Variadic<T, A, B>>::pop"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 2 }, DisambiguatedDefPathData { data: ValueNs(\"pop\"), disambiguator: 0 }]","fn_type":"Safe","name":"<VarArgs2<T, A> as Variadic<T, A>>::pop"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 3 }, DisambiguatedDefPathData { data: ValueNs(\"pop\"), disambiguator: 0 }]","fn_type":"Safe","name":"<VarArgs1<T> as Variadic<T>>::pop"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 4 }, DisambiguatedDefPathData { data: ValueNs(\"pop\"), disambiguator: 0 }]","fn_type":"Safe","name":"<VarArgs0<T> as Variadic<T>>::pop"}

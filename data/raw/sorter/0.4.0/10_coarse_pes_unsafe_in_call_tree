@@ -1,9 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"insertion_sort\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"sorter::insertion_sort"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"binary_search_right\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"sorter::binary_search_right"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"binary_insertion_sort\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"sorter::binary_insertion_sort"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"shell_sort\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"sorter::shell_sort"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"shaker_sort\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"sorter::shaker_sort"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"shift_down\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"sorter::shift_down"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"heap_sort\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"sorter::heap_sort"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"quick_sort\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"sorter::quick_sort"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"bubble_sort\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"sorter::bubble_sort"}

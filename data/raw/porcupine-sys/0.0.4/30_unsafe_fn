@@ -1,8 +1,0 @@
-{"name":"sample_rate","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 28","kind":{"UnsafeFnCall":"C"}}]}
-{"name":"version","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 33","kind":{"UnsafeFnCall":"C"}},{"loc":"file: Real(\"src/lib.rs\") line 33","kind":{"UnsafeFnCall":"Rust"}}]}
-{"name":"frame_length","from_trait":false,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 38","kind":{"UnsafeFnCall":"C"}}]}
-{"name":"Object::new","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 58","kind":{"UnsafeFnCall":"C"}}]}
-{"name":"Object::new_multiple_keywords","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 86","kind":{"UnsafeFnCall":"C"}}]}
-{"name":"Object::delete","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 102","kind":{"UnsafeFnCall":"C"}}]}
-{"name":"Object::process","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 109","kind":{"UnsafeFnCall":"C"}}]}
-{"name":"Object::process_multiple_keywords","from_trait":true,"arguments":[],"sources":[{"loc":"file: Real(\"src/lib.rs\") line 121","kind":{"UnsafeFnCall":"C"}}]}

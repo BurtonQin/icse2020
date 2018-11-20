@@ -1,8 +1,0 @@
-{"name":"posix::ioctl::raw::tiocexcl","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 5","kind":{"UnsafeFnCall":"C"}}]}
-{"name":"posix::ioctl::raw::tiocnxcl","from_trait":false,"arguments":[],"sources":[{"loc":"file: Macros(\"ioctl\") line 5","kind":{"UnsafeFnCall":"C"}}]}
-{"name":"posix::ioctl::raw::tiocmget","from_trait":false,"arguments":[{"type_info":"type(*mut libc::c_int)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 13","kind":{"UnsafeFnCall":"C"}}]}
-{"name":"posix::ioctl::raw::tiocmbic","from_trait":false,"arguments":[{"type_info":"type(*const libc::c_int)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 21","kind":{"UnsafeFnCall":"C"}}]}
-{"name":"posix::ioctl::raw::tiocmbis","from_trait":false,"arguments":[{"type_info":"type(*const libc::c_int)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 21","kind":{"UnsafeFnCall":"C"}}]}
-{"name":"posix::ioctl::raw::tcgets2","from_trait":false,"arguments":[{"type_info":"type(*mut libc::termios2)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 53","kind":{"UnsafeFnCall":"C"}}]}
-{"name":"posix::ioctl::raw::tcsets2","from_trait":false,"arguments":[{"type_info":"type(*const libc::termios2)","kind":"RawPointer"}],"sources":[{"loc":"file: Macros(\"ioctl\") line 62","kind":{"UnsafeFnCall":"C"}}]}
-{"name":"<posix::tty::TTYPort as std::os::ext::io::FromRawFd>::from_raw_fd","from_trait":true,"arguments":[],"sources":[]}

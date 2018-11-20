@@ -1,4 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rat::main"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"run\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rat::run"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"build_cli\"), disambiguator: 0 }]","fn_type":"Safe","name":"rat::build_cli"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"call_module\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rat::call_module"}

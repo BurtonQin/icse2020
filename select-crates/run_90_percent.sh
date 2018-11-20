@@ -16,6 +16,8 @@ export RUST_LOG=error
 #rm $PROJECT_OUT/analysis_pass.txt
 #rm $PROJECT_OUT/analysis_fails.txt
 
+rm -f $PROJECT_HOME/select-crates/missing_90_percent.txt
+
 cd $CRATES_DIR
 
 while read p; do
@@ -33,7 +35,7 @@ while read p; do
 		fi
 
 	else 
-		echo "$p : removed"
+		echo "$p" >>  $PROJECT_HOME/select-crates/missing_90_percent.txt
 	fi
 done <$PROJECT_HOME/select-crates/crates.io-90-percent
 

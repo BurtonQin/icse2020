@@ -1,8 +1,0 @@
-{"name":"<LinkedHashMap<K, V, S> as std::marker::Send>"}
-{"name":"<LinkedHashMap<K, V, S> as std::marker::Sync>"}
-{"name":"<Iter<'a, K, V> as std::marker::Send>"}
-{"name":"<IterMut<'a, K, V> as std::marker::Send>"}
-{"name":"<IntoIter<K, V> as std::marker::Send>"}
-{"name":"<Iter<'a, K, V> as std::marker::Sync>"}
-{"name":"<IterMut<'a, K, V> as std::marker::Sync>"}
-{"name":"<IntoIter<K, V> as std::marker::Sync>"}

@@ -1,5 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"decode\"), disambiguator: 0 }]","fn_type":"Safe","name":"<Args as rustc_serialize::Decodable>::decode"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rshark::main"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"open_capture\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rshark::open_capture"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"open_device\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"rshark::open_device"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"open_file\"), disambiguator: 0 }]","fn_type":"Safe","name":"rshark::open_file"}

@@ -1,4 +1,0 @@
-{"def_path":"[DisambiguatedDefPathData { data: Trait(\"Command\"), disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"name\"), disambiguator: 0 }]","fn_type":"Safe","name":"yacli::Command::name"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"decode\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<T as Decode>::decode"}
-{"def_path":"[DisambiguatedDefPathData { data: Impl, disambiguator: 0 }, DisambiguatedDefPathData { data: ValueNs(\"decode_with_version\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"<T as Decode>::decode_with_version"}
-{"def_path":"[DisambiguatedDefPathData { data: ValueNs(\"main_with_command\"), disambiguator: 0 }]","fn_type":"NormalNotSafe","name":"yacli::main_with_command"}
