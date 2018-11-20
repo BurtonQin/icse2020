@@ -188,7 +188,7 @@ pub fn save_summary_analysis<T>(analysis_results: T, file: &mut File)
     where
         T: serde::ser::Serialize,
 {
-    error!("Save in file {:?}", file);
+    //error!("Save in file {:?}", file);
     let serialized = serde_json::to_string(&analysis_results).unwrap();
     writeln!(file, "{}", serialized);
 }
@@ -197,7 +197,7 @@ pub fn save_analysis<T>(analysis_results: Vec<T>, file: &mut File)
     where
         T: serde::ser::Serialize,
 {
-    error!("Save in file {:?}", file);
+    //error!("Save in file {:?}", file);
     for res in analysis_results {
         save_summary_analysis(res,file);
     }
