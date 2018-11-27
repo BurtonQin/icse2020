@@ -25,7 +25,7 @@ use implicit_unsafe::deps;
 #[derive(PartialEq,Eq,Hash,Debug,Clone,Copy)]
 struct CallContext<'tcx> {
     def_id: DefId,
-    substs:  Option<&'tcx ty::subst::Substs<'tcx>>,
+    substs: &'tcx ty::subst::Substs<'tcx>,
 }
 
 #[derive(Debug,PartialEq,Clone,Copy)]
@@ -77,10 +77,9 @@ pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>
 
                 let ty = cx.tcx.type_of(fn_def_id);
                 if let TyKind::FnDef(_, substs) = ty.sty {
-                    // TODO figure out whe I might want None for substs
                     let cc = CallContext {
                         def_id: fn_def_id,
-                        substs: Some (substs),
+                        substs: substs,
                     };
                     // process only if it was not done so already
                     if let None = call_graph.get(&cc) {
@@ -92,10 +91,7 @@ pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>
                                               optimistic, 0);
                         calls_visitor.visit_mir(mir);
                     }
-                } else {
-                    error!("fn_def_id {:?} not TyKind::FnDef", fn_def_id);
                 }
-
             }
         }
     }
@@ -112,7 +108,7 @@ pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>
             with_unsafe.insert(
                 CallContext {
                     def_id: def_id,
-                    substs: None,
+                    substs: ty::List::empty(), //TODO think about this more
                 },
             );
         }
@@ -206,7 +202,7 @@ pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>
     // compile results
     for (ctxt,call_data) in call_graph.iter() {
         // print only if it does not have substitutions
-        if let None = ctxt.substs {
+        if ctxt.substs.len() == 0 { // TODO check this
             match call_data.call_type {
                 CallType::Resolved => {
                     if ctxt.def_id.is_local() {
@@ -297,19 +293,13 @@ impl<'a, 'b, 'tcx:'a+'b>  CallsVisitor<'a, 'b, 'tcx> {
 
     // mutate in place the call data
     fn resolve(&mut self, ctxt: CallContext<'tcx>) {
-
         self.depth += 1;
-
-        error!("Resolve {:?} {:?}", ctxt.def_id, ctxt.substs);
-
+        info!("Resolve {:?} {:?}", ctxt.def_id, ctxt.substs);
         // get calls for the method with no substitutions
         let no_substs_ctx = CallContext {
             def_id: ctxt.def_id,
-            substs: Some(Substs::identity_for_item(self.cx.tcx,ctxt.def_id)),
+            substs: Substs::identity_for_item(self.cx.tcx,ctxt.def_id),
         };
-
-        info!("Resolve no_substs_ctx: {:?} call_graph: {:?}", no_substs_ctx, self.call_graph.get(&no_substs_ctx));
-
         //check if a node exists for def_id with no substs
         let mut not_in_call_graph_no_subts = false; // for borrow checker
         if let None = self.call_graph.get(&no_substs_ctx) {
@@ -331,9 +321,11 @@ impl<'a, 'b, 'tcx:'a+'b>  CallsVisitor<'a, 'b, 'tcx> {
                                       self.optimistic,
                                       self.depth);
                 calls_visitor.visit_mir(mir);
-            } else {
+            } else { // Not a local call
                 error!("No MIR for {:?}", &ctxt);
-                return;
+                error!("External call: {:?}", ctxt);
+                self.external_calls.insert(get_fn_path(self.cx, ctxt.def_id), ctxt.def_id);
+                return; //TODO Fix this
             }
         }
 
@@ -367,138 +359,85 @@ impl<'a, 'b, 'tcx:'a+'b>  CallsVisitor<'a, 'b, 'tcx> {
                 for callee_ctxt in calls.iter() {
                     let mut cco = None;
                     let mut unresolved_type = false;
-                    if let Some(caller_substs) = ctxt.substs {
-                        if let Some(callee_substs) = callee_ctxt.substs {
-                            let s1 = Substs::identity_for_item(self.cx.tcx, callee_ctxt.def_id);
-                            let s2 = s1.subst(self.cx.tcx, callee_substs);
-                            let new_substs = s2.subst(self.cx.tcx, caller_substs );
-                            error!("generics of caller {:?}", self.cx.tcx.generics_of(ctxt.def_id));
-                            error!("generics of callee {:?}", self.cx.tcx.generics_of(callee_ctxt.def_id));
-                            error!("caller substs {:?}", caller_substs);
-                            error!("callee substs {:?}", callee_substs);
-//                            let new_substs = callee_substs.subst(self.cx.tcx, caller_substs);
-                            error!("new substs substs {:?}", new_substs);
-                            // if the method has self and the self is a type parameter
-                            // do not try to resolve
-                            let mut try_resolve = true;
-                            if self.cx.tcx.generics_of( callee_ctxt.def_id ).has_self {
-                                if let ty::subst::UnpackedKind::Type(ty) = new_substs[0].unpack() {
-                                    if let ty::TyKind::Param(_) = ty.sty {
-                                        try_resolve = false;
-                                        unresolved_type = true;
-                                    }
-                                }
-                            }
-                            if try_resolve {
-                                let param_env = self.cx.tcx.param_env(ctxt.def_id);
-                                if let Some(instance) = ty::Instance::resolve(self.cx.tcx,
-                                                                              param_env,
-                                                                              callee_ctxt.def_id,
-                                                                              new_substs) {
-                                    match instance.def {
-                                        ty::InstanceDef::Item(def_id)
-                                        | ty::InstanceDef::Intrinsic(def_id)
-                                        | ty::InstanceDef::CloneShim(def_id, _) => {
-                                            if self.cx.tcx.is_closure(def_id) {
-                                                //do nothing
-                                                info!("closure {:?}", instance.def);
-                                            } else {
-                                                // if the only subst is self replace with None
-                                                let ctxt_substs =
-                                                    if new_substs.len() == 1 {
-                                                        if self.cx.tcx.generics_of(def_id).has_self {
-                                                            Some(new_substs)
-                                                        } else {
-                                                            if self.cx.tcx.generics_of(callee_ctxt.def_id).has_self {
-                                                                None
-                                                            } else {
-                                                                Some(new_substs)
-                                                            }
-                                                        }
-                                                    } else {
-                                                        Some(new_substs)
-                                                    };
-                                                cco = Some(CallContext {
-                                                    def_id: def_id,
-                                                    substs: ctxt_substs,
-                                                });
-                                            }
-                                        }
-                                        | ty::InstanceDef::Virtual(def_id, _) => {
-                                            assert!(false);
-                                        }
-                                        _ => {
-                                            error!("ty::InstanceDef:: NOT handled {:?}", instance.def);
-                                            assert!(false);
-                                        }
-                                    }
+                    let param_env = self.cx.tcx.param_env(ctxt.def_id);
+                    if let Some(instance) = ty::Instance::resolve(self.cx.tcx,
+                                                                  param_env,
+                                                                  callee_ctxt.def_id,
+                                                                  callee_ctxt.substs) {
+                        match instance.def {
+                            ty::InstanceDef::Item(def_id)
+                            | ty::InstanceDef::Intrinsic(def_id)
+                            | ty::InstanceDef::CloneShim(def_id, _) => {
+                                if self.cx.tcx.is_closure(def_id) {
+                                    //do nothing
+                                    info!("closure {:?}", instance.def);
                                 } else {
-                                    // unresolved type, still trait method
-                                    //error!("no type for func: {:?}", ctxt.def_id);
-                                    cco = Some(
-                                        CallContext {
-                                            def_id: callee_ctxt.def_id,
-                                            substs: Some(new_substs),
-                                        }
-                                    );
-                                    unresolved_type = true;
-                                }
-                            } else {
-                                cco = Some(
-                                    CallContext {
-                                        def_id: callee_ctxt.def_id,
-                                        substs: Some(new_substs),
-                                    }
-                                );
-                            }
-                            if let Some(cc) = cco {
-                                let mut needs_resolve = false; // for borrow checker
-                                if let None = self.call_graph.get(&cc) {
-                                    // if the cc.def_id is a method without impl set unresolved_type
-                                    if self.cx.tcx.is_mir_available(cc.def_id) {
-                                        needs_resolve = true;
-                                    } else {
-                                        unresolved_type = true;
-                                    }
-                                }
-                                if self.depth < MAX_DEPTH {
-                                    if needs_resolve {
-                                        let cc = CallContext {
-                                            def_id: cc.def_id,
-                                            substs: cc.substs,
-                                        };
-//                                        error!("in resolve {:?} {:?}", cc, self.call_graph.get(&cc));
-
-                                        self.resolve(cc);
-                                    }
-                                    call_data.push(cc);
-                                } else {
-                                    // ignore the call
+                                    cco = Some(CallContext {
+                                        def_id: def_id,
+                                        substs: instance.substs,
+                                    });
                                 }
                             }
-                            if unresolved_type {
-                                call_data.call_type = CallType::Parametric
-                            } else {
-                                //if any callee is still parametric, this call is also parametric
-                                if self.has_parametric_call(&call_data) {
-                                    call_data.call_type = CallType::Parametric
-                                } else {
-                                    call_data.call_type = CallType::Resolved
-                                }
+                            | ty::InstanceDef::Virtual(def_id, _) => {
+                                assert!(false);
                             }
-                        } else {// if let Some(calls) = calls_no_substs_opt
-                            // no_subst had no calls
-                            call_data.call_type = CallType::Resolved;
-                            call_data.calls = None;
+                            _ => {
+                                error!("ty::InstanceDef:: NOT handled {:?}", instance.def);
+                                assert!(false);
+                            }
                         }
-                    } else {  // if let Some(caller_substs) = ctxt.substs
-                        error!("No substs for caller {:?}", ctxt);
-                        assert!(false);
+                    } else {
+                        // unresolved type, still trait method
+                        cco = Some(
+                            CallContext {
+                                def_id: callee_ctxt.def_id,
+                                substs: callee_ctxt.substs,
+                            }
+                        );
+                        unresolved_type = true;
                     }
-                } // end for
-            } else {
+
+                    if let Some(cc) = cco {
+                        let mut needs_resolve = false; // for borrow checker
+                        if let None = self.call_graph.get(&cc) {
+                            // if the cc.def_id is a method without impl set unresolved_type
+                            if self.cx.tcx.is_mir_available(cc.def_id) {
+                                needs_resolve = true;
+                            } else {
+                                unresolved_type = true;
+                            }
+                        }
+                        if self.depth < MAX_DEPTH {
+                            if needs_resolve {
+                                let cc = CallContext {
+                                    def_id: cc.def_id,
+                                    substs: cc.substs,
+                                };
+                                self.resolve(cc);
+                            }
+                            call_data.push(cc);
+                        } else {}  // ignore the call
+                    } else { assert!(false); } // TODO when do I take this branch?
+                    if unresolved_type {
+                        call_data.call_type = CallType::Parametric
+                    } else {
+                        //if any callee is still parametric, this call is also parametric
+                        if self.has_parametric_call(&call_data) {
+                            call_data.call_type = CallType::Parametric
+                        } else {
+                            call_data.call_type = CallType::Resolved
+                        }
+                    }
+                } // for
+            } else {// if let Some(calls) = calls_no_substs_opt
+                // no_subst had no calls
                 call_data.call_type = CallType::Resolved;
+                call_data.calls = None;
             }
+
+//            } else {
+//                call_data.call_type = CallType::Resolved;
+//            }
             self.call_graph.insert(ctxt, call_data);
             //error!("Resolved {:?} calls: {:?}", ctxt.def_id, self.call_graph.get(&ctxt));
         }
@@ -515,21 +454,17 @@ impl<'a, 'b, 'tcx:'a+'b> Visitor<'tcx> for CallsVisitor<'a,'b,'tcx> {
 
         let mut must_process = true;
 
-        if self.fn_ctx.def_id.is_local() {
-            // don't process functions that have an unsafe block
-            if has_unsafe_block(self.cx, self.fn_ctx.def_id) {
-                self.call_graph.insert(
-                    self.fn_ctx.clone(),
-                    CallData {
-                        call_type: CallType::Resolved,
-                        calls: None,
-                    }
-                );
-                self.with_unsafe.insert(self.fn_ctx.clone());
-                must_process = false;
-            }
-        } else {
-            self.external_calls.insert(get_fn_path(self.cx, self.fn_ctx.def_id), self.fn_ctx.def_id);
+        // don't process functions that have an unsafe block
+        if has_unsafe_block(self.cx, self.fn_ctx.def_id) {
+            self.call_graph.insert(
+                self.fn_ctx.clone(),
+                CallData {
+                    call_type: CallType::Resolved,
+                    calls: None,
+                }
+            );
+            self.with_unsafe.insert(self.fn_ctx.clone());
+            must_process = false;
         }
 
         if must_process {
@@ -573,103 +508,63 @@ impl<'a, 'b, 'tcx:'a+'b> Visitor<'tcx> for CallsVisitor<'a,'b,'tcx> {
                 let mut not_safe = false;
                 let mut unresolved_type = false;
                 let mut cco = None;
-                match func {
-                    Operand::Constant(constant) => {
-                        // Function Call
-                        if let TyKind::FnDef(callee_def_id, callee_subst) = constant.literal.ty.sty {
-                            if implicit_unsafe::is_library_crate(&self.cx.tcx.crate_name(callee_def_id.krate).to_string()) {
-                                // do nothing
-                            } else {
-                                let callee_id_substs = Substs::identity_for_item(self.cx.tcx,callee_def_id);
-                                error!("callee_def_id: {:?}", callee_def_id);
-                                info!("callee_def_id identity substs {:?}", callee_id_substs);
-                                // combine callee substs
-                                let new_substs = callee_id_substs.subst(self.cx.tcx, callee_subst);
-                                info!("callee_def_id substs {:?}", new_substs);
-                                // find actual method call
-                                let param_env = self.cx.tcx.param_env(self.fn_ctx.def_id);
-                                if let Some(instance) = ty::Instance::resolve(self.cx.tcx,
-                                                                              param_env,
-                                                                              callee_def_id,
-                                                                              new_substs) {
-                                    // Have a type for the function call
-                                    match instance.def {
-                                        ty::InstanceDef::Item(def_id)
-                                        | ty::InstanceDef::Intrinsic(def_id)
-                                        | ty::InstanceDef::CloneShim(def_id, _) => {
-                                            if self.cx.tcx.is_closure(def_id) {
-                                                //do nothing
-                                                error!("closure {:?}", instance.def);
-                                            } else {
-                                                error!("Instance::resolve def_id: {:?}", def_id);
-                                                error!("Instance::resolve default substs: {:?}", Substs::identity_for_item(self.cx.tcx,def_id));
-                                                error!("generics callee_def_id {:?}", self.cx.tcx.generics_of(callee_def_id));
-                                                error!("generics Instance::resolve def_id {:?}",self.cx.tcx.generics_of(def_id));
-                                                let s = new_substs;
-//                                                    if self.cx.tcx.generics_of(callee_def_id).has_self &&
-//                                                        !self.cx.tcx.generics_of(def_id).has_self {
-//                                                        // cut the list of new_substs
-//                                                        Substs::for_item(self.cx.tcx, def_id,
-//                                                            |param_def, kinds| {
-//                                                                new_substs[(param_def.index-1) as usize]
-//                                                            }
-//                                                        )
-//                                                    } else {
-//                                                        new_substs
-//                                                    };
-//                                                error!("truncated substs: {:?}", s);
-
-                                                // if Self disappears, I need to shrink the new_substs
-                                                cco = Some(CallContext {
-                                                    def_id: def_id,
-                                                    substs: if s.len() == 0 {
-                                                        None
-                                                    } else {
-                                                        Some(s)
-                                                    },
-                                                });
-                                            }
-                                        }
-                                        | ty::InstanceDef::Virtual(def_id, _) => {
-                                            if !self.optimistic { // virtual call, uses dynamic dispatch
-                                                not_safe = true;
-                                            }
-                                        }
-                                        _ => {
-                                            error!("ty::InstanceDef:: NOT handled {:?}", instance.def);
-                                            assert!(false);
+                match func.ty(&self.mir.local_decls, self.cx.tcx).sty {
+                    TyKind::FnDef(callee_def_id, callee_substs) => {
+                        if implicit_unsafe::is_library_crate(&self.cx.tcx.crate_name(callee_def_id.krate).to_string()) {
+                            // do nothing
+                        } else {
+                            // find actual method call
+                            let param_env = self.cx.tcx.param_env(self.fn_ctx.def_id);
+                            if let Some(instance) = ty::Instance::resolve(self.cx.tcx,
+                                                                          param_env,
+                                                                          callee_def_id,
+                                                                          callee_substs) {
+                                // Have a type for the function call
+                                match instance.def {
+                                    ty::InstanceDef::Item(def_id)
+                                    | ty::InstanceDef::Intrinsic(def_id)
+                                    | ty::InstanceDef::CloneShim(def_id, _) => {
+                                        if self.cx.tcx.is_closure(def_id) {
+                                            //do nothing
+                                            info!("closure {:?}", instance.def);
+                                        } else {
+                                            cco = Some(CallContext {
+                                                def_id: def_id,
+                                                substs: instance.substs,
+                                            });
                                         }
                                     }
-                                } else { // if let Some(instance) = ty::Instance::resolve
-                                    // unresolved type, still trait method
-                                    //error!("no type for func: {:?}", func);
-                                    cco = Some(
-                                        CallContext {
-                                            def_id: callee_def_id,
-                                            substs: Some(new_substs),
+                                    | ty::InstanceDef::Virtual(def_id, _) => {
+                                        if !self.optimistic { // virtual call, uses dynamic dispatch
+                                            not_safe = true;
                                         }
-                                    );
-                                    unresolved_type = true;
+                                    }
+                                    _ => {
+                                        error!("ty::InstanceDef:: NOT handled {:?}", instance.def);
+                                        assert!(false);
+                                    }
                                 }
+                            } else { // if let Some(instance) = ty::Instance::resolve
+                                // unresolved type, still trait method
+                                //error!("no type for func: {:?}", func);
+                                cco = Some(
+                                    CallContext {
+                                        def_id: callee_def_id,
+                                        substs: callee_substs,
+                                    }
+                                );
+                                unresolved_type = true;
                             }
-                        } else { // if let TyKind::FnDef(callee_def_id, substs) = constant.literal.ty.sty
-                            error!("Constant: type NOT handled {:?}", constant.literal.ty.sty);
-                            assert!(false);
                         }
                     }
-                    Operand::Copy(place)
-                    | Operand::Move(place) => {
-                        match func.ty(&self.mir.local_decls, self.cx.tcx).sty {
-                            TyKind::FnPtr(ref poly_sig) => {
-                                if !self.optimistic {
-                                    not_safe = true;
-                                }
-                            }
-                            _ => {
-                                error!("TyKind{:?}", func.ty(&self.mir.local_decls, self.cx.tcx).sty);
-                                assert!(false);
-                            }
+                    TyKind::FnPtr(ref poly_sig) => {
+                        if !self.optimistic {
+                            not_safe = true;
                         }
+                    }
+                    _ => {
+                        error!("TyKind{:?}", func.ty(&self.mir.local_decls, self.cx.tcx).sty);
+                        assert!(false);
                     }
                 }
 
@@ -689,23 +584,12 @@ impl<'a, 'b, 'tcx:'a+'b> Visitor<'tcx> for CallsVisitor<'a,'b,'tcx> {
                         } else { assert!(false); };
                     } else {
                         if let Some (mut cc) = cco {
-//                            error!(" visit_terminator call {:?} {:?}", cco, self.call_graph.get(&cc));
-                            if cc.substs != None {
-                                let mut not_in_call_graph = None == self.call_graph.get(&cc);
-                                if not_in_call_graph {
-//                                    let id_substs = Substs::identity_for_item(self.cx.tcx,cc.def_id);
-//                                    cc.substs =
-//                                        if let Some (substs) = cc.substs {
-//                                            Some (id_substs.subst(self.cx.tcx,&substs))
-//                                        } else {
-//                                            None
-//                                        };
-
-                                    self.resolve(CallContext {
-                                        def_id: cc.def_id,
-                                        substs: cc.substs
-                                    });
-                                }
+                            let mut not_in_call_graph = None == self.call_graph.get(&cc);
+                            if not_in_call_graph {
+                                  self.resolve(CallContext {
+                                    def_id: cc.def_id,
+                                    substs: cc.substs
+                                });
                             }
                             if let Some(call_data) = self.call_graph.get_mut(self.fn_ctx) {
                                 call_data.push(cc);
@@ -713,7 +597,7 @@ impl<'a, 'b, 'tcx:'a+'b> Visitor<'tcx> for CallsVisitor<'a,'b,'tcx> {
                         }
                     }
                 }
-            } else { assert!(false); }
+            }
         }
     }
 }

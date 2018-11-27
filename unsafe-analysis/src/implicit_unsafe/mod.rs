@@ -17,14 +17,10 @@ impl<'a, 'tcx> hir::intravisit::Visitor<'tcx> for UnsafeBlocksVisitorData<'tcx> 
             hir::BlockCheckMode::DefaultBlock => {
                 hir::intravisit::walk_block(self, b);
             }
-            hir::BlockCheckMode::UnsafeBlock(_unsafe_source) => {
+            hir::BlockCheckMode::UnsafeBlock(_unsafe_source)
+            | hir::BlockCheckMode::PushUnsafeBlock(_unsafe_source)
+            | hir::BlockCheckMode::PopUnsafeBlock(_unsafe_source) => {
                 self.has_unsafe = true;
-            }
-            hir::BlockCheckMode::PushUnsafeBlock(unsafe_source) => {
-                error!("hir::BlockCheckMode::PushUnsafeBlock {:?}", unsafe_source);
-            }
-            hir::BlockCheckMode::PopUnsafeBlock(unsafe_source) => {
-                error!("hir::BlockCheckMode::PopUnsafeBlock {:?}", unsafe_source);
             }
         }
     }

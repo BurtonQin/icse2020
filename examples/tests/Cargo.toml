@@ -4,4 +4,4 @@ version = "0.1.0"
 authors = ["Ana Nora Evans <ananevans@gmail.com>"]
 
 [dependencies]
-#call_graph = { path = "/home/nora/work/unsafe_study/examples/call_graph"}
+call_graph = { path = "/home/nora/work/unsafe_study/examples/call_graph"}
