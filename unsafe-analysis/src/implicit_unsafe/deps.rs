@@ -177,7 +177,7 @@ fn load_analysis<'a, 'tcx>(
                     }
                 }
                 Err(e) => {
-                    error!("Error processing line {:?}", trimmed_line);
+                    error!("Error processing line {:?} file: {:?}", trimmed_line, &file_ops.get_root_path_components());
                 }
             }
 
