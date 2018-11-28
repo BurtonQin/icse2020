@@ -28,9 +28,10 @@ pub fn process_rq(crates: &Vec<(String,String)>) {
             } else {
                 //process line
                 let trimmed_line = line.trim_right();
-                let block_summary: blocks::BlockSummary = serde_json::from_str(&trimmed_line).unwrap();
-                writeln!(writer, "{}\t{}", block_summary.unsafe_blocks, crate_name);
-
+                if trimmed_line.len() > 0 { // ignore empty lines
+                    let block_summary: blocks::BlockSummary = serde_json::from_str(&trimmed_line).unwrap();
+                    writeln!(writer, "{}\t{}", block_summary.unsafe_blocks, crate_name);
+                }
             }
         }
     }

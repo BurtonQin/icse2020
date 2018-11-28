@@ -53,7 +53,8 @@ impl<'tcx> CallData<'tcx> {
             } else {
                 CallContext{
                     def_id: cc.def_id,
-                    substs: ty::List::empty(),
+                    //substs: ty::List::empty(),
+                    substs: cc.substs, //TODO
                 }
             };
 
@@ -118,31 +119,33 @@ pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>
 
     for (&def_id, ref ub) in implicit_external.iter() {
         if let FnType::NormalNotSafe = ub.fn_type {
-            with_unsafe.insert(
-                CallContext {
-                    def_id: def_id,
-                    substs: ty::List::empty(), //TODO think about this more
-                },
-            );
+            // find all call contexts with same def id
+            for cc in call_graph.keys() {
+                if cc.def_id == def_id {
+                    with_unsafe.insert(
+                        cc.clone()
+                    );
+                }
+            }
         }
     }
 
 
-//    error!("external calls +++++++++++++++++++++++++++++++++++++++++++");
-//    for (def_id, ub) in external_calls.iter() {
-//        error!("{:?} {:?}", def_id, ub);
-//    }
-//
-//    error!("external +++++++++++++++++++++++++++++++++++++++++++");
-//    for (def_id, ub) in implicit_external.iter() {
-//        error!("{:?} {:?}", def_id, ub);
-//    }
-//
-//
-//    error!("With Unsafe +++++++++++++++++++++++++++++++++++++++++++");
-//    for def_id in with_unsafe.iter() {
-//        error!("{:?}", def_id);
-//    }
+    info!("external calls +++++++++++++++++++++++++++++++++++++++++++");
+    for (def_id, ub) in external_calls.iter() {
+        info!("{:?} {:?}", def_id, ub);
+    }
+
+    info!("found external +++++++++++++++++++++++++++++++++++++++++++");
+    for (def_id, ub) in implicit_external.iter() {
+        info!("{:?} {:?}", def_id, ub);
+    }
+
+
+    info!("With Unsafe +++++++++++++++++++++++++++++++++++++++++++");
+    for def_id in with_unsafe.iter() {
+        info!("{:?}", def_id);
+    }
 
 
     //reverse call graph
@@ -156,7 +159,7 @@ pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>
                 assert!(false);
             }
             CallType::Parametric => {
-                info!("Parametric call : call {:?} call_data {:?}", caller_ctxt, call_data);
+                //info!("Parametric call : call {:?} call_data {:?}", caller_ctxt, call_data);
             }
             CallType::Resolved => {
                 if !reverse_call_graph.contains_key(caller_ctxt) {
@@ -215,11 +218,11 @@ pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>
 
     // compile results
     for (ctxt,call_data) in call_graph.iter() {
-        // print only if it does not have substitutions
-        if ctxt.substs.len() == 0 { // TODO check this
+        if ctxt.def_id.is_local() {
             match call_data.call_type {
                 CallType::Resolved => {
-                    if ctxt.def_id.is_local() {
+                    // print only if it does not have substitutions
+                    if ctxt.substs.len() == 0 { // TODO check this
                         if with_unsafe.contains(ctxt) {
                             result.push(UnsafeInBody::new(get_fn_path(cx, ctxt.def_id), FnType::NormalNotSafe, ::get_node_name(cx, ctxt.def_id)));
                         } else {
@@ -229,13 +232,11 @@ pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>
                 }
                 CallType::Processing => { assert!(false); }
                 CallType::Parametric => {
-                    if ctxt.def_id.is_local() {
-                        result.push(UnsafeInBody::new(
-                            get_fn_path(cx, ctxt.def_id),
-                            FnType::Parametric,
-                            ::get_node_name(cx, ctxt.def_id)
-                        ));
-                    }
+                    result.push(UnsafeInBody::new(
+                        get_fn_path(cx, ctxt.def_id),
+                        FnType::Parametric,
+                        ::get_node_name(cx, ctxt.def_id)
+                    ));
                 }
             }
         }
@@ -411,25 +412,27 @@ impl<'a, 'b, 'tcx:'a+'b>  CallsVisitor<'a, 'b, 'tcx> {
                             unresolved_type = true;
                         }
 
-                        if let Some(cc) = cco {
-                            let mut needs_resolve =
-                                if let None = self.call_graph.get(&cc) {
-                                    true
-                                } else { false };
-                            if self.depth < MAX_DEPTH {
-                                if needs_resolve {
-                                    let cc = CallContext {
-                                        def_id: cc.def_id,
-                                        substs: cc.substs,
-                                    };
-                                    self.resolve(cc);
-                                }
-                                call_data.push(cc);
-                            } else {}  // ignore the call
-                        }
                         if unresolved_type {
                             call_data.call_type = CallType::Parametric
+                        } else {
+                            if let Some(cc) = cco {
+                                let mut needs_resolve =
+                                    if let None = self.call_graph.get(&cc) {
+                                        true
+                                    } else { false };
+                                if self.depth < MAX_DEPTH {
+                                    if needs_resolve {
+                                        let cc = CallContext {
+                                            def_id: cc.def_id,
+                                            substs: cc.substs,
+                                        };
+                                        self.resolve(cc);
+                                    }
+                                    call_data.push(cc);
+                                } else {}  // ignore the call
+                            }
                         }
+
                     } // for
                     //if any callee is still parametric, this call is also parametric
                     if self.has_parametric_call(&call_data) {

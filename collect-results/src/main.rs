@@ -49,7 +49,7 @@ fn main() {
     rq04::process_rq(&crates);
     rq05::process_rq(&crates);
     rq06::process_rq(&crates);
-    rq07a::process_rq(&crates);
+    //rq07a::process_rq(&crates);
 }
 
 
@@ -69,9 +69,9 @@ pub fn get_output_file( name: &'static str ) -> File {
 }
 
 fn get_full_analysis_dir() -> String {
-    match std::env::var("FULL_ANALYSIS_DIR") {
+    match std::env::var("ANALYSIS_RESULTS_DIR") {
         Ok (val) => {val.to_string()}
-        Err (_) => {"~/unsafe_analysis/analysis-data/full-analysis".to_string()}
+        Err (_) => {"~/unsafe_analysis/analysis-data/results".to_string()}
     }
 }
 
