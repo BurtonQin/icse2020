@@ -28,12 +28,14 @@ pub fn load<'a, 'tcx>( cx: &'a LateContext<'a, 'tcx>, calls: &FxHashMap<String,D
             error!("Error processing crate {:?}", crate_info.name);
         }
     }
+    let mut not_found = 0;
     for (fn_name,def_id) in calls.iter() {
         if is_library_crate( &cx.tcx.crate_name(def_id.krate).to_string() ) {
             //info!("Call {:?} from excluded crate", fn_name);
             result.insert(*def_id, UnsafeInBody::new(fn_name.clone(), FnType::Safe, fn_name.to_string()));
         } else {
             if !result.contains_key(def_id) {
+                not_found += 1;
                 //info!("Call {:?} not found", fn_name);
                 result.insert(*def_id, UnsafeInBody::new(fn_name.clone(),
                                                          if optimistic {
@@ -45,6 +47,7 @@ pub fn load<'a, 'tcx>( cx: &'a LateContext<'a, 'tcx>, calls: &FxHashMap<String,D
             }
         }
     }
+    error!("External Calls {:?} NOT Found {:?}", calls.len(), not_found);
     result
 }
 
@@ -174,10 +177,13 @@ fn load_analysis<'a, 'tcx>(
                     if let Some(def_id) = calls.get(&def_path) {
                         //info!("Call {:?} found", &def_path);
                         result.insert(*def_id,UnsafeInBody::new(def_path,ub.fn_type,ub.name));
+                    } else {
+                        //info!("Call {:?} NOT found", &def_path);
                     }
                 }
                 Err(e) => {
                     error!("Error processing line {:?} file: {:?}", trimmed_line, &file_ops.get_root_path_components());
+                    assert!(false); // I want to detect the corrupt files
                 }
             }
 

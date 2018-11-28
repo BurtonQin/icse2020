@@ -45,11 +45,23 @@ static MAX_DEPTH: usize = 1032;
 
 impl<'tcx> CallData<'tcx> {
     fn push(&mut self, cc: CallContext<'tcx>) {
+
+        // TODO if the call is external clear substs
+        let new_cc =
+            if cc.def_id.is_local() {
+                cc
+            } else {
+                CallContext{
+                    def_id: cc.def_id,
+                    substs: ty::List::empty(),
+                }
+            };
+
         if let Some(ref mut v) = self.calls {
-             v.push(cc);
+             v.push(new_cc);
         } else {
             let mut v = Vec::new();
-            v.push(cc);
+            v.push(new_cc);
             self.calls = Some (v);
         }
     }
@@ -76,10 +88,10 @@ pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>
             hir::Unsafety::Normal => {
 
                 let ty = cx.tcx.type_of(fn_def_id);
-                if let TyKind::FnDef(_, substs) = ty.sty {
+                if let TyKind::FnDef(_, _) = ty.sty {
                     let cc = CallContext {
                         def_id: fn_def_id,
-                        substs: substs,
+                        substs: Substs::identity_for_item(cx.tcx,fn_def_id),
                     };
                     // process only if it was not done so already
                     if let None = call_graph.get(&cc) {
@@ -89,6 +101,7 @@ pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>
                                               &mut call_graph, &mut with_unsafe,
                                               &mut external_calls,
                                               optimistic, 0);
+                        info!("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
                         calls_visitor.visit_mir(mir);
                     }
                 }
@@ -113,6 +126,7 @@ pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>
             );
         }
     }
+
 
 //    error!("external calls +++++++++++++++++++++++++++++++++++++++++++");
 //    for (def_id, ub) in external_calls.iter() {
@@ -294,155 +308,146 @@ impl<'a, 'b, 'tcx:'a+'b>  CallsVisitor<'a, 'b, 'tcx> {
     // mutate in place the call data
     fn resolve(&mut self, ctxt: CallContext<'tcx>) {
         self.depth += 1;
-        info!("Resolve {:?} {:?}", ctxt.def_id, ctxt.substs);
-        // get calls for the method with no substitutions
-        let no_substs_ctx = CallContext {
-            def_id: ctxt.def_id,
-            substs: Substs::identity_for_item(self.cx.tcx,ctxt.def_id),
-        };
-        //check if a node exists for def_id with no substs
-        let mut not_in_call_graph_no_subts = false; // for borrow checker
-        if let None = self.call_graph.get(&no_substs_ctx) {
-            not_in_call_graph_no_subts = true;
-        }
-        // call visitor on the no substitutions node if it does not exist in call graph
-        // and if this is the node without substs that has not been processed yet
-        if not_in_call_graph_no_subts {
-            //check if it has an MIR associated
-            if self.cx.tcx.mir_keys(hir::def_id::LOCAL_CRATE).contains(&no_substs_ctx.def_id) {
-                // Did not process yet this function
-                let mir = &mut self.cx.tcx.optimized_mir(no_substs_ctx.def_id);
-                let mut calls_visitor =
-                    CallsVisitor::new(&self.cx, mir,
-                                      &no_substs_ctx,
-                                      self.call_graph,
-                                      self.with_unsafe,
-                                      self.external_calls,
-                                      self.optimistic,
-                                      self.depth);
-                calls_visitor.visit_mir(mir);
-            } else { // Not a local call
-                error!("No MIR for {:?}", &ctxt);
-                error!("External call: {:?}", ctxt);
-                self.external_calls.insert(get_fn_path(self.cx, ctxt.def_id), ctxt.def_id);
-                return; //TODO Fix this
-            }
-        }
-
-        // insert node in call graph for this context if one does not exist
-        if let None = self.call_graph.get(&ctxt) {
-            self.call_graph.insert(ctxt, CallData {
-                call_type: CallType::Processing,
-                calls: None,
-            });
-        }
-
-        if self.with_unsafe.contains(&no_substs_ctx) {
-            self.with_unsafe.insert(ctxt.clone());
-            if let Some (call_data) = self.call_graph.get_mut(&ctxt) {
-                call_data.call_type = CallType::Resolved;
-                call_data.calls = None;
-            }
-        } else {
-            let mut call_data = CallData {
-                call_type: CallType::Processing,
-                calls: None,
+        info!("Resolve {:?} {:?} is_local {:?}", ctxt.def_id, ctxt.substs, ctxt.def_id.is_local());
+        if !ctxt.def_id.is_local() {
+            info!("Resolve {:?} external call", ctxt.def_id);
+            // external call
+            self.external_calls.insert(get_fn_path(self.cx, ctxt.def_id), ctxt.def_id);
+        } else { // if !ctxt.def_id.is_local()
+            info!("Resolve {:?} local call", ctxt.def_id);
+            // get calls for the method with no substitutions
+            let no_substs_ctx = CallContext {
+                def_id: ctxt.def_id,
+                substs: Substs::identity_for_item(self.cx.tcx, ctxt.def_id),
             };
-            let calls_no_substs_opt =
-                if let Some(cd) = self.call_graph.get(&no_substs_ctx) {
-                    cd.calls.clone()
-                } else {
+            //check if a node exists for def_id with no substs
+            let mut not_in_call_graph_no_subts = false; // for borrow checker
+            if let None = self.call_graph.get(&no_substs_ctx) {
+                not_in_call_graph_no_subts = true;
+            }
+            // call visitor on the no substitutions node if it does not exist in call graph
+            // and if this is the node without substs that has not been processed yet
+            if not_in_call_graph_no_subts {
+                //check if it has an MIR associated
+                if self.cx.tcx.mir_keys(hir::def_id::LOCAL_CRATE).contains(&no_substs_ctx.def_id) {
+                    // Did not process yet this function
+                    let mir = &mut self.cx.tcx.optimized_mir(no_substs_ctx.def_id);
+                    let mut calls_visitor =
+                        CallsVisitor::new(&self.cx, mir,
+                                          &no_substs_ctx,
+                                          self.call_graph,
+                                          self.with_unsafe,
+                                          self.external_calls,
+                                          self.optimistic,
+                                          self.depth);
+                    calls_visitor.visit_mir(mir);
+                } else { // Not a local call
                     assert!(false);
-                    None
+                }
+            }
+
+            // insert node in call graph for this context if one does not exist
+            if let None = self.call_graph.get(&ctxt) {
+                self.call_graph.insert(ctxt, CallData {
+                    call_type: CallType::Processing,
+                    calls: None,
+                });
+            }
+
+            if self.with_unsafe.contains(&no_substs_ctx) {
+                self.with_unsafe.insert(ctxt.clone());
+                if let Some(call_data) = self.call_graph.get_mut(&ctxt) {
+                    call_data.call_type = CallType::Resolved;
+                    call_data.calls = None;
+                }
+            } else {
+                let mut call_data = CallData {
+                    call_type: CallType::Processing,
+                    calls: None,
                 };
-            if let Some(calls) = calls_no_substs_opt { // there are calls
-                for callee_ctxt in calls.iter() {
-                    let mut cco = None;
-                    let mut unresolved_type = false;
-                    let param_env = self.cx.tcx.param_env(ctxt.def_id);
-                    if let Some(instance) = ty::Instance::resolve(self.cx.tcx,
-                                                                  param_env,
-                                                                  callee_ctxt.def_id,
-                                                                  callee_ctxt.substs) {
-                        match instance.def {
-                            ty::InstanceDef::Item(def_id)
-                            | ty::InstanceDef::Intrinsic(def_id)
-                            | ty::InstanceDef::CloneShim(def_id, _) => {
-                                if self.cx.tcx.is_closure(def_id) {
-                                    //do nothing
-                                    info!("closure {:?}", instance.def);
-                                } else {
-                                    cco = Some(CallContext {
-                                        def_id: def_id,
-                                        substs: instance.substs,
-                                    });
+                let calls_no_substs_opt =
+                    if let Some(cd) = self.call_graph.get(&no_substs_ctx) {
+                        cd.calls.clone()
+                    } else {
+                        assert!(false);
+                        None
+                    };
+                if let Some(calls) = calls_no_substs_opt { // there are calls
+                    for callee_ctxt in calls.iter() {
+                        let mut cco = None;
+                        let mut unresolved_type = false;
+                        let param_env = self.cx.tcx.param_env(ctxt.def_id);
+                        if let Some(instance) = ty::Instance::resolve(self.cx.tcx,
+                                                                      param_env,
+                                                                      callee_ctxt.def_id,
+                                                                      callee_ctxt.substs) {
+                            match instance.def {
+                                ty::InstanceDef::Item(def_id)
+                                | ty::InstanceDef::Intrinsic(def_id)
+                                | ty::InstanceDef::CloneShim(def_id, _) => {
+                                    if self.cx.tcx.is_closure(def_id) {
+                                        //do nothing
+                                        info!("closure {:?}", instance.def);
+                                    } else {
+                                        cco = Some(CallContext {
+                                            def_id: def_id,
+                                            substs: instance.substs,
+                                        });
+                                    }
+                                }
+                                _ => {
+                                    error!("ty::InstanceDef:: NOT handled {:?}", instance.def);
+                                    assert!(false);
                                 }
                             }
-                            | ty::InstanceDef::Virtual(def_id, _) => {
-                                assert!(false);
-                            }
-                            _ => {
-                                error!("ty::InstanceDef:: NOT handled {:?}", instance.def);
-                                assert!(false);
-                            }
+                        } else {
+                            // unresolved type, still trait method
+                            cco = Some(
+                                CallContext {
+                                    def_id: callee_ctxt.def_id,
+                                    substs: callee_ctxt.substs,
+                                }
+                            );
+                            unresolved_type = true;
                         }
-                    } else {
-                        // unresolved type, still trait method
-                        cco = Some(
-                            CallContext {
-                                def_id: callee_ctxt.def_id,
-                                substs: callee_ctxt.substs,
-                            }
-                        );
-                        unresolved_type = true;
-                    }
 
-                    if let Some(cc) = cco {
-                        let mut needs_resolve = false; // for borrow checker
-                        if let None = self.call_graph.get(&cc) {
-                            // if the cc.def_id is a method without impl set unresolved_type
-                            if self.cx.tcx.is_mir_available(cc.def_id) {
-                                needs_resolve = true;
-                            } else {
-                                unresolved_type = true;
-                            }
+                        if let Some(cc) = cco {
+                            let mut needs_resolve =
+                                if let None = self.call_graph.get(&cc) {
+                                    true
+                                } else { false };
+                            if self.depth < MAX_DEPTH {
+                                if needs_resolve {
+                                    let cc = CallContext {
+                                        def_id: cc.def_id,
+                                        substs: cc.substs,
+                                    };
+                                    self.resolve(cc);
+                                }
+                                call_data.push(cc);
+                            } else {}  // ignore the call
                         }
-                        if self.depth < MAX_DEPTH {
-                            if needs_resolve {
-                                let cc = CallContext {
-                                    def_id: cc.def_id,
-                                    substs: cc.substs,
-                                };
-                                self.resolve(cc);
-                            }
-                            call_data.push(cc);
-                        } else {}  // ignore the call
-                    } else { assert!(false); } // TODO when do I take this branch?
-                    if unresolved_type {
+                        if unresolved_type {
+                            call_data.call_type = CallType::Parametric
+                        }
+                    } // for
+                    //if any callee is still parametric, this call is also parametric
+                    if self.has_parametric_call(&call_data) {
                         call_data.call_type = CallType::Parametric
                     } else {
-                        //if any callee is still parametric, this call is also parametric
-                        if self.has_parametric_call(&call_data) {
-                            call_data.call_type = CallType::Parametric
-                        } else {
-                            call_data.call_type = CallType::Resolved
-                        }
+                        call_data.call_type = CallType::Resolved
                     }
-                } // for
-            } else {// if let Some(calls) = calls_no_substs_opt
-                // no_subst had no calls
-                call_data.call_type = CallType::Resolved;
-                call_data.calls = None;
+                } else {// if let Some(calls) = calls_no_substs_opt
+                    // no_subst had no calls
+                    call_data.call_type = CallType::Resolved;
+                    call_data.calls = None;
+                }
+                self.call_graph.insert(ctxt, call_data);
+                //error!("Resolved {:?} calls: {:?}", ctxt.def_id, self.call_graph.get(&ctxt));
             }
-
-//            } else {
-//                call_data.call_type = CallType::Resolved;
-//            }
-            self.call_graph.insert(ctxt, call_data);
-            //error!("Resolved {:?} calls: {:?}", ctxt.def_id, self.call_graph.get(&ctxt));
         }
         self.depth -= 1;
-//        error!("Resolve END {:?} {:?} {:?}", ctxt.def_id, ctxt.substs, self.call_graph.get(&ctxt));
+        error!("Resolve END {:?} {:?} {:?}", ctxt.def_id, ctxt.substs, self.call_graph.get(&ctxt));
     }
 }
 
@@ -452,7 +457,7 @@ impl<'a, 'b, 'tcx:'a+'b> Visitor<'tcx> for CallsVisitor<'a,'b,'tcx> {
 
         info!("visit_mir {:?}", self.fn_ctx);
 
-        let mut must_process = true;
+        let mut must_process = true; // For borrow checker
 
         // don't process functions that have an unsafe block
         if has_unsafe_block(self.cx, self.fn_ctx.def_id) {

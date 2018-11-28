@@ -31,6 +31,10 @@ impl<'a, 'tcx> hir::intravisit::Visitor<'tcx> for UnsafeBlocksVisitorData<'tcx> 
 }
 
 pub fn is_library_crate(crate_name: &String) -> bool {
-    crate_name.as_str() == "alloc" || crate_name.as_str() == "std" || crate_name.as_str() == "core" || crate_name.as_str() == "proc_macro"
+    crate_name.as_str() == "alloc" ||
+        crate_name.as_str() == "std" ||
+        crate_name.as_str() == "core" ||
+        crate_name.as_str() == "proc_macro" ||
+        crate_name.as_str() == "clippy"
     //false
 }
