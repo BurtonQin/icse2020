@@ -197,7 +197,7 @@ pub fn save_analysis<T>(analysis_results: Vec<T>, file: &mut File)
     where
         T: serde::ser::Serialize,
 {
-    //error!("Save in file {:?}", file);
+    error!("Save in file {:?}", file);
     for res in analysis_results {
         save_summary_analysis(res,file);
     }

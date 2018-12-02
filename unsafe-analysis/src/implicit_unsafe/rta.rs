@@ -450,7 +450,7 @@ impl<'a, 'b, 'tcx:'a+'b>  CallsVisitor<'a, 'b, 'tcx> {
             }
         }
         self.depth -= 1;
-        error!("Resolve END {:?} {:?} {:?}", ctxt.def_id, ctxt.substs, self.call_graph.get(&ctxt));
+        info!("Resolve END {:?} {:?} {:?}", ctxt.def_id, ctxt.substs, self.call_graph.get(&ctxt));
     }
 }
 
