@@ -24,14 +24,18 @@ pub fn process_rq(crates: &Vec<(String,String)>) {
             } else {
                 //process line
                 let trimmed_line = line.trim_right();
-                let res: results::calls::ExternalCall = serde_json::from_str(&trimmed_line).unwrap();
-                writeln!(writer, "{:?}\t{}\t{}\t{}\t{}"
-                            , res.abi
-                            , res.crate_name
-                            , res.def_path
-                            , res.name
+                let res1: serde_json::Result<results::calls::ExternalCall> = serde_json::from_str(&trimmed_line);
+                if let Ok(res) = res1 {
+                    writeln!(writer, "{:?}\t{}\t{}\t{}\t{}"
+                             , res.abi
+                             , res.crate_name
+                             , res.def_path
+                             , res.name
                              , res.user_provided
-                );
+                    );
+                } else {
+                    error!("Could not process {:?} line: {:?}", crate_name, trimmed_line);
+                }
             }
         }
     }

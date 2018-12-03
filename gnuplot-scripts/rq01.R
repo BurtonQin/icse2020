@@ -5,12 +5,16 @@ library(plyr)
 library(Hmisc)
 library(scales)
 
-func <- function(input_file, output_dir,all_data) {
+input_file <- "~/unsafe_analysis/analysis-data/research-questions-90-percent/rq01"
+#input_file <- "~/unsafe_analysis/analysis-data/research-questions/rq01"
+output_dir <- "~/work/unsafe_study/paper/top_crates/"
+
+#func <- function(input_file, output_dir,all_data) {
   res <- read.table( file=input_file
                      , header=FALSE
                      , sep='\t'
                      , comment.char = "#"
-                     , col.names=c("blocks", "name"))
+                     , col.names=c("blocks", "user", "total", "name"))
   
   cdf_filename <- paste0(output_dir, "rq01_cdf.eps")
   nonzero_filename <- paste0(output_dir, "rq01_some.txt")
@@ -65,20 +69,4 @@ func <- function(input_file, output_dir,all_data) {
   write(" (", file=outliers_filename,append=TRUE)
   write(nrow(outliers), file=outliers_filename,append=TRUE)
   write(" values).", file=outliers_filename,append=TRUE)
-}
-
-input_file <- "~/unsafe_analysis/analysis-data/research-questions-90-percent/rq01"
-output_dir <- "~/work/unsafe_study/paper/top_crates/"
-
-func(input_file,output_dir,TRUE)
-
-# 
-# #save number of crates with at least one unsafe
-# options(digits = 4)
-# nonzero <- 100 - min_y*100
-# write(nonzero,file=nonzero_filename)
-# 
-# # margin of error
-# n <- nrow(res)
-# p_hat <- nrow (subset(res,blocks==0) ) / all
-# margin_of_error <- 1.96 * sqrt(p_hat*(1-p_hat)/n)
+#}

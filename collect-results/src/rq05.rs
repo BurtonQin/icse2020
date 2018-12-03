@@ -54,36 +54,41 @@ pub fn process_rq(crates: &Vec<(String,String)>) {
             } else {
                 //process line
                 let trimmed_line = line.trim_right();
-                let res: results::functions::UnsafeFnUsafetySources = serde_json::from_str(&trimmed_line).unwrap();
-                let mut fn_summary = SourceSummary::new();
-                for src in res.sources() {
-                    match src.kind {
-                        SourceKind::UnsafeFnCall(_) => {fn_summary.unsafe_fn_calls+=1;},
-                        SourceKind::DerefRawPointer => {fn_summary.raw_ptr+=1;},
-                        SourceKind::Asm => {fn_summary.asm+=1;},
-                        SourceKind::Static => {fn_summary.static_access+=1;},
-                        SourceKind::BorrowPacked => {fn_summary.borrow_packed+=1;},
-                        SourceKind::AssignmentToNonCopyUnionField => {fn_summary.assignment_union+=1;},
-                        SourceKind::AccessToUnionField => {fn_summary.union+=1;},
-                        SourceKind::ExternStatic => {fn_summary.extern_static+=1;},
+                let res1: serde_json::Result<results::functions::UnsafeFnUsafetySources> = serde_json::from_str(&trimmed_line);
+
+                if let Ok(res) = res1 {
+                    let mut fn_summary = SourceSummary::new();
+                    for src in res.sources() {
+                        match src.kind {
+                            SourceKind::UnsafeFnCall(_) => { fn_summary.unsafe_fn_calls += 1; },
+                            SourceKind::DerefRawPointer => { fn_summary.raw_ptr += 1; },
+                            SourceKind::Asm => { fn_summary.asm += 1; },
+                            SourceKind::Static => { fn_summary.static_access += 1; },
+                            SourceKind::BorrowPacked => { fn_summary.borrow_packed += 1; },
+                            SourceKind::AssignmentToNonCopyUnionField => { fn_summary.assignment_union += 1; },
+                            SourceKind::AccessToUnionField => { fn_summary.union += 1; },
+                            SourceKind::ExternStatic => { fn_summary.extern_static += 1; },
+                        }
                     }
+                    fn_summary.from_trait = res.from_trait();
+                    fn_summary.argument = res.arguments().len() > 0;
+                    writeln!(writer, "{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}"
+                             , fn_summary.unsafe_fn_calls
+                             , fn_summary.raw_ptr
+                             , fn_summary.asm
+                             , fn_summary.static_access
+                             , fn_summary.borrow_packed
+                             , fn_summary.assignment_union
+                             , fn_summary.union
+                             , fn_summary.extern_static
+                             , (if fn_summary.argument { 1 } else { 0 })
+                             , (if fn_summary.from_trait { 1 } else { 0 })
+                             , crate_name
+                             //, res.name()
+                    );
+                } else {
+                    error!("Could not process {:?} line: {:?}", crate_name, trimmed_line);
                 }
-                fn_summary.from_trait = res.from_trait();
-                fn_summary.argument = res.arguments().len() > 0;
-                writeln!(writer, "{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}"
-                         , fn_summary.unsafe_fn_calls
-                         , fn_summary.raw_ptr
-                         , fn_summary.asm
-                         , fn_summary.static_access
-                         , fn_summary.borrow_packed
-                         , fn_summary.assignment_union
-                         , fn_summary.union
-                         , fn_summary.extern_static
-                         , (if fn_summary.argument {1} else {0})
-                         , (if fn_summary.from_trait {1} else {0})
-                         , crate_name
-                         //, res.name()
-                );
             }
         }
     }
