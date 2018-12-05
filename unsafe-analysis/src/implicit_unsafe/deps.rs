@@ -16,6 +16,7 @@ use std::collections::HashSet;
 use std::path::Path;
 use implicit_unsafe::is_library_crate;
 use results::implicit::FnType;
+use results::FileOps;
 
 pub fn load<'a, 'tcx>( cx: &'a LateContext<'a, 'tcx>, calls: &FxHashMap<String,DefId>, optimistic: bool, coarse: bool)
     -> FxHashMap<DefId,UnsafeInBody> {
@@ -142,54 +143,58 @@ fn load_analysis<'a, 'tcx>(
             crate_info.name.clone()
         };
 
-    let file_ops = results::FileOps::new(&crate_name, &crate_info.version, &root_dir);
+    let dir_path: PathBuf = [&root_dir,&crate_name].iter().collect();
+    let version = FileOps::get_max_version(&dir_path); // here to satisfy lifetime
+    let file_ops =
+        if Path::new(&dir_path).exists() {
+            results::FileOps::new(&crate_name, &crate_info.version, &root_dir)
+        } else {
+            error!("Dir does not exists {:?}, using version {:?}", dir_path, version);
+            results::FileOps::new(&crate_name, &version, &root_dir)
+        };
     let files =
-//        if coarse {
-//            if optimistic {
-//                file_ops.get_implicit_unsafe_coarse_opt_file(false)
-//            } else {
-//                file_ops.get_implicit_unsafe_coarse_pes_file(false)
-//            }
-//        } else {
-            if optimistic {
-                file_ops.open_files(results::IMPLICIT_RTA_OPTIMISTIC_FILENAME)
-            } else {
-                file_ops.open_files(results::IMPLICIT_RTA_PESSIMISTIC_FILENAME)
-            }
-//        }
-    ;
-    for file in files.iter() {
-        //info!("Processsing file {:?}", file_ops.get_root_path_components());
-        let mut reader = BufReader::new(file);
-        //read line by line
-        loop {
-            let mut line = String::new();
-            let len = reader.read_line(&mut line).expect("Error reading file");
-            if len == 0 {
-                //EOF reached
-                break;
-            } else {
-                //process line
-                let trimmed_line = line.trim_right();
-                //info!("Processsing line {:?}", trimmed_line);
-                let res: serde_json::Result<UnsafeInBody> = serde_json::from_str(&trimmed_line);
-                match res {
-                    Ok(ub) => {
-                        let def_path = ub.def_path;
-                        if let Some(def_id) = calls.get(&def_path) {
-                            //info!("Call {:?} found", &def_path);
-                            result.insert(*def_id, UnsafeInBody::new(def_path, ub.fn_type, ub.name));
-                        } else {
-                            //info!("Call {:?} NOT found", &def_path);
+        if optimistic {
+            file_ops.open_files(results::IMPLICIT_RTA_OPTIMISTIC_FILENAME)
+        } else {
+            file_ops.open_files(results::IMPLICIT_RTA_PESSIMISTIC_FILENAME)
+        };
+
+    if let Some(files) = files {
+        for file in files.iter() {
+            //info!("Processsing file {:?}", file_ops.get_root_path_components());
+            let mut reader = BufReader::new(file);
+            //read line by line
+            loop {
+                let mut line = String::new();
+                let len = reader.read_line(&mut line).expect("Error reading file");
+                if len == 0 {
+                    //EOF reached
+                    break;
+                } else {
+                    //process line
+                    let trimmed_line = line.trim_right();
+                    //info!("Processsing line {:?}", trimmed_line);
+                    let res: serde_json::Result<UnsafeInBody> = serde_json::from_str(&trimmed_line);
+                    match res {
+                        Ok(ub) => {
+                            let def_path = ub.def_path;
+                            if let Some(def_id) = calls.get(&def_path) {
+                                //info!("Call {:?} found", &def_path);
+                                result.insert(*def_id, UnsafeInBody::new(def_path, ub.fn_type, ub.name));
+                            } else {
+                                //info!("Call {:?} NOT found", &def_path);
+                            }
                         }
-                    }
-                    Err(e) => {
-                        error!("Error processing line {:?} file: {:?}", trimmed_line, &file_ops.get_root_path_components());
-                        assert!(false); // I want to detect the corrupt files
+                        Err(e) => {
+                            error!("Error processing line {:?} file: {:?}", trimmed_line, &file_ops.get_root_path_components());
+                            assert!(false); // I want to detect the corrupt files
+                        }
                     }
                 }
             }
         }
+    } else {
+        error!("Dir not found for crate {:?}", &crate_name);
     }
     Ok(())
 }

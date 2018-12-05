@@ -135,13 +135,20 @@ impl<'a, 'tcx> LateLintPass<'a, 'tcx> for Functions {
         let mut file = file_ops.create_file (results::IMPLICIT_RTA_OPTIMISTIC_FILENAME);
         let opt_rta_impl_unsafe = implicit_unsafe::rta::run_sources_analysis(cx,&self.normal_functions,
                                                                              true);
+
+        info!("Before saving in file {:?}", file);
+
         save_analysis(opt_rta_impl_unsafe, &mut file);
+
+        info!("After saving in file {:?}", file);
 
         let mut file = file_ops.create_file (results::IMPLICIT_RTA_PESSIMISTIC_FILENAME);
         let pes_rta_impl_unsafe = implicit_unsafe::rta::run_sources_analysis(cx,
                                                                                 &self.normal_functions,
                                                                                 false);
+        info!("Before saving in file {:?}", file);
         save_analysis(pes_rta_impl_unsafe, &mut file);
+        info!("After saving in file {:?}", file);
     }
 
     fn check_body(&mut self, cx: &LateContext<'a, 'tcx>, body: &'tcx hir::Body) {
@@ -207,7 +214,7 @@ pub fn save_analysis<T>(analysis_results: Vec<T>, file: &mut File)
         let serialized = serde_json::to_string(&res).unwrap();
         writeln!(file, "{}", serialized);
     }
-    file.sync_all();
+    //file.sync_all();
 }
 
 pub fn local_crate_name_and_version() -> (String, String) {

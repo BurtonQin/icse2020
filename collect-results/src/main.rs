@@ -116,17 +116,4 @@ fn get_crates_recent_versions(file: Option<String>) -> Vec<(String,String)> {
     res
 }
 
-fn get_max_version(dir_path: &PathBuf) -> String {
-    let version = std::fs::read_dir(dir_path).unwrap().filter_map(
-        |dir_result| {
-            let dd = dir_result.unwrap();
-            let pb = &dd.path();
-            if let Some(name) = pb.file_name() {
-                Some(name.to_os_string())
-            } else {
-                None
-            }
-        }
-    ).max();
-    version.unwrap().to_str().unwrap().to_string()
-}
+

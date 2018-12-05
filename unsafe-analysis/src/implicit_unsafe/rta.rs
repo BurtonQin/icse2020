@@ -195,26 +195,34 @@ pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>
         }
     }
 
-
     // propagate unsafety
-
     let mut worklist = Vec::new();
     for ctxt in with_unsafe.iter() {
         worklist.push(ctxt.clone());
     }
+
+    info!("Start propagation");
     while !worklist.is_empty() {
         if let Some (ctxt) = worklist.pop() {
             if let Some(call_data) = reverse_call_graph.get(&ctxt) {
                 if let Some (ref calls) = call_data.calls {
                     for c in calls.iter() {
-                        with_unsafe.insert(c.clone());
-                        worklist.push(c.clone());
+                        let visited =
+                            if let None = with_unsafe.get(c) {
+                                false
+                            } else {
+                                true
+                            };
+                        if !visited {
+                            with_unsafe.insert(c.clone());
+                            worklist.push(c.clone());
+                        }
                     }
                 }
             } // Nobody calls this function
         } else {assert!(false);}
     }
-
+    info!("End propagation");
 
     // compile results
     for (ctxt,call_data) in call_graph.iter() {
@@ -241,6 +249,8 @@ pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>
             }
         }
     }
+
+    info!("End building results");
 
     result
 

@@ -101,10 +101,11 @@ impl<'a, 'b> FileOps<'a, 'b> {
             .unwrap()
     }
 
-    pub fn open_files(&self, analysis_name: &'static str) -> Vec<File> {
-        let mut result = Vec::new();
+    pub fn open_files(&self, analysis_name: &'static str) -> Option<Vec<File>> {
         let dir_path: PathBuf = self.get_root_path_components().iter().collect();
+        error!("Using dir {:?}", dir_path);
         if let Ok(read_dir) = dir_path.read_dir() {
+            let mut result = Vec::new();
             for entry in read_dir {
                 // check if entry is ./analysis_name_*
                 if let Some(filename) = entry.unwrap().path().as_path().file_name() {
@@ -119,12 +120,11 @@ impl<'a, 'b> FileOps<'a, 'b> {
                     }
                 }
             }
+            Some (result)
         } else {
-            error!("Error reading dir {:?}", dir_path);
-            //TODO search for a higher version
+            None
         }
 
-        result
     }
 
     pub fn get_root_path_components(&self) -> [String; 3] {
@@ -151,6 +151,21 @@ impl<'a, 'b> FileOps<'a, 'b> {
 
         let file_path: PathBuf = self.get_analysis_path_components(filename).iter().collect();
         file_path
+    }
+
+    pub fn get_max_version(dir_path: &PathBuf) -> String {
+        let version = std::fs::read_dir(dir_path).unwrap().filter_map(
+            |dir_result| {
+                let dd = dir_result.unwrap();
+                let pb = &dd.path();
+                if let Some(name) = pb.file_name() {
+                    Some(name.to_os_string())
+                } else {
+                    None
+                }
+            }
+        ).max();
+        version.unwrap().to_str().unwrap().to_string()
     }
 
 //    pub fn get_implicit_unsafe_coarse_opt_file(&self, save_old: bool) -> File {
