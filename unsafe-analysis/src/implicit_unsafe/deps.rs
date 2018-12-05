@@ -143,51 +143,52 @@ fn load_analysis<'a, 'tcx>(
         };
 
     let file_ops = results::FileOps::new(&crate_name, &crate_info.version, &root_dir);
-    let file =
-        if coarse {
+    let files =
+//        if coarse {
+//            if optimistic {
+//                file_ops.get_implicit_unsafe_coarse_opt_file(false)
+//            } else {
+//                file_ops.get_implicit_unsafe_coarse_pes_file(false)
+//            }
+//        } else {
             if optimistic {
-                file_ops.get_implicit_unsafe_coarse_opt_file(false)
+                file_ops.open_files(results::IMPLICIT_RTA_OPTIMISTIC_FILENAME)
             } else {
-                file_ops.get_implicit_unsafe_coarse_pes_file(false)
+                file_ops.open_files(results::IMPLICIT_RTA_PESSIMISTIC_FILENAME)
             }
-        } else {
-            if optimistic {
-                file_ops.get_implicit_unsafe_precise_opt_file(false)
+//        }
+    ;
+    for file in files.iter() {
+        //info!("Processsing file {:?}", file_ops.get_root_path_components());
+        let mut reader = BufReader::new(file);
+        //read line by line
+        loop {
+            let mut line = String::new();
+            let len = reader.read_line(&mut line).expect("Error reading file");
+            if len == 0 {
+                //EOF reached
+                break;
             } else {
-                file_ops.get_implicit_unsafe_precise_pes_file(false)
-            }
-        };
-    //info!("Processsing file {:?}", file_ops.get_root_path_components());
-    let mut reader = BufReader::new(file);
-    //read line by line
-    loop {
-        let mut line = String::new();
-        let len = reader.read_line(&mut line).expect("Error reading file");
-        if len == 0 {
-            //EOF reached
-            break;
-        } else {
-            //process line
-            let trimmed_line = line.trim_right();
-            //info!("Processsing line {:?}", trimmed_line);
-            let res: serde_json::Result<UnsafeInBody> = serde_json::from_str(&trimmed_line);
-            match res {
-                Ok(ub) => {
-                    let def_path = ub.def_path;
-                    if let Some(def_id) = calls.get(&def_path) {
-                        //info!("Call {:?} found", &def_path);
-                        result.insert(*def_id,UnsafeInBody::new(def_path,ub.fn_type,ub.name));
-                    } else {
-                        //info!("Call {:?} NOT found", &def_path);
+                //process line
+                let trimmed_line = line.trim_right();
+                //info!("Processsing line {:?}", trimmed_line);
+                let res: serde_json::Result<UnsafeInBody> = serde_json::from_str(&trimmed_line);
+                match res {
+                    Ok(ub) => {
+                        let def_path = ub.def_path;
+                        if let Some(def_id) = calls.get(&def_path) {
+                            //info!("Call {:?} found", &def_path);
+                            result.insert(*def_id, UnsafeInBody::new(def_path, ub.fn_type, ub.name));
+                        } else {
+                            //info!("Call {:?} NOT found", &def_path);
+                        }
+                    }
+                    Err(e) => {
+                        error!("Error processing line {:?} file: {:?}", trimmed_line, &file_ops.get_root_path_components());
+                        assert!(false); // I want to detect the corrupt files
                     }
                 }
-                Err(e) => {
-                    error!("Error processing line {:?} file: {:?}", trimmed_line, &file_ops.get_root_path_components());
-                    assert!(false); // I want to detect the corrupt files
-                }
             }
-
-
         }
     }
     Ok(())

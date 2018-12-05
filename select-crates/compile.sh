@@ -18,7 +18,7 @@ rm -f $PROJECT_OUT/analysis_fails.txt
 
 cd $CRATES_DIR
 
-for x in {a..k}
+for x in {a..z}
 do
 	for d in $(ls -d $CRATES_DIR/$x*)
 	do
@@ -39,11 +39,17 @@ do
 	    if [ $RESULT -eq 0 ]; then
         	echo "$d">>$PROJECT_OUT/analysis_pass.txt
 	    else
+		rm -rf $FULL_ANALYSIS_DIR
 		echo "$d">>$PROJECT_OUT/analysis_fails.txt
         	
 	    fi
 	    cargo +$NIGHTLY clean
 	done
+	pushd ${UNSAFE_ANALYSIS_DIR}/full-analysis/
+	tar czf ${x}.tgz ${x}*
+	mv ${x}.tgz ${UNSAFE_ANALYSIS_DIR}
+	rm -rf ${x}*
+	popd
 done
 
 cd $CRT_DIR
