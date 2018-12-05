@@ -143,13 +143,14 @@ fn load_analysis<'a, 'tcx>(
             crate_info.name.clone()
         };
 
-    let dir_path: PathBuf = [&root_dir,&crate_name].iter().collect();
-    let version = FileOps::get_max_version(&dir_path); // here to satisfy lifetime
+    let crate_path: PathBuf = [&root_dir,&crate_name].iter().collect();
+    let version_path: PathBuf = [&root_dir,&crate_name,&crate_info.version].iter().collect();
+    let version = FileOps::get_max_version(&crate_path); // here to satisfy lifetime
     let file_ops =
-        if Path::new(&dir_path).exists() {
+        if Path::new(&version_path).exists() {
             results::FileOps::new(&crate_name, &crate_info.version, &root_dir)
         } else {
-            error!("Dir does not exists {:?}, using version {:?}", dir_path, version);
+            error!("Dir does not exists {:?}, using version {:?}", crate_path, version);
             results::FileOps::new(&crate_name, &version, &root_dir)
         };
     let files =
