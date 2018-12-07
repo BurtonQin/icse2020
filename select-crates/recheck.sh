@@ -13,15 +13,17 @@ source ../rust_flags.sh
 
 export RUST_LOG=error
 
-#rm $PROJECT_OUT/analysis_pass.txt
-#rm $PROJECT_OUT/analysis_fails.txt
-
 cd $CRATES_DIR
-
 while read p; do
-	cd "$p"
-	if [ -d "$p" ] 
+	if [ -d "$CRATES_DIR/$p" ] 
 	then 
+		cd "$CRATES_DIR/$p"
+
+		export FULL_ANALYSIS_DIR=${UNSAFE_ANALYSIS_DIR}/full-analysis/$p
+		echo "FULL_ANALYSIS_DIR=$FULL_ANALYSIS_DIR"
+		rm -rf $FULL_ANALYSIS_DIR
+	    	mkdir -p $FULL_ANALYSIS_DIR
+
 		echo "$p : compiling"
 		cargo +$NIGHTLY clean
 		RUST_BACKTRACE=1 cargo +$NIGHTLY build

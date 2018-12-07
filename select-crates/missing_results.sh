@@ -8,8 +8,13 @@ for d in $(ls -d $CRATES_DIR/*)
 do
 	DIR=`basename $d`
 	if [ -d $FULL_ANALYSIS_DIR/$DIR ] 
-	then 
-		echo -n ""		
+	then
+		if [ -z "`find \"$FULL_ANALYSIS_DIR/$DIR\" -mindepth 1 -exec echo notempty \; -quit`" ] 
+		then
+    			echo "$DIR"
+		else
+			echo -n ""		
+		fi
 	else
 		echo "$DIR"
 	fi
