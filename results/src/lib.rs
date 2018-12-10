@@ -84,7 +84,7 @@ impl<'a, 'b> FileOps<'a, 'b> {
     pub fn create_file(&self, analysis_name: &'static str) -> File {
         let mut filename = String::new();
         filename.push_str(analysis_name);
-        write!(filename, "_{:?}", SystemTime::now().duration_since(SystemTime::UNIX_EPOCH).unwrap().as_millis());
+        write!(filename, "_{:?}", SystemTime::now().duration_since(SystemTime::UNIX_EPOCH).unwrap().as_nanos());
         let file_path = self.get_path(filename);
         // create new file
         OpenOptions::new()
