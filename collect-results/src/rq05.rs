@@ -42,54 +42,59 @@ pub fn process_rq(crates: &Vec<(String,String)>) {
     for (crate_name, version) in crates {
         let dir_name = ::get_full_analysis_dir();
         let file_ops = results::FileOps::new( crate_name, &version, &dir_name );
-        let file = file_ops.get_fn_unsafety_sources_file(false);
-        let mut reader = BufReader::new(file);
-        //read line by line
-        loop {
-            let mut line = String::new();
-            let len = reader.read_line(&mut line).expect("Error reading file");
-            if len == 0 {
-                //EOF reached
-                break;
-            } else {
-                //process line
-                let trimmed_line = line.trim_right();
-                let res1: serde_json::Result<results::functions::UnsafeFnUsafetySources> = serde_json::from_str(&trimmed_line);
+        if let Some (files) = file_ops.open_files(results::FN_UNSAFETY_SOURCES_FILE_NAME) {
+            for file in files.iter() {
+                let mut reader = BufReader::new(file);
+                //read line by line
+                loop {
+                    let mut line = String::new();
+                    let len = reader.read_line(&mut line).expect("Error reading file");
+                    if len == 0 {
+                        //EOF reached
+                        break;
+                    } else {
+                        //process line
+                        let trimmed_line = line.trim_right();
+                        let res1: serde_json::Result<results::functions::UnsafeFnUsafetySources> = serde_json::from_str(&trimmed_line);
 
-                if let Ok(res) = res1 {
-                    let mut fn_summary = SourceSummary::new();
-                    for src in res.sources() {
-                        match src.kind {
-                            SourceKind::UnsafeFnCall(_) => { fn_summary.unsafe_fn_calls += 1; },
-                            SourceKind::DerefRawPointer => { fn_summary.raw_ptr += 1; },
-                            SourceKind::Asm => { fn_summary.asm += 1; },
-                            SourceKind::Static => { fn_summary.static_access += 1; },
-                            SourceKind::BorrowPacked => { fn_summary.borrow_packed += 1; },
-                            SourceKind::AssignmentToNonCopyUnionField => { fn_summary.assignment_union += 1; },
-                            SourceKind::AccessToUnionField => { fn_summary.union += 1; },
-                            SourceKind::ExternStatic => { fn_summary.extern_static += 1; },
+                        if let Ok(res) = res1 {
+                            let mut fn_summary = SourceSummary::new();
+                            for src in res.sources() {
+                                match src.kind {
+                                    SourceKind::UnsafeFnCall(_) => { fn_summary.unsafe_fn_calls += 1; },
+                                    SourceKind::DerefRawPointer => { fn_summary.raw_ptr += 1; },
+                                    SourceKind::Asm => { fn_summary.asm += 1; },
+                                    SourceKind::Static => { fn_summary.static_access += 1; },
+                                    SourceKind::BorrowPacked => { fn_summary.borrow_packed += 1; },
+                                    SourceKind::AssignmentToNonCopyUnionField => { fn_summary.assignment_union += 1; },
+                                    SourceKind::AccessToUnionField => { fn_summary.union += 1; },
+                                    SourceKind::ExternStatic => { fn_summary.extern_static += 1; },
+                                }
+                            }
+                            fn_summary.from_trait = res.from_trait();
+                            fn_summary.argument = res.arguments().len() > 0;
+                            writeln!(writer, "{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}"
+                                     , fn_summary.unsafe_fn_calls
+                                     , fn_summary.raw_ptr
+                                     , fn_summary.asm
+                                     , fn_summary.static_access
+                                     , fn_summary.borrow_packed
+                                     , fn_summary.assignment_union
+                                     , fn_summary.union
+                                     , fn_summary.extern_static
+                                     , (if fn_summary.argument { 1 } else { 0 })
+                                     , (if fn_summary.from_trait { 1 } else { 0 })
+                                     , crate_name
+                                     //, res.name()
+                            );
+                        } else {
+                            error!("Could not process {:?} line: {:?}", crate_name, trimmed_line);
                         }
                     }
-                    fn_summary.from_trait = res.from_trait();
-                    fn_summary.argument = res.arguments().len() > 0;
-                    writeln!(writer, "{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}"
-                             , fn_summary.unsafe_fn_calls
-                             , fn_summary.raw_ptr
-                             , fn_summary.asm
-                             , fn_summary.static_access
-                             , fn_summary.borrow_packed
-                             , fn_summary.assignment_union
-                             , fn_summary.union
-                             , fn_summary.extern_static
-                             , (if fn_summary.argument { 1 } else { 0 })
-                             , (if fn_summary.from_trait { 1 } else { 0 })
-                             , crate_name
-                             //, res.name()
-                    );
-                } else {
-                    error!("Could not process {:?} line: {:?}", crate_name, trimmed_line);
                 }
             }
+        } else {
+            error!("Function unsafety sources files missing for crate {:?}", crate_name);
         }
     }
 }

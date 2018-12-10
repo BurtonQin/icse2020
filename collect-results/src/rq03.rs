@@ -19,32 +19,42 @@ pub fn process_rq_count(crates: &Vec<(String,String)>, traits:bool) {
         info!("traits::Processing crate {:?}", crate_name);
         let dir_name = ::get_full_analysis_dir();
         let file_ops = results::FileOps::new(crate_name, &version, &dir_name);
-        let file =
+        if let Some (files) =
             if traits {
-                file_ops.get_unsafe_traits_file(false)
+                file_ops.open_files(results::UNSAFE_TRAITS)
             } else {
-                file_ops.get_unsafe_traits_impls_file(false)
-            };
-        let mut reader = BufReader::new(file);
-        //read line by line
-        let mut counter = 0;
-        loop {
-            let mut line = String::new();
-            let len = reader.read_line(&mut line).expect("Error reading file");
-            if len == 0 {
-                //EOF reached
-                break
-            } else {
-                //process line
-                if line.len() > 0 {
-                    counter += 1;
+                file_ops.open_files(results::UNSAFE_TRAITS_IMPLS)
+            } {
+            for file in files.iter() {
+                let mut reader = BufReader::new(file);
+                //read line by line
+                let mut counter = 0;
+                loop {
+                    let mut line = String::new();
+                    let len = reader.read_line(&mut line).expect("Error reading file");
+                    if len == 0 {
+                        //EOF reached
+                        break
+                    } else {
+                        //process line
+                        if line.len() > 0 {
+                            counter += 1;
+                        }
+                    }
                 }
+                writeln!(writer, "{}\t{}"
+                         , crate_name
+                         , counter
+                );
+            }// for
+        } else {
+            if traits {
+                error!("Unsafe traits files missing for crate {:?}", crate_name);
+            } else {
+                error!("Unsafe trait impls files missing for crate {:?}", crate_name);
             }
+
         }
-        writeln!(writer, "{}\t{}"
-                 , crate_name
-                 , counter
-                 );
     }
 }
 
@@ -56,24 +66,27 @@ pub fn process_rq_impls(crates: &Vec<(String,String)>) {
         info!("impls::Processing crate {:?}", crate_name);
         let dir_name = ::get_full_analysis_dir();
         let file_ops = results::FileOps::new(crate_name, &version, &dir_name);
-        let file = file_ops.get_unsafe_traits_impls_file(false);
-        let mut reader = BufReader::new(file);
-        //read line by line
-        let mut counter = 0;
-        loop {
-            let mut line = String::new();
-            let len = reader.read_line(&mut line).expect("Error reading file");
-            if len == 0 {
-                //EOF reached
-                break
-            } else {
-                //process line
-                let trimmed_line = line.trim_right();
-                let res: results::traits::UnsafeTrait = serde_json::from_str(&trimmed_line).unwrap();
-                writeln!(writer, "{}\t{}"
-                            , crate_name
-                            , res.name
-                );
+        if let Some (files) = file_ops.open_files(results::UNSAFE_TRAITS_IMPLS) {
+            for file in files.iter() {
+                let mut reader = BufReader::new(file);
+                //read line by line
+                let mut counter = 0;
+                loop {
+                    let mut line = String::new();
+                    let len = reader.read_line(&mut line).expect("Error reading file");
+                    if len == 0 {
+                        //EOF reached
+                        break
+                    } else {
+                        //process line
+                        let trimmed_line = line.trim_right();
+                        let res: results::traits::UnsafeTrait = serde_json::from_str(&trimmed_line).unwrap();
+                        writeln!(writer, "{}\t{}"
+                                 , crate_name
+                                 , res.name
+                        );
+                    }
+                }
             }
         }
     }

@@ -6,34 +6,30 @@ use std::io::Write;
 use std::fs::File;
 
 pub fn process_rq(crates: &Vec<(String,String)>) {
-    let output_file = ::get_output_file("rq07_coarse_opt");
-    let mut writer_opt = BufWriter::new(output_file);
+    let mut writer_opt = BufWriter::new(::get_output_file("rq07_precise_opt"));
     let mut writer_pes = BufWriter::new( ::get_output_file("rq07_coarse_pes"));
     for (crate_name, version) in crates {
         info!("Processing crate {:?}", crate_name);
         let dir_name = ::get_full_analysis_dir();
         let file_ops = results::FileOps::new( crate_name, &version, &dir_name );
-        let file = file_ops.get_implicit_unsafe_coarse_opt_file(false);
-        process_file(file, &mut writer_opt, crate_name);
-        let file_pes = file_ops.get_implicit_unsafe_coarse_pes_file(false);
-        process_file(file_pes, &mut writer_pes, crate_name);
-    }
-
-    let output_file = ::get_output_file("rq07_precise_opt");
-    let mut writer_opt = BufWriter::new(output_file);
-    let mut writer_pes = BufWriter::new( ::get_output_file("rq07_precise_pes"));
-    for (crate_name, version) in crates {
-        info!("Processing crate {:?}", crate_name);
-        let dir_name = ::get_full_analysis_dir();
-        let file_ops = results::FileOps::new( crate_name, &version, &dir_name );
-        let file = file_ops.get_implicit_unsafe_precise_opt_file(false);
-        process_file(file, &mut writer_opt, crate_name);
-        let file_pes = file_ops.get_implicit_unsafe_precise_pes_file(false);
-        process_file(file_pes, &mut writer_pes, crate_name);
+        if let Some (files) = file_ops.open_files(results::IMPLICIT_RTA_OPTIMISTIC_FILENAME) {
+            for file in files.iter() {
+                process_file(file, &mut writer_opt, crate_name);
+            }
+        } else {
+            error!("Implicit unsafe optimistic files missing for crate {:?}", crate_name);
+        }
+        if let Some (files) = file_ops.open_files(results::IMPLICIT_RTA_PESSIMISTIC_FILENAME) {
+            for file in files.iter() {
+                process_file(file, &mut writer_pes, crate_name);
+            }
+        } else {
+            error!("Implicit unsafe pesimistic files missing for crate {:?}", crate_name);
+        }
     }
 }
 
-fn process_file( input_file: File, writer: &mut BufWriter<File>, crate_name: &String) {
+fn process_file( input_file: &File, writer: &mut BufWriter<File>, crate_name: &String) {
     let mut reader = BufReader::new(input_file);
     //read line by line
     let mut total = 0;

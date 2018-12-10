@@ -18,7 +18,7 @@ mod rq03;
 mod rq04;
 mod rq05;
 mod rq06;
-mod rq07a;
+mod rq07;
 
 use std::fs::File ;
 use std::fs::OpenOptions;
@@ -26,6 +26,7 @@ use std::path::PathBuf;
 use std::fs::{DirBuilder,DirEntry};
 use std::io::BufReader;
 use std::io::BufRead;
+use results::FileOps;
 
 fn main() {
     // create ouput dir if it does not exists
@@ -43,12 +44,12 @@ fn main() {
     env_logger::init();
     // consider only the most recent version of each crate
     let crates = get_crates_recent_versions(crates_file);
-    rq01::process_rq(&crates);
-    rq02::process_rq(&crates);
-    rq03::process_rq(&crates);
+//    rq01::process_rq(&crates);
+//    rq02::process_rq(&crates);
+//    rq03::process_rq(&crates);
     rq04::process_rq(&crates);
-    rq05::process_rq(&crates);
-    rq06::process_rq(&crates);
+//    rq05::process_rq(&crates);
+//    rq06::process_rq(&crates);
     //rq07a::process_rq(&crates);
 }
 
@@ -94,7 +95,7 @@ fn get_crates_recent_versions(file: Option<String>) -> Vec<(String,String)> {
                     //process line
                     let crate_path : PathBuf = [get_full_analysis_dir(), crate_name.to_string()].iter().collect();
                     if crate_path.exists() {
-                        let version = get_max_version(&crate_path);
+                        let version = FileOps::get_max_version(&crate_path);
                         res.push((crate_name.to_string(), version));
                     } else {
                         error!("Crate not found: {:?}", crate_name);
@@ -107,7 +108,7 @@ fn get_crates_recent_versions(file: Option<String>) -> Vec<(String,String)> {
                 let d = dir_result.unwrap();
                 let path_buf = d.path();
                 let crate_name = path_buf.file_name().unwrap().to_owned();
-                let version = get_max_version(&path_buf);
+                let version = FileOps::get_max_version(&path_buf);
                 res.push((crate_name.to_str().unwrap().to_string()
                           , version));
             }
