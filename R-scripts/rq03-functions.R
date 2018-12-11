@@ -6,63 +6,95 @@ library('scales')
 
 res <- read.table( file="~/unsafe_analysis/analysis-data/research-questions/rq05"
                    , header=FALSE
-                   , sep='\t'
+                   , sep=','
                    , comment.char = "#"
-                   , col.names=c("fn_call", "deref_ptr","asm","static_access","borrow_packed",
-                                 "assign_union", "access_union", "extern_static", "argument",
-                                 "from_crate","crate"
-                   ))
-all_filename <- "~/work/unsafe_study/paper/rq05_all.eps"
-source_base_filename <- "~/work/unsafe_study/paper/rq05_source_"
-calls_filename <- "~/work/unsafe_study/paper/rq05_calls.eps"
+                   , col.names=c("source", "user","crate"))
 
-no_reason_frame <- subset( res, res$fn_call == 0 && 
-                             res$deref_ptr == 0 &&
-                             res$asm == 0 &&
-                             res$static_access == 0 &&
-                             res$borrow_packed == 0 &&
-                             res$assign_union == 0 &&
-                             res$access_union == 0 && 
-                             res$extern_static == 0 &&
-                             res$argument == 0 &&
-                             res$from_crate == 0
-                           )
+res90 <- read.table( file="~/unsafe_analysis/analysis-data/research-questions-90-percent/rq05"
+                   , header=FALSE
+                   , sep=','
+                   , comment.char = "#"
+                   , col.names=c("source", "user","crate"))
 
-labels <- c("Unsafe Function Call", "Derefence Raw Pointer",
-            "Static Variable Use", "Assembly",
-            "Access to Union", "From Arguments", "From Trait") #should improve the names 
-values <- c( sum(res$fn_call), sum(res$deref_ptr), 
-             sum(res$static_access), sum(res$asm),
-             sum(res$access_union), sum(res$argument), sum(res$from_crate)
-             )
+res_aggregate <- count(res, c("source"))
+res_aggregate$freq <- res_aggregate$freq / nrow(res) 
+res_aggregate$type <- "All"
 
-n <- sum(values)
-values <- values/n
+res90_aggregate <- count(res90, c("source"))
+res90_aggregate$freq <- res90_aggregate$freq / nrow(res90) 
+res90_aggregate$type <- "Most Downloaded"
 
-all_frame <- data.frame(names = labels, data = values)
-all_frame$names <- factor(all_frame$names, levels = all_frame$names[order(all_frame$data)])
+# too_small <- (subset(res_aggregate, freq < 0.001))[,"source"]
+# too_small90 <- (subset(res90_aggregate, freq < 0.001))[,"source"]
+# exclude <- intersect(too_small, too_small90)
 
-ggplot(all_frame, aes(x=names, y=data))+
-  geom_bar(stat = "identity") +
-  geom_text(aes(x = names, 
-                y = data + 0.02, label = sprintf("%1.2f%%", 100*data),
-  )
-  ) +
-  scale_y_continuous(limits = c(0,0.60))+
+exclude <- (subset(res_aggregate, freq < 0.001))[,"source"]
+res_aggregate <- subset( res_aggregate, !is.element(source,exclude) )
+res90_aggregate <- subset( res90_aggregate, !is.element(source,exclude) )
+
+total_frame <- rbind(res_aggregate,res90_aggregate)
+options(digits = 4)
+
+ggplot(total_frame, aes(x = source, y = freq, group = interaction(type,source), fill = type))+
+  geom_bar(position = "dodge",stat="identity") +
+  geom_text(aes(label=scales::percent(freq, scale = 100)), position=position_dodge(width=0.9), vjust=-0.25) + 
   theme (
     legend.title = element_blank(),
     axis.text.x=element_text(angle=45, hjust=1),
     axis.text.y = element_blank()
   ) +
-  labs(title="Unsafe Rust Operations in Unsafe Functions") +
-  labs(x="Unsafety Rust Operations", y="Percentage") 
+  labs(title="Unsafe Rust in Declared Unsafe Functions") +
+  labs(x="Unsafe Rust Operations", y="Percentage") +
+  scale_fill_grey()
 
-ggsave(all_filename, plot = last_plot(), device = "eps")
+ggsave("~/work/unsafe-analysis-data/paper/rq03_functions_all.eps", plot = last_plot(), device = "eps")
 
-#save each number individually
-fn <- paste0(source_base_filename,"n",".txt")
-write(nrow(all_frame),fn,append=FALSE)
-for (i in 1:length(values)) {
-  fn <- paste0(source_base_filename,labels[i],".txt")
-  write(percent(values[i]),fn,append=FALSE)
+for (i in 1:nrow(total_frame)) {
+  fn <- paste0("~/work/unsafe-analysis-data/paper/rq03_functions_all_",
+               total_frame$type[i], "_",
+               total_frame$source[i], 
+               ".txt")
+  write(percent(total_frame$freq[i]),fn,append=FALSE)
+}
+
+###################################################3
+# user introduced unsafe
+user_only <- res[which(res$user=="true"),]
+user_only90 <- res90[which(res90$user=="true"),]
+
+user_aggregate <- count(user_only, c("source"))
+user_aggregate$freq <- user_aggregate$freq / nrow(user_only) 
+user_aggregate$type <- "All"
+
+user90_aggregate <- count(user_only90, c("source"))
+user90_aggregate$freq <- user90_aggregate$freq / nrow(user_only90) 
+user90_aggregate$type <- "Most Downloaded"
+
+exclude <- (subset(user_aggregate, freq < 0.001))[,"source"]
+user_aggregate <- subset( user_aggregate, !is.element(source,exclude) )
+user90_aggregate <- subset( user90_aggregate, !is.element(source,exclude) )
+
+total_frame <- rbind(user_aggregate,user90_aggregate)
+options(digits = 4)
+
+ggplot(total_frame, aes(x = source, y = freq, group = interaction(type,source), fill = type))+
+  geom_bar(position = "dodge",stat="identity") +
+  geom_text(aes(label=scales::percent(freq, scale = 100)), position=position_dodge(width=0.9), vjust=-0.25) + 
+  theme (
+    legend.title = element_blank(),
+    axis.text.x=element_text(angle=45, hjust=1),
+    axis.text.y = element_blank()
+  ) +
+  labs(title="Unsafe Rust in Declared Unsafe Functions (User Introduced Unsafe Only)") +
+  labs(x="Unsafe Rust Operations", y="Percentage") +
+  scale_fill_grey()
+
+ggsave("~/work/unsafe-analysis-data/paper/rq03_functions_user.eps", plot = last_plot(), device = "eps")
+
+for (i in 1:nrow(total_frame)) {
+  fn <- paste0("~/work/unsafe-analysis-data/paper/rq03_functions_user_",
+               total_frame$type[i], "_",
+               total_frame$source[i], 
+               ".txt")
+  write(percent(total_frame$freq[i]),fn,append=FALSE)
 }

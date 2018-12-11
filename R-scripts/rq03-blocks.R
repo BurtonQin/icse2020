@@ -25,6 +25,10 @@ res90_aggregate <- count(res90, c("source"))
 res90_aggregate$freq <- res90_aggregate$freq / nrow(res90) 
 res90_aggregate$type <- "Most Downloaded"
 
+exclude <- (subset(res_aggregate, freq < 0.001))[,"source"]
+res_aggregate <- subset( res_aggregate, !is.element(source,exclude) )
+res90_aggregate <- subset( res90_aggregate, !is.element(source,exclude) )
+
 total_frame <- rbind(res_aggregate,res90_aggregate)
 options(digits = 4)
 
@@ -53,7 +57,7 @@ for (i in 1:nrow(total_frame)) {
 ###################################################3
 # user introduced unsafe
 user_only <- res[which(res$user=="true"),]
-user_only90 <- res[which(res90$user=="true"),]
+user_only90 <- res90[which(res90$user=="true"),]
 
 user_aggregate <- count(user_only, c("source"))
 user_aggregate$freq <- user_aggregate$freq / nrow(user_only) 
@@ -63,6 +67,10 @@ user_aggregate$type <- "All"
 user90_aggregate <- count(user_only90, c("source"))
 user90_aggregate$freq <- user90_aggregate$freq / nrow(user_only90) 
 user90_aggregate$type <- "Most Downloaded"
+
+exclude <- (subset(user_aggregate, freq < 0.001))[,"source"]
+user_aggregate <- subset( user_aggregate, !is.element(source,exclude) )
+user90_aggregate <- subset( user90_aggregate, !is.element(source,exclude) )
 
 total_frame <- rbind(user_aggregate,user90_aggregate)
 options(digits = 4)
@@ -92,41 +100,41 @@ for (i in 1:nrow(total_frame)) {
 ###############
 
 # unsafe function calls classification
-res <- read.table( file="~/unsafe_analysis/analysis-data/research-questions/rq04-calls"
-                   , header=FALSE
-                   , sep='\t'
-                   , comment.char = "#"
-                   , col.names=c("type", "block_id", "user"))
-cols <- unique(res$type)
-values <- array(dim=length(cols))
-for (i in 1:length(cols)) {
-  dfi <- res[ which(res$type == cols[i]),]
-  values[i] <- nrow(dfi)
-}
-n <- sum(values)
-values <- values/n
-all_frame <- data.frame(names = cols, data = values)
-all_frame$names <- factor(all_frame$names, levels = all_frame$names[order(all_frame$data)])
-
-ggplot(all_frame, aes(x=names, y=data))+
-  geom_bar(stat = "identity") +
-  geom_text(aes(x = names, 
-                y = data + 0.02, label = sprintf("%1.4f%%", 100*data)
-                )
-            ) +
-  theme (
-    legend.title = element_blank(),
-    axis.text.x=element_text(angle=45, hjust=1),
-    axis.text.y = element_blank()
-  ) +
-  labs(title="Unsafe Function Calls in Unsafe Blocks") +
-  labs(x="Unsafe Function Call Abi", y="Percentage") 
-
-ggsave(calls_filename, plot = last_plot(), device = "eps")
-
-fn <- paste0(source_base_filename,"calls_n",".txt")
-write(nrow(all_frame),fn,append=FALSE)
-for (i in 1:length(values)) {
-  fn <- paste0(source_base_filename,cols[i],".txt")
-  write(percent(values[i]),fn,append=FALSE)
-}
+# res <- read.table( file="~/unsafe_analysis/analysis-data/research-questions/rq04-calls"
+#                    , header=FALSE
+#                    , sep='\t'
+#                    , comment.char = "#"
+#                    , col.names=c("type", "block_id", "user"))
+# cols <- unique(res$type)
+# values <- array(dim=length(cols))
+# for (i in 1:length(cols)) {
+#   dfi <- res[ which(res$type == cols[i]),]
+#   values[i] <- nrow(dfi)
+# }
+# n <- sum(values)
+# values <- values/n
+# all_frame <- data.frame(names = cols, data = values)
+# all_frame$names <- factor(all_frame$names, levels = all_frame$names[order(all_frame$data)])
+# 
+# ggplot(all_frame, aes(x=names, y=data))+
+#   geom_bar(stat = "identity") +
+#   geom_text(aes(x = names, 
+#                 y = data + 0.02, label = sprintf("%1.4f%%", 100*data)
+#                 )
+#             ) +
+#   theme (
+#     legend.title = element_blank(),
+#     axis.text.x=element_text(angle=45, hjust=1),
+#     axis.text.y = element_blank()
+#   ) +
+#   labs(title="Unsafe Function Calls in Unsafe Blocks") +
+#   labs(x="Unsafe Function Call Abi", y="Percentage") 
+# 
+# ggsave(calls_filename, plot = last_plot(), device = "eps")
+# 
+# fn <- paste0(source_base_filename,"calls_n",".txt")
+# write(nrow(all_frame),fn,append=FALSE)
+# for (i in 1:length(values)) {
+#   fn <- paste0(source_base_filename,cols[i],".txt")
+#   write(percent(values[i]),fn,append=FALSE)
+# }

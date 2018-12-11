@@ -98,13 +98,13 @@ impl<'a, 'b> FileOps<'a, 'b> {
 
     pub fn open_files(&self, analysis_name: &'static str) -> Option<Vec<File>> {
         let dir_path: PathBuf = self.get_root_path_components().iter().collect();
-        error!("Using dir {:?}", dir_path);
+        //error!("Using dir {:?}", dir_path);
         if let Ok(read_dir) = dir_path.read_dir() {
             let mut result = Vec::new();
             for entry in read_dir {
                 // check if entry is ./analysis_name_*
                 if let Some(filename) = entry.unwrap().path().as_path().file_name() {
-                    error!("Found file {:?}", filename.to_str());
+                    //error!("Found file {:?}", filename.to_str());
                     if filename.to_str().unwrap().to_string().starts_with(analysis_name) {
                         let file_path = dir_path.join(filename);
                         // create new file
@@ -150,24 +150,31 @@ impl<'a, 'b> FileOps<'a, 'b> {
     }
 
     pub fn get_max_version(dir_path: &PathBuf) -> String {
-        let version = std::fs::read_dir(dir_path).unwrap().filter_map(
-            |dir_result| {
-                let dd = dir_result.unwrap();
-                let pb = &dd.path();
-                if let Some(name) = pb.file_name() {
-                    Some(name.to_os_string())
-                } else {
-                    None
+        if let Ok(dir_entries) = std::fs::read_dir(dir_path) {
+            let version = dir_entries.filter_map(
+                |dir_result| {
+                    if let Ok(dd) = dir_result {
+                        let pb = &dd.path();
+                        if let Some(name) = pb.file_name() {
+                            Some(name.to_os_string())
+                        } else {
+                            None
+                        }
+                    } else {
+                        None
+                    }
                 }
+            ).max();
+            if let Some(version) = version {
+                version.to_str().unwrap().to_string()
+            } else {
+                assert!(false, "Can't find version in dir {:?}", dir_path);
+                "".to_string()
             }
-        ).max();
-        if let Some (version) = version {
-            version.to_str().unwrap().to_string()
         } else {
-            assert!(false,"Can't find version in dir {:?}", dir_path);
+            assert!(false, "Can't read_dir {:?}", dir_path);
             "".to_string()
         }
-
     }
 
 }
