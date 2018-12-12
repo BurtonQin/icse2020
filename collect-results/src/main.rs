@@ -48,9 +48,9 @@ fn main() {
 //    rq02::process_rq(&crates);
 //    rq03::process_rq(&crates);
 //    rq04::process_rq(&crates);
-    rq05::process_rq(&crates);
+//    rq05::process_rq(&crates);
 //    rq06::process_rq(&crates);
-    //rq07a::process_rq(&crates);
+    rq07::process_rq(&crates);
 }
 
 

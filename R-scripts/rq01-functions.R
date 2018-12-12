@@ -38,7 +38,7 @@ x_max <- summary["99%"]
 
 ggplot() +
   geom_point(data=ggdata, aes(x=value, y=ecdf)) +
-  geom_point(data=ggdata90, aes(x=value, y=ecdf), color='grey45')+
+  geom_point(data=ggdata90, aes(x=value, y=ecdf), color='grey60')+
   xlab("Declared Unsafe Functions") +
   ylab("Percent of Crates") +
   labs(title="Cumulative Distribution of Declared Unsafe Functions") +
@@ -47,10 +47,18 @@ ggplot() +
     , limits = c(0,x_max+1)
     , labels = comma
   ) +
-  theme(axis.text.x=element_text(angle=90, hjust=1)) +
+  theme(axis.text.x=element_text(angle=90, hjust=1),
+        panel.background = element_rect(fill = "white",
+                                        colour = "white",
+                                        size = 0.5, linetype = "solid"),
+        panel.grid.major = element_line(size = 0.5, linetype = 'solid',
+                                        colour = "grey"), 
+        panel.grid.minor = element_line(size = 0.25, linetype = 'solid',
+                                        colour = "white")
+  ) +
   scale_y_continuous(
     limits = c(min_y-0.01,1)
-    , breaks = c(min_y, seq(first_y,1,0.05))
+    , breaks = c(none90, seq(first_y,1,0.05))
     ,labels = percent
   )
 ggsave(cdf_filename, plot = last_plot(), device = "eps")

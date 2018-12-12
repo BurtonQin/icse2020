@@ -37,7 +37,7 @@ x_max <- summary["99.5%"]
 
 ggplot() +
     geom_point(data=ggdata_all, aes(x=value, y=ecdf))+
-    geom_point(data=ggdata_90, aes(x=value, y=ecdf), color='grey45')+
+    geom_point(data=ggdata_90, aes(x=value, y=ecdf), color='grey60')+
     xlab("Unsafe Blocks") +
     ylab("Percent of Crates") +
     labs(title="Cumulative Distribution of Unsafe Blocks") +
@@ -46,24 +46,33 @@ ggplot() +
       , limits = c(0,x_max+1)
       , labels = comma
     ) +
-    theme(axis.text.x=element_text(angle=90, hjust=1)) +
     scale_y_continuous(
       limits = c(min_y-0.01,1)
-      , breaks = c(min_y, seq(first_y,1,0.05))
+      , breaks = c(none, none90, seq(first_y,1,0.05))
       ,labels = percent
-    )
+    ) +
+    theme(
+      axis.text.x=element_text(angle=90, hjust=1),
+      panel.background = element_rect(fill = "white",
+                                      colour = "white",
+                                      size = 0.5, linetype = "solid"),
+      panel.grid.major = element_line(size = 0.5, linetype = 'solid',
+                                      colour = "grey"), 
+      panel.grid.minor = element_line(size = 0.25, linetype = 'solid',
+                                      colour = "white")
+    ) 
 
 ggsave(file.path(output_dir,"rq01_blocks_cdf.eps"), plot = last_plot(), device = "eps")
 
 summary <- quantile(res$blocks, c(.90,.95,.995))
 base_filename <- paste0(output_dir, "rq01_blocks_")
 p90 <- paste0(base_filename,"90",".txt")
-write(summary["90%"],file=p90)
+write(format(summary["90%"], big.mark=","),file=p90)
 p95 <- paste0(base_filename,"95",".txt")
-write(summary["95%"],file=p95)
+write(format(summary["95%"], big.mark=","),file=p95)
 
-write(max(blocks),paste0(base_filename,"max",".txt"))
-write(max(blocks90),paste0(base_filename,"max90",".txt"))
+write(format(max(blocks), big.mark=","),paste0(base_filename,"max",".txt"))
+write(format(max(blocks90), big.mark=","),paste0(base_filename,"max90",".txt"))
 
 options(digits = 4)
 write(none*100,paste0(base_filename,"none",".txt"))

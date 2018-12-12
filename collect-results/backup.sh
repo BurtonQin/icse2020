@@ -1,5 +1,6 @@
 source ../exports.sh
 
+#pushd $ANALYSIS_RESULTS_DIR
 pushd $FULL_ANALYSIS_DIR
 
 for x in {a..z}

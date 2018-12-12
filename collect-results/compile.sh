@@ -7,8 +7,21 @@ export RUST_LOG=error
 # process all
 cargo +$NIGHTLY $1
 
+sed "s/'/\`/g" $RQ_DIR/rq03-impls-names > out
+mv out $RQ_DIR/rq03-impls-names
+
+sed "s/'/\`/g" $RQ_DIR/rq06 > out
+mv out $RQ_DIR/rq06
+
 export CRATES_FILE=${PROJECT_HOME}/select-crates/crates.io-90-percent
 export RQ_DIR=${UNSAFE_ANALYSIS_DIR}/research-questions-90-percent
 ## process top crates
 cargo +$NIGHTLY $1  
+
+sed "s/'/\`/g" $RQ_DIR/rq03-impls-names > out
+mv out $RQ_DIR/rq03-impls-names
+
+sed "s/'/\`/g" $RQ_DIR/rq06 > out
+mv out $RQ_DIR/rq06
+
 

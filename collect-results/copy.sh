@@ -7,12 +7,11 @@ mkdir -p $ANALYSIS_RESULTS_DIR
 for d in $(ls -d $FULL_ANALYSIS_DIR/*)
 do
     cd $d
-    echo "cp -r * $ANALYSIS_RESULTS_DIR"
-    cp -r * $ANALYSIS_RESULTS_DIR
-    if [ $? -eq 0 ] 
-    then
-	    echo "OK: $d"
-    else
-	    echo "Copy error: $d"
+    CRATE=`basename $d`
+    echo "cp -r $d/$CRATE $ANALYSIS_RESULTS_DIR"
+    cp -r $d/$CRATE $ANALYSIS_RESULTS_DIR
+    if [ $? -ne 0 ] 
+    then 
+	echo "Copy error: $d/$CRATE"
     fi
 done

@@ -6,8 +6,8 @@ use std::io::Write;
 use std::fs::File;
 
 pub fn process_rq(crates: &Vec<(String,String)>) {
-    let mut writer_opt = BufWriter::new(::get_output_file("rq07_precise_opt"));
-    let mut writer_pes = BufWriter::new( ::get_output_file("rq07_coarse_pes"));
+    let mut writer_opt = BufWriter::new(::get_output_file("rq07_opt"));
+    let mut writer_pes = BufWriter::new( ::get_output_file("rq07_pes"));
     for (crate_name, version) in crates {
         info!("Processing crate {:?}", crate_name);
         let dir_name = ::get_full_analysis_dir();

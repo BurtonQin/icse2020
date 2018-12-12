@@ -4,7 +4,6 @@ library(Hmisc)
 library(DescTools)
 
 #Traits
-
 res <- read.table( file="~/unsafe_analysis/analysis-data/research-questions/rq03-traits"
                    , header=FALSE
                    , sep='\t'
@@ -26,13 +25,11 @@ write(formatC(nonzero*100,digits = 1, format = "f"), file=nonzero_filename)
 write(formatC(nonzero90*100,digits = 1, format = "f"), file=nonzero90_filename)
 
 # Implementations
-p <- pipe(paste0('sed \'s/"\'"/"`"/g\' "', "~/unsafe_analysis/analysis-data/research-questions/rq03-impls", '"'))
 res <- read.table( file="~/unsafe_analysis/analysis-data/research-questions/rq03-impls"
                    , header=FALSE
                    , sep='\t'
                    , comment.char = "#"
                    , col.names=c("crate", "count"))
-p <- pipe(paste0('sed \'s/"\'"/"`"/g\' "', "~/unsafe_analysis/analysis-data/research-questions-90-percent/rq03-impls", '"'))
 res90 <- read.table( file="~/unsafe_analysis/analysis-data/research-questions-90-percent/rq03-impls"
                    , header=FALSE
                    , sep='\t'
@@ -48,7 +45,9 @@ write(formatC(nonzero*100,digits = 1, format = "f"), file=nonzero_filename)
 write(formatC(nonzero90*100,digits = 1, format = "f"), file=nonzero90_filename)
 
 # Sync and Send
-p <- pipe(paste0('sed \'s/"\'"/"`"/g\' "', "~/unsafe_analysis/analysis-data/research-questions/rq03-impls-names", '"'))
+
+library(DescTools)
+
 res <- read.table( file="~/unsafe_analysis/analysis-data/research-questions/rq03-impls-names"
                    , header=FALSE
                    , sep='\t'
