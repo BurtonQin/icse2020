@@ -127,13 +127,26 @@ impl<'a, 'tcx> LateLintPass<'a, 'tcx> for Functions {
         let mut file = file_ops.create_file (results::UNSAFE_CALLS);
         save_analysis(unsafe_calls, &mut file);
 //
-//        let opt_impl_unsafe = implicit_unsafe::coarse::run_sources_analysis(cx,&self.normal_functions, true);
-//        save_analysis(opt_impl_unsafe, &mut file_ops.get_implicit_unsafe_coarse_opt_file(true));
-//        let pes_impl_unsafe = implicit_unsafe::coarse::run_sources_analysis(cx,&self.normal_functions, false);
-//        save_analysis(pes_impl_unsafe, &mut file_ops.get_implicit_unsafe_coarse_pes_file(true));
+        let opt_impl_unsafe = implicit_unsafe::coarse::run_sources_analysis(cx,
+                                                                            &self.normal_functions,
+                                                                            true);
+        let mut file = file_ops.create_file (results::COARSE_RTA_OPTIMISTIC_FILENAME);
+        save_analysis(opt_impl_unsafe, &mut file);
+        let pes_impl_unsafe = implicit_unsafe::coarse::run_sources_analysis(cx,
+                                                                            &self.normal_functions,
+                                                                            false);
+        let mut file = file_ops.create_file (results::COARSE_RTA_PESSIMISTIC_FILENAME);
+        save_analysis(pes_impl_unsafe, &mut file);
 
+        let mut all_fn_ids = Vec::new();
+        for fn_id in self.normal_functions.iter() {
+            all_fn_ids.push(*fn_id)
+        }
+        for fn_id in self.unsafe_functions.iter() {
+            all_fn_ids.push(*fn_id)
+        }
         let mut file = file_ops.create_file (results::IMPLICIT_RTA_OPTIMISTIC_FILENAME);
-        let opt_rta_impl_unsafe = implicit_unsafe::rta::run_sources_analysis(cx,&self.normal_functions,
+        let opt_rta_impl_unsafe = implicit_unsafe::rta::run_sources_analysis(cx,&all_fn_ids,
                                                                              true);
 
         info!("Before saving in file {:?}", file);

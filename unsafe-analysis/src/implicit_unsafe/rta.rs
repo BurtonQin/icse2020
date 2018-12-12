@@ -77,7 +77,7 @@ pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>
     let mut result = Vec::new();
 
     // build call graph
-    for &fn_id in fns {
+    for &fn_id in fns { // TODO change to
         let fn_def_id = cx.tcx.hir.local_def_id(fn_id);
         match cx.tcx.fn_sig(fn_def_id).unsafety() {
             hir::Unsafety::Unsafe => {
@@ -229,12 +229,17 @@ pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>
         if ctxt.def_id.is_local() {
             match call_data.call_type {
                 CallType::Resolved => {
-                    // print only if it does not have substitutions
-                    if ctxt.substs.len() == 0 { // TODO check this
+                    if ctxt.substs == Substs::identity_for_item(cx.tcx,ctxt.def_id) {
+                        // add only if it is the declared function
+                        // if it is a specialization with given substs ignore
                         if with_unsafe.contains(ctxt) {
-                            result.push(UnsafeInBody::new(get_fn_path(cx, ctxt.def_id), FnType::NormalNotSafe, ::get_node_name(cx, ctxt.def_id)));
+                            result.push(UnsafeInBody::new(get_fn_path(cx, ctxt.def_id),
+                                                          FnType::NormalNotSafe,
+                                                          ::get_node_name(cx, ctxt.def_id)));
                         } else {
-                            result.push(UnsafeInBody::new(get_fn_path(cx, ctxt.def_id), FnType::Safe, ::get_node_name(cx, ctxt.def_id)));
+                            result.push(UnsafeInBody::new(get_fn_path(cx, ctxt.def_id),
+                                                          FnType::Safe,
+                                                          ::get_node_name(cx, ctxt.def_id)));
                         }
                     }
                 }
