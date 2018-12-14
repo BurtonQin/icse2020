@@ -1,5 +1,5 @@
-use sysinfo;
+use sysinfo::{System, SystemExt};
 
 pub fn test2() {
-    sysinfo::System::new();
+    System::new();
 }

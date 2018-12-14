@@ -117,18 +117,53 @@ pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>
     let implicit_external: FxHashMap<DefId,UnsafeInBody> =
         deps::load(cx, &external_calls, optimistic, false);
 
-    for (&def_id, ref ub) in implicit_external.iter() {
-        if let FnType::NormalNotSafe = ub.fn_type {
-            // find all call contexts with same def id
-            for cc in call_graph.keys() {
-                if cc.def_id == def_id {
-                    with_unsafe.insert(
-                        cc.clone()
-                    );
-                }
+    for cc in call_graph.keys() {
+        if let Some (ub) = implicit_external.get(&cc.def_id) {
+            match ub.fn_type {
+                FnType::Safe => {},
+                FnType::Unsafe => {
+                    with_unsafe.insert(cc.clone());
+                },
+                FnType::NormalNotSafe => {
+                    with_unsafe.insert(cc.clone());
+                },
+                FnType::Parametric => {
+                    if !optimistic {
+                        with_unsafe.insert(cc.clone());
+                    }
+                },
+            }
+        } else {
+            if !optimistic {
+                with_unsafe.insert(cc.clone());
             }
         }
     }
+
+//    for (&def_id, ref ub) in implicit_external.iter() {
+//
+//        info!("Checking {:?}: {:?}", def_id, ub);
+//
+//        if let FnType::NormalNotSafe = ub.fn_type {
+//
+//            info!("{:?} is NormalNotSafe", def_id);
+//
+//            // find all call contexts with same def id
+//            for cc in call_graph.keys() {
+//
+//                info!("Processing {:?}", cc);
+//
+//                if cc.def_id == def_id {
+//
+//                    info!("Marking {:?} as unsafe", cc);
+//
+//                    with_unsafe.insert(
+//                        cc.clone()
+//                    );
+//                }
+//            }
+//        }
+//    }
 
 
     info!("external calls +++++++++++++++++++++++++++++++++++++++++++");
@@ -329,6 +364,10 @@ impl<'a, 'b, 'tcx:'a+'b>  CallsVisitor<'a, 'b, 'tcx> {
             info!("Resolve {:?} external call", ctxt.def_id);
             // external call
             self.external_calls.insert(get_fn_path(self.cx, ctxt.def_id), ctxt.def_id);
+            self.call_graph.insert(ctxt, CallData{
+                call_type: CallType::Resolved,
+                calls: None
+            });
         } else { // if !ctxt.def_id.is_local()
             info!("Resolve {:?} local call", ctxt.def_id);
             // get calls for the method with no substitutions
