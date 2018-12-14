@@ -18,7 +18,7 @@ rm -f $PROJECT_OUT/analysis_fails.txt
 
 cd $CRATES_DIR
 
-for x in {w..z}
+for x in {a..z}
 do
 	for d in $(ls -d $CRATES_DIR/$x*)
 	do

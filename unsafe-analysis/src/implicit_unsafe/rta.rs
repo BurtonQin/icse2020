@@ -110,7 +110,7 @@ pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>
         }
     }
 
-    info!("Call Graph +++++++++++++++++++++++++++++++++++++++++++");
+    error!("Call Graph +++++++++++++++++++++++++++++++++++++++++++");
     dump_call_graph(cx,&call_graph);
 
     //load external calls info
@@ -631,11 +631,11 @@ impl<'a, 'b, 'tcx:'a+'b> Visitor<'tcx> for CallsVisitor<'a,'b,'tcx> {
 
 fn dump_call_graph<'a, 'tcx>(cx: &LateContext<'a, 'tcx>,
                              call_graph: &FxHashMap<CallContext<'tcx>,CallData<'tcx>>) {
-    info!("============================================================================================");
+    error!("============================================================================================");
     for (d,c) in call_graph.iter() {
-        info!("{:?} : {:?}", d, c);
+        error!("{:?} : {:?}", d, c);
     }
-    info!("============================================================================================");
+    error!("============================================================================================");
 }
 
 

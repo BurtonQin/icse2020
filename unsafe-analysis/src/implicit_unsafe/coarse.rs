@@ -16,6 +16,7 @@ use implicit_unsafe::UnsafeBlocksVisitorData;
 use results::implicit::FnType;
 use fxhash::FxHashMap;
 
+#[derive(Debug)]
 enum Call {
     Static(DefId),
     Dynamic
@@ -73,6 +74,13 @@ pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, fns: &Vec<Node
             }
         }
     }
+
+//    error!("============================================================================================");
+//    for (d,c) in call_graph.iter() {
+//        error!("{:?} : {:?}", d, c);
+//    }
+//    error!("============================================================================================");
+
     // propagate external unsafety
     let mut external_calls : FxHashMap<String,DefId> = FxHashMap::default();
     for (def_id, calls) in call_graph.iter() {
