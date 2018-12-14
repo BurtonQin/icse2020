@@ -119,6 +119,16 @@ pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, fns: &Vec<Node
                         } else {
                             // TODO decide if I should make this always safe or dependent on the analysis
                             error!("External Call NOT found {:?}", ::get_node_name(cx, *def_id));
+                            if !optimistic {
+                                let fn_name = ::get_node_name(cx, *def_id);
+                                with_unsafe.insert(
+                                    *def_id,
+                                    UnsafeInBody::new(
+                                        get_fn_path(cx, *def_id),
+                                        FnType::NormalNotSafe,
+                                        fn_name
+                                    ));
+                            }
                         }
                     }
                 }
