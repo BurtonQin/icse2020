@@ -110,8 +110,8 @@ pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>
         }
     }
 
-    error!("Call Graph +++++++++++++++++++++++++++++++++++++++++++");
-    dump_call_graph(cx,&call_graph);
+//    error!("Call Graph +++++++++++++++++++++++++++++++++++++++++++");
+//    dump_call_graph(cx,&call_graph);
 
     //load external calls info
     let implicit_external: FxHashMap<DefId,UnsafeInBody> =
