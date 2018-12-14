@@ -5,3 +5,4 @@ authors = ["Ana Nora Evans <ananevans@gmail.com>"]
 
 [dependencies]
 call_graph = { path = "/home/nora/work/unsafe_study/examples/call_graph"}
+sysinfo = "0.3.19"

@@ -1,14 +1,16 @@
 #![feature(asm)]
 #![feature(unboxed_closures)]
 
-#![feature(rustc_private)]
-extern crate byteorder;
+//#![feature(rustc_private)]
+//extern crate byteorder;
 //extern crate rand;
-extern crate call_graph;
+//extern crate call_graph;
+extern crate sysinfo;
 
-mod external_calls;
+//mod external_calls;
 //mod trait_type;
 //mod test1;
+mod test2;
 
 //pub unsafe fn with_asm() {
 //    asm!("nop");
