@@ -118,24 +118,26 @@ pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>
         deps::load(cx, &external_calls, optimistic, false);
 
     for cc in call_graph.keys() {
-        if let Some (ub) = implicit_external.get(&cc.def_id) {
-            match ub.fn_type {
-                FnType::Safe => {},
-                FnType::Unsafe => {
-                    with_unsafe.insert(cc.clone());
-                },
-                FnType::NormalNotSafe => {
-                    with_unsafe.insert(cc.clone());
-                },
-                FnType::Parametric => {
-                    if !optimistic {
+        if !cc.def_id.is_local() {
+            if let Some(ub) = implicit_external.get(&cc.def_id) {
+                match ub.fn_type {
+                    FnType::Safe => {},
+                    FnType::Unsafe => {
                         with_unsafe.insert(cc.clone());
-                    }
-                },
-            }
-        } else {
-            if !optimistic {
-                with_unsafe.insert(cc.clone());
+                    },
+                    FnType::NormalNotSafe => {
+                        with_unsafe.insert(cc.clone());
+                    },
+                    FnType::Parametric => {
+                        if !optimistic {
+                            with_unsafe.insert(cc.clone());
+                        }
+                    },
+                }
+            } else {
+                if !optimistic {
+                    with_unsafe.insert(cc.clone());
+                }
             }
         }
     }
