@@ -165,23 +165,35 @@ fn load_analysis<'a, 'tcx>(
         let crate_path: PathBuf = [&root_dir, &crate_name].iter().collect();
         let version_path: PathBuf = [&root_dir, &crate_name, &crate_info.version].iter().collect();
         let version = FileOps::get_max_version(&crate_path); // here to satisfy lifetime
-        let file_ops =
-            if Path::new(&version_path).exists() {
-                results::FileOps::new(&crate_name, &crate_info.version, &root_dir)
-            } else {
-                error!("Dir does not exists {:?}, using version {:?}", crate_path, version);
-                results::FileOps::new(&crate_name, &version, &root_dir)
-            };
+
+        info!("Want version {:?} max version {:?}", crate_info.version, version);
+
+        // always use max version
+        let file_ops = results::FileOps::new(&crate_name, &version, &root_dir);
+//            if Path::new(&version_path).exists() {
+//                results::FileOps::new(&crate_name, &crate_info.version, &root_dir)
+//            } else {
+//                error!("Dir does not exists {:?}, using version {:?}", crate_path, version);
+//                results::FileOps::new(&crate_name, &version, &root_dir)
+//            };
         let files =
-            if optimistic {
-                file_ops.open_files(results::IMPLICIT_RTA_OPTIMISTIC_FILENAME)
+            if coarse {
+                if optimistic {
+                    file_ops.open_files(results::COARSE_RTA_OPTIMISTIC_FILENAME)
+                } else {
+                    file_ops.open_files(results::COARSE_RTA_PESSIMISTIC_FILENAME)
+                }
             } else {
-                file_ops.open_files(results::IMPLICIT_RTA_PESSIMISTIC_FILENAME)
+                if optimistic {
+                    file_ops.open_files(results::IMPLICIT_RTA_OPTIMISTIC_FILENAME)
+                } else {
+                    file_ops.open_files(results::IMPLICIT_RTA_PESSIMISTIC_FILENAME)
+                }
             };
 
         if let Some(files) = files {
             for file in files.iter() {
-                //info!("Processsing file {:?}", file_ops.get_root_path_components());
+                info!("Processsing file {:?}", file);
                 let mut reader = BufReader::new(file);
                 //read line by line
                 loop {

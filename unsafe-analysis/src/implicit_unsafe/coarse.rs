@@ -97,6 +97,12 @@ pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, fns: &Vec<Node
             }
         }
     }
+
+    info!("coarse external calls +++++++++++++++++++++++++++++++++++++++++++");
+    for (def_id, ub) in external_calls.iter() {
+        info!("{:?} {:?}", def_id, ub);
+    }
+
     let implicit_external: FxHashMap<DefId,UnsafeInBody> =
         deps::load(cx, &external_calls, optimistic, true);
     for (def_id, calls) in call_graph.iter() {

@@ -132,11 +132,14 @@ impl<'a, 'tcx> LateLintPass<'a, 'tcx> for Functions {
                                                                             true);
         let mut file = file_ops.create_file (results::COARSE_RTA_OPTIMISTIC_FILENAME);
         save_analysis(opt_impl_unsafe, &mut file);
+        drop(file);
+
         let pes_impl_unsafe = implicit_unsafe::coarse::run_sources_analysis(cx,
                                                                             &self.normal_functions,
                                                                             false);
         let mut file = file_ops.create_file (results::COARSE_RTA_PESSIMISTIC_FILENAME);
         save_analysis(pes_impl_unsafe, &mut file);
+        drop(file);
 
         let mut all_fn_ids = Vec::new();
         for fn_id in self.normal_functions.iter() {
@@ -148,12 +151,10 @@ impl<'a, 'tcx> LateLintPass<'a, 'tcx> for Functions {
         let mut file = file_ops.create_file (results::IMPLICIT_RTA_OPTIMISTIC_FILENAME);
         let opt_rta_impl_unsafe = implicit_unsafe::rta::run_sources_analysis(cx,&all_fn_ids,
                                                                              true);
-
         info!("Before saving in file {:?}", file);
-
         save_analysis(opt_rta_impl_unsafe, &mut file);
-
         info!("After saving in file {:?}", file);
+        drop(file);
 
         let mut file = file_ops.create_file (results::IMPLICIT_RTA_PESSIMISTIC_FILENAME);
         let pes_rta_impl_unsafe = implicit_unsafe::rta::run_sources_analysis(cx,
@@ -162,6 +163,7 @@ impl<'a, 'tcx> LateLintPass<'a, 'tcx> for Functions {
         info!("Before saving in file {:?}", file);
         save_analysis(pes_rta_impl_unsafe, &mut file);
         info!("After saving in file {:?}", file);
+        drop(file);
     }
 
     fn check_body(&mut self, cx: &LateContext<'a, 'tcx>, body: &'tcx hir::Body) {

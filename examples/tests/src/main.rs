@@ -5,7 +5,8 @@
 //extern crate byteorder;
 //extern crate rand;
 //extern crate call_graph;
-extern crate sysinfo;
+//extern crate sysinfo;
+extern crate rand;
 
 //mod external_calls;
 //mod trait_type;

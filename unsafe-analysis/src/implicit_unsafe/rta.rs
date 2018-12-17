@@ -119,7 +119,13 @@ pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>
 
     for cc in call_graph.keys() {
         if !cc.def_id.is_local() {
+
+            info!("Searching for {:?}", cc.def_id);
+
             if let Some(ub) = implicit_external.get(&cc.def_id) {
+
+                info!("Found {:?}", ub);
+
                 match ub.fn_type {
                     FnType::Safe => {},
                     FnType::Unsafe => {
@@ -135,6 +141,7 @@ pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>
                     },
                 }
             } else {
+                info!("NOT found {:?}", cc.def_id);
                 if !optimistic {
                     with_unsafe.insert(cc.clone());
                 }
@@ -169,11 +176,11 @@ pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>
 
 
     info!("external calls +++++++++++++++++++++++++++++++++++++++++++");
-    for (def_id, ub) in external_calls.iter() {
-        info!("{:?} {:?}", def_id, ub);
+    for (def_path, def_id) in external_calls.iter() {
+        info!("{:?}: {:?}", def_path, def_id);
     }
 
-    info!("found external +++++++++++++++++++++++++++++++++++++++++++");
+    info!("implicit external +++++++++++++++++++++++++++++++++++++++++++");
     for (def_id, ub) in implicit_external.iter() {
         info!("{:?} {:?}", def_id, ub);
     }
