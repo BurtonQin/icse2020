@@ -141,7 +141,7 @@ pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>
                     },
                 }
             } else {
-                info!("NOT found {:?}", cc.def_id);
+                error!("External Call NOT found {:?}", ::get_node_name(cx, cc.def_id));
                 if !optimistic {
                     with_unsafe.insert(cc.clone());
                 }

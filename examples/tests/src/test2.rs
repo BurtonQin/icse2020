@@ -1,8 +1,10 @@
 //use sysinfo::{System, SystemExt};
 
-use std::ops;
+//use std::ops;
 
-use rand::{thread_rng, Rng};
+use websocket::sync::Server;
+
+//use rand::{thread_rng, Rng};
 
 //pub fn test2() {
 //    System::new();
@@ -22,6 +24,16 @@ use rand::{thread_rng, Rng};
 //    }
 //}
 
-fn test2() {
-    thread_rng();
+//fn test2() {
+//    thread_rng();
+//}
+
+
+type WsServer = websocket::server::WsServer<
+    websocket::server::NoTlsAcceptor,
+    std::net::TcpListener,
+>;
+
+fn accept_one(mut server: WsServer) {
+    let request = server.accept().ok().unwrap();
 }

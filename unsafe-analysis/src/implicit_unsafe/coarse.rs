@@ -15,6 +15,7 @@ use get_fn_path;
 use implicit_unsafe::UnsafeBlocksVisitorData;
 use results::implicit::FnType;
 use fxhash::FxHashMap;
+use implicit_unsafe;
 
 #[derive(Debug)]
 enum Call {
@@ -181,7 +182,7 @@ pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, fns: &Vec<Node
                                 }
                             } else {
                                 // this case handled above
-                                true
+                                false
                             }
                         }) {
                         let fn_name = ::get_node_name(cx, *def_id);
@@ -241,33 +242,45 @@ impl<'a, 'tcx> Visitor<'tcx> for CallsVisitor<'a, 'tcx> {
             destination: _,
             cleanup: _,
         } = terminator.kind {
-            match func {
-                Operand::Constant(constant) =>
-                    if let TyKind::FnDef(callee_def_id, substs) = constant.literal.ty.sty {
+            match func.ty(&self.mir.local_decls, self.cx.tcx).sty {
+                TyKind::FnDef(callee_def_id, substs)  => {
+                    if implicit_unsafe::is_library_crate(&self.cx.tcx.crate_name(callee_def_id.krate).to_string()) {
+                        // do nothing
+                    } else {
                         let param_env = self.cx.tcx.param_env(self.fn_def_id);
                         if let Some(instance) = ty::Instance::resolve(self.cx.tcx, param_env, callee_def_id, substs) {
-
                             info!("func {:?} has type {:?}", func, instance);
 
                             match instance.def {
                                 ty::InstanceDef::Item(def_id)
                                 | ty::InstanceDef::Intrinsic(def_id)
-                                | ty::InstanceDef::CloneShim(def_id,_) => {
-                                    self.calls.push(Call::Static(def_id));
+                                | ty::InstanceDef::CloneShim(def_id, _) => {
+                                    if self.cx.tcx.is_closure(def_id) {
+                                        //do nothing
+                                        info!("closure {:?}", instance.def);
+                                    } else {
+                                        self.calls.push(Call::Static(def_id));
+                                    }
                                 }
                                 | ty::InstanceDef::Virtual(def_id, _) => {
                                     self.calls.push(Call::Dynamic);
                                 }
-                                _ => error!("ty::InstanceDef:: NOT handled {:?}", instance.def),
+                                _ => {
+                                    assert!(false, "ty::InstanceDef:: NOT handled {:?}", instance.def);
+                                },
                             }
                         } else {
                             info!("no type for func: {:?}", func);
                             self.uses_unresolved_calls = true;
                         }
                     }
-                _ => {
-                    info!("not Constant func: {:?}", func);
+                }
+                TyKind::FnPtr(ref poly_sig) => {
                     self.uses_fn_ptr = true;
+                }
+                _ => {
+                    error!("TyKind{:?}", func.ty(&self.mir.local_decls, self.cx.tcx).sty);
+                    assert!(false);
                 }
             }
         }

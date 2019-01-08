@@ -63,7 +63,7 @@ fn get_all_used_crates<'a, 'tcx>( cx: &'a LateContext<'a, 'tcx>, calls: &FxHashM
 }
 
 #[derive(Clone,Debug)]
-pub struct CrateInfo {
+struct CrateInfo {
     name: String,
     version: String,
 }
@@ -74,7 +74,7 @@ impl CrateInfo {
     }
 }
 
-pub fn load_dependencies(used_crates:HashSet<String>) -> FxHashMap<String,CrateInfo> {
+fn load_dependencies(used_crates:HashSet<String>) -> FxHashMap<String,CrateInfo> {
     let mut manifest_path = PathBuf::from(env::var("CARGO_MANIFEST_DIR").unwrap());
     manifest_path.push("Cargo.toml");
 
@@ -90,7 +90,10 @@ pub fn load_dependencies(used_crates:HashSet<String>) -> FxHashMap<String,CrateI
                         if let Ok((packages, _resolve)) = resolve_res {
                             for package_id in packages.package_ids() {
                                 if let Ok(package) = packages.get(package_id) {
-                                    let crate_name = package.name().to_string().replace("-", "_");
+
+                                    info!("Crate {:?} version {:?}", package.name(), package.version());
+
+                                    let crate_name = package.name().to_string();
                                     if let None = used_crates.get(&crate_name) {
                                         //info!("Crate not used {:?}", crate_name);
                                     } else {

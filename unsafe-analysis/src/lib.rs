@@ -127,19 +127,19 @@ impl<'a, 'tcx> LateLintPass<'a, 'tcx> for Functions {
 //        let mut file = file_ops.create_file (results::UNSAFE_CALLS);
 //        save_analysis(unsafe_calls, &mut file);
 //
-        let opt_impl_unsafe = implicit_unsafe::coarse::run_sources_analysis(cx,
-                                                                            &self.normal_functions,
-                                                                            true);
-        let mut file = file_ops.create_file (results::COARSE_RTA_OPTIMISTIC_FILENAME);
-        save_analysis(opt_impl_unsafe, &mut file);
-        drop(file);
-
-        let pes_impl_unsafe = implicit_unsafe::coarse::run_sources_analysis(cx,
-                                                                            &self.normal_functions,
-                                                                            false);
-        let mut file = file_ops.create_file (results::COARSE_RTA_PESSIMISTIC_FILENAME);
-        save_analysis(pes_impl_unsafe, &mut file);
-        drop(file);
+//        let opt_impl_unsafe = implicit_unsafe::coarse::run_sources_analysis(cx,
+//                                                                            &self.normal_functions,
+//                                                                            true);
+//        let mut file = file_ops.create_file (results::COARSE_RTA_OPTIMISTIC_FILENAME);
+//        save_analysis(opt_impl_unsafe, &mut file);
+//        drop(file);
+//
+//        let pes_impl_unsafe = implicit_unsafe::coarse::run_sources_analysis(cx,
+//                                                                            &self.normal_functions,
+//                                                                            false);
+//        let mut file = file_ops.create_file (results::COARSE_RTA_PESSIMISTIC_FILENAME);
+//        save_analysis(pes_impl_unsafe, &mut file);
+//        drop(file);
 
         let mut all_fn_ids = Vec::new();
         for fn_id in self.normal_functions.iter() {

@@ -6,7 +6,10 @@
 //extern crate rand;
 //extern crate call_graph;
 //extern crate sysinfo;
-extern crate rand;
+//extern crate rand;
+#![feature(extern_prelude)]
+extern crate websocket;
+
 
 //mod external_calls;
 //mod trait_type;
