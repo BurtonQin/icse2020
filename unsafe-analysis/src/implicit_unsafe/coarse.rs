@@ -29,7 +29,7 @@ pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, fns: &Vec<Node
     let mut with_unsafe = FxHashMap::default();
     let mut call_graph = FxHashMap::default();
     for &fn_id in fns {
-        let fn_def_id = cx.tcx.hir.local_def_id(fn_id);
+        let fn_def_id = cx.tcx.hir().local_def_id(fn_id);
 
         info!("Processing {:?}", ::get_node_name(cx,fn_def_id));
 
@@ -43,11 +43,11 @@ pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, fns: &Vec<Node
             } //ignore it
             hir::Unsafety::Normal => {
                 let mut body_visitor = UnsafeBlocksVisitorData {
-                    hir: &cx.tcx.hir,
+                    hir: &cx.tcx.hir(),
                     has_unsafe: false,
                 };
-                let body_id = cx.tcx.hir.body_owned_by(fn_id);
-                let body = cx.tcx.hir.body(body_id);
+                let body_id = cx.tcx.hir().body_owned_by(fn_id);
+                let body = cx.tcx.hir().body(body_id);
                 hir::intravisit::walk_body(&mut body_visitor, body);
                 if body_visitor.has_unsafe {
                     let mut info = UnsafeInBody::new(get_fn_path(cx,fn_def_id),
@@ -197,7 +197,7 @@ pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, fns: &Vec<Node
     }
 
     for &fn_id in fns.iter() {
-        let fn_def_id = cx.tcx.hir.local_def_id(fn_id);
+        let fn_def_id = cx.tcx.hir().local_def_id(fn_id);
         if let Some(elt) = with_unsafe.get(&fn_def_id) {
             let mut ub = UnsafeInBody::new(elt.def_path.clone(), elt.fn_type.clone(),
                                            ::get_node_name(cx,fn_def_id));
@@ -241,6 +241,7 @@ impl<'a, 'tcx> Visitor<'tcx> for CallsVisitor<'a, 'tcx> {
             args: _,
             destination: _,
             cleanup: _,
+            from_hir_call: _,
         } = terminator.kind {
             match func.ty(&self.mir.local_decls, self.cx.tcx).sty {
                 TyKind::FnDef(callee_def_id, substs)  => {

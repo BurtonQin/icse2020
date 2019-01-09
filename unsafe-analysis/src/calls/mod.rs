@@ -63,7 +63,7 @@ impl<'a, 'tcx> UnsafeCallsVisitor<'a, 'tcx> {
             }
             Safety::FnUnsafe => true,
             Safety::ExplicitUnsafe(node_id) => {
-                let node = self.cx.tcx.hir.get(node_id);
+                let node = self.cx.tcx.hir().get(node_id);
                 if let hir::Node::Block(block) = node {
                     match block.rules {
                         hir::BlockCheckMode::DefaultBlock => {
@@ -145,6 +145,7 @@ impl<'a, 'tcx> Visitor<'tcx> for UnsafeCallsVisitor<'a, 'tcx> {
             args: _,
             destination: _,
             cleanup: _,
+            from_hir_call: _,
         } = terminator.kind {
                 match func.ty(&self.mir.local_decls, self.cx.tcx).sty {
                     TyKind::FnDef(callee_def_id, substs) => {

@@ -5,17 +5,17 @@ library(plyr)
 library(Hmisc)
 library(scales)
 
-cdf_filename <- "~/work/unsafe_study/paper/rq02_all_cdf.eps"
+cdf_filename <- "~/work/unsafe-analysis-data/paper/rq02_servo_all_cdf.eps"
 
 # TODO change this to precise
-res <- read.table( file="~/unsafe_analysis/analysis-data/research-questions/rq07_opt"
+res <- read.table( file="~/unsafe_analysis/analysis-data/research-questions-servo-all/rq07_opt"
                    , header=FALSE
                    , sep='\t'
                    , comment.char = "#"
                    , col.names=c("crate", "no"))
 
 # TODO change this to precise
-res1 <- read.table( file="~/unsafe_analysis/analysis-data/research-questions/rq07_pes"
+res1 <- read.table( file="~/unsafe_analysis/analysis-data/research-questions-servo-all/rq07_pes"
                     , header=FALSE
                     , sep='\t'
                     , comment.char = "#"
@@ -68,10 +68,10 @@ ggplot() +
 ggsave(cdf_filename, plot = last_plot(), device = "eps")
 
 options(digits = 4)
-write(y1*100,file="~/work/unsafe_study/paper/safe_lower.txt")
-write(y0*100,file="~/work/unsafe_study/paper/safe_upper.txt")
+write(y1*100,file="~/work/unsafe-analysis-data/paper/servo_safe_lower.txt")
+write(y0*100,file="~/work/unsafe-analysis-data/paper/servo_safe_upper.txt")
 
 opt_max <- max(res$no)
-write(opt_max,file="~/work/unsafe_study/paper/opt_max.txt")
+write(opt_max,file="~/work/unsafe-analysis-data/paper/servo_opt_max.txt")
 cons_max <- max(res1$no)
-write(cons_max,file="~/work/unsafe_study/paper/cons_max.txt")
+write(cons_max,file="~/work/unsafe-analysis-data/paper/servo_cons_max.txt")

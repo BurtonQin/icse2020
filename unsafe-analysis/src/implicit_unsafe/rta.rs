@@ -78,7 +78,7 @@ pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>
 
     // build call graph
     for &fn_id in fns { // TODO change to
-        let fn_def_id = cx.tcx.hir.local_def_id(fn_id);
+        let fn_def_id = cx.tcx.hir().local_def_id(fn_id);
         match cx.tcx.fn_sig(fn_def_id).unsafety() {
             hir::Unsafety::Unsafe => {
                 // call graph not needed for unsafe functions
@@ -307,12 +307,12 @@ pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>
 
 fn has_unsafe_block<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, fn_id: DefId) -> bool {
     let mut body_visitor = UnsafeBlocksVisitorData {
-        hir: &cx.tcx.hir,
+        hir: &cx.tcx.hir(),
         has_unsafe: false,
     };
-    if let Some (fn_node_id) = cx.tcx.hir.as_local_node_id(fn_id) {
-        let body_id = cx.tcx.hir.body_owned_by(fn_node_id);
-        let body = cx.tcx.hir.body(body_id);
+    if let Some (fn_node_id) = cx.tcx.hir().as_local_node_id(fn_id) {
+        let body_id = cx.tcx.hir().body_owned_by(fn_node_id);
+        let body = cx.tcx.hir().body(body_id);
         hir::intravisit::walk_body(&mut body_visitor, body);
         body_visitor.has_unsafe
     } else {
@@ -574,7 +574,7 @@ impl<'a, 'b, 'tcx:'a+'b> Visitor<'tcx> for CallsVisitor<'a,'b,'tcx> {
 
 
     fn visit_terminator( &mut self, _: BasicBlock, terminator: &Terminator<'tcx>, _: Location, ) {
-        if let TerminatorKind::Call {ref func, args: _, destination: _, cleanup: _} = terminator.kind {
+        if let TerminatorKind::Call {ref func, args: _, destination: _, cleanup: _, from_hir_call: _,} = terminator.kind {
             if !self.with_unsafe.contains(self.fn_ctx) {
                 let mut not_safe = false;
                 let mut unresolved_type = false;

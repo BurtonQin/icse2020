@@ -5,19 +5,19 @@ library(plyr)
 library(Hmisc)
 library(scales)
 
-res <- read.table( file="~/unsafe_analysis/analysis-data/research-questions/rq02"
+res <- read.table( file="~/unsafe_analysis/analysis-data/research-questions-servo-all/rq02"
                    , header=FALSE
                    , sep='\t'
                    , comment.char = "#"
                    , col.names=c("functions", "name"))
-res90 <- read.table( file="~/unsafe_analysis/analysis-data/research-questions-90-percent/rq02"
+res90 <- read.table( file="~/unsafe_analysis/analysis-data/research-questions-servo-only/rq02"
                    , header=FALSE
                    , sep='\t'
                    , comment.char = "#"
                    , col.names=c("functions", "name"))
 
-cdf_filename <- "~/work/unsafe-analysis-data/paper/rq01_functions_cdf.eps"
-base_filename <- "~/work/unsafe-analysis-data/paper/rq01_functions_"
+cdf_filename <- "~/work/unsafe-analysis-data/paper/rq01_servo_functions_cdf.eps"
+base_filename <- "~/work/unsafe-analysis-data/paper/rq01_servo_functions_"
 
 summary <- quantile(res$functions, c(.90,.95,.99))
 write(summary[1],file=paste0(base_filename,"90",".txt"))
@@ -34,7 +34,7 @@ none90 <- min(ggdata90$ecdf)
 min_y <- min(none,none90)
 first_y <- ceiling(min_y*10)/10
 
-x_max <- summary["99%"]
+x_max <- summary["95%"]
 
 ggplot() +
   geom_point(data=ggdata, aes(x=value, y=ecdf)) +

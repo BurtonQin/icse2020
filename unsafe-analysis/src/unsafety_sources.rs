@@ -1,6 +1,6 @@
 use rustc::hir;
 use rustc::lint::LateContext;
-use rustc::mir::visit::{PlaceContext, Visitor};
+use rustc::mir::visit::{PlaceContext, Visitor, MutatingUseContext};
 use rustc::mir::{
     AggregateKind, BasicBlock, ClearCrossCrate, Location, Mir, Place, Projection,
     ProjectionElem, Rvalue, Safety, SourceInfo, SourceScope, SourceScopeLocalData, Statement,
@@ -46,7 +46,7 @@ impl<'a, 'tcx> UnsafetySourcesVisitor<'a, 'tcx> {
         match mir.source_scope_local_data {
             ClearCrossCrate::Set(ref local_data) => Some(UnsafetySourcesVisitor {
                 cx,
-                fn_node_id: cx.tcx.hir.def_index_to_node_id(fn_def_id.index),
+                fn_node_id: cx.tcx.hir().def_index_to_node_id(fn_def_id.index),
                 mir,
                 data,
                 param_env: cx.tcx.param_env(fn_def_id),
@@ -73,7 +73,7 @@ impl<'a, 'tcx> UnsafetySourcesVisitor<'a, 'tcx> {
             Safety::BuiltinUnsafe => { false } // TODO check this
             Safety::FnUnsafe => { true },
             Safety::ExplicitUnsafe(node_id) => {
-                let node = self.cx.tcx.hir.get(node_id);
+                let node = self.cx.tcx.hir().get(node_id);
                 if let hir::Node::Block(block) = node {
                     match block.rules {
                         hir::BlockCheckMode::DefaultBlock => {
@@ -219,7 +219,7 @@ impl<'a, 'tcx> Visitor<'tcx> for UnsafetySourcesVisitor<'a, 'tcx> {
         context: PlaceContext<'tcx>,
         location: Location,
     ) {
-        if let PlaceContext::Borrow { .. } = context {
+        if context.is_borrow() {
             if rustc_mir::util::is_disaligned(self.cx.tcx, self.mir, self.param_env, place) {
                 let source_info = self.source_info;
                     self.add_unsafety_source(
@@ -228,7 +228,6 @@ impl<'a, 'tcx> Visitor<'tcx> for UnsafetySourcesVisitor<'a, 'tcx> {
                     );
             }
         }
-
         match place {
             &Place::Projection(box Projection { ref base, ref elem }) => {
                 let old_source_info = self.source_info;
@@ -242,18 +241,20 @@ impl<'a, 'tcx> Visitor<'tcx> for UnsafetySourcesVisitor<'a, 'tcx> {
                 }
                 let base_ty = base.ty(self.mir, self.cx.tcx).to_ty(self.cx.tcx);
                 match base_ty.sty {
-                    ty::TyKind::RawPtr(..) => {
+                    ty::RawPtr(..) => {
                         let source_info = self.source_info;
                         self.add_unsafety_source(
                                 SourceKind::DerefRawPointer,
                                 source_info,
                             );
                     }
-                    ty::TyKind::Adt(adt, _) => {
+                    ty::Adt(adt, _) => {
                         if adt.is_union() {
-                            if context == PlaceContext::Store
-                                || context == PlaceContext::AsmOutput
-                                || context == PlaceContext::Drop
+                            if context == PlaceContext::MutatingUse(MutatingUseContext::Store) ||
+                                context == PlaceContext::MutatingUse(MutatingUseContext::Drop) ||
+                                context == PlaceContext::MutatingUse(
+                                    MutatingUseContext::AsmOutput
+                                )
                                 {
                                     let elem_ty = match elem {
                                         &ProjectionElem::Field(_, ty) => ty,
@@ -263,7 +264,7 @@ impl<'a, 'tcx> Visitor<'tcx> for UnsafetySourcesVisitor<'a, 'tcx> {
                                         place
                                     ),
                                     };
-                                    if elem_ty.moves_by_default(
+                                    if !elem_ty.is_copy_modulo_regions(
                                         self.cx.tcx,
                                         self.param_env,
                                         self.source_info.span,

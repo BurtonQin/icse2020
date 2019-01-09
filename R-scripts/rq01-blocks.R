@@ -8,12 +8,12 @@ library(scales)
 ## do not try to use stat_ecf again
 
 output_dir <- "~/work/unsafe-analysis-data/paper/"
-res <- read.table( file="~/unsafe_analysis/analysis-data/research-questions/rq01"
+res <- read.table( file="~/unsafe_analysis/analysis-data/research-questions-servo-all/rq01"
                    , header=FALSE
                    , sep='\t'
                    , comment.char = "#"
                    , col.names=c("blocks", "user", "total", "name"))
-res90 <- read.table( file="~/unsafe_analysis/analysis-data/research-questions-90-percent/rq01"
+res90 <- read.table( file="~/unsafe_analysis/analysis-data/research-questions-servo-only/rq01"
                      , header=FALSE
                      , sep='\t'
                      , comment.char = "#"
@@ -33,6 +33,7 @@ min_y <- min( none, none90)
 first_y <- ceiling(min_y*10)/10
 
 x_max <- summary["99.5%"]
+#x_max <- max(blocks)
 
 
 ggplot() +
@@ -62,10 +63,10 @@ ggplot() +
                                       colour = "white")
     ) 
 
-ggsave(file.path(output_dir,"rq01_blocks_cdf.eps"), plot = last_plot(), device = "eps")
+ggsave(file.path(output_dir,"rq01_servo_blocks_cdf.eps"), plot = last_plot(), device = "eps")
 
 summary <- quantile(res$blocks, c(.90,.95,.995))
-base_filename <- paste0(output_dir, "rq01_blocks_")
+base_filename <- paste0(output_dir, "rq01_servo_blocks_")
 p90 <- paste0(base_filename,"90",".txt")
 write(format(summary["90%"], big.mark=","),file=p90)
 p95 <- paste0(base_filename,"95",".txt")

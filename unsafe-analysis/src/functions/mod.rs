@@ -21,7 +21,7 @@ pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, fns: &Vec<Node
     let mut no_reason = Vec::new();
 
     for &fn_id in fns {
-        let fn_def_id = cx.tcx.hir.local_def_id(fn_id);
+        let fn_def_id = cx.tcx.hir().local_def_id(fn_id);
         let mut data = process_fn_decl(cx, fn_id);
         let mir = &mut cx.tcx.optimized_mir(fn_def_id);
         let mut success = false;
@@ -42,7 +42,7 @@ pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, fns: &Vec<Node
 fn build_short_fn_info<'a, 'tcx>( cx: &LateContext<'a, 'tcx>, decl_id: NodeId) -> results::functions::ShortFnInfo {
     let name = cx.tcx.node_path_str(decl_id);
     let node_id = decl_id.to_string();
-    let span = cx.tcx.hir.span(decl_id);
+    let span = cx.tcx.hir().span(decl_id);
     let location = ::get_file_and_line(cx, span);
     results::functions::ShortFnInfo::new(name, node_id, location)
 }
@@ -51,7 +51,7 @@ fn build_short_fn_info<'a, 'tcx>( cx: &LateContext<'a, 'tcx>, decl_id: NodeId) -
 fn process_fn_decl<'a, 'tcx>( cx: &LateContext<'a, 'tcx>, decl_id: NodeId) -> UnsafeFnUsafetySources {
     let from_trait = is_unsafe_method(decl_id, cx);
     let mut res = UnsafeFnUsafetySources::new(cx.tcx.node_path_str(decl_id), from_trait);
-    if let Some(fn_decl) = cx.tcx.hir.fn_decl(decl_id) {
+    if let Some(fn_decl) = cx.tcx.hir().fn_decl(decl_id) {
         for input in fn_decl.inputs {
             if let Some(reason) = process_type(cx, &input) {
                 //TODO record some information about the argument
@@ -65,7 +65,7 @@ fn process_fn_decl<'a, 'tcx>( cx: &LateContext<'a, 'tcx>, decl_id: NodeId) -> Un
 }
 
 fn is_unsafe_method<'a, 'tcx>(node_id: NodeId, cx: &LateContext<'a, 'tcx>) -> bool {
-    let node = cx.tcx.hir.get(node_id);
+    let node = cx.tcx.hir().get(node_id);
     match node {
         hir::Node::ImplItem(ref impl_item) => {
             if let ::hir::ImplItemKind::Method(ref method_sig, ..) = impl_item.node {
@@ -127,7 +127,7 @@ fn process_type<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, ty: &hir::Ty) -> Option<Ar
 
         hir::TyKind::TraitObject(ref _poly_ref, _) => None, //TODO
 
-        hir::TyKind::Never | hir::TyKind::Typeof(_) | hir::TyKind::Infer | hir::TyKind::Err => None,
+        hir::TyKind::Never | hir::TyKind::Typeof(_) | hir::TyKind::Infer | hir::TyKind::Err | hir::TyKind::Def(..)=> None,
     }
 }
 

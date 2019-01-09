@@ -5,22 +5,13 @@ library(plyr)
 library(scales)
 library(xtable)
 
-# library(ggplot2)
-# library(Hmisc)
-# library(dplyr)
-# library(scales)
-# library(data.table)
-# library(DescTools)
-
-p <- pipe(paste0('sed \'s/"\'"/"`"/g\' "', "~/unsafe_analysis/analysis-data/research-questions/rq06", '"'))
-
-res <- read.table( file="~/unsafe_analysis/analysis-data/research-questions/rq06"
+res <- read.table( file="~/unsafe_analysis/analysis-data/research-questions-servo-all/rq06"
                    , header=FALSE
                    , sep='\t'
                    , comment.char = "#"
                    , quote="\\"
                    , col.names=c("abi", "crate", "full_path", "name", "user"))
-res90 <- read.table( file="~/unsafe_analysis/analysis-data/research-questions-90-percent/rq06"
+res90 <- read.table( file="~/unsafe_analysis/analysis-data/research-questions-servo-only/rq06"
                    , header=FALSE
                    , sep='\t'
                    , comment.char = "#"
@@ -29,11 +20,11 @@ res90 <- read.table( file="~/unsafe_analysis/analysis-data/research-questions-90
 
 res_aggregate <- count(res, c("abi"))
 res_aggregate$freq <- res_aggregate$freq / nrow(res) 
-res_aggregate$type <- "All"
+res_aggregate$type <- "All Dependencies"
 
 res90_aggregate <- count(res90, c("abi"))
 res90_aggregate$freq <- res90_aggregate$freq / nrow(res90) 
-res90_aggregate$type <- "Most Downloaded"
+res90_aggregate$type <- "Servo Crates"
 
 exclude <- (subset(res_aggregate, freq < 0.001))[,"abi"]
 res_aggregate <- subset( res_aggregate, !is.element(abi,exclude) )
@@ -50,24 +41,16 @@ ggplot(total_frame, aes(x = abi, y = freq, group = interaction(type,abi), fill =
     axis.text.x=element_text(angle=45, hjust=1),
     axis.text.y = element_blank()
   ) +
-  labs(title="Called Unsafe Function ABI") +
+  labs(title="Called Unsafe Functions ABI in Servo") +
   labs(x="ABI", y="Percentage") +
   scale_fill_grey()
 
-ggsave("~/work/unsafe-analysis-data/paper/rq04_all.eps", plot = last_plot(), device = "eps")
+ggsave("~/work/unsafe-analysis-data/paper/rq04_servo_all.eps", plot = last_plot(), device = "eps")
 
 for (i in 1:nrow(total_frame)) {
-  fn <- paste0("~/work/unsafe-analysis-data/paper/rq04_all_",
+  fn <- paste0("~/work/unsafe-analysis-data/paper/rq04_servo_all_",
                total_frame$type[i], "_",
                total_frame$abi[i], 
-               ".txt")
-  write(percent(total_frame$freq[i]),fn,append=FALSE)
-}
-
-for (i in 1:nrow(total_frame)) {
-  fn <- paste0("~/work/unsafe-analysis-data/paper/rq04_user_",
-               total_frame$type[i], "_",
-               total_frame$source[i], 
                ".txt")
   write(percent(total_frame$freq[i]),fn,append=FALSE)
 }
@@ -79,12 +62,12 @@ user_only90 <- res90[which(res90$user=="true"),]
 
 user_aggregate <- count(user_only, c("abi"))
 user_aggregate$freq <- user_aggregate$freq / nrow(user_only) 
-user_aggregate$type <- "All"
+user_aggregate$type <- "All Dependencies"
 
 
 user90_aggregate <- count(user_only90, c("abi"))
 user90_aggregate$freq <- user90_aggregate$freq / nrow(user_only90) 
-user90_aggregate$type <- "Most Downloaded"
+user90_aggregate$type <- "Servo Crates"
 
 exclude <- (subset(user_aggregate, freq < 0.001))[,"abi"]
 user_aggregate <- subset( user_aggregate, !is.element(abi,exclude) )
@@ -101,60 +84,9 @@ ggplot(total_frame, aes(x = abi, y = freq, group = interaction(type,abi), fill =
     axis.text.x=element_text(angle=45, hjust=1),
     axis.text.y = element_blank()
   ) +
-  labs(title="Unsafe Rust in Blocks (User Introduced Unsafe Only)") +
+  labs(title="Called Unsafe Functions ABI in Servo (User Introduced Unsafe Only)") +
   labs(x="Unsafe Rust Operations", y="Percentage") +
   scale_fill_grey()
 
-ggsave("~/work/unsafe-analysis-data/paper/rq03_blocks_user.eps", plot = last_plot(), device = "eps")
+ggsave("~/work/unsafe-analysis-data/paper/rq04_servo_user.eps", plot = last_plot(), device = "eps")
 
-## top intrinsics
-intrinsics_aggregate <- count((subset(res, abi == "RustIntrinsic"))[,"name"])
-intrinsics_aggregate$freq <- intrinsics_aggregate$freq / length((subset(res, abi == "RustIntrinsic"))[,"name"])
-
-top5 <- (intrinsics_aggregate[order(intrinsics_aggregate$freq, decreasing = TRUE),])[1:5,]
-colnames(top5) <- c("Function", "Percentage")
-
-filename <- "~/work/unsafe-analysis-data/paper/rq04_intrinsics_table.txt" 
-xx <- xtable(top5,caption = "Top intrinsics calls", label="tbl:allintrinsics", filename=filename)
-print(xx,file=filename)
-
-#user only
-intrinsics_aggregate <- count((subset(res, abi == "RustIntrinsic" && user == TRUE))[,"name"])
-intrinsics_aggregate$freq <- intrinsics_aggregate$freq / length((subset(res, abi == "RustIntrinsic" && user == TRUE))[,"name"])
-
-top5 <- (intrinsics_aggregate[order(intrinsics_aggregate$freq, decreasing = TRUE),])[1:5,]
-colnames(top5) <- c("Function", "Percentage")
-
-filename <- "~/work/unsafe-analysis-data/paper/rq04_intrinsics_user_table.txt" 
-xx <- xtable(top5,caption = "Top intrinsics calls", label="tbl:allintrinsics-user", filename=filename)
-print(xx,file=filename)
-
-
-##################### old stuff
-
-
-
-
-core <- subset( rust, rust$crate == "core" )
-core_sum <- nrow(core)  
-core_percentage <- core_sum/all_rust * 100
-filename <- "~/work/unsafe-analysis-data/paper/rq06_core_per.txt" 
-write(formatC(core_percentage,digits = 1, format = "f"), file=filename)
-
-std <- subset( rust, rust$crate == "std" )
-std_sum <- nrow(std)
-std_percentage <- std_sum/all_rust * 100
-filename <- "~/work/unsafe_study/paper/rq06_std_per.txt" 
-write(formatC(std_percentage,digits = 1, format = "f"), file=filename)
-
-alloc <-  subset( rust, rust$crate == "alloc" )
-alloc_sum <- nrow(alloc)
-alloc_percentage <- alloc_sum/all_rust
-filename <- "~/work/unsafe_study/paper/rq06_alloc_per.txt" 
-write(formatC(alloc_percentage,digits = 1, format = "f"), file=filename)
-
-
-unsafe_fn_ptr <- subset(rust, rust$name == "Unsafe_Call_Fn_Ptr")
-unsafe_fn_ptr_percentage <- nrow(unsafe_fn_ptr) / all_rust
-filename <- "~/work/unsafe_study/paper/rq06_unsafe_ptr_per.txt" 
-write(formatC(unsafe_fn_ptr_percentage,digits = 1, format = "f"), file=filename)

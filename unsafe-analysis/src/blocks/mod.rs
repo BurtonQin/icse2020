@@ -15,8 +15,8 @@ use results::blocks::BlockUnsafetySource;
 //////////////////// Summary
 
 pub fn run_summary_analysis<'a, 'tcx>(cx: &'a LateContext<'a, 'tcx>) -> BlockSummary  {
-    let mut visitor = BlockVisitor::new(&cx.tcx.hir);
-    rustc::hir::intravisit::walk_crate(&mut visitor, cx.tcx.hir.krate());
+    let mut visitor = BlockVisitor::new(&cx.tcx.hir());
+    rustc::hir::intravisit::walk_crate(&mut visitor, cx.tcx.hir().krate());
     BlockSummary::new( visitor.user_unsafe_blocks, visitor.unsafe_blocks,visitor.total_blocks)
 }
 
@@ -112,7 +112,7 @@ pub fn run_unsafety_sources_analysis<'a, 'tcx>(cx: &'a LateContext<'a, 'tcx>, fn
     let mut res =Vec::new();
     for &node_id in fns {
         let mut sources= BlockUnsafetySourcesAnalysis::new();
-        let fn_def_id = cx.tcx.hir.local_def_id(node_id);
+        let fn_def_id = cx.tcx.hir().local_def_id(node_id);
         // closures are handled by their parent fn.
         if !cx.tcx.is_closure(fn_def_id) {
             let mir = &mut cx.tcx.optimized_mir(fn_def_id);

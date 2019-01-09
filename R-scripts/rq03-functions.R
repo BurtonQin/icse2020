@@ -4,13 +4,13 @@ library(Hmisc)
 library(plyr)
 library('scales')
 
-res <- read.table( file="~/unsafe_analysis/analysis-data/research-questions/rq05"
+res <- read.table( file="~/unsafe_analysis/analysis-data/research-questions-servo-all/rq05"
                    , header=FALSE
                    , sep=','
                    , comment.char = "#"
                    , col.names=c("source", "user","crate"))
 
-res90 <- read.table( file="~/unsafe_analysis/analysis-data/research-questions-90-percent/rq05"
+res90 <- read.table( file="~/unsafe_analysis/analysis-data/research-questions-servo-only/rq05"
                    , header=FALSE
                    , sep=','
                    , comment.char = "#"
@@ -18,11 +18,11 @@ res90 <- read.table( file="~/unsafe_analysis/analysis-data/research-questions-90
 
 res_aggregate <- count(res, c("source"))
 res_aggregate$freq <- res_aggregate$freq / nrow(res) 
-res_aggregate$type <- "All"
+res_aggregate$type <- "All Dependencies"
 
 res90_aggregate <- count(res90, c("source"))
 res90_aggregate$freq <- res90_aggregate$freq / nrow(res90) 
-res90_aggregate$type <- "Most Downloaded"
+res90_aggregate$type <- "Servo Crates"
 
 # too_small <- (subset(res_aggregate, freq < 0.001))[,"source"]
 # too_small90 <- (subset(res90_aggregate, freq < 0.001))[,"source"]
@@ -47,10 +47,10 @@ ggplot(total_frame, aes(x = source, y = freq, group = interaction(type,source), 
   labs(x="Unsafe Rust Operations", y="Percentage") +
   scale_fill_grey()
 
-ggsave("~/work/unsafe-analysis-data/paper/rq03_functions_all.eps", plot = last_plot(), device = "eps")
+ggsave("~/work/unsafe-analysis-data/paper/rq03_servo_functions_all.eps", plot = last_plot(), device = "eps")
 
 for (i in 1:nrow(total_frame)) {
-  fn <- paste0("~/work/unsafe-analysis-data/paper/rq03_functions_all_",
+  fn <- paste0("~/work/unsafe-analysis-data/paper/rq03_servo_functions_all_",
                total_frame$type[i], "_",
                total_frame$source[i], 
                ".txt")
@@ -64,11 +64,11 @@ user_only90 <- res90[which(res90$user=="true"),]
 
 user_aggregate <- count(user_only, c("source"))
 user_aggregate$freq <- user_aggregate$freq / nrow(user_only) 
-user_aggregate$type <- "All"
+user_aggregate$type <- "All Dependencies"
 
 user90_aggregate <- count(user_only90, c("source"))
 user90_aggregate$freq <- user90_aggregate$freq / nrow(user_only90) 
-user90_aggregate$type <- "Most Downloaded"
+user90_aggregate$type <- "Servo Crates"
 
 exclude <- (subset(user_aggregate, freq < 0.001))[,"source"]
 user_aggregate <- subset( user_aggregate, !is.element(source,exclude) )
@@ -89,10 +89,10 @@ ggplot(total_frame, aes(x = source, y = freq, group = interaction(type,source), 
   labs(x="Unsafe Rust Operations", y="Percentage") +
   scale_fill_grey()
 
-ggsave("~/work/unsafe-analysis-data/paper/rq03_functions_user.eps", plot = last_plot(), device = "eps")
+ggsave("~/work/unsafe-analysis-data/paper/rq03_servo_functions_user.eps", plot = last_plot(), device = "eps")
 
 for (i in 1:nrow(total_frame)) {
-  fn <- paste0("~/work/unsafe-analysis-data/paper/rq03_functions_user_",
+  fn <- paste0("~/work/unsafe-analysis-data/paper/rq03_servo_functions_user_",
                total_frame$type[i], "_",
                total_frame$source[i], 
                ".txt")
