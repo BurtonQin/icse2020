@@ -5,14 +5,7 @@ library(plyr)
 library(scales)
 library(xtable)
 
-# library(ggplot2)
-# library(Hmisc)
-# library(dplyr)
-# library(scales)
-# library(data.table)
-# library(DescTools)
-
-p <- pipe(paste0('sed \'s/"\'"/"`"/g\' "', "~/unsafe_analysis/analysis-data/research-questions/rq06", '"'))
+#p <- pipe(paste0('sed \'s/"\'"/"`"/g\' "', "~/unsafe_analysis/analysis-data/research-questions/rq06", '"'))
 
 res <- read.table( file="~/unsafe_analysis/analysis-data/research-questions/rq06"
                    , header=FALSE
@@ -48,7 +41,14 @@ ggplot(total_frame, aes(x = abi, y = freq, group = interaction(type,abi), fill =
   theme (
     legend.title = element_blank(),
     axis.text.x=element_text(angle=45, hjust=1),
-    axis.text.y = element_blank()
+    axis.text.y = element_blank(),
+    panel.background = element_rect(fill = "white",
+                                    colour = "white",
+                                    size = 0.5, linetype = "solid"),
+    panel.grid.major = element_line(size = 0.5, linetype = 'solid',
+                                    colour = "grey"), 
+    panel.grid.minor = element_line(size = 0.25, linetype = 'solid',
+                                    colour = "white")
   ) +
   labs(title="Called Unsafe Function ABI") +
   labs(x="ABI", y="Percentage") +
@@ -129,32 +129,3 @@ filename <- "~/work/unsafe-analysis-data/paper/rq04_intrinsics_user_table.txt"
 xx <- xtable(top5,caption = "Top intrinsics calls", label="tbl:allintrinsics-user", filename=filename)
 print(xx,file=filename)
 
-
-##################### old stuff
-
-
-
-
-core <- subset( rust, rust$crate == "core" )
-core_sum <- nrow(core)  
-core_percentage <- core_sum/all_rust * 100
-filename <- "~/work/unsafe-analysis-data/paper/rq06_core_per.txt" 
-write(formatC(core_percentage,digits = 1, format = "f"), file=filename)
-
-std <- subset( rust, rust$crate == "std" )
-std_sum <- nrow(std)
-std_percentage <- std_sum/all_rust * 100
-filename <- "~/work/unsafe_study/paper/rq06_std_per.txt" 
-write(formatC(std_percentage,digits = 1, format = "f"), file=filename)
-
-alloc <-  subset( rust, rust$crate == "alloc" )
-alloc_sum <- nrow(alloc)
-alloc_percentage <- alloc_sum/all_rust
-filename <- "~/work/unsafe_study/paper/rq06_alloc_per.txt" 
-write(formatC(alloc_percentage,digits = 1, format = "f"), file=filename)
-
-
-unsafe_fn_ptr <- subset(rust, rust$name == "Unsafe_Call_Fn_Ptr")
-unsafe_fn_ptr_percentage <- nrow(unsafe_fn_ptr) / all_rust
-filename <- "~/work/unsafe_study/paper/rq06_unsafe_ptr_per.txt" 
-write(formatC(unsafe_fn_ptr_percentage,digits = 1, format = "f"), file=filename)

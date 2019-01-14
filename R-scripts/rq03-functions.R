@@ -41,7 +41,14 @@ ggplot(total_frame, aes(x = source, y = freq, group = interaction(type,source), 
   theme (
     legend.title = element_blank(),
     axis.text.x=element_text(angle=45, hjust=1),
-    axis.text.y = element_blank()
+    axis.text.y = element_blank(),
+    panel.background = element_rect(fill = "white",
+                                    colour = "white",
+                                    size = 0.5, linetype = "solid"),
+    panel.grid.major = element_line(size = 0.5, linetype = 'solid',
+                                    colour = "grey"), 
+    panel.grid.minor = element_line(size = 0.25, linetype = 'solid',
+                                    colour = "white")
   ) +
   labs(title="Unsafe Rust in Declared Unsafe Functions") +
   labs(x="Unsafe Rust Operations", y="Percentage") +
@@ -83,7 +90,14 @@ ggplot(total_frame, aes(x = source, y = freq, group = interaction(type,source), 
   theme (
     legend.title = element_blank(),
     axis.text.x=element_text(angle=45, hjust=1),
-    axis.text.y = element_blank()
+    axis.text.y = element_blank(),
+    panel.background = element_rect(fill = "white",
+                                    colour = "white",
+                                    size = 0.5, linetype = "solid"),
+    panel.grid.major = element_line(size = 0.5, linetype = 'solid',
+                                    colour = "grey"), 
+    panel.grid.minor = element_line(size = 0.25, linetype = 'solid',
+                                    colour = "white")
   ) +
   labs(title="Unsafe Rust in Declared Unsafe Functions (User Introduced Unsafe Only)") +
   labs(x="Unsafe Rust Operations", y="Percentage") +
