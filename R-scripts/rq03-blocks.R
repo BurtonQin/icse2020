@@ -4,7 +4,7 @@ library(Hmisc)
 library(plyr)
 library(scales)
 
-# Both compiler generates and user introduced unsafe
+# Both compiler generated and user introduced unsafe
 res <- read.table( file="~/unsafe_analysis/analysis-data/research-questions/rq04"
                    , header=FALSE
                    , sep=','
