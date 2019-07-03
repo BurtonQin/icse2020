@@ -44,6 +44,7 @@ then
 	 		echo "Query failed for crate: $crate"
 		fi
 		echo "" >> crates.io
+		sleep 2
 	done
 	grep -v "\"detail\":\"Not Found\"" crates.io >> crates.io-fixed
 fi
