@@ -1,0 +1,24 @@
+[package]
+name = "unsafe_analysis"
+version = "0.1.0"
+authors = ["Ana Nora Evans <ananevans@gmail.com>"]
+
+[lib]
+name = "unsafe_analysis"
+path = "src/lib.rs"
+plugin = true
+
+cargo-features = ["rename-dependency"]
+
+[dependencies]
+chrono = "0.4.7"
+cargo_metadata = "0.8.0"
+cargo = "0.36.0"
+fxhash = "0.2.1"
+
+
+serde = "1.0.94"
+serde_derive = "1.0.94"
+serde_json = "1.0.40"
+
+results = { path = "../results" }

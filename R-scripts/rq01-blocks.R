@@ -1,7 +1,7 @@
 #!/usr/bin/env Rscript
+library(plyr)
 library(ggplot2)
 library(reshape2)
-library(plyr)
 library(Hmisc)
 library(scales)
 
@@ -40,7 +40,6 @@ ggplot() +
     geom_point(data=ggdata_90, aes(x=value, y=ecdf), color='grey60')+
     xlab("Unsafe Blocks") +
     ylab("Percent of Crates") +
-    labs(title="Cumulative Distribution of Unsafe Blocks") +
     scale_x_continuous(
       breaks=c(seq(0,x_max-50,50),x_max)
       , limits = c(0,x_max+1)
@@ -52,6 +51,7 @@ ggplot() +
       ,labels = percent
     ) +
     theme(
+      text = element_text(size=25),
       axis.text.x=element_text(angle=90, hjust=1),
       panel.background = element_rect(fill = "white",
                                       colour = "white",

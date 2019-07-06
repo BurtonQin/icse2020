@@ -40,6 +40,8 @@ ggplot(total_frame, aes(x = abi, y = freq, group = interaction(type,abi), fill =
   geom_text(aes(label=scales::percent(freq, scale = 100)), position=position_dodge(width=0.9), vjust=-0.25) + 
   theme (
     legend.title = element_blank(),
+    legend.position="top",
+    text = element_text(size=25),
     axis.text.x=element_text(angle=45, hjust=1),
     axis.text.y = element_blank(),
     panel.background = element_rect(fill = "white",
@@ -50,8 +52,7 @@ ggplot(total_frame, aes(x = abi, y = freq, group = interaction(type,abi), fill =
     panel.grid.minor = element_line(size = 0.25, linetype = 'solid',
                                     colour = "white")
   ) +
-  labs(title="Called Unsafe Function ABI") +
-  labs(x="ABI", y="Percentage") +
+  labs(x="Abstract Binary Interface", y="Percentage") +
   scale_fill_grey()
 
 ggsave("~/work/unsafe-analysis-data/paper/rq04_all.eps", plot = last_plot(), device = "eps")

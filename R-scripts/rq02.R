@@ -43,13 +43,13 @@ ggplot() +
   geom_line(data=ggdata2, aes(x=value, y=ecdf), shape=20)+
   xlab("Possibly Unsafe Functions") +
   ylab("Percent of Crates") +
-  labs(title="Cumulative Distribution of Possibly Unsafe Functions") +
   scale_x_continuous(
     breaks=c(seq(0,x_max-10,10),x_max)
     , limits = c(0,x_max+1)
     , labels = comma
   ) +
   theme(axis.text.x=element_text(angle=90, hjust=1),
+        text = element_text(size=25),
         panel.background = element_rect(fill = "white",
                                         colour = "white",
                                         size = 0.5, linetype = "solid"),

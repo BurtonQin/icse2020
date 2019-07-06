@@ -27,6 +27,7 @@ use std::fs::{DirBuilder,DirEntry};
 use std::io::BufReader;
 use std::io::BufRead;
 use results::FileOps;
+use std::collections::HashSet;
 
 fn main() {
     // create ouput dir if it does not exists
@@ -50,7 +51,9 @@ fn main() {
 //    rq04::process_rq(&crates);
 //    rq05::process_rq(&crates);
 //    rq06::process_rq(&crates);
-    rq07::process_rq(&crates);
+//    rq07::process_rq(&crates);
+
+    external_unsafe();
 }
 
 
@@ -79,7 +82,6 @@ fn get_full_analysis_dir() -> String {
 fn get_crates_recent_versions(file: Option<String>) -> Vec<(String,String)> {
     let mut res = Vec::new();
     let root_dir = std::fs::read_dir(get_full_analysis_dir()).unwrap();
-
     match file {
         Some(file_name) => {
             let file = File::open(file_name).unwrap();
@@ -118,3 +120,40 @@ fn get_crates_recent_versions(file: Option<String>) -> Vec<(String,String)> {
 }
 
 
+fn external_unsafe() {
+    let mut no_internal_unsafe = HashSet::new();
+    for (crate_name, version) in crates {
+        error!("Processing Crate {:?}", crate_name);
+        let dir_name = ::get_full_analysis_dir();
+        let file_ops = results::FileOps::new( crate_name, &version, &dir_name );
+        if let Some (files) = file_ops.open_files(results::BLOCK_SUMMARY_BB) {
+            if (files.is_empty()) {
+                error!("No files for crate {:?}", crate_name);
+                assert!(false);
+            }
+            for file in files.iter() {
+                let mut reader = BufReader::new(file);
+                //read line by line
+                loop {
+                    let mut line = String::new();
+                    let len = reader.read_line(&mut line).expect("Error reading file");
+                    if len == 0 {
+                        //EOF reached
+                        break;
+                    } else {
+                        //process line
+                        let trimmed_line = line.trim_right();
+                        if trimmed_line.len() > 0 { // ignore empty lines
+                            let block_summary: blocks::BlockSummary = serde_json::from_str(&trimmed_line).unwrap();
+                            if block_summary.total == 0 {
+                                no_internal_unsafe.insert(block_summary.crate_name);
+                            }
+                        }
+                    }
+                }
+            }
+        } else {
+            error!("Block summary files missing for crate {:?}", crate_name);
+        }
+    }
+}
