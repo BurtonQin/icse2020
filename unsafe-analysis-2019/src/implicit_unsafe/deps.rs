@@ -89,7 +89,7 @@ pub fn load_dependencies(used_crates:HashSet<String>) -> FxHashMap<String,CrateI
                         let resolve_res = ops::resolve_ws(&workspace);
                         if let Ok((packages, _resolve)) = resolve_res {
                             for package_id in packages.package_ids() {
-                                if let Ok(package) = packages.get(package_id) {
+                                if let Ok(package) = packages.get_one(package_id) {
                                     let crate_name = package.name().to_string().replace("-", "_");
                                     if let None = used_crates.get(&crate_name) {
                                         //info!("Crate not used {:?}", crate_name);

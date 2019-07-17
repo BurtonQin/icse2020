@@ -4,6 +4,7 @@ use syntax::ast::NodeId;
 use rustc::lint::LateContext;
 use rustc::mir::SourceInfo;
 use rustc::mir::visit::Visitor;
+use rustc::hir::HirId;
 
 use unsafety_sources::{UnsafetySourcesVisitor,UnsafetySourceCollector};
 
@@ -15,8 +16,8 @@ use results::blocks::BlockUnsafetySource;
 //////////////////// Summary
 
 pub fn run_summary_analysis<'a, 'tcx>(cx: &'a LateContext<'a, 'tcx>) -> BlockSummary  {
-    let mut visitor = BlockVisitor::new(&cx.tcx.hir);
-    rustc::hir::intravisit::walk_crate(&mut visitor, cx.tcx.hir.krate());
+    let mut visitor = BlockVisitor::new(&cx.tcx.hir());
+    rustc::hir::intravisit::walk_crate(&mut visitor, cx.tcx.hir().krate());
     BlockSummary::new( visitor.user_unsafe_blocks, visitor.unsafe_blocks,visitor.total_blocks)
 }
 
@@ -107,19 +108,20 @@ impl UnsafetySourceCollector for BlockUnsafetySourcesAnalysis {
     }
 }
 
-pub fn run_unsafety_sources_analysis<'a, 'tcx>(cx: &'a LateContext<'a, 'tcx>, fns: &Vec<NodeId>,
+pub fn run_unsafety_sources_analysis<'a, 'tcx>(cx: &'a LateContext<'a, 'tcx>, fns: &Vec<HirId>,
             ) -> Vec<BlockUnsafetySource> {
     let mut res =Vec::new();
     for &node_id in fns {
         let mut sources= BlockUnsafetySourcesAnalysis::new();
-        let fn_def_id = cx.tcx.hir.local_def_id(node_id);
+        let hir_id = cx.tcx.hir().hir_to_node_id(node_id);
+        let fn_def_id = cx.tcx.hir().local_def_id(hir_id);
         // closures are handled by their parent fn.
         if !cx.tcx.is_closure(fn_def_id) {
-            let mir = &mut cx.tcx.optimized_mir(fn_def_id);
+            let body = &mut cx.tcx.optimized_mir(fn_def_id);
             if let Some(mut body_visitor) =
-            UnsafetySourcesVisitor::new(cx, mir, &mut sources, fn_def_id)
+            UnsafetySourcesVisitor::new(cx, body, &mut sources, fn_def_id)
                 {
-                    body_visitor.visit_mir(mir);
+                    body_visitor.visit_body(body);
                 }
         }
         if !sources.sources().is_empty() {

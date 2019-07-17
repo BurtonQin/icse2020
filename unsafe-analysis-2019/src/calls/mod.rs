@@ -1,8 +1,8 @@
 use rustc::hir;
 use rustc::lint::LateContext;
 use rustc::mir;
-use rustc::mir::{BasicBlock, Location, Mir, Terminator, TerminatorKind, Safety, ClearCrossCrate,
-                 Rvalue, AggregateKind, SourceInfo, SourceScope, SourceScopeLocalData};
+use rustc::mir::{BasicBlock, Location, Terminator, TerminatorKind, Safety, ClearCrossCrate,
+                 Rvalue, AggregateKind, SourceInfo, SourceScope, SourceScopeLocalData, Body};
 use rustc::mir::visit::Visitor;
 use rustc_data_structures::indexed_vec::IndexVec;
 use rustc::ty;
@@ -19,7 +19,7 @@ pub fn run_analysis<'a, 'tcx>(cx: &'a LateContext<'a, 'tcx>) -> Vec<results::cal
     for &def_id in cx.tcx.mir_keys(hir::def_id::LOCAL_CRATE).iter() {
         let mir = &cx.tcx.optimized_mir(def_id);
         if let Some (mut visitor) = UnsafeCallsVisitor::new(cx, mir, def_id, &mut data) {
-            visitor.visit_mir(mir);
+            visitor.visit_body(mir);
         }
     }
     data
@@ -27,7 +27,7 @@ pub fn run_analysis<'a, 'tcx>(cx: &'a LateContext<'a, 'tcx>) -> Vec<results::cal
 
 struct UnsafeCallsVisitor<'a, 'tcx: 'a> {
     cx: &'a LateContext<'a, 'tcx>,
-    mir: &'tcx Mir<'tcx>,
+    body: &'a Body<'tcx>,
     fn_def_id: DefId,
     data: &'a mut Vec<results::calls::ExternalCall>,
     source_info: SourceInfo,
@@ -36,14 +36,14 @@ struct UnsafeCallsVisitor<'a, 'tcx: 'a> {
 
 impl<'a, 'tcx> UnsafeCallsVisitor<'a, 'tcx> {
 
-    fn new(cx: &'a LateContext<'a, 'tcx>, mir: &'tcx Mir, fn_def_id: DefId,
+    fn new(cx: &'a LateContext<'a, 'tcx>, body: &'a Body<'tcx>, fn_def_id: DefId,
            data: &'a mut Vec<results::calls::ExternalCall>) -> Option<Self> {
 
-        match mir.source_scope_local_data {
+        match body.source_scope_local_data {
             ClearCrossCrate::Set(ref local_data) => Some(UnsafeCallsVisitor {
-                cx, mir, fn_def_id, data,
+                cx, body, fn_def_id, data,
                 source_info: SourceInfo {
-                    span: mir.span,
+                    span: body.span,
                     scope: mir::OUTERMOST_SOURCE_SCOPE,
                 },
                 source_scope_local_data: local_data,
@@ -63,7 +63,7 @@ impl<'a, 'tcx> UnsafeCallsVisitor<'a, 'tcx> {
             }
             Safety::FnUnsafe => true,
             Safety::ExplicitUnsafe(node_id) => {
-                let node = self.cx.tcx.hir.get(node_id);
+                let node = self.cx.tcx.hir().get(node_id);
                 if let hir::Node::Block(block) = node {
                     match block.rules {
                         hir::BlockCheckMode::DefaultBlock => {
@@ -118,16 +118,17 @@ impl<'a, 'tcx> Visitor<'tcx> for UnsafeCallsVisitor<'a, 'tcx> {
                 &AggregateKind::Closure(def_id, _) | &AggregateKind::Generator(def_id, _, _) => {
                     // TODO add tests for this
                     //TODO check why Rust unsafe analysis is on mir_built
-                    let mir = &mut self.cx.tcx.optimized_mir(def_id);
+                    //let mir = &mut self.cx.tcx.optimized_mir(def_id);
+                    let body = &mut self.cx.tcx.mir_built(def_id).borrow();
                     let mut body_visitor = UnsafeCallsVisitor {
                         cx: self.cx,
                         fn_def_id: self.fn_def_id,
-                        mir,
+                        body,
                         data: self.data,
                         source_info: self.source_info,
                         source_scope_local_data: self.source_scope_local_data,
                     };
-                    body_visitor.visit_mir(mir);
+                    body_visitor.visit_body(body);
                 }
             }
         }
@@ -136,7 +137,6 @@ impl<'a, 'tcx> Visitor<'tcx> for UnsafeCallsVisitor<'a, 'tcx> {
 
     fn visit_terminator(
         &mut self,
-        _block: BasicBlock,
         terminator: &Terminator<'tcx>,
         _location: Location,
     ) {
@@ -145,8 +145,9 @@ impl<'a, 'tcx> Visitor<'tcx> for UnsafeCallsVisitor<'a, 'tcx> {
             args: _,
             destination: _,
             cleanup: _,
+            from_hir_call: _,
         } = terminator.kind {
-                match func.ty(&self.mir.local_decls, self.cx.tcx).sty {
+                match func.ty(&self.body.local_decls, self.cx.tcx).sty {
                     TyKind::FnDef(callee_def_id, substs) => {
                         if let hir::Unsafety::Unsafe = self.cx.tcx.fn_sig(callee_def_id).unsafety() {
                             let call = self.get_external_call(self.cx.tcx.fn_sig(callee_def_id).abi(), callee_def_id);
@@ -157,12 +158,12 @@ impl<'a, 'tcx> Visitor<'tcx> for UnsafeCallsVisitor<'a, 'tcx> {
                         match func {
                             mir::Operand::Move(arg)
                             | mir::Operand::Copy(arg) => {
-                                info!("func {:?} is fn ptr", arg.ty(&self.mir.local_decls, self.cx.tcx));
+                                info!("func {:?} is fn ptr", arg.ty(&self.body.local_decls, self.cx.tcx));
                                 if let hir::Unsafety::Unsafe = poly_sig.unsafety() {
                                     let elt = results::calls::ExternalCall {
                                         abi: convert_abi(poly_sig.abi()),
                                         def_path: "Unsafe_Call_Fn_Ptr".to_string(),
-                                        name: arg.ty(&self.mir.local_decls, self.cx.tcx).to_ty(self.cx.tcx).to_string(),
+                                        name: arg.ty(&self.body.local_decls, self.cx.tcx).ty.to_string(),
                                         crate_name: "Unsafe_Call_Fn_Ptr".to_string(),
                                         user_provided: self.is_user_unsafety()
                                     };
@@ -173,7 +174,7 @@ impl<'a, 'tcx> Visitor<'tcx> for UnsafeCallsVisitor<'a, 'tcx> {
                         }
                     }
                     _ => {
-                        error!("TypeVariants NOT handled {:?}", func.ty(&self.mir.local_decls, self.cx.tcx).sty);
+                        error!("TypeVariants NOT handled {:?}", func.ty(&self.body.local_decls, self.cx.tcx).sty);
                     }
                 }
         }
