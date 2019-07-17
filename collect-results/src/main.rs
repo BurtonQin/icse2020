@@ -19,6 +19,7 @@ mod rq04;
 mod rq05;
 mod rq06;
 mod rq07;
+mod rq08;
 
 use std::fs::File ;
 use std::fs::OpenOptions;
@@ -48,13 +49,14 @@ fn main() {
     DirBuilder::new().recursive(true).create(dir_path).unwrap();
     // consider only the most recent version of each crate
     let crates = get_crates_recent_versions(crates_file);
-    rq01::process_rq(&crates);
-    rq02::process_rq(&crates);
+    //rq01::process_rq(&crates);
+    //rq02::process_rq(&crates);
     // rq03::process_rq(&crates);
     // rq04::process_rq(&crates);
     // rq05::process_rq(&crates);
     // rq06::process_rq(&crates);
     // rq07::process_rq(&crates);
+    rq08::calculate_percentage();
 
     //external_unsafe(&crates);
 }

@@ -49,8 +49,8 @@ impl ShortFnInfo {
 
 #[derive(Serialize, Deserialize, Debug)]
 pub struct Summary {
-    unsafe_no: usize,
-    total: usize,
+    pub unsafe_no: usize,
+    pub total: usize,
 }
 
 impl Summary {

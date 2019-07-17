@@ -19,6 +19,9 @@ pub fn process_rq(crates: &Vec<(String,String)>) {
                 error!("No files for crate {:?}", crate_name);
                 assert!(false);
             }
+
+            let mut all_blocks : blocks::BlockSummary = blocks::BlockSummary::new(0,0,0);
+            
             for file in files.iter() {
                 let mut reader = BufReader::new(file);
                 //read line by line
@@ -33,15 +36,20 @@ pub fn process_rq(crates: &Vec<(String,String)>) {
                         let trimmed_line = line.trim_right();
                         if trimmed_line.len() > 0 { // ignore empty lines
                             let block_summary: blocks::BlockSummary = serde_json::from_str(&trimmed_line).unwrap();
-                            writeln!(writer, "{}\t{}\t{}\t{}",
-                                     block_summary.unsafe_blocks,
-                                     block_summary.user_unsafe_blocks,
-                                     block_summary.total,
-                                     crate_name);
+                            all_blocks.user_unsafe_blocks += block_summary.user_unsafe_blocks;
+                            all_blocks.unsafe_blocks += block_summary.unsafe_blocks;
+                            all_blocks.total += block_summary.total;
                         }
                     }
+
                 }
             }
+            writeln!(writer, "{}\t{}\t{}\t{}",
+                     all_blocks.unsafe_blocks,
+                     all_blocks.user_unsafe_blocks,
+                     all_blocks.total,
+                     crate_name);
+                
         } else {
             error!("Block summary files missing for crate {:?}", crate_name);
         }

@@ -19,6 +19,7 @@ pub fn process_rq(crates: &Vec<(String,String)>) {
         if let Some (files) = file_ops.open_files(results::SUMMARY_FUNCTIONS_FILE_NAME) {
             for file in files.iter() {
                 let mut reader = BufReader::new(file);
+                let mut all = results::functions::Summary::new(0,0);
                 //read line by line
                 loop {
                     let mut line = String::new();
@@ -34,12 +35,17 @@ pub fn process_rq(crates: &Vec<(String,String)>) {
                             if fn_summary.total() == 0 {
                                 info!("Processing {:?}: {:?}", crate_name, line);
                             } else {
-                                writeln!(writer, "{}\t{}"
-                                         , fn_summary.unsafe_no()
-                                         , crate_name);
+                                all.total += fn_summary.total;
+                                all.unsafe_no += fn_summary.unsafe_no
                             }
                         }
                     }
+
+                }
+                if (all.total > 0) {
+                    writeln!(writer, "{}\t{}"
+                             , all.unsafe_no()
+                             , crate_name);
                 }
             }
         } else {
