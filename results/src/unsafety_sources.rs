@@ -25,6 +25,7 @@ pub enum SourceKind {
     AssignmentToNonCopyUnionField,
     AccessToUnionField,
     ExternStatic,
+    ConstantFn,
 }
 
 
@@ -39,6 +40,7 @@ impl fmt::Debug for SourceKind {
             SourceKind::DerefRawPointer => {write!(f, "Derefence Raw Pointer")}
             SourceKind::Asm => {write!(f, "Assembly")}
             SourceKind::Static => {write!(f, "Global Variable")}
+            SourceKind::ConstantFn => {write!(f, "Constant Function")}
         }
 
     }

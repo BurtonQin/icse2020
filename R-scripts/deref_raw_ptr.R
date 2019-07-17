@@ -11,3 +11,5 @@ res90 <- read.table( file="~/unsafe_analysis/analysis-data/research-questions-90
                      , sep=','
                      , comment.char = "#"
                      , col.names=c("blockid", "source","user","crate"))
+
+deref_raw_ptr = (subset(res, source == "Derefence Raw Pointer"))[c[4]]

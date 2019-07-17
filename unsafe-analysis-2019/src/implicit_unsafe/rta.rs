@@ -1,12 +1,13 @@
 use syntax::ast::NodeId;
 use rustc::hir;
+use rustc::hir::HirId;
 use rustc::hir::def_id::DefId;
 use rustc::mir::visit::Visitor;
 use rustc::mir;
-use rustc::mir::{BasicBlock, Location, Operand, Terminator, TerminatorKind, Mir};
+use rustc::mir::{BasicBlock, Location, Operand, Terminator, TerminatorKind, Body};
 use rustc::ty::TyKind;
 use rustc::ty::TypeFoldable;
-use rustc::ty::subst::Substs;
+use rustc::ty::subst::InternalSubsts;
 use rustc::ty::subst::Subst;
 use rustc::ty;
 use rustc::lint::LateContext;
@@ -25,7 +26,7 @@ use implicit_unsafe::deps;
 #[derive(PartialEq,Eq,Hash,Debug,Clone,Copy)]
 struct CallContext<'tcx> {
     def_id: DefId,
-    substs: &'tcx ty::subst::Substs<'tcx>,
+    substs: &'tcx ty::subst::InternalSubsts<'tcx>,
 }
 
 #[derive(Debug,PartialEq,Clone,Copy)]
@@ -69,7 +70,7 @@ impl<'tcx> CallData<'tcx> {
 }
 
 pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>
-                                      , fns: &Vec<NodeId>, optimistic: bool)
+                                      , fns: &Vec<HirId>, optimistic: bool)
                                       -> Vec<UnsafeInBody> {
     let mut call_graph = FxHashMap::default();
     let mut with_unsafe = FxHashSet::default();
@@ -78,7 +79,8 @@ pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>
 
     // build call graph
     for &fn_id in fns { // TODO change to
-        let fn_def_id = cx.tcx.hir.local_def_id(fn_id);
+        let node_id = cx.tcx.hir().hir_to_node_id(fn_id);
+        let fn_def_id = cx.tcx.hir().local_def_id(node_id);
         match cx.tcx.fn_sig(fn_def_id).unsafety() {
             hir::Unsafety::Unsafe => {
                 // call graph not needed for unsafe functions
@@ -92,18 +94,19 @@ pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>
                 if let TyKind::FnDef(_, _) = ty.sty {
                     let cc = CallContext {
                         def_id: fn_def_id,
-                        substs: Substs::identity_for_item(cx.tcx,fn_def_id),
+                        substs: InternalSubsts::identity_for_item(cx.tcx,fn_def_id),
                     };
                     // process only if it was not done so already
                     if let None = call_graph.get(&cc) {
-                        let mir = &mut cx.tcx.optimized_mir(fn_def_id);
+                        //let mir = &mut cx.tcx.optimized_mir(fn_def_id);
+                        let body = &mut cx.tcx.mir_built(fn_def_id).borrow();
                         let mut calls_visitor =
-                            CallsVisitor::new(&cx, mir, &cc,
+                            CallsVisitor::new(&cx, body, &cc,
                                               &mut call_graph, &mut with_unsafe,
                                               &mut external_calls,
                                               optimistic, 0);
                         info!("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
-                        calls_visitor.visit_mir(mir);
+                        calls_visitor.visit_body(body);
                     }
                 }
             }
@@ -273,7 +276,7 @@ pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>
         if ctxt.def_id.is_local() {
             match call_data.call_type {
                 CallType::Resolved => {
-                    if ctxt.substs == Substs::identity_for_item(cx.tcx,ctxt.def_id) {
+                    if ctxt.substs == InternalSubsts::identity_for_item(cx.tcx,ctxt.def_id) {
                         // add only if it is the declared function
                         // if it is a specialization with given substs ignore
                         if with_unsafe.contains(ctxt) {
@@ -307,12 +310,13 @@ pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>
 
 fn has_unsafe_block<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, fn_id: DefId) -> bool {
     let mut body_visitor = UnsafeBlocksVisitorData {
-        hir: &cx.tcx.hir,
+        hir: &cx.tcx.hir(),
         has_unsafe: false,
     };
-    if let Some (fn_node_id) = cx.tcx.hir.as_local_node_id(fn_id) {
-        let body_id = cx.tcx.hir.body_owned_by(fn_node_id);
-        let body = cx.tcx.hir.body(body_id);
+    if let Some (fn_node_id) = cx.tcx.hir().as_local_node_id(fn_id) {
+        let hir_id = cx.tcx.hir().node_to_hir_id(fn_node_id);
+        let body_id = cx.tcx.hir().body_owned_by(hir_id);
+        let body = cx.tcx.hir().body(body_id);
         hir::intravisit::walk_body(&mut body_visitor, body);
         body_visitor.has_unsafe
     } else {
@@ -325,7 +329,7 @@ fn has_unsafe_block<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, fn_id: DefId) -> bool 
 //////////////////////////////////////////////////////////////
 struct CallsVisitor<'a, 'b, 'tcx:'a+'b> {
     cx: &'a LateContext<'a, 'tcx>,
-    mir: &'tcx Mir<'tcx>,
+    body: &'a Body<'tcx>,
     fn_ctx: &'b CallContext<'tcx>,
     call_graph: &'b mut FxHashMap<CallContext<'tcx>,CallData<'tcx>>,
     with_unsafe: &'b mut FxHashSet<CallContext<'tcx>>,
@@ -338,7 +342,7 @@ struct CallsVisitor<'a, 'b, 'tcx:'a+'b> {
 impl<'a, 'b, 'tcx:'a+'b>  CallsVisitor<'a, 'b, 'tcx> {
 
     fn new(cx: &'a LateContext<'a, 'tcx>,
-           mir: &'tcx Mir<'tcx>,
+           body: &'a Body<'tcx>,
            fn_ctx: &'b CallContext<'tcx>,
            call_graph: &'b mut FxHashMap<CallContext<'tcx>,CallData<'tcx>>,
            with_unsafe: &'b mut FxHashSet<CallContext<'tcx>>,
@@ -346,7 +350,7 @@ impl<'a, 'b, 'tcx:'a+'b>  CallsVisitor<'a, 'b, 'tcx> {
            optimistic: bool,
            depth: usize,
     ) -> Self {
-        CallsVisitor { cx, mir, fn_ctx, call_graph, with_unsafe, external_calls, optimistic, depth}
+        CallsVisitor { cx, body, fn_ctx, call_graph, with_unsafe, external_calls, optimistic, depth}
     }
 
     fn has_parametric_call(&self, cd: &CallData<'tcx>) -> bool {
@@ -382,7 +386,7 @@ impl<'a, 'b, 'tcx:'a+'b>  CallsVisitor<'a, 'b, 'tcx> {
             // get calls for the method with no substitutions
             let no_substs_ctx = CallContext {
                 def_id: ctxt.def_id,
-                substs: Substs::identity_for_item(self.cx.tcx, ctxt.def_id),
+                substs: InternalSubsts::identity_for_item(self.cx.tcx, ctxt.def_id),
             };
             //check if a node exists for def_id with no substs
             let mut not_in_call_graph_no_subts = false; // for borrow checker
@@ -395,16 +399,17 @@ impl<'a, 'b, 'tcx:'a+'b>  CallsVisitor<'a, 'b, 'tcx> {
                 //check if it has an MIR associated
                 if self.cx.tcx.mir_keys(hir::def_id::LOCAL_CRATE).contains(&no_substs_ctx.def_id) {
                     // Did not process yet this function
-                    let mir = &mut self.cx.tcx.optimized_mir(no_substs_ctx.def_id);
+                    //let mir = &mut self.cx.tcx.optimized_mir(no_substs_ctx.def_id);
+                    let body = &mut self.cx.tcx.mir_built(no_substs_ctx.def_id).borrow();
                     let mut calls_visitor =
-                        CallsVisitor::new(&self.cx, mir,
+                        CallsVisitor::new(&self.cx, body,
                                           &no_substs_ctx,
                                           self.call_graph,
                                           self.with_unsafe,
                                           self.external_calls,
                                           self.optimistic,
                                           self.depth);
-                    calls_visitor.visit_mir(mir);
+                    calls_visitor.visit_body(body);
                 } else { // Not a local call
                     assert!(false);
                 }
@@ -519,7 +524,7 @@ impl<'a, 'b, 'tcx:'a+'b>  CallsVisitor<'a, 'b, 'tcx> {
 
 impl<'a, 'b, 'tcx:'a+'b> Visitor<'tcx> for CallsVisitor<'a,'b,'tcx> {
 
-    fn visit_mir(&mut self, mir: &Mir<'tcx>) {
+    fn visit_body(&mut self, body: &Body<'tcx>) {
 
         info!("visit_mir {:?}", self.fn_ctx);
 
@@ -545,7 +550,8 @@ impl<'a, 'b, 'tcx:'a+'b> Visitor<'tcx> for CallsVisitor<'a,'b,'tcx> {
                     call_type: CallType::Processing,
                     calls: None });
 
-            self.super_mir(mir);
+            // TODO what is this for?
+            //self.super_mir(mir);
 
             let parametric =
                 if let Some(call_data) = self.call_graph.get( self.fn_ctx ) {
@@ -573,13 +579,13 @@ impl<'a, 'b, 'tcx:'a+'b> Visitor<'tcx> for CallsVisitor<'a,'b,'tcx> {
     }
 
 
-    fn visit_terminator( &mut self, _: BasicBlock, terminator: &Terminator<'tcx>, _: Location, ) {
-        if let TerminatorKind::Call {ref func, args: _, destination: _, cleanup: _} = terminator.kind {
+    fn visit_terminator( &mut self, terminator: &Terminator<'tcx>, _: Location, ) {
+        if let TerminatorKind::Call {ref func, args: _, destination: _, cleanup: _, from_hir_call: _} = terminator.kind {
             if !self.with_unsafe.contains(self.fn_ctx) {
                 let mut not_safe = false;
                 let mut unresolved_type = false;
                 let mut cco = None;
-                match func.ty(&self.mir.local_decls, self.cx.tcx).sty {
+                match func.ty(&self.body.local_decls, self.cx.tcx).sty {
                     TyKind::FnDef(callee_def_id, callee_substs) => {
                         if implicit_unsafe::is_library_crate(&self.cx.tcx.crate_name(callee_def_id.krate).to_string()) {
                             // do nothing
@@ -634,7 +640,7 @@ impl<'a, 'b, 'tcx:'a+'b> Visitor<'tcx> for CallsVisitor<'a,'b,'tcx> {
                         }
                     }
                     _ => {
-                        error!("TyKind{:?}", func.ty(&self.mir.local_decls, self.cx.tcx).sty);
+                        error!("TyKind{:?}", func.ty(&self.body.local_decls, self.cx.tcx).sty);
                         assert!(false);
                     }
                 }

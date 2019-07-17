@@ -10,7 +10,7 @@ export CRATES_DIR=${PROJECT_OUT}/crates.io-downloads
 #export SYNTACTIC_ONLY_CRATES=${PROJECT_OUT}/syntactic-only
 #export GITHUB_APPS=${PROJECT_OUT}/github-downloads
 
-export UNSAFE_ANALYSIS_DIR=${PROJECT_OUT}/analysis-data
+export UNSAFE_ANALYSIS_DIR=${PROJECT_OUT}/analysis-data-2019
 export FULL_ANALYSIS_DIR=${UNSAFE_ANALYSIS_DIR}/full-analysis
 
 export ANALYSIS_RESULTS_DIR=$UNSAFE_ANALYSIS_DIR/results
@@ -19,7 +19,8 @@ export RQ_DIR=${UNSAFE_ANALYSIS_DIR}/research-questions
 
 export PAPER_RESULTS_DIR=$PROJECT_HOME/paper/
 
-export NIGHTLY=nightly-2019-07-01
+#export NIGHTLY=nightly-2019-07-01
+export NIGHTLY=nightly
 # targets: thumbv7em-none-eabihf
 
 export RUST_LOG=unsafe_analysis=debug,rustc=error

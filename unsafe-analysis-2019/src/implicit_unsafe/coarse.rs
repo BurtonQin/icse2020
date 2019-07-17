@@ -2,9 +2,10 @@ use std::fmt::Write;
 
 use syntax::ast::NodeId;
 use rustc::hir;
+use rustc::hir::HirId;
 use rustc::hir::def_id::DefId;
 use rustc::mir::visit::Visitor;
-use rustc::mir::{BasicBlock, Location, Operand, Terminator, TerminatorKind, Mir};
+use rustc::mir::{BasicBlock, Location, Operand, Terminator, TerminatorKind, Body};
 use rustc::ty::TyKind;
 use rustc::ty;
 
@@ -22,13 +23,14 @@ enum Call {
     Dynamic
 }
 
-pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, fns: &Vec<NodeId>, optimistic: bool)
+pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, fns: &Vec<HirId>, optimistic: bool)
                                       -> Vec<UnsafeInBody> {
     let mut result = Vec::new();
     let mut with_unsafe = FxHashMap::default();
     let mut call_graph = FxHashMap::default();
     for &fn_id in fns {
-        let fn_def_id = cx.tcx.hir.local_def_id(fn_id);
+        let node_id = cx.tcx.hir().hir_to_node_id(fn_id);
+        let fn_def_id = cx.tcx.hir().local_def_id(node_id);
 
         info!("Processing {:?}", ::get_node_name(cx,fn_def_id));
 
@@ -42,11 +44,11 @@ pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, fns: &Vec<Node
             } //ignore it
             hir::Unsafety::Normal => {
                 let mut body_visitor = UnsafeBlocksVisitorData {
-                    hir: &cx.tcx.hir,
+                    hir: &cx.tcx.hir(),
                     has_unsafe: false,
                 };
-                let body_id = cx.tcx.hir.body_owned_by(fn_id);
-                let body = cx.tcx.hir.body(body_id);
+                let body_id = cx.tcx.hir().body_owned_by(fn_id);
+                let body = cx.tcx.hir().body(body_id);
                 hir::intravisit::walk_body(&mut body_visitor, body);
                 if body_visitor.has_unsafe {
                     let mut info = UnsafeInBody::new(get_fn_path(cx,fn_def_id),
@@ -55,9 +57,9 @@ pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, fns: &Vec<Node
                     with_unsafe.insert(fn_def_id, info);
                 } else {
                     // collect calls
-                    let mir = &mut cx.tcx.optimized_mir(fn_def_id);
-                    let mut calls_visitor = CallsVisitor::new(&cx,mir,fn_def_id);
-                    calls_visitor.visit_mir(mir);
+                    let body = &mut cx.tcx.mir_built(fn_def_id).borrow();
+                    let mut calls_visitor = CallsVisitor::new(&cx,body,fn_def_id);
+                    calls_visitor.visit_body(body);
 
                     info!("calls_visitor.uses_fn_ptr: {:?}",calls_visitor.uses_fn_ptr);
                     info!("calls_visitor.uses_unresolved_calls: {:?}", calls_visitor.uses_unresolved_calls);
@@ -196,7 +198,8 @@ pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, fns: &Vec<Node
     }
 
     for &fn_id in fns.iter() {
-        let fn_def_id = cx.tcx.hir.local_def_id(fn_id);
+        let node_id = cx.tcx.hir().hir_to_node_id(fn_id);
+        let fn_def_id = cx.tcx.hir().local_def_id(node_id);
         if let Some(elt) = with_unsafe.get(&fn_def_id) {
             let mut ub = UnsafeInBody::new(elt.def_path.clone(), elt.fn_type.clone(),
                                            ::get_node_name(cx,fn_def_id));
@@ -212,7 +215,7 @@ pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, fns: &Vec<Node
 
 struct CallsVisitor<'a, 'tcx: 'a> {
     cx: &'a LateContext<'a, 'tcx>,
-    mir: &'tcx Mir<'tcx>,
+    body: &'a Body<'tcx>,
     fn_def_id: DefId,
     calls: Vec<Call>,
     uses_fn_ptr: bool,
@@ -220,8 +223,8 @@ struct CallsVisitor<'a, 'tcx: 'a> {
 }
 
 impl<'a, 'tcx> CallsVisitor<'a, 'tcx> {
-    fn new(cx: &'a LateContext<'a, 'tcx>, mir: &'tcx Mir<'tcx>, fn_def_id: DefId) -> Self {
-        CallsVisitor { cx, mir, fn_def_id,
+    fn new(cx: &'a LateContext<'a, 'tcx>, body: &'a Body<'tcx>, fn_def_id: DefId) -> Self {
+        CallsVisitor { cx, body, fn_def_id,
             calls: Vec::new(),
             uses_fn_ptr: false,
             uses_unresolved_calls: false}
@@ -231,7 +234,6 @@ impl<'a, 'tcx> CallsVisitor<'a, 'tcx> {
 impl<'a, 'tcx> Visitor<'tcx> for CallsVisitor<'a, 'tcx> {
     fn visit_terminator(
         &mut self,
-        _block: BasicBlock,
         terminator: &Terminator<'tcx>,
         _location: Location,
     ) {
@@ -240,6 +242,7 @@ impl<'a, 'tcx> Visitor<'tcx> for CallsVisitor<'a, 'tcx> {
             args: _,
             destination: _,
             cleanup: _,
+            from_hir_call: _,
         } = terminator.kind {
             match func {
                 Operand::Constant(constant) =>
