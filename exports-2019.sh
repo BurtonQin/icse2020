@@ -19,8 +19,8 @@ export RQ_DIR=${UNSAFE_ANALYSIS_DIR}/research-questions
 
 export PAPER_RESULTS_DIR=$PROJECT_HOME/paper/
 
-#export NIGHTLY=nightly-2019-07-01
-export NIGHTLY=nightly
+export NIGHTLY=nightly-2019-07-01
+#export NIGHTLY=nightly
 # targets: thumbv7em-none-eabihf
 
 export RUST_LOG=unsafe_analysis=debug,rustc=error
