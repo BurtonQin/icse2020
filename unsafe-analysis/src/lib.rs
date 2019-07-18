@@ -90,10 +90,10 @@ impl<'a, 'tcx> LateLintPass<'a, 'tcx> for Functions {
         let cnv = local_crate_name_and_version();
         let file_ops = results::FileOps::new(&cnv.0, &cnv.1, &root_dir);
 
-//        // blocks summary
-//        let bb_summary: results::blocks::BlockSummary = blocks::run_summary_analysis(cx);
-//        let mut file = file_ops.create_file (results::BLOCK_SUMMARY_BB);
-//        save_summary_analysis(bb_summary, &mut file);
+        // blocks summary
+        let bb_summary: results::blocks::BlockSummary = blocks::run_summary_analysis(cx);
+        let mut file = file_ops.create_file (results::BLOCK_SUMMARY_BB);
+        save_summary_analysis(bb_summary, &mut file);
 
         // unsafe functions summary
         let mut fn_summary_file = file_ops.create_file (results::SUMMARY_FUNCTIONS_FILE_NAME);
@@ -105,65 +105,65 @@ impl<'a, 'tcx> LateLintPass<'a, 'tcx> for Functions {
             &mut fn_summary_file,
         );
 
-//        // unsafe traits
-//        let mut impls_file = file_ops.create_file (results::UNSAFE_TRAITS_IMPLS);
-//        let mut traits_file = file_ops.create_file (results::UNSAFE_TRAITS);
-//        let result = traits::run_analysis(cx);
-//        save_analysis(result.unsafe_traits_impls, &mut impls_file);
-//        save_analysis(result.unsafe_traits, &mut traits_file);
-//        //unsafety sources in blocks
-//        let mut bus_file = file_ops.create_file (results::BLOCK_UNSAFETY_SOURCES_FILE_NAME);
-//        let bus_res = blocks::run_unsafety_sources_analysis(cx,&self.normal_functions);
-//        save_analysis(bus_res, &mut bus_file);
-//       //unsafety in functions
-//        let (fn_unsafety,no_reason) = functions::run_sources_analysis(cx,&self.unsafe_functions, false);
-//        let mut file = file_ops.create_file (results::FN_UNSAFETY_SOURCES_FILE_NAME);
-//        save_analysis(fn_unsafety,&mut file);
-//        let mut file = file_ops.create_file (results::NO_REASON_FOR_UNSAFE);
-//        save_analysis(no_reason,&mut file);
-//        //save_analysis(no_reason,&mut file_ops.get_no_reason_for_unsafety_file(true));
-//        //unsafe function calls
-//        let unsafe_calls = calls::run_analysis(cx);
-//        let mut file = file_ops.create_file (results::UNSAFE_CALLS);
-//        save_analysis(unsafe_calls, &mut file);
+        // unsafe traits
+        let mut impls_file = file_ops.create_file (results::UNSAFE_TRAITS_IMPLS);
+        let mut traits_file = file_ops.create_file (results::UNSAFE_TRAITS);
+        let result = traits::run_analysis(cx);
+        save_analysis(result.unsafe_traits_impls, &mut impls_file);
+        save_analysis(result.unsafe_traits, &mut traits_file);
+        //unsafety sources in blocks
+        let mut bus_file = file_ops.create_file (results::BLOCK_UNSAFETY_SOURCES_FILE_NAME);
+        let bus_res = blocks::run_unsafety_sources_analysis(cx,&self.normal_functions);
+        save_analysis(bus_res, &mut bus_file);
+       //unsafety in functions
+        let (fn_unsafety,no_reason) = functions::run_sources_analysis(cx,&self.unsafe_functions, false);
+        let mut file = file_ops.create_file (results::FN_UNSAFETY_SOURCES_FILE_NAME);
+        save_analysis(fn_unsafety,&mut file);
+        let mut file = file_ops.create_file (results::NO_REASON_FOR_UNSAFE);
+        save_analysis(no_reason,&mut file);
+        //save_analysis(no_reason,&mut file_ops.get_no_reason_for_unsafety_file(true));
+        //unsafe function calls
+        let unsafe_calls = calls::run_analysis(cx);
+        let mut file = file_ops.create_file (results::UNSAFE_CALLS);
+        save_analysis(unsafe_calls, &mut file);
+
+//        let opt_impl_unsafe = implicit_unsafe::coarse::run_sources_analysis(cx,
+//                                                                            &self.normal_functions,
+//                                                                            true);
+//        let mut file = file_ops.create_file (results::COARSE_RTA_OPTIMISTIC_FILENAME);
+//        save_analysis(opt_impl_unsafe, &mut file);
+//        drop(file);
 //
-        let opt_impl_unsafe = implicit_unsafe::coarse::run_sources_analysis(cx,
-                                                                            &self.normal_functions,
-                                                                            true);
-        let mut file = file_ops.create_file (results::COARSE_RTA_OPTIMISTIC_FILENAME);
-        save_analysis(opt_impl_unsafe, &mut file);
-        drop(file);
-
-        let pes_impl_unsafe = implicit_unsafe::coarse::run_sources_analysis(cx,
-                                                                            &self.normal_functions,
-                                                                            false);
-        let mut file = file_ops.create_file (results::COARSE_RTA_PESSIMISTIC_FILENAME);
-        save_analysis(pes_impl_unsafe, &mut file);
-        drop(file);
-
-        let mut all_fn_ids = Vec::new();
-        for fn_id in self.normal_functions.iter() {
-            all_fn_ids.push(*fn_id)
-        }
-        for fn_id in self.unsafe_functions.iter() {
-            all_fn_ids.push(*fn_id)
-        }
-        let mut file = file_ops.create_file (results::IMPLICIT_RTA_OPTIMISTIC_FILENAME);
-        let opt_rta_impl_unsafe = implicit_unsafe::rta::run_sources_analysis(cx,&all_fn_ids,
-                                                                             true);
-        info!("Before saving in file {:?}", file);
-        save_analysis(opt_rta_impl_unsafe, &mut file);
-        info!("After saving in file {:?}", file);
-        drop(file);
-
-        let mut file = file_ops.create_file (results::IMPLICIT_RTA_PESSIMISTIC_FILENAME);
-        let pes_rta_impl_unsafe = implicit_unsafe::rta::run_sources_analysis(cx,
-                                                                                &self.normal_functions,
-                                                                                false);
-        info!("Before saving in file {:?}", file);
-        save_analysis(pes_rta_impl_unsafe, &mut file);
-        info!("After saving in file {:?}", file);
-        drop(file);
+//        let pes_impl_unsafe = implicit_unsafe::coarse::run_sources_analysis(cx,
+//                                                                            &self.normal_functions,
+//                                                                            false);
+//        let mut file = file_ops.create_file (results::COARSE_RTA_PESSIMISTIC_FILENAME);
+//        save_analysis(pes_impl_unsafe, &mut file);
+//        drop(file);
+//
+//        let mut all_fn_ids = Vec::new();
+//        for fn_id in self.normal_functions.iter() {
+//            all_fn_ids.push(*fn_id)
+//        }
+//        for fn_id in self.unsafe_functions.iter() {
+//            all_fn_ids.push(*fn_id)
+//        }
+//        let mut file = file_ops.create_file (results::IMPLICIT_RTA_OPTIMISTIC_FILENAME);
+//        let opt_rta_impl_unsafe = implicit_unsafe::rta::run_sources_analysis(cx,&all_fn_ids,
+//                                                                             true);
+//        info!("Before saving in file {:?}", file);
+//        save_analysis(opt_rta_impl_unsafe, &mut file);
+//        info!("After saving in file {:?}", file);
+//        drop(file);
+//
+//        let mut file = file_ops.create_file (results::IMPLICIT_RTA_PESSIMISTIC_FILENAME);
+//        let pes_rta_impl_unsafe = implicit_unsafe::rta::run_sources_analysis(cx,
+//                                                                                &self.normal_functions,
+//                                                                                false);
+//        info!("Before saving in file {:?}", file);
+//        save_analysis(pes_rta_impl_unsafe, &mut file);
+//        info!("After saving in file {:?}", file);
+//        drop(file);
     }
 
     fn check_body(&mut self, cx: &LateContext<'a, 'tcx>, body: &'tcx hir::Body) {
