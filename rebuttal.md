@@ -10,7 +10,7 @@ Unsafe is necessary for memory-mapped IO to cast an address to a Rust struct, an
 ```rust
 impl SerialPort<Mmio<u32>> {
 
-    pub **unsafe** fn new(base: usize) -> &'static mut SerialPort<Mmio<u32>> {
+    pub unsafe fn new(base: usize) -> &'static mut SerialPort<Mmio<u32>> {
 
         &mut *(base as *mut Self)
 
@@ -20,7 +20,7 @@ impl SerialPort<Mmio<u32>> {
 
 pub static COM1: Mutex<SerialPort<Pio<u8>>> = Mutex::new(SerialPort::<Pio<u8>>::new(0x3F8));
 
-pub **unsafe** fn init() {
+pub unsafe fn init() {
 
     COM1.lock().init();
 
