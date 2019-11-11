@@ -7,7 +7,7 @@ We will revise section 4.1 to include a precise description of the call graph al
 **Review #61 AQ1: Can the authors provide examples of code impossible to write in Safe Rust?**
 
 Unsafe is necessary for memory-mapped IO to cast an address to a Rust struct, and to use global variables to reference unique resources, in this case the COM1 port. An example from RedoxOS is:
-
+```
 impl SerialPort<Mmio<u32>> {
 
     pub **unsafe** fn new(base: usize) -> &'static mut SerialPort<Mmio<u32>> {
@@ -25,7 +25,7 @@ pub **unsafe** fn init() {
     COM1.lock().init();
 
 }
-
+```
 **Review #61 AQ2: Is the use of call graph an overapproximation of unsafe use?**
 
 Our methodology assumes that a method is possibly unsafe its body contains at least a call to a possibly unsafe method. Yes, it is possible that in some contexts a method call will never execute the path with unsafe code and more precise analysis combining data and control flow could yield more precise results. 
