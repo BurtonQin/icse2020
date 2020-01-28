@@ -46,6 +46,7 @@ mod unsafety_sources;
 mod functions;
 mod calls;
 mod implicit_unsafe;
+mod implicit_unsafe_new;
 
 declare_lint!(pub HIDDEN_UNSAFE, Allow, "Unsafe analysis");
 
@@ -121,7 +122,6 @@ impl<'a, 'tcx> LateLintPass<'a, 'tcx> for Functions {
         save_analysis(fn_unsafety,&mut file);
         let mut file = file_ops.create_file (results::NO_REASON_FOR_UNSAFE);
         save_analysis(no_reason,&mut file);
-        //save_analysis(no_reason,&mut file_ops.get_no_reason_for_unsafety_file(true));
         //unsafe function calls
         let unsafe_calls = calls::run_analysis(cx);
         let mut file = file_ops.create_file (results::UNSAFE_CALLS);
