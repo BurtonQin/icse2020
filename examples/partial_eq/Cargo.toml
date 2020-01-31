@@ -1,0 +1,9 @@
+[package]
+name = "tests"
+version = "0.1.0"
+authors = ["Ana Nora Evans <ananevans@gmail.com>"]
+
+[dependencies]
+#call_graph = { path = "/home/nora/work/unsafe_study/examples/call_graph"}
+#sysinfo = "0.3.19"
+rand = "0.3"

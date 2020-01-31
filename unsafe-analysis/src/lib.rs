@@ -46,7 +46,7 @@ mod unsafety_sources;
 mod functions;
 mod calls;
 mod implicit_unsafe;
-mod implicit_unsafe_new;
+//mod implicit_unsafe_new;
 
 declare_lint!(pub HIDDEN_UNSAFE, Allow, "Unsafe analysis");
 

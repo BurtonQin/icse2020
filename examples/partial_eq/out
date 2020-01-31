@@ -1,0 +1,34 @@
+   Compiling libc v0.2.43
+Saving "41_blocks_summary_1580495172630704826"Saving "02_summary_functions_1580495172667556115"Saving "50_unsafe_traits_impls_1580495172701208304"Saving "51_unsafe_traits_1580495172701359361"Saving "40_unsafe_blocks_1580495172712106103"Saving "30_unsafe_fn_1580495172724880300"Saving "31_no_reason_1580495172725673200"Saving "03_unsafe_calls_1580495172731148675"   Compiling rand v0.4.3
+ INFO 2020-01-31T18:26:13Z: unsafe_analysis::calls: unsafety_violations: DefId(0/1:211 ~ rand[ce80]::distributions[0]::gamma[0]::GammaRepr[0]::Large[0]) - remote, skipping
+ INFO 2020-01-31T18:26:13Z: unsafe_analysis::calls: func Ty { ty: fn() -> u64 } is fn ptr
+ INFO 2020-01-31T18:26:13Z: unsafe_analysis::calls: func Ty { ty: fn() -> u64 } is fn ptr
+ INFO 2020-01-31T18:26:13Z: unsafe_analysis::calls: unsafety_violations: DefId(0/1:91 ~ rand[ce80]::os[0]::imp[0]::OsRngInner[0]::OsReadRng[0]) - remote, skipping
+ INFO 2020-01-31T18:26:13Z: unsafe_analysis::calls: unsafety_violations: DefId(0/1:215 ~ rand[ce80]::distributions[0]::gamma[0]::GammaRepr[0]::Small[0]) - remote, skipping
+ INFO 2020-01-31T18:26:13Z: unsafe_analysis::calls: unsafety_violations: DefId(0/1:236 ~ rand[ce80]::distributions[0]::exponential[0]::Exp1[0]::{{constructor}}[0]) - remote, skipping
+ INFO 2020-01-31T18:26:13Z: unsafe_analysis::calls: unsafety_violations: DefId(0/1:78 ~ rand[ce80]::os[0]::OsRng[0]::{{constructor}}[0]) - remote, skipping
+ INFO 2020-01-31T18:26:13Z: unsafe_analysis::calls: func Ty { ty: fn() -> u64 } is fn ptr
+ INFO 2020-01-31T18:26:13Z: unsafe_analysis::calls: unsafety_violations: DefId(0/1:546 ~ rand[ce80]::Open01[0]::{{constructor}}[0]) - remote, skipping
+ INFO 2020-01-31T18:26:13Z: unsafe_analysis::calls: unsafety_violations: DefId(0/1:213 ~ rand[ce80]::distributions[0]::gamma[0]::GammaRepr[0]::One[0]) - remote, skipping
+ INFO 2020-01-31T18:26:13Z: unsafe_analysis::calls: unsafety_violations: DefId(0/1:550 ~ rand[ce80]::Closed01[0]::{{constructor}}[0]) - remote, skipping
+ INFO 2020-01-31T18:26:13Z: unsafe_analysis::calls: unsafety_violations: DefId(0/1:224 ~ rand[ce80]::distributions[0]::gamma[0]::ChiSquaredRepr[0]::DoFAnythingElse[0]) - remote, skipping
+ INFO 2020-01-31T18:26:13Z: unsafe_analysis::calls: unsafety_violations: DefId(0/1:231 ~ rand[ce80]::distributions[0]::normal[0]::StandardNormal[0]::{{constructor}}[0]) - remote, skipping
+ INFO 2020-01-31T18:26:13Z: unsafe_analysis::calls: func Ty { ty: fn() -> u64 } is fn ptr
+ INFO 2020-01-31T18:26:13Z: unsafe_analysis::calls: func Ty { ty: fn() -> u64 } is fn ptr
+Saving "41_blocks_summary_1580495173584858796"Saving "02_summary_functions_1580495173635255631"Saving "50_unsafe_traits_impls_1580495173660449352"Saving "51_unsafe_traits_1580495173660587921"Saving "40_unsafe_blocks_1580495173672176657"Saving "30_unsafe_fn_1580495173725080820"Saving "31_no_reason_1580495173725182937"Saving "03_unsafe_calls_1580495173732103477"   Compiling rand v0.3.22
+Saving "41_blocks_summary_1580495174068299598"Saving "02_summary_functions_1580495174102879376"Saving "50_unsafe_traits_impls_1580495174128183370"Saving "51_unsafe_traits_1580495174128312729"Saving "40_unsafe_blocks_1580495174128449198"Saving "30_unsafe_fn_1580495174128516914"Saving "31_no_reason_1580495174128570659"Saving "03_unsafe_calls_1580495174128736456"   Compiling tests v0.1.0 (file:///home/ans5k/work/unsafe_study/examples/partial_eq)
+warning: variant is never constructed: `Red`
+ --> src/main.rs:4:5
+  |
+4 |     Red,
+  |     ^^^
+  |
+  = note: #[warn(dead_code)] on by default
+
+warning: variant is never constructed: `Green`
+ --> src/main.rs:5:5
+  |
+5 |     Green,
+  |     ^^^^^
+
+Saving "41_blocks_summary_1580495174282355893"Saving "02_summary_functions_1580495174303825023"Saving "50_unsafe_traits_impls_1580495174329222168"Saving "51_unsafe_traits_1580495174329309882"Saving "40_unsafe_blocks_1580495174329527382"Saving "30_unsafe_fn_1580495174330992359"Saving "31_no_reason_1580495174331054700"Saving "03_unsafe_calls_1580495174331260952"    Finished dev [unoptimized + debuginfo] target(s) in 2.82s

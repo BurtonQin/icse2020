@@ -131,6 +131,42 @@ impl<'a, 'tcx> hir::intravisit::Visitor<'tcx> for UnsafeBlocksVisitorData<'tcx> 
             };
             self.super_place(place, context, location);
         }
+
+    fn is_unsafety_user_provided(&self, source_info: SourceInfo) -> bool {
+        match self.source_scope_local_data[source_info.scope].safety {
+            Safety::Safe => {
+                //assert!(false, "loc = {:?}", source_info);
+                // it appears on alloc::alloc::box_free
+                false
+            },
+            Safety::BuiltinUnsafe => { false } // TODO check this
+            Safety::FnUnsafe => { true },
+            Safety::ExplicitUnsafe(node_id) => {
+                let node = self.cx.tcx.hir.get(node_id);
+                if let hir::Node::Block(block) = node {
+                    match block.rules {
+                        hir::BlockCheckMode::DefaultBlock => {
+                            false
+                        }
+                        hir::BlockCheckMode::UnsafeBlock(unsafe_source) |
+                        hir::BlockCheckMode::PushUnsafeBlock(unsafe_source) |
+                        hir::BlockCheckMode::PopUnsafeBlock(unsafe_source) => {
+                            match unsafe_source {
+                                hir::UnsafeSource::UserProvided => {
+                                    true
+                                }
+                                hir::UnsafeSource::CompilerGenerated => {
+                                    false
+                                }
+                            }
+                        }
+                    }
+                } else {
+                    assert!(false); false
+                }
+            },
+        }
+    }
 }
 
 pub fn is_library_crate(crate_name: &String) -> bool {
