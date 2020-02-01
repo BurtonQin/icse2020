@@ -79,7 +79,7 @@ pub fn load_dependencies(used_crates:HashSet<String>) -> FxHashMap<String,CrateI
 
     if manifest_path.as_path().exists() {
         match  cargo_metadata::metadata(Some(&manifest_path)) {
-            Err(s) => error!("cargo_metadata::metadata" + s),
+            Err(s) => error!("cargo_metadata::metadata {:?}", s),
             Ok(metadata) => {
                 for package in metadata.packages {
                     let crate_name = package.name.to_string().replace("-", "_");
