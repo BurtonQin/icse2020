@@ -78,18 +78,21 @@ pub fn load_dependencies(used_crates:HashSet<String>) -> FxHashMap<String,CrateI
     let mut result = FxHashMap::default();
 
     if manifest_path.as_path().exists() {
-        let metadata =
-            cargo_metadata::metadata(Some(&manifest_path)).unwrap();
-        for package in metadata.packages {
-            let crate_name = package.name.to_string().replace("-", "_");
-            if let None = used_crates.get(&crate_name) {
-                info!("Crate not used {:?}", crate_name);
-            } else {
-                result.insert(package.name.to_string(), CrateInfo::new(
-                    crate_name,
-                    package.version.to_string(),
-                ));
-            }
+        match  cargo_metadata::metadata(Some(&manifest_path)) {
+            Err(s) => error!("cargo_metadata::metadata" + s),
+            Ok(metadata) => {
+                for package in metadata.packages {
+                    let crate_name = package.name.to_string().replace("-", "_");
+                    if let None = used_crates.get(&crate_name) {
+                        info!("Crate not used {:?}", crate_name);
+                    } else {
+                        result.insert(package.name.to_string(), CrateInfo::new(
+                            crate_name,
+                            package.version.to_string(),
+                        ));
+                    }
+                }
+            },
         }
     } else {
         error!("Cargo file does not exists! {:?}", manifest_path);
