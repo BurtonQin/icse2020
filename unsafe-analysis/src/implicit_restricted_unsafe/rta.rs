@@ -394,7 +394,6 @@ impl<'a, 'b, 'tcx:'a+'b>  CallsVisitor<'a, 'b, 'tcx> {
                     if let Some(cd) = self.call_graph.get(&no_substs_ctx) {
                         cd.calls.clone()
                     } else {
-                        assert!(false);
                         None
                     };
                 if let Some(calls) = calls_no_substs_opt { // there are calls
