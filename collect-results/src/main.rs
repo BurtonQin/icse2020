@@ -12,9 +12,9 @@ extern crate serde_json;
 
 extern crate results;
 
-mod rq01;
-mod rq02;
-mod rq03;
+mod rq01_blocks;
+mod rq01_func;
+mod rq01_traits;
 mod rq04;
 mod rq05;
 mod rq06;
@@ -51,12 +51,13 @@ fn main() {
     let crates = get_crates_recent_versions(crates_file);
     //rq01::process_rq(&crates);
     //rq02::process_rq(&crates);
-    // rq03::process_rq(&crates);
-    // rq04::process_rq(&crates);
+    //rq03::process_rq(&crates);
+    //rq04::process_rq(&crates);
     // rq05::process_rq(&crates);
     // rq06::process_rq(&crates);
     // rq07::process_rq(&crates);
     rq08::calculate_percentage();
+    //rq08::calculate_dependency_size();
 
     //external_unsafe(&crates);
 }
@@ -123,6 +124,7 @@ fn get_crates_recent_versions(file: Option<String>) -> Vec<(String,String)> {
     }
     res
 }
+
 
 
 // fn external_unsafe() {

@@ -34,8 +34,8 @@ pub static UNSAFE_CALLS_USER_ONLY: &'static str = "03_unsafe_calls_user_only";
 pub static IMPLICIT_RTA_OPTIMISTIC_FILENAME: &'static str = "11_precise_opt_unsafe_in_call_tree";
 pub static IMPLICIT_RTA_PESSIMISTIC_FILENAME: &'static str = "11_precise_pes_unsafe_in_call_tree";
 
-pub static COARSE_RTA_OPTIMISTIC_FILENAME: &'static str = "11_coarse_opt_unsafe_in_call_tree";
-pub static COARSE_RTA_PESSIMISTIC_FILENAME: &'static str = "11_coarse_pes_unsafe_in_call_tree";
+pub static RESTRICTED_RTA_OPTIMISTIC_FILENAME: &'static str = "12_restricted_opt_unsafe_in_call_tree";
+pub static RESTRICTED_RTA_PESSIMISTIC_FILENAME: &'static str = "12_restricted_pes_unsafe_in_call_tree";
 
 pub static FN_UNSAFETY_SOURCES_FILE_NAME: &'static str = "30_unsafe_fn";
 pub static NO_REASON_FOR_UNSAFE: &'static str = "31_no_reason";

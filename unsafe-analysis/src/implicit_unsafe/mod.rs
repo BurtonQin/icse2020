@@ -1,10 +1,7 @@
 use rustc::hir;
-
-pub mod coarse;
 mod deps;
 pub mod rta;
-//pub mod rta1;
-
+use rustc;
 
 struct UnsafeBlocksVisitorData<'tcx> {
     hir: &'tcx hir::map::Map<'tcx>,
@@ -14,13 +11,17 @@ struct UnsafeBlocksVisitorData<'tcx> {
 impl<'a, 'tcx> hir::intravisit::Visitor<'tcx> for UnsafeBlocksVisitorData<'tcx> {
     fn visit_block(&mut self, b: &'tcx hir::Block) {
         match b.rules {
-            hir::BlockCheckMode::DefaultBlock => {
-                hir::intravisit::walk_block(self, b);
-            }
-            hir::BlockCheckMode::UnsafeBlock(_unsafe_source)
-            | hir::BlockCheckMode::PushUnsafeBlock(_unsafe_source)
-            | hir::BlockCheckMode::PopUnsafeBlock(_unsafe_source) => {
-                self.has_unsafe = true;
+            rustc::hir::BlockCheckMode::DefaultBlock => {}
+            rustc::hir::BlockCheckMode::UnsafeBlock(unsafe_source) |
+            rustc::hir::BlockCheckMode::PushUnsafeBlock(unsafe_source) |
+            rustc::hir::BlockCheckMode::PopUnsafeBlock(unsafe_source) => {
+                match unsafe_source {
+                    rustc::hir::UnsafeSource::UserProvided => {
+                        self.has_unsafe = true;
+                    }
+                    rustc::hir::UnsafeSource::CompilerGenerated => {
+                    }
+                }
             }
         }
     }

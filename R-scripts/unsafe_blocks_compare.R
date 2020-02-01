@@ -37,6 +37,7 @@ for (row in 1:nrow(res2018)) {
     not_found <- not_found + 1
   } else {
     if (nrow(new_data)>1) {
+      print(crate_name)
       multiples <- multiples + 1
     } else {
       blocks2019 <- as.integer(new_data[1,2])

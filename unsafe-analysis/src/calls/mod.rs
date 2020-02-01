@@ -5,12 +5,9 @@ use rustc::mir::{BasicBlock, Location, Mir, Terminator, TerminatorKind, Safety, 
                  Rvalue, AggregateKind, SourceInfo, SourceScope, SourceScopeLocalData};
 use rustc::mir::visit::Visitor;
 use rustc_data_structures::indexed_vec::IndexVec;
-use rustc::ty;
 use rustc::ty::TyKind;
 use rustc_target;
-use results::Abi;
 use rustc::hir::def_id::DefId;
-use syntax::ast::NodeId;
 use convert_abi;
 use get_fn_path;
 

@@ -9,11 +9,13 @@ library(scales)
 
 output_dir <- "~/work/unsafe-analysis-data/paper/"
 res <- read.table( file="~/unsafe_analysis/analysis-data/research-questions/rq01"
+  #file="/home/nora/work/unsafe-analysis-data/research-questions/servo/research-questions-servo-all/rq01"
                    , header=FALSE
                    , sep='\t'
                    , comment.char = "#"
                    , col.names=c("blocks", "user", "total", "name"))
-res90 <- read.table( file="~/unsafe_analysis/analysis-data/research-questions-90-percent/rq01"
+res90 <- read.table( #file="~/unsafe_analysis/analysis-data/research-questions-90-percent/rq01"
+  file="/home/nora/work/unsafe-analysis-data/research-questions/servo/research-questions-servo-only/rq01"
                      , header=FALSE
                      , sep='\t'
                      , comment.char = "#"

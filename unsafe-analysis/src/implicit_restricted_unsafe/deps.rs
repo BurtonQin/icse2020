@@ -1,11 +1,9 @@
-use fxhash::{FxHashMap,FxHashSet};
+use fxhash::FxHashMap;
 
 use cargo::core::Workspace;
 use cargo::ops;
 use cargo::Config;
 use results::implicit::UnsafeInBody;
-use rustc::hir;
-use syntax::ast::NodeId;
 use rustc::hir::def_id::DefId;
 use rustc::lint::LateContext;
 use std::env;
@@ -14,16 +12,16 @@ use std::io::BufReader;
 use std::path::PathBuf;
 use std::collections::HashSet;
 use std::path::Path;
-use implicit_unsafe::is_library_crate;
+use implicit_restricted_unsafe::is_library_crate;
 use results::implicit::FnType;
 use results::FileOps;
 
-pub fn load<'a, 'tcx>( cx: &'a LateContext<'a, 'tcx>, calls: &FxHashMap<String,DefId>, optimistic: bool, coarse: bool)
+pub fn load<'a, 'tcx>( cx: &'a LateContext<'a, 'tcx>, calls: &FxHashMap<String,DefId>, optimistic: bool)
     -> FxHashMap<DefId,UnsafeInBody> {
     let mut result = FxHashMap::default();
     let crates = load_dependencies( get_all_used_crates(cx,calls) );
     for crate_info in crates.values() {
-        let mut analysis = load_analysis(cx, crate_info, calls, optimistic, coarse, &mut result);
+        let mut analysis = load_analysis(cx, crate_info, calls, optimistic, &mut result);
         if let Ok(()) = analysis {
         } else {
             error!("Error processing crate {:?}", crate_info.name);
@@ -127,7 +125,6 @@ fn load_analysis<'a, 'tcx>(
     crate_info: &CrateInfo,
     calls: &FxHashMap<String,DefId>,
     optimistic: bool,
-    coarse: bool,
     result: &mut FxHashMap<DefId,UnsafeInBody>
 ) -> Result<(), &'static str> {
     //filter external calls to this crate
@@ -177,19 +174,11 @@ fn load_analysis<'a, 'tcx>(
 //                results::FileOps::new(&crate_name, &version, &root_dir)
 //            };
         let files =
-            if coarse {
                 if optimistic {
-                    file_ops.open_files(results::COARSE_RTA_OPTIMISTIC_FILENAME)
+                    file_ops.open_files(results::RESTRICTED_RTA_OPTIMISTIC_FILENAME)
                 } else {
-                    file_ops.open_files(results::COARSE_RTA_PESSIMISTIC_FILENAME)
-                }
-            } else {
-                if optimistic {
-                    file_ops.open_files(results::IMPLICIT_RTA_OPTIMISTIC_FILENAME)
-                } else {
-                    file_ops.open_files(results::IMPLICIT_RTA_PESSIMISTIC_FILENAME)
-                }
-            };
+                    file_ops.open_files(results::RESTRICTED_RTA_PESSIMISTIC_FILENAME)
+                };
 
         if let Some(files) = files {
             for file in files.iter() {

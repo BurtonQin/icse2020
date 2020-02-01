@@ -22,13 +22,13 @@ res90 <- read.table( file="~/unsafe_analysis/analysis-data/research-questions-90
 
 res_aggregate <- count(res, c("abi"))
 res_aggregate$freq <- res_aggregate$freq / nrow(res) 
-res_aggregate$type <- "All"
+res_aggregate$type <- "crates.io"
 
 res90_aggregate <- count(res90, c("abi"))
 res90_aggregate$freq <- res90_aggregate$freq / nrow(res90) 
 res90_aggregate$type <- "Most Downloaded"
 
-exclude <- (subset(res_aggregate, freq < 0.001))[,"abi"]
+exclude <- (subset(res_aggregate, freq < 0.04))[,"abi"]
 res_aggregate <- subset( res_aggregate, !is.element(abi,exclude) )
 res90_aggregate <- subset( res90_aggregate, !is.element(abi,exclude) )
 

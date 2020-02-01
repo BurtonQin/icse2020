@@ -5,6 +5,7 @@ library(plyr)
 library('scales')
 
 res <- read.table( file="~/unsafe_analysis/analysis-data/research-questions/rq05"
+  #file="/home/nora/work/unsafe-analysis-data/research-questions/servo/research-questions-servo-all/rq05"
                    , header=FALSE
                    , sep=','
                    , comment.char = "#"
@@ -15,6 +16,11 @@ res90 <- read.table( file="~/unsafe_analysis/analysis-data/research-questions-90
                    , sep=','
                    , comment.char = "#"
                    , col.names=c("source", "user","crate"))
+
+res <- subset(res, source != 'From Trait')
+res <- subset(res, source != 'Raw Pointer Argument')
+res90 <- subset(res90, source != 'From Trait')
+res90 <- subset(res90, source != 'Raw Pointer Argument')
 
 res_aggregate <- count(res, c("source"))
 res_aggregate$freq <- res_aggregate$freq / nrow(res) 

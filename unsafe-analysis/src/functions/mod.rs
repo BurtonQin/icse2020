@@ -14,7 +14,9 @@ use results::functions::Argument;
 use results::functions::ArgumentKind;
 use results::functions::ShortFnInfo;
 
-pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, fns: &Vec<NodeId>, user_defined_only: bool)
+use restricted_unsafe::RestrictedUnsafeVisitor;
+
+pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, fns: &Vec<NodeId>)
         -> (Vec<UnsafeFnUsafetySources>,Vec<ShortFnInfo>) {
 
     let mut sources = Vec::new();
@@ -170,3 +172,22 @@ impl UnsafetySourceCollector for UnsafeFnUsafetySources {
     }
 }
 
+////////////////////// New Analysis for Camera Ready
+// A function is unsafe but has no user defined unsafe operations
+// nor an argument of type pointer
+pub fn run_restricted_unsafe_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, fns: &Vec<NodeId>)
+        -> (Vec<ShortFnInfo>) {
+    let mut sources = Vec::new();
+    for &fn_id in fns {
+        let fn_def_id = cx.tcx.hir.local_def_id(fn_id);
+        let mir = &mut cx.tcx.optimized_mir(fn_def_id);
+        if let Some(mut body_visitor) = RestrictedUnsafeVisitor::new(cx, mir, fn_def_id)  {
+            body_visitor.visit_mir(mir);
+            if body_visitor.has_unsafe() {
+                sources.push(build_short_fn_info(cx,fn_id));
+            }
+        }
+
+    }
+    (sources)
+}

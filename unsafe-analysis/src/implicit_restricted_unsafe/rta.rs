@@ -1,26 +1,19 @@
 use syntax::ast::NodeId;
-use rustc::hir;
 use rustc::hir::def_id::DefId;
 use rustc::mir::visit::Visitor;
-use rustc::mir;
-use rustc::mir::{BasicBlock, Location, Operand, Terminator, TerminatorKind, Mir};
+use rustc::mir::{BasicBlock, Location, Terminator, TerminatorKind, Mir};
 use rustc::ty::TyKind;
-use rustc::ty::TypeFoldable;
 use rustc::ty::subst::Substs;
-use rustc::ty::subst::Subst;
 use rustc::ty;
 use rustc::lint::LateContext;
-
+use rustc::hir;
 use fxhash::{FxHashMap,FxHashSet};
-use implicit_unsafe::UnsafeBlocksVisitorData;
 use get_fn_path;
-use std::hash::Hash;
-use std::cmp::Eq;
-use std::cmp::PartialEq;
-use implicit_unsafe;
 use results::implicit::UnsafeInBody;
 use results::implicit::FnType;
-use implicit_unsafe::deps;
+use implicit_restricted_unsafe::deps;
+use restricted_unsafe::RestrictedUnsafeVisitor;
+use implicit_restricted_unsafe;
 
 #[derive(PartialEq,Eq,Hash,Debug,Clone,Copy)]
 struct CallContext<'tcx> {
@@ -115,15 +108,13 @@ pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>
 
     //load external calls info
     let implicit_external: FxHashMap<DefId,UnsafeInBody> =
-        deps::load(cx, &external_calls, optimistic, false);
+        deps::load(cx, &external_calls, optimistic);
 
     for cc in call_graph.keys() {
         if !cc.def_id.is_local() {
-
             info!("Searching for {:?}", cc.def_id);
 
             if let Some(ub) = implicit_external.get(&cc.def_id) {
-
                 info!("Found {:?}", ub);
 
                 match ub.fn_type {
@@ -148,31 +139,6 @@ pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>
             }
         }
     }
-
-//    for (&def_id, ref ub) in implicit_external.iter() {
-//
-//        info!("Checking {:?}: {:?}", def_id, ub);
-//
-//        if let FnType::NormalNotSafe = ub.fn_type {
-//
-//            info!("{:?} is NormalNotSafe", def_id);
-//
-//            // find all call contexts with same def id
-//            for cc in call_graph.keys() {
-//
-//                info!("Processing {:?}", cc);
-//
-//                if cc.def_id == def_id {
-//
-//                    info!("Marking {:?} as unsafe", cc);
-//
-//                    with_unsafe.insert(
-//                        cc.clone()
-//                    );
-//                }
-//            }
-//        }
-//    }
 
 
     info!("external calls +++++++++++++++++++++++++++++++++++++++++++");
@@ -305,20 +271,13 @@ pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>
 
 }
 
-fn has_unsafe_block<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, fn_id: DefId) -> bool {
-    let mut body_visitor = UnsafeBlocksVisitorData {
-        hir: &cx.tcx.hir,
-        has_unsafe: false,
-    };
-    if let Some (fn_node_id) = cx.tcx.hir.as_local_node_id(fn_id) {
-        let body_id = cx.tcx.hir.body_owned_by(fn_node_id);
-        let body = cx.tcx.hir.body(body_id);
-        hir::intravisit::walk_body(&mut body_visitor, body);
-        body_visitor.has_unsafe
+fn has_unsafe_block<'a, 'tcx:'a>(cx: &LateContext<'a, 'tcx>, fn_id: DefId) -> bool {
+    let mir = &cx.tcx.optimized_mir(fn_id);
+    if let Some (mut visitor) = RestrictedUnsafeVisitor::new(cx, mir, fn_id) {
+        visitor.visit_mir(mir);
+        visitor.has_unsafe()
     } else {
-        // this should not happen
-        assert!(true);
-        true
+        false
     }
 }
 
@@ -581,7 +540,7 @@ impl<'a, 'b, 'tcx:'a+'b> Visitor<'tcx> for CallsVisitor<'a,'b,'tcx> {
                 let mut cco = None;
                 match func.ty(&self.mir.local_decls, self.cx.tcx).sty {
                     TyKind::FnDef(callee_def_id, callee_substs) => {
-                        if implicit_unsafe::is_library_crate(&self.cx.tcx.crate_name(callee_def_id.krate).to_string()) {
+                        if implicit_restricted_unsafe::is_library_crate(&self.cx.tcx.crate_name(callee_def_id.krate).to_string()) {
                             // do nothing
                         } else {
                             // find actual method call

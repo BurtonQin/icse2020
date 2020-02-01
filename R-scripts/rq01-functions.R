@@ -5,12 +5,14 @@ library(plyr)
 library(Hmisc)
 library(scales)
 
-res <- read.table( file="~/unsafe_analysis/analysis-data/research-questions/rq02"
+res <- read.table( #file="~/unsafe_analysis/analysis-data/research-questions/rq02"
+  file="/home/nora/work/unsafe-analysis-data/research-questions/servo/research-questions-servo-all/rq02"
                    , header=FALSE
                    , sep='\t'
                    , comment.char = "#"
                    , col.names=c("functions", "name"))
-res90 <- read.table( file="~/unsafe_analysis/analysis-data/research-questions-90-percent/rq02"
+res90 <- read.table( #file="~/unsafe_analysis/analysis-data/research-questions-90-percent/rq02"
+  file="/home/nora/work/unsafe-analysis-data/research-questions/servo/research-questions-servo-only/rq02"
                    , header=FALSE
                    , sep='\t'
                    , comment.char = "#"

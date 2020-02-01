@@ -1,22 +1,15 @@
 use syntax::ast::NodeId;
-use rustc::hir;
 use rustc::hir::def_id::DefId;
 use rustc::mir::visit::Visitor;
-use rustc::mir;
-use rustc::mir::{BasicBlock, Location, Operand, Terminator, TerminatorKind, Mir};
+use rustc::mir::{BasicBlock, Location, Terminator, TerminatorKind, Mir};
 use rustc::ty::TyKind;
-use rustc::ty::TypeFoldable;
 use rustc::ty::subst::Substs;
-use rustc::ty::subst::Subst;
 use rustc::ty;
 use rustc::lint::LateContext;
-
+use rustc::hir;
 use fxhash::{FxHashMap,FxHashSet};
 use implicit_unsafe::UnsafeBlocksVisitorData;
 use get_fn_path;
-use std::hash::Hash;
-use std::cmp::Eq;
-use std::cmp::PartialEq;
 use implicit_unsafe;
 use results::implicit::UnsafeInBody;
 use results::implicit::FnType;
@@ -115,7 +108,7 @@ pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>
 
     //load external calls info
     let implicit_external: FxHashMap<DefId,UnsafeInBody> =
-        deps::load(cx, &external_calls, optimistic, false);
+        deps::load(cx, &external_calls, optimistic);
 
     for cc in call_graph.keys() {
         if !cc.def_id.is_local() {

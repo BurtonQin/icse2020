@@ -6,7 +6,7 @@ use std::io::Write;
 use results::unsafety_sources::SourceKind;
 
 pub fn process_rq(crates: &Vec<(String,String)>) {
-    let output_file = ::get_output_file("rq05-args");
+    let output_file = ::get_output_file("rq05");
     let mut writer = BufWriter::new(output_file);
     for (crate_name, version) in crates {
         let dir_name = ::get_full_analysis_dir();
@@ -27,16 +27,27 @@ pub fn process_rq(crates: &Vec<(String,String)>) {
                         let res1: serde_json::Result<results::functions::UnsafeFnUsafetySources> = serde_json::from_str(&trimmed_line);
 
                         if let Ok(res) = res1 {
-
-                            let mut args_only = false;
-                            if res.sources().is_empty() && res.arguments().len() > 0 {
-                                args_only = true;
+                            for src in res.sources() {
+                                writeln!(writer, "{:?},{:?},{}"
+                                         , src.kind
+                                         , src.user_provided
+                                         , crate_name
+                                );
                             }
-
-                            writeln!(writer, "{},{}"
-                                     , args_only
-                                     , crate_name
-                            );
+                            if res.from_trait() {
+                                writeln!(writer, "{},{:?},{}"
+                                         , "From Trait"
+                                         , true
+                                         , crate_name
+                                );
+                            }
+                            if res.arguments().len() > 0 {
+                                writeln!(writer, "{},{:?},{}"
+                                         , "Raw Pointer Argument"
+                                         , true
+                                         , crate_name
+                                );
+                            }
                         } else {
                             error!("Could not process {:?} line: {:?}", crate_name, trimmed_line);
                         }

@@ -4,12 +4,14 @@ library(Hmisc)
 library(DescTools)
 
 #Traits
-res <- read.table( file="~/unsafe_analysis/analysis-data/research-questions/rq03-traits"
+res <- read.table( #file="~/unsafe_analysis/analysis-data/research-questions/rq03-traits"
+                   file="/home/nora/work/unsafe-analysis-data/research-questions/servo/research-questions-servo-all/rq03-traits"
                    , header=FALSE
                    , sep='\t'
                    , comment.char = "#"
                    , col.names=c("crate", "count"))
-res90 <- read.table( file="~/unsafe_analysis/analysis-data/research-questions-90-percent/rq03-traits"
+res90 <- read.table(# file="~/unsafe_analysis/analysis-data/research-questions-90-percent/rq03-traits"
+  file="/home/nora/work/unsafe-analysis-data/research-questions/servo/research-questions-servo-all/rq03-traits"
                    , header=FALSE
                    , sep='\t'
                    , comment.char = "#"
@@ -25,12 +27,14 @@ write(formatC(nonzero*100,digits = 1, format = "f"), file=nonzero_filename)
 write(formatC(nonzero90*100,digits = 1, format = "f"), file=nonzero90_filename)
 
 # Implementations
-res <- read.table( file="~/unsafe_analysis/analysis-data/research-questions/rq03-impls"
+res <- read.table( #file="~/unsafe_analysis/analysis-data/research-questions/rq03-impls"
+  file="/home/nora/work/unsafe-analysis-data/research-questions/servo/research-questions-servo-all/rq03-impls"
                    , header=FALSE
                    , sep='\t'
                    , comment.char = "#"
                    , col.names=c("crate", "count"))
-res90 <- read.table( file="~/unsafe_analysis/analysis-data/research-questions-90-percent/rq03-impls"
+res90 <- read.table( #file="~/unsafe_analysis/analysis-data/research-questions-90-percent/rq03-impls"
+  file="/home/nora/work/unsafe-analysis-data/research-questions/servo/research-questions-servo-all/rq03-impls"
                    , header=FALSE
                    , sep='\t'
                    , comment.char = "#"
@@ -48,7 +52,8 @@ write(formatC(nonzero90*100,digits = 1, format = "f"), file=nonzero90_filename)
 
 library(DescTools)
 
-res <- read.table( file="~/unsafe_analysis/analysis-data/research-questions/rq03-impls-names"
+res <- read.table( #file="~/unsafe_analysis/analysis-data/research-questions/rq03-impls-names"
+  file="/home/nora/work/unsafe-analysis-data/research-questions/servo/research-questions-servo-all/rq03-impls-names"
                    , header=FALSE
                    , sep='\t'
                    , comment.char = "#"
