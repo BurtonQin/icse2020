@@ -365,7 +365,9 @@ impl<'a, 'b, 'tcx:'a+'b>  CallsVisitor<'a, 'b, 'tcx> {
                                           self.depth);
                     calls_visitor.visit_mir(mir);
                 } else { // Not a local call
-                    assert!(false);
+                    if !self.optimistic {
+                        self.with_unsafe.insert(no_substs_ctx.clone());
+                    }
                 }
             }
 
