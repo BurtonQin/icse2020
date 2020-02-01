@@ -20,7 +20,7 @@ cd $CRATES_DIR
 
 echo $CRATES_DIR
 
-for x in {a..z}
+for x in {b..z}
 do
 	for d in $(ls -d $CRATES_DIR/$x*)
 	do
@@ -41,17 +41,17 @@ do
 	    if [ $RESULT -eq 0 ]; then
         	echo "$d">>$PROJECT_OUT/analysis_pass.txt
 	    else
+		echo "Compilation FAILED ... removing $FULL_ANALYSIS_DIR"
 		rm -rf $FULL_ANALYSIS_DIR
 		echo "$d">>$PROJECT_OUT/analysis_fails.txt
         	
 	    fi
 	    cargo +$NIGHTLY clean
 	done
-	pushd ${UNSAFE_ANALYSIS_DIR}/full-analysis/
-	tar czf ${x}.tgz ${x}*
-	mv ${x}.tgz ${UNSAFE_ANALYSIS_DIR}
-	rm -rf ${x}*
-	popd
+	#pushd ${UNSAFE_ANALYSIS_DIR}/full-analysis/
+	#tar czf ${x}.tgz ${x}*
+	#mv ${x}.tgz ${UNSAFE_ANALYSIS_DIR}
+	#rm -rf ${x}*
 done
 
 cd $CRT_DIR
