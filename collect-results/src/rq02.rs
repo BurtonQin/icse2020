@@ -5,21 +5,22 @@ use std::io::BufWriter;
 use std::io::Write;
 use std::fs::File;
 
-pub fn process_rq(crates: &Vec<(String,String)>) {
-    let mut writer_opt = BufWriter::new(::get_output_file("rq07_opt"));
-    let mut writer_pes = BufWriter::new( ::get_output_file("rq07_pes"));
+
+pub fn process_rq(crates: &Vec<(String,String)>, restricted_unsafe: bool) {
+    let mut writer_opt = BufWriter::new(::get_output_file( if restricted_unsafe {"rq02-opt"} else {"rq02-restricted-opt"}));
+    let mut writer_pes = BufWriter::new( ::get_output_file(if restricted_unsafe {"rq02-pes"} else {"rq02-restricted-pes"}));
     for (crate_name, version) in crates {
         info!("Processing crate {:?}", crate_name);
         let dir_name = ::get_full_analysis_dir();
         let file_ops = results::FileOps::new( crate_name, &version, &dir_name );
-        if let Some (files) = file_ops.open_files(results::IMPLICIT_RTA_OPTIMISTIC_FILENAME) {
+        if let Some (files) = file_ops.open_files( if restricted_unsafe {results::RESTRICTED_RTA_OPTIMISTIC_FILENAME} else {results::IMPLICIT_RTA_OPTIMISTIC_FILENAME}) {
             for file in files.iter() {
                 process_file(file, &mut writer_opt, crate_name);
             }
         } else {
             error!("Implicit unsafe optimistic files missing for crate {:?}", crate_name);
         }
-        if let Some (files) = file_ops.open_files(results::IMPLICIT_RTA_PESSIMISTIC_FILENAME) {
+        if let Some (files) = file_ops.open_files(if restricted_unsafe {results::RESTRICTED_RTA_PESSIMISTIC_FILENAME} else {results::IMPLICIT_RTA_PESSIMISTIC_FILENAME}) {
             for file in files.iter() {
                 process_file(file, &mut writer_pes, crate_name);
             }

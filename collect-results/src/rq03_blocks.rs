@@ -6,9 +6,9 @@ use std::io::Write;
 use results::unsafety_sources::SourceKind;
 
 pub fn process_rq(crates: &Vec<(String,String)>) {
-    let output_file = ::get_output_file("rq04");
+    let output_file = ::get_output_file("rq03-blocks");
     let mut writer = BufWriter::new(output_file);
-    let calls_file = ::get_output_file("rq04-calls");
+    let calls_file = ::get_output_file("rq03-blocks-calls");
     let mut calls_writer = BufWriter::new(calls_file);
     for (crate_name, version) in crates {
 

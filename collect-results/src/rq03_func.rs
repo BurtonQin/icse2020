@@ -6,7 +6,7 @@ use std::io::Write;
 use results::unsafety_sources::SourceKind;
 
 pub fn process_rq(crates: &Vec<(String,String)>) {
-    let output_file = ::get_output_file("rq05");
+    let output_file = ::get_output_file("rq03-func");
     let mut writer = BufWriter::new(output_file);
     for (crate_name, version) in crates {
         let dir_name = ::get_full_analysis_dir();

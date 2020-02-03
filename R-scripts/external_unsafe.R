@@ -1,6 +1,6 @@
 library(dplyr)
 
-blocks <- read.table( file="~/unsafe_analysis/analysis-data/research-questions/rq01"
+blocks <- read.table( file="~/unsafe_analysis/analysis-data/research-questions/rq01-blocks"
                    , header=FALSE
                    , sep='\t'
                    , comment.char = "#"
@@ -8,7 +8,7 @@ blocks <- read.table( file="~/unsafe_analysis/analysis-data/research-questions/r
 
 no_unsafe_blocks <- (subset(blocks, user==0))[c(4)]
 
-functions <- read.table( file="~/unsafe_analysis/analysis-data/research-questions/rq02"
+functions <- read.table( file="~/unsafe_analysis/analysis-data/research-questions/rq01-func"
                    , header=FALSE
                    , sep='\t'
                    , comment.char = "#"
@@ -16,13 +16,13 @@ functions <- read.table( file="~/unsafe_analysis/analysis-data/research-question
 
 no_usafe_functions <- (subset(functions, functions==0))[c(2)]
 
-res <- read.table( file="~/unsafe_analysis/analysis-data/research-questions/rq07_opt"
+res <- read.table( file="~/unsafe_analysis/analysis-data/research-questions/rq02-opt"
                    , header=FALSE
                    , sep='\t'
                    , comment.char = "#"
                    , col.names=c("crate", "no"))
 
-res1 <- read.table( file="~/unsafe_analysis/analysis-data/research-questions/rq07_pes"
+res1 <- read.table( file="~/unsafe_analysis/analysis-data/research-questions/rq02-pes"
                     , header=FALSE
                     , sep='\t'
                     , comment.char = "#"

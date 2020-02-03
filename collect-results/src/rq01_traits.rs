@@ -12,7 +12,7 @@ pub fn process_rq(crates: &Vec<(String,String)>) {
 }
 
 pub fn process_rq_count(crates: &Vec<(String,String)>, traits:bool) {
-    let output_file = ::get_output_file(if traits {"rq03-traits"} else {"rq03-impls"});
+    let output_file = ::get_output_file(if traits {"rq01-traits"} else {"rq01-impls"});
     let mut writer = BufWriter::new(output_file);
 
     for (crate_name, version) in crates {
@@ -59,7 +59,7 @@ pub fn process_rq_count(crates: &Vec<(String,String)>, traits:bool) {
 }
 
 pub fn process_rq_impls(crates: &Vec<(String,String)>) {
-    let output_file = ::get_output_file("rq03-impls-names");
+    let output_file = ::get_output_file("rq01-impls-names");
     let mut writer = BufWriter::new(output_file);
 
     for (crate_name, version) in crates {

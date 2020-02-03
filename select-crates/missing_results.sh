@@ -11,12 +11,12 @@ do
 	then
 		if [ -z "`find \"$FULL_ANALYSIS_DIR/$DIR\" -mindepth 1 -exec echo notempty \; -quit`" ] 
 		then
-    			echo "$DIR"
+    			echo "$CRATES_DIR/$DIR"
 		else
 			echo -n ""		
 		fi
 	else
-		echo "$DIR"
+		echo "$CRATES_DIR/$DIR"
 	fi
 done
 
