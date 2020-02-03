@@ -20,9 +20,9 @@ cd $CRATES_DIR
 
 echo $CRATES_DIR
 
-for x in {f..z}
+for x in {a..z}
 do
-	for d in $(ls -d $CRATES_DIR/g$x*)
+	for d in $(ls -d $CRATES_DIR/$x*)
 	do
 	    echo "Compiling $d"
 
