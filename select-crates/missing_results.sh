@@ -2,22 +2,16 @@
 
 source ../exports.sh
 
-CRT_DIR=`pwd`
-cd $CRATES_DIR
-for d in $(ls -d $CRATES_DIR/*)
-do
-	DIR=`basename $d`
-	if [ -d $FULL_ANALYSIS_DIR/$DIR ] 
+while read d; do
+	if [ -d $FULL_ANALYSIS_DIR/$d ] 
 	then
-		if [ -z "`find \"$FULL_ANALYSIS_DIR/$DIR\" -mindepth 1 -exec echo notempty \; -quit`" ] 
+		if [ -z "`find \"$FULL_ANALYSIS_DIR/$d\" -mindepth 1 -exec echo notempty \; -quit`" ] 
 		then
-    			echo "$CRATES_DIR/$DIR"
+    			echo "$CRATES_DIR/$d"
 		else
 			echo -n ""		
 		fi
 	else
-		echo "$CRATES_DIR/$DIR"
+		echo "$CRATES_DIR/$d"
 	fi
-done
-
-cd $CRT_DIR
+done < "${PROJECT_HOME}/select-crates/crates_list.txt"
