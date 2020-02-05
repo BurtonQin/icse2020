@@ -79,29 +79,72 @@ impl CrateInfo {
 pub fn load_dependencies(used_crates:HashSet<String>) -> FxHashMap<String,CrateInfo> {
     let mut manifest_path = PathBuf::from(env::var("CARGO_MANIFEST_DIR").unwrap());
     manifest_path.push("Cargo.toml");
+
+//    info!("manifest path {:?}", manifest_path);
     let mut result = FxHashMap::default();
 
     if manifest_path.as_path().exists() {
-        match  cargo_metadata::metadata(Some(&manifest_path)) {
-            Err(s) => error!("cargo_metadata::metadata {:?}", s),
-            Ok(metadata) => {
-                for package in metadata.packages {
-                    let crate_name = package.name.to_string().replace("-", "_");
-                    if let None = used_crates.get(&crate_name) {
-                        info!("Crate not used {:?}", crate_name);
-                    } else {
-                        result.insert(package.name.to_string(), CrateInfo::new(
-                            crate_name,
-                            package.version.to_string(),
-                        ));
+        match Config::default() {
+            Ok(cargo_config) => {
+                match Workspace::new(&manifest_path.as_path(), &cargo_config) {
+                    Ok(workspace) => {
+                        let resolve_res = ops::resolve_ws(&workspace);
+                        if let Ok((packages, _resolve)) = resolve_res {
+                            for package_id in packages.package_ids() {
+                                if let Ok(package) = packages.get(package_id) {
+                                    let crate_name = package.name().to_string().replace("-", "_");
+                                    if let None = used_crates.get(&crate_name) {
+                                        //info!("Crate not used {:?}", crate_name);
+                                    } else {
+                                        result.insert(package.name().to_string(), CrateInfo::new(
+                                            crate_name,
+                                            package.version().to_string(),
+                                        ));
+                                    }
+                                } else {
+                                    error!("Can't get package {:?}", package_id);
+                                }
+                            }
+                        }
+                    }
+                    Err(e) => {
+                        error!("Error loading workspace {:?}", e);
                     }
                 }
-            },
+            }
+            Err(e) => {
+                error!("Failed to create default configuration {:?}", e);
+            }
         }
     } else {
         error!("Cargo file does not exists! {:?}", manifest_path);
     }
     result
+//    let mut manifest_path = PathBuf::from(env::var("CARGO_MANIFEST_DIR").unwrap());
+//    manifest_path.push("Cargo.toml");
+//    let mut result = FxHashMap::default();
+//
+//    if manifest_path.as_path().exists() {
+//        match  cargo_metadata::metadata(Some(&manifest_path)) {
+//            Err(s) => error!("cargo_metadata::metadata {:?}", s),
+//            Ok(metadata) => {
+//                for package in metadata.packages {
+//                    let crate_name = package.name.to_string().replace("-", "_");
+//                    if let None = used_crates.get(&crate_name) {
+//                        info!("Crate not used {:?}", crate_name);
+//                    } else {
+//                        result.insert(package.name.to_string(), CrateInfo::new(
+//                            crate_name,
+//                            package.version.to_string(),
+//                        ));
+//                    }
+//                }
+//            },
+//        }
+//    } else {
+//        error!("Cargo file does not exists! {:?}", manifest_path);
+//    }
+//    result
 
 }
 
