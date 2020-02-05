@@ -27,15 +27,17 @@ pub fn load<'a, 'tcx>( cx: &'a LateContext<'a, 'tcx>, calls: &FxHashMap<String,D
             error!("Error processing crate {:?}", crate_info.name);
         }
     }
+    error!("result {:?}", result);
     let mut not_found = 0;
     for (fn_name,def_id) in calls.iter() {
         if is_library_crate( &cx.tcx.crate_name(def_id.krate).to_string() ) {
             //info!("Call {:?} from excluded crate", fn_name);
             result.insert(*def_id, UnsafeInBody::new(fn_name.clone(), FnType::Safe, fn_name.to_string()));
         } else {
+            error!("Looking for {:?}", fn_name );
             if !result.contains_key(def_id) {
                 not_found += 1;
-                //info!("Call {:?} not found", fn_name);
+                error!("Call {:?} not found", def_id);
                 result.insert(*def_id, UnsafeInBody::new(fn_name.clone(),
                                                          if optimistic {
                                                              FnType::Safe
@@ -43,10 +45,12 @@ pub fn load<'a, 'tcx>( cx: &'a LateContext<'a, 'tcx>, calls: &FxHashMap<String,D
                                                              FnType::NormalNotSafe
                                                          }
                                                          , fn_name.to_string()));
+            } else {
+                error!("Call {:?} found", def_id);
             }
         }
     }
-    info!("External Calls {:?} NOT Found {:?}", calls.len(), not_found);
+    error!("External Calls {:?} NOT Found {:?}", calls.len(), not_found);
     result
 }
 
