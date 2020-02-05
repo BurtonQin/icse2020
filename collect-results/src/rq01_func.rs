@@ -35,9 +35,10 @@ pub fn process_rq(crates: &Vec<(String,String)>, restricted: bool) {
                                 info!("Processing {:?}: {:?}", crate_name, line);
                             } else {
 
-                                writeln!(writer, "{}\t{}"
-                                             , fn_summary.unsafe_no()
-                                             , crate_name);
+                                writeln!(writer, "{}\t{}\t{}"
+                                    , fn_summary.unsafe_no()
+                                    , fn_summary.total()
+                                    , crate_name);
 
                             }
                         }

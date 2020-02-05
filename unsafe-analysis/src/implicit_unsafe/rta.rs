@@ -111,7 +111,7 @@ pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>
         deps::load(cx, &external_calls, optimistic);
 
     for cc in call_graph.keys() {
-        if !cc.def_id.is_local() {
+        if !cc.def_id.is_local() || (cc.def_id.is_local() && !cx.tcx.mir_keys(hir::def_id::LOCAL_CRATE).contains(&cc.def_id) ){
 
             info!("Searching for {:?}", cc.def_id);
 
@@ -398,10 +398,14 @@ impl<'a, 'b, 'tcx:'a+'b>  CallsVisitor<'a, 'b, 'tcx> {
                                           self.optimistic,
                                           self.depth);
                     calls_visitor.visit_mir(mir);
-                } else { // Can't find it
-                    if !self.optimistic {
-                        self.with_unsafe.insert(no_substs_ctx.clone());
-                    }
+                } else { // Can't find it, sometimes it is still external
+                    info!("Resolve {:?} external call", ctxt.def_id);
+                    // external call
+                    self.external_calls.insert(get_fn_path(self.cx, ctxt.def_id), ctxt.def_id);
+                    self.call_graph.insert(ctxt, CallData{
+                        call_type: CallType::Resolved,
+                        calls: None
+                    });
                 }
             }
 

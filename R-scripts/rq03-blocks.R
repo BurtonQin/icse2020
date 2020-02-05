@@ -4,29 +4,42 @@ library(Hmisc)
 library(plyr)
 library(scales)
 
-
-process_rq <- function(in_file) {
-  res <- read.table( file=in_file
+res <- read.table( file="~/unsafe_analysis/analysis-data/research-questions/rq03-blocks"
+                   , header=FALSE
+                   , sep=','
+                   , comment.char = "#"
+                   , col.names=c("blockid", "source","user","crate"))
+res90 <- read.table( file="~/unsafe_analysis/analysis-data/research-questions-90-percent/rq03-blocks"
                      , header=FALSE
                      , sep=','
                      , comment.char = "#"
                      , col.names=c("blockid", "source","user","crate"))
-  res <- res[which(res$user=="true"),]
-  res_aggregate <- count(res, c("source"))
-  res_aggregate$freq <- res_aggregate$freq / nrow(res) 
-  res_aggregate$type <- "All"
 
-  exclude <- (subset(res_aggregate, freq < 0.001))[,"source"]
-  res_aggregate <- subset( res_aggregate, !is.element(source,exclude) )
+user_only <- res[which(res$user=="true"),]
+user_only90 <- res90[which(res90$user=="true"),]
 
-  for (i in 1:nrow(res_aggregate)) {
-    print( total_frame$source[i])
-    println( percent(total_frame$freq[i]) )
-  }
+user_aggregate <- count(user_only, c("source"))
+user_aggregate$freq <- user_aggregate$freq / nrow(user_only) 
+user_aggregate$type <- "All"
+
+
+user90_aggregate <- count(user_only90, c("source"))
+user90_aggregate$freq <- user90_aggregate$freq / nrow(user_only90) 
+user90_aggregate$type <- "Most Downloaded"
+
+exclude <- (subset(user_aggregate, freq < 0.001))[,"source"]
+user_aggregate <- subset( user_aggregate, !is.element(source,exclude) )
+user90_aggregate <- subset( user90_aggregate, !is.element(source,exclude) )
+
+total_frame <- rbind(user_aggregate,user90_aggregate)
+options(digits = 4)
+
+for (i in 1:nrow(total_frame)) {
+  print(total_frame$type[i])
+  print(total_frame$source[i])
+  print(percent(total_frame$freq[i]))
+  print("\n")
 }
 
-process_rq("~/unsafe_analysis/analysis-data/research-questions/rq03-blocks")
-process_rq("~/unsafe_analysis/analysis-data/research-questions-90-percent/rq03-blocks")
-process_rq("~/unsafe_analysis/analysis-data/research-questions-servo/rq03-blocks")
 
 

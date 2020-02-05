@@ -11,7 +11,7 @@ pub fn process_rq(crates: &Vec<(String,String)>) {
     let mut writer = BufWriter::new(output_file);
 
     for (crate_name, version) in crates {
-        error!("Processing Crate {:?}", crate_name);
+        info!("Processing Crate {:?}", crate_name);
         let dir_name = ::get_full_analysis_dir();
         let file_ops = results::FileOps::new( crate_name, &version, &dir_name );
         if let Some (files) = file_ops.open_files(results::BLOCK_SUMMARY_BB) {

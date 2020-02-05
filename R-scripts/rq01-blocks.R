@@ -7,7 +7,7 @@ library(scales)
 
 ## do not try to use stat_ecf again
 
-output_dir <- "~/work/unsafe-analysis-data/paper/"
+output_dir <- "~/unsafe_analysis/camera-ready/"
 res <- read.table( file="~/unsafe_analysis/analysis-data/research-questions/rq01-blocks"
                    , header=FALSE
                    , sep='\t'
@@ -47,7 +47,7 @@ ggplot() +
     ) +
     scale_y_continuous(
       limits = c(min_y-0.01,1)
-      , breaks = c(none, none90, seq(first_y,1,0.05))
+      , breaks = seq(first_y,1,0.05) #c(none, none90, seq(first_y,1,0.05))
       ,labels = percent
     ) +
     theme(

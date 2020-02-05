@@ -2,7 +2,7 @@
 source ../exports-2019.sh 
 
 export RUST_BACKTRACE=full
-export RUST_LOG=error
+export RUST_LOG=info
 
 # process all
 cargo +$NIGHTLY $1

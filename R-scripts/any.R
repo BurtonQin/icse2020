@@ -61,4 +61,4 @@ process <- function(dir) {
 
 process('~/unsafe_analysis/analysis-data/research-questions/')
 process('~/unsafe_analysis/analysis-data/research-questions-90-percent/')
-process('~/work/unsafe-analysis-data/research-questions/servo/research-questions-servo')
+#process('~/work/unsafe-analysis-data/research-questions/servo/research-questions-servo')

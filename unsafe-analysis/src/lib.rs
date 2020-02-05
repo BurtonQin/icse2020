@@ -91,45 +91,45 @@ impl<'a, 'tcx> LateLintPass<'a, 'tcx> for Functions {
 
         let cnv = local_crate_name_and_version();
         let file_ops = results::FileOps::new(&cnv.0, &cnv.1, &root_dir);
-        // blocks summary
-        let bb_summary: results::blocks::BlockSummary = blocks::run_summary_analysis(cx);
-        let mut file = file_ops.create_file (results::BLOCK_SUMMARY_BB);
-        save_summary_analysis(bb_summary, &mut file);
-
-        // unsafe functions summary
-        let mut fn_summary_file = file_ops.create_file (results::SUMMARY_FUNCTIONS_FILE_NAME);
-        save_summary_analysis(
-            results::functions::Summary::new(
-                self.unsafe_functions.len(),
-                self.unsafe_functions.len() + self.normal_functions.len(),
-            ),
-            &mut fn_summary_file,
-        );
-
-        // unsafe traits
-        let mut impls_file = file_ops.create_file (results::UNSAFE_TRAITS_IMPLS);
-        let mut traits_file = file_ops.create_file (results::UNSAFE_TRAITS);
-        let result = traits::run_analysis(cx);
-        save_analysis(result.unsafe_traits_impls, &mut impls_file);
-        save_analysis(result.unsafe_traits, &mut traits_file);
-        //unsafety sources in blocks
-        let mut bus_file = file_ops.create_file (results::BLOCK_UNSAFETY_SOURCES_FILE_NAME);
-        let bus_res = blocks::run_unsafety_sources_analysis(cx,&self.normal_functions);
-        save_analysis(bus_res, &mut bus_file);
-       //unsafety in functions
-        let (fn_unsafety,no_reason) = functions::run_sources_analysis(cx,&self.unsafe_functions);
-        let mut file = file_ops.create_file (results::FN_UNSAFETY_SOURCES_FILE_NAME);
-        save_analysis(fn_unsafety,&mut file);
-        let mut file = file_ops.create_file (results::NO_REASON_FOR_UNSAFE);
-        let no_reason = functions::run_restricted_unsafe_analysis(cx,&self.unsafe_functions);
-        save_summary_analysis(results::functions::Summary::new(no_reason.len(),
-                                                               self.unsafe_functions.len()),&mut file);
-        //unsafe function calls
-        let unsafe_calls = calls::run_analysis(cx);
-        let mut file = file_ops.create_file (results::UNSAFE_CALLS);
-        save_analysis(unsafe_calls, &mut file);
-
-
+//        // blocks summary
+//        let bb_summary: results::blocks::BlockSummary = blocks::run_summary_analysis(cx);
+//        let mut file = file_ops.create_file (results::BLOCK_SUMMARY_BB);
+//        save_summary_analysis(bb_summary, &mut file);
+//
+//        // unsafe functions summary
+//        let mut fn_summary_file = file_ops.create_file (results::SUMMARY_FUNCTIONS_FILE_NAME);
+//        save_summary_analysis(
+//            results::functions::Summary::new(
+//                self.unsafe_functions.len(),
+//                self.unsafe_functions.len() + self.normal_functions.len(),
+//            ),
+//            &mut fn_summary_file,
+//        );
+//
+//        // unsafe traits
+//        let mut impls_file = file_ops.create_file (results::UNSAFE_TRAITS_IMPLS);
+//        let mut traits_file = file_ops.create_file (results::UNSAFE_TRAITS);
+//        let result = traits::run_analysis(cx);
+//        save_analysis(result.unsafe_traits_impls, &mut impls_file);
+//        save_analysis(result.unsafe_traits, &mut traits_file);
+//        //unsafety sources in blocks
+//        let mut bus_file = file_ops.create_file (results::BLOCK_UNSAFETY_SOURCES_FILE_NAME);
+//        let bus_res = blocks::run_unsafety_sources_analysis(cx,&self.normal_functions);
+//        save_analysis(bus_res, &mut bus_file);
+//       //unsafety in functions
+//        let (fn_unsafety,no_reason) = functions::run_sources_analysis(cx,&self.unsafe_functions);
+//        let mut file = file_ops.create_file (results::FN_UNSAFETY_SOURCES_FILE_NAME);
+//        save_analysis(fn_unsafety,&mut file);
+//        let mut file = file_ops.create_file (results::NO_REASON_FOR_UNSAFE);
+//        let no_reason = functions::run_restricted_unsafe_analysis(cx,&self.unsafe_functions);
+//        save_summary_analysis(results::functions::Summary::new(no_reason.len(),
+//                                                               self.unsafe_functions.len()),&mut file);
+//        //unsafe function calls
+//        let unsafe_calls = calls::run_analysis(cx);
+//        let mut file = file_ops.create_file (results::UNSAFE_CALLS);
+//        save_analysis(unsafe_calls, &mut file);
+//
+//
         let mut all_fn_ids = Vec::new();
         for fn_id in self.normal_functions.iter() {
             all_fn_ids.push(*fn_id)

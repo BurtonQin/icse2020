@@ -6,7 +6,10 @@ library(Hmisc)
 library(scales)
 
 process_rq <- function( opt_file, pes_file, out_file, t ) {
-  cdf_filename <- "~/work/unsafe-analysis-data/paper/" + out_file
+
+  print(out_file)
+  
+  cdf_filename <- paste("~/unsafe_analysis/camera-ready/", out_file)
   
   res <- read.table( file=opt_file
                      , header=FALSE
@@ -86,30 +89,30 @@ process_rq <- function( opt_file, pes_file, out_file, t ) {
 
 process_rq("~/unsafe_analysis/analysis-data/research-questions/rq02-opt",
            "~/unsafe_analysis/analysis-data/research-questions/rq02-pes",
-           "~/work/unsafe-analysis-data/paper/rq02_all_cdf.eps",
+           "rq02_all_cdf.eps",
            "crates.io")
 
 process_rq("~/unsafe_analysis/analysis-data/research-questions-90-percent/rq02-opt",
            "~/unsafe_analysis/analysis-data/research-questions-90-percent/rq02-pes",
-           "~/work/unsafe-analysis-data/paper/rq02_md_cdf.eps",
+           "rq02_md_cdf.eps",
            "most downloaded")
 
-process_rq("~/unsafe_analysis/analysis-data/research-questions-servo/rq02-opt",
-           "~/unsafe_analysis/analysis-data/research-questions-servo/rq02-pes",
-           "~/work/unsafe-analysis-data/paper/rq02_all_cdf.eps",
-           "servo")
+#process_rq("~/unsafe_analysis/analysis-data/research-questions-servo/rq02-opt",
+#           "~/unsafe_analysis/analysis-data/research-questions-servo/rq02-pes",
+#           "rq02_servo_cdf.eps",
+#           "servo")
 
 process_rq("~/unsafe_analysis/analysis-data/research-questions/rq02-restricted-opt",
            "~/unsafe_analysis/analysis-data/research-questions/rq02-restricted-pes",
-           "~/work/unsafe-analysis-data/paper/rq02_all_cdf.eps",
+           "rq02_all_restricted_cdf.eps",
            "crates.io")
 
 process_rq("~/unsafe_analysis/analysis-data/research-questions-90-percent/rq02-restricted-opt",
            "~/unsafe_analysis/analysis-data/research-questions-90-percent/rq02-restricted-pes",
-           "~/work/unsafe-analysis-data/paper/rq02_md_cdf.eps",
+           "rq02_md_restricted_cdf.eps",
            "most downloaded")
 
-process_rq("~/unsafe_analysis/analysis-data/research-questions-servo/rq02-restricted-opt",
-           "~/unsafe_analysis/analysis-data/research-questions-servo/rq02-restricted-pes",
-           "~/work/unsafe-analysis-data/paper/rq02_all_cdf.eps",
-           "servo")
+#process_rq("~/unsafe_analysis/analysis-data/research-questions-servo/rq02-restricted-opt",
+#           "~/unsafe_analysis/analysis-data/research-questions-servo/rq02-restricted-pes",
+#           "~/work/unsafe-analysis-data/paper/rq02_all_cdf.eps",
+#           "servo")

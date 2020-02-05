@@ -9,14 +9,14 @@ res <- read.table( file="~/unsafe_analysis/analysis-data/research-questions/rq01
                    , header=FALSE
                    , sep='\t'
                    , comment.char = "#"
-                   , col.names=c("functions", "name"))
+                   , col.names=c("functions", "total", "name"))
 res90 <- read.table( file="~/unsafe_analysis/analysis-data/research-questions-90-percent/rq01-func"
                    , header=FALSE
                    , sep='\t'
                    , comment.char = "#"
-                   , col.names=c("functions", "name"))
+                   , col.names=c("functions", "total","name"))
 
-cdf_filename <- "~/work/unsafe-analysis-data/paper/rq01_functions_cdf.eps"
+cdf_filename <- "~/unsafe_analysis/camera-ready/rq01_functions_cdf.eps"
 
 #graph 
 ggdata <- ddply(melt(data.frame(res$functions)), 
@@ -29,6 +29,7 @@ none90 <- min(ggdata90$ecdf)
 min_y <- min(none,none90)
 first_y <- ceiling(min_y*10)/10
 
+summary <- quantile(blocks, c(.90,.95,.99))
 x_max <- summary["99%"]
 
 ggplot() +

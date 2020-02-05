@@ -20,7 +20,7 @@ cd $CRATES_DIR
 
 echo $CRATES_DIR
 
-for x in {a..z}
+for x in {a..a}
 do
 	for d in $(ls -d $CRATES_DIR/$x*)
 	do

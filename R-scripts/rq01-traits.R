@@ -20,7 +20,7 @@ nonzero <- length(res$count[res$count!=0])/nrow(res)
 nonzero90 <- length(res90$count[res90$count!=0])/nrow(res90)
 
 print("percentage of crates with unsafe traits")
-println(formatC(nonzero*100,digits = 1, format = "f"))
+print(formatC(nonzero*100,digits = 1, format = "f"))
 
 print("percentage of most downloaded crates with unsafe traits")
 println(formatC(nonzero*100,digits = 1, format = "f"))
@@ -46,10 +46,10 @@ nonzero <- length(res$count[res$count!=0])/nrow(res)
 nonzero90 <- length(res90$count[res90$count!=0])/nrow(res90)
 
 print("percentage of crates with unsafe impls")
-println(formatC(nonzero*100,digits = 1, format = "f"))
+print(formatC(nonzero*100,digits = 1, format = "f"))
 
 print("percentage of most downloaded crates with unsafe impls")
-println(formatC(nonzero*100,digits = 1, format = "f"))
+print(formatC(nonzero*100,digits = 1, format = "f"))
 
 #nonzero_filename <- "~/work/unsafe-analysis-data/paper/rq01_impls_some.txt" 
 #nonzero90_filename <- "~/work/unsafe-analysis-data/paper/rq01_impls_some90.txt" 
@@ -57,8 +57,6 @@ println(formatC(nonzero*100,digits = 1, format = "f"))
 #write(formatC(nonzero90*100,digits = 1, format = "f"), file=nonzero90_filename)
 
 # Sync and Send
-
-library(DescTools)
 
 res <- read.table( file="~/unsafe_analysis/analysis-data/research-questions/rq01-impls-names"
                    , header=FALSE
@@ -72,10 +70,10 @@ send_frame <- subset(res, res$name %like any% c("%marker::Send%"))
 send_no <- nrow(send_frame)
 
 print("Send")
-println(formatC(send_no/nrow(res)*100,digits = 1, format = "f"))
+print(send_no/nrow(res)*100)
 
 print("Sync")
-println(formatC(sync_no/nrow(res)*100,digits = 1, format = "f"))
+print(sync_no/nrow(res)*100)
 
 #sync_filename <- "~/work/unsafe-analysis-data/paper/rq01_impls_sync.txt" 
 #send_filename <- "~/work/unsafe-analysis-data/paper/rq01_impls_send.txt" 

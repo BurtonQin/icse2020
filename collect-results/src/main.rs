@@ -38,13 +38,13 @@ fn main() {
     };
         // logger
     env_logger::init();
-    error!("{:?}", root_dir);
+    info!("{:?}", root_dir);
 
     let crates_file = match std::env::var("CRATES_FILE") {
         Ok (val) => { Some (val.to_string()) }
         Err (_) => { None }
     };
-    error!("crates file {:?}", crates_file);
+    info!("crates file {:?}", crates_file);
     let dir_path: PathBuf = [root_dir].iter().collect();
     DirBuilder::new().recursive(true).create(dir_path).unwrap();
     // consider only the most recent version of each crate

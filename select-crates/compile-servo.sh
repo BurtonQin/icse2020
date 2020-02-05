@@ -16,7 +16,7 @@ source ../rust_flags.sh
 rm -f $PROJECT_OUT/servo_analysis_pass.txt
 rm -f $PROJECT_OUT/servo_analysis_fails.txt
 
-export FULL_ANALYSIS_DIR=${UNSAFE_ANALYSIS_DIR}/servo-full-analysis/
+export FULL_ANALYSIS_DIR=${UNSAFE_ANALYSIS_DIR}/full-analysis-servo/
 rm -rf $FULL_ANALYSIS_DIR
 mkdir -p $FULL_ANALYSIS_DIR
 
