@@ -7,11 +7,11 @@ while read d; do
 	then
 		if [ -z "`find \"$FULL_ANALYSIS_DIR/$d\" -mindepth 1 -exec echo notempty \; -quit`" ] 
 		then
-    			echo "$CRATES_DIR/$d"
+    			echo "$d"
 		else
 			echo -n ""		
 		fi
 	else
-		echo "$CRATES_DIR/$d"
+		echo "$d"
 	fi
 done < "${PROJECT_HOME}/select-crates/crates_list.txt"

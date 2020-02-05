@@ -154,22 +154,22 @@ impl<'a, 'tcx> LateLintPass<'a, 'tcx> for Functions {
         file.flush();
         info!("After saving in file {:?}", file);
 
-//        // restricted unsafe
-//        let mut file = file_ops.create_file (results::RESTRICTED_RTA_OPTIMISTIC_FILENAME);
-//        let results = implicit_restricted_unsafe::rta::run_sources_analysis(cx,&all_fn_ids,
-//                                                                             true);
-//        info!("Before saving in file {:?}", file);
-//        save_analysis(results, &mut file);
-//        info!("After saving in file {:?}", file);
-//        drop(file);
-//
-//        let mut file = file_ops.create_file (results::RESTRICTED_RTA_PESSIMISTIC_FILENAME);
-//        let results = implicit_restricted_unsafe::rta::run_sources_analysis(cx,
-//                   &self.normal_functions, false);
-//        info!("Before saving in file {:?}", file);
-//        save_analysis(results, &mut file);
-//        info!("After saving in file {:?}", file);
-//        drop(file);
+        // restricted unsafe
+        let mut file = file_ops.create_file (results::RESTRICTED_RTA_OPTIMISTIC_FILENAME);
+        let results = implicit_restricted_unsafe::rta::run_sources_analysis(cx,&all_fn_ids,
+                                                                             true);
+        info!("Before saving in file {:?}", file);
+        save_analysis(results, &mut file);
+        info!("After saving in file {:?}", file);
+        drop(file);
+
+        let mut file = file_ops.create_file (results::RESTRICTED_RTA_PESSIMISTIC_FILENAME);
+        let results = implicit_restricted_unsafe::rta::run_sources_analysis(cx,
+                   &self.normal_functions, false);
+        info!("Before saving in file {:?}", file);
+        save_analysis(results, &mut file);
+        info!("After saving in file {:?}", file);
+        drop(file);
     }
 
     fn check_body(&mut self, cx: &LateContext<'a, 'tcx>, body: &'tcx hir::Body) {
