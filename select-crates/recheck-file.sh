@@ -15,6 +15,7 @@ export RUST_LOG=error
 
 cd $CRATES_DIR
 while read p; do
+	p=${CRATES_DIR}/$p
 	if [ -d "$p" ] 
 	then 
 		cd "$p"

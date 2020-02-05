@@ -111,7 +111,7 @@ pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>
         deps::load(cx, &external_calls, optimistic);
 
     for cc in call_graph.keys() {
-        if !cc.def_id.is_local() {
+        if !cc.def_id.is_local() || (cc.def_id.is_local() && !cx.tcx.mir_keys(hir::def_id::LOCAL_CRATE).contains(&cc.def_id)) {
             info!("Searching for {:?}", cc.def_id);
 
             if let Some(ub) = implicit_external.get(&cc.def_id) {
@@ -172,7 +172,7 @@ pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>
                 //info!("Parametric call : call {:?} call_data {:?}", caller_ctxt, call_data);
             }
             CallType::Resolved => {
-                if !reverse_call_graph.contains_key(caller_ctxt)  || (cc.def_id.is_local() && !cx.tcx.mir_keys(hir::def_id::LOCAL_CRATE).contains(&cc.def_id) {
+                if !reverse_call_graph.contains_key(caller_ctxt) {
                     reverse_call_graph.insert(
                         caller_ctxt, CallData {
                             call_type: CallType::Processing,
