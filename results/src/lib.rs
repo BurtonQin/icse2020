@@ -89,8 +89,8 @@ impl<'a, 'b> FileOps<'a, 'b> {
         filename.push_str(analysis_name);
         write!(filename, "_{:?}", SystemTime::now().duration_since(SystemTime::UNIX_EPOCH).unwrap().as_nanos());
 
-        print!("Saving {:?}", filename);
-
+//        print!("Saving {:?}", filename);
+//
         let file_path = self.get_path(filename);
         // create new file
         OpenOptions::new()

@@ -140,35 +140,35 @@ impl<'a, 'tcx> LateLintPass<'a, 'tcx> for Functions {
         let mut file = file_ops.create_file (results::IMPLICIT_RTA_OPTIMISTIC_FILENAME);
         let opt_rta_impl_unsafe = implicit_unsafe::rta::run_sources_analysis(cx,&all_fn_ids,
                                                                              true);
-        error!("Before saving in file {:?}", file);
+        //error!("Before saving in file {:?}", file);
         save_analysis(opt_rta_impl_unsafe, &mut file);
         file.flush();
-        error!("After saving in file {:?}", file);
+        //error!("After saving in file {:?}", file);
 
         let mut file = file_ops.create_file (results::IMPLICIT_RTA_PESSIMISTIC_FILENAME);
         let pes_rta_impl_unsafe = implicit_unsafe::rta::run_sources_analysis(cx,
                                                                                 &self.normal_functions,
                                                                                 false);
-        info!("Before saving in file {:?}", file);
+        //info!("Before saving in file {:?}", file);
         save_analysis(pes_rta_impl_unsafe, &mut file);
         file.flush();
-        info!("After saving in file {:?}", file);
+        //info!("After saving in file {:?}", file);
 
         // restricted unsafe
         let mut file = file_ops.create_file (results::RESTRICTED_RTA_OPTIMISTIC_FILENAME);
         let results = implicit_restricted_unsafe::rta::run_sources_analysis(cx,&all_fn_ids,
                                                                              true);
-        info!("Before saving in file {:?}", file);
+        //info!("Before saving in file {:?}", file);
         save_analysis(results, &mut file);
-        info!("After saving in file {:?}", file);
+        //info!("After saving in file {:?}", file);
         drop(file);
 
         let mut file = file_ops.create_file (results::RESTRICTED_RTA_PESSIMISTIC_FILENAME);
         let results = implicit_restricted_unsafe::rta::run_sources_analysis(cx,
                    &self.normal_functions, false);
-        info!("Before saving in file {:?}", file);
+        //info!("Before saving in file {:?}", file);
         save_analysis(results, &mut file);
-        info!("After saving in file {:?}", file);
+        //info!("After saving in file {:?}", file);
         drop(file);
     }
 

@@ -99,7 +99,7 @@ pub fn load_dependencies(used_crates:HashSet<String>) -> FxHashMap<String,CrateI
                                         ));
                                     }
                                 } else {
-                                    error!("Can't get package {:?}", package_id);
+//                                    error!("Can't get package {:?}", package_id);
                                 }
                             }
                         }
