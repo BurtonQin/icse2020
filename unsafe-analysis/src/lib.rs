@@ -103,15 +103,12 @@ impl<'a, 'tcx> LateLintPass<'a, 'tcx> for Functions {
             &mut fn_summary_file,
         );
         // unsafe functions restricted
-        let mut file = file_ops.create_file (results::UNSAFE_CALLS_RESTRICTED);
+        let mut file = file_ops.create_file (results::SUMMARY_FUNCTIONS_RESTRICTED);
         let actualy_unsafe = functions::run_restricted_unsafe_analysis(cx,&self.unsafe_functions);
         save_summary_analysis(
             results::functions::Summary::new(actualy_unsafe.len(),
                                              self.unsafe_functions.len() + self.normal_functions.len()),&mut file);
-        //unsafety in functions
-        let (fn_unsafety,no_reason) = functions::run_sources_analysis(cx,&self.unsafe_functions);
-        let mut file = file_ops.create_file (results::FN_UNSAFETY_SOURCES_FILE_NAME);
-        save_analysis(fn_unsafety,&mut file);
+
         // unsafe traits
         let mut impls_file = file_ops.create_file (results::UNSAFE_TRAITS_IMPLS);
         let mut traits_file = file_ops.create_file (results::UNSAFE_TRAITS);
@@ -122,12 +119,14 @@ impl<'a, 'tcx> LateLintPass<'a, 'tcx> for Functions {
         let mut bus_file = file_ops.create_file (results::BLOCK_UNSAFETY_SOURCES_FILE_NAME);
         let bus_res = blocks::run_unsafety_sources_analysis(cx,&self.normal_functions);
         save_analysis(bus_res, &mut bus_file);
+       //unsafety in functions
+        let (fn_unsafety,no_reason) = functions::run_sources_analysis(cx,&self.unsafe_functions);
+        let mut file = file_ops.create_file (results::FN_UNSAFETY_SOURCES_FILE_NAME);
+        save_analysis(fn_unsafety,&mut file);
         //unsafe function calls
         let unsafe_calls = calls::run_analysis(cx);
-        let mut file = file_ops.create_file (results::UNSAFE_CALLS);
+        let mut file = file_ops.create_file (results::UNSAFE_CALLS_USER_ONLY);
         save_analysis(unsafe_calls, &mut file);
-
-
         let mut all_fn_ids = Vec::new();
         for fn_id in self.normal_functions.iter() {
             all_fn_ids.push(*fn_id)

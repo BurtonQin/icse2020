@@ -27,10 +27,9 @@ use std::fmt::Write;
 use std::path::Path;
 
 pub static SUMMARY_FUNCTIONS_FILE_NAME: &'static str = "02_summary_functions";
+pub static SUMMARY_FUNCTIONS_RESTRICTED: &'static str = "02_summary_restricted";
 
-pub static UNSAFE_CALLS: &'static str = "03_unsafe_calls";
 pub static UNSAFE_CALLS_USER_ONLY: &'static str = "03_unsafe_calls_user_only";
-pub static UNSAFE_CALLS_RESTRICTED: &'static str = "31_no_reason";
 
 pub static IMPLICIT_RTA_OPTIMISTIC_FILENAME: &'static str = "11_precise_opt_unsafe_in_call_tree";
 pub static IMPLICIT_RTA_PESSIMISTIC_FILENAME: &'static str = "11_precise_pes_unsafe_in_call_tree";
