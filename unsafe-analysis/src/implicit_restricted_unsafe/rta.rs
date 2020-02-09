@@ -38,16 +38,13 @@ static MAX_DEPTH: usize = 1032;
 
 impl<'tcx> CallData<'tcx> {
     fn push(&mut self, cc: CallContext<'tcx>) {
-
-        // TODO if the call is external clear substs
         let new_cc =
             if cc.def_id.is_local() {
                 cc
             } else {
                 CallContext{
                     def_id: cc.def_id,
-                    //substs: ty::List::empty(),
-                    substs: cc.substs, //TODO
+                    substs: cc.substs,
                 }
             };
 
@@ -70,35 +67,24 @@ pub fn run_sources_analysis<'a, 'tcx>(cx: &LateContext<'a, 'tcx>
     let mut result = Vec::new();
 
     // build call graph
-    for &fn_id in fns { // TODO change to
+    for &fn_id in fns {
         let fn_def_id = cx.tcx.hir.local_def_id(fn_id);
-        match cx.tcx.fn_sig(fn_def_id).unsafety() {
-            hir::Unsafety::Unsafe => {
-                // call graph not needed for unsafe functions
-                result.push(UnsafeInBody::new(get_fn_path(cx,fn_def_id),
-                                              FnType::Unsafe,
-                                              ::get_node_name(cx,fn_def_id)));
-            }
-            hir::Unsafety::Normal => {
-
-                let ty = cx.tcx.type_of(fn_def_id);
-                if let TyKind::FnDef(_, _) = ty.sty {
-                    let cc = CallContext {
-                        def_id: fn_def_id,
-                        substs: Substs::identity_for_item(cx.tcx,fn_def_id),
-                    };
-                    // process only if it was not done so already
-                    if let None = call_graph.get(&cc) {
-                        let mir = &mut cx.tcx.optimized_mir(fn_def_id);
-                        let mut calls_visitor =
-                            CallsVisitor::new(&cx, mir, &cc,
-                                              &mut call_graph, &mut with_unsafe,
-                                              &mut external_calls,
-                                              optimistic, 0);
-                        info!("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
-                        calls_visitor.visit_mir(mir);
-                    }
-                }
+        let ty = cx.tcx.type_of(fn_def_id);
+        if let TyKind::FnDef(_, _) = ty.sty {
+            let cc = CallContext {
+                def_id: fn_def_id,
+                substs: Substs::identity_for_item(cx.tcx,fn_def_id),
+            };
+            // process only if it was not done so already
+            if let None = call_graph.get(&cc) {
+                let mir = &mut cx.tcx.optimized_mir(fn_def_id);
+                let mut calls_visitor =
+                    CallsVisitor::new(&cx, mir, &cc,
+                                      &mut call_graph, &mut with_unsafe,
+                                      &mut external_calls,
+                                      optimistic, 0);
+                info!("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+                calls_visitor.visit_mir(mir);
             }
         }
     }

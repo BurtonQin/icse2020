@@ -304,14 +304,17 @@ fn has_unsafe_block<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, fn_id: DefId) -> bool 
         has_unsafe: false,
     };
     if let Some (fn_node_id) = cx.tcx.hir.as_local_node_id(fn_id) {
-        let body_id = cx.tcx.hir.body_owned_by(fn_node_id);
-        let body = cx.tcx.hir.body(body_id);
-        hir::intravisit::walk_body(&mut body_visitor, body);
-        body_visitor.has_unsafe
+        let body_id_opt = cx.tcx.hir.maybe_body_owned_by(fn_node_id);
+        match body_id_opt {
+            Some(body_id) => {
+                let body = cx.tcx.hir.body(body_id);
+                hir::intravisit::walk_body(&mut body_visitor, body);
+                body_visitor.has_unsafe
+            }
+            None => false
+        }
     } else {
-        // this should not happen
-        assert!(true);
-        true
+        false
     }
 }
 
