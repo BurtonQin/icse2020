@@ -56,7 +56,6 @@ fn process_fn_decl<'a, 'tcx>( cx: &LateContext<'a, 'tcx>, decl_id: NodeId) -> Un
     if let Some(fn_decl) = cx.tcx.hir.fn_decl(decl_id) {
         for input in fn_decl.inputs {
             if let Some(reason) = process_type(cx, &input) {
-                //TODO record some information about the argument
                 res.add_argument(reason);
             }
         }
@@ -77,7 +76,6 @@ fn is_unsafe_method<'a, 'tcx>(node_id: NodeId, cx: &LateContext<'a, 'tcx>) -> bo
                     true
                 }
             } else {
-                //println!("Impl Item Kind NOT handled {:?}", impl_item.node);
                 false
             }
         }
@@ -92,19 +90,17 @@ fn process_type<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, ty: &hir::Ty) -> Option<Ar
 
         hir::TyKind::Ptr(_) => {
             let mut buff = String::new();
-            write!(buff,"{:?}", ty);
             Some(Argument::new(
                 buff,
                 ArgumentKind::RawPointer,
             ))
         },
 
-        hir::TyKind::Rptr(_, _) => None, //TODO check:I think this is a Rust reference
+        hir::TyKind::Rptr(_, _) => None,
 
         hir::TyKind::BareFn(ref bare_fn) => {
             if let hir::Unsafety::Unsafe = bare_fn.unsafety {
                 let mut type_info = String::new();
-                write!(type_info, "{:?}", ty);
                 Some(Argument::new(
                     type_info,
                     ArgumentKind::UnsafeFunction,
@@ -127,7 +123,7 @@ fn process_type<'a, 'tcx>(cx: &LateContext<'a, 'tcx>, ty: &hir::Ty) -> Option<Ar
             hir::QPath::TypeRelative(pty, _) => process_type(cx, pty),
         },
 
-        hir::TyKind::TraitObject(ref _poly_ref, _) => None, //TODO
+        hir::TyKind::TraitObject(ref _poly_ref, _) => None,
 
         hir::TyKind::Never | hir::TyKind::Typeof(_) | hir::TyKind::Infer | hir::TyKind::Err => None,
     }

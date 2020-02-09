@@ -5,7 +5,7 @@ source ../exports.sh
 while read d; do
 	if [ -d $FULL_ANALYSIS_DIR/$d ] 
 	then
-		if [ -z "`find \"$FULL_ANALYSIS_DIR/$d\" -mindepth 1 -exec echo notempty \; -quit`" ] 
+		if [ -z "`find \"$FULL_ANALYSIS_DIR/$d/$d\" -mindepth 1 -exec echo notempty \; -quit 2>/dev/null`" ] 
 		then
     			echo "$d"
 		else

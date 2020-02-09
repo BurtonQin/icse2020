@@ -69,7 +69,7 @@ impl<'a, 'tcx> UnsafetySourcesVisitor<'a, 'tcx> {
                 // it appears on alloc::alloc::box_free
                 false
             },
-            Safety::BuiltinUnsafe => { false } // TODO check this
+            Safety::BuiltinUnsafe => { false }
             Safety::FnUnsafe => { true },
             Safety::ExplicitUnsafe(node_id) => {
                 let node = self.cx.tcx.hir.get(node_id);

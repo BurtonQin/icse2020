@@ -1,4 +1,9 @@
+use std::path::Path;
+use results::implicit::FnType;
+use results::FileOps;
+
 use fxhash::FxHashMap;
+
 use cargo::core::Workspace;
 use cargo::ops;
 use cargo::Config;
@@ -10,19 +15,21 @@ use std::io::BufRead;
 use std::io::BufReader;
 use std::path::PathBuf;
 use std::collections::HashSet;
-use std::path::Path;
-use implicit_unsafe::is_library_crate;
-use results::implicit::FnType;
-use results::FileOps;
 
-pub fn load<'a, 'tcx>( cx: &'a LateContext<'a, 'tcx>, calls: &FxHashMap<String,DefId>, optimistic: bool)
-    -> FxHashMap<DefId,UnsafeInBody> {
+pub fn is_library_crate(crate_name: &String) -> bool {
+    crate_name.as_str() == "alloc" ||
+        crate_name.as_str() == "std" ||
+        crate_name.as_str() == "core" ||
+        crate_name.as_str() == "proc_macro" ||
+        crate_name.as_str() == "clippy"
+}
+
+pub fn load<'a, 'tcx>( cx: &'a LateContext<'a, 'tcx>, calls: &FxHashMap<String,DefId>,
+                       optimistic: bool, restricted: bool) -> FxHashMap<DefId,UnsafeInBody> {
     let mut result = FxHashMap::default();
-    let used_crates = get_all_used_crates(cx,calls);
-    info!("Used crates {:?}", used_crates);
-    let crates = load_dependencies( used_crates );
+    let crates = load_dependencies( get_all_used_crates(cx,calls) );
     for crate_info in crates.values() {
-        let mut analysis = load_analysis(cx, crate_info, calls, optimistic, &mut result);
+        let mut analysis = load_analysis(cx, crate_info, calls, optimistic, restricted, &mut result);
         if let Ok(()) = analysis {
         } else {
             error!("Error processing crate {:?}", crate_info.name);
@@ -31,12 +38,10 @@ pub fn load<'a, 'tcx>( cx: &'a LateContext<'a, 'tcx>, calls: &FxHashMap<String,D
     let mut not_found = 0;
     for (fn_name,def_id) in calls.iter() {
         if is_library_crate( &cx.tcx.crate_name(def_id.krate).to_string() ) {
-            info!("Call {:?} from excluded crate", fn_name);
             result.insert(*def_id, UnsafeInBody::new(fn_name.clone(), FnType::Safe, fn_name.to_string()));
         } else {
             if !result.contains_key(def_id) {
                 not_found += 1;
-                info!("Call {:?} not found", fn_name);
                 result.insert(*def_id, UnsafeInBody::new(fn_name.clone(),
                                                          if optimistic {
                                                              FnType::Safe
@@ -44,10 +49,10 @@ pub fn load<'a, 'tcx>( cx: &'a LateContext<'a, 'tcx>, calls: &FxHashMap<String,D
                                                              FnType::NormalNotSafe
                                                          }
                                                          , fn_name.to_string()));
+            } else {
             }
         }
     }
-    error!("External Calls {:?} NOT Found {:?}", calls.len(), not_found);
     result
 }
 
@@ -76,10 +81,7 @@ impl CrateInfo {
 pub fn load_dependencies(used_crates:HashSet<String>) -> FxHashMap<String,CrateInfo> {
     let mut manifest_path = PathBuf::from(env::var("CARGO_MANIFEST_DIR").unwrap());
     manifest_path.push("Cargo.toml");
-
-//    info!("manifest path {:?}", manifest_path);
     let mut result = FxHashMap::default();
-
     if manifest_path.as_path().exists() {
         match Config::default() {
             Ok(cargo_config) => {
@@ -91,7 +93,6 @@ pub fn load_dependencies(used_crates:HashSet<String>) -> FxHashMap<String,CrateI
                                 if let Ok(package) = packages.get(package_id) {
                                     let crate_name = package.name().to_string().replace("-", "_");
                                     if let None = used_crates.get(&crate_name) {
-                                        //info!("Crate not used {:?}", crate_name);
                                     } else {
                                         result.insert(package.name().to_string(), CrateInfo::new(
                                             crate_name,
@@ -99,13 +100,12 @@ pub fn load_dependencies(used_crates:HashSet<String>) -> FxHashMap<String,CrateI
                                         ));
                                     }
                                 } else {
-//                                    error!("Can't get package {:?}", package_id);
                                 }
                             }
                         }
                     }
                     Err(e) => {
-                        error!("Error loading workspace {:?}", e);
+                        info!("Error loading workspace {:?}", e);
                     }
                 }
             }
@@ -117,39 +117,6 @@ pub fn load_dependencies(used_crates:HashSet<String>) -> FxHashMap<String,CrateI
         error!("Cargo file does not exists! {:?}", manifest_path);
     }
     result
-//    let mut manifest_path = PathBuf::from(env::var("CARGO_MANIFEST_DIR").unwrap());
-//    manifest_path.push("Cargo.toml");
-//    let mut result = FxHashMap::default();
-//
-//    error!("load_dependencies used_crates {:?}", used_crates);
-//
-//    if manifest_path.as_path().exists() {
-//        match  cargo_metadata::metadata(Some(&manifest_path)) {
-//            Err(s) => error!("cargo_metadata::metadata {:?}", s),
-//            Ok(metadata) => {
-//                error!("load_dependencies metadata.packages {:?}", metadata.packages);
-//                for package in metadata.packages {
-//                    let crate_name = package.name.to_string().replace("-", "_");
-//
-//                    error!("load_dependencies found crate {:?}", crate_name);
-//
-//                    if let None = used_crates.get(&crate_name) {
-//                        error!("Crate not used {:?}", crate_name);
-//                    } else {
-//                        error!("Crate is used {:?}", crate_name);
-//                        result.insert(package.name.to_string(), CrateInfo::new(
-//                            crate_name,
-//                            package.version.to_string(),
-//                        ));
-//                    }
-//                }
-//            },
-//        }
-//    } else {
-//        error!("Cargo file does not exists! {:?}", manifest_path);
-//    }
-//    result
-
 }
 
 
@@ -157,16 +124,13 @@ fn load_analysis<'a, 'tcx>(
     cx: &'a LateContext<'a, 'tcx>,
     crate_info: &CrateInfo,
     calls: &FxHashMap<String,DefId>,
-    optimistic: bool,
+    optimistic: bool, restricted: bool,
     result: &mut FxHashMap<DefId,UnsafeInBody>
 ) -> Result<(), &'static str> {
-    //filter external calls to this crate
-//    info!("Processing crate: {:?}", crate_info);
     let root_dir = ::get_root_dir();
     let dir_path: PathBuf = [&root_dir,&crate_info.name].iter().collect();
     let crate_name =
         if !Path::new(&dir_path).exists() {
-            // TODO look for directory that matches crate name modulo _ and -
             let crate_comps: Vec<&str> = crate_info.name.split(|c| c=='_' || c=='-').collect();
             let mut result = None;
             if let Ok(dir_entries) = std::fs::read_dir(&root_dir) {
@@ -191,41 +155,36 @@ fn load_analysis<'a, 'tcx>(
             Some (crate_info.name.clone())
         };
 
-    info!("load_analysis {:?}", crate_name);
-
     if let Some (crate_name) = crate_name {
         let crate_path: PathBuf = [&root_dir, &crate_name].iter().collect();
         let version_path: PathBuf = [&root_dir, &crate_name, &crate_info.version].iter().collect();
         let version = FileOps::get_max_version(&crate_path); // here to satisfy lifetime
-
-        info!("Want version {:?} max version {:?}", crate_info.version, version);
-
         // always use max version
         let file_ops = results::FileOps::new(&crate_name, &version, &root_dir);
-//            if Path::new(&version_path).exists() {
-//                results::FileOps::new(&crate_name, &crate_info.version, &root_dir)
-//            } else {
-//                error!("Dir does not exists {:?}, using version {:?}", crate_path, version);
-//                results::FileOps::new(&crate_name, &version, &root_dir)
-//            };
         let files =
+            if restricted {
+                if optimistic {
+                    file_ops.open_files(results::RESTRICTED_RTA_OPTIMISTIC_FILENAME)
+                } else {
+                    file_ops.open_files(results::RESTRICTED_RTA_PESSIMISTIC_FILENAME)
+                }
+            } else {
                 if optimistic {
                     file_ops.open_files(results::IMPLICIT_RTA_OPTIMISTIC_FILENAME)
                 } else {
                     file_ops.open_files(results::IMPLICIT_RTA_PESSIMISTIC_FILENAME)
-                };
+                }
+            };
 
         if let Some(files) = files {
             for file in files.iter() {
-                info!("Processsing file {:?} metadata {:?}", file, file.metadata());
+                info!("Processsing file {:?}", file);
                 let mut reader = BufReader::new(file);
                 //read line by line
                 loop {
                     let mut line = String::new();
-                    info!("Processsing line {:?}", line);
                     let len = reader.read_line(&mut line).expect("Error reading file");
                     if len == 0 {
-                        info!("Finished processing {:?}", file);
                         //EOF reached
                         break;
                     } else {
@@ -235,18 +194,13 @@ fn load_analysis<'a, 'tcx>(
                         match res {
                             Ok(ub) => {
                                 let def_path = ub.def_path;
-                                info!("Calls {:?}", calls);
-                                info!("Looking for {:?}", def_path);
                                 if let Some(def_id) = calls.get(&def_path) {
-                                    info!("Call {:?} found, def id {:?}", &def_path, def_id);
-
                                     result.insert(*def_id, UnsafeInBody::new(def_path, ub.fn_type, ub.name));
                                 } else {
-                                    info!("Call {:?} NOT found", &def_path);
                                 }
                             }
                             Err(e) => {
-                                info!("Error processing line {:?} file: {:?}", trimmed_line, &file_ops.get_root_path_components());
+                                error!("Error processing line {:?} file: {:?}", trimmed_line, &file_ops.get_root_path_components());
                                 assert!(false); // I want to detect the corrupt files
                             }
                         }

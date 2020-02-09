@@ -11,6 +11,9 @@ use rustc::hir::def_id::DefId;
 use convert_abi;
 use get_fn_path;
 
+// counts all unsafe class originating from user labeled unsafe (block or function)
+// a restricted analysis does not make sense in this case because the unsafe fuction call is
+// an unsafe operation itself and then the unsafe labeling is necessary
 pub fn run_analysis<'a, 'tcx>(cx: &'a LateContext<'a, 'tcx>) -> Vec<results::calls::ExternalCall> {
     let mut data = Vec::new();
     for &def_id in cx.tcx.mir_keys(hir::def_id::LOCAL_CRATE).iter() {

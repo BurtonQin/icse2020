@@ -30,6 +30,7 @@ pub static SUMMARY_FUNCTIONS_FILE_NAME: &'static str = "02_summary_functions";
 
 pub static UNSAFE_CALLS: &'static str = "03_unsafe_calls";
 pub static UNSAFE_CALLS_USER_ONLY: &'static str = "03_unsafe_calls_user_only";
+pub static UNSAFE_CALLS_RESTRICTED: &'static str = "31_no_reason";
 
 pub static IMPLICIT_RTA_OPTIMISTIC_FILENAME: &'static str = "11_precise_opt_unsafe_in_call_tree";
 pub static IMPLICIT_RTA_PESSIMISTIC_FILENAME: &'static str = "11_precise_pes_unsafe_in_call_tree";
@@ -38,7 +39,6 @@ pub static RESTRICTED_RTA_OPTIMISTIC_FILENAME: &'static str = "12_restricted_opt
 pub static RESTRICTED_RTA_PESSIMISTIC_FILENAME: &'static str = "12_restricted_pes_unsafe_in_call_tree";
 
 pub static FN_UNSAFETY_SOURCES_FILE_NAME: &'static str = "30_unsafe_fn";
-pub static NO_REASON_FOR_UNSAFE: &'static str = "31_no_reason";
 
 pub static BLOCK_UNSAFETY_SOURCES_FILE_NAME: &'static str = "40_unsafe_blocks";
 pub static BLOCK_SUMMARY_BB: &'static str = "41_blocks_summary";

@@ -14,6 +14,8 @@ use results::blocks::BlockUnsafetySource;
 
 //////////////////// Summary
 
+// if a block is labeled unsafe, then it is counted
+// if the block is user defined, then the  corresponding flag is set
 pub fn run_summary_analysis<'a, 'tcx>(cx: &'a LateContext<'a, 'tcx>) -> BlockSummary  {
     let mut visitor = BlockVisitor::new(&cx.tcx.hir);
     rustc::hir::intravisit::walk_crate(&mut visitor, cx.tcx.hir.krate());

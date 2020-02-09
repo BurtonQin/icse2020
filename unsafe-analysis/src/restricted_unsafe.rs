@@ -12,7 +12,7 @@ use rustc_data_structures::indexed_vec::IndexVec;
 use rustc_mir;
 use syntax::ast::NodeId;
 
-
+// the has_unsafe flag is set only if a user defined unsafe operation is found
 pub struct RestrictedUnsafeVisitor<'a, 'tcx: 'a> {
     cx: &'a LateContext<'a, 'tcx>,
     fn_node_id: NodeId,
