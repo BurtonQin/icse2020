@@ -20,38 +20,53 @@ cd $CRATES_DIR
 
 echo $CRATES_DIR
 
+# $1 the file name
+function process_file() {
+	cd $CRATES_DIR
+	while read p; do
+		p=${CRATES_DIR}/$p
+		if [ -d "$p" ] 
+		then 
+			cd "$p"
+			d=`basename $p`
+			export FULL_ANALYSIS_DIR=${UNSAFE_ANALYSIS_DIR}/full-analysis/$d
+			echo "FULL_ANALYSIS_DIR=$FULL_ANALYSIS_DIR"
+			rm -rf $FULL_ANALYSIS_DIR
+		    	mkdir -p $FULL_ANALYSIS_DIR
+			echo "$p : compiling"
+			cargo +$NIGHTLY clean
+			RUST_BACKTRACE=1 cargo +$NIGHTLY build
+			RESULT=$?
+		        if [ $RESULT -eq 0 ]; then
+        		        echo "$p">>$PROJECT_OUT/analysis_pass.txt
+		        else
+				rm -rf $FULL_ANALYSIS_DIR
+				echo "$p">>$PROJECT_OUT/analysis_fails.txt
+			fi
+			cargo +$NIGHTLY clean
+		else 
+			echo "$p : removed"
+		fi
+	done < $1
+}
+
+
 for x in {a..a}
 do
-	for d in $(ls -d $CRATES_DIR/$x*)
-	do
-	    echo "Compiling $d"
-
-	    #delete old files
-	    crate=`basename $d`
-	    export FULL_ANALYSIS_DIR=${UNSAFE_ANALYSIS_DIR}/full-analysis/$crate
-	    rm -rf $FULL_ANALYSIS_DIR
-	    mkdir -p $FULL_ANALYSIS_DIR
-
-	    echo "FULL_ANALYSIS_DIR=$FULL_ANALYSIS_DIR"
-	    
-	    cd $d
-	    cargo +$NIGHTLY clean
-	    RUST_BACKTRACE=1 cargo +$NIGHTLY build
-	    RESULT=$?
-	    if [ $RESULT -eq 0 ]; then
-        	echo "$d">>$PROJECT_OUT/analysis_pass.txt
-	    else
-		echo "Compilation FAILED ... removing $FULL_ANALYSIS_DIR"
-		rm -rf $FULL_ANALYSIS_DIR
-		echo "$d">>$PROJECT_OUT/analysis_fails.txt
-        	
-	    fi
-	    cargo +$NIGHTLY clean
-	done
-	#pushd ${UNSAFE_ANALYSIS_DIR}/full-analysis/
-	#tar czf ${x}.tgz ${x}*
-	#mv ${x}.tgz ${UNSAFE_ANALYSIS_DIR}
-	#rm -rf ${x}*
+	process_file ${PROJECT_HOME}/select-crates/files/${x}.txt
+	export  OPENSSL_DIR=/usr/local/openssl-1.0.1
+	export LLVM_CONFIG_PATH=/usr/local/llvm-5-c3/bin/llvm-config
+	export LIBCLANG_INCLUDE_PATH=/usr/local/llvm-5-c3/include/
+	export LIBCLANG_STATIC_PATH=/usr/local/llvm-5-c3/lib/
+	process_file ${PROJECT_HOME}/select-crates/files/${x}-old-ssl.txt
+	unset OPENSSL_DIR
+	unset LLVM_CONFIG_PATH
+	unset LIBCLANG_INCLUDE_PATH
+	unset LIBCLANG_STATIC_PATH
+	pushd ${UNSAFE_ANALYSIS_DIR}/full-analysis/
+	tar czf ${x}.tgz ${x}*
+	mv ${x}.tgz ${UNSAFE_ANALYSIS_DIR}
+	rm -rf ${x}*
 done
 
 cd $CRT_DIR

@@ -13,12 +13,12 @@ source ../rust_flags.sh
 
 export RUST_LOG=error
 
-cd $CRATES_DIR
 while read p; do
-	if [ -d "$CRATES_DIR/$p" ] 
+	echo "$p" 
+	if [ -d "$p" ] 
 	then 
-		cd "$CRATES_DIR/$p"
-
+		cd "$p"
+		p=`basename $p`
 		export FULL_ANALYSIS_DIR=${UNSAFE_ANALYSIS_DIR}/full-analysis/$p
 		echo "FULL_ANALYSIS_DIR=$FULL_ANALYSIS_DIR"
 		rm -rf $FULL_ANALYSIS_DIR
