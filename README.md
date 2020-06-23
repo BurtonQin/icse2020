@@ -1,6 +1,9 @@
 #  Is Rust Used Safely by Software Developers?
 
-This repository contains the data and code used for the ICSE 2020 paper ``Is Rust Used Safely by Software Developers?''.
+This repository contains code used for the ICSE 2020 paper ``Is Rust Used Safely by Software Developers?''.
+
+The sources of the crates we analyzed are available [here](http://www.cs.virginia.edu/~ans5k/icse2020/dataset/crates-2018/)
+
 
 
 <h1>Tools Needed</h1>
