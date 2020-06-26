@@ -12,7 +12,7 @@ pub fn process_rq(crates: &Vec<(String,String)>) {
         info!("Processing Crate {:?}", crate_name);
         let dir_name = ::get_full_analysis_dir();
         let file_ops = results::FileOps::new( crate_name, &version, &dir_name );
-        if let Some (files) = file_ops.open_files(results::UNSAFE_CALLS) {
+        if let Some (files) = file_ops.open_files(results::UNSAFE_CALLS_USER_ONLY) {
             for file in files.iter() {
                 let mut reader = BufReader::new(file);
                 //read line by line

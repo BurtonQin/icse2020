@@ -25,10 +25,11 @@ pub fn process_rq_count(crates: &Vec<(String,String)>, traits:bool) {
             } else {
                 file_ops.open_files(results::UNSAFE_TRAITS_IMPLS)
             } {
+            let mut counter = 0;
             for file in files.iter() {
                 let mut reader = BufReader::new(file);
                 //read line by line
-                let mut counter = 0;
+
                 loop {
                     let mut line = String::new();
                     let len = reader.read_line(&mut line).expect("Error reading file");
@@ -42,11 +43,11 @@ pub fn process_rq_count(crates: &Vec<(String,String)>, traits:bool) {
                         }
                     }
                 }
-                writeln!(writer, "{}\t{}"
-                         , crate_name
-                         , counter
-                );
             }// for
+            writeln!(writer, "{}\t{}"
+                     , crate_name
+                     , counter
+            );
         } else {
             if traits {
                 error!("Unsafe traits files missing for crate {:?}", crate_name);

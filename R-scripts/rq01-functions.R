@@ -16,8 +16,6 @@ res90 <- read.table( file="~/unsafe_analysis/analysis-data/research-questions-90
                    , comment.char = "#"
                    , col.names=c("functions", "total","name"))
 
-cdf_filename <- "~/unsafe_analysis/camera-ready/rq01_functions_cdf.eps"
-
 #graph 
 ggdata <- ddply(melt(data.frame(res$functions)), 
                 .(variable), transform, ecdf=ecdf(value)(value))
@@ -57,5 +55,6 @@ ggplot() +
     , breaks = c(none90, seq(first_y,1,0.05))
     ,labels = percent
   )
-ggsave(cdf_filename, plot = last_plot(), device = "eps")
+ggsave("~/unsafe_analysis/v1/rq01_functions_cdf.eps", plot = last_plot(), device = "eps")
+ggsave("~/unsafe_analysis/v1/rq01_functions_cdf.png", plot = last_plot(), device = "png")
 

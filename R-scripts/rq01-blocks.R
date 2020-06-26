@@ -7,7 +7,7 @@ library(scales)
 
 ## do not try to use stat_ecf again
 
-output_dir <- "~/unsafe_analysis/camera-ready/"
+output_dir <- "~/unsafe_analysis/v1/"
 res <- read.table( file="~/unsafe_analysis/analysis-data/research-questions/rq01-blocks"
                    , header=FALSE
                    , sep='\t'
@@ -30,7 +30,7 @@ ggdata_90 <- ddply( melt(data.frame(blocks90)),
 none <- min(ggdata_all$ecdf)
 none90 <- min(ggdata_90$ecdf)
 min_y <- min( none, none90)
-first_y <- ceiling(min_y*10)/10
+first_y <- floor(min_y*10)/10
 
 x_max <- summary["99.5%"]
 
@@ -63,3 +63,4 @@ ggplot() +
     ) 
 
 ggsave(file.path(output_dir,"rq01_blocks_cdf.eps"), plot = last_plot(), device = "eps")
+ggsave(file.path(output_dir,"rq01_blocks_cdf.png"), plot = last_plot(), device = "png")

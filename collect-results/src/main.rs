@@ -49,16 +49,16 @@ fn main() {
     DirBuilder::new().recursive(true).create(dir_path).unwrap();
     // consider only the most recent version of each crate
     let crates = get_crates_recent_versions(crates_file);
-//    rq01_blocks::process_rq(&crates);
-//    rq01_func::process_rq(&crates, false);
-//    rq01_func::process_rq(&crates, true);
-//    rq01_traits::process_rq(&crates);
+    rq01_blocks::process_rq(&crates);
+    rq01_func::process_rq(&crates, false);
+    rq01_func::process_rq(&crates, true);
+    rq01_traits::process_rq(&crates);
     rq02::process_rq(&crates, false);
     rq02::process_rq(&crates, true);
-//    rq03_blocks::process_rq(&crates);
-//    rq03_func::process_rq(&crates);
-//    rq04::process_rq(&crates);
-    // rq05::process_rq(&crates);
+    rq03_blocks::process_rq(&crates);
+    rq03_func::process_rq(&crates);
+    rq04::process_rq(&crates);
+//    rq05::process_rq(&crates);
 }
 
 

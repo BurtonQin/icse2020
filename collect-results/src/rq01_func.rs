@@ -16,7 +16,9 @@ pub fn process_rq(crates: &Vec<(String,String)>, restricted: bool) {
         let dir_name = ::get_full_analysis_dir();
         let file_ops = results::FileOps::new( crate_name, &version, &dir_name );
 
-        if let Some (files) = file_ops.open_files( if restricted {results::NO_REASON_FOR_UNSAFE} else {results::SUMMARY_FUNCTIONS_FILE_NAME}) {
+        if let Some (files) = file_ops.open_files( if restricted {results::SUMMARY_FUNCTIONS_RESTRICTED} else {results::SUMMARY_FUNCTIONS_FILE_NAME}) {
+            let mut un = 0;
+            let mut t = 0;
             for file in files.iter() {
                 let mut reader = BufReader::new(file);
                 //read line by line
@@ -34,18 +36,20 @@ pub fn process_rq(crates: &Vec<(String,String)>, restricted: bool) {
                             if fn_summary.total() == 0 {
                                 info!("Processing {:?}: {:?}", crate_name, line);
                             } else {
-
-                                writeln!(writer, "{}\t{}\t{}"
-                                    , fn_summary.unsafe_no()
-                                    , fn_summary.total()
-                                    , crate_name);
-
+                                un += fn_summary.unsafe_no();
+                                t += fn_summary.total()
                             }
                         }
                     }
 
                 }
 
+            }
+            if t > 0 {
+                writeln!(writer, "{}\t{}\t{}"
+                         , un
+                         , t
+                         , crate_name);
             }
         } else {
             error!("Function summary files missing for crate {:?}", crate_name);

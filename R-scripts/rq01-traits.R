@@ -23,7 +23,7 @@ print("percentage of crates with unsafe traits")
 print(formatC(nonzero*100,digits = 1, format = "f"))
 
 print("percentage of most downloaded crates with unsafe traits")
-println(formatC(nonzero*100,digits = 1, format = "f"))
+print(formatC(nonzero90*100,digits = 1, format = "f"))
 
 #nonzero_filename <- "~/work/unsafe-analysis-data/paper/rq01_traits_some.txt" 
 #nonzero90_filename <- "~/work/unsafe-analysis-data/paper/rq01_traits_some90.txt" 
@@ -49,7 +49,7 @@ print("percentage of crates with unsafe impls")
 print(formatC(nonzero*100,digits = 1, format = "f"))
 
 print("percentage of most downloaded crates with unsafe impls")
-print(formatC(nonzero*100,digits = 1, format = "f"))
+print(formatC(nonzero90*100,digits = 1, format = "f"))
 
 #nonzero_filename <- "~/work/unsafe-analysis-data/paper/rq01_impls_some.txt" 
 #nonzero90_filename <- "~/work/unsafe-analysis-data/paper/rq01_impls_some90.txt" 

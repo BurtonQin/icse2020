@@ -14,23 +14,33 @@ pub fn process_rq(crates: &Vec<(String,String)>, restricted_unsafe: bool) {
         let dir_name = ::get_full_analysis_dir();
         let file_ops = results::FileOps::new( crate_name, &version, &dir_name );
         if let Some (files) = file_ops.open_files( if restricted_unsafe {results::RESTRICTED_RTA_OPTIMISTIC_FILENAME} else {results::IMPLICIT_RTA_OPTIMISTIC_FILENAME}) {
+            let mut t = 0;
             for file in files.iter() {
-                process_file(file, &mut writer_opt, crate_name);
+                t += process_file(file, crate_name);
             }
+            writeln!(writer_opt, "{}\t{}"
+                     , crate_name
+                     , t
+            );
         } else {
             error!("Implicit unsafe optimistic files missing for crate {:?}", crate_name);
         }
         if let Some (files) = file_ops.open_files(if restricted_unsafe {results::RESTRICTED_RTA_PESSIMISTIC_FILENAME} else {results::IMPLICIT_RTA_PESSIMISTIC_FILENAME}) {
+            let mut t = 0;
             for file in files.iter() {
-                process_file(file, &mut writer_pes, crate_name);
+                t += process_file(file, crate_name);
             }
+            writeln!(writer_pes, "{}\t{}"
+                     , crate_name
+                     , t
+            );
         } else {
             error!("Implicit unsafe pesimistic files missing for crate {:?}", crate_name);
         }
     }
 }
 
-fn process_file( input_file: &File, writer: &mut BufWriter<File>, crate_name: &String) {
+fn process_file( input_file: &File, crate_name: &String) -> i32{
     let mut reader = BufReader::new(input_file);
     //read line by line
     let mut total = 0;
@@ -53,8 +63,5 @@ fn process_file( input_file: &File, writer: &mut BufWriter<File>, crate_name: &S
             }
         }
     }
-    writeln!(writer, "{}\t{}"
-             , crate_name
-             , total
-    );
+    total
 }
