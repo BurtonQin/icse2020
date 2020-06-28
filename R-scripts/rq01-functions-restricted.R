@@ -15,8 +15,8 @@ res90 <- read.table( file="~/unsafe_analysis/analysis-data/research-questions-90
                      , sep='\t'
                      , comment.char = "#"
                      , col.names=c("functions", "unsafe", "name"))
-eq <- sum(res$functions == 0)
+eq <- sum(res$functions == res$unsafe)
 print(eq/nrow(res))
 
-eq90 <- sum(res90$functions == 0)
+eq90 <- sum(res90$functions == res90$unsafe)
 print(eq90/nrow(res90))

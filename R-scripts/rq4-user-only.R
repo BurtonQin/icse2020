@@ -7,13 +7,13 @@ library(scales)
 
 #p <- pipe(paste0('sed \'s/"\'"/"`"/g\' "', "~/unsafe_analysis/analysis-data/research-questions/rq06", '"'))
 
-res <- read.table( file="~/unsafe_analysis/analysis-data/research-questions/rq04"
+res <- read.table( file="~/unsafe_analysis/analysis-data/research-questions/rq06"
                    , header=FALSE
                    , sep='\t'
                    , comment.char = "#"
                    , quote="\\"
                    , col.names=c("abi", "crate", "full_path", "name", "user"))
-res90 <- read.table( file="~/unsafe_analysis/analysis-data/research-questions-90-percent/rq04"
+res90 <- read.table( file="~/unsafe_analysis/analysis-data/research-questions-90-percent/rq06"
                      , header=FALSE
                      , sep='\t'
                      , comment.char = "#"
@@ -31,7 +31,7 @@ res90_aggregate <- count(res90, c("abi"))
 res90_aggregate$freq <- res90_aggregate$freq / nrow(res90) 
 res90_aggregate$type <- "Most Downloaded"
 
-exclude <- (subset(res_aggregate, freq <= 0.06))[,"abi"]
+exclude <- (subset(res_aggregate, freq < 0.001))[,"abi"]
 res_aggregate <- subset( res_aggregate, !is.element(abi,exclude) )
 res90_aggregate <- subset( res90_aggregate, !is.element(abi,exclude) )
 
@@ -58,8 +58,7 @@ ggplot(total_frame, aes(x = abi, y = freq, group = interaction(type,abi), fill =
   labs(x="Abstract Binary Interface", y="Percentage") +
   scale_fill_grey()
 
-ggsave("~/unsafe_analysis/v1/rq04_all.eps", plot = last_plot(), device = "eps")
-ggsave("~/unsafe_analysis/v1/rq04_all.png", plot = last_plot(), device = "png")
+ggsave("~/work/unsafe-analysis-data/paper/rq04_all.eps", plot = last_plot(), device = "eps")
 
 for (i in 1:nrow(total_frame)) {
   fn <- paste0("~/work/unsafe-analysis-data/paper/rq04_all_",

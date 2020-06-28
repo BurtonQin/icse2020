@@ -9,6 +9,8 @@ process_rq <- function( opt_file, pes_file, out_file, t ) {
 
   print(out_file)
   
+  cdf_filename <- paste("~/unsafe_analysis/camera-ready/", out_file)
+  
   res <- read.table( file=opt_file
                      , header=FALSE
                      , sep='\t'
@@ -65,8 +67,7 @@ process_rq <- function( opt_file, pes_file, out_file, t ) {
       , breaks = c(y1,y0, seq(first_y,1,0.1))
       ,labels = percent
     )
-  ggsave(paste("~/unsafe_analysis/v1/", out_file, ".pdf"), plot = last_plot(), device = "pdf")
-  ggsave(paste("~/unsafe_analysis/v1/", out_file, ".png"), plot = last_plot(), device = "png")
+  ggsave(cdf_filename, plot = last_plot(), device = "eps")
   
   options(digits = 4)
   print(t)
@@ -88,12 +89,12 @@ process_rq <- function( opt_file, pes_file, out_file, t ) {
 
 process_rq("~/unsafe_analysis/analysis-data/research-questions/rq02-opt",
            "~/unsafe_analysis/analysis-data/research-questions/rq02-pes",
-           "rq02_all_cdf",
+           "rq02_all_cdf.eps",
            "crates.io")
 
 process_rq("~/unsafe_analysis/analysis-data/research-questions-90-percent/rq02-opt",
            "~/unsafe_analysis/analysis-data/research-questions-90-percent/rq02-pes",
-           "rq02_md_cdf",
+           "rq02_md_cdf.eps",
            "most downloaded")
 
 #process_rq("~/unsafe_analysis/analysis-data/research-questions-servo/rq02-opt",
@@ -103,12 +104,12 @@ process_rq("~/unsafe_analysis/analysis-data/research-questions-90-percent/rq02-o
 
 process_rq("~/unsafe_analysis/analysis-data/research-questions/rq02-restricted-opt",
            "~/unsafe_analysis/analysis-data/research-questions/rq02-restricted-pes",
-           "rq02_all_restricted_cdf",
+           "rq02_all_restricted_cdf.eps",
            "crates.io")
 
 process_rq("~/unsafe_analysis/analysis-data/research-questions-90-percent/rq02-restricted-opt",
            "~/unsafe_analysis/analysis-data/research-questions-90-percent/rq02-restricted-pes",
-           "rq02_md_restricted_cdf",
+           "rq02_md_restricted_cdf.eps",
            "most downloaded")
 
 #process_rq("~/unsafe_analysis/analysis-data/research-questions-servo/rq02-restricted-opt",
